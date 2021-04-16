@@ -16,6 +16,7 @@ jobs:
       - name: Generate
         run: yarn generate:production
       - name: Deploy
-        run: yarn deploy:production
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
