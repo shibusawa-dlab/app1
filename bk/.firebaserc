@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "shibusawa-lab1"
+  },
+  "targets": {
+    "shibusawa-lab1": {
+      "hosting": {
+        "staging": [
+          "shibusawa-lab1-dev"
+        ],
+        "production": [
+          "shibusawa-lab1"
+        ]
+      }
+    }
+  }
+}

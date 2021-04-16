@@ -1,0 +1,16 @@
+<html>
+<head>
+  <script>
+    var pathName = window.location.pathname + window.location.search;
+    var repository = pathName.includes("github.io") ? "app1/" : ""
+    if(pathName.includes("/api/")){
+      var base = window.location.protocol + "//"+ window.location.host
+      location.href = base+"/"+repository+"snorql/?describe="+((base + pathName)) //encodeURI
+    } else {
+      var redirectPath = '/'+repository+'redirect';
+      //console.log(redirectPath + '?p=' + encodeURIComponent(pathName))
+      location.href = redirectPath + '?p=' + encodeURIComponent(pathName);
+    }
+  </script>
+</head>
+</html>
