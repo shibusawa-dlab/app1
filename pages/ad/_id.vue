@@ -187,7 +187,7 @@
           </template>
           <span>Mirador</span>
         </v-tooltip>
-        <v-tooltip bottom>
+        <v-tooltip bottom v-if="false">
           <template #activator="{ on }">
             <v-btn class="mr-5" :href="uri" icon v-on="on"
               ><v-img

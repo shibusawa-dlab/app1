@@ -628,10 +628,10 @@ export default {
   },
 
   async created() {
-    const item = this.item
+    //const item = this.item
 
-    this.getEntity('agential')
-    this.getEntity('spatial')
+    //this.getEntity('agential')
+    //this.getEntity('spatial')
     
     //this.getSimilarItems()
 

@@ -1,3 +1,4 @@
+
 <template>
   <div>
     <v-sheet color="grey lighten-2">
@@ -27,7 +28,7 @@
         <v-row align="center" class="mt-5">
           <v-col cols="12">
             <v-text-field
-              v-model="keywordStr"
+              v-model="keyword/*keywordStr*/"
               single-line
               background-color="grey lighten-3"
               class="px-4"
@@ -80,6 +81,10 @@ export default class PageCategory extends Vue {
     this.search()
   }
 
+  baseUrl: any = process.env.BASE_URL
+
+  keyword: string = ""
+
   settings: any = {
     agential: {
       type: 'type:Agent',
@@ -106,8 +111,29 @@ export default class PageCategory extends Vue {
   id: string = ''
 
   // state
-  mounted() {
-    this.search()
+  async mounted() {
+    
+    await this.createIndex()
+    
+    await this.search()
+  }
+
+  index: any = {}
+
+  async createIndex(){
+    let results: any = await axios.get(this.baseUrl+"/data/entity.json")
+    results = results.data
+
+    const id: any = this.$route.params.id
+
+    const keyword: any = this.$route.query.keyword || ""
+    this.keyword = keyword
+
+    const tmp = id === 'agential' ? id : 'spatial'
+
+    this.id = id
+    this.index = results[tmp]
+    //console.log({results})
   }
 
   get paginationLength() {
@@ -152,7 +178,66 @@ export default class PageCategory extends Vue {
     return results.data[0].c
   }
 
-  async search() {
+  search(){
+    const index = this.index
+
+    const id = this.id
+    
+    const tmp = id === 'agential' ? id : 'spatial'
+
+    this.loadingFlag = true
+
+    const from = Number(this.$route.query.from) || 0
+    this.currentPage = from / this.perPage + 1
+
+    const keyword = this.keyword //this.$route.query.keyword || ''
+
+    let list = []
+
+    for(let label in index){
+      const obj = index[label]
+
+      if(keyword !== "" && !label.includes(keyword)){
+        continue
+      }
+        
+
+      const entity: any = {
+        label: label + ' (' + obj.value.toLocaleString() + ')',
+        path: {
+          /*
+          name: 'search',
+          query: queryObj,
+          */
+          name: 'entity-entity-id',
+          params: {
+            entity: tmp,
+            id: label,
+          },
+        },
+      }
+
+      if (obj.image) {
+        entity.image = obj.image
+      } else {
+        entity.image = process.env.BASE_URL + '/img/icons/no-image.png'
+      }
+
+      const url = process.env.BASE_URL + '/snorql/?describe=' + obj.id
+      entity.url = url
+
+      list.push(entity)
+    }
+
+    this.total = list.length
+
+    list = list.splice(from, from + this.perPage)
+
+    this.people = list
+    this.loadingFlag = false
+  }
+
+  async search2() {
     const id: any = this.$route.params.id
     this.id = id
 
@@ -292,6 +377,45 @@ export default class PageCategory extends Vue {
   }
 
   updateQuery() {
+    const query: any = Object.assign({}, this.$route.query)
+
+    /*
+
+    let keywordStr = this.keywordStr
+
+    if (!keywordStr) {
+      keywordStr = ''
+    }
+
+    let keywords
+    if (keywordStr.startsWith('"') && keywordStr.endsWith('"')) {
+      keywords = [keywordStr]
+    } else {
+      keywords = keywordStr.split(' ')
+    }
+
+    query.keyword = keywords
+
+    */
+
+    query.keyword = this.keyword
+
+    delete query.from
+
+    this.$router.push(
+      this.localePath({
+        name: 'entity-id',
+        params: {
+          id: this.id,
+        },
+        query,
+      }),
+      () => {},
+      () => {}
+    )
+  }
+
+  updateQuery2() {
     const query: any = Object.assign({}, this.$route.query)
 
     let keywordStr = this.keywordStr

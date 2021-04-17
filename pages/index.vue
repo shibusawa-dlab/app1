@@ -185,16 +185,18 @@ export default class about extends Vue {
       */
       {
         label: 'TEI/XML',
-        href: this.github + '/tree/master/docs/tei',
+        href: this.github + '/tree/master/tei',
         description: '',
         icon: 'mdi-file',
       },
+      /*
       {
         label: this.$t('snorql'),
         href: this.baseUrl + '/snorql',
         description: '',
         icon: 'mdi-database',
       },
+      */
       /*
       {
         label: 'Search API',

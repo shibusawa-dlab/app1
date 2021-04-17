@@ -1,16 +1,154 @@
 <html>
-<head>
-  <script>
-    var pathName = window.location.pathname + window.location.search;
-    var repository = window.location.hostname.includes("github.io") ? "app1/" : ""
-    if(pathName.includes("/api/")){
-      var base = window.location.protocol + "//"+ window.location.host
-      location.href = base+"/"+repository+"snorql/?describe="+((base + pathName)) //encodeURI
-    } else {
-      var redirectPath = '/'+repository+'redirect';
-      //console.log(redirectPath + '?p=' + encodeURIComponent(pathName))
-      location.href = redirectPath + '?p=' + encodeURIComponent(pathName);
-    }
-  </script>
-</head>
+  <head>
+    <title>渋沢栄一ダイアリー</title>
+    <meta data-n-head="1" charset="utf-8" />
+    <meta data-n-head="1" http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      data-n-head="1"
+      name="viewport"
+      content="width=device-width,initial-scale=1"
+    />
+    <meta
+      data-n-head="1"
+      name="format-detection"
+      content="telephone=no, email=no, address=no"
+    />
+    <meta
+      data-n-head="1"
+      data-hid="description"
+      name="description"
+      content="『渋沢栄一伝記資料』別巻第1, 第2掲載の渋沢栄一の日記および集会日時通知表を公開しています。
+
+本サイトは、令和2年（2020年度）国立歴史民族博物館総合資料学奨励研究「TEIを用いた『渋沢栄一伝記資料』テキストデータの再構築と活用」の成果として構築されました。"
+    />
+    <meta
+      data-n-head="1"
+      data-hid="keywords"
+      name="keywords"
+      content="IIIF, TEI"
+    />
+    <meta
+      data-n-head="1"
+      data-hid="og:site_name"
+      property="og:site_name"
+      content="渋沢栄一ダイアリー"
+    />
+    <meta
+      data-n-head="1"
+      data-hid="og:type"
+      property="og:type"
+      content="website"
+    />
+    <meta
+      data-n-head="1"
+      data-hid="og:url"
+      property="og:url"
+      content="https://shibusawa-dlab.github.io/app1/"
+    />
+    <meta
+      data-n-head="1"
+      data-hid="og:title"
+      property="og:title"
+      content="渋沢栄一ダイアリー"
+    />
+    <meta
+      data-n-head="1"
+      data-hid="og:description"
+      property="og:description"
+      content="『渋沢栄一伝記資料』別巻第1, 第2掲載の渋沢栄一の日記および集会日時通知表を公開しています。
+
+本サイトは、令和2年（2020年度）国立歴史民族博物館総合資料学奨励研究「TEIを用いた『渋沢栄一伝記資料』テキストデータの再構築と活用」の成果として構築されました。"
+    />
+    <meta
+      data-n-head="1"
+      data-hid="og:image"
+      property="og:image"
+      content="https://shibusawa-dlab.github.io/app1/img/ogp/home.jpg"
+    />
+    <meta data-n-head="1" name="twitter:card" content="summary_large_image" />
+    <meta data-n-head="1" name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      data-n-head="1"
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta data-n-head="1" data-hid="charset" charset="utf-8" />
+    <meta
+      data-n-head="1"
+      data-hid="mobile-web-app-capable"
+      name="mobile-web-app-capable"
+      content="yes"
+    />
+    <meta
+      data-n-head="1"
+      data-hid="apple-mobile-web-app-title"
+      name="apple-mobile-web-app-title"
+      content="渋沢栄一ダイアリー"
+    />
+    <meta
+      data-n-head="1"
+      data-hid="theme-color"
+      name="theme-color"
+      content="#ffffff"
+    />
+    <link
+      data-n-head="1"
+      rel="icon"
+      sizes="16x16"
+      type="image/png"
+      href="https://shibusawa-dlab.github.io/app1/img/icons/favicon-16.png"
+    />
+    <link
+      data-n-head="1"
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+      href="https://shibusawa-dlab.github.io/app1/img/icons/favicon-32.png"
+    />
+    <link
+      data-n-head="1"
+      rel="icon"
+      sizes="48x48"
+      type="image/png"
+      href="https://shibusawa-dlab.github.io/app1/img/icons/favicon-48.png"
+    />
+    <link
+      data-n-head="1"
+      rel="icon"
+      sizes="72x72"
+      type="image/png"
+      href="https://shibusawa-dlab.github.io/app1/img/icons/favicon-72.png"
+    />
+    <link
+      data-n-head="1"
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://shibusawa-dlab.github.io/app1/img/icons/apple-touch-icon.png"
+    />
+    <link
+      data-n-head="1"
+      rel="stylesheet"
+      href="https://shibusawa-dlab.github.io/app1/assets/css/CETEIcean.css"
+    />
+    <link
+      data-n-head="1"
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script>
+      var pathName = window.location.pathname + window.location.search
+      var repository = window.location.hostname.includes('github.io')
+        ? 'app1/'
+        : ''
+      if (pathName.includes('/api/') && !pathName.includes('.json')) {
+        var base = window.location.protocol + '//' + window.location.host
+        //location.href = base+"/"+repository+"snorql/?describe="+((base + pathName)) //encodeURI
+        location.href = base + pathName + '.json' //encodeURI
+      } else {
+        var redirectPath = '/' + repository + 'redirect'
+        //console.log(redirectPath + '?p=' + encodeURIComponent(pathName))
+        location.href = redirectPath + '?p=' + encodeURIComponent(pathName)
+      }
+    </script>
+  </head>
 </html>
