@@ -145,6 +145,13 @@ function getColor2(data) {
   return color
 }
 
+function formatDate(dt) {
+  var y = dt.getFullYear();
+  var m = ('00' + (dt.getMonth()+1)).slice(-2);
+  var d = ('00' + dt.getDate()).slice(-2);
+  return (y + '-' + m + '-' + d);
+}
+
 export default {
   async asyncData({ payload, app, $axios }) {
     if (payload) {
@@ -205,8 +212,19 @@ export default {
         if (type !== 'month' && Object.keys(obj.time).length > 0) {
           for (const time in obj.time) {
             const obj2 = obj.time[time]
-            let date2 = new Date(`${obj.temporal}T${time}`)
-            date2 = `${obj.temporal} ${time}`
+
+            let date2 = `${obj.temporal} ${time}`
+
+            const h = Number(time.split(":")[0])
+
+            // 0時から4時までの場合
+            if(h >= 0 && h < 4){
+              var today = new Date(date2)
+              var tomorrow = new Date(today.getTime() + (24 * 60 * 60 * 1000));
+              date2 = formatDate(tomorrow)+" "+time
+            }
+
+            
             const event2 = {
               name: obj2.replace(/<[^>]*>?/gm, ''),
               start: date2,

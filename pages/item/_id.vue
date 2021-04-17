@@ -104,9 +104,7 @@
       <div class="text-center mt-10">
         <v-tooltip bottom>
           <template #activator="{ on }">
-            <v-btn icon class="mx-2" v-on="on">
-              <nuxt-link
-                :to="
+            <v-btn :to="
                   localePath({
                     name: 'viewer-id',
                     params: {
@@ -114,14 +112,22 @@
                     },
                     query: { id },
                   })
-                "
-              >
+                " icon class="mx-2" v-on="on">
+              <v-icon>mdi-text</v-icon>
+            </v-btn>
+          </template>
+          <span>{{$t("fulltext")}}</span>
+        </v-tooltip>
+        <v-tooltip bottom>
+          <template #activator="{ on }">
+            <v-btn icon class="mx-2" v-on="on">
+              <a @click="dwnData">
                 <v-img
                   contain
                   width="30px"
                   :src="baseUrl + '/img/icons/tei.png'"
                 />
-              </nuxt-link>
+              </a>
             </v-btn>
           </template>
           <span>TEI/XML</span>
@@ -838,7 +844,7 @@ export default {
       return Array.isArray(data) ? data : [data]
     },
 
-    /*
+    
     dwnData() {
       // 保存するJSONファイルの名前
       const fileName = this.item.objectID + '.xml'
@@ -858,7 +864,7 @@ export default {
       // ファイルを保存する。
       link.click()
     },
-    */
+    
 
     dwnJson() {
       // 保存するJSONファイルの名前
