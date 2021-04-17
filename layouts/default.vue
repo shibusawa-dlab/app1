@@ -156,7 +156,7 @@
             </v-list-item-content>
           </v-list-item>
 
-          <v-list-item link :href="pages + '/snorql'" target="_blank">
+          <v-list-item link :href="baseUrl + '/snorql'" target="_blank">
             <v-list-item-action>
               <v-icon>mdi-database</v-icon>
             </v-list-item-action>
