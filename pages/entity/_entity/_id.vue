@@ -212,7 +212,7 @@ export default {
 
   data() {
     return {
-      index: process.env.index,
+      configIndex: process.env.index,
       baseUrl: process.env.BASE_URL,
       github: process.env.github_pages,
       host: process.env.host,
@@ -225,6 +225,9 @@ export default {
       entities: [],
       uri: '',
       fields: { agential: [], spatial: [] },
+
+      map: {},
+      index: {}
     }
   },
 
@@ -355,53 +358,81 @@ export default {
   },
 
   async created() {
-    const map = {
-      spatial: 'place',
-      temporal: 'time',
-      agential: 'chname',
-    }
 
-    let id = this.id
-    if (id === '兜町') {
-      id = '日本橋兜町'
-    }
+    let results = await axios.get(this.baseUrl+"/data/entity.json")
+    results = results.data
 
-    const uri = this.github + '/api/' + map[this.field] + '/' + id
-    this.uri = uri
+    this.map = results
 
-    const query = `
-      PREFIX schema: <http://schema.org/>
-      PREFIX type: <https://jpsearch.go.jp/term/type/>
-      PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-      PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-      PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-      PREFIX owl: <http://www.w3.org/2002/07/owl#>
-      PREFIX dct: <http://purl.org/dc/terms/>
-      PREFIX hpdb: <https://w3id.org/hpdb/api/>
-      PREFIX sh: <http://www.w3.org/ns/shacl#>
-      SELECT DISTINCT * WHERE {
-        ?s rdfs:label ?label .
-        filter (?s = <${uri}>)
-        optional { ?s schema:description ?description }
-        optional { ?s schema:image ?image }
-      }
-      LIMIT 1
-    `
+    const id = this.field
+    const tmp = id === 'agential' ? id : 'spatial'
 
-    let url = process.env.endpoint + '?query='
-
-    url = url + encodeURIComponent(query) + '&output=json'
-
-    const res = await axios.get(url)
-    const results = res.data
-    this.entities = results
+    this.index = results[tmp]
+    
+    this.getInformation()
 
     this.getRelatedItems()
     this.getRelatedItems('agential')
   },
 
   methods: {
+    async getInformation(){
+
+      const map = {
+        spatial: 'place',
+        temporal: 'time',
+        agential: 'chname',
+      }
+
+      let id = this.id
+      if (id === '兜町') {
+        id = '日本橋兜町'
+      }
+
+      const uri = this.baseUrl + '/api/' + map[this.field] + '/' + id
+      this.uri = uri
+
+      /*
+      const query = `
+        PREFIX schema: <http://schema.org/>
+        PREFIX type: <https://jpsearch.go.jp/term/type/>
+        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX owl: <http://www.w3.org/2002/07/owl#>
+        PREFIX dct: <http://purl.org/dc/terms/>
+        PREFIX hpdb: <https://w3id.org/hpdb/api/>
+        PREFIX sh: <http://www.w3.org/ns/shacl#>
+        SELECT DISTINCT * WHERE {
+          ?s rdfs:label ?label .
+          filter (?s = <${uri}>)
+          optional { ?s schema:description ?description }
+          optional { ?s schema:image ?image }
+        }
+        LIMIT 1
+      `
+
+      let url = process.env.endpoint + '?query='
+
+      url = url + encodeURIComponent(query) + '&output=json'
+
+      const res = await axios.get(url)
+      const results = res.data
+      this.entities = results
+      */
+
+      const index = this.index
+
+      const entities = []
+
+      if(index[id]){
+        entities.push(index[id])
+      }
+
+      this.entities = entities
+
+    },
     async getRelatedItems(field = 'spatial') {
       const id = this.id
 
@@ -416,6 +447,10 @@ export default {
         maxFacetHits: 10,
       })
       */
+
+      const index = this.map[field]
+
+      console.log({index})
 
       let response = await axios.get(process.env.BASE_URL + "/data/docs.json");
       response = response.data
@@ -470,7 +505,7 @@ export default {
       for (let i = 0; i < hits.length; i++) {
         const facet = hits[i]
 
-        const image = [field === 'spatial' ? 'mdi-map' : 'mdi-account']
+        let image = [field === 'spatial' ? 'mdi-map' : 'mdi-account']
 
         const value = facet.value
 
@@ -483,6 +518,11 @@ export default {
           name: 'entity-entity-id',
           params: { entity: field, id: value },
         })
+
+        // indexの反映
+        if(index[value] && index[value].image){
+          image = [index[value].image]
+        }
 
         // 初期データ
         moreLikeThisData0.push({
@@ -501,6 +541,8 @@ export default {
       }
 
       this.fields[field] = moreLikeThisData0
+
+      /*
 
       // 以上、初期データ
 
@@ -584,9 +626,11 @@ export default {
       }
 
       this.fields[field] = moreLikeThisData0
+
+      */
     },
     getQuery(label, value) {
-      const field = `${this.index}[refinementList][${label}][0]`
+      const field = `${this.configIndex}[refinementList][${label}][0]`
       const query = {}
       query[field] = value
       return query

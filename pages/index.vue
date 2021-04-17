@@ -189,12 +189,14 @@ export default class about extends Vue {
         description: '',
         icon: 'mdi-file',
       },
+      /*
       {
         label: this.$t('snorql'),
         href: this.baseUrl + '/snorql',
         description: '',
         icon: 'mdi-database',
       },
+      */
       /*
       {
         label: 'Search API',
