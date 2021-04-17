@@ -389,7 +389,7 @@ export default {
         id = '日本橋兜町'
       }
 
-      const uri = this.baseUrl + '/api/' + map[this.field] + '/' + id
+      const uri = "https://www.kanzaki.com/works/2014/pub/ld-browser?u=" + encodeURIComponent(this.baseUrl + '/api/' + map[this.field] + '/' + id) + "&t=jsonld"
       this.uri = uri
 
       /*
