@@ -20,7 +20,7 @@
       </p>
 
       <div class="text-center my-5">
-        <v-tooltip bottom>
+        <v-tooltip bottom v-if="rdf">
           <template #activator="{ on }">
             <v-btn class="mr-5" :href="uri" icon v-on="on"
               ><v-img
@@ -33,7 +33,7 @@
         </v-tooltip>
         <ResultOption
           :item="{
-            url: baseUrl + '/snorql?describe=' + uri,
+            url,
             label: id,
           }"
         />
@@ -227,7 +227,9 @@ export default {
       fields: { agential: [], spatial: [] },
 
       map: {},
-      index: {}
+      index: {},
+
+      rdf: false
     }
   },
 
@@ -389,7 +391,7 @@ export default {
         id = '日本橋兜町'
       }
 
-      const uri = "https://www.kanzaki.com/works/2014/pub/ld-browser?u=" + encodeURIComponent(this.baseUrl + '/api/' + map[this.field] + '/' + id) + "&t=jsonld"
+      const uri = "https://www.kanzaki.com/works/2014/pub/ld-browser?u=" + encodeURIComponent(this.baseUrl + '/api/' + map[this.field] + '/' + id) + ".json&t=jsonld"
       this.uri = uri
 
       /*
@@ -427,6 +429,7 @@ export default {
       const entities = []
 
       if(index[id]){
+        this.rdf = true
         entities.push(index[id])
       }
 
