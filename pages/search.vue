@@ -22,9 +22,15 @@
           /> -->
 
           <v-text-field
+          background-color="grey lighten-3"
+          filled
+              rounded
             v-model="q"
+            dense
             :placeholder="$t('add_a_search_term')"
             append-icon="mdi-magnify"
+            clearable
+              clear-icon="mdi-close-circle"
             @click:append="search(q, $event)"
             @keydown.enter="search(q, $event)"
           ></v-text-field>
@@ -294,7 +300,7 @@ export default {
     docs = docs.data
     this.docs = docs
 
-    let index = await axios.get(process.env.BASE_URL + '/data/index_test.json')
+    let index = await axios.get(process.env.BASE_URL + '/data/index.json')
     index = index.data
     this.index = index
 
@@ -488,7 +494,7 @@ export default {
     search() {
       const query = JSON.parse(JSON.stringify(this.$route.query))
 
-      let q = this.q
+      let q = this.q || ""
       q = q.trim()
 
       if (q === '') {

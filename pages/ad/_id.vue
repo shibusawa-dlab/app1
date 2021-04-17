@@ -103,7 +103,7 @@
           allowfullscreen="allowfullscreen"
           frameborder="0"
           height="600px"
-          :src="`https://universalviewer.io/examples/uv/uv.html#?manifest=${item.manifest}`"
+          :src="baseUrl + `/mirador/?manifest=${item.manifest}&bottomPanel=false`"
           width="100%"
         ></iframe>
       </div>
@@ -176,16 +176,16 @@
             <v-btn
               class="mr-5"
               :href="
-                'https://universalviewer.io/examples/uv/uv.html#?manifest=' +
+                baseUrl + '/mirador/?manifest=' +
                 item.manifest
               "
               icon
               target="_blank"
               v-on="on"
-              ><v-img contain width="30px" :src="baseUrl + '/img/icons/uv.jpg'"
+              ><v-img contain width="30px" :src="baseUrl + '/img/icons/mirador3.svg'"
             /></v-btn>
           </template>
-          <span>Universal Viewer</span>
+          <span>Mirador</span>
         </v-tooltip>
         <v-tooltip bottom>
           <template #activator="{ on }">
@@ -246,7 +246,7 @@ export default class PageCategory extends Vue {
     this.id = id
 
     if(this.ops.includes(id)){
-          this.$router.push(
+          this.$router.replace(
         this.localePath({
           name: 'ad-id',
           params: {

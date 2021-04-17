@@ -286,6 +286,13 @@
                       <v-icon class="mr-2">mdi-file</v-icon> つながりを表すアイテム
                     </h4>
 
+                    <div v-if="!documents[item.key]" class="text-center py-10">
+                      <v-progress-circular
+            indeterminate
+            color="primary"
+          ></v-progress-circular>
+                    </div>
+
                     <div
                       v-for="(item2, key2) in documents[item.key]"
                       :key="key2"
@@ -373,8 +380,6 @@
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
-import algoliasearch from 'algoliasearch'
-import config from '@/plugins/algolia.config.js'
 import axios from 'axios'
 import VueScrollTo from 'vue-scrollto'
 import ResultOption from '~/components/display/ResultOption.vue'
@@ -388,6 +393,8 @@ const { Network } = require('vue-vis-network')
 })
 export default class about extends Vue {
   baseUrl: any = process.env.BASE_URL
+
+  index: any = process.env.index
 
   tab: number = 0
 
@@ -542,16 +549,7 @@ export default class about extends Vue {
     this.nodesMap = nodesMap
     this.edgesMap = edgesMap
 
-    /// ///
-
-    await this.getItems()
-
-    /// ///
-
     const network: any = this.$refs.network
-    //if(network){
-    network.selectNodes([this.$route.params.id])  
-    //}
     
 
     /// //
@@ -571,17 +569,18 @@ export default class about extends Vue {
     })
 
     this.counts = arr
+
+    /// ///
+
+    await this.getRelatedItems()
   }
 
-  async getItems(){
-
+  async getRelatedItems(){
     const id = this.$route.params.id
 
     const field = 'agential'
 
-    let response: any = await axios.get(process.env.BASE_URL + "/data/index.json_with_images.json");
-
-    
+    let response: any = await axios.get(process.env.BASE_URL + "/data/docs.json");    
 
     const hits: any[] = []
 
@@ -591,7 +590,9 @@ export default class about extends Vue {
 
     response = response.data
 
-    for(const e of response){
+    for(const key in response){
+      const e = response[key]
+      //console.log(e)
       if(e[field] && e[field].includes(id)){
         results.hits.push(e)
       }
@@ -599,7 +600,7 @@ export default class about extends Vue {
 
     /*
     const client = algoliasearch(config.appId, config.apiKey)
-    const index = client.initIndex(config.index) // _temporal_asc
+    const index = client.initIndex(this.index) // _temporal_asc
 
     const results = await index.search('', {
       filters: field + ':' + id,
@@ -607,9 +608,12 @@ export default class about extends Vue {
     })
     */
 
+    
+
     const documents: any = {}
 
     for (let i = 0; i < results.hits.length; i++) {
+      
       const obj: any = results.hits[i]
       const agentials = obj.agential
       for (let j = 0; j < agentials.length; j++) {
@@ -820,7 +824,7 @@ export default class about extends Vue {
   getQuery() {
     const query: any = {}
     query[
-      `${config.index}[refinementList][agential][0]`
+      `${this.index}[refinementList][agential][0]`
     ] = this.$route.params.id
     return query
   }

@@ -119,8 +119,6 @@
 </template>
 
 <script>
-import * as algoliasearch from 'algoliasearch'
-import config from '@/plugins/algolia.config.js'
 
 // NUM=値 LEN=桁数
 function zfill(NUM, LEN) {
@@ -173,13 +171,14 @@ export default {
 
       const query = es[0] + '-' + es[1]
 
-      const response = await $axios.$get(process.env.BASE_URL + "/data/index.json_with_images.json");
+      const response = await $axios.$get(process.env.BASE_URL + "/data/docs.json");
 
       const results = {
         hits: []
       }
 
-      for(const e of response){
+      for(const key in response){
+        const e = response[key]
         if(e.yearAndMonth === query){
           results.hits.push(e)
         }

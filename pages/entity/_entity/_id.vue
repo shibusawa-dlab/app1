@@ -158,8 +158,6 @@
 </template>
 
 <script>
-import * as algoliasearch from 'algoliasearch'
-import config from '@/plugins/algolia.config.js'
 import { GChart } from 'vue-google-charts'
 import axios from 'axios'
 import ResultOption from '~/components/display/ResultOption.vue'
@@ -178,12 +176,7 @@ export default {
       const id = app.context.params.id
       const field = app.context.params.entity
 
-      /*
-      const client = algoliasearch(config.appId, config.apiKey)
-      const index = client.initIndex(config.index) // _temporal_asc
-      */
-
-      const response = await $axios.$get(process.env.BASE_URL + "/data/index.json_with_images.json");
+      const response = await $axios.$get(process.env.BASE_URL + "/data/docs.json");
 
       const results = {
         hits: []
@@ -191,7 +184,8 @@ export default {
 
       const facetsMap = {}
 
-      for(const e of response){
+      for(const key in response){
+        const e = response[key]
         if(e[field] && e[field].includes(id)){
           const year = e.year
 
@@ -218,6 +212,7 @@ export default {
 
   data() {
     return {
+      index: process.env.index,
       baseUrl: process.env.BASE_URL,
       github: process.env.github_pages,
       host: process.env.host,
@@ -414,7 +409,7 @@ export default {
 
       /*
       const client = algoliasearch(config.appId, config.apiKey)
-      const index = client.initIndex(config.index) // _temporal_asc
+      const index = client.initIndex(this.index) // _temporal_asc
 
       const facets = await index.searchForFacetValues(field, '', {
         filters: this.field + ':' + id, // 重要。条件のほうはentityに基づく
@@ -422,12 +417,13 @@ export default {
       })
       */
 
-      let response = await axios.get(process.env.BASE_URL + "/data/index.json_with_images.json");
+      let response = await axios.get(process.env.BASE_URL + "/data/docs.json");
       response = response.data
 
       const facetsMap = {}
 
-      for(const e of response){
+      for(const key in response){
+        const e = response[key]
         if(e[this.field] && e[this.field].includes(id)){
           const values = e[field]
 
@@ -590,7 +586,7 @@ export default {
       this.fields[field] = moreLikeThisData0
     },
     getQuery(label, value) {
-      const field = `${config.index}[refinementList][${label}][0]`
+      const field = `${this.index}[refinementList][${label}][0]`
       const query = {}
       query[field] = value
       return query

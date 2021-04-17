@@ -51,7 +51,22 @@
       <v-container fluid>
         <v-row class="mt-2">
           <v-col cols="12" :sm="manifest ? 6 : 12">
+            <v-card              
+              id="container"
+              flat
+              outlined
+              class="scroll vertical"
+              :style="`height: ${height * 0.85}px; width: ${
+                manifest && $vuetify.breakpoint.name !='xs' ? width / 2 : width
+              }px;`"
+            >
+              <div class="pa-4 px-5">
+                <div id="tei" />
+              </div>
+            </v-card>
+
             <v-card
+              v-if="false"
               id="container"
               flat
               outlined

@@ -16,7 +16,7 @@
       </h2>
 
       <template v-if="loadingFlag">
-        <div class="text-center my-10">
+        <div class="text-center my-5">
           <v-progress-circular
             indeterminate
             color="primary"
@@ -34,7 +34,6 @@
               filled
               rounded
               dense
-              hide-details
               :label="$t('add_a_search_term')"
               append-icon="mdi-magnify"
               clearable
@@ -45,7 +44,7 @@
           </v-col>
         </v-row>
 
-        <div class="text-center my-10">
+        <div class="text-center mt-5 mb-10">
           <v-pagination
             v-model="currentPage"
             :length="paginationLength"
@@ -56,7 +55,7 @@
 
         <grid :col="4" :list="people"></grid>
 
-        <div class="text-center my-10">
+        <div class="text-center my-5">
           <v-pagination
             v-model="currentPage"
             :length="paginationLength"
@@ -250,12 +249,12 @@ export default class PageCategory extends Vue {
   }
 
   get title() {
-    return this.settings[this.$route.params.id].label
+    return this.$t(this.settings[this.$route.params.id].label)
   }
 
   head() {
     return {
-      title: this.$t('category') + ' : ' + this.$t(this.title),
+      title: this.$t('category') + ' : ' + this.title,
       meta: [
         {
           hid: 'description',

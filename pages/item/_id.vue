@@ -66,14 +66,14 @@
       -->
     </v-container>
 
-    <v-sheet color="grey lighten-3 px-5">
+    <v-sheet color="grey lighten-3 pa-5">
       <v-row>
         <v-col cols="12" sm="6">
           <v-card
             flat
             outlined
-            class="my-5 scroll vertical"
-            :style="`height: ${/*height * 0.85*/ 600}px; width: ${width / 2}px`"
+            class="scroll vertical"
+            :style="`height: ${/*height * 0.85*/ 600}px; width: ${$vuetify.breakpoint.name !='xs' ? width / 2 : width}px`"
           >
             <div class="pa-4 px-5">
               <span v-html="$utils.xml2html(item.xml, true)"> </span>
@@ -89,8 +89,7 @@
         </v-col>
         <v-col cols="12" sm="6">
           <iframe
-            class="my-5"
-            :src="`${baseUrl}/curation/?manifest=${item.manifest}&canvas=${item.canvas}`"
+            :src="`${baseUrl}/mirador/?manifest=${item.manifest}&canvas=${item.canvas}&bottomPanel=false`"
             width="100%"
             :style="`height: ${/*height * 0.85*/ 600}px;`"
             allowfullscreen="allowfullscreen"
@@ -146,7 +145,7 @@
             <v-btn
               class="mx-2"
               :href="
-                'http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=' +
+                baseUrl + '/mirador/?manifest=' +
                 item.manifest +
                 '&canvas=' +
                 item.canvas
@@ -157,16 +156,16 @@
               ><v-img
                 contain
                 width="30px"
-                :src="baseUrl + '/img/icons/icp-logo.svg'"
+                :src="baseUrl + '/img/icons/mirador3.svg'"
             /></v-btn>
           </template>
-          <span>IIIF Curation Viewer</span>
+          <span>Mirador</span>
         </v-tooltip>
 
-        <v-tooltip bottom v-if="false">
+        <v-tooltip bottom>
           <template #activator="{ on }">
             <v-btn icon class="mx-2" v-on="on">
-              <a :href="jsonUrl" target="_blank">
+              <a @click="dwnJson">
                 <v-img
                   contain
                   width="30px"
@@ -442,8 +441,6 @@
 </template>
 
 <script>
-import * as algoliasearch from 'algoliasearch'
-import config from '@/plugins/algolia.config.js'
 import axios from 'axios'
 import ResultOption from '~/components/display/ResultOption.vue'
 import HorizontalItems from '~/components/display/HorizontalItems.vue'
@@ -465,16 +462,9 @@ export default {
       const item = await index.getObject(id)
       */
 
-      const response = await $axios.$get(process.env.BASE_URL + "/data/index.json_with_images.json");
+      const response = await $axios.$get(process.env.BASE_URL + "/data/docs.json");
 
-      let item = {}
-
-      for(const e of response){
-        if(e.objectID === id){
-          item = e
-          break
-        }
-      }
+      let item = response[id]
 
       return { item }
     }
@@ -482,6 +472,7 @@ export default {
 
   data() {
     return {
+      index: process.env.index,
       baseUrl: process.env.BASE_URL,
       github: process.env.github_pages,
       moreLikeThisData: [],
@@ -533,7 +524,7 @@ export default {
       const date = dates[keys[keys.length - 1]]
       const es = date.split(' > ')
       const data = []
-      const index = config.index
+      const index = this.index
       if (es.length >= 1) {
         const query = {}
         //query[`${index}[hierarchicalMenu][date.lvl0][0]`] = es[0]
@@ -577,7 +568,7 @@ export default {
       const keys = Object.keys(values)
       const value = values[keys[keys.length - 1]]
       const es = value.split(' > ')
-      const index = config.index
+      const index = this.index
       const query1 = {}
       //query1[`${index}[hierarchicalMenu][category.lvl0][0]`] = es[0]
       query1[`${index}[refinementList][category_lvl0][0]`] = es[0]
@@ -609,9 +600,6 @@ export default {
     },
     url() {
       return this.baseUrl + this.$route.path
-    },
-    jsonUrl() {
-      return `https://${config.appId}-dsn.algolia.net/1/indexes/${config.index}/${this.item.objectID}?X-Algolia-API-Key=${config.apiKey}&X-Algolia-Application-Id=${config.appId}`
     },
     items() {
       return [
@@ -645,6 +633,7 @@ export default {
   },
 
   methods: {
+    /*
     async getSimilarItems(){
 
       const item = this.item
@@ -692,6 +681,7 @@ export default {
       this.moreLikeThisData = arr
 
     },
+    */
     async getEntity(field = 'spatial') {
       const values = this.item[field]
 
@@ -828,7 +818,7 @@ export default {
       }
     },
     getQuery(label, value) {
-      const index = config.index
+      const index = this.index
       const field = `${index}[refinementList][${label}][0]`
       /*
       const query = {
@@ -848,6 +838,7 @@ export default {
       return Array.isArray(data) ? data : [data]
     },
 
+    /*
     dwnData() {
       // 保存するJSONファイルの名前
       const fileName = this.item.objectID + '.xml'
@@ -860,6 +851,27 @@ export default {
 
       // リンク先にJSON形式の文字列データを置いておく。
       link.href = 'data:text/xml;charset=utf-8,' + encodeURIComponent(data)
+
+      // 保存するJSONファイルの名前をリンクに設定する。
+      link.download = fileName
+
+      // ファイルを保存する。
+      link.click()
+    },
+    */
+
+    dwnJson() {
+      // 保存するJSONファイルの名前
+      const fileName = this.item.objectID + '.json'
+
+      // データをJSON形式の文字列に変換する。
+      const data = JSON.stringify(this.item, null, 2)
+
+      // HTMLのリンク要素を生成する。
+      const link = document.createElement('a')
+
+      // リンク先にJSON形式の文字列データを置いておく。
+      link.href = 'data:application/json;charset=utf-8,' + encodeURIComponent(data)
 
       // 保存するJSONファイルの名前をリンクに設定する。
       link.download = fileName

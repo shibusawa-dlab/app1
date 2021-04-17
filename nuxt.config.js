@@ -7,6 +7,7 @@ env.github = 'https://github.com/shibusawa-dlab/lab1'
 env.github_pages = 'https://shibusawa-dlab.github.io/lab1'
 env.host = env.BASE_URL
 env.endpoint = 'https://dydra.com/ut-digital-archives/shibusawa/sparql'
+env.index = "main"
 
 //const index = JSON.parse(fs.readFileSync('static/data/index.json_with_images.json'))
 //env.index = index
@@ -171,8 +172,6 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
-    { src: '@/plugins/init-client.js', ssr: false },
-    '@/plugins/algolia.config.js',
     '@/plugins/utils.ts',
     { src: '@/plugins/gtag.js', ssr: false },
     { src: '~plugins/leaflet.js', ssr: false },

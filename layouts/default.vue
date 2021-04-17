@@ -226,35 +226,7 @@
           </v-list>
         </v-menu>
 
-        <div v-if="false">
-          <template v-if="isSignedIn">
-            <v-menu left bottom>
-              <template #activator="{ on }">
-                <v-btn icon v-on="on">
-                  <v-avatar size="36">
-                    <img :src="userPic" :alt="userName" />
-                  </v-avatar>
-                </v-btn>
-              </template>
-
-              <v-list>
-                <!--
-              <v-list-item @click="dialog = !dialog">
-                <v-list-item-title>プロフィール編集</v-list-item-title>
-              </v-list-item>
-              -->
-                <v-list-item @click="signOut">
-                  <v-list-item-title>ログアウト</v-list-item-title>
-                </v-list-item>
-              </v-list>
-            </v-menu>
-          </template>
-          <template v-else>
-            <v-btn color="error" @click="dialog4login = !dialog4login">{{
-              $t('login')
-            }}</v-btn>
-          </template>
-        </div>
+        
       </v-app-bar>
     </div>
 
@@ -279,48 +251,6 @@
       </v-container>
     </v-footer>
 
-    <v-dialog v-model="dialog" width="500">
-      <v-card>
-        <v-card-title class="headline grey lighten-2" primary-title
-          >プロフィールを編集</v-card-title
-        >
-
-        <v-card-text class="mt-5"
-          >Lorem ipsum dolor sit amet, consectetur a</v-card-text
-        >
-
-        <v-card-actions>
-          <v-btn @click="dialog = false">キャンセル</v-btn>
-          <v-spacer></v-spacer>
-          <v-btn color="primary">更新</v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-dialog>
-
-    <v-dialog v-model="dialog4login" width="500">
-      <v-card>
-        <v-card-title class="headline grey lighten-2" primary-title>{{
-          $t('login')
-        }}</v-card-title>
-
-        <v-card-text class="mt-5">
-          ログインにはGoogle<!--またはTwitter-->アカウントが必要です。
-          <div class="text-center mb-5">
-            <v-btn class="error mt-5" @click="signInWithGoogle">
-              <v-icon class="mr-2">mdi mdi-google</v-icon
-              >{{ $t('login_with_google') }}
-            </v-btn>
-            <!--
-            <v-btn class="info mt-5" @click="signInWithTwitter">
-              <v-icon class="mr-2">mdi mdi-twitter</v-icon
-              >Twitterアカウントでログイン
-            </v-btn>
-            -->
-          </div>
-        </v-card-text>
-      </v-card>
-    </v-dialog>
-
     <v-btn
       v-show="fab"
       v-scroll="onScroll"
@@ -339,7 +269,6 @@
 </template>
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
-import firebase from '../plugins/firebase'
 
 @Component({
   components: {},
@@ -353,23 +282,6 @@ export default class search extends Vue {
   github: string = process.env.github || ''
   pages: string = process.env.github_pages || ''
 
-  userName: any = null
-  userPic: any = null
-  dialog: boolean = false
-  dialog4login: boolean = false
-
-  get isSignedIn(): boolean {
-    return this.$store.getters.getIsSignedIn
-  }
-
-  set isSignedIn(value) {
-    this.$store.commit('setSignedIn', value)
-  }
-
-  created() {
-    this.onAuthStateChanged()
-  }
-
   onScroll(e: any): void {
     if (typeof window === 'undefined') return
     const top = window.pageYOffset || e.target.scrollTop || 0
@@ -379,23 +291,6 @@ export default class search extends Vue {
   toTop(): void {
     // @ts-ignore
     this.$vuetify.goTo(0)
-  }
-
-  signInWithGoogle() {
-    this.$store.dispatch('login')
-    this.dialog4login = !this.dialog4login
-  }
-
-  onAuthStateChanged() {
-    firebase.auth().onAuthStateChanged((user: any) => {
-      this.userName = user ? user.displayName : null
-      this.userPic = user ? user.photoURL : null
-      this.isSignedIn = !!user
-    })
-  }
-
-  async signOut() {
-    await firebase.auth().signOut()
   }
 }
 </script>
@@ -417,5 +312,8 @@ a {
 }
 tbody tr:nth-of-type(odd) {
   background-color: rgba(0, 0, 0, 0.05);
+}
+* {
+  text-transform: none;
 }
 </style>
