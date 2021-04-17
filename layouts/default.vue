@@ -144,7 +144,7 @@
           <v-list-item
             link
             target="_blank"
-            :href="github + '/tree/master/docs/tei'"
+            :href="github + '/tree/master/tei'"
           >
             <v-list-item-action>
               <v-icon>mdi-file</v-icon>
