@@ -64,21 +64,6 @@
                 <div id="tei" />
               </div>
             </v-card>
-
-            <v-card
-              v-if="false"
-              id="container"
-              flat
-              outlined
-              class="scroll vertical"
-              :style="`height: ${height * 0.85}px; width: ${
-                manifest ? width / 2 : width
-              }px;`"
-            >
-              <div class="pa-4 px-5">
-                <div id="tei" />
-              </div>
-            </v-card>
           </v-col>
 
           <v-col cols="12" :sm="manifest ? 6 : 12">
@@ -181,8 +166,9 @@ export default {
   mounted() {
     this.loading = true
 
-    document.addEventListener('wheel', (e) => {
-      document.getElementById('tei').scrollLeft += e.deltaY;
+    document.getElementById('container').addEventListener('wheel', (e) => {
+      e.preventDefault();
+      document.getElementById('container').scrollLeft += e.deltaY;
     })
 
     window.addEventListener('resize', this.handleResize)
