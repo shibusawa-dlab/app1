@@ -14,7 +14,7 @@ jobs:
       - name: Install Dependencies
         run: yarn install
       - name: Generate
-        run: yarn generate:production
+        run: yarn generate:production2
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
