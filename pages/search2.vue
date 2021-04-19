@@ -51,11 +51,14 @@
 
           <p>初回はインデックスファイルのダウンロードに時間を要します。</p>
           <p>2回目以降はキャッシュにより待ち時間が改善します。</p>
+
+          ccc
         </div>
       </template>
 
       <template v-else>
-        <div v-if="filters.length > 0" v-if="false">
+        <div v-if="false">
+          v-if="filters.length > 0" 
           <v-chip
             v-for="(filter, key) in filters"
             :key="key"
