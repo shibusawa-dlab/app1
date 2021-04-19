@@ -55,7 +55,7 @@
       </template>
 
       <template v-else>
-        <div v-if="filters.length > 0">
+        <div v-if="filters.length > 0" v-if="false">
           <v-chip
             v-for="(filter, key) in filters"
             :key="key"
