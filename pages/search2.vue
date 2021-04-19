@@ -303,7 +303,7 @@ export default {
 
   async mounted() {
     //初期読み込み
-    let docs = await axios.get(process.env.BASE_URL + '/data/docs.json')
+    let docs = await axios.get(process.env.BASE_URL + '/data/list.json')
     docs = docs.data
     this.docs = docs
 
@@ -542,6 +542,9 @@ export default {
       for (const id of ids_) {
         items.push(this.docs[id])
       }
+
+      console.log({items})
+
       this.items = items
     },
 
