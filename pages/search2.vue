@@ -9,7 +9,7 @@
         </v-breadcrumbs>
       </v-container>
     </v-sheet>
-    <v-container class="my-5" v-if="false">
+    <v-container class="my-5">
       <h2>{{ $t('fulltext_search') }}</h2>
 
       <nuxt-link :to="localePath({name : 'item-id', params: {id: 'DKB10001m-1'}})">
@@ -93,7 +93,9 @@
           ></v-pagination>
         </div>
 
-        <v-row class="mt-5">
+        aaa
+
+        <v-row class="mt-5" v-if="false">
           <v-col cols="12" sm="8" order-sm="12">
             <v-row>
               <v-col v-for="item in items" :key="item.objectID" cols="12">
@@ -203,6 +205,8 @@
             </v-expansion-panels>
           </v-col>
         </v-row>
+
+        bbb
 
         <div class="text-center mt-10">
           <v-pagination
