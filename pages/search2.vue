@@ -337,7 +337,7 @@ export default {
     */
 
     //初期検索の場合
-    //this.list()
+    this.list()
 
     this.loading = false
   },
@@ -537,6 +537,8 @@ export default {
 
       const ids = this.ids
 
+      /*
+
       const ids_ = ids.slice((page - 1) * this.perPage, page * this.perPage)
       const items = []
       for (const id of ids_) {
@@ -544,6 +546,10 @@ export default {
       }
 
       console.log({items})
+
+      */
+
+      const items = []
 
       this.items = items
     },
