@@ -311,8 +311,6 @@ export default {
     index = index.data
     this.index = index
 
-    /*
-
     let facets = await axios.get(process.env.BASE_URL + '/data/facets.json')
     facets = facets.data
     this.facets = facets
@@ -328,12 +326,18 @@ export default {
     const q = query['main[query]'] || ''
     this.q = q
 
+    /*
+
+    
+
     this.filter()
+
+    
+
+    */
 
     //初期検索の場合
     this.list()
-
-    */
 
     this.loading = false
   },
