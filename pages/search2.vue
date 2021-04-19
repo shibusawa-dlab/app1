@@ -41,6 +41,8 @@
         </v-col>
       </v-row>
 
+      {{test}}
+
       <template v-if="loading">
         <div class="text-center">
           <v-progress-circular
@@ -55,6 +57,8 @@
           ccc
         </div>
       </template>
+
+      
 
       <template v-else>
         <div v-if="false">
@@ -230,6 +234,7 @@ var _ = require('lodash')
 export default {
   data() {
     return {
+      test: "abc",
       page: 1,
       perPage: 24,
       total: 0,
@@ -370,7 +375,10 @@ export default {
         })
       )
     },
-    filter() {
+    filter(){
+      this.test = "aaa"
+    },
+    filter2() {
       const query = JSON.parse(JSON.stringify(this.$route.query))
 
       const q = query['main[query]'] || ''
