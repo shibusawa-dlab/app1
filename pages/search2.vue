@@ -12,6 +12,10 @@
     <v-container class="my-5">
       <h2>{{ $t('fulltext_search') }}</h2>
 
+      <nuxt-link :to="localePath({name : 'item-id', params: {id: 'DKB10001m-1'}})">
+        aaa
+      </nuxt-link>
+
       <p class="my-2">
         『渋沢栄一伝記資料』別巻第1, 第2の本文を対象に検索します。
       </p>
@@ -307,6 +311,8 @@ export default {
     index = index.data
     this.index = index
 
+    /*
+
     let facets = await axios.get(process.env.BASE_URL + '/data/facets.json')
     facets = facets.data
     this.facets = facets
@@ -326,6 +332,8 @@ export default {
 
     //初期検索の場合
     this.list()
+
+    */
 
     this.loading = false
   },
