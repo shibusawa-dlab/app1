@@ -283,7 +283,7 @@ export default {
 
     $route: function (current, old) {
       //フィルタの実行条件は要検討
-      this.filter()
+      //this.filter()
 
       this.list()
     },
