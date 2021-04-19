@@ -337,7 +337,7 @@ export default {
     */
 
     //初期検索の場合
-    this.list()
+    //this.list()
 
     this.loading = false
   },
