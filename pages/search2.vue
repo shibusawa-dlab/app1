@@ -383,15 +383,19 @@ export default {
       if (q === '') {
         ids = Object.keys(docs)
       } else {
+
+        /*
         for (const key in index) {
           if (key.includes(q)) {
             ids = ids.concat(index[key])
           }
         }
+        */
       }
 
       const facets = this.facets
 
+      /*
       for (let queryField in query) {
         if (queryField.includes('refinementList')) {
           const facetField = queryField.split('[')[2].split(']')[0]
@@ -407,12 +411,13 @@ export default {
           }
         }
       }
+      */
 
       this.total = ids.length
 
       this.ids = ids
 
-      this.getAggs()
+      //this.getAggs()
     },
     getAggs() {
       const aggs = {
