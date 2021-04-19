@@ -9,7 +9,7 @@
         </v-breadcrumbs>
       </v-container>
     </v-sheet>
-    <v-container class="my-5">
+    <v-container class="my-5" v-if="false">
       <h2>{{ $t('fulltext_search') }}</h2>
 
       <nuxt-link :to="localePath({name : 'item-id', params: {id: 'DKB10001m-1'}})">
@@ -550,6 +550,7 @@ export default {
       */
 
       const items = []
+      console.log({items})
 
       this.items = items
     },
