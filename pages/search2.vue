@@ -72,7 +72,7 @@
           </v-chip>
         </div>
 
-        <v-row class="mt-5" dense>
+        <v-row class="mt-5" dense v-if="false">
           <v-col cols="12" sm="6">
             <h3 class="my-0">
               {{ $t('search_result') }}: {{ total.toLocaleString() }}
@@ -85,7 +85,7 @@
           <v-col v-show="false" cols="12" sm="2"> </v-col>
         </v-row>
 
-        <div class="text-center mt-5">
+        <div class="text-center mt-5" v-if="false">
           <v-pagination
             v-model="page"
             :length="length"
@@ -208,7 +208,7 @@
 
         bbb
 
-        <div class="text-center mt-10">
+        <div class="text-center mt-10" v-if="false">
           <v-pagination
             v-model="page"
             :length="length"
