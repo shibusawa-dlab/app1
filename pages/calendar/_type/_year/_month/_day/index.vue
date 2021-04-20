@@ -222,6 +222,13 @@ export default {
               var today = new Date(date2)
               var tomorrow = new Date(today.getTime() + (24 * 60 * 60 * 1000));
               date2 = formatDate(tomorrow)+" "+time
+            } else if (h >= 24){
+              var today = new Date(`${obj.temporal} 00:00:00`)
+              var tomorrow = new Date(today.getTime() + (24 * 60 * 60 * 1000));
+              const times = time.split(":")
+              const newH = h - 24
+              const newTime = ( '00' + newH ).slice( -2 ) + ":" + times[1] + ":" + times[2]
+              date2 = formatDate(tomorrow)+" "+newTime
             }
 
             
