@@ -44,6 +44,8 @@
             color="primary"
             class="my-10"
           ></v-progress-circular>
+
+          <p>初回はインデックスファイルのダウンロードに時間を要します。2回目以降はキャッシュにより待ち時間が改善します。</p>
         </div>
       </template>
 
@@ -87,7 +89,7 @@
         </div>
 
         <v-row class="mt-5">
-          <v-col col="12" sm="8" order-sm="12">
+          <v-col cols="12" sm="8" order-sm="12">
             <v-row>
               <v-col v-for="item in items" :key="item.objectID" cols="12">
                 <v-card flat outlined>
@@ -149,7 +151,7 @@
             </v-row>
           </v-col>
 
-          <v-col col="12" sm="4" order-sm="1">
+          <v-col cols="12" sm="4" order-sm="1">
             <v-expansion-panels
               :value="0"
               flat
