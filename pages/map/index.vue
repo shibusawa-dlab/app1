@@ -16,7 +16,7 @@
         Wikipediaで位置情報が取得できた場所のみを表示しています。
       </p>
       <div id="map-wrap" style="height: 80vh" class="my-2">
-        <mapc :markers="markers" :zoom="2" :center="[38, 0]" />
+        <mapc :markers="markers" :zoom="2" :center="[35.689556, 139.691722]" />
       </div>
     </v-container>
   </div>
