@@ -319,13 +319,19 @@ export default {
     docs = docs.data
     this.docs = docs
 
+    this.test = "1/3"
+
     let index = await axios.get(process.env.BASE_URL + '/data/index.json')
     index = index.data
     this.index = index
 
+    this.test = "2/3"
+
     let facets = await axios.get(process.env.BASE_URL + '/data/facets.json')
     facets = facets.data
     this.facets = facets
+
+    this.test = "3/3"
 
     //クエリの処理
     const query = this.$route.query
