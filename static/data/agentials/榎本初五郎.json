@@ -8,9 +8,15 @@
         },
         {
             "color": "lightgrey",
-            "from": "畑弥右衛門",
-            "to": "福島甲子三",
-            "value": 4
+            "from": "星野錫",
+            "to": "白岩竜平",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "星野錫",
+            "to": "油谷恭一",
+            "value": 5
         },
         {
             "color": "lightgrey",
@@ -29,6 +35,12 @@
             "from": "畑弥右衛門",
             "to": "成瀬仁蔵",
             "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "畑弥右衛門",
+            "to": "福島甲子三",
+            "value": 5
         },
         {
             "color": "lightgrey",
@@ -92,15 +104,33 @@
         },
         {
             "color": "lightgrey",
-            "from": "吉池慶",
-            "to": "川田鉄弥",
+            "from": "吉池慶正",
+            "to": "横山徳次郎",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "吉池慶正",
+            "to": "蓮沼門三",
+            "value": 7
+        },
+        {
+            "color": "lightgrey",
+            "from": "吉池慶正",
+            "to": "添田壽一",
             "value": 4
         },
         {
             "color": "lightgrey",
-            "from": "吉池慶",
-            "to": "蓮沼門三",
+            "from": "吉池慶正",
+            "to": "川田鉄弥",
             "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "吉池慶正",
+            "to": "大川平三郎",
+            "value": 4
         }
     ],
     "nodes": [
@@ -109,7 +139,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 5,
+            "count": 15,
             "id": "星野錫",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "星野錫",
@@ -120,7 +150,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 21,
+            "count": 22,
             "id": "畑弥右衛門",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "畑弥右衛門",
@@ -142,10 +172,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 9,
-            "id": "吉池慶",
+            "count": 25,
+            "id": "吉池慶正",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "吉池慶",
+            "label": "吉池慶正",
             "shape": "image"
         },
         {
@@ -188,6 +218,17 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 5,
+            "id": "横山徳次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "横山徳次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
             "count": 6,
             "description": "成瀬 仁蔵（なるせ じんぞう、1858年8月2日（安政5年6月23日） - 1919年（大正8年）3月4日）は、明治から大正のキリスト教牧師（プロテスタント）であり、日本における女子高等教育の開拓者の1人であり、日本女子大学（日本女子大学校）の創設者として知られる。",
             "id": "成瀬仁蔵",
@@ -200,10 +241,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 4,
-            "id": "川田鉄弥",
+            "count": 6,
+            "id": "尾高次郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "川田鉄弥",
+            "label": "尾高次郎",
             "shape": "image"
         },
         {
@@ -223,10 +264,66 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 5,
+            "id": "白岩竜平",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "白岩竜平",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "id": "油谷恭一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "油谷恭一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "id": "福島甲子三",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "福島甲子三",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "id": "川田鉄弥",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "川田鉄弥",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
             "count": 6,
             "id": "佐々木勇之助",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "佐々木勇之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "大川 平三郎（おおかわ へいざぶろう、万延元年10月25日（1860年12月7日） - 1936年（昭和11年）12月30日）は、明治から昭和初期の実業家。「日本の製紙王」と呼ばれ、「大川財閥」を築いた。江戸時代の剣豪で農民の出ながら武蔵国川越藩の剣術師範となった大川平兵衛は平三郎の祖父にあたる。",
+            "id": "大川平三郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Heizaburo_ohkawa.jpg?width=300",
+            "label": "大川平三郎",
             "shape": "image"
         },
         {
@@ -246,28 +343,6 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 6,
-            "id": "尾高次郎",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "尾高次郎",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 4,
-            "id": "福島甲子三",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "福島甲子三",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
             "count": 5,
             "description": "尾崎 行雄（おざき ゆきお、安政5年11月20日（1858年12月24日） - 昭和29年（1954年）10月6日）は、日本の政治家。日本の議会政治の黎明期から戦後に至るまで衆議院議員を務め、当選回数・議員勤続年数・最高齢議員記録と複数の日本記録を有することから「憲政の神様」「議会政治の父」と呼ばれる。正三位勲一等（1946年（昭和21年）5月4日付返上）。伊勢神宮内宮前・合格神社の祭神。号は咢堂（がくどう。最初学堂。愕堂を経て咢堂）。称号は衆議院名誉議員、東京都名誉都民。世界連邦建設同盟（現、世界連邦運動協会）初代会長。",
             "id": "尾崎行雄",
@@ -280,11 +355,34 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 5,
+            "count": 4,
+            "description": "添田 壽一（そえだ じゅいち、元治元年8月15日（1864年9月15日） - 昭和4年（1929年）7月4日）は、明治・大正期の財政家（大蔵官僚）・銀行家・実業家・経済学者・官庁エコノミスト。筑前（福岡県）の出身。日本法律学校（現日本大学）の設立に加わった。近代日本における財政確立の功労者の一人であるとともに、経済学の教育・普及に尽力した「官庁エコノミスト」の先駆け的人物として知られている。",
+            "id": "添田壽一",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Juichi_Soyeda.jpg?width=300",
+            "label": "添田壽一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 7,
             "description": "蓮沼 門三（はすぬま もんぞう、1882年2月22日 - 1980年6月6日）は、社会教育団体「修養団」を設立した日本の社会教育家。",
             "id": "蓮沼門三",
             "image": "http://ja.wikipedia.org/wiki/Special:FilePath/Statue_of_Hasunuma_Monzou.jpg?width=300",
             "label": "蓮沼門三",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 7,
+            "id": "竹田政智",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "竹田政智",
             "shape": "image"
         },
         {
@@ -330,17 +428,6 @@
             "id": "皆川四郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "皆川四郎",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 7,
-            "id": "竹田政智",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "竹田政智",
             "shape": "image"
         }
     ]
