@@ -2,6 +2,18 @@
     "edges": [
         {
             "color": "lightgrey",
+            "from": "斎藤惣一",
+            "to": "長尾半平",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "市原盛宏",
+            "to": "横山徳次郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
             "from": "市原盛宏",
             "to": "梅浦精一",
             "value": 8
@@ -50,12 +62,6 @@
         },
         {
             "color": "lightgrey",
-            "from": "市原盛宏",
-            "to": "横山徳次郎",
-            "value": 4
-        },
-        {
-            "color": "lightgrey",
             "from": "渡辺専次郎",
             "to": "根岸練次郎",
             "value": 4
@@ -65,15 +71,20 @@
             "from": "根岸練次郎",
             "to": "清水泰吉",
             "value": 4
-        },
-        {
-            "color": "lightgrey",
-            "from": "斎藤惣一",
-            "to": "長尾半平",
-            "value": 4
         }
     ],
     "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "斎藤惣一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "斎藤惣一",
+            "shape": "image"
+        },
         {
             "borderWidth": 4,
             "color": {
@@ -114,9 +125,9 @@
                 "border": "lightgreen"
             },
             "count": 4,
-            "id": "斎藤惣一",
+            "id": "長尾半平",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "斎藤惣一",
+            "label": "長尾半平",
             "shape": "image"
         },
         {
@@ -128,6 +139,17 @@
             "id": "八十島親徳",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "八十島親徳",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "横山徳次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "横山徳次郎",
             "shape": "image"
         },
         {
@@ -195,28 +217,6 @@
             "id": "浅野総一郎",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
             "label": "浅野総一郎",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 4,
-            "id": "横山徳次郎",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "横山徳次郎",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 4,
-            "id": "長尾半平",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "長尾半平",
             "shape": "image"
         }
     ]
