@@ -2,8 +2,14 @@
     "edges": [
         {
             "color": "lightgrey",
-            "from": "山本条太郎",
-            "to": "益田孝",
+            "from": "益田孝",
+            "to": "成瀬仁蔵",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "益田孝",
+            "to": "安川敬一郎",
             "value": 4
         },
         {
@@ -11,6 +17,18 @@
             "from": "益田孝",
             "to": "佐々木勇之助",
             "value": 9
+        },
+        {
+            "color": "lightgrey",
+            "from": "益田孝",
+            "to": "竹田政智",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "益田孝",
+            "to": "渡邊嘉一",
+            "value": 4
         },
         {
             "color": "lightgrey",
@@ -63,20 +81,8 @@
         {
             "color": "lightgrey",
             "from": "益田孝",
-            "to": "竹田政智",
-            "value": 4
-        },
-        {
-            "color": "lightgrey",
-            "from": "益田孝",
             "to": "今村清之助",
             "value": 5
-        },
-        {
-            "color": "lightgrey",
-            "from": "益田孝",
-            "to": "成瀬仁蔵",
-            "value": 4
         },
         {
             "color": "lightgrey",
@@ -93,13 +99,7 @@
         {
             "color": "lightgrey",
             "from": "益田孝",
-            "to": "安川敬一郎",
-            "value": 4
-        },
-        {
-            "color": "lightgrey",
-            "from": "益田孝",
-            "to": "渡辺嘉一",
+            "to": "山本条太郎",
             "value": 4
         },
         {
@@ -129,6 +129,12 @@
         {
             "color": "lightgrey",
             "from": "白岩竜平",
+            "to": "浅野総一郎",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "白岩竜平",
             "to": "横山徳次郎",
             "value": 6
         },
@@ -141,14 +147,14 @@
         {
             "color": "lightgrey",
             "from": "白岩竜平",
-            "to": "浅野総一郎",
-            "value": 5
+            "to": "諸井恒平",
+            "value": 4
         },
         {
             "color": "lightgrey",
             "from": "白岩竜平",
-            "to": "諸井恒平",
-            "value": 4
+            "to": "星野錫",
+            "value": 5
         },
         {
             "color": "lightgrey",
@@ -171,13 +177,19 @@
         {
             "color": "lightgrey",
             "from": "川田鉄弥",
-            "to": "竹田政智",
-            "value": 4
+            "to": "成瀬仁蔵",
+            "value": 9
         },
         {
             "color": "lightgrey",
             "from": "川田鉄弥",
-            "to": "横山徳次郎",
+            "to": "吉池慶正",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "川田鉄弥",
+            "to": "小池国三",
             "value": 4
         },
         {
@@ -189,26 +201,26 @@
         {
             "color": "lightgrey",
             "from": "川田鉄弥",
-            "to": "成瀬仁蔵",
-            "value": 9
-        },
-        {
-            "color": "lightgrey",
-            "from": "川田鉄弥",
-            "to": "小池国三",
+            "to": "横山徳次郎",
             "value": 4
         },
         {
             "color": "lightgrey",
             "from": "川田鉄弥",
-            "to": "吉池慶",
+            "to": "竹田政智",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "尾高豊作",
+            "to": "永田甚之助",
             "value": 4
         },
         {
             "color": "lightgrey",
             "from": "尾高豊作",
             "to": "岡田純夫",
-            "value": 13
+            "value": 16
         },
         {
             "color": "lightgrey",
@@ -250,7 +262,7 @@
             "color": "lightgrey",
             "from": "高田利吉",
             "to": "中村孝也",
-            "value": 12
+            "value": 13
         }
     ],
     "nodes": [
@@ -259,19 +271,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 4,
-            "description": "山本 条太郎（やまもと じょうたろう、1867年11月6日（慶応3年10月11日） - 1936年（昭和11年）3月25日）は日本の実業家・政治家。",
-            "id": "山本条太郎",
-            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jyotaro_yamamoto.jpg?width=300",
-            "label": "山本条太郎",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 90,
+            "count": 91,
             "description": "益田 孝（ますだ たかし、嘉永元年10月17日（1848年11月12日） - 昭和13年（1938年）12月28日）は、日本の実業家。草創期の日本経済を動かし、三井財閥を支えた実業家である。明治維新後世界初の総合商社・三井物産の設立に関わり、日本経済新聞の前身である中外物価新報を創刊した。茶人としても高名で鈍翁と号し、「千利休以来の大茶人」と称された。男爵。",
             "id": "益田孝",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Masuda_Takashi.jpg?width=300",
@@ -305,7 +305,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 37,
+            "count": 42,
             "id": "白岩竜平",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "白岩竜平",
@@ -316,7 +316,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 29,
+            "count": 30,
             "id": "川田鉄弥",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "川田鉄弥",
@@ -327,7 +327,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 13,
+            "count": 20,
             "id": "尾高豊作",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "尾高豊作",
@@ -349,7 +349,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 19,
+            "count": 22,
             "id": "岡田純夫",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "岡田純夫",
@@ -372,7 +372,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 24,
+            "count": 25,
             "id": "高田利吉",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "高田利吉",
@@ -384,22 +384,10 @@
                 "border": "lightgreen"
             },
             "count": 4,
-            "description": "高橋 是清（たかはし これきよ、1854年9月19日〈嘉永7年閏7月27日〉 - 1936年〈昭和11年〉2月26日）は、日本の幕末の武士(仙台藩士)、明治、大正、昭和時代初期の官僚、政治家。立憲政友会第4代総裁。第20代内閣総理大臣（在任 : 1921年〈大正10年〉11月13日 - 1922年〈大正11年〉6月12日）。栄典は大勲位子爵。幼名は和喜次（わきじ）。財政家として知られているため総理大臣としてよりも大蔵大臣としての評価の方が高い。",
-            "id": "高橋是清",
-            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Korekiyo_Takahashi_2.jpg?width=300",
-            "label": "高橋是清",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 9,
-            "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
-            "id": "浅野総一郎",
-            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
-            "label": "浅野総一郎",
+            "description": "山本 条太郎（やまもと じょうたろう、1867年11月6日（慶応3年10月11日） - 1936年（昭和11年）3月25日）は日本の実業家・政治家。",
+            "id": "山本条太郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jyotaro_yamamoto.jpg?width=300",
+            "label": "山本条太郎",
             "shape": "image"
         },
         {
@@ -408,10 +396,9 @@
                 "border": "lightgreen"
             },
             "count": 5,
-            "description": "大倉 喜八郎（おおくら きはちろう、天保8年9月24日（1837年10月23日） - 昭和3年（1928年）4月22日）は、明治・大正期に貿易、建設、化学、製鉄、繊維、食品などの企業を数多く興した日本の実業家、中堅財閥である大倉財閥の設立者。渋沢栄一らと共に、鹿鳴館、帝国ホテル、帝国劇場などを設立。東京経済大学の前身である大倉商業学校の創設者でもある。従三位男爵。号は鶴彦。",
-            "id": "大倉喜八郎",
-            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kihachiro_Okura_cropped.jpg?width=300",
-            "label": "大倉喜八郎",
+            "id": "吉池慶正",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "吉池慶正",
             "shape": "image"
         },
         {
@@ -432,33 +419,10 @@
                 "border": "lightgreen"
             },
             "count": 4,
-            "id": "小池国三",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "小池国三",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 4,
-            "description": "諸井 恒平（もろい つねへい、1862年6月23日（文久2年5月26日） - 1941年（昭和16年）2月14日）は、武蔵国児玉郡本庄宿（現在の埼玉県本庄市）出身の実業家。多くの事業を進め、セメント製造事業の開拓を手掛けた事から「セメント王」とも呼ばれた。諱を直道、号を素泉と称した。正六位勲六等。",
-            "id": "諸井恒平",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "諸井恒平",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 8,
-            "description": "安達 憲忠（あだち けんちゅう/のりただ、安政4年8月3日（1857年9月20日） - 昭和5年（1930年）12月2日）は、備前国赤坂郡小野田村（現・赤磐市熊山町）出身の社会実業家。東京市養育院幹事。",
-            "id": "安達憲忠",
-            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Adachi_Noritada.jpg?width=300",
-            "label": "安達憲忠",
+            "description": "安川 敬一郎（やすかわ けいいちろう、嘉永2年4月17日（1849年5月9日） - 昭和9年（1934年）11月30日）は日本の武士（福岡藩士）、戦前の政治家、実業家。貴族院議員、衆議院議員。大正9年（1920年）1月13日、男爵授爵。勲三等瑞宝章。地方財閥・安川財閥の創始者であり、国士的な実業家として知られる。号は撫松。",
+            "id": "安川敬一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/YASUKAWA_Keiichiro.jpg?width=300",
+            "label": "安川敬一郎",
             "shape": "image"
         },
         {
@@ -477,10 +441,90 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 9,
+            "id": "竹田政智",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "竹田政智",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "渡邊 嘉一（わたなべ かいち、1858年3月22日（安政5年2月8日） - 1932年12月4日）は日本の土木技術者、実業家。日本土木史の父と呼ばれる。旧姓、宇治橋。",
+            "id": "渡邊嘉一",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Watanabe_Kaichi.jpg?width=300",
+            "label": "渡邊嘉一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "id": "横山徳次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "横山徳次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "窪田 四郎（くぼた しろう、1873年5月25日 - 1944年9月14日）は日本の実業家。茨城県生まれ。高等商業学校（現一橋大学）卒業。富士製紙（後の王子製紙）社長、元日魯漁業（現ニチロ）社長などを歴任。実業家の内田信也は実弟。",
+            "id": "窪田四郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "窪田四郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "増田明六",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "増田明六",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "id": "星野錫",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "星野錫",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
             "count": 6,
             "id": "梅浦精一",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "梅浦精一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 9,
+            "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
+            "id": "浅野総一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
+            "label": "浅野総一郎",
             "shape": "image"
         },
         {
@@ -534,10 +578,23 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 8,
-            "id": "竹田政智",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "竹田政智",
+            "count": 5,
+            "description": "大倉 喜八郎（おおくら きはちろう、天保8年9月24日（1837年10月23日） - 昭和3年（1928年）4月22日）は、明治・大正期に貿易、建設、化学、製鉄、繊維、食品などの企業を数多く興した日本の実業家、中堅財閥である大倉財閥の設立者。渋沢栄一らと共に、鹿鳴館、帝国ホテル、帝国劇場などを設立。東京経済大学の前身である大倉商業学校の創設者でもある。従三位男爵。号は鶴彦。",
+            "id": "大倉喜八郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kihachiro_Okura_cropped.jpg?width=300",
+            "label": "大倉喜八郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "高橋 是清（たかはし これきよ、1854年9月19日〈嘉永7年閏7月27日〉 - 1936年〈昭和11年〉2月26日）は、日本の幕末の武士(仙台藩士)、明治、大正、昭和時代初期の官僚、政治家。立憲政友会第4代総裁。第20代内閣総理大臣（在任 : 1921年〈大正10年〉11月13日 - 1922年〈大正11年〉6月12日）。栄典は大勲位子爵。幼名は和喜次（わきじ）。財政家として知られているため総理大臣としてよりも大蔵大臣としての評価の方が高い。",
+            "id": "高橋是清",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Korekiyo_Takahashi_2.jpg?width=300",
+            "label": "高橋是清",
             "shape": "image"
         },
         {
@@ -580,11 +637,11 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 4,
-            "description": "安川 敬一郎（やすかわ けいいちろう、嘉永2年4月17日（1849年5月9日） - 昭和9年（1934年）11月30日）は日本の武士（福岡藩士）、戦前の政治家、実業家。貴族院議員、衆議院議員。大正9年（1920年）1月13日、男爵授爵。勲三等瑞宝章。地方財閥・安川財閥の創始者であり、国士的な実業家として知られる。号は撫松。",
-            "id": "安川敬一郎",
-            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/YASUKAWA_Keiichiro.jpg?width=300",
-            "label": "安川敬一郎",
+            "count": 8,
+            "description": "安達 憲忠（あだち けんちゅう/のりただ、安政4年8月3日（1857年9月20日） - 昭和5年（1930年）12月2日）は、備前国赤坂郡小野田村（現・赤磐市熊山町）出身の社会実業家。東京市養育院幹事。",
+            "id": "安達憲忠",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Adachi_Noritada.jpg?width=300",
+            "label": "安達憲忠",
             "shape": "image"
         },
         {
@@ -593,43 +650,9 @@
                 "border": "lightgreen"
             },
             "count": 4,
-            "id": "渡辺嘉一",
+            "id": "小池国三",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "渡辺嘉一",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 10,
-            "id": "横山徳次郎",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "横山徳次郎",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 4,
-            "id": "増田明六",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "増田明六",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 4,
-            "description": "窪田 四郎（くぼた しろう、1873年5月25日 - 1944年9月14日）は日本の実業家。茨城県生まれ。高等商業学校（現一橋大学）卒業。富士製紙（後の王子製紙）社長、元日魯漁業（現ニチロ）社長などを歴任。実業家の内田信也は実弟。",
-            "id": "窪田四郎",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "窪田四郎",
+            "label": "小池国三",
             "shape": "image"
         },
         {
@@ -695,9 +718,21 @@
                 "border": "lightgreen"
             },
             "count": 4,
-            "id": "吉池慶",
+            "description": "諸井 恒平（もろい つねへい、1862年6月23日（文久2年5月26日） - 1941年（昭和16年）2月14日）は、武蔵国児玉郡本庄宿（現在の埼玉県本庄市）出身の実業家。多くの事業を進め、セメント製造事業の開拓を手掛けた事から「セメント王」とも呼ばれた。諱を直道、号を素泉と称した。正六位勲六等。",
+            "id": "諸井恒平",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "吉池慶",
+            "label": "諸井恒平",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "永田甚之助",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "永田甚之助",
             "shape": "image"
         },
         {
@@ -729,7 +764,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 12,
+            "count": 13,
             "description": "中村 孝也（なかむら こうや、1885年（明治18年）1月2日 - 1970年（昭和45年）2月5日）は、大正・昭和期の日本の歴史学者。東京帝国大学名誉教授。専門は日本近世史。文学博士（東京帝国大学、1926年）（学位論文「元禄及び享保時代における経済思想の研究」）。群馬県出身。",
             "id": "中村孝也",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",

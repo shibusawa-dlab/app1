@@ -11,6 +11,9 @@
     </v-sheet>
     <v-container class="py-5">
       <h2 class="my-5">{{ title }}</h2>
+
+      <p>ここでは『渋沢栄一伝記資料』別巻第1、第2の人名および地名（一部）を対象にし、実験的な分析を行っているため、結果が必ずしも正確ではない可能性があります。</p>
+
       <v-row>
         <v-col
           v-for="(obj, index) in result.members"

@@ -3,14 +3,14 @@
         {
             "color": "lightgrey",
             "from": "郷誠之助",
-            "to": "中野武営",
+            "to": "成瀬仁蔵",
             "value": 5
         },
         {
             "color": "lightgrey",
             "from": "郷誠之助",
-            "to": "薄井佳久",
-            "value": 7
+            "to": "中野武営",
+            "value": 5
         },
         {
             "color": "lightgrey",
@@ -21,8 +21,8 @@
         {
             "color": "lightgrey",
             "from": "郷誠之助",
-            "to": "成瀬仁蔵",
-            "value": 5
+            "to": "薄井佳久",
+            "value": 7
         },
         {
             "color": "lightgrey",
@@ -39,8 +39,32 @@
         {
             "color": "lightgrey",
             "from": "益田孝",
+            "to": "成瀬仁蔵",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "益田孝",
+            "to": "安川敬一郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "益田孝",
             "to": "佐々木勇之助",
             "value": 9
+        },
+        {
+            "color": "lightgrey",
+            "from": "益田孝",
+            "to": "竹田政智",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "益田孝",
+            "to": "渡邊嘉一",
+            "value": 4
         },
         {
             "color": "lightgrey",
@@ -87,20 +111,8 @@
         {
             "color": "lightgrey",
             "from": "益田孝",
-            "to": "竹田政智",
-            "value": 4
-        },
-        {
-            "color": "lightgrey",
-            "from": "益田孝",
             "to": "今村清之助",
             "value": 5
-        },
-        {
-            "color": "lightgrey",
-            "from": "益田孝",
-            "to": "成瀬仁蔵",
-            "value": 4
         },
         {
             "color": "lightgrey",
@@ -113,18 +125,6 @@
             "from": "益田孝",
             "to": "益田克徳",
             "value": 5
-        },
-        {
-            "color": "lightgrey",
-            "from": "益田孝",
-            "to": "安川敬一郎",
-            "value": 4
-        },
-        {
-            "color": "lightgrey",
-            "from": "益田孝",
-            "to": "渡辺嘉一",
-            "value": 4
         },
         {
             "color": "lightgrey",
@@ -187,7 +187,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 90,
+            "count": 91,
             "description": "益田 孝（ますだ たかし、嘉永元年10月17日（1848年11月12日） - 昭和13年（1938年）12月28日）は、日本の実業家。草創期の日本経済を動かし、三井財閥を支えた実業家である。明治維新後世界初の総合商社・三井物産の設立に関わり、日本経済新聞の前身である中外物価新報を創刊した。茶人としても高名で鈍翁と号し、「千利休以来の大茶人」と称された。男爵。",
             "id": "益田孝",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Masuda_Takashi.jpg?width=300",
@@ -222,7 +222,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 4,
+            "count": 5,
             "id": "竹田政智",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "竹田政智",
@@ -269,17 +269,6 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 7,
-            "id": "薄井佳久",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "薄井佳久",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
             "count": 6,
             "description": "井上 準之助（いのうえ じゅんのすけ、明治2年3月25日（1869年5月6日） - 昭和7年（1932年）2月9日）は、日本の政治家、財政家。日本銀行第9、11代総裁。山本、濱口、第2次若槻内閣で大蔵大臣に就任。貴族院議員。",
             "id": "井上準之助",
@@ -296,6 +285,17 @@
             "id": "佐々木勇之助",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "佐々木勇之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 7,
+            "id": "薄井佳久",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "薄井佳久",
             "shape": "image"
         },
         {
@@ -326,9 +326,10 @@
                 "border": "lightgreen"
             },
             "count": 4,
-            "id": "渡辺嘉一",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "渡辺嘉一",
+            "description": "渡邊 嘉一（わたなべ かいち、1858年3月22日（安政5年2月8日） - 1932年12月4日）は日本の土木技術者、実業家。日本土木史の父と呼ばれる。旧姓、宇治橋。",
+            "id": "渡邊嘉一",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Watanabe_Kaichi.jpg?width=300",
+            "label": "渡邊嘉一",
             "shape": "image"
         },
         {
@@ -353,6 +354,18 @@
             "id": "馬越恭平",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/MAGOSHI_Kyohei.jpg?width=300",
             "label": "馬越恭平",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "安川 敬一郎（やすかわ けいいちろう、嘉永2年4月17日（1849年5月9日） - 昭和9年（1934年）11月30日）は日本の武士（福岡藩士）、戦前の政治家、実業家。貴族院議員、衆議院議員。大正9年（1920年）1月13日、男爵授爵。勲三等瑞宝章。地方財閥・安川財閥の創始者であり、国士的な実業家として知られる。号は撫松。",
+            "id": "安川敬一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/YASUKAWA_Keiichiro.jpg?width=300",
+            "label": "安川敬一郎",
             "shape": "image"
         },
         {
@@ -400,18 +413,6 @@
             "id": "今村清之助",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/今村清之助-肖像画.jpg?width=300",
             "label": "今村清之助",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 4,
-            "description": "安川 敬一郎（やすかわ けいいちろう、嘉永2年4月17日（1849年5月9日） - 昭和9年（1934年）11月30日）は日本の武士（福岡藩士）、戦前の政治家、実業家。貴族院議員、衆議院議員。大正9年（1920年）1月13日、男爵授爵。勲三等瑞宝章。地方財閥・安川財閥の創始者であり、国士的な実業家として知られる。号は撫松。",
-            "id": "安川敬一郎",
-            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/YASUKAWA_Keiichiro.jpg?width=300",
-            "label": "安川敬一郎",
             "shape": "image"
         },
         {
