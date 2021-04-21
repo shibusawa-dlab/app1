@@ -45,6 +45,12 @@
         {
             "color": "lightgrey",
             "from": "浅野総一郎",
+            "to": "神田鐳蔵",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "浅野総一郎",
             "to": "添田壽一",
             "value": 4
         },
@@ -221,6 +227,72 @@
             "from": "浅野総一郎",
             "to": "佐々木慎思郎",
             "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "工藤鉄雄",
+            "to": "工藤鉄男",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "吉池慶正",
+            "to": "横山徳次郎",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "吉池慶正",
+            "to": "蓮沼門三",
+            "value": 7
+        },
+        {
+            "color": "lightgrey",
+            "from": "吉池慶正",
+            "to": "添田壽一",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "吉池慶正",
+            "to": "川田鉄弥",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "吉池慶正",
+            "to": "大川平三郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "日下義雄",
+            "to": "佐々木勇之助",
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "日下義雄",
+            "to": "足立太郎",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "日下義雄",
+            "to": "前島密",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "日下義雄",
+            "to": "尾崎三良",
+            "value": 9
+        },
+        {
+            "color": "lightgrey",
+            "from": "日下義雄",
+            "to": "竹内綱",
+            "value": 10
         }
     ],
     "nodes": [
@@ -229,11 +301,57 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 225,
+            "count": 230,
             "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
             "id": "浅野総一郎",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
             "label": "浅野総一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "工藤鉄雄",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "工藤鉄雄",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "工藤 鉄男（くどう てつお、1875年8月5日 - 1953年6月16日）は、大正・昭和期の日本の男性政治家。元国務大臣。本名は工藤 鐵男（読みは同じ）。",
+            "id": "工藤鉄男",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kudo_Tetsuo.jpg?width=300",
+            "label": "工藤鉄男",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 25,
+            "id": "吉池慶正",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "吉池慶正",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 38,
+            "description": "日下義雄（くさか よしお、嘉永4年12月25日（1852年1月16日） - 大正12年（1923年）3月18日）は、明治から大正時代の政治家、実業家。",
+            "id": "日下義雄",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kusaka_Yoshio.jpg?width=300",
+            "label": "日下義雄",
             "shape": "image"
         },
         {
@@ -257,6 +375,17 @@
             "id": "成瀬仁蔵",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jinzo_Naruse.JPG?width=300",
             "label": "成瀬仁蔵",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "id": "川田鉄弥",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "川田鉄弥",
             "shape": "image"
         },
         {
@@ -299,7 +428,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 8,
+            "count": 12,
             "description": "大川 平三郎（おおかわ へいざぶろう、万延元年10月25日（1860年12月7日） - 1936年（昭和11年）12月30日）は、明治から昭和初期の実業家。「日本の製紙王」と呼ばれ、「大川財閥」を築いた。江戸時代の剣豪で農民の出ながら武蔵国川越藩の剣術師範となった大川平兵衛は平三郎の祖父にあたる。",
             "id": "大川平三郎",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Heizaburo_ohkawa.jpg?width=300",
@@ -311,7 +440,19 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 14,
+            "count": 7,
+            "description": "蓮沼 門三（はすぬま もんぞう、1882年2月22日 - 1980年6月6日）は、社会教育団体「修養団」を設立した日本の社会教育家。",
+            "id": "蓮沼門三",
+            "image": "http://ja.wikipedia.org/wiki/Special:FilePath/Statue_of_Hasunuma_Monzou.jpg?width=300",
+            "label": "蓮沼門三",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 24,
             "id": "佐々木勇之助",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "佐々木勇之助",
@@ -322,7 +463,18 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 4,
+            "count": 5,
+            "id": "神田鐳蔵",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "神田鐳蔵",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 8,
             "description": "添田 壽一（そえだ じゅいち、元治元年8月15日（1864年9月15日） - 昭和4年（1929年）7月4日）は、明治・大正期の財政家（大蔵官僚）・銀行家・実業家・経済学者・官庁エコノミスト。筑前（福岡県）の出身。日本法律学校（現日本大学）の設立に加わった。近代日本における財政確立の功労者の一人であるとともに、経済学の教育・普及に尽力した「官庁エコノミスト」の先駆け的人物として知られている。",
             "id": "添田壽一",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Juichi_Soyeda.jpg?width=300",
@@ -460,7 +612,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 4,
+            "count": 9,
             "id": "横山徳次郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "横山徳次郎",
@@ -561,7 +713,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 7,
+            "count": 12,
             "id": "足立太郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "足立太郎",
@@ -594,7 +746,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 7,
+            "count": 17,
             "description": "竹内 綱（たけうち（たけのうち） つな、天保10年12月26日（1840年1月30日） - 大正11年（1922年）1月9日）は、日本の武士（土佐藩士）、実業家、政治家。内閣総理大臣を務めた吉田茂は五男、麻生太郎は外曾孫。",
             "id": "竹内綱",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tsuna_Takeuchi.jpg?width=300",
@@ -640,6 +792,18 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 9,
+            "description": "尾崎 三良（おざき さぶろう、天保13年1月22日（1842年3月3日）- 大正7年（1918年）10月13日）は、日本の官僚。男爵。諱は盛茂、別名・戸田 雅楽（とだ うた）。京都郊外の西院村で代々里長を務める家に生まれる。「憲政の神様」と呼ばれた明治・大正・昭和にわたって活動した政治家・尾崎行雄は女婿にあたる。",
+            "id": "尾崎三良",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ozaki_Saburō.jpg?width=300",
+            "label": "尾崎三良",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
             "count": 8,
             "id": "前川益以",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
@@ -655,6 +819,17 @@
             "id": "佐々木慎思郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "佐々木慎思郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "前島密",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "前島密",
             "shape": "image"
         }
     ]
