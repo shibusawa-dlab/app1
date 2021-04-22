@@ -1,449 +1,451 @@
 <template>
-  <div>
-    <v-sheet color="grey lighten-2">
-      <v-container fluid class="py-4">
-        <v-breadcrumbs class="py-0" :items="items">
-          <template #divider>
-            <v-icon>mdi-chevron-right</v-icon>
-          </template>
-        </v-breadcrumbs>
-      </v-container>
-    </v-sheet>
-    <v-container class="pt-5">
-      <p class="mb-5 text-center">
-        <v-tooltip bottom>
-          <template #activator="{ on }">
-            <v-btn
-              v-if="item.next"
-              fab
-              dark
-              small
-              class="mx-1"
-              :to="
-                localePath({
-                  name: 'item-id',
-                  params: { id: item.next },
-                })
-              "
-              v-on="on"
-              ><v-icon>mdi-chevron-left</v-icon></v-btn
-            >
-          </template>
-          <span>{{ $t('next') }}</span>
-        </v-tooltip>
-
-        <v-tooltip bottom>
-          <template #activator="{ on }">
-            <v-btn
-              v-if="item.prev"
-              fab
-              dark
-              small
-              class="mx-1"
-              :to="
-                localePath({
-                  name: 'item-id',
-                  params: { id: item.prev },
-                })
-              "
-              v-on="on"
-              ><v-icon>mdi-chevron-right</v-icon></v-btn
-            >
-          </template>
-          <span>{{ $t('previous') }}</span>
-        </v-tooltip>
-      </p>
-
-      <!--
-      <dl class="row mb-5">
-        <dt class="col-sm-3 text-muted pb-0">
-          <b>{{ $t('label') }}</b>
-        </dt>
-        <dd class="col-sm-9">
-          {{ item.label }}
-        </dd>
-      </dl>
-      -->
-    </v-container>
-
-    <v-sheet color="grey lighten-3 pa-5">
-      <v-row>
-        <v-col cols="12" sm="6">
-          <v-card
-            flat
-            outlined
-            class="scroll vertical"
-            :style="`height: ${/*height * 0.85*/ 600}px; width: ${$vuetify.breakpoint.name !='xs' ? width / 2 : width}px`"
-          >
-            <div class="pa-4 px-5">
-              <span v-html="$utils.xml2html(item.xml, true)"> </span>
-              <v-sheet class="pa-4 mx-10" color="grey lighten-3">
-                <b class="ma-2">{{ $t('legend') }} :</b>
-                <span class="ma-2 teiPersName">{{ $t('agential') }}</span>
-                <span class="ma-2 teiPlaceName">{{ $t('spatial') }}</span>
-                <span class="ma-2 teiDate">{{ $t('date') }}</span>
-                <span class="ma-2 teiTime">{{ $t('temporal') }}</span>
-              </v-sheet>
-            </div>
-          </v-card>
-        </v-col>
-        <v-col cols="12" sm="6">
-          <iframe
-            :src="`${baseUrl}/mirador/?manifest=${item.manifest}&canvas=${item.canvas}&bottomPanel=false`"
-            width="100%"
-            :style="`height: ${/*height * 0.85*/ 600}px;`"
-            allowfullscreen="allowfullscreen"
-            frameborder="0"
-          >
-          </iframe>
-        </v-col>
-      </v-row>
-    </v-sheet>
-
-    <v-container>
-      <div class="text-center mt-10">
-        <v-tooltip bottom>
-          <template #activator="{ on }">
-            <v-btn :to="
+  <client-only>
+    <div>
+      <v-sheet color="grey lighten-2">
+        <v-container fluid class="py-4">
+          <v-breadcrumbs class="py-0" :items="items">
+            <template #divider>
+              <v-icon>mdi-chevron-right</v-icon>
+            </template>
+          </v-breadcrumbs>
+        </v-container>
+      </v-sheet>
+      <v-container class="pt-5">
+        <p class="mb-5 text-center">
+          <v-tooltip bottom>
+            <template #activator="{ on }">
+              <v-btn
+                v-if="item.next"
+                fab
+                dark
+                small
+                class="mx-1"
+                :to="
                   localePath({
-                    name: 'viewer-id',
-                    params: {
-                      id: item.source.split('/tei/')[1].split('_')[0].split('.')[0],
-                    },
-                    query: { id },
+                    name: 'item-id',
+                    params: { id: item.next },
                   })
-                " icon class="mx-2" v-on="on">
-              <v-icon>mdi-text</v-icon>
-            </v-btn>
-          </template>
-          <span>{{$t("fulltext")}}</span>
-        </v-tooltip>
-        <v-tooltip bottom>
-          <template #activator="{ on }">
-            <v-btn icon class="mx-2" v-on="on">
-              <a @click="dwnData">
-                <v-img
+                "
+                v-on="on"
+                ><v-icon>mdi-chevron-left</v-icon></v-btn
+              >
+            </template>
+            <span>{{ $t('next') }}</span>
+          </v-tooltip>
+
+          <v-tooltip bottom>
+            <template #activator="{ on }">
+              <v-btn
+                v-if="item.prev"
+                fab
+                dark
+                small
+                class="mx-1"
+                :to="
+                  localePath({
+                    name: 'item-id',
+                    params: { id: item.prev },
+                  })
+                "
+                v-on="on"
+                ><v-icon>mdi-chevron-right</v-icon></v-btn
+              >
+            </template>
+            <span>{{ $t('previous') }}</span>
+          </v-tooltip>
+        </p>
+
+        <!--
+        <dl class="row mb-5">
+          <dt class="col-sm-3 text-muted pb-0">
+            <b>{{ $t('label') }}</b>
+          </dt>
+          <dd class="col-sm-9">
+            {{ item.label }}
+          </dd>
+        </dl>
+        -->
+      </v-container>
+
+      <v-sheet color="grey lighten-3 pa-5">
+        <v-row>
+          <v-col cols="12" sm="6">
+            <v-card
+              flat
+              outlined
+              class="scroll vertical"
+              :style="`height: ${/*height * 0.85*/ 600}px; width: ${$vuetify.breakpoint.name !='xs' ? width / 2 : width}px`"
+            >
+              <div class="pa-4 px-5">
+                <span v-html="$utils.xml2html(item.xml, true)"> </span>
+                <v-sheet class="pa-4 mx-10" color="grey lighten-3">
+                  <b class="ma-2">{{ $t('legend') }} :</b>
+                  <span class="ma-2 teiPersName">{{ $t('agential') }}</span>
+                  <span class="ma-2 teiPlaceName">{{ $t('spatial') }}</span>
+                  <span class="ma-2 teiDate">{{ $t('date') }}</span>
+                  <span class="ma-2 teiTime">{{ $t('temporal') }}</span>
+                </v-sheet>
+              </div>
+            </v-card>
+          </v-col>
+          <v-col cols="12" sm="6">
+            <iframe
+              :src="`${baseUrl}/mirador/?manifest=${item.manifest}&canvas=${item.canvas}&bottomPanel=false`"
+              width="100%"
+              :style="`height: ${/*height * 0.85*/ 600}px;`"
+              allowfullscreen="allowfullscreen"
+              frameborder="0"
+            >
+            </iframe>
+          </v-col>
+        </v-row>
+      </v-sheet>
+
+      <v-container>
+        <div class="text-center mt-10">
+          <v-tooltip bottom>
+            <template #activator="{ on }">
+              <v-btn :to="
+                    localePath({
+                      name: 'viewer-id',
+                      params: {
+                        id: item.source.split('/tei/')[1].split('_')[0].split('.')[0],
+                      },
+                      query: { id },
+                    })
+                  " icon class="mx-2" v-on="on">
+                <v-icon>mdi-text</v-icon>
+              </v-btn>
+            </template>
+            <span>{{$t("fulltext")}}</span>
+          </v-tooltip>
+          <v-tooltip bottom>
+            <template #activator="{ on }">
+              <v-btn icon class="mx-2" v-on="on">
+                <a @click="dwnData">
+                  <v-img
+                    contain
+                    width="30px"
+                    :src="baseUrl + '/img/icons/tei.png'"
+                  />
+                </a>
+              </v-btn>
+            </template>
+            <span>TEI/XML</span>
+          </v-tooltip>
+          <v-tooltip bottom>
+            <template #activator="{ on }">
+              <v-btn icon class="mx-2" v-on="on">
+                <a :href="item.manifest" target="_blank">
+                  <v-img
+                    contain
+                    width="30px"
+                    :src="baseUrl + '/img/icons/manifest.png'"
+                  />
+                </a>
+              </v-btn>
+            </template>
+            <span>IIIF</span>
+          </v-tooltip>
+          <v-tooltip v-if="item.manifest" bottom>
+            <template #activator="{ on }">
+              <v-btn
+                class="mx-2"
+                :href="
+                  baseUrl + '/mirador/?manifest=' +
+                  item.manifest +
+                  '&canvas=' +
+                  item.canvas
+                "
+                icon
+                target="_blank"
+                v-on="on"
+                ><v-img
                   contain
                   width="30px"
-                  :src="baseUrl + '/img/icons/tei.png'"
-                />
-              </a>
-            </v-btn>
-          </template>
-          <span>TEI/XML</span>
-        </v-tooltip>
-        <v-tooltip bottom>
-          <template #activator="{ on }">
-            <v-btn icon class="mx-2" v-on="on">
-              <a :href="item.manifest" target="_blank">
-                <v-img
-                  contain
-                  width="30px"
-                  :src="baseUrl + '/img/icons/manifest.png'"
-                />
-              </a>
-            </v-btn>
-          </template>
-          <span>IIIF</span>
-        </v-tooltip>
-        <v-tooltip v-if="item.manifest" bottom>
-          <template #activator="{ on }">
-            <v-btn
-              class="mx-2"
-              :href="
-                baseUrl + '/mirador/?manifest=' +
-                item.manifest +
-                '&canvas=' +
-                item.canvas
-              "
-              icon
-              target="_blank"
-              v-on="on"
-              ><v-img
-                contain
-                width="30px"
-                :src="baseUrl + '/img/icons/mirador3.svg'"
-            /></v-btn>
-          </template>
-          <span>Mirador</span>
-        </v-tooltip>
+                  :src="baseUrl + '/img/icons/mirador3.svg'"
+              /></v-btn>
+            </template>
+            <span>Mirador</span>
+          </v-tooltip>
 
-        <v-tooltip bottom>
-          <template #activator="{ on }">
-            <v-btn icon class="mx-2" v-on="on">
-              <a @click="dwnJson">
-                <v-img
-                  contain
-                  width="30px"
-                  :src="baseUrl + '/img/icons/json-logo.svg'"
-                />
-              </a>
-            </v-btn>
-          </template>
-          <span>JSON</span>
-        </v-tooltip>
+          <v-tooltip bottom>
+            <template #activator="{ on }">
+              <v-btn icon class="mx-2" v-on="on">
+                <a @click="dwnJson">
+                  <v-img
+                    contain
+                    width="30px"
+                    :src="baseUrl + '/img/icons/json-logo.svg'"
+                  />
+                </a>
+              </v-btn>
+            </template>
+            <span>JSON</span>
+          </v-tooltip>
 
-        <ResultOption
-          :item="{
-            label: title,
-            url: url,
-          }"
-        />
-      </div>
+          <ResultOption
+            :item="{
+              label: title,
+              url: url,
+            }"
+          />
+        </div>
 
-      <v-simple-table class="mt-10">
-        <template #default>
-          <tbody>
-            <tr>
-              <td width="30%">{{ $t('category') }}</td>
-              <td style="overflow-wrap: break-word" class="py-5">
-                <v-treeview dense open-all :items="categories">
-                  <template #label="{ item }">
-                    <nuxt-link
-                      :to="
-                            localePath({ name: 'search', query: item.query })
-                          "
-                      >{{ item.name }}</nuxt-link
-                    >
-                    <v-tooltip bottom v-if="item.name.split(' ')[0].includes('m')">
-                      <template #activator="{ on }">
-                        <v-btn
-                          icon
-                          :to="
-                        localePath({
-                          name: 'ad-id',
-                          params: { id: item.name.split(' ')[0] },
-                        })
-                      "
-                          v-on="on"
-                        >
-                          <v-icon>mdi-book</v-icon>
-                        </v-btn>
-                      </template>
-                      <span>{{ $t('detail') }}</span>
-                    </v-tooltip>
-                  </template>
-                </v-treeview>
-              </td>
-            </tr>
-            <tr v-if="dates.length > 0">
-              <td width="30%">{{ $t('date') }}</td>
-              <td style="overflow-wrap: break-word" class="py-5">
-                <v-treeview dense open-all :items="dates">
-                  <template #label="{ item }">
-                    <nuxt-link
-                      :to="localePath({ name: 'search', query: item.query })"
-                      >{{ item.name }}</nuxt-link
-                    >
-
-                    <v-tooltip v-if="item.name.split('-').length > 1" bottom>
-                      <template #activator="{ on }">
-                        <v-btn
-                          icon
-                          :to="
-                            localePath({
-                              name: 'calendar-type-year-month-day',
-                              params: getCalendarParams(item.name),
-                            })
-                          "
-                          v-on="on"
-                        >
-                          <v-icon>mdi-calendar</v-icon>
-                        </v-btn>
-                      </template>
-                      <span>{{ $t('calendar') }}</span>
-                    </v-tooltip>
-                  </template>
-                </v-treeview>
-              </td>
-            </tr>
-
-            <template v-for="(tag, key) in fields">
-              <tr v-if="item[tag].length > 0" :key="key">
-                <td width="30%">{{ $t(tag) }}</td>
+        <v-simple-table class="mt-10">
+          <template #default>
+            <tbody>
+              <tr>
+                <td width="30%">{{ $t('category') }}</td>
                 <td style="overflow-wrap: break-word" class="py-5">
-                  <template v-for="(value, key2) in getValues(item[tag])">
-                    <span :key="key2" class="mr-4">
+                  <v-treeview dense open-all :items="categories">
+                    <template #label="{ item }">
                       <nuxt-link
                         :to="
-                        localePath({
-                                name: 'search',
-                                query: getQuery(tag, value),
-                              })
-                          
-                        "
+                              localePath({ name: 'search', query: item.query })
+                            "
+                        >{{ item.name }}</nuxt-link
                       >
-                        {{ value }}
-                      </nuxt-link>
+                      <v-tooltip bottom v-if="item.name.split(' ')[0].includes('m')">
+                        <template #activator="{ on }">
+                          <v-btn
+                            icon
+                            :to="
+                          localePath({
+                            name: 'ad-id',
+                            params: { id: item.name.split(' ')[0] },
+                          })
+                        "
+                            v-on="on"
+                          >
+                            <v-icon>mdi-book</v-icon>
+                          </v-btn>
+                        </template>
+                        <span>{{ $t('detail') }}</span>
+                      </v-tooltip>
+                    </template>
+                  </v-treeview>
+                </td>
+              </tr>
+              <tr v-if="dates.length > 0">
+                <td width="30%">{{ $t('date') }}</td>
+                <td style="overflow-wrap: break-word" class="py-5">
+                  <v-treeview dense open-all :items="dates">
+                    <template #label="{ item }">
+                      <nuxt-link
+                        :to="localePath({ name: 'search', query: item.query })"
+                        >{{ item.name }}</nuxt-link
+                      >
 
-                      <v-tooltip bottom>
+                      <v-tooltip v-if="item.name.split('-').length > 1" bottom>
                         <template #activator="{ on }">
                           <v-btn
                             icon
                             :to="
                               localePath({
-                            name: 'entity-entity-id',
-                            params: {
-                              entity: tag,
-                              id: value,
-                            },
-                          })
+                                name: 'calendar-type-year-month-day',
+                                params: getCalendarParams(item.name),
+                              })
                             "
                             v-on="on"
                           >
-                            <v-icon>{{tag === "spatial" ? "mdi-map" : "mdi-account"}}</v-icon>
+                            <v-icon>mdi-calendar</v-icon>
                           </v-btn>
                         </template>
-                        <span>{{ $t('detail') }}</span>
+                        <span>{{ $t('calendar') }}</span>
                       </v-tooltip>
-                    </span>
-                  </template>
+                    </template>
+                  </v-treeview>
                 </td>
               </tr>
-            </template>
-          </tbody>
-        </template>
-      </v-simple-table>
 
-      <HorizontalItems
-        v-if="false"
-        :data="entity.agential"
-        :title="$t('agential')"
-        height="200"
-      />
+              <template v-for="(tag, key) in fields">
+                <tr v-if="item[tag].length > 0" :key="key">
+                  <td width="30%">{{ $t(tag) }}</td>
+                  <td style="overflow-wrap: break-word" class="py-5">
+                    <template v-for="(value, key2) in getValues(item[tag])">
+                      <span :key="key2" class="mr-4">
+                        <nuxt-link
+                          :to="
+                          localePath({
+                                  name: 'search',
+                                  query: getQuery(tag, value),
+                                })
+                            
+                          "
+                        >
+                          {{ value }}
+                        </nuxt-link>
 
-      <HorizontalItems
-        v-if="false"
-        :data="entity.spatial"
-        :title="$t('spatial')"
-        height="200"
-      />
+                        <v-tooltip bottom>
+                          <template #activator="{ on }">
+                            <v-btn
+                              icon
+                              :to="
+                                localePath({
+                              name: 'entity-entity-id',
+                              params: {
+                                entity: tag,
+                                id: value,
+                              },
+                            })
+                              "
+                              v-on="on"
+                            >
+                              <v-icon>{{tag === "spatial" ? "mdi-map" : "mdi-account"}}</v-icon>
+                            </v-btn>
+                          </template>
+                          <span>{{ $t('detail') }}</span>
+                        </v-tooltip>
+                      </span>
+                    </template>
+                  </td>
+                </tr>
+              </template>
+            </tbody>
+          </template>
+        </v-simple-table>
 
-      <!--
+        <HorizontalItems
+          v-if="false"
+          :data="entity.agential"
+          :title="$t('agential')"
+          height="200"
+        />
 
-      <dl class="row mb-5">
-        <dt class="col-sm-3 text-muted pb-0"><b>URL</b></dt>
-        <dd class="col-sm-9" style="overflow-wrap: break-word">
-          <a :href="url">{{ url }}</a>
-        </dd>
-      </dl>
+        <HorizontalItems
+          v-if="false"
+          :data="entity.spatial"
+          :title="$t('spatial')"
+          height="200"
+        />
 
-      <dl class="row mb-5">
-        <dt class="col-sm-3 text-muted pb-0">
-          <b>{{ $t('category') }}</b>
-        </dt>
-        <dd class="col-sm-9" style="overflow-wrap: break-word">
-          <v-treeview dense open-all :items="categories">
-            <template #label="{ item }">
-              <nuxt-link
-                :to="localePath({ name: 'search', query: item.query })"
-                >{{ item.name }}</nuxt-link
-              >
-            </template>
-          </v-treeview>
-        </dd>
-      </dl>
+        <!--
 
-      <dl class="row mb-5">
-        <dt class="col-sm-3 text-muted pb-0">
-          <b>{{ $t('date') }}</b>
-        </dt>
-        <dd class="col-sm-9" style="overflow-wrap: break-word">
-          <v-treeview dense open-all :items="dates">
-            <template #label="{ item }">
-              <nuxt-link
-                :to="localePath({ name: 'search', query: item.query })"
-                >{{ item.name }}</nuxt-link
-              >
-            </template>
-          </v-treeview>
-        </dd>
-      </dl>
-
-      <template v-for="(tag, key) in ['agential', 'spatial' /*, 'temporal'*/]">
-        <dl v-if="item[tag].length > 0" :key="key" class="row mb-5">
-          <dt class="col-sm-3 text-muted pb-0">
-            <b>{{ $t(tag) }}</b>
-          </dt>
-          <dd class="col-sm-9">
-            <template v-for="(value, key2) in getValues(item[tag])">
-              <span :key="key2" class="mr-4">
-                <nuxt-link
-                  :to="
-                    localePath({
-                      name: 'entity-entity-id',
-                      params: {
-                        entity: tag,
-                        id: value,
-                      },
-                    })
-                  "
-                >
-                  {{ value }}
-                </nuxt-link>
-
-                <v-tooltip bottom>
-                  <template #activator="{ on }">
-                    <v-btn
-                      icon
-                      :to="
-                        localePath({
-                          name: 'search',
-                          query: getQuery(tag, value),
-                        })
-                      "
-                      v-on="on"
-                    >
-                      <v-icon>mdi-magnify</v-icon>
-                    </v-btn>
-                  </template>
-                  <span>{{ $t('search') }}</span>
-                </v-tooltip>
-              </span>
-            </template>
+        <dl class="row mb-5">
+          <dt class="col-sm-3 text-muted pb-0"><b>URL</b></dt>
+          <dd class="col-sm-9" style="overflow-wrap: break-word">
+            <a :href="url">{{ url }}</a>
           </dd>
         </dl>
-      </template>
 
-      -->
+        <dl class="row mb-5">
+          <dt class="col-sm-3 text-muted pb-0">
+            <b>{{ $t('category') }}</b>
+          </dt>
+          <dd class="col-sm-9" style="overflow-wrap: break-word">
+            <v-treeview dense open-all :items="categories">
+              <template #label="{ item }">
+                <nuxt-link
+                  :to="localePath({ name: 'search', query: item.query })"
+                  >{{ item.name }}</nuxt-link
+                >
+              </template>
+            </v-treeview>
+          </dd>
+        </dl>
 
-      <HorizontalItems
-        v-if="false"
-        :title="`${$t('related')} ${$t('items')}`"
-        :data="moreLikeThisData"
-      />
-    </v-container>
+        <dl class="row mb-5">
+          <dt class="col-sm-3 text-muted pb-0">
+            <b>{{ $t('date') }}</b>
+          </dt>
+          <dd class="col-sm-9" style="overflow-wrap: break-word">
+            <v-treeview dense open-all :items="dates">
+              <template #label="{ item }">
+                <nuxt-link
+                  :to="localePath({ name: 'search', query: item.query })"
+                  >{{ item.name }}</nuxt-link
+                >
+              </template>
+            </v-treeview>
+          </dd>
+        </dl>
 
-    <v-sheet class="text-center pa-10 mt-10">
-      <small>
-        <h3 class="mb-5">{{ $t('license') }}</h3>
+        <template v-for="(tag, key) in ['agential', 'spatial' /*, 'temporal'*/]">
+          <dl v-if="item[tag].length > 0" :key="key" class="row mb-5">
+            <dt class="col-sm-3 text-muted pb-0">
+              <b>{{ $t(tag) }}</b>
+            </dt>
+            <dd class="col-sm-9">
+              <template v-for="(value, key2) in getValues(item[tag])">
+                <span :key="key2" class="mr-4">
+                  <nuxt-link
+                    :to="
+                      localePath({
+                        name: 'entity-entity-id',
+                        params: {
+                          entity: tag,
+                          id: value,
+                        },
+                      })
+                    "
+                  >
+                    {{ value }}
+                  </nuxt-link>
 
-        <template v-if="$i18n.locale == 'ja'">
-          <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
-            ><img
-              alt="クリエイティブ・コモンズ・ライセンス"
-              style="border-width: 0"
-              src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a
-          ><br />この作品は<a
-            rel="license"
-            href="http://creativecommons.org/licenses/by/4.0/"
-            >クリエイティブ・コモンズ 表示 4.0 国際 ライセンス</a
-          >の下に提供されています。
+                  <v-tooltip bottom>
+                    <template #activator="{ on }">
+                      <v-btn
+                        icon
+                        :to="
+                          localePath({
+                            name: 'search',
+                            query: getQuery(tag, value),
+                          })
+                        "
+                        v-on="on"
+                      >
+                        <v-icon>mdi-magnify</v-icon>
+                      </v-btn>
+                    </template>
+                    <span>{{ $t('search') }}</span>
+                  </v-tooltip>
+                </span>
+              </template>
+            </dd>
+          </dl>
         </template>
-        <template v-else>
-          <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
-            ><img
-              alt="Creative Commons License"
-              style="border-width: 0"
-              src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a
-          ><br />This work is licensed under a
-          <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
-            >Creative Commons Attribution 4.0 International License</a
-          >.
-        </template>
-      </small>
-    </v-sheet>
-  </div>
+
+        -->
+
+        <HorizontalItems
+          v-if="false"
+          :title="`${$t('related')} ${$t('items')}`"
+          :data="moreLikeThisData"
+        />
+      </v-container>
+
+      <v-sheet class="text-center pa-10 mt-10">
+        <small>
+          <h3 class="mb-5">{{ $t('license') }}</h3>
+
+          <template v-if="$i18n.locale == 'ja'">
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+              ><img
+                alt="クリエイティブ・コモンズ・ライセンス"
+                style="border-width: 0"
+                src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a
+            ><br />この作品は<a
+              rel="license"
+              href="http://creativecommons.org/licenses/by/4.0/"
+              >クリエイティブ・コモンズ 表示 4.0 国際 ライセンス</a
+            >の下に提供されています。
+          </template>
+          <template v-else>
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+              ><img
+                alt="Creative Commons License"
+                style="border-width: 0"
+                src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a
+            ><br />This work is licensed under a
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+              >Creative Commons Attribution 4.0 International License</a
+            >.
+          </template>
+        </small>
+      </v-sheet>
+    </div>
+  </client-only>
 </template>
 
 <script>
@@ -483,7 +485,7 @@ export default {
       github: process.env.github_pages,
       moreLikeThisData: [],
       fields: ['agential', 'spatial' /*, 'temporal' */],
-      width: window.innerWidth,
+      width: -1,
       entity: {
         agential: [],
         spatial: [],
@@ -634,6 +636,9 @@ export default {
     //this.getEntity('spatial')
     
     //this.getSimilarItems()
+    if (process.browser) {
+      this.width = window.innerWidth
+    }
 
     
   },

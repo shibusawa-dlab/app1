@@ -44,19 +44,21 @@
       -->
       <v-row>
         <v-col cols="12" :sm="9">
-          <network
-            ref="network"
-            :nodes="nodes"
-            :edges="edges"
-            :options="options"
-            style="height: 800px; background-color: #f0f4c3"
-            @click="highlight"
-            @dblclick="onNodeSelected"
-            @double-click="aaa"
-            @stabilized="stabilized"
-          >
-            <!-- @click="onNodeSelected" -->
-          </network>
+          <no-ssr>
+            <network
+              ref="network"
+              :nodes="nodes"
+              :edges="edges"
+              :options="options"
+              style="height: 800px; background-color: #f0f4c3"
+              @click="highlight"
+              @dblclick="onNodeSelected"
+              @double-click="aaa"
+              @stabilized="stabilized"
+            >
+              <!-- @click="onNodeSelected" -->
+            </network>
+          </no-ssr>
         </v-col>
         <v-col cols="12" :sm="3">
           <v-sheet class="grey lighten-3 pa-2"

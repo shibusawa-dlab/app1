@@ -228,6 +228,7 @@
         <v-tabs-items v-model="tab" class="mt-5">
       <v-tab-item
       >
+      <no-ssr>
         <network
                 ref="network"
                 :nodes="network.nodes"
@@ -239,6 +240,7 @@
                 @stabilized="stabilized"
               >
               </network>
+              </no-ssr>
       </v-tab-item>
 
       <v-tab-item
