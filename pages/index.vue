@@ -5,7 +5,7 @@
         min-height="200px"
         max-height="300px"
         contain
-        :src="baseUrl + '/img/ogp/home.png'"
+        :src="baseUrl + '/img/ogp/home.jpeg'"
       >
         <v-row align="center" class="white--text pa-2 fill-height text-center">
           <v-col v-if="false">

@@ -21,6 +21,8 @@ const routerBase =
       }
     : {}
 
+const ssr = environment === "production2" ? true : false
+
 const GOOGLE_ANALYTICS_ID = 'G-DHZMRZFZ54'
 
 // path
@@ -48,7 +50,7 @@ const manifestIcon = 'img/icons/icon-512.png'
 
 export default {
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
-  ssr: false,
+  ssr,
 
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
@@ -264,5 +266,61 @@ export default {
 
   ...routerBase,
 
-  generate: {},
+  generate: {
+    exclude: [
+      /^\/tei/ // /admin で始まるパス
+    ],
+    routes() {
+      const pages = []
+
+      const fs = require('fs')
+
+      const docs = JSON.parse(
+        fs.readFileSync('static/data/docs.json')
+      )
+
+      for(const id in docs){
+        pages.push({
+          route: `/item/${id}`,
+          payload: docs[id],
+        })
+
+        pages.push({
+          route: `/en/item/${id}`,
+          payload: docs[id],
+        })
+
+      }
+
+      /*
+      const fs = require('fs')
+
+      const years = JSON.parse(
+        fs.readFileSync('static/data/years.json')
+      )
+
+      const docs = JSON.parse(
+        fs.readFileSync('static/data/docs.json')
+      )
+
+      for(const year in years){
+        for(const month in years[year]){
+          console.log({year, month})
+          pages.push({
+            route: `/calendar/month/${year}/${month}`,
+            payload: docs,
+          })
+
+          pages.push({
+            route: `/en/calendar/month/${year}/${month}`,
+            payload: docs,
+          })
+        }
+      }
+      */
+
+      return pages
+      
+    }
+  },
 }

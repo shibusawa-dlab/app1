@@ -153,6 +153,7 @@ function formatDate(dt) {
 }
 
 export default {
+  /*
   async asyncData({ payload, app, $axios }) {
     if (payload) {
       return { item: payload }
@@ -190,19 +191,6 @@ export default {
           results.hits.push(e)
         }
       }
-
-      /*
-      const client = algoliasearch(config.appId, config.apiKey)
-      const index = client.initIndex(config.index)
-      */
-      
-
-      /*
-      const results = await index.search('', {
-        filters: 'yearAndMonth:' + query,
-        hitsPerPage: 50,
-      })
-      */
 
       const events = []
       for (let i = 0; i < results.hits.length; i++) {
@@ -260,6 +248,18 @@ export default {
       return { value, type, events, query }
     }
   },
+  */
+  async asyncData({ payload, app, $axios }) {
+    if (payload) {
+      return { docs: payload }
+    } else {
+
+      const docs = await $axios.$get(process.env.BASE_URL + "/data/docs.json");
+
+      return {docs}
+
+    }
+  },
   data: () => ({
     baseUrl: process.env.BASE_URL,
     initFlag: true,
@@ -275,6 +275,11 @@ export default {
     selectedEvent: {},
     selectedElement: null,
     selectedOpen: false,
+
+    value: {},
+    type: {},
+    events: {},
+    query: {}
   }),
 
   head() {
@@ -305,7 +310,103 @@ export default {
       ],
     }
   },
+  created() {
+    // 初期値
+    let value = '1914-01-02'
+    let type = 'custom-daily'
 
+    const routeQuery = this.$route
+
+    if(routeQuery.params.year){
+      const params = routeQuery.params
+      value =
+        params.year +
+        '-' +
+        zfill(params.month, 2) +
+        '-' +
+        zfill(params.day, 2)
+      if (params.type !== 'year') {
+        type = params.type
+      }
+    }
+
+    const es = value.split('-')
+
+    const query = es[0] + '-' + es[1]
+
+    const response = this.docs;
+
+    const results = {
+      hits: []
+    }
+
+    for(const key in response){
+      const e = response[key]
+      if(e.yearAndMonth === query){
+        results.hits.push(e)
+      }
+    }
+
+    const events = []
+    for (let i = 0; i < results.hits.length; i++) {
+      const obj = results.hits[i]
+      //console.log(obj)
+
+      if (type !== 'month' && Object.keys(obj.time).length > 0) {
+        for (const time in obj.time) {
+          const obj2 = obj.time[time]
+
+          let date2 = `${obj.temporal} ${time}`
+
+          const h = Number(time.split(":")[0])
+
+          // 0時から4時までの場合
+          if(h >= 0 && h < 4){
+            var today = new Date(date2)
+            var tomorrow = new Date(today.getTime() + (24 * 60 * 60 * 1000));
+            date2 = formatDate(tomorrow)+" "+time
+          } else if (h >= 24){
+            var today = new Date(`${obj.temporal} 00:00:00`)
+            var tomorrow = new Date(today.getTime() + (24 * 60 * 60 * 1000));
+            const times = time.split(":")
+            const newH = h - 24
+            const newTime = ( '00' + newH ).slice( -2 ) + ":" + times[1] + ":" + times[2]
+            date2 = formatDate(tomorrow)+" "+newTime
+          }
+
+          
+          const event2 = {
+            name: obj2.replace(/<[^>]*>?/gm, ''),
+            start: date2,
+            end: date2,
+            color: getColor2(obj.type), // getColor(obj.label),
+            id: obj.objectID,
+            xml: obj2,
+          }
+
+          events.push(event2)
+        }
+      } else {
+        const date = new Date(`${obj.temporal}T00:00:00`)
+        const event = {
+          name: obj.label,
+          start: date,
+          end: date,
+          color: getColor2(obj.type), // getColor2(obj.label),
+          id: obj.objectID,
+          xml: obj.xml,
+        }
+        events.push(event)
+      }
+    }
+
+    //return { value, type, events, query }
+    this.value = value
+    this.type = type
+    this.events = events
+    this.query = query
+
+  },
   computed: {
     url() {
       return this.baseUrl + this.$route.path
@@ -314,12 +415,41 @@ export default {
       return this.$i18n.locale
     },
     title() {
+      let value = '1914-01-02'
+      let type = 'custom-daily'
+
+      const routeQuery = this.$route
+
+      if(routeQuery.params.year){
+        const params = routeQuery.params
+        value =
+          params.year +
+          '-' +
+          zfill(params.month, 2) +
+          '-' +
+          zfill(params.day, 2)
+        if (params.type !== 'year') {
+          type = params.type
+        }
+      }
+
+      const es = value.split('-')
+
+      /*
+
+      const query = es[0] + '-' + es[1]
+
       // 以下、冗長
-      const query = this.query
+      //const query = this.query
+      
       if (!query) {
         return query
       }
-      const es = this.query.split('-')
+      
+      const es = query.split('-')
+
+      */
+      
       const monthEnglishList = [
         'Jan.',
         'Feb.',
