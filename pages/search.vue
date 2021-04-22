@@ -579,23 +579,42 @@ export default {
     },
 
     highlightRelation(xml, other) {
-      xml = String(xml).replace(/<[^>]*>?/gm, '')
-      xml = xml
-        .split(other)
-        .join(
-          '<span style="font-size : large; font-weight: bold; background-color: #FFF59D;">' +
-            other +
-            '</span>'
-        )
+      const others = []
+      if(other && !others.includes(other)){
+        others.push(other)
+      }
 
-      const id = this.$route.params.id
-      xml = xml
-        .split(id)
-        .join(
-          '<span style="font-size : large; font-weight: bold; background-color: #FFF59D;">' +
-            id +
-            '</span>'
-        )
+      const filters = this.filters
+      for(let filter of filters){
+        const label = filter.value
+        if(!others.includes(label) ){
+          others.push(label)
+        }
+      }
+
+      xml = String(xml).replace(/<[^>]*>?/gm, '')
+
+      for(const other2 of others){
+        
+        xml = xml
+          .split(other2)
+          .join(
+            '<span style="font-size : large; font-weight: bold; background-color: #FFF59D;">' +
+              other2 +
+              '</span>'
+          )
+
+        /*
+        const id = this.$route.params.id
+        xml = xml
+          .split(id)
+          .join(
+            '<span style="font-size : large; font-weight: bold; background-color: #FFF59D;">' +
+              id +
+              '</span>'
+          )
+          */
+      }
 
       return xml
     },
