@@ -231,7 +231,7 @@ export default class PageCategory extends Vue {
 
     this.total = list.length
 
-    list = list.splice(from, from + this.perPage)
+    list = list.slice(from, from + this.perPage)
 
     this.people = list
     this.loadingFlag = false
