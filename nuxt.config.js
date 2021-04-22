@@ -21,7 +21,7 @@ const routerBase =
       }
     : {}
 
-const ssr = environment === "production2" ? true : false
+const ssr = false // environment === "production2" ? true : false
 
 const GOOGLE_ANALYTICS_ID = 'G-DHZMRZFZ54'
 
@@ -273,6 +273,8 @@ export default {
     routes() {
       const pages = []
 
+      /*
+
       const fs = require('fs')
 
       const docs = JSON.parse(
@@ -291,6 +293,8 @@ export default {
         })
 
       }
+
+      */
 
       /*
       const fs = require('fs')
