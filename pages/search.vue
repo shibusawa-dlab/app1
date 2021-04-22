@@ -16,27 +16,6 @@
         『渋沢栄一伝記資料』別巻第1, 第2の本文を対象に検索します。
       </p>
 
-      <v-row class="mt-2" dense>
-        <v-col cols="12" md="12">
-          <!-- <ais-search-box :placeholder="$t('add_a_search_term')"
-          /> -->
-
-          <v-text-field
-          background-color="grey lighten-3"
-          filled
-              rounded
-            v-model="q"
-            dense
-            :placeholder="$t('add_a_search_term')"
-            append-icon="mdi-magnify"
-            clearable
-              clear-icon="mdi-close-circle"
-            @click:append="search(q, $event)"
-            @keydown.enter="search(q, $event)"
-          ></v-text-field>
-        </v-col>
-      </v-row>
-
       <template v-if="loading">
         <div class="text-center">
           <v-progress-circular
@@ -50,6 +29,28 @@
       </template>
 
       <template v-else>
+
+        <v-row class="mt-2" dense>
+          <v-col cols="12" md="12">
+            <!-- <ais-search-box :placeholder="$t('add_a_search_term')"
+            /> -->
+
+            <v-text-field
+            background-color="grey lighten-3"
+            filled
+                rounded
+              v-model="q"
+              dense
+              :placeholder="$t('add_a_search_term')"
+              append-icon="mdi-magnify"
+              clearable
+                clear-icon="mdi-close-circle"
+              @click:append="search(q, $event)"
+              @keydown.enter="search(q, $event)"
+            ></v-text-field>
+          </v-col>
+        </v-row>
+
         <div v-if="filters.length > 0">
           <v-chip
             v-for="(filter, key) in filters"
