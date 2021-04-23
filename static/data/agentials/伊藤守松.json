@@ -2,6 +2,12 @@
     "edges": [
         {
             "color": "lightgrey",
+            "from": "斎藤恒三",
+            "to": "山辺丈夫",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
             "from": "神田鐳蔵",
             "to": "浅野総一郎",
             "value": 5
@@ -29,15 +35,20 @@
             "from": "尾崎行雄",
             "to": "畑弥右衛門",
             "value": 5
-        },
-        {
-            "color": "lightgrey",
-            "from": "斎藤恒三",
-            "to": "山辺丈夫",
-            "value": 4
         }
     ],
     "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "斎藤恒三",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "斎藤恒三",
+            "shape": "image"
+        },
         {
             "borderWidth": 4,
             "color": {
@@ -79,9 +90,10 @@
                 "border": "lightgreen"
             },
             "count": 4,
-            "id": "斎藤恒三",
+            "description": "山辺 丈夫（やまのべ たけお、1851年12月30日（嘉永4年12月8日） - 1920年5月14日）は、明治期の実業家、紡績技師、津和野藩士。従五位。",
+            "id": "山辺丈夫",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "斎藤恒三",
+            "label": "山辺丈夫",
             "shape": "image"
         },
         {
@@ -117,18 +129,6 @@
             "id": "藤山雷太",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fujiyama_Raita.jpg?width=300",
             "label": "藤山雷太",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 4,
-            "description": "山辺 丈夫（やまのべ たけお、1851年12月30日（嘉永4年12月8日） - 1920年5月14日）は、明治期の実業家、紡績技師、津和野藩士。従五位。",
-            "id": "山辺丈夫",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "山辺丈夫",
             "shape": "image"
         }
     ]

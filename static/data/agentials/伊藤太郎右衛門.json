@@ -3,8 +3,20 @@
         {
             "color": "lightgrey",
             "from": "井口正之",
+            "to": "増田明六",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "井口正之",
             "to": "浅野総一郎",
             "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "井口正之",
+            "to": "成瀬仁蔵",
+            "value": 4
         },
         {
             "color": "lightgrey",
@@ -14,56 +26,14 @@
         },
         {
             "color": "lightgrey",
-            "from": "井口正之",
-            "to": "増田明六",
-            "value": 4
-        },
-        {
-            "color": "lightgrey",
-            "from": "井口正之",
-            "to": "成瀬仁蔵",
-            "value": 4
-        },
-        {
-            "color": "lightgrey",
             "from": "諸井恒平",
-            "to": "成瀬仁蔵",
+            "to": "大川平三郎",
             "value": 4
-        },
-        {
-            "color": "lightgrey",
-            "from": "諸井恒平",
-            "to": "蓮沼門三",
-            "value": 5
         },
         {
             "color": "lightgrey",
             "from": "諸井恒平",
             "to": "高田早苗",
-            "value": 4
-        },
-        {
-            "color": "lightgrey",
-            "from": "諸井恒平",
-            "to": "指田義雄",
-            "value": 4
-        },
-        {
-            "color": "lightgrey",
-            "from": "諸井恒平",
-            "to": "明石照男",
-            "value": 4
-        },
-        {
-            "color": "lightgrey",
-            "from": "諸井恒平",
-            "to": "佐々木勇之助",
-            "value": 6
-        },
-        {
-            "color": "lightgrey",
-            "from": "諸井恒平",
-            "to": "白岩竜平",
             "value": 4
         },
         {
@@ -81,13 +51,43 @@
         {
             "color": "lightgrey",
             "from": "諸井恒平",
-            "to": "浅野良三",
+            "to": "成瀬仁蔵",
             "value": 4
         },
         {
             "color": "lightgrey",
             "from": "諸井恒平",
-            "to": "大川平三郎",
+            "to": "明石照男",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "諸井恒平",
+            "to": "蓮沼門三",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "諸井恒平",
+            "to": "指田義雄",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "諸井恒平",
+            "to": "佐々木勇之助",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "諸井恒平",
+            "to": "白岩竜平",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "諸井恒平",
+            "to": "浅野良三",
             "value": 4
         }
     ],
@@ -166,6 +166,18 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 5,
+            "description": "蓮沼 門三（はすぬま もんぞう、1882年2月22日 - 1980年6月6日）は、社会教育団体「修養団」を設立した日本の社会教育家。",
+            "id": "蓮沼門三",
+            "image": "http://ja.wikipedia.org/wiki/Special:FilePath/Statue_of_Hasunuma_Monzou.jpg?width=300",
+            "label": "蓮沼門三",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
             "count": 4,
             "description": "明石 照男（あかし てるお、1881年3月30日 - 1956年9月29日）は、岡山県和気郡英保村（現・備前市吉永町）出身の実業家、銀行家。",
             "id": "明石照男",
@@ -179,32 +191,9 @@
                 "border": "lightgreen"
             },
             "count": 4,
-            "id": "白岩竜平",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "白岩竜平",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 4,
             "id": "増田明六",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "増田明六",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 5,
-            "description": "蓮沼 門三（はすぬま もんぞう、1882年2月22日 - 1980年6月6日）は、社会教育団体「修養団」を設立した日本の社会教育家。",
-            "id": "蓮沼門三",
-            "image": "http://ja.wikipedia.org/wiki/Special:FilePath/Statue_of_Hasunuma_Monzou.jpg?width=300",
-            "label": "蓮沼門三",
             "shape": "image"
         },
         {
@@ -228,6 +217,17 @@
             "id": "成瀬仁蔵",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jinzo_Naruse.JPG?width=300",
             "label": "成瀬仁蔵",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "白岩竜平",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "白岩竜平",
             "shape": "image"
         },
         {

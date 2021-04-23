@@ -13,29 +13,8 @@
       <h2>{{ $t('fulltext_search') }}</h2>
 
       <p class="my-2">
-        『渋沢栄一伝記資料』別巻第1, 第2の本文を対象に検索します。
+        『渋沢栄一伝記資料』別巻第1, 第2の本文を対象に検索します。検索結果に表れるキーワードが色付けされますが、ファセット・ナビゲーションを利用した際には機能しない場合があります。
       </p>
-
-      <v-row class="mt-2" dense>
-        <v-col cols="12" md="12">
-          <!-- <ais-search-box :placeholder="$t('add_a_search_term')"
-          /> -->
-
-          <v-text-field
-          background-color="grey lighten-3"
-          filled
-              rounded
-            v-model="q"
-            dense
-            :placeholder="$t('add_a_search_term')"
-            append-icon="mdi-magnify"
-            clearable
-              clear-icon="mdi-close-circle"
-            @click:append="search(q, $event)"
-            @keydown.enter="search(q, $event)"
-          ></v-text-field>
-        </v-col>
-      </v-row>
 
       <template v-if="loading">
         <div class="text-center">
@@ -50,6 +29,28 @@
       </template>
 
       <template v-else>
+
+        <v-row class="mt-2" dense>
+          <v-col cols="12" md="12">
+            <!-- <ais-search-box :placeholder="$t('add_a_search_term')"
+            /> -->
+
+            <v-text-field
+            background-color="grey lighten-3"
+            filled
+                rounded
+              v-model="q"
+              dense
+              :placeholder="$t('add_a_search_term')"
+              append-icon="mdi-magnify"
+              clearable
+                clear-icon="mdi-close-circle"
+              @click:append="search(q, $event)"
+              @keydown.enter="search(q, $event)"
+            ></v-text-field>
+          </v-col>
+        </v-row>
+
         <div v-if="filters.length > 0">
           <v-chip
             v-for="(filter, key) in filters"
@@ -360,16 +361,28 @@ export default {
 
       let ids = []
 
+      //全文
       if (q === '') {
         ids = Object.keys(docs)
       } else {
+        const terms = q.split("　").join(" ").split(" ")
+        
         for (const key in index) {
-          if (key.includes(q)) {
+          let flg = true
+          for(const term of terms){
+            if (!key.includes(term)) {
+              flg = false
+              break
+            }
+          }
+
+          if(flg){
             ids = ids.concat(index[key])
           }
         }
       }
 
+      //ファセット
       const facets = this.facets
 
       for (let queryField in query) {
@@ -390,7 +403,7 @@ export default {
 
       this.total = ids.length
 
-      this.ids = ids
+      this.ids = ids.sort()
 
       this.getAggs()
     },
@@ -580,9 +593,13 @@ export default {
 
     highlightRelation(xml, other) {
       const others = []
-      if(other && !others.includes(other)){
-        others.push(other)
-      }
+
+      const terms = other.split("　").join(" ").split(" ")
+      for(const term of terms){
+        if(term && !others.includes(term)){
+          others.push(term)
+        }
+      }      
 
       const filters = this.filters
       for(let filter of filters){
@@ -594,31 +611,39 @@ export default {
 
       xml = String(xml).replace(/<[^>]*>?/gm, '')
 
-      for(const other2 of others){
+      const map = {}
+
+      for(const other2 of others.sort(function(a, b) {return b.length - a.length;})){
+
+        const uuid = getUniqueStr()
+        map[uuid] = '<span style="font-size : large; font-weight: bold; background-color: #FFF59D;">' +
+              other2 +
+              '</span>'
         
         xml = xml
           .split(other2)
           .join(
-            '<span style="font-size : large; font-weight: bold; background-color: #FFF59D;">' +
-              other2 +
-              '</span>'
+            uuid
           )
+      }
 
-        /*
-        const id = this.$route.params.id
+      for(const uuid in map){
         xml = xml
-          .split(id)
+          .split(uuid)
           .join(
-            '<span style="font-size : large; font-weight: bold; background-color: #FFF59D;">' +
-              id +
-              '</span>'
+            map[uuid]
           )
-          */
       }
 
       return xml
     },
   },
+}
+
+function getUniqueStr(myStrong){
+ var strong = 1000;
+ if (myStrong) strong = myStrong;
+ return new Date().getTime().toString(16)  + Math.floor(strong*Math.random()).toString(16)
 }
 </script>
 <style>
