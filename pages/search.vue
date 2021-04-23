@@ -13,7 +13,7 @@
       <h2>{{ $t('fulltext_search') }}</h2>
 
       <p class="my-2">
-        『渋沢栄一伝記資料』別巻第1, 第2の本文を対象に検索します。
+        『渋沢栄一伝記資料』別巻第1, 第2の本文を対象に検索します。検索結果に表れるキーワードが色付けされますが、ファセット検索においては動作しない場合があります。
       </p>
 
       <template v-if="loading">
@@ -361,16 +361,28 @@ export default {
 
       let ids = []
 
+      //全文
       if (q === '') {
         ids = Object.keys(docs)
       } else {
+        const terms = q.split("　").join(" ").split(" ")
+        
         for (const key in index) {
-          if (key.includes(q)) {
+          let flg = true
+          for(const term of terms){
+            if (!key.includes(term)) {
+              flg = false
+              break
+            }
+          }
+
+          if(flg){
             ids = ids.concat(index[key])
           }
         }
       }
 
+      //ファセット
       const facets = this.facets
 
       for (let queryField in query) {
@@ -391,7 +403,7 @@ export default {
 
       this.total = ids.length
 
-      this.ids = ids
+      this.ids = ids.sort()
 
       this.getAggs()
     },
@@ -581,9 +593,13 @@ export default {
 
     highlightRelation(xml, other) {
       const others = []
-      if(other && !others.includes(other)){
-        others.push(other)
-      }
+
+      const terms = other.split("　").join(" ").split(" ")
+      for(const term of terms){
+        if(!others.includes(term)){
+          others.push(term)
+        }
+      }      
 
       const filters = this.filters
       for(let filter of filters){

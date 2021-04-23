@@ -3,6 +3,12 @@
         {
             "color": "lightgrey",
             "from": "畑弥右衛門",
+            "to": "福島甲子三",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "畑弥右衛門",
             "to": "尾崎行雄",
             "value": 5
         },
@@ -17,12 +23,6 @@
             "from": "畑弥右衛門",
             "to": "成瀬仁蔵",
             "value": 6
-        },
-        {
-            "color": "lightgrey",
-            "from": "畑弥右衛門",
-            "to": "福島甲子三",
-            "value": 5
         }
     ],
     "nodes": [
@@ -35,6 +35,17 @@
             "id": "畑弥右衛門",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "畑弥右衛門",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "id": "福島甲子三",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "福島甲子三",
             "shape": "image"
         },
         {
@@ -71,17 +82,6 @@
             "id": "成瀬仁蔵",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jinzo_Naruse.JPG?width=300",
             "label": "成瀬仁蔵",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 5,
-            "id": "福島甲子三",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "福島甲子三",
             "shape": "image"
         }
     ]

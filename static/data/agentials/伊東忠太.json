@@ -3,24 +3,12 @@
         {
             "color": "lightgrey",
             "from": "松井吉太郎",
-            "to": "竹田政智",
-            "value": 4
-        },
-        {
-            "color": "lightgrey",
-            "from": "松井吉太郎",
             "to": "渡邊嘉一",
             "value": 6
         },
         {
             "color": "lightgrey",
-            "from": "萩原源太郎",
-            "to": "植村澄三郎",
-            "value": 5
-        },
-        {
-            "color": "lightgrey",
-            "from": "萩原源太郎",
+            "from": "松井吉太郎",
             "to": "竹田政智",
             "value": 4
         },
@@ -39,7 +27,19 @@
         {
             "color": "lightgrey",
             "from": "萩原源太郎",
+            "to": "植村澄三郎",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "萩原源太郎",
             "to": "安達憲忠",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "萩原源太郎",
+            "to": "竹田政智",
             "value": 4
         },
         {
@@ -47,6 +47,12 @@
             "from": "萩原源太郎",
             "to": "郷隆三郎",
             "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "植村澄三郎",
+            "to": "浅野総一郎",
+            "value": 5
         },
         {
             "color": "lightgrey",
@@ -63,7 +69,7 @@
         {
             "color": "lightgrey",
             "from": "植村澄三郎",
-            "to": "佐々木勇之助",
+            "to": "大川平三郎",
             "value": 5
         },
         {
@@ -75,20 +81,14 @@
         {
             "color": "lightgrey",
             "from": "植村澄三郎",
+            "to": "佐々木勇之助",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "植村澄三郎",
             "to": "添田敬一郎",
             "value": 4
-        },
-        {
-            "color": "lightgrey",
-            "from": "植村澄三郎",
-            "to": "浅野総一郎",
-            "value": 5
-        },
-        {
-            "color": "lightgrey",
-            "from": "植村澄三郎",
-            "to": "大川平三郎",
-            "value": 5
         },
         {
             "color": "lightgrey",
@@ -105,32 +105,8 @@
         {
             "color": "lightgrey",
             "from": "竹田政智",
-            "to": "佐々木勇之助",
-            "value": 7
-        },
-        {
-            "color": "lightgrey",
-            "from": "竹田政智",
             "to": "益田孝",
             "value": 5
-        },
-        {
-            "color": "lightgrey",
-            "from": "竹田政智",
-            "to": "吉岡新五郎",
-            "value": 7
-        },
-        {
-            "color": "lightgrey",
-            "from": "竹田政智",
-            "to": "浅野総一郎",
-            "value": 10
-        },
-        {
-            "color": "lightgrey",
-            "from": "竹田政智",
-            "to": "尾高次郎",
-            "value": 7
         },
         {
             "color": "lightgrey",
@@ -141,8 +117,20 @@
         {
             "color": "lightgrey",
             "from": "竹田政智",
+            "to": "佐々木勇之助",
+            "value": 7
+        },
+        {
+            "color": "lightgrey",
+            "from": "竹田政智",
             "to": "皆川四郎",
             "value": 8
+        },
+        {
+            "color": "lightgrey",
+            "from": "竹田政智",
+            "to": "浅野総一郎",
+            "value": 10
         },
         {
             "color": "lightgrey",
@@ -165,8 +153,20 @@
         {
             "color": "lightgrey",
             "from": "竹田政智",
+            "to": "吉岡新五郎",
+            "value": 7
+        },
+        {
+            "color": "lightgrey",
+            "from": "竹田政智",
             "to": "横山徳次郎",
             "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "竹田政智",
+            "to": "尾高次郎",
+            "value": 7
         }
     ],
     "nodes": [
@@ -230,17 +230,6 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 12,
-            "id": "佐々木勇之助",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "佐々木勇之助",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
             "count": 6,
             "id": "梅浦精一",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
@@ -280,6 +269,17 @@
             "id": "浅野総一郎",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
             "label": "浅野総一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 12,
+            "id": "佐々木勇之助",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "佐々木勇之助",
             "shape": "image"
         },
         {
@@ -403,11 +403,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 4,
-            "description": "添田 敬一郎（そえだ けいいちろう、1871年10月12日（明治4年8月28日） - 1953年（昭和28年）10月20日）は、日本の内務官僚、政治家。衆議院議員、埼玉県知事、山梨県知事、山形県知事などの要職を歴任した。",
-            "id": "添田敬一郎",
-            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Soeda_Keiichiro.jpg?width=300",
-            "label": "添田敬一郎",
+            "count": 5,
+            "id": "田中元三郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "田中元三郎",
             "shape": "image"
         },
         {
@@ -415,10 +414,11 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 5,
-            "id": "田中元三郎",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "田中元三郎",
+            "count": 4,
+            "description": "添田 敬一郎（そえだ けいいちろう、1871年10月12日（明治4年8月28日） - 1953年（昭和28年）10月20日）は、日本の内務官僚、政治家。衆議院議員、埼玉県知事、山梨県知事、山形県知事などの要職を歴任した。",
+            "id": "添田敬一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Soeda_Keiichiro.jpg?width=300",
+            "label": "添田敬一郎",
             "shape": "image"
         },
         {
