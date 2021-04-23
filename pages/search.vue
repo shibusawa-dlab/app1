@@ -596,7 +596,7 @@ export default {
 
       const terms = other.split("　").join(" ").split(" ")
       for(const term of terms){
-        if(!others.includes(term)){
+        if(term && !others.includes(term)){
           others.push(term)
         }
       }      
@@ -611,31 +611,39 @@ export default {
 
       xml = String(xml).replace(/<[^>]*>?/gm, '')
 
-      for(const other2 of others){
+      const map = {}
+
+      for(const other2 of others.sort(function(a, b) {return b.length - a.length;})){
+
+        const uuid = getUniqueStr()
+        map[uuid] = '<span style="font-size : large; font-weight: bold; background-color: #FFF59D;">' +
+              other2 +
+              '</span>'
         
         xml = xml
           .split(other2)
           .join(
-            '<span style="font-size : large; font-weight: bold; background-color: #FFF59D;">' +
-              other2 +
-              '</span>'
+            uuid
           )
+      }
 
-        /*
-        const id = this.$route.params.id
+      for(const uuid in map){
         xml = xml
-          .split(id)
+          .split(uuid)
           .join(
-            '<span style="font-size : large; font-weight: bold; background-color: #FFF59D;">' +
-              id +
-              '</span>'
+            map[uuid]
           )
-          */
       }
 
       return xml
     },
   },
+}
+
+function getUniqueStr(myStrong){
+ var strong = 1000;
+ if (myStrong) strong = myStrong;
+ return new Date().getTime().toString(16)  + Math.floor(strong*Math.random()).toString(16)
 }
 </script>
 <style>
