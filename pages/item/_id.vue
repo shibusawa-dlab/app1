@@ -796,7 +796,7 @@ export default {
 
         if (hit.description) {
           const description = hit.description.value || hit.description
-          item._source.description = [description + '（Wikiepdiaより）']
+          item._source.description = [description + '（Wikipediaより）']
         }
 
         item._source._thumbnail = image

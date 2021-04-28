@@ -616,7 +616,7 @@ export default {
       for(const other2 of others.sort(function(a, b) {return b.length - a.length;})){
 
         const uuid = getUniqueStr()
-        map[uuid] = '<span style="font-size : large; font-weight: bold; background-color: #FFF59D;">' +
+        map[uuid] = '<span style="font-weight: bold; background-color: #FFF59D;">' +
               other2 +
               '</span>'
         

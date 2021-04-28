@@ -16,7 +16,7 @@
       <h1>{{ id }}</h1>
 
       <p v-if="entity.description" class="my-5">
-        {{ entity.description.value || entity.description }}（Wikiepdiaより）
+        {{ entity.description.value || entity.description }}（Wikipediaより）
       </p>
 
       <div class="text-center my-5">
