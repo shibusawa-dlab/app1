@@ -11,7 +11,98 @@
     </v-sheet>
     <v-container class="py-5">
       <h2 class="my-5">{{ $t('fulltext') }}</h2>
-      <v-row>
+
+      <p v-if="false">以下の形式でも閲覧できます。</p>
+      <p>全文テキストデータを閲覧できます。</p>
+      <p>研究の一環として様々な利用環境を想定し、実験的に作成したものを含みます。今後、予告なく変更する場合があることをご理解のうえご利用ください。</p>
+      
+      <p class="mt-10">提供形式</p>
+      <p>
+        <ul>
+          <li>TEI Viewer（独自開発：画像との並列表示機能や人名・地名等へのハイライト表示機能を提供。動作が重たい点にご注意ください。）</li>
+          <li>HTML（シンプルなテキスト表示）</li>
+          <li>PDF（目次を含むテキスト表示）</li>
+          <li>EPUB（目次や文字サイズの変更といった多様な機能を提供。EPUB用のリーダーをご用意の上お使いください。）</li>
+        </ul>
+      </p>
+
+      <v-simple-table class="my-10">
+        <template v-slot:default>
+          <thead>
+            <tr>
+              <th class="text-center">
+                
+              </th>
+              <th class="text-center">
+                TEI Viewer
+              </th>
+              <th class="text-center">
+                HTML
+              </th>
+              <th class="text-center">
+                PDF
+              </th>
+              <th class="text-center">
+                EPUB
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              v-for="(item, key) in ['DKB01', 'DKB02']"
+              :key="key"
+            >
+              <td>{{ item }}</td>
+              <td class="text-center pa-5">
+                <nuxt-link :to="
+                  localePath({
+                    name: 'viewer-id',
+                    params: { id: item },
+                  })
+                ">
+                  <img width="40" :src="baseUrl + '/img/icons/tei.png'"/>
+                </nuxt-link>
+              </td>
+              
+              <td class="text-center pa-5">
+                <a :href="
+                  baseUrl + '/fulltext/' + item + '.html'
+                ">
+                  <img src="https://img.icons8.com/ios/26/000000/html-filetype.png"/>
+                </a>
+              </td>
+
+              <td class="text-center pa-5">
+                <a :href="
+                  baseUrl + '/fulltext/' + item + '.pdf'
+                ">
+                  
+                  <img src="https://img.icons8.com/ios/24/000000/pdf.png"/>
+                </a>
+              </td>
+
+              <td class="text-center pa-5">
+                <a :href="
+                  baseUrl + '/fulltext/' + item + '.epub'
+                ">
+                  <img src="https://img.icons8.com/ios/26/000000/epub.png"/>
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </template>
+      </v-simple-table>
+
+      <p class="mt-10">クレジット</p>
+      <p>
+        <ul>
+          <li><a href="https://icons8.com/icon/4799/html-filetype">HTML Filetype icon by Icons8</a></li>
+          <li><a href="https://icons8.com/icon/299/pdf">PDF icon by Icons8</a></li>
+          <li><a href="https://icons8.com/icon/2949/epub">EPUB icon by Icons8</a></li>
+        </ul>
+      </p>
+
+      <v-row v-if="false">
         <v-col
           v-for="(obj, index) in result.members"
           :key="index"
