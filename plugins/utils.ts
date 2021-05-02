@@ -51,6 +51,44 @@ export class Utils {
       return value
     }
   }
+
+  wareki(text: any){
+    const spl = text.split("-")
+    const year = spl[0]
+    let month = 1
+    if(spl.length > 1){
+      month = Number(spl[1])
+    }
+    let day = 1
+    if(spl.length > 2){
+      day = Number(spl[2])
+    }
+    const date = new Date(year, month - 1, day, 0, 0, 0);
+    const options: any = {era: 'long'};
+    let wareki = new Intl.DateTimeFormat('ja-JP-u-ca-japanese', options).format(date).split("年")[0]
+    
+    if(spl.length === 1){ //年のみ指定の場合
+      if(wareki === "慶応4"){
+        wareki = "慶応4/明治元"
+      } else if(wareki === "明治45"){
+        wareki = "明治45/大正元"
+      } else if(wareki === "大正15"){
+        wareki = "大正15/昭和元"
+      }
+    }
+    
+    
+    let result = year + "（" + wareki + "）年"
+    if(spl.length > 1){
+      result += month + "月"
+    }
+
+    if(spl.length > 2){
+      result += day + "日"
+    }
+    
+    return result
+  }
 }
 
 export default (_: any, inject: any) => {

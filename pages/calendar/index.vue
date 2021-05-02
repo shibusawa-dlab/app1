@@ -12,8 +12,14 @@
     <v-container class="my-5">
       <h2 class="mb-5">{{ $t('calendar') }}</h2>
       <p>
-        『渋沢栄一伝記資料』別巻第1, 第2の日付と時間情報を活用し,
-        カレンダー形式で可視化しています。
+        <ul>
+          <li>
+        『渋沢栄一伝記資料』別巻第1, 第2の日付と時間情報を活用し,カレンダー形式で可視化しています。
+        </li>
+        <li>
+        年齢は当該年の誕生日における渋沢栄一の満年齢を示します。
+        </li>
+        </ul>
       </p>
 
       <v-card flat outlined class="my-10">
@@ -28,8 +34,8 @@
                 class="text-center"
                 width="4%"
                 style="border: 0.5px solid lightgrey"
+                v-html="display(key)"
               >
-                {{ display(key) }}
               </th>
               <template v-for="value in 12">
                 <td
@@ -221,7 +227,15 @@ export default {
     },
     display(text) {
       if (this.$i18n.locale === 'ja') {
-        return text + '年'
+        let wareki = this.$utils.wareki(text).replace("）", "（").split("（")[1]
+        if(wareki === "慶応4"){
+          wareki = "慶応4/明治元"
+        } else if(wareki === "明治45"){
+          wareki = "明治45/大正元"
+        } else if(wareki === "大正15"){
+          wareki = "大正15/昭和元"
+        }
+        return text + "（" + wareki + "）年<br/>〔"+(text - 1840)+"歳〕"
       } else {
         return text
       }

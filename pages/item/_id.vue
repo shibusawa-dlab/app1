@@ -234,7 +234,7 @@
                     <template #label="{ item }">
                       <nuxt-link
                         :to="localePath({ name: 'search', query: item.query })"
-                        >{{ item.name }}</nuxt-link
+                        >{{ lang === "ja" ? $utils.wareki(item.name) : item.name}}</nuxt-link
                       >
 
                       <v-tooltip v-if="item.name.split('-').length > 1" bottom>
@@ -490,6 +490,7 @@ export default {
         agential: [],
         spatial: [],
       },
+      lang: this.$i18n.locale
     }
   },
 
@@ -890,6 +891,8 @@ export default {
       // ファイルを保存する。
       link.click()
     },
+
+   
   },
 }
 </script>

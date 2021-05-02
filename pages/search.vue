@@ -117,8 +117,8 @@
                           {{ item.objectID }}
                         </span>
                         <span class="mr-4"
-                          ><b>{{ $t('date_year') }}:</b>
-                          {{ item.temporal }}</span
+                          ><b>{{ $t('date') }}:</b> <!-- $t('date_year') -->
+                          {{ $utils.wareki(item.temporal) }}</span
                         >
                         <span
                           v-if="item.agential && item.agential.length > 0"
@@ -490,14 +490,25 @@ export default {
       for (const aggField in aggs) {
         const aggMap = aggs[aggField]
 
-        var pairs = Object.entries(aggMap.value)
-
         if (aggMap.sort !== 'name:asc') {
+          var pairs = Object.entries(aggMap.value)
           pairs.sort(function (p1, p2) {
             var p1Val = p1[1],
               p2Val = p2[1]
             return -(p1Val - p2Val)
           })
+        } else {
+          const tmp = aggMap.value
+
+          const keys = Object.keys(tmp)
+          keys.sort()
+
+          const tmp2 = {}
+          for(const key of keys){
+            tmp2[key] = tmp[key]
+          }
+
+          var pairs = Object.entries(tmp2)
         }
 
         const aggList = pairs.slice(0, 50) //Object.fromEntries(pairs);
