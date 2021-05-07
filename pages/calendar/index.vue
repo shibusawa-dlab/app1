@@ -32,7 +32,7 @@
             <tr v-for="(obj, key) in years" :key="key">
               <th
                 class="text-center"
-                width="4%"
+                width="16%"
                 style="border: 0.5px solid lightgrey"
                 v-html="display(key)"
               >
@@ -41,7 +41,7 @@
                 <td
                   :key="key + '-' + value"
                   class="text-center"
-                  width="3%"
+                  width="7%"
                   style="border: 0.5px solid lightgrey"
                   :style="
                     count(key, value) > 0 ? 'background-color: #FFF59D;' : ''
@@ -235,7 +235,7 @@ export default {
         } else if(wareki === "大正15"){
           wareki = "大正15/昭和元"
         }
-        return text + "（" + wareki + "）年<br/>〔"+(text - 1840)+"歳〕"
+        return text + "（" + wareki.split("/")[0] + "）年<br/>〔"+(text - 1840)+"歳〕"
       } else {
         return text
       }
