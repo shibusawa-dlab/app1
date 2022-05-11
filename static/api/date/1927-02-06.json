@@ -1,15 +1,20 @@
 {
     "agential": [
         "白岩竜平",
-        "油谷恭一"
+        "油谷恭一",
+        "穂積"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/白岩竜平",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/油谷恭一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/穂積"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1534",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -19,31 +24,30 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-02",
     "date_lvl2": "1927-02-06",
-    "description": "\n\n 六日  （日） \n\n\n午時　　　　　白岩竜平、油谷恭一氏来邸ノ約（アスカ山）\n\n\n午前十一時穂積男爵邸ヘ御出向\n\n\n",
+    "description": "\n\n\n           六日\n          \n          （日）\n         \n\n\n\n\n             午時\n            \n\n\n              白岩\n             \n\n              竜平\n             \n\n            、\n            \n\n              油谷\n             \n\n              恭一\n             \n\n            氏来邸ノ約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              穂積\n             \n\n            男爵邸ヘ御出向\n           \n\n\n",
     "fullname": [
-        "白岩竜平",
-        "油谷恭一"
+        "\n              白岩\n             \n              竜平\n             ",
+        "\n              油谷\n             \n              恭一\n             "
     ],
-    "label": "六日  （日）",
+    "label": "六日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-21",
-    "objectID": "DKB20029m-20",
-    "prev": "DKB20029m-19",
+    "next": "DKB20029m-0021",
+    "objectID": "DKB20029m-0020",
+    "prev": "DKB20029m-0019",
     "sort": "DKB20029m-0020",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
-        "アスカ山",
-        "穂積"
+        "アスカ山"
     ],
     "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/穂積"
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山"
     ],
     "temporal": "1927-02-06",
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">午時</time>　　　　　<persName><surname>白岩</surname><forename>竜平</forename></persName>、<persName><surname>油谷</surname><forename>恭一</forename></persName>氏来邸ノ約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_白岩竜平\">\n<surname>\n              白岩\n             </surname>\n<forename>\n              竜平\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_油谷恭一\">\n<surname>\n              油谷\n             </surname>\n<forename>\n              恭一\n             </forename>\n</persName>\n            氏来邸ノ約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-20\">\n<head>\n<date when=\"1927-02-06\"> 六日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"12:00:00\">午時</time>　　　　　<persName><surname>白岩</surname><forename>竜平</forename></persName>、<persName><surname>油谷</surname><forename>恭一</forename></persName>氏来邸ノ約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><placeName>穂積</placeName>男爵邸ヘ御出向</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0020\">\n<head>\n<date when=\"1927-02-06\">\n           六日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_白岩竜平\">\n<surname>\n              白岩\n             </surname>\n<forename>\n              竜平\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_油谷恭一\">\n<surname>\n              油谷\n             </surname>\n<forename>\n              恭一\n             </forename>\n</persName>\n            氏来邸ノ約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_穂積\">\n<surname>\n              穂積\n             </surname>\n</persName>\n            男爵邸ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-02"
 }

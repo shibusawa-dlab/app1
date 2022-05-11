@@ -2,13 +2,15 @@
     "agential": [
         "尾高豊作"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/尾高豊作"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1381",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -18,25 +20,25 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-02",
     "date_lvl2": "1922-02-04",
-    "description": "\n\n 四日  （土） \n\n\n午後五時道路改良会催、サミユル・ヒル氏招待会（日本工業クラブ）\n\n\n午後五時尾高豊作氏ヨリ御案内（トキワヤ）\n\n\n",
+    "description": "\n\n\n           四日\n          \n          （土）\n         \n\n\n\n\n             午後五時\n            \n            道路改良会催、サミユル・ヒル氏招待会（日本工業クラブ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              尾高\n             \n\n              豊作\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n",
     "fullname": [
-        "尾高豊作"
+        "\n              尾高\n             \n              豊作\n             "
     ],
-    "label": "四日  （土）",
+    "label": "四日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-11",
-    "objectID": "DKB20024m-10",
-    "prev": "DKB20024m-9",
+    "next": "DKB20024m-0011",
+    "objectID": "DKB20024m-0010",
+    "prev": "DKB20024m-0009",
     "sort": "DKB20024m-0010",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [],
     "spatial_uri": [],
     "temporal": "1922-02-04",
     "time": {
-        "17:00:00": "<div><time when=\"17:00:00\">午後五時</time>道路改良会催、サミユル・ヒル氏招待会（日本工業クラブ）</div>"
+        "17:00:00": "<div><time when=\"17:00:00\">\n             午後五時\n            </time>\n            道路改良会催、サミユル・ヒル氏招待会（日本工業クラブ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-10\">\n<head>\n<date when=\"1922-02-04\"> 四日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>道路改良会催、サミユル・ヒル氏招待会（日本工業クラブ）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><persName><surname>尾高</surname><forename>豊作</forename></persName>氏ヨリ御案内（トキワヤ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0010\">\n<head>\n<date when=\"1922-02-04\">\n           四日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            道路改良会催、サミユル・ヒル氏招待会（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_尾高豊作\">\n<surname>\n              尾高\n             </surname>\n<forename>\n              豊作\n             </forename>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-02"
 }

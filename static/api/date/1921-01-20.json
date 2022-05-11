@@ -2,13 +2,15 @@
     "agential": [
         "宮下丑太郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/宮下丑太郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1352",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -18,30 +20,31 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-01",
     "date_lvl2": "1921-01-20",
-    "description": "\n\n 二十日  （木） \n\n\n午前八半時　　「現代」宮下丑太郎氏来約（飛鳥山邸）\n\n\n午後二時パーマー氏来約（兜町）\n\n\n午後三時ハミルトン氏来約（兜町）\n\n\n午後四半時　　清水組新年宴会（ホテル）\n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （木）\n         \n\n\n\n\n             午前八半時\n            \n            「現代」\n            \n\n              宮下\n             \n\n              丑太郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            パーマー氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            ハミルトン氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四半時\n            \n            清水組新年宴会（ホテル）\n           \n\n\n",
     "fullname": [
-        "宮下丑太郎"
+        "\n              宮下\n             \n              丑太郎\n             "
     ],
-    "label": "二十日  （木）",
+    "label": "二十日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20023m-18",
-    "objectID": "DKB20023m-17",
-    "prev": "DKB20023m-16",
+    "next": "DKB20023m-0018",
+    "objectID": "DKB20023m-0017",
+    "prev": "DKB20023m-0016",
     "sort": "DKB20023m-0017",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "日本橋兜町"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1921-01-20",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八半時</time>　　「現代」<persName><surname>宮下</surname><forename>丑太郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n            「現代」\n            <persName corresp=\"#pers_宮下丑太郎\">\n<surname>\n              宮下\n             </surname>\n<forename>\n              丑太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-17\">\n<head>\n<date when=\"1921-01-20\"> 二十日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　「現代」<persName><surname>宮下</surname><forename>丑太郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>パーマー氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>ハミルトン氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:30:00\">午後四半時</time>　　清水組新年宴会（ホテル）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0017\">\n<head>\n<date when=\"1921-01-20\">\n           二十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            「現代」\n            <persName corresp=\"#pers_宮下丑太郎\">\n<surname>\n              宮下\n             </surname>\n<forename>\n              丑太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            パーマー氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            ハミルトン氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            清水組新年宴会（ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-01"
 }

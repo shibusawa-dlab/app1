@@ -2,13 +2,15 @@
     "agential": [
         "古仁所豊"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/古仁所豊"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1618",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20032m 昭和五年 1930"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20032m 昭和五年 1930"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20032m 昭和五年 1930",
     "date": {
         "lvl0": "1930",
@@ -18,17 +20,17 @@
     "date_lvl0": "1930",
     "date_lvl1": "1930-10",
     "date_lvl2": "1930-10-22",
-    "description": "\n\n 廿二日  （水） \n\n\n午前八時古仁所豊氏来約（飛鳥山）\n\n\n〃〃　　　　　江口定条氏来約（飛鳥山）\n\n\n午後二半時　　宝光院殿五十回忌御法要（寛永寺）\n\n\n午後五半時　　引ツヾキ晩餐会（上野精養軒）\n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （水）\n         \n\n\n\n\n             午前八時\n            \n\n\n              古仁所\n             \n\n              豊\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             〃〃\n            \n            江口定条氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後二半時\n            \n            宝光院殿五十回忌御法要（寛永寺）\n           \n\n\n\n\n             午後五半時\n            \n            引ツヾキ晩餐会（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "古仁所豊"
+        "\n              古仁所\n             \n              豊\n             "
     ],
-    "label": "廿二日  （水）",
+    "label": "廿二日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20032m-179",
-    "objectID": "DKB20032m-178",
-    "prev": "DKB20032m-177",
+    "next": "DKB20032m-0179",
+    "objectID": "DKB20032m-0178",
+    "prev": "DKB20032m-0177",
     "sort": "DKB20032m-0178",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "上野精養軒"
@@ -39,10 +41,10 @@
     ],
     "temporal": "1930-10-22",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>古仁所</surname><forename>豊</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_古仁所豊\">\n<surname>\n              古仁所\n             </surname>\n<forename>\n              豊\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20032m-178\">\n<head>\n<date when=\"1930-10-22\"> 廿二日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>古仁所</surname><forename>豊</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"08:00:00\">〃〃</time>　　　　　江口定条氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:30:00\">午後二半時</time>　　宝光院殿五十回忌御法要（寛永寺）</p>\n</event>\n<event>\n<p><time when=\"17:30:00\">午後五半時</time>　　引ツヾキ晩餐会（<placeName>上野精養軒</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0178\">\n<head>\n<date when=\"1930-10-22\">\n           廿二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_古仁所豊\">\n<surname>\n              古仁所\n             </surname>\n<forename>\n              豊\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             〃〃\n            </time>\n            江口定条氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            宝光院殿五十回忌御法要（寛永寺）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            引ツヾキ晩餐会（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1930",
     "yearAndMonth": "1930-10"
 }

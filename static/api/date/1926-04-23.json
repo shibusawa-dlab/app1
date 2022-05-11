@@ -2,14 +2,16 @@
     "agential": [
         "浜名寛祐"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浜名寛祐"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1509",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-04",
@@ -18,26 +20,29 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-04",
     "date_lvl2": "1926-04-23",
-    "description": "\n\n 廿三日  （金） \n\n\n午后三―四時浜名寛祐氏来約（アスカ山）\n\n\n午后五時第一銀行支店長諸氏招待会（飛鳥山邸）\n\n\n",
+    "description": "\n\n\n           廿三日\n          \n          （金）\n         \n\n\n\n\n             午后三―四時\n            \n\n\n              浜名\n             \n\n              寛祐\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午后五時\n            \n\n             第一銀行\n            \n            支店長諸氏招待会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "浜名寛祐"
+        "\n              浜名\n             \n              寛祐\n             "
     ],
-    "label": "廿三日  （金）",
+    "label": "廿三日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-113",
-    "objectID": "DKB20028m-112",
-    "prev": "DKB20028m-111",
+    "next": "DKB20028m-0113",
+    "objectID": "DKB20028m-0112",
+    "prev": "DKB20028m-0111",
     "sort": "DKB20028m-0112",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山",
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1926-04-23",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-112\">\n<head>\n<date when=\"1926-04-23\"> 廿三日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time from=\"15:00:00\" to=\"16:00:00\">午后三―四時</time><persName><surname>浜名</surname><forename>寛祐</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午后五時</time>第一銀行支店長諸氏招待会（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0112\">\n<head>\n<date when=\"1926-04-23\">\n           廿三日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午后三―四時\n            </time>\n<persName corresp=\"#pers_浜名寛祐\">\n<surname>\n              浜名\n             </surname>\n<forename>\n              寛祐\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午后五時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n            支店長諸氏招待会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-04"
 }

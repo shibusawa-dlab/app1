@@ -2,14 +2,16 @@
     "agential": [
         "坂出三郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/坂出三郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/74",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB10003m 自  明治二年十月二十一日                                                 至同年                                                   十一月十九日  1869"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB10003m 自 明治二年十月二十一日 至同年 十一月十九日 1869"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-    "category_lvl1": "DKB10003m 自  明治二年十月二十一日                                                 至同年                                                   十一月十九日  1869",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl1": "DKB10003m 自 明治二年十月二十一日 至同年 十一月十九日 1869",
     "date": {
         "lvl0": "1869",
         "lvl1": "1869 > 1869-12",
@@ -18,25 +20,27 @@
     "date_lvl0": "1869",
     "date_lvl1": "1869-12",
     "date_lvl2": "1869-12-13",
-    "description": "\n\n （十一月）十一日  晴 \n休日ニ付、朝より調物宅にて認分いたし、午後南八丁堀にて郷之邸を訪ひ、夫より大少輔大少丞を訪ふ、坂出三郎を訪ふ、夜に入る迄談話す風邪之気故同所より駕を命し帰宿す\n",
+    "description": "\n\n\n        （十一月）十一日\n       \n       晴\n      \n\n       休日ニ付、朝より調物宅にて認分いたし、午後\n       \n        南八丁堀\n       \n       にて郷之邸を訪ひ、夫より大少輔大少丞を訪ふ、\n       \n\n         坂出\n        \n\n         三郎\n        \n\n       を訪ふ、夜に入る迄談話す風邪之気故同所より駕を命し帰宿す\n      \n",
     "fullname": [
-        "坂出三郎"
+        "\n         坂出\n        \n         三郎\n        "
     ],
-    "label": "（十一月）十一日  晴",
+    "label": "（十一月）十一日              晴",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
-    "next": "DKB10003m-22",
-    "objectID": "DKB10003m-21",
-    "prev": "DKB10003m-20",
+    "next": "DKB10003m-0022",
+    "objectID": "DKB10003m-0021",
+    "prev": "DKB10003m-0020",
     "sort": "DKB10003m-0021",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "南八丁堀"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/南八丁堀"
+    ],
     "temporal": "1869-12-13",
     "time": {},
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10003m-21\">\n<head>\n<date evidence=\"year inferenced, month\" type=\"旧暦\" when=\"1869-12-13\"> （十一月）十一日 </date> 晴 </head>\n<p>休日ニ付、朝より調物宅にて認分いたし、午後<placeName>南八丁堀</placeName>にて郷之邸を訪ひ、夫より大少輔大少丞を訪ふ、<persName><surname>坂出</surname><forename>三郎</forename></persName>を訪ふ、夜に入る迄談話す風邪之気故同所より駕を命し帰宿す</p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10003m-0021\">\n<head>\n<date evidence=\"year inferenced, month\" type=\"旧暦\" when=\"1869-12-13\">\n        （十一月）十一日\n       </date>\n       晴\n      </head>\n<p>\n       休日ニ付、朝より調物宅にて認分いたし、午後\n       <placeName corresp=\"#place_南八丁堀\">\n        南八丁堀\n       </placeName>\n       にて郷之邸を訪ひ、夫より大少輔大少丞を訪ふ、\n       <persName corresp=\"#pers_坂出三郎\">\n<surname>\n         坂出\n        </surname>\n<forename>\n         三郎\n        </forename>\n</persName>\n       を訪ふ、夜に入る迄談話す風邪之気故同所より駕を命し帰宿す\n      </p>\n</div>",
     "year": "1869",
     "yearAndMonth": "1869-12"
 }

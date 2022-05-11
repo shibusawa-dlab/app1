@@ -2,13 +2,15 @@
     "agential": [
         "吉池慶正"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/吉池慶正"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1338",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -18,17 +20,17 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-08",
     "date_lvl2": "1920-08-02",
-    "description": "\n\n 二日  （月） \n\n\n午前九時埼玉県下設置高等学校ノ件（兜町）\n\n\n午前十―十時半吉池慶正氏来約（兜町）\n\n\n午前十一時明治神宮奉賛会ノ件（華族会館）\n\n\n",
+    "description": "\n\n\n           二日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n\n             埼玉\n            \n            県下設置高等学校ノ件（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十―十時半\n            \n\n\n              吉池\n             \n\n              慶正\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            明治神宮奉賛会ノ件（華族会館）\n           \n\n\n",
     "fullname": [
-        "吉池慶正"
+        "\n              吉池\n             \n              慶正\n             "
     ],
-    "label": "二日  （月）",
+    "label": "二日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-205",
-    "objectID": "DKB20022m-204",
-    "prev": "DKB20022m-203",
+    "next": "DKB20022m-0205",
+    "objectID": "DKB20022m-0204",
+    "prev": "DKB20022m-0203",
     "sort": "DKB20022m-0204",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "埼玉",
         "日本橋兜町"
@@ -39,10 +41,10 @@
     ],
     "temporal": "1920-08-02",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><placeName>埼玉</placeName>県下設置高等学校ノ件（<placeName>兜町</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県下設置高等学校ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-204\">\n<head>\n<date when=\"1920-08-02\"> 二日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><placeName>埼玉</placeName>県下設置高等学校ノ件（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time from=\"10:00:00\" to=\"10:30:00\">午前十―十時半</time><persName><surname>吉池</surname><forename>慶正</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>明治神宮奉賛会ノ件（華族会館）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0204\">\n<head>\n<date when=\"1920-08-02\">\n           二日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県下設置高等学校ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"10:30:00\">\n             午前十―十時半\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            明治神宮奉賛会ノ件（華族会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-08"
 }

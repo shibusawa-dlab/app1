@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1339",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -22,17 +22,17 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-08",
     "date_lvl2": "1920-08-07",
-    "description": "\n\n 七日  （土） \n\n\n午前八―九時大隈侯爵ヲ御訪問（同邸）\n\n\n午後二―午後三時窪田四郎氏来約（兜町）\n\n\n",
+    "description": "\n\n\n           七日\n          \n          （土）\n         \n\n\n\n\n             午前八―九時\n            \n\n\n              大隈\n             \n\n            侯爵ヲ御訪問（同邸）\n           \n\n\n\n\n             午後二―午後三時\n            \n\n\n              窪田\n             \n\n              四郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "窪田四郎"
+        "\n              窪田\n             \n              四郎\n             "
     ],
-    "label": "七日  （土）",
+    "label": "七日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-210",
-    "objectID": "DKB20022m-209",
-    "prev": "DKB20022m-208",
+    "next": "DKB20022m-0210",
+    "objectID": "DKB20022m-0209",
+    "prev": "DKB20022m-0208",
     "sort": "DKB20022m-0209",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -42,7 +42,7 @@
     "temporal": "1920-08-07",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-209\">\n<head>\n<date when=\"1920-08-07\"> 七日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time from=\"08:00:00\" to=\"09:00:00\">午前八―九時</time><persName><surname>大隈</surname></persName>侯爵ヲ御訪問（同邸）</p>\n</event>\n<event>\n<p><time from=\"14:00:00\" to=\"15:00:00\">午後二―午後三時</time><persName><surname>窪田</surname><forename>四郎</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0209\">\n<head>\n<date when=\"1920-08-07\">\n           七日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"09:00:00\">\n             午前八―九時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯爵ヲ御訪問（同邸）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―午後三時\n            </time>\n<persName corresp=\"#pers_窪田四郎\">\n<surname>\n              窪田\n             </surname>\n<forename>\n              四郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-08"
 }

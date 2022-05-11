@@ -6,14 +6,15 @@
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/原敬",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/柴田徳次郎"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/柴田徳次郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/白岩竜平"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1288",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20021m 大正八年 1919"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20021m 大正八年 1919"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20021m 大正八年 1919",
     "date": {
         "lvl0": "1919",
@@ -23,19 +24,19 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-01",
     "date_lvl2": "1919-01-08",
-    "description": "\n\n 八日  （水） \n\n\n午一半時　　　原敬氏訪問ノ約（首相官邸）\n\n\n午後二時埼玉学生誘掖会ヘ御出向（確定）\n\n\n午後四五時柴田徳次郎氏来約（兜町）\n\n\n午後四半時　　白岩竜平氏来約（兜町）\n\n\n午后六時東亜興業株式会社ヨリ御案内（銀行クラブ）\n\n\n",
+    "description": "\n\n\n           八日\n          \n          （水）\n         \n\n\n\n\n             午一半時\n            \n\n\n              原\n             \n\n              敬\n             \n\n            氏訪問ノ約（首相官邸）\n           \n\n\n\n\n             午後二時\n            \n\n             埼玉\n            \n            学生誘掖会ヘ御出向（確定）\n           \n\n\n\n\n             午後四五時\n            \n\n\n              柴田\n             \n\n              徳次郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四半時\n            \n\n\n              白岩\n             \n\n              竜平\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午后六時\n            \n\n             東亜\n            \n            興業株式会社ヨリ御案内（銀行クラブ）\n           \n\n\n",
     "fullname": [
-        "原敬",
-        "柴田徳次郎",
-        "白岩竜平"
+        "\n              原\n             \n              敬\n             ",
+        "\n              柴田\n             \n              徳次郎\n             ",
+        "\n              白岩\n             \n              竜平\n             "
     ],
-    "label": "八日  （水）",
+    "label": "八日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20021m-9",
-    "objectID": "DKB20021m-8",
-    "prev": "DKB20021m-7",
+    "next": "DKB20021m-0009",
+    "objectID": "DKB20021m-0008",
+    "prev": "DKB20021m-0007",
     "sort": "DKB20021m-0008",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "埼玉",
         "日本橋兜町",
@@ -48,10 +49,10 @@
     ],
     "temporal": "1919-01-08",
     "time": {
-        "13:30:00": "<div><time when=\"13:30:00\">午一半時</time>　　　<persName><surname>原</surname><forename>敬</forename></persName>氏訪問ノ約（首相官邸）</div>"
+        "13:30:00": "<div><time when=\"13:30:00\">\n             午一半時\n            </time>\n<persName corresp=\"#pers_原敬\">\n<surname>\n              原\n             </surname>\n<forename>\n              敬\n             </forename>\n</persName>\n            氏訪問ノ約（首相官邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-8\">\n<head>\n<date when=\"1919-01-08\"> 八日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"13:30:00\">午一半時</time>　　　<persName><surname>原</surname><forename>敬</forename></persName>氏訪問ノ約（首相官邸）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><placeName>埼玉</placeName>学生誘掖会ヘ御出向（確定）</p>\n</event>\n<event>\n<p><time from=\"16:00:00\" to=\"17:00:00\">午後四五時</time><persName><surname>柴田</surname><forename>徳次郎</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:30:00\">午後四半時</time>　　<persName><surname>白岩</surname><forename>竜平</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午后六時</time><placeName>東亜</placeName>興業株式会社ヨリ御案内（銀行クラブ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0008\">\n<head>\n<date when=\"1919-01-08\">\n           八日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午一半時\n            </time>\n<persName corresp=\"#pers_原敬\">\n<surname>\n              原\n             </surname>\n<forename>\n              敬\n             </forename>\n</persName>\n            氏訪問ノ約（首相官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会ヘ御出向（確定）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"16:00:00\" to=\"17:00:00\">\n             午後四五時\n            </time>\n<persName corresp=\"#pers_柴田徳次郎\">\n<surname>\n              柴田\n             </surname>\n<forename>\n              徳次郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n<persName corresp=\"#pers_白岩竜平\">\n<surname>\n              白岩\n             </surname>\n<forename>\n              竜平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午后六時\n            </time>\n<placeName corresp=\"#place_東亜\">\n             東亜\n            </placeName>\n            興業株式会社ヨリ御案内（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-01"
 }

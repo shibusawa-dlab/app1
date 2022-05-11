@@ -2,13 +2,15 @@
     "agential": [
         "桐島"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/桐島"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1372",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -18,15 +20,15 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-08",
     "date_lvl2": "1921-08-01",
-    "description": "\n\n 一日  （月） \n\n\n午前八―十時日本移民協会夏期講習会特別講演会（東京商科大学講堂）\n\n\n午後一時桐島像一氏来約（兜町）\n\n\n午後三時協調会理事会（同会）\n\n\n",
+    "description": "\n\n\n           一日\n          \n          （月）\n         \n\n\n\n\n             午前八―十時\n            \n\n             日本\n            \n            移民協会夏期講習会特別講演会（\n            \n             東京\n            \n            商科大学講堂）\n           \n\n\n\n\n             午後一時\n            \n\n\n              桐島\n             \n\n            像一氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            協調会理事会（同会）\n           \n\n\n",
     "fullname": [],
-    "label": "一日  （月）",
+    "label": "一日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20023m-207",
-    "objectID": "DKB20023m-206",
-    "prev": "DKB20023m-205",
+    "next": "DKB20023m-0207",
+    "objectID": "DKB20023m-0206",
+    "prev": "DKB20023m-0205",
     "sort": "DKB20023m-0206",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本",
         "東京",
@@ -40,7 +42,7 @@
     "temporal": "1921-08-01",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-206\">\n<head>\n<date when=\"1921-08-01\"> 一日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time from=\"08:00:00\" to=\"10:00:00\">午前八―十時</time><placeName>日本</placeName>移民協会夏期講習会特別講演会（<placeName>東京</placeName>商科大学講堂）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time><persName><surname>桐島</surname></persName>像一氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>協調会理事会（同会）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0206\">\n<head>\n<date when=\"1921-08-01\">\n           一日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"10:00:00\">\n             午前八―十時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            移民協会夏期講習会特別講演会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商科大学講堂）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_桐島\">\n<surname>\n              桐島\n             </surname>\n</persName>\n            像一氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            協調会理事会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-08"
 }

@@ -2,13 +2,15 @@
     "agential": [
         "服部文四郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/服部文四郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1436",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -18,17 +20,17 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-07",
     "date_lvl2": "1923-07-20",
-    "description": "\n\n 二十日  （金） \n\n\n午前十一半時　服部文四郎氏来約（兜町）\n\n\n午後二時斯文会理事会（華族会館）\n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （金）\n         \n\n\n\n\n             午前十一半時\n            \n\n\n              服部\n             \n\n              文四郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            斯文会理事会（華族会館）\n           \n\n\n",
     "fullname": [
-        "服部文四郎"
+        "\n              服部\n             \n              文四郎\n             "
     ],
-    "label": "二十日  （金）",
+    "label": "二十日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20025m-198",
-    "objectID": "DKB20025m-197",
-    "prev": "DKB20025m-196",
+    "next": "DKB20025m-0198",
+    "objectID": "DKB20025m-0197",
+    "prev": "DKB20025m-0196",
     "sort": "DKB20025m-0197",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -37,10 +39,10 @@
     ],
     "temporal": "1923-07-20",
     "time": {
-        "11:30:00": "<div><time when=\"11:30:00\">午前十一半時</time>　<persName><surname>服部</surname><forename>文四郎</forename></persName>氏来約（<placeName>兜町</placeName>）</div>"
+        "11:30:00": "<div><time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<persName corresp=\"#pers_服部文四郎\">\n<surname>\n              服部\n             </surname>\n<forename>\n              文四郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-197\">\n<head>\n<date when=\"1923-07-20\"> 二十日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"11:30:00\">午前十一半時</time>　<persName><surname>服部</surname><forename>文四郎</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>斯文会理事会（華族会館）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0197\">\n<head>\n<date when=\"1923-07-20\">\n           二十日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<persName corresp=\"#pers_服部文四郎\">\n<surname>\n              服部\n             </surname>\n<forename>\n              文四郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            斯文会理事会（華族会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-07"
 }

@@ -3,20 +3,20 @@
         "渋沢",
         "吉郎",
         "佐倉",
-        "孫",
-        "二松"
+        "孫"
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/吉郎",
         "https://shibusawa-dlab.github.io/lab1/api/chname/佐倉",
         "https://shibusawa-dlab.github.io/lab1/api/chname/孫"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1380",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -26,15 +26,15 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-10",
     "date_lvl2": "1921-10-09",
-    "description": "\n\n 九日  （日） \n\n\n正午　　　　　日華実業協会催、渋沢子爵送別会（帝国ホテル）\n\n\n午後三時児島献吉郎、佐倉孫三両氏招待会（二松学舎）\n\n\n午後七時朝鮮民衆宣伝用活動写真試写（東洋協会）食事ナシ\n\n\n",
+    "description": "\n\n\n           九日\n          \n          （日）\n         \n\n\n\n\n             正午\n            \n            日華実業協会催、\n            \n\n              渋沢\n             \n\n            子爵送別会（帝国ホテル）\n           \n\n\n\n\n             午後三時\n            \n\n             児島\n            \n            献\n            \n\n              吉郎\n             \n\n            、\n            \n\n              佐倉\n             \n\n\n\n              孫\n             \n\n            三両氏招待会（二松学舎）\n           \n\n\n\n\n             午後七時\n            \n\n             朝鮮\n            \n            民衆宣伝用活動写真試写（東洋協会）食事ナシ\n           \n\n\n",
     "fullname": [],
-    "label": "九日  （日）",
+    "label": "九日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20023m-276",
-    "objectID": "DKB20023m-275",
-    "prev": "DKB20023m-274",
+    "next": "DKB20023m-0276",
+    "objectID": "DKB20023m-0275",
+    "prev": "DKB20023m-0274",
     "sort": "DKB20023m-0275",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "児島",
         "朝鮮"
@@ -45,10 +45,10 @@
     ],
     "temporal": "1921-10-09",
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">正午</time>　　　　　日華実業協会催、<persName><surname>渋沢</surname></persName>子爵送別会（帝国ホテル）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            日華実業協会催、\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            子爵送別会（帝国ホテル）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-275\">\n<head>\n<date when=\"1921-10-09\"> 九日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　日華実業協会催、<persName><surname>渋沢</surname></persName>子爵送別会（帝国ホテル）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><placeName>児島</placeName>献<persName><forename>吉郎</forename></persName>、<persName><surname>佐倉</surname></persName><persName><surname>孫</surname></persName>三両氏招待会（<persName><forename>二松</forename></persName>学舎）</p>\n</event>\n<event>\n<p><time when=\"19:00:00\">午後七時</time><placeName>朝鮮</placeName>民衆宣伝用活動写真試写（東洋協会）食事ナシ</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0275\">\n<head>\n<date when=\"1921-10-09\">\n           九日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華実業協会催、\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            子爵送別会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_児島\">\n             児島\n            </placeName>\n            献\n            <persName corresp=\"#pers_吉郎\">\n<forename>\n              吉郎\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_佐倉\">\n<surname>\n              佐倉\n             </surname>\n</persName>\n<persName corresp=\"#pers_孫\">\n<surname>\n              孫\n             </surname>\n</persName>\n            三両氏招待会（二松学舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n<placeName corresp=\"#place_朝鮮\">\n             朝鮮\n            </placeName>\n            民衆宣伝用活動写真試写（東洋協会）食事ナシ\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-10"
 }

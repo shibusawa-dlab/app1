@@ -11,10 +11,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1560",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -24,17 +24,17 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-10",
     "date_lvl2": "1927-10-19",
-    "description": "\n\n 十九日  （水） \n\n\n午前九時赤城、斎藤両氏来約（飛鳥山邸）\n\n\n正午　　　　　鮮銀及東拓催、斎藤実氏招待会（東京会館）\n\n\n午後二・二五時御出勤\n\n\n午后三時米国大使ヲ同大使館ニ御訪問\n\n\n午后五時半秩父セメント会社御案内（築地八百善）\n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n\n\n              赤城\n             \n\n            、\n            \n\n              斎藤\n             \n\n            両氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            鮮銀及東拓催、\n            \n\n              斎藤\n             \n\n              実\n             \n\n            氏招待会（\n            \n             東京\n            \n            会館）\n           \n\n\n\n\n             午後二・二五時\n            \n            御出勤\n           \n\n\n\n\n             午后三時\n            \n\n             米国\n            \n            大使ヲ同大使館ニ御訪問\n           \n\n\n\n\n             午后五時半\n            \n\n             秩父\n            \n            セメント会社御案内（築地八百善）\n           \n\n\n",
     "fullname": [
-        "斎藤実"
+        "\n              斎藤\n             \n              実\n             "
     ],
-    "label": "十九日  （水）",
+    "label": "十九日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-267",
-    "objectID": "DKB20029m-266",
-    "prev": "DKB20029m-265",
+    "next": "DKB20029m-0267",
+    "objectID": "DKB20029m-0266",
+    "prev": "DKB20029m-0265",
     "sort": "DKB20029m-0266",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "東京",
@@ -42,16 +42,17 @@
         "秩父地方"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/東京",
         "https://shibusawa-dlab.github.io/lab1/api/place/アメリカ合衆国",
         "https://shibusawa-dlab.github.io/lab1/api/place/秩父地方"
     ],
     "temporal": "1927-10-19",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>赤城</surname></persName>、<persName><surname>斎藤</surname></persName>両氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_赤城\">\n<surname>\n              赤城\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_斎藤\">\n<surname>\n              斎藤\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-266\">\n<head>\n<date when=\"1927-10-19\"> 十九日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>赤城</surname></persName>、<persName><surname>斎藤</surname></persName>両氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　鮮銀及東拓催、<persName><surname>斎藤</surname><forename>実</forename></persName>氏招待会（<placeName>東京</placeName>会館）</p>\n</event>\n<event>\n<p><time when=\"14:25:00\">午後二・二五時</time>御出勤</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午后三時</time><placeName>米国</placeName>大使ヲ同大使館ニ御訪問</p>\n</event>\n<event>\n<p><time when=\"17:30:00\">午后五時半</time><placeName>秩父</placeName>セメント会社御案内（築地八百善）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0266\">\n<head>\n<date when=\"1927-10-19\">\n           十九日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_赤城\">\n<surname>\n              赤城\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_斎藤\">\n<surname>\n              斎藤\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            鮮銀及東拓催、\n            <persName corresp=\"#pers_斎藤実\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              実\n             </forename>\n</persName>\n            氏招待会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:25:00\">\n             午後二・二五時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            大使ヲ同大使館ニ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午后五時半\n            </time>\n<placeName corresp=\"#place_秩父地方\">\n             秩父\n            </placeName>\n            セメント会社御案内（築地八百善）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-10"
 }

@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1344",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -20,32 +20,33 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-10",
     "date_lvl2": "1920-10-17",
-    "description": "\n\n 十七日  （日） \n\n\n午前十時金子堅太郎氏来約（飛鳥山邸）\n\n\n午前十一時明徳寮落成披露并ニ学生入寮式（千駄ケ谷原宿三一二同所）\n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （日）\n         \n\n\n\n\n             午前十時\n            \n\n\n              金子\n             \n\n              堅太郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            明徳寮落成披露并ニ学生入寮式（\n            \n             千駄ケ谷\n            \n\n             原宿\n            \n            三一二同所）\n           \n\n\n",
     "fullname": [
-        "金子堅太郎"
+        "\n              金子\n             \n              堅太郎\n             "
     ],
-    "label": "十七日  （日）",
+    "label": "十七日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-268",
-    "objectID": "DKB20022m-267",
-    "prev": "DKB20022m-266",
+    "next": "DKB20022m-0268",
+    "objectID": "DKB20022m-0267",
+    "prev": "DKB20022m-0266",
     "sort": "DKB20022m-0267",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "千駄ヶ谷",
         "原宿"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/千駄ヶ谷",
         "https://shibusawa-dlab.github.io/lab1/api/place/原宿"
     ],
     "temporal": "1920-10-17",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><persName><surname>金子</surname><forename>堅太郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_金子堅太郎\">\n<surname>\n              金子\n             </surname>\n<forename>\n              堅太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-267\">\n<head>\n<date when=\"1920-10-17\"> 十七日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>金子</surname><forename>堅太郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>明徳寮落成披露并ニ学生入寮式（<placeName>千駄ケ谷</placeName><placeName>原宿</placeName>三一二同所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0267\">\n<head>\n<date when=\"1920-10-17\">\n           十七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_金子堅太郎\">\n<surname>\n              金子\n             </surname>\n<forename>\n              堅太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            明徳寮落成披露并ニ学生入寮式（\n            <placeName corresp=\"#place_千駄ヶ谷\">\n             千駄ケ谷\n            </placeName>\n<placeName corresp=\"#place_原宿\">\n             原宿\n            </placeName>\n            三一二同所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-10"
 }

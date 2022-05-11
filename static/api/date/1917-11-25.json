@@ -3,10 +3,10 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1253",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -16,15 +16,15 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-11",
     "date_lvl2": "1917-11-25",
-    "description": "\n\n 廿五日  （日） \n\n\n午前八・五一　王子駅発　弘道会血洗島支部ニテ御講演\n\n\n午後三・一二　深谷駅発車　御帰京\n\n\n午後五時第一銀行ヨリ御案内　浦賀船渠会社重役招待会（新喜楽）\n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （日）\n         \n\n\n\n\n             午前八・五一\n            \n\n             王子\n            \n            駅発　弘道会\n            \n             血洗島\n            \n            支部ニテ御講演\n           \n\n\n\n\n             午後三・一二\n            \n\n             深谷\n            \n            駅発車　御帰京\n           \n\n\n\n\n             午後五時\n            \n\n             第一銀行\n            \n            ヨリ御案内\n            \n             浦賀\n            \n            船渠会社重役招待会（新喜楽）\n           \n\n\n",
     "fullname": [],
-    "label": "廿五日  （日）",
+    "label": "廿五日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-306",
-    "objectID": "DKB20019m-305",
-    "prev": "DKB20019m-304",
+    "next": "DKB20019m-0306",
+    "objectID": "DKB20019m-0305",
+    "prev": "DKB20019m-0304",
     "sort": "DKB20019m-0305",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "王子",
         "血洗島",
@@ -33,15 +33,16 @@
     ],
     "spatial_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/place/王子",
+        "https://shibusawa-dlab.github.io/lab1/api/place/血洗島",
         "https://shibusawa-dlab.github.io/lab1/api/place/深谷",
         "https://shibusawa-dlab.github.io/lab1/api/place/浦賀"
     ],
     "temporal": "1917-11-25",
     "time": {
-        "08:51:00": "<div><time when=\"08:51:00\">午前八・五一</time>　<placeName>王子</placeName>駅発　弘道会<placeName>血洗島</placeName>支部ニテ御講演</div>"
+        "08:51:00": "<div><time when=\"08:51:00\">\n             午前八・五一\n            </time>\n<placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅発　弘道会\n            <placeName corresp=\"#place_血洗島\">\n             血洗島\n            </placeName>\n            支部ニテ御講演</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-305\">\n<head>\n<date when=\"1917-11-25\"> 廿五日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"08:51:00\">午前八・五一</time>　<placeName>王子</placeName>駅発　弘道会<placeName>血洗島</placeName>支部ニテ御講演</p>\n</event>\n<event>\n<p><time when=\"15:12:00\">午後三・一二</time>　<placeName>深谷</placeName>駅発車　御帰京</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>第一銀行ヨリ御案内　<placeName>浦賀</placeName>船渠会社重役招待会（新喜楽）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0305\">\n<head>\n<date when=\"1917-11-25\">\n           廿五日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:51:00\">\n             午前八・五一\n            </time>\n<placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅発　弘道会\n            <placeName corresp=\"#place_血洗島\">\n             血洗島\n            </placeName>\n            支部ニテ御講演\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:12:00\">\n             午後三・一二\n            </time>\n<placeName corresp=\"#place_深谷\">\n             深谷\n            </placeName>\n            駅発車　御帰京\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n            ヨリ御案内\n            <placeName corresp=\"#place_浦賀\">\n             浦賀\n            </placeName>\n            船渠会社重役招待会（新喜楽）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-11"
 }

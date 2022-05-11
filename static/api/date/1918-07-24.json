@@ -2,13 +2,15 @@
     "agential": [
         "瓜生喜三郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/瓜生喜三郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1274",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20020m 大正七年 1918"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20020m 大正七年 1918"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20020m 大正七年 1918",
     "date": {
         "lvl0": "1918",
@@ -18,17 +20,17 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-07",
     "date_lvl2": "1918-07-24",
-    "description": "\n\n 廿四日  （水） \n\n\n午後二―午後三時瓜生喜三郎氏来約（兜町）\n\n\n午後六時日露協会講演会（同協会）\n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （水）\n         \n\n\n\n\n             午後二―午後三時\n            \n\n\n              瓜生\n             \n\n              喜三郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n            日露協会講演会（同協会）\n           \n\n\n",
     "fullname": [
-        "瓜生喜三郎"
+        "\n              瓜生\n             \n              喜三郎\n             "
     ],
-    "label": "廿四日  （水）",
+    "label": "廿四日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20020m-200",
-    "objectID": "DKB20020m-199",
-    "prev": "DKB20020m-198",
+    "next": "DKB20020m-0200",
+    "objectID": "DKB20020m-0199",
+    "prev": "DKB20020m-0198",
     "sort": "DKB20020m-0199",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -38,7 +40,7 @@
     "temporal": "1918-07-24",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-199\">\n<head>\n<date when=\"1918-07-24\"> 廿四日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time from=\"14:00:00\" to=\"15:00:00\">午後二―午後三時</time><persName><surname>瓜生</surname><forename>喜三郎</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time>日露協会講演会（同協会）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0199\">\n<head>\n<date when=\"1918-07-24\">\n           廿四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―午後三時\n            </time>\n<persName corresp=\"#pers_瓜生喜三郎\">\n<surname>\n              瓜生\n             </surname>\n<forename>\n              喜三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            日露協会講演会（同協会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-07"
 }

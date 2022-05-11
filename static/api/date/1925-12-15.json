@@ -4,14 +4,15 @@
         "田中一馬"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/穂積"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/穂積",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田中一馬"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1498",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -21,27 +22,29 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-12",
     "date_lvl2": "1925-12-15",
-    "description": "\n\n 十五日  （火） \n\n\n午後一頃時　　穂積家ヘ御出向\n\n\n午后五時田中一馬氏来約（アスカ山）\n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （火）\n         \n\n\n\n\n             午後一頃時\n            \n\n\n              穂積\n             \n\n            家ヘ御出向\n           \n\n\n\n\n             午后五時\n            \n\n\n              田中\n             \n\n              一馬\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "田中一馬"
+        "\n              田中\n             \n              一馬\n             "
     ],
-    "label": "十五日  （火）",
+    "label": "十五日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20027m-233",
-    "objectID": "DKB20027m-232",
-    "prev": "DKB20027m-230",
+    "next": "DKB20027m-0233",
+    "objectID": "DKB20027m-0232",
+    "prev": "DKB20027m-0230",
     "sort": "DKB20027m-0232",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山"
+    ],
     "temporal": "1925-12-15",
     "time": {
-        "13:00:00": "<div><time when=\"13:00:00\">午後一頃時</time>　　<persName><surname>穂積</surname></persName>家ヘ御出向</div>"
+        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一頃時\n            </time>\n<persName corresp=\"#pers_穂積\">\n<surname>\n              穂積\n             </surname>\n</persName>\n            家ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-232\">\n<head>\n<date when=\"1925-12-15\"> 十五日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"13:00:00\">午後一頃時</time>　　<persName><surname>穂積</surname></persName>家ヘ御出向</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午后五時</time><persName><surname>田中</surname><forename>一馬</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0232\">\n<head>\n<date when=\"1925-12-15\">\n           十五日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一頃時\n            </time>\n<persName corresp=\"#pers_穂積\">\n<surname>\n              穂積\n             </surname>\n</persName>\n            家ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午后五時\n            </time>\n<persName corresp=\"#pers_田中一馬\">\n<surname>\n              田中\n             </surname>\n<forename>\n              一馬\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-12"
 }

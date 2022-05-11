@@ -4,21 +4,22 @@
         "徳川",
         "伊野",
         "井野辺",
-        "高田",
-        "慶喜"
+        "高田"
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/勝",
         "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/伊野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/井野辺",
         "https://shibusawa-dlab.github.io/lab1/api/chname/高田"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1518",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-07",
@@ -27,15 +28,15 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-07",
     "date_lvl2": "1926-07-12",
-    "description": "\n\n 十二日  （月） \n\n\n正午　　　　　勝、徳川催午餐会御案内（帝国ホテル）\n\n\n午後二半時　　御出勤（事務所）\n\n\n午后五時伊野辺《（井野辺）》、高田二氏慶喜公伝記読上（飛鳥山）\n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （月）\n         \n\n\n\n\n             正午\n            \n\n\n              勝\n             \n\n            、\n            \n\n              徳川\n             \n\n            催午餐会御案内（帝国ホテル）\n           \n\n\n\n\n             午後二半時\n            \n            御出勤（事務所）\n           \n\n\n\n\n             午后五時\n            \n\n\n              伊野\n             \n\n            辺《（\n            \n\n              井野辺\n             \n\n            ）》、\n            \n\n              高田\n             \n\n            二氏慶喜公伝記読上（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n",
     "fullname": [],
-    "label": "十二日  （月）",
+    "label": "十二日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-194",
-    "objectID": "DKB20028m-193",
-    "prev": "DKB20028m-192",
+    "next": "DKB20028m-0194",
+    "objectID": "DKB20028m-0193",
+    "prev": "DKB20028m-0192",
     "sort": "DKB20028m-0193",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園"
     ],
@@ -44,10 +45,10 @@
     ],
     "temporal": "1926-07-12",
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">正午</time>　　　　　<persName><surname>勝</surname></persName>、<persName><surname>徳川</surname></persName>催午餐会御案内（帝国ホテル）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_勝\">\n<surname>\n              勝\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            催午餐会御案内（帝国ホテル）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-193\">\n<head>\n<date when=\"1926-07-12\"> 十二日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　<persName><surname>勝</surname></persName>、<persName><surname>徳川</surname></persName>催午餐会御案内（帝国ホテル）</p>\n</event>\n<event>\n<p><time when=\"14:30:00\">午後二半時</time>　　御出勤（事務所）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午后五時</time><persName><surname>伊野</surname></persName>辺《（<persName><surname>井野辺</surname></persName>）》、<persName><surname>高田</surname></persName>二氏<persName><forename>慶喜</forename></persName>公伝記読上（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0193\">\n<head>\n<date when=\"1926-07-12\">\n           十二日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_勝\">\n<surname>\n              勝\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            催午餐会御案内（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            御出勤（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午后五時\n            </time>\n<persName corresp=\"#pers_伊野\">\n<surname>\n              伊野\n             </surname>\n</persName>\n            辺《（\n            <persName corresp=\"#pers_井野辺\">\n<surname>\n              井野辺\n             </surname>\n</persName>\n            ）》、\n            <persName corresp=\"#pers_高田\">\n<surname>\n              高田\n             </surname>\n</persName>\n            二氏慶喜公伝記読上（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-07"
 }

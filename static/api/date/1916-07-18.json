@@ -6,14 +6,15 @@
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/大隈",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/寺内"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/寺内",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/倉川"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1210",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -23,15 +24,15 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-07",
     "date_lvl2": "1916-07-18",
-    "description": "\n\n 十八日  （火） \n\n\n午前八時大隈侯爵ヲ御訪問\n\n\n引続　　　　　林男爵寺内伯爵ヲ御訪問\n\n\n午前十一時倉川氏来約（兜町）\n\n\n午後三時帰一協会幹事会（兜町）\n\n\n午後五時清水組宴会（日本橋クラブ）\n\n\n",
+    "description": "\n\n\n           十八日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n\n\n              大隈\n             \n\n            侯爵ヲ御訪問\n           \n\n\n\n\n             引続\n            \n            林男爵\n            \n\n              寺内\n             \n\n            伯爵ヲ御訪問\n           \n\n\n\n\n             午前十一時\n            \n\n\n              倉川\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            帰一協会幹事会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            清水組宴会（\n            \n             日本橋\n            \n            クラブ）\n           \n\n\n",
     "fullname": [],
-    "label": "十八日  （火）",
+    "label": "十八日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-185",
-    "objectID": "DKB20018m-184",
-    "prev": "DKB20018m-183",
+    "next": "DKB20018m-0185",
+    "objectID": "DKB20018m-0184",
+    "prev": "DKB20018m-0183",
     "sort": "DKB20018m-0184",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "日本橋"
@@ -42,10 +43,10 @@
     ],
     "temporal": "1916-07-18",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>大隈</surname></persName>侯爵ヲ御訪問</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯爵ヲ御訪問</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-184\">\n<head>\n<date when=\"1916-07-18\"> 十八日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>大隈</surname></persName>侯爵ヲ御訪問</p>\n</event>\n<event>\n<p><time>引続</time>　　　　　林男爵<persName><surname>寺内</surname></persName>伯爵ヲ御訪問</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>倉川</surname></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>帰一協会幹事会（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>清水組宴会（<placeName>日本橋</placeName>クラブ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0184\">\n<head>\n<date when=\"1916-07-18\">\n           十八日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯爵ヲ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続\n            </time>\n            林男爵\n            <persName corresp=\"#pers_寺内\">\n<surname>\n              寺内\n             </surname>\n</persName>\n            伯爵ヲ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_倉川\">\n<surname>\n              倉川\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            帰一協会幹事会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            清水組宴会（\n            <placeName corresp=\"#place_日本橋\">\n             日本橋\n            </placeName>\n            クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-07"
 }

@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1445",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -20,25 +20,25 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-11",
     "date_lvl2": "1923-11-30",
-    "description": "\n\n 三十日  （金） \n\n\n午前正十一時皇后陛下、協調会病院ヘ行啓ニ付協調会ヘ御出向\n\n\n午後一時大震災善後会救済部会（同会）\n\n\n午后二時安川敬一郎氏来約（商業会議所）\n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （金）\n         \n\n\n\n\n             午前正十一時\n            \n            皇后陛下、協調会病院ヘ行啓ニ付協調会ヘ御出向\n           \n\n\n\n\n             午後一時\n            \n            大震災善後会救済部会（同会）\n           \n\n\n\n\n             午后二時\n            \n\n\n              安川\n             \n\n              敬一郎\n             \n\n            氏来約（商業会議所）\n           \n\n\n",
     "fullname": [
-        "安川敬一郎"
+        "\n              安川\n             \n              敬一郎\n             "
     ],
-    "label": "三十日  （金）",
+    "label": "三十日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20025m-312",
-    "objectID": "DKB20025m-311",
-    "prev": "DKB20025m-310",
+    "next": "DKB20025m-0312",
+    "objectID": "DKB20025m-0311",
+    "prev": "DKB20025m-0310",
     "sort": "DKB20025m-0311",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [],
     "spatial_uri": [],
     "temporal": "1923-11-30",
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">午前正十一時</time>皇后陛下、協調会病院ヘ行啓ニ付協調会ヘ御出向</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前正十一時\n            </time>\n            皇后陛下、協調会病院ヘ行啓ニ付協調会ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-311\">\n<head>\n<date when=\"1923-11-30\"> 三十日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"11:00:00\">午前正十一時</time>皇后陛下、協調会病院ヘ行啓ニ付協調会ヘ御出向</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>大震災善後会救済部会（同会）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午后二時</time><persName><surname>安川</surname><forename>敬一郎</forename></persName>氏来約（商業会議所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0311\">\n<head>\n<date when=\"1923-11-30\">\n           三十日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前正十一時\n            </time>\n            皇后陛下、協調会病院ヘ行啓ニ付協調会ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            大震災善後会救済部会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n<persName corresp=\"#pers_安川敬一郎\">\n<surname>\n              安川\n             </surname>\n<forename>\n              敬一郎\n             </forename>\n</persName>\n            氏来約（商業会議所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-11"
 }

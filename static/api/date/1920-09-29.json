@@ -3,13 +3,16 @@
         "床次",
         "小橋"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/床次",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小橋"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1343",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -19,15 +22,15 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-09",
     "date_lvl2": "1920-09-29",
-    "description": "\n\n 廿九日  （水） \n\n\n午前十時床次内相、小橋次官ヲ御訪問（内相官邸）\n\n\n午後五時京浜実業家合同陞爵祝賀会（帝国ホテル）（夫人トモ、インビ服）《（エ）》\n\n\n",
+    "description": "\n\n\n           廿九日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n\n\n              床次\n             \n\n            内相、\n            \n\n              小橋\n             \n\n            次官ヲ御訪問（内相官邸）\n           \n\n\n\n\n             午後五時\n            \n\n             京浜\n            \n            実業家合同陞爵祝賀会（帝国ホテル）（夫人トモ、インビ服）《（エ）》\n           \n\n\n",
     "fullname": [],
-    "label": "廿九日  （水）",
+    "label": "廿九日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-250",
-    "objectID": "DKB20022m-249",
-    "prev": "DKB20022m-248",
+    "next": "DKB20022m-0250",
+    "objectID": "DKB20022m-0249",
+    "prev": "DKB20022m-0248",
     "sort": "DKB20022m-0249",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "京浜"
     ],
@@ -36,10 +39,10 @@
     ],
     "temporal": "1920-09-29",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><persName><surname>床次</surname></persName>内相、<persName><surname>小橋</surname></persName>次官ヲ御訪問（内相官邸）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_床次\">\n<surname>\n              床次\n             </surname>\n</persName>\n            内相、\n            <persName corresp=\"#pers_小橋\">\n<surname>\n              小橋\n             </surname>\n</persName>\n            次官ヲ御訪問（内相官邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-249\">\n<head>\n<date when=\"1920-09-29\"> 廿九日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>床次</surname></persName>内相、<persName><surname>小橋</surname></persName>次官ヲ御訪問（内相官邸）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><placeName>京浜</placeName>実業家合同陞爵祝賀会（帝国ホテル）（夫人トモ、インビ服）《（エ）》</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0249\">\n<head>\n<date when=\"1920-09-29\">\n           廿九日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_床次\">\n<surname>\n              床次\n             </surname>\n</persName>\n            内相、\n            <persName corresp=\"#pers_小橋\">\n<surname>\n              小橋\n             </surname>\n</persName>\n            次官ヲ御訪問（内相官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_京浜\">\n             京浜\n            </placeName>\n            実業家合同陞爵祝賀会（帝国ホテル）（夫人トモ、インビ服）《（エ）》\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-09"
 }

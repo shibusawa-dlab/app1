@@ -3,13 +3,16 @@
         "簗田〓次郎",
         "江藤甚三郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/簗田〓次郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/江藤甚三郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1597",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20031m 昭和四年 1929"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20031m 昭和四年 1929"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20031m 昭和四年 1929",
     "date": {
         "lvl0": "1929",
@@ -19,26 +22,26 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-07",
     "date_lvl2": "1929-07-04",
-    "description": "\n\n 四日  （木） \n\n\n午前十一・四十　事務所ニ御出勤\n\n\n午後一半時　　簗田〓次郎、江藤甚三郎両氏来約（事務所）\n\n\n",
+    "description": "\n\n\n           四日\n          \n          （木）\n         \n\n\n\n\n             午前十一・四十\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午後一半時\n            \n\n\n              簗田\n             \n\n              〓次郎\n             \n\n            、\n            \n\n              江藤\n             \n\n              甚三郎\n             \n\n            両氏来約（事務所）\n           \n\n\n",
     "fullname": [
-        "簗田〓次郎",
-        "江藤甚三郎"
+        "\n              簗田\n             \n              〓次郎\n             ",
+        "\n              江藤\n             \n              甚三郎\n             "
     ],
-    "label": "四日  （木）",
+    "label": "四日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20031m-109",
-    "objectID": "DKB20031m-108",
-    "prev": "DKB20031m-107",
+    "next": "DKB20031m-0109",
+    "objectID": "DKB20031m-0108",
+    "prev": "DKB20031m-0107",
     "sort": "DKB20031m-0108",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [],
     "spatial_uri": [],
     "temporal": "1929-07-04",
     "time": {
-        "11:40:00": "<div><time when=\"11:40:00\">午前十一・四十</time>　事務所ニ御出勤</div>"
+        "11:40:00": "<div><time when=\"11:40:00\">\n             午前十一・四十\n            </time>\n            事務所ニ御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-108\">\n<head>\n<date when=\"1929-07-04\"> 四日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"11:40:00\">午前十一・四十</time>　事務所ニ御出勤</p>\n</event>\n<event>\n<p><time when=\"13:30:00\">午後一半時</time>　　<persName><surname>簗田</surname><forename>〓次郎</forename></persName>、<persName><surname>江藤</surname><forename>甚三郎</forename></persName>両氏来約（事務所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0108\">\n<head>\n<date when=\"1929-07-04\">\n           四日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:40:00\">\n             午前十一・四十\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n<persName corresp=\"#pers_簗田〓次郎\">\n<surname>\n              簗田\n             </surname>\n<forename>\n              〓次郎\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_江藤甚三郎\">\n<surname>\n              江藤\n             </surname>\n<forename>\n              甚三郎\n             </forename>\n</persName>\n            両氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-07"
 }

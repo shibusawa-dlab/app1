@@ -6,14 +6,17 @@
         "高田利吉"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/中村孝也"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中村孝也",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/皆川剛六",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松平稲吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高田利吉"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1623",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20033m 昭和六年 1931"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20033m 昭和六年 1931"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20033m 昭和六年 1931",
     "date": {
         "lvl0": "1931",
@@ -23,30 +26,32 @@
     "date_lvl0": "1931",
     "date_lvl1": "1931-05",
     "date_lvl2": "1931-05-04",
-    "description": "\n\n 四日  （月） \n\n\n午前十一時事務所ニ御出勤\n\n\n午後〇半時　　御退出\n\n\n午後四半時　　中村孝也、皆川剛六、松平稲吉、高田利吉会晤《（氏脱）》（飛鳥山邸）\n\n\n",
+    "description": "\n\n\n           四日\n          \n          （月）\n         \n\n\n\n\n             午前十一時\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午後〇半時\n            \n            御退出\n           \n\n\n\n\n             午後四半時\n            \n\n\n              中村\n             \n\n              孝也\n             \n\n            、\n            \n\n              皆川\n             \n\n              剛六\n             \n\n            、\n            \n\n              松平\n             \n\n              稲吉\n             \n\n            、\n            \n\n              高田\n             \n\n              利吉\n             \n\n            会晤《（氏脱）》（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "中村孝也",
-        "皆川剛六",
-        "松平稲吉",
-        "高田利吉"
+        "\n              中村\n             \n              孝也\n             ",
+        "\n              皆川\n             \n              剛六\n             ",
+        "\n              松平\n             \n              稲吉\n             ",
+        "\n              高田\n             \n              利吉\n             "
     ],
-    "label": "四日  （月）",
+    "label": "四日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20033m-64",
-    "objectID": "DKB20033m-63",
-    "prev": "DKB20033m-62",
+    "next": "DKB20033m-0064",
+    "objectID": "DKB20033m-0063",
+    "prev": "DKB20033m-0062",
     "sort": "DKB20033m-0063",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1931-05-04",
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">午前十一時</time>事務所ニ御出勤</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            事務所ニ御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20033m-63\">\n<head>\n<date when=\"1931-05-04\"> 四日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>事務所ニ御出勤</p>\n</event>\n<event>\n<p><time when=\"12:30:00\">午後〇半時</time>　　御退出</p>\n</event>\n<event>\n<p><time when=\"16:30:00\">午後四半時</time>　　<persName><surname>中村</surname><forename>孝也</forename></persName>、<persName><surname>皆川</surname><forename>剛六</forename></persName>、<persName><surname>松平</surname><forename>稲吉</forename></persName>、<persName><surname>高田</surname><forename>利吉</forename></persName>会晤《（氏脱）》（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0063\">\n<head>\n<date when=\"1931-05-04\">\n           四日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇半時\n            </time>\n            御退出\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n<persName corresp=\"#pers_中村孝也\">\n<surname>\n              中村\n             </surname>\n<forename>\n              孝也\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_皆川剛六\">\n<surname>\n              皆川\n             </surname>\n<forename>\n              剛六\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_松平稲吉\">\n<surname>\n              松平\n             </surname>\n<forename>\n              稲吉\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_高田利吉\">\n<surname>\n              高田\n             </surname>\n<forename>\n              利吉\n             </forename>\n</persName>\n            会晤《（氏脱）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1931",
     "yearAndMonth": "1931-05"
 }

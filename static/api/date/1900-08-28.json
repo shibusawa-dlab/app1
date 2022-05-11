@@ -3,14 +3,17 @@
         "磯永得三",
         "大沢正道"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/磯永得三",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大沢正道"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/177",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB10009m 自  明治三十三年一月                                                 至                                                   明治三十四年五月  1900―1901"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB10009m 自 明治三十三年一月 至 明治三十四年五月 1900―1901"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-    "category_lvl1": "DKB10009m 自  明治三十三年一月                                                 至                                                   明治三十四年五月  1900―1901",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl1": "DKB10009m 自 明治三十三年一月 至 明治三十四年五月 1900―1901",
     "date": {
         "lvl0": "1900",
         "lvl1": "1900 > 1900-08",
@@ -19,18 +22,18 @@
     "date_lvl0": "1900",
     "date_lvl1": "1900-08",
     "date_lvl2": "1900-08-28",
-    "description": "\n\n 八月二十八日 \n\n曇、昨夜ノ雷雨ニ因シテ朝来涼気頓ニ加ハリ又昨日ノ暑気ナシ、午前六時海水浴ヲ為ス、七時朝餐ヲ畢ル、磯永得三氏夫妻来ル、東京ヨリ八十島、大沢正道氏等ノ書状ヲ落手ス、午後読書又ハ遊戯ニ消閑ス\n",
+    "description": "\n\n\n        八月二十八日\n       \n\n\n       曇、昨夜ノ雷雨ニ因シテ朝来涼気頓ニ加ハリ又昨日ノ暑気ナシ、\n       \n        午前六時\n       \n       海水浴ヲ為ス、\n       \n        七時\n       \n       朝餐ヲ畢ル、\n       \n\n         磯永\n        \n\n         得三\n        \n\n       氏夫妻来ル、\n       \n        東京\n       \n       ヨリ\n       \n       八十島、\n       \n\n         大沢\n        \n\n         正道\n        \n\n       氏等ノ書状ヲ落手ス、午後読書又ハ遊戯ニ消閑ス\n      \n",
     "fullname": [
-        "磯永得三",
-        "大沢正道"
+        "\n         磯永\n        \n         得三\n        ",
+        "\n         大沢\n        \n         正道\n        "
     ],
     "label": "八月二十八日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
-    "next": "DKB10009m-241",
-    "objectID": "DKB10009m-240",
-    "prev": "DKB10009m-239",
+    "next": "DKB10009m-0241",
+    "objectID": "DKB10009m-0240",
+    "prev": "DKB10009m-0239",
     "sort": "DKB10009m-0240",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "東京"
     ],
@@ -39,11 +42,11 @@
     ],
     "temporal": "1900-08-28",
     "time": {
-        "06:00:00": "<div>曇、昨夜ノ雷雨ニ因シテ朝来涼気頓ニ加ハリ又昨日ノ暑気ナシ、<time when=\"06:00:00\">午前六時</time>海水浴ヲ為ス、</div>",
-        "07:00:00": "<div><time when=\"07:00:00\">七時</time>朝餐ヲ畢ル、<persName><surname>磯永</surname><forename>得三</forename></persName>氏夫妻来ル、<placeName>東京</placeName>ヨリ<pb n=\"B1152\"/>八十島、<persName><surname>大沢</surname><forename>正道</forename></persName>氏等ノ書状ヲ落手ス、午後読書又ハ遊戯ニ消閑ス</div>"
+        "06:00:00": "<div>曇、昨夜ノ雷雨ニ因シテ朝来涼気頓ニ加ハリ又昨日ノ暑気ナシ、<time when=\"06:00:00\">\n        午前六時\n       </time>\n       海水浴ヲ為ス、</div>",
+        "07:00:00": "<div><time when=\"07:00:00\">\n        七時\n       </time>\n       朝餐ヲ畢ル、\n       <persName corresp=\"#pers_磯永得三\">\n<surname>\n         磯永\n        </surname>\n<forename>\n         得三\n        </forename>\n</persName>\n       氏夫妻来ル、\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n       ヨリ\n       <pb corresp=\"#pageB1152\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/178/full/max/0/default.jpg\" n=\"B1152\" source=\"#pageB1152\"/>\n       八十島、\n       <persName corresp=\"#pers_大沢正道\">\n<surname>\n         大沢\n        </surname>\n<forename>\n         正道\n        </forename>\n</persName>\n       氏等ノ書状ヲ落手ス、午後読書又ハ遊戯ニ消閑ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10009m-240\">\n<head>\n<date when=\"1900-08-28\"> 八月二十八日 </date>\n</head>\n<p>曇、昨夜ノ雷雨ニ因シテ朝来涼気頓ニ加ハリ又昨日ノ暑気ナシ、<time when=\"06:00:00\">午前六時</time>海水浴ヲ為ス、<time when=\"07:00:00\">七時</time>朝餐ヲ畢ル、<persName><surname>磯永</surname><forename>得三</forename></persName>氏夫妻来ル、<placeName>東京</placeName>ヨリ<pb n=\"B1152\"/>八十島、<persName><surname>大沢</surname><forename>正道</forename></persName>氏等ノ書状ヲ落手ス、午後読書又ハ遊戯ニ消閑ス</p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10009m-0240\">\n<head>\n<date when=\"1900-08-28\">\n        八月二十八日\n       </date>\n</head>\n<p>\n       曇、昨夜ノ雷雨ニ因シテ朝来涼気頓ニ加ハリ又昨日ノ暑気ナシ、\n       <time when=\"06:00:00\">\n        午前六時\n       </time>\n       海水浴ヲ為ス、\n       <time when=\"07:00:00\">\n        七時\n       </time>\n       朝餐ヲ畢ル、\n       <persName corresp=\"#pers_磯永得三\">\n<surname>\n         磯永\n        </surname>\n<forename>\n         得三\n        </forename>\n</persName>\n       氏夫妻来ル、\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n       ヨリ\n       <pb corresp=\"#pageB1152\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/178/full/max/0/default.jpg\" n=\"B1152\" source=\"#pageB1152\"/>\n       八十島、\n       <persName corresp=\"#pers_大沢正道\">\n<surname>\n         大沢\n        </surname>\n<forename>\n         正道\n        </forename>\n</persName>\n       氏等ノ書状ヲ落手ス、午後読書又ハ遊戯ニ消閑ス\n      </p>\n</div>",
     "year": "1900",
     "yearAndMonth": "1900-08"
 }

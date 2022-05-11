@@ -2,13 +2,15 @@
     "agential": [
         "中村舜"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中村舜"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1422",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -18,17 +20,17 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-03",
     "date_lvl2": "1923-03-13",
-    "description": "\n\n 十三日  （火） \n\n\n午前九半時　　東京市養育院巣鴨分院ヘ御出向\n\n\n引続同院板橋建築場参観、同院常設委員会（板橋分院）\n\n\n右終ツテ　　　飛鳥山邸ニ於午餐\n\n\n午後二半時　　中村舜二氏兜町ニ来約\n\n\n午後三半時　　仏国文化講演会（商工奨励館）\n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （火）\n         \n\n\n\n\n             午前九半時\n            \n\n             東京\n            \n            市養育院\n            \n             巣鴨\n            \n            分院ヘ御出向\n           \n\n\n\n\n             引続\n            \n            同院\n            \n             板橋\n            \n            建築場参観、同院常設委員会（\n            \n             板橋\n            \n            分院）\n           \n\n\n\n\n             右終ツテ\n            \n\n             飛鳥山\n            \n            邸ニ於午餐\n           \n\n\n\n\n             午後二半時\n            \n\n\n              中村\n             \n\n              舜\n             \n\n            二氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後三半時\n            \n\n             仏国\n            \n            文化講演会（商工奨励館）\n           \n\n\n",
     "fullname": [
-        "中村舜"
+        "\n              中村\n             \n              舜\n             "
     ],
-    "label": "十三日  （火）",
+    "label": "十三日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20025m-66",
-    "objectID": "DKB20025m-65",
-    "prev": "DKB20025m-64",
+    "next": "DKB20025m-0066",
+    "objectID": "DKB20025m-0065",
+    "prev": "DKB20025m-0064",
     "sort": "DKB20025m-0065",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京",
         "巣鴨",
@@ -47,10 +49,10 @@
     ],
     "temporal": "1923-03-13",
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">午前九半時</time>　　<placeName>東京</placeName>市養育院<placeName>巣鴨</placeName>分院ヘ御出向</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院\n            <placeName corresp=\"#place_巣鴨\">\n             巣鴨\n            </placeName>\n            分院ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-65\">\n<head>\n<date when=\"1923-03-13\"> 十三日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"09:30:00\">午前九半時</time>　　<placeName>東京</placeName>市養育院<placeName>巣鴨</placeName>分院ヘ御出向</p>\n</event>\n<event>\n<p><time>引続</time>同院<placeName>板橋</placeName>建築場参観、同院常設委員会（<placeName>板橋</placeName>分院）</p>\n</event>\n<event>\n<p><time>右終ツテ</time>　　　<placeName>飛鳥山</placeName>邸ニ於午餐</p>\n</event>\n<event>\n<p><time when=\"14:30:00\">午後二半時</time>　　<persName><surname>中村</surname><forename>舜</forename></persName>二氏<placeName>兜町</placeName>ニ来約</p>\n</event>\n<event>\n<p><time when=\"15:30:00\">午後三半時</time>　　<placeName>仏国</placeName>文化講演会（商工奨励館）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0065\">\n<head>\n<date when=\"1923-03-13\">\n           十三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院\n            <placeName corresp=\"#place_巣鴨\">\n             巣鴨\n            </placeName>\n            分院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続\n            </time>\n            同院\n            <placeName corresp=\"#place_板橋\">\n             板橋\n            </placeName>\n            建築場参観、同院常設委員会（\n            <placeName corresp=\"#place_板橋\">\n             板橋\n            </placeName>\n            分院）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             右終ツテ\n            </time>\n<placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸ニ於午餐\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<persName corresp=\"#pers_中村舜\">\n<surname>\n              中村\n             </surname>\n<forename>\n              舜\n             </forename>\n</persName>\n            二氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n<placeName corresp=\"#place_仏国\">\n             仏国\n            </placeName>\n            文化講演会（商工奨励館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-03"
 }

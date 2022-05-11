@@ -2,13 +2,15 @@
     "agential": [
         "伊東米治郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/伊東米治郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1447",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -18,27 +20,29 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-12",
     "date_lvl2": "1923-12-21",
-    "description": "\n\n 廿一日  （金） \n\n\n午前十時伊東米治郎氏来約（飛鳥山邸）\n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n\n\n              伊東\n             \n\n              米治郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "伊東米治郎"
+        "\n              伊東\n             \n              米治郎\n             "
     ],
-    "label": "廿一日  （金）",
+    "label": "廿一日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20025m-332",
-    "objectID": "DKB20025m-331",
-    "prev": "DKB20025m-330",
+    "next": "DKB20025m-0332",
+    "objectID": "DKB20025m-0331",
+    "prev": "DKB20025m-0330",
     "sort": "DKB20025m-0331",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1923-12-21",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><persName><surname>伊東</surname><forename>米治郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_伊東米治郎\">\n<surname>\n              伊東\n             </surname>\n<forename>\n              米治郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-331\">\n<head>\n<date when=\"1923-12-21\"> 廿一日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>伊東</surname><forename>米治郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0331\">\n<head>\n<date when=\"1923-12-21\">\n           廿一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_伊東米治郎\">\n<surname>\n              伊東\n             </surname>\n<forename>\n              米治郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-12"
 }

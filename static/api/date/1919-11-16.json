@@ -2,13 +2,15 @@
     "agential": [
         "関元植"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/関元植"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1315",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20021m 大正八年 1919"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20021m 大正八年 1919"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20021m 大正八年 1919",
     "date": {
         "lvl0": "1919",
@@ -18,30 +20,31 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-11",
     "date_lvl2": "1919-11-16",
-    "description": "\n\n 十六日  （日） \n\n\n午前九時関元植氏来約（飛鳥山邸）\n\n\n午前十時養育院事務員慰安会（飛鳥山邸）\n\n\n午後二時東亜経済会壱周年（高等商業学校）\n\n\n午後五時山成家結婚披露（築地精養軒）\n\n\n",
+    "description": "\n\n\n           十六日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n\n\n              関\n             \n\n              元植\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            養育院事務員慰安会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n             東亜\n            \n            経済会壱周年（高等商業学校）\n           \n\n\n\n\n             午後五時\n            \n            山成家結婚披露（築地精養軒）\n           \n\n\n",
     "fullname": [
-        "関元植"
+        "\n              関\n             \n              元植\n             "
     ],
-    "label": "十六日  （日）",
+    "label": "十六日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20021m-293",
-    "objectID": "DKB20021m-292",
-    "prev": "DKB20021m-291",
+    "next": "DKB20021m-0293",
+    "objectID": "DKB20021m-0292",
+    "prev": "DKB20021m-0291",
     "sort": "DKB20021m-0292",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "東亜"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/東亜"
     ],
     "temporal": "1919-11-16",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>関</surname><forename>元植</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_関元植\">\n<surname>\n              関\n             </surname>\n<forename>\n              元植\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-292\">\n<head>\n<date when=\"1919-11-16\"> 十六日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>関</surname><forename>元植</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>養育院事務員慰安会（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><placeName>東亜</placeName>経済会壱周年（高等商業学校）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>山成家結婚披露（築地精養軒）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0292\">\n<head>\n<date when=\"1919-11-16\">\n           十六日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_関元植\">\n<surname>\n              関\n             </surname>\n<forename>\n              元植\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            養育院事務員慰安会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_東亜\">\n             東亜\n            </placeName>\n            経済会壱周年（高等商業学校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            山成家結婚披露（築地精養軒）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-11"
 }

@@ -3,10 +3,10 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1438",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -16,28 +16,29 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-08",
     "date_lvl2": "1923-08-06",
-    "description": "\n\n 六日  （月） \n\n\n午前七・五七御避暑ノ為伊香保ヘ御転地（王子駅発）\n\n\n",
+    "description": "\n\n\n           六日\n          \n          （月）\n         \n\n\n\n\n             午前七・五七\n            \n            御避暑ノ為\n            \n             伊香保\n            \n            ヘ御転地（\n            \n             王子\n            \n            駅発）\n           \n\n\n",
     "fullname": [],
-    "label": "六日  （月）",
+    "label": "六日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20025m-217",
-    "objectID": "DKB20025m-215",
-    "prev": "DKB20025m-214",
+    "next": "DKB20025m-0217",
+    "objectID": "DKB20025m-0215",
+    "prev": "DKB20025m-0214",
     "sort": "DKB20025m-0215",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "伊香保",
         "王子"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/伊香保",
         "https://shibusawa-dlab.github.io/lab1/api/place/王子"
     ],
     "temporal": "1923-08-06",
     "time": {
-        "07:57:00": "<div><time when=\"07:57:00\">午前七・五七</time>御避暑ノ為<placeName>伊香保</placeName>ヘ御転地（<placeName>王子</placeName>駅発）</div>"
+        "07:57:00": "<div><time when=\"07:57:00\">\n             午前七・五七\n            </time>\n            御避暑ノ為\n            <placeName corresp=\"#place_伊香保\">\n             伊香保\n            </placeName>\n            ヘ御転地（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅発）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-215\">\n<head>\n<date when=\"1923-08-06\"> 六日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"07:57:00\">午前七・五七</time>御避暑ノ為<placeName>伊香保</placeName>ヘ御転地（<placeName>王子</placeName>駅発）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0215\">\n<head>\n<date when=\"1923-08-06\">\n           六日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"07:57:00\">\n             午前七・五七\n            </time>\n            御避暑ノ為\n            <placeName corresp=\"#place_伊香保\">\n             伊香保\n            </placeName>\n            ヘ御転地（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅発）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-08"
 }

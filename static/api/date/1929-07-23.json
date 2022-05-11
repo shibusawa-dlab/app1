@@ -3,13 +3,16 @@
         "崎山比佐衛",
         "藤村義苗"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/崎山比佐衛",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/藤村義苗"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1598",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20031m 昭和四年 1929"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20031m 昭和四年 1929"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20031m 昭和四年 1929",
     "date": {
         "lvl0": "1929",
@@ -19,28 +22,30 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-07",
     "date_lvl2": "1929-07-23",
-    "description": "\n\n 廿三日  （火） \n\n\n午前八半時　　海外植民学校長崎山比佐衛氏来約（飛鳥山邸）\n\n\n午前九時藤村義苗氏来約（飛鳥山邸）\n\n\n午後〇・一五　御出勤\n\n\n",
+    "description": "\n\n\n           廿三日\n          \n          （火）\n         \n\n\n\n\n             午前八半時\n            \n            海外植民学校長\n            \n\n              崎山\n             \n\n              比佐衛\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              藤村\n             \n\n              義苗\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後〇・一五\n            \n            御出勤\n           \n\n\n",
     "fullname": [
-        "崎山比佐衛",
-        "藤村義苗"
+        "\n              崎山\n             \n              比佐衛\n             ",
+        "\n              藤村\n             \n              義苗\n             "
     ],
-    "label": "廿三日  （火）",
+    "label": "廿三日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20031m-128",
-    "objectID": "DKB20031m-127",
-    "prev": "DKB20031m-126",
+    "next": "DKB20031m-0128",
+    "objectID": "DKB20031m-0127",
+    "prev": "DKB20031m-0126",
     "sort": "DKB20031m-0127",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1929-07-23",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八半時</time>　　海外植民学校長<persName><surname>崎山</surname><forename>比佐衛</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n            海外植民学校長\n            <persName corresp=\"#pers_崎山比佐衛\">\n<surname>\n              崎山\n             </surname>\n<forename>\n              比佐衛\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-127\">\n<head>\n<date when=\"1929-07-23\"> 廿三日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　海外植民学校長<persName><surname>崎山</surname><forename>比佐衛</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>藤村</surname><forename>義苗</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:15:00\">午後〇・一五</time>　御出勤</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0127\">\n<head>\n<date when=\"1929-07-23\">\n           廿三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            海外植民学校長\n            <persName corresp=\"#pers_崎山比佐衛\">\n<surname>\n              崎山\n             </surname>\n<forename>\n              比佐衛\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_藤村義苗\">\n<surname>\n              藤村\n             </surname>\n<forename>\n              義苗\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:15:00\">\n             午後〇・一五\n            </time>\n            御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-07"
 }

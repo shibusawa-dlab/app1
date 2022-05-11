@@ -7,14 +7,16 @@
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/田中穂積",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/中村雄次郎"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐々木清麿",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中村雄次郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/臼井新太郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1298",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20021m 大正八年 1919"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20021m 大正八年 1919"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20021m 大正八年 1919",
     "date": {
         "lvl0": "1919",
@@ -24,20 +26,20 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-05",
     "date_lvl2": "1919-05-20",
-    "description": "\n\n 二十日  （火） \n\n\n午時　　　　　田中穂積氏、佐々木清麿氏、中村雄次郎男、臼井新太郎氏来訪（大磯明石邸）\n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （火）\n         \n\n\n\n\n             午時\n            \n\n\n              田中\n             \n\n              穂積\n             \n\n            氏、\n            \n\n              佐々木\n             \n\n              清麿\n             \n\n            氏、\n            \n\n              中村\n             \n\n              雄次郎\n             \n\n            男、\n            \n\n              臼井\n             \n\n              新太郎\n             \n\n            氏来訪（\n            \n             大磯\n            \n\n             明石\n            \n            邸）\n           \n\n\n",
     "fullname": [
-        "田中穂積",
-        "佐々木清麿",
-        "中村雄次郎",
-        "臼井新太郎"
+        "\n              田中\n             \n              穂積\n             ",
+        "\n              佐々木\n             \n              清麿\n             ",
+        "\n              中村\n             \n              雄次郎\n             ",
+        "\n              臼井\n             \n              新太郎\n             "
     ],
-    "label": "二十日  （火）",
+    "label": "二十日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20021m-115",
-    "objectID": "DKB20021m-114",
-    "prev": "DKB20021m-113",
+    "next": "DKB20021m-0115",
+    "objectID": "DKB20021m-0114",
+    "prev": "DKB20021m-0113",
     "sort": "DKB20021m-0114",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "大磯町",
         "明石"
@@ -48,10 +50,10 @@
     ],
     "temporal": "1919-05-20",
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">午時</time>　　　　　<persName><surname>田中</surname><forename>穂積</forename></persName>氏、<persName><surname>佐々木</surname><forename>清麿</forename></persName>氏、<persName><surname>中村</surname><forename>雄次郎</forename></persName>男、<persName><surname>臼井</surname><forename>新太郎</forename></persName>氏来訪（<placeName>大磯</placeName><placeName>明石</placeName>邸）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_田中穂積\">\n<surname>\n              田中\n             </surname>\n<forename>\n              穂積\n             </forename>\n</persName>\n            氏、\n            <persName corresp=\"#pers_佐々木清麿\">\n<surname>\n              佐々木\n             </surname>\n<forename>\n              清麿\n             </forename>\n</persName>\n            氏、\n            <persName corresp=\"#pers_中村雄次郎\">\n<surname>\n              中村\n             </surname>\n<forename>\n              雄次郎\n             </forename>\n</persName>\n            男、\n            <persName corresp=\"#pers_臼井新太郎\">\n<surname>\n              臼井\n             </surname>\n<forename>\n              新太郎\n             </forename>\n</persName>\n            氏来訪（\n            <placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n<placeName corresp=\"#place_明石\">\n             明石\n            </placeName>\n            邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-114\">\n<head>\n<date when=\"1919-05-20\"> 二十日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"12:00:00\">午時</time>　　　　　<persName><surname>田中</surname><forename>穂積</forename></persName>氏、<persName><surname>佐々木</surname><forename>清麿</forename></persName>氏、<persName><surname>中村</surname><forename>雄次郎</forename></persName>男、<persName><surname>臼井</surname><forename>新太郎</forename></persName>氏来訪（<placeName>大磯</placeName><placeName>明石</placeName>邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0114\">\n<head>\n<date when=\"1919-05-20\">\n           二十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_田中穂積\">\n<surname>\n              田中\n             </surname>\n<forename>\n              穂積\n             </forename>\n</persName>\n            氏、\n            <persName corresp=\"#pers_佐々木清麿\">\n<surname>\n              佐々木\n             </surname>\n<forename>\n              清麿\n             </forename>\n</persName>\n            氏、\n            <persName corresp=\"#pers_中村雄次郎\">\n<surname>\n              中村\n             </surname>\n<forename>\n              雄次郎\n             </forename>\n</persName>\n            男、\n            <persName corresp=\"#pers_臼井新太郎\">\n<surname>\n              臼井\n             </surname>\n<forename>\n              新太郎\n             </forename>\n</persName>\n            氏来訪（\n            <placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n<placeName corresp=\"#place_明石\">\n             明石\n            </placeName>\n            邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-05"
 }

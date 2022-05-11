@@ -6,14 +6,15 @@
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/簗田",
         "https://shibusawa-dlab.github.io/lab1/api/chname/次郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1567",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -23,23 +24,23 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-12",
     "date_lvl2": "1927-12-15",
-    "description": "\n\n 十五日  （木） \n\n\n午前十時徳川家顧問会（同邸）\n\n\n午後二・一五　御出勤\n\n\n午後四時簗田〓次郎氏来約（事務所）\n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n\n              徳川\n             \n\n            家顧問会（同邸）\n           \n\n\n\n\n             午後二・一五\n            \n            御出勤\n           \n\n\n\n\n             午後四時\n            \n\n\n              簗田\n             \n\n            〓\n            \n\n              次郎\n             \n\n            氏来約（事務所）\n           \n\n\n",
     "fullname": [],
-    "label": "十五日  （木）",
+    "label": "十五日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-325",
-    "objectID": "DKB20029m-324",
-    "prev": "DKB20029m-323",
+    "next": "DKB20029m-0325",
+    "objectID": "DKB20029m-0324",
+    "prev": "DKB20029m-0323",
     "sort": "DKB20029m-0324",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [],
     "spatial_uri": [],
     "temporal": "1927-12-15",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><persName><surname>徳川</surname></persName>家顧問会（同邸）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家顧問会（同邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-324\">\n<head>\n<date when=\"1927-12-15\"> 十五日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>徳川</surname></persName>家顧問会（同邸）</p>\n</event>\n<event>\n<p><time when=\"14:15:00\">午後二・一五</time>　御出勤</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><persName><surname>簗田</surname></persName>〓<persName><forename>次郎</forename></persName>氏来約（事務所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0324\">\n<head>\n<date when=\"1927-12-15\">\n           十五日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家顧問会（同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:15:00\">\n             午後二・一五\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_簗田\">\n<surname>\n              簗田\n             </surname>\n</persName>\n            〓\n            <persName corresp=\"#pers_次郎\">\n<forename>\n              次郎\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-12"
 }

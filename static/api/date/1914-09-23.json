@@ -1,18 +1,18 @@
 {
     "agential": [
         "武井守正",
-        "高松_(曖昧さ回避)"
+        "高松"
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/武井守正",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/高松_(曖昧さ回避)"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高松"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1165",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20016m 大正三年 1914"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20016m 大正三年 1914"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20016m 大正三年 1914",
     "date": {
         "lvl0": "1914",
@@ -22,17 +22,17 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-09",
     "date_lvl2": "1914-09-23",
-    "description": "\n\n 廿三日  （水） \n\n\n正午　　　　　東京興信所評議員会（銀行クラブ）\n\n\n午後二時武井守正男来ル約（兜町）\n\n\n午後五時日韓瓦斯高松氏ヨリ御案内（トキワヤ）\n\n\n",
+    "description": "\n\n\n           廿三日\n          \n          （水）\n         \n\n\n\n\n             正午\n            \n\n             東京\n            \n            興信所評議員会（銀行クラブ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              武井\n             \n\n              守正\n             \n\n            男来ル約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            日韓瓦斯\n            \n\n              高松\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n",
     "fullname": [
-        "武井守正"
+        "\n              武井\n             \n              守正\n             "
     ],
-    "label": "廿三日  （水）",
+    "label": "廿三日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20016m-8",
-    "objectID": "DKB20016m-7",
-    "prev": "DKB20016m-6",
+    "next": "DKB20016m-0008",
+    "objectID": "DKB20016m-0007",
+    "prev": "DKB20016m-0006",
     "sort": "DKB20016m-0007",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京",
         "日本橋兜町"
@@ -43,10 +43,10 @@
     ],
     "temporal": "1914-09-23",
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">正午</time>　　　　　<placeName>東京</placeName>興信所評議員会（銀行クラブ）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            興信所評議員会（銀行クラブ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-7\">\n<head>\n<date when=\"1914-09-23\"> 廿三日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　<placeName>東京</placeName>興信所評議員会（銀行クラブ）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>武井</surname><forename>守正</forename></persName>男来ル約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>日韓瓦斯<persName><surname>高松</surname></persName>氏ヨリ御案内（トキワヤ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0007\">\n<head>\n<date when=\"1914-09-23\">\n           廿三日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            興信所評議員会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_武井守正\">\n<surname>\n              武井\n             </surname>\n<forename>\n              守正\n             </forename>\n</persName>\n            男来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            日韓瓦斯\n            <persName corresp=\"#pers_高松\">\n<surname>\n              高松\n             </surname>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-09"
 }

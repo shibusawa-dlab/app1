@@ -3,11 +3,11 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/326",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB10011m 自  明治三十五年八月                                                 至                                                   明治三十六年十一月  1902―1903"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB10011m 自 明治三十五年八月 至 明治三十六年十一月 1902―1903"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-    "category_lvl1": "DKB10011m 自  明治三十五年八月                                                 至                                                   明治三十六年十一月  1902―1903",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl1": "DKB10011m 自 明治三十五年八月 至 明治三十六年十一月 1902―1903",
     "date": {
         "lvl0": "1903",
         "lvl1": "1903 > 1903-03",
@@ -16,15 +16,15 @@
     "date_lvl0": "1903",
     "date_lvl1": "1903-03",
     "date_lvl2": "1903-03-20",
-    "description": "\n\n 三月二十日 \n\n曇、午前八時朝飧ヲ畢リ、十時日本鉄道会社ニ抵リ重役会ニ出席ス、畢テ兜町事務所ニ抵リ来人ニ接ス、午後一時銀行集会所ニ抵リ手形交換所聯合会ヲ開ク、午後六時散会、夜浜町宅ニ帰宿ス\n",
+    "description": "\n\n\n        三月二十日\n       \n\n\n       曇、\n       \n        午前八時\n       \n       朝飧ヲ畢リ、\n       \n        十時\n       \n       日本鉄道会社ニ抵リ重役会ニ出席ス、畢テ\n       \n        兜町\n       \n       事務所ニ抵リ来人ニ接ス、\n       \n        午後一時\n       \n       銀行集会所ニ抵リ手形交換所聯合会ヲ開ク、\n       \n        午後六時\n       \n       散会、夜\n       \n        浜町\n       \n       宅ニ帰宿ス\n      \n",
     "fullname": [],
     "label": "三月二十日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
-    "next": "DKB10011m-214",
-    "objectID": "DKB10011m-213",
-    "prev": "DKB10011m-212",
+    "next": "DKB10011m-0214",
+    "objectID": "DKB10011m-0213",
+    "prev": "DKB10011m-0212",
     "sort": "DKB10011m-0213",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "日本橋兜町",
         "浜町"
@@ -35,13 +35,13 @@
     ],
     "temporal": "1903-03-20",
     "time": {
-        "08:00:00": "<div>曇、<time when=\"08:00:00\">午前八時</time>朝飧ヲ畢リ、</div>",
-        "10:00:00": "<div><time when=\"10:00:00\">十時</time>日本鉄道会社ニ抵リ重役会ニ出席ス、畢テ<placeName>兜町</placeName>事務所ニ抵リ来人ニ接ス、</div>",
-        "13:00:00": "<div><time when=\"13:00:00\">午後一時</time>銀行集会所ニ抵リ手形交換所聯合会ヲ開ク、</div>",
-        "18:00:00": "<div><time when=\"18:00:00\">午後六時</time>散会、夜<placeName>浜町</placeName>宅ニ帰宿ス</div>"
+        "08:00:00": "<div>曇、<time when=\"08:00:00\">\n        午前八時\n       </time>\n       朝飧ヲ畢リ、</div>",
+        "10:00:00": "<div><time when=\"10:00:00\">\n        十時\n       </time>\n       日本鉄道会社ニ抵リ重役会ニ出席ス、畢テ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接ス、</div>",
+        "13:00:00": "<div><time when=\"13:00:00\">\n        午後一時\n       </time>\n       銀行集会所ニ抵リ手形交換所聯合会ヲ開ク、</div>",
+        "18:00:00": "<div><time when=\"18:00:00\">\n        午後六時\n       </time>\n       散会、夜\n       <placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       宅ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-213\">\n<head>\n<date when=\"1903-03-20\"> 三月二十日 </date>\n</head>\n<p>曇、<time when=\"08:00:00\">午前八時</time>朝飧ヲ畢リ、<time when=\"10:00:00\">十時</time>日本鉄道会社ニ抵リ重役会ニ出席ス、畢テ<placeName>兜町</placeName>事務所ニ抵リ来人ニ接ス、<time when=\"13:00:00\">午後一時</time>銀行集会所ニ抵リ手形交換所聯合会ヲ開ク、<time when=\"18:00:00\">午後六時</time>散会、夜<placeName>浜町</placeName>宅ニ帰宿ス</p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-0213\">\n<head>\n<date when=\"1903-03-20\">\n        三月二十日\n       </date>\n</head>\n<p>\n       曇、\n       <time when=\"08:00:00\">\n        午前八時\n       </time>\n       朝飧ヲ畢リ、\n       <time when=\"10:00:00\">\n        十時\n       </time>\n       日本鉄道会社ニ抵リ重役会ニ出席ス、畢テ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接ス、\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n       銀行集会所ニ抵リ手形交換所聯合会ヲ開ク、\n       <time when=\"18:00:00\">\n        午後六時\n       </time>\n       散会、夜\n       <placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       宅ニ帰宿ス\n      </p>\n</div>",
     "year": "1903",
     "yearAndMonth": "1903-03"
 }

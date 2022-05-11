@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1330",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -20,17 +20,17 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-04",
     "date_lvl2": "1920-04-11",
-    "description": "\n\n 十一日  （日） \n\n\n午前十時埼玉県人会園遊会（飛鳥山邸）\n\n\n午後三時勝田主計氏、山下亀三郎氏茶話会（銀行クラブ）\n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （日）\n         \n\n\n\n\n             午前十時\n            \n\n             埼玉\n            \n            県人会園遊会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n             勝田\n            \n            主計氏、\n            \n\n              山下\n             \n\n              亀三郎\n             \n\n            氏茶話会（銀行クラブ）\n           \n\n\n",
     "fullname": [
-        "山下亀三郎"
+        "\n              山下\n             \n              亀三郎\n             "
     ],
-    "label": "十一日  （日）",
+    "label": "十一日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-100",
-    "objectID": "DKB20022m-99",
-    "prev": "DKB20022m-98",
+    "next": "DKB20022m-0100",
+    "objectID": "DKB20022m-0099",
+    "prev": "DKB20022m-0098",
     "sort": "DKB20022m-0099",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "埼玉",
         "飛鳥山邸",
@@ -38,14 +38,15 @@
     ],
     "spatial_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/place/埼玉",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/勝田"
     ],
     "temporal": "1920-04-11",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><placeName>埼玉</placeName>県人会園遊会（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県人会園遊会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-99\">\n<head>\n<date when=\"1920-04-11\"> 十一日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><placeName>埼玉</placeName>県人会園遊会（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><placeName>勝田</placeName>主計氏、<persName><surname>山下</surname><forename>亀三郎</forename></persName>氏茶話会（銀行クラブ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0099\">\n<head>\n<date when=\"1920-04-11\">\n           十一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県人会園遊会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_勝田\">\n             勝田\n            </placeName>\n            主計氏、\n            <persName corresp=\"#pers_山下亀三郎\">\n<surname>\n              山下\n             </surname>\n<forename>\n              亀三郎\n             </forename>\n</persName>\n            氏茶話会（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-04"
 }

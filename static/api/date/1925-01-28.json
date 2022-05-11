@@ -6,14 +6,17 @@
         "木村雄次"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/志村源太郎"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川誠男",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/志村源太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/油谷恭一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/木村雄次"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1485",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -23,30 +26,32 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-01",
     "date_lvl2": "1925-01-28",
-    "description": "\n\n 廿八日  （水） \n\n\n午前九時徳川誠男来約（アスカ山邸）\n\n\n午前九時志村源太郎氏来約（アスカ山邸）\n\n\n午後二時修養団理事会（同団事ム所）\n\n\n午後四時油谷恭一氏来約（事務所）\n\n\n午後四時木村雄次氏来約（事務所）\n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n\n\n              徳川\n             \n\n              誠男\n             \n\n            来約（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              志村\n             \n\n              源太郎\n             \n\n            氏来約（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            修養団理事会（同団事ム所）\n           \n\n\n\n\n             午後四時\n            \n\n\n              油谷\n             \n\n              恭一\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後四時\n            \n\n\n              木村\n             \n\n              雄次\n             \n\n            氏来約（事務所）\n           \n\n\n",
     "fullname": [
-        "徳川誠男",
-        "志村源太郎",
-        "油谷恭一",
-        "木村雄次"
+        "\n              徳川\n             \n              誠男\n             ",
+        "\n              志村\n             \n              源太郎\n             ",
+        "\n              油谷\n             \n              恭一\n             ",
+        "\n              木村\n             \n              雄次\n             "
     ],
-    "label": "廿八日  （水）",
+    "label": "廿八日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20027m-13",
-    "objectID": "DKB20027m-12",
-    "prev": "DKB20027m-11",
+    "next": "DKB20027m-0013",
+    "objectID": "DKB20027m-0012",
+    "prev": "DKB20027m-0011",
     "sort": "DKB20027m-0012",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
-        "アスカ山"
+        "アスカ山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山邸"
+    ],
     "temporal": "1925-01-28",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>徳川</surname><forename>誠男</forename></persName>来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>邸）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_徳川誠男\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              誠男\n             </forename>\n</persName>\n            来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-12\">\n<head>\n<date when=\"1925-01-28\"> 廿八日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>徳川</surname><forename>誠男</forename></persName>来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>邸）</p>\n</event>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>志村</surname><forename>源太郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>邸）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>修養団理事会（同団事ム所）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><persName><surname>油谷</surname><forename>恭一</forename></persName>氏来約（事務所）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><persName><surname>木村</surname><forename>雄次</forename></persName>氏来約（事務所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0012\">\n<head>\n<date when=\"1925-01-28\">\n           廿八日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_徳川誠男\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              誠男\n             </forename>\n</persName>\n            来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_志村源太郎\">\n<surname>\n              志村\n             </surname>\n<forename>\n              源太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            修養団理事会（同団事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_油谷恭一\">\n<surname>\n              油谷\n             </surname>\n<forename>\n              恭一\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_木村雄次\">\n<surname>\n              木村\n             </surname>\n<forename>\n              雄次\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-01"
 }

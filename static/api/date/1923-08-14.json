@@ -4,13 +4,17 @@
         "松野千勝",
         "服部文四郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/内田徳太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松野千勝",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/服部文四郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1438",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -20,32 +24,33 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-08",
     "date_lvl2": "1923-08-14",
-    "description": "\n\n 十四日  （火） \n\n\n午前八時内田徳太郎氏来約（飛鳥山邸）\n\n\n午前八半時　　松野千勝氏来約（右同）\n\n\n午後二時頃　　服部文四郎氏ト御会見ノ約（東京市役所）\n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n\n\n              内田\n             \n\n              徳太郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前八半時\n            \n\n\n              松野\n             \n\n              千勝\n             \n\n            氏来約（右同）\n           \n\n\n\n\n             午後二時\n            \n            頃\n            \n\n              服部\n             \n\n              文四郎\n             \n\n            氏ト御会見ノ約（\n            \n             東京\n            \n            市役所）\n           \n\n\n",
     "fullname": [
-        "内田徳太郎",
-        "松野千勝",
-        "服部文四郎"
+        "\n              内田\n             \n              徳太郎\n             ",
+        "\n              松野\n             \n              千勝\n             ",
+        "\n              服部\n             \n              文四郎\n             "
     ],
-    "label": "十四日  （火）",
+    "label": "十四日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20025m-219",
-    "objectID": "DKB20025m-218",
-    "prev": "DKB20025m-217",
+    "next": "DKB20025m-0219",
+    "objectID": "DKB20025m-0218",
+    "prev": "DKB20025m-0217",
     "sort": "DKB20025m-0218",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "東京"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1923-08-14",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>内田</surname><forename>徳太郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_内田徳太郎\">\n<surname>\n              内田\n             </surname>\n<forename>\n              徳太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-218\">\n<head>\n<date when=\"1923-08-14\"> 十四日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>内田</surname><forename>徳太郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>松野</surname><forename>千勝</forename></persName>氏来約（右同）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>頃　　<persName><surname>服部</surname><forename>文四郎</forename></persName>氏ト御会見ノ約（<placeName>東京</placeName>市役所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0218\">\n<head>\n<date when=\"1923-08-14\">\n           十四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_内田徳太郎\">\n<surname>\n              内田\n             </surname>\n<forename>\n              徳太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_松野千勝\">\n<surname>\n              松野\n             </surname>\n<forename>\n              千勝\n             </forename>\n</persName>\n            氏来約（右同）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            頃\n            <persName corresp=\"#pers_服部文四郎\">\n<surname>\n              服部\n             </surname>\n<forename>\n              文四郎\n             </forename>\n</persName>\n            氏ト御会見ノ約（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市役所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-08"
 }

@@ -2,13 +2,15 @@
     "agential": [
         "山田英太郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山田英太郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1424",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -18,17 +20,17 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-03",
     "date_lvl2": "1923-03-26",
-    "description": "\n\n 廿六日  （月） \n\n\n正午　　　　　日本クラブ午餐会（同クラブ）\n\n\n午後一半時　　第七回社会政策講習会修業式（協調会館）\n\n\n午後四時山田英太郎家結婚披露（東京会館）\n\n\n",
+    "description": "\n\n\n           廿六日\n          \n          （月）\n         \n\n\n\n\n             正午\n            \n            日本クラブ午餐会（同クラブ）\n           \n\n\n\n\n             午後一半時\n            \n            第七回社会政策講習会修業式（協調会館）\n           \n\n\n\n\n             午後四時\n            \n\n\n              山田\n             \n\n              英太郎\n             \n\n            家結婚披露（\n            \n             東京\n            \n            会館）\n           \n\n\n",
     "fullname": [
-        "山田英太郎"
+        "\n              山田\n             \n              英太郎\n             "
     ],
-    "label": "廿六日  （月）",
+    "label": "廿六日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20025m-79",
-    "objectID": "DKB20025m-78",
-    "prev": "DKB20025m-77",
+    "next": "DKB20025m-0079",
+    "objectID": "DKB20025m-0078",
+    "prev": "DKB20025m-0077",
     "sort": "DKB20025m-0078",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京"
     ],
@@ -37,10 +39,10 @@
     ],
     "temporal": "1923-03-26",
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">正午</time>　　　　　日本クラブ午餐会（同クラブ）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            日本クラブ午餐会（同クラブ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-78\">\n<head>\n<date when=\"1923-03-26\"> 廿六日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　日本クラブ午餐会（同クラブ）</p>\n</event>\n<event>\n<p><time when=\"13:30:00\">午後一半時</time>　　第七回社会政策講習会修業式（協調会館）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><persName><surname>山田</surname><forename>英太郎</forename></persName>家結婚披露（<placeName>東京</placeName>会館）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0078\">\n<head>\n<date when=\"1923-03-26\">\n           廿六日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日本クラブ午餐会（同クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n            第七回社会政策講習会修業式（協調会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_山田英太郎\">\n<surname>\n              山田\n             </surname>\n<forename>\n              英太郎\n             </forename>\n</persName>\n            家結婚披露（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-03"
 }

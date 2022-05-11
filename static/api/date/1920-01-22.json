@@ -7,15 +7,16 @@
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/安川敬一郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/関善一",
         "https://shibusawa-dlab.github.io/lab1/api/chname/矢島",
         "https://shibusawa-dlab.github.io/lab1/api/chname/井上"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1322",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -25,18 +26,18 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-01",
     "date_lvl2": "1920-01-22",
-    "description": "\n\n 廿二日  （木） \n\n\n午前九半時　　安川敬一郎氏来約（兜町）\n\n\n午前九半時　　関善一氏来約（兜町）\n\n\n午前十時田園都市会社関係地方人来約（兜町）\n\n\n午前十時四十分故矢島氏葬儀（神田青年会館）\n\n\n午前十一時井上日本銀行総裁ヲ御訪問ノ約（同行）\n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （木）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              安川\n             \n\n              敬一郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n\n              関\n             \n\n              善一\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            田園都市会社関係地方人来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十時四十分\n            \n            故\n            \n\n              矢島\n             \n\n            氏葬儀（\n            \n             神田\n            \n            青年会館）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              井上\n             \n\n\n             日本\n            \n            銀行総裁ヲ御訪問ノ約（同行）\n           \n\n\n",
     "fullname": [
-        "安川敬一郎",
-        "関善一"
+        "\n              安川\n             \n              敬一郎\n             ",
+        "\n              関\n             \n              善一\n             "
     ],
-    "label": "廿二日  （木）",
+    "label": "廿二日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-20",
-    "objectID": "DKB20022m-19",
-    "prev": "DKB20022m-18",
+    "next": "DKB20022m-0020",
+    "objectID": "DKB20022m-0019",
+    "prev": "DKB20022m-0018",
     "sort": "DKB20022m-0019",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "神田",
@@ -49,10 +50,10 @@
     ],
     "temporal": "1920-01-22",
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">午前九半時</time>　　<persName><surname>安川</surname><forename>敬一郎</forename></persName>氏来約（<placeName>兜町</placeName>）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_安川敬一郎\">\n<surname>\n              安川\n             </surname>\n<forename>\n              敬一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-19\">\n<head>\n<date when=\"1920-01-22\"> 廿二日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"09:30:00\">午前九半時</time>　　<persName><surname>安川</surname><forename>敬一郎</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"09:30:00\">午前九半時</time>　　<persName><surname>関</surname><forename>善一</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>田園都市会社関係地方人来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:40:00\">午前十時四十分</time>故<persName><surname>矢島</surname></persName>氏葬儀（<placeName>神田</placeName>青年会館）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>井上</surname></persName><placeName>日本</placeName>銀行総裁ヲ御訪問ノ約（同行）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0019\">\n<head>\n<date when=\"1920-01-22\">\n           廿二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_安川敬一郎\">\n<surname>\n              安川\n             </surname>\n<forename>\n              敬一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_関善一\">\n<surname>\n              関\n             </surname>\n<forename>\n              善一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            田園都市会社関係地方人来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:40:00\">\n             午前十時四十分\n            </time>\n            故\n            <persName corresp=\"#pers_矢島\">\n<surname>\n              矢島\n             </surname>\n</persName>\n            氏葬儀（\n            <placeName corresp=\"#place_神田\">\n             神田\n            </placeName>\n            青年会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            銀行総裁ヲ御訪問ノ約（同行）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-01"
 }

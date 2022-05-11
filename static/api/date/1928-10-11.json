@@ -7,14 +7,16 @@
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/有賀",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/諸井恒平"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/諸井恒平",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/諸井",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/晴氏"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1586",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20030m 昭和三年 1928"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20030m 昭和三年 1928"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20030m 昭和三年 1928",
     "date": {
         "lvl0": "1928",
@@ -24,17 +26,17 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-10",
     "date_lvl2": "1928-10-11",
-    "description": "\n\n 十一日  （木） \n\n\n午前九時有賀長文氏ト御会見ノ予定\n\n\n午前十時諸井恒平氏次男諸井氏来約\n\n\n午後一時松平定晴氏邸御出向（大塚）\n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n\n\n              有賀\n             \n\n            長文氏ト御会見ノ予定\n           \n\n\n\n\n             午前十時\n            \n\n\n              諸井\n             \n\n              恒平\n             \n\n            氏次男\n            \n\n              諸井\n             \n\n            氏来約\n           \n\n\n\n\n             午後一時\n            \n            松平定\n            \n\n              晴氏\n             \n\n            邸御出向（\n            \n             大塚\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "諸井恒平"
+        "\n              諸井\n             \n              恒平\n             "
     ],
-    "label": "十一日  （木）",
+    "label": "十一日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20030m-221",
-    "objectID": "DKB20030m-220",
-    "prev": "DKB20030m-219",
+    "next": "DKB20030m-0221",
+    "objectID": "DKB20030m-0220",
+    "prev": "DKB20030m-0219",
     "sort": "DKB20030m-0220",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "大塚"
     ],
@@ -43,10 +45,10 @@
     ],
     "temporal": "1928-10-11",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>有賀</surname></persName>長文氏ト御会見ノ予定</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_有賀\">\n<surname>\n              有賀\n             </surname>\n</persName>\n            長文氏ト御会見ノ予定</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-220\">\n<head>\n<date when=\"1928-10-11\"> 十一日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>有賀</surname></persName>長文氏ト御会見ノ予定</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>諸井</surname><forename>恒平</forename></persName>氏次男<persName><surname>諸井</surname></persName>氏来約</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>松平定<persName><forename>晴氏</forename></persName>邸御出向（<placeName>大塚</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0220\">\n<head>\n<date when=\"1928-10-11\">\n           十一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_有賀\">\n<surname>\n              有賀\n             </surname>\n</persName>\n            長文氏ト御会見ノ予定\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_諸井恒平\">\n<surname>\n              諸井\n             </surname>\n<forename>\n              恒平\n             </forename>\n</persName>\n            氏次男\n            <persName corresp=\"#pers_諸井\">\n<surname>\n              諸井\n             </surname>\n</persName>\n            氏来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            松平定\n            <persName corresp=\"#pers_晴氏\">\n<forename>\n              晴氏\n             </forename>\n</persName>\n            邸御出向（\n            <placeName corresp=\"#place_大塚\">\n             大塚\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-10"
 }

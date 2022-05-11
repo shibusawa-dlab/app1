@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1319",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20021m 大正八年 1919"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20021m 大正八年 1919"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20021m 大正八年 1919",
     "date": {
         "lvl0": "1919",
@@ -20,17 +20,17 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-12",
     "date_lvl2": "1919-12-12",
-    "description": "\n\n 十二日  （金） \n\n\n午前十時田園都市会社ノ件（兜町）\n\n\n午時　　　　　ビルス氏紹介之為メ午餐会、日米関係委員会\n\n\n午後五時橋本圭三郎家結婚披露（帝国ホテル）\n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n            田園都市会社ノ件（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午時\n            \n            ビルス氏紹介之為メ午餐会、日米関係委員会\n           \n\n\n\n\n             午後五時\n            \n\n\n              橋本\n             \n\n              圭三郎\n             \n\n            家結婚披露（帝国ホテル）\n           \n\n\n",
     "fullname": [
-        "橋本圭三郎"
+        "\n              橋本\n             \n              圭三郎\n             "
     ],
-    "label": "十二日  （金）",
+    "label": "十二日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20021m-320",
-    "objectID": "DKB20021m-319",
-    "prev": "DKB20021m-318",
+    "next": "DKB20021m-0320",
+    "objectID": "DKB20021m-0319",
+    "prev": "DKB20021m-0318",
     "sort": "DKB20021m-0319",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -39,10 +39,10 @@
     ],
     "temporal": "1919-12-12",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time>田園都市会社ノ件（<placeName>兜町</placeName>）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            田園都市会社ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-319\">\n<head>\n<date when=\"1919-12-12\"> 十二日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>田園都市会社ノ件（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">午時</time>　　　　　ビルス氏紹介之為メ午餐会、日米関係委員会</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><persName><surname>橋本</surname><forename>圭三郎</forename></persName>家結婚披露（帝国ホテル）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0319\">\n<head>\n<date when=\"1919-12-12\">\n           十二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            田園都市会社ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            ビルス氏紹介之為メ午餐会、日米関係委員会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_橋本圭三郎\">\n<surname>\n              橋本\n             </surname>\n<forename>\n              圭三郎\n             </forename>\n</persName>\n            家結婚披露（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-12"
 }

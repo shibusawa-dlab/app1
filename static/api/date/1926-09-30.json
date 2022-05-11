@@ -4,14 +4,18 @@
         "谷山初七郎",
         "内田徳郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/畑弥右衛門",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/谷山初七郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/内田徳郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1525",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-09",
@@ -20,32 +24,33 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-09",
     "date_lvl2": "1926-09-30",
-    "description": "\n\n 三十日  （木） \n\n\n午前九時畑弥右衛門氏外来約　飛鳥山邸\n\n\n午時　　　　　谷山初七郎氏来約〃\n\n\n午時　　　　　内田徳郎氏来約（アスカ山）\n\n\n午后三時航空会社ノ件　銀行集会所\n\n\n午後五時御同族会（事務所）\n\n\n後五・二〇　　事ム所ニ御出勤\n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n\n\n              畑\n             \n\n              弥右衛門\n             \n\n            氏外来約\n            \n             飛鳥山\n            \n            邸\n           \n\n\n\n\n             午時\n            \n\n\n              谷山\n             \n\n              初七郎\n             \n\n            氏来約〃\n           \n\n\n\n\n             午時\n            \n\n\n              内田\n             \n\n              徳郎\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午后三時\n            \n            航空会社ノ件　銀行集会所\n           \n\n\n\n\n             午後五時\n            \n            御同族会（事務所）\n           \n\n\n\n\n             後五・二〇\n            \n            事ム所ニ御出勤\n           \n\n\n",
     "fullname": [
-        "畑弥右衛門",
-        "谷山初七郎",
-        "内田徳郎"
+        "\n              畑\n             \n              弥右衛門\n             ",
+        "\n              谷山\n             \n              初七郎\n             ",
+        "\n              内田\n             \n              徳郎\n             "
     ],
-    "label": "三十日  （木）",
+    "label": "三十日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-254",
-    "objectID": "DKB20028m-253",
-    "prev": "DKB20028m-252",
+    "next": "DKB20028m-0254",
+    "objectID": "DKB20028m-0253",
+    "prev": "DKB20028m-0252",
     "sort": "DKB20028m-0253",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "アスカ山"
     ],
     "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園"
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山"
     ],
     "temporal": "1926-09-30",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>畑</surname><forename>弥右衛門</forename></persName>氏外来約　<placeName>飛鳥山</placeName>邸</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_畑弥右衛門\">\n<surname>\n              畑\n             </surname>\n<forename>\n              弥右衛門\n             </forename>\n</persName>\n            氏外来約\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-253\">\n<head>\n<date when=\"1926-09-30\"> 三十日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>畑</surname><forename>弥右衛門</forename></persName>氏外来約　<placeName>飛鳥山</placeName>邸</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">午時</time>　　　　　<persName><surname>谷山</surname><forename>初七郎</forename></persName>氏来約〃</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">午時</time>　　　　　<persName><surname>内田</surname><forename>徳郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午后三時</time>航空会社ノ件　銀行集会所</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>御同族会（事務所）</p>\n</event>\n<event>\n<p><time when=\"17:20:00\">後五・二〇</time>　　事ム所ニ御出勤</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0253\">\n<head>\n<date when=\"1926-09-30\">\n           三十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_畑弥右衛門\">\n<surname>\n              畑\n             </surname>\n<forename>\n              弥右衛門\n             </forename>\n</persName>\n            氏外来約\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_谷山初七郎\">\n<surname>\n              谷山\n             </surname>\n<forename>\n              初七郎\n             </forename>\n</persName>\n            氏来約〃\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_内田徳郎\">\n<surname>\n              内田\n             </surname>\n<forename>\n              徳郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n            航空会社ノ件　銀行集会所\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:20:00\">\n             後五・二〇\n            </time>\n            事ム所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-09"
 }

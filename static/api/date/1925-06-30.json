@@ -8,14 +8,15 @@
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/三輪",
         "https://shibusawa-dlab.github.io/lab1/api/chname/徳川慶光",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/藤山雷太"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/藤山雷太",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/門野重九郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1489",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -25,27 +26,27 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-06",
     "date_lvl2": "1925-06-30",
-    "description": "\n\n 三十日  （火） \n\n\n午前十時三輪徳川慶光公爵家令来約\n\n\n午后三時日仏会館藤山雷太、門野重九郎氏来約\n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n\n\n              三輪\n             \n\n\n\n              徳川\n             \n\n              慶光\n             \n\n            公爵家令来約\n           \n\n\n\n\n             午后三時\n            \n            日仏会館\n            \n\n              藤山\n             \n\n              雷太\n             \n\n            、\n            \n\n              門野\n             \n\n              重九郎\n             \n\n            氏来約\n           \n\n\n",
     "fullname": [
-        "徳川慶光",
-        "藤山雷太",
-        "門野重九郎"
+        "\n              徳川\n             \n              慶光\n             ",
+        "\n              藤山\n             \n              雷太\n             ",
+        "\n              門野\n             \n              重九郎\n             "
     ],
-    "label": "三十日  （火）",
+    "label": "三十日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20027m-84",
-    "objectID": "DKB20027m-82",
-    "prev": "DKB20027m-80",
+    "next": "DKB20027m-0084",
+    "objectID": "DKB20027m-0082",
+    "prev": "DKB20027m-0080",
     "sort": "DKB20027m-0082",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [],
     "spatial_uri": [],
     "temporal": "1925-06-30",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><persName><surname>三輪</surname></persName><persName><surname>徳川</surname><forename>慶光</forename></persName>公爵家令来約</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_三輪\">\n<surname>\n              三輪\n             </surname>\n</persName>\n<persName corresp=\"#pers_徳川慶光\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶光\n             </forename>\n</persName>\n            公爵家令来約</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-82\">\n<head>\n<date when=\"1925-06-30\"> 三十日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>三輪</surname></persName><persName><surname>徳川</surname><forename>慶光</forename></persName>公爵家令来約</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午后三時</time>日仏会館<persName><surname>藤山</surname><forename>雷太</forename></persName>、<persName><surname>門野</surname><forename>重九郎</forename></persName>氏来約</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0082\">\n<head>\n<date when=\"1925-06-30\">\n           三十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_三輪\">\n<surname>\n              三輪\n             </surname>\n</persName>\n<persName corresp=\"#pers_徳川慶光\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶光\n             </forename>\n</persName>\n            公爵家令来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n            日仏会館\n            <persName corresp=\"#pers_藤山雷太\">\n<surname>\n              藤山\n             </surname>\n<forename>\n              雷太\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_門野重九郎\">\n<surname>\n              門野\n             </surname>\n<forename>\n              重九郎\n             </forename>\n</persName>\n            氏来約\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-06"
 }

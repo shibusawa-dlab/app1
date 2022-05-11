@@ -4,14 +4,15 @@
         "井上敬二郎"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/工藤氏"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/工藤氏",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/井上敬二郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1413",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -21,17 +22,17 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-12",
     "date_lvl2": "1922-12-08",
-    "description": "\n\n 八日  （金） \n\n\n午前十一時日華実業協会工藤氏来約（兜町）\n\n\n午後一時井上敬二郎氏来約（兜町）\n\n\n午後二時早稲田大学定時委員会（恩賜館）\n\n\n",
+    "description": "\n\n\n           八日\n          \n          （金）\n         \n\n\n\n\n             午前十一時\n            \n            日華実業協会\n            \n\n              工藤\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n\n              井上\n             \n\n              敬二郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            早稲田大学定時委員会（恩賜館）\n           \n\n\n",
     "fullname": [
-        "井上敬二郎"
+        "\n              井上\n             \n              敬二郎\n             "
     ],
-    "label": "八日  （金）",
+    "label": "八日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-307",
-    "objectID": "DKB20024m-306",
-    "prev": "DKB20024m-305",
+    "next": "DKB20024m-0307",
+    "objectID": "DKB20024m-0306",
+    "prev": "DKB20024m-0305",
     "sort": "DKB20024m-0306",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -40,10 +41,10 @@
     ],
     "temporal": "1922-12-08",
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">午前十一時</time>日華実業協会<persName><surname>工藤</surname></persName>氏来約（<placeName>兜町</placeName>）</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            日華実業協会\n            <persName corresp=\"#pers_工藤氏\">\n<surname>\n              工藤\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-306\">\n<head>\n<date when=\"1922-12-08\"> 八日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>日華実業協会<persName><surname>工藤</surname></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time><persName><surname>井上</surname><forename>敬二郎</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>早稲田大学定時委員会（恩賜館）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0306\">\n<head>\n<date when=\"1922-12-08\">\n           八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            日華実業協会\n            <persName corresp=\"#pers_工藤氏\">\n<surname>\n              工藤\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_井上敬二郎\">\n<surname>\n              井上\n             </surname>\n<forename>\n              敬二郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            早稲田大学定時委員会（恩賜館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-12"
 }

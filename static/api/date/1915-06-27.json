@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1186",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20017m 大正四年 1915"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20017m 大正四年 1915"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20017m 大正四年 1915",
     "date": {
         "lvl0": "1915",
@@ -20,17 +20,17 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-06",
     "date_lvl2": "1915-06-27",
-    "description": "\n\n 廿七日  （日） \n\n\n午前十一時加藤弘之男八十賀祝宴（上野精養軒）\n\n\n午時　　　　　神宮奉賛会総裁宮殿下奉戴式ノ予定\n\n\n",
+    "description": "\n\n\n           廿七日\n          \n          （日）\n         \n\n\n\n\n             午前十一時\n            \n\n\n              加藤\n             \n\n              弘之\n             \n\n            男八十賀祝宴（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n\n\n             午時\n            \n            神宮奉賛会総裁宮殿下奉戴式ノ予定\n           \n\n\n",
     "fullname": [
-        "加藤弘之"
+        "\n              加藤\n             \n              弘之\n             "
     ],
-    "label": "廿七日  （日）",
+    "label": "廿七日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20017m-169",
-    "objectID": "DKB20017m-168",
-    "prev": "DKB20017m-167",
+    "next": "DKB20017m-0169",
+    "objectID": "DKB20017m-0168",
+    "prev": "DKB20017m-0167",
     "sort": "DKB20017m-0168",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "上野精養軒"
     ],
@@ -39,10 +39,10 @@
     ],
     "temporal": "1915-06-27",
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">午前十一時</time><persName><surname>加藤</surname><forename>弘之</forename></persName>男八十賀祝宴（<placeName>上野精養軒</placeName>）</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_加藤弘之\">\n<surname>\n              加藤\n             </surname>\n<forename>\n              弘之\n             </forename>\n</persName>\n            男八十賀祝宴（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-168\">\n<head>\n<date when=\"1915-06-27\"> 廿七日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>加藤</surname><forename>弘之</forename></persName>男八十賀祝宴（<placeName>上野精養軒</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">午時</time>　　　　　神宮奉賛会総裁宮殿下奉戴式ノ予定</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0168\">\n<head>\n<date when=\"1915-06-27\">\n           廿七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_加藤弘之\">\n<surname>\n              加藤\n             </surname>\n<forename>\n              弘之\n             </forename>\n</persName>\n            男八十賀祝宴（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            神宮奉賛会総裁宮殿下奉戴式ノ予定\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-06"
 }

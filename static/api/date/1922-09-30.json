@@ -2,13 +2,15 @@
     "agential": [
         "有馬浅雄"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/有馬浅雄"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1405",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -18,27 +20,29 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-09",
     "date_lvl2": "1922-09-30",
-    "description": "\n\n 三十日  （土） \n\n\n午前八半時　　血洗島ヘ御出向御乗物自動車有馬浅雄氏同伴\n\n\n御一泊\n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （土）\n         \n\n\n\n\n             午前八半時\n            \n\n             血洗島\n            \n            ヘ御出向御乗物自動車\n            \n\n              有馬\n             \n\n              浅雄\n             \n\n            氏同伴\n           \n\n\n\n            御一泊\n           \n\n\n",
     "fullname": [
-        "有馬浅雄"
+        "\n              有馬\n             \n              浅雄\n             "
     ],
-    "label": "三十日  （土）",
+    "label": "三十日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-236",
-    "objectID": "DKB20024m-234",
-    "prev": "DKB20024m-233",
+    "next": "DKB20024m-0236",
+    "objectID": "DKB20024m-0234",
+    "prev": "DKB20024m-0233",
     "sort": "DKB20024m-0234",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "血洗島"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/血洗島"
+    ],
     "temporal": "1922-09-30",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八半時</time>　　<placeName>血洗島</placeName>ヘ御出向御乗物自動車<persName><surname>有馬</surname><forename>浅雄</forename></persName>氏同伴</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<placeName corresp=\"#place_血洗島\">\n             血洗島\n            </placeName>\n            ヘ御出向御乗物自動車\n            <persName corresp=\"#pers_有馬浅雄\">\n<surname>\n              有馬\n             </surname>\n<forename>\n              浅雄\n             </forename>\n</persName>\n            氏同伴</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-234\">\n<head>\n<date when=\"1922-09-30\"> 三十日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　<placeName>血洗島</placeName>ヘ御出向御乗物自動車<persName><surname>有馬</surname><forename>浅雄</forename></persName>氏同伴</p>\n</event>\n<event>\n<p>御一泊</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0234\">\n<head>\n<date when=\"1922-09-30\">\n           三十日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<placeName corresp=\"#place_血洗島\">\n             血洗島\n            </placeName>\n            ヘ御出向御乗物自動車\n            <persName corresp=\"#pers_有馬浅雄\">\n<surname>\n              有馬\n             </surname>\n<forename>\n              浅雄\n             </forename>\n</persName>\n            氏同伴\n           </p>\n</event>\n<event>\n<p>\n            御一泊\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-09"
 }

@@ -3,13 +3,16 @@
         "尾崎敬義",
         "阪谷俊作"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/尾崎敬義",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/阪谷俊作"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1392",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -19,18 +22,18 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-05",
     "date_lvl2": "1922-05-19",
-    "description": "\n\n 十九日  （金） \n\n\n午前八時尾崎敬義氏来約（飛鳥山邸）\n\n\n午前十一半時　白耳義公使来約（兜町）\n\n\n正午　　　　　アルメニア難民救済会新聞記者招待会（中央亭）\n\n\n午後二時浦和高女校生徒来邸\n\n\n午後四時国際聯盟理事会（同会）\n\n\n午後六時阪谷俊作氏送別会（ツキジ精養軒）\n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （金）\n         \n\n\n\n\n             午前八時\n            \n\n\n              尾崎\n             \n\n              敬義\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一半時\n            \n\n             白耳義\n            \n            公使来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n             アルメニア\n            \n            難民救済会新聞記者招待会（中央亭）\n           \n\n\n\n\n             午後二時\n            \n\n             浦和\n            \n            高女校生徒来邸\n           \n\n\n\n\n             午後四時\n            \n            国際聯盟理事会（同会）\n           \n\n\n\n\n             午後六時\n            \n\n\n              阪谷\n             \n\n              俊作\n             \n\n            氏送別会（ツキジ精養軒）\n           \n\n\n",
     "fullname": [
-        "尾崎敬義",
-        "阪谷俊作"
+        "\n              尾崎\n             \n              敬義\n             ",
+        "\n              阪谷\n             \n              俊作\n             "
     ],
-    "label": "十九日  （金）",
+    "label": "十九日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-114",
-    "objectID": "DKB20024m-113",
-    "prev": "DKB20024m-112",
+    "next": "DKB20024m-0114",
+    "objectID": "DKB20024m-0113",
+    "prev": "DKB20024m-0112",
     "sort": "DKB20024m-0113",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "ベルギー",
@@ -39,6 +42,7 @@
         "浦和"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/ベルギー",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
         "https://shibusawa-dlab.github.io/lab1/api/place/アルメニア",
@@ -46,10 +50,10 @@
     ],
     "temporal": "1922-05-19",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>尾崎</surname><forename>敬義</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_尾崎敬義\">\n<surname>\n              尾崎\n             </surname>\n<forename>\n              敬義\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-113\">\n<head>\n<date when=\"1922-05-19\"> 十九日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>尾崎</surname><forename>敬義</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:30:00\">午前十一半時</time>　<placeName>白耳義</placeName>公使来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　<placeName>アルメニア</placeName>難民救済会新聞記者招待会（中央亭）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><placeName>浦和</placeName>高女校生徒来邸</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>国際聯盟理事会（同会）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time><persName><surname>阪谷</surname><forename>俊作</forename></persName>氏送別会（ツキジ精養軒）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0113\">\n<head>\n<date when=\"1922-05-19\">\n           十九日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_尾崎敬義\">\n<surname>\n              尾崎\n             </surname>\n<forename>\n              敬義\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<placeName corresp=\"#place_ベルギー\">\n             白耳義\n            </placeName>\n            公使来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_アルメニア\">\n             アルメニア\n            </placeName>\n            難民救済会新聞記者招待会（中央亭）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_浦和\">\n             浦和\n            </placeName>\n            高女校生徒来邸\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            国際聯盟理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_阪谷俊作\">\n<surname>\n              阪谷\n             </surname>\n<forename>\n              俊作\n             </forename>\n</persName>\n            氏送別会（ツキジ精養軒）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-05"
 }

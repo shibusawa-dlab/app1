@@ -5,15 +5,16 @@
         "山下亀三郎"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/水谷清",
         "https://shibusawa-dlab.github.io/lab1/api/chname/菅原通敬",
         "https://shibusawa-dlab.github.io/lab1/api/chname/山下亀三郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1254",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -23,19 +24,19 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-12",
     "date_lvl2": "1917-12-03",
-    "description": "\n\n 三日  （月） \n\n\n午後二時支那公使御訪問\n\n\n午後三―午後四時水谷清氏来約（兜町）\n\n\n〃　　　　　　菅原通敬氏来約（同上）\n\n\n午後三時ライスナイト氏来約（兜町）\n\n\n午後三時過　　山下亀三郎氏外船主十余人来約（兜町）\n\n\n午後五時煉瓦会社合併重役会ヨリ御案内（八百善）\n\n\n",
+    "description": "\n\n\n           三日\n          \n          （月）\n         \n\n\n\n\n             午後二時\n            \n\n             支那\n            \n            公使御訪問\n           \n\n\n\n\n             午後三―午後四時\n            \n\n\n              水谷\n             \n\n              清\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             〃\n            \n\n\n              菅原\n             \n\n              通敬\n             \n\n            氏来約（同上）\n           \n\n\n\n\n             午後三時\n            \n            ライスナイト氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            過\n            \n\n              山下\n             \n\n              亀三郎\n             \n\n            氏外船主十余人来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            煉瓦会社合併重役会ヨリ御案内（八百善）\n           \n\n\n",
     "fullname": [
-        "水谷清",
-        "菅原通敬",
-        "山下亀三郎"
+        "\n              水谷\n             \n              清\n             ",
+        "\n              菅原\n             \n              通敬\n             ",
+        "\n              山下\n             \n              亀三郎\n             "
     ],
-    "label": "三日  （月）",
+    "label": "三日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-314",
-    "objectID": "DKB20019m-313",
-    "prev": "DKB20019m-312",
+    "next": "DKB20019m-0314",
+    "objectID": "DKB20019m-0313",
+    "prev": "DKB20019m-0312",
     "sort": "DKB20019m-0313",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "支那",
         "日本橋兜町"
@@ -46,10 +47,10 @@
     ],
     "temporal": "1917-12-03",
     "time": {
-        "14:00:00": "<div><time when=\"14:00:00\">午後二時</time><placeName>支那</placeName>公使御訪問</div>"
+        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            公使御訪問</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-313\">\n<head>\n<date when=\"1917-12-03\"> 三日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><placeName>支那</placeName>公使御訪問</p>\n</event>\n<event>\n<p><time from=\"15:00:00\" to=\"16:00:00\">午後三―午後四時</time><persName><surname>水谷</surname><forename>清</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time from=\"15:00:00\" to=\"16:00:00\">〃</time>　　　　　　<persName><surname>菅原</surname><forename>通敬</forename></persName>氏来約（同上）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>ライスナイト氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>過　　<persName><surname>山下</surname><forename>亀三郎</forename></persName>氏外船主十余人来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>煉瓦会社合併重役会ヨリ御案内（八百善）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0313\">\n<head>\n<date when=\"1917-12-03\">\n           三日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            公使御訪問\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―午後四時\n            </time>\n<persName corresp=\"#pers_水谷清\">\n<surname>\n              水谷\n             </surname>\n<forename>\n              清\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             〃\n            </time>\n<persName corresp=\"#pers_菅原通敬\">\n<surname>\n              菅原\n             </surname>\n<forename>\n              通敬\n             </forename>\n</persName>\n            氏来約（同上）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            ライスナイト氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            過\n            <persName corresp=\"#pers_山下亀三郎\">\n<surname>\n              山下\n             </surname>\n<forename>\n              亀三郎\n             </forename>\n</persName>\n            氏外船主十余人来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            煉瓦会社合併重役会ヨリ御案内（八百善）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-12"
 }

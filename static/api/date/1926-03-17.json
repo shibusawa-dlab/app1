@@ -2,14 +2,16 @@
     "agential": [
         "山本久之助"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山本久之助"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1505",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-03",
@@ -18,27 +20,29 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-03",
     "date_lvl2": "1926-03-17",
-    "description": "\n\n 十七日  （水） \n\n\n午前九時山本久之助氏来約（アスカ山）\n\n\n正午　　　　　報効会催、聯隊部司令官招待会（工業クラブ）\n\n\n午后一半時　　一木宮相ヲ宮内省ニ御訪問\n\n\n午後三時総理大臣ト御会見（貴族院）\n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n\n\n              山本\n             \n\n              久之助\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            報効会催、聯隊部司令官招待会（工業クラブ）\n           \n\n\n\n\n             午后一半時\n            \n            一木宮相ヲ宮内省ニ御訪問\n           \n\n\n\n\n             午後三時\n            \n            総理大臣ト御会見（貴族院）\n           \n\n\n",
     "fullname": [
-        "山本久之助"
+        "\n              山本\n             \n              久之助\n             "
     ],
-    "label": "十七日  （水）",
+    "label": "十七日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-76",
-    "objectID": "DKB20028m-75",
-    "prev": "DKB20028m-74",
+    "next": "DKB20028m-0076",
+    "objectID": "DKB20028m-0075",
+    "prev": "DKB20028m-0074",
     "sort": "DKB20028m-0075",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山"
+    ],
     "temporal": "1926-03-17",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>山本</surname><forename>久之助</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_山本久之助\">\n<surname>\n              山本\n             </surname>\n<forename>\n              久之助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-75\">\n<head>\n<date when=\"1926-03-17\"> 十七日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>山本</surname><forename>久之助</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　報効会催、聯隊部司令官招待会（工業クラブ）</p>\n</event>\n<event>\n<p><time when=\"13:30:00\">午后一半時</time>　　一木宮相ヲ宮内省ニ御訪問</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>総理大臣ト御会見（貴族院）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0075\">\n<head>\n<date when=\"1926-03-17\">\n           十七日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_山本久之助\">\n<surname>\n              山本\n             </surname>\n<forename>\n              久之助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            報効会催、聯隊部司令官招待会（工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午后一半時\n            </time>\n            一木宮相ヲ宮内省ニ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            総理大臣ト御会見（貴族院）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-03"
 }

@@ -3,14 +3,17 @@
         "春田茂",
         "谷山初七郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/春田茂",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/谷山初七郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1515",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-06",
@@ -19,33 +22,34 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-06",
     "date_lvl2": "1926-06-12",
-    "description": "\n\n 十二日  （土） \n\n\n午前八時春田茂躬氏来約（アスカ山）\n\n\n午前八時谷山初七郎氏来約（アスカ山）\n\n\n午前十一時内鮮懇話会（工業クラブ）\n\n\n正午　　　　　日本郵船会社ヨリ御案内（上野精養軒）\n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （土）\n         \n\n\n\n\n             午前八時\n            \n\n\n              春田\n             \n\n              茂\n             \n\n            躬氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前八時\n            \n\n\n              谷山\n             \n\n              初七郎\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            内鮮懇話会（工業クラブ）\n           \n\n\n\n\n             正午\n            \n\n             日本\n            \n            郵船会社ヨリ御案内（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "春田茂",
-        "谷山初七郎"
+        "\n              春田\n             \n              茂\n             ",
+        "\n              谷山\n             \n              初七郎\n             "
     ],
-    "label": "十二日  （土）",
+    "label": "十二日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-164",
-    "objectID": "DKB20028m-163",
-    "prev": "DKB20028m-162",
+    "next": "DKB20028m-0164",
+    "objectID": "DKB20028m-0163",
+    "prev": "DKB20028m-0162",
     "sort": "DKB20028m-0163",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山",
         "日本",
         "上野精養軒"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本",
         "https://shibusawa-dlab.github.io/lab1/api/place/上野精養軒"
     ],
     "temporal": "1926-06-12",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>春田</surname><forename>茂</forename></persName>躬氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_春田茂\">\n<surname>\n              春田\n             </surname>\n<forename>\n              茂\n             </forename>\n</persName>\n            躬氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-163\">\n<head>\n<date when=\"1926-06-12\"> 十二日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>春田</surname><forename>茂</forename></persName>躬氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>谷山</surname><forename>初七郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>内鮮懇話会（工業クラブ）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　<placeName>日本</placeName>郵船会社ヨリ御案内（<placeName>上野精養軒</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0163\">\n<head>\n<date when=\"1926-06-12\">\n           十二日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_春田茂\">\n<surname>\n              春田\n             </surname>\n<forename>\n              茂\n             </forename>\n</persName>\n            躬氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_谷山初七郎\">\n<surname>\n              谷山\n             </surname>\n<forename>\n              初七郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            内鮮懇話会（工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            郵船会社ヨリ御案内（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-06"
 }

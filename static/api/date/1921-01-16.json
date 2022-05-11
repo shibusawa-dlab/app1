@@ -3,13 +3,16 @@
         "山本栄男",
         "平岡熙"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山本栄男",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/平岡熙"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1351",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -19,18 +22,18 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-01",
     "date_lvl2": "1921-01-16",
-    "description": "\n\n 十六日  （日） \n\n\n午前十一時四十五分大磯ヨリ御帰京ノ予定（東京駅着）\n\n\n午後五時山本栄男氏ヨリ御案内（トキワヤ）\n\n\n午時　　　　　本夕又ハ十七日平岡熙氏ヨリ御案内ノ約アリ\n\n\n",
+    "description": "\n\n\n           十六日\n          \n          （日）\n         \n\n\n\n\n             午前十一時四十五分\n            \n\n             大磯\n            \n            ヨリ御帰京ノ予定（\n            \n             東京\n            \n            駅着）\n           \n\n\n\n\n             午後五時\n            \n\n\n              山本\n             \n\n              栄男\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n\n\n             午時\n            \n            本夕又ハ十七日\n            \n\n              平岡\n             \n\n              熙\n             \n\n            氏ヨリ御案内ノ約アリ\n           \n\n\n",
     "fullname": [
-        "山本栄男",
-        "平岡熙"
+        "\n              山本\n             \n              栄男\n             ",
+        "\n              平岡\n             \n              熙\n             "
     ],
-    "label": "十六日  （日）",
+    "label": "十六日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20023m-14",
-    "objectID": "DKB20023m-12",
-    "prev": "DKB20023m-10",
+    "next": "DKB20023m-0014",
+    "objectID": "DKB20023m-0012",
+    "prev": "DKB20023m-0010",
     "sort": "DKB20023m-0012",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "大磯町",
         "東京"
@@ -41,10 +44,10 @@
     ],
     "temporal": "1921-01-16",
     "time": {
-        "11:45:00": "<div><time when=\"11:45:00\">午前十一時四十五分</time><placeName>大磯</placeName>ヨリ御帰京ノ予定（<placeName>東京</placeName>駅着）</div>"
+        "11:45:00": "<div><time when=\"11:45:00\">\n             午前十一時四十五分\n            </time>\n<placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            ヨリ御帰京ノ予定（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅着）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-12\">\n<head>\n<date when=\"1921-01-16\"> 十六日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"11:45:00\">午前十一時四十五分</time><placeName>大磯</placeName>ヨリ御帰京ノ予定（<placeName>東京</placeName>駅着）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><persName><surname>山本</surname><forename>栄男</forename></persName>氏ヨリ御案内（トキワヤ）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">午時</time>　　　　　本夕又ハ十七日<persName><surname>平岡</surname><forename>熙</forename></persName>氏ヨリ御案内ノ約アリ</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0012\">\n<head>\n<date when=\"1921-01-16\">\n           十六日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:45:00\">\n             午前十一時四十五分\n            </time>\n<placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            ヨリ御帰京ノ予定（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅着）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_山本栄男\">\n<surname>\n              山本\n             </surname>\n<forename>\n              栄男\n             </forename>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            本夕又ハ十七日\n            <persName corresp=\"#pers_平岡熙\">\n<surname>\n              平岡\n             </surname>\n<forename>\n              熙\n             </forename>\n</persName>\n            氏ヨリ御案内ノ約アリ\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-01"
 }

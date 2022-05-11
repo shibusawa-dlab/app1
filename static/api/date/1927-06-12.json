@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1547",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -20,17 +20,17 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-06",
     "date_lvl2": "1927-06-12",
-    "description": "\n\n 十二日  （日） \n\n\n午前十時金杉英五郎博士来約（飛鳥山邸）\n\n\n午後一半時　　東京府社会事業協会創立記念会（日本青年館）\n\n\n午後一―四時修養団婦人講習会（巣鴨町　文華高等女学校）\n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （日）\n         \n\n\n\n\n             午前十時\n            \n\n\n              金杉\n             \n\n              英五郎\n             \n\n            博士来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後一半時\n            \n\n             東京\n            \n            府社会事業協会創立記念会（\n            \n             日本\n            \n            青年館）\n           \n\n\n\n\n             午後一―四時\n            \n            修養団婦人講習会（\n            \n             巣鴨\n            \n            町　文華高等女学校）\n           \n\n\n",
     "fullname": [
-        "金杉英五郎"
+        "\n              金杉\n             \n              英五郎\n             "
     ],
-    "label": "十二日  （日）",
+    "label": "十二日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-148",
-    "objectID": "DKB20029m-147",
-    "prev": "DKB20029m-146",
+    "next": "DKB20029m-0148",
+    "objectID": "DKB20029m-0147",
+    "prev": "DKB20029m-0146",
     "sort": "DKB20029m-0147",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "東京",
@@ -38,16 +38,17 @@
         "巣鴨"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/東京",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本",
         "https://shibusawa-dlab.github.io/lab1/api/place/巣鴨"
     ],
     "temporal": "1927-06-12",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><persName><surname>金杉</surname><forename>英五郎</forename></persName>博士来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_金杉英五郎\">\n<surname>\n              金杉\n             </surname>\n<forename>\n              英五郎\n             </forename>\n</persName>\n            博士来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-147\">\n<head>\n<date when=\"1927-06-12\"> 十二日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>金杉</surname><forename>英五郎</forename></persName>博士来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"13:30:00\">午後一半時</time>　　<placeName>東京</placeName>府社会事業協会創立記念会（<placeName>日本</placeName>青年館）</p>\n</event>\n<event>\n<p><time from=\"13:00:00\" to=\"16:00:00\">午後一―四時</time>修養団婦人講習会（<placeName>巣鴨</placeName>町　文華高等女学校）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0147\">\n<head>\n<date when=\"1927-06-12\">\n           十二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_金杉英五郎\">\n<surname>\n              金杉\n             </surname>\n<forename>\n              英五郎\n             </forename>\n</persName>\n            博士来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            府社会事業協会創立記念会（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            青年館）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"16:00:00\">\n             午後一―四時\n            </time>\n            修養団婦人講習会（\n            <placeName corresp=\"#place_巣鴨\">\n             巣鴨\n            </placeName>\n            町　文華高等女学校）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-06"
 }

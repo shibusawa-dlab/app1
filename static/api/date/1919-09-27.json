@@ -3,10 +3,10 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1311",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20021m 大正八年 1919"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20021m 大正八年 1919"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20021m 大正八年 1919",
     "date": {
         "lvl0": "1919",
@@ -16,28 +16,29 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-09",
     "date_lvl2": "1919-09-27",
-    "description": "\n\n 廿七日  （土） \n\n\n午前七時五十三分血洗島ヘ御出向（王子駅発）\n\n\n御一泊\n\n\n",
+    "description": "\n\n\n           廿七日\n          \n          （土）\n         \n\n\n\n\n             午前七時五十三分\n            \n\n             血洗島\n            \n            ヘ御出向（\n            \n             王子\n            \n            駅発）\n           \n\n\n\n            御一泊\n           \n\n\n",
     "fullname": [],
-    "label": "廿七日  （土）",
+    "label": "廿七日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20021m-241",
-    "objectID": "DKB20021m-240",
-    "prev": "DKB20021m-239",
+    "next": "DKB20021m-0241",
+    "objectID": "DKB20021m-0240",
+    "prev": "DKB20021m-0239",
     "sort": "DKB20021m-0240",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "血洗島",
         "王子"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/血洗島",
         "https://shibusawa-dlab.github.io/lab1/api/place/王子"
     ],
     "temporal": "1919-09-27",
     "time": {
-        "07:53:00": "<div><time when=\"07:53:00\">午前七時五十三分</time><placeName>血洗島</placeName>ヘ御出向（<placeName>王子</placeName>駅発）</div>"
+        "07:53:00": "<div><time when=\"07:53:00\">\n             午前七時五十三分\n            </time>\n<placeName corresp=\"#place_血洗島\">\n             血洗島\n            </placeName>\n            ヘ御出向（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅発）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-240\">\n<head>\n<date when=\"1919-09-27\"> 廿七日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"07:53:00\">午前七時五十三分</time><placeName>血洗島</placeName>ヘ御出向（<placeName>王子</placeName>駅発）</p>\n</event>\n<event>\n<p>御一泊</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0240\">\n<head>\n<date when=\"1919-09-27\">\n           廿七日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"07:53:00\">\n             午前七時五十三分\n            </time>\n<placeName corresp=\"#place_血洗島\">\n             血洗島\n            </placeName>\n            ヘ御出向（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅発）\n           </p>\n</event>\n<event>\n<p>\n            御一泊\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-09"
 }

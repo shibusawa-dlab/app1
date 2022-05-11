@@ -4,14 +4,15 @@
         "星野錫"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/星野錫"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1569",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20030m 昭和三年 1928"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20030m 昭和三年 1928"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20030m 昭和三年 1928",
     "date": {
         "lvl0": "1928",
@@ -21,25 +22,25 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-01",
     "date_lvl2": "1928-01-16",
-    "description": "\n\n 十六日  （月） \n\n\n午後〇・四五　御出勤\n\n\n午後二時日仏会館理事会（渋沢事務所）\n\n\n午後三時星野錫氏来約（事務所）\n\n\n",
+    "description": "\n\n\n           十六日\n          \n          （月）\n         \n\n\n\n\n             午後〇・四五\n            \n            御出勤\n           \n\n\n\n\n\n             午後二時\n            \n            日仏会館理事会（\n            \n\n              渋沢\n             \n\n            事務所）\n           \n\n\n\n\n             午後三時\n            \n\n\n              星野\n             \n\n              錫\n             \n\n            氏来約（事務所）\n           \n\n\n",
     "fullname": [
-        "星野錫"
+        "\n              星野\n             \n              錫\n             "
     ],
-    "label": "十六日  （月）",
+    "label": "十六日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20030m-17",
-    "objectID": "DKB20030m-16",
-    "prev": "DKB20030m-14",
+    "next": "DKB20030m-0017",
+    "objectID": "DKB20030m-0016",
+    "prev": "DKB20030m-0014",
     "sort": "DKB20030m-0016",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [],
     "spatial_uri": [],
     "temporal": "1928-01-16",
     "time": {
-        "12:45:00": "<div><time when=\"12:45:00\">午後〇・四五</time>　御出勤</div>"
+        "12:45:00": "<div><time when=\"12:45:00\">\n             午後〇・四五\n            </time>\n            御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-16\">\n<head>\n<date when=\"1928-01-16\"> 十六日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"12:45:00\">午後〇・四五</time>　御出勤</p>\n</event>\n<event>\n<p><pb n=\"B2730\"/><time when=\"14:00:00\">午後二時</time>日仏会館理事会（<persName><surname>渋沢</surname></persName>事務所）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>星野</surname><forename>錫</forename></persName>氏来約（事務所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0016\">\n<head>\n<date when=\"1928-01-16\">\n           十六日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:45:00\">\n             午後〇・四五\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2730\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1569/full/max/0/default.jpg\" n=\"B2730\" source=\"#pageB2730\"/>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            日仏会館理事会（\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_星野錫\">\n<surname>\n              星野\n             </surname>\n<forename>\n              錫\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-01"
 }

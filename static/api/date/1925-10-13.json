@@ -2,13 +2,15 @@
     "agential": [
         "岡崎国臣"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡崎国臣"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1494",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -18,32 +20,33 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-10",
     "date_lvl2": "1925-10-13",
-    "description": "\n\n 十三日  （火） \n\n\n午前九時半岡崎国臣氏来約（アスカ山邸）\n\n\n正午　　　　　日仏会館理事会（同会館）\n\n\n午後一時巣鴨分院ヘ御出向\n\n\n午後二時東京市養育院ヘ御出向\n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （火）\n         \n\n\n\n\n             午前九時半\n            \n\n\n              岡崎\n             \n\n              国臣\n             \n\n            氏来約（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            日仏会館理事会（同会館）\n           \n\n\n\n\n             午後一時\n            \n\n             巣鴨\n            \n            分院ヘ御出向\n           \n\n\n\n\n             午後二時\n            \n\n             東京\n            \n            市養育院ヘ御出向\n           \n\n\n",
     "fullname": [
-        "岡崎国臣"
+        "\n              岡崎\n             \n              国臣\n             "
     ],
-    "label": "十三日  （火）",
+    "label": "十三日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20027m-171",
-    "objectID": "DKB20027m-170",
-    "prev": "DKB20027m-168",
+    "next": "DKB20027m-0171",
+    "objectID": "DKB20027m-0170",
+    "prev": "DKB20027m-0168",
     "sort": "DKB20027m-0170",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
-        "アスカ山",
+        "アスカ山邸",
         "巣鴨",
         "東京"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/巣鴨",
         "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1925-10-13",
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">午前九時半</time><persName><surname>岡崎</surname><forename>国臣</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>邸）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九時半\n            </time>\n<persName corresp=\"#pers_岡崎国臣\">\n<surname>\n              岡崎\n             </surname>\n<forename>\n              国臣\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-170\">\n<head>\n<date when=\"1925-10-13\"> 十三日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"09:30:00\">午前九時半</time><persName><surname>岡崎</surname><forename>国臣</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>邸）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　日仏会館理事会（同会館）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time><placeName>巣鴨</placeName>分院ヘ御出向</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><placeName>東京</placeName>市養育院ヘ御出向</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0170\">\n<head>\n<date when=\"1925-10-13\">\n           十三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九時半\n            </time>\n<persName corresp=\"#pers_岡崎国臣\">\n<surname>\n              岡崎\n             </surname>\n<forename>\n              国臣\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日仏会館理事会（同会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_巣鴨\">\n             巣鴨\n            </placeName>\n            分院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-10"
 }

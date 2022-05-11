@@ -7,14 +7,16 @@
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/前田多門",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/中村"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/神田鐳蔵",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中村",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/芦田"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1419",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -24,18 +26,18 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-02",
     "date_lvl2": "1923-02-12",
-    "description": "\n\n 十二日  （月） \n\n\n午後二時ルーズベルト氏兜町ニ来約\n\n\n午後四時頃　　前田多門氏来約（兜町）\n\n\n午後四時神田鐳蔵氏来約（兜町）\n\n\n午後四時中村安得氏来約（兜町）\n\n\n午後五半時　　克己寮関係芦田氏歓迎会（日本工業クラブ）\n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （月）\n         \n\n\n\n\n             午後二時\n            \n            ルーズベルト氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後四時\n            \n            頃\n            \n\n              前田\n             \n\n              多門\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n\n              神田\n             \n\n              鐳蔵\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n\n              中村\n             \n\n            安得氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n            克己寮関係\n            \n\n              芦田\n             \n\n            氏歓迎会（日本工業クラブ）\n           \n\n\n",
     "fullname": [
-        "前田多門",
-        "神田鐳蔵"
+        "\n              前田\n             \n              多門\n             ",
+        "\n              神田\n             \n              鐳蔵\n             "
     ],
-    "label": "十二日  （月）",
+    "label": "十二日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20025m-36",
-    "objectID": "DKB20025m-35",
-    "prev": "DKB20025m-34",
+    "next": "DKB20025m-0036",
+    "objectID": "DKB20025m-0035",
+    "prev": "DKB20025m-0034",
     "sort": "DKB20025m-0035",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -44,10 +46,10 @@
     ],
     "temporal": "1923-02-12",
     "time": {
-        "14:00:00": "<div><time when=\"14:00:00\">午後二時</time>ルーズベルト氏<placeName>兜町</placeName>ニ来約</div>"
+        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n            ルーズベルト氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-35\">\n<head>\n<date when=\"1923-02-12\"> 十二日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>ルーズベルト氏<placeName>兜町</placeName>ニ来約</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>頃　　<persName><surname>前田</surname><forename>多門</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><persName><surname>神田</surname><forename>鐳蔵</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><persName><surname>中村</surname></persName>安得氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"17:30:00\">午後五半時</time>　　克己寮関係<persName><surname>芦田</surname></persName>氏歓迎会（日本工業クラブ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0035\">\n<head>\n<date when=\"1923-02-12\">\n           十二日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            ルーズベルト氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            頃\n            <persName corresp=\"#pers_前田多門\">\n<surname>\n              前田\n             </surname>\n<forename>\n              多門\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_神田鐳蔵\">\n<surname>\n              神田\n             </surname>\n<forename>\n              鐳蔵\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            安得氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            克己寮関係\n            <persName corresp=\"#pers_芦田\">\n<surname>\n              芦田\n             </surname>\n</persName>\n            氏歓迎会（日本工業クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-02"
 }

@@ -3,10 +3,10 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1356",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -16,15 +16,15 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-03",
     "date_lvl2": "1921-03-22",
-    "description": "\n\n 廿二日  （火） \n\n\n午前九時埼玉県高等学校ノ件（兜町）\n\n\n午後〇時半　　日米協会神田男爵送別会（日本工業クラブ）\n\n\n午後六半時　　国際聯盟協会講演会（神田青年会館）\n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n\n             埼玉\n            \n            県高等学校ノ件（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後〇時半\n            \n            日米協会\n            \n             神田\n            \n            男爵送別会（日本工業クラブ）\n           \n\n\n\n\n             午後六半時\n            \n            国際聯盟協会講演会（\n            \n             神田\n            \n            青年会館）\n           \n\n\n",
     "fullname": [],
-    "label": "廿二日  （火）",
+    "label": "廿二日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20023m-74",
-    "objectID": "DKB20023m-73",
-    "prev": "DKB20023m-72",
+    "next": "DKB20023m-0074",
+    "objectID": "DKB20023m-0073",
+    "prev": "DKB20023m-0072",
     "sort": "DKB20023m-0073",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "埼玉",
         "日本橋兜町",
@@ -37,10 +37,10 @@
     ],
     "temporal": "1921-03-22",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><placeName>埼玉</placeName>県高等学校ノ件（<placeName>兜町</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県高等学校ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-73\">\n<head>\n<date when=\"1921-03-22\"> 廿二日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><placeName>埼玉</placeName>県高等学校ノ件（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:30:00\">午後〇時半</time>　　日米協会<placeName>神田</placeName>男爵送別会（日本工業クラブ）</p>\n</event>\n<event>\n<p><time when=\"18:30:00\">午後六半時</time>　　国際聯盟協会講演会（<placeName>神田</placeName>青年会館）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0073\">\n<head>\n<date when=\"1921-03-22\">\n           廿二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県高等学校ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇時半\n            </time>\n            日米協会\n            <placeName corresp=\"#place_神田\">\n             神田\n            </placeName>\n            男爵送別会（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:30:00\">\n             午後六半時\n            </time>\n            国際聯盟協会講演会（\n            <placeName corresp=\"#place_神田\">\n             神田\n            </placeName>\n            青年会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-03"
 }

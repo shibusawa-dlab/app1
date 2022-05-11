@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1410",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -20,32 +20,33 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-11",
     "date_lvl2": "1922-11-11",
-    "description": "\n\n 十一日  （土） \n\n\n午前九時添田敬一郎氏来約（飛鳥山邸）\n\n\n午後二時東京市其他主催、平和記念大会講演会（日比谷公園音楽堂）\n\n\n午後四時東京府知事催、消費節約ニ関スル懇談会（日本工業クラブ）\n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n\n\n              添田\n             \n\n              敬一郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n             東京\n            \n            市其他主催、平和記念大会講演会（\n            \n             日比谷\n            \n            公園音楽堂）\n           \n\n\n\n\n             午後四時\n            \n\n             東京\n            \n            府知事催、消費節約ニ関スル懇談会（日本工業クラブ）\n           \n\n\n",
     "fullname": [
-        "添田敬一郎"
+        "\n              添田\n             \n              敬一郎\n             "
     ],
-    "label": "十一日  （土）",
+    "label": "十一日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-280",
-    "objectID": "DKB20024m-279",
-    "prev": "DKB20024m-278",
+    "next": "DKB20024m-0280",
+    "objectID": "DKB20024m-0279",
+    "prev": "DKB20024m-0278",
     "sort": "DKB20024m-0279",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "東京",
         "日比谷"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/東京",
         "https://shibusawa-dlab.github.io/lab1/api/place/日比谷"
     ],
     "temporal": "1922-11-11",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>添田</surname><forename>敬一郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_添田敬一郎\">\n<surname>\n              添田\n             </surname>\n<forename>\n              敬一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-279\">\n<head>\n<date when=\"1922-11-11\"> 十一日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>添田</surname><forename>敬一郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><placeName>東京</placeName>市其他主催、平和記念大会講演会（<placeName>日比谷</placeName>公園音楽堂）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><placeName>東京</placeName>府知事催、消費節約ニ関スル懇談会（日本工業クラブ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0279\">\n<head>\n<date when=\"1922-11-11\">\n           十一日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_添田敬一郎\">\n<surname>\n              添田\n             </surname>\n<forename>\n              敬一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市其他主催、平和記念大会講演会（\n            <placeName corresp=\"#place_日比谷\">\n             日比谷\n            </placeName>\n            公園音楽堂）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            府知事催、消費節約ニ関スル懇談会（日本工業クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-11"
 }

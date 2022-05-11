@@ -3,10 +3,10 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1204",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -16,29 +16,31 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-05",
     "date_lvl2": "1916-05-25",
-    "description": "\n\n 廿五日  （木） \n\n\n午後一時第一銀行\n\n\n午後二半時　　下谷高等小学校ニテ御講演（下、車坂町警察裏）\n\n\n午後四時半銀行倶楽部晩餐会（帝国ホテル）\n\n\n午後六時帝国ホテル重役会（同所）\n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （木）\n         \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午後二半時\n            \n\n             下谷\n            \n            高等小学校ニテ御講演（\n            \n             下\n            \n            、\n            \n             車坂\n            \n            町警察裏）\n           \n\n\n\n\n             午後四時半\n            \n            銀行倶楽部晩餐会（帝国ホテル）\n           \n\n\n\n\n             午後六時\n            \n            帝国ホテル重役会（同所）\n           \n\n\n",
     "fullname": [],
-    "label": "廿五日  （木）",
+    "label": "廿五日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-129",
-    "objectID": "DKB20018m-128",
-    "prev": "DKB20018m-127",
+    "next": "DKB20018m-0129",
+    "objectID": "DKB20018m-0128",
+    "prev": "DKB20018m-0127",
     "sort": "DKB20018m-0128",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "下谷",
         "下",
         "車坂"
     ],
     "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/下谷"
+        "https://shibusawa-dlab.github.io/lab1/api/place/下谷",
+        "https://shibusawa-dlab.github.io/lab1/api/place/下",
+        "https://shibusawa-dlab.github.io/lab1/api/place/車坂"
     ],
     "temporal": "1916-05-25",
     "time": {
-        "13:00:00": "<div><time when=\"13:00:00\">午後一時</time>第一銀行</div>"
+        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName></div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-128\">\n<head>\n<date when=\"1916-05-25\"> 廿五日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>第一銀行</p>\n</event>\n<event>\n<p><time when=\"14:30:00\">午後二半時</time>　　<placeName>下谷</placeName>高等小学校ニテ御講演（<placeName>下</placeName>、<placeName>車坂</placeName>町警察裏）</p>\n</event>\n<event>\n<p><time when=\"16:30:00\">午後四時半</time>銀行倶楽部晩餐会（帝国ホテル）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time>帝国ホテル重役会（同所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0128\">\n<head>\n<date when=\"1916-05-25\">\n           廿五日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<placeName corresp=\"#place_下谷\">\n             下谷\n            </placeName>\n            高等小学校ニテ御講演（\n            <placeName corresp=\"#place_下\">\n             下\n            </placeName>\n            、\n            <placeName corresp=\"#place_車坂\">\n             車坂\n            </placeName>\n            町警察裏）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四時半\n            </time>\n            銀行倶楽部晩餐会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            帝国ホテル重役会（同所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-05"
 }

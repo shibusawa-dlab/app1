@@ -2,13 +2,15 @@
     "agential": [
         "山崎亀吉"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山崎亀吉"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1458",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -18,17 +20,17 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-03",
     "date_lvl2": "1924-03-23",
-    "description": "\n\n 廿三日  （日） \n\n\n午前八時山崎亀吉氏来約（飛鳥山）\n\n\n午前十時竜門社総集会（帝国ホテル）\n\n\n",
+    "description": "\n\n\n           廿三日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n\n\n              山崎\n             \n\n              亀吉\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            竜門社総集会（帝国ホテル）\n           \n\n\n",
     "fullname": [
-        "山崎亀吉"
+        "\n              山崎\n             \n              亀吉\n             "
     ],
-    "label": "廿三日  （日）",
+    "label": "廿三日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-86",
-    "objectID": "DKB20026m-85",
-    "prev": "DKB20026m-84",
+    "next": "DKB20026m-0086",
+    "objectID": "DKB20026m-0085",
+    "prev": "DKB20026m-0084",
     "sort": "DKB20026m-0085",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園"
     ],
@@ -37,10 +39,10 @@
     ],
     "temporal": "1924-03-23",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>山崎</surname><forename>亀吉</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_山崎亀吉\">\n<surname>\n              山崎\n             </surname>\n<forename>\n              亀吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-85\">\n<head>\n<date when=\"1924-03-23\"> 廿三日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>山崎</surname><forename>亀吉</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>竜門社総集会（帝国ホテル）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0085\">\n<head>\n<date when=\"1924-03-23\">\n           廿三日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_山崎亀吉\">\n<surname>\n              山崎\n             </surname>\n<forename>\n              亀吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            竜門社総集会（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-03"
 }

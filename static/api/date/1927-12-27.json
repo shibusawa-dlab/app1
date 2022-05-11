@@ -4,14 +4,15 @@
         "渡辺得男"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/竹山"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/竹山",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渡辺得男"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1567",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -21,17 +22,17 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-12",
     "date_lvl2": "1927-12-27",
-    "description": "\n\n 廿七日  （火） \n\n\n午前　　　　　大阪時事新報記者竹山氏来約（飛鳥山邸）\n\n\n午前八半時　　渡辺得男氏来邸\n\n\n",
+    "description": "\n\n\n           廿七日\n          \n          （火）\n         \n\n\n\n\n             午前\n            \n\n             大阪\n            \n            時事新報記者\n            \n\n              竹山\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n\n            邸）\n           \n\n\n\n\n             午前八半時\n            \n\n\n              渡辺\n             \n\n              得男\n             \n\n            氏来邸\n           \n\n\n",
     "fullname": [
-        "渡辺得男"
+        "\n              渡辺\n             \n              得男\n             "
     ],
-    "label": "廿七日  （火）",
+    "label": "廿七日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-337",
-    "objectID": "DKB20029m-336",
-    "prev": "DKB20029m-335",
+    "next": "DKB20029m-0337",
+    "objectID": "DKB20029m-0336",
+    "prev": "DKB20029m-0335",
     "sort": "DKB20029m-0336",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "大阪",
         "飛鳥山公園"
@@ -43,7 +44,7 @@
     "temporal": "1927-12-27",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-336\">\n<head>\n<date when=\"1927-12-27\"> 廿七日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time>午前</time>　　　　　<placeName>大阪</placeName>時事新報記者<persName><surname>竹山</surname></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName><pb n=\"B2728\"/>邸）</p>\n</event>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>渡辺</surname><forename>得男</forename></persName>氏来邸</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0336\">\n<head>\n<date when=\"1927-12-27\">\n           廿七日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前\n            </time>\n<placeName corresp=\"#place_大阪\">\n             大阪\n            </placeName>\n            時事新報記者\n            <persName corresp=\"#pers_竹山\">\n<surname>\n              竹山\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n<pb corresp=\"#pageB2728\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1567/full/max/0/default.jpg\" n=\"B2728\" source=\"#pageB2728\"/>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_渡辺得男\">\n<surname>\n              渡辺\n             </surname>\n<forename>\n              得男\n             </forename>\n</persName>\n            氏来邸\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-12"
 }

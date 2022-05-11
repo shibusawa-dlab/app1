@@ -4,14 +4,15 @@
         "関屋"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/宇野木忠",
         "https://shibusawa-dlab.github.io/lab1/api/chname/関屋"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1535",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -21,28 +22,31 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-02",
     "date_lvl2": "1927-02-18",
-    "description": "\n\n 十八日  （金） \n\n\n午前九時宇野木忠氏来約（あすか山邸）\n\n\n午時　　　　　御引籠リ\n\n\n午後一時関屋文部省普通学務局長来約（飛鳥山邸）\n\n\n",
+    "description": "\n\n\n           十八日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n\n\n              宇野木\n             \n\n              忠\n             \n\n            氏来約（\n            \n             あすか山邸\n            \n            ）\n           \n\n\n\n\n             午時\n            \n            御引籠リ\n           \n\n\n\n\n             午後一時\n            \n\n\n              関屋\n             \n\n            文部省普通学務局長来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "宇野木忠"
+        "\n              宇野木\n             \n              忠\n             "
     ],
-    "label": "十八日  （金）",
+    "label": "十八日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-33",
-    "objectID": "DKB20029m-32",
-    "prev": "DKB20029m-31",
+    "next": "DKB20029m-0033",
+    "objectID": "DKB20029m-0032",
+    "prev": "DKB20029m-0031",
     "sort": "DKB20029m-0032",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
-        "あすか山",
+        "あすか山邸",
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/あすか山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1927-02-18",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>宇野木</surname><forename>忠</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">あすか山</placeName>邸）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_宇野木忠\">\n<surname>\n              宇野木\n             </surname>\n<forename>\n              忠\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_あすか山邸\">\n             あすか山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-32\">\n<head>\n<date when=\"1927-02-18\"> 十八日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>宇野木</surname><forename>忠</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">あすか山</placeName>邸）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">午時</time>　　　　　御引籠リ</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time><persName><surname>関屋</surname></persName>文部省普通学務局長来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0032\">\n<head>\n<date when=\"1927-02-18\">\n           十八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_宇野木忠\">\n<surname>\n              宇野木\n             </surname>\n<forename>\n              忠\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_あすか山邸\">\n             あすか山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            御引籠リ\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_関屋\">\n<surname>\n              関屋\n             </surname>\n</persName>\n            文部省普通学務局長来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-02"
 }

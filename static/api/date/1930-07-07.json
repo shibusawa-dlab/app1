@@ -5,14 +5,16 @@
         "阿江伸"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/次郎"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/簗田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/次郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/阿江伸"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1614",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20032m 昭和五年 1930"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20032m 昭和五年 1930"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20032m 昭和五年 1930",
     "date": {
         "lvl0": "1930",
@@ -22,30 +24,31 @@
     "date_lvl0": "1930",
     "date_lvl1": "1930-07",
     "date_lvl2": "1930-07-07",
-    "description": "\n\n 七日  （月） \n\n\n午前十時中外商業新報社長簗田〓次郎氏来約（飛鳥山邸）\n\n\n午後二時関西学院高等学部、国際聯盟学生支部委員長阿江伸三外五名来約《（氏脱）》（事務所）\n\n\n午後二・二〇　事務所ニ御出勤\n\n\n",
+    "description": "\n\n\n           七日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n            中外商業新報社長\n            \n\n              簗田\n             \n\n            〓\n            \n\n              次郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n             関西\n            \n            学院高等学部、国際聯盟学生支部委員長\n            \n\n              阿江\n             \n\n              伸\n             \n\n            三外五名来約《（氏脱）》（事務所）\n           \n\n\n\n\n             午後二・二〇\n            \n            事務所ニ御出勤\n           \n\n\n",
     "fullname": [
-        "阿江伸"
+        "\n              阿江\n             \n              伸\n             "
     ],
-    "label": "七日  （月）",
+    "label": "七日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20032m-102",
-    "objectID": "DKB20032m-101",
-    "prev": "DKB20032m-100",
+    "next": "DKB20032m-0102",
+    "objectID": "DKB20032m-0101",
+    "prev": "DKB20032m-0100",
     "sort": "DKB20032m-0101",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "関西"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/関西"
     ],
     "temporal": "1930-07-07",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time>中外商業新報社長<persName><surname>簗田</surname></persName>〓<persName><forename>次郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            中外商業新報社長\n            <persName corresp=\"#pers_簗田\">\n<surname>\n              簗田\n             </surname>\n</persName>\n            〓\n            <persName corresp=\"#pers_次郎\">\n<forename>\n              次郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20032m-101\">\n<head>\n<date when=\"1930-07-07\"> 七日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>中外商業新報社長<persName><surname>簗田</surname></persName>〓<persName><forename>次郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><placeName>関西</placeName>学院高等学部、国際聯盟学生支部委員長<persName><surname>阿江</surname><forename>伸</forename></persName>三外五名来約《（氏脱）》（事務所）</p>\n</event>\n<event>\n<p><time when=\"14:20:00\">午後二・二〇</time>　事務所ニ御出勤</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0101\">\n<head>\n<date when=\"1930-07-07\">\n           七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            中外商業新報社長\n            <persName corresp=\"#pers_簗田\">\n<surname>\n              簗田\n             </surname>\n</persName>\n            〓\n            <persName corresp=\"#pers_次郎\">\n<forename>\n              次郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_関西\">\n             関西\n            </placeName>\n            学院高等学部、国際聯盟学生支部委員長\n            <persName corresp=\"#pers_阿江伸\">\n<surname>\n              阿江\n             </surname>\n<forename>\n              伸\n             </forename>\n</persName>\n            三外五名来約《（氏脱）》（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:20:00\">\n             午後二・二〇\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1930",
     "yearAndMonth": "1930-07"
 }

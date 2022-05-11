@@ -7,14 +7,18 @@
         "堀井"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/高木兼寛"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/バートン",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高木兼寛",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/添田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/入沢",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/堀井"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1311",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20021m 大正八年 1919"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20021m 大正八年 1919"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20021m 大正八年 1919",
     "date": {
         "lvl0": "1919",
@@ -24,17 +28,17 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-10",
     "date_lvl2": "1919-10-01",
-    "description": "\n\n 一日  （水） \n\n\n午前十時バートン氏来約（兜町）\n\n\n午前十一時高木兼寛男来約（兜町）\n\n\n午前十一時竹田政智氏来約（兜町）\n\n\n午後一時添田地方局長来約（兜町）\n\n\n午後四時入沢博士、堀井医師来診ノ約（兜町）\n\n\n午後五時御同族会（兜町）\n\n\n",
+    "description": "\n\n\n           一日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n\n\n              バートン\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              高木\n             \n\n              兼寛\n             \n\n            男来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n             竹田\n            \n            政智氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n\n              添田\n             \n\n            地方局長来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n\n              入沢\n             \n\n            博士、\n            \n\n              堀井\n             \n\n            医師来診ノ約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            御同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "高木兼寛"
+        "\n              高木\n             \n              兼寛\n             "
     ],
-    "label": "一日  （水）",
+    "label": "一日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20021m-246",
-    "objectID": "DKB20021m-245",
-    "prev": "DKB20021m-243",
+    "next": "DKB20021m-0246",
+    "objectID": "DKB20021m-0245",
+    "prev": "DKB20021m-0243",
     "sort": "DKB20021m-0245",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "竹田"
@@ -45,10 +49,10 @@
     ],
     "temporal": "1919-10-01",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><persName><surname>バートン</surname></persName>氏来約（<placeName>兜町</placeName>）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_バートン\">\n<surname>\n              バートン\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-245\">\n<head>\n<date when=\"1919-10-01\"> 一日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>バートン</surname></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>高木</surname><forename>兼寛</forename></persName>男来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><placeName>竹田</placeName>政智氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time><persName><surname>添田</surname></persName>地方局長来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><persName><surname>入沢</surname></persName>博士、<persName><surname>堀井</surname></persName>医師来診ノ約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>御同族会（<placeName>兜町</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0245\">\n<head>\n<date when=\"1919-10-01\">\n           一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_バートン\">\n<surname>\n              バートン\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_高木兼寛\">\n<surname>\n              高木\n             </surname>\n<forename>\n              兼寛\n             </forename>\n</persName>\n            男来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_竹田\">\n             竹田\n            </placeName>\n            政智氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_添田\">\n<surname>\n              添田\n             </surname>\n</persName>\n            地方局長来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_入沢\">\n<surname>\n              入沢\n             </surname>\n</persName>\n            博士、\n            <persName corresp=\"#pers_堀井\">\n<surname>\n              堀井\n             </surname>\n</persName>\n            医師来診ノ約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-10"
 }

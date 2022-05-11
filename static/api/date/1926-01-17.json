@@ -7,11 +7,11 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1501",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-01",
@@ -20,28 +20,29 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-01",
     "date_lvl2": "1926-01-17",
-    "description": "\n\n 十七日  （日） \n\n\n午后二時加州パナデナ人小畑氏同伴来訪（アスカ山）\n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （日）\n         \n\n\n\n\n             午后二時\n            \n\n             加州\n            \n            パナデナ人\n            \n\n              小畑\n             \n\n            氏同伴来訪（\n            \n             アスカ山\n            \n            ）\n           \n\n\n",
     "fullname": [],
-    "label": "十七日  （日）",
+    "label": "十七日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-18",
-    "objectID": "DKB20028m-17",
-    "prev": "DKB20028m-16",
+    "next": "DKB20028m-0018",
+    "objectID": "DKB20028m-0017",
+    "prev": "DKB20028m-0016",
     "sort": "DKB20028m-0017",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "加州",
         "アスカ山"
     ],
     "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/加州"
+        "https://shibusawa-dlab.github.io/lab1/api/place/加州",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山"
     ],
     "temporal": "1926-01-17",
     "time": {
-        "14:00:00": "<div><time when=\"14:00:00\">午后二時</time><placeName>加州</placeName>パナデナ人<persName><surname>小畑</surname></persName>氏同伴来訪（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "14:00:00": "<div><time when=\"14:00:00\">\n             午后二時\n            </time>\n<placeName corresp=\"#place_加州\">\n             加州\n            </placeName>\n            パナデナ人\n            <persName corresp=\"#pers_小畑\">\n<surname>\n              小畑\n             </surname>\n</persName>\n            氏同伴来訪（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-17\">\n<head>\n<date when=\"1926-01-17\"> 十七日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"14:00:00\">午后二時</time><placeName>加州</placeName>パナデナ人<persName><surname>小畑</surname></persName>氏同伴来訪（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0017\">\n<head>\n<date when=\"1926-01-17\">\n           十七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n<placeName corresp=\"#place_加州\">\n             加州\n            </placeName>\n            パナデナ人\n            <persName corresp=\"#pers_小畑\">\n<surname>\n              小畑\n             </surname>\n</persName>\n            氏同伴来訪（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-01"
 }

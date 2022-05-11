@@ -2,13 +2,15 @@
     "agential": [
         "奥山清治"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/奥山清治"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1556",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -18,17 +20,17 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-09",
     "date_lvl2": "1927-09-22",
-    "description": "\n\n 廿二日  （木） \n\n\n午前十時御出勤\n\n\n午前十時フレデリック・モーア氏来約（永楽町事務所）\n\n\n午前十一時奥山清治氏来約（事務所）\n\n\n午後〇半時　　日米協会ヨリ御案内（帝国ホテル）\n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n            御出勤\n           \n\n\n\n\n             午前十時\n            \n            フレデリック・モーア氏来約（\n            \n             永楽町\n            \n            事務所）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              奥山\n             \n\n              清治\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後〇半時\n            \n            日米協会ヨリ御案内（帝国ホテル）\n           \n\n\n",
     "fullname": [
-        "奥山清治"
+        "\n              奥山\n             \n              清治\n             "
     ],
-    "label": "廿二日  （木）",
+    "label": "廿二日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-239",
-    "objectID": "DKB20029m-238",
-    "prev": "DKB20029m-237",
+    "next": "DKB20029m-0239",
+    "objectID": "DKB20029m-0238",
+    "prev": "DKB20029m-0237",
     "sort": "DKB20029m-0238",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "永楽町"
     ],
@@ -37,10 +39,10 @@
     ],
     "temporal": "1927-09-22",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time>御出勤</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-238\">\n<head>\n<date when=\"1927-09-22\"> 廿二日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>御出勤</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>フレデリック・モーア氏来約（<placeName>永楽町</placeName>事務所）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>奥山</surname><forename>清治</forename></persName>氏来約（事務所）</p>\n</event>\n<event>\n<p><time when=\"12:30:00\">午後〇半時</time>　　日米協会ヨリ御案内（帝国ホテル）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0238\">\n<head>\n<date when=\"1927-09-22\">\n           廿二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            フレデリック・モーア氏来約（\n            <placeName corresp=\"#place_永楽町\">\n             永楽町\n            </placeName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_奥山清治\">\n<surname>\n              奥山\n             </surname>\n<forename>\n              清治\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇半時\n            </time>\n            日米協会ヨリ御案内（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-09"
 }

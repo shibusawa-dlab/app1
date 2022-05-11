@@ -8,14 +8,17 @@
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/神谷",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/山本"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山本",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/沢柳",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/カツター",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/堀越善重"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1397",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -25,27 +28,29 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-07",
     "date_lvl2": "1922-07-10",
-    "description": "\n\n 十日  （月） \n\n\n午前八時四十分平和博覧会褒賞授与式（第二会場外国館前）\n\n\n正午　　　　　日本クラブ催、神谷、山本、沢柳氏送迎会（日本クラブ）\n\n\n午後二時国際聯盟協会主催、沢柳、カツター両氏招待会（海上ビルデング中央亭）\n\n\n午後六時堀越善重郎氏より御案内（常盤屋）\n\n\n",
+    "description": "\n\n\n           十日\n          \n          （月）\n         \n\n\n\n\n             午前八時四十分\n            \n            平和博覧会褒賞授与式（第二会場外\n            \n            国\n            \n             館前\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            日本クラブ催、\n            \n\n              神谷\n             \n\n            、\n            \n\n              山本\n             \n\n            、\n            \n\n              沢柳\n             \n\n            氏送迎会（日本クラブ）\n           \n\n\n\n\n             午後二時\n            \n            国際聯盟協会主催、\n            \n\n              沢柳\n             \n\n            、\n            \n\n              カツター\n             \n\n            両氏招待会（海上ビルデング中央亭）\n           \n\n\n\n\n             午後六時\n            \n\n\n              堀越\n             \n\n              善重\n             \n\n            郎氏より御案内（常盤屋）\n           \n\n\n",
     "fullname": [
-        "堀越善重"
+        "\n              堀越\n             \n              善重\n             "
     ],
-    "label": "十日  （月）",
+    "label": "十日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-168",
-    "objectID": "DKB20024m-167",
-    "prev": "DKB20024m-166",
+    "next": "DKB20024m-0168",
+    "objectID": "DKB20024m-0167",
+    "prev": "DKB20024m-0166",
     "sort": "DKB20024m-0167",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "館前"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/館前"
+    ],
     "temporal": "1922-07-10",
     "time": {
-        "08:40:00": "<div><time when=\"08:40:00\">午前八時四十分</time>平和博覧会褒賞授与式（第二会場外<pb n=\"B2558\"/>国<placeName>館前</placeName>）</div>"
+        "08:40:00": "<div><time when=\"08:40:00\">\n             午前八時四十分\n            </time>\n            平和博覧会褒賞授与式（第二会場外\n            <pb corresp=\"#pageB2558\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1397/full/max/0/default.jpg\" n=\"B2558\" source=\"#pageB2558\"/>\n            国\n            <placeName corresp=\"#place_館前\">\n             館前\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-167\">\n<head>\n<date when=\"1922-07-10\"> 十日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"08:40:00\">午前八時四十分</time>平和博覧会褒賞授与式（第二会場外<pb n=\"B2558\"/>国<placeName>館前</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　日本クラブ催、<persName><surname>神谷</surname></persName>、<persName><surname>山本</surname></persName>、<persName><surname>沢柳</surname></persName>氏送迎会（日本クラブ）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>国際聯盟協会主催、<persName><surname>沢柳</surname></persName>、<persName><surname>カツター</surname></persName>両氏招待会（海上ビルデング中央亭）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time><persName><surname>堀越</surname><forename>善重</forename></persName>郎氏より御案内（常盤屋）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0167\">\n<head>\n<date when=\"1922-07-10\">\n           十日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:40:00\">\n             午前八時四十分\n            </time>\n            平和博覧会褒賞授与式（第二会場外\n            <pb corresp=\"#pageB2558\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1397/full/max/0/default.jpg\" n=\"B2558\" source=\"#pageB2558\"/>\n            国\n            <placeName corresp=\"#place_館前\">\n             館前\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日本クラブ催、\n            <persName corresp=\"#pers_神谷\">\n<surname>\n              神谷\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_山本\">\n<surname>\n              山本\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_沢柳\">\n<surname>\n              沢柳\n             </surname>\n</persName>\n            氏送迎会（日本クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            国際聯盟協会主催、\n            <persName corresp=\"#pers_沢柳\">\n<surname>\n              沢柳\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_カツター\">\n<surname>\n              カツター\n             </surname>\n</persName>\n            両氏招待会（海上ビルデング中央亭）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_堀越善重\">\n<surname>\n              堀越\n             </surname>\n<forename>\n              善重\n             </forename>\n</persName>\n            郎氏より御案内（常盤屋）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-07"
 }

@@ -6,14 +6,15 @@
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/岡崎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/寺田"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/寺田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/仲小路"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1237",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -23,15 +24,15 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-05",
     "date_lvl2": "1917-05-22",
-    "description": "\n\n 廿二日  （火） \n\n\n午前九時東京府慈善協会第一回大会（小石川植物園）\n\n\n午後一時慰問会ノ件ニ付岡崎、寺田両氏ト御会見ノ約（衆議院図書館）\n\n\n午後二半時　　仲小路農相ト御会見ノ約（農商務省）\n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n\n             東京\n            \n            府慈善協会第一回大会（\n            \n             小石川\n            \n            植物園）\n           \n\n\n\n\n             午後一時\n            \n            慰問会ノ件ニ付\n            \n\n              岡崎\n             \n\n            、\n            \n\n              寺田\n             \n\n            両氏ト御会見ノ約（衆議院図書館）\n           \n\n\n\n\n             午後二半時\n            \n\n\n              仲小路\n             \n\n            農相ト御会見ノ約（農商務省）\n           \n\n\n",
     "fullname": [],
-    "label": "廿二日  （火）",
+    "label": "廿二日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-142",
-    "objectID": "DKB20019m-141",
-    "prev": "DKB20019m-140",
+    "next": "DKB20019m-0142",
+    "objectID": "DKB20019m-0141",
+    "prev": "DKB20019m-0140",
     "sort": "DKB20019m-0141",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京",
         "小石川"
@@ -42,10 +43,10 @@
     ],
     "temporal": "1917-05-22",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><placeName>東京</placeName>府慈善協会第一回大会（<placeName>小石川</placeName>植物園）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            府慈善協会第一回大会（\n            <placeName corresp=\"#place_小石川\">\n             小石川\n            </placeName>\n            植物園）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-141\">\n<head>\n<date when=\"1917-05-22\"> 廿二日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><placeName>東京</placeName>府慈善協会第一回大会（<placeName>小石川</placeName>植物園）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>慰問会ノ件ニ付<persName><surname>岡崎</surname></persName>、<persName><surname>寺田</surname></persName>両氏ト御会見ノ約（衆議院図書館）</p>\n</event>\n<event>\n<p><time when=\"14:30:00\">午後二半時</time>　　<persName><surname>仲小路</surname></persName>農相ト御会見ノ約（農商務省）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0141\">\n<head>\n<date when=\"1917-05-22\">\n           廿二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            府慈善協会第一回大会（\n            <placeName corresp=\"#place_小石川\">\n             小石川\n            </placeName>\n            植物園）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            慰問会ノ件ニ付\n            <persName corresp=\"#pers_岡崎\">\n<surname>\n              岡崎\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_寺田\">\n<surname>\n              寺田\n             </surname>\n</persName>\n            両氏ト御会見ノ約（衆議院図書館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<persName corresp=\"#pers_仲小路\">\n<surname>\n              仲小路\n             </surname>\n</persName>\n            農相ト御会見ノ約（農商務省）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-05"
 }

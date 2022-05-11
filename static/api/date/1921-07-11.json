@@ -2,13 +2,15 @@
     "agential": [
         "三島弥吉"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/三島弥吉"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1369",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -18,30 +20,31 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-07",
     "date_lvl2": "1921-07-11",
-    "description": "\n\n 十一日  （月） \n\n\n午前十一時綱町邸ヘ御出向\n\n\n午後三時協調会特別理事会（同会）\n\n\n午後三時三島弥吉氏来約（協調会事務所）\n\n\n午後五時日本結核予防会組織変更披露（生命保険協会）\n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （月）\n         \n\n\n\n\n             午前十一時\n            \n\n             綱町\n            \n            邸ヘ御出向\n           \n\n\n\n\n             午後三時\n            \n            協調会特別理事会（同会）\n           \n\n\n\n\n             午後三時\n            \n\n\n              三島\n             \n\n              弥吉\n             \n\n            氏来約（協調会事務所）\n           \n\n\n\n\n             午後五時\n            \n\n             日本\n            \n            結核予防会組織変更披露（生命保\n            \n            険協会）\n           \n\n\n",
     "fullname": [
-        "三島弥吉"
+        "\n              三島\n             \n              弥吉\n             "
     ],
-    "label": "十一日  （月）",
+    "label": "十一日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20023m-186",
-    "objectID": "DKB20023m-185",
-    "prev": "DKB20023m-184",
+    "next": "DKB20023m-0186",
+    "objectID": "DKB20023m-0185",
+    "prev": "DKB20023m-0184",
     "sort": "DKB20023m-0185",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "綱町",
         "日本"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/綱町",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本"
     ],
     "temporal": "1921-07-11",
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">午前十一時</time><placeName>綱町</placeName>邸ヘ御出向</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            邸ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-185\">\n<head>\n<date when=\"1921-07-11\"> 十一日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><placeName>綱町</placeName>邸ヘ御出向</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>協調会特別理事会（同会）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>三島</surname><forename>弥吉</forename></persName>氏来約（協調会事務所）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><placeName>日本</placeName>結核予防会組織変更披露（生命保<pb n=\"B2530\"/>険協会）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0185\">\n<head>\n<date when=\"1921-07-11\">\n           十一日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            邸ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            協調会特別理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_三島弥吉\">\n<surname>\n              三島\n             </surname>\n<forename>\n              弥吉\n             </forename>\n</persName>\n            氏来約（協調会事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            結核予防会組織変更披露（生命保\n            <pb corresp=\"#pageB2530\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1369/full/max/0/default.jpg\" n=\"B2530\" source=\"#pageB2530\"/>\n            険協会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-07"
 }

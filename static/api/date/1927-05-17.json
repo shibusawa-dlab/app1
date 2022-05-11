@@ -2,13 +2,15 @@
     "agential": [
         "渋沢正雄"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢正雄"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1544",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -18,27 +20,29 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-05",
     "date_lvl2": "1927-05-17",
-    "description": "\n\n 十七日  （火） \n\n\n午前九半時　　林医師来診（飛鳥山邸）\n\n\n午前十半時　　渋沢正雄氏催、エルケット氏招待茶話会（飛鳥山邸）\n\n\n午〇時半　　　ヂヨージ・セール氏招待会（飛鳥山邸）\n\n\n午後四時雨夜譚会（飛鳥山邸）\n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （火）\n         \n\n\n\n\n             午前九半時\n            \n            林医師来診（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十半時\n            \n\n\n              渋沢\n             \n\n              正雄\n             \n\n            氏催、エルケット氏招待茶話会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午〇時半\n            \n            ヂヨージ・セール氏招待会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            雨夜譚会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "渋沢正雄"
+        "\n              渋沢\n             \n              正雄\n             "
     ],
-    "label": "十七日  （火）",
+    "label": "十七日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-122",
-    "objectID": "DKB20029m-121",
-    "prev": "DKB20029m-120",
+    "next": "DKB20029m-0122",
+    "objectID": "DKB20029m-0121",
+    "prev": "DKB20029m-0120",
     "sort": "DKB20029m-0121",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1927-05-17",
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">午前九半時</time>　　林医師来診（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n            林医師来診（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-121\">\n<head>\n<date when=\"1927-05-17\"> 十七日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"09:30:00\">午前九半時</time>　　林医師来診（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:30:00\">午前十半時</time>　　<persName><surname>渋沢</surname><forename>正雄</forename></persName>氏催、エルケット氏招待茶話会（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:30:00\">午〇時半</time>　　　ヂヨージ・セール氏招待会（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>雨夜譚会（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0121\">\n<head>\n<date when=\"1927-05-17\">\n           十七日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n            林医師来診（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n<persName corresp=\"#pers_渋沢正雄\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              正雄\n             </forename>\n</persName>\n            氏催、エルケット氏招待茶話会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午〇時半\n            </time>\n            ヂヨージ・セール氏招待会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            雨夜譚会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-05"
 }

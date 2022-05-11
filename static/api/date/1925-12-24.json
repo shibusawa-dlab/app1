@@ -5,14 +5,16 @@
         "モツト"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/伊藤"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/伊藤",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野良三",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/モツト"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1499",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -22,27 +24,29 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-12",
     "date_lvl2": "1925-12-24",
-    "description": "\n\n 廿四日  （木） \n\n\n午前八半時　　時事新報記者伊藤氏来約（飛鳥山邸）\n\n\n午前十時浅野良三氏来約（〃）\n\n\n正午　　　　　日米関係委員会モツト博士招待会（銀行クラブ）\n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （木）\n         \n\n\n\n\n             午前八半時\n            \n            時事新報記者\n            \n\n              伊藤\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              浅野\n             \n\n              良三\n             \n\n            氏来約（〃）\n           \n\n\n\n\n             正午\n            \n            日米関係委員会\n            \n\n              モツト\n             \n\n            博士招待会（銀行クラブ）\n           \n\n\n",
     "fullname": [
-        "浅野良三"
+        "\n              浅野\n             \n              良三\n             "
     ],
-    "label": "廿四日  （木）",
+    "label": "廿四日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20027m-242",
-    "objectID": "DKB20027m-241",
-    "prev": "DKB20027m-240",
+    "next": "DKB20027m-0242",
+    "objectID": "DKB20027m-0241",
+    "prev": "DKB20027m-0240",
     "sort": "DKB20027m-0241",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1925-12-24",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八半時</time>　　時事新報記者<persName><surname>伊藤</surname></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n            時事新報記者\n            <persName corresp=\"#pers_伊藤\">\n<surname>\n              伊藤\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-241\">\n<head>\n<date when=\"1925-12-24\"> 廿四日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　時事新報記者<persName><surname>伊藤</surname></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>浅野</surname><forename>良三</forename></persName>氏来約（〃）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　日米関係委員会<persName><surname>モツト</surname></persName>博士招待会（銀行クラブ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0241\">\n<head>\n<date when=\"1925-12-24\">\n           廿四日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            時事新報記者\n            <persName corresp=\"#pers_伊藤\">\n<surname>\n              伊藤\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_浅野良三\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              良三\n             </forename>\n</persName>\n            氏来約（〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日米関係委員会\n            <persName corresp=\"#pers_モツト\">\n<surname>\n              モツト\n             </surname>\n</persName>\n            博士招待会（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-12"
 }

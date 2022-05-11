@@ -3,10 +3,10 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1175",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20017m 大正四年 1915"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20017m 大正四年 1915"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20017m 大正四年 1915",
     "date": {
         "lvl0": "1915",
@@ -16,15 +16,15 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-01",
     "date_lvl2": "1915-01-25",
-    "description": "\n\n 廿五日  （月） \n\n\n正午　　　　　国際通信社ノ件（銀行集会所）\n\n\n午後五時中井商店ヨリ御案内（山谷八百善）\n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （月）\n         \n\n\n\n\n             正午\n            \n            国際通信社ノ件（銀行集会所）\n           \n\n\n\n\n             午後五時\n            \n            中井商店ヨリ御案内（\n            \n             山谷\n            \n            八百善）\n           \n\n\n",
     "fullname": [],
-    "label": "廿五日  （月）",
+    "label": "廿五日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20017m-24",
-    "objectID": "DKB20017m-23",
-    "prev": "DKB20017m-22",
+    "next": "DKB20017m-0024",
+    "objectID": "DKB20017m-0023",
+    "prev": "DKB20017m-0022",
     "sort": "DKB20017m-0023",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "山谷"
     ],
@@ -33,10 +33,10 @@
     ],
     "temporal": "1915-01-25",
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">正午</time>　　　　　国際通信社ノ件（銀行集会所）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            国際通信社ノ件（銀行集会所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-23\">\n<head>\n<date when=\"1915-01-25\"> 廿五日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　国際通信社ノ件（銀行集会所）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>中井商店ヨリ御案内（<placeName>山谷</placeName>八百善）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0023\">\n<head>\n<date when=\"1915-01-25\">\n           廿五日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            国際通信社ノ件（銀行集会所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            中井商店ヨリ御案内（\n            <placeName corresp=\"#place_山谷\">\n             山谷\n            </placeName>\n            八百善）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-01"
 }

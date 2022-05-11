@@ -2,14 +2,16 @@
     "agential": [
         "増田充績"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/増田充績"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/84",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB10005m 甲申京摂巡回日記　　　　　　（株式会社第一銀行京都支店所蔵）"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB10005m 甲申京摂巡回日記　　　　　　（株式会社 第一銀行 京都支店所蔵）"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-    "category_lvl1": "DKB10005m 甲申京摂巡回日記　　　　　　（株式会社第一銀行京都支店所蔵）",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl1": "DKB10005m 甲申京摂巡回日記　　　　　　（株式会社 第一銀行 京都支店所蔵）",
     "date": {
         "lvl0": "1884",
         "lvl1": "1884 > 1884-06",
@@ -18,17 +20,17 @@
     "date_lvl0": "1884",
     "date_lvl1": "1884-06",
     "date_lvl2": "1884-06-26",
-    "description": "\n\n 六月廿六日  晴晩ニ雨 \n午前七時西京ヲ発シ、八時過大津ニ至ル、増田充績ハ送テ此ニ至リテ分袂ス、田川村ニテ午餐シ、七時関ニ至リテ投宿ス\n",
+    "description": "\n\n\n        六月廿六日\n       \n       晴晩ニ雨\n      \n\n\n        午前七時\n       \n       西京ヲ発シ、\n       \n        八時\n       \n       過\n       \n        大津\n       \n       ニ至ル、\n       \n\n         増田\n        \n\n         充績\n        \n\n       ハ送テ此ニ至リテ分袂ス、\n       \n        田川村\n       \n       ニテ午餐シ、\n       \n        七時\n       \n       関ニ至リテ投宿ス\n      \n",
     "fullname": [
-        "増田充績"
+        "\n         増田\n        \n         充績\n        "
     ],
-    "label": "六月廿六日  晴晩ニ雨",
+    "label": "六月廿六日              晴晩ニ雨",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
-    "next": "DKB10005m-29",
-    "objectID": "DKB10005m-28",
-    "prev": "DKB10005m-27",
+    "next": "DKB10005m-0029",
+    "objectID": "DKB10005m-0028",
+    "prev": "DKB10005m-0027",
     "sort": "DKB10005m-0028",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "大津",
         "田川村"
@@ -39,12 +41,12 @@
     ],
     "temporal": "1884-06-26",
     "time": {
-        "07:00:00": "<div><time when=\"07:00:00\">午前七時</time>西京ヲ発シ、</div>",
-        "08:00:00": "<div><time when=\"08:00:00\">八時</time>過<placeName>大津</placeName>ニ至ル、<persName><surname>増田</surname><forename>充績</forename></persName>ハ送テ此ニ至リテ分袂ス、<placeName>田川村</placeName>ニテ午餐シ、</div>",
-        "19:00:00": "<div><time when=\"19:00:00\">七時</time>関ニ至リテ投宿ス</div>"
+        "07:00:00": "<div><time when=\"07:00:00\">\n        午前七時\n       </time>\n       西京ヲ発シ、</div>",
+        "08:00:00": "<div><time when=\"08:00:00\">\n        八時\n       </time>\n       過\n       <placeName corresp=\"#place_大津\">\n        大津\n       </placeName>\n       ニ至ル、\n       <persName corresp=\"#pers_増田充績\">\n<surname>\n         増田\n        </surname>\n<forename>\n         充績\n        </forename>\n</persName>\n       ハ送テ此ニ至リテ分袂ス、\n       <placeName corresp=\"#place_田川村\">\n        田川村\n       </placeName>\n       ニテ午餐シ、</div>",
+        "19:00:00": "<div><time when=\"19:00:00\">\n        七時\n       </time>\n       関ニ至リテ投宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10005m-28\">\n<head>\n<date when=\"1884-06-26\"> 六月廿六日 </date> 晴晩ニ雨 </head>\n<p><time when=\"07:00:00\">午前七時</time>西京ヲ発シ、<time when=\"08:00:00\">八時</time>過<placeName>大津</placeName>ニ至ル、<persName><surname>増田</surname><forename>充績</forename></persName>ハ送テ此ニ至リテ分袂ス、<placeName>田川村</placeName>ニテ午餐シ、<time when=\"19:00:00\">七時</time>関ニ至リテ投宿ス</p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10005m-0028\">\n<head>\n<date when=\"1884-06-26\">\n        六月廿六日\n       </date>\n       晴晩ニ雨\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       西京ヲ発シ、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       過\n       <placeName corresp=\"#place_大津\">\n        大津\n       </placeName>\n       ニ至ル、\n       <persName corresp=\"#pers_増田充績\">\n<surname>\n         増田\n        </surname>\n<forename>\n         充績\n        </forename>\n</persName>\n       ハ送テ此ニ至リテ分袂ス、\n       <placeName corresp=\"#place_田川村\">\n        田川村\n       </placeName>\n       ニテ午餐シ、\n       <time when=\"19:00:00\">\n        七時\n       </time>\n       関ニ至リテ投宿ス\n      </p>\n</div>",
     "year": "1884",
     "yearAndMonth": "1884-06"
 }

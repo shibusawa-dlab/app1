@@ -11,10 +11,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1399",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -24,27 +24,29 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-07",
     "date_lvl2": "1922-07-23",
-    "description": "\n\n 廿三日  （日） \n\n\n午前八時大倉喜七郎氏来約（飛鳥山邸）\n\n\n午前九時本野子爵母堂来約（同右）\n\n\n午後二時文明協会時局研究会ノ件（大隈侯邸）\n\n\n",
+    "description": "\n\n\n           廿三日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n\n\n              大倉\n             \n\n              喜七郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              本野\n             \n\n            子爵母堂来約（同右）\n           \n\n\n\n\n             午後二時\n            \n            文明協会時局研究会ノ件（\n            \n\n              大隈\n             \n\n            侯邸）\n           \n\n\n",
     "fullname": [
-        "大倉喜七郎"
+        "\n              大倉\n             \n              喜七郎\n             "
     ],
-    "label": "廿三日  （日）",
+    "label": "廿三日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-181",
-    "objectID": "DKB20024m-180",
-    "prev": "DKB20024m-179",
+    "next": "DKB20024m-0181",
+    "objectID": "DKB20024m-0180",
+    "prev": "DKB20024m-0179",
     "sort": "DKB20024m-0180",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1922-07-23",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>大倉</surname><forename>喜七郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_大倉喜七郎\">\n<surname>\n              大倉\n             </surname>\n<forename>\n              喜七郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-180\">\n<head>\n<date when=\"1922-07-23\"> 廿三日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>大倉</surname><forename>喜七郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>本野</surname></persName>子爵母堂来約（同右）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>文明協会時局研究会ノ件（<persName><surname>大隈</surname></persName>侯邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0180\">\n<head>\n<date when=\"1922-07-23\">\n           廿三日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_大倉喜七郎\">\n<surname>\n              大倉\n             </surname>\n<forename>\n              喜七郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_本野\">\n<surname>\n              本野\n             </surname>\n</persName>\n            子爵母堂来約（同右）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            文明協会時局研究会ノ件（\n            <persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-07"
 }

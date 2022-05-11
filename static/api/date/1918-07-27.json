@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1274",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20020m 大正七年 1918"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20020m 大正七年 1918"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20020m 大正七年 1918",
     "date": {
         "lvl0": "1918",
@@ -20,30 +20,31 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-07",
     "date_lvl2": "1918-07-27",
-    "description": "\n\n 廿七日  （土） \n\n\n午前八時江庸氏来約（飛鳥山邸）\n\n\n午後三時大江天也氏兜町ニ来約\n\n\n〃〃　　　　岡田埼玉県知事　同上\n\n\n",
+    "description": "\n\n\n           廿七日\n          \n          （土）\n         \n\n\n\n\n             午前八時\n            \n            江庸氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            大江天也氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             〃〃\n            \n\n\n              岡田\n             \n\n\n             埼玉\n            \n            県知事　同上\n           \n\n\n",
     "fullname": [],
-    "label": "廿七日  （土）",
+    "label": "廿七日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20020m-203",
-    "objectID": "DKB20020m-202",
-    "prev": "DKB20020m-201",
+    "next": "DKB20020m-0203",
+    "objectID": "DKB20020m-0202",
+    "prev": "DKB20020m-0201",
     "sort": "DKB20020m-0202",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "日本橋兜町",
         "埼玉"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
         "https://shibusawa-dlab.github.io/lab1/api/place/埼玉"
     ],
     "temporal": "1918-07-27",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time>江庸氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            江庸氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-202\">\n<head>\n<date when=\"1918-07-27\"> 廿七日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time>江庸氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>大江天也氏<placeName>兜町</placeName>ニ来約</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">〃〃</time>　　　　<persName><surname>岡田</surname></persName><placeName>埼玉</placeName>県知事　同上</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0202\">\n<head>\n<date when=\"1918-07-27\">\n           廿七日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            江庸氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            大江天也氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             〃〃\n            </time>\n<persName corresp=\"#pers_岡田\">\n<surname>\n              岡田\n             </surname>\n</persName>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県知事　同上\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-07"
 }

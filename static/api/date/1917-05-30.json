@@ -15,10 +15,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1238",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -28,17 +28,17 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-05",
     "date_lvl2": "1917-05-30",
-    "description": "\n\n 三十日  （水） \n\n\n午前九時和田、郷、中野三氏ト御会見（兜町）\n\n\n午前十一時故大山元帥銅像建設委員会（陸軍大臣官邸）\n\n\n午〇時半　　　井上準之助氏ヨリ御案内（銀行集会処）ラッセル氏支那談\n\n\n午後二―午後三時田逓相ヲ御訪問ノ約（同官邸）\n\n\n午後五時理化学研究処ノ件（商業会議処）\n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n\n\n              和田\n             \n\n            、郷、\n            \n\n              中野\n             \n\n            三氏ト御会見（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            故\n            \n\n              大山\n             \n\n            元帥銅像建設委員会（陸軍大臣官邸）\n           \n\n\n\n\n             午〇時半\n            \n\n\n              井上\n             \n\n              準之助\n             \n\n            氏ヨリ御案内（銀行集会処）\n            \n            ラッセル氏\n            \n             支那\n            \n            談\n           \n\n\n\n\n             午後二―午後三時\n            \n\n\n              田\n             \n\n            逓相ヲ御訪問ノ約（同官邸）\n           \n\n\n\n\n             午後五時\n            \n            理化学研究処ノ件（商業会議処）\n           \n\n\n",
     "fullname": [
-        "井上準之助"
+        "\n              井上\n             \n              準之助\n             "
     ],
-    "label": "三十日  （水）",
+    "label": "三十日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-150",
-    "objectID": "DKB20019m-149",
-    "prev": "DKB20019m-148",
+    "next": "DKB20019m-0150",
+    "objectID": "DKB20019m-0149",
+    "prev": "DKB20019m-0148",
     "sort": "DKB20019m-0149",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "支那"
@@ -49,10 +49,10 @@
     ],
     "temporal": "1917-05-30",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>和田</surname></persName>、郷、<persName><surname>中野</surname></persName>三氏ト御会見（<placeName>兜町</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_和田\">\n<surname>\n              和田\n             </surname>\n</persName>\n            、郷、\n            <persName corresp=\"#pers_中野\">\n<surname>\n              中野\n             </surname>\n</persName>\n            三氏ト御会見（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-149\">\n<head>\n<date when=\"1917-05-30\"> 三十日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>和田</surname></persName>、郷、<persName><surname>中野</surname></persName>三氏ト御会見（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>故<persName><surname>大山</surname></persName>元帥銅像建設委員会（陸軍大臣官邸）</p>\n</event>\n<event>\n<p><time when=\"12:30:00\">午〇時半</time>　　　<persName><surname>井上</surname><forename>準之助</forename></persName>氏ヨリ御案内（銀行集会処）<lb/>ラッセル氏<placeName>支那</placeName>談</p>\n</event>\n<event>\n<p><time from=\"14:00:00\" to=\"15:00:00\">午後二―午後三時</time><persName><surname>田</surname></persName>逓相ヲ御訪問ノ約（同官邸）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>理化学研究処ノ件（商業会議処）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0149\">\n<head>\n<date when=\"1917-05-30\">\n           三十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_和田\">\n<surname>\n              和田\n             </surname>\n</persName>\n            、郷、\n            <persName corresp=\"#pers_中野\">\n<surname>\n              中野\n             </surname>\n</persName>\n            三氏ト御会見（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            故\n            <persName corresp=\"#pers_大山\">\n<surname>\n              大山\n             </surname>\n</persName>\n            元帥銅像建設委員会（陸軍大臣官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午〇時半\n            </time>\n<persName corresp=\"#pers_井上準之助\">\n<surname>\n              井上\n             </surname>\n<forename>\n              準之助\n             </forename>\n</persName>\n            氏ヨリ御案内（銀行集会処）\n            <lb/>\n            ラッセル氏\n            <placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            談\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―午後三時\n            </time>\n<persName corresp=\"#pers_田\">\n<surname>\n              田\n             </surname>\n</persName>\n            逓相ヲ御訪問ノ約（同官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            理化学研究処ノ件（商業会議処）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-05"
 }

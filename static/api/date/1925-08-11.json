@@ -3,13 +3,16 @@
         "岡太",
         "田中栄八郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡太",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田中栄八郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1491",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -19,30 +22,31 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-08",
     "date_lvl2": "1925-08-11",
-    "description": "\n\n 十一日  （火） \n\n\n午前九時半岡太仲氏（アスカ山）\n\n\n午前十時半事ム所ニ御出勤\n\n\n正午　　　　　田中栄八郎氏ト御会見（兜町）\n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （火）\n         \n\n\n\n\n             午前九時半\n            \n\n\n              岡太\n             \n\n            仲氏（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十時半\n            \n            事ム所ニ御出勤\n           \n\n\n\n\n             正午\n            \n\n\n              田中\n             \n\n              栄八郎\n             \n\n            氏ト御会見（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "田中栄八郎"
+        "\n              田中\n             \n              栄八郎\n             "
     ],
-    "label": "十一日  （火）",
+    "label": "十一日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20027m-110",
-    "objectID": "DKB20027m-109",
-    "prev": "DKB20027m-108",
+    "next": "DKB20027m-0110",
+    "objectID": "DKB20027m-0109",
+    "prev": "DKB20027m-0108",
     "sort": "DKB20027m-0109",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山",
         "日本橋兜町"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1925-08-11",
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">午前九時半</time><persName><forename>岡太</forename></persName>仲氏（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九時半\n            </time>\n<persName corresp=\"#pers_岡太\">\n<forename>\n              岡太\n             </forename>\n</persName>\n            仲氏（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-109\">\n<head>\n<date when=\"1925-08-11\"> 十一日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"09:30:00\">午前九時半</time><persName><forename>岡太</forename></persName>仲氏（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:30:00\">午前十時半</time>事ム所ニ御出勤</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　<persName><surname>田中</surname><forename>栄八郎</forename></persName>氏ト御会見（<placeName>兜町</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0109\">\n<head>\n<date when=\"1925-08-11\">\n           十一日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九時半\n            </time>\n<persName corresp=\"#pers_岡太\">\n<forename>\n              岡太\n             </forename>\n</persName>\n            仲氏（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十時半\n            </time>\n            事ム所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_田中栄八郎\">\n<surname>\n              田中\n             </surname>\n<forename>\n              栄八郎\n             </forename>\n</persName>\n            氏ト御会見（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-08"
 }

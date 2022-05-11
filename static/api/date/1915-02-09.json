@@ -13,10 +13,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1176",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20017m 大正四年 1915"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20017m 大正四年 1915"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20017m 大正四年 1915",
     "date": {
         "lvl0": "1915",
@@ -26,19 +26,19 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-02",
     "date_lvl2": "1915-02-09",
-    "description": "\n\n 九日  （火） \n\n\n午前九時成瀬氏来約（王子邸）\n\n\n午前九時岩下清周氏来約（王子邸）\n\n\n午前十一時望月小太郎氏来約（兜町）\n\n\n正午　　　　　中野武営氏来約（兜町）\n\n\n午後二時教育調査会（文部大臣官邸）\n\n\n午後三時国際病院ノ件（総理大臣官舎）\n\n\n",
+    "description": "\n\n\n           九日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n\n\n              成瀬\n             \n\n            氏来約（\n            \n             王子\n            \n            邸）\n           \n\n\n\n\n             午前九時\n            \n\n\n              岩下\n             \n\n              清周\n             \n\n            氏来約（\n            \n             王子\n            \n            邸）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              望月\n             \n\n              小太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n\n              中野\n             \n\n              武営\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            教育調査会（文部大臣官邸）\n           \n\n\n\n\n             午後三時\n            \n            国際病院ノ件（総理大臣官舎）\n           \n\n\n",
     "fullname": [
-        "岩下清周",
-        "望月小太郎",
-        "中野武営"
+        "\n              岩下\n             \n              清周\n             ",
+        "\n              望月\n             \n              小太郎\n             ",
+        "\n              中野\n             \n              武営\n             "
     ],
-    "label": "九日  （火）",
+    "label": "九日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20017m-39",
-    "objectID": "DKB20017m-38",
-    "prev": "DKB20017m-37",
+    "next": "DKB20017m-0039",
+    "objectID": "DKB20017m-0038",
+    "prev": "DKB20017m-0037",
     "sort": "DKB20017m-0038",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "王子",
         "日本橋兜町"
@@ -49,10 +49,10 @@
     ],
     "temporal": "1915-02-09",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>成瀬</surname></persName>氏来約（<placeName>王子</placeName>邸）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_成瀬\">\n<surname>\n              成瀬\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-38\">\n<head>\n<date when=\"1915-02-09\"> 九日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>成瀬</surname></persName>氏来約（<placeName>王子</placeName>邸）</p>\n</event>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>岩下</surname><forename>清周</forename></persName>氏来約（<placeName>王子</placeName>邸）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>望月</surname><forename>小太郎</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　<persName><surname>中野</surname><forename>武営</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>教育調査会（文部大臣官邸）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>国際病院ノ件（総理大臣官舎）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0038\">\n<head>\n<date when=\"1915-02-09\">\n           九日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_成瀬\">\n<surname>\n              成瀬\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_岩下清周\">\n<surname>\n              岩下\n             </surname>\n<forename>\n              清周\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_望月小太郎\">\n<surname>\n              望月\n             </surname>\n<forename>\n              小太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_中野武営\">\n<surname>\n              中野\n             </surname>\n<forename>\n              武営\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            教育調査会（文部大臣官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            国際病院ノ件（総理大臣官舎）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-02"
 }

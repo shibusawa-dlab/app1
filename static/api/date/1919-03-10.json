@@ -3,13 +3,16 @@
         "姉崎",
         "デューヰ"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/姉崎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/デューヰ"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1295",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20021m 大正八年 1919"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20021m 大正八年 1919"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20021m 大正八年 1919",
     "date": {
         "lvl0": "1919",
@@ -19,25 +22,27 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-03",
     "date_lvl2": "1919-03-10",
-    "description": "\n\n 十日  （月） \n\n\n午後二時姉崎博士デューヰ博士招待会（飛鳥山邸）御病気ニ付断\n\n\n",
+    "description": "\n\n\n           十日\n          \n          （月）\n         \n\n\n\n\n             午後二時\n            \n\n\n              姉崎\n             \n\n            博士\n            \n\n              デューヰ\n             \n\n            博士招待会（\n            \n             飛鳥山邸\n            \n            ）\n            \n            御病気ニ付断\n           \n\n\n",
     "fullname": [],
-    "label": "十日  （月）",
+    "label": "十日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20021m-72",
-    "objectID": "DKB20021m-71",
-    "prev": "DKB20021m-70",
+    "next": "DKB20021m-0072",
+    "objectID": "DKB20021m-0071",
+    "prev": "DKB20021m-0070",
     "sort": "DKB20021m-0071",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1919-03-10",
     "time": {
-        "14:00:00": "<div><time when=\"14:00:00\">午後二時</time><persName><surname>姉崎</surname></persName>博士<persName><surname>デューヰ</surname></persName>博士招待会（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）<lb/>御病気ニ付断</div>"
+        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_姉崎\">\n<surname>\n              姉崎\n             </surname>\n</persName>\n            博士\n            <persName corresp=\"#pers_デューヰ\">\n<surname>\n              デューヰ\n             </surname>\n</persName>\n            博士招待会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n            <lb/>\n            御病気ニ付断</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-71\">\n<head>\n<date when=\"1919-03-10\"> 十日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>姉崎</surname></persName>博士<persName><surname>デューヰ</surname></persName>博士招待会（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）<lb/>御病気ニ付断</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0071\">\n<head>\n<date when=\"1919-03-10\">\n           十日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_姉崎\">\n<surname>\n              姉崎\n             </surname>\n</persName>\n            博士\n            <persName corresp=\"#pers_デューヰ\">\n<surname>\n              デューヰ\n             </surname>\n</persName>\n            博士招待会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n            <lb/>\n            御病気ニ付断\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-03"
 }

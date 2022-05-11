@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1176",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20017m 大正四年 1915"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20017m 大正四年 1915"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20017m 大正四年 1915",
     "date": {
         "lvl0": "1915",
@@ -20,17 +20,17 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-02",
     "date_lvl2": "1915-02-03",
-    "description": "\n\n 三日  （水） \n\n\n午前十時新海竹太郎氏来ル約（兜町）\n\n\n午後四時日本橋区評議員会（日本橋クラブ）\n\n\n",
+    "description": "\n\n\n           三日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n\n\n              新海\n             \n\n              竹太郎\n             \n\n            氏来ル約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n             日本橋\n            \n            区評議員会（\n            \n             日本橋\n            \n            クラブ）\n           \n\n\n",
     "fullname": [
-        "新海竹太郎"
+        "\n              新海\n             \n              竹太郎\n             "
     ],
-    "label": "三日  （水）",
+    "label": "三日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20017m-33",
-    "objectID": "DKB20017m-32",
-    "prev": "DKB20017m-31",
+    "next": "DKB20017m-0033",
+    "objectID": "DKB20017m-0032",
+    "prev": "DKB20017m-0031",
     "sort": "DKB20017m-0032",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "日本橋"
@@ -41,10 +41,10 @@
     ],
     "temporal": "1915-02-03",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><persName><surname>新海</surname><forename>竹太郎</forename></persName>氏来ル約（<placeName>兜町</placeName>）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_新海竹太郎\">\n<surname>\n              新海\n             </surname>\n<forename>\n              竹太郎\n             </forename>\n</persName>\n            氏来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-32\">\n<head>\n<date when=\"1915-02-03\"> 三日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>新海</surname><forename>竹太郎</forename></persName>氏来ル約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><placeName>日本橋</placeName>区評議員会（<placeName>日本橋</placeName>クラブ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0032\">\n<head>\n<date when=\"1915-02-03\">\n           三日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_新海竹太郎\">\n<surname>\n              新海\n             </surname>\n<forename>\n              竹太郎\n             </forename>\n</persName>\n            氏来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_日本橋\">\n             日本橋\n            </placeName>\n            区評議員会（\n            <placeName corresp=\"#place_日本橋\">\n             日本橋\n            </placeName>\n            クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-02"
 }

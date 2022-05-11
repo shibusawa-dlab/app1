@@ -5,15 +5,16 @@
         "中村孝也"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/都倉義一",
         "https://shibusawa-dlab.github.io/lab1/api/chname/原泰一",
         "https://shibusawa-dlab.github.io/lab1/api/chname/中村孝也"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1567",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -23,29 +24,31 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-12",
     "date_lvl2": "1927-12-21",
-    "description": "\n\n 廿一日  （水） \n\n\n午前九時都倉義一氏来約（アスカ山）\n\n\n原泰一氏〃（〃〃）\n\n\n中村孝也氏〃（〃〃）\n\n\n午後一時修養団理事会（同会事務所）\n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n\n\n              都倉\n             \n\n              義一\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n\n              原\n             \n\n              泰一\n             \n\n            氏〃（〃〃）\n           \n\n\n\n\n\n              中村\n             \n\n              孝也\n             \n\n            氏〃（〃〃）\n           \n\n\n\n\n             午後一時\n            \n            修養団理事会（同会事務所）\n           \n\n\n",
     "fullname": [
-        "都倉義一",
-        "原泰一",
-        "中村孝也"
+        "\n              都倉\n             \n              義一\n             ",
+        "\n              原\n             \n              泰一\n             ",
+        "\n              中村\n             \n              孝也\n             "
     ],
-    "label": "廿一日  （水）",
+    "label": "廿一日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-331",
-    "objectID": "DKB20029m-330",
-    "prev": "DKB20029m-329",
+    "next": "DKB20029m-0331",
+    "objectID": "DKB20029m-0330",
+    "prev": "DKB20029m-0329",
     "sort": "DKB20029m-0330",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山"
+    ],
     "temporal": "1927-12-21",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>都倉</surname><forename>義一</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_都倉義一\">\n<surname>\n              都倉\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-330\">\n<head>\n<date when=\"1927-12-21\"> 廿一日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>都倉</surname><forename>義一</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><persName><surname>原</surname><forename>泰一</forename></persName>氏〃（〃〃）</p>\n</event>\n<event>\n<p><persName><surname>中村</surname><forename>孝也</forename></persName>氏〃（〃〃）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>修養団理事会（同会事務所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0330\">\n<head>\n<date when=\"1927-12-21\">\n           廿一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_都倉義一\">\n<surname>\n              都倉\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<persName corresp=\"#pers_原泰一\">\n<surname>\n              原\n             </surname>\n<forename>\n              泰一\n             </forename>\n</persName>\n            氏〃（〃〃）\n           </p>\n</event>\n<event>\n<p>\n<persName corresp=\"#pers_中村孝也\">\n<surname>\n              中村\n             </surname>\n<forename>\n              孝也\n             </forename>\n</persName>\n            氏〃（〃〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            修養団理事会（同会事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-12"
 }

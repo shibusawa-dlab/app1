@@ -7,11 +7,11 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/131",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB10008m 明治三十二年  1899"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB10008m 明治三十二年 1899"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-    "category_lvl1": "DKB10008m 明治三十二年  1899",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl1": "DKB10008m 明治三十二年 1899",
     "date": {
         "lvl0": "1899",
         "lvl1": "1899 > 1899-10",
@@ -20,17 +20,17 @@
     "date_lvl0": "1899",
     "date_lvl1": "1899-10",
     "date_lvl2": "1899-10-12",
-    "description": "\n\n 十月十二日 \n\n曇、午前数多ノ来客ニ接ス、十時商業会議所聯合会ニ出席シ昨日ト同シク議長席ニテ議事ヲ整理ス、午後一時ヨリ議長ヲ中野武営氏ニ譲リテ第一銀行ニ於テ重役会ヲ開ク、畢テ兜町宅ニ帰宿ス\n",
+    "description": "\n\n\n        十月十二日\n       \n\n\n       曇、午前数多ノ来客ニ接ス、\n       \n        十時\n       \n       商業会議所聯合会ニ出席シ昨日ト同シク議長席ニテ議事ヲ整理ス、\n       \n        午後一時\n       \n       ヨリ議長ヲ\n       \n\n         中野\n        \n\n         武営\n        \n\n       氏ニ譲リテ\n       \n        第一銀行\n       \n       ニ於テ重役会ヲ開ク、畢テ\n       \n        兜町\n       \n       宅ニ帰宿ス\n      \n",
     "fullname": [
-        "中野武営"
+        "\n         中野\n        \n         武営\n        "
     ],
     "label": "十月十二日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
-    "next": "DKB10008m-287",
-    "objectID": "DKB10008m-286",
-    "prev": "DKB10008m-285",
+    "next": "DKB10008m-0287",
+    "objectID": "DKB10008m-0286",
+    "prev": "DKB10008m-0285",
     "sort": "DKB10008m-0286",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -39,11 +39,11 @@
     ],
     "temporal": "1899-10-12",
     "time": {
-        "10:00:00": "<div>曇、午前数多ノ来客ニ接ス、<time when=\"10:00:00\">十時</time>商業会議所聯合会ニ出席シ昨日ト同シク議長席ニテ議事ヲ整理ス、</div>",
-        "13:00:00": "<div><time when=\"13:00:00\">午後一時</time>ヨリ議長ヲ<persName><surname>中野</surname><forename>武営</forename></persName>氏ニ譲リテ<orgName>第一銀行</orgName>ニ於テ重役会ヲ開ク、畢テ<placeName>兜町</placeName>宅ニ帰宿ス</div>"
+        "10:00:00": "<div>曇、午前数多ノ来客ニ接ス、<time when=\"10:00:00\">\n        十時\n       </time>\n       商業会議所聯合会ニ出席シ昨日ト同シク議長席ニテ議事ヲ整理ス、</div>",
+        "13:00:00": "<div><time when=\"13:00:00\">\n        午後一時\n       </time>\n       ヨリ議長ヲ\n       <persName corresp=\"#pers_中野武営\">\n<surname>\n         中野\n        </surname>\n<forename>\n         武営\n        </forename>\n</persName>\n       氏ニ譲リテ\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ於テ重役会ヲ開ク、畢テ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       宅ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-286\">\n<head>\n<date when=\"1899-10-12\"> 十月十二日 </date>\n</head>\n<p>曇、午前数多ノ来客ニ接ス、<time when=\"10:00:00\">十時</time>商業会議所聯合会ニ出席シ昨日ト同シク議長席ニテ議事ヲ整理ス、<time when=\"13:00:00\">午後一時</time>ヨリ議長ヲ<persName><surname>中野</surname><forename>武営</forename></persName>氏ニ譲リテ<orgName>第一銀行</orgName>ニ於テ重役会ヲ開ク、畢テ<placeName>兜町</placeName>宅ニ帰宿ス</p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-0286\">\n<head>\n<date when=\"1899-10-12\">\n        十月十二日\n       </date>\n</head>\n<p>\n       曇、午前数多ノ来客ニ接ス、\n       <time when=\"10:00:00\">\n        十時\n       </time>\n       商業会議所聯合会ニ出席シ昨日ト同シク議長席ニテ議事ヲ整理ス、\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n       ヨリ議長ヲ\n       <persName corresp=\"#pers_中野武営\">\n<surname>\n         中野\n        </surname>\n<forename>\n         武営\n        </forename>\n</persName>\n       氏ニ譲リテ\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ於テ重役会ヲ開ク、畢テ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       宅ニ帰宿ス\n      </p>\n</div>",
     "year": "1899",
     "yearAndMonth": "1899-10"
 }

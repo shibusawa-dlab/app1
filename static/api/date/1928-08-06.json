@@ -5,14 +5,16 @@
         "石井徹"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/次郎"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/簗田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/次郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/石井徹"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1582",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20030m 昭和三年 1928"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20030m 昭和三年 1928"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20030m 昭和三年 1928",
     "date": {
         "lvl0": "1928",
@@ -22,27 +24,29 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-08",
     "date_lvl2": "1928-08-06",
-    "description": "\n\n 六日  （月） \n\n\n午前九時簗田〓次郎氏ト御会見（飛鳥山邸）\n\n\n午前十一・一五　御出勤\n\n\n午後一半時　　石井徹氏ト御会見（事務所）\n\n\n午後三時国際児童親善会ノ件（事務所）\n\n\n",
+    "description": "\n\n\n           六日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n\n\n              簗田\n             \n\n            〓\n            \n\n              次郎\n             \n\n            氏ト御会見（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一・一五\n            \n            御出勤\n           \n\n\n\n\n             午後一半時\n            \n\n\n              石井\n             \n\n              徹\n             \n\n            氏ト御会見（事務所）\n           \n\n\n\n\n             午後三時\n            \n            国際児童親善会ノ件（事務所）\n           \n\n\n",
     "fullname": [
-        "石井徹"
+        "\n              石井\n             \n              徹\n             "
     ],
-    "label": "六日  （月）",
+    "label": "六日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20030m-167",
-    "objectID": "DKB20030m-166",
-    "prev": "DKB20030m-165",
+    "next": "DKB20030m-0167",
+    "objectID": "DKB20030m-0166",
+    "prev": "DKB20030m-0165",
     "sort": "DKB20030m-0166",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1928-08-06",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>簗田</surname></persName>〓<persName><forename>次郎</forename></persName>氏ト御会見（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_簗田\">\n<surname>\n              簗田\n             </surname>\n</persName>\n            〓\n            <persName corresp=\"#pers_次郎\">\n<forename>\n              次郎\n             </forename>\n</persName>\n            氏ト御会見（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-166\">\n<head>\n<date when=\"1928-08-06\"> 六日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>簗田</surname></persName>〓<persName><forename>次郎</forename></persName>氏ト御会見（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:15:00\">午前十一・一五</time>　御出勤</p>\n</event>\n<event>\n<p><time when=\"13:30:00\">午後一半時</time>　　<persName><surname>石井</surname><forename>徹</forename></persName>氏ト御会見（事務所）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>国際児童親善会ノ件（事務所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0166\">\n<head>\n<date when=\"1928-08-06\">\n           六日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_簗田\">\n<surname>\n              簗田\n             </surname>\n</persName>\n            〓\n            <persName corresp=\"#pers_次郎\">\n<forename>\n              次郎\n             </forename>\n</persName>\n            氏ト御会見（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:15:00\">\n             午前十一・一五\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n<persName corresp=\"#pers_石井徹\">\n<surname>\n              石井\n             </surname>\n<forename>\n              徹\n             </forename>\n</persName>\n            氏ト御会見（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            国際児童親善会ノ件（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-08"
 }

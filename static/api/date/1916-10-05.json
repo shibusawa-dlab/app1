@@ -3,10 +3,10 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1217",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -16,21 +16,23 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-10",
     "date_lvl2": "1916-10-05",
-    "description": "\n\n 廿五日  （水） \n\n\n御風邪ニテ御引籠リ\n\n\n",
+    "description": "\n\n\n           五日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n            理化学研究所ノ件（首相官邸）\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午後三時\n            \n            東洋製鉄ノ件（商業会議処）\n           \n\n\n",
     "fullname": [],
-    "label": "廿五日  （水）",
+    "label": "五日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-281",
-    "objectID": "DKB20018m-280",
-    "prev": "DKB20018m-279",
-    "sort": "DKB20018m-0280",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "next": "DKB20018m-0261",
+    "objectID": "DKB20018m-0260",
+    "prev": "DKB20018m-0259",
+    "sort": "DKB20018m-0260",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [],
     "spatial_uri": [],
     "temporal": "1916-10-05",
-    "time": {},
+    "time": {
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            理化学研究所ノ件（首相官邸）</div>"
+    },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-280\">\n<head>\n<date when=\"1916-10-05\"> 廿五日 </date> （水） </head>\n<listEvent>\n<event>\n<p>御風邪ニテ御引籠リ</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0260\">\n<head>\n<date when=\"1916-10-05\">\n           五日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            理化学研究所ノ件（首相官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            東洋製鉄ノ件（商業会議処）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-10"
 }

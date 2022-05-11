@@ -4,13 +4,17 @@
         "白柳武司",
         "白柳恒夫"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐々木政助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/白柳武司",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/白柳恒夫"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1616",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20032m 昭和五年 1930"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20032m 昭和五年 1930"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20032m 昭和五年 1930",
     "date": {
         "lvl0": "1930",
@@ -20,29 +24,31 @@
     "date_lvl0": "1930",
     "date_lvl1": "1930-08",
     "date_lvl2": "1930-08-31",
-    "description": "\n\n 卅一日  （日） \n\n\n午前八時佐々木政助氏来約（飛鳥山邸）\n\n\n午前九時白柳武司、白柳恒夫両氏来約（飛鳥山邸）\n\n\n",
+    "description": "\n\n\n           卅一日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n\n\n              佐々木\n             \n\n              政助\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              白柳\n             \n\n              武司\n             \n\n            、\n            \n\n              白柳\n             \n\n              恒夫\n             \n\n            両氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "佐々木政助",
-        "白柳武司",
-        "白柳恒夫"
+        "\n              佐々木\n             \n              政助\n             ",
+        "\n              白柳\n             \n              武司\n             ",
+        "\n              白柳\n             \n              恒夫\n             "
     ],
-    "label": "卅一日  （日）",
+    "label": "卅一日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20032m-134",
-    "objectID": "DKB20032m-133",
-    "prev": "DKB20032m-132",
+    "next": "DKB20032m-0134",
+    "objectID": "DKB20032m-0133",
+    "prev": "DKB20032m-0132",
     "sort": "DKB20032m-0133",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1930-08-31",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>佐々木</surname><forename>政助</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_佐々木政助\">\n<surname>\n              佐々木\n             </surname>\n<forename>\n              政助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20032m-133\">\n<head>\n<date when=\"1930-08-31\"> 卅一日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>佐々木</surname><forename>政助</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>白柳</surname><forename>武司</forename></persName>、<persName><surname>白柳</surname><forename>恒夫</forename></persName>両氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0133\">\n<head>\n<date when=\"1930-08-31\">\n           卅一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_佐々木政助\">\n<surname>\n              佐々木\n             </surname>\n<forename>\n              政助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_白柳武司\">\n<surname>\n              白柳\n             </surname>\n<forename>\n              武司\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_白柳恒夫\">\n<surname>\n              白柳\n             </surname>\n<forename>\n              恒夫\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1930",
     "yearAndMonth": "1930-08"
 }

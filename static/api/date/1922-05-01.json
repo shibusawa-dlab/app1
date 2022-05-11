@@ -6,14 +6,15 @@
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/徳川慶久",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大塚栄吉",
         "https://shibusawa-dlab.github.io/lab1/api/chname/永井"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1390",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -23,18 +24,18 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-05",
     "date_lvl2": "1922-05-01",
-    "description": "\n\n 一日  （月） \n\n\n午前十時故徳川慶久公百ケ日祭（同公邸）\n\n\n正午　　　　　日華学会理事会（同会）\n\n\n午後三半時　　大塚栄吉氏来約（兜町）\n\n\n午後四半時　　協調会主催、永井氏講演会（日本クラブ）\n\n\n",
+    "description": "\n\n\n           一日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n            故\n            \n\n              徳川\n             \n\n              慶久\n             \n\n            公百ケ日祭（同公邸）\n           \n\n\n\n\n             正午\n            \n            日華学会理事会（同会）\n           \n\n\n\n\n             午後三半時\n            \n\n\n              大塚\n             \n\n              栄吉\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四半時\n            \n            協調会主催、\n            \n\n              永井\n             \n\n            氏講演会（日本クラブ）\n           \n\n\n",
     "fullname": [
-        "徳川慶久",
-        "大塚栄吉"
+        "\n              徳川\n             \n              慶久\n             ",
+        "\n              大塚\n             \n              栄吉\n             "
     ],
-    "label": "一日  （月）",
+    "label": "一日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-96",
-    "objectID": "DKB20024m-95",
-    "prev": "DKB20024m-93",
+    "next": "DKB20024m-0096",
+    "objectID": "DKB20024m-0095",
+    "prev": "DKB20024m-0093",
     "sort": "DKB20024m-0095",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -43,10 +44,10 @@
     ],
     "temporal": "1922-05-01",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time>故<persName><surname>徳川</surname><forename>慶久</forename></persName>公百ケ日祭（同公邸）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            故\n            <persName corresp=\"#pers_徳川慶久\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶久\n             </forename>\n</persName>\n            公百ケ日祭（同公邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-95\">\n<head>\n<date when=\"1922-05-01\"> 一日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>故<persName><surname>徳川</surname><forename>慶久</forename></persName>公百ケ日祭（同公邸）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　日華学会理事会（同会）</p>\n</event>\n<event>\n<p><time when=\"15:30:00\">午後三半時</time>　　<persName><surname>大塚</surname><forename>栄吉</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:30:00\">午後四半時</time>　　協調会主催、<persName><surname>永井</surname></persName>氏講演会（日本クラブ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0095\">\n<head>\n<date when=\"1922-05-01\">\n           一日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            故\n            <persName corresp=\"#pers_徳川慶久\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶久\n             </forename>\n</persName>\n            公百ケ日祭（同公邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華学会理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n<persName corresp=\"#pers_大塚栄吉\">\n<surname>\n              大塚\n             </surname>\n<forename>\n              栄吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            協調会主催、\n            <persName corresp=\"#pers_永井\">\n<surname>\n              永井\n             </surname>\n</persName>\n            氏講演会（日本クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-05"
 }

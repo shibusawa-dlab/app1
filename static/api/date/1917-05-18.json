@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1237",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -22,23 +22,23 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-05",
     "date_lvl2": "1917-05-18",
-    "description": "\n\n 十八日  （金） \n\n\n午前九時三十一分松本発\n\n\n午前十一時三十一分上諏訪着一泊\n\n\n",
+    "description": "\n\n\n           十八日\n          \n          （金）\n         \n\n\n\n\n             午前九時三十一分\n            \n\n\n              松本\n             \n\n            発\n           \n\n\n\n\n             午前十一時三十一分\n            \n            上\n            \n\n              諏訪\n             \n\n            着一泊\n           \n\n\n",
     "fullname": [],
-    "label": "十八日  （金）",
+    "label": "十八日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-138",
-    "objectID": "DKB20019m-137",
-    "prev": "DKB20019m-136",
+    "next": "DKB20019m-0138",
+    "objectID": "DKB20019m-0137",
+    "prev": "DKB20019m-0136",
     "sort": "DKB20019m-0137",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [],
     "spatial_uri": [],
     "temporal": "1917-05-18",
     "time": {
-        "09:31:00": "<div><time when=\"09:31:00\">午前九時三十一分</time><persName><surname>松本</surname></persName>発</div>"
+        "09:31:00": "<div><time when=\"09:31:00\">\n             午前九時三十一分\n            </time>\n<persName corresp=\"#pers_松本\">\n<surname>\n              松本\n             </surname>\n</persName>\n            発</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-137\">\n<head>\n<date when=\"1917-05-18\"> 十八日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"09:31:00\">午前九時三十一分</time><persName><surname>松本</surname></persName>発</p>\n</event>\n<event>\n<p><time when=\"11:31:00\">午前十一時三十一分</time>上<persName><surname>諏訪</surname></persName>着一泊</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0137\">\n<head>\n<date when=\"1917-05-18\">\n           十八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:31:00\">\n             午前九時三十一分\n            </time>\n<persName corresp=\"#pers_松本\">\n<surname>\n              松本\n             </surname>\n</persName>\n            発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:31:00\">\n             午前十一時三十一分\n            </time>\n            上\n            <persName corresp=\"#pers_諏訪\">\n<surname>\n              諏訪\n             </surname>\n</persName>\n            着一泊\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-05"
 }

@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1291",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20021m 大正八年 1919"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20021m 大正八年 1919"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20021m 大正八年 1919",
     "date": {
         "lvl0": "1919",
@@ -20,15 +20,15 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-02",
     "date_lvl2": "1919-02-02",
-    "description": "\n\n 二日  （日） \n\n\n午前九時国井泉氏来約（飛鳥山邸）\n\n\n午前十一時綱町邸ヘ御出向\n\n\n午後一時聖徳太子奉賛会講演会（飯倉町徳川侯邸）\n\n\n午後三時首相ヲ官邸ニ御訪問\n\n\n午後六時埼玉学生誘掖会新年茶話会（同会）\n\n\n",
+    "description": "\n\n\n           二日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n            国井泉氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n             綱町\n            \n            邸ヘ御出向\n           \n\n\n\n\n             午後一時\n            \n            聖徳太子奉賛会講演会（\n            \n             飯倉\n            \n            町\n            \n\n              徳川\n             \n\n            侯邸）\n           \n\n\n\n\n             午後三時\n            \n            首相ヲ官邸ニ御訪問\n           \n\n\n\n\n             午後六時\n            \n\n             埼玉\n            \n            学生誘掖会新年茶話会（同会）\n           \n\n\n",
     "fullname": [],
-    "label": "二日  （日）",
+    "label": "二日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20021m-35",
-    "objectID": "DKB20021m-34",
-    "prev": "DKB20021m-33",
+    "next": "DKB20021m-0035",
+    "objectID": "DKB20021m-0034",
+    "prev": "DKB20021m-0033",
     "sort": "DKB20021m-0034",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "綱町",
@@ -36,15 +36,17 @@
         "埼玉"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/綱町",
         "https://shibusawa-dlab.github.io/lab1/api/place/飯倉",
         "https://shibusawa-dlab.github.io/lab1/api/place/埼玉"
     ],
     "temporal": "1919-02-02",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time>国井泉氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            国井泉氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-34\">\n<head>\n<date when=\"1919-02-02\"> 二日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time>国井泉氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><placeName>綱町</placeName>邸ヘ御出向</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>聖徳太子奉賛会講演会（<placeName>飯倉</placeName>町<persName><surname>徳川</surname></persName>侯邸）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>首相ヲ官邸ニ御訪問</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time><placeName>埼玉</placeName>学生誘掖会新年茶話会（同会）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0034\">\n<head>\n<date when=\"1919-02-02\">\n           二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            国井泉氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            邸ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            聖徳太子奉賛会講演会（\n            <placeName corresp=\"#place_飯倉\">\n             飯倉\n            </placeName>\n            町\n            <persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            侯邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            首相ヲ官邸ニ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会新年茶話会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-02"
 }

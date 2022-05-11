@@ -2,13 +2,15 @@
     "agential": [
         "穂積晴子"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/穂積晴子"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1217",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -18,17 +20,17 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-10",
     "date_lvl2": "1916-10-15",
-    "description": "\n\n 十五日  （日） \n\n\n午後一半時　　穂積晴子殿御結婚式（日比谷神宮奉斎会）令夫人共\n\n\n午後五時右披露会（築地精養軒）令夫人共\n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （日）\n         \n\n\n\n\n             午後一半時\n            \n\n\n              穂積\n             \n\n              晴子\n             \n\n            殿御結婚式（\n            \n             日比谷\n            \n            神宮奉斎会）\n            \n            令夫人共\n           \n\n\n\n\n             午後五時\n            \n            右披露会（築地精養軒）\n            \n            令夫人共\n           \n\n\n",
     "fullname": [
-        "穂積晴子"
+        "\n              穂積\n             \n              晴子\n             "
     ],
-    "label": "十五日  （日）",
+    "label": "十五日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-271",
-    "objectID": "DKB20018m-270",
-    "prev": "DKB20018m-269",
+    "next": "DKB20018m-0271",
+    "objectID": "DKB20018m-0270",
+    "prev": "DKB20018m-0269",
     "sort": "DKB20018m-0270",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日比谷"
     ],
@@ -37,10 +39,10 @@
     ],
     "temporal": "1916-10-15",
     "time": {
-        "13:30:00": "<div><time when=\"13:30:00\">午後一半時</time>　　<persName><surname>穂積</surname><forename>晴子</forename></persName>殿御結婚式（<placeName>日比谷</placeName>神宮奉斎会）<lb/>令夫人共</div>"
+        "13:30:00": "<div><time when=\"13:30:00\">\n             午後一半時\n            </time>\n<persName corresp=\"#pers_穂積晴子\">\n<surname>\n              穂積\n             </surname>\n<forename>\n              晴子\n             </forename>\n</persName>\n            殿御結婚式（\n            <placeName corresp=\"#place_日比谷\">\n             日比谷\n            </placeName>\n            神宮奉斎会）\n            <lb/>\n            令夫人共</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-270\">\n<head>\n<date when=\"1916-10-15\"> 十五日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"13:30:00\">午後一半時</time>　　<persName><surname>穂積</surname><forename>晴子</forename></persName>殿御結婚式（<placeName>日比谷</placeName>神宮奉斎会）<lb/>令夫人共</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>右披露会（築地精養軒）<lb/>令夫人共</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0270\">\n<head>\n<date when=\"1916-10-15\">\n           十五日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n<persName corresp=\"#pers_穂積晴子\">\n<surname>\n              穂積\n             </surname>\n<forename>\n              晴子\n             </forename>\n</persName>\n            殿御結婚式（\n            <placeName corresp=\"#place_日比谷\">\n             日比谷\n            </placeName>\n            神宮奉斎会）\n            <lb/>\n            令夫人共\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            右披露会（築地精養軒）\n            <lb/>\n            令夫人共\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-10"
 }

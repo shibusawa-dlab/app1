@@ -3,10 +3,10 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1441",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -16,28 +16,29 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-10",
     "date_lvl2": "1923-10-14",
-    "description": "\n\n 十四日  （日） \n\n\n午后一時社会事業協会善後会（内ム省社会局）\n\n\n午後四時罹災社会事業団体復興策協議会（麴町元衛町社会局）\n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （日）\n         \n\n\n\n\n             午后一時\n            \n            社会事業協会善後会（内ム省社会局）\n           \n\n\n\n\n             午後四時\n            \n            罹災社会事業団体復興策協議会（\n            \n             麴町\n            \n\n             元衛町\n            \n            社会局）\n           \n\n\n",
     "fullname": [],
-    "label": "十四日  （日）",
+    "label": "十四日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20025m-264",
-    "objectID": "DKB20025m-262",
-    "prev": "DKB20025m-261",
+    "next": "DKB20025m-0264",
+    "objectID": "DKB20025m-0262",
+    "prev": "DKB20025m-0261",
     "sort": "DKB20025m-0262",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "麹町",
         "元衛町"
     ],
     "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/麹町"
+        "https://shibusawa-dlab.github.io/lab1/api/place/麹町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/元衛町"
     ],
     "temporal": "1923-10-14",
     "time": {
-        "13:00:00": "<div><time when=\"13:00:00\">午后一時</time>社会事業協会善後会（内ム省社会局）</div>"
+        "13:00:00": "<div><time when=\"13:00:00\">\n             午后一時\n            </time>\n            社会事業協会善後会（内ム省社会局）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-262\">\n<head>\n<date when=\"1923-10-14\"> 十四日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"13:00:00\">午后一時</time>社会事業協会善後会（内ム省社会局）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>罹災社会事業団体復興策協議会（<placeName>麴町</placeName><placeName>元衛町</placeName>社会局）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0262\">\n<head>\n<date when=\"1923-10-14\">\n           十四日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n            社会事業協会善後会（内ム省社会局）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            罹災社会事業団体復興策協議会（\n            <placeName corresp=\"#place_麹町\">\n             麴町\n            </placeName>\n<placeName corresp=\"#place_元衛町\">\n             元衛町\n            </placeName>\n            社会局）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-10"
 }

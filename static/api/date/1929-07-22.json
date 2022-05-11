@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1598",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20031m 昭和四年 1929"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20031m 昭和四年 1929"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20031m 昭和四年 1929",
     "date": {
         "lvl0": "1929",
@@ -20,27 +20,29 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-07",
     "date_lvl2": "1929-07-22",
-    "description": "\n\n 廿二日  （月） \n\n\n午前八半時　　諸井恒平氏来約（飛鳥山邸）\n\n\n午後三・五〇　御出勤\n\n\n午後四時御同族会社重役会（事務所）\n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （月）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              諸井\n             \n\n              恒平\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後三・五〇\n            \n            御出勤\n           \n\n\n\n\n             午後四時\n            \n            御同族会社重役会（事務所）\n           \n\n\n",
     "fullname": [
-        "諸井恒平"
+        "\n              諸井\n             \n              恒平\n             "
     ],
-    "label": "廿二日  （月）",
+    "label": "廿二日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20031m-127",
-    "objectID": "DKB20031m-126",
-    "prev": "DKB20031m-125",
+    "next": "DKB20031m-0127",
+    "objectID": "DKB20031m-0126",
+    "prev": "DKB20031m-0125",
     "sort": "DKB20031m-0126",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1929-07-22",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>諸井</surname><forename>恒平</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_諸井恒平\">\n<surname>\n              諸井\n             </surname>\n<forename>\n              恒平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-126\">\n<head>\n<date when=\"1929-07-22\"> 廿二日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>諸井</surname><forename>恒平</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:50:00\">午後三・五〇</time>　御出勤</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>御同族会社重役会（事務所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0126\">\n<head>\n<date when=\"1929-07-22\">\n           廿二日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_諸井恒平\">\n<surname>\n              諸井\n             </surname>\n<forename>\n              恒平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:50:00\">\n             午後三・五〇\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            御同族会社重役会（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-07"
 }

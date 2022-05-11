@@ -9,11 +9,11 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1518",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-07",
@@ -22,35 +22,36 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-07",
     "date_lvl2": "1926-07-10",
-    "description": "\n\n 十日  （土） \n\n\n午前八半時　　原泰一氏来約（アスカ山）\n\n\n午後三時三井八郎右衛門男ヨリ御案内（麻布今井町同邸）\n\n\n午後四・一〇　事務所ニ御出勤\n\n\n午後六時日仏会館催エリオ夫人招待晩餐会（芝紅葉館）\n\n\n",
+    "description": "\n\n\n           十日\n          \n          （土）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              原\n             \n\n              泰一\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              三井\n             \n\n              八郎右衛門\n             \n\n            男ヨリ御案内（\n            \n             麻布\n            \n\n             今井\n            \n            町同邸）\n           \n\n\n\n\n             午後四・一〇\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午後六時\n            \n            日仏会館催エリオ夫人招待晩餐会（\n            \n             芝\n            \n            紅葉館）\n           \n\n\n",
     "fullname": [
-        "原泰一",
-        "三井八郎右衛門"
+        "\n              原\n             \n              泰一\n             ",
+        "\n              三井\n             \n              八郎右衛門\n             "
     ],
-    "label": "十日  （土）",
+    "label": "十日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-192",
-    "objectID": "DKB20028m-191",
-    "prev": "DKB20028m-190",
+    "next": "DKB20028m-0192",
+    "objectID": "DKB20028m-0191",
+    "prev": "DKB20028m-0190",
     "sort": "DKB20028m-0191",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山",
         "麻布",
-        "イマイ",
+        "今井",
         "芝"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
         "https://shibusawa-dlab.github.io/lab1/api/place/麻布",
-        "https://shibusawa-dlab.github.io/lab1/api/place/イマイ",
+        "https://shibusawa-dlab.github.io/lab1/api/place/今井",
         "https://shibusawa-dlab.github.io/lab1/api/place/芝"
     ],
     "temporal": "1926-07-10",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>原</surname><forename>泰一</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_原泰一\">\n<surname>\n              原\n             </surname>\n<forename>\n              泰一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-191\">\n<head>\n<date when=\"1926-07-10\"> 十日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>原</surname><forename>泰一</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>三井</surname><forename>八郎右衛門</forename></persName>男ヨリ御案内（<placeName>麻布</placeName><placeName>今井</placeName>町同邸）</p>\n</event>\n<event>\n<p><time when=\"16:10:00\">午後四・一〇</time>　事務所ニ御出勤</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time>日仏会館催エリオ夫人招待晩餐会（<placeName>芝</placeName>紅葉館）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0191\">\n<head>\n<date when=\"1926-07-10\">\n           十日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_原泰一\">\n<surname>\n              原\n             </surname>\n<forename>\n              泰一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_三井八郎右衛門\">\n<surname>\n              三井\n             </surname>\n<forename>\n              八郎右衛門\n             </forename>\n</persName>\n            男ヨリ御案内（\n            <placeName corresp=\"#place_麻布\">\n             麻布\n            </placeName>\n<placeName corresp=\"#place_今井\">\n             今井\n            </placeName>\n            町同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:10:00\">\n             午後四・一〇\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            日仏会館催エリオ夫人招待晩餐会（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n            紅葉館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-07"
 }

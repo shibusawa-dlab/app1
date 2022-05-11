@@ -4,14 +4,15 @@
         "浅野良三"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/林"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/林",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野良三"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1499",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -21,27 +22,29 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-12",
     "date_lvl2": "1925-12-25",
-    "description": "\n\n 廿五日  （金） \n\n\n午前十時林医師来診（アスカ山邸）\n\n\n正午　　　　　浅野良三氏ト御会見（銀行クラブ）\n\n\n午後三時事務所ニ御出勤\n\n\n午后五時御同族会（カブト町事務所）\n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n\n\n              林\n             \n\n            医師来診（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n\n              浅野\n             \n\n              良三\n             \n\n            氏ト御会見（銀行クラブ）\n           \n\n\n\n\n             午後三時\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午后五時\n            \n            御同族会（カブト町事務所）\n           \n\n\n",
     "fullname": [
-        "浅野良三"
+        "\n              浅野\n             \n              良三\n             "
     ],
-    "label": "廿五日  （金）",
+    "label": "廿五日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20027m-243",
-    "objectID": "DKB20027m-242",
-    "prev": "DKB20027m-241",
+    "next": "DKB20027m-0243",
+    "objectID": "DKB20027m-0242",
+    "prev": "DKB20027m-0241",
     "sort": "DKB20027m-0242",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
-        "アスカ山"
+        "アスカ山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山邸"
+    ],
     "temporal": "1925-12-25",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><persName><surname>林</surname></persName>医師来診（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>邸）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_林\">\n<surname>\n              林\n             </surname>\n</persName>\n            医師来診（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-242\">\n<head>\n<date when=\"1925-12-25\"> 廿五日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>林</surname></persName>医師来診（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>邸）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　<persName><surname>浅野</surname><forename>良三</forename></persName>氏ト御会見（銀行クラブ）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>事務所ニ御出勤</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午后五時</time>御同族会（カブト町事務所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0242\">\n<head>\n<date when=\"1925-12-25\">\n           廿五日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_林\">\n<surname>\n              林\n             </surname>\n</persName>\n            医師来診（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_浅野良三\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              良三\n             </forename>\n</persName>\n            氏ト御会見（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午后五時\n            </time>\n            御同族会（カブト町事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-12"
 }

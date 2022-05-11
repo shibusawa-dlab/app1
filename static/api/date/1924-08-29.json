@@ -3,10 +3,10 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1474",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -16,26 +16,27 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-08",
     "date_lvl2": "1924-08-29",
-    "description": "\n\n 廿九日  （金） \n\n\n引続き御引籠り\n\n\n午後一・二〇　奥様伊香保ヨリ御引揚ゲ御帰京（王子駅着）\n\n\n",
+    "description": "\n\n\n           廿九日\n          \n          （金）\n         \n\n\n\n            引続き御引籠り\n           \n\n\n\n\n             午後一・二〇\n            \n            奥様\n            \n             伊香保\n            \n            ヨリ御引揚ゲ御帰京（\n            \n             王子\n            \n            駅着）\n           \n\n\n",
     "fullname": [],
-    "label": "廿九日  （金）",
+    "label": "廿九日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-236",
-    "objectID": "DKB20026m-235",
-    "prev": "DKB20026m-234",
+    "next": "DKB20026m-0236",
+    "objectID": "DKB20026m-0235",
+    "prev": "DKB20026m-0234",
     "sort": "DKB20026m-0235",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "伊香保",
         "王子"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/伊香保",
         "https://shibusawa-dlab.github.io/lab1/api/place/王子"
     ],
     "temporal": "1924-08-29",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-235\">\n<head>\n<date when=\"1924-08-29\"> 廿九日 </date> （金） </head>\n<listEvent>\n<event>\n<p>引続き御引籠り</p>\n</event>\n<event>\n<p><time when=\"13:20:00\">午後一・二〇</time>　奥様<placeName>伊香保</placeName>ヨリ御引揚ゲ御帰京（<placeName>王子</placeName>駅着）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0235\">\n<head>\n<date when=\"1924-08-29\">\n           廿九日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n            引続き御引籠り\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:20:00\">\n             午後一・二〇\n            </time>\n            奥様\n            <placeName corresp=\"#place_伊香保\">\n             伊香保\n            </placeName>\n            ヨリ御引揚ゲ御帰京（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅着）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-08"
 }

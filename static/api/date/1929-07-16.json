@@ -2,13 +2,15 @@
     "agential": [
         "佐藤定吉"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐藤定吉"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1598",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20031m 昭和四年 1929"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20031m 昭和四年 1929"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20031m 昭和四年 1929",
     "date": {
         "lvl0": "1929",
@@ -18,17 +20,17 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-07",
     "date_lvl2": "1929-07-16",
-    "description": "\n\n 十六日  （火） \n\n\n午前八半―九時工学博士佐藤定吉氏来約（飛鳥山）\n\n\n午後二時事務所ニ御出勤\n\n\n",
+    "description": "\n\n\n           十六日\n          \n          （火）\n         \n\n\n\n\n             午前八半―九時\n            \n            工学博士\n            \n\n              佐藤\n             \n\n              定吉\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            事務所ニ御出勤\n           \n\n\n",
     "fullname": [
-        "佐藤定吉"
+        "\n              佐藤\n             \n              定吉\n             "
     ],
-    "label": "十六日  （火）",
+    "label": "十六日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20031m-121",
-    "objectID": "DKB20031m-120",
-    "prev": "DKB20031m-119",
+    "next": "DKB20031m-0121",
+    "objectID": "DKB20031m-0120",
+    "prev": "DKB20031m-0119",
     "sort": "DKB20031m-0120",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園"
     ],
@@ -38,7 +40,7 @@
     "temporal": "1929-07-16",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-120\">\n<head>\n<date when=\"1929-07-16\"> 十六日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time from=\"08:30:00\" to=\"09:00:00\">午前八半―九時</time>工学博士<persName><surname>佐藤</surname><forename>定吉</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>事務所ニ御出勤</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0120\">\n<head>\n<date when=\"1929-07-16\">\n           十六日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"08:30:00\" to=\"09:00:00\">\n             午前八半―九時\n            </time>\n            工学博士\n            <persName corresp=\"#pers_佐藤定吉\">\n<surname>\n              佐藤\n             </surname>\n<forename>\n              定吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-07"
 }

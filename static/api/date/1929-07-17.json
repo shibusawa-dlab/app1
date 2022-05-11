@@ -2,13 +2,15 @@
     "agential": [
         "小畑久五郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小畑久五郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1598",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20031m 昭和四年 1929"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20031m 昭和四年 1929"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20031m 昭和四年 1929",
     "date": {
         "lvl0": "1929",
@@ -18,17 +20,17 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-07",
     "date_lvl2": "1929-07-17",
-    "description": "\n\n 十七日  （水） \n\n\n午前八半時　　川村女学院生徒及職員其他来約（飛鳥山）\n\n\n午前九時米人マツツソン、小畑久五郎二氏来約（飛鳥山）\n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （水）\n         \n\n\n\n\n             午前八半時\n            \n\n             川村\n            \n            女学院生徒及職員其他来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n            米人マツツソン、\n            \n\n              小畑\n             \n\n              久五郎\n             \n\n            二氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "小畑久五郎"
+        "\n              小畑\n             \n              久五郎\n             "
     ],
-    "label": "十七日  （水）",
+    "label": "十七日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20031m-122",
-    "objectID": "DKB20031m-121",
-    "prev": "DKB20031m-120",
+    "next": "DKB20031m-0122",
+    "objectID": "DKB20031m-0121",
+    "prev": "DKB20031m-0120",
     "sort": "DKB20031m-0121",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "川村",
         "飛鳥山公園"
@@ -39,10 +41,10 @@
     ],
     "temporal": "1929-07-17",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八半時</time>　　<placeName>川村</placeName>女学院生徒及職員其他来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<placeName corresp=\"#place_川村\">\n             川村\n            </placeName>\n            女学院生徒及職員其他来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-121\">\n<head>\n<date when=\"1929-07-17\"> 十七日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　<placeName>川村</placeName>女学院生徒及職員其他来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"09:00:00\">午前九時</time>米人マツツソン、<persName><surname>小畑</surname><forename>久五郎</forename></persName>二氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0121\">\n<head>\n<date when=\"1929-07-17\">\n           十七日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<placeName corresp=\"#place_川村\">\n             川村\n            </placeName>\n            女学院生徒及職員其他来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            米人マツツソン、\n            <persName corresp=\"#pers_小畑久五郎\">\n<surname>\n              小畑\n             </surname>\n<forename>\n              久五郎\n             </forename>\n</persName>\n            二氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-07"
 }

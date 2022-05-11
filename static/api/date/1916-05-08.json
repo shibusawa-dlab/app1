@@ -5,15 +5,16 @@
         "北川"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/跡見",
         "https://shibusawa-dlab.github.io/lab1/api/chname/田中",
         "https://shibusawa-dlab.github.io/lab1/api/chname/北川"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1203",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -23,15 +24,15 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-05",
     "date_lvl2": "1916-05-08",
-    "description": "\n\n 八日  （月） \n\n\n午前九時花渓先生喜寿祝賀式（跡見女学校）\n\n\n午後三―午後四時田中外務参事官来約（兜町）\n\n\n午後六時北川栃木県知事ヨリ御案内（上野精養軒）\n\n\n",
+    "description": "\n\n\n           八日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n\n             花渓\n            \n            先生喜寿祝賀式（\n            \n\n              跡見\n             \n\n            女学校）\n           \n\n\n\n\n             午後三―午後四時\n            \n\n\n              田中\n             \n\n            外務参事官来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n\n\n              北川\n             \n\n\n             栃木\n            \n            県知事ヨリ御案内（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n",
     "fullname": [],
-    "label": "八日  （月）",
+    "label": "八日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-111",
-    "objectID": "DKB20018m-110",
-    "prev": "DKB20018m-109",
+    "next": "DKB20018m-0111",
+    "objectID": "DKB20018m-0110",
+    "prev": "DKB20018m-0109",
     "sort": "DKB20018m-0110",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "花渓",
         "日本橋兜町",
@@ -46,10 +47,10 @@
     ],
     "temporal": "1916-05-08",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><placeName>花渓</placeName>先生喜寿祝賀式（<persName><surname>跡見</surname></persName>女学校）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_花渓\">\n             花渓\n            </placeName>\n            先生喜寿祝賀式（\n            <persName corresp=\"#pers_跡見\">\n<surname>\n              跡見\n             </surname>\n</persName>\n            女学校）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-110\">\n<head>\n<date when=\"1916-05-08\"> 八日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><placeName>花渓</placeName>先生喜寿祝賀式（<persName><surname>跡見</surname></persName>女学校）</p>\n</event>\n<event>\n<p><time from=\"15:00:00\" to=\"16:00:00\">午後三―午後四時</time><persName><surname>田中</surname></persName>外務参事官来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time><persName><surname>北川</surname></persName><placeName>栃木</placeName>県知事ヨリ御案内（<placeName>上野精養軒</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0110\">\n<head>\n<date when=\"1916-05-08\">\n           八日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_花渓\">\n             花渓\n            </placeName>\n            先生喜寿祝賀式（\n            <persName corresp=\"#pers_跡見\">\n<surname>\n              跡見\n             </surname>\n</persName>\n            女学校）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―午後四時\n            </time>\n<persName corresp=\"#pers_田中\">\n<surname>\n              田中\n             </surname>\n</persName>\n            外務参事官来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_北川\">\n<surname>\n              北川\n             </surname>\n</persName>\n<placeName corresp=\"#place_栃木\">\n             栃木\n            </placeName>\n            県知事ヨリ御案内（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-05"
 }

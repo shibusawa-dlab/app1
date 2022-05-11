@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1486",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -20,25 +20,27 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-02",
     "date_lvl2": "1925-02-03",
-    "description": "\n\n 三日  （火） \n\n\n御不快ニテ御引籠リ\n\n\n午前一〇半―一一時穂積重遠博士ト御会見（飛鳥山邸）\n\n\n",
+    "description": "\n\n\n           三日\n          \n          （火）\n         \n\n\n\n            御不快ニテ御引籠リ\n           \n\n\n\n\n             午前一〇半―一一時\n            \n\n\n              穂積\n             \n\n              重遠\n             \n\n            博士ト御会見（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "穂積重遠"
+        "\n              穂積\n             \n              重遠\n             "
     ],
-    "label": "三日  （火）",
+    "label": "三日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20027m-20",
-    "objectID": "DKB20027m-19",
-    "prev": "DKB20027m-18",
+    "next": "DKB20027m-0020",
+    "objectID": "DKB20027m-0019",
+    "prev": "DKB20027m-0018",
     "sort": "DKB20027m-0019",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1925-02-03",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-19\">\n<head>\n<date when=\"1925-02-03\"> 三日 </date> （火） </head>\n<listEvent>\n<event>\n<p>御不快ニテ御引籠リ</p>\n</event>\n<event>\n<p><time from=\"10:30:00\" to=\"11:00:00\">午前一〇半―一一時</time><persName><surname>穂積</surname><forename>重遠</forename></persName>博士ト御会見（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0019\">\n<head>\n<date when=\"1925-02-03\">\n           三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n            御不快ニテ御引籠リ\n           </p>\n</event>\n<event>\n<p>\n<time from=\"10:30:00\" to=\"11:00:00\">\n             午前一〇半―一一時\n            </time>\n<persName corresp=\"#pers_穂積重遠\">\n<surname>\n              穂積\n             </surname>\n<forename>\n              重遠\n             </forename>\n</persName>\n            博士ト御会見（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-02"
 }

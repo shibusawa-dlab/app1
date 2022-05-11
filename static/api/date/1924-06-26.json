@@ -9,14 +9,16 @@
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/山口",
         "https://shibusawa-dlab.github.io/lab1/api/chname/勝",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/加藤"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/加藤",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/幣原",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/肥田景之"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1469",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -26,30 +28,31 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-06",
     "date_lvl2": "1924-06-26",
-    "description": "\n\n 廿六日  （木） \n\n\n午前八時山口勝氏（アスカ山）\n\n\n午後二半時　　加藤首相及幣原外相ト御会見ノ約（首相官邸）\n\n\n午後四時肥田景之氏来約（事務所）\n\n\n午後六時埼玉学生誘掖会舎友会催山口代議士当選祝賀会（海上ビルデイング内中央亭）\n\n\n",
+    "description": "\n\n\n           廿六日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n\n\n              山口\n             \n\n\n\n              勝\n             \n\n            氏（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後二半時\n            \n\n\n              加藤\n             \n\n            首相及\n            \n\n              幣原\n             \n\n            外相ト御会見ノ約（首相官邸）\n           \n\n\n\n\n             午後四時\n            \n\n\n              肥田\n             \n\n              景之\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後六時\n            \n\n             埼玉\n            \n            学生誘掖会舎友会催\n            \n\n              山口\n             \n\n            代議士当選祝賀会（海上ビルデイング内中央亭）\n           \n\n\n",
     "fullname": [
-        "肥田景之"
+        "\n              肥田\n             \n              景之\n             "
     ],
-    "label": "廿六日  （木）",
+    "label": "廿六日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-183",
-    "objectID": "DKB20026m-182",
-    "prev": "DKB20026m-181",
+    "next": "DKB20026m-0183",
+    "objectID": "DKB20026m-0182",
+    "prev": "DKB20026m-0181",
     "sort": "DKB20026m-0182",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山",
         "埼玉"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
         "https://shibusawa-dlab.github.io/lab1/api/place/埼玉"
     ],
     "temporal": "1924-06-26",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>山口</surname></persName><persName><surname>勝</surname></persName>氏（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_山口\">\n<surname>\n              山口\n             </surname>\n</persName>\n<persName corresp=\"#pers_勝\">\n<surname>\n              勝\n             </surname>\n</persName>\n            氏（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-182\">\n<head>\n<date when=\"1924-06-26\"> 廿六日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>山口</surname></persName><persName><surname>勝</surname></persName>氏（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:30:00\">午後二半時</time>　　<persName><surname>加藤</surname></persName>首相及<persName><surname>幣原</surname></persName>外相ト御会見ノ約（首相官邸）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><persName><surname>肥田</surname><forename>景之</forename></persName>氏来約（事務所）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time><placeName>埼玉</placeName>学生誘掖会舎友会催<persName><surname>山口</surname></persName>代議士当選祝賀会（海上ビルデイング内中央亭）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0182\">\n<head>\n<date when=\"1924-06-26\">\n           廿六日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_山口\">\n<surname>\n              山口\n             </surname>\n</persName>\n<persName corresp=\"#pers_勝\">\n<surname>\n              勝\n             </surname>\n</persName>\n            氏（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<persName corresp=\"#pers_加藤\">\n<surname>\n              加藤\n             </surname>\n</persName>\n            首相及\n            <persName corresp=\"#pers_幣原\">\n<surname>\n              幣原\n             </surname>\n</persName>\n            外相ト御会見ノ約（首相官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_肥田景之\">\n<surname>\n              肥田\n             </surname>\n<forename>\n              景之\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会舎友会催\n            <persName corresp=\"#pers_山口\">\n<surname>\n              山口\n             </surname>\n</persName>\n            代議士当選祝賀会（海上ビルデイング内中央亭）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-06"
 }

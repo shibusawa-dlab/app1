@@ -6,15 +6,17 @@
         "加藤辰弥"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡田隆文",
         "https://shibusawa-dlab.github.io/lab1/api/chname/尾崎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/畑"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/畑",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/加藤辰弥"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1322",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -24,31 +26,32 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-01",
     "date_lvl2": "1920-01-23",
-    "description": "\n\n 廿三日  （金） \n\n\n午前八時岡田隆文氏来約（飛鳥山邸）\n\n\n午前十一時尾崎、畑氏来約（飛鳥山邸）\n\n\n午前十一時中央開墾会社ノ件（帝国ホテル）\n\n\n午後三時加藤辰弥氏来約（兜町）\n\n\n午後四時清水組ヨリ御案内（帝国ホテル）\n\n\n",
+    "description": "\n\n\n           廿三日\n          \n          （金）\n         \n\n\n\n\n             午前八時\n            \n\n\n              岡田\n             \n\n              隆文\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              尾崎\n             \n\n            、\n            \n\n              畑\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            中央開墾会社ノ件（帝国ホテル）\n           \n\n\n\n\n             午後三時\n            \n\n\n              加藤\n             \n\n              辰弥\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            清水組ヨリ御案内（帝国ホテル）\n           \n\n\n",
     "fullname": [
-        "岡田隆文",
-        "加藤辰弥"
+        "\n              岡田\n             \n              隆文\n             ",
+        "\n              加藤\n             \n              辰弥\n             "
     ],
-    "label": "廿三日  （金）",
+    "label": "廿三日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-21",
-    "objectID": "DKB20022m-20",
-    "prev": "DKB20022m-19",
+    "next": "DKB20022m-0021",
+    "objectID": "DKB20022m-0020",
+    "prev": "DKB20022m-0019",
     "sort": "DKB20022m-0020",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "日本橋兜町"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1920-01-23",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>岡田</surname><forename>隆文</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_岡田隆文\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              隆文\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-20\">\n<head>\n<date when=\"1920-01-23\"> 廿三日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>岡田</surname><forename>隆文</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>尾崎</surname></persName>、<persName><surname>畑</surname></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>中央開墾会社ノ件（帝国ホテル）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>加藤</surname><forename>辰弥</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>清水組ヨリ御案内（帝国ホテル）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0020\">\n<head>\n<date when=\"1920-01-23\">\n           廿三日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_岡田隆文\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              隆文\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_尾崎\">\n<surname>\n              尾崎\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_畑\">\n<surname>\n              畑\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            中央開墾会社ノ件（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_加藤辰弥\">\n<surname>\n              加藤\n             </surname>\n<forename>\n              辰弥\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            清水組ヨリ御案内（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-01"
 }

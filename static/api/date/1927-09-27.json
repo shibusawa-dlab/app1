@@ -4,14 +4,15 @@
         "御木本"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/関屋"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/関屋",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/御木本"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1556",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -21,28 +22,29 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-09",
     "date_lvl2": "1927-09-27",
-    "description": "\n\n 廿七日  （火） \n\n\n午時　　　　　宮内次官関屋氏来約（飛鳥山邸）\n\n\n午前十一・五五時事ム所ニ御出勤\n\n\n午后三時大蔵大臣ヲ官邸ニ御訪問\n\n\n午後五半時　　御木本氏歓迎会（日本貿易協会）\n\n\n",
+    "description": "\n\n\n           廿七日\n          \n          （火）\n         \n\n\n\n\n             午時\n            \n            宮内次官\n            \n\n              関屋\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一・五五時\n            \n            事ム所ニ御出勤\n           \n\n\n\n\n\n             午后三時\n            \n            大蔵大臣ヲ官邸ニ御訪問\n           \n\n\n\n\n             午後五半時\n            \n\n\n              御木本\n             \n\n            氏歓迎会（\n            \n             日本\n            \n            貿易協会）\n           \n\n\n",
     "fullname": [],
-    "label": "廿七日  （火）",
+    "label": "廿七日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-244",
-    "objectID": "DKB20029m-243",
-    "prev": "DKB20029m-242",
+    "next": "DKB20029m-0244",
+    "objectID": "DKB20029m-0243",
+    "prev": "DKB20029m-0242",
     "sort": "DKB20029m-0243",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "日本"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本"
     ],
     "temporal": "1927-09-27",
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">午時</time>　　　　　宮内次官<persName><surname>関屋</surname></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n            宮内次官\n            <persName corresp=\"#pers_関屋\">\n<surname>\n              関屋\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-243\">\n<head>\n<date when=\"1927-09-27\"> 廿七日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"12:00:00\">午時</time>　　　　　宮内次官<persName><surname>関屋</surname></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:55:00\">午前十一・五五時</time>事ム所ニ御出勤</p>\n</event>\n<event>\n<p><pb n=\"B2717\"/><time when=\"15:00:00\">午后三時</time>大蔵大臣ヲ官邸ニ御訪問</p>\n</event>\n<event>\n<p><time when=\"17:30:00\">午後五半時</time>　　<persName><surname>御木本</surname></persName>氏歓迎会（<placeName>日本</placeName>貿易協会）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0243\">\n<head>\n<date when=\"1927-09-27\">\n           廿七日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            宮内次官\n            <persName corresp=\"#pers_関屋\">\n<surname>\n              関屋\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:55:00\">\n             午前十一・五五時\n            </time>\n            事ム所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2717\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1556/full/max/0/default.jpg\" n=\"B2717\" source=\"#pageB2717\"/>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n            大蔵大臣ヲ官邸ニ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_御木本\">\n<surname>\n              御木本\n             </surname>\n</persName>\n            氏歓迎会（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            貿易協会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-09"
 }

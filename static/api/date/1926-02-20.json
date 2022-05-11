@@ -4,15 +4,16 @@
         "堀内謙介"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山崎亀吉",
         "https://shibusawa-dlab.github.io/lab1/api/chname/堀内謙介"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1503",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-02",
@@ -21,28 +22,30 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-02",
     "date_lvl2": "1926-02-20",
-    "description": "\n\n 二十日  （土） \n\n\n午前九時山崎亀吉氏来約（飛鳥山邸）\n\n\n正午　　　　　国際聯盟主催、堀内謙介氏招待会（銀行クラブ）\n\n\n午後二・二〇時　事務所ニ御出勤\n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n\n\n              山崎\n             \n\n              亀吉\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            国際聯盟主催、\n            \n\n              堀内\n             \n\n              謙介\n             \n\n            氏招待会（銀行クラブ）\n           \n\n\n\n\n             午後二・二〇時\n            \n            事務所ニ御出勤\n           \n\n\n",
     "fullname": [
-        "山崎亀吉",
-        "堀内謙介"
+        "\n              山崎\n             \n              亀吉\n             ",
+        "\n              堀内\n             \n              謙介\n             "
     ],
-    "label": "二十日  （土）",
+    "label": "二十日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-50",
-    "objectID": "DKB20028m-49",
-    "prev": "DKB20028m-48",
+    "next": "DKB20028m-0050",
+    "objectID": "DKB20028m-0049",
+    "prev": "DKB20028m-0048",
     "sort": "DKB20028m-0049",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1926-02-20",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>山崎</surname><forename>亀吉</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_山崎亀吉\">\n<surname>\n              山崎\n             </surname>\n<forename>\n              亀吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-49\">\n<head>\n<date when=\"1926-02-20\"> 二十日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>山崎</surname><forename>亀吉</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　国際聯盟主催、<persName><surname>堀内</surname><forename>謙介</forename></persName>氏招待会（銀行クラブ）</p>\n</event>\n<event>\n<p><time when=\"14:20:00\">午後二・二〇時</time>　事務所ニ御出勤</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0049\">\n<head>\n<date when=\"1926-02-20\">\n           二十日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_山崎亀吉\">\n<surname>\n              山崎\n             </surname>\n<forename>\n              亀吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            国際聯盟主催、\n            <persName corresp=\"#pers_堀内謙介\">\n<surname>\n              堀内\n             </surname>\n<forename>\n              謙介\n             </forename>\n</persName>\n            氏招待会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:20:00\">\n             午後二・二〇時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-02"
 }

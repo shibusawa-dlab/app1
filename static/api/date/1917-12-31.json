@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1256",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -22,16 +22,16 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-12",
     "date_lvl2": "1917-12-31",
-    "description": "\n\n 卅一日  （月） \n\n\n午前十―十一時牧野伸顕男ヲ御訪問（渋谷同男邸）\n\n\n午後二―午後三時高峰博士ノ令息来約（兜町）（御名前ハたかし）\n\n\n",
+    "description": "\n\n\n           卅一日\n          \n          （月）\n         \n\n\n\n\n             午前十―十一時\n            \n\n\n              牧野\n             \n\n              伸顕\n             \n\n            男ヲ御訪問（\n            \n             渋谷\n            \n            同男邸）\n           \n\n\n\n\n             午後二―午後三時\n            \n\n\n              高峰\n             \n\n            博士ノ令息来約（\n            \n             兜町\n            \n            ）\n            \n            （御名前ハたかし）\n           \n\n\n",
     "fullname": [
-        "牧野伸顕"
+        "\n              牧野\n             \n              伸顕\n             "
     ],
-    "label": "卅一日  （月）",
+    "label": "卅一日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "objectID": "DKB20019m-339",
-    "prev": "DKB20019m-337",
+    "objectID": "DKB20019m-0339",
+    "prev": "DKB20019m-0337",
     "sort": "DKB20019m-0339",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "渋谷",
         "日本橋兜町"
@@ -43,7 +43,7 @@
     "temporal": "1917-12-31",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-339\">\n<head>\n<date when=\"1917-12-31\"> 卅一日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time from=\"10:00:00\" to=\"11:00:00\">午前十―十一時</time><persName><surname>牧野</surname><forename>伸顕</forename></persName>男ヲ御訪問（<placeName>渋谷</placeName>同男邸）</p>\n</event>\n<event>\n<p><time from=\"14:00:00\" to=\"15:00:00\">午後二―午後三時</time><persName><surname>高峰</surname></persName>博士ノ令息来約（<placeName>兜町</placeName>）<lb/>（御名前ハたかし）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0339\">\n<head>\n<date when=\"1917-12-31\">\n           卅一日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"11:00:00\">\n             午前十―十一時\n            </time>\n<persName corresp=\"#pers_牧野伸顕\">\n<surname>\n              牧野\n             </surname>\n<forename>\n              伸顕\n             </forename>\n</persName>\n            男ヲ御訪問（\n            <placeName corresp=\"#place_渋谷\">\n             渋谷\n            </placeName>\n            同男邸）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―午後三時\n            </time>\n<persName corresp=\"#pers_高峰\">\n<surname>\n              高峰\n             </surname>\n</persName>\n            博士ノ令息来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n            <lb/>\n            （御名前ハたかし）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-12"
 }

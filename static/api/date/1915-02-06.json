@@ -6,16 +6,17 @@
         "大隈"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/倉知",
         "https://shibusawa-dlab.github.io/lab1/api/chname/白岩",
         "https://shibusawa-dlab.github.io/lab1/api/chname/浅野総一郎",
         "https://shibusawa-dlab.github.io/lab1/api/chname/大隈"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1176",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20017m 大正四年 1915"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20017m 大正四年 1915"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20017m 大正四年 1915",
     "date": {
         "lvl0": "1915",
@@ -25,17 +26,17 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-02",
     "date_lvl2": "1915-02-06",
-    "description": "\n\n 六日  （土） \n\n\n午前八時半倉知氏、白岩氏来ル飛鳥山\n\n\n午前十時浅野総一郎氏宅御出向\n\n\n午後〇時半　　大隈伯ヨリ招待（早稲田邸）\n\n\n午後三―午後四時女子大学ヘ御出向\n\n\n",
+    "description": "\n\n\n           六日\n          \n          （土）\n         \n\n\n\n\n             午前八時半\n            \n\n\n              倉知\n             \n\n            氏、\n            \n\n              白岩\n             \n\n            氏来ル\n            \n             飛鳥山\n            \n\n\n\n\n\n             午前十時\n            \n\n\n              浅野\n             \n\n              総一郎\n             \n\n            氏宅御出向\n           \n\n\n\n\n             午後〇時半\n            \n\n\n              大隈\n             \n\n            伯ヨリ招待（\n            \n             早稲田\n            \n            邸）\n           \n\n\n\n\n             午後三―午後四時\n            \n            女子大学ヘ御出向\n           \n\n\n",
     "fullname": [
-        "浅野総一郎"
+        "\n              浅野\n             \n              総一郎\n             "
     ],
-    "label": "六日  （土）",
+    "label": "六日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20017m-37",
-    "objectID": "DKB20017m-35",
-    "prev": "DKB20017m-34",
+    "next": "DKB20017m-0037",
+    "objectID": "DKB20017m-0035",
+    "prev": "DKB20017m-0034",
     "sort": "DKB20017m-0035",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "早稲田"
@@ -46,10 +47,10 @@
     ],
     "temporal": "1915-02-06",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八時半</time><persName><surname>倉知</surname></persName>氏、<persName><surname>白岩</surname></persName>氏来ル<placeName>飛鳥山</placeName></div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八時半\n            </time>\n<persName corresp=\"#pers_倉知\">\n<surname>\n              倉知\n             </surname>\n</persName>\n            氏、\n            <persName corresp=\"#pers_白岩\">\n<surname>\n              白岩\n             </surname>\n</persName>\n            氏来ル\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName></div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-35\">\n<head>\n<date when=\"1915-02-06\"> 六日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八時半</time><persName><surname>倉知</surname></persName>氏、<persName><surname>白岩</surname></persName>氏来ル<placeName>飛鳥山</placeName></p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>浅野</surname><forename>総一郎</forename></persName>氏宅御出向</p>\n</event>\n<event>\n<p><time when=\"12:30:00\">午後〇時半</time>　　<persName><surname>大隈</surname></persName>伯ヨリ招待（<placeName>早稲田</placeName>邸）</p>\n</event>\n<event>\n<p><time from=\"15:00:00\" to=\"16:00:00\">午後三―午後四時</time>女子大学ヘ御出向</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0035\">\n<head>\n<date when=\"1915-02-06\">\n           六日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八時半\n            </time>\n<persName corresp=\"#pers_倉知\">\n<surname>\n              倉知\n             </surname>\n</persName>\n            氏、\n            <persName corresp=\"#pers_白岩\">\n<surname>\n              白岩\n             </surname>\n</persName>\n            氏来ル\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏宅御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇時半\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            伯ヨリ招待（\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―午後四時\n            </time>\n            女子大学ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-02"
 }

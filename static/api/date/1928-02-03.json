@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1571",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20030m 昭和三年 1928"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20030m 昭和三年 1928"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20030m 昭和三年 1928",
     "date": {
         "lvl0": "1928",
@@ -22,25 +22,27 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-02",
     "date_lvl2": "1928-02-03",
-    "description": "\n\n 三日  （金） \n\n\n御引籠リ\n\n\n午後三時林医師来診（飛鳥山邸）\n\n\n午後五時井上準之助氏来約（飛鳥山邸）\n\n\n",
+    "description": "\n\n\n           三日\n          \n          （金）\n         \n\n\n\n            御引籠リ\n           \n\n\n\n\n             午後三時\n            \n\n\n              林\n             \n\n            医師来診（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              井上\n             \n\n              準之助\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "井上準之助"
+        "\n              井上\n             \n              準之助\n             "
     ],
-    "label": "三日  （金）",
+    "label": "三日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20030m-35",
-    "objectID": "DKB20030m-34",
-    "prev": "DKB20030m-33",
+    "next": "DKB20030m-0035",
+    "objectID": "DKB20030m-0034",
+    "prev": "DKB20030m-0033",
     "sort": "DKB20030m-0034",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1928-02-03",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-34\">\n<head>\n<date when=\"1928-02-03\"> 三日 </date> （金） </head>\n<listEvent>\n<event>\n<p>御引籠リ</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>林</surname></persName>医師来診（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><persName><surname>井上</surname><forename>準之助</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0034\">\n<head>\n<date when=\"1928-02-03\">\n           三日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n            御引籠リ\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_林\">\n<surname>\n              林\n             </surname>\n</persName>\n            医師来診（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_井上準之助\">\n<surname>\n              井上\n             </surname>\n<forename>\n              準之助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-02"
 }

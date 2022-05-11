@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1211",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -22,33 +22,34 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-07",
     "date_lvl2": "1916-07-25",
-    "description": "\n\n 廿五日  （火） \n\n\n午前七時成瀬仁蔵氏来約（飛鳥山邸）\n\n\n午前九時米価調節調査会特別委員会（農商務省）\n\n\n午後一時第一銀行総会（銀行集会所）\n\n\n午後三時益田孝、安川敬一郎両氏来約（第一銀行）\n\n\n午後五時同族会（兜町）\n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （火）\n         \n\n\n\n\n             午前七時\n            \n\n\n              成瀬\n             \n\n              仁蔵\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n            米価調節調査会特別委員会（農商務省）\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n            総会（銀行集会所）\n           \n\n\n\n\n             午後三時\n            \n\n             益田\n            \n            孝、\n            \n\n              安川\n             \n\n              敬一郎\n             \n\n            両氏来約（第一銀行）\n           \n\n\n\n\n             午後五時\n            \n            同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "成瀬仁蔵",
-        "安川敬一郎"
+        "\n              成瀬\n             \n              仁蔵\n             ",
+        "\n              安川\n             \n              敬一郎\n             "
     ],
-    "label": "廿五日  （火）",
+    "label": "廿五日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-192",
-    "objectID": "DKB20018m-191",
-    "prev": "DKB20018m-190",
+    "next": "DKB20018m-0192",
+    "objectID": "DKB20018m-0191",
+    "prev": "DKB20018m-0190",
     "sort": "DKB20018m-0191",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "益田",
         "日本橋兜町"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/益田",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1916-07-25",
     "time": {
-        "07:00:00": "<div><time when=\"07:00:00\">午前七時</time><persName><surname>成瀬</surname><forename>仁蔵</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "07:00:00": "<div><time when=\"07:00:00\">\n             午前七時\n            </time>\n<persName corresp=\"#pers_成瀬仁蔵\">\n<surname>\n              成瀬\n             </surname>\n<forename>\n              仁蔵\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-191\">\n<head>\n<date when=\"1916-07-25\"> 廿五日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"07:00:00\">午前七時</time><persName><surname>成瀬</surname><forename>仁蔵</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"09:00:00\">午前九時</time>米価調節調査会特別委員会（農商務省）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>第一銀行総会（銀行集会所）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><placeName>益田</placeName>孝、<persName><surname>安川</surname><forename>敬一郎</forename></persName>両氏来約（第一銀行）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>同族会（<placeName>兜町</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0191\">\n<head>\n<date when=\"1916-07-25\">\n           廿五日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"07:00:00\">\n             午前七時\n            </time>\n<persName corresp=\"#pers_成瀬仁蔵\">\n<surname>\n              成瀬\n             </surname>\n<forename>\n              仁蔵\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            米価調節調査会特別委員会（農商務省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n            総会（銀行集会所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_益田\">\n             益田\n            </placeName>\n            孝、\n            <persName corresp=\"#pers_安川敬一郎\">\n<surname>\n              安川\n             </surname>\n<forename>\n              敬一郎\n             </forename>\n</persName>\n            両氏来約（第一銀行）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-07"
 }

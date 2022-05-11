@@ -1,18 +1,18 @@
 {
     "agential": [
         "白堅",
-        "如水",
         "渋沢"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/白堅",
         "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1345",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -22,17 +22,17 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-10",
     "date_lvl2": "1920-10-25",
-    "description": "\n\n 廿五日  （月） \n\n\n御引籠\n\n\n午前十時白堅氏来約（兜町）\n\n\n午〃十一時協調会理事会（其会）\n\n\n午後六時如水会館主催、渋沢子爵陞爵祝賀会（同館）\n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （月）\n         \n\n\n\n            御引籠\n           \n\n\n\n\n             午前十時\n            \n\n\n              白\n             \n\n              堅\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午〃十一時\n            \n            協調会理事会（其会）\n           \n\n\n\n\n             午後六時\n            \n            如水会館主催、\n            \n\n              渋沢\n             \n\n            子爵陞爵祝賀会（同館）\n           \n\n\n",
     "fullname": [
-        "白堅"
+        "\n              白\n             \n              堅\n             "
     ],
-    "label": "廿五日  （月）",
+    "label": "廿五日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-276",
-    "objectID": "DKB20022m-275",
-    "prev": "DKB20022m-274",
+    "next": "DKB20022m-0276",
+    "objectID": "DKB20022m-0275",
+    "prev": "DKB20022m-0274",
     "sort": "DKB20022m-0275",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -42,7 +42,7 @@
     "temporal": "1920-10-25",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-275\">\n<head>\n<date when=\"1920-10-25\"> 廿五日 </date> （月） </head>\n<listEvent>\n<event>\n<p>御引籠</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>白</surname><forename>堅</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午〃十一時</time>協調会理事会（其会）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time><persName><forename>如水</forename></persName>会館主催、<persName><surname>渋沢</surname></persName>子爵陞爵祝賀会（同館）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0275\">\n<head>\n<date when=\"1920-10-25\">\n           廿五日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n            御引籠\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_白堅\">\n<surname>\n              白\n             </surname>\n<forename>\n              堅\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午〃十一時\n            </time>\n            協調会理事会（其会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            如水会館主催、\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            子爵陞爵祝賀会（同館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-10"
 }

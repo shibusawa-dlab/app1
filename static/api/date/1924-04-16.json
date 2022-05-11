@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1460",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -22,27 +22,29 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-04",
     "date_lvl2": "1924-04-16",
-    "description": "\n\n 十六日  （水） \n\n\n午前八時東方通信社岡部弘氏来約（アスカ山）\n\n\n午后二時修養団ノ件（事務折）\n\n\n午後四時高田早大総長ヨリ御案内（帝国ホテル）\n\n\n",
+    "description": "\n\n\n           十六日\n          \n          （水）\n         \n\n\n\n\n             午前八時\n            \n            東方通信社\n            \n\n              岡部\n             \n\n              弘\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午后二時\n            \n            修養団ノ件（事務折）\n           \n\n\n\n\n\n             午後四時\n            \n\n\n              高田\n             \n\n            早大総長ヨリ御案内（帝国ホテル）\n           \n\n\n",
     "fullname": [
-        "岡部弘"
+        "\n              岡部\n             \n              弘\n             "
     ],
-    "label": "十六日  （水）",
+    "label": "十六日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-111",
-    "objectID": "DKB20026m-110",
-    "prev": "DKB20026m-109",
+    "next": "DKB20026m-0111",
+    "objectID": "DKB20026m-0110",
+    "prev": "DKB20026m-0109",
     "sort": "DKB20026m-0110",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山"
+    ],
     "temporal": "1924-04-16",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time>東方通信社<persName><surname>岡部</surname><forename>弘</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            東方通信社\n            <persName corresp=\"#pers_岡部弘\">\n<surname>\n              岡部\n             </surname>\n<forename>\n              弘\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-110\">\n<head>\n<date when=\"1924-04-16\"> 十六日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time>東方通信社<persName><surname>岡部</surname><forename>弘</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午后二時</time>修養団ノ件（事務折）</p>\n</event>\n<event>\n<p><pb n=\"B2621\"/><time when=\"16:00:00\">午後四時</time><persName><surname>高田</surname></persName>早大総長ヨリ御案内（帝国ホテル）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0110\">\n<head>\n<date when=\"1924-04-16\">\n           十六日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            東方通信社\n            <persName corresp=\"#pers_岡部弘\">\n<surname>\n              岡部\n             </surname>\n<forename>\n              弘\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n            修養団ノ件（事務折）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2621\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1460/full/max/0/default.jpg\" n=\"B2621\" source=\"#pageB2621\"/>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_高田\">\n<surname>\n              高田\n             </surname>\n</persName>\n            早大総長ヨリ御案内（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-04"
 }

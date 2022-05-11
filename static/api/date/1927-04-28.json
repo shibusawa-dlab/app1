@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1542",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -20,27 +20,29 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-04",
     "date_lvl2": "1927-04-28",
-    "description": "\n\n 廿八日  （木） \n\n\n午前九半時　　田中太郎氏来約（アスカ山）\n\n\n午后二時大蔵大臣ヲ官邸ニ御訪問\n\n\n午後三時御出勤\n\n\n午後三時フランクリン、アキスリング両氏来約（アスカ山）\n\n\n午後五時御同族会（事務所）\n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （木）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              田中\n             \n\n              太郎\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午后二時\n            \n            大蔵大臣ヲ官邸ニ御訪問\n           \n\n\n\n\n             午後三時\n            \n            御出勤\n           \n\n\n\n\n             午後三時\n            \n            フランクリン、アキスリング両氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            御同族会（事務所）\n           \n\n\n",
     "fullname": [
-        "田中太郎"
+        "\n              田中\n             \n              太郎\n             "
     ],
-    "label": "廿八日  （木）",
+    "label": "廿八日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-102",
-    "objectID": "DKB20029m-101",
-    "prev": "DKB20029m-100",
+    "next": "DKB20029m-0102",
+    "objectID": "DKB20029m-0101",
+    "prev": "DKB20029m-0100",
     "sort": "DKB20029m-0101",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山"
+    ],
     "temporal": "1927-04-28",
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">午前九半時</time>　　<persName><surname>田中</surname><forename>太郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_田中太郎\">\n<surname>\n              田中\n             </surname>\n<forename>\n              太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-101\">\n<head>\n<date when=\"1927-04-28\"> 廿八日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"09:30:00\">午前九半時</time>　　<persName><surname>田中</surname><forename>太郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午后二時</time>大蔵大臣ヲ官邸ニ御訪問</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>御出勤</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>フランクリン、アキスリング両氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>御同族会（事務所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0101\">\n<head>\n<date when=\"1927-04-28\">\n           廿八日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_田中太郎\">\n<surname>\n              田中\n             </surname>\n<forename>\n              太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n            大蔵大臣ヲ官邸ニ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            フランクリン、アキスリング両氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-04"
 }

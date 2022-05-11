@@ -4,14 +4,15 @@
         "金子熊一"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/鈴木文治"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/鈴木文治",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/金子熊一"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1228",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -21,31 +22,32 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-02",
     "date_lvl2": "1917-02-12",
-    "description": "\n\n 十二日  （月） \n\n\n午前八時鈴木文治氏来約（飛鳥山邸）\n\n\n〃　　　　　　金子熊一氏同（同）\n\n\n正午　　　　　慰問会ノ件ニ付実業家招待（首相官邸）\n\n\n午後六時大日本人造肥料会社ヨリ御案内（ホテル）\n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （月）\n         \n\n\n\n\n             午前八時\n            \n\n\n              鈴木\n             \n\n              文治\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             〃\n            \n\n\n              金子\n             \n\n              熊一\n             \n\n            氏同（同）\n           \n\n\n\n\n             正午\n            \n            慰問会ノ件ニ付実業家招待（首相官邸）\n           \n\n\n\n\n             午後六時\n            \n            大\n            \n             日本\n            \n            人造肥料会社ヨリ御案内（ホテル）\n           \n\n\n",
     "fullname": [
-        "鈴木文治",
-        "金子熊一"
+        "\n              鈴木\n             \n              文治\n             ",
+        "\n              金子\n             \n              熊一\n             "
     ],
-    "label": "十二日  （月）",
+    "label": "十二日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-45",
-    "objectID": "DKB20019m-44",
-    "prev": "DKB20019m-43",
+    "next": "DKB20019m-0045",
+    "objectID": "DKB20019m-0044",
+    "prev": "DKB20019m-0043",
     "sort": "DKB20019m-0044",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "日本"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本"
     ],
     "temporal": "1917-02-12",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>鈴木</surname><forename>文治</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_鈴木文治\">\n<surname>\n              鈴木\n             </surname>\n<forename>\n              文治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-44\">\n<head>\n<date when=\"1917-02-12\"> 十二日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>鈴木</surname><forename>文治</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"08:00:00\">〃</time>　　　　　　<persName><surname>金子</surname><forename>熊一</forename></persName>氏同（同）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　慰問会ノ件ニ付実業家招待（首相官邸）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time>大<placeName>日本</placeName>人造肥料会社ヨリ御案内（ホテル）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0044\">\n<head>\n<date when=\"1917-02-12\">\n           十二日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_鈴木文治\">\n<surname>\n              鈴木\n             </surname>\n<forename>\n              文治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             〃\n            </time>\n<persName corresp=\"#pers_金子熊一\">\n<surname>\n              金子\n             </surname>\n<forename>\n              熊一\n             </forename>\n</persName>\n            氏同（同）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            慰問会ノ件ニ付実業家招待（首相官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            大\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            人造肥料会社ヨリ御案内（ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-02"
 }

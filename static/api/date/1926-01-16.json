@@ -1,18 +1,19 @@
 {
     "agential": [
-        "肥田景之",
-        "清浦奎吾"
+        "井上準之助",
+        "久邇宮"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/清浦奎吾"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/井上準之助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/久邇宮"
     ],
-    "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1530",
+    "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1501",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-01",
@@ -21,28 +22,33 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-01",
     "date_lvl2": "1926-01-16",
-    "description": "\n\n 十六日  （火） \n\n\n午前八半時　　肥田景之氏外二人来約　アスカ山\n\n\n午前十時女子大学評議員会（同校）\n\n\n午前十一・五五　御出勤\n\n\n午後二半時　　清浦奎吾氏喜寿祝賀会（帝国劇場）\n\n\n",
+    "description": "\n\n\n           十六日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n\n\n              井上\n             \n\n              準之助\n             \n\n            氏来約（\n            \n             王子\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n             中華\n            \n            民国夏継泉氏等招待会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n\n              久邇宮\n             \n\n            殿下御催、朝日新聞社訪欧飛行家帰朝ニ付賜餐（同宮御殿）\n           \n\n\n\n\n             午後二・四〇\n            \n            事務所ニ御出勤\n           \n\n\n",
     "fullname": [
-        "肥田景之",
-        "清浦奎吾"
+        "\n              井上\n             \n              準之助\n             "
     ],
-    "label": "十六日  （火）",
+    "label": "十六日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-301",
-    "objectID": "DKB20028m-300",
-    "prev": "DKB20028m-299",
-    "sort": "DKB20028m-0300",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "next": "DKB20028m-0017",
+    "objectID": "DKB20028m-0016",
+    "prev": "DKB20028m-0015",
+    "sort": "DKB20028m-0016",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
-        "アスカ山"
+        "王子",
+        "中華",
+        "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子",
+        "https://shibusawa-dlab.github.io/lab1/api/place/中華",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1926-01-16",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>肥田</surname><forename>景之</forename></persName>氏外二人来約　<placeName corresp=\"#飛鳥山\">アスカ山</placeName></div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_井上準之助\">\n<surname>\n              井上\n             </surname>\n<forename>\n              準之助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-300\">\n<head>\n<date when=\"1926-01-16\"> 十六日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>肥田</surname><forename>景之</forename></persName>氏外二人来約　<placeName corresp=\"#飛鳥山\">アスカ山</placeName></p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>女子大学評議員会（同校）</p>\n</event>\n<event>\n<p><time when=\"11:55:00\">午前十一・五五</time>　御出勤</p>\n</event>\n<event>\n<p><time when=\"14:30:00\">午後二半時</time>　　<persName><surname>清浦</surname><forename>奎吾</forename></persName>氏喜寿祝賀会（帝国劇場）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0016\">\n<head>\n<date when=\"1926-01-16\">\n           十六日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_井上準之助\">\n<surname>\n              井上\n             </surname>\n<forename>\n              準之助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_中華\">\n             中華\n            </placeName>\n            民国夏継泉氏等招待会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_久邇宮\">\n<surname>\n              久邇宮\n             </surname>\n</persName>\n            殿下御催、朝日新聞社訪欧飛行家帰朝ニ付賜餐（同宮御殿）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:40:00\">\n             午後二・四〇\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-01"
 }

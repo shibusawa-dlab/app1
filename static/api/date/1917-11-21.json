@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1252",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -20,27 +20,29 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-11",
     "date_lvl2": "1917-11-21",
-    "description": "\n\n 廿一日  （水） \n\n\n午前八時頃　　養育院井之頭分院ヘ御出向\n\n\n午後三時日露協会基金募集ノ件ニ付常務員会（同会）\n\n\n午後五半時　　左右田喜一郎氏ヨリ御案内（ホテル）\n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （水）\n         \n\n\n\n\n             午前八時\n            \n            頃　　養育院\n            \n             井之頭\n            \n            分院ヘ御出向\n           \n\n\n\n\n             午後三時\n            \n            日露協会基金募集ノ件ニ付常務員会（同会）\n           \n\n\n\n\n             午後五半時\n            \n\n\n              左右田\n             \n\n              喜一郎\n             \n\n            氏ヨリ御案内（ホテル）\n           \n\n\n",
     "fullname": [
-        "左右田喜一郎"
+        "\n              左右田\n             \n              喜一郎\n             "
     ],
-    "label": "廿一日  （水）",
+    "label": "廿一日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-302",
-    "objectID": "DKB20019m-301",
-    "prev": "DKB20019m-300",
+    "next": "DKB20019m-0302",
+    "objectID": "DKB20019m-0301",
+    "prev": "DKB20019m-0300",
     "sort": "DKB20019m-0301",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "井之頭"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/井之頭"
+    ],
     "temporal": "1917-11-21",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time>頃　　養育院<placeName>井之頭</placeName>分院ヘ御出向</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            頃　　養育院\n            <placeName corresp=\"#place_井之頭\">\n             井之頭\n            </placeName>\n            分院ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-301\">\n<head>\n<date when=\"1917-11-21\"> 廿一日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time>頃　　養育院<placeName>井之頭</placeName>分院ヘ御出向</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>日露協会基金募集ノ件ニ付常務員会（同会）</p>\n</event>\n<event>\n<p><time when=\"17:30:00\">午後五半時</time>　　<persName><surname>左右田</surname><forename>喜一郎</forename></persName>氏ヨリ御案内（ホテル）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0301\">\n<head>\n<date when=\"1917-11-21\">\n           廿一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            頃　　養育院\n            <placeName corresp=\"#place_井之頭\">\n             井之頭\n            </placeName>\n            分院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            日露協会基金募集ノ件ニ付常務員会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_左右田喜一郎\">\n<surname>\n              左右田\n             </surname>\n<forename>\n              喜一郎\n             </forename>\n</persName>\n            氏ヨリ御案内（ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-11"
 }

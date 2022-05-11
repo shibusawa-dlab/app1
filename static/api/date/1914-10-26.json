@@ -2,15 +2,19 @@
     "agential": [
         "村井貞之助",
         "江藤甚三郎",
-        "桂公"
+        "桂"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/村井貞之助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/江藤甚三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/桂"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1168",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20016m 大正三年 1914"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20016m 大正三年 1914"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20016m 大正三年 1914",
     "date": {
         "lvl0": "1914",
@@ -20,18 +24,18 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-10",
     "date_lvl2": "1914-10-26",
-    "description": "\n\n 廿六日  （月） \n\n\n午前九時大日本蚕糸会ヘ会合ノ約（蚕糸会）\n\n\n午後三時半村井貞之助、江藤甚三郎両氏来ル約（兜町）\n\n\n午後五時故桂公記念事業特別委員会（九段坂上富士見軒）\n\n\n",
+    "description": "\n\n\n           廿六日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n            大日本蚕糸会ヘ会合ノ約（蚕糸会）\n           \n\n\n\n\n             午後三時半\n            \n\n\n              村井\n             \n\n              貞之助\n             \n\n            、\n            \n\n              江藤\n             \n\n              甚三郎\n             \n\n            両氏来ル約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            故\n            \n\n              桂\n             \n\n            公記念事業特別委員会（\n            \n             九段坂上\n            \n            富士見軒）\n           \n\n\n",
     "fullname": [
-        "村井貞之助",
-        "江藤甚三郎"
+        "\n              村井\n             \n              貞之助\n             ",
+        "\n              江藤\n             \n              甚三郎\n             "
     ],
-    "label": "廿六日  （月）",
+    "label": "廿六日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20016m-42",
-    "objectID": "DKB20016m-41",
-    "prev": "DKB20016m-40",
+    "next": "DKB20016m-0042",
+    "objectID": "DKB20016m-0041",
+    "prev": "DKB20016m-0040",
     "sort": "DKB20016m-0041",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "九段"
@@ -42,10 +46,10 @@
     ],
     "temporal": "1914-10-26",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time>大日本蚕糸会ヘ会合ノ約（蚕糸会）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            大日本蚕糸会ヘ会合ノ約（蚕糸会）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-41\">\n<head>\n<date when=\"1914-10-26\"> 廿六日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time>大日本蚕糸会ヘ会合ノ約（蚕糸会）</p>\n</event>\n<event>\n<p><time when=\"15:30:00\">午後三時半</time><persName><surname>村井</surname><forename>貞之助</forename></persName>、<persName><surname>江藤</surname><forename>甚三郎</forename></persName>両氏来ル約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>故<persName><forename>桂公</forename></persName>記念事業特別委員会（<placeName>九段坂上</placeName>富士見軒）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0041\">\n<head>\n<date when=\"1914-10-26\">\n           廿六日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            大日本蚕糸会ヘ会合ノ約（蚕糸会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三時半\n            </time>\n<persName corresp=\"#pers_村井貞之助\">\n<surname>\n              村井\n             </surname>\n<forename>\n              貞之助\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_江藤甚三郎\">\n<surname>\n              江藤\n             </surname>\n<forename>\n              甚三郎\n             </forename>\n</persName>\n            両氏来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            故\n            <persName corresp=\"#pers_桂\">\n<surname>\n              桂\n             </surname>\n</persName>\n            公記念事業特別委員会（\n            <placeName corresp=\"#place_九段\">\n             九段坂上\n            </placeName>\n            富士見軒）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-10"
 }

@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1610",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20032m 昭和五年 1930"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20032m 昭和五年 1930"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20032m 昭和五年 1930",
     "date": {
         "lvl0": "1930",
@@ -20,17 +20,17 @@
     "date_lvl0": "1930",
     "date_lvl1": "1930-05",
     "date_lvl2": "1930-05-22",
-    "description": "\n\n 廿二日  （木） \n\n\n午後二・四〇　事務所ニ御出勤\n\n\n午後五時竜門社講演会（銀行集会所）芦田均氏ノ土耳古ノ話\n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （木）\n         \n\n\n\n\n             午後二・四〇\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午後五時\n            \n            竜門社講演会（銀行集会所）\n            \n\n\n              芦田\n             \n\n              均\n             \n\n            氏ノ\n            \n             土耳古\n            \n            ノ話\n           \n\n\n",
     "fullname": [
-        "芦田均"
+        "\n              芦田\n             \n              均\n             "
     ],
-    "label": "廿二日  （木）",
+    "label": "廿二日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20032m-57",
-    "objectID": "DKB20032m-56",
-    "prev": "DKB20032m-55",
+    "next": "DKB20032m-0057",
+    "objectID": "DKB20032m-0056",
+    "prev": "DKB20032m-0055",
     "sort": "DKB20032m-0056",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "トルコ"
     ],
@@ -39,10 +39,10 @@
     ],
     "temporal": "1930-05-22",
     "time": {
-        "14:40:00": "<div><time when=\"14:40:00\">午後二・四〇</time>　事務所ニ御出勤</div>"
+        "14:40:00": "<div><time when=\"14:40:00\">\n             午後二・四〇\n            </time>\n            事務所ニ御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20032m-56\">\n<head>\n<date when=\"1930-05-22\"> 廿二日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"14:40:00\">午後二・四〇</time>　事務所ニ御出勤</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>竜門社講演会（銀行集会所）<lb/><persName><surname>芦田</surname><forename>均</forename></persName>氏ノ<placeName>土耳古</placeName>ノ話</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0056\">\n<head>\n<date when=\"1930-05-22\">\n           廿二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:40:00\">\n             午後二・四〇\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            竜門社講演会（銀行集会所）\n            <lb/>\n<persName corresp=\"#pers_芦田均\">\n<surname>\n              芦田\n             </surname>\n<forename>\n              均\n             </forename>\n</persName>\n            氏ノ\n            <placeName corresp=\"#place_トルコ\">\n             土耳古\n            </placeName>\n            ノ話\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1930",
     "yearAndMonth": "1930-05"
 }

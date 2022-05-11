@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1219",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -20,28 +20,31 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-11",
     "date_lvl2": "1916-11-12",
-    "description": "\n\n 十二日  （日） \n\n\n午前八時蓮沼門三氏来約（飛鳥山邸）\n\n\n午前十一時第一銀行員ニ於テ男爵喜寿祝賀会（帝国ホテル）\n\n\n午後一時随鷗吟社大会（枕橋八百松）\n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n\n\n              蓮沼\n             \n\n              門三\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            第一銀行員ニ於テ男爵喜寿祝賀会（帝国ホテル）\n           \n\n\n\n\n             午後一時\n            \n            随鷗吟社大会（\n            \n             枕橋\n            \n            八百松）\n           \n\n\n",
     "fullname": [
-        "蓮沼門三"
+        "\n              蓮沼\n             \n              門三\n             "
     ],
-    "label": "十二日  （日）",
+    "label": "十二日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-299",
-    "objectID": "DKB20018m-298",
-    "prev": "DKB20018m-297",
+    "next": "DKB20018m-0299",
+    "objectID": "DKB20018m-0298",
+    "prev": "DKB20018m-0297",
     "sort": "DKB20018m-0298",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "枕橋"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/枕橋"
+    ],
     "temporal": "1916-11-12",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>蓮沼</surname><forename>門三</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_蓮沼門三\">\n<surname>\n              蓮沼\n             </surname>\n<forename>\n              門三\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-298\">\n<head>\n<date when=\"1916-11-12\"> 十二日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>蓮沼</surname><forename>門三</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>第一銀行員ニ於テ男爵喜寿祝賀会（帝国ホテル）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>随鷗吟社大会（<placeName>枕橋</placeName>八百松）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0298\">\n<head>\n<date when=\"1916-11-12\">\n           十二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_蓮沼門三\">\n<surname>\n              蓮沼\n             </surname>\n<forename>\n              門三\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            第一銀行員ニ於テ男爵喜寿祝賀会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            随鷗吟社大会（\n            <placeName corresp=\"#place_枕橋\">\n             枕橋\n            </placeName>\n            八百松）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-11"
 }

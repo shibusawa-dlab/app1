@@ -1,18 +1,20 @@
 {
     "agential": [
         "草刈",
-        "桂公",
+        "桂",
         "大橋新太郎"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/草刈"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/草刈",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/桂",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大橋新太郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1216",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -22,17 +24,17 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-10",
     "date_lvl2": "1916-10-03",
-    "description": "\n\n 三日  （火） \n\n\n午前八時実業之日本社大江氏来約（飛鳥山）\n\n\n午前八半時　　草刈氏来約（飛鳥山邸）\n\n\n午後三時故桂公事業記念会（防長クラブ）\n\n\n午後五時東亜製粉大橋新太郎氏ヨリ御案内（トキワヤ）\n\n\n",
+    "description": "\n\n\n           三日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n            実業之\n            \n             日本\n            \n            社大江氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前八半時\n            \n\n\n              草刈\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            故\n            \n\n              桂\n             \n\n            公事業記念会（防長クラブ）\n           \n\n\n\n\n             午後五時\n            \n\n             東亜\n            \n            製粉\n            \n\n              大橋\n             \n\n              新太郎\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n",
     "fullname": [
-        "大橋新太郎"
+        "\n              大橋\n             \n              新太郎\n             "
     ],
-    "label": "三日  （火）",
+    "label": "三日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-259",
-    "objectID": "DKB20018m-258",
-    "prev": "DKB20018m-257",
+    "next": "DKB20018m-0259",
+    "objectID": "DKB20018m-0258",
+    "prev": "DKB20018m-0257",
     "sort": "DKB20018m-0258",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本",
         "飛鳥山公園",
@@ -42,14 +44,15 @@
     "spatial_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/place/日本",
         "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/東亜"
     ],
     "temporal": "1916-10-03",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time>実業之<placeName>日本</placeName>社大江氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            実業之\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            社大江氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-258\">\n<head>\n<date when=\"1916-10-03\"> 三日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time>実業之<placeName>日本</placeName>社大江氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>草刈</surname></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>故<persName><forename>桂公</forename></persName>事業記念会（防長クラブ）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><placeName>東亜</placeName>製粉<persName><surname>大橋</surname><forename>新太郎</forename></persName>氏ヨリ御案内（トキワヤ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0258\">\n<head>\n<date when=\"1916-10-03\">\n           三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            実業之\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            社大江氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_草刈\">\n<surname>\n              草刈\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            故\n            <persName corresp=\"#pers_桂\">\n<surname>\n              桂\n             </surname>\n</persName>\n            公事業記念会（防長クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_東亜\">\n             東亜\n            </placeName>\n            製粉\n            <persName corresp=\"#pers_大橋新太郎\">\n<surname>\n              大橋\n             </surname>\n<forename>\n              新太郎\n             </forename>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-10"
 }

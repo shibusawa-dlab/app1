@@ -4,14 +4,15 @@
         "諸井恒平"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/門馬常",
         "https://shibusawa-dlab.github.io/lab1/api/chname/諸井恒平"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1497",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -21,28 +22,30 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-11",
     "date_lvl2": "1925-11-26",
-    "description": "\n\n 廿六日  （木） \n\n\n午前八半時　　門馬常次氏来約（アスカ山邸）\n\n\n午時　　　　　諸井恒平氏来約〃\n\n\n正午　　　　　事ム所ニ御出勤\n\n\n午后二時ストロング氏来約（事務所）\n\n\n午後三時御退出\n\n\n",
+    "description": "\n\n\n           廿六日\n          \n          （木）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              門馬\n             \n\n              常\n             \n\n            次氏来約（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午時\n            \n\n\n              諸井\n             \n\n              恒平\n             \n\n            氏来約〃\n           \n\n\n\n\n             正午\n            \n            事ム所ニ御出勤\n           \n\n\n\n\n             午后二時\n            \n            ストロング氏来約（事務所）\n           \n\n\n\n\n             午後三時\n            \n            御退出\n           \n\n\n",
     "fullname": [
-        "門馬常",
-        "諸井恒平"
+        "\n              門馬\n             \n              常\n             ",
+        "\n              諸井\n             \n              恒平\n             "
     ],
-    "label": "廿六日  （木）",
+    "label": "廿六日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20027m-215",
-    "objectID": "DKB20027m-214",
-    "prev": "DKB20027m-213",
+    "next": "DKB20027m-0215",
+    "objectID": "DKB20027m-0214",
+    "prev": "DKB20027m-0213",
     "sort": "DKB20027m-0214",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
-        "アスカ山"
+        "アスカ山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山邸"
+    ],
     "temporal": "1925-11-26",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>門馬</surname><forename>常</forename></persName>次氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>邸）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_門馬常\">\n<surname>\n              門馬\n             </surname>\n<forename>\n              常\n             </forename>\n</persName>\n            次氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-214\">\n<head>\n<date when=\"1925-11-26\"> 廿六日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>門馬</surname><forename>常</forename></persName>次氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>邸）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">午時</time>　　　　　<persName><surname>諸井</surname><forename>恒平</forename></persName>氏来約〃</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　事ム所ニ御出勤</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午后二時</time>ストロング氏来約（事務所）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>御退出</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0214\">\n<head>\n<date when=\"1925-11-26\">\n           廿六日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_門馬常\">\n<surname>\n              門馬\n             </surname>\n<forename>\n              常\n             </forename>\n</persName>\n            次氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_諸井恒平\">\n<surname>\n              諸井\n             </surname>\n<forename>\n              恒平\n             </forename>\n</persName>\n            氏来約〃\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            事ム所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n            ストロング氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            御退出\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-11"
 }

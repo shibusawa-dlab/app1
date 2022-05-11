@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1417",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -20,17 +20,17 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-01",
     "date_lvl2": "1923-01-10",
-    "description": "\n\n 十日  （水） \n\n\n午後二時故大隈重信侯一年祭（早稲田別邸）\n\n\n午後五時中島男ヨリ御案内（浜町常盤屋）\n\n\n",
+    "description": "\n\n\n           十日\n          \n          （水）\n         \n\n\n\n\n             午後二時\n            \n            故\n            \n\n              大隈\n             \n\n              重信\n             \n\n            侯一年祭（\n            \n             早稲田\n            \n            別邸）\n           \n\n\n\n\n             午後五時\n            \n            中島男ヨリ御案内（\n            \n             浜町\n            \n\n             常盤\n            \n            屋）\n           \n\n\n",
     "fullname": [
-        "大隈重信"
+        "\n              大隈\n             \n              重信\n             "
     ],
-    "label": "十日  （水）",
+    "label": "十日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20025m-11",
-    "objectID": "DKB20025m-10",
-    "prev": "DKB20025m-9",
+    "next": "DKB20025m-0011",
+    "objectID": "DKB20025m-0010",
+    "prev": "DKB20025m-0009",
     "sort": "DKB20025m-0010",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "早稲田",
         "浜町",
@@ -43,10 +43,10 @@
     ],
     "temporal": "1923-01-10",
     "time": {
-        "14:00:00": "<div><time when=\"14:00:00\">午後二時</time>故<persName><surname>大隈</surname><forename>重信</forename></persName>侯一年祭（<placeName>早稲田</placeName>別邸）</div>"
+        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n            故\n            <persName corresp=\"#pers_大隈重信\">\n<surname>\n              大隈\n             </surname>\n<forename>\n              重信\n             </forename>\n</persName>\n            侯一年祭（\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            別邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-10\">\n<head>\n<date when=\"1923-01-10\"> 十日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>故<persName><surname>大隈</surname><forename>重信</forename></persName>侯一年祭（<placeName>早稲田</placeName>別邸）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>中島男ヨリ御案内（<placeName>浜町</placeName><placeName>常盤</placeName>屋）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0010\">\n<head>\n<date when=\"1923-01-10\">\n           十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            故\n            <persName corresp=\"#pers_大隈重信\">\n<surname>\n              大隈\n             </surname>\n<forename>\n              重信\n             </forename>\n</persName>\n            侯一年祭（\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            別邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            中島男ヨリ御案内（\n            <placeName corresp=\"#place_浜町\">\n             浜町\n            </placeName>\n<placeName corresp=\"#place_常盤\">\n             常盤\n            </placeName>\n            屋）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-01"
 }

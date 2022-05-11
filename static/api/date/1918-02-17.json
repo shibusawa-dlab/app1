@@ -3,10 +3,10 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1260",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20020m 大正七年 1918"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20020m 大正七年 1918"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20020m 大正七年 1918",
     "date": {
         "lvl0": "1918",
@@ -16,15 +16,15 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-02",
     "date_lvl2": "1918-02-17",
-    "description": "\n\n 十七日  （日） \n\n\n午前九・四五時東京駅発車ニテ湯河原ヘ御出向\n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （日）\n         \n\n\n\n\n             午前九・四五時\n            \n\n             東京\n            \n            駅発車ニテ\n            \n             湯河原\n            \n            ヘ御出向\n           \n\n\n",
     "fullname": [],
-    "label": "十七日  （日）",
+    "label": "十七日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20020m-48",
-    "objectID": "DKB20020m-46",
-    "prev": "DKB20020m-45",
+    "next": "DKB20020m-0048",
+    "objectID": "DKB20020m-0046",
+    "prev": "DKB20020m-0045",
     "sort": "DKB20020m-0046",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京",
         "湯河原町"
@@ -35,10 +35,10 @@
     ],
     "temporal": "1918-02-17",
     "time": {
-        "09:45:00": "<div><time when=\"09:45:00\">午前九・四五時</time><placeName>東京</placeName>駅発車ニテ<placeName>湯河原</placeName>ヘ御出向</div>"
+        "09:45:00": "<div><time when=\"09:45:00\">\n             午前九・四五時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発車ニテ\n            <placeName corresp=\"#place_湯河原町\">\n             湯河原\n            </placeName>\n            ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-46\">\n<head>\n<date when=\"1918-02-17\"> 十七日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"09:45:00\">午前九・四五時</time><placeName>東京</placeName>駅発車ニテ<placeName>湯河原</placeName>ヘ御出向</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0046\">\n<head>\n<date when=\"1918-02-17\">\n           十七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:45:00\">\n             午前九・四五時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発車ニテ\n            <placeName corresp=\"#place_湯河原町\">\n             湯河原\n            </placeName>\n            ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-02"
 }

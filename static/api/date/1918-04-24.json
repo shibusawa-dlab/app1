@@ -6,14 +6,17 @@
         "村井吉兵衛"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/斎藤恒三",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/東伏見宮妃",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/副島",
         "https://shibusawa-dlab.github.io/lab1/api/chname/村井吉兵衛"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1266",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20020m 大正七年 1918"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20020m 大正七年 1918"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20020m 大正七年 1918",
     "date": {
         "lvl0": "1918",
@@ -23,32 +26,33 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-04",
     "date_lvl2": "1918-04-24",
-    "description": "\n\n 廿四日  （水） \n\n\n午前八時斎藤恒三氏来約（飛鳥山邸）\n\n\n午後〇半時　　養育院本院ヘ御出向（東伏見宮妃殿下同院ヘ台臨ニ付）\n\n\n午後三時副島伯来約（兜町）\n\n\n午後六時村井吉兵衛氏ヨリ御案内（瓢屋）\n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （水）\n         \n\n\n\n\n             午前八時\n            \n\n\n              斎藤\n             \n\n              恒三\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後〇半時\n            \n            養育院本院ヘ御出向\n            \n            （\n            \n\n              東伏見宮\n             \n\n              妃\n             \n\n            殿下同院ヘ台臨ニ付）\n           \n\n\n\n\n             午後三時\n            \n\n\n              副島\n             \n\n            伯来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n\n\n              村井\n             \n\n              吉兵衛\n             \n\n            氏ヨリ御案内（瓢屋）\n           \n\n\n",
     "fullname": [
-        "斎藤恒三",
-        "東伏見宮妃",
-        "村井吉兵衛"
+        "\n              斎藤\n             \n              恒三\n             ",
+        "\n              東伏見宮\n             \n              妃\n             ",
+        "\n              村井\n             \n              吉兵衛\n             "
     ],
-    "label": "廿四日  （水）",
+    "label": "廿四日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20020m-109",
-    "objectID": "DKB20020m-108",
-    "prev": "DKB20020m-107",
+    "next": "DKB20020m-0109",
+    "objectID": "DKB20020m-0108",
+    "prev": "DKB20020m-0107",
     "sort": "DKB20020m-0108",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "日本橋兜町"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1918-04-24",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>斎藤</surname><forename>恒三</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_斎藤恒三\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              恒三\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-108\">\n<head>\n<date when=\"1918-04-24\"> 廿四日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>斎藤</surname><forename>恒三</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:30:00\">午後〇半時</time>　　養育院本院ヘ御出向<lb/>（<persName><surname>東伏見宮</surname><forename>妃</forename></persName>殿下同院ヘ台臨ニ付）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>副島</surname></persName>伯来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time><persName><surname>村井</surname><forename>吉兵衛</forename></persName>氏ヨリ御案内（瓢屋）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0108\">\n<head>\n<date when=\"1918-04-24\">\n           廿四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_斎藤恒三\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              恒三\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇半時\n            </time>\n            養育院本院ヘ御出向\n            <lb/>\n            （\n            <persName corresp=\"#pers_東伏見宮妃\">\n<surname>\n              東伏見宮\n             </surname>\n<forename>\n              妃\n             </forename>\n</persName>\n            殿下同院ヘ台臨ニ付）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_副島\">\n<surname>\n              副島\n             </surname>\n</persName>\n            伯来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_村井吉兵衛\">\n<surname>\n              村井\n             </surname>\n<forename>\n              吉兵衛\n             </forename>\n</persName>\n            氏ヨリ御案内（瓢屋）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-04"
 }

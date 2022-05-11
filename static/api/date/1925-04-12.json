@@ -3,13 +3,16 @@
         "松本清助",
         "直太郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松本清助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/直太郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1488",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -19,17 +22,17 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-04",
     "date_lvl2": "1925-04-12",
-    "description": "\n\n 十二日  （日） \n\n\n埼玉及埼玉県人会　飛鳥山邸\n\n\n午前十一時半松本清助并ニ直太郎来約《（氏脱）》\n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （日）\n         \n\n\n\n\n             埼玉\n            \n            及\n            \n             埼玉\n            \n            県人会\n            \n             飛鳥山\n            \n            邸\n           \n\n\n\n\n\n             午前十一時半\n            \n\n\n              松本\n             \n\n              清助\n             \n\n            并ニ\n            \n\n              直太郎\n             \n\n            来約《（氏脱）》\n           \n\n\n",
     "fullname": [
-        "松本清助"
+        "\n              松本\n             \n              清助\n             "
     ],
-    "label": "十二日  （日）",
+    "label": "十二日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20027m-61",
-    "objectID": "DKB20027m-59",
-    "prev": "DKB20027m-58",
+    "next": "DKB20027m-0061",
+    "objectID": "DKB20027m-0059",
+    "prev": "DKB20027m-0058",
     "sort": "DKB20027m-0059",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "埼玉",
         "飛鳥山公園"
@@ -41,7 +44,7 @@
     "temporal": "1925-04-12",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-59\">\n<head>\n<date when=\"1925-04-12\"> 十二日 </date> （日） </head>\n<listEvent>\n<event>\n<p><placeName>埼玉</placeName>及<placeName>埼玉</placeName>県人会　<placeName>飛鳥山</placeName>邸</p>\n</event>\n<event>\n<p><pb n=\"B2649\"/><time when=\"11:30:00\">午前十一時半</time><persName><surname>松本</surname><forename>清助</forename></persName>并ニ<persName><forename>直太郎</forename></persName>来約《（氏脱）》</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0059\">\n<head>\n<date when=\"1925-04-12\">\n           十二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            及\n            <placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県人会\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2649\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1488/full/max/0/default.jpg\" n=\"B2649\" source=\"#pageB2649\"/>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n<persName corresp=\"#pers_松本清助\">\n<surname>\n              松本\n             </surname>\n<forename>\n              清助\n             </forename>\n</persName>\n            并ニ\n            <persName corresp=\"#pers_直太郎\">\n<forename>\n              直太郎\n             </forename>\n</persName>\n            来約《（氏脱）》\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-04"
 }

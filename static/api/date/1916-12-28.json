@@ -8,14 +8,15 @@
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/浅野",
         "https://shibusawa-dlab.github.io/lab1/api/chname/田中太郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/堀越"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/堀越",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/植木民彦"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1222",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -25,18 +26,18 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-12",
     "date_lvl2": "1916-12-28",
-    "description": "\n\n 廿八日  （木） \n\n\n正午　　　　　浅野氏ヨリ御招待（田町同邸）夫人共\n\n\n午後三時田中太郎氏来約（兜町）\n\n\n午後三時堀越氏来約（兜町）\n\n\n午後四時植木民彦氏来約（兜町）\n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （木）\n         \n\n\n\n\n             正午\n            \n\n\n              浅野\n             \n\n            氏ヨリ御招待（\n            \n             田町\n            \n            同邸）\n            \n            夫人共\n           \n\n\n\n\n             午後三時\n            \n\n\n              田中\n             \n\n              太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n\n             午後三時\n            \n\n\n              堀越\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n\n              植木\n             \n\n              民彦\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "田中太郎",
-        "植木民彦"
+        "\n              田中\n             \n              太郎\n             ",
+        "\n              植木\n             \n              民彦\n             "
     ],
-    "label": "廿八日  （木）",
+    "label": "廿八日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-338",
-    "objectID": "DKB20018m-337",
-    "prev": "DKB20018m-336",
+    "next": "DKB20018m-0338",
+    "objectID": "DKB20018m-0337",
+    "prev": "DKB20018m-0336",
     "sort": "DKB20018m-0337",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "田町",
         "日本橋兜町"
@@ -47,10 +48,10 @@
     ],
     "temporal": "1916-12-28",
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">正午</time>　　　　　<persName><surname>浅野</surname></persName>氏ヨリ御招待（<placeName>田町</placeName>同邸）<lb/>夫人共</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_浅野\">\n<surname>\n              浅野\n             </surname>\n</persName>\n            氏ヨリ御招待（\n            <placeName corresp=\"#place_田町\">\n             田町\n            </placeName>\n            同邸）\n            <lb/>\n            夫人共</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-337\">\n<head>\n<date when=\"1916-12-28\"> 廿八日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　<persName><surname>浅野</surname></persName>氏ヨリ御招待（<placeName>田町</placeName>同邸）<lb/>夫人共</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>田中</surname><forename>太郎</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><pb n=\"B2383\"/><time when=\"15:00:00\">午後三時</time><persName><surname>堀越</surname></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><persName><surname>植木</surname><forename>民彦</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0337\">\n<head>\n<date when=\"1916-12-28\">\n           廿八日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_浅野\">\n<surname>\n              浅野\n             </surname>\n</persName>\n            氏ヨリ御招待（\n            <placeName corresp=\"#place_田町\">\n             田町\n            </placeName>\n            同邸）\n            <lb/>\n            夫人共\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_田中太郎\">\n<surname>\n              田中\n             </surname>\n<forename>\n              太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2383\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1222/full/max/0/default.jpg\" n=\"B2383\" source=\"#pageB2383\"/>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_堀越\">\n<surname>\n              堀越\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_植木民彦\">\n<surname>\n              植木\n             </surname>\n<forename>\n              民彦\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-12"
 }

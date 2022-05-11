@@ -3,10 +3,10 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1392",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -16,15 +16,15 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-05",
     "date_lvl2": "1922-05-18",
-    "description": "\n\n 十八日  （木） \n\n\n午前九・一二　王子駅発前橋ヘ御出向ノ約\n\n\n午後五・十一　前橋駅発\n\n\n午後八・四六　王子駅着御帰京ノ筈\n\n\n",
+    "description": "\n\n\n           十八日\n          \n          （木）\n         \n\n\n\n\n             午前九・一二\n            \n\n             王子\n            \n            駅発\n            \n             前橋\n            \n            ヘ御出向ノ約\n           \n\n\n\n\n             午後五・十一\n            \n\n             前橋\n            \n            駅発\n           \n\n\n\n\n             午後八・四六\n            \n\n             王子\n            \n            駅着御帰京ノ筈\n           \n\n\n",
     "fullname": [],
-    "label": "十八日  （木）",
+    "label": "十八日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-113",
-    "objectID": "DKB20024m-112",
-    "prev": "DKB20024m-111",
+    "next": "DKB20024m-0113",
+    "objectID": "DKB20024m-0112",
+    "prev": "DKB20024m-0111",
     "sort": "DKB20024m-0112",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "王子",
         "前橋"
@@ -35,10 +35,10 @@
     ],
     "temporal": "1922-05-18",
     "time": {
-        "09:12:00": "<div><time when=\"09:12:00\">午前九・一二</time>　<placeName>王子</placeName>駅発<placeName>前橋</placeName>ヘ御出向ノ約</div>"
+        "09:12:00": "<div><time when=\"09:12:00\">\n             午前九・一二\n            </time>\n<placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅発\n            <placeName corresp=\"#place_前橋\">\n             前橋\n            </placeName>\n            ヘ御出向ノ約</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-112\">\n<head>\n<date when=\"1922-05-18\"> 十八日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"09:12:00\">午前九・一二</time>　<placeName>王子</placeName>駅発<placeName>前橋</placeName>ヘ御出向ノ約</p>\n</event>\n<event>\n<p><time when=\"17:11:00\">午後五・十一</time>　<placeName>前橋</placeName>駅発</p>\n</event>\n<event>\n<p><time when=\"20:46:00\">午後八・四六</time>　<placeName>王子</placeName>駅着御帰京ノ筈</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0112\">\n<head>\n<date when=\"1922-05-18\">\n           十八日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:12:00\">\n             午前九・一二\n            </time>\n<placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅発\n            <placeName corresp=\"#place_前橋\">\n             前橋\n            </placeName>\n            ヘ御出向ノ約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:11:00\">\n             午後五・十一\n            </time>\n<placeName corresp=\"#place_前橋\">\n             前橋\n            </placeName>\n            駅発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"20:46:00\">\n             午後八・四六\n            </time>\n<placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅着御帰京ノ筈\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-05"
 }

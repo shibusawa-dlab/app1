@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1537",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -22,25 +22,27 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-03",
     "date_lvl2": "1927-03-08",
-    "description": "\n\n 八日  （火） \n\n\n午後一時清水画伯来約（あすか山邸）\n\n\n午後五時高田、井の辺両氏来約（あすか山邸）\n\n\n",
+    "description": "\n\n\n           八日\n          \n          （火）\n         \n\n\n\n\n             午後一時\n            \n\n\n              清水\n             \n\n            画伯来約（\n            \n             あすか山邸\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              高田\n             \n\n            、井の辺両氏来約（\n            \n             あすか山邸\n            \n            ）\n           \n\n\n",
     "fullname": [],
-    "label": "八日  （火）",
+    "label": "八日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-51",
-    "objectID": "DKB20029m-50",
-    "prev": "DKB20029m-49",
+    "next": "DKB20029m-0051",
+    "objectID": "DKB20029m-0050",
+    "prev": "DKB20029m-0049",
     "sort": "DKB20029m-0050",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
-        "あすか山"
+        "あすか山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/あすか山邸"
+    ],
     "temporal": "1927-03-08",
     "time": {
-        "13:00:00": "<div><time when=\"13:00:00\">午後一時</time><persName><surname>清水</surname></persName>画伯来約（<placeName corresp=\"#飛鳥山\">あすか山</placeName>邸）</div>"
+        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_清水\">\n<surname>\n              清水\n             </surname>\n</persName>\n            画伯来約（\n            <placeName corresp=\"#place_あすか山邸\">\n             あすか山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-50\">\n<head>\n<date when=\"1927-03-08\"> 八日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"13:00:00\">午後一時</time><persName><surname>清水</surname></persName>画伯来約（<placeName corresp=\"#飛鳥山\">あすか山</placeName>邸）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><persName><surname>高田</surname></persName>、井の辺両氏来約（<placeName corresp=\"#飛鳥山\">あすか山</placeName>邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0050\">\n<head>\n<date when=\"1927-03-08\">\n           八日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_清水\">\n<surname>\n              清水\n             </surname>\n</persName>\n            画伯来約（\n            <placeName corresp=\"#place_あすか山邸\">\n             あすか山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_高田\">\n<surname>\n              高田\n             </surname>\n</persName>\n            、井の辺両氏来約（\n            <placeName corresp=\"#place_あすか山邸\">\n             あすか山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-03"
 }

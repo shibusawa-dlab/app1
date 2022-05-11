@@ -6,16 +6,17 @@
         "日下義雄"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小貫修一郎",
         "https://shibusawa-dlab.github.io/lab1/api/chname/原",
         "https://shibusawa-dlab.github.io/lab1/api/chname/渡辺千秋",
         "https://shibusawa-dlab.github.io/lab1/api/chname/日下義雄"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1374",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -25,19 +26,19 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-08",
     "date_lvl2": "1921-08-30",
-    "description": "\n\n 三十日  （火） \n\n\n午前八時小貫修一郎氏来約（飛鳥山）\n\n\n午後一時原首相ヲ御訪問（官邸）\n\n\n午後一―三時故渡辺千秋氏告別式（同邸）\n\n\n午後四時日下義雄氏来約（兜町）\n\n\n午後六時御同族会（兜町）\n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n\n\n              小貫\n             \n\n              修一郎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n\n              原\n             \n\n            首相ヲ御訪問（官邸）\n           \n\n\n\n\n             午後一―三時\n            \n            故\n            \n\n              渡辺\n             \n\n              千秋\n             \n\n            氏告別式（同邸）\n           \n\n\n\n\n             午後四時\n            \n\n\n              日下\n             \n\n              義雄\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n            御同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "小貫修一郎",
-        "渡辺千秋",
-        "日下義雄"
+        "\n              小貫\n             \n              修一郎\n             ",
+        "\n              渡辺\n             \n              千秋\n             ",
+        "\n              日下\n             \n              義雄\n             "
     ],
-    "label": "三十日  （火）",
+    "label": "三十日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20023m-236",
-    "objectID": "DKB20023m-235",
-    "prev": "DKB20023m-234",
+    "next": "DKB20023m-0236",
+    "objectID": "DKB20023m-0235",
+    "prev": "DKB20023m-0234",
     "sort": "DKB20023m-0235",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "日本橋兜町"
@@ -48,10 +49,10 @@
     ],
     "temporal": "1921-08-30",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>小貫</surname><forename>修一郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_小貫修一郎\">\n<surname>\n              小貫\n             </surname>\n<forename>\n              修一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-235\">\n<head>\n<date when=\"1921-08-30\"> 三十日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>小貫</surname><forename>修一郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time><persName><surname>原</surname></persName>首相ヲ御訪問（官邸）</p>\n</event>\n<event>\n<p><time from=\"13:00:00\" to=\"15:00:00\">午後一―三時</time>故<persName><surname>渡辺</surname><forename>千秋</forename></persName>氏告別式（同邸）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><persName><surname>日下</surname><forename>義雄</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time>御同族会（<placeName>兜町</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0235\">\n<head>\n<date when=\"1921-08-30\">\n           三十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_小貫修一郎\">\n<surname>\n              小貫\n             </surname>\n<forename>\n              修一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            首相ヲ御訪問（官邸）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"15:00:00\">\n             午後一―三時\n            </time>\n            故\n            <persName corresp=\"#pers_渡辺千秋\">\n<surname>\n              渡辺\n             </surname>\n<forename>\n              千秋\n             </forename>\n</persName>\n            氏告別式（同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_日下義雄\">\n<surname>\n              日下\n             </surname>\n<forename>\n              義雄\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-08"
 }

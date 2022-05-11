@@ -1,16 +1,18 @@
 {
     "agential": [
+        "穂積",
         "清浦"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/穂積",
         "https://shibusawa-dlab.github.io/lab1/api/chname/清浦"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1456",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -20,27 +22,23 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-03",
     "date_lvl2": "1924-03-04",
-    "description": "\n\n 四日  （火） \n\n\n午前八半時迄ニ　穂積男爵家御訪問\n\n\n正午　　　　　日華学会理事会（工業クラブ）\n\n\n午后三時清浦首相ヲ官邸ニ御訪問\n\n\n",
+    "description": "\n\n\n           四日\n          \n          （火）\n         \n\n\n\n\n             午前八半時\n            \n            迄ニ\n            \n\n              穂積\n             \n\n            男爵家御訪問\n           \n\n\n\n\n             正午\n            \n            日華学会理事会（工業クラブ）\n           \n\n\n\n\n             午后三時\n            \n\n\n              清浦\n             \n\n            首相ヲ官邸ニ御訪問\n           \n\n\n",
     "fullname": [],
-    "label": "四日  （火）",
+    "label": "四日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-67",
-    "objectID": "DKB20026m-66",
-    "prev": "DKB20026m-65",
+    "next": "DKB20026m-0067",
+    "objectID": "DKB20026m-0066",
+    "prev": "DKB20026m-0065",
     "sort": "DKB20026m-0066",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "穂積"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/穂積"
-    ],
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "spatial": [],
+    "spatial_uri": [],
     "temporal": "1924-03-04",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八半時</time>迄ニ　<placeName>穂積</placeName>男爵家御訪問</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n            迄ニ\n            <persName corresp=\"#pers_穂積\">\n<surname>\n              穂積\n             </surname>\n</persName>\n            男爵家御訪問</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-66\">\n<head>\n<date when=\"1924-03-04\"> 四日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>迄ニ　<placeName>穂積</placeName>男爵家御訪問</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　日華学会理事会（工業クラブ）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午后三時</time><persName><surname>清浦</surname></persName>首相ヲ官邸ニ御訪問</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0066\">\n<head>\n<date when=\"1924-03-04\">\n           四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            迄ニ\n            <persName corresp=\"#pers_穂積\">\n<surname>\n              穂積\n             </surname>\n</persName>\n            男爵家御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華学会理事会（工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n<persName corresp=\"#pers_清浦\">\n<surname>\n              清浦\n             </surname>\n</persName>\n            首相ヲ官邸ニ御訪問\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-03"
 }

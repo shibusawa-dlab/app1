@@ -7,11 +7,11 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1501",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-01",
@@ -20,17 +20,17 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-01",
     "date_lvl2": "1926-01-20",
-    "description": "\n\n 二十日  （水） \n\n\n午前九半時　　結城豊太郎氏来約（王子）\n\n\n正午　　　　　事務所ニ御出勤\n\n\n午後二時国際聯盟協会協議会（日本工業クラブ）\n\n\n午後二時森川写真館ヘ御出向\n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （水）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              結城\n             \n\n              豊太郎\n             \n\n            氏来約（\n            \n             王子\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午後二時\n            \n            国際聯盟協会協議会（日本工業クラブ）\n           \n\n\n\n\n             午後二時\n            \n\n             森川\n            \n            写真館ヘ御出向\n           \n\n\n",
     "fullname": [
-        "結城豊太郎"
+        "\n              結城\n             \n              豊太郎\n             "
     ],
-    "label": "二十日  （水）",
+    "label": "二十日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-21",
-    "objectID": "DKB20028m-20",
-    "prev": "DKB20028m-18",
+    "next": "DKB20028m-0021",
+    "objectID": "DKB20028m-0020",
+    "prev": "DKB20028m-0018",
     "sort": "DKB20028m-0020",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "王子",
         "森川"
@@ -41,10 +41,10 @@
     ],
     "temporal": "1926-01-20",
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">午前九半時</time>　　<persName><surname>結城</surname><forename>豊太郎</forename></persName>氏来約（<placeName>王子</placeName>）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_結城豊太郎\">\n<surname>\n              結城\n             </surname>\n<forename>\n              豊太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-20\">\n<head>\n<date when=\"1926-01-20\"> 二十日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"09:30:00\">午前九半時</time>　　<persName><surname>結城</surname><forename>豊太郎</forename></persName>氏来約（<placeName>王子</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　事務所ニ御出勤</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>国際聯盟協会協議会（日本工業クラブ）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><placeName>森川</placeName>写真館ヘ御出向</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0020\">\n<head>\n<date when=\"1926-01-20\">\n           二十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_結城豊太郎\">\n<surname>\n              結城\n             </surname>\n<forename>\n              豊太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            国際聯盟協会協議会（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_森川\">\n             森川\n            </placeName>\n            写真館ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-01"
 }

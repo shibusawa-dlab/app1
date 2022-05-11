@@ -5,13 +5,18 @@
         "埴原",
         "床次"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/東敬治",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/奥宮正治",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/埴原",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/床次"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1337",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -21,28 +26,30 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-07",
     "date_lvl2": "1920-07-25",
-    "description": "\n\n 廿五日  （日） \n\n\n午前八時東敬治、奥宮正治両氏来約（飛鳥山邸）\n\n\n午後三半時　　埴原外務次官ヲ御訪問（外務省）\n\n\n午後五時床次内相ヲ御訪問（官邸）\n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n\n\n              東\n             \n\n              敬治\n             \n\n            、\n            \n\n              奥宮\n             \n\n              正治\n             \n\n            両氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後三半時\n            \n\n\n              埴原\n             \n\n            外務次官ヲ御訪問（外務省）\n           \n\n\n\n\n             午後五時\n            \n\n\n              床次\n             \n\n            内相ヲ御訪問（官邸）\n           \n\n\n",
     "fullname": [
-        "東敬治",
-        "奥宮正治"
+        "\n              東\n             \n              敬治\n             ",
+        "\n              奥宮\n             \n              正治\n             "
     ],
-    "label": "廿五日  （日）",
+    "label": "廿五日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-197",
-    "objectID": "DKB20022m-196",
-    "prev": "DKB20022m-195",
+    "next": "DKB20022m-0197",
+    "objectID": "DKB20022m-0196",
+    "prev": "DKB20022m-0195",
     "sort": "DKB20022m-0196",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1920-07-25",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>東</surname><forename>敬治</forename></persName>、<persName><surname>奥宮</surname><forename>正治</forename></persName>両氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_東敬治\">\n<surname>\n              東\n             </surname>\n<forename>\n              敬治\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_奥宮正治\">\n<surname>\n              奥宮\n             </surname>\n<forename>\n              正治\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-196\">\n<head>\n<date when=\"1920-07-25\"> 廿五日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>東</surname><forename>敬治</forename></persName>、<persName><surname>奥宮</surname><forename>正治</forename></persName>両氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:30:00\">午後三半時</time>　　<persName><surname>埴原</surname></persName>外務次官ヲ御訪問（外務省）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><persName><surname>床次</surname></persName>内相ヲ御訪問（官邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0196\">\n<head>\n<date when=\"1920-07-25\">\n           廿五日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_東敬治\">\n<surname>\n              東\n             </surname>\n<forename>\n              敬治\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_奥宮正治\">\n<surname>\n              奥宮\n             </surname>\n<forename>\n              正治\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n<persName corresp=\"#pers_埴原\">\n<surname>\n              埴原\n             </surname>\n</persName>\n            外務次官ヲ御訪問（外務省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_床次\">\n<surname>\n              床次\n             </surname>\n</persName>\n            内相ヲ御訪問（官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-07"
 }

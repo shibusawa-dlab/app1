@@ -6,15 +6,17 @@
         "原"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/笠井重治",
         "https://shibusawa-dlab.github.io/lab1/api/chname/大隈",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高橋大蔵",
         "https://shibusawa-dlab.github.io/lab1/api/chname/原"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1343",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -24,18 +26,18 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-09",
     "date_lvl2": "1920-09-30",
-    "description": "\n\n 三十日  （木） \n\n\n午前八時笠井重治氏速記者同伴来約（飛鳥山）\n\n\n午前十一半時　早稲田大学基金管理委員会例会（大隈侯邸）\n\n\n午後二時高橋大蔵大臣ヲ御訪問（自邸）\n\n\n午後四時原首相ヲ御訪問（官邸）\n\n\n午後六時御同族会（兜町）\n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n\n\n              笠井\n             \n\n              重治\n             \n\n            氏速記者同伴来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十一半時\n            \n            早稲田大学基金管理委員会例会（\n            \n\n              大隈\n             \n\n            侯邸）\n           \n\n\n\n\n             午後二時\n            \n\n\n              高橋\n             \n\n              大蔵\n             \n\n            大臣ヲ御訪問（自邸）\n           \n\n\n\n\n             午後四時\n            \n\n\n              原\n             \n\n            首相ヲ御訪問（官邸）\n           \n\n\n\n\n             午後六時\n            \n            御同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "笠井重治",
-        "高橋大蔵"
+        "\n              笠井\n             \n              重治\n             ",
+        "\n              高橋\n             \n              大蔵\n             "
     ],
-    "label": "三十日  （木）",
+    "label": "三十日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-251",
-    "objectID": "DKB20022m-250",
-    "prev": "DKB20022m-249",
+    "next": "DKB20022m-0251",
+    "objectID": "DKB20022m-0250",
+    "prev": "DKB20022m-0249",
     "sort": "DKB20022m-0250",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "日本橋兜町"
@@ -46,10 +48,10 @@
     ],
     "temporal": "1920-09-30",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>笠井</surname><forename>重治</forename></persName>氏速記者同伴来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_笠井重治\">\n<surname>\n              笠井\n             </surname>\n<forename>\n              重治\n             </forename>\n</persName>\n            氏速記者同伴来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-250\">\n<head>\n<date when=\"1920-09-30\"> 三十日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>笠井</surname><forename>重治</forename></persName>氏速記者同伴来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:30:00\">午前十一半時</time>　早稲田大学基金管理委員会例会（<persName><surname>大隈</surname></persName>侯邸）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>高橋</surname><forename>大蔵</forename></persName>大臣ヲ御訪問（自邸）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><persName><surname>原</surname></persName>首相ヲ御訪問（官邸）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time>御同族会（<placeName>兜町</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0250\">\n<head>\n<date when=\"1920-09-30\">\n           三十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_笠井重治\">\n<surname>\n              笠井\n             </surname>\n<forename>\n              重治\n             </forename>\n</persName>\n            氏速記者同伴来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            早稲田大学基金管理委員会例会（\n            <persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_高橋大蔵\">\n<surname>\n              高橋\n             </surname>\n<forename>\n              大蔵\n             </forename>\n</persName>\n            大臣ヲ御訪問（自邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            首相ヲ御訪問（官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-09"
 }

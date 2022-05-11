@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1199",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -20,17 +20,17 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-03",
     "date_lvl2": "1916-03-14",
-    "description": "\n\n 十四日  （火） \n\n\n午時　　　　　東京慈恵会理事会（同会）\n\n\n午時　　　　　中島久万吉男ヨリ御案内\n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （火）\n         \n\n\n\n\n             午時\n            \n\n             東京\n            \n            慈恵会理事会（同会）\n           \n\n\n\n\n             午時\n            \n\n\n              中島\n             \n\n              久万吉\n             \n\n            男ヨリ御案内\n           \n\n\n",
     "fullname": [
-        "中島久万吉"
+        "\n              中島\n             \n              久万吉\n             "
     ],
-    "label": "十四日  （火）",
+    "label": "十四日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-73",
-    "objectID": "DKB20018m-71",
-    "prev": "DKB20018m-70",
+    "next": "DKB20018m-0073",
+    "objectID": "DKB20018m-0071",
+    "prev": "DKB20018m-0070",
     "sort": "DKB20018m-0071",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京"
     ],
@@ -39,10 +39,10 @@
     ],
     "temporal": "1916-03-14",
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">午時</time>　　　　　<placeName>東京</placeName>慈恵会理事会（同会）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会理事会（同会）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-71\">\n<head>\n<date when=\"1916-03-14\"> 十四日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"12:00:00\">午時</time>　　　　　<placeName>東京</placeName>慈恵会理事会（同会）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">午時</time>　　　　　<persName><surname>中島</surname><forename>久万吉</forename></persName>男ヨリ御案内</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0071\">\n<head>\n<date when=\"1916-03-14\">\n           十四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_中島久万吉\">\n<surname>\n              中島\n             </surname>\n<forename>\n              久万吉\n             </forename>\n</persName>\n            男ヨリ御案内\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-03"
 }

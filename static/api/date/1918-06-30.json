@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1272",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20020m 大正七年 1918"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20020m 大正七年 1918"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20020m 大正七年 1918",
     "date": {
         "lvl0": "1918",
@@ -22,23 +22,25 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-06",
     "date_lvl2": "1918-06-30",
-    "description": "\n\n 三十日  （日） \n\n\n午前時　　　　本野子爵御見舞\n\n\n〃　　　　　尾崎男爵御見舞\n\n\n午後二時修養団々長就任披露会（飛鳥山邸）\n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （日）\n         \n\n\n\n\n             午前時\n            \n\n\n              本野\n             \n\n            子爵御見舞\n           \n\n\n\n\n             〃\n            \n\n\n              尾崎\n             \n\n            男爵御見舞\n           \n\n\n\n\n             午後二時\n            \n            修養団々長就任披露会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "fullname": [],
-    "label": "三十日  （日）",
+    "label": "三十日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20020m-176",
-    "objectID": "DKB20020m-175",
-    "prev": "DKB20020m-174",
+    "next": "DKB20020m-0176",
+    "objectID": "DKB20020m-0175",
+    "prev": "DKB20020m-0174",
     "sort": "DKB20020m-0175",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1918-06-30",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-175\">\n<head>\n<date when=\"1918-06-30\"> 三十日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time>午前時</time>　　　　<persName><surname>本野</surname></persName>子爵御見舞</p>\n</event>\n<event>\n<p><time>〃</time>　　　　　<persName><surname>尾崎</surname></persName>男爵御見舞</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>修養団々長就任披露会（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0175\">\n<head>\n<date when=\"1918-06-30\">\n           三十日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前時\n            </time>\n<persName corresp=\"#pers_本野\">\n<surname>\n              本野\n             </surname>\n</persName>\n            子爵御見舞\n           </p>\n</event>\n<event>\n<p>\n<time>\n             〃\n            </time>\n<persName corresp=\"#pers_尾崎\">\n<surname>\n              尾崎\n             </surname>\n</persName>\n            男爵御見舞\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            修養団々長就任披露会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-06"
 }

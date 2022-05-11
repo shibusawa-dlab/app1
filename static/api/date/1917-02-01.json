@@ -6,14 +6,15 @@
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/浅野",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/寺内"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/寺内",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山本栄男"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1227",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -23,25 +24,25 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-02",
     "date_lvl2": "1917-02-01",
-    "description": "\n\n 一日  （木） \n\n\n午前九半時　　浅野氏邸ヘ御出向\n\n\n午前十一時寺内首相ト御会見ノ約（同官舎）\n\n\n午後四時明治神宮奉賛会理事会（帝国ホテル）\n\n\n午後五時山本栄男氏ヨリ御案内（トキワヤ）\n\n\n",
+    "description": "\n\n\n           一日\n          \n          （木）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              浅野\n             \n\n            氏邸ヘ御出向\n           \n\n\n\n\n             午前十一時\n            \n\n\n              寺内\n             \n\n            首相ト御会見ノ約（同官舎）\n           \n\n\n\n\n             午後四時\n            \n            明治神宮奉賛会理事会（帝国ホテル）\n           \n\n\n\n\n             午後五時\n            \n\n\n              山本\n             \n\n              栄男\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n",
     "fullname": [
-        "山本栄男"
+        "\n              山本\n             \n              栄男\n             "
     ],
-    "label": "一日  （木）",
+    "label": "一日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-33",
-    "objectID": "DKB20019m-32",
-    "prev": "DKB20019m-31",
+    "next": "DKB20019m-0033",
+    "objectID": "DKB20019m-0032",
+    "prev": "DKB20019m-0031",
     "sort": "DKB20019m-0032",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [],
     "spatial_uri": [],
     "temporal": "1917-02-01",
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">午前九半時</time>　　<persName><surname>浅野</surname></persName>氏邸ヘ御出向</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_浅野\">\n<surname>\n              浅野\n             </surname>\n</persName>\n            氏邸ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-32\">\n<head>\n<date when=\"1917-02-01\"> 一日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"09:30:00\">午前九半時</time>　　<persName><surname>浅野</surname></persName>氏邸ヘ御出向</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>寺内</surname></persName>首相ト御会見ノ約（同官舎）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>明治神宮奉賛会理事会（帝国ホテル）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><persName><surname>山本</surname><forename>栄男</forename></persName>氏ヨリ御案内（トキワヤ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0032\">\n<head>\n<date when=\"1917-02-01\">\n           一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_浅野\">\n<surname>\n              浅野\n             </surname>\n</persName>\n            氏邸ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_寺内\">\n<surname>\n              寺内\n             </surname>\n</persName>\n            首相ト御会見ノ約（同官舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            明治神宮奉賛会理事会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_山本栄男\">\n<surname>\n              山本\n             </surname>\n<forename>\n              栄男\n             </forename>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-02"
 }

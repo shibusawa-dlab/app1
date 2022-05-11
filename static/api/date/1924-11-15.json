@@ -5,15 +5,16 @@
         "閑院宮"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野源吾",
         "https://shibusawa-dlab.github.io/lab1/api/chname/藤山雷太",
         "https://shibusawa-dlab.github.io/lab1/api/chname/閑院宮"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1482",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -23,18 +24,18 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-11",
     "date_lvl2": "1924-11-15",
-    "description": "\n\n 十五日  （土） \n\n\n午前八時雑誌東北主幹浅野源吾氏来約（アスカ山）\n\n\n午前十時郵船会社ノ件（三菱本社）\n\n\n午前十一時日仏会館理事会（銀行クラブ）\n\n\n午後一時藤山雷太氏ヨリ御案内（同氏邸）\n\n\n午后三時婦人ニ関スル社会事業者協議会（愛宕町婦人会館）\n\n\n午后六時閑院宮殿下ヨリ報効会役員ニ晩餐ヲ賜ハル（同御殿、略服）\n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （土）\n         \n\n\n\n\n             午前八時\n            \n            雑誌\n            \n             東北\n            \n            主幹\n            \n\n              浅野\n             \n\n              源吾\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            郵船会社ノ件（三菱本社）\n           \n\n\n\n\n             午前十一時\n            \n            日仏会館理事会（銀行クラブ）\n           \n\n\n\n\n             午後一時\n            \n\n\n              藤山\n             \n\n              雷太\n             \n\n            氏ヨリ御案内（同氏邸）\n           \n\n\n\n\n             午后三時\n            \n            婦人ニ関スル社会事業者協議会（\n            \n             愛宕\n            \n            町婦人会館）\n           \n\n\n\n\n             午后六時\n            \n\n\n              閑院宮\n             \n\n            殿下ヨリ報効会役員ニ晩餐ヲ賜ハル（同御殿、略服）\n           \n\n\n",
     "fullname": [
-        "浅野源吾",
-        "藤山雷太"
+        "\n              浅野\n             \n              源吾\n             ",
+        "\n              藤山\n             \n              雷太\n             "
     ],
-    "label": "十五日  （土）",
+    "label": "十五日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-316",
-    "objectID": "DKB20026m-315",
-    "prev": "DKB20026m-314",
+    "next": "DKB20026m-0316",
+    "objectID": "DKB20026m-0315",
+    "prev": "DKB20026m-0314",
     "sort": "DKB20026m-0315",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東北地方",
         "アスカ山",
@@ -42,14 +43,15 @@
     ],
     "spatial_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/place/東北地方",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
         "https://shibusawa-dlab.github.io/lab1/api/place/愛宕"
     ],
     "temporal": "1924-11-15",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time>雑誌<placeName>東北</placeName>主幹<persName><surname>浅野</surname><forename>源吾</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            雑誌\n            <placeName corresp=\"#place_東北地方\">\n             東北\n            </placeName>\n            主幹\n            <persName corresp=\"#pers_浅野源吾\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              源吾\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-315\">\n<head>\n<date when=\"1924-11-15\"> 十五日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time>雑誌<placeName>東北</placeName>主幹<persName><surname>浅野</surname><forename>源吾</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>郵船会社ノ件（三菱本社）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>日仏会館理事会（銀行クラブ）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time><persName><surname>藤山</surname><forename>雷太</forename></persName>氏ヨリ御案内（同氏邸）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午后三時</time>婦人ニ関スル社会事業者協議会（<placeName>愛宕</placeName>町婦人会館）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午后六時</time><persName><surname>閑院宮</surname></persName>殿下ヨリ報効会役員ニ晩餐ヲ賜ハル（同御殿、略服）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0315\">\n<head>\n<date when=\"1924-11-15\">\n           十五日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            雑誌\n            <placeName corresp=\"#place_東北地方\">\n             東北\n            </placeName>\n            主幹\n            <persName corresp=\"#pers_浅野源吾\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              源吾\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            郵船会社ノ件（三菱本社）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            日仏会館理事会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_藤山雷太\">\n<surname>\n              藤山\n             </surname>\n<forename>\n              雷太\n             </forename>\n</persName>\n            氏ヨリ御案内（同氏邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n            婦人ニ関スル社会事業者協議会（\n            <placeName corresp=\"#place_愛宕\">\n             愛宕\n            </placeName>\n            町婦人会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午后六時\n            </time>\n<persName corresp=\"#pers_閑院宮\">\n<surname>\n              閑院宮\n             </surname>\n</persName>\n            殿下ヨリ報効会役員ニ晩餐ヲ賜ハル（同御殿、略服）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-11"
 }

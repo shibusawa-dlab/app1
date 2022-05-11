@@ -2,13 +2,15 @@
     "agential": [
         "入沢"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/入沢"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1474",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -18,23 +20,25 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-09",
     "date_lvl2": "1924-09-01",
-    "description": "\n\n 一日  （月） \n\n\n午前　　　　　入沢博士来診（飛鳥山邸）\n\n\n午後二半時　　大正大震災記念講演会ニ御出席（商工奨励会）《（商工奨励館）》\n\n\n",
+    "description": "\n\n\n           一日\n          \n          （月）\n         \n\n\n\n\n             午前\n            \n\n\n              入沢\n             \n\n            博士来診（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二半時\n            \n            大正大震災記念講演会ニ御出席（商工奨励会）《（商工奨励館）》\n           \n\n\n",
     "fullname": [],
-    "label": "一日  （月）",
+    "label": "一日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-239",
-    "objectID": "DKB20026m-238",
-    "prev": "DKB20026m-237",
+    "next": "DKB20026m-0239",
+    "objectID": "DKB20026m-0238",
+    "prev": "DKB20026m-0237",
     "sort": "DKB20026m-0238",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1924-09-01",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-238\">\n<head>\n<date when=\"1924-09-01\"> 一日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time>午前</time>　　　　　<persName><surname>入沢</surname></persName>博士来診（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:30:00\">午後二半時</time>　　大正大震災記念講演会ニ御出席（商工奨励会）《（商工奨励館）》</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0238\">\n<head>\n<date when=\"1924-09-01\">\n           一日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前\n            </time>\n<persName corresp=\"#pers_入沢\">\n<surname>\n              入沢\n             </surname>\n</persName>\n            博士来診（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            大正大震災記念講演会ニ御出席（商工奨励会）《（商工奨励館）》\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-09"
 }

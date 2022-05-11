@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1371",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -20,15 +20,15 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-07",
     "date_lvl2": "1921-07-21",
-    "description": "\n\n 廿一日  （木） \n\n\n午前九時日英商業振興ノ件（兜町）\n\n\n午後二時原首相ヲ御訪問（首相官邸）\n\n\n午後三時国際聯盟協会特別委員会（同会）\n\n\n午後五時観山会（山谷八百善）\n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n            日英商業振興ノ件（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              原\n             \n\n            首相ヲ御訪問（首相官邸）\n           \n\n\n\n\n             午後三時\n            \n            国際聯盟協会特別委員会（同会）\n           \n\n\n\n\n             午後五時\n            \n            観山会（\n            \n             山谷\n            \n            八百善）\n           \n\n\n",
     "fullname": [],
-    "label": "廿一日  （木）",
+    "label": "廿一日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20023m-196",
-    "objectID": "DKB20023m-195",
-    "prev": "DKB20023m-194",
+    "next": "DKB20023m-0196",
+    "objectID": "DKB20023m-0195",
+    "prev": "DKB20023m-0194",
     "sort": "DKB20023m-0195",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "山谷"
@@ -39,10 +39,10 @@
     ],
     "temporal": "1921-07-21",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time>日英商業振興ノ件（<placeName>兜町</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            日英商業振興ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-195\">\n<head>\n<date when=\"1921-07-21\"> 廿一日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time>日英商業振興ノ件（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>原</surname></persName>首相ヲ御訪問（首相官邸）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>国際聯盟協会特別委員会（同会）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>観山会（<placeName>山谷</placeName>八百善）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0195\">\n<head>\n<date when=\"1921-07-21\">\n           廿一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            日英商業振興ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            首相ヲ御訪問（首相官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            国際聯盟協会特別委員会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            観山会（\n            <placeName corresp=\"#place_山谷\">\n             山谷\n            </placeName>\n            八百善）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-07"
 }

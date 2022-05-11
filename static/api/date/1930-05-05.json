@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1609",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20032m 昭和五年 1930"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20032m 昭和五年 1930"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20032m 昭和五年 1930",
     "date": {
         "lvl0": "1930",
@@ -20,25 +20,25 @@
     "date_lvl0": "1930",
     "date_lvl1": "1930-05",
     "date_lvl2": "1930-05-05",
-    "description": "\n\n 五日  （月） \n\n\n午後一時故粕谷義三氏邸御弔問\n\n\n午後一・五〇　事務所ヘ御出勤\n\n\n",
+    "description": "\n\n\n           五日\n          \n          （月）\n         \n\n\n\n\n             午後一時\n            \n            故\n            \n\n              粕谷\n             \n\n              義三\n             \n\n            氏邸御弔問\n           \n\n\n\n\n             午後一・五〇\n            \n            事務所ヘ御出勤\n           \n\n\n",
     "fullname": [
-        "粕谷義三"
+        "\n              粕谷\n             \n              義三\n             "
     ],
-    "label": "五日  （月）",
+    "label": "五日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20032m-40",
-    "objectID": "DKB20032m-39",
-    "prev": "DKB20032m-37",
+    "next": "DKB20032m-0040",
+    "objectID": "DKB20032m-0039",
+    "prev": "DKB20032m-0037",
     "sort": "DKB20032m-0039",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [],
     "spatial_uri": [],
     "temporal": "1930-05-05",
     "time": {
-        "13:00:00": "<div><time when=\"13:00:00\">午後一時</time>故<persName><surname>粕谷</surname><forename>義三</forename></persName>氏邸御弔問</div>"
+        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n            故\n            <persName corresp=\"#pers_粕谷義三\">\n<surname>\n              粕谷\n             </surname>\n<forename>\n              義三\n             </forename>\n</persName>\n            氏邸御弔問</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20032m-39\">\n<head>\n<date when=\"1930-05-05\"> 五日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>故<persName><surname>粕谷</surname><forename>義三</forename></persName>氏邸御弔問</p>\n</event>\n<event>\n<p><time when=\"13:50:00\">午後一・五〇</time>　事務所ヘ御出勤</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0039\">\n<head>\n<date when=\"1930-05-05\">\n           五日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            故\n            <persName corresp=\"#pers_粕谷義三\">\n<surname>\n              粕谷\n             </surname>\n<forename>\n              義三\n             </forename>\n</persName>\n            氏邸御弔問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:50:00\">\n             午後一・五〇\n            </time>\n            事務所ヘ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1930",
     "yearAndMonth": "1930-05"
 }

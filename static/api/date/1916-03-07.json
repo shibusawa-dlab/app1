@@ -3,13 +3,16 @@
         "内藤久寛",
         "築地香雪"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/内藤久寛",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/築地香雪"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1199",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -19,26 +22,26 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-03",
     "date_lvl2": "1916-03-07",
-    "description": "\n\n 七日  （火） \n\n\n午後五時内藤久寛氏ヨリ御案内（築地香雪軒）\n\n\n",
+    "description": "\n\n\n           七日\n          \n          （火）\n         \n\n\n\n\n             午後五時\n            \n\n\n              内藤\n             \n\n              久寛\n             \n\n            氏ヨリ御案内（\n            \n\n              築地\n             \n\n              香雪\n             \n\n            軒）\n           \n\n\n",
     "fullname": [
-        "内藤久寛",
-        "築地香雪"
+        "\n              内藤\n             \n              久寛\n             ",
+        "\n              築地\n             \n              香雪\n             "
     ],
-    "label": "七日  （火）",
+    "label": "七日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-65",
-    "objectID": "DKB20018m-64",
-    "prev": "DKB20018m-63",
+    "next": "DKB20018m-0065",
+    "objectID": "DKB20018m-0064",
+    "prev": "DKB20018m-0063",
     "sort": "DKB20018m-0064",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [],
     "spatial_uri": [],
     "temporal": "1916-03-07",
     "time": {
-        "17:00:00": "<div><time when=\"17:00:00\">午後五時</time><persName><surname>内藤</surname><forename>久寛</forename></persName>氏ヨリ御案内（<persName><surname>築地</surname><forename>香雪</forename></persName>軒）</div>"
+        "17:00:00": "<div><time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_内藤久寛\">\n<surname>\n              内藤\n             </surname>\n<forename>\n              久寛\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <persName corresp=\"#pers_築地香雪\">\n<surname>\n              築地\n             </surname>\n<forename>\n              香雪\n             </forename>\n</persName>\n            軒）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-64\">\n<head>\n<date when=\"1916-03-07\"> 七日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><persName><surname>内藤</surname><forename>久寛</forename></persName>氏ヨリ御案内（<persName><surname>築地</surname><forename>香雪</forename></persName>軒）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0064\">\n<head>\n<date when=\"1916-03-07\">\n           七日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_内藤久寛\">\n<surname>\n              内藤\n             </surname>\n<forename>\n              久寛\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <persName corresp=\"#pers_築地香雪\">\n<surname>\n              築地\n             </surname>\n<forename>\n              香雪\n             </forename>\n</persName>\n            軒）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-03"
 }

@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1279",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20020m 大正七年 1918"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20020m 大正七年 1918"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20020m 大正七年 1918",
     "date": {
         "lvl0": "1918",
@@ -20,17 +20,17 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-10",
     "date_lvl2": "1918-10-18",
-    "description": "\n\n 十八日  （金） \n\n\n午後三時ファガーソン氏来約（兜町）\n\n\n午後三時伊藤伝七氏来約（兜町）\n\n\n午後四時露国人ペトロフ氏来約（兜町）\n\n\n午後六時勝田前蔵相招待会（帝国ホテル）\n\n\n",
+    "description": "\n\n\n           十八日\n          \n          （金）\n         \n\n\n\n\n             午後三時\n            \n            ファガーソン氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              伊藤\n             \n\n              伝七\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n             露国\n            \n            人ペトロフ氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n\n             勝田\n            \n\n             前蔵\n            \n            相招待会（帝国ホテル）\n           \n\n\n",
     "fullname": [
-        "伊藤伝七"
+        "\n              伊藤\n             \n              伝七\n             "
     ],
-    "label": "十八日  （金）",
+    "label": "十八日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20020m-271",
-    "objectID": "DKB20020m-270",
-    "prev": "DKB20020m-269",
+    "next": "DKB20020m-0271",
+    "objectID": "DKB20020m-0270",
+    "prev": "DKB20020m-0269",
     "sort": "DKB20020m-0270",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "ロシア",
@@ -40,14 +40,15 @@
     "spatial_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
         "https://shibusawa-dlab.github.io/lab1/api/place/ロシア",
-        "https://shibusawa-dlab.github.io/lab1/api/place/勝田"
+        "https://shibusawa-dlab.github.io/lab1/api/place/勝田",
+        "https://shibusawa-dlab.github.io/lab1/api/place/前蔵"
     ],
     "temporal": "1918-10-18",
     "time": {
-        "15:00:00": "<div><time when=\"15:00:00\">午後三時</time>ファガーソン氏来約（<placeName>兜町</placeName>）</div>"
+        "15:00:00": "<div><time when=\"15:00:00\">\n             午後三時\n            </time>\n            ファガーソン氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-270\">\n<head>\n<date when=\"1918-10-18\"> 十八日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>ファガーソン氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>伊藤</surname><forename>伝七</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><placeName>露国</placeName>人ペトロフ氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time><placeName>勝田</placeName><placeName>前蔵</placeName>相招待会（帝国ホテル）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0270\">\n<head>\n<date when=\"1918-10-18\">\n           十八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            ファガーソン氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_伊藤伝七\">\n<surname>\n              伊藤\n             </surname>\n<forename>\n              伝七\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_ロシア\">\n             露国\n            </placeName>\n            人ペトロフ氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_勝田\">\n             勝田\n            </placeName>\n<placeName corresp=\"#place_前蔵\">\n             前蔵\n            </placeName>\n            相招待会（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-10"
 }

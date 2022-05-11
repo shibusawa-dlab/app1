@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1624",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20033m 昭和六年 1931"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20033m 昭和六年 1931"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20033m 昭和六年 1931",
     "date": {
         "lvl0": "1931",
@@ -22,28 +22,30 @@
     "date_lvl0": "1931",
     "date_lvl1": "1931-05",
     "date_lvl2": "1931-05-20",
-    "description": "\n\n 二十日  （水） \n\n\n午前十時吉田茂氏来約（飛鳥山邸）\n\n\n午前十一時徳川家達公を御訪問（貴族院議長官舎）\n\n\n正午　　　　　事務所ニ御出勤\n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n\n\n              吉田\n             \n\n              茂\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              徳川\n             \n\n              家達\n             \n\n            公を御訪問（貴族院議長官舎）\n           \n\n\n\n\n             正午\n            \n            事務所ニ御出勤\n           \n\n\n",
     "fullname": [
-        "吉田茂",
-        "徳川家達"
+        "\n              吉田\n             \n              茂\n             ",
+        "\n              徳川\n             \n              家達\n             "
     ],
-    "label": "二十日  （水）",
+    "label": "二十日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20033m-77",
-    "objectID": "DKB20033m-76",
-    "prev": "DKB20033m-75",
+    "next": "DKB20033m-0077",
+    "objectID": "DKB20033m-0076",
+    "prev": "DKB20033m-0075",
     "sort": "DKB20033m-0076",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1931-05-20",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><persName><surname>吉田</surname><forename>茂</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_吉田茂\">\n<surname>\n              吉田\n             </surname>\n<forename>\n              茂\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20033m-76\">\n<head>\n<date when=\"1931-05-20\"> 二十日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>吉田</surname><forename>茂</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>徳川</surname><forename>家達</forename></persName>公を御訪問（貴族院議長官舎）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　事務所ニ御出勤</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0076\">\n<head>\n<date when=\"1931-05-20\">\n           二十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_吉田茂\">\n<surname>\n              吉田\n             </surname>\n<forename>\n              茂\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_徳川家達\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              家達\n             </forename>\n</persName>\n            公を御訪問（貴族院議長官舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1931",
     "yearAndMonth": "1931-05"
 }

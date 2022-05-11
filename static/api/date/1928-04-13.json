@@ -2,13 +2,15 @@
     "agential": [
         "山田幸太郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山田幸太郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1579",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20030m 昭和三年 1928"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20030m 昭和三年 1928"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20030m 昭和三年 1928",
     "date": {
         "lvl0": "1928",
@@ -18,17 +20,17 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-04",
     "date_lvl2": "1928-04-13",
-    "description": "\n\n 十三日  （金） \n\n\n午前九時山田幸太郎氏来約（飛鳥山）\n\n\n午前十一時養育院看護婦卒業式\n\n\n午後一半時　　市長以下出席\n\n\n午後二時半同分院\n\n\n午後三半時　　茶話会（王子邸）\n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n\n\n              山田\n             \n\n              幸太郎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            養育院看護婦卒業式\n           \n\n\n\n\n             午後一半時\n            \n            市長以下出席\n           \n\n\n\n\n             午後二時半\n            \n            同分院\n           \n\n\n\n\n             午後三半時\n            \n            茶話会（\n            \n             王子\n            \n            邸）\n           \n\n\n",
     "fullname": [
-        "山田幸太郎"
+        "\n              山田\n             \n              幸太郎\n             "
     ],
-    "label": "十三日  （金）",
+    "label": "十三日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20030m-107",
-    "objectID": "DKB20030m-106",
-    "prev": "DKB20030m-105",
+    "next": "DKB20030m-0107",
+    "objectID": "DKB20030m-0106",
+    "prev": "DKB20030m-0105",
     "sort": "DKB20030m-0106",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "王子"
@@ -39,10 +41,10 @@
     ],
     "temporal": "1928-04-13",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>山田</surname><forename>幸太郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_山田幸太郎\">\n<surname>\n              山田\n             </surname>\n<forename>\n              幸太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-106\">\n<head>\n<date when=\"1928-04-13\"> 十三日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>山田</surname><forename>幸太郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>養育院看護婦卒業式</p>\n</event>\n<event>\n<p><time when=\"13:30:00\">午後一半時</time>　　市長以下出席</p>\n</event>\n<event>\n<p><time when=\"14:30:00\">午後二時半</time>同分院</p>\n</event>\n<event>\n<p><time when=\"15:30:00\">午後三半時</time>　　茶話会（<placeName>王子</placeName>邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0106\">\n<head>\n<date when=\"1928-04-13\">\n           十三日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_山田幸太郎\">\n<surname>\n              山田\n             </surname>\n<forename>\n              幸太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            養育院看護婦卒業式\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n            市長以下出席\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二時半\n            </time>\n            同分院\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n            茶話会（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-04"
 }

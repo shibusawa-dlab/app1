@@ -4,14 +4,15 @@
         "原"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/三輪修三",
         "https://shibusawa-dlab.github.io/lab1/api/chname/原"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1374",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -21,17 +22,17 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-08",
     "date_lvl2": "1921-08-24",
-    "description": "\n\n 廿四日  （水） \n\n\n午前十一―十二時三輪修三氏来約（兜町）\n\n\n午後二時日米海底電線ノ件ニ付原首相ヲ御訪問（官邸）\n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （水）\n         \n\n\n\n\n             午前十一―十二時\n            \n\n\n              三輪\n             \n\n              修三\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            日米海底電線ノ件ニ付\n            \n\n              原\n             \n\n            首相ヲ御訪問（官邸）\n           \n\n\n",
     "fullname": [
-        "三輪修三"
+        "\n              三輪\n             \n              修三\n             "
     ],
-    "label": "廿四日  （水）",
+    "label": "廿四日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20023m-230",
-    "objectID": "DKB20023m-229",
-    "prev": "DKB20023m-228",
+    "next": "DKB20023m-0230",
+    "objectID": "DKB20023m-0229",
+    "prev": "DKB20023m-0228",
     "sort": "DKB20023m-0229",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -41,7 +42,7 @@
     "temporal": "1921-08-24",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-229\">\n<head>\n<date when=\"1921-08-24\"> 廿四日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time from=\"11:00:00\" to=\"12:00:00\">午前十一―十二時</time><persName><surname>三輪</surname><forename>修三</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>日米海底電線ノ件ニ付<persName><surname>原</surname></persName>首相ヲ御訪問（官邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0229\">\n<head>\n<date when=\"1921-08-24\">\n           廿四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"11:00:00\" to=\"12:00:00\">\n             午前十一―十二時\n            </time>\n<persName corresp=\"#pers_三輪修三\">\n<surname>\n              三輪\n             </surname>\n<forename>\n              修三\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            日米海底電線ノ件ニ付\n            <persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            首相ヲ御訪問（官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-08"
 }

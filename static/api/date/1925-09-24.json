@@ -4,14 +4,15 @@
         "日置"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/白岩竜平",
         "https://shibusawa-dlab.github.io/lab1/api/chname/日置"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1493",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -21,27 +22,29 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-09",
     "date_lvl2": "1925-09-24",
-    "description": "\n\n 廿四日  （木） \n\n\n午前九時白岩竜平氏来約（アスカ山邸）\n\n\n午前九時半日置大使来約（アスカ山邸）\n\n\n午后一時協調会理事会（協調会）\n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n\n\n              白岩\n             \n\n              竜平\n             \n\n            氏来約（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午前九時半\n            \n\n\n              日置\n             \n\n            大使来約（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午后一時\n            \n            協調会理事会（協調会）\n           \n\n\n",
     "fullname": [
-        "白岩竜平"
+        "\n              白岩\n             \n              竜平\n             "
     ],
-    "label": "廿四日  （木）",
+    "label": "廿四日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20027m-152",
-    "objectID": "DKB20027m-151",
-    "prev": "DKB20027m-150",
+    "next": "DKB20027m-0152",
+    "objectID": "DKB20027m-0151",
+    "prev": "DKB20027m-0150",
     "sort": "DKB20027m-0151",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
-        "アスカ山"
+        "アスカ山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山邸"
+    ],
     "temporal": "1925-09-24",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>白岩</surname><forename>竜平</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>邸）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_白岩竜平\">\n<surname>\n              白岩\n             </surname>\n<forename>\n              竜平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-151\">\n<head>\n<date when=\"1925-09-24\"> 廿四日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>白岩</surname><forename>竜平</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>邸）</p>\n</event>\n<event>\n<p><time when=\"09:30:00\">午前九時半</time><persName><surname>日置</surname></persName>大使来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>邸）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午后一時</time>協調会理事会（協調会）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0151\">\n<head>\n<date when=\"1925-09-24\">\n           廿四日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_白岩竜平\">\n<surname>\n              白岩\n             </surname>\n<forename>\n              竜平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九時半\n            </time>\n<persName corresp=\"#pers_日置\">\n<surname>\n              日置\n             </surname>\n</persName>\n            大使来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n            協調会理事会（協調会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-09"
 }

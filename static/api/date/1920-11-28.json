@@ -9,14 +9,16 @@
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/小田島",
         "https://shibusawa-dlab.github.io/lab1/api/chname/伊藤",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/古賀"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/古賀",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/王鴻年",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/久須美東馬"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1347",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -26,18 +28,18 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-11",
     "date_lvl2": "1920-11-28",
-    "description": "\n\n 廿八日  （日） \n\n\n午前八時小田島、伊藤、古賀氏来約（飛鳥山）\n\n\n午前十時大日本麦酒会社ヨリ御案内（目黒同会社）\n\n\n午後三時王鴻年氏来約（飛鳥山邸）\n\n\n午後時　　　　久須美東馬氏ヨリ御案内（上野精養軒）令夫人共\n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n\n\n              小田島\n             \n\n            、\n            \n\n              伊藤\n             \n\n            、\n            \n\n              古賀\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            大\n            \n             日本\n            \n            麦酒会社ヨリ御案内（\n            \n             目黒\n            \n            同会社）\n           \n\n\n\n\n             午後三時\n            \n\n\n              王\n             \n\n              鴻年\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後時\n            \n\n\n              久須美\n             \n\n              東馬\n             \n\n            氏ヨリ御案内（\n            \n             上野精養軒\n            \n            ）\n            \n            令夫人共\n           \n\n\n",
     "fullname": [
-        "王鴻年",
-        "久須美東馬"
+        "\n              王\n             \n              鴻年\n             ",
+        "\n              久須美\n             \n              東馬\n             "
     ],
-    "label": "廿八日  （日）",
+    "label": "廿八日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-312",
-    "objectID": "DKB20022m-311",
-    "prev": "DKB20022m-310",
+    "next": "DKB20022m-0312",
+    "objectID": "DKB20022m-0311",
+    "prev": "DKB20022m-0310",
     "sort": "DKB20022m-0311",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "日本",
@@ -49,14 +51,15 @@
         "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本",
         "https://shibusawa-dlab.github.io/lab1/api/place/目黒",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/上野精養軒"
     ],
     "temporal": "1920-11-28",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>小田島</surname></persName>、<persName><surname>伊藤</surname></persName>、<persName><surname>古賀</surname></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_小田島\">\n<surname>\n              小田島\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_伊藤\">\n<surname>\n              伊藤\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_古賀\">\n<surname>\n              古賀\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-311\">\n<head>\n<date when=\"1920-11-28\"> 廿八日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>小田島</surname></persName>、<persName><surname>伊藤</surname></persName>、<persName><surname>古賀</surname></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>大<placeName>日本</placeName>麦酒会社ヨリ御案内（<placeName>目黒</placeName>同会社）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>王</surname><forename>鴻年</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time>午後時</time>　　　　<persName><surname>久須美</surname><forename>東馬</forename></persName>氏ヨリ御案内（<placeName>上野精養軒</placeName>）<lb/>令夫人共</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0311\">\n<head>\n<date when=\"1920-11-28\">\n           廿八日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_小田島\">\n<surname>\n              小田島\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_伊藤\">\n<surname>\n              伊藤\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_古賀\">\n<surname>\n              古賀\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            大\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            麦酒会社ヨリ御案内（\n            <placeName corresp=\"#place_目黒\">\n             目黒\n            </placeName>\n            同会社）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_王鴻年\">\n<surname>\n              王\n             </surname>\n<forename>\n              鴻年\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             午後時\n            </time>\n<persName corresp=\"#pers_久須美東馬\">\n<surname>\n              久須美\n             </surname>\n<forename>\n              東馬\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n            <lb/>\n            令夫人共\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-11"
 }

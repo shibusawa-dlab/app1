@@ -3,13 +3,16 @@
         "門馬常",
         "渋沢義一"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/門馬常",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢義一"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1614",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20032m 昭和五年 1930"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20032m 昭和五年 1930"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20032m 昭和五年 1930",
     "date": {
         "lvl0": "1930",
@@ -19,29 +22,30 @@
     "date_lvl0": "1930",
     "date_lvl1": "1930-07",
     "date_lvl2": "1930-07-06",
-    "description": "\n\n 六日  （日） \n\n\n朝　　　　　　門馬常次氏来約（飛鳥山邸）\n\n\n午前十時渋沢義一氏来邸（飛鳥山）\n\n\n",
+    "description": "\n\n\n           六日\n          \n          （日）\n         \n\n\n\n\n             朝\n            \n\n\n              門馬\n             \n\n              常\n             \n\n            次氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              渋沢\n             \n\n              義一\n             \n\n            氏来邸（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "門馬常",
-        "渋沢義一"
+        "\n              門馬\n             \n              常\n             ",
+        "\n              渋沢\n             \n              義一\n             "
     ],
-    "label": "六日  （日）",
+    "label": "六日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20032m-101",
-    "objectID": "DKB20032m-100",
-    "prev": "DKB20032m-99",
+    "next": "DKB20032m-0101",
+    "objectID": "DKB20032m-0100",
+    "prev": "DKB20032m-0099",
     "sort": "DKB20032m-0100",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "飛鳥山公園"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園"
     ],
     "temporal": "1930-07-06",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20032m-100\">\n<head>\n<date when=\"1930-07-06\"> 六日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time>朝</time>　　　　　　<persName><surname>門馬</surname><forename>常</forename></persName>次氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>渋沢</surname><forename>義一</forename></persName>氏来邸（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0100\">\n<head>\n<date when=\"1930-07-06\">\n           六日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             朝\n            </time>\n<persName corresp=\"#pers_門馬常\">\n<surname>\n              門馬\n             </surname>\n<forename>\n              常\n             </forename>\n</persName>\n            次氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_渋沢義一\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏来邸（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1930",
     "yearAndMonth": "1930-07"
 }

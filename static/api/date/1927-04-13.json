@@ -3,10 +3,10 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1541",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -16,15 +16,15 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-04",
     "date_lvl2": "1927-04-13",
-    "description": "\n\n 十三日  （水） \n\n\n午時　　　　　東京市養育院ヘ御出向\n\n\n午前十一時総理大臣御訪問（同官邸）\n\n\n同十一半ヨリ　日華実業協会幹事会（同会）\n\n\n午后二時慈恵会ヘ御出向\n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （水）\n         \n\n\n\n\n             午時\n            \n\n             東京\n            \n            市養育院ヘ御出向\n           \n\n\n\n\n             午前十一時\n            \n            総理大臣御訪問（同官邸）\n           \n\n\n\n\n             同十一半\n            \n            ヨリ　日華実業協会幹事会（同会）\n           \n\n\n\n\n             午后二時\n            \n            慈恵会ヘ御出向\n           \n\n\n",
     "fullname": [],
-    "label": "十三日  （水）",
+    "label": "十三日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-87",
-    "objectID": "DKB20029m-86",
-    "prev": "DKB20029m-85",
+    "next": "DKB20029m-0087",
+    "objectID": "DKB20029m-0086",
+    "prev": "DKB20029m-0085",
     "sort": "DKB20029m-0086",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京"
     ],
@@ -33,10 +33,10 @@
     ],
     "temporal": "1927-04-13",
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">午時</time>　　　　　<placeName>東京</placeName>市養育院ヘ御出向</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-86\">\n<head>\n<date when=\"1927-04-13\"> 十三日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"12:00:00\">午時</time>　　　　　<placeName>東京</placeName>市養育院ヘ御出向</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>総理大臣御訪問（同官邸）</p>\n</event>\n<event>\n<p><time when=\"11:30:00\">同十一半</time>ヨリ　日華実業協会幹事会（同会）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午后二時</time>慈恵会ヘ御出向</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0086\">\n<head>\n<date when=\"1927-04-13\">\n           十三日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            総理大臣御訪問（同官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             同十一半\n            </time>\n            ヨリ　日華実業協会幹事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n            慈恵会ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-04"
 }

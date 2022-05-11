@@ -4,13 +4,17 @@
         "黒板",
         "入沢"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/御風",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/黒板",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/入沢"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1496",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -20,26 +24,31 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-11",
     "date_lvl2": "1925-11-12",
-    "description": "\n\n 十二日  （木） \n\n\n午前十一時日仏会館理事会（飛鳥山邸）\n\n\n御風邸ニ付御引籠リ\n\n\n午后四時黒板博士来約（アスカ山）\n\n\n午後五時入沢、大滝、林三先生来診（アスカ山邸）\n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （木）\n         \n\n\n\n\n             午前十一時\n            \n            日仏会館理事会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n\n              御風\n             \n\n            邸ニ付御引籠リ\n           \n\n\n\n\n             午后四時\n            \n\n\n              黒板\n             \n\n            博士来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              入沢\n             \n\n            、大滝、林三先生来診（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n",
     "fullname": [],
-    "label": "十二日  （木）",
+    "label": "十二日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20027m-201",
-    "objectID": "DKB20027m-200",
-    "prev": "DKB20027m-199",
+    "next": "DKB20027m-0201",
+    "objectID": "DKB20027m-0200",
+    "prev": "DKB20027m-0199",
     "sort": "DKB20027m-0200",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
-        "アスカ山"
+        "アスカ山",
+        "アスカ山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山邸"
+    ],
     "temporal": "1925-11-12",
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">午前十一時</time>日仏会館理事会（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            日仏会館理事会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-200\">\n<head>\n<date when=\"1925-11-12\"> 十二日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>日仏会館理事会（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><persName><forename>御風</forename></persName>邸ニ付御引籠リ</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午后四時</time><persName><surname>黒板</surname></persName>博士来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><persName><surname>入沢</surname></persName>、大滝、林三先生来診（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0200\">\n<head>\n<date when=\"1925-11-12\">\n           十二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            日仏会館理事会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<persName corresp=\"#pers_御風\">\n<forename>\n              御風\n             </forename>\n</persName>\n            邸ニ付御引籠リ\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午后四時\n            </time>\n<persName corresp=\"#pers_黒板\">\n<surname>\n              黒板\n             </surname>\n</persName>\n            博士来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_入沢\">\n<surname>\n              入沢\n             </surname>\n</persName>\n            、大滝、林三先生来診（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-11"
 }

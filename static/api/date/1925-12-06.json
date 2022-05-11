@@ -4,14 +4,15 @@
         "佐々木"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/都倉義一",
         "https://shibusawa-dlab.github.io/lab1/api/chname/佐々木"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1498",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -21,29 +22,33 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-12",
     "date_lvl2": "1925-12-06",
-    "description": "\n\n 六日  （日） \n\n\n午前八半時　　都倉義一氏来約（飛鳥山邸）\n\n\n午前九時佐々木第一銀行頭取来約（アスカ山）\n\n\n午前十一時星ケ岡茶寮ヘ御出向\n\n\n",
+    "description": "\n\n\n           六日\n          \n          （日）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              都倉\n             \n\n              義一\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              佐々木\n             \n\n\n             第一銀行\n            \n            頭取来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n             星ケ岡\n            \n            茶寮ヘ御出向\n           \n\n\n",
     "fullname": [
-        "都倉義一"
+        "\n              都倉\n             \n              義一\n             "
     ],
-    "label": "六日  （日）",
+    "label": "六日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20027m-224",
-    "objectID": "DKB20027m-223",
-    "prev": "DKB20027m-222",
+    "next": "DKB20027m-0224",
+    "objectID": "DKB20027m-0223",
+    "prev": "DKB20027m-0222",
     "sort": "DKB20027m-0223",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "アスカ山",
         "星ケ岡"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
+        "https://shibusawa-dlab.github.io/lab1/api/place/星ケ岡"
+    ],
     "temporal": "1925-12-06",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>都倉</surname><forename>義一</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_都倉義一\">\n<surname>\n              都倉\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-223\">\n<head>\n<date when=\"1925-12-06\"> 六日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>都倉</surname><forename>義一</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>佐々木</surname></persName>第一銀行頭取来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><placeName>星ケ岡</placeName>茶寮ヘ御出向</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0223\">\n<head>\n<date when=\"1925-12-06\">\n           六日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_都倉義一\">\n<surname>\n              都倉\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_佐々木\">\n<surname>\n              佐々木\n             </surname>\n</persName>\n<orgName>\n             第一銀行\n            </orgName>\n            頭取来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_星ケ岡\">\n             星ケ岡\n            </placeName>\n            茶寮ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-12"
 }

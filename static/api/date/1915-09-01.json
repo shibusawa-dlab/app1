@@ -1,13 +1,21 @@
 {
-    "agential": [],
-    "agential_uri": [],
-    "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/897",
+    "agential": [
+        "中野武営",
+        "トイスラー",
+        "成瀬仁蔵"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中野武営",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/トイスラー",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/成瀬仁蔵"
+    ],
+    "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1190",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20001m 大正四年  大正五年  1915―1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20017m 大正四年 1915"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20001m 大正四年  大正五年  1915―1916",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20017m 大正四年 1915",
     "date": {
         "lvl0": "1915",
         "lvl1": "1915 > 1915-09",
@@ -16,23 +24,30 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-09",
     "date_lvl2": "1915-09-01",
-    "description": "\n\n 九月一日  水 \n晴、午前七時起床、入浴、朝飧ヲ畢リ　○以下記入ナシ。\n",
-    "fullname": [],
-    "label": "九月一日  水",
+    "description": "\n\n\n           一日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n\n\n              中野\n             \n\n              武営\n             \n\n            氏御訪問（同氏邸）\n           \n\n\n\n\n             正午半時\n            \n\n\n              トイスラー\n             \n\n            氏送別会（華族会館）\n           \n\n\n\n\n             午後三時\n            \n\n\n              成瀬\n             \n\n              仁蔵\n             \n\n            氏ト御会見ノ約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "fullname": [
+        "\n              中野\n             \n              武営\n             ",
+        "\n              成瀬\n             \n              仁蔵\n             "
+    ],
+    "label": "一日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20001m-245",
-    "objectID": "DKB20001m-244",
-    "prev": "DKB20001m-242",
-    "sort": "DKB20001m-0244",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
-    "spatial_uri": [],
+    "next": "DKB20017m-0221",
+    "objectID": "DKB20017m-0220",
+    "prev": "DKB20017m-0218",
+    "sort": "DKB20017m-0220",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "spatial": [
+        "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
+    ],
     "temporal": "1915-09-01",
     "time": {
-        "07:00:00": "<div>晴、<time when=\"07:00:00\">午前七時</time>起床、入浴、朝飧ヲ畢リ　○以下記入ナシ。</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_中野武営\">\n<surname>\n              中野\n             </surname>\n<forename>\n              武営\n             </forename>\n</persName>\n            氏御訪問（同氏邸）</div>"
     },
-    "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB20001m-244\">\n<head>\n<date when=\"1915-09-01\"> 九月一日 </date> 水 </head>\n<p>晴、<time when=\"07:00:00\">午前七時</time>起床、入浴、朝飧ヲ畢リ　○以下記入ナシ。</p>\n</div>",
+    "type": "day",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0220\">\n<head>\n<date when=\"1915-09-01\">\n           一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_中野武営\">\n<surname>\n              中野\n             </surname>\n<forename>\n              武営\n             </forename>\n</persName>\n            氏御訪問（同氏邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             正午半時\n            </time>\n<persName corresp=\"#pers_トイスラー\">\n<surname>\n              トイスラー\n             </surname>\n</persName>\n            氏送別会（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_成瀬仁蔵\">\n<surname>\n              成瀬\n             </surname>\n<forename>\n              仁蔵\n             </forename>\n</persName>\n            氏ト御会見ノ約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-09"
 }

@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1238",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -22,17 +22,17 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-05",
     "date_lvl2": "1917-05-28",
-    "description": "\n\n 廿八日  （月） \n\n\n午前十一時女子大学校評議員会（同校）\n\n\n午後一時日本染料会社定時総会（商業会議所）\n\n\n午後二時寺内総理大臣御訪問（総理大臣官邸）\n\n\n午後五時塩原又策氏邸御出向（麻布同氏邸）\n\n\n午後五時同族会（兜町）\n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （月）\n         \n\n\n\n\n             午前十一時\n            \n            女子大学校評議員会（同校）\n           \n\n\n\n\n             午後一時\n            \n\n             日本\n            \n            染料会社定時総会（商業会議所）\n           \n\n\n\n\n             午後二時\n            \n\n\n              寺内\n             \n\n            総理大臣御訪問（総理大臣官邸）\n           \n\n\n\n\n             午後五時\n            \n\n\n              塩原\n             \n\n              又策\n             \n\n            氏邸御出向（\n            \n             麻布\n            \n            同氏邸）\n           \n\n\n\n\n             午後五時\n            \n            同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "塩原又策"
+        "\n              塩原\n             \n              又策\n             "
     ],
-    "label": "廿八日  （月）",
+    "label": "廿八日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-148",
-    "objectID": "DKB20019m-147",
-    "prev": "DKB20019m-146",
+    "next": "DKB20019m-0148",
+    "objectID": "DKB20019m-0147",
+    "prev": "DKB20019m-0146",
     "sort": "DKB20019m-0147",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本",
         "麻布",
@@ -45,10 +45,10 @@
     ],
     "temporal": "1917-05-28",
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">午前十一時</time>女子大学校評議員会（同校）</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            女子大学校評議員会（同校）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-147\">\n<head>\n<date when=\"1917-05-28\"> 廿八日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>女子大学校評議員会（同校）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time><placeName>日本</placeName>染料会社定時総会（商業会議所）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>寺内</surname></persName>総理大臣御訪問（総理大臣官邸）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><persName><surname>塩原</surname><forename>又策</forename></persName>氏邸御出向（<placeName>麻布</placeName>同氏邸）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>同族会（<placeName>兜町</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0147\">\n<head>\n<date when=\"1917-05-28\">\n           廿八日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            女子大学校評議員会（同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            染料会社定時総会（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_寺内\">\n<surname>\n              寺内\n             </surname>\n</persName>\n            総理大臣御訪問（総理大臣官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_塩原又策\">\n<surname>\n              塩原\n             </surname>\n<forename>\n              又策\n             </forename>\n</persName>\n            氏邸御出向（\n            <placeName corresp=\"#place_麻布\">\n             麻布\n            </placeName>\n            同氏邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-05"
 }

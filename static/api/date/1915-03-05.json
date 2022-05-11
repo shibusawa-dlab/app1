@@ -2,13 +2,15 @@
     "agential": [
         "渋沢義一"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢義一"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1178",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20017m 大正四年 1915"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20017m 大正四年 1915"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20017m 大正四年 1915",
     "date": {
         "lvl0": "1915",
@@ -18,17 +20,17 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-03",
     "date_lvl2": "1915-03-05",
-    "description": "\n\n 五日  （金） \n\n\n午前九半時　　蚕糸会ノ件ニ付御会合（農商務省）\n\n\n午前十一時実業協会例会（商業会議処）\n\n\n午後二時渋沢義一氏来約（兜町）\n\n\n午後二時教育調査会（文部大臣官邸）\n\n\n",
+    "description": "\n\n\n           五日\n          \n          （金）\n         \n\n\n\n\n             午前九半時\n            \n            蚕糸会ノ件ニ付御会合（農商務省）\n           \n\n\n\n\n             午前十一時\n            \n            実業協会例会（商業会議処）\n           \n\n\n\n\n             午後二時\n            \n\n\n              渋沢\n             \n\n              義一\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            教育調査会（文部大臣官邸）\n           \n\n\n",
     "fullname": [
-        "渋沢義一"
+        "\n              渋沢\n             \n              義一\n             "
     ],
-    "label": "五日  （金）",
+    "label": "五日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20017m-63",
-    "objectID": "DKB20017m-62",
-    "prev": "DKB20017m-61",
+    "next": "DKB20017m-0063",
+    "objectID": "DKB20017m-0062",
+    "prev": "DKB20017m-0061",
     "sort": "DKB20017m-0062",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -37,10 +39,10 @@
     ],
     "temporal": "1915-03-05",
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">午前九半時</time>　　蚕糸会ノ件ニ付御会合（農商務省）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n            蚕糸会ノ件ニ付御会合（農商務省）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-62\">\n<head>\n<date when=\"1915-03-05\"> 五日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"09:30:00\">午前九半時</time>　　蚕糸会ノ件ニ付御会合（農商務省）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>実業協会例会（商業会議処）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>渋沢</surname><forename>義一</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>教育調査会（文部大臣官邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0062\">\n<head>\n<date when=\"1915-03-05\">\n           五日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n            蚕糸会ノ件ニ付御会合（農商務省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            実業協会例会（商業会議処）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_渋沢義一\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            教育調査会（文部大臣官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-03"
 }

@@ -8,15 +8,16 @@
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/添田敬一郎",
         "https://shibusawa-dlab.github.io/lab1/api/chname/大沢",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/中島"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中島",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/幣原"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1504",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-03",
@@ -25,32 +26,33 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-03",
     "date_lvl2": "1926-03-14",
-    "description": "\n\n 十四日  （日） \n\n\n午前九時早稲田大学難波氏来約　アスカ山添田敬一郎氏来約\n\n\n第一銀行神戸支店取締大沢氏来約　アスカ山\n\n\n中島歯科医来診\n\n\n午後一時幣原外務大臣ヨリ御案内（裏霞ケ関外相官舎）\n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n            早稲田大学難波氏来約\n            \n             アスカ山\n            \n\n\n              添田\n             \n\n              敬一郎\n             \n\n            氏来約\n           \n\n\n\n\n\n             第一銀行\n            \n\n             神戸\n            \n            支店取締\n            \n\n              大沢\n             \n\n            氏来約\n            \n             アスカ山\n            \n\n\n\n\n\n\n              中島\n             \n\n            歯科医来診\n           \n\n\n\n\n             午後一時\n            \n\n\n              幣原\n             \n\n            外務大臣ヨリ御案内（裏\n            \n             霞ケ関\n            \n            外相官舎）\n           \n\n\n",
     "fullname": [
-        "添田敬一郎"
+        "\n              添田\n             \n              敬一郎\n             "
     ],
-    "label": "十四日  （日）",
+    "label": "十四日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-73",
-    "objectID": "DKB20028m-72",
-    "prev": "DKB20028m-71",
+    "next": "DKB20028m-0073",
+    "objectID": "DKB20028m-0072",
+    "prev": "DKB20028m-0071",
     "sort": "DKB20028m-0072",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山",
         "神戸",
         "霞が関"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
         "https://shibusawa-dlab.github.io/lab1/api/place/神戸",
         "https://shibusawa-dlab.github.io/lab1/api/place/霞が関"
     ],
     "temporal": "1926-03-14",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time>早稲田大学難波氏来約　<placeName corresp=\"#飛鳥山\">アスカ山</placeName><persName><surname>添田</surname><forename>敬一郎</forename></persName>氏来約</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            早稲田大学難波氏来約\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n<persName corresp=\"#pers_添田敬一郎\">\n<surname>\n              添田\n             </surname>\n<forename>\n              敬一郎\n             </forename>\n</persName>\n            氏来約</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-72\">\n<head>\n<date when=\"1926-03-14\"> 十四日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time>早稲田大学難波氏来約　<placeName corresp=\"#飛鳥山\">アスカ山</placeName><persName><surname>添田</surname><forename>敬一郎</forename></persName>氏来約</p>\n</event>\n<event>\n<p><pb n=\"B2665\"/>第一銀行<placeName>神戸</placeName>支店取締<persName><surname>大沢</surname></persName>氏来約　<placeName corresp=\"#飛鳥山\">アスカ山</placeName></p>\n</event>\n<event>\n<p><persName><surname>中島</surname></persName>歯科医来診</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time><persName><surname>幣原</surname></persName>外務大臣ヨリ御案内（裏<placeName>霞ケ関</placeName>外相官舎）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0072\">\n<head>\n<date when=\"1926-03-14\">\n           十四日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            早稲田大学難波氏来約\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n<persName corresp=\"#pers_添田敬一郎\">\n<surname>\n              添田\n             </surname>\n<forename>\n              敬一郎\n             </forename>\n</persName>\n            氏来約\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2665\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1504/full/max/0/default.jpg\" n=\"B2665\" source=\"#pageB2665\"/>\n<orgName>\n             第一銀行\n            </orgName>\n<placeName corresp=\"#place_神戸\">\n             神戸\n            </placeName>\n            支店取締\n            <persName corresp=\"#pers_大沢\">\n<surname>\n              大沢\n             </surname>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<persName corresp=\"#pers_中島\">\n<surname>\n              中島\n             </surname>\n</persName>\n            歯科医来診\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_幣原\">\n<surname>\n              幣原\n             </surname>\n</persName>\n            外務大臣ヨリ御案内（裏\n            <placeName corresp=\"#place_霞が関\">\n             霞ケ関\n            </placeName>\n            外相官舎）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-03"
 }

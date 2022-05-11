@@ -3,10 +3,10 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1234",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -16,28 +16,29 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-04",
     "date_lvl2": "1917-04-17",
-    "description": "\n\n 十七日  （火） \n\n\n午前十時井頭学校卒業式\n\n\n午後二半時　　観桜会（新宿御苑）\n\n\n午後五時観山会（八百善）\n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n\n             井頭\n            \n            学校卒業式\n           \n\n\n\n\n             午後二半時\n            \n            観桜会（\n            \n             新宿\n            \n            御苑）\n           \n\n\n\n\n             午後五時\n            \n            観山会（八百善）\n           \n\n\n",
     "fullname": [],
-    "label": "十七日  （火）",
+    "label": "十七日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-107",
-    "objectID": "DKB20019m-106",
-    "prev": "DKB20019m-105",
+    "next": "DKB20019m-0107",
+    "objectID": "DKB20019m-0106",
+    "prev": "DKB20019m-0105",
     "sort": "DKB20019m-0106",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "井頭",
         "新宿"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/井頭",
         "https://shibusawa-dlab.github.io/lab1/api/place/新宿"
     ],
     "temporal": "1917-04-17",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><placeName>井頭</placeName>学校卒業式</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_井頭\">\n             井頭\n            </placeName>\n            学校卒業式</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-106\">\n<head>\n<date when=\"1917-04-17\"> 十七日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><placeName>井頭</placeName>学校卒業式</p>\n</event>\n<event>\n<p><time when=\"14:30:00\">午後二半時</time>　　観桜会（<placeName>新宿</placeName>御苑）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>観山会（八百善）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0106\">\n<head>\n<date when=\"1917-04-17\">\n           十七日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_井頭\">\n             井頭\n            </placeName>\n            学校卒業式\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            観桜会（\n            <placeName corresp=\"#place_新宿\">\n             新宿\n            </placeName>\n            御苑）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            観山会（八百善）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-04"
 }

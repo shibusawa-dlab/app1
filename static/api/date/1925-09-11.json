@@ -4,13 +4,17 @@
         "二神駿吉",
         "入沢"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/二上駿吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/二神駿吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/入沢"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1492",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -20,28 +24,30 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-09",
     "date_lvl2": "1925-09-11",
-    "description": "\n\n 十一日  （金） \n\n\n午后二時二上駿吉氏来約《（二神駿吉氏）》（アスカ山邸）\n\n\n午后四時入沢、大滝博士、林学士来診\n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （金）\n         \n\n\n\n\n             午后二時\n            \n\n\n              二上\n             \n\n              駿吉\n             \n\n            氏来約《（\n            \n\n              二神\n             \n\n              駿吉\n             \n\n            氏）》（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午后四時\n            \n\n\n              入沢\n             \n\n            、大滝博士、林学士来診\n           \n\n\n",
     "fullname": [
-        "二上駿吉",
-        "二神駿吉"
+        "\n              二上\n             \n              駿吉\n             ",
+        "\n              二神\n             \n              駿吉\n             "
     ],
-    "label": "十一日  （金）",
+    "label": "十一日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20027m-139",
-    "objectID": "DKB20027m-138",
-    "prev": "DKB20027m-136",
+    "next": "DKB20027m-0139",
+    "objectID": "DKB20027m-0138",
+    "prev": "DKB20027m-0136",
     "sort": "DKB20027m-0138",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
-        "アスカ山"
+        "アスカ山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山邸"
+    ],
     "temporal": "1925-09-11",
     "time": {
-        "14:00:00": "<div><time when=\"14:00:00\">午后二時</time><persName><surname>二上</surname><forename>駿吉</forename></persName>氏来約《（<persName><surname>二神</surname><forename>駿吉</forename></persName>氏）》（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>邸）</div>"
+        "14:00:00": "<div><time when=\"14:00:00\">\n             午后二時\n            </time>\n<persName corresp=\"#pers_二上駿吉\">\n<surname>\n              二上\n             </surname>\n<forename>\n              駿吉\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_二神駿吉\">\n<surname>\n              二神\n             </surname>\n<forename>\n              駿吉\n             </forename>\n</persName>\n            氏）》（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-138\">\n<head>\n<date when=\"1925-09-11\"> 十一日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"14:00:00\">午后二時</time><persName><surname>二上</surname><forename>駿吉</forename></persName>氏来約《（<persName><surname>二神</surname><forename>駿吉</forename></persName>氏）》（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>邸）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午后四時</time><persName><surname>入沢</surname></persName>、大滝博士、林学士来診</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0138\">\n<head>\n<date when=\"1925-09-11\">\n           十一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n<persName corresp=\"#pers_二上駿吉\">\n<surname>\n              二上\n             </surname>\n<forename>\n              駿吉\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_二神駿吉\">\n<surname>\n              二神\n             </surname>\n<forename>\n              駿吉\n             </forename>\n</persName>\n            氏）》（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午后四時\n            </time>\n<persName corresp=\"#pers_入沢\">\n<surname>\n              入沢\n             </surname>\n</persName>\n            、大滝博士、林学士来診\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-09"
 }

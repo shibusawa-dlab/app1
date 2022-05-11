@@ -7,14 +7,16 @@
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/原泰一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/井上正雄",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/三井養之助",
         "https://shibusawa-dlab.github.io/lab1/api/chname/山川健次郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1373",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -24,33 +26,34 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-08",
     "date_lvl2": "1921-08-12",
-    "description": "\n\n 十二日  （金） \n\n\n午前八時原泰一氏来約（アスカ山）\n\n\n午前八時報知新聞井上正雄氏来約（アスカ山）\n\n\n午前十―十一時故三井養之助氏告別式（青山斎場）\n\n\n午後二―午後三時山川健次郎男ヲ御訪問（池袋同邸）\n\n\n午後四時国際聯盟協会理事会（同会）\n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （金）\n         \n\n\n\n\n             午前八時\n            \n\n\n              原\n             \n\n              泰一\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前八時\n            \n            報知新聞\n            \n\n              井上\n             \n\n              正雄\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十―十一時\n            \n            故\n            \n\n              三井\n             \n\n              養之助\n             \n\n            氏告別式（青山斎場）\n           \n\n\n\n\n             午後二―午後三時\n            \n\n\n              山川\n             \n\n              健次郎\n             \n\n            男ヲ御訪問（\n            \n             池袋\n            \n            同邸）\n           \n\n\n\n\n             午後四時\n            \n            国際聯盟協会理事会（同会）\n           \n\n\n",
     "fullname": [
-        "原泰一",
-        "井上正雄",
-        "三井養之助",
-        "山川健次郎"
+        "\n              原\n             \n              泰一\n             ",
+        "\n              井上\n             \n              正雄\n             ",
+        "\n              三井\n             \n              養之助\n             ",
+        "\n              山川\n             \n              健次郎\n             "
     ],
-    "label": "十二日  （金）",
+    "label": "十二日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20023m-218",
-    "objectID": "DKB20023m-217",
-    "prev": "DKB20023m-216",
+    "next": "DKB20023m-0218",
+    "objectID": "DKB20023m-0217",
+    "prev": "DKB20023m-0216",
     "sort": "DKB20023m-0217",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山",
         "池袋"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
         "https://shibusawa-dlab.github.io/lab1/api/place/池袋"
     ],
     "temporal": "1921-08-12",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>原</surname><forename>泰一</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_原泰一\">\n<surname>\n              原\n             </surname>\n<forename>\n              泰一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-217\">\n<head>\n<date when=\"1921-08-12\"> 十二日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>原</surname><forename>泰一</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"08:00:00\">午前八時</time>報知新聞<persName><surname>井上</surname><forename>正雄</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time from=\"10:00:00\" to=\"11:00:00\">午前十―十一時</time>故<persName><surname>三井</surname><forename>養之助</forename></persName>氏告別式（青山斎場）</p>\n</event>\n<event>\n<p><time from=\"14:00:00\" to=\"15:00:00\">午後二―午後三時</time><persName><surname>山川</surname><forename>健次郎</forename></persName>男ヲ御訪問（<placeName>池袋</placeName>同邸）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>国際聯盟協会理事会（同会）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0217\">\n<head>\n<date when=\"1921-08-12\">\n           十二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_原泰一\">\n<surname>\n              原\n             </surname>\n<forename>\n              泰一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            報知新聞\n            <persName corresp=\"#pers_井上正雄\">\n<surname>\n              井上\n             </surname>\n<forename>\n              正雄\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"11:00:00\">\n             午前十―十一時\n            </time>\n            故\n            <persName corresp=\"#pers_三井養之助\">\n<surname>\n              三井\n             </surname>\n<forename>\n              養之助\n             </forename>\n</persName>\n            氏告別式（青山斎場）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―午後三時\n            </time>\n<persName corresp=\"#pers_山川健次郎\">\n<surname>\n              山川\n             </surname>\n<forename>\n              健次郎\n             </forename>\n</persName>\n            男ヲ御訪問（\n            <placeName corresp=\"#place_池袋\">\n             池袋\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            国際聯盟協会理事会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-08"
 }

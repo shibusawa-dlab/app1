@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1371",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -20,17 +20,17 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-07",
     "date_lvl2": "1921-07-29",
-    "description": "\n\n 廿九日  （金） \n\n\n午前十時故佐藤進男葬儀（駒込吉祥寺）\n\n\n午後七時養育院巣鴨分院ヘ御出向之事\n\n\n",
+    "description": "\n\n\n           廿九日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n            故\n            \n\n              佐藤\n             \n\n              進\n             \n\n            男葬儀（\n            \n             駒込\n            \n\n             吉祥寺\n            \n            ）\n           \n\n\n\n\n             午後七時\n            \n            養育院\n            \n             巣鴨\n            \n            分院ヘ御出向之事\n           \n\n\n",
     "fullname": [
-        "佐藤進"
+        "\n              佐藤\n             \n              進\n             "
     ],
-    "label": "廿九日  （金）",
+    "label": "廿九日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20023m-204",
-    "objectID": "DKB20023m-203",
-    "prev": "DKB20023m-202",
+    "next": "DKB20023m-0204",
+    "objectID": "DKB20023m-0203",
+    "prev": "DKB20023m-0202",
     "sort": "DKB20023m-0203",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "駒込",
         "吉祥寺",
@@ -43,10 +43,10 @@
     ],
     "temporal": "1921-07-29",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time>故<persName><surname>佐藤</surname><forename>進</forename></persName>男葬儀（<placeName>駒込</placeName><placeName>吉祥寺</placeName>）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            故\n            <persName corresp=\"#pers_佐藤進\">\n<surname>\n              佐藤\n             </surname>\n<forename>\n              進\n             </forename>\n</persName>\n            男葬儀（\n            <placeName corresp=\"#place_駒込\">\n             駒込\n            </placeName>\n<placeName corresp=\"#place_吉祥寺\">\n             吉祥寺\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-203\">\n<head>\n<date when=\"1921-07-29\"> 廿九日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>故<persName><surname>佐藤</surname><forename>進</forename></persName>男葬儀（<placeName>駒込</placeName><placeName>吉祥寺</placeName>）</p>\n</event>\n<event>\n<p><time when=\"19:00:00\">午後七時</time>養育院<placeName>巣鴨</placeName>分院ヘ御出向之事</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0203\">\n<head>\n<date when=\"1921-07-29\">\n           廿九日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            故\n            <persName corresp=\"#pers_佐藤進\">\n<surname>\n              佐藤\n             </surname>\n<forename>\n              進\n             </forename>\n</persName>\n            男葬儀（\n            <placeName corresp=\"#place_駒込\">\n             駒込\n            </placeName>\n<placeName corresp=\"#place_吉祥寺\">\n             吉祥寺\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            養育院\n            <placeName corresp=\"#place_巣鴨\">\n             巣鴨\n            </placeName>\n            分院ヘ御出向之事\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-07"
 }

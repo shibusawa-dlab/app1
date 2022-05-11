@@ -2,17 +2,19 @@
     "agential": [
         "小山国太郎",
         "小山邦太郎",
-        "桂公"
+        "桂"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/小山邦太郎"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小山国太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小山邦太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/桂"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1177",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20017m 大正四年 1915"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20017m 大正四年 1915"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20017m 大正四年 1915",
     "date": {
         "lvl0": "1915",
@@ -22,18 +24,18 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-02",
     "date_lvl2": "1915-02-15",
-    "description": "\n\n 十五日  （月） \n\n\n午前十時金邦平氏来約（兜町）\n\n\n午後一時小山国太郎氏来約《（小山邦太郎）》（兜町）\n\n\n午後三時故桂公記念事業会（大蔵大臣官邸）\n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n            金邦平氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n\n              小山\n             \n\n              国太郎\n             \n\n            氏来約《（\n            \n\n              小山\n             \n\n              邦太郎\n             \n\n            ）》（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            故\n            \n\n              桂\n             \n\n            公記念事業会（大蔵大臣官邸）\n           \n\n\n",
     "fullname": [
-        "小山国太郎",
-        "小山邦太郎"
+        "\n              小山\n             \n              国太郎\n             ",
+        "\n              小山\n             \n              邦太郎\n             "
     ],
-    "label": "十五日  （月）",
+    "label": "十五日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20017m-45",
-    "objectID": "DKB20017m-44",
-    "prev": "DKB20017m-43",
+    "next": "DKB20017m-0045",
+    "objectID": "DKB20017m-0044",
+    "prev": "DKB20017m-0043",
     "sort": "DKB20017m-0044",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -42,10 +44,10 @@
     ],
     "temporal": "1915-02-15",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time>金邦平氏来約（<placeName>兜町</placeName>）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            金邦平氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-44\">\n<head>\n<date when=\"1915-02-15\"> 十五日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>金邦平氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time><persName><surname>小山</surname><forename>国太郎</forename></persName>氏来約《（<persName><surname>小山</surname><forename>邦太郎</forename></persName>）》（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>故<persName><forename>桂公</forename></persName>記念事業会（大蔵大臣官邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0044\">\n<head>\n<date when=\"1915-02-15\">\n           十五日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            金邦平氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_小山国太郎\">\n<surname>\n              小山\n             </surname>\n<forename>\n              国太郎\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_小山邦太郎\">\n<surname>\n              小山\n             </surname>\n<forename>\n              邦太郎\n             </forename>\n</persName>\n            ）》（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            故\n            <persName corresp=\"#pers_桂\">\n<surname>\n              桂\n             </surname>\n</persName>\n            公記念事業会（大蔵大臣官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-02"
 }

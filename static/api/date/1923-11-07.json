@@ -7,15 +7,18 @@
         "後藤"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/トイスラー",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松木幹一",
         "https://shibusawa-dlab.github.io/lab1/api/chname/藤山雷太",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/栗塚竜子",
         "https://shibusawa-dlab.github.io/lab1/api/chname/後藤"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1443",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -25,19 +28,19 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-11",
     "date_lvl2": "1923-11-07",
-    "description": "\n\n 七日  （水） \n\n\n午前十時トイスラー氏来約（事務所）\n\n\n午前十―十一時松木幹一郎氏来約（〃）\n\n\n午後一時藤山雷太氏来約（〃）\n\n\n午後二時栗塚竜子氏追悼会（麻布笄町一〇三長谷寺）\n\n\n午後三時後藤内務大臣ヲ御訪問（内務大臣官邸）\n\n\n",
+    "description": "\n\n\n           七日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n\n\n              トイスラー\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午前十―十一時\n            \n\n\n              松木\n             \n\n              幹一\n             \n\n            郎氏来約（〃）\n           \n\n\n\n\n             午後一時\n            \n\n\n              藤山\n             \n\n              雷太\n             \n\n            氏来約（〃）\n           \n\n\n\n\n             午後二時\n            \n\n\n              栗塚\n             \n\n              竜子\n             \n\n            氏追悼会（\n            \n             麻布\n            \n\n             笄町\n            \n            一〇三長谷寺）\n           \n\n\n\n\n             午後三時\n            \n\n\n              後藤\n             \n\n            内務大臣ヲ御訪問（内務大臣官邸）\n           \n\n\n",
     "fullname": [
-        "松木幹一",
-        "藤山雷太",
-        "栗塚竜子"
+        "\n              松木\n             \n              幹一\n             ",
+        "\n              藤山\n             \n              雷太\n             ",
+        "\n              栗塚\n             \n              竜子\n             "
     ],
-    "label": "七日  （水）",
+    "label": "七日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20025m-289",
-    "objectID": "DKB20025m-288",
-    "prev": "DKB20025m-287",
+    "next": "DKB20025m-0289",
+    "objectID": "DKB20025m-0288",
+    "prev": "DKB20025m-0287",
     "sort": "DKB20025m-0288",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "麻布",
         "笄町"
@@ -48,10 +51,10 @@
     ],
     "temporal": "1923-11-07",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><persName><surname>トイスラー</surname></persName>氏来約（事務所）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_トイスラー\">\n<surname>\n              トイスラー\n             </surname>\n</persName>\n            氏来約（事務所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-288\">\n<head>\n<date when=\"1923-11-07\"> 七日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>トイスラー</surname></persName>氏来約（事務所）</p>\n</event>\n<event>\n<p><time from=\"10:00:00\" to=\"11:00:00\">午前十―十一時</time><persName><surname>松木</surname><forename>幹一</forename></persName>郎氏来約（〃）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time><persName><surname>藤山</surname><forename>雷太</forename></persName>氏来約（〃）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>栗塚</surname><forename>竜子</forename></persName>氏追悼会（<placeName>麻布</placeName><placeName>笄町</placeName>一〇三長谷寺）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>後藤</surname></persName>内務大臣ヲ御訪問（内務大臣官邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0288\">\n<head>\n<date when=\"1923-11-07\">\n           七日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_トイスラー\">\n<surname>\n              トイスラー\n             </surname>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"11:00:00\">\n             午前十―十一時\n            </time>\n<persName corresp=\"#pers_松木幹一\">\n<surname>\n              松木\n             </surname>\n<forename>\n              幹一\n             </forename>\n</persName>\n            郎氏来約（〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_藤山雷太\">\n<surname>\n              藤山\n             </surname>\n<forename>\n              雷太\n             </forename>\n</persName>\n            氏来約（〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_栗塚竜子\">\n<surname>\n              栗塚\n             </surname>\n<forename>\n              竜子\n             </forename>\n</persName>\n            氏追悼会（\n            <placeName corresp=\"#place_麻布\">\n             麻布\n            </placeName>\n<placeName corresp=\"#place_笄町\">\n             笄町\n            </placeName>\n            一〇三長谷寺）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_後藤\">\n<surname>\n              後藤\n             </surname>\n</persName>\n            内務大臣ヲ御訪問（内務大臣官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-11"
 }

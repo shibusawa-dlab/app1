@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1367",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -20,27 +20,29 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-06",
     "date_lvl2": "1921-06-17",
-    "description": "\n\n 十七日  （金） \n\n\n午後〇・五四　両国駅着\n\n\n午後一時職業紹介事業講習会講習生来約（飛鳥山邸）\n\n\n午後四時国際聯盟協会理事会（同会）\n\n\n午後五半時　　岡崎藤吉氏より御招待（瓢屋）\n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （金）\n         \n\n\n\n\n             午後〇・五四\n            \n            両国駅着\n           \n\n\n\n\n             午後一時\n            \n            職業紹介事業講習会講習生来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            国際聯盟協会理事会（同会）\n           \n\n\n\n\n             午後五半時\n            \n\n\n              岡崎\n             \n\n              藤吉\n             \n\n            氏より御招待（瓢屋）\n           \n\n\n",
     "fullname": [
-        "岡崎藤吉"
+        "\n              岡崎\n             \n              藤吉\n             "
     ],
-    "label": "十七日  （金）",
+    "label": "十七日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20023m-162",
-    "objectID": "DKB20023m-161",
-    "prev": "DKB20023m-160",
+    "next": "DKB20023m-0162",
+    "objectID": "DKB20023m-0161",
+    "prev": "DKB20023m-0160",
     "sort": "DKB20023m-0161",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1921-06-17",
     "time": {
-        "12:54:00": "<div><time when=\"12:54:00\">午後〇・五四</time>　両国駅着</div>"
+        "12:54:00": "<div><time when=\"12:54:00\">\n             午後〇・五四\n            </time>\n            両国駅着</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-161\">\n<head>\n<date when=\"1921-06-17\"> 十七日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"12:54:00\">午後〇・五四</time>　両国駅着</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>職業紹介事業講習会講習生来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>国際聯盟協会理事会（同会）</p>\n</event>\n<event>\n<p><time when=\"17:30:00\">午後五半時</time>　　<persName><surname>岡崎</surname><forename>藤吉</forename></persName>氏より御招待（瓢屋）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0161\">\n<head>\n<date when=\"1921-06-17\">\n           十七日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:54:00\">\n             午後〇・五四\n            </time>\n            両国駅着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            職業紹介事業講習会講習生来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            国際聯盟協会理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_岡崎藤吉\">\n<surname>\n              岡崎\n             </surname>\n<forename>\n              藤吉\n             </forename>\n</persName>\n            氏より御招待（瓢屋）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-06"
 }

@@ -11,10 +11,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1391",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -24,17 +24,17 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-05",
     "date_lvl2": "1922-05-09",
-    "description": "\n\n 九日  （火） \n\n\n午前八時安東氏外支那人来約（飛鳥山邸）\n\n\n午前十半時　　萩野由之博士来約（兜町）\n\n\n午後六時高田釜吉氏ヨリ御案内（トキワヤ）（ウエスチンク・ハウス電気会社副社長ギルバーン氏招待会）\n\n\n",
+    "description": "\n\n\n           九日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n\n\n              安東\n             \n\n            氏外\n            \n             支那\n            \n            人来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十半時\n            \n\n\n              萩野\n             \n\n              由之\n             \n\n            博士来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n\n\n              高田\n             \n\n            釜吉氏ヨリ御案内（トキワヤ）\n            \n            （ウエスチンク・ハウス電気会社副社長ギルバーン氏招待会）\n           \n\n\n",
     "fullname": [
-        "萩野由之"
+        "\n              萩野\n             \n              由之\n             "
     ],
-    "label": "九日  （火）",
+    "label": "九日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-104",
-    "objectID": "DKB20024m-103",
-    "prev": "DKB20024m-102",
+    "next": "DKB20024m-0104",
+    "objectID": "DKB20024m-0103",
+    "prev": "DKB20024m-0102",
     "sort": "DKB20024m-0103",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "支那",
         "飛鳥山邸",
@@ -42,14 +42,15 @@
     ],
     "spatial_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/place/支那",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1922-05-09",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>安東</surname></persName>氏外<placeName>支那</placeName>人来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_安東\">\n<surname>\n              安東\n             </surname>\n</persName>\n            氏外\n            <placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            人来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-103\">\n<head>\n<date when=\"1922-05-09\"> 九日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>安東</surname></persName>氏外<placeName>支那</placeName>人来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:30:00\">午前十半時</time>　　<persName><surname>萩野</surname><forename>由之</forename></persName>博士来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time><persName><surname>高田</surname></persName>釜吉氏ヨリ御案内（トキワヤ）<lb/>（ウエスチンク・ハウス電気会社副社長ギルバーン氏招待会）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0103\">\n<head>\n<date when=\"1922-05-09\">\n           九日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_安東\">\n<surname>\n              安東\n             </surname>\n</persName>\n            氏外\n            <placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            人来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n<persName corresp=\"#pers_萩野由之\">\n<surname>\n              萩野\n             </surname>\n<forename>\n              由之\n             </forename>\n</persName>\n            博士来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_高田\">\n<surname>\n              高田\n             </surname>\n</persName>\n            釜吉氏ヨリ御案内（トキワヤ）\n            <lb/>\n            （ウエスチンク・ハウス電気会社副社長ギルバーン氏招待会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-05"
 }

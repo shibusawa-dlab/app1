@@ -5,15 +5,16 @@
         "大橋"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岸綽",
         "https://shibusawa-dlab.github.io/lab1/api/chname/金子",
         "https://shibusawa-dlab.github.io/lab1/api/chname/大橋"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1344",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -23,27 +24,29 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-10",
     "date_lvl2": "1920-10-20",
-    "description": "\n\n 二十日  （水） \n\n\n午前八半時　　岸綽鎮氏来約（飛鳥山邸）\n\n\n午後四時金子、大橋両家結婚式（華族会館）\n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （水）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              岸\n             \n\n              綽\n             \n\n            鎮氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n\n              金子\n             \n\n            、\n            \n\n              大橋\n             \n\n            両家結婚式（華族会館）\n           \n\n\n",
     "fullname": [
-        "岸綽"
+        "\n              岸\n             \n              綽\n             "
     ],
-    "label": "二十日  （水）",
+    "label": "二十日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-271",
-    "objectID": "DKB20022m-270",
-    "prev": "DKB20022m-269",
+    "next": "DKB20022m-0271",
+    "objectID": "DKB20022m-0270",
+    "prev": "DKB20022m-0269",
     "sort": "DKB20022m-0270",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1920-10-20",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>岸</surname><forename>綽</forename></persName>鎮氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_岸綽\">\n<surname>\n              岸\n             </surname>\n<forename>\n              綽\n             </forename>\n</persName>\n            鎮氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-270\">\n<head>\n<date when=\"1920-10-20\"> 二十日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>岸</surname><forename>綽</forename></persName>鎮氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><persName><surname>金子</surname></persName>、<persName><surname>大橋</surname></persName>両家結婚式（華族会館）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0270\">\n<head>\n<date when=\"1920-10-20\">\n           二十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_岸綽\">\n<surname>\n              岸\n             </surname>\n<forename>\n              綽\n             </forename>\n</persName>\n            鎮氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_金子\">\n<surname>\n              金子\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_大橋\">\n<surname>\n              大橋\n             </surname>\n</persName>\n            両家結婚式（華族会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-10"
 }

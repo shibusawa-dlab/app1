@@ -4,14 +4,15 @@
         "山本栄男"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/尾高"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/尾高",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山本栄男"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1322",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -21,17 +22,17 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-01",
     "date_lvl2": "1920-01-24",
-    "description": "\n\n 廿四日  （土） \n\n\n午前九・十五分　鎌倉ナル尾高氏ヲ御見舞（東京駅発）\n\n\n午前十時理化学研究所理事会（同所）\n\n\n午後四・十五分　鎌倉ヨリ御帰京（東京駅着）\n\n\n午後五時山本栄男氏ヨリ御案内（トキワヤ）\n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （土）\n         \n\n\n\n\n             午前九・十五分\n            \n\n             鎌倉\n            \n            ナル\n            \n\n              尾高\n             \n\n            氏ヲ御見舞（\n            \n             東京\n            \n            駅発）\n           \n\n\n\n\n             午前十時\n            \n            理化学研究所理事会（同所）\n           \n\n\n\n\n             午後四・十五分\n            \n\n             鎌倉\n            \n            ヨリ御帰京（\n            \n             東京\n            \n            駅着）\n           \n\n\n\n\n             午後五時\n            \n\n\n              山本\n             \n\n              栄男\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n",
     "fullname": [
-        "山本栄男"
+        "\n              山本\n             \n              栄男\n             "
     ],
-    "label": "廿四日  （土）",
+    "label": "廿四日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-22",
-    "objectID": "DKB20022m-21",
-    "prev": "DKB20022m-20",
+    "next": "DKB20022m-0022",
+    "objectID": "DKB20022m-0021",
+    "prev": "DKB20022m-0020",
     "sort": "DKB20022m-0021",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "鎌倉",
         "東京"
@@ -42,10 +43,10 @@
     ],
     "temporal": "1920-01-24",
     "time": {
-        "09:15:00": "<div><time when=\"09:15:00\">午前九・十五分</time>　<placeName>鎌倉</placeName>ナル<persName><surname>尾高</surname></persName>氏ヲ御見舞（<placeName>東京</placeName>駅発）</div>"
+        "09:15:00": "<div><time when=\"09:15:00\">\n             午前九・十五分\n            </time>\n<placeName corresp=\"#place_鎌倉\">\n             鎌倉\n            </placeName>\n            ナル\n            <persName corresp=\"#pers_尾高\">\n<surname>\n              尾高\n             </surname>\n</persName>\n            氏ヲ御見舞（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-21\">\n<head>\n<date when=\"1920-01-24\"> 廿四日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"09:15:00\">午前九・十五分</time>　<placeName>鎌倉</placeName>ナル<persName><surname>尾高</surname></persName>氏ヲ御見舞（<placeName>東京</placeName>駅発）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>理化学研究所理事会（同所）</p>\n</event>\n<event>\n<p><time when=\"16:15:00\">午後四・十五分</time>　<placeName>鎌倉</placeName>ヨリ御帰京（<placeName>東京</placeName>駅着）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><persName><surname>山本</surname><forename>栄男</forename></persName>氏ヨリ御案内（トキワヤ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0021\">\n<head>\n<date when=\"1920-01-24\">\n           廿四日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:15:00\">\n             午前九・十五分\n            </time>\n<placeName corresp=\"#place_鎌倉\">\n             鎌倉\n            </placeName>\n            ナル\n            <persName corresp=\"#pers_尾高\">\n<surname>\n              尾高\n             </surname>\n</persName>\n            氏ヲ御見舞（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            理化学研究所理事会（同所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:15:00\">\n             午後四・十五分\n            </time>\n<placeName corresp=\"#place_鎌倉\">\n             鎌倉\n            </placeName>\n            ヨリ御帰京（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅着）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_山本栄男\">\n<surname>\n              山本\n             </surname>\n<forename>\n              栄男\n             </forename>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-01"
 }

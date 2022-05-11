@@ -4,14 +4,15 @@
         "マシウス"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/中野武営"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中野武営",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/マシウス"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1178",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20017m 大正四年 1915"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20017m 大正四年 1915"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20017m 大正四年 1915",
     "date": {
         "lvl0": "1915",
@@ -21,17 +22,17 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-02",
     "date_lvl2": "1915-02-26",
-    "description": "\n\n 廿六日  （金） \n\n\n午後二時教育調査会\n\n\n午後四時中野武営氏来約（兜町）\n\n\n午後六時日本協会協賛会主催マシウス博士招待会（帝国ホテル）\n\n\n",
+    "description": "\n\n\n           廿六日\n          \n          （金）\n         \n\n\n\n\n             午後二時\n            \n            教育調査会\n           \n\n\n\n\n             午後四時\n            \n\n\n              中野\n             \n\n              武営\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n\n             日本\n            \n            協会協賛会主催\n            \n\n              マシウス\n             \n\n            博士招待会（帝国ホテル）\n           \n\n\n",
     "fullname": [
-        "中野武営"
+        "\n              中野\n             \n              武営\n             "
     ],
-    "label": "廿六日  （金）",
+    "label": "廿六日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20017m-56",
-    "objectID": "DKB20017m-55",
-    "prev": "DKB20017m-54",
+    "next": "DKB20017m-0056",
+    "objectID": "DKB20017m-0055",
+    "prev": "DKB20017m-0054",
     "sort": "DKB20017m-0055",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "日本"
@@ -42,10 +43,10 @@
     ],
     "temporal": "1915-02-26",
     "time": {
-        "14:00:00": "<div><time when=\"14:00:00\">午後二時</time>教育調査会</div>"
+        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n            教育調査会</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-55\">\n<head>\n<date when=\"1915-02-26\"> 廿六日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>教育調査会</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><persName><surname>中野</surname><forename>武営</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time><placeName>日本</placeName>協会協賛会主催<persName><surname>マシウス</surname></persName>博士招待会（帝国ホテル）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0055\">\n<head>\n<date when=\"1915-02-26\">\n           廿六日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            教育調査会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_中野武営\">\n<surname>\n              中野\n             </surname>\n<forename>\n              武営\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            協会協賛会主催\n            <persName corresp=\"#pers_マシウス\">\n<surname>\n              マシウス\n             </surname>\n</persName>\n            博士招待会（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-02"
 }

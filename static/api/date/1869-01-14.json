@@ -3,14 +3,17 @@
         "尾高新五郎",
         "幸五郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/尾高新五郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/幸五郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/58",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB10002m 自  明治元年十一月三日  至同                                                   二年正月十八日  1868―1869"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB10002m 自 明治元年十一月三日 至同 二年正月十八日 1868―1869"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-    "category_lvl1": "DKB10002m 自  明治元年十一月三日  至同                                                   二年正月十八日  1868―1869",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl1": "DKB10002m 自 明治元年十一月三日 至同 二年正月十八日 1868―1869",
     "date": {
         "lvl0": "1869",
         "lvl1": "1869 > 1869-01",
@@ -19,23 +22,23 @@
     "date_lvl0": "1869",
     "date_lvl1": "1869-01",
     "date_lvl2": "1869-01-14",
-    "description": "\n\n 十二月二日  晴\n                                                   一月十四日 \n\n朝より諸方知音之者相集り、頗る雑沓を究む、此夜、尾高新五郎来、幸五郎其他同行いたす\n",
+    "description": "\n\n\n        十二月二日\n       \n       晴\n       \n        一月十四日\n       \n\n\n       朝より諸方知音之者相集り、頗る雑沓を究む、此夜、\n       \n\n         尾高\n        \n\n         新五郎\n        \n\n       来、\n       \n\n         幸五郎\n        \n\n       其他同行いたす\n      \n",
     "fullname": [
-        "尾高新五郎"
+        "\n         尾高\n        \n         新五郎\n        "
     ],
-    "label": "十二月二日  晴                                                   一月十四日",
+    "label": "十二月二日              晴               一月十四日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
-    "next": "DKB10002m-31",
-    "objectID": "DKB10002m-30",
-    "prev": "DKB10002m-29",
+    "next": "DKB10002m-0031",
+    "objectID": "DKB10002m-0030",
+    "prev": "DKB10002m-0029",
     "sort": "DKB10002m-0030",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [],
     "spatial_uri": [],
     "temporal": "1869-01-14",
     "time": {},
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10002m-30\">\n<head>\n<date type=\"旧暦\" when=\"1869-01-14\"> 十二月二日 </date> 晴\n                                                  <date when=\"1869-01-14\"> 一月十四日 </date>\n</head>\n<p>朝より諸方知音之者相集り、頗る雑沓を究む、此夜、<persName><surname>尾高</surname><forename>新五郎</forename></persName>来、<persName><forename>幸五郎</forename></persName>其他同行いたす</p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10002m-0030\">\n<head>\n<date type=\"旧暦\" when=\"1869-01-14\">\n        十二月二日\n       </date>\n       晴\n       <date when=\"1869-01-14\">\n        一月十四日\n       </date>\n</head>\n<p>\n       朝より諸方知音之者相集り、頗る雑沓を究む、此夜、\n       <persName corresp=\"#pers_尾高新五郎\">\n<surname>\n         尾高\n        </surname>\n<forename>\n         新五郎\n        </forename>\n</persName>\n       来、\n       <persName corresp=\"#pers_幸五郎\">\n<forename>\n         幸五郎\n        </forename>\n</persName>\n       其他同行いたす\n      </p>\n</div>",
     "year": "1869",
     "yearAndMonth": "1869-01"
 }

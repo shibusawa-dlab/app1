@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1189",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20017m 大正四年 1915"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20017m 大正四年 1915"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20017m 大正四年 1915",
     "date": {
         "lvl0": "1915",
@@ -20,15 +20,15 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-07",
     "date_lvl2": "1915-07-27",
-    "description": "\n\n 廿七日  （火） \n\n\n午後二時和蘭国コル、ケトナー両氏来ル約（兜町）\n\n\n午後七時中野氏より招待（上の精養軒）\n\n\n",
+    "description": "\n\n\n           廿七日\n          \n          （火）\n         \n\n\n\n\n             午後二時\n            \n\n             和蘭\n            \n            国コル、ケトナー両氏来ル約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後七時\n            \n\n\n              中野\n             \n\n            氏より招待（上の精養軒）\n           \n\n\n",
     "fullname": [],
-    "label": "廿七日  （火）",
+    "label": "廿七日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20017m-199",
-    "objectID": "DKB20017m-198",
-    "prev": "DKB20017m-197",
+    "next": "DKB20017m-0199",
+    "objectID": "DKB20017m-0198",
+    "prev": "DKB20017m-0197",
     "sort": "DKB20017m-0198",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "オランダ",
         "日本橋兜町"
@@ -39,10 +39,10 @@
     ],
     "temporal": "1915-07-27",
     "time": {
-        "14:00:00": "<div><time when=\"14:00:00\">午後二時</time><placeName>和蘭</placeName>国コル、ケトナー両氏来ル約（<placeName>兜町</placeName>）</div>"
+        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_オランダ\">\n             和蘭\n            </placeName>\n            国コル、ケトナー両氏来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-198\">\n<head>\n<date when=\"1915-07-27\"> 廿七日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><placeName>和蘭</placeName>国コル、ケトナー両氏来ル約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"19:00:00\">午後七時</time><persName><surname>中野</surname></persName>氏より招待（上の精養軒）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0198\">\n<head>\n<date when=\"1915-07-27\">\n           廿七日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_オランダ\">\n             和蘭\n            </placeName>\n            国コル、ケトナー両氏来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n<persName corresp=\"#pers_中野\">\n<surname>\n              中野\n             </surname>\n</persName>\n            氏より招待（上の精養軒）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-07"
 }

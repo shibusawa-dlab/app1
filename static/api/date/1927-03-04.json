@@ -10,14 +10,15 @@
         "https://shibusawa-dlab.github.io/lab1/api/chname/白石",
         "https://shibusawa-dlab.github.io/lab1/api/chname/岡田",
         "https://shibusawa-dlab.github.io/lab1/api/chname/鈴木文治",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/鈴木謙二",
         "https://shibusawa-dlab.github.io/lab1/api/chname/服部宇之吉"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1537",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -27,32 +28,33 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-03",
     "date_lvl2": "1927-03-04",
-    "description": "\n\n 四日  （金） \n\n\n午前九時白石、岡田二氏来約（アスカ山）\n\n\n午前九半時　　鈴木文治氏暇乞ノ為メ来約（飛鳥山）\n\n\n午前十時鈴木謙二氏来約（アスカ山）\n\n\n朝　　　　　　服部宇之吉氏来約（〃〃）\n\n\n午前十一時米人サム・クレイスウエル氏来訪（事務所）\n\n\n",
+    "description": "\n\n\n           四日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n\n\n              白石\n             \n\n            、\n            \n\n              岡田\n             \n\n            二氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n\n              鈴木\n             \n\n              文治\n             \n\n            氏暇乞ノ為メ来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              鈴木\n             \n\n              謙二\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             朝\n            \n\n\n              服部\n             \n\n              宇之吉\n             \n\n            氏来約（〃〃）\n           \n\n\n\n\n             午前十一時\n            \n            米人サム・クレイスウエル氏来訪（事務所）\n           \n\n\n",
     "fullname": [
-        "鈴木文治",
-        "鈴木謙二",
-        "服部宇之吉"
+        "\n              鈴木\n             \n              文治\n             ",
+        "\n              鈴木\n             \n              謙二\n             ",
+        "\n              服部\n             \n              宇之吉\n             "
     ],
-    "label": "四日  （金）",
+    "label": "四日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-47",
-    "objectID": "DKB20029m-46",
-    "prev": "DKB20029m-45",
+    "next": "DKB20029m-0047",
+    "objectID": "DKB20029m-0046",
+    "prev": "DKB20029m-0045",
     "sort": "DKB20029m-0046",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山",
         "飛鳥山公園"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
         "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園"
     ],
     "temporal": "1927-03-04",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><forename>白石</forename></persName>、<persName><surname>岡田</surname></persName>二氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_白石\">\n<forename>\n              白石\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_岡田\">\n<surname>\n              岡田\n             </surname>\n</persName>\n            二氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-46\">\n<head>\n<date when=\"1927-03-04\"> 四日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><forename>白石</forename></persName>、<persName><surname>岡田</surname></persName>二氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"09:30:00\">午前九半時</time>　　<persName><surname>鈴木</surname><forename>文治</forename></persName>氏暇乞ノ為メ来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>鈴木</surname><forename>謙二</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time>朝</time>　　　　　　<persName><surname>服部</surname><forename>宇之吉</forename></persName>氏来約（〃〃）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>米人サム・クレイスウエル氏来訪（事務所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0046\">\n<head>\n<date when=\"1927-03-04\">\n           四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_白石\">\n<forename>\n              白石\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_岡田\">\n<surname>\n              岡田\n             </surname>\n</persName>\n            二氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_鈴木文治\">\n<surname>\n              鈴木\n             </surname>\n<forename>\n              文治\n             </forename>\n</persName>\n            氏暇乞ノ為メ来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_鈴木謙二\">\n<surname>\n              鈴木\n             </surname>\n<forename>\n              謙二\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             朝\n            </time>\n<persName corresp=\"#pers_服部宇之吉\">\n<surname>\n              服部\n             </surname>\n<forename>\n              宇之吉\n             </forename>\n</persName>\n            氏来約（〃〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            米人サム・クレイスウエル氏来訪（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-03"
 }

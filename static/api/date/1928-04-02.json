@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1577",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20030m 昭和三年 1928"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20030m 昭和三年 1928"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20030m 昭和三年 1928",
     "date": {
         "lvl0": "1928",
@@ -22,18 +22,18 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-04",
     "date_lvl2": "1928-04-02",
-    "description": "\n\n 二日  （月） \n\n\n午前十半時　　御出勤\n\n\n午前十一時三島海雲氏来約　事務所\n\n\n午前十一時平岡定太郎氏来約　永楽町事務所\n\n\n正午　　　　　国際聯盟協会理事会（工業クラブ）\n\n\n",
+    "description": "\n\n\n           二日\n          \n          （月）\n         \n\n\n\n\n             午前十半時\n            \n            御出勤\n           \n\n\n\n\n             午前十一時\n            \n\n\n              三島\n             \n\n              海雲\n             \n\n            氏来約　事務所\n           \n\n\n\n\n             午前十一時\n            \n\n\n              平岡\n             \n\n              定太郎\n             \n\n            氏来約\n            \n             永楽町\n            \n            事務所\n           \n\n\n\n\n             正午\n            \n            国際聯盟協会理事会（工業クラブ）\n           \n\n\n",
     "fullname": [
-        "三島海雲",
-        "平岡定太郎"
+        "\n              三島\n             \n              海雲\n             ",
+        "\n              平岡\n             \n              定太郎\n             "
     ],
-    "label": "二日  （月）",
+    "label": "二日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20030m-96",
-    "objectID": "DKB20030m-95",
-    "prev": "DKB20030m-94",
+    "next": "DKB20030m-0096",
+    "objectID": "DKB20030m-0095",
+    "prev": "DKB20030m-0094",
     "sort": "DKB20030m-0095",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "永楽町"
     ],
@@ -42,10 +42,10 @@
     ],
     "temporal": "1928-04-02",
     "time": {
-        "10:30:00": "<div><time when=\"10:30:00\">午前十半時</time>　　御出勤</div>"
+        "10:30:00": "<div><time when=\"10:30:00\">\n             午前十半時\n            </time>\n            御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-95\">\n<head>\n<date when=\"1928-04-02\"> 二日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"10:30:00\">午前十半時</time>　　御出勤</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>三島</surname><forename>海雲</forename></persName>氏来約　事務所</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>平岡</surname><forename>定太郎</forename></persName>氏来約　<placeName>永楽町</placeName>事務所</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　国際聯盟協会理事会（工業クラブ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0095\">\n<head>\n<date when=\"1928-04-02\">\n           二日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_三島海雲\">\n<surname>\n              三島\n             </surname>\n<forename>\n              海雲\n             </forename>\n</persName>\n            氏来約　事務所\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_平岡定太郎\">\n<surname>\n              平岡\n             </surname>\n<forename>\n              定太郎\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_永楽町\">\n             永楽町\n            </placeName>\n            事務所\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            国際聯盟協会理事会（工業クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-04"
 }

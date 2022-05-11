@@ -6,14 +6,15 @@
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/吉池",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山川弘毅"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1284",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20020m 大正七年 1918"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20020m 大正七年 1918"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20020m 大正七年 1918",
     "date": {
         "lvl0": "1918",
@@ -23,17 +24,17 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-12",
     "date_lvl2": "1918-12-05",
-    "description": "\n\n 五日  （木） \n\n\n午九時太陽ノ記者及吉池氏等来ル\n\n\n午前十一時ブイ氏御案内（飛鳥山邸）\n\n\n午後四時二十分皇道会ノ為ニ横浜御出向、渋沢商店ニ御立寄リ（東京駅発）\n\n\n午後七時故山川弘毅氏弔悼会（埼玉学生誘掖会）\n\n\n",
+    "description": "\n\n\n           五日\n          \n          （木）\n         \n\n\n\n\n             午九時\n            \n            太陽ノ記者及\n            \n\n              吉池\n             \n\n            氏等来ル\n           \n\n\n\n\n\n             午前十一時\n            \n            ブイ氏御案内（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後四時二十分\n            \n            皇道会ノ為ニ\n            \n             横浜\n            \n            御出向、\n            \n\n              渋沢\n             \n\n            商店ニ御立寄リ（\n            \n             東京\n            \n            駅発）\n           \n\n\n\n\n             午後七時\n            \n            故\n            \n\n              山川\n             \n\n              弘毅\n             \n\n            氏弔悼会（\n            \n             埼玉\n            \n            学生誘掖会）\n           \n\n\n",
     "fullname": [
-        "山川弘毅"
+        "\n              山川\n             \n              弘毅\n             "
     ],
-    "label": "五日  （木）",
+    "label": "五日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20020m-319",
-    "objectID": "DKB20020m-318",
-    "prev": "DKB20020m-317",
+    "next": "DKB20020m-0319",
+    "objectID": "DKB20020m-0318",
+    "prev": "DKB20020m-0317",
     "sort": "DKB20020m-0318",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "横浜",
@@ -41,16 +42,17 @@
         "埼玉"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/横浜",
         "https://shibusawa-dlab.github.io/lab1/api/place/東京",
         "https://shibusawa-dlab.github.io/lab1/api/place/埼玉"
     ],
     "temporal": "1918-12-05",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午九時</time>太陽ノ記者及<persName><surname>吉池</surname></persName>氏等来ル</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午九時\n            </time>\n            太陽ノ記者及\n            <persName corresp=\"#pers_吉池\">\n<surname>\n              吉池\n             </surname>\n</persName>\n            氏等来ル</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-318\">\n<head>\n<date when=\"1918-12-05\"> 五日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午九時</time>太陽ノ記者及<persName><surname>吉池</surname></persName>氏等来ル</p>\n</event>\n<event>\n<p><pb n=\"B2445\"/><time when=\"11:00:00\">午前十一時</time>ブイ氏御案内（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:20:00\">午後四時二十分</time>皇道会ノ為ニ<placeName>横浜</placeName>御出向、<persName><surname>渋沢</surname></persName>商店ニ御立寄リ（<placeName>東京</placeName>駅発）</p>\n</event>\n<event>\n<p><time when=\"19:00:00\">午後七時</time>故<persName><surname>山川</surname><forename>弘毅</forename></persName>氏弔悼会（<placeName>埼玉</placeName>学生誘掖会）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0318\">\n<head>\n<date when=\"1918-12-05\">\n           五日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午九時\n            </time>\n            太陽ノ記者及\n            <persName corresp=\"#pers_吉池\">\n<surname>\n              吉池\n             </surname>\n</persName>\n            氏等来ル\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2445\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1284/full/max/0/default.jpg\" n=\"B2445\" source=\"#pageB2445\"/>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            ブイ氏御案内（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:20:00\">\n             午後四時二十分\n            </time>\n            皇道会ノ為ニ\n            <placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            御出向、\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            商店ニ御立寄リ（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            故\n            <persName corresp=\"#pers_山川弘毅\">\n<surname>\n              山川\n             </surname>\n<forename>\n              弘毅\n             </forename>\n</persName>\n            氏弔悼会（\n            <placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-12"
 }

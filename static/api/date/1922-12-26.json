@@ -4,14 +4,15 @@
         "明石照男"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/都倉",
         "https://shibusawa-dlab.github.io/lab1/api/chname/明石照男"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1415",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -21,17 +22,17 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-12",
     "date_lvl2": "1922-12-26",
-    "description": "\n\n 廿六日  （火） \n\n\n午前八時実業之日本社都倉氏来約（飛鳥山邸）\n\n\n正午頃　　　　明石照男氏ト御会談約（兜町）\n\n\n午後五時対支那問題懇談会（東京会館）\n\n\n",
+    "description": "\n\n\n           廿六日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n            実業之\n            \n             日本\n            \n            社\n            \n\n              都倉\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            頃\n            \n\n              明石\n             \n\n              照男\n             \n\n            氏ト御会談約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            対\n            \n             支那\n            \n            問題懇談会（\n            \n             東京\n            \n            会館）\n           \n\n\n",
     "fullname": [
-        "明石照男"
+        "\n              明石\n             \n              照男\n             "
     ],
-    "label": "廿六日  （火）",
+    "label": "廿六日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-325",
-    "objectID": "DKB20024m-324",
-    "prev": "DKB20024m-323",
+    "next": "DKB20024m-0325",
+    "objectID": "DKB20024m-0324",
+    "prev": "DKB20024m-0323",
     "sort": "DKB20024m-0324",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本",
         "飛鳥山邸",
@@ -41,16 +42,17 @@
     ],
     "spatial_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/place/日本",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
         "https://shibusawa-dlab.github.io/lab1/api/place/支那",
         "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1922-12-26",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time>実業之<placeName>日本</placeName>社<persName><surname>都倉</surname></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            実業之\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            社\n            <persName corresp=\"#pers_都倉\">\n<surname>\n              都倉\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-324\">\n<head>\n<date when=\"1922-12-26\"> 廿六日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time>実業之<placeName>日本</placeName>社<persName><surname>都倉</surname></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>頃　　　　<persName><surname>明石</surname><forename>照男</forename></persName>氏ト御会談約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>対<placeName>支那</placeName>問題懇談会（<placeName>東京</placeName>会館）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0324\">\n<head>\n<date when=\"1922-12-26\">\n           廿六日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            実業之\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            社\n            <persName corresp=\"#pers_都倉\">\n<surname>\n              都倉\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            頃\n            <persName corresp=\"#pers_明石照男\">\n<surname>\n              明石\n             </surname>\n<forename>\n              照男\n             </forename>\n</persName>\n            氏ト御会談約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            対\n            <placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            問題懇談会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-12"
 }

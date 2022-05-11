@@ -3,13 +3,16 @@
         "久田",
         "小橋"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/久田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小橋"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1339",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -19,15 +22,15 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-08",
     "date_lvl2": "1920-08-12",
-    "description": "\n\n 十二日  （木） \n\n\n午前十時協調会久田氏来約（兜町）\n\n\n午前十一時小橋内務次官兜町ニ来約\n\n\n正午　　　　　世界日曜学校大会後援会（銀行クラブ）\n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n            協調会\n            \n\n              久田\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              小橋\n             \n\n            内務次官\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             正午\n            \n            世界日曜学校大会後援会（銀行クラブ）\n           \n\n\n",
     "fullname": [],
-    "label": "十二日  （木）",
+    "label": "十二日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-215",
-    "objectID": "DKB20022m-214",
-    "prev": "DKB20022m-213",
+    "next": "DKB20022m-0215",
+    "objectID": "DKB20022m-0214",
+    "prev": "DKB20022m-0213",
     "sort": "DKB20022m-0214",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -36,10 +39,10 @@
     ],
     "temporal": "1920-08-12",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time>協調会<persName><surname>久田</surname></persName>氏来約（<placeName>兜町</placeName>）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            協調会\n            <persName corresp=\"#pers_久田\">\n<surname>\n              久田\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-214\">\n<head>\n<date when=\"1920-08-12\"> 十二日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>協調会<persName><surname>久田</surname></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>小橋</surname></persName>内務次官<placeName>兜町</placeName>ニ来約</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　世界日曜学校大会後援会（銀行クラブ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0214\">\n<head>\n<date when=\"1920-08-12\">\n           十二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            協調会\n            <persName corresp=\"#pers_久田\">\n<surname>\n              久田\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_小橋\">\n<surname>\n              小橋\n             </surname>\n</persName>\n            内務次官\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            世界日曜学校大会後援会（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-08"
 }

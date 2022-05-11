@@ -5,14 +5,16 @@
         "穂積歌子"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/原泰一"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/原泰一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/木島孝蔵",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/穂積歌子"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1572",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20030m 昭和三年 1928"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20030m 昭和三年 1928"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20030m 昭和三年 1928",
     "date": {
         "lvl0": "1928",
@@ -22,29 +24,31 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-02",
     "date_lvl2": "1928-02-22",
-    "description": "\n\n 廿二日  （水） \n\n\n午前九時半原泰一氏来約（飛鳥山邸）\n\n\n午前十時木島孝蔵氏来約（〃〃）\n\n\n正午　　　　　日華実業協会幹事会（同会）\n\n\n午後二半時　　御出勤\n\n\n午後五時穂積歌子殿来約（飛鳥山邸）\n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （水）\n         \n\n\n\n\n             午前九時半\n            \n\n\n              原\n             \n\n              泰一\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              木島\n             \n\n              孝蔵\n             \n\n            氏来約（〃〃）\n           \n\n\n\n\n             正午\n            \n            日華実業協会幹事会（同会）\n           \n\n\n\n\n             午後二半時\n            \n            御出勤\n           \n\n\n\n\n             午後五時\n            \n\n\n              穂積\n             \n\n              歌子\n             \n\n            殿来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "原泰一",
-        "木島孝蔵",
-        "穂積歌子"
+        "\n              原\n             \n              泰一\n             ",
+        "\n              木島\n             \n              孝蔵\n             ",
+        "\n              穂積\n             \n              歌子\n             "
     ],
-    "label": "廿二日  （水）",
+    "label": "廿二日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20030m-54",
-    "objectID": "DKB20030m-53",
-    "prev": "DKB20030m-52",
+    "next": "DKB20030m-0054",
+    "objectID": "DKB20030m-0053",
+    "prev": "DKB20030m-0052",
     "sort": "DKB20030m-0053",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1928-02-22",
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">午前九時半</time><persName><surname>原</surname><forename>泰一</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九時半\n            </time>\n<persName corresp=\"#pers_原泰一\">\n<surname>\n              原\n             </surname>\n<forename>\n              泰一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-53\">\n<head>\n<date when=\"1928-02-22\"> 廿二日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"09:30:00\">午前九時半</time><persName><surname>原</surname><forename>泰一</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>木島</surname><forename>孝蔵</forename></persName>氏来約（〃〃）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　日華実業協会幹事会（同会）</p>\n</event>\n<event>\n<p><time when=\"14:30:00\">午後二半時</time>　　御出勤</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><persName><surname>穂積</surname><forename>歌子</forename></persName>殿来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0053\">\n<head>\n<date when=\"1928-02-22\">\n           廿二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九時半\n            </time>\n<persName corresp=\"#pers_原泰一\">\n<surname>\n              原\n             </surname>\n<forename>\n              泰一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_木島孝蔵\">\n<surname>\n              木島\n             </surname>\n<forename>\n              孝蔵\n             </forename>\n</persName>\n            氏来約（〃〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華実業協会幹事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_穂積歌子\">\n<surname>\n              穂積\n             </surname>\n<forename>\n              歌子\n             </forename>\n</persName>\n            殿来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-02"
 }

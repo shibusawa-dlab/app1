@@ -10,14 +10,15 @@
         "https://shibusawa-dlab.github.io/lab1/api/chname/三島",
         "https://shibusawa-dlab.github.io/lab1/api/chname/新堀",
         "https://shibusawa-dlab.github.io/lab1/api/chname/安川敬一郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/織田昇次郎",
         "https://shibusawa-dlab.github.io/lab1/api/chname/浅野総一郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1239",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -27,19 +28,19 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-06",
     "date_lvl2": "1917-06-12",
-    "description": "\n\n 十二日  （火） \n\n\n午前十時女子大学評議員会（同校）\n\n\n正午　　　　　三島子爵ヨリ御案内（北新堀舎宅）\n\n\n午後三時九州ノ安川敬一郎氏来約（兜町）\n\n\n午後五時織田昇次郎氏ヨリ御案内《○原註》（トキワヤ）《（不参）》\n\n\n午後六時浅野総一郎氏ヨリ御案内（同氏邸）\n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n            女子大学評議員会（同校）\n           \n\n\n\n\n             正午\n            \n\n\n              三島\n             \n\n            子爵ヨリ御案内（北\n            \n\n              新堀\n             \n\n            舎宅）\n           \n\n\n\n\n             午後三時\n            \n\n             九州\n            \n            ノ\n            \n\n              安川\n             \n\n              敬一郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              織田\n             \n\n              昇次郎\n             \n\n            氏ヨリ御案内《○原註》（トキワヤ）《（不参）》\n           \n\n\n\n\n             午後六時\n            \n\n\n              浅野\n             \n\n              総一郎\n             \n\n            氏ヨリ御案内（同氏邸）\n           \n\n\n",
     "fullname": [
-        "安川敬一郎",
-        "織田昇次郎",
-        "浅野総一郎"
+        "\n              安川\n             \n              敬一郎\n             ",
+        "\n              織田\n             \n              昇次郎\n             ",
+        "\n              浅野\n             \n              総一郎\n             "
     ],
-    "label": "十二日  （火）",
+    "label": "十二日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-164",
-    "objectID": "DKB20019m-163",
-    "prev": "DKB20019m-162",
+    "next": "DKB20019m-0164",
+    "objectID": "DKB20019m-0163",
+    "prev": "DKB20019m-0162",
     "sort": "DKB20019m-0163",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "九州",
         "日本橋兜町"
@@ -50,10 +51,10 @@
     ],
     "temporal": "1917-06-12",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time>女子大学評議員会（同校）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            女子大学評議員会（同校）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-163\">\n<head>\n<date when=\"1917-06-12\"> 十二日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>女子大学評議員会（同校）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　<persName><surname>三島</surname></persName>子爵ヨリ御案内（北<persName><surname>新堀</surname></persName>舎宅）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><placeName>九州</placeName>ノ<persName><surname>安川</surname><forename>敬一郎</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><persName><surname>織田</surname><forename>昇次郎</forename></persName>氏ヨリ御案内《○原註》（トキワヤ）《（不参）》</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time><persName><surname>浅野</surname><forename>総一郎</forename></persName>氏ヨリ御案内（同氏邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0163\">\n<head>\n<date when=\"1917-06-12\">\n           十二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            女子大学評議員会（同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_三島\">\n<surname>\n              三島\n             </surname>\n</persName>\n            子爵ヨリ御案内（北\n            <persName corresp=\"#pers_新堀\">\n<surname>\n              新堀\n             </surname>\n</persName>\n            舎宅）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_九州\">\n             九州\n            </placeName>\n            ノ\n            <persName corresp=\"#pers_安川敬一郎\">\n<surname>\n              安川\n             </surname>\n<forename>\n              敬一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_織田昇次郎\">\n<surname>\n              織田\n             </surname>\n<forename>\n              昇次郎\n             </forename>\n</persName>\n            氏ヨリ御案内《○原註》（トキワヤ）《（不参）》\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏ヨリ御案内（同氏邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-06"
 }

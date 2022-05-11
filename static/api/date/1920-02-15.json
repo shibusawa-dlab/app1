@@ -3,13 +3,16 @@
         "川田鉄弥",
         "後藤登喜男"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/川田鉄弥",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/後藤登喜男"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1324",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -19,18 +22,18 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-02",
     "date_lvl2": "1920-02-15",
-    "description": "\n\n 十五日  （日） \n\n\n午前八時川田鉄弥氏来約（アスカ山）\n\n\n午前八時後藤登喜男氏来約（飛鳥山邸）\n\n\n午後十二半時　東京商工慰安会（増上寺）\n\n\n午後二時東京市小学校教員会刱立総会（慶応義塾）\n\n\n午後四時白耳義国公使館ヘ御向《（出脱）》\n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n\n\n              川田\n             \n\n              鉄弥\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前八時\n            \n\n\n              後藤\n             \n\n              登喜男\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後十二半時\n            \n\n             東京\n            \n            商工慰安会（増上寺）\n           \n\n\n\n\n             午後二時\n            \n\n             東京\n            \n            市小学校教員会刱立総会（慶応義塾）\n           \n\n\n\n\n             午後四時\n            \n\n             白耳義\n            \n            国公使館ヘ御向《（出脱）》\n           \n\n\n",
     "fullname": [
-        "川田鉄弥",
-        "後藤登喜男"
+        "\n              川田\n             \n              鉄弥\n             ",
+        "\n              後藤\n             \n              登喜男\n             "
     ],
-    "label": "十五日  （日）",
+    "label": "十五日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-45",
-    "objectID": "DKB20022m-44",
-    "prev": "DKB20022m-43",
+    "next": "DKB20022m-0045",
+    "objectID": "DKB20022m-0044",
+    "prev": "DKB20022m-0043",
     "sort": "DKB20022m-0044",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山",
         "飛鳥山邸",
@@ -38,15 +41,17 @@
         "ベルギー"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/東京",
         "https://shibusawa-dlab.github.io/lab1/api/place/ベルギー"
     ],
     "temporal": "1920-02-15",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>川田</surname><forename>鉄弥</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_川田鉄弥\">\n<surname>\n              川田\n             </surname>\n<forename>\n              鉄弥\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-44\">\n<head>\n<date when=\"1920-02-15\"> 十五日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>川田</surname><forename>鉄弥</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>後藤</surname><forename>登喜男</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:30:00\">午後十二半時</time>　<placeName>東京</placeName>商工慰安会（増上寺）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><placeName>東京</placeName>市小学校教員会刱立総会（慶応義塾）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><placeName>白耳義</placeName>国公使館ヘ御向《（出脱）》</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0044\">\n<head>\n<date when=\"1920-02-15\">\n           十五日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_川田鉄弥\">\n<surname>\n              川田\n             </surname>\n<forename>\n              鉄弥\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_後藤登喜男\">\n<surname>\n              後藤\n             </surname>\n<forename>\n              登喜男\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後十二半時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商工慰安会（増上寺）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市小学校教員会刱立総会（慶応義塾）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_ベルギー\">\n             白耳義\n            </placeName>\n            国公使館ヘ御向《（出脱）》\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-02"
 }

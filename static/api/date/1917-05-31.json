@@ -4,14 +4,15 @@
         "原熙"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/近藤"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/近藤",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/原熙"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1238",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -21,17 +22,17 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-05",
     "date_lvl2": "1917-05-31",
-    "description": "\n\n 卅一日  （木） \n\n\n午後四時近藤男来約（兜町）\n\n\n午四時半原熙氏来約（兜町）\n\n\n午後六時セール・フレザーより御案内燕尾服（ホテル）引続キ帝劇見物\n\n\n",
+    "description": "\n\n\n           卅一日\n          \n          （木）\n         \n\n\n\n\n             午後四時\n            \n\n\n              近藤\n             \n\n            男来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午四時半\n            \n\n\n              原\n             \n\n              熙\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n            セール・フレザーより御案内燕尾服（ホテル）引続キ帝劇見物\n           \n\n\n",
     "fullname": [
-        "原熙"
+        "\n              原\n             \n              熙\n             "
     ],
-    "label": "卅一日  （木）",
+    "label": "卅一日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-152",
-    "objectID": "DKB20019m-150",
-    "prev": "DKB20019m-149",
+    "next": "DKB20019m-0152",
+    "objectID": "DKB20019m-0150",
+    "prev": "DKB20019m-0149",
     "sort": "DKB20019m-0150",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -40,10 +41,10 @@
     ],
     "temporal": "1917-05-31",
     "time": {
-        "16:00:00": "<div><time when=\"16:00:00\">午後四時</time><persName><surname>近藤</surname></persName>男来約（<placeName>兜町</placeName>）</div>"
+        "16:00:00": "<div><time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_近藤\">\n<surname>\n              近藤\n             </surname>\n</persName>\n            男来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-150\">\n<head>\n<date when=\"1917-05-31\"> 卅一日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><persName><surname>近藤</surname></persName>男来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:30:00\">午四時半</time><persName><surname>原</surname><forename>熙</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time>セール・フレザーより御案内燕尾服（ホテル）引続キ帝劇見物</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0150\">\n<head>\n<date when=\"1917-05-31\">\n           卅一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_近藤\">\n<surname>\n              近藤\n             </surname>\n</persName>\n            男来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午四時半\n            </time>\n<persName corresp=\"#pers_原熙\">\n<surname>\n              原\n             </surname>\n<forename>\n              熙\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            セール・フレザーより御案内燕尾服（ホテル）引続キ帝劇見物\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-05"
 }

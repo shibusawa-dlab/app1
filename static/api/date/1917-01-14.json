@@ -4,14 +4,15 @@
         "阪本"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/早川徳次"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/早川徳次",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/阪本"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1225",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -21,17 +22,17 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-01",
     "date_lvl2": "1917-01-14",
-    "description": "\n\n 十四日  （日） \n\n\n午前八時早川徳次、阪本氏来約（飛鳥山邸）\n\n\n午前八・十二時血洗島ヘ御出向　王子駅御発車\n\n\n午後三・二四時血洗島より御帰り同駅御着車\n\n\n午後〇時半　　東京米穀商品取引所ヨリ御案内\n\n\n午後五時食堂開始（矢ノ倉福井楼）\n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n\n\n              早川\n             \n\n              徳次\n             \n\n            、\n            \n\n              阪本\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前八・十二時\n            \n\n             血洗島\n            \n            ヘ御出向\n            \n             王子\n            \n            駅御発車\n           \n\n\n\n\n             午後三・二四時\n            \n\n             血洗島\n            \n            より御帰り同駅御着車\n           \n\n\n\n\n             午後〇時半\n            \n\n             東京\n            \n            米穀商品取引所ヨリ御案内\n           \n\n\n\n\n             午後五時\n            \n            食堂開始（矢ノ倉福井楼）\n           \n\n\n",
     "fullname": [
-        "早川徳次"
+        "\n              早川\n             \n              徳次\n             "
     ],
-    "label": "十四日  （日）",
+    "label": "十四日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-15",
-    "objectID": "DKB20019m-14",
-    "prev": "DKB20019m-13",
+    "next": "DKB20019m-0015",
+    "objectID": "DKB20019m-0014",
+    "prev": "DKB20019m-0013",
     "sort": "DKB20019m-0014",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "血洗島",
@@ -39,15 +40,17 @@
         "東京"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/血洗島",
         "https://shibusawa-dlab.github.io/lab1/api/place/王子",
         "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1917-01-14",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>早川</surname><forename>徳次</forename></persName>、<persName><surname>阪本</surname></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_早川徳次\">\n<surname>\n              早川\n             </surname>\n<forename>\n              徳次\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_阪本\">\n<surname>\n              阪本\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-14\">\n<head>\n<date when=\"1917-01-14\"> 十四日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>早川</surname><forename>徳次</forename></persName>、<persName><surname>阪本</surname></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"08:12:00\">午前八・十二時</time><placeName>血洗島</placeName>ヘ御出向　<placeName>王子</placeName>駅御発車</p>\n</event>\n<event>\n<p><time when=\"15:24:00\">午後三・二四時</time><placeName>血洗島</placeName>より御帰り同駅御着車</p>\n</event>\n<event>\n<p><time when=\"12:30:00\">午後〇時半</time>　　<placeName>東京</placeName>米穀商品取引所ヨリ御案内</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>食堂開始（矢ノ倉福井楼）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0014\">\n<head>\n<date when=\"1917-01-14\">\n           十四日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_早川徳次\">\n<surname>\n              早川\n             </surname>\n<forename>\n              徳次\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_阪本\">\n<surname>\n              阪本\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:12:00\">\n             午前八・十二時\n            </time>\n<placeName corresp=\"#place_血洗島\">\n             血洗島\n            </placeName>\n            ヘ御出向\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅御発車\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:24:00\">\n             午後三・二四時\n            </time>\n<placeName corresp=\"#place_血洗島\">\n             血洗島\n            </placeName>\n            より御帰り同駅御着車\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇時半\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            米穀商品取引所ヨリ御案内\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            食堂開始（矢ノ倉福井楼）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-01"
 }

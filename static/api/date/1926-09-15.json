@@ -4,15 +4,16 @@
         "桑山"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/伊沢",
         "https://shibusawa-dlab.github.io/lab1/api/chname/桑山"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1523",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-09",
@@ -21,15 +22,15 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-09",
     "date_lvl2": "1926-09-15",
-    "description": "\n\n 十五日  （水） \n\n\n午前九・五〇迄ニ　産業文化博覧会開場式（上野同会場）シルクハツト\n\n\n午十二時頃　　終了ノ予定\n\n\n午后一半時　　伊沢東京市長御訪問（東京市役所）\n\n\n午後二時事務断ニ御出勤\n\n\n午后三時桑山逓信次官来約（永楽町事務所）\n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （水）\n         \n\n\n\n\n             午前九・五〇\n            \n            迄ニ　産業文化博覧会開場式（\n            \n             上野\n            \n            同会場）シルクハツト\n           \n\n\n\n\n             午十二時\n            \n            頃　　終了ノ予定\n           \n\n\n\n\n             午后一半時\n            \n\n\n              伊沢\n             \n\n\n             東京\n            \n            市長御訪問（\n            \n             東京\n            \n            市役所）\n           \n\n\n\n\n             午後二時\n            \n            事務断ニ御出勤\n           \n\n\n\n\n             午后三時\n            \n\n\n              桑山\n             \n\n            逓信次官来約（\n            \n             永楽町\n            \n            事務所）\n           \n\n\n",
     "fullname": [],
-    "label": "十五日  （水）",
+    "label": "十五日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-239",
-    "objectID": "DKB20028m-238",
-    "prev": "DKB20028m-237",
+    "next": "DKB20028m-0239",
+    "objectID": "DKB20028m-0238",
+    "prev": "DKB20028m-0237",
     "sort": "DKB20028m-0238",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "上野",
         "東京",
@@ -42,10 +43,10 @@
     ],
     "temporal": "1926-09-15",
     "time": {
-        "09:50:00": "<div><time when=\"09:50:00\">午前九・五〇</time>迄ニ　産業文化博覧会開場式（<placeName>上野</placeName>同会場）シルクハツト</div>"
+        "09:50:00": "<div><time when=\"09:50:00\">\n             午前九・五〇\n            </time>\n            迄ニ　産業文化博覧会開場式（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            同会場）シルクハツト</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-238\">\n<head>\n<date when=\"1926-09-15\"> 十五日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"09:50:00\">午前九・五〇</time>迄ニ　産業文化博覧会開場式（<placeName>上野</placeName>同会場）シルクハツト</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">午十二時</time>頃　　終了ノ予定</p>\n</event>\n<event>\n<p><time when=\"13:30:00\">午后一半時</time>　　<persName><surname>伊沢</surname></persName><placeName>東京</placeName>市長御訪問（<placeName>東京</placeName>市役所）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>事務断ニ御出勤</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午后三時</time><persName><surname>桑山</surname></persName>逓信次官来約（<placeName>永楽町</placeName>事務所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0238\">\n<head>\n<date when=\"1926-09-15\">\n           十五日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:50:00\">\n             午前九・五〇\n            </time>\n            迄ニ　産業文化博覧会開場式（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            同会場）シルクハツト\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午十二時\n            </time>\n            頃　　終了ノ予定\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午后一半時\n            </time>\n<persName corresp=\"#pers_伊沢\">\n<surname>\n              伊沢\n             </surname>\n</persName>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市長御訪問（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市役所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            事務断ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n<persName corresp=\"#pers_桑山\">\n<surname>\n              桑山\n             </surname>\n</persName>\n            逓信次官来約（\n            <placeName corresp=\"#place_永楽町\">\n             永楽町\n            </placeName>\n            事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-09"
 }

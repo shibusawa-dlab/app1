@@ -12,14 +12,15 @@
         "https://shibusawa-dlab.github.io/lab1/api/chname/塩原",
         "https://shibusawa-dlab.github.io/lab1/api/chname/田丸",
         "https://shibusawa-dlab.github.io/lab1/api/chname/渡邊嘉一",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/原胤昭"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/原胤昭",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山口幸爾"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1245",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -29,19 +30,19 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-09",
     "date_lvl2": "1917-09-03",
-    "description": "\n\n 三日  （月） \n\n\n午前十時寺内首相御訪問（首相官邸）\n\n\n午後一時塩原、田丸の両氏来約（兜町）\n\n\n午〃一時渡辺嘉一氏来約（同所）\n\n\n午〃一時原胤昭氏来約（同所）\n\n\n午後二時帝国時事評論社山口幸爾氏来約（同所）\n\n\n",
+    "description": "\n\n\n           三日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n\n\n              寺内\n             \n\n            首相御訪問（首相官邸）\n           \n\n\n\n\n             午後一時\n            \n\n\n              塩原\n             \n\n            、\n            \n\n              田丸\n             \n\n            の両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午〃一時\n            \n\n\n              渡辺\n             \n\n              嘉一\n             \n\n            氏来約（同所）\n           \n\n\n\n\n             午〃一時\n            \n\n\n              原\n             \n\n              胤昭\n             \n\n            氏来約（同所）\n           \n\n\n\n\n             午後二時\n            \n            帝国時事評論社\n            \n\n              山口\n             \n\n              幸爾\n             \n\n            氏来約（同所）\n           \n\n\n",
     "fullname": [
-        "渡邊嘉一",
-        "原胤昭",
-        "山口幸爾"
+        "\n              渡辺\n             \n              嘉一\n             ",
+        "\n              原\n             \n              胤昭\n             ",
+        "\n              山口\n             \n              幸爾\n             "
     ],
-    "label": "三日  （月）",
+    "label": "三日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-232",
-    "objectID": "DKB20019m-231",
-    "prev": "DKB20019m-229",
+    "next": "DKB20019m-0232",
+    "objectID": "DKB20019m-0231",
+    "prev": "DKB20019m-0229",
     "sort": "DKB20019m-0231",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -50,10 +51,10 @@
     ],
     "temporal": "1917-09-03",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><persName><surname>寺内</surname></persName>首相御訪問（首相官邸）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_寺内\">\n<surname>\n              寺内\n             </surname>\n</persName>\n            首相御訪問（首相官邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-231\">\n<head>\n<date when=\"1917-09-03\"> 三日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>寺内</surname></persName>首相御訪問（首相官邸）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time><persName><surname>塩原</surname></persName>、<persName><surname>田丸</surname></persName>の両氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午〃一時</time><persName><surname>渡辺</surname><forename>嘉一</forename></persName>氏来約（同所）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午〃一時</time><persName><surname>原</surname><forename>胤昭</forename></persName>氏来約（同所）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>帝国時事評論社<persName><surname>山口</surname><forename>幸爾</forename></persName>氏来約（同所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0231\">\n<head>\n<date when=\"1917-09-03\">\n           三日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_寺内\">\n<surname>\n              寺内\n             </surname>\n</persName>\n            首相御訪問（首相官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_塩原\">\n<surname>\n              塩原\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_田丸\">\n<surname>\n              田丸\n             </surname>\n</persName>\n            の両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午〃一時\n            </time>\n<persName corresp=\"#pers_渡邊嘉一\">\n<surname>\n              渡辺\n             </surname>\n<forename>\n              嘉一\n             </forename>\n</persName>\n            氏来約（同所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午〃一時\n            </time>\n<persName corresp=\"#pers_原胤昭\">\n<surname>\n              原\n             </surname>\n<forename>\n              胤昭\n             </forename>\n</persName>\n            氏来約（同所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            帝国時事評論社\n            <persName corresp=\"#pers_山口幸爾\">\n<surname>\n              山口\n             </surname>\n<forename>\n              幸爾\n             </forename>\n</persName>\n            氏来約（同所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-09"
 }

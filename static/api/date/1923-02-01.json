@@ -2,13 +2,15 @@
     "agential": [
         "木村雄次"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/木村雄次"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1419",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -18,17 +20,17 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-02",
     "date_lvl2": "1923-02-01",
-    "description": "\n\n 一日  （木） \n\n\n午前八時木村雄次氏来約（飛鳥山）\n\n\n午後一時参度湯河原ヘ御出向（東京駅発）\n\n\n",
+    "description": "\n\n\n           一日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n\n\n              木村\n             \n\n              雄次\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n            参度\n            \n             湯河原\n            \n            ヘ御出向（\n            \n             東京\n            \n            駅発）\n           \n\n\n",
     "fullname": [
-        "木村雄次"
+        "\n              木村\n             \n              雄次\n             "
     ],
-    "label": "一日  （木）",
+    "label": "一日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20025m-29",
-    "objectID": "DKB20025m-27",
-    "prev": "DKB20025m-26",
+    "next": "DKB20025m-0029",
+    "objectID": "DKB20025m-0027",
+    "prev": "DKB20025m-0026",
     "sort": "DKB20025m-0027",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "湯河原町",
@@ -41,10 +43,10 @@
     ],
     "temporal": "1923-02-01",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>木村</surname><forename>雄次</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_木村雄次\">\n<surname>\n              木村\n             </surname>\n<forename>\n              雄次\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-27\">\n<head>\n<date when=\"1923-02-01\"> 一日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>木村</surname><forename>雄次</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>参度<placeName>湯河原</placeName>ヘ御出向（<placeName>東京</placeName>駅発）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0027\">\n<head>\n<date when=\"1923-02-01\">\n           一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_木村雄次\">\n<surname>\n              木村\n             </surname>\n<forename>\n              雄次\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            参度\n            <placeName corresp=\"#place_湯河原町\">\n             湯河原\n            </placeName>\n            ヘ御出向（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-02"
 }

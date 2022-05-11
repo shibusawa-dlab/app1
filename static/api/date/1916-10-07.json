@@ -3,10 +3,10 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1217",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -16,15 +16,15 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-10",
     "date_lvl2": "1916-10-07",
-    "description": "\n\n 七日  （土） \n\n\n午前八半時ノ予定　神戸ヘ御出向（東京駅）\n\n\n",
+    "description": "\n\n\n           七日\n          \n          （土）\n         \n\n\n\n\n             午前八半時\n            \n            ノ予定\n            \n             神戸\n            \n            ヘ御出向（\n            \n             東京\n            \n            駅）\n           \n\n\n",
     "fullname": [],
-    "label": "七日  （土）",
+    "label": "七日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-263",
-    "objectID": "DKB20018m-262",
-    "prev": "DKB20018m-261",
+    "next": "DKB20018m-0263",
+    "objectID": "DKB20018m-0262",
+    "prev": "DKB20018m-0261",
     "sort": "DKB20018m-0262",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "神戸",
         "東京"
@@ -35,10 +35,10 @@
     ],
     "temporal": "1916-10-07",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八半時</time>ノ予定　<placeName>神戸</placeName>ヘ御出向（<placeName>東京</placeName>駅）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n            ノ予定\n            <placeName corresp=\"#place_神戸\">\n             神戸\n            </placeName>\n            ヘ御出向（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-262\">\n<head>\n<date when=\"1916-10-07\"> 七日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>ノ予定　<placeName>神戸</placeName>ヘ御出向（<placeName>東京</placeName>駅）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0262\">\n<head>\n<date when=\"1916-10-07\">\n           七日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            ノ予定\n            <placeName corresp=\"#place_神戸\">\n             神戸\n            </placeName>\n            ヘ御出向（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-10"
 }

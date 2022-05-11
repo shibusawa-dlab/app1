@@ -6,16 +6,17 @@
         "渋沢"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/門馬常",
         "https://shibusawa-dlab.github.io/lab1/api/chname/大倉喜七郎",
         "https://shibusawa-dlab.github.io/lab1/api/chname/馬越恭平",
         "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1614",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20032m 昭和五年 1930"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20032m 昭和五年 1930"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20032m 昭和五年 1930",
     "date": {
         "lvl0": "1930",
@@ -25,19 +26,19 @@
     "date_lvl0": "1930",
     "date_lvl1": "1930-07",
     "date_lvl2": "1930-07-22",
-    "description": "\n\n 廿二日  （火） \n\n\n午前九時門馬常次氏来約（飛鳥山）\n\n\n午前十一時修養団後援会委員会（銀行クラブ）\n\n\n午後一・四五　事務所ニ御出勤\n\n\n午後二時大倉喜七郎、馬越恭平二氏ト御会見（渋沢事務所）\n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n\n\n              門馬\n             \n\n              常\n             \n\n            次氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            修養団後援会委員会（銀行クラブ）\n           \n\n\n\n\n             午後一・四五\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午後二時\n            \n\n\n              大倉\n             \n\n              喜七郎\n             \n\n            、\n            \n\n              馬越\n             \n\n              恭平\n             \n\n            二氏ト御会見（\n            \n\n              渋沢\n             \n\n            事務所）\n           \n\n\n",
     "fullname": [
-        "門馬常",
-        "大倉喜七郎",
-        "馬越恭平"
+        "\n              門馬\n             \n              常\n             ",
+        "\n              大倉\n             \n              喜七郎\n             ",
+        "\n              馬越\n             \n              恭平\n             "
     ],
-    "label": "廿二日  （火）",
+    "label": "廿二日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20032m-117",
-    "objectID": "DKB20032m-116",
-    "prev": "DKB20032m-115",
+    "next": "DKB20032m-0117",
+    "objectID": "DKB20032m-0116",
+    "prev": "DKB20032m-0115",
     "sort": "DKB20032m-0116",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園"
     ],
@@ -46,10 +47,10 @@
     ],
     "temporal": "1930-07-22",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>門馬</surname><forename>常</forename></persName>次氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_門馬常\">\n<surname>\n              門馬\n             </surname>\n<forename>\n              常\n             </forename>\n</persName>\n            次氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20032m-116\">\n<head>\n<date when=\"1930-07-22\"> 廿二日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>門馬</surname><forename>常</forename></persName>次氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>修養団後援会委員会（銀行クラブ）</p>\n</event>\n<event>\n<p><time when=\"13:45:00\">午後一・四五</time>　事務所ニ御出勤</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>大倉</surname><forename>喜七郎</forename></persName>、<persName><surname>馬越</surname><forename>恭平</forename></persName>二氏ト御会見（<persName><surname>渋沢</surname></persName>事務所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0116\">\n<head>\n<date when=\"1930-07-22\">\n           廿二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_門馬常\">\n<surname>\n              門馬\n             </surname>\n<forename>\n              常\n             </forename>\n</persName>\n            次氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            修養団後援会委員会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:45:00\">\n             午後一・四五\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_大倉喜七郎\">\n<surname>\n              大倉\n             </surname>\n<forename>\n              喜七郎\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_馬越恭平\">\n<surname>\n              馬越\n             </surname>\n<forename>\n              恭平\n             </forename>\n</persName>\n            二氏ト御会見（\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1930",
     "yearAndMonth": "1930-07"
 }

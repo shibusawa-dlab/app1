@@ -2,13 +2,15 @@
     "agential": [
         "勝美"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/勝美"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1258",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20020m 大正七年 1918"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20020m 大正七年 1918"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20020m 大正七年 1918",
     "date": {
         "lvl0": "1918",
@@ -18,15 +20,15 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-01",
     "date_lvl2": "1918-01-21",
-    "description": "\n\n 廿一日  （月） \n\n\n午前八時黒板勝美氏飛鳥山邸ニ来約\n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （月）\n         \n\n\n\n\n             午前八時\n            \n            黒板\n            \n\n              勝美\n             \n\n            氏\n            \n             飛鳥山\n            \n            邸ニ来約\n           \n\n\n",
     "fullname": [],
-    "label": "廿一日  （月）",
+    "label": "廿一日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20020m-20",
-    "objectID": "DKB20020m-18",
-    "prev": "DKB20020m-16",
+    "next": "DKB20020m-0020",
+    "objectID": "DKB20020m-0018",
+    "prev": "DKB20020m-0016",
     "sort": "DKB20020m-0018",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園"
     ],
@@ -35,10 +37,10 @@
     ],
     "temporal": "1918-01-21",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time>黒板<persName><forename>勝美</forename></persName>氏<placeName>飛鳥山</placeName>邸ニ来約</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            黒板\n            <persName corresp=\"#pers_勝美\">\n<forename>\n              勝美\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸ニ来約</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-18\">\n<head>\n<date when=\"1918-01-21\"> 廿一日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time>黒板<persName><forename>勝美</forename></persName>氏<placeName>飛鳥山</placeName>邸ニ来約</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0018\">\n<head>\n<date when=\"1918-01-21\">\n           廿一日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            黒板\n            <persName corresp=\"#pers_勝美\">\n<forename>\n              勝美\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸ニ来約\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-01"
 }

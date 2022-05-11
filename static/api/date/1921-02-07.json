@@ -4,14 +4,15 @@
         "吉池慶正"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/近藤"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/近藤",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/吉池慶正"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1353",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -21,17 +22,17 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-02",
     "date_lvl2": "1921-02-07",
-    "description": "\n\n 七日  （月） \n\n\n午前十時近藤男ノ御病気御見舞ノ為御出向（同男邸）\n\n\n午後三時吉池慶正氏来約（兜町）\n\n\n午後三時修養団評議員会（兜町）\n\n\n",
+    "description": "\n\n\n           七日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n\n\n              近藤\n             \n\n            男ノ御病気御見舞ノ為御出向（同男邸）\n           \n\n\n\n\n             午後三時\n            \n\n\n              吉池\n             \n\n              慶正\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            修養団評議員会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "吉池慶正"
+        "\n              吉池\n             \n              慶正\n             "
     ],
-    "label": "七日  （月）",
+    "label": "七日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20023m-35",
-    "objectID": "DKB20023m-34",
-    "prev": "DKB20023m-33",
+    "next": "DKB20023m-0035",
+    "objectID": "DKB20023m-0034",
+    "prev": "DKB20023m-0033",
     "sort": "DKB20023m-0034",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -40,10 +41,10 @@
     ],
     "temporal": "1921-02-07",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><persName><surname>近藤</surname></persName>男ノ御病気御見舞ノ為御出向（同男邸）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_近藤\">\n<surname>\n              近藤\n             </surname>\n</persName>\n            男ノ御病気御見舞ノ為御出向（同男邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-34\">\n<head>\n<date when=\"1921-02-07\"> 七日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>近藤</surname></persName>男ノ御病気御見舞ノ為御出向（同男邸）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>吉池</surname><forename>慶正</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>修養団評議員会（<placeName>兜町</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0034\">\n<head>\n<date when=\"1921-02-07\">\n           七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_近藤\">\n<surname>\n              近藤\n             </surname>\n</persName>\n            男ノ御病気御見舞ノ為御出向（同男邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            修養団評議員会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-02"
 }

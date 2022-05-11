@@ -5,14 +5,16 @@
         "徳川義親"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田中誠夫",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/阪谷令夫",
         "https://shibusawa-dlab.github.io/lab1/api/chname/徳川義親"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1431",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -22,19 +24,19 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-06",
     "date_lvl2": "1923-06-05",
-    "description": "\n\n 五日  （火） \n\n\n午前九時田中誠夫氏来約　（飛鳥山邸）\n\n\n午前十時阪谷令夫人来約\n\n\n正午　　　　　日華実業協会幹事会（同会）\n\n\n午後三時徳川義親侯ヨリ御案内（富士見町同邸）\n\n\n午後五時日米関係委員会ノ件（銀行クラブ）\n\n\n午後六時埼玉学生誘掖会舎友会懇親会（東京会館）\n\n\n",
+    "description": "\n\n\n           五日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n\n\n              田中\n             \n\n              誠夫\n             \n\n            氏来約　（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              阪谷\n             \n\n              令夫\n             \n\n            人来約\n           \n\n\n\n\n             正午\n            \n            日華実業協会幹事会（同会）\n           \n\n\n\n\n             午後三時\n            \n\n\n              徳川\n             \n\n              義親\n             \n\n            侯ヨリ御案内（\n            \n             富士見町\n            \n            同邸）\n           \n\n\n\n\n             午後五時\n            \n            日米関係委員会ノ件（銀行クラブ）\n           \n\n\n\n\n             午後六時\n            \n\n             埼玉\n            \n            学生誘掖会舎友会懇親会（\n            \n             東京\n            \n            会館）\n           \n\n\n",
     "fullname": [
-        "田中誠夫",
-        "阪谷令夫",
-        "徳川義親"
+        "\n              田中\n             \n              誠夫\n             ",
+        "\n              阪谷\n             \n              令夫\n             ",
+        "\n              徳川\n             \n              義親\n             "
     ],
-    "label": "五日  （火）",
+    "label": "五日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20025m-152",
-    "objectID": "DKB20025m-151",
-    "prev": "DKB20025m-150",
+    "next": "DKB20025m-0152",
+    "objectID": "DKB20025m-0151",
+    "prev": "DKB20025m-0150",
     "sort": "DKB20025m-0151",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "富士見町",
@@ -42,16 +44,17 @@
         "東京"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/富士見町",
         "https://shibusawa-dlab.github.io/lab1/api/place/埼玉",
         "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1923-06-05",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>田中</surname><forename>誠夫</forename></persName>氏来約　（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_田中誠夫\">\n<surname>\n              田中\n             </surname>\n<forename>\n              誠夫\n             </forename>\n</persName>\n            氏来約　（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-151\">\n<head>\n<date when=\"1923-06-05\"> 五日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>田中</surname><forename>誠夫</forename></persName>氏来約　（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>阪谷</surname><forename>令夫</forename></persName>人来約</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　日華実業協会幹事会（同会）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>徳川</surname><forename>義親</forename></persName>侯ヨリ御案内（<placeName>富士見町</placeName>同邸）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>日米関係委員会ノ件（銀行クラブ）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time><placeName>埼玉</placeName>学生誘掖会舎友会懇親会（<placeName>東京</placeName>会館）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0151\">\n<head>\n<date when=\"1923-06-05\">\n           五日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_田中誠夫\">\n<surname>\n              田中\n             </surname>\n<forename>\n              誠夫\n             </forename>\n</persName>\n            氏来約　（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_阪谷令夫\">\n<surname>\n              阪谷\n             </surname>\n<forename>\n              令夫\n             </forename>\n</persName>\n            人来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華実業協会幹事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_徳川義親\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              義親\n             </forename>\n</persName>\n            侯ヨリ御案内（\n            <placeName corresp=\"#place_富士見町\">\n             富士見町\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            日米関係委員会ノ件（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会舎友会懇親会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-06"
 }

@@ -1,15 +1,20 @@
 {
     "agential": [
+        "東郷安",
         "渋沢義一",
         "服部文四郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/東郷安",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢義一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/服部文四郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1404",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -19,34 +24,33 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-09",
     "date_lvl2": "1922-09-23",
-    "description": "\n\n 廿三日  （土） \n\n\n午前八・二五　北条駅発御帰京\n\n\n午後一半時　　東郷安、渋沢義一両氏来約（兜町）\n\n\n午後三時服部文四郎氏来約（兜町）\n\n\n",
+    "description": "\n\n\n           廿三日\n          \n          （土）\n         \n\n\n\n\n             午前八・二五\n            \n\n             北条\n            \n            駅発御帰京\n           \n\n\n\n\n             午後一半時\n            \n\n\n              東郷\n             \n\n              安\n             \n\n            、\n            \n\n              渋沢\n             \n\n              義一\n             \n\n            両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              服部\n             \n\n              文四郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "渋沢義一",
-        "服部文四郎"
+        "\n              東郷\n             \n              安\n             ",
+        "\n              渋沢\n             \n              義一\n             ",
+        "\n              服部\n             \n              文四郎\n             "
     ],
-    "label": "廿三日  （土）",
+    "label": "廿三日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-228",
-    "objectID": "DKB20024m-227",
-    "prev": "DKB20024m-226",
+    "next": "DKB20024m-0228",
+    "objectID": "DKB20024m-0227",
+    "prev": "DKB20024m-0226",
     "sort": "DKB20024m-0227",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "北条",
-        "東郷",
         "日本橋兜町"
     ],
     "spatial_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/place/北条",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東郷",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1922-09-23",
     "time": {
-        "08:25:00": "<div><time when=\"08:25:00\">午前八・二五</time>　<placeName>北条</placeName>駅発御帰京</div>"
+        "08:25:00": "<div><time when=\"08:25:00\">\n             午前八・二五\n            </time>\n<placeName corresp=\"#place_北条\">\n             北条\n            </placeName>\n            駅発御帰京</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-227\">\n<head>\n<date when=\"1922-09-23\"> 廿三日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"08:25:00\">午前八・二五</time>　<placeName>北条</placeName>駅発御帰京</p>\n</event>\n<event>\n<p><time when=\"13:30:00\">午後一半時</time>　　<placeName>東郷</placeName>安、<persName><surname>渋沢</surname><forename>義一</forename></persName>両氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>服部</surname><forename>文四郎</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0227\">\n<head>\n<date when=\"1922-09-23\">\n           廿三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:25:00\">\n             午前八・二五\n            </time>\n<placeName corresp=\"#place_北条\">\n             北条\n            </placeName>\n            駅発御帰京\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n<persName corresp=\"#pers_東郷安\">\n<surname>\n              東郷\n             </surname>\n<forename>\n              安\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_渋沢義一\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_服部文四郎\">\n<surname>\n              服部\n             </surname>\n<forename>\n              文四郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-09"
 }

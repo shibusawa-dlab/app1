@@ -2,13 +2,15 @@
     "agential": [
         "出淵"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/出淵"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1566",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -18,25 +20,27 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-12",
     "date_lvl2": "1927-12-06",
-    "description": "\n\n 六日  （火） \n\n\n午前十一時出淵外務次官ヲ御訪問（外務省）\n\n\n午前十一・四五　御出勤\n\n\n正午　　　　　日華実業協会幹事会（同会）\n\n\n午後五時雨夜譚会（飛鳥山邸）\n\n\n",
+    "description": "\n\n\n           六日\n          \n          （火）\n         \n\n\n\n\n             午前十一時\n            \n\n\n              出淵\n             \n\n            外務次官ヲ御訪問（外務省）\n           \n\n\n\n\n             午前十一・四五\n            \n            御出勤\n           \n\n\n\n\n             正午\n            \n            日華実業協会幹事会（同会）\n           \n\n\n\n\n             午後五時\n            \n            雨夜譚会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "fullname": [],
-    "label": "六日  （火）",
+    "label": "六日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-316",
-    "objectID": "DKB20029m-315",
-    "prev": "DKB20029m-314",
+    "next": "DKB20029m-0316",
+    "objectID": "DKB20029m-0315",
+    "prev": "DKB20029m-0314",
     "sort": "DKB20029m-0315",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1927-12-06",
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">午前十一時</time><persName><surname>出淵</surname></persName>外務次官ヲ御訪問（外務省）</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_出淵\">\n<surname>\n              出淵\n             </surname>\n</persName>\n            外務次官ヲ御訪問（外務省）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-315\">\n<head>\n<date when=\"1927-12-06\"> 六日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>出淵</surname></persName>外務次官ヲ御訪問（外務省）</p>\n</event>\n<event>\n<p><time when=\"11:45:00\">午前十一・四五</time>　御出勤</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　日華実業協会幹事会（同会）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>雨夜譚会（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0315\">\n<head>\n<date when=\"1927-12-06\">\n           六日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_出淵\">\n<surname>\n              出淵\n             </surname>\n</persName>\n            外務次官ヲ御訪問（外務省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:45:00\">\n             午前十一・四五\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華実業協会幹事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            雨夜譚会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-12"
 }

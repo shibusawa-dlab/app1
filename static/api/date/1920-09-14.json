@@ -4,14 +4,15 @@
         "渋沢篤二"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/森村"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/森村",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢篤二"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1341",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -21,17 +22,17 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-09",
     "date_lvl2": "1920-09-14",
-    "description": "\n\n 十四日  （火） \n\n\n午前九時森村家ヘ御出向\n\n\n午前十時東京市養育院常設委員（同本院）\n\n\n午後一―二時日本銀行ヘ御出向\n\n\n夕刻　　　　　渋沢篤二氏来約（飛鳥山）\n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n\n\n              森村\n             \n\n            家ヘ御出向\n           \n\n\n\n\n             午前十時\n            \n\n             東京\n            \n            市養育院常設委員（同本院）\n           \n\n\n\n\n             午後一―二時\n            \n\n             日本\n            \n            銀行ヘ御出向\n           \n\n\n\n\n             夕刻\n            \n\n\n              渋沢\n             \n\n              篤二\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "渋沢篤二"
+        "\n              渋沢\n             \n              篤二\n             "
     ],
-    "label": "十四日  （火）",
+    "label": "十四日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-235",
-    "objectID": "DKB20022m-234",
-    "prev": "DKB20022m-233",
+    "next": "DKB20022m-0235",
+    "objectID": "DKB20022m-0234",
+    "prev": "DKB20022m-0233",
     "sort": "DKB20022m-0234",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京",
         "日本",
@@ -44,10 +45,10 @@
     ],
     "temporal": "1920-09-14",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>森村</surname></persName>家ヘ御出向</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_森村\">\n<surname>\n              森村\n             </surname>\n</persName>\n            家ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-234\">\n<head>\n<date when=\"1920-09-14\"> 十四日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>森村</surname></persName>家ヘ御出向</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><placeName>東京</placeName>市養育院常設委員（同本院）</p>\n</event>\n<event>\n<p><time from=\"13:00:00\" to=\"14:00:00\">午後一―二時</time><placeName>日本</placeName>銀行ヘ御出向</p>\n</event>\n<event>\n<p><time>夕刻</time>　　　　　<persName><surname>渋沢</surname><forename>篤二</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0234\">\n<head>\n<date when=\"1920-09-14\">\n           十四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_森村\">\n<surname>\n              森村\n             </surname>\n</persName>\n            家ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院常設委員（同本院）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"14:00:00\">\n             午後一―二時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            銀行ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time>\n             夕刻\n            </time>\n<persName corresp=\"#pers_渋沢篤二\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              篤二\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-09"
 }

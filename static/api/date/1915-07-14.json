@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1188",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20017m 大正四年 1915"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20017m 大正四年 1915"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20017m 大正四年 1915",
     "date": {
         "lvl0": "1915",
@@ -20,15 +20,15 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-07",
     "date_lvl2": "1915-07-14",
-    "description": "\n\n 十四日  （水） \n\n\n午前八時大隈伯御訪問（早稲田）\n\n\n午前十時国際病院ノ件（総理大臣官邸）\n\n\n午後五時帰一協会委員会（上野精養軒）\n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （水）\n         \n\n\n\n\n             午前八時\n            \n\n\n              大隈\n             \n\n            伯御訪問（\n            \n             早稲田\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            国際病院ノ件（総理大臣官邸）\n           \n\n\n\n\n             午後五時\n            \n            帰一協会委員会（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n",
     "fullname": [],
-    "label": "十四日  （水）",
+    "label": "十四日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20017m-186",
-    "objectID": "DKB20017m-185",
-    "prev": "DKB20017m-184",
+    "next": "DKB20017m-0186",
+    "objectID": "DKB20017m-0185",
+    "prev": "DKB20017m-0184",
     "sort": "DKB20017m-0185",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "早稲田",
         "上野精養軒"
@@ -39,10 +39,10 @@
     ],
     "temporal": "1915-07-14",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>大隈</surname></persName>伯御訪問（<placeName>早稲田</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            伯御訪問（\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-185\">\n<head>\n<date when=\"1915-07-14\"> 十四日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>大隈</surname></persName>伯御訪問（<placeName>早稲田</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>国際病院ノ件（総理大臣官邸）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>帰一協会委員会（<placeName>上野精養軒</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0185\">\n<head>\n<date when=\"1915-07-14\">\n           十四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            伯御訪問（\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            国際病院ノ件（総理大臣官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            帰一協会委員会（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-07"
 }

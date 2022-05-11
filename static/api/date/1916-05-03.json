@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1202",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -20,15 +20,15 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-05",
     "date_lvl2": "1916-05-03",
-    "description": "\n\n 三日  （水） \n\n\n午後一時三島子爵ヲ御訪問（日本銀行）\n\n\n午後二時徳川貴族院議長ヲ御訪問（華族会館）\n\n\n午後五時中央慈善協会ノ件（中央亭）\n\n\n",
+    "description": "\n\n\n           三日\n          \n          （水）\n         \n\n\n\n\n             午後一時\n            \n            三島子爵ヲ御訪問（\n            \n             日本\n            \n            銀行）\n           \n\n\n\n\n             午後二時\n            \n\n\n              徳川\n             \n\n            貴族院議長ヲ御訪問（華族会館）\n           \n\n\n\n\n             午後五時\n            \n            中央慈善協会ノ件（中央亭）\n           \n\n\n",
     "fullname": [],
-    "label": "三日  （水）",
+    "label": "三日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-106",
-    "objectID": "DKB20018m-105",
-    "prev": "DKB20018m-104",
+    "next": "DKB20018m-0106",
+    "objectID": "DKB20018m-0105",
+    "prev": "DKB20018m-0104",
     "sort": "DKB20018m-0105",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本"
     ],
@@ -37,10 +37,10 @@
     ],
     "temporal": "1916-05-03",
     "time": {
-        "13:00:00": "<div><time when=\"13:00:00\">午後一時</time>三島子爵ヲ御訪問（<placeName>日本</placeName>銀行）</div>"
+        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n            三島子爵ヲ御訪問（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            銀行）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-105\">\n<head>\n<date when=\"1916-05-03\"> 三日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>三島子爵ヲ御訪問（<placeName>日本</placeName>銀行）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>徳川</surname></persName>貴族院議長ヲ御訪問（華族会館）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>中央慈善協会ノ件（中央亭）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0105\">\n<head>\n<date when=\"1916-05-03\">\n           三日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            三島子爵ヲ御訪問（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            銀行）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            貴族院議長ヲ御訪問（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            中央慈善協会ノ件（中央亭）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-05"
 }

@@ -2,13 +2,15 @@
     "agential": [
         "松下軍治"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松下軍治"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1172",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20016m 大正三年 1914"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20016m 大正三年 1914"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20016m 大正三年 1914",
     "date": {
         "lvl0": "1914",
@@ -18,17 +20,17 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-12",
     "date_lvl2": "1914-12-19",
-    "description": "\n\n 十九日  （土） \n\n\n午後二―午後三時松下軍治氏来約（兜町）\n\n\n午後四時渡米実業団記念会（日本橋クラブ）\n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （土）\n         \n\n\n\n\n             午後二―午後三時\n            \n\n\n              松下\n             \n\n              軍治\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            渡米実業団記念会（\n            \n             日本橋\n            \n            クラブ）\n           \n\n\n",
     "fullname": [
-        "松下軍治"
+        "\n              松下\n             \n              軍治\n             "
     ],
-    "label": "十九日  （土）",
+    "label": "十九日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20016m-96",
-    "objectID": "DKB20016m-95",
-    "prev": "DKB20016m-94",
+    "next": "DKB20016m-0096",
+    "objectID": "DKB20016m-0095",
+    "prev": "DKB20016m-0094",
     "sort": "DKB20016m-0095",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "日本橋"
@@ -40,7 +42,7 @@
     "temporal": "1914-12-19",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-95\">\n<head>\n<date when=\"1914-12-19\"> 十九日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time from=\"14:00:00\" to=\"15:00:00\">午後二―午後三時</time><persName><surname>松下</surname><forename>軍治</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>渡米実業団記念会（<placeName>日本橋</placeName>クラブ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0095\">\n<head>\n<date when=\"1914-12-19\">\n           十九日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―午後三時\n            </time>\n<persName corresp=\"#pers_松下軍治\">\n<surname>\n              松下\n             </surname>\n<forename>\n              軍治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            渡米実業団記念会（\n            <placeName corresp=\"#place_日本橋\">\n             日本橋\n            </placeName>\n            クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-12"
 }

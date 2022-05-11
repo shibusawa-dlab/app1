@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1269",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20020m 大正七年 1918"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20020m 大正七年 1918"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20020m 大正七年 1918",
     "date": {
         "lvl0": "1918",
@@ -22,18 +22,18 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-05",
     "date_lvl2": "1918-05-29",
-    "description": "\n\n 廿九日  （水） \n\n\n午前九―十時　徳川家達公御訪問ノ約（千駄ケ谷邸）\n\n\n午前十一時松平恒雄氏来約\n\n\n",
+    "description": "\n\n\n           廿九日\n          \n          （水）\n         \n\n\n\n\n             午前九―十時\n            \n\n\n              徳川\n             \n\n              家達\n             \n\n            公御訪問ノ約（\n            \n             千駄ケ谷\n            \n            邸）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              松平\n             \n\n              恒雄\n             \n\n            氏来約\n           \n\n\n",
     "fullname": [
-        "徳川家達",
-        "松平恆雄"
+        "\n              徳川\n             \n              家達\n             ",
+        "\n              松平\n             \n              恒雄\n             "
     ],
-    "label": "廿九日  （水）",
+    "label": "廿九日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20020m-144",
-    "objectID": "DKB20020m-143",
-    "prev": "DKB20020m-142",
+    "next": "DKB20020m-0144",
+    "objectID": "DKB20020m-0143",
+    "prev": "DKB20020m-0142",
     "sort": "DKB20020m-0143",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "千駄ヶ谷"
     ],
@@ -43,7 +43,7 @@
     "temporal": "1918-05-29",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-143\">\n<head>\n<date when=\"1918-05-29\"> 廿九日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time from=\"09:00:00\" to=\"10:00:00\">午前九―十時</time>　<persName><surname>徳川</surname><forename>家達</forename></persName>公御訪問ノ約（<placeName>千駄ケ谷</placeName>邸）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>松平</surname><forename>恒雄</forename></persName>氏来約</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0143\">\n<head>\n<date when=\"1918-05-29\">\n           廿九日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"09:00:00\" to=\"10:00:00\">\n             午前九―十時\n            </time>\n<persName corresp=\"#pers_徳川家達\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              家達\n             </forename>\n</persName>\n            公御訪問ノ約（\n            <placeName corresp=\"#place_千駄ヶ谷\">\n             千駄ケ谷\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_松平恆雄\">\n<surname>\n              松平\n             </surname>\n<forename>\n              恒雄\n             </forename>\n</persName>\n            氏来約\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-05"
 }

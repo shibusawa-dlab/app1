@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1395",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -20,17 +20,17 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-06",
     "date_lvl2": "1922-06-12",
-    "description": "\n\n 十二日  （月） \n\n\n午前十時宮内大臣御訪問（宮内省）\n\n\n午前十一時井上準之助氏ヲ御訪問ノ筈（日本銀行）\n\n\n午後二時十七分王子駅発白河町御出向\n\n\n午後七・四十分　白河町御着\n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n            宮内大臣御訪問（宮内省）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              井上\n             \n\n              準之助\n             \n\n            氏ヲ御訪問ノ筈（\n            \n             日本\n            \n            銀行）\n           \n\n\n\n\n             午後二時十七分\n            \n\n             王子\n            \n            駅発白河町御出向\n           \n\n\n\n\n             午後七・四十分\n            \n            白河町御着\n           \n\n\n",
     "fullname": [
-        "井上準之助"
+        "\n              井上\n             \n              準之助\n             "
     ],
-    "label": "十二日  （月）",
+    "label": "十二日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-139",
-    "objectID": "DKB20024m-138",
-    "prev": "DKB20024m-137",
+    "next": "DKB20024m-0139",
+    "objectID": "DKB20024m-0138",
+    "prev": "DKB20024m-0137",
     "sort": "DKB20024m-0138",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本",
         "王子"
@@ -41,10 +41,10 @@
     ],
     "temporal": "1922-06-12",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time>宮内大臣御訪問（宮内省）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            宮内大臣御訪問（宮内省）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-138\">\n<head>\n<date when=\"1922-06-12\"> 十二日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>宮内大臣御訪問（宮内省）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>井上</surname><forename>準之助</forename></persName>氏ヲ御訪問ノ筈（<placeName>日本</placeName>銀行）</p>\n</event>\n<event>\n<p><time when=\"14:17:00\">午後二時十七分</time><placeName>王子</placeName>駅発白河町御出向</p>\n</event>\n<event>\n<p><date when=\"19:45:00\">午後七・四十分</date>　白河町御着</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0138\">\n<head>\n<date when=\"1922-06-12\">\n           十二日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            宮内大臣御訪問（宮内省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_井上準之助\">\n<surname>\n              井上\n             </surname>\n<forename>\n              準之助\n             </forename>\n</persName>\n            氏ヲ御訪問ノ筈（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            銀行）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:17:00\">\n             午後二時十七分\n            </time>\n<placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅発白河町御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:45:00\">\n             午後七・四十分\n            </time>\n            白河町御着\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-06"
 }

@@ -4,14 +4,15 @@
         "今沢正一"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/北沢"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/北沢",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/今沢正一"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1474",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -21,27 +22,29 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-09",
     "date_lvl2": "1924-09-02",
-    "description": "\n\n 二日  （火） \n\n\n午前九時北沢佐雄氏来約（飛鳥山邸）\n\n\n〃　　　　　　今沢正一氏来約（同右）\n\n\n正午　　　　　日華実業協会幹事会（同会）\n\n\n",
+    "description": "\n\n\n           二日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n\n\n              北沢\n             \n\n            佐雄氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             〃\n            \n\n\n              今沢\n             \n\n              正一\n             \n\n            氏来約（同右）\n           \n\n\n\n\n             正午\n            \n            日華実業協会幹事会（同会）\n           \n\n\n",
     "fullname": [
-        "今沢正一"
+        "\n              今沢\n             \n              正一\n             "
     ],
-    "label": "二日  （火）",
+    "label": "二日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-240",
-    "objectID": "DKB20026m-239",
-    "prev": "DKB20026m-238",
+    "next": "DKB20026m-0240",
+    "objectID": "DKB20026m-0239",
+    "prev": "DKB20026m-0238",
     "sort": "DKB20026m-0239",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1924-09-02",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>北沢</surname></persName>佐雄氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_北沢\">\n<surname>\n              北沢\n             </surname>\n</persName>\n            佐雄氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-239\">\n<head>\n<date when=\"1924-09-02\"> 二日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>北沢</surname></persName>佐雄氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"09:00:00\">〃</time>　　　　　　<persName><surname>今沢</surname><forename>正一</forename></persName>氏来約（同右）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　日華実業協会幹事会（同会）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0239\">\n<head>\n<date when=\"1924-09-02\">\n           二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_北沢\">\n<surname>\n              北沢\n             </surname>\n</persName>\n            佐雄氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             〃\n            </time>\n<persName corresp=\"#pers_今沢正一\">\n<surname>\n              今沢\n             </surname>\n<forename>\n              正一\n             </forename>\n</persName>\n            氏来約（同右）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華実業協会幹事会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-09"
 }

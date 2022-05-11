@@ -5,14 +5,16 @@
         "浅野"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野泰次郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野泰治",
         "https://shibusawa-dlab.github.io/lab1/api/chname/浅野"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1186",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20017m 大正四年 1915"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20017m 大正四年 1915"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20017m 大正四年 1915",
     "date": {
         "lvl0": "1915",
@@ -22,18 +24,18 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-07",
     "date_lvl2": "1915-07-05",
-    "description": "\n\n 五日  （月） \n\n\n午前十時帝国学士院長菊池男爵ヨリ御案内（東京美術学校内）\n\n\n午後二時浅野泰次郎氏結婚式《（浅野泰治郎氏）》（田町浅野邸）\n\n\n御両方とも御出席\n\n\n",
+    "description": "\n\n\n           五日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n            帝国学士院長\n            \n             菊池\n            \n            男爵ヨリ御案内（東\n            \n            京美術学校内）\n           \n\n\n\n\n             午後二時\n            \n\n\n              浅野\n             \n\n              泰次郎\n             \n\n            氏結婚式《（\n            \n\n              浅野\n             \n\n              泰治\n             \n\n            郎氏）》（\n            \n             田町\n            \n\n\n              浅野\n             \n\n            邸）\n           \n\n\n\n            御両方とも御出席\n           \n\n\n",
     "fullname": [
-        "浅野泰次郎",
-        "浅野泰治"
+        "\n              浅野\n             \n              泰次郎\n             ",
+        "\n              浅野\n             \n              泰治\n             "
     ],
-    "label": "五日  （月）",
+    "label": "五日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20017m-177",
-    "objectID": "DKB20017m-176",
-    "prev": "DKB20017m-175",
+    "next": "DKB20017m-0177",
+    "objectID": "DKB20017m-0176",
+    "prev": "DKB20017m-0175",
     "sort": "DKB20017m-0176",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "菊池",
         "田町"
@@ -44,10 +46,10 @@
     ],
     "temporal": "1915-07-05",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time>帝国学士院長<placeName>菊池</placeName>男爵ヨリ御案内（東<pb n=\"B2347\"/>京美術学校内）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            帝国学士院長\n            <placeName corresp=\"#place_菊池\">\n             菊池\n            </placeName>\n            男爵ヨリ御案内（東\n            <pb corresp=\"#pageB2347\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1186/full/max/0/default.jpg\" n=\"B2347\" source=\"#pageB2347\"/>\n            京美術学校内）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-176\">\n<head>\n<date when=\"1915-07-05\"> 五日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>帝国学士院長<placeName>菊池</placeName>男爵ヨリ御案内（東<pb n=\"B2347\"/>京美術学校内）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>浅野</surname><forename>泰次郎</forename></persName>氏結婚式《（<persName><surname>浅野</surname><forename>泰治</forename></persName>郎氏）》（<placeName>田町</placeName><persName><surname>浅野</surname></persName>邸）</p>\n</event>\n<event>\n<p>御両方とも御出席</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0176\">\n<head>\n<date when=\"1915-07-05\">\n           五日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            帝国学士院長\n            <placeName corresp=\"#place_菊池\">\n             菊池\n            </placeName>\n            男爵ヨリ御案内（東\n            <pb corresp=\"#pageB2347\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1186/full/max/0/default.jpg\" n=\"B2347\" source=\"#pageB2347\"/>\n            京美術学校内）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_浅野泰次郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              泰次郎\n             </forename>\n</persName>\n            氏結婚式《（\n            <persName corresp=\"#pers_浅野泰治\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              泰治\n             </forename>\n</persName>\n            郎氏）》（\n            <placeName corresp=\"#place_田町\">\n             田町\n            </placeName>\n<persName corresp=\"#pers_浅野\">\n<surname>\n              浅野\n             </surname>\n</persName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n            御両方とも御出席\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-07"
 }

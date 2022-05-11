@@ -3,13 +3,16 @@
         "岡田文治",
         "シヤールス"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡田文治",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/シヤールス"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1388",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -19,17 +22,17 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-04",
     "date_lvl2": "1922-04-13",
-    "description": "\n\n 十三日  （木） \n\n\n午前八時江口荘二郎、岡田文治両氏来約（アスカ山）\n\n\n午前十時養育院巣鴨分院ヘ御出向\n\n\n午前十一時同看護婦講習生卒業式（大塚本院）\n\n\n午後二時白耳義シヤールス親王御紹介（白耳義大使館）\n\n\n午後四時英国大使館主催、英国皇太子殿下歓迎レセプシヨン（同大使館）\n\n\n午後六時第二十七回雨夜譚会（兜町）\n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n            江口荘二郎、\n            \n\n              岡田\n             \n\n              文治\n             \n\n            両氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            養育院\n            \n             巣鴨\n            \n            分院ヘ御出向\n           \n\n\n\n\n             午前十一時\n            \n            同看護婦講習生卒業式（\n            \n             大塚\n            \n            本院）\n           \n\n\n\n\n             午後二時\n            \n\n             白耳義\n            \n\n\n              シヤールス\n             \n\n            親王御紹介（\n            \n             白耳義\n            \n            大使館）\n           \n\n\n\n\n             午後四時\n            \n\n             英国\n            \n            大使館主催、\n            \n             英国\n            \n            皇太子殿下歓迎レセプシヨン（同大使館）\n           \n\n\n\n\n             午後六時\n            \n            第二十七回雨夜譚会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "岡田文治"
+        "\n              岡田\n             \n              文治\n             "
     ],
-    "label": "十三日  （木）",
+    "label": "十三日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-77",
-    "objectID": "DKB20024m-76",
-    "prev": "DKB20024m-75",
+    "next": "DKB20024m-0077",
+    "objectID": "DKB20024m-0076",
+    "prev": "DKB20024m-0075",
     "sort": "DKB20024m-0076",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山",
         "巣鴨",
@@ -39,6 +42,7 @@
         "日本橋兜町"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
         "https://shibusawa-dlab.github.io/lab1/api/place/巣鴨",
         "https://shibusawa-dlab.github.io/lab1/api/place/大塚",
         "https://shibusawa-dlab.github.io/lab1/api/place/ベルギー",
@@ -47,10 +51,10 @@
     ],
     "temporal": "1922-04-13",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time>江口荘二郎、<persName><surname>岡田</surname><forename>文治</forename></persName>両氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            江口荘二郎、\n            <persName corresp=\"#pers_岡田文治\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              文治\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-76\">\n<head>\n<date when=\"1922-04-13\"> 十三日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time>江口荘二郎、<persName><surname>岡田</surname><forename>文治</forename></persName>両氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>養育院<placeName>巣鴨</placeName>分院ヘ御出向</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>同看護婦講習生卒業式（<placeName>大塚</placeName>本院）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><placeName>白耳義</placeName><persName><surname>シヤールス</surname></persName>親王御紹介（<placeName>白耳義</placeName>大使館）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><placeName>英国</placeName>大使館主催、<placeName>英国</placeName>皇太子殿下歓迎レセプシヨン（同大使館）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time>第二十七回雨夜譚会（<placeName>兜町</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0076\">\n<head>\n<date when=\"1922-04-13\">\n           十三日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            江口荘二郎、\n            <persName corresp=\"#pers_岡田文治\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              文治\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            養育院\n            <placeName corresp=\"#place_巣鴨\">\n             巣鴨\n            </placeName>\n            分院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            同看護婦講習生卒業式（\n            <placeName corresp=\"#place_大塚\">\n             大塚\n            </placeName>\n            本院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_ベルギー\">\n             白耳義\n            </placeName>\n<persName corresp=\"#pers_シヤールス\">\n<surname>\n              シヤールス\n             </surname>\n</persName>\n            親王御紹介（\n            <placeName corresp=\"#place_ベルギー\">\n             白耳義\n            </placeName>\n            大使館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_イギリス\">\n             英国\n            </placeName>\n            大使館主催、\n            <placeName corresp=\"#place_イギリス\">\n             英国\n            </placeName>\n            皇太子殿下歓迎レセプシヨン（同大使館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            第二十七回雨夜譚会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-04"
 }

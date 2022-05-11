@@ -2,13 +2,15 @@
     "agential": [
         "ドナルドフレーザー"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ドナルドフレーザー"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1251",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -18,17 +20,17 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-11",
     "date_lvl2": "1917-11-12",
-    "description": "\n\n 十二日  （月） \n\n\n午前九時岡部子、東京府知事ト御会合（華族会館）\n\n\n午前十一時ドナルドフレーザー両氏招待会（飛鳥山邸）\n\n\n午後三時天津風水害救済常務委員会（商業会議所）\n\n\n午後五半時　　清水釘吉氏等ト御会見（番町同氏宅）\n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n            岡部子、\n            \n             東京\n            \n            府知事ト御会合（華族会館）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              ドナルド\n             \n\n              フレーザー\n             \n\n            両氏招待会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n             天津\n            \n            風水害救済常務委員会（商業会議所）\n           \n\n\n\n\n             午後五半時\n            \n\n             清水\n            \n            釘吉氏等ト御会見（\n            \n             番町\n            \n            同氏宅）\n           \n\n\n",
     "fullname": [
-        "フレーザードナルド"
+        "\n              フレーザー\n             \n              ドナルド\n             "
     ],
-    "label": "十二日  （月）",
+    "label": "十二日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-293",
-    "objectID": "DKB20019m-292",
-    "prev": "DKB20019m-291",
+    "next": "DKB20019m-0293",
+    "objectID": "DKB20019m-0292",
+    "prev": "DKB20019m-0291",
     "sort": "DKB20019m-0292",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京",
         "飛鳥山邸",
@@ -38,16 +40,17 @@
     ],
     "spatial_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/天津市",
         "https://shibusawa-dlab.github.io/lab1/api/place/清水",
         "https://shibusawa-dlab.github.io/lab1/api/place/番町"
     ],
     "temporal": "1917-11-12",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time>岡部子、<placeName>東京</placeName>府知事ト御会合（華族会館）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            岡部子、\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            府知事ト御会合（華族会館）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-292\">\n<head>\n<date when=\"1917-11-12\"> 十二日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time>岡部子、<placeName>東京</placeName>府知事ト御会合（華族会館）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><forename>ドナルド</forename><surname>フレーザー</surname></persName>両氏招待会（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><placeName>天津</placeName>風水害救済常務委員会（商業会議所）</p>\n</event>\n<event>\n<p><time when=\"17:30:00\">午後五半時</time>　　<placeName>清水</placeName>釘吉氏等ト御会見（<placeName>番町</placeName>同氏宅）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0292\">\n<head>\n<date when=\"1917-11-12\">\n           十二日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            岡部子、\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            府知事ト御会合（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_ドナルドフレーザー\">\n<forename>\n              ドナルド\n             </forename>\n<surname>\n              フレーザー\n             </surname>\n</persName>\n            両氏招待会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_天津市\">\n             天津\n            </placeName>\n            風水害救済常務委員会（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<placeName corresp=\"#place_清水\">\n             清水\n            </placeName>\n            釘吉氏等ト御会見（\n            <placeName corresp=\"#place_番町\">\n             番町\n            </placeName>\n            同氏宅）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-11"
 }

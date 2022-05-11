@@ -1,18 +1,18 @@
 {
     "agential": [
         "塩沢昌",
-        "松平",
-        "如水"
+        "松平"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/塩沢昌",
         "https://shibusawa-dlab.github.io/lab1/api/chname/松平"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1392",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -22,30 +22,31 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-05",
     "date_lvl2": "1922-05-24",
-    "description": "\n\n 廿四日  （水） \n\n\n午前八時塩沢昌貞、松平伯爵両氏来邸（飛鳥山邸）\n\n\n午前十時北豊島郡内小学校長諸氏来邸（飛鳥山邸）\n\n\n正午　　　　　報効会理事会（銀行クラブ）\n\n\n正午　　　　　日米電信会社創立委員会《（海底脱）》（日本工業クラブ）但多少遅刻ノコトヲ断リタリ\n\n\n午後三時尼港殉難者追悼会（仏教会館）\n\n\n午後五半時　　帰一協会例会（如水会館）\n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （水）\n         \n\n\n\n\n             午前八時\n            \n\n\n              塩沢\n             \n\n              昌\n             \n\n            貞、\n            \n\n              松平\n             \n\n            伯爵両氏来邸（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            北\n            \n             豊島\n            \n            郡内小学校長諸氏来邸（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            報効会理事会（銀行クラブ）\n           \n\n\n\n\n             正午\n            \n            日米電信会社創立委員会《（海底脱）》（日本工業クラブ）但多少遅刻ノコトヲ断リタリ\n           \n\n\n\n\n             午後三時\n            \n            尼港殉難者追悼会（仏教会館）\n           \n\n\n\n\n             午後五半時\n            \n            帰一協会例会（如水会館）\n           \n\n\n",
     "fullname": [
-        "塩沢昌"
+        "\n              塩沢\n             \n              昌\n             "
     ],
-    "label": "廿四日  （水）",
+    "label": "廿四日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-119",
-    "objectID": "DKB20024m-118",
-    "prev": "DKB20024m-117",
+    "next": "DKB20024m-0119",
+    "objectID": "DKB20024m-0118",
+    "prev": "DKB20024m-0117",
     "sort": "DKB20024m-0118",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "豊島"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/豊島"
     ],
     "temporal": "1922-05-24",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>塩沢</surname><forename>昌</forename></persName>貞、<persName><surname>松平</surname></persName>伯爵両氏来邸（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_塩沢昌\">\n<surname>\n              塩沢\n             </surname>\n<forename>\n              昌\n             </forename>\n</persName>\n            貞、\n            <persName corresp=\"#pers_松平\">\n<surname>\n              松平\n             </surname>\n</persName>\n            伯爵両氏来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-118\">\n<head>\n<date when=\"1922-05-24\"> 廿四日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>塩沢</surname><forename>昌</forename></persName>貞、<persName><surname>松平</surname></persName>伯爵両氏来邸（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>北<placeName>豊島</placeName>郡内小学校長諸氏来邸（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　報効会理事会（銀行クラブ）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　日米電信会社創立委員会《（海底脱）》（日本工業クラブ）但多少遅刻ノコトヲ断リタリ</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>尼港殉難者追悼会（仏教会館）</p>\n</event>\n<event>\n<p><time when=\"17:30:00\">午後五半時</time>　　帰一協会例会（<persName><forename>如水</forename></persName>会館）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0118\">\n<head>\n<date when=\"1922-05-24\">\n           廿四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_塩沢昌\">\n<surname>\n              塩沢\n             </surname>\n<forename>\n              昌\n             </forename>\n</persName>\n            貞、\n            <persName corresp=\"#pers_松平\">\n<surname>\n              松平\n             </surname>\n</persName>\n            伯爵両氏来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            北\n            <placeName corresp=\"#place_豊島\">\n             豊島\n            </placeName>\n            郡内小学校長諸氏来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            報効会理事会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日米電信会社創立委員会《（海底脱）》（日本工業クラブ）但多少遅刻ノコトヲ断リタリ\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            尼港殉難者追悼会（仏教会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            帰一協会例会（如水会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-05"
 }

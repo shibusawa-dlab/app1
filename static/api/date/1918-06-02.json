@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1270",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20020m 大正七年 1918"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20020m 大正七年 1918"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20020m 大正七年 1918",
     "date": {
         "lvl0": "1918",
@@ -20,31 +20,31 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-06",
     "date_lvl2": "1918-06-02",
-    "description": "\n\n 二日  （日） \n\n\n午后三時徳川慶久公より御案内（大六天同邸）《（第六天）》\n\n\n",
+    "description": "\n\n\n           二日\n          \n          （日）\n         \n\n\n\n\n             午后三時\n            \n\n\n              徳川\n             \n\n              慶久\n             \n\n            公より御案内（\n            \n             大六天\n            \n            同邸）《（\n            \n             第六天\n            \n            ）》\n           \n\n\n",
     "fullname": [
-        "徳川慶久"
+        "\n              徳川\n             \n              慶久\n             "
     ],
-    "label": "二日  （日）",
+    "label": "二日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20020m-148",
-    "objectID": "DKB20020m-147",
-    "prev": "DKB20020m-146",
+    "next": "DKB20020m-0148",
+    "objectID": "DKB20020m-0147",
+    "prev": "DKB20020m-0146",
     "sort": "DKB20020m-0147",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
-        "天魔",
+        "大六天",
         "第六天"
     ],
     "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/天魔",
+        "https://shibusawa-dlab.github.io/lab1/api/place/大六天",
         "https://shibusawa-dlab.github.io/lab1/api/place/第六天"
     ],
     "temporal": "1918-06-02",
     "time": {
-        "15:00:00": "<div><time when=\"15:00:00\">午后三時</time><persName><surname>徳川</surname><forename>慶久</forename></persName>公より御案内（<placeName>大六天</placeName>同邸）《（<placeName>第六天</placeName>）》</div>"
+        "15:00:00": "<div><time when=\"15:00:00\">\n             午后三時\n            </time>\n<persName corresp=\"#pers_徳川慶久\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶久\n             </forename>\n</persName>\n            公より御案内（\n            <placeName corresp=\"#place_大六天\">\n             大六天\n            </placeName>\n            同邸）《（\n            <placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n            ）》</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-147\">\n<head>\n<date when=\"1918-06-02\"> 二日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"15:00:00\">午后三時</time><persName><surname>徳川</surname><forename>慶久</forename></persName>公より御案内（<placeName>大六天</placeName>同邸）《（<placeName>第六天</placeName>）》</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0147\">\n<head>\n<date when=\"1918-06-02\">\n           二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n<persName corresp=\"#pers_徳川慶久\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶久\n             </forename>\n</persName>\n            公より御案内（\n            <placeName corresp=\"#place_大六天\">\n             大六天\n            </placeName>\n            同邸）《（\n            <placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n            ）》\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-06"
 }

@@ -2,13 +2,15 @@
     "agential": [
         "渋沢武之助"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢武之助"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1537",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -18,17 +20,17 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-03",
     "date_lvl2": "1927-03-05",
-    "description": "\n\n 五日  （土） \n\n\n午前十一・十時事務所ニ御出勤\n\n\n正午　　　　　米国大使館ニ御出向\n\n\n午後二時日印協会（華族会館）\n\n\n午後二時第一銀行総会（銀行クラブ）\n\n\n午後三―四時渋沢武之助邸ニ御出向\n\n\n",
+    "description": "\n\n\n           五日\n          \n          （土）\n         \n\n\n\n\n             午前十一・十時\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             正午\n            \n\n             米国\n            \n            大使館ニ御出向\n           \n\n\n\n\n             午後二時\n            \n            日印協会（華族会館）\n           \n\n\n\n\n             午後二時\n            \n\n             第一銀行\n            \n            総会（銀行クラブ）\n           \n\n\n\n\n             午後三―四時\n            \n\n\n              渋沢\n             \n\n              武之助\n             \n\n            邸ニ御出向\n           \n\n\n",
     "fullname": [
-        "渋沢武之助"
+        "\n              渋沢\n             \n              武之助\n             "
     ],
-    "label": "五日  （土）",
+    "label": "五日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-48",
-    "objectID": "DKB20029m-47",
-    "prev": "DKB20029m-46",
+    "next": "DKB20029m-0048",
+    "objectID": "DKB20029m-0047",
+    "prev": "DKB20029m-0046",
     "sort": "DKB20029m-0047",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アメリカ合衆国"
     ],
@@ -37,10 +39,10 @@
     ],
     "temporal": "1927-03-05",
     "time": {
-        "11:10:00": "<div><time when=\"11:10:00\">午前十一・十時</time>事務所ニ御出勤</div>"
+        "11:10:00": "<div><time when=\"11:10:00\">\n             午前十一・十時\n            </time>\n            事務所ニ御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-47\">\n<head>\n<date when=\"1927-03-05\"> 五日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"11:10:00\">午前十一・十時</time>事務所ニ御出勤</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　<placeName>米国</placeName>大使館ニ御出向</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>日印協会（華族会館）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>第一銀行総会（銀行クラブ）</p>\n</event>\n<event>\n<p><time from=\"15:00:00\" to=\"16:00:00\">午後三―四時</time><persName><surname>渋沢</surname><forename>武之助</forename></persName>邸ニ御出向</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0047\">\n<head>\n<date when=\"1927-03-05\">\n           五日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:10:00\">\n             午前十一・十時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            大使館ニ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            日印協会（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n            総会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―四時\n            </time>\n<persName corresp=\"#pers_渋沢武之助\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              武之助\n             </forename>\n</persName>\n            邸ニ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-03"
 }

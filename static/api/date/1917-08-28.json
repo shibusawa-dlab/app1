@@ -7,16 +7,18 @@
         "名取和作"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/藤山",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/倉知",
         "https://shibusawa-dlab.github.io/lab1/api/chname/中野",
         "https://shibusawa-dlab.github.io/lab1/api/chname/寺田",
         "https://shibusawa-dlab.github.io/lab1/api/chname/名取和作"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1244",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -26,17 +28,17 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-08",
     "date_lvl2": "1917-08-28",
-    "description": "\n\n 廿八日  （火） \n\n\n午前十時藤山、倉知、中野諸氏ト御会見ノ約\n\n\n午前十一時衆議院ノ寺田氏来約（兜町）\n\n\n　　　　名取和作氏同（同）\n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n\n\n              藤山\n             \n\n            、\n            \n\n              倉知\n             \n\n            、\n            \n\n              中野\n             \n\n            諸氏ト御会見ノ約\n           \n\n\n\n\n             午前十一時\n            \n            衆議院ノ\n            \n\n              寺田\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n\n\n              名取\n             \n\n              和作\n             \n\n            氏同（同）\n           \n\n\n",
     "fullname": [
-        "名取和作"
+        "\n              名取\n             \n              和作\n             "
     ],
-    "label": "廿八日  （火）",
+    "label": "廿八日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-226",
-    "objectID": "DKB20019m-225",
-    "prev": "DKB20019m-224",
+    "next": "DKB20019m-0226",
+    "objectID": "DKB20019m-0225",
+    "prev": "DKB20019m-0224",
     "sort": "DKB20019m-0225",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -45,10 +47,10 @@
     ],
     "temporal": "1917-08-28",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><persName><surname>藤山</surname></persName>、<persName><surname>倉知</surname></persName>、<persName><surname>中野</surname></persName>諸氏ト御会見ノ約</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_藤山\">\n<surname>\n              藤山\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_倉知\">\n<surname>\n              倉知\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_中野\">\n<surname>\n              中野\n             </surname>\n</persName>\n            諸氏ト御会見ノ約</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-225\">\n<head>\n<date when=\"1917-08-28\"> 廿八日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>藤山</surname></persName>、<persName><surname>倉知</surname></persName>、<persName><surname>中野</surname></persName>諸氏ト御会見ノ約</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>衆議院ノ<persName><surname>寺田</surname></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\"/>　　　　<persName><surname>名取</surname><forename>和作</forename></persName>氏同（同）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0225\">\n<head>\n<date when=\"1917-08-28\">\n           廿八日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_藤山\">\n<surname>\n              藤山\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_倉知\">\n<surname>\n              倉知\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_中野\">\n<surname>\n              中野\n             </surname>\n</persName>\n            諸氏ト御会見ノ約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            衆議院ノ\n            <persName corresp=\"#pers_寺田\">\n<surname>\n              寺田\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\"/>\n<persName corresp=\"#pers_名取和作\">\n<surname>\n              名取\n             </surname>\n<forename>\n              和作\n             </forename>\n</persName>\n            氏同（同）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-08"
 }

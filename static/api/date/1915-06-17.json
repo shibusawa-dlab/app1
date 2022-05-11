@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1185",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20017m 大正四年 1915"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20017m 大正四年 1915"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20017m 大正四年 1915",
     "date": {
         "lvl0": "1915",
@@ -20,17 +20,17 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-06",
     "date_lvl2": "1915-06-17",
-    "description": "\n\n 十七日  （木） \n\n\n午後〇時半　　仏国大使ヨリ御案内（同大使館）\n\n\n午後五時日印協会々合（築地精養軒）\n\n\n午後六時鈴木文治氏送別会（兜町邸）\n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （木）\n         \n\n\n\n\n             午後〇時半\n            \n\n             仏国\n            \n            大使ヨリ御案内（同大使館）\n           \n\n\n\n\n             午後五時\n            \n            日印協会々合（築地精養軒）\n           \n\n\n\n\n             午後六時\n            \n\n\n              鈴木\n             \n\n              文治\n             \n\n            氏送別会（\n            \n             兜町\n            \n            邸）\n           \n\n\n",
     "fullname": [
-        "鈴木文治"
+        "\n              鈴木\n             \n              文治\n             "
     ],
-    "label": "十七日  （木）",
+    "label": "十七日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20017m-159",
-    "objectID": "DKB20017m-158",
-    "prev": "DKB20017m-157",
+    "next": "DKB20017m-0159",
+    "objectID": "DKB20017m-0158",
+    "prev": "DKB20017m-0157",
     "sort": "DKB20017m-0158",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "仏国",
         "日本橋兜町"
@@ -41,10 +41,10 @@
     ],
     "temporal": "1915-06-17",
     "time": {
-        "12:30:00": "<div><time when=\"12:30:00\">午後〇時半</time>　　<placeName>仏国</placeName>大使ヨリ御案内（同大使館）</div>"
+        "12:30:00": "<div><time when=\"12:30:00\">\n             午後〇時半\n            </time>\n<placeName corresp=\"#place_仏国\">\n             仏国\n            </placeName>\n            大使ヨリ御案内（同大使館）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-158\">\n<head>\n<date when=\"1915-06-17\"> 十七日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"12:30:00\">午後〇時半</time>　　<placeName>仏国</placeName>大使ヨリ御案内（同大使館）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>日印協会々合（築地精養軒）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time><persName><surname>鈴木</surname><forename>文治</forename></persName>氏送別会（<placeName>兜町</placeName>邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0158\">\n<head>\n<date when=\"1915-06-17\">\n           十七日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇時半\n            </time>\n<placeName corresp=\"#place_仏国\">\n             仏国\n            </placeName>\n            大使ヨリ御案内（同大使館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            日印協会々合（築地精養軒）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_鈴木文治\">\n<surname>\n              鈴木\n             </surname>\n<forename>\n              文治\n             </forename>\n</persName>\n            氏送別会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-06"
 }

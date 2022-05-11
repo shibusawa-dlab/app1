@@ -4,14 +4,15 @@
         "田中平八郎"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/尾高"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/尾高",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田中平八郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1343",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -21,17 +22,17 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-10",
     "date_lvl2": "1920-10-04",
-    "description": "\n\n 四日  （月） \n\n\n午前十時故尾高社長及亡東洋生命被保険者追福会（芝増上寺）令夫人トモ\n\n\n午後二時田中平八郎氏外数氏《（マヽ）》と御会合（兜町）\n\n\n午後四時時事新報社より御案内（帝劇）\n\n\n",
+    "description": "\n\n\n           四日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n            故\n            \n\n              尾高\n             \n\n            社長及亡東洋生命被保険者追福会（\n            \n             芝\n            \n            増上寺）\n            \n            令夫人トモ\n           \n\n\n\n\n             午後二時\n            \n\n\n              田中\n             \n\n              平八郎\n             \n\n            氏外数氏《（マヽ）》と御会合（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            時事新報社より御案内（帝劇）\n           \n\n\n",
     "fullname": [
-        "田中平八郎"
+        "\n              田中\n             \n              平八郎\n             "
     ],
-    "label": "四日  （月）",
+    "label": "四日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-255",
-    "objectID": "DKB20022m-254",
-    "prev": "DKB20022m-253",
+    "next": "DKB20022m-0255",
+    "objectID": "DKB20022m-0254",
+    "prev": "DKB20022m-0253",
     "sort": "DKB20022m-0254",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "芝",
         "日本橋兜町"
@@ -42,10 +43,10 @@
     ],
     "temporal": "1920-10-04",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time>故<persName><surname>尾高</surname></persName>社長及亡東洋生命被保険者追福会（<placeName>芝</placeName>増上寺）<lb/>令夫人トモ</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            故\n            <persName corresp=\"#pers_尾高\">\n<surname>\n              尾高\n             </surname>\n</persName>\n            社長及亡東洋生命被保険者追福会（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n            増上寺）\n            <lb/>\n            令夫人トモ</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-254\">\n<head>\n<date when=\"1920-10-04\"> 四日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>故<persName><surname>尾高</surname></persName>社長及亡東洋生命被保険者追福会（<placeName>芝</placeName>増上寺）<lb/>令夫人トモ</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>田中</surname><forename>平八郎</forename></persName>氏外数氏《（マヽ）》と御会合（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>時事新報社より御案内（帝劇）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0254\">\n<head>\n<date when=\"1920-10-04\">\n           四日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            故\n            <persName corresp=\"#pers_尾高\">\n<surname>\n              尾高\n             </surname>\n</persName>\n            社長及亡東洋生命被保険者追福会（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n            増上寺）\n            <lb/>\n            令夫人トモ\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_田中平八郎\">\n<surname>\n              田中\n             </surname>\n<forename>\n              平八郎\n             </forename>\n</persName>\n            氏外数氏《（マヽ）》と御会合（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            時事新報社より御案内（帝劇）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-10"
 }

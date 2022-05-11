@@ -3,13 +3,16 @@
         "磯野敬",
         "坪井秀"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/磯野敬",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/坪井秀"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1442",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -19,29 +22,30 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-10",
     "date_lvl2": "1923-10-27",
-    "description": "\n\n 廿七日  （土） \n\n\n午前八―八半時　磯野敬、坪井秀、青木某三氏来約（飛鳥山邸）\n\n\n",
+    "description": "\n\n\n           廿七日\n          \n          （土）\n         \n\n\n\n\n             午前八―八半時\n            \n\n\n              磯野\n             \n\n              敬\n             \n\n            、\n            \n\n              坪井\n             \n\n              秀\n             \n\n            、\n            \n             青木\n            \n            某三氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "磯野敬",
-        "坪井秀"
+        "\n              磯野\n             \n              敬\n             ",
+        "\n              坪井\n             \n              秀\n             "
     ],
-    "label": "廿七日  （土）",
+    "label": "廿七日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20025m-277",
-    "objectID": "DKB20025m-276",
-    "prev": "DKB20025m-275",
+    "next": "DKB20025m-0277",
+    "objectID": "DKB20025m-0276",
+    "prev": "DKB20025m-0275",
     "sort": "DKB20025m-0276",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "青木",
         "飛鳥山邸"
     ],
     "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/青木"
+        "https://shibusawa-dlab.github.io/lab1/api/place/青木",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1923-10-27",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-276\">\n<head>\n<date when=\"1923-10-27\"> 廿七日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time from=\"08:00:00\" to=\"08:30:00\">午前八―八半時</time>　<persName><surname>磯野</surname><forename>敬</forename></persName>、<persName><surname>坪井</surname><forename>秀</forename></persName>、<placeName>青木</placeName>某三氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0276\">\n<head>\n<date when=\"1923-10-27\">\n           廿七日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"08:30:00\">\n             午前八―八半時\n            </time>\n<persName corresp=\"#pers_磯野敬\">\n<surname>\n              磯野\n             </surname>\n<forename>\n              敬\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_坪井秀\">\n<surname>\n              坪井\n             </surname>\n<forename>\n              秀\n             </forename>\n</persName>\n            、\n            <placeName corresp=\"#place_青木\">\n             青木\n            </placeName>\n            某三氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-10"
 }

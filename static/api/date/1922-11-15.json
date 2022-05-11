@@ -4,14 +4,15 @@
         "越泰蔵"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/尾高"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/尾高",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/越泰蔵"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1410",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -21,17 +22,17 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-11",
     "date_lvl2": "1922-11-15",
-    "description": "\n\n 十五日  （水） \n\n\n午前十一時尾高家ヘ御出向\n\n\n午後三時越泰蔵氏来約（兜町）\n\n\n午後四時第一銀行次席諸君招待会（帝国劇場）\n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （水）\n         \n\n\n\n\n             午前十一時\n            \n\n\n              尾高\n             \n\n            家ヘ御出向\n           \n\n\n\n\n             午後三時\n            \n\n\n              越\n             \n\n              泰蔵\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n             第一銀行\n            \n            次席諸君招待会（帝国劇場）\n           \n\n\n",
     "fullname": [
-        "越泰蔵"
+        "\n              越\n             \n              泰蔵\n             "
     ],
-    "label": "十五日  （水）",
+    "label": "十五日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-284",
-    "objectID": "DKB20024m-283",
-    "prev": "DKB20024m-282",
+    "next": "DKB20024m-0284",
+    "objectID": "DKB20024m-0283",
+    "prev": "DKB20024m-0282",
     "sort": "DKB20024m-0283",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -40,10 +41,10 @@
     ],
     "temporal": "1922-11-15",
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">午前十一時</time><persName><surname>尾高</surname></persName>家ヘ御出向</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_尾高\">\n<surname>\n              尾高\n             </surname>\n</persName>\n            家ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-283\">\n<head>\n<date when=\"1922-11-15\"> 十五日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>尾高</surname></persName>家ヘ御出向</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>越</surname><forename>泰蔵</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>第一銀行次席諸君招待会（帝国劇場）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0283\">\n<head>\n<date when=\"1922-11-15\">\n           十五日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_尾高\">\n<surname>\n              尾高\n             </surname>\n</persName>\n            家ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_越泰蔵\">\n<surname>\n              越\n             </surname>\n<forename>\n              泰蔵\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n            次席諸君招待会（帝国劇場）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-11"
 }

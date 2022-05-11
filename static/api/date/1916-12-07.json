@@ -7,15 +7,18 @@
         "豊川良平"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/仲小路",
         "https://shibusawa-dlab.github.io/lab1/api/chname/広尾",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山内英太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/猪飼正雄",
         "https://shibusawa-dlab.github.io/lab1/api/chname/豊川良平"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1221",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -25,19 +28,19 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-12",
     "date_lvl2": "1916-12-07",
-    "description": "\n\n 七日  （木） \n\n\n午前九時仲小路農商務大臣御訪問（麻布広尾二私邸）\n\n\n午前十時東京市役所ヘ御出向（養育院予算委員会）\n\n\n午後四時半山内英太郎氏及猪飼正雄氏来約（兜町）\n\n\n午後六時豊川良平氏ヨリ御案内（福井楼）\n\n\n",
+    "description": "\n\n\n           七日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n\n\n              仲小路\n             \n\n            農商務大臣御訪問（\n            \n             麻布\n            \n\n\n              広尾\n             \n\n            二私邸）\n           \n\n\n\n\n             午前十時\n            \n\n             東京\n            \n            市役所ヘ御出向（養育院予算委員会）\n           \n\n\n\n\n             午後四時半\n            \n\n\n              山内\n             \n\n              英太郎\n             \n\n            氏及\n            \n\n              猪飼\n             \n\n              正雄\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n\n\n              豊川\n             \n\n              良平\n             \n\n            氏ヨリ御案内（福井楼）\n           \n\n\n",
     "fullname": [
-        "山内英太郎",
-        "猪飼正雄",
-        "豊川良平"
+        "\n              山内\n             \n              英太郎\n             ",
+        "\n              猪飼\n             \n              正雄\n             ",
+        "\n              豊川\n             \n              良平\n             "
     ],
-    "label": "七日  （木）",
+    "label": "七日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-325",
-    "objectID": "DKB20018m-324",
-    "prev": "DKB20018m-323",
+    "next": "DKB20018m-0325",
+    "objectID": "DKB20018m-0324",
+    "prev": "DKB20018m-0323",
     "sort": "DKB20018m-0324",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "麻布",
         "東京",
@@ -50,10 +53,10 @@
     ],
     "temporal": "1916-12-07",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>仲小路</surname></persName>農商務大臣御訪問（<placeName>麻布</placeName><persName><surname>広尾</surname></persName>二私邸）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_仲小路\">\n<surname>\n              仲小路\n             </surname>\n</persName>\n            農商務大臣御訪問（\n            <placeName corresp=\"#place_麻布\">\n             麻布\n            </placeName>\n<persName corresp=\"#pers_広尾\">\n<surname>\n              広尾\n             </surname>\n</persName>\n            二私邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-324\">\n<head>\n<date when=\"1916-12-07\"> 七日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>仲小路</surname></persName>農商務大臣御訪問（<placeName>麻布</placeName><persName><surname>広尾</surname></persName>二私邸）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><placeName>東京</placeName>市役所ヘ御出向（養育院予算委員会）</p>\n</event>\n<event>\n<p><time when=\"16:30:00\">午後四時半</time><persName><surname>山内</surname><forename>英太郎</forename></persName>氏及<persName><surname>猪飼</surname><forename>正雄</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time><persName><surname>豊川</surname><forename>良平</forename></persName>氏ヨリ御案内（福井楼）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0324\">\n<head>\n<date when=\"1916-12-07\">\n           七日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_仲小路\">\n<surname>\n              仲小路\n             </surname>\n</persName>\n            農商務大臣御訪問（\n            <placeName corresp=\"#place_麻布\">\n             麻布\n            </placeName>\n<persName corresp=\"#pers_広尾\">\n<surname>\n              広尾\n             </surname>\n</persName>\n            二私邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市役所ヘ御出向（養育院予算委員会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四時半\n            </time>\n<persName corresp=\"#pers_山内英太郎\">\n<surname>\n              山内\n             </surname>\n<forename>\n              英太郎\n             </forename>\n</persName>\n            氏及\n            <persName corresp=\"#pers_猪飼正雄\">\n<surname>\n              猪飼\n             </surname>\n<forename>\n              正雄\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_豊川良平\">\n<surname>\n              豊川\n             </surname>\n<forename>\n              良平\n             </forename>\n</persName>\n            氏ヨリ御案内（福井楼）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-12"
 }

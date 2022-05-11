@@ -1,14 +1,18 @@
 {
     "agential": [
-        "森俊"
+        "山県",
+        "森俊六郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山県",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/森俊六郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1398",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -18,25 +22,25 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-07",
     "date_lvl2": "1922-07-12",
-    "description": "\n\n 十二日  （水） \n\n\n午前十一時半博覧会常任常議員会（迎賓館）\n\n\n午後二時故山県公記念事業ニ関スル件（華族会館）\n\n\n午後二時国際聯盟催森俊六郎氏帰朝歓迎会ノ件\n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （水）\n         \n\n\n\n\n             午前十一時半\n            \n            博覧会常任常議員会（迎賓館）\n           \n\n\n\n\n             午後二時\n            \n            故\n            \n\n              山県\n             \n\n            公記念事業ニ関スル件（華族会館）\n           \n\n\n\n\n             午後二時\n            \n            国際聯盟催\n            \n\n              森\n             \n\n              俊六郎\n             \n\n            氏帰朝歓迎会ノ件\n           \n\n\n",
     "fullname": [
-        "森俊"
+        "\n              森\n             \n              俊六郎\n             "
     ],
-    "label": "十二日  （水）",
+    "label": "十二日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-170",
-    "objectID": "DKB20024m-169",
-    "prev": "DKB20024m-168",
+    "next": "DKB20024m-0170",
+    "objectID": "DKB20024m-0169",
+    "prev": "DKB20024m-0168",
     "sort": "DKB20024m-0169",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [],
     "spatial_uri": [],
     "temporal": "1922-07-12",
     "time": {
-        "11:30:00": "<div><time when=\"11:30:00\">午前十一時半</time>博覧会常任常議員会（迎賓館）</div>"
+        "11:30:00": "<div><time when=\"11:30:00\">\n             午前十一時半\n            </time>\n            博覧会常任常議員会（迎賓館）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-169\">\n<head>\n<date when=\"1922-07-12\"> 十二日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"11:30:00\">午前十一時半</time>博覧会常任常議員会（迎賓館）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>故山県公記念事業ニ関スル件（華族会館）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>国際聯盟催<persName><surname>森</surname><forename>俊</forename></persName>六郎氏帰朝歓迎会ノ件</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0169\">\n<head>\n<date when=\"1922-07-12\">\n           十二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n            博覧会常任常議員会（迎賓館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            故\n            <persName corresp=\"#pers_山県\">\n<surname>\n              山県\n             </surname>\n</persName>\n            公記念事業ニ関スル件（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            国際聯盟催\n            <persName corresp=\"#pers_森俊六郎\">\n<surname>\n              森\n             </surname>\n<forename>\n              俊六郎\n             </forename>\n</persName>\n            氏帰朝歓迎会ノ件\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-07"
 }

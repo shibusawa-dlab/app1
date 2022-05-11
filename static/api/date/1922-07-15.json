@@ -2,13 +2,15 @@
     "agential": [
         "神山潤"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/神山潤"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1398",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -18,17 +20,17 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-07",
     "date_lvl2": "1922-07-15",
-    "description": "\n\n 十五日  （土） \n\n\n正午　　　　　商業会議所催、南米視察実業団送別会（同所）\n\n\n午後三―四時山川瑞三氏来約（兜町）\n\n\n午後四時神山潤次氏等ト御会見ノ約（中央亭本店）\n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （土）\n         \n\n\n\n\n             正午\n            \n            商業会議所催、\n            \n             南米\n            \n            視察実業団送別会（同所）\n           \n\n\n\n\n             午後三―四時\n            \n            山川\n            \n             瑞\n            \n            三氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n\n              神山\n             \n\n              潤\n             \n\n            次氏等ト御会見ノ約（中央亭本店）\n           \n\n\n",
     "fullname": [
-        "神山潤"
+        "\n              神山\n             \n              潤\n             "
     ],
-    "label": "十五日  （土）",
+    "label": "十五日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-173",
-    "objectID": "DKB20024m-172",
-    "prev": "DKB20024m-171",
+    "next": "DKB20024m-0173",
+    "objectID": "DKB20024m-0172",
+    "prev": "DKB20024m-0171",
     "sort": "DKB20024m-0172",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "南アメリカ",
         "瑞",
@@ -41,10 +43,10 @@
     ],
     "temporal": "1922-07-15",
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">正午</time>　　　　　商業会議所催、<placeName>南米</placeName>視察実業団送別会（同所）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            商業会議所催、\n            <placeName corresp=\"#place_南アメリカ\">\n             南米\n            </placeName>\n            視察実業団送別会（同所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-172\">\n<head>\n<date when=\"1922-07-15\"> 十五日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　商業会議所催、<placeName>南米</placeName>視察実業団送別会（同所）</p>\n</event>\n<event>\n<p><time from=\"15:00:00\" to=\"16:00:00\">午後三―四時</time>山川<placeName>瑞</placeName>三氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><persName><surname>神山</surname><forename>潤</forename></persName>次氏等ト御会見ノ約（中央亭本店）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0172\">\n<head>\n<date when=\"1922-07-15\">\n           十五日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            商業会議所催、\n            <placeName corresp=\"#place_南アメリカ\">\n             南米\n            </placeName>\n            視察実業団送別会（同所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―四時\n            </time>\n            山川\n            <placeName corresp=\"#place_瑞\">\n             瑞\n            </placeName>\n            三氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_神山潤\">\n<surname>\n              神山\n             </surname>\n<forename>\n              潤\n             </forename>\n</persName>\n            次氏等ト御会見ノ約（中央亭本店）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-07"
 }

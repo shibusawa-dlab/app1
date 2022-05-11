@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1494",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -20,17 +20,17 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-10",
     "date_lvl2": "1925-10-14",
-    "description": "\n\n 十四日  （水） \n\n\n午前十一半時　中島久万吉男ト御会見（帝国ホテル）\n\n\n正午　　　　　日本無電会社ノ件（帝国ホテル）\n\n\n午後二半時　　事務所ニ御出勤\n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （水）\n         \n\n\n\n\n             午前十一半時\n            \n\n\n              中島\n             \n\n              久万吉\n             \n\n            男ト御会見（帝国ホテル）\n           \n\n\n\n\n\n             正午\n            \n\n             日本\n            \n            無電会社ノ件（帝国ホテル）\n           \n\n\n\n\n             午後二半時\n            \n            事務所ニ御出勤\n           \n\n\n",
     "fullname": [
-        "中島久万吉"
+        "\n              中島\n             \n              久万吉\n             "
     ],
-    "label": "十四日  （水）",
+    "label": "十四日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20027m-172",
-    "objectID": "DKB20027m-171",
-    "prev": "DKB20027m-170",
+    "next": "DKB20027m-0172",
+    "objectID": "DKB20027m-0171",
+    "prev": "DKB20027m-0170",
     "sort": "DKB20027m-0171",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本"
     ],
@@ -39,10 +39,10 @@
     ],
     "temporal": "1925-10-14",
     "time": {
-        "11:30:00": "<div><time when=\"11:30:00\">午前十一半時</time>　<persName><surname>中島</surname><forename>久万吉</forename></persName>男ト御会見（帝国ホテル）</div>"
+        "11:30:00": "<div><time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<persName corresp=\"#pers_中島久万吉\">\n<surname>\n              中島\n             </surname>\n<forename>\n              久万吉\n             </forename>\n</persName>\n            男ト御会見（帝国ホテル）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-171\">\n<head>\n<date when=\"1925-10-14\"> 十四日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"11:30:00\">午前十一半時</time>　<persName><surname>中島</surname><forename>久万吉</forename></persName>男ト御会見（帝国ホテル）</p>\n</event>\n<event>\n<p><pb n=\"B2655\"/><time when=\"12:00:00\">正午</time>　　　　　<placeName>日本</placeName>無電会社ノ件（帝国ホテル）</p>\n</event>\n<event>\n<p><time when=\"14:30:00\">午後二半時</time>　　事務所ニ御出勤</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0171\">\n<head>\n<date when=\"1925-10-14\">\n           十四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<persName corresp=\"#pers_中島久万吉\">\n<surname>\n              中島\n             </surname>\n<forename>\n              久万吉\n             </forename>\n</persName>\n            男ト御会見（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2655\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1494/full/max/0/default.jpg\" n=\"B2655\" source=\"#pageB2655\"/>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            無電会社ノ件（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-10"
 }

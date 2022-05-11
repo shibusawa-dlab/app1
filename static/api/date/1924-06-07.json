@@ -4,14 +4,15 @@
         "水越"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渡邊嘉一"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渡邊嘉一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/水越"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1467",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -21,17 +22,17 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-06",
     "date_lvl2": "1924-06-07",
-    "description": "\n\n 七日  （土） \n\n\n午後一時渡辺嘉一氏来約（事ム所）\n\n\n午後二時北海道拓殖銀行ノ水越氏来約（事ム所）\n\n\n午後三時慈恵会理事会（同会）\n\n\n",
+    "description": "\n\n\n           七日\n          \n          （土）\n         \n\n\n\n\n             午後一時\n            \n\n\n              渡辺\n             \n\n              嘉一\n             \n\n            氏来約（事ム所）\n           \n\n\n\n\n             午後二時\n            \n\n             北海道\n            \n            拓殖銀行ノ\n            \n\n              水越\n             \n\n            氏来約（事ム所）\n           \n\n\n\n\n             午後三時\n            \n            慈恵会理事会（同会）\n           \n\n\n",
     "fullname": [
-        "渡邊嘉一"
+        "\n              渡辺\n             \n              嘉一\n             "
     ],
-    "label": "七日  （土）",
+    "label": "七日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-164",
-    "objectID": "DKB20026m-163",
-    "prev": "DKB20026m-162",
+    "next": "DKB20026m-0164",
+    "objectID": "DKB20026m-0163",
+    "prev": "DKB20026m-0162",
     "sort": "DKB20026m-0163",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "北海道"
     ],
@@ -40,10 +41,10 @@
     ],
     "temporal": "1924-06-07",
     "time": {
-        "13:00:00": "<div><time when=\"13:00:00\">午後一時</time><persName><surname>渡辺</surname><forename>嘉一</forename></persName>氏来約（事ム所）</div>"
+        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_渡邊嘉一\">\n<surname>\n              渡辺\n             </surname>\n<forename>\n              嘉一\n             </forename>\n</persName>\n            氏来約（事ム所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-163\">\n<head>\n<date when=\"1924-06-07\"> 七日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"13:00:00\">午後一時</time><persName><surname>渡辺</surname><forename>嘉一</forename></persName>氏来約（事ム所）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><placeName>北海道</placeName>拓殖銀行ノ<persName><surname>水越</surname></persName>氏来約（事ム所）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>慈恵会理事会（同会）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0163\">\n<head>\n<date when=\"1924-06-07\">\n           七日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_渡邊嘉一\">\n<surname>\n              渡辺\n             </surname>\n<forename>\n              嘉一\n             </forename>\n</persName>\n            氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_北海道\">\n             北海道\n            </placeName>\n            拓殖銀行ノ\n            <persName corresp=\"#pers_水越\">\n<surname>\n              水越\n             </surname>\n</persName>\n            氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            慈恵会理事会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-06"
 }

@@ -2,14 +2,16 @@
     "agential": [
         "中沢文次"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中沢文次"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/113",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB10008m 明治三十二年  1899"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB10008m 明治三十二年 1899"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-    "category_lvl1": "DKB10008m 明治三十二年  1899",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl1": "DKB10008m 明治三十二年 1899",
     "date": {
         "lvl0": "1899",
         "lvl1": "1899 > 1899-05",
@@ -18,17 +20,17 @@
     "date_lvl0": "1899",
     "date_lvl1": "1899-05",
     "date_lvl2": "1899-05-15",
-    "description": "\n\n 五月十五日 \n\n晴、午前十時京仁鉄道合資会社公正証書作成ノ為公証人中沢文次ノ役場ニ抵ル、午後一時銀行ニ抵リ事務ヲ視ル、二時川上大将ノ葬儀ニ青山墓地ニ赴ク、午後四時銀行ニ出勤ス、五時銀行集会所例会ニ参列ス夜八時浜町ニ帰宿ス\n",
+    "description": "\n\n\n        五月十五日\n       \n\n\n       晴、\n       \n        午前十時\n       \n       京仁鉄道合資会社公正証書作成ノ為公証人\n       \n\n         中沢\n        \n\n         文次\n        \n\n       ノ役場ニ抵ル、\n       \n        午後一時\n       \n       銀行ニ抵リ事務ヲ視ル、\n       \n        二時\n       \n       川上大将ノ葬儀ニ青山墓地ニ赴ク、\n       \n        午後四時\n       \n       銀行ニ出勤ス、\n       \n        五時\n       \n       銀行集会所例会ニ参列ス夜\n       \n        八時\n       \n\n        浜町\n       \n       ニ帰宿ス\n      \n",
     "fullname": [
-        "中沢文次"
+        "\n         中沢\n        \n         文次\n        "
     ],
     "label": "五月十五日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
-    "next": "DKB10008m-136",
-    "objectID": "DKB10008m-135",
-    "prev": "DKB10008m-134",
+    "next": "DKB10008m-0136",
+    "objectID": "DKB10008m-0135",
+    "prev": "DKB10008m-0134",
     "sort": "DKB10008m-0135",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "浜町"
     ],
@@ -37,15 +39,15 @@
     ],
     "temporal": "1899-05-15",
     "time": {
-        "10:00:00": "<div>晴、<time when=\"10:00:00\">午前十時</time>京仁鉄道合資会社公正証書作成ノ為公証人<persName><surname>中沢</surname><forename>文次</forename></persName>ノ役場ニ抵ル、</div>",
-        "13:00:00": "<div><time when=\"13:00:00\">午後一時</time>銀行ニ抵リ事務ヲ視ル、</div>",
-        "14:00:00": "<div><time when=\"14:00:00\">二時</time>川上大将ノ葬儀ニ青山墓地ニ赴ク、</div>",
-        "16:00:00": "<div><time when=\"16:00:00\">午後四時</time>銀行ニ出勤ス、</div>",
-        "17:00:00": "<div><time when=\"17:00:00\">五時</time>銀行集会所例会ニ参列ス夜</div>",
-        "20:00:00": "<div><time when=\"20:00:00\">八時</time><placeName>浜町</placeName>ニ帰宿ス</div>"
+        "10:00:00": "<div>晴、<time when=\"10:00:00\">\n        午前十時\n       </time>\n       京仁鉄道合資会社公正証書作成ノ為公証人\n       <persName corresp=\"#pers_中沢文次\">\n<surname>\n         中沢\n        </surname>\n<forename>\n         文次\n        </forename>\n</persName>\n       ノ役場ニ抵ル、</div>",
+        "13:00:00": "<div><time when=\"13:00:00\">\n        午後一時\n       </time>\n       銀行ニ抵リ事務ヲ視ル、</div>",
+        "14:00:00": "<div><time when=\"14:00:00\">\n        二時\n       </time>\n       川上大将ノ葬儀ニ青山墓地ニ赴ク、</div>",
+        "16:00:00": "<div><time when=\"16:00:00\">\n        午後四時\n       </time>\n       銀行ニ出勤ス、</div>",
+        "17:00:00": "<div><time when=\"17:00:00\">\n        五時\n       </time>\n       銀行集会所例会ニ参列ス夜</div>",
+        "20:00:00": "<div><time when=\"20:00:00\">\n        八時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-135\">\n<head>\n<date when=\"1899-05-15\"> 五月十五日 </date>\n</head>\n<p>晴、<time when=\"10:00:00\">午前十時</time>京仁鉄道合資会社公正証書作成ノ為公証人<persName><surname>中沢</surname><forename>文次</forename></persName>ノ役場ニ抵ル、<time when=\"13:00:00\">午後一時</time>銀行ニ抵リ事務ヲ視ル、<time when=\"14:00:00\">二時</time>川上大将ノ葬儀ニ青山墓地ニ赴ク、<time when=\"16:00:00\">午後四時</time>銀行ニ出勤ス、<time when=\"17:00:00\">五時</time>銀行集会所例会ニ参列ス夜<time when=\"20:00:00\">八時</time><placeName>浜町</placeName>ニ帰宿ス</p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-0135\">\n<head>\n<date when=\"1899-05-15\">\n        五月十五日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n       京仁鉄道合資会社公正証書作成ノ為公証人\n       <persName corresp=\"#pers_中沢文次\">\n<surname>\n         中沢\n        </surname>\n<forename>\n         文次\n        </forename>\n</persName>\n       ノ役場ニ抵ル、\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n       銀行ニ抵リ事務ヲ視ル、\n       <time when=\"14:00:00\">\n        二時\n       </time>\n       川上大将ノ葬儀ニ青山墓地ニ赴ク、\n       <time when=\"16:00:00\">\n        午後四時\n       </time>\n       銀行ニ出勤ス、\n       <time when=\"17:00:00\">\n        五時\n       </time>\n       銀行集会所例会ニ参列ス夜\n       <time when=\"20:00:00\">\n        八時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1899",
     "yearAndMonth": "1899-05"
 }

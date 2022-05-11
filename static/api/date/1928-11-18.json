@@ -2,13 +2,15 @@
     "agential": [
         "尾高藍香"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/尾高藍香"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1587",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20030m 昭和三年 1928"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20030m 昭和三年 1928"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20030m 昭和三年 1928",
     "date": {
         "lvl0": "1928",
@@ -18,17 +20,17 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-11",
     "date_lvl2": "1928-11-18",
-    "description": "\n\n 十八日  （日） \n\n\n午前十時尾高藍香殿、同東寧殿御法要（寛永寺）\n\n\n正午　　　　　同御供養午餐会（上野精養軒）\n\n\n",
+    "description": "\n\n\n           十八日\n          \n          （日）\n         \n\n\n\n\n             午前十時\n            \n\n\n              尾高\n             \n\n              藍香\n             \n\n            殿、同東寧殿御法要（寛永寺）\n           \n\n\n\n\n             正午\n            \n            同御供養午餐会（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "尾高藍香"
+        "\n              尾高\n             \n              藍香\n             "
     ],
-    "label": "十八日  （日）",
+    "label": "十八日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20030m-249",
-    "objectID": "DKB20030m-248",
-    "prev": "DKB20030m-247",
+    "next": "DKB20030m-0249",
+    "objectID": "DKB20030m-0248",
+    "prev": "DKB20030m-0247",
     "sort": "DKB20030m-0248",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "上野精養軒"
     ],
@@ -37,10 +39,10 @@
     ],
     "temporal": "1928-11-18",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><persName><surname>尾高</surname><forename>藍香</forename></persName>殿、同東寧殿御法要（寛永寺）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_尾高藍香\">\n<surname>\n              尾高\n             </surname>\n<forename>\n              藍香\n             </forename>\n</persName>\n            殿、同東寧殿御法要（寛永寺）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-248\">\n<head>\n<date when=\"1928-11-18\"> 十八日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>尾高</surname><forename>藍香</forename></persName>殿、同東寧殿御法要（寛永寺）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　同御供養午餐会（<placeName>上野精養軒</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0248\">\n<head>\n<date when=\"1928-11-18\">\n           十八日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_尾高藍香\">\n<surname>\n              尾高\n             </surname>\n<forename>\n              藍香\n             </forename>\n</persName>\n            殿、同東寧殿御法要（寛永寺）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            同御供養午餐会（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-11"
 }

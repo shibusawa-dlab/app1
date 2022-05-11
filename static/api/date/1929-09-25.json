@@ -8,15 +8,19 @@
         "串田万蔵"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡太",
         "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/鹿野"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野良三",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/奥山",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/鹿野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/串田万蔵"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1601",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20031m 昭和四年 1929"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20031m 昭和四年 1929"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20031m 昭和四年 1929",
     "date": {
         "lvl0": "1929",
@@ -26,18 +30,18 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-09",
     "date_lvl2": "1929-09-25",
-    "description": "\n\n 廿五日  （水） \n\n\n午前九時岡太仲氏来約（王子）\n\n\n午後一時東京慈恵会募集委員会（渋沢事務所）\n\n\n午後二時浅野良三氏来約（事務所）\n\n\n午後二頃　　　団琢磨男来約（事務所）\n\n\n午後二時半奥山、鹿野両氏来約（事務所）\n\n\n午後三頃　　　串田万蔵氏来約（事務所）\n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n\n\n              岡太\n             \n\n            仲氏来約（\n            \n             王子\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n             東京\n            \n            慈恵会募集委員会（\n            \n\n              渋沢\n             \n\n            事務所）\n           \n\n\n\n\n             午後二時\n            \n\n\n              浅野\n             \n\n              良三\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後二\n            \n            頃　　　団琢磨男来約（事務所）\n           \n\n\n\n\n             午後二時半\n            \n\n\n              奥山\n             \n\n            、\n            \n\n              鹿野\n             \n\n            両氏来約（事務所）\n           \n\n\n\n\n             午後三\n            \n            頃\n            \n\n              串田\n             \n\n              万蔵\n             \n\n            氏来約（事務所）\n           \n\n\n",
     "fullname": [
-        "浅野良三",
-        "串田万蔵"
+        "\n              浅野\n             \n              良三\n             ",
+        "\n              串田\n             \n              万蔵\n             "
     ],
-    "label": "廿五日  （水）",
+    "label": "廿五日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20031m-174",
-    "objectID": "DKB20031m-173",
-    "prev": "DKB20031m-172",
+    "next": "DKB20031m-0174",
+    "objectID": "DKB20031m-0173",
+    "prev": "DKB20031m-0172",
     "sort": "DKB20031m-0173",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "王子",
         "東京"
@@ -48,10 +52,10 @@
     ],
     "temporal": "1929-09-25",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><forename>岡太</forename></persName>仲氏来約（<placeName>王子</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_岡太\">\n<forename>\n              岡太\n             </forename>\n</persName>\n            仲氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-173\">\n<head>\n<date when=\"1929-09-25\"> 廿五日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><forename>岡太</forename></persName>仲氏来約（<placeName>王子</placeName>）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time><placeName>東京</placeName>慈恵会募集委員会（<persName><surname>渋沢</surname></persName>事務所）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>浅野</surname><forename>良三</forename></persName>氏来約（事務所）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二</time>頃　　　団琢磨男来約（事務所）</p>\n</event>\n<event>\n<p><time when=\"14:30:00\">午後二時半</time><persName><surname>奥山</surname></persName>、<persName><surname>鹿野</surname></persName>両氏来約（事務所）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三</time>頃　　　<persName><surname>串田</surname><forename>万蔵</forename></persName>氏来約（事務所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0173\">\n<head>\n<date when=\"1929-09-25\">\n           廿五日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_岡太\">\n<forename>\n              岡太\n             </forename>\n</persName>\n            仲氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会募集委員会（\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_浅野良三\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              良三\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二\n            </time>\n            頃　　　団琢磨男来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二時半\n            </time>\n<persName corresp=\"#pers_奥山\">\n<surname>\n              奥山\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_鹿野\">\n<surname>\n              鹿野\n             </surname>\n</persName>\n            両氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三\n            </time>\n            頃\n            <persName corresp=\"#pers_串田万蔵\">\n<surname>\n              串田\n             </surname>\n<forename>\n              万蔵\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-09"
 }

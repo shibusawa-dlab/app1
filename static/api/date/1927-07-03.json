@@ -2,13 +2,15 @@
     "agential": [
         "畑弥右衛門"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/畑弥右衛門"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1550",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -18,32 +20,33 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-07",
     "date_lvl2": "1927-07-03",
-    "description": "\n\n 三日  （日） \n\n\n午前九時畑弥右衛門氏来約（飛鳥山邸）\n\n\n午前十時布哇学生母国見学団一行三十余名来約（飛鳥山邸）\n\n\n午後二時兵庫県知事来約（飛鳥山邸）\n\n\n",
+    "description": "\n\n\n           三日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n\n\n              畑\n             \n\n              弥右衛門\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n             布哇\n            \n            学生母国見学団一行三十余名来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n             兵庫\n            \n            県知事来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "畑弥右衛門"
+        "\n              畑\n             \n              弥右衛門\n             "
     ],
-    "label": "三日  （日）",
+    "label": "三日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-169",
-    "objectID": "DKB20029m-168",
-    "prev": "DKB20029m-167",
+    "next": "DKB20029m-0169",
+    "objectID": "DKB20029m-0168",
+    "prev": "DKB20029m-0167",
     "sort": "DKB20029m-0168",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "ハワイ州",
         "兵庫"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/ハワイ州",
         "https://shibusawa-dlab.github.io/lab1/api/place/兵庫"
     ],
     "temporal": "1927-07-03",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>畑</surname><forename>弥右衛門</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_畑弥右衛門\">\n<surname>\n              畑\n             </surname>\n<forename>\n              弥右衛門\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-168\">\n<head>\n<date when=\"1927-07-03\"> 三日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>畑</surname><forename>弥右衛門</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><placeName>布哇</placeName>学生母国見学団一行三十余名来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><placeName>兵庫</placeName>県知事来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0168\">\n<head>\n<date when=\"1927-07-03\">\n           三日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_畑弥右衛門\">\n<surname>\n              畑\n             </surname>\n<forename>\n              弥右衛門\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_ハワイ州\">\n             布哇\n            </placeName>\n            学生母国見学団一行三十余名来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_兵庫\">\n             兵庫\n            </placeName>\n            県知事来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-07"
 }

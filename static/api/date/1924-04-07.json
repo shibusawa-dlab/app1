@@ -5,14 +5,16 @@
         "春田茂"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/杉原"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢義一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/杉原",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/春田茂"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1459",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -22,31 +24,32 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-04",
     "date_lvl2": "1924-04-07",
-    "description": "\n\n 七日  （月） \n\n\n午前八半時　　実業公論記者来約（飛鳥山）\n\n\n午前九半　　　渋沢義一氏来約（仝右）\n\n\n午前十時杉原鉄城氏来約（仝右）\n\n\n午十時春田茂躬、外三名来約（アスカ山）\n\n\n午後六時清水組ヨリ御案内（帝国ホテル）\n\n\n",
+    "description": "\n\n\n           七日\n          \n          （月）\n         \n\n\n\n\n             午前八半時\n            \n            実業公論記者来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前九半\n            \n\n\n              渋沢\n             \n\n              義一\n             \n\n            氏来約（仝右）\n           \n\n\n\n\n             午前十時\n            \n\n\n              杉原\n             \n\n            鉄城氏来約（仝右）\n           \n\n\n\n\n\n             午十時\n            \n\n\n              春田\n             \n\n              茂\n             \n\n            躬、外三名来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n            清水組ヨリ御案内（帝国ホテル）\n           \n\n\n",
     "fullname": [
-        "渋沢義一",
-        "春田茂"
+        "\n              渋沢\n             \n              義一\n             ",
+        "\n              春田\n             \n              茂\n             "
     ],
-    "label": "七日  （月）",
+    "label": "七日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-102",
-    "objectID": "DKB20026m-101",
-    "prev": "DKB20026m-100",
+    "next": "DKB20026m-0102",
+    "objectID": "DKB20026m-0101",
+    "prev": "DKB20026m-0100",
     "sort": "DKB20026m-0101",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "アスカ山"
     ],
     "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園"
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山"
     ],
     "temporal": "1924-04-07",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八半時</time>　　実業公論記者来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n            実業公論記者来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-101\">\n<head>\n<date when=\"1924-04-07\"> 七日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　実業公論記者来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"09:30:00\">午前九半</time>　　　<persName><surname>渋沢</surname><forename>義一</forename></persName>氏来約（仝右）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>杉原</surname></persName>鉄城氏来約（仝右）</p>\n</event>\n<event>\n<p><pb n=\"B2620\"/><time when=\"10:00:00\">午十時</time><persName><surname>春田</surname><forename>茂</forename></persName>躬、外三名来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time>清水組ヨリ御案内（帝国ホテル）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0101\">\n<head>\n<date when=\"1924-04-07\">\n           七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            実業公論記者来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半\n            </time>\n<persName corresp=\"#pers_渋沢義一\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏来約（仝右）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_杉原\">\n<surname>\n              杉原\n             </surname>\n</persName>\n            鉄城氏来約（仝右）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2620\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1459/full/max/0/default.jpg\" n=\"B2620\" source=\"#pageB2620\"/>\n<time when=\"10:00:00\">\n             午十時\n            </time>\n<persName corresp=\"#pers_春田茂\">\n<surname>\n              春田\n             </surname>\n<forename>\n              茂\n             </forename>\n</persName>\n            躬、外三名来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            清水組ヨリ御案内（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-04"
 }

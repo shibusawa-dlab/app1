@@ -8,14 +8,17 @@
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/井上準之助",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/加藤"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/加藤",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山井格太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/早速",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高木陸郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1475",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -25,19 +28,19 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-09",
     "date_lvl2": "1924-09-20",
-    "description": "\n\n 二十日  （土） \n\n\n午前七時井上準之助氏御訪問（三河台）同氏邸\n\n\n午前八半時　　加藤首相ヲ御訪問（番町自邸）\n\n\n午前十一時山井格太郎氏来約（事ム所）\n\n\n午后二時大蔵省政務次官早速氏ヲ御訪問（大蔵省）高木陸郎氏同道\n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （土）\n         \n\n\n\n\n             午前七時\n            \n\n\n              井上\n             \n\n              準之助\n             \n\n            氏御訪問（\n            \n             三河\n            \n            台）同氏邸\n           \n\n\n\n\n             午前八半時\n            \n\n\n              加藤\n             \n\n            首相ヲ御訪問（\n            \n             番町\n            \n            自邸）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              山井\n             \n\n              格太郎\n             \n\n            氏来約（事ム所）\n           \n\n\n\n\n             午后二時\n            \n            大蔵省政務次官\n            \n\n              早速\n             \n\n            氏ヲ御訪問（大蔵省）\n            \n\n              高木\n             \n\n              陸郎\n             \n\n            氏同道\n           \n\n\n",
     "fullname": [
-        "井上準之助",
-        "山井格太郎",
-        "高木陸郎"
+        "\n              井上\n             \n              準之助\n             ",
+        "\n              山井\n             \n              格太郎\n             ",
+        "\n              高木\n             \n              陸郎\n             "
     ],
-    "label": "二十日  （土）",
+    "label": "二十日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-258",
-    "objectID": "DKB20026m-257",
-    "prev": "DKB20026m-256",
+    "next": "DKB20026m-0258",
+    "objectID": "DKB20026m-0257",
+    "prev": "DKB20026m-0256",
     "sort": "DKB20026m-0257",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "三河国",
         "番町"
@@ -48,10 +51,10 @@
     ],
     "temporal": "1924-09-20",
     "time": {
-        "07:00:00": "<div><time when=\"07:00:00\">午前七時</time><persName><surname>井上</surname><forename>準之助</forename></persName>氏御訪問（<placeName>三河</placeName>台）同氏邸</div>"
+        "07:00:00": "<div><time when=\"07:00:00\">\n             午前七時\n            </time>\n<persName corresp=\"#pers_井上準之助\">\n<surname>\n              井上\n             </surname>\n<forename>\n              準之助\n             </forename>\n</persName>\n            氏御訪問（\n            <placeName corresp=\"#place_三河国\">\n             三河\n            </placeName>\n            台）同氏邸</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-257\">\n<head>\n<date when=\"1924-09-20\"> 二十日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"07:00:00\">午前七時</time><persName><surname>井上</surname><forename>準之助</forename></persName>氏御訪問（<placeName>三河</placeName>台）同氏邸</p>\n</event>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>加藤</surname></persName>首相ヲ御訪問（<placeName>番町</placeName>自邸）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>山井</surname><forename>格太郎</forename></persName>氏来約（事ム所）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午后二時</time>大蔵省政務次官<persName><surname>早速</surname></persName>氏ヲ御訪問（大蔵省）<persName><surname>高木</surname><forename>陸郎</forename></persName>氏同道</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0257\">\n<head>\n<date when=\"1924-09-20\">\n           二十日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"07:00:00\">\n             午前七時\n            </time>\n<persName corresp=\"#pers_井上準之助\">\n<surname>\n              井上\n             </surname>\n<forename>\n              準之助\n             </forename>\n</persName>\n            氏御訪問（\n            <placeName corresp=\"#place_三河国\">\n             三河\n            </placeName>\n            台）同氏邸\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_加藤\">\n<surname>\n              加藤\n             </surname>\n</persName>\n            首相ヲ御訪問（\n            <placeName corresp=\"#place_番町\">\n             番町\n            </placeName>\n            自邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_山井格太郎\">\n<surname>\n              山井\n             </surname>\n<forename>\n              格太郎\n             </forename>\n</persName>\n            氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n            大蔵省政務次官\n            <persName corresp=\"#pers_早速\">\n<surname>\n              早速\n             </surname>\n</persName>\n            氏ヲ御訪問（大蔵省）\n            <persName corresp=\"#pers_高木陸郎\">\n<surname>\n              高木\n             </surname>\n<forename>\n              陸郎\n             </forename>\n</persName>\n            氏同道\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-09"
 }

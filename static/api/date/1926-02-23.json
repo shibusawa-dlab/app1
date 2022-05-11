@@ -1,13 +1,23 @@
 {
-    "agential": [],
-    "agential_uri": [],
-    "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1533",
+    "agential": [
+        "大川平三郎",
+        "渋沢正雄",
+        "吉池慶正",
+        "李軫鎬"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大川平三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢正雄",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/吉池慶正",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/李軫鎬"
+    ],
+    "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1503",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-02",
@@ -16,21 +26,34 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-02",
     "date_lvl2": "1926-02-23",
-    "description": "\n ○  廿三日 \n                                                  、廿四日記入ナシ。 \n",
-    "fullname": [],
-    "label": "○  廿三日                                                   、廿四日記入ナシ。",
+    "description": "\n\n\n           廿三日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n\n\n              大川\n             \n\n              平三郎\n             \n\n            、\n            \n\n              渋沢\n             \n\n              正雄\n             \n\n            両氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              吉池\n             \n\n              慶正\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十　十一半時\n            \n\n             朝鮮\n            \n            学務局長\n            \n\n              李\n             \n\n              軫鎬\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午十一半時\n            \n            報効会理事会\n           \n\n\n\n\n             引続\n            \n            同評議員会（工業クラブ）\n           \n\n\n\n\n             午後一・二十分\n            \n            事務所ニ御出勤\n           \n\n\n",
+    "fullname": [
+        "\n              大川\n             \n              平三郎\n             ",
+        "\n              渋沢\n             \n              正雄\n             ",
+        "\n              吉池\n             \n              慶正\n             ",
+        "\n              李\n             \n              軫鎬\n             "
+    ],
+    "label": "廿三日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-338",
-    "objectID": "DKB20028m-337",
-    "prev": "DKB20028m-333",
-    "sort": "DKB20028m-0337",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
-    "spatial_uri": [],
+    "next": "DKB20028m-0053",
+    "objectID": "DKB20028m-0052",
+    "prev": "DKB20028m-0051",
+    "sort": "DKB20028m-0052",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "spatial": [
+        "飛鳥山公園",
+        "朝鮮"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園",
+        "https://shibusawa-dlab.github.io/lab1/api/place/朝鮮"
+    ],
     "temporal": "1926-02-23",
-    "time": {},
-    "type": "note",
-    "xml": "<div type=\"note\" xml:id=\"DKB20028m-337\">\n<head> ○ <date when=\"1926-02-23\"> 廿三日 </date>\n                                                  、<date when=\"1926-12-24\">廿四日</date>記入ナシ。 </head>\n</div>",
+    "time": {
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_大川平三郎\">\n<surname>\n              大川\n             </surname>\n<forename>\n              平三郎\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_渋沢正雄\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              正雄\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+    },
+    "type": "day",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0052\">\n<head>\n<date when=\"1926-02-23\">\n           廿三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_大川平三郎\">\n<surname>\n              大川\n             </surname>\n<forename>\n              平三郎\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_渋沢正雄\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              正雄\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"11:30:00\">\n             午前十　十一半時\n            </time>\n<placeName corresp=\"#place_朝鮮\">\n             朝鮮\n            </placeName>\n            学務局長\n            <persName corresp=\"#pers_李軫鎬\">\n<surname>\n              李\n             </surname>\n<forename>\n              軫鎬\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午十一半時\n            </time>\n            報効会理事会\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続\n            </time>\n            同評議員会（工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:20:00\">\n             午後一・二十分\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-02"
 }

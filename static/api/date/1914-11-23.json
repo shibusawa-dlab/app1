@@ -5,15 +5,16 @@
         "和田豊治"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/倉知",
         "https://shibusawa-dlab.github.io/lab1/api/chname/尾崎",
         "https://shibusawa-dlab.github.io/lab1/api/chname/和田豊治"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1170",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20016m 大正三年 1914"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20016m 大正三年 1914"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20016m 大正三年 1914",
     "date": {
         "lvl0": "1914",
@@ -23,17 +24,17 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-11",
     "date_lvl2": "1914-11-23",
-    "description": "\n\n 廿三日  （月） \n\n\n午前八時倉知、尾崎両氏来約（飛鳥山）\n\n\n午后三時和田豊治氏来約（兜町）\n\n\n午後四時埼玉学生誘掖会茶話会（紅葉館）\n\n\n",
+    "description": "\n\n\n           廿三日\n          \n          （月）\n         \n\n\n\n\n             午前八時\n            \n\n\n              倉知\n             \n\n            、\n            \n\n              尾崎\n             \n\n            両氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午后三時\n            \n\n\n              和田\n             \n\n              豊治\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n             埼玉\n            \n            学生誘掖会茶話会（紅葉館）\n           \n\n\n",
     "fullname": [
-        "和田豊治"
+        "\n              和田\n             \n              豊治\n             "
     ],
-    "label": "廿三日  （月）",
+    "label": "廿三日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20016m-70",
-    "objectID": "DKB20016m-69",
-    "prev": "DKB20016m-68",
+    "next": "DKB20016m-0070",
+    "objectID": "DKB20016m-0069",
+    "prev": "DKB20016m-0068",
     "sort": "DKB20016m-0069",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "日本橋兜町",
@@ -46,10 +47,10 @@
     ],
     "temporal": "1914-11-23",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>倉知</surname></persName>、<persName><surname>尾崎</surname></persName>両氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_倉知\">\n<surname>\n              倉知\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_尾崎\">\n<surname>\n              尾崎\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-69\">\n<head>\n<date when=\"1914-11-23\"> 廿三日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>倉知</surname></persName>、<persName><surname>尾崎</surname></persName>両氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午后三時</time><persName><surname>和田</surname><forename>豊治</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><placeName>埼玉</placeName>学生誘掖会茶話会（紅葉館）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0069\">\n<head>\n<date when=\"1914-11-23\">\n           廿三日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_倉知\">\n<surname>\n              倉知\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_尾崎\">\n<surname>\n              尾崎\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n<persName corresp=\"#pers_和田豊治\">\n<surname>\n              和田\n             </surname>\n<forename>\n              豊治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会茶話会（紅葉館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-11"
 }

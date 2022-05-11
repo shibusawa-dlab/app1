@@ -3,11 +3,11 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1527",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-10",
@@ -16,15 +16,15 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-10",
     "date_lvl2": "1926-10-23",
-    "description": "\n\n 廿三日  （土） \n\n\n午前八時殖民学校教員并生徒来邸（飛鳥山邸）\n\n\n午前十時明治神宮外苑奉献奉告祭并直会（昼餐）ヘ御出向\n\n\n午后一時亜細亜学生会旅行報告演説会　小石川植物園\n\n\n午後三半時　　米国学生レイモンド・ウイルソン氏来約（飛鳥山邸）\n\n\n",
+    "description": "\n\n\n           廿三日\n          \n          （土）\n         \n\n\n\n\n             午前八時\n            \n            殖民学校教員并生徒来邸（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            明治神宮外苑奉献奉告祭并直会（昼餐）ヘ御出向\n           \n\n\n\n\n             午后一時\n            \n\n             亜細亜\n            \n            学生会旅行報告演説会\n            \n             小石川\n            \n            植物園\n           \n\n\n\n\n             午後三半時\n            \n\n             米国\n            \n            学生レイモンド・ウイルソン氏来\n            \n            約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "fullname": [],
-    "label": "廿三日  （土）",
+    "label": "廿三日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-277",
-    "objectID": "DKB20028m-276",
-    "prev": "DKB20028m-275",
+    "next": "DKB20028m-0277",
+    "objectID": "DKB20028m-0276",
+    "prev": "DKB20028m-0275",
     "sort": "DKB20028m-0276",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "アジア",
@@ -32,16 +32,17 @@
         "アメリカ合衆国"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/アジア",
         "https://shibusawa-dlab.github.io/lab1/api/place/小石川",
         "https://shibusawa-dlab.github.io/lab1/api/place/アメリカ合衆国"
     ],
     "temporal": "1926-10-23",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time>殖民学校教員并生徒来邸（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            殖民学校教員并生徒来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-276\">\n<head>\n<date when=\"1926-10-23\"> 廿三日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time>殖民学校教員并生徒来邸（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>明治神宮外苑奉献奉告祭并直会（昼餐）ヘ御出向</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午后一時</time><placeName>亜細亜</placeName>学生会旅行報告演説会　<placeName>小石川</placeName>植物園</p>\n</event>\n<event>\n<p><time when=\"15:30:00\">午後三半時</time>　　<placeName>米国</placeName>学生レイモンド・ウイルソン氏来<pb n=\"B2688\"/>約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0276\">\n<head>\n<date when=\"1926-10-23\">\n           廿三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            殖民学校教員并生徒来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            明治神宮外苑奉献奉告祭并直会（昼餐）ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n<placeName corresp=\"#place_アジア\">\n             亜細亜\n            </placeName>\n            学生会旅行報告演説会\n            <placeName corresp=\"#place_小石川\">\n             小石川\n            </placeName>\n            植物園\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            学生レイモンド・ウイルソン氏来\n            <pb corresp=\"#pageB2688\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1527/full/max/0/default.jpg\" n=\"B2688\" source=\"#pageB2688\"/>\n            約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-10"
 }

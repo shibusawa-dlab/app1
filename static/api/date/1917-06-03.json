@@ -11,10 +11,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1238",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -24,27 +24,29 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-06",
     "date_lvl2": "1917-06-03",
-    "description": "\n\n 三日  （日） \n\n\n午前九半時　　末広博士来約（飛鳥山邸）\n\n\n午後二時三島中州先生米寿筵《（三島中洲）》（赤坂三会堂）\n\n\n",
+    "description": "\n\n\n           三日\n          \n          （日）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              末広\n             \n\n            博士来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            三島中州先生米寿筵《（\n            \n\n              三島\n             \n\n              中洲\n             \n\n            ）》（\n            \n\n              赤坂\n             \n\n            三会堂）\n           \n\n\n",
     "fullname": [
-        "三島中洲"
+        "\n              三島\n             \n              中洲\n             "
     ],
-    "label": "三日  （日）",
+    "label": "三日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-155",
-    "objectID": "DKB20019m-154",
-    "prev": "DKB20019m-153",
+    "next": "DKB20019m-0155",
+    "objectID": "DKB20019m-0154",
+    "prev": "DKB20019m-0153",
     "sort": "DKB20019m-0154",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1917-06-03",
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">午前九半時</time>　　<persName><forename>末広</forename></persName>博士来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_末広\">\n<forename>\n              末広\n             </forename>\n</persName>\n            博士来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-154\">\n<head>\n<date when=\"1917-06-03\"> 三日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"09:30:00\">午前九半時</time>　　<persName><forename>末広</forename></persName>博士来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>三島中州先生米寿筵《（<persName><surname>三島</surname><forename>中洲</forename></persName>）》（<persName><surname>赤坂</surname></persName>三会堂）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0154\">\n<head>\n<date when=\"1917-06-03\">\n           三日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_末広\">\n<forename>\n              末広\n             </forename>\n</persName>\n            博士来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            三島中州先生米寿筵《（\n            <persName corresp=\"#pers_三島中洲\">\n<surname>\n              三島\n             </surname>\n<forename>\n              中洲\n             </forename>\n</persName>\n            ）》（\n            <persName corresp=\"#pers_赤坂\">\n<surname>\n              赤坂\n             </surname>\n</persName>\n            三会堂）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-06"
 }

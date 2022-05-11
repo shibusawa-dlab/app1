@@ -5,15 +5,17 @@
         "次郎"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/安岡一郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/芝崎",
         "https://shibusawa-dlab.github.io/lab1/api/chname/次郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1523",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-09",
@@ -22,32 +24,33 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-09",
     "date_lvl2": "1926-09-12",
-    "description": "\n\n 十二日  （日） \n\n\n午前九時安岡一郎氏来約（アスカ山）\n\n\n午前十一―十二　芝崎確次郎夫人告別式（谷中天王寺）\n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n\n\n              安岡\n             \n\n              一郎\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十一―十二\n            \n\n\n              芝崎\n             \n\n            確\n            \n\n              次郎\n             \n\n            夫人告別式（\n            \n             谷中\n            \n\n             天王寺\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "安岡一郎"
+        "\n              安岡\n             \n              一郎\n             "
     ],
-    "label": "十二日  （日）",
+    "label": "十二日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-236",
-    "objectID": "DKB20028m-235",
-    "prev": "DKB20028m-234",
+    "next": "DKB20028m-0236",
+    "objectID": "DKB20028m-0235",
+    "prev": "DKB20028m-0234",
     "sort": "DKB20028m-0235",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山",
         "谷中",
         "天王寺"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
         "https://shibusawa-dlab.github.io/lab1/api/place/谷中",
         "https://shibusawa-dlab.github.io/lab1/api/place/天王寺"
     ],
     "temporal": "1926-09-12",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>安岡</surname><forename>一郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_安岡一郎\">\n<surname>\n              安岡\n             </surname>\n<forename>\n              一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-235\">\n<head>\n<date when=\"1926-09-12\"> 十二日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>安岡</surname><forename>一郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time from=\"11:00:00\" to=\"12:00:00\">午前十一―十二</time>　<persName><surname>芝崎</surname></persName>確<persName><forename>次郎</forename></persName>夫人告別式（<placeName>谷中</placeName><placeName>天王寺</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0235\">\n<head>\n<date when=\"1926-09-12\">\n           十二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_安岡一郎\">\n<surname>\n              安岡\n             </surname>\n<forename>\n              一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"11:00:00\" to=\"12:00:00\">\n             午前十一―十二\n            </time>\n<persName corresp=\"#pers_芝崎\">\n<surname>\n              芝崎\n             </surname>\n</persName>\n            確\n            <persName corresp=\"#pers_次郎\">\n<forename>\n              次郎\n             </forename>\n</persName>\n            夫人告別式（\n            <placeName corresp=\"#place_谷中\">\n             谷中\n            </placeName>\n<placeName corresp=\"#place_天王寺\">\n             天王寺\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-09"
 }

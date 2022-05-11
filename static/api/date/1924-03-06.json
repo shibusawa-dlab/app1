@@ -6,15 +6,17 @@
         "伊東米治郎"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/鮮",
         "https://shibusawa-dlab.github.io/lab1/api/chname/于",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/田中太郎"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田中太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/伊東米治郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1456",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -24,33 +26,34 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-03",
     "date_lvl2": "1924-03-06",
-    "description": "\n\n 六日  （木） \n\n\n午前九時鮮于〓氏来約（アスカ山）\n\n\n午前九半時　　田中太郎氏来約（飛鳥山）\n\n\n右御同道上野精養軒内宮内写真館ヘ御出向\n\n\n午前十一半―十二時伊東米治郎氏来約（事務所）\n\n\n",
+    "description": "\n\n\n           六日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n\n\n              鮮\n             \n\n\n\n              于\n             \n\n            〓氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n\n              田中\n             \n\n              太郎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n            右御同道\n            \n             上野精養軒\n            \n            内宮内写真館ヘ御出向\n           \n\n\n\n\n             午前十一半―十二時\n            \n\n\n              伊東\n             \n\n              米治郎\n             \n\n            氏来約（事務所）\n           \n\n\n",
     "fullname": [
-        "田中太郎",
-        "伊東米治郎"
+        "\n              田中\n             \n              太郎\n             ",
+        "\n              伊東\n             \n              米治郎\n             "
     ],
-    "label": "六日  （木）",
+    "label": "六日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-69",
-    "objectID": "DKB20026m-68",
-    "prev": "DKB20026m-67",
+    "next": "DKB20026m-0069",
+    "objectID": "DKB20026m-0068",
+    "prev": "DKB20026m-0067",
     "sort": "DKB20026m-0068",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山",
         "飛鳥山公園",
         "上野精養軒"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
         "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園",
         "https://shibusawa-dlab.github.io/lab1/api/place/上野精養軒"
     ],
     "temporal": "1924-03-06",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>鮮</surname></persName><persName><surname>于</surname></persName>〓氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_鮮\">\n<surname>\n              鮮\n             </surname>\n</persName>\n<persName corresp=\"#pers_于\">\n<surname>\n              于\n             </surname>\n</persName>\n            〓氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-68\">\n<head>\n<date when=\"1924-03-06\"> 六日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>鮮</surname></persName><persName><surname>于</surname></persName>〓氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"09:30:00\">午前九半時</time>　　<persName><surname>田中</surname><forename>太郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p>右御同道<placeName>上野精養軒</placeName>内宮内写真館ヘ御出向</p>\n</event>\n<event>\n<p><time from=\"11:30:00\" to=\"12:00:00\">午前十一半―十二時</time><persName><surname>伊東</surname><forename>米治郎</forename></persName>氏来約（事務所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0068\">\n<head>\n<date when=\"1924-03-06\">\n           六日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_鮮\">\n<surname>\n              鮮\n             </surname>\n</persName>\n<persName corresp=\"#pers_于\">\n<surname>\n              于\n             </surname>\n</persName>\n            〓氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_田中太郎\">\n<surname>\n              田中\n             </surname>\n<forename>\n              太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n            右御同道\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            内宮内写真館ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time from=\"11:30:00\" to=\"12:00:00\">\n             午前十一半―十二時\n            </time>\n<persName corresp=\"#pers_伊東米治郎\">\n<surname>\n              伊東\n             </surname>\n<forename>\n              米治郎\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-03"
 }

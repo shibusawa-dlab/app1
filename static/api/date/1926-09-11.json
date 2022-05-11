@@ -6,15 +6,16 @@
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/木内",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/井野辺",
         "https://shibusawa-dlab.github.io/lab1/api/chname/高田"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1522",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-09",
@@ -23,29 +24,31 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-09",
     "date_lvl2": "1926-09-11",
-    "description": "\n\n 十一日  （土） \n\n\n正午　　　　　ルーヴエン国際事業委員会（上野精養軒）\n\n\n午后二時木内良胤氏来約（アスカ山）\n\n\n午後五時井野辺、高田両氏来約（飛鳥山邸）\n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （土）\n         \n\n\n\n\n             正午\n            \n            ルーヴエン国際事業委員会（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n\n\n             午后二時\n            \n\n\n              木内\n             \n\n            良胤氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              井野辺\n             \n\n            、\n            \n\n              高田\n             \n\n            両氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "fullname": [],
-    "label": "十一日  （土）",
+    "label": "十一日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-235",
-    "objectID": "DKB20028m-234",
-    "prev": "DKB20028m-233",
+    "next": "DKB20028m-0235",
+    "objectID": "DKB20028m-0234",
+    "prev": "DKB20028m-0233",
     "sort": "DKB20028m-0234",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "上野精養軒",
         "アスカ山",
         "飛鳥山邸"
     ],
     "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/上野精養軒"
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野精養軒",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1926-09-11",
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">正午</time>　　　　　ルーヴエン国際事業委員会（<placeName>上野精養軒</placeName>）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            ルーヴエン国際事業委員会（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-234\">\n<head>\n<date when=\"1926-09-11\"> 十一日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　ルーヴエン国際事業委員会（<placeName>上野精養軒</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午后二時</time><persName><surname>木内</surname></persName>良胤氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><persName><surname>井野辺</surname></persName>、<persName><surname>高田</surname></persName>両氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0234\">\n<head>\n<date when=\"1926-09-11\">\n           十一日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            ルーヴエン国際事業委員会（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n<persName corresp=\"#pers_木内\">\n<surname>\n              木内\n             </surname>\n</persName>\n            良胤氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_井野辺\">\n<surname>\n              井野辺\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_高田\">\n<surname>\n              高田\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-09"
 }

@@ -5,14 +5,16 @@
         "内藤久寛"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/濱口雄幸"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/波多野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/濱口雄幸",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/内藤久寛"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1177",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20017m 大正四年 1915"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20017m 大正四年 1915"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20017m 大正四年 1915",
     "date": {
         "lvl0": "1915",
@@ -22,26 +24,26 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-02",
     "date_lvl2": "1915-02-18",
-    "description": "\n\n 十八日  （木） \n\n\n午前十時迄ニ　波多野宮相ト御会見（一番町四番地宮内大臣官邸）\n\n\n午前十一時浜口雄幸氏ト御会見ノ約（大蔵省）\n\n\n午後一時第一銀行\n\n\n午後五時内藤久寛氏ヨリ御案内（ヒサゴヤ）\n\n\n",
+    "description": "\n\n\n           十八日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n            迄ニ\n            \n\n              波多野\n             \n\n            宮相ト御会見（一番町四番地宮内大臣官邸）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              浜口\n             \n\n              雄幸\n             \n\n            氏ト御会見ノ約（大蔵省）\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午後五時\n            \n\n\n              内藤\n             \n\n              久寛\n             \n\n            氏ヨリ御案内（ヒサゴヤ）\n           \n\n\n",
     "fullname": [
-        "濱口雄幸",
-        "内藤久寛"
+        "\n              浜口\n             \n              雄幸\n             ",
+        "\n              内藤\n             \n              久寛\n             "
     ],
-    "label": "十八日  （木）",
+    "label": "十八日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20017m-48",
-    "objectID": "DKB20017m-47",
-    "prev": "DKB20017m-46",
+    "next": "DKB20017m-0048",
+    "objectID": "DKB20017m-0047",
+    "prev": "DKB20017m-0046",
     "sort": "DKB20017m-0047",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [],
     "spatial_uri": [],
     "temporal": "1915-02-18",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time>迄ニ　<persName><surname>波多野</surname></persName>宮相ト御会見（一番町四番地宮内大臣官邸）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            迄ニ\n            <persName corresp=\"#pers_波多野\">\n<surname>\n              波多野\n             </surname>\n</persName>\n            宮相ト御会見（一番町四番地宮内大臣官邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-47\">\n<head>\n<date when=\"1915-02-18\"> 十八日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>迄ニ　<persName><surname>波多野</surname></persName>宮相ト御会見（一番町四番地宮内大臣官邸）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>浜口</surname><forename>雄幸</forename></persName>氏ト御会見ノ約（大蔵省）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>第一銀行</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><persName><surname>内藤</surname><forename>久寛</forename></persName>氏ヨリ御案内（ヒサゴヤ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0047\">\n<head>\n<date when=\"1915-02-18\">\n           十八日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            迄ニ\n            <persName corresp=\"#pers_波多野\">\n<surname>\n              波多野\n             </surname>\n</persName>\n            宮相ト御会見（一番町四番地宮内大臣官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_濱口雄幸\">\n<surname>\n              浜口\n             </surname>\n<forename>\n              雄幸\n             </forename>\n</persName>\n            氏ト御会見ノ約（大蔵省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_内藤久寛\">\n<surname>\n              内藤\n             </surname>\n<forename>\n              久寛\n             </forename>\n</persName>\n            氏ヨリ御案内（ヒサゴヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-02"
 }

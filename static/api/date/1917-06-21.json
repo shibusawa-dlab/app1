@@ -2,13 +2,15 @@
     "agential": [
         "明石家"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/明石家"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1240",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -18,23 +20,23 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-06",
     "date_lvl2": "1917-06-21",
-    "description": "\n\n 廿一日  （木） \n\n\n午後一時理化学研究所ヘ御出向（商業会議所）\n\n\n午後五半時　　明石家ヘ御出向ノ約\n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （木）\n         \n\n\n\n\n             午後一時\n            \n            理化学研究所ヘ御出向（商業会議所）\n           \n\n\n\n\n             午後五半時\n            \n\n\n              明石家\n             \n\n            ヘ御出向ノ約\n           \n\n\n",
     "fullname": [],
-    "label": "廿一日  （木）",
+    "label": "廿一日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-173",
-    "objectID": "DKB20019m-172",
-    "prev": "DKB20019m-171",
+    "next": "DKB20019m-0173",
+    "objectID": "DKB20019m-0172",
+    "prev": "DKB20019m-0171",
     "sort": "DKB20019m-0172",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [],
     "spatial_uri": [],
     "temporal": "1917-06-21",
     "time": {
-        "13:00:00": "<div><time when=\"13:00:00\">午後一時</time>理化学研究所ヘ御出向（商業会議所）</div>"
+        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n            理化学研究所ヘ御出向（商業会議所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-172\">\n<head>\n<date when=\"1917-06-21\"> 廿一日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>理化学研究所ヘ御出向（商業会議所）</p>\n</event>\n<event>\n<p><time when=\"17:30:00\">午後五半時</time>　　<persName><surname>明石家</surname></persName>ヘ御出向ノ約</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0172\">\n<head>\n<date when=\"1917-06-21\">\n           廿一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            理化学研究所ヘ御出向（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_明石家\">\n<surname>\n              明石家\n             </surname>\n</persName>\n            ヘ御出向ノ約\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-06"
 }

@@ -4,14 +4,15 @@
         "三島"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/範氏",
         "https://shibusawa-dlab.github.io/lab1/api/chname/三島"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1192",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20017m 大正四年 1915"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20017m 大正四年 1915"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20017m 大正四年 1915",
     "date": {
         "lvl0": "1915",
@@ -21,15 +22,15 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-09",
     "date_lvl2": "1915-09-25",
-    "description": "\n\n 廿五日  （土） \n\n\n午前七時吉岡□《（不明）》範氏飛鳥山ヘ来約\n\n\n午前十一時三島日本銀行総裁ヨリ御案内（日本銀行）\n\n\n午後五時御同族会（兜町）\n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （土）\n         \n\n\n\n\n             午前七時\n            \n\n             吉岡\n            \n            □《（不明）》\n            \n\n              範氏\n             \n\n\n             飛鳥山\n            \n            ヘ来約\n           \n\n\n\n\n             午前十一時\n            \n\n\n              三島\n             \n\n\n             日本\n            \n            銀行総裁ヨリ御案内（\n            \n             日本\n            \n            銀行）\n           \n\n\n\n\n             午後五時\n            \n            御同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "fullname": [],
-    "label": "廿五日  （土）",
+    "label": "廿五日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20017m-245",
-    "objectID": "DKB20017m-244",
-    "prev": "DKB20017m-243",
+    "next": "DKB20017m-0245",
+    "objectID": "DKB20017m-0244",
+    "prev": "DKB20017m-0243",
     "sort": "DKB20017m-0244",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "吉岡",
         "飛鳥山公園",
@@ -44,10 +45,10 @@
     ],
     "temporal": "1915-09-25",
     "time": {
-        "07:00:00": "<div><time when=\"07:00:00\">午前七時</time><placeName>吉岡</placeName>□《（不明）》<persName><forename>範氏</forename></persName><placeName corresp=\"#飛鳥山\">飛鳥山</placeName>ヘ来約</div>"
+        "07:00:00": "<div><time when=\"07:00:00\">\n             午前七時\n            </time>\n<placeName corresp=\"#place_吉岡\">\n             吉岡\n            </placeName>\n            □《（不明）》\n            <persName corresp=\"#pers_範氏\">\n<forename>\n              範氏\n             </forename>\n</persName>\n<placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ヘ来約</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-244\">\n<head>\n<date when=\"1915-09-25\"> 廿五日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"07:00:00\">午前七時</time><placeName>吉岡</placeName>□《（不明）》<persName><forename>範氏</forename></persName><placeName corresp=\"#飛鳥山\">飛鳥山</placeName>ヘ来約</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>三島</surname></persName><placeName>日本</placeName>銀行総裁ヨリ御案内（<placeName>日本</placeName>銀行）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>御同族会（<placeName>兜町</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0244\">\n<head>\n<date when=\"1915-09-25\">\n           廿五日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"07:00:00\">\n             午前七時\n            </time>\n<placeName corresp=\"#place_吉岡\">\n             吉岡\n            </placeName>\n            □《（不明）》\n            <persName corresp=\"#pers_範氏\">\n<forename>\n              範氏\n             </forename>\n</persName>\n<placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ヘ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_三島\">\n<surname>\n              三島\n             </surname>\n</persName>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            銀行総裁ヨリ御案内（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            銀行）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-09"
 }

@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1536",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -22,30 +22,31 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-03",
     "date_lvl2": "1927-03-02",
-    "description": "\n\n 二日  （水） \n\n\n午前十一時独逸大使館ヘ御出向ゾルフ大使ト御会見\n\n\n午前十一・四〇時　事務所ニ御出勤\n\n\n午后一時徳川家達公ヲ御訪問　華族会館\n\n\n午后二時清水肖像画工来約　アスカ山\n\n\n",
+    "description": "\n\n\n           二日\n          \n          （水）\n         \n\n\n\n\n             午前十一時\n            \n\n             独逸\n            \n            大使館ヘ御出向ゾルフ大使ト御会見\n           \n\n\n\n\n             午前十一・四〇時\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午后一時\n            \n\n\n              徳川\n             \n\n              家達\n             \n\n            公ヲ御訪問　華族会館\n           \n\n\n\n\n             午后二時\n            \n\n\n              清水\n             \n\n            肖像画工来約\n            \n             アスカ山\n            \n\n\n\n",
     "fullname": [
-        "徳川家達"
+        "\n              徳川\n             \n              家達\n             "
     ],
-    "label": "二日  （水）",
+    "label": "二日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-45",
-    "objectID": "DKB20029m-44",
-    "prev": "DKB20029m-43",
+    "next": "DKB20029m-0045",
+    "objectID": "DKB20029m-0044",
+    "prev": "DKB20029m-0043",
     "sort": "DKB20029m-0044",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "ドイツ",
         "アスカ山"
     ],
     "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/ドイツ"
+        "https://shibusawa-dlab.github.io/lab1/api/place/ドイツ",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山"
     ],
     "temporal": "1927-03-02",
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">午前十一時</time><placeName>独逸</placeName>大使館ヘ御出向ゾルフ大使ト御会見</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_ドイツ\">\n             独逸\n            </placeName>\n            大使館ヘ御出向ゾルフ大使ト御会見</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-44\">\n<head>\n<date when=\"1927-03-02\"> 二日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><placeName>独逸</placeName>大使館ヘ御出向ゾルフ大使ト御会見</p>\n</event>\n<event>\n<p><time when=\"11:40:00\">午前十一・四〇時</time>　事務所ニ御出勤</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午后一時</time><persName><surname>徳川</surname><forename>家達</forename></persName>公ヲ御訪問　華族会館</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午后二時</time><persName><surname>清水</surname></persName>肖像画工来約　<placeName corresp=\"#飛鳥山\">アスカ山</placeName></p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0044\">\n<head>\n<date when=\"1927-03-02\">\n           二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_ドイツ\">\n             独逸\n            </placeName>\n            大使館ヘ御出向ゾルフ大使ト御会見\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:40:00\">\n             午前十一・四〇時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n<persName corresp=\"#pers_徳川家達\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              家達\n             </forename>\n</persName>\n            公ヲ御訪問　華族会館\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n<persName corresp=\"#pers_清水\">\n<surname>\n              清水\n             </surname>\n</persName>\n            肖像画工来約\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n</p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-03"
 }

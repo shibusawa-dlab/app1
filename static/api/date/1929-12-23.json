@@ -8,14 +8,15 @@
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/中村",
         "https://shibusawa-dlab.github.io/lab1/api/chname/永野護",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/斎藤守圀"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/斎藤守圀",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/植村澄三郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1606",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20031m 昭和四年 1929"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20031m 昭和四年 1929"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20031m 昭和四年 1929",
     "date": {
         "lvl0": "1929",
@@ -25,29 +26,31 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-12",
     "date_lvl2": "1929-12-23",
-    "description": "\n\n 廿三日  （月） \n\n\n午前九時中村英雄氏来約（飛鳥山邸）\n\n\n午時　　　　　永野護氏来約（飛鳥山邸）\n\n\n午時　　　　　斎藤守圀氏来約（飛鳥山邸）\n\n\n午時　　　　　植村澄三郎氏来約（飛鳥山邸）\n\n\n",
+    "description": "\n\n\n           廿三日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n\n\n              中村\n             \n\n            英雄氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午時\n            \n\n\n              永野\n             \n\n              護\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午時\n            \n\n\n              斎藤\n             \n\n              守圀\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午時\n            \n\n\n              植村\n             \n\n              澄三郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "永野護",
-        "斎藤守圀",
-        "植村澄三郎"
+        "\n              永野\n             \n              護\n             ",
+        "\n              斎藤\n             \n              守圀\n             ",
+        "\n              植村\n             \n              澄三郎\n             "
     ],
-    "label": "廿三日  （月）",
+    "label": "廿三日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20031m-253",
-    "objectID": "DKB20031m-252",
-    "prev": "DKB20031m-250",
+    "next": "DKB20031m-0253",
+    "objectID": "DKB20031m-0252",
+    "prev": "DKB20031m-0250",
     "sort": "DKB20031m-0252",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1929-12-23",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>中村</surname></persName>英雄氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            英雄氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-252\">\n<head>\n<date when=\"1929-12-23\"> 廿三日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>中村</surname></persName>英雄氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">午時</time>　　　　　<persName><surname>永野</surname><forename>護</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">午時</time>　　　　　<persName><surname>斎藤</surname><forename>守圀</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">午時</time>　　　　　<persName><surname>植村</surname><forename>澄三郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0252\">\n<head>\n<date when=\"1929-12-23\">\n           廿三日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            英雄氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_永野護\">\n<surname>\n              永野\n             </surname>\n<forename>\n              護\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_斎藤守圀\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              守圀\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_植村澄三郎\">\n<surname>\n              植村\n             </surname>\n<forename>\n              澄三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-12"
 }

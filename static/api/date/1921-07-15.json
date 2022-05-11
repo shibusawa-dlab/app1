@@ -4,14 +4,15 @@
         "原"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/畑弥右エ門",
         "https://shibusawa-dlab.github.io/lab1/api/chname/原"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1370",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -21,17 +22,17 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-07",
     "date_lvl2": "1921-07-15",
-    "description": "\n\n 十五日  （金） \n\n\n午前八時畑弥右エ門氏外来約（飛鳥山）\n\n\n午前八時道路職員講習会発会式（帝大法科卅一番室）\n\n\n午前十一半時　三金会（日本工業クラブ）\n\n\n午前十一半時　マーツ氏兜町ニ来約\n\n\n午〇半時　　　日米協会実行委員会（日本工業クラブ）\n\n\n午後二―三時原首相ヲ御訪問ノ約（同官邸）\n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （金）\n         \n\n\n\n\n             午前八時\n            \n\n\n              畑\n             \n\n              弥右エ門\n             \n\n            氏外来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前八時\n            \n            道路職員講習会発会式（帝大法科卅一番室）\n           \n\n\n\n\n             午前十一半時\n            \n            三金会（日本工業クラブ）\n           \n\n\n\n\n             午前十一半時\n            \n            マーツ氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午〇半時\n            \n            日米協会実行委員会（日本工業クラブ）\n           \n\n\n\n\n             午後二―三時\n            \n\n\n              原\n             \n\n            首相ヲ御訪問ノ約（同官邸）\n           \n\n\n",
     "fullname": [
-        "畑弥右エ門"
+        "\n              畑\n             \n              弥右エ門\n             "
     ],
-    "label": "十五日  （金）",
+    "label": "十五日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20023m-190",
-    "objectID": "DKB20023m-189",
-    "prev": "DKB20023m-188",
+    "next": "DKB20023m-0190",
+    "objectID": "DKB20023m-0189",
+    "prev": "DKB20023m-0188",
     "sort": "DKB20023m-0189",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "日本橋兜町"
@@ -42,10 +43,10 @@
     ],
     "temporal": "1921-07-15",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>畑</surname><forename>弥右エ門</forename></persName>氏外来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_畑弥右エ門\">\n<surname>\n              畑\n             </surname>\n<forename>\n              弥右エ門\n             </forename>\n</persName>\n            氏外来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-189\">\n<head>\n<date when=\"1921-07-15\"> 十五日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>畑</surname><forename>弥右エ門</forename></persName>氏外来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"08:00:00\">午前八時</time>道路職員講習会発会式（帝大法科卅一番室）</p>\n</event>\n<event>\n<p><time when=\"11:30:00\">午前十一半時</time>　三金会（日本工業クラブ）</p>\n</event>\n<event>\n<p><time when=\"11:30:00\">午前十一半時</time>　マーツ氏<placeName>兜町</placeName>ニ来約</p>\n</event>\n<event>\n<p><time when=\"12:30:00\">午〇半時</time>　　　日米協会実行委員会（日本工業クラブ）</p>\n</event>\n<event>\n<p><time from=\"14:00:00\" to=\"15:00:00\">午後二―三時</time><persName><surname>原</surname></persName>首相ヲ御訪問ノ約（同官邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0189\">\n<head>\n<date when=\"1921-07-15\">\n           十五日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_畑弥右エ門\">\n<surname>\n              畑\n             </surname>\n<forename>\n              弥右エ門\n             </forename>\n</persName>\n            氏外来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            道路職員講習会発会式（帝大法科卅一番室）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            三金会（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            マーツ氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午〇半時\n            </time>\n            日米協会実行委員会（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―三時\n            </time>\n<persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            首相ヲ御訪問ノ約（同官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-07"
 }

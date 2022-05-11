@@ -5,15 +5,16 @@
         "原"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/塩沢昌貞",
         "https://shibusawa-dlab.github.io/lab1/api/chname/山川健次郎",
         "https://shibusawa-dlab.github.io/lab1/api/chname/原"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1375",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -23,18 +24,18 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-09",
     "date_lvl2": "1921-09-09",
-    "description": "\n\n 九日  （金） \n\n\n午前八時塩沢昌貞氏外二氏来約（飛鳥山）\n\n\n午前十時山川健次郎氏来約（兜町）\n\n\n午前十一時渡英団ノ件（工業クラブ）\n\n\n午後二時右ノ件ニ関シ原首相ヲ御訪問（官邸）\n\n\n午後三時日華実業協会臨時幹事会（同会）\n\n\n",
+    "description": "\n\n\n           九日\n          \n          （金）\n         \n\n\n\n\n             午前八時\n            \n\n\n              塩沢\n             \n\n              昌貞\n             \n\n            氏外二氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              山川\n             \n\n              健次郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            渡英団ノ件（工業クラブ）\n           \n\n\n\n\n             午後二時\n            \n            右ノ件ニ関シ\n            \n\n              原\n             \n\n            首相ヲ御訪問（官邸）\n           \n\n\n\n\n             午後三時\n            \n            日華実業協会臨時幹事会（同会）\n           \n\n\n",
     "fullname": [
-        "塩沢昌貞",
-        "山川健次郎"
+        "\n              塩沢\n             \n              昌貞\n             ",
+        "\n              山川\n             \n              健次郎\n             "
     ],
-    "label": "九日  （金）",
+    "label": "九日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20023m-246",
-    "objectID": "DKB20023m-245",
-    "prev": "DKB20023m-244",
+    "next": "DKB20023m-0246",
+    "objectID": "DKB20023m-0245",
+    "prev": "DKB20023m-0244",
     "sort": "DKB20023m-0245",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "日本橋兜町"
@@ -45,10 +46,10 @@
     ],
     "temporal": "1921-09-09",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>塩沢</surname><forename>昌貞</forename></persName>氏外二氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_塩沢昌貞\">\n<surname>\n              塩沢\n             </surname>\n<forename>\n              昌貞\n             </forename>\n</persName>\n            氏外二氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-245\">\n<head>\n<date when=\"1921-09-09\"> 九日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>塩沢</surname><forename>昌貞</forename></persName>氏外二氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>山川</surname><forename>健次郎</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>渡英団ノ件（工業クラブ）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>右ノ件ニ関シ<persName><surname>原</surname></persName>首相ヲ御訪問（官邸）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>日華実業協会臨時幹事会（同会）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0245\">\n<head>\n<date when=\"1921-09-09\">\n           九日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_塩沢昌貞\">\n<surname>\n              塩沢\n             </surname>\n<forename>\n              昌貞\n             </forename>\n</persName>\n            氏外二氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_山川健次郎\">\n<surname>\n              山川\n             </surname>\n<forename>\n              健次郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            渡英団ノ件（工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            右ノ件ニ関シ\n            <persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            首相ヲ御訪問（官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            日華実業協会臨時幹事会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-09"
 }

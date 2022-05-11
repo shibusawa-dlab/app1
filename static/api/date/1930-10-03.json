@@ -2,13 +2,15 @@
     "agential": [
         "浅野良三"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野良三"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1617",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20032m 昭和五年 1930"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20032m 昭和五年 1930"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20032m 昭和五年 1930",
     "date": {
         "lvl0": "1930",
@@ -18,25 +20,25 @@
     "date_lvl0": "1930",
     "date_lvl1": "1930-10",
     "date_lvl2": "1930-10-03",
-    "description": "\n\n 三日  （金） \n\n\n午前十・廿五　事務所ニ御出勤\n\n\n午前十一半時　浅野良三氏来約（事務所）\n\n\n午後二半―三半　ロバート・ダラー氏来約（事務所）\n\n\n",
+    "description": "\n\n\n           三日\n          \n          （金）\n         \n\n\n\n\n             午前十・廿五\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午前十一半時\n            \n\n\n              浅野\n             \n\n              良三\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後二半―三半\n            \n            ロバート・ダラー氏来約（事務所）\n           \n\n\n",
     "fullname": [
-        "浅野良三"
+        "\n              浅野\n             \n              良三\n             "
     ],
-    "label": "三日  （金）",
+    "label": "三日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20032m-160",
-    "objectID": "DKB20032m-159",
-    "prev": "DKB20032m-158",
+    "next": "DKB20032m-0160",
+    "objectID": "DKB20032m-0159",
+    "prev": "DKB20032m-0158",
     "sort": "DKB20032m-0159",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [],
     "spatial_uri": [],
     "temporal": "1930-10-03",
     "time": {
-        "10:25:00": "<div><time when=\"10:25:00\">午前十・廿五</time>　事務所ニ御出勤</div>"
+        "10:25:00": "<div><time when=\"10:25:00\">\n             午前十・廿五\n            </time>\n            事務所ニ御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20032m-159\">\n<head>\n<date when=\"1930-10-03\"> 三日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"10:25:00\">午前十・廿五</time>　事務所ニ御出勤</p>\n</event>\n<event>\n<p><time when=\"11:30:00\">午前十一半時</time>　<persName><surname>浅野</surname><forename>良三</forename></persName>氏来約（事務所）</p>\n</event>\n<event>\n<p><time from=\"14:30:00\" to=\"15:30:00\">午後二半―三半</time>　ロバート・ダラー氏来約（事務所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0159\">\n<head>\n<date when=\"1930-10-03\">\n           三日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:25:00\">\n             午前十・廿五\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<persName corresp=\"#pers_浅野良三\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              良三\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:30:00\" to=\"15:30:00\">\n             午後二半―三半\n            </time>\n            ロバート・ダラー氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1930",
     "yearAndMonth": "1930-10"
 }

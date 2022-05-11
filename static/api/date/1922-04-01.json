@@ -4,14 +4,15 @@
         "岩永裕吉"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/埴原",
         "https://shibusawa-dlab.github.io/lab1/api/chname/岩永裕吉"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1386",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -21,17 +22,17 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-04",
     "date_lvl2": "1922-04-01",
-    "description": "\n\n 一日  （土） \n\n\n午前十時埴原次官ヲ御訪問（外務省）\n\n\n午後一時第七回仏蘭西午餐会（八重洲町中央亭）\n\n\n午後三―四時岩永裕吉氏来約（兜町）\n\n\n午後五時斯文会幹部会（銀行クラブ）\n\n\n",
+    "description": "\n\n\n           一日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n\n\n              埴原\n             \n\n            次官ヲ御訪問（外務省）\n           \n\n\n\n\n\n             午後一時\n            \n            第七回\n            \n             仏蘭西\n            \n            午餐会（\n            \n             八重洲\n            \n            町中央亭）\n           \n\n\n\n\n             午後三―四時\n            \n\n\n              岩永\n             \n\n              裕吉\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            斯文会幹部会（銀行クラブ）\n           \n\n\n",
     "fullname": [
-        "岩永裕吉"
+        "\n              岩永\n             \n              裕吉\n             "
     ],
-    "label": "一日  （土）",
+    "label": "一日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-65",
-    "objectID": "DKB20024m-64",
-    "prev": "DKB20024m-62",
+    "next": "DKB20024m-0065",
+    "objectID": "DKB20024m-0064",
+    "prev": "DKB20024m-0062",
     "sort": "DKB20024m-0064",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "フランス",
         "八重洲",
@@ -44,10 +45,10 @@
     ],
     "temporal": "1922-04-01",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><persName><surname>埴原</surname></persName>次官ヲ御訪問（外務省）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_埴原\">\n<surname>\n              埴原\n             </surname>\n</persName>\n            次官ヲ御訪問（外務省）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-64\">\n<head>\n<date when=\"1922-04-01\"> 一日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>埴原</surname></persName>次官ヲ御訪問（外務省）</p>\n</event>\n<event>\n<p><pb n=\"B2547\"/><time when=\"13:00:00\">午後一時</time>第七回<placeName>仏蘭西</placeName>午餐会（<placeName>八重洲</placeName>町中央亭）</p>\n</event>\n<event>\n<p><time from=\"15:00:00\" to=\"16:00:00\">午後三―四時</time><persName><surname>岩永</surname><forename>裕吉</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>斯文会幹部会（銀行クラブ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0064\">\n<head>\n<date when=\"1922-04-01\">\n           一日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_埴原\">\n<surname>\n              埴原\n             </surname>\n</persName>\n            次官ヲ御訪問（外務省）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2547\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1386/full/max/0/default.jpg\" n=\"B2547\" source=\"#pageB2547\"/>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            第七回\n            <placeName corresp=\"#place_フランス\">\n             仏蘭西\n            </placeName>\n            午餐会（\n            <placeName corresp=\"#place_八重洲\">\n             八重洲\n            </placeName>\n            町中央亭）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―四時\n            </time>\n<persName corresp=\"#pers_岩永裕吉\">\n<surname>\n              岩永\n             </surname>\n<forename>\n              裕吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            斯文会幹部会（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-04"
 }

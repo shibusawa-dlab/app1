@@ -2,27 +2,63 @@
     "edges": [
         {
             "color": "lightgrey",
-            "from": "久米良作",
-            "to": "福島甲子三",
-            "value": 4
+            "from": "沼野",
+            "to": "牛島",
+            "value": 11
         },
         {
             "color": "lightgrey",
-            "from": "久米良作",
-            "to": "高松豊吉",
-            "value": 5
+            "from": "早川",
+            "to": "池田",
+            "value": 15
         },
         {
             "color": "lightgrey",
-            "from": "久米良作",
-            "to": "浅野総一郎",
-            "value": 5
+            "from": "早川",
+            "to": "佐々木",
+            "value": 14
         },
         {
             "color": "lightgrey",
-            "from": "野依秀市",
-            "to": "青柳有美",
-            "value": 4
+            "from": "早川",
+            "to": "井上",
+            "value": 11
+        },
+        {
+            "color": "lightgrey",
+            "from": "早川",
+            "to": "園田",
+            "value": 19
+        },
+        {
+            "color": "lightgrey",
+            "from": "早川",
+            "to": "豊川",
+            "value": 27
+        },
+        {
+            "color": "lightgrey",
+            "from": "村井",
+            "to": "大倉",
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "金子",
+            "to": "阪谷",
+            "value": 15
+        },
+        {
+            "color": "lightgrey",
+            "from": "金子",
+            "to": "井上",
+            "value": 11
+        },
+        {
+            "color": "lightgrey",
+            "from": "金子",
+            "to": "添田",
+            "value": 10
         }
     ],
     "nodes": [
@@ -31,10 +67,120 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 11,
+            "id": "沼野",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "沼野",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 11,
+            "id": "牛島",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "牛島",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 86,
+            "id": "早川",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "早川",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "id": "村井",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "村井",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 36,
+            "id": "金子",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "金子",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 15,
+            "id": "阪谷",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "阪谷",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "id": "添田",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "添田",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "id": "大倉",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "大倉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 19,
+            "id": "園田",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "園田",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 22,
+            "id": "井上",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "井上",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
             "count": 14,
-            "id": "久米良作",
+            "id": "佐々木",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "久米良作",
+            "label": "佐々木",
             "shape": "image"
         },
         {
@@ -42,34 +188,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 4,
-            "description": "野依 秀市（のより ひでいち、1885年（明治18年）7月19日 - 1968年（昭和43年）3月31日）は、明治・大正・昭和の3つの時代にわたる日本のジャーナリスト、思想家、歴史家、評論家。また、政治家としても活躍して、戦前・戦中・戦後の日本に大きな影響をあたえた。本名同じ。旧名義は野依 秀一（のより しゅういち）。筆名は不屈生。雑誌『実業之世界』、日刊紙『帝都日日新聞』、仏教雑誌『真宗の世界』等を創刊・運営。「右翼ジャーナリスト」、「言論ギャング」、「ブラックジャーナリズムの祖」等の異名を持つ。敗戦後のGHQ検閲による没収図書は個人ではダントツの1位であり、表の言論史では抹殺された存在である。戦後の新右翼である児玉誉士夫や四宮正貴らから師として仰がれている。",
-            "id": "野依秀市",
-            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hideichi_noyori.jpg?width=300",
-            "label": "野依秀市",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 5,
-            "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
-            "id": "浅野総一郎",
-            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
-            "label": "浅野総一郎",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 4,
-            "id": "福島甲子三",
+            "count": 27,
+            "id": "豊川",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "福島甲子三",
+            "label": "豊川",
             "shape": "image"
         },
         {
@@ -77,23 +199,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 5,
-            "description": "高松 豊吉（たかまつ とよきち、1852年10月23日（嘉永5年9月11日） - 1937年（昭和12年）9月27日）は、東京の浅草阿部川町出身の化学技術者、応用化学者、工学博士。1884年（明治14年）より東京大学教授を務め、1886年（明治16年）からは帝国大学の発足と共に東京帝国大学工科大学（現:東京大学）応用化学科の教授を日本人として初めて担当した。1888年（明治18年）工学博士修得。東京職工学校（後の東京工業大学）でも色染学について教鞭を執った。1903年（明治36年）に教授を退職。同年、実業家で東京瓦斯株式会社初代社長を務めていた渋沢栄一から懇請されて東京ガスの常務取締役を務め、1909年（明治42年）から1914年（大正3年）まで第二代東京ガス社長に就任した。同年1914年に東京ガス社長を退職し、この頃農商務省に設置された化学工業調査会の筆頭委員となって化学工業の育成に尽力した。1915年（大正4年）から1924年（大正13年）にかけては東京工業試験所の第二代所長を歴任した。その他、理化学研究所や学術研究会議（後の日本学術会議）の設置に貢献。工業化学会（現:日本化学会）、日本薬学会などの会長や役員を務め、技術史学者の山崎俊雄は豊吉を「日本の工業化学の元老」と評した。また、技術評論家である星野芳郎は豊吉の生涯を「日本の化学技術界の教育、行政の発展そのものと言って良いほどである」とも評した。1923年（大正12年）3月10日に学士院会員に選ばれた。",
-            "id": "高松豊吉",
-            "image": "http://ja.wikipedia.org/wiki/Special:FilePath/Takamatsu_Toyokichi.jpg?width=300",
-            "label": "高松豊吉",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 4,
-            "description": "青柳 有美（あおやぎ ゆうび、1873年9月27日 - 1945年7月10日）は、ジャーナリスト、随筆家、牧師。秋田県生まれ。本名は猛。共立学校で学んだ後、ハリソンのバイブルクラスで英語を学び、キリスト教に入信して、1887年C・E・ガルストより洗礼を受ける。同志社普通学校卒。明治女学院で教えながら、関口教会で牧師をする。1893年から『女学雑誌』に関係し、1903年、主幹となる。大正期には実業之世界社で編集者となり、『女の世界』を発行した。女性問題、性、恋愛問題についての著作が多い。",
-            "id": "青柳有美",
-            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aoyagi_Yubi.JPG?width=300",
-            "label": "青柳有美",
+            "count": 15,
+            "id": "池田",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "池田",
             "shape": "image"
         }
     ]

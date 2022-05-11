@@ -2,13 +2,15 @@
     "agential": [
         "芳徳"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/芳徳"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1550",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -18,25 +20,27 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-07",
     "date_lvl2": "1927-07-11",
-    "description": "\n\n 十一日  （月） \n\n\n午前十・十五時御出勤\n\n\n午前十一時二荒芳徳伯来約（事務所）\n\n\n午后一時勤倹奨励婦人団体委員会会催《（開）》ニ付協議会（内務大臣官邸）\n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （月）\n         \n\n\n\n\n             午前十・十五時\n            \n            御出勤\n           \n\n\n\n\n             午前十一時\n            \n\n             二荒\n            \n\n\n              芳徳\n             \n\n            伯来約（事務所）\n           \n\n\n\n\n             午后一時\n            \n            勤倹奨励婦人団体委員会会催《（開）》ニ付協議会（内務大臣官邸）\n           \n\n\n",
     "fullname": [],
-    "label": "十一日  （月）",
+    "label": "十一日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-177",
-    "objectID": "DKB20029m-176",
-    "prev": "DKB20029m-174",
+    "next": "DKB20029m-0177",
+    "objectID": "DKB20029m-0176",
+    "prev": "DKB20029m-0174",
     "sort": "DKB20029m-0176",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "二荒"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/二荒"
+    ],
     "temporal": "1927-07-11",
     "time": {
-        "10:15:00": "<div><time when=\"10:15:00\">午前十・十五時</time>御出勤</div>"
+        "10:15:00": "<div><time when=\"10:15:00\">\n             午前十・十五時\n            </time>\n            御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-176\">\n<head>\n<date when=\"1927-07-11\"> 十一日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"10:15:00\">午前十・十五時</time>御出勤</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><placeName>二荒</placeName><persName><forename>芳徳</forename></persName>伯来約（事務所）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午后一時</time>勤倹奨励婦人団体委員会会催《（開）》ニ付協議会（内務大臣官邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0176\">\n<head>\n<date when=\"1927-07-11\">\n           十一日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:15:00\">\n             午前十・十五時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_二荒\">\n             二荒\n            </placeName>\n<persName corresp=\"#pers_芳徳\">\n<forename>\n              芳徳\n             </forename>\n</persName>\n            伯来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n            勤倹奨励婦人団体委員会会催《（開）》ニ付協議会（内務大臣官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-07"
 }

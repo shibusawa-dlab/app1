@@ -3,10 +3,10 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1288",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20021m 大正八年 1919"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20021m 大正八年 1919"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20021m 大正八年 1919",
     "date": {
         "lvl0": "1919",
@@ -16,32 +16,32 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-01",
     "date_lvl2": "1919-01-05",
-    "description": "\n\n 五日  （日） \n\n\n午前十一半時　参内　正午宮中新年宴会、大礼服正装\n\n\n午後六時東京石川島造船所ヨリ御案内（烏森湖月）\n\n\n",
+    "description": "\n\n\n           五日\n          \n          （日）\n         \n\n\n\n\n             午前十一半時\n            \n            参内\n            \n             正午\n            \n            宮中新年宴会、大礼服正装\n           \n\n\n\n\n             午後六時\n            \n\n             東京\n            \n\n             石川島\n            \n            造船所ヨリ御案内（\n            \n             烏森\n            \n            湖月）\n           \n\n\n",
     "fullname": [],
-    "label": "五日  （日）",
+    "label": "五日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20021m-6",
-    "objectID": "DKB20021m-5",
-    "prev": "DKB20021m-3",
+    "next": "DKB20021m-0006",
+    "objectID": "DKB20021m-0005",
+    "prev": "DKB20021m-0003",
     "sort": "DKB20021m-0005",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京",
-        "佃_(東京都中央区)",
+        "石川島",
         "烏森"
     ],
     "spatial_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/place/東京",
-        "https://shibusawa-dlab.github.io/lab1/api/place/佃_(東京都中央区)",
+        "https://shibusawa-dlab.github.io/lab1/api/place/石川島",
         "https://shibusawa-dlab.github.io/lab1/api/place/烏森"
     ],
     "temporal": "1919-01-05",
     "time": {
-        "11:30:00": "<div><time when=\"11:30:00\">午前十一半時</time>　参内</div>",
-        "12:00:00": "<div><time when=\"12:00:00\">正午</time>宮中新年宴会、大礼服正装</div>"
+        "11:30:00": "<div><time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            参内</div>",
+        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            宮中新年宴会、大礼服正装</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-5\">\n<head>\n<date when=\"1919-01-05\"> 五日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"11:30:00\">午前十一半時</time>　参内　<time when=\"12:00:00\">正午</time>宮中新年宴会、大礼服正装</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time><placeName>東京</placeName><placeName>石川島</placeName>造船所ヨリ御案内（<placeName>烏森</placeName>湖月）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0005\">\n<head>\n<date when=\"1919-01-05\">\n           五日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            参内\n            <time when=\"12:00:00\">\n             正午\n            </time>\n            宮中新年宴会、大礼服正装\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n<placeName corresp=\"#place_石川島\">\n             石川島\n            </placeName>\n            造船所ヨリ御案内（\n            <placeName corresp=\"#place_烏森\">\n             烏森\n            </placeName>\n            湖月）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-01"
 }

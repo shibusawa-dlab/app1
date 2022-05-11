@@ -3,10 +3,10 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1297",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20021m 大正八年 1919"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20021m 大正八年 1919"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20021m 大正八年 1919",
     "date": {
         "lvl0": "1919",
@@ -16,15 +16,15 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-05",
     "date_lvl2": "1919-05-10",
-    "description": "\n\n 十日  （土） \n\n\n午時十一日の招客ノ為一時大磯ヨリ御帰京ノ予定　東京駅午後三時五分\n\n\n午時　　　　　帝劇ヘ御出向\n\n\n",
+    "description": "\n\n\n           十日\n          \n          （土）\n         \n\n\n\n\n             午時\n            \n\n             十一日\n            \n            の招客ノ為\n            \n             一時\n            \n\n             大磯\n            \n            ヨリ御帰京ノ予定\n            \n             東京\n            \n            駅\n            \n             午後三時五分\n            \n\n\n\n\n\n             午時\n            \n            帝劇ヘ御出向\n           \n\n\n",
     "fullname": [],
-    "label": "十日  （土）",
+    "label": "十日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20021m-105",
-    "objectID": "DKB20021m-104",
-    "prev": "DKB20021m-103",
+    "next": "DKB20021m-0105",
+    "objectID": "DKB20021m-0104",
+    "prev": "DKB20021m-0103",
     "sort": "DKB20021m-0104",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "大磯町",
         "東京"
@@ -35,12 +35,12 @@
     ],
     "temporal": "1919-05-10",
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">午時</time><date when=\"1919-05-11\">十一日</date>の招客ノ為</div>",
-        "13:00:00": "<div><time when=\"13:00:00\">一時</time><placeName>大磯</placeName>ヨリ御帰京ノ予定　<placeName>東京</placeName>駅</div>",
-        "15:05:00": "<div><time when=\"15:05:00\">午後三時五分</time></div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<date when=\"1919-05-11\">\n             十一日\n            </date>\n            の招客ノ為</div>",
+        "13:00:00": "<div><time when=\"13:00:00\">\n             一時\n            </time>\n<placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            ヨリ御帰京ノ予定\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅</div>",
+        "15:05:00": "<div><time when=\"15:05:00\">\n             午後三時五分\n            </time></div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-104\">\n<head>\n<date when=\"1919-05-10\"> 十日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"12:00:00\">午時</time><date when=\"1919-05-11\">十一日</date>の招客ノ為<time when=\"13:00:00\">一時</time><placeName>大磯</placeName>ヨリ御帰京ノ予定　<placeName>東京</placeName>駅<time when=\"15:05:00\">午後三時五分</time></p>\n</event>\n<event>\n<p><time when=\"12:00:00\">午時</time>　　　　　帝劇ヘ御出向</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0104\">\n<head>\n<date when=\"1919-05-10\">\n           十日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<date when=\"1919-05-11\">\n             十一日\n            </date>\n            の招客ノ為\n            <time when=\"13:00:00\">\n             一時\n            </time>\n<placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            ヨリ御帰京ノ予定\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅\n            <time when=\"15:05:00\">\n             午後三時五分\n            </time>\n</p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            帝劇ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-05"
 }

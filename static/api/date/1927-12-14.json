@@ -3,13 +3,16 @@
         "遠藤吉平",
         "門野重九郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/遠藤吉平",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/門野重九郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1566",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -19,31 +22,32 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-12",
     "date_lvl2": "1927-12-14",
-    "description": "\n\n 十四日  （水） \n\n\n午前九時遠藤吉平氏来約（飛鳥山邸）\n\n\n午前九半時　　ミス・デフオーレスト（神戸女学院長）来約（飛鳥山邸）\n\n\n午前十時門野重九郎氏来約（飛鳥山邸）\n\n\n午後三時慈恵会理事会　同会\n\n\n午後四・三五　御出勤\n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n\n\n              遠藤\n             \n\n              吉平\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n\n             午前九半時\n            \n            ミス・デフオーレスト（\n            \n             神戸\n            \n            女学院長）来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              門野\n             \n\n              重九郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            慈恵会理事会　同会\n           \n\n\n\n\n             午後四・三五\n            \n            御出勤\n           \n\n\n",
     "fullname": [
-        "遠藤吉平",
-        "門野重九郎"
+        "\n              遠藤\n             \n              吉平\n             ",
+        "\n              門野\n             \n              重九郎\n             "
     ],
-    "label": "十四日  （水）",
+    "label": "十四日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-324",
-    "objectID": "DKB20029m-323",
-    "prev": "DKB20029m-322",
+    "next": "DKB20029m-0324",
+    "objectID": "DKB20029m-0323",
+    "prev": "DKB20029m-0322",
     "sort": "DKB20029m-0323",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "神戸"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/神戸"
     ],
     "temporal": "1927-12-14",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>遠藤</surname><forename>吉平</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_遠藤吉平\">\n<surname>\n              遠藤\n             </surname>\n<forename>\n              吉平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-323\">\n<head>\n<date when=\"1927-12-14\"> 十四日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>遠藤</surname><forename>吉平</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><pb n=\"B2727\"/><time when=\"09:30:00\">午前九半時</time>　　ミス・デフオーレスト（<placeName>神戸</placeName>女学院長）来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>門野</surname><forename>重九郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>慈恵会理事会　同会</p>\n</event>\n<event>\n<p><time when=\"16:35:00\">午後四・三五</time>　御出勤</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0323\">\n<head>\n<date when=\"1927-12-14\">\n           十四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_遠藤吉平\">\n<surname>\n              遠藤\n             </surname>\n<forename>\n              吉平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2727\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1566/full/max/0/default.jpg\" n=\"B2727\" source=\"#pageB2727\"/>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n            ミス・デフオーレスト（\n            <placeName corresp=\"#place_神戸\">\n             神戸\n            </placeName>\n            女学院長）来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_門野重九郎\">\n<surname>\n              門野\n             </surname>\n<forename>\n              重九郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            慈恵会理事会　同会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:35:00\">\n             午後四・三五\n            </time>\n            御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-12"
 }

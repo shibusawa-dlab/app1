@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1324",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -20,17 +20,17 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-02",
     "date_lvl2": "1920-02-16",
-    "description": "\n\n 十六日  （月） \n\n\n午前十時協調会幹部会（同会）\n\n\n正午　　　　　鎌田栄吉氏外七名東京府市民有志歓迎会（ホテル）略服\n\n\n午後四時協調会懇談会（トキワヤ）\n\n\n",
+    "description": "\n\n\n           十六日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n            協調会幹部会（同会）\n           \n\n\n\n\n             正午\n            \n\n\n              鎌田\n             \n\n              栄吉\n             \n\n            氏外七名\n            \n             東京\n            \n            府市民有志歓迎会（ホテル）\n            \n            略服\n           \n\n\n\n\n             午後四時\n            \n            協調会懇談会（トキワヤ）\n           \n\n\n",
     "fullname": [
-        "鎌田栄吉"
+        "\n              鎌田\n             \n              栄吉\n             "
     ],
-    "label": "十六日  （月）",
+    "label": "十六日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-46",
-    "objectID": "DKB20022m-45",
-    "prev": "DKB20022m-44",
+    "next": "DKB20022m-0046",
+    "objectID": "DKB20022m-0045",
+    "prev": "DKB20022m-0044",
     "sort": "DKB20022m-0045",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京"
     ],
@@ -39,10 +39,10 @@
     ],
     "temporal": "1920-02-16",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time>協調会幹部会（同会）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            協調会幹部会（同会）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-45\">\n<head>\n<date when=\"1920-02-16\"> 十六日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>協調会幹部会（同会）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　<persName><surname>鎌田</surname><forename>栄吉</forename></persName>氏外七名<placeName>東京</placeName>府市民有志歓迎会（ホテル）<lb/>略服</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>協調会懇談会（トキワヤ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0045\">\n<head>\n<date when=\"1920-02-16\">\n           十六日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            協調会幹部会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_鎌田栄吉\">\n<surname>\n              鎌田\n             </surname>\n<forename>\n              栄吉\n             </forename>\n</persName>\n            氏外七名\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            府市民有志歓迎会（ホテル）\n            <lb/>\n            略服\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            協調会懇談会（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-02"
 }

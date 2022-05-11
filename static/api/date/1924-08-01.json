@@ -5,14 +5,16 @@
         "山浦"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/田尻稲次郎"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田尻稲次郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/金野貞治",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山浦"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1473",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -22,18 +24,18 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-08",
     "date_lvl2": "1924-08-01",
-    "description": "\n\n 一日  （金） \n\n\n午前十一時田島助役来約（事務所）\n\n\n午後三時故田尻稲次郎氏追悼会（偕行社）\n\n\n午后六時金野貞治氏来約（アスカ山）\n\n\n午後八時東京日日新聞記者山浦氏来約（アスカ山）\n\n\n",
+    "description": "\n\n\n           一日\n          \n          （金）\n         \n\n\n\n\n             午前十一時\n            \n\n             田島\n            \n            助役来約（事務所）\n           \n\n\n\n\n             午後三時\n            \n            故\n            \n\n              田尻\n             \n\n              稲次郎\n             \n\n            氏追悼会（偕行社）\n           \n\n\n\n\n             午后六時\n            \n\n\n              金野\n             \n\n              貞治\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後八時\n            \n\n             東京\n            \n            日日新聞記者\n            \n\n              山浦\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "田尻稲次郎",
-        "金野貞治"
+        "\n              田尻\n             \n              稲次郎\n             ",
+        "\n              金野\n             \n              貞治\n             "
     ],
-    "label": "一日  （金）",
+    "label": "一日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-222",
-    "objectID": "DKB20026m-220",
-    "prev": "DKB20026m-218",
+    "next": "DKB20026m-0222",
+    "objectID": "DKB20026m-0220",
+    "prev": "DKB20026m-0218",
     "sort": "DKB20026m-0220",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "田島",
         "アスカ山",
@@ -41,14 +43,15 @@
     ],
     "spatial_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/place/田島",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
         "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1924-08-01",
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">午前十一時</time><placeName>田島</placeName>助役来約（事務所）</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_田島\">\n             田島\n            </placeName>\n            助役来約（事務所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-220\">\n<head>\n<date when=\"1924-08-01\"> 一日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><placeName>田島</placeName>助役来約（事務所）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>故<persName><surname>田尻</surname><forename>稲次郎</forename></persName>氏追悼会（偕行社）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午后六時</time><persName><surname>金野</surname><forename>貞治</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"20:00:00\">午後八時</time><placeName>東京</placeName>日日新聞記者<persName><surname>山浦</surname></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0220\">\n<head>\n<date when=\"1924-08-01\">\n           一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_田島\">\n             田島\n            </placeName>\n            助役来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            故\n            <persName corresp=\"#pers_田尻稲次郎\">\n<surname>\n              田尻\n             </surname>\n<forename>\n              稲次郎\n             </forename>\n</persName>\n            氏追悼会（偕行社）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午后六時\n            </time>\n<persName corresp=\"#pers_金野貞治\">\n<surname>\n              金野\n             </surname>\n<forename>\n              貞治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"20:00:00\">\n             午後八時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            日日新聞記者\n            <persName corresp=\"#pers_山浦\">\n<surname>\n              山浦\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-08"
 }

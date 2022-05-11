@@ -5,14 +5,16 @@
         "早川千吉郎"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高西小松",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/李烈均",
         "https://shibusawa-dlab.github.io/lab1/api/chname/早川千吉郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1477",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -22,19 +24,19 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-10",
     "date_lvl2": "1924-10-05",
-    "description": "\n\n 五日  （日） \n\n\n午前八半時　　高西小松氏来約（王子）\n\n\n午前十時李烈均氏来約（王子）\n\n\n午后四時故早川千吉郎氏追悼会（工業クラブ）\n\n\n",
+    "description": "\n\n\n           五日\n          \n          （日）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              高西\n             \n\n              小松\n             \n\n            氏来約（\n            \n             王子\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              李\n             \n\n              烈均\n             \n\n            氏来約（\n            \n             王子\n            \n            ）\n           \n\n\n\n\n             午后四時\n            \n            故\n            \n\n              早川\n             \n\n              千吉郎\n             \n\n            氏追悼会（工業クラブ）\n           \n\n\n",
     "fullname": [
-        "高西小松",
-        "李烈均",
-        "早川千吉郎"
+        "\n              高西\n             \n              小松\n             ",
+        "\n              李\n             \n              烈均\n             ",
+        "\n              早川\n             \n              千吉郎\n             "
     ],
-    "label": "五日  （日）",
+    "label": "五日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-274",
-    "objectID": "DKB20026m-273",
-    "prev": "DKB20026m-272",
+    "next": "DKB20026m-0274",
+    "objectID": "DKB20026m-0273",
+    "prev": "DKB20026m-0272",
     "sort": "DKB20026m-0273",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "王子"
     ],
@@ -43,10 +45,10 @@
     ],
     "temporal": "1924-10-05",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>高西</surname><forename>小松</forename></persName>氏来約（<placeName>王子</placeName>）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_高西小松\">\n<surname>\n              高西\n             </surname>\n<forename>\n              小松\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-273\">\n<head>\n<date when=\"1924-10-05\"> 五日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>高西</surname><forename>小松</forename></persName>氏来約（<placeName>王子</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>李</surname><forename>烈均</forename></persName>氏来約（<placeName>王子</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午后四時</time>故<persName><surname>早川</surname><forename>千吉郎</forename></persName>氏追悼会（工業クラブ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0273\">\n<head>\n<date when=\"1924-10-05\">\n           五日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_高西小松\">\n<surname>\n              高西\n             </surname>\n<forename>\n              小松\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_李烈均\">\n<surname>\n              李\n             </surname>\n<forename>\n              烈均\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午后四時\n            </time>\n            故\n            <persName corresp=\"#pers_早川千吉郎\">\n<surname>\n              早川\n             </surname>\n<forename>\n              千吉郎\n             </forename>\n</persName>\n            氏追悼会（工業クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-10"
 }

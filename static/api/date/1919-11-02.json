@@ -4,14 +4,15 @@
         "松平伯"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/中野"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松平伯"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1314",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20021m 大正八年 1919"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20021m 大正八年 1919"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20021m 大正八年 1919",
     "date": {
         "lvl0": "1919",
@@ -21,15 +22,15 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-11",
     "date_lvl2": "1919-11-02",
-    "description": "\n\n 二日  （日） \n\n\n午前十時滝野川町青年会ノ件（飛鳥山邸）\n\n\n午後一時随鷗吟社第十二次大会兼青渊先生八十寿祝賀（向島八百松）\n\n\n午後三時故中野氏追悼会（松平伯染井別邸）\n\n\n午後五半時　　埼玉学生誘掖会茶話会（同会）\n\n\n",
+    "description": "\n\n\n           二日\n          \n          （日）\n         \n\n\n\n\n             午前十時\n            \n\n             滝野川\n            \n            町青年会ノ件（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n            随鷗吟社第十二次大会兼青渊先生八十寿祝賀（\n            \n             向島\n            \n            八百松）\n           \n\n\n\n\n             午後三時\n            \n            故\n            \n\n              中野\n             \n\n            氏追悼会（\n            \n\n              松平\n             \n             伯\n            \n\n             染井\n            \n            別邸）\n           \n\n\n\n\n             午後五半時\n            \n\n             埼玉\n            \n            学生誘掖会茶話会（同会）\n           \n\n\n",
     "fullname": [],
-    "label": "二日  （日）",
+    "label": "二日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20021m-279",
-    "objectID": "DKB20021m-278",
-    "prev": "DKB20021m-277",
+    "next": "DKB20021m-0279",
+    "objectID": "DKB20021m-0278",
+    "prev": "DKB20021m-0277",
     "sort": "DKB20021m-0278",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "滝野川",
         "飛鳥山邸",
@@ -39,15 +40,17 @@
     ],
     "spatial_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/place/滝野川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/向島",
+        "https://shibusawa-dlab.github.io/lab1/api/place/染井",
         "https://shibusawa-dlab.github.io/lab1/api/place/埼玉"
     ],
     "temporal": "1919-11-02",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><placeName>滝野川</placeName>町青年会ノ件（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_滝野川\">\n             滝野川\n            </placeName>\n            町青年会ノ件（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-278\">\n<head>\n<date when=\"1919-11-02\"> 二日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><placeName>滝野川</placeName>町青年会ノ件（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>随鷗吟社第十二次大会兼青渊先生八十寿祝賀（<placeName>向島</placeName>八百松）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>故<persName><surname>中野</surname></persName>氏追悼会（<persName><surname>松平</surname>伯</persName><placeName>染井</placeName>別邸）</p>\n</event>\n<event>\n<p><time when=\"17:30:00\">午後五半時</time>　　<placeName>埼玉</placeName>学生誘掖会茶話会（同会）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0278\">\n<head>\n<date when=\"1919-11-02\">\n           二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_滝野川\">\n             滝野川\n            </placeName>\n            町青年会ノ件（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            随鷗吟社第十二次大会兼青渊先生八十寿祝賀（\n            <placeName corresp=\"#place_向島\">\n             向島\n            </placeName>\n            八百松）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            故\n            <persName corresp=\"#pers_中野\">\n<surname>\n              中野\n             </surname>\n</persName>\n            氏追悼会（\n            <persName corresp=\"#pers_松平伯\">\n<surname>\n              松平\n             </surname>\n             伯\n            </persName>\n<placeName corresp=\"#place_染井\">\n             染井\n            </placeName>\n            別邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会茶話会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-11"
 }

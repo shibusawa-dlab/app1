@@ -3,11 +3,11 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/320",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB10011m 自  明治三十五年八月                                                 至                                                   明治三十六年十一月  1902―1903"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB10011m 自 明治三十五年八月 至 明治三十六年十一月 1902―1903"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-    "category_lvl1": "DKB10011m 自  明治三十五年八月                                                 至                                                   明治三十六年十一月  1902―1903",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl1": "DKB10011m 自 明治三十五年八月 至 明治三十六年十一月 1902―1903",
     "date": {
         "lvl0": "1903",
         "lvl1": "1903 > 1903-01",
@@ -16,33 +16,33 @@
     "date_lvl0": "1903",
     "date_lvl1": "1903-01",
     "date_lvl2": "1903-01-24",
-    "description": "\n\n 一月廿四日 \n\n曇、午前八時朝飧ヲ畢リ十時兜町事務所ニ出勤ス、午後一時第一銀行株主総会ヲ開ク、欧米漫遊中ニ係ル銀行事業視察談ヲ為ス、午後三時閉会、此夜行員一同銀行倶楽部ニ於テ晩飧会ヲ開ク、夜十時王子別荘ニ帰宿ス\n",
+    "description": "\n\n\n        一月廿四日\n       \n\n\n       曇、\n       \n        午前八時\n       \n       朝飧ヲ畢リ\n       \n        十時\n       \n\n        兜町\n       \n       事務所ニ出勤ス、\n       \n        午後一時\n       \n\n        第一銀行\n       \n       株主総会ヲ開ク、欧米漫遊中ニ係ル銀行事業視察談ヲ為ス、\n       \n        午後三時\n       \n       閉会、此夜行員一同\n       \n        銀行倶楽部\n       \n       ニ於テ晩飧会ヲ開ク、夜\n       \n        十時\n       \n\n        王子別荘\n       \n       ニ帰宿ス\n      \n",
     "fullname": [],
     "label": "一月廿四日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
-    "next": "DKB10011m-159",
-    "objectID": "DKB10011m-158",
-    "prev": "DKB10011m-157",
+    "next": "DKB10011m-0159",
+    "objectID": "DKB10011m-0158",
+    "prev": "DKB10011m-0157",
     "sort": "DKB10011m-0158",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "日本橋兜町",
-        "王子"
+        "王子別荘"
     ],
     "spatial_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/王子"
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子別荘"
     ],
     "temporal": "1903-01-24",
     "time": {
-        "08:00:00": "<div>曇、<time when=\"08:00:00\">午前八時</time>朝飧ヲ畢リ</div>",
-        "10:00:00": "<div><time when=\"10:00:00\">十時</time><placeName>兜町</placeName>事務所ニ出勤ス、</div>",
-        "13:00:00": "<div><time when=\"13:00:00\">午後一時</time><orgName>第一銀行</orgName>株主総会ヲ開ク、欧米漫遊中ニ係ル銀行事業視察談ヲ為ス、</div>",
-        "15:00:00": "<div><time when=\"15:00:00\">午後三時</time>閉会、此夜行員一同<orgName>銀行倶楽部</orgName>ニ於テ晩飧会ヲ開ク、夜</div>",
-        "22:00:00": "<div><time when=\"22:00:00\">十時</time><placeName>王子</placeName>別荘ニ帰宿ス</div>"
+        "08:00:00": "<div>曇、<time when=\"08:00:00\">\n        午前八時\n       </time>\n       朝飧ヲ畢リ</div>",
+        "10:00:00": "<div><time when=\"10:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ出勤ス、</div>",
+        "13:00:00": "<div><time when=\"13:00:00\">\n        午後一時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       株主総会ヲ開ク、欧米漫遊中ニ係ル銀行事業視察談ヲ為ス、</div>",
+        "15:00:00": "<div><time when=\"15:00:00\">\n        午後三時\n       </time>\n       閉会、此夜行員一同\n       <orgName>\n        銀行倶楽部\n       </orgName>\n       ニ於テ晩飧会ヲ開ク、夜</div>",
+        "22:00:00": "<div><time when=\"22:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-158\">\n<head>\n<date when=\"1903-01-24\"> 一月廿四日 </date>\n</head>\n<p>曇、<time when=\"08:00:00\">午前八時</time>朝飧ヲ畢リ<time when=\"10:00:00\">十時</time><placeName>兜町</placeName>事務所ニ出勤ス、<time when=\"13:00:00\">午後一時</time><orgName>第一銀行</orgName>株主総会ヲ開ク、欧米漫遊中ニ係ル銀行事業視察談ヲ為ス、<time when=\"15:00:00\">午後三時</time>閉会、此夜行員一同<orgName>銀行倶楽部</orgName>ニ於テ晩飧会ヲ開ク、夜<time when=\"22:00:00\">十時</time><placeName>王子</placeName>別荘ニ帰宿ス</p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-0158\">\n<head>\n<date when=\"1903-01-24\">\n        一月廿四日\n       </date>\n</head>\n<p>\n       曇、\n       <time when=\"08:00:00\">\n        午前八時\n       </time>\n       朝飧ヲ畢リ\n       <time when=\"10:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ出勤ス、\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       株主総会ヲ開ク、欧米漫遊中ニ係ル銀行事業視察談ヲ為ス、\n       <time when=\"15:00:00\">\n        午後三時\n       </time>\n       閉会、此夜行員一同\n       <orgName>\n        銀行倶楽部\n       </orgName>\n       ニ於テ晩飧会ヲ開ク、夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1903",
     "yearAndMonth": "1903-01"
 }

@@ -9,11 +9,11 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1510",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-05",
@@ -22,17 +22,17 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-05",
     "date_lvl2": "1926-05-01",
-    "description": "\n\n 一日  （土） \n\n\n午前九―後五時帝国図書館所蔵江戸時代東海道図画展覧会（同館）\n\n\n午前十時片岡商相ヲ御訪問（京橋区木挽町商工省）\n\n\n午前十一半時　御出勤\n\n\n午後三半時　　協調会ノ件ニ付徳川公、床次竹二郎、両氏ト御会見ノ約（貴族院議長官舎）\n\n\n",
+    "description": "\n\n\n           一日\n          \n          （土）\n         \n\n\n\n\n             午前九―後五時\n            \n            帝国図書館所蔵\n            \n             江戸\n            \n            時代\n            \n             東海道\n            \n            図画展覧会（同館）\n           \n\n\n\n\n             午前十時\n            \n\n             片岡\n            \n            商相ヲ御訪問（\n            \n             京橋\n            \n            区\n            \n             木挽町\n            \n            商工省）\n           \n\n\n\n\n             午前十一半時\n            \n            御出勤\n           \n\n\n\n\n             午後三半時\n            \n            協調会ノ件ニ付\n            \n\n              徳川\n             \n\n            公、\n            \n\n              床次\n             \n\n              竹二郎\n             \n\n            、両氏ト御会見ノ約（貴族院議長官舎）\n           \n\n\n",
     "fullname": [
-        "床次竹二郎"
+        "\n              床次\n             \n              竹二郎\n             "
     ],
-    "label": "一日  （土）",
+    "label": "一日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-122",
-    "objectID": "DKB20028m-121",
-    "prev": "DKB20028m-119",
+    "next": "DKB20028m-0122",
+    "objectID": "DKB20028m-0121",
+    "prev": "DKB20028m-0119",
     "sort": "DKB20028m-0121",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "江戸",
         "東海道",
@@ -49,10 +49,10 @@
     ],
     "temporal": "1926-05-01",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九―後五時</time>帝国図書館所蔵<placeName>江戸</placeName>時代<placeName>東海道</placeName>図画展覧会（同館）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九―後五時\n            </time>\n            帝国図書館所蔵\n            <placeName corresp=\"#place_江戸\">\n             江戸\n            </placeName>\n            時代\n            <placeName corresp=\"#place_東海道\">\n             東海道\n            </placeName>\n            図画展覧会（同館）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-121\">\n<head>\n<date when=\"1926-05-01\"> 一日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九―後五時</time>帝国図書館所蔵<placeName>江戸</placeName>時代<placeName>東海道</placeName>図画展覧会（同館）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><placeName>片岡</placeName>商相ヲ御訪問（<placeName>京橋</placeName>区<placeName>木挽町</placeName>商工省）</p>\n</event>\n<event>\n<p><time when=\"11:30:00\">午前十一半時</time>　御出勤</p>\n</event>\n<event>\n<p><time when=\"15:30:00\">午後三半時</time>　　協調会ノ件ニ付<persName><surname>徳川</surname></persName>公、<persName><surname>床次</surname><forename>竹二郎</forename></persName>、両氏ト御会見ノ約（貴族院議長官舎）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0121\">\n<head>\n<date when=\"1926-05-01\">\n           一日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九―後五時\n            </time>\n            帝国図書館所蔵\n            <placeName corresp=\"#place_江戸\">\n             江戸\n            </placeName>\n            時代\n            <placeName corresp=\"#place_東海道\">\n             東海道\n            </placeName>\n            図画展覧会（同館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_片岡\">\n             片岡\n            </placeName>\n            商相ヲ御訪問（\n            <placeName corresp=\"#place_京橋\">\n             京橋\n            </placeName>\n            区\n            <placeName corresp=\"#place_木挽町\">\n             木挽町\n            </placeName>\n            商工省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n            協調会ノ件ニ付\n            <persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公、\n            <persName corresp=\"#pers_床次竹二郎\">\n<surname>\n              床次\n             </surname>\n<forename>\n              竹二郎\n             </forename>\n</persName>\n            、両氏ト御会見ノ約（貴族院議長官舎）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-05"
 }

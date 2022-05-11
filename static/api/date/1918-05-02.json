@@ -9,14 +9,16 @@
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/平田東助",
         "https://shibusawa-dlab.github.io/lab1/api/chname/山下亀三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/周金緘",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/李士緯",
         "https://shibusawa-dlab.github.io/lab1/api/chname/山下"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1267",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20020m 大正七年 1918"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20020m 大正七年 1918"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20020m 大正七年 1918",
     "date": {
         "lvl0": "1918",
@@ -26,35 +28,36 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-05",
     "date_lvl2": "1918-05-02",
-    "description": "\n\n 二日  （木） \n\n\n午前九時平田東助氏来約（飛鳥山邸）\n\n\n午前十時山下亀三郎氏来約（兜町）\n\n\n正午　　　　　周金緘、李士緯両氏御招待（王子邸）\n\n\n午後六時山下氏ヨリ御招待（トキワヤ）\n\n\n",
+    "description": "\n\n\n           二日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n\n\n              平田\n             \n\n              東助\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              山下\n             \n\n              亀三郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n\n              周\n             \n\n              金緘\n             \n\n            、\n            \n\n              李\n             \n\n              士緯\n             \n\n            両氏御招待（\n            \n             王子\n            \n            邸）\n           \n\n\n\n\n             午後六時\n            \n\n\n              山下\n             \n\n            氏ヨリ御招待（トキワヤ）\n           \n\n\n",
     "fullname": [
-        "平田東助",
-        "山下亀三郎",
-        "周金緘",
-        "李士緯"
+        "\n              平田\n             \n              東助\n             ",
+        "\n              山下\n             \n              亀三郎\n             ",
+        "\n              周\n             \n              金緘\n             ",
+        "\n              李\n             \n              士緯\n             "
     ],
-    "label": "二日  （木）",
+    "label": "二日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20020m-117",
-    "objectID": "DKB20020m-116",
-    "prev": "DKB20020m-115",
+    "next": "DKB20020m-0117",
+    "objectID": "DKB20020m-0116",
+    "prev": "DKB20020m-0115",
     "sort": "DKB20020m-0116",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "日本橋兜町",
         "王子"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
         "https://shibusawa-dlab.github.io/lab1/api/place/王子"
     ],
     "temporal": "1918-05-02",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>平田</surname><forename>東助</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_平田東助\">\n<surname>\n              平田\n             </surname>\n<forename>\n              東助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-116\">\n<head>\n<date when=\"1918-05-02\"> 二日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>平田</surname><forename>東助</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>山下</surname><forename>亀三郎</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　<persName><surname>周</surname><forename>金緘</forename></persName>、<persName><surname>李</surname><forename>士緯</forename></persName>両氏御招待（<placeName>王子</placeName>邸）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time><persName><surname>山下</surname></persName>氏ヨリ御招待（トキワヤ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0116\">\n<head>\n<date when=\"1918-05-02\">\n           二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_平田東助\">\n<surname>\n              平田\n             </surname>\n<forename>\n              東助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_山下亀三郎\">\n<surname>\n              山下\n             </surname>\n<forename>\n              亀三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_周金緘\">\n<surname>\n              周\n             </surname>\n<forename>\n              金緘\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_李士緯\">\n<surname>\n              李\n             </surname>\n<forename>\n              士緯\n             </forename>\n</persName>\n            両氏御招待（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_山下\">\n<surname>\n              山下\n             </surname>\n</persName>\n            氏ヨリ御招待（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-05"
 }

@@ -7,6 +7,7 @@
         "徳川"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/明石家",
         "https://shibusawa-dlab.github.io/lab1/api/chname/山川義太郎",
         "https://shibusawa-dlab.github.io/lab1/api/chname/蓮沼門三",
         "https://shibusawa-dlab.github.io/lab1/api/chname/大木",
@@ -14,10 +15,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1468",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -27,18 +28,18 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-06",
     "date_lvl2": "1924-06-20",
-    "description": "\n\n 二十日  （金） \n\n\n午前九半時　　皇后陛下東京慈恵会ヘ行啓（同会）シルクハツト\n\n\n午前十一頃　　明石家ヘ御出向\n\n\n午後二時山川義太郎氏来約（事務所）\n\n\n午後二時蓮沼門三氏来約（事務所）\n\n\n午後四半時　　大木伯、徳川男両家結婚披露（帝国ホテル）\n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （金）\n         \n\n\n\n\n             午前九半時\n            \n            皇后陛下\n            \n             東京\n            \n            慈恵会ヘ行啓（同会）シルクハツト\n           \n\n\n\n\n             午前十一\n            \n            頃\n            \n\n              明石家\n             \n\n            ヘ御出向\n           \n\n\n\n\n             午後二時\n            \n\n\n              山川\n             \n\n              義太郎\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後二時\n            \n\n\n              蓮沼\n             \n\n              門三\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後四半時\n            \n\n\n              大木\n             \n\n            伯、\n            \n\n              徳川\n             \n\n            男両家結婚披露（帝国ホテル）\n           \n\n\n",
     "fullname": [
-        "山川義太郎",
-        "蓮沼門三"
+        "\n              山川\n             \n              義太郎\n             ",
+        "\n              蓮沼\n             \n              門三\n             "
     ],
-    "label": "二十日  （金）",
+    "label": "二十日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-177",
-    "objectID": "DKB20026m-176",
-    "prev": "DKB20026m-175",
+    "next": "DKB20026m-0177",
+    "objectID": "DKB20026m-0176",
+    "prev": "DKB20026m-0175",
     "sort": "DKB20026m-0176",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京"
     ],
@@ -47,10 +48,10 @@
     ],
     "temporal": "1924-06-20",
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">午前九半時</time>　　皇后陛下<placeName>東京</placeName>慈恵会ヘ行啓（同会）シルクハツト</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n            皇后陛下\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会ヘ行啓（同会）シルクハツト</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-176\">\n<head>\n<date when=\"1924-06-20\"> 二十日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"09:30:00\">午前九半時</time>　　皇后陛下<placeName>東京</placeName>慈恵会ヘ行啓（同会）シルクハツト</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一</time>頃　　<persName><surname>明石家</surname></persName>ヘ御出向</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>山川</surname><forename>義太郎</forename></persName>氏来約（事務所）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>蓮沼</surname><forename>門三</forename></persName>氏来約（事務所）</p>\n</event>\n<event>\n<p><time when=\"16:30:00\">午後四半時</time>　　<persName><surname>大木</surname></persName>伯、<persName><surname>徳川</surname></persName>男両家結婚披露（帝国ホテル）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0176\">\n<head>\n<date when=\"1924-06-20\">\n           二十日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n            皇后陛下\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会ヘ行啓（同会）シルクハツト\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一\n            </time>\n            頃\n            <persName corresp=\"#pers_明石家\">\n<surname>\n              明石家\n             </surname>\n</persName>\n            ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_山川義太郎\">\n<surname>\n              山川\n             </surname>\n<forename>\n              義太郎\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_蓮沼門三\">\n<surname>\n              蓮沼\n             </surname>\n<forename>\n              門三\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n<persName corresp=\"#pers_大木\">\n<surname>\n              大木\n             </surname>\n</persName>\n            伯、\n            <persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            男両家結婚披露（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-06"
 }

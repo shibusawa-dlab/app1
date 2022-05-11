@@ -2,13 +2,15 @@
     "agential": [
         "林民雄"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/林民雄"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1259",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20020m 大正七年 1918"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20020m 大正七年 1918"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20020m 大正七年 1918",
     "date": {
         "lvl0": "1918",
@@ -18,17 +20,17 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-02",
     "date_lvl2": "1918-02-05",
-    "description": "\n\n 五日  （火） \n\n\n午前十一時モツト氏兜町ニ来約\n\n\n正午　　　　　サイツ氏招待会（帝国ホテル）\n\n\n午後五半時　　林民雄氏ヨリ御案内（トキワヤ）\n\n\n",
+    "description": "\n\n\n           五日\n          \n          （火）\n         \n\n\n\n\n             午前十一時\n            \n            モツト氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             正午\n            \n            サイツ氏招待会（帝国ホテル）\n           \n\n\n\n\n             午後五半時\n            \n\n\n              林\n             \n\n              民雄\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n",
     "fullname": [
-        "林民雄"
+        "\n              林\n             \n              民雄\n             "
     ],
-    "label": "五日  （火）",
+    "label": "五日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20020m-35",
-    "objectID": "DKB20020m-34",
-    "prev": "DKB20020m-33",
+    "next": "DKB20020m-0035",
+    "objectID": "DKB20020m-0034",
+    "prev": "DKB20020m-0033",
     "sort": "DKB20020m-0034",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -37,10 +39,10 @@
     ],
     "temporal": "1918-02-05",
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">午前十一時</time>モツト氏<placeName>兜町</placeName>ニ来約</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            モツト氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-34\">\n<head>\n<date when=\"1918-02-05\"> 五日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>モツト氏<placeName>兜町</placeName>ニ来約</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　サイツ氏招待会（帝国ホテル）</p>\n</event>\n<event>\n<p><time when=\"17:30:00\">午後五半時</time>　　<persName><surname>林</surname><forename>民雄</forename></persName>氏ヨリ御案内（トキワヤ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0034\">\n<head>\n<date when=\"1918-02-05\">\n           五日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            モツト氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            サイツ氏招待会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_林民雄\">\n<surname>\n              林\n             </surname>\n<forename>\n              民雄\n             </forename>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-02"
 }

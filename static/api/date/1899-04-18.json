@@ -9,11 +9,11 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/110",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB10008m 明治三十二年  1899"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB10008m 明治三十二年 1899"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-    "category_lvl1": "DKB10008m 明治三十二年  1899",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl1": "DKB10008m 明治三十二年 1899",
     "date": {
         "lvl0": "1899",
         "lvl1": "1899 > 1899-04",
@@ -22,15 +22,15 @@
     "date_lvl0": "1899",
     "date_lvl1": "1899-04",
     "date_lvl2": "1899-04-18",
-    "description": "\n\n 四月十八日 \n\n稍晴、午前十時慈善会演劇ニ出席ス、此日ハ香川、山内、宮中ノ女官数名観劇ノ為東京座ニ来会ス、午後英国人ジユリース夫妻来観ス、午後五時浜町常盤屋ニ於テ催ス処ノ支店会ニ出席シ、各支配人ニ行務取扱上ニ関スル要項ヲ演説ス、此夜十時浜町ニ帰宿ス、夜ニ入リテ小雨\n",
+    "description": "\n\n\n        四月十八日\n       \n\n\n       稍晴、\n       \n        午前十時\n       \n       慈善会演劇ニ出席ス、此日ハ\n       \n\n         香川\n        \n\n       、\n       \n\n         山内\n        \n\n       、宮中ノ女官数名観劇ノ為東京座ニ来会ス、午後英国人ジユリース夫妻来観ス、\n       \n        午後五時\n       \n\n        浜町\n       \n       常盤屋ニ於テ催ス処ノ支店会ニ出席シ、各支配人ニ行務取扱上ニ関スル要項ヲ演説ス、此夜\n       \n        十時\n       \n\n        浜町\n       \n       ニ帰宿ス、夜ニ入リテ小雨\n      \n",
     "fullname": [],
     "label": "四月十八日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
-    "next": "DKB10008m-109",
-    "objectID": "DKB10008m-108",
-    "prev": "DKB10008m-107",
+    "next": "DKB10008m-0109",
+    "objectID": "DKB10008m-0108",
+    "prev": "DKB10008m-0107",
     "sort": "DKB10008m-0108",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "浜町"
     ],
@@ -39,12 +39,12 @@
     ],
     "temporal": "1899-04-18",
     "time": {
-        "10:00:00": "<div>稍晴、<time when=\"10:00:00\">午前十時</time>慈善会演劇ニ出席ス、此日ハ<persName><surname>香川</surname></persName>、<persName><surname>山内</surname></persName>、宮中ノ女官数名観劇ノ為東京座ニ来会ス、午後英国人ジユリース夫妻来観ス、</div>",
-        "17:00:00": "<div><time when=\"17:00:00\">午後五時</time><placeName>浜町</placeName>常盤屋ニ於テ催ス処ノ支店会ニ出席シ、各支配人ニ行務取扱上ニ関スル要項ヲ演説ス、此夜</div>",
-        "22:00:00": "<div><time when=\"22:00:00\">十時</time><placeName>浜町</placeName>ニ帰宿ス、夜ニ入リテ小雨</div>"
+        "10:00:00": "<div>稍晴、<time when=\"10:00:00\">\n        午前十時\n       </time>\n       慈善会演劇ニ出席ス、此日ハ\n       <persName corresp=\"#pers_香川\">\n<surname>\n         香川\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_山内\">\n<surname>\n         山内\n        </surname>\n</persName>\n       、宮中ノ女官数名観劇ノ為東京座ニ来会ス、午後英国人ジユリース夫妻来観ス、</div>",
+        "17:00:00": "<div><time when=\"17:00:00\">\n        午後五時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       常盤屋ニ於テ催ス処ノ支店会ニ出席シ、各支配人ニ行務取扱上ニ関スル要項ヲ演説ス、此夜</div>",
+        "22:00:00": "<div><time when=\"22:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       ニ帰宿ス、夜ニ入リテ小雨</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-108\">\n<head>\n<date when=\"1899-04-18\"> 四月十八日 </date>\n</head>\n<p>稍晴、<time when=\"10:00:00\">午前十時</time>慈善会演劇ニ出席ス、此日ハ<persName><surname>香川</surname></persName>、<persName><surname>山内</surname></persName>、宮中ノ女官数名観劇ノ為東京座ニ来会ス、午後英国人ジユリース夫妻来観ス、<time when=\"17:00:00\">午後五時</time><placeName>浜町</placeName>常盤屋ニ於テ催ス処ノ支店会ニ出席シ、各支配人ニ行務取扱上ニ関スル要項ヲ演説ス、此夜<time when=\"22:00:00\">十時</time><placeName>浜町</placeName>ニ帰宿ス、夜ニ入リテ小雨</p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-0108\">\n<head>\n<date when=\"1899-04-18\">\n        四月十八日\n       </date>\n</head>\n<p>\n       稍晴、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n       慈善会演劇ニ出席ス、此日ハ\n       <persName corresp=\"#pers_香川\">\n<surname>\n         香川\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_山内\">\n<surname>\n         山内\n        </surname>\n</persName>\n       、宮中ノ女官数名観劇ノ為東京座ニ来会ス、午後英国人ジユリース夫妻来観ス、\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       常盤屋ニ於テ催ス処ノ支店会ニ出席シ、各支配人ニ行務取扱上ニ関スル要項ヲ演説ス、此夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       ニ帰宿ス、夜ニ入リテ小雨\n      </p>\n</div>",
     "year": "1899",
     "yearAndMonth": "1899-04"
 }

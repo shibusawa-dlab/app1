@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1233",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -20,28 +20,29 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-04",
     "date_lvl2": "1917-04-06",
-    "description": "\n\n 六日  （金） \n\n\n御引籠リ\n\n\n午後一時友愛会記念祝賀会（男爵御演説ノ約同会本部）\n\n\n午後四時中野武営氏来約（飛鳥山邸）\n\n\n午後五時友愛会代議員及顧問評議員招待会（九段坂富士見軒）\n\n\n",
+    "description": "\n\n\n           六日\n          \n          （金）\n         \n\n\n\n            御引籠リ\n           \n\n\n\n\n             午後一時\n            \n            友愛会記念祝賀会（男爵御演説ノ約同会本部）\n           \n\n\n\n\n             午後四時\n            \n\n\n              中野\n             \n\n              武営\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            友愛会代議員及顧問評議員招待会（\n            \n             九段坂\n            \n            富士見軒）\n           \n\n\n",
     "fullname": [
-        "中野武営"
+        "\n              中野\n             \n              武営\n             "
     ],
-    "label": "六日  （金）",
+    "label": "六日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-95",
-    "objectID": "DKB20019m-94",
-    "prev": "DKB20019m-93",
+    "next": "DKB20019m-0095",
+    "objectID": "DKB20019m-0094",
+    "prev": "DKB20019m-0093",
     "sort": "DKB20019m-0094",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "九段"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/九段"
     ],
     "temporal": "1917-04-06",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-94\">\n<head>\n<date when=\"1917-04-06\"> 六日 </date> （金） </head>\n<listEvent>\n<event>\n<p>御引籠リ</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>友愛会記念祝賀会（男爵御演説ノ約同会本部）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><persName><surname>中野</surname><forename>武営</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>友愛会代議員及顧問評議員招待会（<placeName>九段坂</placeName>富士見軒）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0094\">\n<head>\n<date when=\"1917-04-06\">\n           六日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n            御引籠リ\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            友愛会記念祝賀会（男爵御演説ノ約同会本部）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_中野武営\">\n<surname>\n              中野\n             </surname>\n<forename>\n              武営\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            友愛会代議員及顧問評議員招待会（\n            <placeName corresp=\"#place_九段\">\n             九段坂\n            </placeName>\n            富士見軒）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-04"
 }

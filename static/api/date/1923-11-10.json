@@ -2,13 +2,15 @@
     "agential": [
         "吉池慶正"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/吉池慶正"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1443",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -18,25 +20,25 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-11",
     "date_lvl2": "1923-11-10",
-    "description": "\n\n 十日（土） \n\n\n\n午前十半時　　吉池慶正氏来約（事務所）\n\n\n午後一時国際聯盟協会講演会（協調会講堂）\n\n\n",
+    "description": "\n\n\n           十日（土）\n          \n\n\n\n\n\n             午前十半時\n            \n\n\n              吉池\n             \n\n              慶正\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後一時\n            \n            国際聯盟協会講演会（協調会講堂）\n           \n\n\n",
     "fullname": [
-        "吉池慶正"
+        "\n              吉池\n             \n              慶正\n             "
     ],
     "label": "十日（土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20025m-292",
-    "objectID": "DKB20025m-291",
-    "prev": "DKB20025m-290",
+    "next": "DKB20025m-0292",
+    "objectID": "DKB20025m-0291",
+    "prev": "DKB20025m-0290",
     "sort": "DKB20025m-0291",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [],
     "spatial_uri": [],
     "temporal": "1923-11-10",
     "time": {
-        "10:30:00": "<div><time when=\"10:30:00\">午前十半時</time>　　<persName><surname>吉池</surname><forename>慶正</forename></persName>氏来約（事務所）</div>"
+        "10:30:00": "<div><time when=\"10:30:00\">\n             午前十半時\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏来約（事務所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-291\">\n<head>\n<date when=\"1923-11-10\"> 十日（土） </date>\n</head>\n<listEvent>\n<event>\n<p><time when=\"10:30:00\">午前十半時</time>　　<persName><surname>吉池</surname><forename>慶正</forename></persName>氏来約（事務所）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>国際聯盟協会講演会（協調会講堂）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0291\">\n<head>\n<date when=\"1923-11-10\">\n           十日（土）\n          </date>\n</head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            国際聯盟協会講演会（協調会講堂）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-11"
 }

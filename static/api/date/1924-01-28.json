@@ -3,13 +3,16 @@
         "指田義雄",
         "永井亨"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/指田義雄",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/永井亨"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1451",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -19,18 +22,18 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-01",
     "date_lvl2": "1924-01-28",
-    "description": "\n\n 廿八日  （月） \n\n\n午前十一時指田義雄氏来約（事務所）\n\n\n午後二時東京女学館評議員会（事務所）\n\n\n午後三時永井亨氏来約（事務所）\n\n\n〃四時帰一協会（帝大旧御殿）\n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （月）\n         \n\n\n\n\n             午前十一時\n            \n\n\n              指田\n             \n\n              義雄\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後二時\n            \n\n             東京\n            \n            女学館評議員会（事務所）\n           \n\n\n\n\n             午後三時\n            \n\n\n              永井\n             \n\n              亨\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             〃四時\n            \n            帰一協会（帝大旧御殿）\n           \n\n\n",
     "fullname": [
-        "指田義雄",
-        "永井亨"
+        "\n              指田\n             \n              義雄\n             ",
+        "\n              永井\n             \n              亨\n             "
     ],
-    "label": "廿八日  （月）",
+    "label": "廿八日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-29",
-    "objectID": "DKB20026m-28",
-    "prev": "DKB20026m-27",
+    "next": "DKB20026m-0029",
+    "objectID": "DKB20026m-0028",
+    "prev": "DKB20026m-0027",
     "sort": "DKB20026m-0028",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京"
     ],
@@ -39,10 +42,10 @@
     ],
     "temporal": "1924-01-28",
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">午前十一時</time><persName><surname>指田</surname><forename>義雄</forename></persName>氏来約（事務所）</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_指田義雄\">\n<surname>\n              指田\n             </surname>\n<forename>\n              義雄\n             </forename>\n</persName>\n            氏来約（事務所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-28\">\n<head>\n<date when=\"1924-01-28\"> 廿八日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>指田</surname><forename>義雄</forename></persName>氏来約（事務所）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><placeName>東京</placeName>女学館評議員会（事務所）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>永井</surname><forename>亨</forename></persName>氏来約（事務所）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">〃四時</time>帰一協会（帝大旧御殿）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0028\">\n<head>\n<date when=\"1924-01-28\">\n           廿八日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_指田義雄\">\n<surname>\n              指田\n             </surname>\n<forename>\n              義雄\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            女学館評議員会（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_永井亨\">\n<surname>\n              永井\n             </surname>\n<forename>\n              亨\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             〃四時\n            </time>\n            帰一協会（帝大旧御殿）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-01"
 }

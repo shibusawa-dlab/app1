@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1295",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20021m 大正八年 1919"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20021m 大正八年 1919"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20021m 大正八年 1919",
     "date": {
         "lvl0": "1919",
@@ -20,17 +20,17 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-03",
     "date_lvl2": "1919-03-08",
-    "description": "\n\n 八日  （土） \n\n\n午前八半時　　東京駅発静岡ヘ御出向\n\n\n尾崎元次郎氏ノ依頼ニテ静岡市青年会ニテ御講演ノ約\n\n\n静岡泊\n\n\n御病気ノ為断\n\n\n午後一―午後三時ヘボン講坐吉野博士講義（法大三十二番室）\n\n\n",
+    "description": "\n\n\n           八日\n          \n          （土）\n         \n\n\n\n\n             午前八半時\n            \n\n             東京\n            \n            駅発\n            \n             静岡\n            \n            ヘ御出向\n           \n\n\n\n\n\n              尾崎\n             \n\n              元次郎\n             \n\n            氏ノ依頼ニテ\n            \n             静岡\n            \n            市青年会ニテ御講演ノ約\n           \n\n\n\n\n             静岡\n            \n            泊\n           \n\n\n\n            御病気ノ為断\n           \n\n\n\n\n             午後一―午後三時\n            \n            ヘボン講坐\n            \n             吉野\n            \n            博士講義（法大三十二番室）\n           \n\n\n",
     "fullname": [
-        "尾崎元次郎"
+        "\n              尾崎\n             \n              元次郎\n             "
     ],
-    "label": "八日  （土）",
+    "label": "八日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20021m-70",
-    "objectID": "DKB20021m-69",
-    "prev": "DKB20021m-68",
+    "next": "DKB20021m-0070",
+    "objectID": "DKB20021m-0069",
+    "prev": "DKB20021m-0068",
     "sort": "DKB20021m-0069",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京",
         "静岡",
@@ -43,10 +43,10 @@
     ],
     "temporal": "1919-03-08",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八半時</time>　　<placeName>東京</placeName>駅発<placeName>静岡</placeName>ヘ御出向</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発\n            <placeName corresp=\"#place_静岡\">\n             静岡\n            </placeName>\n            ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-69\">\n<head>\n<date when=\"1919-03-08\"> 八日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　<placeName>東京</placeName>駅発<placeName>静岡</placeName>ヘ御出向</p>\n</event>\n<event>\n<p><persName><surname>尾崎</surname><forename>元次郎</forename></persName>氏ノ依頼ニテ<placeName>静岡</placeName>市青年会ニテ御講演ノ約</p>\n</event>\n<event>\n<p><placeName>静岡</placeName>泊</p>\n</event>\n<event>\n<p>御病気ノ為断</p>\n</event>\n<event>\n<p><time from=\"13:00:00\" to=\"15:00:00\">午後一―午後三時</time>ヘボン講坐<placeName>吉野</placeName>博士講義（法大三十二番室）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0069\">\n<head>\n<date when=\"1919-03-08\">\n           八日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発\n            <placeName corresp=\"#place_静岡\">\n             静岡\n            </placeName>\n            ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<persName corresp=\"#pers_尾崎元次郎\">\n<surname>\n              尾崎\n             </surname>\n<forename>\n              元次郎\n             </forename>\n</persName>\n            氏ノ依頼ニテ\n            <placeName corresp=\"#place_静岡\">\n             静岡\n            </placeName>\n            市青年会ニテ御講演ノ約\n           </p>\n</event>\n<event>\n<p>\n<placeName corresp=\"#place_静岡\">\n             静岡\n            </placeName>\n            泊\n           </p>\n</event>\n<event>\n<p>\n            御病気ノ為断\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"15:00:00\">\n             午後一―午後三時\n            </time>\n            ヘボン講坐\n            <placeName corresp=\"#place_吉野\">\n             吉野\n            </placeName>\n            博士講義（法大三十二番室）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-03"
 }

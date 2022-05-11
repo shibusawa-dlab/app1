@@ -2,13 +2,15 @@
     "agential": [
         "和田二郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/和田二郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1476",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -18,17 +20,17 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-09",
     "date_lvl2": "1924-09-30",
-    "description": "\n\n 三十日  （火） \n\n\n午前八半時頃　和田二郎氏来約（飛鳥山）\n\n\n午後二時協調会財務委員会（同会事ム所）\n\n\n午後四半時　　ダブルユー・パーマー氏歓迎会（上野精養軒）\n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （火）\n         \n\n\n\n\n             午前八半時\n            \n            頃\n            \n\n              和田\n             \n\n              二郎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            協調会財務委員会（同会事ム所）\n           \n\n\n\n\n             午後四半時\n            \n            ダブルユー・パーマー氏歓迎会（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "和田二郎"
+        "\n              和田\n             \n              二郎\n             "
     ],
-    "label": "三十日  （火）",
+    "label": "三十日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-269",
-    "objectID": "DKB20026m-267",
-    "prev": "DKB20026m-266",
+    "next": "DKB20026m-0269",
+    "objectID": "DKB20026m-0267",
+    "prev": "DKB20026m-0266",
     "sort": "DKB20026m-0267",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "上野精養軒"
@@ -39,10 +41,10 @@
     ],
     "temporal": "1924-09-30",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八半時</time>頃　<persName><surname>和田</surname><forename>二郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n            頃\n            <persName corresp=\"#pers_和田二郎\">\n<surname>\n              和田\n             </surname>\n<forename>\n              二郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-267\">\n<head>\n<date when=\"1924-09-30\"> 三十日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>頃　<persName><surname>和田</surname><forename>二郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>協調会財務委員会（同会事ム所）</p>\n</event>\n<event>\n<p><time when=\"16:30:00\">午後四半時</time>　　ダブルユー・パーマー氏歓迎会（<placeName>上野精養軒</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0267\">\n<head>\n<date when=\"1924-09-30\">\n           三十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            頃\n            <persName corresp=\"#pers_和田二郎\">\n<surname>\n              和田\n             </surname>\n<forename>\n              二郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            協調会財務委員会（同会事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            ダブルユー・パーマー氏歓迎会（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-09"
 }

@@ -7,11 +7,11 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/701",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB10019m 明治四十四年  1911"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB10019m 明治四十四年 1911"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-    "category_lvl1": "DKB10019m 明治四十四年  1911",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl1": "DKB10019m 明治四十四年 1911",
     "date": {
         "lvl0": "1911",
         "lvl1": "1911 > 1911-06",
@@ -20,15 +20,15 @@
     "date_lvl0": "1911",
     "date_lvl1": "1911-06",
     "date_lvl2": "1911-06-06",
-    "description": "\n\n 六月六日  火　曇　暑 \n午前七時起床、入浴シテ、朝飧ヲ食ス、後、種々ノ来客ニ接ス、午前十時事務所ニ抵リ書類ヲ検閲シ又事務ヲ処理ス、正午第一銀行ニ於テ午飧シ、後、佐々木氏ト要務ヲ談ス、午後再ヒ事務所ニ抵リ来人ニ接シ書類ヲ調査ス、夕方王子ニ帰宿ス、夜、新聞紙ヲ読マシム\n",
+    "description": "\n\n\n        六月六日\n       \n       火　曇　暑\n      \n\n\n        午前七時\n       \n       起床、入浴シテ、朝飧ヲ食ス、後、種々ノ来客ニ接ス、\n       \n        午前十時\n       \n       事務所ニ抵リ書類ヲ検閲シ又事務ヲ処理ス、\n       \n        正午\n       \n\n        第一銀行\n       \n       ニ於テ午飧シ、後、\n       \n\n         佐々木\n        \n\n       氏ト要務ヲ談ス、午後再ヒ事務所ニ抵リ来人ニ接シ書類ヲ調査ス、夕方\n       \n        王子\n       \n       ニ帰宿ス、夜、新聞紙ヲ読マシム\n      \n",
     "fullname": [],
-    "label": "六月六日  火　曇　暑",
+    "label": "六月六日              火　曇　暑",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
-    "next": "DKB10019m-136",
-    "objectID": "DKB10019m-135",
-    "prev": "DKB10019m-134",
+    "next": "DKB10019m-0136",
+    "objectID": "DKB10019m-0135",
+    "prev": "DKB10019m-0134",
     "sort": "DKB10019m-0135",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "王子"
     ],
@@ -37,12 +37,12 @@
     ],
     "temporal": "1911-06-06",
     "time": {
-        "07:00:00": "<div><time when=\"07:00:00\">午前七時</time>起床、入浴シテ、朝飧ヲ食ス、後、種々ノ来客ニ接ス、</div>",
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time>事務所ニ抵リ書類ヲ検閲シ又事務ヲ処理ス、</div>",
-        "12:00:00": "<div><time when=\"12:00:00\">正午</time><orgName>第一銀行</orgName>ニ於テ午飧シ、後、<persName><surname>佐々木</surname></persName>氏ト要務ヲ談ス、午後再ヒ事務所ニ抵リ来人ニ接シ書類ヲ調査ス、夕方<placeName>王子</placeName>ニ帰宿ス、夜、新聞紙ヲ読マシム</div>"
+        "07:00:00": "<div><time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、入浴シテ、朝飧ヲ食ス、後、種々ノ来客ニ接ス、</div>",
+        "10:00:00": "<div><time when=\"10:00:00\">\n        午前十時\n       </time>\n       事務所ニ抵リ書類ヲ検閲シ又事務ヲ処理ス、</div>",
+        "12:00:00": "<div><time when=\"12:00:00\">\n        正午\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧シ、後、\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       氏ト要務ヲ談ス、午後再ヒ事務所ニ抵リ来人ニ接シ書類ヲ調査ス、夕方\n       <placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス、夜、新聞紙ヲ読マシム</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10019m-135\">\n<head>\n<date when=\"1911-06-06\"> 六月六日 </date> 火　曇　暑 </head>\n<p><time when=\"07:00:00\">午前七時</time>起床、入浴シテ、朝飧ヲ食ス、後、種々ノ来客ニ接ス、<time when=\"10:00:00\">午前十時</time>事務所ニ抵リ書類ヲ検閲シ又事務ヲ処理ス、<time when=\"12:00:00\">正午</time><orgName>第一銀行</orgName>ニ於テ午飧シ、後、<persName><surname>佐々木</surname></persName>氏ト要務ヲ談ス、午後再ヒ事務所ニ抵リ来人ニ接シ書類ヲ調査ス、夕方<placeName>王子</placeName>ニ帰宿ス、夜、新聞紙ヲ読マシム</p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10019m-0135\">\n<head>\n<date when=\"1911-06-06\">\n        六月六日\n       </date>\n       火　曇　暑\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、入浴シテ、朝飧ヲ食ス、後、種々ノ来客ニ接ス、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n       事務所ニ抵リ書類ヲ検閲シ又事務ヲ処理ス、\n       <time when=\"12:00:00\">\n        正午\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧シ、後、\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       氏ト要務ヲ談ス、午後再ヒ事務所ニ抵リ来人ニ接シ書類ヲ調査ス、夕方\n       <placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス、夜、新聞紙ヲ読マシム\n      </p>\n</div>",
     "year": "1911",
     "yearAndMonth": "1911-06"
 }

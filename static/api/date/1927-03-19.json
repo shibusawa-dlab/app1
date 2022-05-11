@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1538",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -22,30 +22,31 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-03",
     "date_lvl2": "1927-03-19",
-    "description": "\n\n 十九日  （土） \n\n\n午前九時佐々木第一銀行頭取来約（飛鳥山）\n\n\n午前九半時　　角田柳作氏来約（あすか山邸）\n\n\n午後　　　　　事務所ニ御出勤\n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n\n\n              佐々木\n             \n\n\n             第一銀行\n            \n            頭取来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n\n              角田\n             \n\n              柳作\n             \n\n            氏来約（\n            \n             あすか山邸\n            \n            ）\n           \n\n\n\n\n             午後\n            \n            事務所ニ御出勤\n           \n\n\n",
     "fullname": [
-        "角田柳作"
+        "\n              角田\n             \n              柳作\n             "
     ],
-    "label": "十九日  （土）",
+    "label": "十九日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-63",
-    "objectID": "DKB20029m-61",
-    "prev": "DKB20029m-60",
+    "next": "DKB20029m-0063",
+    "objectID": "DKB20029m-0061",
+    "prev": "DKB20029m-0060",
     "sort": "DKB20029m-0061",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
-        "あすか山"
+        "あすか山邸"
     ],
     "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園"
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園",
+        "https://shibusawa-dlab.github.io/lab1/api/place/あすか山邸"
     ],
     "temporal": "1927-03-19",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>佐々木</surname></persName>第一銀行頭取来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_佐々木\">\n<surname>\n              佐々木\n             </surname>\n</persName>\n<orgName>\n             第一銀行\n            </orgName>\n            頭取来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-61\">\n<head>\n<date when=\"1927-03-19\"> 十九日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>佐々木</surname></persName>第一銀行頭取来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"09:30:00\">午前九半時</time>　　<persName><surname>角田</surname><forename>柳作</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">あすか山</placeName>邸）</p>\n</event>\n<event>\n<p><time>午後</time>　　　　　事務所ニ御出勤</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0061\">\n<head>\n<date when=\"1927-03-19\">\n           十九日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_佐々木\">\n<surname>\n              佐々木\n             </surname>\n</persName>\n<orgName>\n             第一銀行\n            </orgName>\n            頭取来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_角田柳作\">\n<surname>\n              角田\n             </surname>\n<forename>\n              柳作\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_あすか山邸\">\n             あすか山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             午後\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-03"
 }

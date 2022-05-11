@@ -5,15 +5,17 @@
         "佐々木"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/荘田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/末延",
         "https://shibusawa-dlab.github.io/lab1/api/chname/佐々木"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/111",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB10008m 明治三十二年  1899"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB10008m 明治三十二年 1899"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-    "category_lvl1": "DKB10008m 明治三十二年  1899",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl1": "DKB10008m 明治三十二年 1899",
     "date": {
         "lvl0": "1899",
         "lvl1": "1899 > 1899-04",
@@ -22,15 +24,15 @@
     "date_lvl0": "1899",
     "date_lvl1": "1899-04",
     "date_lvl2": "1899-04-24",
-    "description": "\n\n 四月廿四日 \n\n晴、午前十時海上保険会社重役会ニ出席ス、荘田、末延、佐々木諸氏ト談話ス、午後二時銀行ニ抵リ事務ヲ視ル、夕五時兜町ニ帰宿ス\n",
+    "description": "\n\n\n        四月廿四日\n       \n\n\n       晴、\n       \n        午前十時\n       \n       海上保険会社重役会ニ出席ス、\n       \n\n         荘田\n        \n\n       、\n       \n\n         末延\n        \n\n       、\n       \n\n         佐々木\n        \n\n       諸氏ト談話ス、\n       \n        午後二時\n       \n       銀行ニ抵リ事務ヲ視ル、夕\n       \n        五時\n       \n\n        兜町\n       \n       ニ帰宿ス\n      \n",
     "fullname": [],
     "label": "四月廿四日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
-    "next": "DKB10008m-115",
-    "objectID": "DKB10008m-114",
-    "prev": "DKB10008m-113",
+    "next": "DKB10008m-0115",
+    "objectID": "DKB10008m-0114",
+    "prev": "DKB10008m-0113",
     "sort": "DKB10008m-0114",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -39,12 +41,12 @@
     ],
     "temporal": "1899-04-24",
     "time": {
-        "10:00:00": "<div>晴、<time when=\"10:00:00\">午前十時</time>海上保険会社重役会ニ出席ス、<persName><surname>荘田</surname></persName>、<persName><surname>末延</surname></persName>、<persName><surname>佐々木</surname></persName>諸氏ト談話ス、</div>",
-        "14:00:00": "<div><time when=\"14:00:00\">午後二時</time>銀行ニ抵リ事務ヲ視ル、夕</div>",
-        "17:00:00": "<div><time when=\"17:00:00\">五時</time><placeName>兜町</placeName>ニ帰宿ス</div>"
+        "10:00:00": "<div>晴、<time when=\"10:00:00\">\n        午前十時\n       </time>\n       海上保険会社重役会ニ出席ス、\n       <persName corresp=\"#pers_荘田\">\n<surname>\n         荘田\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_末延\">\n<surname>\n         末延\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       諸氏ト談話ス、</div>",
+        "14:00:00": "<div><time when=\"14:00:00\">\n        午後二時\n       </time>\n       銀行ニ抵リ事務ヲ視ル、夕</div>",
+        "17:00:00": "<div><time when=\"17:00:00\">\n        五時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-114\">\n<head>\n<date when=\"1899-04-24\"> 四月廿四日 </date>\n</head>\n<p>晴、<time when=\"10:00:00\">午前十時</time>海上保険会社重役会ニ出席ス、<persName><surname>荘田</surname></persName>、<persName><surname>末延</surname></persName>、<persName><surname>佐々木</surname></persName>諸氏ト談話ス、<time when=\"14:00:00\">午後二時</time>銀行ニ抵リ事務ヲ視ル、夕<time when=\"17:00:00\">五時</time><placeName>兜町</placeName>ニ帰宿ス</p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-0114\">\n<head>\n<date when=\"1899-04-24\">\n        四月廿四日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n       海上保険会社重役会ニ出席ス、\n       <persName corresp=\"#pers_荘田\">\n<surname>\n         荘田\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_末延\">\n<surname>\n         末延\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       諸氏ト談話ス、\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n       銀行ニ抵リ事務ヲ視ル、夕\n       <time when=\"17:00:00\">\n        五時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1899",
     "yearAndMonth": "1899-04"
 }

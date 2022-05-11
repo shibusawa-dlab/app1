@@ -7,11 +7,11 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/133",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB10008m 明治三十二年  1899"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB10008m 明治三十二年 1899"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-    "category_lvl1": "DKB10008m 明治三十二年  1899",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl1": "DKB10008m 明治三十二年 1899",
     "date": {
         "lvl0": "1899",
         "lvl1": "1899 > 1899-10",
@@ -20,15 +20,15 @@
     "date_lvl0": "1899",
     "date_lvl1": "1899-10",
     "date_lvl2": "1899-10-23",
-    "description": "\n\n 十月廿三日 \n\n晴、朝八時海辺ヲ散歩シ午前十一時帰館、此日ハ終日読書遊戯ニ消閑ス、午後横浜長谷川氏ニ電報ヲ発シ、明夕同地ニ赴ク事ヲ告知ス\n",
+    "description": "\n\n\n        十月廿三日\n       \n\n\n       晴、朝\n       \n        八時\n       \n       海辺ヲ散歩シ\n       \n        午前十一時\n       \n       帰館、此日ハ終日読書遊戯ニ消閑ス、午後\n       \n        横浜\n       \n\n\n         長谷川\n        \n\n       氏ニ電報ヲ発シ、明夕同地ニ赴ク事ヲ告知ス\n      \n",
     "fullname": [],
     "label": "十月廿三日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
-    "next": "DKB10008m-298",
-    "objectID": "DKB10008m-297",
-    "prev": "DKB10008m-296",
+    "next": "DKB10008m-0298",
+    "objectID": "DKB10008m-0297",
+    "prev": "DKB10008m-0296",
     "sort": "DKB10008m-0297",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "横浜"
     ],
@@ -37,11 +37,11 @@
     ],
     "temporal": "1899-10-23",
     "time": {
-        "08:00:00": "<div>晴、朝<time when=\"08:00:00\">八時</time>海辺ヲ散歩シ</div>",
-        "11:00:00": "<div><time when=\"11:00:00\">午前十一時</time>帰館、此日ハ終日読書遊戯ニ消閑ス、午後<placeName>横浜</placeName><persName><surname>長谷川</surname></persName>氏ニ電報ヲ発シ、明夕同地ニ赴ク事ヲ告知ス</div>"
+        "08:00:00": "<div>晴、朝<time when=\"08:00:00\">\n        八時\n       </time>\n       海辺ヲ散歩シ</div>",
+        "11:00:00": "<div><time when=\"11:00:00\">\n        午前十一時\n       </time>\n       帰館、此日ハ終日読書遊戯ニ消閑ス、午後\n       <placeName corresp=\"#place_横浜\">\n        横浜\n       </placeName>\n<persName corresp=\"#pers_長谷川\">\n<surname>\n         長谷川\n        </surname>\n</persName>\n       氏ニ電報ヲ発シ、明夕同地ニ赴ク事ヲ告知ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-297\">\n<head>\n<date when=\"1899-10-23\"> 十月廿三日 </date>\n</head>\n<p>晴、朝<time when=\"08:00:00\">八時</time>海辺ヲ散歩シ<time when=\"11:00:00\">午前十一時</time>帰館、此日ハ終日読書遊戯ニ消閑ス、午後<placeName>横浜</placeName><persName><surname>長谷川</surname></persName>氏ニ電報ヲ発シ、明夕同地ニ赴ク事ヲ告知ス</p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-0297\">\n<head>\n<date when=\"1899-10-23\">\n        十月廿三日\n       </date>\n</head>\n<p>\n       晴、朝\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       海辺ヲ散歩シ\n       <time when=\"11:00:00\">\n        午前十一時\n       </time>\n       帰館、此日ハ終日読書遊戯ニ消閑ス、午後\n       <placeName corresp=\"#place_横浜\">\n        横浜\n       </placeName>\n<persName corresp=\"#pers_長谷川\">\n<surname>\n         長谷川\n        </surname>\n</persName>\n       氏ニ電報ヲ発シ、明夕同地ニ赴ク事ヲ告知ス\n      </p>\n</div>",
     "year": "1899",
     "yearAndMonth": "1899-10"
 }

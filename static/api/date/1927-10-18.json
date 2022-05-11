@@ -3,13 +3,16 @@
         "岡田純夫",
         "村上貞一"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡田純夫",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/村上貞一"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1560",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -19,31 +22,32 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-10",
     "date_lvl2": "1927-10-18",
-    "description": "\n\n 十八日  （火） \n\n\n午前九時頃　　岡田純夫氏来約（飛鳥山邸）\n\n\n午前十一・四〇時　御出勤\n\n\n午後二時村上貞一氏来約（事務所）\n\n\n午后二時吉岡忠氏来約（事務所）\n\n\n午後三・四五時ラモント氏御訪問（帝国ホテル）\n\n\n",
+    "description": "\n\n\n           十八日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n            頃\n            \n\n              岡田\n             \n\n              純夫\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一・四〇時\n            \n            御出勤\n           \n\n\n\n\n             午後二時\n            \n\n\n              村上\n             \n\n              貞一\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午后二時\n            \n\n             吉岡\n            \n            忠氏来約（事務所）\n           \n\n\n\n\n             午後三・四五時\n            \n            ラモント氏御訪問（帝国ホテル）\n           \n\n\n",
     "fullname": [
-        "岡田純夫",
-        "村上貞一"
+        "\n              岡田\n             \n              純夫\n             ",
+        "\n              村上\n             \n              貞一\n             "
     ],
-    "label": "十八日  （火）",
+    "label": "十八日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-266",
-    "objectID": "DKB20029m-265",
-    "prev": "DKB20029m-264",
+    "next": "DKB20029m-0266",
+    "objectID": "DKB20029m-0265",
+    "prev": "DKB20029m-0264",
     "sort": "DKB20029m-0265",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "吉岡"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/吉岡"
     ],
     "temporal": "1927-10-18",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time>頃　　<persName><surname>岡田</surname><forename>純夫</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            頃\n            <persName corresp=\"#pers_岡田純夫\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              純夫\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-265\">\n<head>\n<date when=\"1927-10-18\"> 十八日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time>頃　　<persName><surname>岡田</surname><forename>純夫</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:40:00\">午前十一・四〇時</time>　御出勤</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>村上</surname><forename>貞一</forename></persName>氏来約（事務所）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午后二時</time><placeName>吉岡</placeName>忠氏来約（事務所）</p>\n</event>\n<event>\n<p><time when=\"15:45:00\">午後三・四五時</time>ラモント氏御訪問（帝国ホテル）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0265\">\n<head>\n<date when=\"1927-10-18\">\n           十八日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            頃\n            <persName corresp=\"#pers_岡田純夫\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              純夫\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:40:00\">\n             午前十一・四〇時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_村上貞一\">\n<surname>\n              村上\n             </surname>\n<forename>\n              貞一\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n<placeName corresp=\"#place_吉岡\">\n             吉岡\n            </placeName>\n            忠氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:45:00\">\n             午後三・四五時\n            </time>\n            ラモント氏御訪問（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-10"
 }

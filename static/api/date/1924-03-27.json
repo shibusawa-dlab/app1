@@ -3,10 +3,10 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1458",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -16,15 +16,15 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-03",
     "date_lvl2": "1924-03-27",
-    "description": "\n\n 廿七日  （木） \n\n\n午前十時仏国大使ト御会見ノ約（同大使館）\n\n\n正午　　　　　東北振興会委員会（銀行クラブ）\n\n\n午後五時日本結核予防協会復旧善後策協議会（大手町大日本私立衛生会）\n\n\n",
+    "description": "\n\n\n           廿七日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n             仏国\n            \n            大使ト御会見ノ約（同大使館）\n           \n\n\n\n\n             正午\n            \n\n             東北\n            \n            振興会委員会（銀行クラブ）\n           \n\n\n\n\n             午後五時\n            \n\n             日本\n            \n            結核予防協会復旧善後策協議会\n            \n            （\n            \n             大手町\n            \n            大\n            \n             日本\n            \n            私立衛生会）\n           \n\n\n",
     "fullname": [],
-    "label": "廿七日  （木）",
+    "label": "廿七日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-90",
-    "objectID": "DKB20026m-89",
-    "prev": "DKB20026m-88",
+    "next": "DKB20026m-0090",
+    "objectID": "DKB20026m-0089",
+    "prev": "DKB20026m-0088",
     "sort": "DKB20026m-0089",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "仏国",
         "東北地方",
@@ -39,10 +39,10 @@
     ],
     "temporal": "1924-03-27",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><placeName>仏国</placeName>大使ト御会見ノ約（同大使館）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_仏国\">\n             仏国\n            </placeName>\n            大使ト御会見ノ約（同大使館）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-89\">\n<head>\n<date when=\"1924-03-27\"> 廿七日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><placeName>仏国</placeName>大使ト御会見ノ約（同大使館）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　<placeName>東北</placeName>振興会委員会（銀行クラブ）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><placeName>日本</placeName>結核予防協会復旧善後策協議会<lb/>（<placeName>大手町</placeName>大<placeName>日本</placeName>私立衛生会）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0089\">\n<head>\n<date when=\"1924-03-27\">\n           廿七日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_仏国\">\n             仏国\n            </placeName>\n            大使ト御会見ノ約（同大使館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_東北地方\">\n             東北\n            </placeName>\n            振興会委員会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            結核予防協会復旧善後策協議会\n            <lb/>\n            （\n            <placeName corresp=\"#place_大手町\">\n             大手町\n            </placeName>\n            大\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            私立衛生会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-03"
 }

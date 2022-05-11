@@ -9,11 +9,11 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1511",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-05",
@@ -22,28 +22,30 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-05",
     "date_lvl2": "1926-05-14",
-    "description": "\n\n 十四日  （金） \n\n\n正午　　　　　児玉謙次氏会見（日華実業協会）\n\n\n正午　　　　　日華実業協会幹事会（同会）\n\n\n午後二時御出勤\n\n\n午後二半時　　幣原喜重郎男催園遊会（上富士前町同男邸）（但雨天中止）\n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （金）\n         \n\n\n\n\n             正午\n            \n\n\n              児玉\n             \n\n              謙次\n             \n\n            氏会見（日華実業協会）\n           \n\n\n\n\n             正午\n            \n            日華実業協会幹事会（同会）\n           \n\n\n\n\n             午後二時\n            \n            御出勤\n           \n\n\n\n\n             午後二半時\n            \n\n\n              幣原\n             \n\n              喜重郎\n             \n\n            男催園遊会（\n            \n             上富士前町\n            \n            同男邸）\n            \n            （但雨天中止）\n           \n\n\n",
     "fullname": [
-        "児玉謙次",
-        "幣原喜重郎"
+        "\n              児玉\n             \n              謙次\n             ",
+        "\n              幣原\n             \n              喜重郎\n             "
     ],
-    "label": "十四日  （金）",
+    "label": "十四日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-135",
-    "objectID": "DKB20028m-134",
-    "prev": "DKB20028m-133",
+    "next": "DKB20028m-0135",
+    "objectID": "DKB20028m-0134",
+    "prev": "DKB20028m-0133",
     "sort": "DKB20028m-0134",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "上富士前町"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/上富士前町"
+    ],
     "temporal": "1926-05-14",
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">正午</time>　　　　　<persName><surname>児玉</surname><forename>謙次</forename></persName>氏会見（日華実業協会）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_児玉謙次\">\n<surname>\n              児玉\n             </surname>\n<forename>\n              謙次\n             </forename>\n</persName>\n            氏会見（日華実業協会）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-134\">\n<head>\n<date when=\"1926-05-14\"> 十四日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　<persName><surname>児玉</surname><forename>謙次</forename></persName>氏会見（日華実業協会）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　日華実業協会幹事会（同会）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>御出勤</p>\n</event>\n<event>\n<p><time when=\"14:30:00\">午後二半時</time>　　<persName><surname>幣原</surname><forename>喜重郎</forename></persName>男催園遊会（<placeName>上富士前町</placeName>同男邸）<lb/>（但雨天中止）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0134\">\n<head>\n<date when=\"1926-05-14\">\n           十四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_児玉謙次\">\n<surname>\n              児玉\n             </surname>\n<forename>\n              謙次\n             </forename>\n</persName>\n            氏会見（日華実業協会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華実業協会幹事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<persName corresp=\"#pers_幣原喜重郎\">\n<surname>\n              幣原\n             </surname>\n<forename>\n              喜重郎\n             </forename>\n</persName>\n            男催園遊会（\n            <placeName corresp=\"#place_上富士前町\">\n             上富士前町\n            </placeName>\n            同男邸）\n            <lb/>\n            （但雨天中止）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-05"
 }

@@ -8,14 +8,15 @@
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/須田",
         "https://shibusawa-dlab.github.io/lab1/api/chname/大隈信常",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/工藤氏"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/工藤氏",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/木島"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1404",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -25,17 +26,17 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-09",
     "date_lvl2": "1922-09-26",
-    "description": "\n\n 廿六日  （火） \n\n\n午前八時東京日日新聞記者須田氏来約（飛鳥山邸）\n\n\n朝ノ内　　　　大倉男来約（飛鳥山邸）\n\n\n午後二時頃　　大隈信常侯ト御会談ノ約（兜町）\n\n\n午後三時古城管堂氏来約（兜町）\n\n\n午後時　　　　日華実業協会工藤氏兜町ニ来約、外務省木島氏同上\n\n\n",
+    "description": "\n\n\n           廿六日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n\n             東京\n            \n            日日新聞記者\n            \n\n              須田\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             朝ノ内\n            \n            大倉男来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            頃\n            \n\n              大隈\n             \n\n              信常\n             \n\n            侯ト御会談ノ約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            古城管堂氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後時\n            \n            日華実業協会\n            \n\n              工藤\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約、外務省\n            \n\n              木島\n             \n\n            氏同上\n           \n\n\n",
     "fullname": [
-        "大隈信常"
+        "\n              大隈\n             \n              信常\n             "
     ],
-    "label": "廿六日  （火）",
+    "label": "廿六日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-231",
-    "objectID": "DKB20024m-230",
-    "prev": "DKB20024m-229",
+    "next": "DKB20024m-0231",
+    "objectID": "DKB20024m-0230",
+    "prev": "DKB20024m-0229",
     "sort": "DKB20024m-0230",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京",
         "飛鳥山邸",
@@ -43,14 +44,15 @@
     ],
     "spatial_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1922-09-26",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><placeName>東京</placeName>日日新聞記者<persName><surname>須田</surname></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            日日新聞記者\n            <persName corresp=\"#pers_須田\">\n<surname>\n              須田\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-230\">\n<head>\n<date when=\"1922-09-26\"> 廿六日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><placeName>東京</placeName>日日新聞記者<persName><surname>須田</surname></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time>朝ノ内</time>　　　　大倉男来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>頃　　<persName><surname>大隈</surname><forename>信常</forename></persName>侯ト御会談ノ約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>古城管堂氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time>午後時</time>　　　　日華実業協会<persName><surname>工藤</surname></persName>氏<placeName>兜町</placeName>ニ来約、外務省<persName><surname>木島</surname></persName>氏同上</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0230\">\n<head>\n<date when=\"1922-09-26\">\n           廿六日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            日日新聞記者\n            <persName corresp=\"#pers_須田\">\n<surname>\n              須田\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             朝ノ内\n            </time>\n            大倉男来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            頃\n            <persName corresp=\"#pers_大隈信常\">\n<surname>\n              大隈\n             </surname>\n<forename>\n              信常\n             </forename>\n</persName>\n            侯ト御会談ノ約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            古城管堂氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             午後時\n            </time>\n            日華実業協会\n            <persName corresp=\"#pers_工藤氏\">\n<surname>\n              工藤\n             </surname>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約、外務省\n            <persName corresp=\"#pers_木島\">\n<surname>\n              木島\n             </surname>\n</persName>\n            氏同上\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-09"
 }

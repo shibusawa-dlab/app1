@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1548",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -20,31 +20,31 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-06",
     "date_lvl2": "1927-06-17",
-    "description": "\n\n 十七日  （金） \n\n\n午前八・四〇時　北条停車場発\n\n\n午零時五十五分　両国着\n\n\n午后三時総理大臣官邸ヘ御訪問\n\n\n午後五時聖徳太子奉讚会理事会（日本橋区呉服町浪花屋）\n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （金）\n         \n\n\n\n\n             午前八・四〇時\n            \n\n\n              北条\n             \n\n            停車場発\n           \n\n\n\n\n             午零時五十五分\n            \n            両国着\n           \n\n\n\n\n             午后三時\n            \n            総理大臣官邸ヘ御訪問\n           \n\n\n\n\n             午後五時\n            \n            聖徳太子奉讚会理事会（\n            \n             日本橋\n            \n            区\n            \n             呉服町\n            \n\n             浪花\n            \n            屋）\n           \n\n\n",
     "fullname": [],
-    "label": "十七日  （金）",
+    "label": "十七日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-153",
-    "objectID": "DKB20029m-152",
-    "prev": "DKB20029m-151",
+    "next": "DKB20029m-0153",
+    "objectID": "DKB20029m-0152",
+    "prev": "DKB20029m-0151",
     "sort": "DKB20029m-0152",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋",
         "呉服町",
-        "なにわ"
+        "浪花"
     ],
     "spatial_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋",
         "https://shibusawa-dlab.github.io/lab1/api/place/呉服町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/なにわ"
+        "https://shibusawa-dlab.github.io/lab1/api/place/浪花"
     ],
     "temporal": "1927-06-17",
     "time": {
-        "08:40:00": "<div><time when=\"08:40:00\">午前八・四〇時</time>　<persName><surname>北条</surname></persName>停車場発</div>"
+        "08:40:00": "<div><time when=\"08:40:00\">\n             午前八・四〇時\n            </time>\n<persName corresp=\"#pers_北条\">\n<surname>\n              北条\n             </surname>\n</persName>\n            停車場発</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-152\">\n<head>\n<date when=\"1927-06-17\"> 十七日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"08:40:00\">午前八・四〇時</time>　<persName><surname>北条</surname></persName>停車場発</p>\n</event>\n<event>\n<p><time when=\"12:55:00\">午零時五十五分</time>　両国着</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午后三時</time>総理大臣官邸ヘ御訪問</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>聖徳太子奉讚会理事会（<placeName>日本橋</placeName>区<placeName>呉服町</placeName><placeName>浪花</placeName>屋）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0152\">\n<head>\n<date when=\"1927-06-17\">\n           十七日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:40:00\">\n             午前八・四〇時\n            </time>\n<persName corresp=\"#pers_北条\">\n<surname>\n              北条\n             </surname>\n</persName>\n            停車場発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:55:00\">\n             午零時五十五分\n            </time>\n            両国着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n            総理大臣官邸ヘ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            聖徳太子奉讚会理事会（\n            <placeName corresp=\"#place_日本橋\">\n             日本橋\n            </placeName>\n            区\n            <placeName corresp=\"#place_呉服町\">\n             呉服町\n            </placeName>\n<placeName corresp=\"#place_浪花\">\n             浪花\n            </placeName>\n            屋）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-06"
 }

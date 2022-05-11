@@ -4,14 +4,15 @@
         "横川重次"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/韓相竜",
         "https://shibusawa-dlab.github.io/lab1/api/chname/横川重次"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1200",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -21,18 +22,18 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-04",
     "date_lvl2": "1916-04-17",
-    "description": "\n\n 十七日  （月） \n\n\n午前十一半時　韓相竜氏来約（兜町）\n\n\n正午　　　　　横川重次氏来約（兜町）\n\n\n午後五時竜門社評議員会（帝国ホテル）\n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （月）\n         \n\n\n\n\n             午前十一半時\n            \n\n\n              韓\n             \n\n              相竜\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n\n              横川\n             \n\n              重次\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            竜門社評議員会（帝国ホテル）\n           \n\n\n",
     "fullname": [
-        "韓相竜",
-        "横川重次"
+        "\n              韓\n             \n              相竜\n             ",
+        "\n              横川\n             \n              重次\n             "
     ],
-    "label": "十七日  （月）",
+    "label": "十七日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-90",
-    "objectID": "DKB20018m-89",
-    "prev": "DKB20018m-88",
+    "next": "DKB20018m-0090",
+    "objectID": "DKB20018m-0089",
+    "prev": "DKB20018m-0088",
     "sort": "DKB20018m-0089",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -41,10 +42,10 @@
     ],
     "temporal": "1916-04-17",
     "time": {
-        "11:30:00": "<div><time when=\"11:30:00\">午前十一半時</time>　<persName><surname>韓</surname><forename>相竜</forename></persName>氏来約（<placeName>兜町</placeName>）</div>"
+        "11:30:00": "<div><time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<persName corresp=\"#pers_韓相竜\">\n<surname>\n              韓\n             </surname>\n<forename>\n              相竜\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-89\">\n<head>\n<date when=\"1916-04-17\"> 十七日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"11:30:00\">午前十一半時</time>　<persName><surname>韓</surname><forename>相竜</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　<persName><surname>横川</surname><forename>重次</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>竜門社評議員会（帝国ホテル）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0089\">\n<head>\n<date when=\"1916-04-17\">\n           十七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<persName corresp=\"#pers_韓相竜\">\n<surname>\n              韓\n             </surname>\n<forename>\n              相竜\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_横川重次\">\n<surname>\n              横川\n             </surname>\n<forename>\n              重次\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            竜門社評議員会（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-04"
 }

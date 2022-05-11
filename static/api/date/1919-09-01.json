@@ -4,14 +4,15 @@
         "神崎驥一"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/本田仙太郎",
         "https://shibusawa-dlab.github.io/lab1/api/chname/神崎驥一"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1308",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20021m 大正八年 1919"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20021m 大正八年 1919"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20021m 大正八年 1919",
     "date": {
         "lvl0": "1919",
@@ -21,18 +22,18 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-09",
     "date_lvl2": "1919-09-01",
-    "description": "\n\n 一日  （月） \n\n\n午前十時野田逓信大臣御訪問ノ約（官邸）\n\n\n午後二時本田仙太郎氏来約（兜町）\n\n\n午後三時神崎驥一氏来約（兜町）\n\n\n午後五時御同族会（兜町）\n\n\n",
+    "description": "\n\n\n           一日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n\n             野田\n            \n            逓信大臣御訪問ノ約（官邸）\n           \n\n\n\n\n             午後二時\n            \n\n\n              本田\n             \n\n              仙太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              神崎\n             \n\n              驥一\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            御同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "本田仙太郎",
-        "神崎驥一"
+        "\n              本田\n             \n              仙太郎\n             ",
+        "\n              神崎\n             \n              驥一\n             "
     ],
-    "label": "一日  （月）",
+    "label": "一日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20021m-215",
-    "objectID": "DKB20021m-214",
-    "prev": "DKB20021m-213",
+    "next": "DKB20021m-0215",
+    "objectID": "DKB20021m-0214",
+    "prev": "DKB20021m-0213",
     "sort": "DKB20021m-0214",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "野田",
         "日本橋兜町"
@@ -43,10 +44,10 @@
     ],
     "temporal": "1919-09-01",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><placeName>野田</placeName>逓信大臣御訪問ノ約（官邸）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_野田\">\n             野田\n            </placeName>\n            逓信大臣御訪問ノ約（官邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-214\">\n<head>\n<date when=\"1919-09-01\"> 一日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><placeName>野田</placeName>逓信大臣御訪問ノ約（官邸）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>本田</surname><forename>仙太郎</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>神崎</surname><forename>驥一</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>御同族会（<placeName>兜町</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0214\">\n<head>\n<date when=\"1919-09-01\">\n           一日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_野田\">\n             野田\n            </placeName>\n            逓信大臣御訪問ノ約（官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_本田仙太郎\">\n<surname>\n              本田\n             </surname>\n<forename>\n              仙太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_神崎驥一\">\n<surname>\n              神崎\n             </surname>\n<forename>\n              驥一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-09"
 }

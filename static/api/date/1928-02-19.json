@@ -2,13 +2,15 @@
     "agential": [
         "渋沢信雄"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢信雄"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1572",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20030m 昭和三年 1928"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20030m 昭和三年 1928"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20030m 昭和三年 1928",
     "date": {
         "lvl0": "1928",
@@ -18,17 +20,17 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-02",
     "date_lvl2": "1928-02-19",
-    "description": "\n\n 十九日  （日） \n\n\n午十二時頃　　渋沢信雄様欧米御旅行ノ為御出発（東京駅発電車）\n\n\n午後三時コレア丸にて横浜御出帆（四号岩壁）\n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （日）\n         \n\n\n\n\n             午十二時\n            \n            頃\n            \n\n              渋沢\n             \n\n              信雄\n             \n\n            様欧米御旅行ノ為御出発（\n            \n             東京\n            \n            駅発電車）\n           \n\n\n\n\n             午後三時\n            \n            コレア丸にて\n            \n             横浜\n            \n            御出帆（四号岩壁）\n           \n\n\n",
     "fullname": [
-        "渋沢信雄"
+        "\n              渋沢\n             \n              信雄\n             "
     ],
-    "label": "十九日  （日）",
+    "label": "十九日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20030m-51",
-    "objectID": "DKB20030m-50",
-    "prev": "DKB20030m-49",
+    "next": "DKB20030m-0051",
+    "objectID": "DKB20030m-0050",
+    "prev": "DKB20030m-0049",
     "sort": "DKB20030m-0050",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京",
         "横浜"
@@ -39,10 +41,10 @@
     ],
     "temporal": "1928-02-19",
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">午十二時</time>頃　　<persName><surname>渋沢</surname><forename>信雄</forename></persName>様欧米御旅行ノ為御出発（<placeName>東京</placeName>駅発電車）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             午十二時\n            </time>\n            頃\n            <persName corresp=\"#pers_渋沢信雄\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              信雄\n             </forename>\n</persName>\n            様欧米御旅行ノ為御出発（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発電車）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-50\">\n<head>\n<date when=\"1928-02-19\"> 十九日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"12:00:00\">午十二時</time>頃　　<persName><surname>渋沢</surname><forename>信雄</forename></persName>様欧米御旅行ノ為御出発（<placeName>東京</placeName>駅発電車）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>コレア丸にて<placeName>横浜</placeName>御出帆（四号岩壁）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0050\">\n<head>\n<date when=\"1928-02-19\">\n           十九日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午十二時\n            </time>\n            頃\n            <persName corresp=\"#pers_渋沢信雄\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              信雄\n             </forename>\n</persName>\n            様欧米御旅行ノ為御出発（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発電車）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            コレア丸にて\n            <placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            御出帆（四号岩壁）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-02"
 }

@@ -11,10 +11,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1356",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -24,32 +24,33 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-03",
     "date_lvl2": "1921-03-18",
-    "description": "\n\n 十八日  （金） \n\n\n午前九時高木兼寛男伝編纂委員来約（アスカ山）\n\n\n午後二―三時故飯島魁氏告別式（青山斎場）\n\n\n午後四時鈴木文治氏兜町ニ来約\n\n\n午後六時明徳院一周忌晩餐会（三椽亭《（三縁亭）》）\n\n\n",
+    "description": "\n\n\n           十八日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n\n\n              高木\n             \n\n              兼寛\n             \n\n            男伝編纂委員来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後二―三時\n            \n            故\n            \n\n              飯島\n             \n\n              魁\n             \n\n            氏告別式（青山斎場）\n           \n\n\n\n\n             午後四時\n            \n\n\n              鈴木\n             \n\n              文治\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後六時\n            \n            明徳院一周忌晩餐会（三椽亭《（三縁亭）》）\n           \n\n\n",
     "fullname": [
-        "高木兼寛",
-        "飯島魁",
-        "鈴木文治"
+        "\n              高木\n             \n              兼寛\n             ",
+        "\n              飯島\n             \n              魁\n             ",
+        "\n              鈴木\n             \n              文治\n             "
     ],
-    "label": "十八日  （金）",
+    "label": "十八日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20023m-70",
-    "objectID": "DKB20023m-69",
-    "prev": "DKB20023m-68",
+    "next": "DKB20023m-0070",
+    "objectID": "DKB20023m-0069",
+    "prev": "DKB20023m-0068",
     "sort": "DKB20023m-0069",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山",
         "日本橋兜町"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1921-03-18",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>高木</surname><forename>兼寛</forename></persName>男伝編纂委員来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_高木兼寛\">\n<surname>\n              高木\n             </surname>\n<forename>\n              兼寛\n             </forename>\n</persName>\n            男伝編纂委員来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-69\">\n<head>\n<date when=\"1921-03-18\"> 十八日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>高木</surname><forename>兼寛</forename></persName>男伝編纂委員来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time from=\"15:00:00\" to=\"15:00:00\">午後二―三時</time>故<persName><surname>飯島</surname><forename>魁</forename></persName>氏告別式（青山斎場）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><persName><surname>鈴木</surname><forename>文治</forename></persName>氏<placeName>兜町</placeName>ニ来約</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time>明徳院一周忌晩餐会（三椽亭《（三縁亭）》）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0069\">\n<head>\n<date when=\"1921-03-18\">\n           十八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_高木兼寛\">\n<surname>\n              高木\n             </surname>\n<forename>\n              兼寛\n             </forename>\n</persName>\n            男伝編纂委員来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"15:00:00\">\n             午後二―三時\n            </time>\n            故\n            <persName corresp=\"#pers_飯島魁\">\n<surname>\n              飯島\n             </surname>\n<forename>\n              魁\n             </forename>\n</persName>\n            氏告別式（青山斎場）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_鈴木文治\">\n<surname>\n              鈴木\n             </surname>\n<forename>\n              文治\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            明徳院一周忌晩餐会（三椽亭《（三縁亭）》）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-03"
 }

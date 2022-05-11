@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1440",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -20,15 +20,15 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-10",
     "date_lvl2": "1923-10-07",
-    "description": "\n\n 七日  （日） \n\n\n午後二時東京慈恵会理事会（華族会館）\n\n\n午後二時徳川公爵ト御会談ノ約（華族会館）\n\n\n",
+    "description": "\n\n\n           七日\n          \n          （日）\n         \n\n\n\n\n             午後二時\n            \n\n             東京\n            \n            慈恵会理事会（華族会館）\n           \n\n\n\n\n             午後二時\n            \n\n\n              徳川\n             \n\n            公爵ト御会談ノ約（華族会館）\n           \n\n\n",
     "fullname": [],
-    "label": "七日  （日）",
+    "label": "七日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20025m-256",
-    "objectID": "DKB20025m-255",
-    "prev": "DKB20025m-254",
+    "next": "DKB20025m-0256",
+    "objectID": "DKB20025m-0255",
+    "prev": "DKB20025m-0254",
     "sort": "DKB20025m-0255",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京"
     ],
@@ -37,10 +37,10 @@
     ],
     "temporal": "1923-10-07",
     "time": {
-        "14:00:00": "<div><time when=\"14:00:00\">午後二時</time><placeName>東京</placeName>慈恵会理事会（華族会館）</div>"
+        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会理事会（華族会館）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-255\">\n<head>\n<date when=\"1923-10-07\"> 七日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><placeName>東京</placeName>慈恵会理事会（華族会館）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>徳川</surname></persName>公爵ト御会談ノ約（華族会館）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0255\">\n<head>\n<date when=\"1923-10-07\">\n           七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会理事会（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公爵ト御会談ノ約（華族会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-10"
 }

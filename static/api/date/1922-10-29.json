@@ -3,10 +3,10 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1408",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -16,15 +16,15 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-10",
     "date_lvl2": "1922-10-29",
-    "description": "\n\n 廿九日  （日） \n\n\n午前八時孔子二千四百年追遠記念祭（湯島聖堂）\n\n\n午後四時埼玉学生誘掖会総会（同会）\n\n\n午後五時斯文会長ヨリ御案内（帝国ホテル）\n\n\n",
+    "description": "\n\n\n           廿九日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n            孔子二千四百年追遠記念祭（\n            \n             湯島\n            \n            聖堂）\n           \n\n\n\n\n             午後四時\n            \n\n             埼玉\n            \n            学生誘掖会総会（同会）\n           \n\n\n\n\n             午後五時\n            \n            斯文会長ヨリ御案内（帝国ホテル）\n           \n\n\n",
     "fullname": [],
-    "label": "廿九日  （日）",
+    "label": "廿九日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-266",
-    "objectID": "DKB20024m-265",
-    "prev": "DKB20024m-264",
+    "next": "DKB20024m-0266",
+    "objectID": "DKB20024m-0265",
+    "prev": "DKB20024m-0264",
     "sort": "DKB20024m-0265",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "湯島",
         "埼玉"
@@ -35,10 +35,10 @@
     ],
     "temporal": "1922-10-29",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time>孔子二千四百年追遠記念祭（<placeName>湯島</placeName>聖堂）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            孔子二千四百年追遠記念祭（\n            <placeName corresp=\"#place_湯島\">\n             湯島\n            </placeName>\n            聖堂）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-265\">\n<head>\n<date when=\"1922-10-29\"> 廿九日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time>孔子二千四百年追遠記念祭（<placeName>湯島</placeName>聖堂）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><placeName>埼玉</placeName>学生誘掖会総会（同会）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>斯文会長ヨリ御案内（帝国ホテル）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0265\">\n<head>\n<date when=\"1922-10-29\">\n           廿九日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            孔子二千四百年追遠記念祭（\n            <placeName corresp=\"#place_湯島\">\n             湯島\n            </placeName>\n            聖堂）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会総会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            斯文会長ヨリ御案内（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-10"
 }

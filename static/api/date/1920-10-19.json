@@ -4,13 +4,17 @@
         "三友",
         "堀越善重"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/奥村多喜",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/三友",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/堀越善重"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1344",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -20,26 +24,28 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-10",
     "date_lvl2": "1920-10-19",
-    "description": "\n\n 十九日  （火） \n\n\n午前八―九時　奥村多喜衛氏来約（飛鳥山邸）\n\n\n午前中　　　　協調会へ御出向の約（同会）\n\n\n正午　　　　　泉橋慈善病院の件（三友倶楽部）\n\n\n午後五時堀越善重郎氏ヨリ御案内（トキワヤ）\n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （火）\n         \n\n\n\n\n             午前八―九時\n            \n\n\n              奥村\n             \n\n              多喜\n             \n\n            衛氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前中\n            \n            協調会へ御出向の約（同会）\n           \n\n\n\n\n             正午\n            \n            泉橋慈善病院の件（\n            \n\n              三友\n             \n\n            倶楽部）\n           \n\n\n\n\n             午後五時\n            \n\n\n              堀越\n             \n\n              善重\n             \n\n            郎氏ヨリ御案内（トキワヤ）\n           \n\n\n",
     "fullname": [
-        "奥村多喜",
-        "堀越善重"
+        "\n              奥村\n             \n              多喜\n             ",
+        "\n              堀越\n             \n              善重\n             "
     ],
-    "label": "十九日  （火）",
+    "label": "十九日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-270",
-    "objectID": "DKB20022m-269",
-    "prev": "DKB20022m-268",
+    "next": "DKB20022m-0270",
+    "objectID": "DKB20022m-0269",
+    "prev": "DKB20022m-0268",
     "sort": "DKB20022m-0269",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1920-10-19",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-269\">\n<head>\n<date when=\"1920-10-19\"> 十九日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time from=\"08:00:00\" to=\"09:00:00\">午前八―九時</time>　<persName><surname>奥村</surname><forename>多喜</forename></persName>衛氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time>午前中</time>　　　　協調会へ御出向の約（同会）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　泉橋慈善病院の件（<persName><surname>三友</surname></persName>倶楽部）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><persName><surname>堀越</surname><forename>善重</forename></persName>郎氏ヨリ御案内（トキワヤ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0269\">\n<head>\n<date when=\"1920-10-19\">\n           十九日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"09:00:00\">\n             午前八―九時\n            </time>\n<persName corresp=\"#pers_奥村多喜\">\n<surname>\n              奥村\n             </surname>\n<forename>\n              多喜\n             </forename>\n</persName>\n            衛氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             午前中\n            </time>\n            協調会へ御出向の約（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            泉橋慈善病院の件（\n            <persName corresp=\"#pers_三友\">\n<surname>\n              三友\n             </surname>\n</persName>\n            倶楽部）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_堀越善重\">\n<surname>\n              堀越\n             </surname>\n<forename>\n              善重\n             </forename>\n</persName>\n            郎氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-10"
 }

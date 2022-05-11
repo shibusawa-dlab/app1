@@ -11,6 +11,7 @@
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/宇野",
         "https://shibusawa-dlab.github.io/lab1/api/chname/浅野総一郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐藤愛麿",
         "https://shibusawa-dlab.github.io/lab1/api/chname/日置益",
         "https://shibusawa-dlab.github.io/lab1/api/chname/寺島",
         "https://shibusawa-dlab.github.io/lab1/api/chname/東郷",
@@ -18,10 +19,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1212",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -31,20 +32,20 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-08",
     "date_lvl2": "1916-08-04",
-    "description": "\n\n 四日  （金） \n\n\n午前七半時　　印刷世界宇野氏来約（飛鳥山）\n\n\n午前八半時　　林駐支公使出発（東京駅発）\n\n\n午前九時浅野総一郎氏来約（兜町）\n\n\n正午　　　　　佐藤愛麿、日置益、寺島伯、東郷男ノ諸氏送迎会（日本クラブ）\n\n\n午後五時鎌田栄吉氏ヨリ御案内（交詢社）\n\n\n",
+    "description": "\n\n\n           四日\n          \n          （金）\n         \n\n\n\n\n             午前七半時\n            \n            印刷世界\n            \n\n              宇野\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前八半時\n            \n            林駐支公使出発（\n            \n             東京\n            \n            駅発）\n           \n\n\n\n\n             午前九時\n            \n\n\n              浅野\n             \n\n              総一郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n\n              佐藤\n             \n\n              愛麿\n             \n\n            、\n            \n\n              日置\n             \n\n              益\n             \n\n            、\n            \n\n              寺島\n             \n\n            伯、\n            \n\n              東郷\n             \n\n            男ノ諸氏送迎会（日本クラブ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              鎌田\n             \n\n              栄吉\n             \n\n            氏ヨリ御案内（交詢社）\n           \n\n\n",
     "fullname": [
-        "浅野総一郎",
-        "佐藤愛麿",
-        "日置益",
-        "鎌田栄吉"
+        "\n              浅野\n             \n              総一郎\n             ",
+        "\n              佐藤\n             \n              愛麿\n             ",
+        "\n              日置\n             \n              益\n             ",
+        "\n              鎌田\n             \n              栄吉\n             "
     ],
-    "label": "四日  （金）",
+    "label": "四日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-202",
-    "objectID": "DKB20018m-201",
-    "prev": "DKB20018m-200",
+    "next": "DKB20018m-0202",
+    "objectID": "DKB20018m-0201",
+    "prev": "DKB20018m-0200",
     "sort": "DKB20018m-0201",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "東京",
@@ -57,10 +58,10 @@
     ],
     "temporal": "1916-08-04",
     "time": {
-        "07:30:00": "<div><time when=\"07:30:00\">午前七半時</time>　　印刷世界<persName><surname>宇野</surname></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "07:30:00": "<div><time when=\"07:30:00\">\n             午前七半時\n            </time>\n            印刷世界\n            <persName corresp=\"#pers_宇野\">\n<surname>\n              宇野\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-201\">\n<head>\n<date when=\"1916-08-04\"> 四日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"07:30:00\">午前七半時</time>　　印刷世界<persName><surname>宇野</surname></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　林駐支公使出発（<placeName>東京</placeName>駅発）</p>\n</event>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>浅野</surname><forename>総一郎</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　<persName><surname>佐藤</surname><forename>愛麿</forename></persName>、<persName><surname>日置</surname><forename>益</forename></persName>、<persName><surname>寺島</surname></persName>伯、<persName><surname>東郷</surname></persName>男ノ諸氏送迎会（日本クラブ）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><persName><surname>鎌田</surname><forename>栄吉</forename></persName>氏ヨリ御案内（交詢社）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0201\">\n<head>\n<date when=\"1916-08-04\">\n           四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"07:30:00\">\n             午前七半時\n            </time>\n            印刷世界\n            <persName corresp=\"#pers_宇野\">\n<surname>\n              宇野\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            林駐支公使出発（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_佐藤愛麿\">\n<surname>\n              佐藤\n             </surname>\n<forename>\n              愛麿\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_日置益\">\n<surname>\n              日置\n             </surname>\n<forename>\n              益\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_寺島\">\n<surname>\n              寺島\n             </surname>\n</persName>\n            伯、\n            <persName corresp=\"#pers_東郷\">\n<surname>\n              東郷\n             </surname>\n</persName>\n            男ノ諸氏送迎会（日本クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_鎌田栄吉\">\n<surname>\n              鎌田\n             </surname>\n<forename>\n              栄吉\n             </forename>\n</persName>\n            氏ヨリ御案内（交詢社）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-08"
 }

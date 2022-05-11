@@ -2,13 +2,15 @@
     "agential": [
         "木村豊太郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/木村豊太郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1283",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20020m 大正七年 1918"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20020m 大正七年 1918"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20020m 大正七年 1918",
     "date": {
         "lvl0": "1918",
@@ -18,17 +20,17 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-11",
     "date_lvl2": "1918-11-24",
-    "description": "\n\n 廿四日  （日） \n\n\n午前六時四十二分王子駅発\n\n\n午前八・三〇　本庄駅着\n\n\n午前十時故木村豊太郎翁建碑除幕式（於児玉町）\n\n\n午後七時中日実業会社ヨリ御案内（ヒサゴ屋）\n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （日）\n         \n\n\n\n\n             午前六時四十二分\n            \n\n             王子\n            \n            駅発\n           \n\n\n\n\n             午前八・三〇\n            \n\n             本庄\n            \n            駅着\n           \n\n\n\n\n             午前十時\n            \n            故\n            \n\n              木村\n             \n\n              豊太郎\n             \n\n            翁建碑除幕式（於\n            \n             児玉町\n            \n            ）\n           \n\n\n\n\n             午後七時\n            \n            中日実業会社ヨリ御案内（ヒサゴ屋）\n           \n\n\n",
     "fullname": [
-        "木村豊太郎"
+        "\n              木村\n             \n              豊太郎\n             "
     ],
-    "label": "廿四日  （日）",
+    "label": "廿四日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20020m-308",
-    "objectID": "DKB20020m-307",
-    "prev": "DKB20020m-306",
+    "next": "DKB20020m-0308",
+    "objectID": "DKB20020m-0307",
+    "prev": "DKB20020m-0306",
     "sort": "DKB20020m-0307",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "王子",
         "本庄",
@@ -41,10 +43,10 @@
     ],
     "temporal": "1918-11-24",
     "time": {
-        "06:42:00": "<div><time when=\"06:42:00\">午前六時四十二分</time><placeName>王子</placeName>駅発</div>"
+        "06:42:00": "<div><time when=\"06:42:00\">\n             午前六時四十二分\n            </time>\n<placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅発</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-307\">\n<head>\n<date when=\"1918-11-24\"> 廿四日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"06:42:00\">午前六時四十二分</time><placeName>王子</placeName>駅発</p>\n</event>\n<event>\n<p><time when=\"08:30:00\">午前八・三〇</time>　<placeName>本庄</placeName>駅着</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>故<persName><surname>木村</surname><forename>豊太郎</forename></persName>翁建碑除幕式（於<placeName>児玉町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"19:00:00\">午後七時</time>中日実業会社ヨリ御案内（ヒサゴ屋）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0307\">\n<head>\n<date when=\"1918-11-24\">\n           廿四日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"06:42:00\">\n             午前六時四十二分\n            </time>\n<placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八・三〇\n            </time>\n<placeName corresp=\"#place_本庄\">\n             本庄\n            </placeName>\n            駅着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            故\n            <persName corresp=\"#pers_木村豊太郎\">\n<surname>\n              木村\n             </surname>\n<forename>\n              豊太郎\n             </forename>\n</persName>\n            翁建碑除幕式（於\n            <placeName corresp=\"#place_児玉町\">\n             児玉町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            中日実業会社ヨリ御案内（ヒサゴ屋）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-11"
 }

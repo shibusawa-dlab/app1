@@ -4,14 +4,15 @@
         "井上準之助"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡田純夫",
         "https://shibusawa-dlab.github.io/lab1/api/chname/井上準之助"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1497",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -21,28 +22,30 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-11",
     "date_lvl2": "1925-11-28",
-    "description": "\n\n 廿八日  （土） \n\n\n午前八時半岡田純夫氏来約（アスカ山）\n\n\n午後〇・五十　事ム所ニ御出勤\n\n\n午後一時井上準之助氏来約（事ム所）\n\n\n午後二時復興建築助成会社打合会（工業クラブ）\n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （土）\n         \n\n\n\n\n             午前八時半\n            \n\n\n              岡田\n             \n\n              純夫\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後〇・五十\n            \n            事ム所ニ御出勤\n           \n\n\n\n\n             午後一時\n            \n\n\n              井上\n             \n\n              準之助\n             \n\n            氏来約（事ム所）\n           \n\n\n\n\n             午後二時\n            \n            復興建築助成会社打合会（工業クラブ）\n           \n\n\n",
     "fullname": [
-        "岡田純夫",
-        "井上準之助"
+        "\n              岡田\n             \n              純夫\n             ",
+        "\n              井上\n             \n              準之助\n             "
     ],
-    "label": "廿八日  （土）",
+    "label": "廿八日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20027m-218",
-    "objectID": "DKB20027m-216",
-    "prev": "DKB20027m-215",
+    "next": "DKB20027m-0218",
+    "objectID": "DKB20027m-0216",
+    "prev": "DKB20027m-0215",
     "sort": "DKB20027m-0216",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山"
+    ],
     "temporal": "1925-11-28",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八時半</time><persName><surname>岡田</surname><forename>純夫</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八時半\n            </time>\n<persName corresp=\"#pers_岡田純夫\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              純夫\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-216\">\n<head>\n<date when=\"1925-11-28\"> 廿八日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八時半</time><persName><surname>岡田</surname><forename>純夫</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:50:00\">午後〇・五十</time>　事ム所ニ御出勤</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time><persName><surname>井上</surname><forename>準之助</forename></persName>氏来約（事ム所）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>復興建築助成会社打合会（工業クラブ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0216\">\n<head>\n<date when=\"1925-11-28\">\n           廿八日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八時半\n            </time>\n<persName corresp=\"#pers_岡田純夫\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              純夫\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:50:00\">\n             午後〇・五十\n            </time>\n            事ム所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_井上準之助\">\n<surname>\n              井上\n             </surname>\n<forename>\n              準之助\n             </forename>\n</persName>\n            氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            復興建築助成会社打合会（工業クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-11"
 }

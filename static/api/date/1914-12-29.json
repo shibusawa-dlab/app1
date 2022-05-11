@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1173",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20016m 大正三年 1914"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20016m 大正三年 1914"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20016m 大正三年 1914",
     "date": {
         "lvl0": "1914",
@@ -22,23 +22,23 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-12",
     "date_lvl2": "1914-12-29",
-    "description": "\n\n 廿九日  （火） \n\n\n午前十一時より正午の間　大隈伯邸御訪問\n\n\n午后三時午后四時中野武営氏御訪問（同氏宅）\n\n\n",
+    "description": "\n\n\n           廿九日\n          \n          （火）\n         \n\n\n\n\n             午前十一時より正午の間\n            \n\n\n              大隈\n             \n\n            伯邸御訪問\n           \n\n\n\n\n             午后三時\n            \n\n             午后四時\n            \n\n\n              中野\n             \n\n              武営\n             \n\n            氏御訪問（同氏宅）\n           \n\n\n",
     "fullname": [
-        "中野武営"
+        "\n              中野\n             \n              武営\n             "
     ],
-    "label": "廿九日  （火）",
+    "label": "廿九日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20016m-106",
-    "objectID": "DKB20016m-105",
-    "prev": "DKB20016m-104",
+    "next": "DKB20016m-0106",
+    "objectID": "DKB20016m-0105",
+    "prev": "DKB20016m-0104",
     "sort": "DKB20016m-0105",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [],
     "spatial_uri": [],
     "temporal": "1914-12-29",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-105\">\n<head>\n<date when=\"1914-12-29\"> 廿九日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time from=\"11:00:00\" to=\"12:00:00\">午前十一時より正午の間</time>　<persName><surname>大隈</surname></persName>伯邸御訪問</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午后三時</time><time when=\"16:00:00\">午后四時</time><persName><surname>中野</surname><forename>武営</forename></persName>氏御訪問（同氏宅）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0105\">\n<head>\n<date when=\"1914-12-29\">\n           廿九日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"11:00:00\" to=\"12:00:00\">\n             午前十一時より正午の間\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            伯邸御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n<time when=\"16:00:00\">\n             午后四時\n            </time>\n<persName corresp=\"#pers_中野武営\">\n<surname>\n              中野\n             </surname>\n<forename>\n              武営\n             </forename>\n</persName>\n            氏御訪問（同氏宅）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-12"
 }

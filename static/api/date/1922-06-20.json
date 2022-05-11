@@ -8,14 +8,15 @@
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/福島",
         "https://shibusawa-dlab.github.io/lab1/api/chname/尾高",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山田英太郎",
         "https://shibusawa-dlab.github.io/lab1/api/chname/細川護立"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1395",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -25,18 +26,18 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-06",
     "date_lvl2": "1922-06-20",
-    "description": "\n\n 二十日  （火） \n\n\n午前十時福島、尾高両氏来約（飛鳥山）\n\n\n午後一時山田英太郎氏来約（兜町）\n\n\n午後三半時　　大覚寺ノ件（兜町）\n\n\n午後四時警察協会松井氏来約（兜町）\n\n\n午後四時済生会評議員会（華族会館）\n\n\n午後五半時　　銀行クラブ月例晩餐会（銀行クラブ）\n\n\n午後六半時　　細川護立氏より招待（同邸）高田老松町\n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n\n\n              福島\n             \n\n            、\n            \n\n              尾高\n             \n\n            両氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n\n              山田\n             \n\n              英太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三半時\n            \n            大覚寺ノ件（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            警察協会松井氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            済生会評議員会（華族会館）\n           \n\n\n\n\n             午後五半時\n            \n            銀行クラブ月例晩餐会（銀行クラブ）\n           \n\n\n\n\n             午後六半時\n            \n\n\n              細川\n             \n\n              護立\n             \n\n            氏より招待（同邸）\n            \n             高田\n            \n\n             老松町\n            \n\n\n\n",
     "fullname": [
-        "山田英太郎",
-        "細川護立"
+        "\n              山田\n             \n              英太郎\n             ",
+        "\n              細川\n             \n              護立\n             "
     ],
-    "label": "二十日  （火）",
+    "label": "二十日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-147",
-    "objectID": "DKB20024m-146",
-    "prev": "DKB20024m-145",
+    "next": "DKB20024m-0147",
+    "objectID": "DKB20024m-0146",
+    "prev": "DKB20024m-0145",
     "sort": "DKB20024m-0146",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "日本橋兜町",
@@ -46,14 +47,15 @@
     "spatial_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/高田"
+        "https://shibusawa-dlab.github.io/lab1/api/place/高田",
+        "https://shibusawa-dlab.github.io/lab1/api/place/老松町"
     ],
     "temporal": "1922-06-20",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><persName><surname>福島</surname></persName>、<persName><surname>尾高</surname></persName>両氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_福島\">\n<surname>\n              福島\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_尾高\">\n<surname>\n              尾高\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-146\">\n<head>\n<date when=\"1922-06-20\"> 二十日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>福島</surname></persName>、<persName><surname>尾高</surname></persName>両氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time><persName><surname>山田</surname><forename>英太郎</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:30:00\">午後三半時</time>　　大覚寺ノ件（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>警察協会松井氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>済生会評議員会（華族会館）</p>\n</event>\n<event>\n<p><time when=\"17:30:00\">午後五半時</time>　　銀行クラブ月例晩餐会（銀行クラブ）</p>\n</event>\n<event>\n<p><time when=\"18:30:00\">午後六半時</time>　　<persName><surname>細川</surname><forename>護立</forename></persName>氏より招待（同邸）<placeName>高田</placeName><placeName>老松町</placeName></p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0146\">\n<head>\n<date when=\"1922-06-20\">\n           二十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_福島\">\n<surname>\n              福島\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_尾高\">\n<surname>\n              尾高\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_山田英太郎\">\n<surname>\n              山田\n             </surname>\n<forename>\n              英太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n            大覚寺ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            警察協会松井氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            済生会評議員会（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            銀行クラブ月例晩餐会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:30:00\">\n             午後六半時\n            </time>\n<persName corresp=\"#pers_細川護立\">\n<surname>\n              細川\n             </surname>\n<forename>\n              護立\n             </forename>\n</persName>\n            氏より招待（同邸）\n            <placeName corresp=\"#place_高田\">\n             高田\n            </placeName>\n<placeName corresp=\"#place_老松町\">\n             老松町\n            </placeName>\n</p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-06"
 }

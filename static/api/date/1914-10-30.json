@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1168",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20016m 大正三年 1914"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20016m 大正三年 1914"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20016m 大正三年 1914",
     "date": {
         "lvl0": "1914",
@@ -22,18 +22,18 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-10",
     "date_lvl2": "1914-10-30",
-    "description": "\n\n 三十日  （金） \n\n\n午前十時国産奨励会幹事会（農商務省）\n\n\n午後一時東京市会ヘ御出向\n\n\n午後三時磯部保次氏来約（兜町）\n\n\n正午　　　　　午餐会　佐藤昌介氏招待（ホテル）\n\n\n午後五時同族会（兜町）\n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n            国産奨励会幹事会（農商務省）\n           \n\n\n\n\n             午後一時\n            \n\n             東京\n            \n            市会ヘ御出向\n           \n\n\n\n\n             午後三時\n            \n\n\n              磯部\n             \n\n              保次\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            午餐会\n            \n\n              佐藤\n             \n\n              昌介\n             \n\n            氏招待（ホテル）\n           \n\n\n\n\n             午後五時\n            \n            同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "磯部保次",
-        "佐藤昌介"
+        "\n              磯部\n             \n              保次\n             ",
+        "\n              佐藤\n             \n              昌介\n             "
     ],
-    "label": "三十日  （金）",
+    "label": "三十日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20016m-46",
-    "objectID": "DKB20016m-45",
-    "prev": "DKB20016m-44",
+    "next": "DKB20016m-0046",
+    "objectID": "DKB20016m-0045",
+    "prev": "DKB20016m-0044",
     "sort": "DKB20016m-0045",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京",
         "日本橋兜町"
@@ -44,10 +44,10 @@
     ],
     "temporal": "1914-10-30",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time>国産奨励会幹事会（農商務省）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            国産奨励会幹事会（農商務省）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-45\">\n<head>\n<date when=\"1914-10-30\"> 三十日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>国産奨励会幹事会（農商務省）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time><placeName>東京</placeName>市会ヘ御出向</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>磯部</surname><forename>保次</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　午餐会　<persName><surname>佐藤</surname><forename>昌介</forename></persName>氏招待（ホテル）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>同族会（<placeName>兜町</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0045\">\n<head>\n<date when=\"1914-10-30\">\n           三十日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            国産奨励会幹事会（農商務省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市会ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_磯部保次\">\n<surname>\n              磯部\n             </surname>\n<forename>\n              保次\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            午餐会\n            <persName corresp=\"#pers_佐藤昌介\">\n<surname>\n              佐藤\n             </surname>\n<forename>\n              昌介\n             </forename>\n</persName>\n            氏招待（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-10"
 }

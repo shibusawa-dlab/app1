@@ -2,13 +2,15 @@
     "agential": [
         "吉池慶正"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/吉池慶正"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1480",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -18,27 +20,29 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-11",
     "date_lvl2": "1924-11-04",
-    "description": "\n\n 四日  （火） \n\n\n午前八半時　　李元錫氏来約（アスカ山邸）\n\n\n午前九時吉池慶正氏来約（同右）\n\n\n正午　　　　　内鮮懇話会（銀行クラブ）\n\n\n",
+    "description": "\n\n\n           四日\n          \n          （火）\n         \n\n\n\n\n             午前八半時\n            \n            李元錫氏来約（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              吉池\n             \n\n              慶正\n             \n\n            氏来約（同右）\n           \n\n\n\n\n             正午\n            \n            内鮮懇話会（銀行クラブ）\n           \n\n\n",
     "fullname": [
-        "吉池慶正"
+        "\n              吉池\n             \n              慶正\n             "
     ],
-    "label": "四日  （火）",
+    "label": "四日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-305",
-    "objectID": "DKB20026m-304",
-    "prev": "DKB20026m-303",
+    "next": "DKB20026m-0305",
+    "objectID": "DKB20026m-0304",
+    "prev": "DKB20026m-0303",
     "sort": "DKB20026m-0304",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
-        "アスカ山"
+        "アスカ山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山邸"
+    ],
     "temporal": "1924-11-04",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八半時</time>　　李元錫氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>邸）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n            李元錫氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-304\">\n<head>\n<date when=\"1924-11-04\"> 四日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　李元錫氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>邸）</p>\n</event>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>吉池</surname><forename>慶正</forename></persName>氏来約（同右）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　内鮮懇話会（銀行クラブ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0304\">\n<head>\n<date when=\"1924-11-04\">\n           四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            李元錫氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏来約（同右）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            内鮮懇話会（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-11"
 }

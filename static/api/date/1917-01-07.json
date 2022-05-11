@@ -11,10 +11,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1224",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -24,18 +24,18 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-01",
     "date_lvl2": "1917-01-07",
-    "description": "\n\n 七日  （日） \n\n\n午前七半時ヨリ八時マデニ中野武営氏来約（王子邸）\n\n\n午前十時成瀬仁蔵氏来約（飛鳥山邸）\n\n\n午前十一時（銀行クラブニテ）益田孝氏、吉池氏等ト御会合\n\n\n",
+    "description": "\n\n\n           七日\n          \n          （日）\n         \n\n\n\n\n             午前七半時ヨリ八時マデ\n            \n            ニ\n            \n\n              中野\n             \n\n              武営\n             \n\n            氏来約（\n            \n             王子\n            \n            邸）\n           \n\n\n\n\n             午前十時\n            \n\n\n              成瀬\n             \n\n              仁蔵\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            （銀行クラブニテ）\n            \n             益田\n            \n            孝氏、\n            \n\n              吉池\n             \n\n            氏等ト御会合\n           \n\n\n",
     "fullname": [
-        "中野武営",
-        "成瀬仁蔵"
+        "\n              中野\n             \n              武営\n             ",
+        "\n              成瀬\n             \n              仁蔵\n             "
     ],
-    "label": "七日  （日）",
+    "label": "七日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-8",
-    "objectID": "DKB20019m-7",
-    "prev": "DKB20019m-6",
+    "next": "DKB20019m-0008",
+    "objectID": "DKB20019m-0007",
+    "prev": "DKB20019m-0006",
     "sort": "DKB20019m-0007",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "王子",
         "飛鳥山邸",
@@ -43,12 +43,13 @@
     ],
     "spatial_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/place/王子",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/益田"
     ],
     "temporal": "1917-01-07",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-7\">\n<head>\n<date when=\"1917-01-07\"> 七日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time from=\"07:30:00\" to=\"08:00:00\">午前七半時ヨリ八時マデ</time>ニ<persName><surname>中野</surname><forename>武営</forename></persName>氏来約（<placeName>王子</placeName>邸）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>成瀬</surname><forename>仁蔵</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>（銀行クラブニテ）<placeName>益田</placeName>孝氏、<persName><surname>吉池</surname></persName>氏等ト御会合</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0007\">\n<head>\n<date when=\"1917-01-07\">\n           七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"07:30:00\" to=\"08:00:00\">\n             午前七半時ヨリ八時マデ\n            </time>\n            ニ\n            <persName corresp=\"#pers_中野武営\">\n<surname>\n              中野\n             </surname>\n<forename>\n              武営\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_成瀬仁蔵\">\n<surname>\n              成瀬\n             </surname>\n<forename>\n              仁蔵\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            （銀行クラブニテ）\n            <placeName corresp=\"#place_益田\">\n             益田\n            </placeName>\n            孝氏、\n            <persName corresp=\"#pers_吉池\">\n<surname>\n              吉池\n             </surname>\n</persName>\n            氏等ト御会合\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-01"
 }

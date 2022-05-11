@@ -4,14 +4,15 @@
         "林桂"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大橋新太郎",
         "https://shibusawa-dlab.github.io/lab1/api/chname/林桂"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1225",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -21,31 +22,32 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-01",
     "date_lvl2": "1917-01-13",
-    "description": "\n\n 十三日  （土） \n\n\n午前九時養育院分院ヘ御出向\n\n\n同本院ヘ御出向\n\n\n午後一時講道館維持員会（学士会事ム所）\n\n\n午後二時大橋新太郎氏母堂葬儀（谷中祭場《（谷中斎場）》）\n\n\n午後四時林桂氏招待会（飛鳥山邸）\n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n            養育院分院ヘ御出向\n           \n\n\n\n            同本院ヘ御出向\n           \n\n\n\n\n             午後一時\n            \n            講道館維持員会（学士会事ム所）\n           \n\n\n\n\n             午後二時\n            \n\n\n              大橋\n             \n\n              新太郎\n             \n\n            氏母堂葬儀（\n            \n             谷中\n            \n            祭場《（\n            \n             谷中\n            \n            斎場）》）\n           \n\n\n\n\n             午後四時\n            \n\n\n              林\n             \n\n              桂\n             \n\n            氏招待会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "大橋新太郎",
-        "林桂"
+        "\n              大橋\n             \n              新太郎\n             ",
+        "\n              林\n             \n              桂\n             "
     ],
-    "label": "十三日  （土）",
+    "label": "十三日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-14",
-    "objectID": "DKB20019m-13",
-    "prev": "DKB20019m-12",
+    "next": "DKB20019m-0014",
+    "objectID": "DKB20019m-0013",
+    "prev": "DKB20019m-0012",
     "sort": "DKB20019m-0013",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "谷中",
         "飛鳥山邸"
     ],
     "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/谷中"
+        "https://shibusawa-dlab.github.io/lab1/api/place/谷中",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1917-01-13",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time>養育院分院ヘ御出向</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            養育院分院ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-13\">\n<head>\n<date when=\"1917-01-13\"> 十三日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time>養育院分院ヘ御出向</p>\n</event>\n<event>\n<p>同本院ヘ御出向</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>講道館維持員会（学士会事ム所）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>大橋</surname><forename>新太郎</forename></persName>氏母堂葬儀（<placeName>谷中</placeName>祭場《（<placeName>谷中</placeName>斎場）》）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><persName><surname>林</surname><forename>桂</forename></persName>氏招待会（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0013\">\n<head>\n<date when=\"1917-01-13\">\n           十三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            養育院分院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n            同本院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            講道館維持員会（学士会事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_大橋新太郎\">\n<surname>\n              大橋\n             </surname>\n<forename>\n              新太郎\n             </forename>\n</persName>\n            氏母堂葬儀（\n            <placeName corresp=\"#place_谷中\">\n             谷中\n            </placeName>\n            祭場《（\n            <placeName corresp=\"#place_谷中\">\n             谷中\n            </placeName>\n            斎場）》）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_林桂\">\n<surname>\n              林\n             </surname>\n<forename>\n              桂\n             </forename>\n</persName>\n            氏招待会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-01"
 }

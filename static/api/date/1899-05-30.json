@@ -4,15 +4,16 @@
         "梅浦夫人"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/仙石貢"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/仙石貢",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/梅浦夫人"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/116",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB10008m 明治三十二年  1899"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB10008m 明治三十二年 1899"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-    "category_lvl1": "DKB10008m 明治三十二年  1899",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl1": "DKB10008m 明治三十二年 1899",
     "date": {
         "lvl0": "1899",
         "lvl1": "1899 > 1899-05",
@@ -21,17 +22,17 @@
     "date_lvl0": "1899",
     "date_lvl1": "1899-05",
     "date_lvl2": "1899-05-30",
-    "description": "\n\n 五月三十日 \n\n曇、昨夜ヨリ風邪気ニテ此日ハ終日在宅休養ス、仙石貢氏来ル、夜、梅浦夫人来ル此日、築地瓢屋ニテ催ス処ノ若松築港会社集会ハ、病ノ為謝絶ス\n",
+    "description": "\n\n\n        五月三十日\n       \n\n\n       曇、昨夜ヨリ風邪気ニテ此日ハ終日在宅休養ス、\n       \n\n         仙石\n        \n\n         貢\n        \n\n       氏来ル、夜、\n       \n\n         梅浦\n        \n        夫人\n       \n       来ル\n       \n       此日、\n       \n        築地\n       \n       瓢屋ニテ催ス処ノ若松築港会社集会ハ、病ノ為謝絶ス\n      \n",
     "fullname": [
-        "仙石貢"
+        "\n         仙石\n        \n         貢\n        "
     ],
     "label": "五月三十日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
-    "next": "DKB10008m-151",
-    "objectID": "DKB10008m-150",
-    "prev": "DKB10008m-149",
+    "next": "DKB10008m-0151",
+    "objectID": "DKB10008m-0150",
+    "prev": "DKB10008m-0149",
     "sort": "DKB10008m-0150",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "築地"
     ],
@@ -41,7 +42,7 @@
     "temporal": "1899-05-30",
     "time": {},
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-150\">\n<head>\n<date when=\"1899-05-30\"> 五月三十日 </date>\n</head>\n<p>曇、昨夜ヨリ風邪気ニテ此日ハ終日在宅休養ス、<persName><surname>仙石</surname><forename>貢</forename></persName>氏来ル、夜、<persName><surname>梅浦</surname>夫人</persName>来ル<lb/>此日、<placeName>築地</placeName>瓢屋ニテ催ス処ノ若松築港会社集会ハ、病ノ為謝絶ス</p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-0150\">\n<head>\n<date when=\"1899-05-30\">\n        五月三十日\n       </date>\n</head>\n<p>\n       曇、昨夜ヨリ風邪気ニテ此日ハ終日在宅休養ス、\n       <persName corresp=\"#pers_仙石貢\">\n<surname>\n         仙石\n        </surname>\n<forename>\n         貢\n        </forename>\n</persName>\n       氏来ル、夜、\n       <persName corresp=\"#pers_梅浦夫人\">\n<surname>\n         梅浦\n        </surname>\n        夫人\n       </persName>\n       来ル\n       <lb/>\n       此日、\n       <placeName corresp=\"#place_築地\">\n        築地\n       </placeName>\n       瓢屋ニテ催ス処ノ若松築港会社集会ハ、病ノ為謝絶ス\n      </p>\n</div>",
     "year": "1899",
     "yearAndMonth": "1899-05"
 }

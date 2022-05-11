@@ -6,14 +6,17 @@
         "敬三"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/後藤"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岩崎家政",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/杉原栄三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/後藤",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/敬三"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1403",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -23,18 +26,18 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-09",
     "date_lvl2": "1922-09-16",
-    "description": "\n\n 十六日  （土） \n\n\n午前九時岩崎家政事務所ヘ御出向\n\n\n午〃十一時杉原栄三郎氏来約（兜町）\n\n\n午後六半時　　後藤男爵より御案内（銀行クラブ）（ビアド博士招待会）略服\n\n\n午後七半時　　敬三様御出発御渡英（東京駅）\n\n\n",
+    "description": "\n\n\n           十六日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n\n\n              岩崎\n             \n\n              家政\n             \n\n            事務所ヘ御出向\n           \n\n\n\n\n             午〃十一時\n            \n\n\n              杉原\n             \n\n              栄三郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六半時\n            \n\n\n              後藤\n             \n\n            男爵より御案内（銀行クラブ）\n            \n            （ビアド博士招待会）略服\n           \n\n\n\n\n             午後七半時\n            \n\n\n              敬三\n             \n\n            様御出発御渡英（\n            \n             東京\n            \n            駅）\n           \n\n\n",
     "fullname": [
-        "岩崎家政",
-        "杉原栄三郎"
+        "\n              岩崎\n             \n              家政\n             ",
+        "\n              杉原\n             \n              栄三郎\n             "
     ],
-    "label": "十六日  （土）",
+    "label": "十六日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-221",
-    "objectID": "DKB20024m-220",
-    "prev": "DKB20024m-219",
+    "next": "DKB20024m-0221",
+    "objectID": "DKB20024m-0220",
+    "prev": "DKB20024m-0219",
     "sort": "DKB20024m-0220",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "東京"
@@ -45,10 +48,10 @@
     ],
     "temporal": "1922-09-16",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>岩崎</surname><forename>家政</forename></persName>事務所ヘ御出向</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_岩崎家政\">\n<surname>\n              岩崎\n             </surname>\n<forename>\n              家政\n             </forename>\n</persName>\n            事務所ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-220\">\n<head>\n<date when=\"1922-09-16\"> 十六日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>岩崎</surname><forename>家政</forename></persName>事務所ヘ御出向</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午〃十一時</time><persName><surname>杉原</surname><forename>栄三郎</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"18:30:00\">午後六半時</time>　　<persName><surname>後藤</surname></persName>男爵より御案内（銀行クラブ）<lb/>（ビアド博士招待会）略服</p>\n</event>\n<event>\n<p><time when=\"19:30:00\">午後七半時</time>　　<persName><forename>敬三</forename></persName>様御出発御渡英（<placeName>東京</placeName>駅）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0220\">\n<head>\n<date when=\"1922-09-16\">\n           十六日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_岩崎家政\">\n<surname>\n              岩崎\n             </surname>\n<forename>\n              家政\n             </forename>\n</persName>\n            事務所ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午〃十一時\n            </time>\n<persName corresp=\"#pers_杉原栄三郎\">\n<surname>\n              杉原\n             </surname>\n<forename>\n              栄三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:30:00\">\n             午後六半時\n            </time>\n<persName corresp=\"#pers_後藤\">\n<surname>\n              後藤\n             </surname>\n</persName>\n            男爵より御案内（銀行クラブ）\n            <lb/>\n            （ビアド博士招待会）略服\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:30:00\">\n             午後七半時\n            </time>\n<persName corresp=\"#pers_敬三\">\n<forename>\n              敬三\n             </forename>\n</persName>\n            様御出発御渡英（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-09"
 }

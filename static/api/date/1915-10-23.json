@@ -1,14 +1,12 @@
 {
-    "agential": [
-        "春洋"
-    ],
+    "agential": [],
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1194",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20017m 大正四年 1915"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20017m 大正四年 1915"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20017m 大正四年 1915",
     "date": {
         "lvl0": "1915",
@@ -18,14 +16,14 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-10",
     "date_lvl2": "1915-10-23",
-    "description": "\n\n 廿三日  （土） \n\n\n午時　　　　　渡米ノ為御出発（東京駅）\n\n\n午後三時春洋丸ニテ横浜ヲ御出帆\n\n\n",
+    "description": "\n\n\n           廿三日\n          \n          （土）\n         \n\n\n\n\n             午時\n            \n            渡米ノ為御出発（\n            \n             東京\n            \n            駅）\n           \n\n\n\n\n             午後三時\n            \n            春洋丸ニテ\n            \n             横浜\n            \n            ヲ御出帆\n           \n\n\n",
     "fullname": [],
-    "label": "廿三日  （土）",
+    "label": "廿三日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "objectID": "DKB20017m-267",
-    "prev": "DKB20017m-266",
+    "objectID": "DKB20017m-0267",
+    "prev": "DKB20017m-0266",
     "sort": "DKB20017m-0267",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京",
         "横浜"
@@ -36,10 +34,10 @@
     ],
     "temporal": "1915-10-23",
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">午時</time>　　　　　渡米ノ為御出発（<placeName>東京</placeName>駅）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n            渡米ノ為御出発（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-267\">\n<head>\n<date when=\"1915-10-23\"> 廿三日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"12:00:00\">午時</time>　　　　　渡米ノ為御出発（<placeName>東京</placeName>駅）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><forename>春洋</forename></persName>丸ニテ<placeName>横浜</placeName>ヲ御出帆</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0267\">\n<head>\n<date when=\"1915-10-23\">\n           廿三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            渡米ノ為御出発（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            春洋丸ニテ\n            <placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            ヲ御出帆\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-10"
 }

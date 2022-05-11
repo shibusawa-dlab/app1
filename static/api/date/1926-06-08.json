@@ -6,15 +6,16 @@
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/虞",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/土肥",
         "https://shibusawa-dlab.github.io/lab1/api/chname/林"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1514",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-06",
@@ -23,28 +24,29 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-06",
     "date_lvl2": "1926-06-08",
-    "description": "\n\n 八日  （火） \n\n\n午前十一時民国実行団長虞氏外七名招待午餐会《（業）》（飛鳥山邸）\n\n\n午後二時早稲田大学維持員会　同大学恩賜館\n\n\n午後三時東京商科大学専門部ニ御出向\n\n\n夕七時土肥、林両先生来診ノ約（飛鳥山邸）\n\n\n",
+    "description": "\n\n\n           八日\n          \n          （火）\n         \n\n\n\n\n             午前十一時\n            \n            民国実行団長\n            \n\n              虞\n             \n\n            氏外七名招待午餐会《（業）》（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            早稲田大学維持員会　同大学恩賜館\n           \n\n\n\n\n             午後三時\n            \n\n             東京\n            \n            商科大学専門部ニ御出向\n           \n\n\n\n\n             夕七時\n            \n\n\n              土肥\n             \n\n            、\n            \n\n              林\n             \n\n            両先生来診ノ約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "fullname": [],
-    "label": "八日  （火）",
+    "label": "八日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-160",
-    "objectID": "DKB20028m-159",
-    "prev": "DKB20028m-158",
+    "next": "DKB20028m-0160",
+    "objectID": "DKB20028m-0159",
+    "prev": "DKB20028m-0158",
     "sort": "DKB20028m-0159",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "東京"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1926-06-08",
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">午前十一時</time>民国実行団長<persName><surname>虞</surname></persName>氏外七名招待午餐会《（業）》（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            民国実行団長\n            <persName corresp=\"#pers_虞\">\n<surname>\n              虞\n             </surname>\n</persName>\n            氏外七名招待午餐会《（業）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-159\">\n<head>\n<date when=\"1926-06-08\"> 八日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>民国実行団長<persName><surname>虞</surname></persName>氏外七名招待午餐会《（業）》（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>早稲田大学維持員会　同大学恩賜館</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><placeName>東京</placeName>商科大学専門部ニ御出向</p>\n</event>\n<event>\n<p><time when=\"19:00:00\">夕七時</time><persName><surname>土肥</surname></persName>、<persName><surname>林</surname></persName>両先生来診ノ約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0159\">\n<head>\n<date when=\"1926-06-08\">\n           八日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            民国実行団長\n            <persName corresp=\"#pers_虞\">\n<surname>\n              虞\n             </surname>\n</persName>\n            氏外七名招待午餐会《（業）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            早稲田大学維持員会　同大学恩賜館\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商科大学専門部ニ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             夕七時\n            </time>\n<persName corresp=\"#pers_土肥\">\n<surname>\n              土肥\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_林\">\n<surname>\n              林\n             </surname>\n</persName>\n            両先生来診ノ約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-06"
 }

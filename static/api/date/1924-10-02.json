@@ -5,15 +5,16 @@
         "田中義一"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡田純夫",
         "https://shibusawa-dlab.github.io/lab1/api/chname/白石",
         "https://shibusawa-dlab.github.io/lab1/api/chname/田中義一"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1476",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -23,28 +24,30 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-10",
     "date_lvl2": "1924-10-02",
-    "description": "\n\n 二日  （木） \n\n\n午前八半時　　竜門社岡田純夫氏来約（アスカ山）白石氏同道\n\n\n午後三時田中義一男来約（事務所）\n\n\n午後四時社会事業協会理事会（社会局）\n\n\n",
+    "description": "\n\n\n           二日\n          \n          （木）\n         \n\n\n\n\n             午前八半時\n            \n            竜門社\n            \n\n              岡田\n             \n\n              純夫\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n            \n\n              白石\n             \n\n            氏同道\n           \n\n\n\n\n             午後三時\n            \n\n\n              田中\n             \n\n              義一\n             \n\n            男来約（事務所）\n           \n\n\n\n\n             午後四時\n            \n            社会事業協会理事会（社会局）\n           \n\n\n",
     "fullname": [
-        "岡田純夫",
-        "田中義一"
+        "\n              岡田\n             \n              純夫\n             ",
+        "\n              田中\n             \n              義一\n             "
     ],
-    "label": "二日  （木）",
+    "label": "二日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-271",
-    "objectID": "DKB20026m-270",
-    "prev": "DKB20026m-269",
+    "next": "DKB20026m-0271",
+    "objectID": "DKB20026m-0270",
+    "prev": "DKB20026m-0269",
     "sort": "DKB20026m-0270",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山"
+    ],
     "temporal": "1924-10-02",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八半時</time>　　竜門社<persName><surname>岡田</surname><forename>純夫</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）<persName><forename>白石</forename></persName>氏同道</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n            竜門社\n            <persName corresp=\"#pers_岡田純夫\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              純夫\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n            <persName corresp=\"#pers_白石\">\n<forename>\n              白石\n             </forename>\n</persName>\n            氏同道</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-270\">\n<head>\n<date when=\"1924-10-02\"> 二日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　竜門社<persName><surname>岡田</surname><forename>純夫</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）<persName><forename>白石</forename></persName>氏同道</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>田中</surname><forename>義一</forename></persName>男来約（事務所）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>社会事業協会理事会（社会局）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0270\">\n<head>\n<date when=\"1924-10-02\">\n           二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            竜門社\n            <persName corresp=\"#pers_岡田純夫\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              純夫\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n            <persName corresp=\"#pers_白石\">\n<forename>\n              白石\n             </forename>\n</persName>\n            氏同道\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_田中義一\">\n<surname>\n              田中\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            男来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            社会事業協会理事会（社会局）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-10"
 }

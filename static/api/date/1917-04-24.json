@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1234",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -22,18 +22,18 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-04",
     "date_lvl2": "1917-04-24",
-    "description": "\n\n 廿四日  （火） \n\n\n午前八半時　　山室軍平氏渡欧（東京駅発）\n\n\n午前十時明治神宮奉賛会常議員会（同会）\n\n\n〇時半　　　　日米協会委員会（帝国ホテル）\n\n\n午後六時中島久万吉男爵ヨリ御案内（トキワヤ）\n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （火）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              山室\n             \n\n              軍平\n             \n\n            氏渡欧（\n            \n             東京\n            \n            駅発）\n           \n\n\n\n\n             午前十時\n            \n            明治神宮奉賛会常議員会（同会）\n           \n\n\n\n\n             〇時半\n            \n            日米協会委員会（帝国ホテル）\n           \n\n\n\n\n             午後六時\n            \n\n\n              中島\n             \n\n              久万吉\n             \n\n            男爵ヨリ御案内（トキワヤ）\n           \n\n\n",
     "fullname": [
-        "山室軍平",
-        "中島久万吉"
+        "\n              山室\n             \n              軍平\n             ",
+        "\n              中島\n             \n              久万吉\n             "
     ],
-    "label": "廿四日  （火）",
+    "label": "廿四日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-114",
-    "objectID": "DKB20019m-113",
-    "prev": "DKB20019m-112",
+    "next": "DKB20019m-0114",
+    "objectID": "DKB20019m-0113",
+    "prev": "DKB20019m-0112",
     "sort": "DKB20019m-0113",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京"
     ],
@@ -42,10 +42,10 @@
     ],
     "temporal": "1917-04-24",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>山室</surname><forename>軍平</forename></persName>氏渡欧（<placeName>東京</placeName>駅発）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_山室軍平\">\n<surname>\n              山室\n             </surname>\n<forename>\n              軍平\n             </forename>\n</persName>\n            氏渡欧（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-113\">\n<head>\n<date when=\"1917-04-24\"> 廿四日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>山室</surname><forename>軍平</forename></persName>氏渡欧（<placeName>東京</placeName>駅発）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>明治神宮奉賛会常議員会（同会）</p>\n</event>\n<event>\n<p><time when=\"12:30:00\">〇時半</time>　　　　日米協会委員会（帝国ホテル）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time><persName><surname>中島</surname><forename>久万吉</forename></persName>男爵ヨリ御案内（トキワヤ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0113\">\n<head>\n<date when=\"1917-04-24\">\n           廿四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_山室軍平\">\n<surname>\n              山室\n             </surname>\n<forename>\n              軍平\n             </forename>\n</persName>\n            氏渡欧（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            明治神宮奉賛会常議員会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             〇時半\n            </time>\n            日米協会委員会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_中島久万吉\">\n<surname>\n              中島\n             </surname>\n<forename>\n              久万吉\n             </forename>\n</persName>\n            男爵ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-04"
 }

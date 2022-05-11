@@ -4,14 +4,15 @@
         "トイスラー"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/仁井田"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/仁井田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/トイスラー"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1354",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -21,15 +22,15 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-02",
     "date_lvl2": "1921-02-25",
-    "description": "\n\n 廿五日  （金） \n\n\n午前十時仁井田博士御訪問ノ約（帝大事務室）\n\n\n午前十一時トイスラー氏兜町ニ来約\n\n\n正午　　　　　オスボーン氏招待（兜町）\n\n\n午後三・二五　大磯ヘ御出向ノ予定\n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n\n\n              仁井田\n             \n\n            博士御訪問ノ約（帝大事務室）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              トイスラー\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             正午\n            \n            オスボーン氏招待（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三・二五\n            \n\n             大磯\n            \n            ヘ御出向ノ予定\n           \n\n\n",
     "fullname": [],
-    "label": "廿五日  （金）",
+    "label": "廿五日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20023m-54",
-    "objectID": "DKB20023m-52",
-    "prev": "DKB20023m-51",
+    "next": "DKB20023m-0054",
+    "objectID": "DKB20023m-0052",
+    "prev": "DKB20023m-0051",
     "sort": "DKB20023m-0052",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "大磯町"
@@ -40,10 +41,10 @@
     ],
     "temporal": "1921-02-25",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><persName><surname>仁井田</surname></persName>博士御訪問ノ約（帝大事務室）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_仁井田\">\n<surname>\n              仁井田\n             </surname>\n</persName>\n            博士御訪問ノ約（帝大事務室）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-52\">\n<head>\n<date when=\"1921-02-25\"> 廿五日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>仁井田</surname></persName>博士御訪問ノ約（帝大事務室）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>トイスラー</surname></persName>氏<placeName>兜町</placeName>ニ来約</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　オスボーン氏招待（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:25:00\">午後三・二五</time>　<placeName>大磯</placeName>ヘ御出向ノ予定</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0052\">\n<head>\n<date when=\"1921-02-25\">\n           廿五日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_仁井田\">\n<surname>\n              仁井田\n             </surname>\n</persName>\n            博士御訪問ノ約（帝大事務室）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_トイスラー\">\n<surname>\n              トイスラー\n             </surname>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            オスボーン氏招待（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:25:00\">\n             午後三・二五\n            </time>\n<placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            ヘ御出向ノ予定\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-02"
 }

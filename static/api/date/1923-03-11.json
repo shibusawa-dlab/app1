@@ -2,13 +2,15 @@
     "agential": [
         "東華"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/東華"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1422",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -18,15 +20,15 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-03",
     "date_lvl2": "1923-03-11",
-    "description": "\n\n 十一日  （日） \n\n\n午前十時目黒蒲田電鉄開通式（洗足停車場）\n\n\n午後七時東華小学校ニ於テ御講演（蛎殻町）\n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （日）\n         \n\n\n\n\n             午前十時\n            \n\n             目黒\n            \n\n             蒲田\n            \n            電鉄開通式（洗足停車場）\n           \n\n\n\n\n             午後七時\n            \n\n\n              東華\n             \n\n            小学校ニ於テ御講演（\n            \n             蛎殻町\n            \n            ）\n           \n\n\n",
     "fullname": [],
-    "label": "十一日  （日）",
+    "label": "十一日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20025m-64",
-    "objectID": "DKB20025m-63",
-    "prev": "DKB20025m-62",
+    "next": "DKB20025m-0064",
+    "objectID": "DKB20025m-0063",
+    "prev": "DKB20025m-0062",
     "sort": "DKB20025m-0063",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "目黒",
         "蒲田",
@@ -39,10 +41,10 @@
     ],
     "temporal": "1923-03-11",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><placeName>目黒</placeName><placeName>蒲田</placeName>電鉄開通式（洗足停車場）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_目黒\">\n             目黒\n            </placeName>\n<placeName corresp=\"#place_蒲田\">\n             蒲田\n            </placeName>\n            電鉄開通式（洗足停車場）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-63\">\n<head>\n<date when=\"1923-03-11\"> 十一日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><placeName>目黒</placeName><placeName>蒲田</placeName>電鉄開通式（洗足停車場）</p>\n</event>\n<event>\n<p><time when=\"19:00:00\">午後七時</time><persName><forename>東華</forename></persName>小学校ニ於テ御講演（<placeName>蛎殻町</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0063\">\n<head>\n<date when=\"1923-03-11\">\n           十一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_目黒\">\n             目黒\n            </placeName>\n<placeName corresp=\"#place_蒲田\">\n             蒲田\n            </placeName>\n            電鉄開通式（洗足停車場）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n<persName corresp=\"#pers_東華\">\n<forename>\n              東華\n             </forename>\n</persName>\n            小学校ニ於テ御講演（\n            <placeName corresp=\"#place_日本橋蛎殻町\">\n             蛎殻町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-03"
 }

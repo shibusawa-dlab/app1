@@ -4,14 +4,15 @@
         "浅野総一郎"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/上原好咲",
         "https://shibusawa-dlab.github.io/lab1/api/chname/浅野総一郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1401",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -21,29 +22,32 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-08",
     "date_lvl2": "1922-08-23",
-    "description": "\n\n 廿三日  （水） \n\n\n午前八時時事新報記者上原好咲氏来約（飛鳥山邸）\n\n\n午時　　　　　再ビ伊香保ヘ御出向ノ予定　○抹消\n\n\n午前八―九時浅野総一郎氏来約（飛鳥山邸）\n\n\n午前十一時日華実業協会幹事会（同会）\n\n\n",
+    "description": "\n\n\n           廿三日\n          \n          （水）\n         \n\n\n\n\n             午前八時\n            \n            時事新報記者\n            \n\n              上原\n             \n\n              好咲\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午時\n            \n            再ビ\n            \n             伊香保\n            \n            ヘ御出向ノ予定　○抹消\n           \n\n\n\n\n             午前八―九時\n            \n\n\n              浅野\n             \n\n              総一郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            日華実業協会幹事会（同会）\n           \n\n\n",
     "fullname": [
-        "上原好咲",
-        "浅野総一郎"
+        "\n              上原\n             \n              好咲\n             ",
+        "\n              浅野\n             \n              総一郎\n             "
     ],
-    "label": "廿三日  （水）",
+    "label": "廿三日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-202",
-    "objectID": "DKB20024m-201",
-    "prev": "DKB20024m-200",
+    "next": "DKB20024m-0202",
+    "objectID": "DKB20024m-0201",
+    "prev": "DKB20024m-0200",
     "sort": "DKB20024m-0201",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "伊香保"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/伊香保"
+    ],
     "temporal": "1922-08-23",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time>時事新報記者<persName><surname>上原</surname><forename>好咲</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            時事新報記者\n            <persName corresp=\"#pers_上原好咲\">\n<surname>\n              上原\n             </surname>\n<forename>\n              好咲\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-201\">\n<head>\n<date when=\"1922-08-23\"> 廿三日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time>時事新報記者<persName><surname>上原</surname><forename>好咲</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">午時</time>　　　　　再ビ<placeName>伊香保</placeName>ヘ御出向ノ予定　○抹消</p>\n</event>\n<event>\n<p><time from=\"08:00:00\" to=\"09:00:00\">午前八―九時</time><persName><surname>浅野</surname><forename>総一郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>日華実業協会幹事会（同会）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0201\">\n<head>\n<date when=\"1922-08-23\">\n           廿三日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            時事新報記者\n            <persName corresp=\"#pers_上原好咲\">\n<surname>\n              上原\n             </surname>\n<forename>\n              好咲\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            再ビ\n            <placeName corresp=\"#place_伊香保\">\n             伊香保\n            </placeName>\n            ヘ御出向ノ予定　○抹消\n           </p>\n</event>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"09:00:00\">\n             午前八―九時\n            </time>\n<persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            日華実業協会幹事会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-08"
 }

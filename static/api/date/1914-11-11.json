@@ -11,10 +11,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1169",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20016m 大正三年 1914"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20016m 大正三年 1914"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20016m 大正三年 1914",
     "date": {
         "lvl0": "1914",
@@ -24,17 +24,17 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-11",
     "date_lvl2": "1914-11-11",
-    "description": "\n\n 十一日  （水） \n\n\n午前八ヨリ午前九時高田早苗氏ト会見ノ約（高田氏自宅）\n\n\n午後一時貯蓄銀行臨時総会（同行）\n\n\n午後一時東京市祝賀会（日比谷公園）\n\n\n午後三半時　　大隈伯ヲ早稲田ニ御訪問\n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （水）\n         \n\n\n\n\n             午前八ヨリ午前九時\n            \n\n\n              高田\n             \n\n              早苗\n             \n\n            氏ト会見ノ約（\n            \n\n              高田\n             \n\n            氏自宅）\n           \n\n\n\n\n             午後一時\n            \n            貯蓄銀行臨時総会（同行）\n           \n\n\n\n\n             午後一時\n            \n\n             東京\n            \n            市祝賀会（\n            \n             日比谷\n            \n            公園）\n           \n\n\n\n\n             午後三半時\n            \n\n\n              大隈\n             \n\n            伯ヲ早稲田ニ御訪問\n           \n\n\n",
     "fullname": [
-        "高田早苗"
+        "\n              高田\n             \n              早苗\n             "
     ],
-    "label": "十一日  （水）",
+    "label": "十一日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20016m-58",
-    "objectID": "DKB20016m-57",
-    "prev": "DKB20016m-56",
+    "next": "DKB20016m-0058",
+    "objectID": "DKB20016m-0057",
+    "prev": "DKB20016m-0056",
     "sort": "DKB20016m-0057",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京",
         "日比谷"
@@ -46,7 +46,7 @@
     "temporal": "1914-11-11",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-57\">\n<head>\n<date when=\"1914-11-11\"> 十一日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time from=\"08:00:00\" to=\"09:00:00\">午前八ヨリ午前九時</time><persName><surname>高田</surname><forename>早苗</forename></persName>氏ト会見ノ約（<persName><surname>高田</surname></persName>氏自宅）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>貯蓄銀行臨時総会（同行）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time><placeName>東京</placeName>市祝賀会（<placeName>日比谷</placeName>公園）</p>\n</event>\n<event>\n<p><time when=\"15:30:00\">午後三半時</time>　　<persName><surname>大隈</surname></persName>伯ヲ早稲田ニ御訪問</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0057\">\n<head>\n<date when=\"1914-11-11\">\n           十一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"09:00:00\">\n             午前八ヨリ午前九時\n            </time>\n<persName corresp=\"#pers_高田早苗\">\n<surname>\n              高田\n             </surname>\n<forename>\n              早苗\n             </forename>\n</persName>\n            氏ト会見ノ約（\n            <persName corresp=\"#pers_高田\">\n<surname>\n              高田\n             </surname>\n</persName>\n            氏自宅）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            貯蓄銀行臨時総会（同行）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市祝賀会（\n            <placeName corresp=\"#place_日比谷\">\n             日比谷\n            </placeName>\n            公園）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            伯ヲ早稲田ニ御訪問\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-11"
 }

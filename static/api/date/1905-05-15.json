@@ -3,11 +3,11 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/393",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB10013m 明治三十八年  1905"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB10013m 明治三十八年 1905"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-    "category_lvl1": "DKB10013m 明治三十八年  1905",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl1": "DKB10013m 明治三十八年 1905",
     "date": {
         "lvl0": "1905",
         "lvl1": "1905 > 1905-05",
@@ -16,32 +16,32 @@
     "date_lvl0": "1905",
     "date_lvl1": "1905-05",
     "date_lvl2": "1905-05-15",
-    "description": "\n\n 五月十五日  月　晴　風ナシ \n午前六時起床、庭園ヲ散歩シ、七時朝飧ヲ畢ル食後各新聞紙ヲ一覧シ、午前十時兜町事務所ニ抵ル、更ニ第一銀行ニ於テ来人ニ接ス午後六時王子別荘ニ帰ル\n",
+    "description": "\n\n\n        五月十五日\n       \n       月　晴　風ナシ\n      \n\n\n        午前六時\n       \n       起床、庭園ヲ散歩シ、\n       \n        七時\n       \n       朝飧ヲ畢ル\n       \n       食後各新聞紙ヲ一覧シ、\n       \n        午前十時\n       \n\n        兜町\n       \n       事務所ニ抵ル、更ニ\n       \n        第一銀行\n       \n       ニ於テ来人ニ接ス\n       \n\n        午後六時\n       \n\n        王子別荘\n       \n       ニ帰ル\n      \n",
     "fullname": [],
-    "label": "五月十五日  月　晴　風ナシ",
+    "label": "五月十五日              月　晴　風ナシ",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
-    "next": "DKB10013m-136",
-    "objectID": "DKB10013m-135",
-    "prev": "DKB10013m-134",
+    "next": "DKB10013m-0136",
+    "objectID": "DKB10013m-0135",
+    "prev": "DKB10013m-0134",
     "sort": "DKB10013m-0135",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "日本橋兜町",
-        "王子"
+        "王子別荘"
     ],
     "spatial_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/王子"
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子別荘"
     ],
     "temporal": "1905-05-15",
     "time": {
-        "06:00:00": "<div><time when=\"06:00:00\">午前六時</time>起床、庭園ヲ散歩シ、</div>",
-        "07:00:00": "<div><time when=\"07:00:00\">七時</time>朝飧ヲ畢ル<lb/>食後各新聞紙ヲ一覧シ、</div>",
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><placeName>兜町</placeName>事務所ニ抵ル、更ニ<orgName>第一銀行</orgName>ニ於テ来人ニ接ス<lb/></div>",
-        "18:00:00": "<div><time when=\"18:00:00\">午後六時</time><placeName>王子</placeName>別荘ニ帰ル</div>"
+        "06:00:00": "<div><time when=\"06:00:00\">\n        午前六時\n       </time>\n       起床、庭園ヲ散歩シ、</div>",
+        "07:00:00": "<div><time when=\"07:00:00\">\n        七時\n       </time>\n       朝飧ヲ畢ル\n       <lb/>\n       食後各新聞紙ヲ一覧シ、</div>",
+        "10:00:00": "<div><time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵ル、更ニ\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ於テ来人ニ接ス\n       <lb/></div>",
+        "18:00:00": "<div><time when=\"18:00:00\">\n        午後六時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰ル</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10013m-135\">\n<head>\n<date when=\"1905-05-15\"> 五月十五日 </date> 月　晴　風ナシ </head>\n<p><time when=\"06:00:00\">午前六時</time>起床、庭園ヲ散歩シ、<time when=\"07:00:00\">七時</time>朝飧ヲ畢ル<lb/>食後各新聞紙ヲ一覧シ、<time when=\"10:00:00\">午前十時</time><placeName>兜町</placeName>事務所ニ抵ル、更ニ<orgName>第一銀行</orgName>ニ於テ来人ニ接ス<lb/><time when=\"18:00:00\">午後六時</time><placeName>王子</placeName>別荘ニ帰ル</p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10013m-0135\">\n<head>\n<date when=\"1905-05-15\">\n        五月十五日\n       </date>\n       月　晴　風ナシ\n      </head>\n<p>\n<time when=\"06:00:00\">\n        午前六時\n       </time>\n       起床、庭園ヲ散歩シ、\n       <time when=\"07:00:00\">\n        七時\n       </time>\n       朝飧ヲ畢ル\n       <lb/>\n       食後各新聞紙ヲ一覧シ、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵ル、更ニ\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ於テ来人ニ接ス\n       <lb/>\n<time when=\"18:00:00\">\n        午後六時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰ル\n      </p>\n</div>",
     "year": "1905",
     "yearAndMonth": "1905-05"
 }

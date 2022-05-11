@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1605",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20031m 昭和四年 1929"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20031m 昭和四年 1929"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20031m 昭和四年 1929",
     "date": {
         "lvl0": "1929",
@@ -22,28 +22,29 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-12",
     "date_lvl2": "1929-12-06",
-    "description": "\n\n 六日  （金） \n\n\n午前時　　　　渋沢秀雄氏来約（飛鳥山邸）\n\n\n午前十時第六天徳川公爵家顧問会（同邸）\n\n\n午後二時事務所ニ御出勤\n\n\n",
+    "description": "\n\n\n           六日\n          \n          （金）\n         \n\n\n\n\n             午前時\n            \n\n\n              渋沢\n             \n\n              秀雄\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n             第六天\n            \n\n\n              徳川\n             \n\n            公爵家顧問会（同邸）\n           \n\n\n\n\n             午後二時\n            \n            事務所ニ御出勤\n           \n\n\n",
     "fullname": [
-        "渋沢秀雄"
+        "\n              渋沢\n             \n              秀雄\n             "
     ],
-    "label": "六日  （金）",
+    "label": "六日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20031m-242",
-    "objectID": "DKB20031m-241",
-    "prev": "DKB20031m-240",
+    "next": "DKB20031m-0242",
+    "objectID": "DKB20031m-0241",
+    "prev": "DKB20031m-0240",
     "sort": "DKB20031m-0241",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "第六天"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/第六天"
     ],
     "temporal": "1929-12-06",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-241\">\n<head>\n<date when=\"1929-12-06\"> 六日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time>午前時</time>　　　　<persName><surname>渋沢</surname><forename>秀雄</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><placeName>第六天</placeName><persName><surname>徳川</surname></persName>公爵家顧問会（同邸）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>事務所ニ御出勤</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0241\">\n<head>\n<date when=\"1929-12-06\">\n           六日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前時\n            </time>\n<persName corresp=\"#pers_渋沢秀雄\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              秀雄\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公爵家顧問会（同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-12"
 }

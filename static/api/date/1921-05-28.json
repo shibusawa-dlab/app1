@@ -8,14 +8,15 @@
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/長岡半太郎",
         "https://shibusawa-dlab.github.io/lab1/api/chname/日下義雄",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/西"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/西",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/三輪修三"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1364",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -25,19 +26,19 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-05",
     "date_lvl2": "1921-05-28",
-    "description": "\n\n 廿八日  （土） \n\n\n午前九時長岡半太郎氏ヲ御訪問（帝大理学部）\n\n\n午前十時カシン氏来約（兜町）\n\n\n午前十一時日下義雄氏兜町ニ来約\n\n\n午後一時西男爵、三輪修三両氏兜町ニ来約\n\n\n午後二時帝国飛行協会理事会（同会）\n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n\n\n              長岡\n             \n\n              半太郎\n             \n\n            氏ヲ御訪問（帝大理学部）\n           \n\n\n\n\n             午前十時\n            \n            カシン氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              日下\n             \n\n              義雄\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後一時\n            \n\n\n              西\n             \n\n            男爵、\n            \n\n              三輪\n             \n\n              修三\n             \n\n            両氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後二時\n            \n            帝国飛行協会理事会（同会）\n           \n\n\n",
     "fullname": [
-        "長岡半太郎",
-        "日下義雄",
-        "三輪修三"
+        "\n              長岡\n             \n              半太郎\n             ",
+        "\n              日下\n             \n              義雄\n             ",
+        "\n              三輪\n             \n              修三\n             "
     ],
-    "label": "廿八日  （土）",
+    "label": "廿八日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20023m-141",
-    "objectID": "DKB20023m-140",
-    "prev": "DKB20023m-139",
+    "next": "DKB20023m-0141",
+    "objectID": "DKB20023m-0140",
+    "prev": "DKB20023m-0139",
     "sort": "DKB20023m-0140",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -46,10 +47,10 @@
     ],
     "temporal": "1921-05-28",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>長岡</surname><forename>半太郎</forename></persName>氏ヲ御訪問（帝大理学部）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_長岡半太郎\">\n<surname>\n              長岡\n             </surname>\n<forename>\n              半太郎\n             </forename>\n</persName>\n            氏ヲ御訪問（帝大理学部）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-140\">\n<head>\n<date when=\"1921-05-28\"> 廿八日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>長岡</surname><forename>半太郎</forename></persName>氏ヲ御訪問（帝大理学部）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>カシン氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>日下</surname><forename>義雄</forename></persName>氏<placeName>兜町</placeName>ニ来約</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time><persName><surname>西</surname></persName>男爵、<persName><surname>三輪</surname><forename>修三</forename></persName>両氏<placeName>兜町</placeName>ニ来約</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>帝国飛行協会理事会（同会）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0140\">\n<head>\n<date when=\"1921-05-28\">\n           廿八日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_長岡半太郎\">\n<surname>\n              長岡\n             </surname>\n<forename>\n              半太郎\n             </forename>\n</persName>\n            氏ヲ御訪問（帝大理学部）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            カシン氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_日下義雄\">\n<surname>\n              日下\n             </surname>\n<forename>\n              義雄\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_西\">\n<surname>\n              西\n             </surname>\n</persName>\n            男爵、\n            <persName corresp=\"#pers_三輪修三\">\n<surname>\n              三輪\n             </surname>\n<forename>\n              修三\n             </forename>\n</persName>\n            両氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            帝国飛行協会理事会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-05"
 }

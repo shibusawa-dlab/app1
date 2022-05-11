@@ -1,14 +1,12 @@
 {
-    "agential": [
-        "如水"
-    ],
+    "agential": [],
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1345",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -18,15 +16,15 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-10",
     "date_lvl2": "1920-10-30",
-    "description": "\n\n 三十日  （土） \n\n\n同\n\n\n正午　　　　　藤山東商会頭ヨリ御案内（東商楼上）\n\n\n午後五半時　　帰一協会ノ件（如水会館）\n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （土）\n         \n\n\n\n            同\n           \n\n\n\n\n             正午\n            \n\n             藤\n            \n\n             山東\n            \n            商会頭ヨリ御案内（東商楼上）\n           \n\n\n\n\n             午後五半時\n            \n            帰一協会ノ件（如水会館）\n           \n\n\n",
     "fullname": [],
-    "label": "三十日  （土）",
+    "label": "三十日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-281",
-    "objectID": "DKB20022m-280",
-    "prev": "DKB20022m-279",
+    "next": "DKB20022m-0281",
+    "objectID": "DKB20022m-0280",
+    "prev": "DKB20022m-0279",
     "sort": "DKB20022m-0280",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "藤",
         "山東省"
@@ -38,7 +36,7 @@
     "temporal": "1920-10-30",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-280\">\n<head>\n<date when=\"1920-10-30\"> 三十日 </date> （土） </head>\n<listEvent>\n<event>\n<p>同</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　<placeName>藤</placeName><placeName>山東</placeName>商会頭ヨリ御案内（東商楼上）</p>\n</event>\n<event>\n<p><time when=\"17:30:00\">午後五半時</time>　　帰一協会ノ件（<persName><forename>如水</forename></persName>会館）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0280\">\n<head>\n<date when=\"1920-10-30\">\n           三十日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n            同\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_藤\">\n             藤\n            </placeName>\n<placeName corresp=\"#place_山東省\">\n             山東\n            </placeName>\n            商会頭ヨリ御案内（東商楼上）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            帰一協会ノ件（如水会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-10"
 }

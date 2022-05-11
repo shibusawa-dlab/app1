@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1383",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -20,15 +20,15 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-02",
     "date_lvl2": "1922-02-23",
-    "description": "\n\n 廿三日  （木） \n\n\n午後五・五三　東京駅着ニテ大磯より御帰京\n\n\n",
+    "description": "\n\n\n           廿三日\n          \n          （木）\n         \n\n\n\n\n             午後五・\n             \n\n               五三\n              \n\n\n\n             東京\n            \n            駅着ニテ\n            \n             大磯\n            \n            より御帰京\n           \n\n\n",
     "fullname": [],
-    "label": "廿三日  （木）",
+    "label": "廿三日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-27",
-    "objectID": "DKB20024m-26",
-    "prev": "DKB20024m-24",
+    "next": "DKB20024m-0027",
+    "objectID": "DKB20024m-0026",
+    "prev": "DKB20024m-0024",
     "sort": "DKB20024m-0026",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京",
         "大磯町"
@@ -39,10 +39,10 @@
     ],
     "temporal": "1922-02-23",
     "time": {
-        "17:53:00": "<div><time when=\"17:53:00\">午後五・<persName><forename>五三</forename></persName></time>　<placeName>東京</placeName>駅着ニテ<placeName>大磯</placeName>より御帰京</div>"
+        "17:53:00": "<div><time when=\"17:53:00\">\n             午後五・\n             <persName corresp=\"#pers_五三\">\n<forename>\n               五三\n              </forename>\n</persName>\n</time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅着ニテ\n            <placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            より御帰京</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-26\">\n<head>\n<date when=\"1922-02-23\"> 廿三日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"17:53:00\">午後五・<persName><forename>五三</forename></persName></time>　<placeName>東京</placeName>駅着ニテ<placeName>大磯</placeName>より御帰京</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0026\">\n<head>\n<date when=\"1922-02-23\">\n           廿三日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"17:53:00\">\n             午後五・\n             <persName corresp=\"#pers_五三\">\n<forename>\n               五三\n              </forename>\n</persName>\n</time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅着ニテ\n            <placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            より御帰京\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-02"
 }

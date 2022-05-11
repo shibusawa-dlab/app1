@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1338",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -22,15 +22,15 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-08",
     "date_lvl2": "1920-08-01",
-    "description": "\n\n 一日  （日） \n\n\n午前九時マデニ　原首相ヲ御訪問（芝私邸）\n\n\n午前十時マデニ　神田区今川小路一ノ五修道学院ヘ御出向\n\n\n",
+    "description": "\n\n\n           一日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n            マデニ\n            \n\n              原\n             \n\n            首相ヲ御訪問（\n            \n             芝\n            \n            私邸）\n           \n\n\n\n\n             午前十時\n            \n            マデニ\n            \n\n              神田\n             \n\n            区今川小路一ノ五修道学院ヘ御出向\n           \n\n\n",
     "fullname": [],
-    "label": "一日  （日）",
+    "label": "一日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-204",
-    "objectID": "DKB20022m-203",
-    "prev": "DKB20022m-202",
+    "next": "DKB20022m-0204",
+    "objectID": "DKB20022m-0203",
+    "prev": "DKB20022m-0202",
     "sort": "DKB20022m-0203",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "芝"
     ],
@@ -39,10 +39,10 @@
     ],
     "temporal": "1920-08-01",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time>マデニ　<persName><surname>原</surname></persName>首相ヲ御訪問（<placeName>芝</placeName>私邸）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            マデニ\n            <persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            首相ヲ御訪問（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n            私邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-203\">\n<head>\n<date when=\"1920-08-01\"> 一日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time>マデニ　<persName><surname>原</surname></persName>首相ヲ御訪問（<placeName>芝</placeName>私邸）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>マデニ　<persName><surname>神田</surname></persName>区今川小路一ノ五修道学院ヘ御出向</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0203\">\n<head>\n<date when=\"1920-08-01\">\n           一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            マデニ\n            <persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            首相ヲ御訪問（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n            私邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            マデニ\n            <persName corresp=\"#pers_神田\">\n<surname>\n              神田\n             </surname>\n</persName>\n            区今川小路一ノ五修道学院ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-08"
 }

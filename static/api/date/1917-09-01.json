@@ -1,20 +1,18 @@
 {
     "agential": [
-        "田山",
         "井上",
         "渋沢敬三"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/田山",
         "https://shibusawa-dlab.github.io/lab1/api/chname/井上",
         "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢敬三"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1245",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -24,27 +22,29 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-09",
     "date_lvl2": "1917-09-01",
-    "description": "\n\n 一日  （土） \n\n\n午前十―十二時世外院三週忌御焼香（内田山井上侯邸）\n\n\n午後一時理化学研究処理事会（商業会ギ処）\n\n\n午後三時渋沢敬三殿兜町ニ来約\n\n\n",
+    "description": "\n\n\n           一日\n          \n          （土）\n         \n\n\n\n\n             午前十―十二時\n            \n            世外院三週忌御焼香（\n            \n             内田山\n            \n\n\n              井上\n             \n\n            侯邸）\n           \n\n\n\n\n             午後一時\n            \n            理化学研究処理事会（商業会ギ処）\n           \n\n\n\n\n             午後三時\n            \n\n\n              渋沢\n             \n\n              敬三\n             \n\n            殿\n            \n             兜町\n            \n            ニ来約\n           \n\n\n",
     "fullname": [
-        "渋沢敬三"
+        "\n              渋沢\n             \n              敬三\n             "
     ],
-    "label": "一日  （土）",
+    "label": "一日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-231",
-    "objectID": "DKB20019m-229",
-    "prev": "DKB20019m-228",
+    "next": "DKB20019m-0231",
+    "objectID": "DKB20019m-0229",
+    "prev": "DKB20019m-0228",
     "sort": "DKB20019m-0229",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
+        "内田山",
         "日本橋兜町"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/内田山",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1917-09-01",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-229\">\n<head>\n<date when=\"1917-09-01\"> 一日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time from=\"11:00:00\" to=\"12:00:00\">午前十―十二時</time>世外院三週忌御焼香（内<persName><surname>田山</surname></persName><persName><surname>井上</surname></persName>侯邸）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>理化学研究処理事会（商業会ギ処）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>渋沢</surname><forename>敬三</forename></persName>殿<placeName>兜町</placeName>ニ来約</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0229\">\n<head>\n<date when=\"1917-09-01\">\n           一日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"11:00:00\" to=\"12:00:00\">\n             午前十―十二時\n            </time>\n            世外院三週忌御焼香（\n            <placeName corresp=\"#place_内田山\">\n             内田山\n            </placeName>\n<persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            侯邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            理化学研究処理事会（商業会ギ処）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_渋沢敬三\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              敬三\n             </forename>\n</persName>\n            殿\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-09"
 }

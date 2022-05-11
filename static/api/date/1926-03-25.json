@@ -9,11 +9,11 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1505",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-03",
@@ -22,18 +22,18 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-03",
     "date_lvl2": "1926-03-25",
-    "description": "\n\n 廿五日  （木） \n\n\n午前九時柴田徳次郎氏来約\n\n\n午九半時　　　坪谷善四郎氏御召ニ付来邸（飛鳥山）\n\n\n正午　　　　　埼玉会館之件（銀行倶楽部）\n\n\n午後三時二松学舎評議員会（同舎）\n\n\n午後四半時　　協調会理事会（同会）\n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n\n\n              柴田\n             \n\n              徳次郎\n             \n\n            氏来約\n           \n\n\n\n\n             午九半時\n            \n\n\n              坪谷\n             \n\n              善四郎\n             \n\n            氏御召ニ付来邸（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n             埼玉\n            \n            会館之件（銀行倶楽部）\n           \n\n\n\n\n             午後三時\n            \n            二松学舎評議員会（同舎）\n           \n\n\n\n\n             午後四半時\n            \n            協調会理事会（同会）\n           \n\n\n",
     "fullname": [
-        "柴田徳次郎",
-        "坪谷善四郎"
+        "\n              柴田\n             \n              徳次郎\n             ",
+        "\n              坪谷\n             \n              善四郎\n             "
     ],
-    "label": "廿五日  （木）",
+    "label": "廿五日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-84",
-    "objectID": "DKB20028m-83",
-    "prev": "DKB20028m-81",
+    "next": "DKB20028m-0084",
+    "objectID": "DKB20028m-0083",
+    "prev": "DKB20028m-0081",
     "sort": "DKB20028m-0083",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "埼玉"
@@ -44,10 +44,10 @@
     ],
     "temporal": "1926-03-25",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>柴田</surname><forename>徳次郎</forename></persName>氏来約</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_柴田徳次郎\">\n<surname>\n              柴田\n             </surname>\n<forename>\n              徳次郎\n             </forename>\n</persName>\n            氏来約</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-83\">\n<head>\n<date when=\"1926-03-25\"> 廿五日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>柴田</surname><forename>徳次郎</forename></persName>氏来約</p>\n</event>\n<event>\n<p><time when=\"09:30:00\">午九半時</time>　　　<persName><surname>坪谷</surname><forename>善四郎</forename></persName>氏御召ニ付来邸（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　<placeName>埼玉</placeName>会館之件（銀行倶楽部）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>二松学舎評議員会（同舎）</p>\n</event>\n<event>\n<p><time when=\"16:30:00\">午後四半時</time>　　協調会理事会（同会）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0083\">\n<head>\n<date when=\"1926-03-25\">\n           廿五日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_柴田徳次郎\">\n<surname>\n              柴田\n             </surname>\n<forename>\n              徳次郎\n             </forename>\n</persName>\n            氏来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午九半時\n            </time>\n<persName corresp=\"#pers_坪谷善四郎\">\n<surname>\n              坪谷\n             </surname>\n<forename>\n              善四郎\n             </forename>\n</persName>\n            氏御召ニ付来邸（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            会館之件（銀行倶楽部）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            二松学舎評議員会（同舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            協調会理事会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-03"
 }

@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1484",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -20,28 +20,29 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-12",
     "date_lvl2": "1924-12-19",
-    "description": "\n\n 十九日  （金） \n\n\n御引籠リ\n\n\n午前十時青木節一氏来約（あすか山）\n\n\n〃十一時渡辺嘉一氏同上\n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （金）\n         \n\n\n\n            御引籠リ\n           \n\n\n\n\n             午前十時\n            \n\n             青木\n            \n            節一氏来約（\n            \n             あすか山\n            \n            ）\n           \n\n\n\n\n             〃十一時\n            \n\n\n              渡辺\n             \n\n              嘉一\n             \n\n            氏同上\n           \n\n\n",
     "fullname": [
-        "渡邊嘉一"
+        "\n              渡辺\n             \n              嘉一\n             "
     ],
-    "label": "十九日  （金）",
+    "label": "十九日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-351",
-    "objectID": "DKB20026m-350",
-    "prev": "DKB20026m-349",
+    "next": "DKB20026m-0351",
+    "objectID": "DKB20026m-0350",
+    "prev": "DKB20026m-0349",
     "sort": "DKB20026m-0350",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "青木",
         "あすか山"
     ],
     "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/青木"
+        "https://shibusawa-dlab.github.io/lab1/api/place/青木",
+        "https://shibusawa-dlab.github.io/lab1/api/place/あすか山"
     ],
     "temporal": "1924-12-19",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-350\">\n<head>\n<date when=\"1924-12-19\"> 十九日 </date> （金） </head>\n<listEvent>\n<event>\n<p>御引籠リ</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><placeName>青木</placeName>節一氏来約（<placeName corresp=\"#飛鳥山\">あすか山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">〃十一時</time><persName><surname>渡辺</surname><forename>嘉一</forename></persName>氏同上</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0350\">\n<head>\n<date when=\"1924-12-19\">\n           十九日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n            御引籠リ\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_青木\">\n             青木\n            </placeName>\n            節一氏来約（\n            <placeName corresp=\"#place_あすか山\">\n             あすか山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             〃十一時\n            </time>\n<persName corresp=\"#pers_渡邊嘉一\">\n<surname>\n              渡辺\n             </surname>\n<forename>\n              嘉一\n             </forename>\n</persName>\n            氏同上\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-12"
 }

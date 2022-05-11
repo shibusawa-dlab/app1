@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1559",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -22,17 +22,17 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-10",
     "date_lvl2": "1927-10-17",
-    "description": "\n\n 十七日  （月） \n\n\n神嘗祭\n\n\n午前八時埼玉県学友会新井氏来約　アスカ山\n\n\n午後二時西村茂樹先生二十五年記念祭（駒込林町養源寺）\n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （月）\n         \n\n\n\n            神嘗祭\n           \n\n\n\n\n             午前八時\n            \n\n             埼玉\n            \n            県学友会\n            \n\n              新井\n             \n\n            氏来約\n            \n             アスカ山\n            \n\n\n\n\n\n             午後二時\n            \n\n\n              西村\n             \n\n              茂樹\n             \n\n            先生二十五年記念祭（\n            \n             駒込\n            \n\n             林町\n            \n            養源寺）\n           \n\n\n",
     "fullname": [
-        "西村茂樹"
+        "\n              西村\n             \n              茂樹\n             "
     ],
-    "label": "十七日  （月）",
+    "label": "十七日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-265",
-    "objectID": "DKB20029m-264",
-    "prev": "DKB20029m-262",
+    "next": "DKB20029m-0265",
+    "objectID": "DKB20029m-0264",
+    "prev": "DKB20029m-0262",
     "sort": "DKB20029m-0264",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "埼玉",
         "アスカ山",
@@ -41,13 +41,14 @@
     ],
     "spatial_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/place/埼玉",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
         "https://shibusawa-dlab.github.io/lab1/api/place/駒込",
         "https://shibusawa-dlab.github.io/lab1/api/place/林町"
     ],
     "temporal": "1927-10-17",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-264\">\n<head>\n<date when=\"1927-10-17\"> 十七日 </date> （月） </head>\n<listEvent>\n<event>\n<p>神嘗祭</p>\n</event>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><placeName>埼玉</placeName>県学友会<persName><surname>新井</surname></persName>氏来約　<placeName corresp=\"#飛鳥山\">アスカ山</placeName></p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>西村</surname><forename>茂樹</forename></persName>先生二十五年記念祭（<placeName>駒込</placeName><placeName>林町</placeName>養源寺）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0264\">\n<head>\n<date when=\"1927-10-17\">\n           十七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n            神嘗祭\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県学友会\n            <persName corresp=\"#pers_新井\">\n<surname>\n              新井\n             </surname>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_西村茂樹\">\n<surname>\n              西村\n             </surname>\n<forename>\n              茂樹\n             </forename>\n</persName>\n            先生二十五年記念祭（\n            <placeName corresp=\"#place_駒込\">\n             駒込\n            </placeName>\n<placeName corresp=\"#place_林町\">\n             林町\n            </placeName>\n            養源寺）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-10"
 }

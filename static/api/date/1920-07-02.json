@@ -5,14 +5,16 @@
         "桑田熊蔵"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/金子喜代太",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/白岩竜平",
         "https://shibusawa-dlab.github.io/lab1/api/chname/桑田熊蔵"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1336",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -22,19 +24,19 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-07",
     "date_lvl2": "1920-07-02",
-    "description": "\n\n 二日  （金） \n\n\n午前十半時　　湯中氏来約（兜町）\n\n\n午前十一時金子喜代太氏来約（兜町）\n\n\n午前十一半時　白岩竜平氏来約（兜町）\n\n\n午前十一半時　桑田熊蔵氏来約（兜町）\n\n\n午後〇時五十五分　東京駅御発車大磯町ヘ御出向\n\n\n",
+    "description": "\n\n\n           二日\n          \n          （金）\n         \n\n\n\n\n             午前十半時\n            \n            湯中氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              金子\n             \n\n              喜代太\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一半時\n            \n\n\n              白岩\n             \n\n              竜平\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一半時\n            \n\n\n              桑田\n             \n\n              熊蔵\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後〇時五十五分\n            \n\n             東京\n            \n            駅御発車\n            \n             大磯\n            \n            町ヘ御出向\n           \n\n\n",
     "fullname": [
-        "金子喜代太",
-        "白岩竜平",
-        "桑田熊蔵"
+        "\n              金子\n             \n              喜代太\n             ",
+        "\n              白岩\n             \n              竜平\n             ",
+        "\n              桑田\n             \n              熊蔵\n             "
     ],
-    "label": "二日  （金）",
+    "label": "二日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-184",
-    "objectID": "DKB20022m-182",
-    "prev": "DKB20022m-181",
+    "next": "DKB20022m-0184",
+    "objectID": "DKB20022m-0182",
+    "prev": "DKB20022m-0181",
     "sort": "DKB20022m-0182",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "東京",
@@ -47,10 +49,10 @@
     ],
     "temporal": "1920-07-02",
     "time": {
-        "10:30:00": "<div><time when=\"10:30:00\">午前十半時</time>　　湯中氏来約（<placeName>兜町</placeName>）</div>"
+        "10:30:00": "<div><time when=\"10:30:00\">\n             午前十半時\n            </time>\n            湯中氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-182\">\n<head>\n<date when=\"1920-07-02\"> 二日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"10:30:00\">午前十半時</time>　　湯中氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>金子</surname><forename>喜代太</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:30:00\">午前十一半時</time>　<persName><surname>白岩</surname><forename>竜平</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:30:00\">午前十一半時</time>　<persName><surname>桑田</surname><forename>熊蔵</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:55:00\">午後〇時五十五分</time>　<placeName>東京</placeName>駅御発車<placeName>大磯</placeName>町ヘ御出向</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0182\">\n<head>\n<date when=\"1920-07-02\">\n           二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n            湯中氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_金子喜代太\">\n<surname>\n              金子\n             </surname>\n<forename>\n              喜代太\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<persName corresp=\"#pers_白岩竜平\">\n<surname>\n              白岩\n             </surname>\n<forename>\n              竜平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<persName corresp=\"#pers_桑田熊蔵\">\n<surname>\n              桑田\n             </surname>\n<forename>\n              熊蔵\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:55:00\">\n             午後〇時五十五分\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅御発車\n            <placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            町ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-07"
 }

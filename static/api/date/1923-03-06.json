@@ -4,14 +4,15 @@
         "服部"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/白岩竜平",
         "https://shibusawa-dlab.github.io/lab1/api/chname/服部"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1421",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -21,17 +22,17 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-03",
     "date_lvl2": "1923-03-06",
-    "description": "\n\n 六日  （火） \n\n\n午前十半時　　白岩竜平氏来約（兜町）\n\n\n正午　　　　　中日実業会社ノ件（銀行クラブ）\n\n\n午後三時日米電信会社ノ件（日本工業クラブ）\n\n\n午後五時日米関係委員会服部氏招待（銀行クラブ）\n\n\n",
+    "description": "\n\n\n           六日\n          \n          （火）\n         \n\n\n\n\n             午前十半時\n            \n\n\n              白岩\n             \n\n              竜平\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            中日実業会社ノ件（銀行クラブ）\n           \n\n\n\n\n\n             午後三時\n            \n            日米電信会社ノ件（日本工業クラブ）\n           \n\n\n\n\n             午後五時\n            \n            日米関係委員会\n            \n\n              服部\n             \n\n            氏招待（銀行クラブ）\n           \n\n\n",
     "fullname": [
-        "白岩竜平"
+        "\n              白岩\n             \n              竜平\n             "
     ],
-    "label": "六日  （火）",
+    "label": "六日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20025m-59",
-    "objectID": "DKB20025m-58",
-    "prev": "DKB20025m-57",
+    "next": "DKB20025m-0059",
+    "objectID": "DKB20025m-0058",
+    "prev": "DKB20025m-0057",
     "sort": "DKB20025m-0058",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -40,10 +41,10 @@
     ],
     "temporal": "1923-03-06",
     "time": {
-        "10:30:00": "<div><time when=\"10:30:00\">午前十半時</time>　　<persName><surname>白岩</surname><forename>竜平</forename></persName>氏来約（<placeName>兜町</placeName>）</div>"
+        "10:30:00": "<div><time when=\"10:30:00\">\n             午前十半時\n            </time>\n<persName corresp=\"#pers_白岩竜平\">\n<surname>\n              白岩\n             </surname>\n<forename>\n              竜平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-58\">\n<head>\n<date when=\"1923-03-06\"> 六日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"10:30:00\">午前十半時</time>　　<persName><surname>白岩</surname><forename>竜平</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　中日実業会社ノ件（銀行クラブ）</p>\n</event>\n<event>\n<p><pb n=\"B2582\"/><time when=\"15:00:00\">午後三時</time>日米電信会社ノ件（日本工業クラブ）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>日米関係委員会<persName><surname>服部</surname></persName>氏招待（銀行クラブ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0058\">\n<head>\n<date when=\"1923-03-06\">\n           六日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n<persName corresp=\"#pers_白岩竜平\">\n<surname>\n              白岩\n             </surname>\n<forename>\n              竜平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            中日実業会社ノ件（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2582\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1421/full/max/0/default.jpg\" n=\"B2582\" source=\"#pageB2582\"/>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            日米電信会社ノ件（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            日米関係委員会\n            <persName corresp=\"#pers_服部\">\n<surname>\n              服部\n             </surname>\n</persName>\n            氏招待（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-03"
 }

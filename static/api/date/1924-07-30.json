@@ -2,13 +2,15 @@
     "agential": [
         "服部毅"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/服部毅"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1472",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -18,25 +20,27 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-07",
     "date_lvl2": "1924-07-30",
-    "description": "\n\n 三十日  （水） \n\n\n明治天皇祭\n\n\n午前八―九時服部毅氏来約（アスカ山）\n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （水）\n         \n\n\n\n            明治天皇祭\n           \n\n\n\n\n             午前八―九時\n            \n\n\n              服部\n             \n\n              毅\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "服部毅"
+        "\n              服部\n             \n              毅\n             "
     ],
-    "label": "三十日  （水）",
+    "label": "三十日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-218",
-    "objectID": "DKB20026m-217",
-    "prev": "DKB20026m-216",
+    "next": "DKB20026m-0218",
+    "objectID": "DKB20026m-0217",
+    "prev": "DKB20026m-0216",
     "sort": "DKB20026m-0217",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山"
+    ],
     "temporal": "1924-07-30",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-217\">\n<head>\n<date when=\"1924-07-30\"> 三十日 </date> （水） </head>\n<listEvent>\n<event>\n<p>明治天皇祭</p>\n</event>\n<event>\n<p><time from=\"08:00:00\" to=\"09:00:00\">午前八―九時</time><persName><surname>服部</surname><forename>毅</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0217\">\n<head>\n<date when=\"1924-07-30\">\n           三十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n            明治天皇祭\n           </p>\n</event>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"09:00:00\">\n             午前八―九時\n            </time>\n<persName corresp=\"#pers_服部毅\">\n<surname>\n              服部\n             </surname>\n<forename>\n              毅\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-07"
 }

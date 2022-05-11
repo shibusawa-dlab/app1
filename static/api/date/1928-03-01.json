@@ -3,13 +3,16 @@
         "渡辺得男",
         "佐々木勇之助"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渡辺得男",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐々木勇之助"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1573",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20030m 昭和三年 1928"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20030m 昭和三年 1928"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20030m 昭和三年 1928",
     "date": {
         "lvl0": "1928",
@@ -19,18 +22,18 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-03",
     "date_lvl2": "1928-03-01",
-    "description": "\n\n 一日  （木） \n\n\n午前八半時　　渡辺得男氏揮毫ノ件ニテ来約（王子邸）\n\n\n午前十時東京女学館評議員会（銀行クラブ）\n\n\n午後一・四〇　事務所ニ御出勤\n\n\n午後三時佐々木勇之助氏ヲ御訪問（第一銀行）\n\n\n",
+    "description": "\n\n\n           一日\n          \n          （木）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              渡辺\n             \n\n              得男\n             \n\n            氏揮毫ノ件ニテ来約（\n            \n             王子\n            \n            邸）\n           \n\n\n\n\n             午前十時\n            \n\n             東京\n            \n            女学館評議員会（銀行クラブ）\n           \n\n\n\n\n             午後一・四〇\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午後三時\n            \n\n\n              佐々木\n             \n\n              勇之助\n             \n\n            氏ヲ御訪問（第一銀行）\n           \n\n\n",
     "fullname": [
-        "渡辺得男",
-        "佐々木勇之助"
+        "\n              渡辺\n             \n              得男\n             ",
+        "\n              佐々木\n             \n              勇之助\n             "
     ],
-    "label": "一日  （木）",
+    "label": "一日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20030m-63",
-    "objectID": "DKB20030m-62",
-    "prev": "DKB20030m-60",
+    "next": "DKB20030m-0063",
+    "objectID": "DKB20030m-0062",
+    "prev": "DKB20030m-0060",
     "sort": "DKB20030m-0062",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "王子",
         "東京"
@@ -41,10 +44,10 @@
     ],
     "temporal": "1928-03-01",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>渡辺</surname><forename>得男</forename></persName>氏揮毫ノ件ニテ来約（<placeName>王子</placeName>邸）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_渡辺得男\">\n<surname>\n              渡辺\n             </surname>\n<forename>\n              得男\n             </forename>\n</persName>\n            氏揮毫ノ件ニテ来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-62\">\n<head>\n<date when=\"1928-03-01\"> 一日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>渡辺</surname><forename>得男</forename></persName>氏揮毫ノ件ニテ来約（<placeName>王子</placeName>邸）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><placeName>東京</placeName>女学館評議員会（銀行クラブ）</p>\n</event>\n<event>\n<p><time when=\"13:40:00\">午後一・四〇</time>　事務所ニ御出勤</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>佐々木</surname><forename>勇之助</forename></persName>氏ヲ御訪問（第一銀行）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0062\">\n<head>\n<date when=\"1928-03-01\">\n           一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_渡辺得男\">\n<surname>\n              渡辺\n             </surname>\n<forename>\n              得男\n             </forename>\n</persName>\n            氏揮毫ノ件ニテ来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            女学館評議員会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:40:00\">\n             午後一・四〇\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_佐々木勇之助\">\n<surname>\n              佐々木\n             </surname>\n<forename>\n              勇之助\n             </forename>\n</persName>\n            氏ヲ御訪問（第一銀行）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-03"
 }

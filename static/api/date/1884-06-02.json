@@ -3,11 +3,11 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/80",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB10005m 甲申京摂巡回日記　　　　　　（株式会社第一銀行京都支店所蔵）"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB10005m 甲申京摂巡回日記　　　　　　（株式会社 第一銀行 京都支店所蔵）"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-    "category_lvl1": "DKB10005m 甲申京摂巡回日記　　　　　　（株式会社第一銀行京都支店所蔵）",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl1": "DKB10005m 甲申京摂巡回日記　　　　　　（株式会社 第一銀行 京都支店所蔵）",
     "date": {
         "lvl0": "1884",
         "lvl1": "1884 > 1884-06",
@@ -16,15 +16,15 @@
     "date_lvl0": "1884",
     "date_lvl1": "1884-06",
     "date_lvl2": "1884-06-02",
-    "description": "\n\n 六月二日  晴 \n午前六時静岡ヲ発シ、見付駅ニテ午餐シ、午後七時豊橋ニ抵リ宿ヲ小島屋ニ投ス\n",
+    "description": "\n\n\n        六月二日\n       \n       晴\n      \n\n\n        午前六時\n       \n\n        静岡\n       \n       ヲ発シ、\n       \n        見付\n       \n       駅ニテ午餐シ、\n       \n        午後七時\n       \n\n        豊橋\n       \n       ニ抵リ宿ヲ小島屋ニ投ス\n      \n",
     "fullname": [],
-    "label": "六月二日  晴",
+    "label": "六月二日              晴",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
-    "next": "DKB10005m-6",
-    "objectID": "DKB10005m-5",
-    "prev": "DKB10005m-4",
+    "next": "DKB10005m-0006",
+    "objectID": "DKB10005m-0005",
+    "prev": "DKB10005m-0004",
     "sort": "DKB10005m-0005",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "静岡",
         "見付",
@@ -37,11 +37,11 @@
     ],
     "temporal": "1884-06-02",
     "time": {
-        "06:00:00": "<div><time when=\"06:00:00\">午前六時</time><placeName>静岡</placeName>ヲ発シ、<placeName>見付</placeName>駅ニテ午餐シ、</div>",
-        "19:00:00": "<div><time when=\"19:00:00\">午後七時</time><placeName>豊橋</placeName>ニ抵リ宿ヲ小島屋ニ投ス</div>"
+        "06:00:00": "<div><time when=\"06:00:00\">\n        午前六時\n       </time>\n<placeName corresp=\"#place_静岡\">\n        静岡\n       </placeName>\n       ヲ発シ、\n       <placeName corresp=\"#place_見付\">\n        見付\n       </placeName>\n       駅ニテ午餐シ、</div>",
+        "19:00:00": "<div><time when=\"19:00:00\">\n        午後七時\n       </time>\n<placeName corresp=\"#place_豊橋\">\n        豊橋\n       </placeName>\n       ニ抵リ宿ヲ小島屋ニ投ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10005m-5\">\n<head>\n<date when=\"1884-06-02\"> 六月二日 </date> 晴 </head>\n<p><time when=\"06:00:00\">午前六時</time><placeName>静岡</placeName>ヲ発シ、<placeName>見付</placeName>駅ニテ午餐シ、<time when=\"19:00:00\">午後七時</time><placeName>豊橋</placeName>ニ抵リ宿ヲ小島屋ニ投ス</p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10005m-0005\">\n<head>\n<date when=\"1884-06-02\">\n        六月二日\n       </date>\n       晴\n      </head>\n<p>\n<time when=\"06:00:00\">\n        午前六時\n       </time>\n<placeName corresp=\"#place_静岡\">\n        静岡\n       </placeName>\n       ヲ発シ、\n       <placeName corresp=\"#place_見付\">\n        見付\n       </placeName>\n       駅ニテ午餐シ、\n       <time when=\"19:00:00\">\n        午後七時\n       </time>\n<placeName corresp=\"#place_豊橋\">\n        豊橋\n       </placeName>\n       ニ抵リ宿ヲ小島屋ニ投ス\n      </p>\n</div>",
     "year": "1884",
     "yearAndMonth": "1884-06"
 }

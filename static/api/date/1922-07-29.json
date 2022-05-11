@@ -6,15 +6,17 @@
         "三浦環"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/瓜生",
         "https://shibusawa-dlab.github.io/lab1/api/chname/堀越",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/山室軍平"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山室軍平",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/三浦環"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1400",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -24,18 +26,18 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-07",
     "date_lvl2": "1922-07-29",
-    "description": "\n\n 廿九日  （土） \n\n\n午前八時瓜生会役員会引続総会（瓜生会）\n\n\n午前十一時堀越商会総会（帝国ホテル）\n\n\n午後三―六時山室軍平氏来約（兜町）\n\n\n午後七時東京市養育院催、三浦環女史音楽会（青年会館）\n\n\n",
+    "description": "\n\n\n           廿九日\n          \n          （土）\n         \n\n\n\n\n             午前八時\n            \n\n\n              瓜生\n             \n\n            会役員会引続総会（\n            \n\n              瓜生\n             \n\n            会）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              堀越\n             \n\n            商会総会（帝国ホテル）\n           \n\n\n\n\n             午後三―六時\n            \n\n\n              山室\n             \n\n              軍平\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後七時\n            \n\n             東京\n            \n            市養育院催、\n            \n\n              三浦\n             \n\n              環\n             \n\n            女史音楽会（青年会館）\n           \n\n\n",
     "fullname": [
-        "山室軍平",
-        "三浦環"
+        "\n              山室\n             \n              軍平\n             ",
+        "\n              三浦\n             \n              環\n             "
     ],
-    "label": "廿九日  （土）",
+    "label": "廿九日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-187",
-    "objectID": "DKB20024m-186",
-    "prev": "DKB20024m-185",
+    "next": "DKB20024m-0187",
+    "objectID": "DKB20024m-0186",
+    "prev": "DKB20024m-0185",
     "sort": "DKB20024m-0186",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "東京"
@@ -46,10 +48,10 @@
     ],
     "temporal": "1922-07-29",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>瓜生</surname></persName>会役員会引続総会（<persName><surname>瓜生</surname></persName>会）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_瓜生\">\n<surname>\n              瓜生\n             </surname>\n</persName>\n            会役員会引続総会（\n            <persName corresp=\"#pers_瓜生\">\n<surname>\n              瓜生\n             </surname>\n</persName>\n            会）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-186\">\n<head>\n<date when=\"1922-07-29\"> 廿九日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>瓜生</surname></persName>会役員会引続総会（<persName><surname>瓜生</surname></persName>会）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>堀越</surname></persName>商会総会（帝国ホテル）</p>\n</event>\n<event>\n<p><time from=\"15:00:00\" to=\"18:00:00\">午後三―六時</time><persName><surname>山室</surname><forename>軍平</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"19:00:00\">午後七時</time><placeName>東京</placeName>市養育院催、<persName><surname>三浦</surname><forename>環</forename></persName>女史音楽会（青年会館）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0186\">\n<head>\n<date when=\"1922-07-29\">\n           廿九日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_瓜生\">\n<surname>\n              瓜生\n             </surname>\n</persName>\n            会役員会引続総会（\n            <persName corresp=\"#pers_瓜生\">\n<surname>\n              瓜生\n             </surname>\n</persName>\n            会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_堀越\">\n<surname>\n              堀越\n             </surname>\n</persName>\n            商会総会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"18:00:00\">\n             午後三―六時\n            </time>\n<persName corresp=\"#pers_山室軍平\">\n<surname>\n              山室\n             </surname>\n<forename>\n              軍平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院催、\n            <persName corresp=\"#pers_三浦環\">\n<surname>\n              三浦\n             </surname>\n<forename>\n              環\n             </forename>\n</persName>\n            女史音楽会（青年会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-07"
 }

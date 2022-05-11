@@ -5,14 +5,16 @@
         "神谷忠雄"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/団"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/団",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ジヤンソン",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/神谷忠雄"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1353",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -22,17 +24,17 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-02",
     "date_lvl2": "1921-02-14",
-    "description": "\n\n 十四日  （月） \n\n\n午前九時東京市養育院ヘ御出向\n\n\n正午　　　　　郷男爵、団氏ヨリ御案内（日本工業クラブ）\n\n\n午後二時ハミルトン氏兜町ニ来約\n\n\n午後三半―四時ポール氏　同上\n\n\n午後三時協調会理事会（同会）\n\n\n午後三時ジヤンソン氏兜町ニ来約\n\n\n午後四半時　　神谷忠雄氏　同上\n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n\n             東京\n            \n            市養育院ヘ御出向\n           \n\n\n\n\n             正午\n            \n            郷男爵、\n            \n\n              団\n             \n\n            氏ヨリ御案内（日本工業クラブ）\n           \n\n\n\n\n             午後二時\n            \n            ハミルトン氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後三半―四時\n            \n            ポール氏　同上\n           \n\n\n\n\n             午後三時\n            \n            協調会理事会（同会）\n           \n\n\n\n\n             午後三時\n            \n\n\n              ジヤンソン\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後四半時\n            \n\n\n              神谷\n             \n\n              忠雄\n             \n\n            氏　同上\n           \n\n\n",
     "fullname": [
-        "神谷忠雄"
+        "\n              神谷\n             \n              忠雄\n             "
     ],
-    "label": "十四日  （月）",
+    "label": "十四日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20023m-42",
-    "objectID": "DKB20023m-41",
-    "prev": "DKB20023m-40",
+    "next": "DKB20023m-0042",
+    "objectID": "DKB20023m-0041",
+    "prev": "DKB20023m-0040",
     "sort": "DKB20023m-0041",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京",
         "日本橋兜町"
@@ -43,10 +45,10 @@
     ],
     "temporal": "1921-02-14",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><placeName>東京</placeName>市養育院ヘ御出向</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-41\">\n<head>\n<date when=\"1921-02-14\"> 十四日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><placeName>東京</placeName>市養育院ヘ御出向</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　郷男爵、<persName><surname>団</surname></persName>氏ヨリ御案内（日本工業クラブ）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>ハミルトン氏<placeName>兜町</placeName>ニ来約</p>\n</event>\n<event>\n<p><time from=\"15:30:00\" to=\"16:00:00\">午後三半―四時</time>ポール氏　同上</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>協調会理事会（同会）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>ジヤンソン</surname></persName>氏<placeName>兜町</placeName>ニ来約</p>\n</event>\n<event>\n<p><time when=\"16:30:00\">午後四半時</time>　　<persName><surname>神谷</surname><forename>忠雄</forename></persName>氏　同上</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0041\">\n<head>\n<date when=\"1921-02-14\">\n           十四日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            郷男爵、\n            <persName corresp=\"#pers_団\">\n<surname>\n              団\n             </surname>\n</persName>\n            氏ヨリ御案内（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            ハミルトン氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:30:00\" to=\"16:00:00\">\n             午後三半―四時\n            </time>\n            ポール氏　同上\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            協調会理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_ジヤンソン\">\n<surname>\n              ジヤンソン\n             </surname>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n<persName corresp=\"#pers_神谷忠雄\">\n<surname>\n              神谷\n             </surname>\n<forename>\n              忠雄\n             </forename>\n</persName>\n            氏　同上\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-02"
 }

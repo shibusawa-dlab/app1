@@ -4,13 +4,17 @@
         "倉知鉄吉",
         "寺内総理大臣ヲ御訪問（永田町官邸）中野武営"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高橋清介",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/倉知鉄吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/寺内総理大臣ヲ御訪問（永田町官邸）中野武営"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1224",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -20,19 +24,19 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-01",
     "date_lvl2": "1917-01-08",
-    "description": "\n\n 八日  （月） \n\n\n午前八時高橋清介氏来約（飛鳥山邸）\n\n\n午前十時半石原宮内次官ヲ御訪問（宮内省）\n\n\n午前十一―十二時　倉知鉄吉氏来約（兜町）\n\n\n午後二時寺内総理大臣ヲ御訪問（永田町官邸）中野武営氏同行\n\n\n",
+    "description": "\n\n\n           八日\n          \n          （月）\n         \n\n\n\n\n             午前八時\n            \n\n\n              高橋\n             \n\n              清介\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時半\n            \n\n             石原\n            \n            宮内次官ヲ御訪問（宮内省）\n           \n\n\n\n\n             午前十一―十二時\n            \n\n\n              倉知\n             \n\n              鉄吉\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              寺内\n             \n             総理大臣ヲ御訪問（\n             \n              永田町\n             \n             官邸）\n             \n\n              中野\n             \n\n              武営\n             \n\n            氏同行\n           \n\n\n",
     "fullname": [
-        "高橋清介",
-        "倉知鉄吉",
-        "寺内武営"
+        "\n              高橋\n             \n              清介\n             ",
+        "\n              倉知\n             \n              鉄吉\n             ",
+        "\n              寺内\n             \n              武営\n             "
     ],
-    "label": "八日  （月）",
+    "label": "八日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-9",
-    "objectID": "DKB20019m-8",
-    "prev": "DKB20019m-7",
+    "next": "DKB20019m-0009",
+    "objectID": "DKB20019m-0008",
+    "prev": "DKB20019m-0007",
     "sort": "DKB20019m-0008",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "石原",
@@ -40,16 +44,17 @@
         "永田町"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/石原",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
         "https://shibusawa-dlab.github.io/lab1/api/place/永田町"
     ],
     "temporal": "1917-01-08",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>高橋</surname><forename>清介</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_高橋清介\">\n<surname>\n              高橋\n             </surname>\n<forename>\n              清介\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-8\">\n<head>\n<date when=\"1917-01-08\"> 八日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>高橋</surname><forename>清介</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:30:00\">午前十時半</time><placeName>石原</placeName>宮内次官ヲ御訪問（宮内省）</p>\n</event>\n<event>\n<p><time from=\"11:00:00\" to=\"12:00:00\">午前十一―十二時</time>　<persName><surname>倉知</surname><forename>鉄吉</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>寺内</surname>総理大臣ヲ御訪問（<placeName>永田町</placeName>官邸）<lb/><surname>中野</surname><forename>武営</forename></persName>氏同行</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0008\">\n<head>\n<date when=\"1917-01-08\">\n           八日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_高橋清介\">\n<surname>\n              高橋\n             </surname>\n<forename>\n              清介\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十時半\n            </time>\n<placeName corresp=\"#place_石原\">\n             石原\n            </placeName>\n            宮内次官ヲ御訪問（宮内省）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"11:00:00\" to=\"12:00:00\">\n             午前十一―十二時\n            </time>\n<persName corresp=\"#pers_倉知鉄吉\">\n<surname>\n              倉知\n             </surname>\n<forename>\n              鉄吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_寺内総理大臣ヲ御訪問（永田町官邸）中野武営\">\n<surname>\n              寺内\n             </surname>\n             総理大臣ヲ御訪問（\n             <placeName corresp=\"#place_永田町\">\n              永田町\n             </placeName>\n             官邸）\n             <lb/>\n<surname>\n              中野\n             </surname>\n<forename>\n              武営\n             </forename>\n</persName>\n            氏同行\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-01"
 }

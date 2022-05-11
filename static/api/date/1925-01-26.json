@@ -4,13 +4,17 @@
         "阪谷希一",
         "日高利市"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢智雄",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/阪谷希一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/日高利市"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1485",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -20,19 +24,19 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-01",
     "date_lvl2": "1925-01-26",
-    "description": "\n\n 廿六日  （月） \n\n\n午後二半時　　渋沢智雄様ト御会見（事務所）\n\n\n午後三時阪谷希一氏ト御会見\n\n\n午後四時東京日々新聞記者日高利市氏ト御会談（事ム所）\n\n\n",
+    "description": "\n\n\n           廿六日\n          \n          （月）\n         \n\n\n\n\n             午後二半時\n            \n\n\n              渋沢\n             \n\n              智雄\n             \n\n            様ト御会見（事務所）\n           \n\n\n\n\n             午後三時\n            \n\n\n              阪谷\n             \n\n              希一\n             \n\n            氏ト御会見\n           \n\n\n\n\n             午後四時\n            \n\n             東京\n            \n            日々新聞記者\n            \n\n              日高\n             \n\n              利市\n             \n\n            氏ト御会談（事ム所）\n           \n\n\n",
     "fullname": [
-        "渋沢智雄",
-        "阪谷希一",
-        "日高利市"
+        "\n              渋沢\n             \n              智雄\n             ",
+        "\n              阪谷\n             \n              希一\n             ",
+        "\n              日高\n             \n              利市\n             "
     ],
-    "label": "廿六日  （月）",
+    "label": "廿六日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20027m-11",
-    "objectID": "DKB20027m-10",
-    "prev": "DKB20027m-9",
+    "next": "DKB20027m-0011",
+    "objectID": "DKB20027m-0010",
+    "prev": "DKB20027m-0009",
     "sort": "DKB20027m-0010",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京"
     ],
@@ -41,10 +45,10 @@
     ],
     "temporal": "1925-01-26",
     "time": {
-        "14:30:00": "<div><time when=\"14:30:00\">午後二半時</time>　　<persName><surname>渋沢</surname><forename>智雄</forename></persName>様ト御会見（事務所）</div>"
+        "14:30:00": "<div><time when=\"14:30:00\">\n             午後二半時\n            </time>\n<persName corresp=\"#pers_渋沢智雄\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              智雄\n             </forename>\n</persName>\n            様ト御会見（事務所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-10\">\n<head>\n<date when=\"1925-01-26\"> 廿六日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"14:30:00\">午後二半時</time>　　<persName><surname>渋沢</surname><forename>智雄</forename></persName>様ト御会見（事務所）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>阪谷</surname><forename>希一</forename></persName>氏ト御会見</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><placeName>東京</placeName>日々新聞記者<persName><surname>日高</surname><forename>利市</forename></persName>氏ト御会談（事ム所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0010\">\n<head>\n<date when=\"1925-01-26\">\n           廿六日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<persName corresp=\"#pers_渋沢智雄\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              智雄\n             </forename>\n</persName>\n            様ト御会見（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_阪谷希一\">\n<surname>\n              阪谷\n             </surname>\n<forename>\n              希一\n             </forename>\n</persName>\n            氏ト御会見\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            日々新聞記者\n            <persName corresp=\"#pers_日高利市\">\n<surname>\n              日高\n             </surname>\n<forename>\n              利市\n             </forename>\n</persName>\n            氏ト御会談（事ム所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-01"
 }

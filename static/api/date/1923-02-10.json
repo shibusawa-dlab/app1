@@ -2,13 +2,15 @@
     "agential": [
         "高木陸郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高木陸郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1419",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -18,17 +20,17 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-02",
     "date_lvl2": "1923-02-10",
-    "description": "\n\n 十日  （土） \n\n\n午前十時ギユウリツク博士来約（兜町）\n\n\n午前十一時高木陸郎氏来約（兜町）\n\n\n午後四時日米関係委員会ギユウリツク博士送別会（銀行クラブ）御顔出シノミ\n\n\n午後四時修養団ノ件（兜町）\n\n\n",
+    "description": "\n\n\n           十日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n            ギユウリツク博士来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              高木\n             \n\n              陸郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            日米関係委員会ギユウリツク博士送別会（銀行クラブ）御顔出シノミ\n           \n\n\n\n\n             午後四時\n            \n            修養団ノ件（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "高木陸郎"
+        "\n              高木\n             \n              陸郎\n             "
     ],
-    "label": "十日  （土）",
+    "label": "十日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20025m-34",
-    "objectID": "DKB20025m-33",
-    "prev": "DKB20025m-32",
+    "next": "DKB20025m-0034",
+    "objectID": "DKB20025m-0033",
+    "prev": "DKB20025m-0032",
     "sort": "DKB20025m-0033",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -37,10 +39,10 @@
     ],
     "temporal": "1923-02-10",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time>ギユウリツク博士来約（<placeName>兜町</placeName>）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            ギユウリツク博士来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-33\">\n<head>\n<date when=\"1923-02-10\"> 十日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>ギユウリツク博士来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>高木</surname><forename>陸郎</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>日米関係委員会ギユウリツク博士送別会（銀行クラブ）御顔出シノミ</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>修養団ノ件（<placeName>兜町</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0033\">\n<head>\n<date when=\"1923-02-10\">\n           十日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            ギユウリツク博士来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_高木陸郎\">\n<surname>\n              高木\n             </surname>\n<forename>\n              陸郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            日米関係委員会ギユウリツク博士送別会（銀行クラブ）御顔出シノミ\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            修養団ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-02"
 }

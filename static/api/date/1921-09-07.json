@@ -6,14 +6,15 @@
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/原",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/宇野木忠",
         "https://shibusawa-dlab.github.io/lab1/api/chname/蓮沼門三"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1375",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -23,18 +24,18 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-09",
     "date_lvl2": "1921-09-07",
-    "description": "\n\n 七日  （水） \n\n\n午前十時鶴見局長来約（兜町）\n\n\n午前十一時原首相ヲ御訪問（首相官邸）\n\n\n午後〇半時　　朝日新聞ノ宇野木忠氏来約（兜町）\n\n\n午後一時蓮沼門三氏来約（〃）\n\n\n午後二時ダッチヤー氏来約（兜町）\n\n\n午後三時国際聯盟協会特別委員会（同会）\n\n\n午後四時引続　国際聯盟協会理事会（同会）\n\n\n",
+    "description": "\n\n\n           七日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n\n             鶴見\n            \n            局長来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              原\n             \n\n            首相ヲ御訪問（首相官邸）\n           \n\n\n\n\n             午後〇半時\n            \n            朝日新聞ノ\n            \n\n              宇野木\n             \n\n              忠\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n\n              蓮沼\n             \n\n              門三\n             \n\n            氏来約（〃）\n           \n\n\n\n\n             午後二時\n            \n            ダッチヤー氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            国際聯盟協会特別委員会（同会）\n           \n\n\n\n\n             午後四時\n            \n            引続　国際聯盟協会理事会（同会）\n           \n\n\n",
     "fullname": [
-        "宇野木忠",
-        "蓮沼門三"
+        "\n              宇野木\n             \n              忠\n             ",
+        "\n              蓮沼\n             \n              門三\n             "
     ],
-    "label": "七日  （水）",
+    "label": "七日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20023m-244",
-    "objectID": "DKB20023m-243",
-    "prev": "DKB20023m-242",
+    "next": "DKB20023m-0244",
+    "objectID": "DKB20023m-0243",
+    "prev": "DKB20023m-0242",
     "sort": "DKB20023m-0243",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "鶴見",
         "日本橋兜町"
@@ -45,10 +46,10 @@
     ],
     "temporal": "1921-09-07",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><placeName>鶴見</placeName>局長来約（<placeName>兜町</placeName>）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_鶴見\">\n             鶴見\n            </placeName>\n            局長来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-243\">\n<head>\n<date when=\"1921-09-07\"> 七日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><placeName>鶴見</placeName>局長来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>原</surname></persName>首相ヲ御訪問（首相官邸）</p>\n</event>\n<event>\n<p><time when=\"12:30:00\">午後〇半時</time>　　朝日新聞ノ<persName><surname>宇野木</surname><forename>忠</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time><persName><surname>蓮沼</surname><forename>門三</forename></persName>氏来約（〃）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>ダッチヤー氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>国際聯盟協会特別委員会（同会）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>引続　国際聯盟協会理事会（同会）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0243\">\n<head>\n<date when=\"1921-09-07\">\n           七日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_鶴見\">\n             鶴見\n            </placeName>\n            局長来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            首相ヲ御訪問（首相官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇半時\n            </time>\n            朝日新聞ノ\n            <persName corresp=\"#pers_宇野木忠\">\n<surname>\n              宇野木\n             </surname>\n<forename>\n              忠\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_蓮沼門三\">\n<surname>\n              蓮沼\n             </surname>\n<forename>\n              門三\n             </forename>\n</persName>\n            氏来約（〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            ダッチヤー氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            国際聯盟協会特別委員会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            引続　国際聯盟協会理事会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-09"
 }

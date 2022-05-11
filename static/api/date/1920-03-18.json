@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1327",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -22,18 +22,18 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-03",
     "date_lvl2": "1920-03-18",
-    "description": "\n\n 十八日  （木） \n\n\n午前九半時　　日米関係委員会協議会（銀行クラブ）\n\n\n右終つて　　　服部金太郎氏ト御会見ノ約（〃）\n\n\n午後二―午後三時井上公二氏来約（兜町）\n\n\n午後三時清水釘吉氏来約（兜町）\n\n\n午後五半時　　中央開墾会社ノ件（帝国ホテル）\n\n\n午後七時三井男爵ヨリ御案内（綱町三井邸）\n\n\n",
+    "description": "\n\n\n           十八日\n          \n          （木）\n         \n\n\n\n\n             午前九半時\n            \n            日米関係委員会協議会（銀行クラブ）\n           \n\n\n\n            右終つて\n            \n\n              服部\n             \n\n              金太郎\n             \n\n            氏ト御会見ノ約（〃）\n           \n\n\n\n\n             午後二―午後三時\n            \n\n\n              井上\n             \n\n              公二\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n             清水\n            \n            釘吉氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n            中央開墾会社ノ件（帝国ホテル）\n           \n\n\n\n\n             午後七時\n            \n            三井男爵ヨリ御案内（\n            \n             綱町\n            \n            三井邸）\n           \n\n\n",
     "fullname": [
-        "服部金太郎",
-        "井上公二"
+        "\n              服部\n             \n              金太郎\n             ",
+        "\n              井上\n             \n              公二\n             "
     ],
-    "label": "十八日  （木）",
+    "label": "十八日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-76",
-    "objectID": "DKB20022m-75",
-    "prev": "DKB20022m-74",
+    "next": "DKB20022m-0076",
+    "objectID": "DKB20022m-0075",
+    "prev": "DKB20022m-0074",
     "sort": "DKB20022m-0075",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "清水",
@@ -41,14 +41,15 @@
     ],
     "spatial_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/清水"
+        "https://shibusawa-dlab.github.io/lab1/api/place/清水",
+        "https://shibusawa-dlab.github.io/lab1/api/place/綱町"
     ],
     "temporal": "1920-03-18",
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">午前九半時</time>　　日米関係委員会協議会（銀行クラブ）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n            日米関係委員会協議会（銀行クラブ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-75\">\n<head>\n<date when=\"1920-03-18\"> 十八日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"09:30:00\">午前九半時</time>　　日米関係委員会協議会（銀行クラブ）</p>\n</event>\n<event>\n<p>右終つて　　　<persName><surname>服部</surname><forename>金太郎</forename></persName>氏ト御会見ノ約（〃）</p>\n</event>\n<event>\n<p><time from=\"14:00:00\" to=\"15:00:00\">午後二―午後三時</time><persName><surname>井上</surname><forename>公二</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><placeName>清水</placeName>釘吉氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"17:30:00\">午後五半時</time>　　中央開墾会社ノ件（帝国ホテル）</p>\n</event>\n<event>\n<p><time when=\"19:00:00\">午後七時</time>三井男爵ヨリ御案内（<placeName>綱町</placeName>三井邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0075\">\n<head>\n<date when=\"1920-03-18\">\n           十八日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n            日米関係委員会協議会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n            右終つて\n            <persName corresp=\"#pers_服部金太郎\">\n<surname>\n              服部\n             </surname>\n<forename>\n              金太郎\n             </forename>\n</persName>\n            氏ト御会見ノ約（〃）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―午後三時\n            </time>\n<persName corresp=\"#pers_井上公二\">\n<surname>\n              井上\n             </surname>\n<forename>\n              公二\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_清水\">\n             清水\n            </placeName>\n            釘吉氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            中央開墾会社ノ件（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            三井男爵ヨリ御案内（\n            <placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            三井邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-03"
 }

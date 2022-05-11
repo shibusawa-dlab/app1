@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1559",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -22,27 +22,29 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-10",
     "date_lvl2": "1927-10-15",
-    "description": "\n\n 十五日  （土） \n\n\n午前十時石橋和訓邸《（氏脱）》ヘ御出向\n\n\n正午　　　　　御出勤\n\n\n午后一時小野秀雄氏来約（事務所）\n\n\n午後二時電気協会定時総会及講演会（電気クラブ）\n\n\n午後三半時　　早大新聞学会記者来約（事務所）\n\n\n午後五時高田、井の辺両氏来約（飛鳥山邸）\n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n            石橋和訓邸《（氏脱）》ヘ御出向\n           \n\n\n\n\n             正午\n            \n            御出勤\n           \n\n\n\n\n             午后一時\n            \n\n\n              小野\n             \n\n              秀雄\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後二時\n            \n            電気協会定時総会及講演会（電気クラブ）\n           \n\n\n\n\n             午後三半時\n            \n            早大新聞学会記者来約（事務所）\n           \n\n\n\n\n             午後五時\n            \n\n\n              高田\n             \n\n            、井の辺両氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "小野秀雄"
+        "\n              小野\n             \n              秀雄\n             "
     ],
-    "label": "十五日  （土）",
+    "label": "十五日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-264",
-    "objectID": "DKB20029m-262",
-    "prev": "DKB20029m-261",
+    "next": "DKB20029m-0264",
+    "objectID": "DKB20029m-0262",
+    "prev": "DKB20029m-0261",
     "sort": "DKB20029m-0262",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1927-10-15",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time>石橋和訓邸《（氏脱）》ヘ御出向</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            石橋和訓邸《（氏脱）》ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-262\">\n<head>\n<date when=\"1927-10-15\"> 十五日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>石橋和訓邸《（氏脱）》ヘ御出向</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　御出勤</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午后一時</time><persName><surname>小野</surname><forename>秀雄</forename></persName>氏来約（事務所）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>電気協会定時総会及講演会（電気クラブ）</p>\n</event>\n<event>\n<p><time when=\"15:30:00\">午後三半時</time>　　早大新聞学会記者来約（事務所）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><persName><surname>高田</surname></persName>、井の辺両氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0262\">\n<head>\n<date when=\"1927-10-15\">\n           十五日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            石橋和訓邸《（氏脱）》ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n<persName corresp=\"#pers_小野秀雄\">\n<surname>\n              小野\n             </surname>\n<forename>\n              秀雄\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            電気協会定時総会及講演会（電気クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n            早大新聞学会記者来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_高田\">\n<surname>\n              高田\n             </surname>\n</persName>\n            、井の辺両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-10"
 }

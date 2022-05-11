@@ -2,13 +2,15 @@
     "agential": [
         "古仁所豊"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/古仁所豊"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1614",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20032m 昭和五年 1930"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20032m 昭和五年 1930"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20032m 昭和五年 1930",
     "date": {
         "lvl0": "1930",
@@ -18,17 +20,17 @@
     "date_lvl0": "1930",
     "date_lvl1": "1930-07",
     "date_lvl2": "1930-07-10",
-    "description": "\n\n 十日  （木） \n\n\n午前九時古仁所豊氏来約（飛鳥山）\n\n\n午前十・四〇事務所ニ御出勤\n\n\n午前十一半時　帝国ホテル重役会（帝国ホテル）\n\n\n",
+    "description": "\n\n\n           十日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n\n\n              古仁所\n             \n\n              豊\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十・四〇\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午前十一半時\n            \n            帝国ホテル重役会（帝国ホテル）\n           \n\n\n",
     "fullname": [
-        "古仁所豊"
+        "\n              古仁所\n             \n              豊\n             "
     ],
-    "label": "十日  （木）",
+    "label": "十日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20032m-105",
-    "objectID": "DKB20032m-104",
-    "prev": "DKB20032m-103",
+    "next": "DKB20032m-0105",
+    "objectID": "DKB20032m-0104",
+    "prev": "DKB20032m-0103",
     "sort": "DKB20032m-0104",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園"
     ],
@@ -37,10 +39,10 @@
     ],
     "temporal": "1930-07-10",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>古仁所</surname><forename>豊</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_古仁所豊\">\n<surname>\n              古仁所\n             </surname>\n<forename>\n              豊\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20032m-104\">\n<head>\n<date when=\"1930-07-10\"> 十日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>古仁所</surname><forename>豊</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:40:00\">午前十・四〇</time>事務所ニ御出勤</p>\n</event>\n<event>\n<p><time when=\"11:30:00\">午前十一半時</time>　帝国ホテル重役会（帝国ホテル）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0104\">\n<head>\n<date when=\"1930-07-10\">\n           十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_古仁所豊\">\n<surname>\n              古仁所\n             </surname>\n<forename>\n              豊\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:40:00\">\n             午前十・四〇\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            帝国ホテル重役会（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1930",
     "yearAndMonth": "1930-07"
 }

@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1204",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -22,17 +22,17 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-05",
     "date_lvl2": "1916-05-18",
-    "description": "\n\n 十八日  （木） \n\n\n午前九時大隈伯ト御会見ノ約（早稲田）\n\n\n午前十時日本女子大学評議員会（同校）\n\n\n午後一時第一銀行\n\n\n午後三時印度人タタ氏来約（兜町）\n\n\n午後七時半長井長義氏ヨリ御案内（同氏邸）燕尾服着用\n\n\n",
+    "description": "\n\n\n           十八日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n\n\n              大隈\n             \n\n            伯ト御会見ノ約（\n            \n             早稲田\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n             日本\n            \n            女子大学評議員会（同校）\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午後三時\n            \n\n             印度\n            \n            人タタ氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後七時半\n            \n\n\n              長井\n             \n\n              長義\n             \n\n            氏ヨリ御案内（同氏邸）\n            \n            燕尾服着用\n           \n\n\n",
     "fullname": [
-        "長井長義"
+        "\n              長井\n             \n              長義\n             "
     ],
-    "label": "十八日  （木）",
+    "label": "十八日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-122",
-    "objectID": "DKB20018m-121",
-    "prev": "DKB20018m-120",
+    "next": "DKB20018m-0122",
+    "objectID": "DKB20018m-0121",
+    "prev": "DKB20018m-0120",
     "sort": "DKB20018m-0121",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "早稲田",
         "日本",
@@ -47,10 +47,10 @@
     ],
     "temporal": "1916-05-18",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>大隈</surname></persName>伯ト御会見ノ約（<placeName>早稲田</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            伯ト御会見ノ約（\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-121\">\n<head>\n<date when=\"1916-05-18\"> 十八日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>大隈</surname></persName>伯ト御会見ノ約（<placeName>早稲田</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><placeName>日本</placeName>女子大学評議員会（同校）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>第一銀行</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><placeName>印度</placeName>人タタ氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"19:30:00\">午後七時半</time><persName><surname>長井</surname><forename>長義</forename></persName>氏ヨリ御案内（同氏邸）<lb/>燕尾服着用</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0121\">\n<head>\n<date when=\"1916-05-18\">\n           十八日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            伯ト御会見ノ約（\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            女子大学評議員会（同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_インド\">\n             印度\n            </placeName>\n            人タタ氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:30:00\">\n             午後七時半\n            </time>\n<persName corresp=\"#pers_長井長義\">\n<surname>\n              長井\n             </surname>\n<forename>\n              長義\n             </forename>\n</persName>\n            氏ヨリ御案内（同氏邸）\n            <lb/>\n            燕尾服着用\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-05"
 }

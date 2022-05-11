@@ -4,14 +4,15 @@
         "大阪"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/川澄",
         "https://shibusawa-dlab.github.io/lab1/api/chname/大阪"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1341",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -21,15 +22,15 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-09",
     "date_lvl2": "1920-09-18",
-    "description": "\n\n 十八日  （土） \n\n\n午後三時アンダア・ウッド氏来約（兜町）\n\n\n午後三半時　　実業之世界社員来約（〃）\n\n\n午後四時日曜学校川澄氏代大阪氏来約（〃）\n\n\n",
+    "description": "\n\n\n           十八日\n          \n          （土）\n         \n\n\n\n\n             午後三時\n            \n            アンダア・ウッド氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三半時\n            \n            実業之世界社員来約（〃）\n           \n\n\n\n\n             午後四時\n            \n            日曜学校\n            \n\n              川澄\n             \n\n            氏代\n            \n\n              大阪\n             \n\n            氏来約（〃）\n           \n\n\n",
     "fullname": [],
-    "label": "十八日  （土）",
+    "label": "十八日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-239",
-    "objectID": "DKB20022m-238",
-    "prev": "DKB20022m-237",
+    "next": "DKB20022m-0239",
+    "objectID": "DKB20022m-0238",
+    "prev": "DKB20022m-0237",
     "sort": "DKB20022m-0238",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -38,10 +39,10 @@
     ],
     "temporal": "1920-09-18",
     "time": {
-        "15:00:00": "<div><time when=\"15:00:00\">午後三時</time>アンダア・ウッド氏来約（<placeName>兜町</placeName>）</div>"
+        "15:00:00": "<div><time when=\"15:00:00\">\n             午後三時\n            </time>\n            アンダア・ウッド氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-238\">\n<head>\n<date when=\"1920-09-18\"> 十八日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>アンダア・ウッド氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:30:00\">午後三半時</time>　　実業之世界社員来約（〃）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>日曜学校<persName><surname>川澄</surname></persName>氏代<persName><surname>大阪</surname></persName>氏来約（〃）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0238\">\n<head>\n<date when=\"1920-09-18\">\n           十八日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            アンダア・ウッド氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n            実業之世界社員来約（〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            日曜学校\n            <persName corresp=\"#pers_川澄\">\n<surname>\n              川澄\n             </surname>\n</persName>\n            氏代\n            <persName corresp=\"#pers_大阪\">\n<surname>\n              大阪\n             </surname>\n</persName>\n            氏来約（〃）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-09"
 }

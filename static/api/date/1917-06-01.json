@@ -4,14 +4,15 @@
         "水谷清"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/青柳有美"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/青柳有美",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/水谷清"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1238",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -21,18 +22,18 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-06",
     "date_lvl2": "1917-06-01",
-    "description": "\n\n 一日  （金） \n\n\n午前八時青柳有美氏来約（飛鳥山邸）\n\n\n午後一半時　　明治神宮奉賛会ヘ御出向ノ約\n\n\n午後二時明治神宮工事第二回委員会（池田事務所）\n\n\n午後二時半水谷清氏来約（兜町）\n\n\n午後四時内務省ヘ御出向ノ約（理化学研究所ノ件ニ付地方長官ト御会見）\n\n\n午後四時埼玉県人懇親会（上野精養軒）\n\n\n",
+    "description": "\n\n\n           一日\n          \n          （金）\n         \n\n\n\n\n             午前八時\n            \n\n\n              青柳\n             \n\n              有美\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後一半時\n            \n            明治神宮奉賛会ヘ御出向ノ約\n           \n\n\n\n\n             午後二時\n            \n            明治神宮工事第二回委員会（\n            \n             池田\n            \n            事務所）\n           \n\n\n\n\n             午後二時半\n            \n\n\n              水谷\n             \n\n              清\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            内務省ヘ御出向ノ約（理化学研究所ノ件ニ付地方長官ト御会見）\n           \n\n\n\n\n             午後四時\n            \n\n             埼玉\n            \n            県人懇親会（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "青柳有美",
-        "水谷清"
+        "\n              青柳\n             \n              有美\n             ",
+        "\n              水谷\n             \n              清\n             "
     ],
-    "label": "一日  （金）",
+    "label": "一日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-153",
-    "objectID": "DKB20019m-152",
-    "prev": "DKB20019m-150",
+    "next": "DKB20019m-0153",
+    "objectID": "DKB20019m-0152",
+    "prev": "DKB20019m-0150",
     "sort": "DKB20019m-0152",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "池田",
@@ -41,6 +42,7 @@
         "上野精養軒"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/池田",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
         "https://shibusawa-dlab.github.io/lab1/api/place/埼玉",
@@ -48,10 +50,10 @@
     ],
     "temporal": "1917-06-01",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>青柳</surname><forename>有美</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_青柳有美\">\n<surname>\n              青柳\n             </surname>\n<forename>\n              有美\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-152\">\n<head>\n<date when=\"1917-06-01\"> 一日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>青柳</surname><forename>有美</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"13:30:00\">午後一半時</time>　　明治神宮奉賛会ヘ御出向ノ約</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>明治神宮工事第二回委員会（<placeName>池田</placeName>事務所）</p>\n</event>\n<event>\n<p><time when=\"14:30:00\">午後二時半</time><persName><surname>水谷</surname><forename>清</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>内務省ヘ御出向ノ約（理化学研究所ノ件ニ付地方長官ト御会見）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><placeName>埼玉</placeName>県人懇親会（<placeName>上野精養軒</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0152\">\n<head>\n<date when=\"1917-06-01\">\n           一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_青柳有美\">\n<surname>\n              青柳\n             </surname>\n<forename>\n              有美\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n            明治神宮奉賛会ヘ御出向ノ約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            明治神宮工事第二回委員会（\n            <placeName corresp=\"#place_池田\">\n             池田\n            </placeName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二時半\n            </time>\n<persName corresp=\"#pers_水谷清\">\n<surname>\n              水谷\n             </surname>\n<forename>\n              清\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            内務省ヘ御出向ノ約（理化学研究所ノ件ニ付地方長官ト御会見）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県人懇親会（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-06"
 }

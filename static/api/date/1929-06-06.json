@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1594",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20031m 昭和四年 1929"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20031m 昭和四年 1929"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20031m 昭和四年 1929",
     "date": {
         "lvl0": "1929",
@@ -20,30 +20,31 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-06",
     "date_lvl2": "1929-06-06",
-    "description": "\n\n 六日  （木） \n\n\n午前十時徳川喜久子姫東京高等蚕糸学校御参観ニ付同校ニ御出向\n\n\n正午　　　　　喜久子姫御来邸午餐会（飛鳥山邸）\n\n\n",
+    "description": "\n\n\n           六日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n\n              徳川\n             \n\n              喜久子\n             \n\n            姫\n            \n             東京\n            \n            高等蚕糸学校御参観ニ付同校ニ御出向\n           \n\n\n\n\n             正午\n            \n\n\n              喜久子\n             \n\n            姫御来邸午餐会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "宣仁親王妃喜久子"
+        "\n              徳川\n             \n              喜久子\n             "
     ],
-    "label": "六日  （木）",
+    "label": "六日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20031m-81",
-    "objectID": "DKB20031m-80",
-    "prev": "DKB20031m-79",
+    "next": "DKB20031m-0081",
+    "objectID": "DKB20031m-0080",
+    "prev": "DKB20031m-0079",
     "sort": "DKB20031m-0080",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京",
         "飛鳥山邸"
     ],
     "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1929-06-06",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><persName><surname>徳川</surname><forename>喜久子</forename></persName>姫<placeName>東京</placeName>高等蚕糸学校御参観ニ付同校ニ御出向</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_宣仁親王妃喜久子\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              喜久子\n             </forename>\n</persName>\n            姫\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            高等蚕糸学校御参観ニ付同校ニ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-80\">\n<head>\n<date when=\"1929-06-06\"> 六日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>徳川</surname><forename>喜久子</forename></persName>姫<placeName>東京</placeName>高等蚕糸学校御参観ニ付同校ニ御出向</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　<persName><forename>喜久子</forename></persName>姫御来邸午餐会（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0080\">\n<head>\n<date when=\"1929-06-06\">\n           六日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_宣仁親王妃喜久子\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              喜久子\n             </forename>\n</persName>\n            姫\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            高等蚕糸学校御参観ニ付同校ニ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_宣仁親王妃喜久子\">\n<forename>\n              喜久子\n             </forename>\n</persName>\n            姫御来邸午餐会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-06"
 }

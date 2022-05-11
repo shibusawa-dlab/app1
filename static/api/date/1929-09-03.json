@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1600",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20031m 昭和四年 1929"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20031m 昭和四年 1929"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20031m 昭和四年 1929",
     "date": {
         "lvl0": "1929",
@@ -20,25 +20,25 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-09",
     "date_lvl2": "1929-09-03",
-    "description": "\n\n 三日  （火） \n\n\n午後一半時　　公爵徳川慶光邸御訪問《（氏脱）》\n\n\n午後二時事務所ニ御出勤\n\n\n",
+    "description": "\n\n\n           三日\n          \n          （火）\n         \n\n\n\n\n             午後一半時\n            \n            公爵\n            \n\n              徳川\n             \n\n              慶光\n             \n\n            邸御訪問《（氏脱）》\n           \n\n\n\n\n             午後二時\n            \n            事務所ニ御出勤\n           \n\n\n",
     "fullname": [
-        "徳川慶光"
+        "\n              徳川\n             \n              慶光\n             "
     ],
-    "label": "三日  （火）",
+    "label": "三日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20031m-152",
-    "objectID": "DKB20031m-151",
-    "prev": "DKB20031m-150",
+    "next": "DKB20031m-0152",
+    "objectID": "DKB20031m-0151",
+    "prev": "DKB20031m-0150",
     "sort": "DKB20031m-0151",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [],
     "spatial_uri": [],
     "temporal": "1929-09-03",
     "time": {
-        "13:30:00": "<div><time when=\"13:30:00\">午後一半時</time>　　公爵<persName><surname>徳川</surname><forename>慶光</forename></persName>邸御訪問《（氏脱）》</div>"
+        "13:30:00": "<div><time when=\"13:30:00\">\n             午後一半時\n            </time>\n            公爵\n            <persName corresp=\"#pers_徳川慶光\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶光\n             </forename>\n</persName>\n            邸御訪問《（氏脱）》</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-151\">\n<head>\n<date when=\"1929-09-03\"> 三日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"13:30:00\">午後一半時</time>　　公爵<persName><surname>徳川</surname><forename>慶光</forename></persName>邸御訪問《（氏脱）》</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>事務所ニ御出勤</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0151\">\n<head>\n<date when=\"1929-09-03\">\n           三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n            公爵\n            <persName corresp=\"#pers_徳川慶光\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶光\n             </forename>\n</persName>\n            邸御訪問《（氏脱）》\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-09"
 }

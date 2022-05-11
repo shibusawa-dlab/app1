@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1254",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -22,30 +22,31 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-12",
     "date_lvl2": "1917-12-06",
-    "description": "\n\n 六日  （木） \n\n\n午前十一時早稲田大学基金監理委員会（大隈邸）\n\n\n午後三時鈴木文治氏来約（兜町）\n\n\n午後六時三井ヨリ御案内（綱町別邸）\n\n\n",
+    "description": "\n\n\n           六日\n          \n          （木）\n         \n\n\n\n\n             午前十一時\n            \n            早稲田大学基金監理委員会（\n            \n\n              大隈\n             \n\n            邸）\n           \n\n\n\n\n             午後三時\n            \n\n\n              鈴木\n             \n\n              文治\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n            三井ヨリ御案内（\n            \n             綱町\n            \n            別邸）\n           \n\n\n",
     "fullname": [
-        "鈴木文治"
+        "\n              鈴木\n             \n              文治\n             "
     ],
-    "label": "六日  （木）",
+    "label": "六日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-317",
-    "objectID": "DKB20019m-316",
-    "prev": "DKB20019m-315",
+    "next": "DKB20019m-0317",
+    "objectID": "DKB20019m-0316",
+    "prev": "DKB20019m-0315",
     "sort": "DKB20019m-0316",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "綱町"
     ],
     "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/綱町"
     ],
     "temporal": "1917-12-06",
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">午前十一時</time>早稲田大学基金監理委員会（<persName><surname>大隈</surname></persName>邸）</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            早稲田大学基金監理委員会（\n            <persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-316\">\n<head>\n<date when=\"1917-12-06\"> 六日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>早稲田大学基金監理委員会（<persName><surname>大隈</surname></persName>邸）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>鈴木</surname><forename>文治</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time>三井ヨリ御案内（<placeName>綱町</placeName>別邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0316\">\n<head>\n<date when=\"1917-12-06\">\n           六日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            早稲田大学基金監理委員会（\n            <persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_鈴木文治\">\n<surname>\n              鈴木\n             </surname>\n<forename>\n              文治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            三井ヨリ御案内（\n            <placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            別邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-12"
 }

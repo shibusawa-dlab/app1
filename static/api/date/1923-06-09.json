@@ -4,13 +4,17 @@
         "入沢",
         "服部文四郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/尾立維孝",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/入沢",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/服部文四郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1431",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -20,28 +24,30 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-06",
     "date_lvl2": "1923-06-09",
-    "description": "\n\n 九日  （土） \n\n\n午前八時尾立維孝氏来約（飛鳥山邸）\n\n\n午前一時半日華実業協会幹事会（同会）\n\n\n午後一時半入沢博士診断（帝大学病院）\n\n\n午后三時商業会議所服部文四郎氏来約（日華実業協会）\n\n\n",
+    "description": "\n\n\n           九日\n          \n          （土）\n         \n\n\n\n\n             午前八時\n            \n\n\n              尾立\n             \n\n              維孝\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前一時半\n            \n            日華実業協会幹事会（同会）\n           \n\n\n\n\n             午後一時半\n            \n\n\n              入沢\n             \n\n            博士診断（帝大学病院）\n           \n\n\n\n\n             午后三時\n            \n            商業会議所\n            \n\n              服部\n             \n\n              文四郎\n             \n\n            氏来約（日華実業協会）\n           \n\n\n",
     "fullname": [
-        "尾立維孝",
-        "服部文四郎"
+        "\n              尾立\n             \n              維孝\n             ",
+        "\n              服部\n             \n              文四郎\n             "
     ],
-    "label": "九日  （土）",
+    "label": "九日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20025m-156",
-    "objectID": "DKB20025m-155",
-    "prev": "DKB20025m-154",
+    "next": "DKB20025m-0156",
+    "objectID": "DKB20025m-0155",
+    "prev": "DKB20025m-0154",
     "sort": "DKB20025m-0155",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1923-06-09",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>尾立</surname><forename>維孝</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_尾立維孝\">\n<surname>\n              尾立\n             </surname>\n<forename>\n              維孝\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-155\">\n<head>\n<date when=\"1923-06-09\"> 九日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>尾立</surname><forename>維孝</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"13:30:00\">午前一時半</time>日華実業協会幹事会（同会）</p>\n</event>\n<event>\n<p><time when=\"13:30:00\">午後一時半</time><persName><surname>入沢</surname></persName>博士診断（帝大学病院）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午后三時</time>商業会議所<persName><surname>服部</surname><forename>文四郎</forename></persName>氏来約（日華実業協会）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0155\">\n<head>\n<date when=\"1923-06-09\">\n           九日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_尾立維孝\">\n<surname>\n              尾立\n             </surname>\n<forename>\n              維孝\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午前一時半\n            </time>\n            日華実業協会幹事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一時半\n            </time>\n<persName corresp=\"#pers_入沢\">\n<surname>\n              入沢\n             </surname>\n</persName>\n            博士診断（帝大学病院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n            商業会議所\n            <persName corresp=\"#pers_服部文四郎\">\n<surname>\n              服部\n             </surname>\n<forename>\n              文四郎\n             </forename>\n</persName>\n            氏来約（日華実業協会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-06"
 }

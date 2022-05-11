@@ -2,13 +2,15 @@
     "agential": [
         "大沢正道"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大沢正道"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1350",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -18,17 +20,17 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-12",
     "date_lvl2": "1920-12-28",
-    "description": "\n\n 廿八日  （火） \n\n\n正午　　　　　日本煉瓦会社定時総会（同社）\n\n\n午後二時中央開墾重役会（同社）\n\n\n午後三時大沢正道氏来約（兜町）\n\n\n午後六時御同族会（兜町）\n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （火）\n         \n\n\n\n\n             正午\n            \n\n             日本\n            \n            煉瓦会社定時総会（同社）\n           \n\n\n\n\n             午後二時\n            \n            中央開墾重役会（同社）\n           \n\n\n\n\n             午後三時\n            \n\n\n              大沢\n             \n\n              正道\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n            御同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "大沢正道"
+        "\n              大沢\n             \n              正道\n             "
     ],
-    "label": "廿八日  （火）",
+    "label": "廿八日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-337",
-    "objectID": "DKB20022m-336",
-    "prev": "DKB20022m-335",
+    "next": "DKB20022m-0337",
+    "objectID": "DKB20022m-0336",
+    "prev": "DKB20022m-0335",
     "sort": "DKB20022m-0336",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本",
         "日本橋兜町"
@@ -39,10 +41,10 @@
     ],
     "temporal": "1920-12-28",
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">正午</time>　　　　　<placeName>日本</placeName>煉瓦会社定時総会（同社）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            煉瓦会社定時総会（同社）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-336\">\n<head>\n<date when=\"1920-12-28\"> 廿八日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　<placeName>日本</placeName>煉瓦会社定時総会（同社）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>中央開墾重役会（同社）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>大沢</surname><forename>正道</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time>御同族会（<placeName>兜町</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0336\">\n<head>\n<date when=\"1920-12-28\">\n           廿八日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            煉瓦会社定時総会（同社）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            中央開墾重役会（同社）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_大沢正道\">\n<surname>\n              大沢\n             </surname>\n<forename>\n              正道\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-12"
 }

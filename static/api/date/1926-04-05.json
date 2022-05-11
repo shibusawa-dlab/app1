@@ -3,14 +3,17 @@
         "福島甲子三",
         "李起東"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/福島甲子三",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/李起東"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1507",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-04",
@@ -19,18 +22,18 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-04",
     "date_lvl2": "1926-04-05",
-    "description": "\n\n 五日  （月） \n\n\n午前九時福島甲子三来邸《（氏脱）》\n\n\n午前十・四五事ム所ニ御出勤\n\n\n午前十一時鮮人李起東氏来約（事務所）\n\n\n午后一時青森徳英氏来約（事務所）\n\n\n",
+    "description": "\n\n\n           五日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n\n\n              福島\n             \n\n              甲子三\n             \n\n            来邸《（氏脱）》\n           \n\n\n\n\n             午前十・四五\n            \n            事ム所ニ御出勤\n           \n\n\n\n\n             午前十一時\n            \n            鮮人\n            \n\n              李\n             \n\n              起東\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午后一時\n            \n\n             青森\n            \n            徳英氏来約（事務所）\n           \n\n\n",
     "fullname": [
-        "福島甲子三",
-        "李起東"
+        "\n              福島\n             \n              甲子三\n             ",
+        "\n              李\n             \n              起東\n             "
     ],
-    "label": "五日  （月）",
+    "label": "五日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-95",
-    "objectID": "DKB20028m-94",
-    "prev": "DKB20028m-93",
+    "next": "DKB20028m-0095",
+    "objectID": "DKB20028m-0094",
+    "prev": "DKB20028m-0093",
     "sort": "DKB20028m-0094",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "青森"
     ],
@@ -39,10 +42,10 @@
     ],
     "temporal": "1926-04-05",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>福島</surname><forename>甲子三</forename></persName>来邸《（氏脱）》</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_福島甲子三\">\n<surname>\n              福島\n             </surname>\n<forename>\n              甲子三\n             </forename>\n</persName>\n            来邸《（氏脱）》</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-94\">\n<head>\n<date when=\"1926-04-05\"> 五日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>福島</surname><forename>甲子三</forename></persName>来邸《（氏脱）》</p>\n</event>\n<event>\n<p><time when=\"10:45:00\">午前十・四五</time>事ム所ニ御出勤</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>鮮人<persName><surname>李</surname><forename>起東</forename></persName>氏来約（事務所）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午后一時</time><placeName>青森</placeName>徳英氏来約（事務所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0094\">\n<head>\n<date when=\"1926-04-05\">\n           五日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_福島甲子三\">\n<surname>\n              福島\n             </surname>\n<forename>\n              甲子三\n             </forename>\n</persName>\n            来邸《（氏脱）》\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:45:00\">\n             午前十・四五\n            </time>\n            事ム所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            鮮人\n            <persName corresp=\"#pers_李起東\">\n<surname>\n              李\n             </surname>\n<forename>\n              起東\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n<placeName corresp=\"#place_青森\">\n             青森\n            </placeName>\n            徳英氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-04"
 }

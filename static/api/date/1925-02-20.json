@@ -8,15 +8,19 @@
         "小倉常吉"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/船坂八郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/知雄",
         "https://shibusawa-dlab.github.io/lab1/api/chname/智雄",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/植村澄三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小倉常吉"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1487",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -26,28 +30,31 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-02",
     "date_lvl2": "1925-02-20",
-    "description": "\n\n 二十日  （金） \n\n\n午八―九時船坂八郎来約（飛鳥山邸）\n\n\n午前九半時　　綱町様御夫人并ニ知雄様来約《（智雄様）》（事務所）\n\n\n午前十時植村澄三郎氏来約（渋沢事務所）\n\n\n午前十一時小倉常吉氏来約（〃事務所）\n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （金）\n         \n\n\n\n\n             午八―九時\n            \n\n\n              船坂\n             \n\n              八郎\n             \n\n            来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n             綱町\n            \n            様御夫人并ニ\n            \n\n              知雄\n             \n\n            様来約《（\n            \n\n              智雄\n             \n\n            様）》（事務所）\n           \n\n\n\n\n             午前十時\n            \n\n\n              植村\n             \n\n              澄三郎\n             \n\n            氏来約（\n            \n\n              渋沢\n             \n\n            事務所）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              小倉\n             \n\n              常吉\n             \n\n            氏来約（〃事務所）\n           \n\n\n",
     "fullname": [
-        "船坂八郎",
-        "植村澄三郎",
-        "小倉常吉"
+        "\n              船坂\n             \n              八郎\n             ",
+        "\n              植村\n             \n              澄三郎\n             ",
+        "\n              小倉\n             \n              常吉\n             "
     ],
-    "label": "二十日  （金）",
+    "label": "二十日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20027m-37",
-    "objectID": "DKB20027m-36",
-    "prev": "DKB20027m-35",
+    "next": "DKB20027m-0037",
+    "objectID": "DKB20027m-0036",
+    "prev": "DKB20027m-0035",
     "sort": "DKB20027m-0036",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "綱町"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/綱町"
+    ],
     "temporal": "1925-02-20",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-36\">\n<head>\n<date when=\"1925-02-20\"> 二十日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time from=\"20:00:00\" to=\"21:00:00\">午八―九時</time><persName><surname>船坂</surname><forename>八郎</forename></persName>来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"09:30:00\">午前九半時</time>　　<placeName>綱町</placeName>様御夫人并ニ<persName><forename>知雄</forename></persName>様来約《（<persName><forename>智雄</forename></persName>様）》（事務所）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>植村</surname><forename>澄三郎</forename></persName>氏来約（<persName><surname>渋沢</surname></persName>事務所）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>小倉</surname><forename>常吉</forename></persName>氏来約（〃事務所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0036\">\n<head>\n<date when=\"1925-02-20\">\n           二十日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"20:00:00\" to=\"21:00:00\">\n             午八―九時\n            </time>\n<persName corresp=\"#pers_船坂八郎\">\n<surname>\n              船坂\n             </surname>\n<forename>\n              八郎\n             </forename>\n</persName>\n            来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            様御夫人并ニ\n            <persName corresp=\"#pers_知雄\">\n<forename>\n              知雄\n             </forename>\n</persName>\n            様来約《（\n            <persName corresp=\"#pers_智雄\">\n<forename>\n              智雄\n             </forename>\n</persName>\n            様）》（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_植村澄三郎\">\n<surname>\n              植村\n             </surname>\n<forename>\n              澄三郎\n             </forename>\n</persName>\n            氏来約（\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_小倉常吉\">\n<surname>\n              小倉\n             </surname>\n<forename>\n              常吉\n             </forename>\n</persName>\n            氏来約（〃事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-02"
 }

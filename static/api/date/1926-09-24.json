@@ -3,14 +3,17 @@
         "入沢",
         "林三"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/入沢",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/林三"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1524",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-09",
@@ -19,26 +22,27 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-09",
     "date_lvl2": "1926-09-24",
-    "description": "\n\n 廿四日  （金） \n\n\n秋季皇霊祭\n\n\n午前九半時　　入沢、大滝、林三氏来診（アスカ山）\n\n\n午后二時東京市養育院ヘ御出向　同刻ニヘルムス、ヘツケルマン、シヨー三氏登院\n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （金）\n         \n\n\n\n            秋季皇霊祭\n           \n\n\n\n\n             午前九半時\n            \n\n\n              入沢\n             \n\n            、大滝、\n            \n\n              林三\n             \n\n            氏来診（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午后二時\n            \n\n             東京\n            \n            市養育院ヘ御出向　同刻ニヘルムス、ヘツケルマン、シヨー三氏登院\n           \n\n\n",
     "fullname": [],
-    "label": "廿四日  （金）",
+    "label": "廿四日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-248",
-    "objectID": "DKB20028m-247",
-    "prev": "DKB20028m-246",
+    "next": "DKB20028m-0248",
+    "objectID": "DKB20028m-0247",
+    "prev": "DKB20028m-0246",
     "sort": "DKB20028m-0247",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山",
         "東京"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
         "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1926-09-24",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-247\">\n<head>\n<date when=\"1926-09-24\"> 廿四日 </date> （金） </head>\n<listEvent>\n<event>\n<p>秋季皇霊祭</p>\n</event>\n<event>\n<p><time when=\"09:30:00\">午前九半時</time>　　<persName><surname>入沢</surname></persName>、大滝、<persName><forename>林三</forename></persName>氏来診（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午后二時</time><placeName>東京</placeName>市養育院ヘ御出向　同刻ニヘルムス、ヘツケルマン、シヨー三氏登院</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0247\">\n<head>\n<date when=\"1926-09-24\">\n           廿四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n            秋季皇霊祭\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_入沢\">\n<surname>\n              入沢\n             </surname>\n</persName>\n            、大滝、\n            <persName corresp=\"#pers_林三\">\n<forename>\n              林三\n             </forename>\n</persName>\n            氏来診（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院ヘ御出向　同刻ニヘルムス、ヘツケルマン、シヨー三氏登院\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-09"
 }

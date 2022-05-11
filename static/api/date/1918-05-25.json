@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1269",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20020m 大正七年 1918"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20020m 大正七年 1918"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20020m 大正七年 1918",
     "date": {
         "lvl0": "1918",
@@ -22,32 +22,33 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-05",
     "date_lvl2": "1918-05-25",
-    "description": "\n\n 廿五日  （土） \n\n\n午前八時黒田用信氏来約（飛鳥山邸）\n\n\n午前八時小林丑三郎氏来ル約（飛鳥山邸）\n\n\n正午　　　　　斯文会ノ件ニ付兜町ニ会合\n\n\n午後壱時　　　中山国寿氏来約（兜町）―岡部子爵御紹介\n\n\n午後二半時　　東京女学館同窓会（同校）\n\n\n午後五時聖徳太子千三百年御忌奉賛会発起人会（銀行クラブ）\n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （土）\n         \n\n\n\n\n             午前八時\n            \n\n\n              黒田\n             \n\n            用信氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前八時\n            \n\n\n              小林\n             \n\n              丑三郎\n             \n\n            氏来ル約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            斯文会ノ件ニ付\n            \n             兜町\n            \n            ニ会合\n           \n\n\n\n\n             午後壱時\n            \n            中山国寿氏来約（\n            \n             兜町\n            \n            ）―岡部子爵御紹介\n           \n\n\n\n\n             午後二半時\n            \n\n             東京\n            \n            女学館同窓会（同校）\n           \n\n\n\n\n             午後五時\n            \n            聖徳太子千三百年御忌奉賛会発起人会（銀行クラブ）\n           \n\n\n",
     "fullname": [
-        "小林丑三郎"
+        "\n              小林\n             \n              丑三郎\n             "
     ],
-    "label": "廿五日  （土）",
+    "label": "廿五日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20020m-140",
-    "objectID": "DKB20020m-139",
-    "prev": "DKB20020m-138",
+    "next": "DKB20020m-0140",
+    "objectID": "DKB20020m-0139",
+    "prev": "DKB20020m-0138",
     "sort": "DKB20020m-0139",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "日本橋兜町",
         "東京"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
         "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1918-05-25",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>黒田</surname></persName>用信氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_黒田\">\n<surname>\n              黒田\n             </surname>\n</persName>\n            用信氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-139\">\n<head>\n<date when=\"1918-05-25\"> 廿五日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>黒田</surname></persName>用信氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>小林</surname><forename>丑三郎</forename></persName>氏来ル約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　斯文会ノ件ニ付<placeName>兜町</placeName>ニ会合</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後壱時</time>　　　中山国寿氏来約（<placeName>兜町</placeName>）―岡部子爵御紹介</p>\n</event>\n<event>\n<p><time when=\"14:30:00\">午後二半時</time>　　<placeName>東京</placeName>女学館同窓会（同校）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>聖徳太子千三百年御忌奉賛会発起人会（銀行クラブ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0139\">\n<head>\n<date when=\"1918-05-25\">\n           廿五日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_黒田\">\n<surname>\n              黒田\n             </surname>\n</persName>\n            用信氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_小林丑三郎\">\n<surname>\n              小林\n             </surname>\n<forename>\n              丑三郎\n             </forename>\n</persName>\n            氏来ル約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            斯文会ノ件ニ付\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ会合\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後壱時\n            </time>\n            中山国寿氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）―岡部子爵御紹介\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            女学館同窓会（同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            聖徳太子千三百年御忌奉賛会発起人会（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-05"
 }

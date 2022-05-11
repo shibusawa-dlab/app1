@@ -4,13 +4,17 @@
         "阪谷",
         "簗田"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/都倉義一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/阪谷",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/簗田"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1566",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -20,17 +24,17 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-12",
     "date_lvl2": "1927-12-08",
-    "description": "\n\n 八日  （木） \n\n\n午前八半時　　都倉義一氏来約（飛鳥山邸）\n\n\n午前十半時　　阪谷男、簗田両氏来約（事務所）\n\n\n午前十一時益田孝氏来約　永楽町事務所\n\n\n午前十一時御出勤\n\n\n午後〇時半　　ガイ氏より御案内（東京会館）\n\n\n",
+    "description": "\n\n\n           八日\n          \n          （木）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              都倉\n             \n\n              義一\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十半時\n            \n\n\n              阪谷\n             \n\n            男、\n            \n\n              簗田\n             \n\n            両氏来約（事務所）\n           \n\n\n\n\n             午前十一時\n            \n\n             益田\n            \n            孝氏来約\n            \n             永楽町\n            \n            事務所\n           \n\n\n\n\n             午前十一時\n            \n            御出勤\n           \n\n\n\n\n             午後〇時半\n            \n            ガイ氏より御案内（\n            \n             東京\n            \n            会館）\n           \n\n\n",
     "fullname": [
-        "都倉義一"
+        "\n              都倉\n             \n              義一\n             "
     ],
-    "label": "八日  （木）",
+    "label": "八日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-318",
-    "objectID": "DKB20029m-317",
-    "prev": "DKB20029m-316",
+    "next": "DKB20029m-0318",
+    "objectID": "DKB20029m-0317",
+    "prev": "DKB20029m-0316",
     "sort": "DKB20029m-0317",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "益田",
@@ -38,16 +42,17 @@
         "東京"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/益田",
         "https://shibusawa-dlab.github.io/lab1/api/place/永楽町",
         "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1927-12-08",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>都倉</surname><forename>義一</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_都倉義一\">\n<surname>\n              都倉\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-317\">\n<head>\n<date when=\"1927-12-08\"> 八日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　<persName><surname>都倉</surname><forename>義一</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:30:00\">午前十半時</time>　　<persName><surname>阪谷</surname></persName>男、<persName><surname>簗田</surname></persName>両氏来約（事務所）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><placeName>益田</placeName>孝氏来約　<placeName>永楽町</placeName>事務所</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>御出勤</p>\n</event>\n<event>\n<p><time when=\"12:30:00\">午後〇時半</time>　　ガイ氏より御案内（<placeName>東京</placeName>会館）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0317\">\n<head>\n<date when=\"1927-12-08\">\n           八日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_都倉義一\">\n<surname>\n              都倉\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n<persName corresp=\"#pers_阪谷\">\n<surname>\n              阪谷\n             </surname>\n</persName>\n            男、\n            <persName corresp=\"#pers_簗田\">\n<surname>\n              簗田\n             </surname>\n</persName>\n            両氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_益田\">\n             益田\n            </placeName>\n            孝氏来約\n            <placeName corresp=\"#place_永楽町\">\n             永楽町\n            </placeName>\n            事務所\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇時半\n            </time>\n            ガイ氏より御案内（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-12"
 }

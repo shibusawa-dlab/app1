@@ -3,13 +3,16 @@
         "川口寛三",
         "渡辺信雄"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/川口寛三",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渡辺信雄"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1597",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20031m 昭和四年 1929"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20031m 昭和四年 1929"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20031m 昭和四年 1929",
     "date": {
         "lvl0": "1929",
@@ -19,18 +22,18 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-07",
     "date_lvl2": "1929-07-06",
-    "description": "\n\n 六日  （土） \n\n\n午前八時川口寛三来約《（氏脱）》（飛鳥山）\n\n\n午前九時渡辺信雄氏来約（飛鳥山）\n\n\n午前十時日本女子大学催青渊先生九十寿祝賀会（同校）\n\n\n午後二時国際聯盟協会理事会（同会）\n\n\n午後二・一五　事務所ニ御出勤\n\n\n",
+    "description": "\n\n\n           六日\n          \n          （土）\n         \n\n\n\n\n             午前八時\n            \n\n\n              川口\n             \n\n              寛三\n             \n\n            来約《（氏脱）》（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              渡辺\n             \n\n              信雄\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n             日本\n            \n            女子大学催青渊先生九十寿祝賀会（同校）\n           \n\n\n\n\n             午後二時\n            \n            国際聯盟協会理事会（同会）\n           \n\n\n\n\n             午後二・一五\n            \n            事務所ニ御出勤\n           \n\n\n",
     "fullname": [
-        "川口寛三",
-        "渡辺信雄"
+        "\n              川口\n             \n              寛三\n             ",
+        "\n              渡辺\n             \n              信雄\n             "
     ],
-    "label": "六日  （土）",
+    "label": "六日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20031m-111",
-    "objectID": "DKB20031m-110",
-    "prev": "DKB20031m-109",
+    "next": "DKB20031m-0111",
+    "objectID": "DKB20031m-0110",
+    "prev": "DKB20031m-0109",
     "sort": "DKB20031m-0110",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "日本"
@@ -41,10 +44,10 @@
     ],
     "temporal": "1929-07-06",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>川口</surname><forename>寛三</forename></persName>来約《（氏脱）》（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_川口寛三\">\n<surname>\n              川口\n             </surname>\n<forename>\n              寛三\n             </forename>\n</persName>\n            来約《（氏脱）》（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-110\">\n<head>\n<date when=\"1929-07-06\"> 六日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>川口</surname><forename>寛三</forename></persName>来約《（氏脱）》（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>渡辺</surname><forename>信雄</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><placeName>日本</placeName>女子大学催青渊先生九十寿祝賀会（同校）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>国際聯盟協会理事会（同会）</p>\n</event>\n<event>\n<p><time when=\"14:15:00\">午後二・一五</time>　事務所ニ御出勤</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0110\">\n<head>\n<date when=\"1929-07-06\">\n           六日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_川口寛三\">\n<surname>\n              川口\n             </surname>\n<forename>\n              寛三\n             </forename>\n</persName>\n            来約《（氏脱）》（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_渡辺信雄\">\n<surname>\n              渡辺\n             </surname>\n<forename>\n              信雄\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            女子大学催青渊先生九十寿祝賀会（同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            国際聯盟協会理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:15:00\">\n             午後二・一五\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-07"
 }

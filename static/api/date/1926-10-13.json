@@ -1,18 +1,19 @@
 {
     "agential": [
-        "島崎藤村",
+        "藤村",
         "土肥修策"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/島崎藤村"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/藤村",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/土肥修策"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1526",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-10",
@@ -21,30 +22,31 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-10",
     "date_lvl2": "1926-10-13",
-    "description": "\n\n 十三日  （水） \n\n\n午時　　　　　東京市養育院ニ御出向\n\n\n正午　　　　　江口定条、藤村義苗、土肥修策ノ諸氏ヨリ御案内（星ケ岡茶寮）\n\n\n午後三時中央社会事業協会理事会（同会）\n\n\n午後四・四〇　御出勤\n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （水）\n         \n\n\n\n\n             午時\n            \n\n             東京\n            \n            市養育院ニ御出向\n           \n\n\n\n\n             正午\n            \n            江口定条、\n            \n\n              藤村\n             \n\n            義苗、\n            \n\n              土肥\n             \n\n              修策\n             \n\n            ノ諸氏ヨリ御案内（\n            \n             星ケ岡\n            \n            茶寮）\n           \n\n\n\n\n             午後三時\n            \n            中央社会事業協会理事会（同会）\n           \n\n\n\n\n             午後四・四〇\n            \n            御出勤\n           \n\n\n",
     "fullname": [
-        "土肥修策"
+        "\n              土肥\n             \n              修策\n             "
     ],
-    "label": "十三日  （水）",
+    "label": "十三日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-267",
-    "objectID": "DKB20028m-266",
-    "prev": "DKB20028m-265",
+    "next": "DKB20028m-0267",
+    "objectID": "DKB20028m-0266",
+    "prev": "DKB20028m-0265",
     "sort": "DKB20028m-0266",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京",
         "星ケ岡"
     ],
     "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/星ケ岡"
     ],
     "temporal": "1926-10-13",
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">午時</time>　　　　　<placeName>東京</placeName>市養育院ニ御出向</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院ニ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-266\">\n<head>\n<date when=\"1926-10-13\"> 十三日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"12:00:00\">午時</time>　　　　　<placeName>東京</placeName>市養育院ニ御出向</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　江口定条、<persName><forename>藤村</forename></persName>義苗、<persName><surname>土肥</surname><forename>修策</forename></persName>ノ諸氏ヨリ御案内（<placeName>星ケ岡</placeName>茶寮）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>中央社会事業協会理事会（同会）</p>\n</event>\n<event>\n<p><time when=\"16:40:00\">午後四・四〇</time>　御出勤</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0266\">\n<head>\n<date when=\"1926-10-13\">\n           十三日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院ニ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            江口定条、\n            <persName corresp=\"#pers_藤村\">\n<forename>\n              藤村\n             </forename>\n</persName>\n            義苗、\n            <persName corresp=\"#pers_土肥修策\">\n<surname>\n              土肥\n             </surname>\n<forename>\n              修策\n             </forename>\n</persName>\n            ノ諸氏ヨリ御案内（\n            <placeName corresp=\"#place_星ケ岡\">\n             星ケ岡\n            </placeName>\n            茶寮）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            中央社会事業協会理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:40:00\">\n             午後四・四〇\n            </time>\n            御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-10"
 }

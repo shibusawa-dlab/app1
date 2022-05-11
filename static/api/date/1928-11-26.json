@@ -2,13 +2,15 @@
     "agential": [
         "高梨慶三郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高梨慶三郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1587",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20030m 昭和三年 1928"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20030m 昭和三年 1928"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20030m 昭和三年 1928",
     "date": {
         "lvl0": "1928",
@@ -18,25 +20,25 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-11",
     "date_lvl2": "1928-11-26",
-    "description": "\n\n 廿六日  （月） \n\n\n午前十時国際聯盟協会　蓄音器ノ件\n\n\n午後〇時二〇　御出勤\n\n\n午後一・四〇　高梨慶三郎氏来約（事務所）\n\n\n",
+    "description": "\n\n\n           廿六日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n            国際聯盟協会　蓄音器ノ件\n           \n\n\n\n\n             午後〇時二〇\n            \n            御出勤\n           \n\n\n\n\n\n             午後一・四〇\n            \n\n\n              高梨\n             \n\n              慶三郎\n             \n\n            氏来約（事務所）\n           \n\n\n",
     "fullname": [
-        "高梨慶三郎"
+        "\n              高梨\n             \n              慶三郎\n             "
     ],
-    "label": "廿六日  （月）",
+    "label": "廿六日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20030m-257",
-    "objectID": "DKB20030m-256",
-    "prev": "DKB20030m-255",
+    "next": "DKB20030m-0257",
+    "objectID": "DKB20030m-0256",
+    "prev": "DKB20030m-0255",
     "sort": "DKB20030m-0256",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [],
     "spatial_uri": [],
     "temporal": "1928-11-26",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time>国際聯盟協会　蓄音器ノ件</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            国際聯盟協会　蓄音器ノ件</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-256\">\n<head>\n<date when=\"1928-11-26\"> 廿六日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>国際聯盟協会　蓄音器ノ件</p>\n</event>\n<event>\n<p><time when=\"12:20:00\">午後〇時二〇</time>　御出勤</p>\n</event>\n<event>\n<p><pb n=\"B2748\"/><time when=\"13:40:00\">午後一・四〇</time>　<persName><surname>高梨</surname><forename>慶三郎</forename></persName>氏来約（事務所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0256\">\n<head>\n<date when=\"1928-11-26\">\n           廿六日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            国際聯盟協会　蓄音器ノ件\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:20:00\">\n             午後〇時二〇\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2748\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1587/full/max/0/default.jpg\" n=\"B2748\" source=\"#pageB2748\"/>\n<time when=\"13:40:00\">\n             午後一・四〇\n            </time>\n<persName corresp=\"#pers_高梨慶三郎\">\n<surname>\n              高梨\n             </surname>\n<forename>\n              慶三郎\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-11"
 }

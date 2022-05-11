@@ -2,14 +2,16 @@
     "agential": [
         "加藤増雄"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/加藤増雄"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/251",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB10010m 自  明治三十四年五月                                                 至                                                   明治三十五年八月  1901―1902"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB10010m 自 明治三十四年五月 至 明治三十五年八月 1901―1902"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-    "category_lvl1": "DKB10010m 自  明治三十四年五月                                                 至                                                   明治三十五年八月  1901―1902",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl1": "DKB10010m 自 明治三十四年五月 至 明治三十五年八月 1901―1902",
     "date": {
         "lvl0": "1902",
         "lvl1": "1902 > 1902-03",
@@ -18,17 +20,17 @@
     "date_lvl0": "1902",
     "date_lvl1": "1902-03",
     "date_lvl2": "1902-03-03",
-    "description": "\n\n 三月三日 \n\n晴、午前八時朝飧ヲ畢リ書状ヲ裁ス、午後一時兜町事務所ニ出勤ス、来人多シ、夕五時浜町常盤屋ニ抵リ、清水組ニテ催フセシ加藤増雄朝鮮行ノ送別会ニ出席ス、夜十時浜町宅ニ帰宿ス\n",
+    "description": "\n\n\n        三月三日\n       \n\n\n       晴、\n       \n        午前八時\n       \n       朝飧ヲ畢リ書状ヲ裁ス、\n       \n        午後一時\n       \n\n        兜町\n       \n       事務所ニ出勤ス、来人多シ、夕\n       \n        五時\n       \n\n        浜町\n       \n       常盤屋ニ抵リ、清水組ニテ催フセシ\n       \n\n         加藤\n        \n\n         増雄\n        \n\n\n        朝鮮\n       \n       行ノ送別会ニ出席ス、夜\n       \n        十時\n       \n\n        浜町\n       \n       宅ニ帰宿ス\n      \n",
     "fullname": [
-        "加藤増雄"
+        "\n         加藤\n        \n         増雄\n        "
     ],
     "label": "三月三日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
-    "next": "DKB10010m-240",
-    "objectID": "DKB10010m-239",
-    "prev": "DKB10010m-238",
+    "next": "DKB10010m-0240",
+    "objectID": "DKB10010m-0239",
+    "prev": "DKB10010m-0238",
     "sort": "DKB10010m-0239",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "日本橋兜町",
         "浜町",
@@ -41,13 +43,13 @@
     ],
     "temporal": "1902-03-03",
     "time": {
-        "08:00:00": "<div>晴、<time when=\"08:00:00\">午前八時</time>朝飧ヲ畢リ書状ヲ裁ス、</div>",
-        "13:00:00": "<div><time when=\"13:00:00\">午後一時</time><placeName>兜町</placeName>事務所ニ出勤ス、来人多シ、夕</div>",
-        "17:00:00": "<div><time when=\"17:00:00\">五時</time><placeName>浜町</placeName>常盤屋ニ抵リ、清水組ニテ催フセシ<persName><surname>加藤</surname><forename>増雄</forename></persName><placeName>朝鮮</placeName>行ノ送別会ニ出席ス、夜</div>",
-        "22:00:00": "<div><time when=\"22:00:00\">十時</time><placeName>浜町</placeName>宅ニ帰宿ス</div>"
+        "08:00:00": "<div>晴、<time when=\"08:00:00\">\n        午前八時\n       </time>\n       朝飧ヲ畢リ書状ヲ裁ス、</div>",
+        "13:00:00": "<div><time when=\"13:00:00\">\n        午後一時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ出勤ス、来人多シ、夕</div>",
+        "17:00:00": "<div><time when=\"17:00:00\">\n        五時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       常盤屋ニ抵リ、清水組ニテ催フセシ\n       <persName corresp=\"#pers_加藤増雄\">\n<surname>\n         加藤\n        </surname>\n<forename>\n         増雄\n        </forename>\n</persName>\n<placeName corresp=\"#place_朝鮮\">\n        朝鮮\n       </placeName>\n       行ノ送別会ニ出席ス、夜</div>",
+        "22:00:00": "<div><time when=\"22:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       宅ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10010m-239\">\n<head>\n<date when=\"1902-03-03\"> 三月三日 </date>\n</head>\n<p>晴、<time when=\"08:00:00\">午前八時</time>朝飧ヲ畢リ書状ヲ裁ス、<time when=\"13:00:00\">午後一時</time><placeName>兜町</placeName>事務所ニ出勤ス、来人多シ、夕<time when=\"17:00:00\">五時</time><placeName>浜町</placeName>常盤屋ニ抵リ、清水組ニテ催フセシ<persName><surname>加藤</surname><forename>増雄</forename></persName><placeName>朝鮮</placeName>行ノ送別会ニ出席ス、夜<time when=\"22:00:00\">十時</time><placeName>浜町</placeName>宅ニ帰宿ス</p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10010m-0239\">\n<head>\n<date when=\"1902-03-03\">\n        三月三日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"08:00:00\">\n        午前八時\n       </time>\n       朝飧ヲ畢リ書状ヲ裁ス、\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ出勤ス、来人多シ、夕\n       <time when=\"17:00:00\">\n        五時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       常盤屋ニ抵リ、清水組ニテ催フセシ\n       <persName corresp=\"#pers_加藤増雄\">\n<surname>\n         加藤\n        </surname>\n<forename>\n         増雄\n        </forename>\n</persName>\n<placeName corresp=\"#place_朝鮮\">\n        朝鮮\n       </placeName>\n       行ノ送別会ニ出席ス、夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       宅ニ帰宿ス\n      </p>\n</div>",
     "year": "1902",
     "yearAndMonth": "1902-03"
 }

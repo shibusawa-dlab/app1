@@ -3,11 +3,11 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/35",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB10001m 自  慶応四年六月十四日                                                 至                                                   明治元年十一月二日  1868"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB10001m 自 慶応四年六月十四日 至 明治元年十一月二日 1868"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-    "category_lvl1": "DKB10001m 自  慶応四年六月十四日                                                 至                                                   明治元年十一月二日  1868",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl1": "DKB10001m 自 慶応四年六月十四日 至 明治元年十一月二日 1868",
     "date": {
         "lvl0": "1868",
         "lvl1": "1868 > 1868-10",
@@ -16,25 +16,29 @@
     "date_lvl0": "1868",
     "date_lvl1": "1868-10",
     "date_lvl2": "1868-10-24",
-    "description": "\n\n 九月九日 \n                                                  晴　　北緯三十二度弐十三　東経弐十四　五十七　　メシイナより六百八十五里　阿歴山大より百五十壱里\n                                                   土  十月廿四日 \n\n朝より天気朗晴、軽風ニて波高からす、〓行頗随意なり、午後帆前船の〓行を見る此夜阿歴散大到着之筈なれは、午後より〓行稍緩かなり、夜に入て蒸気船の〓行を見る一　弐拾九フランク　　船中シヤンハン其外代一　四十フランク　　　小遣一同被下此日重陽なれはとて、夜饌にシヤンパンを一同江被下\n",
+    "description": "\n\n\n        九月九日\n       \n       晴　　北緯三十二度弐十三　東経弐十四　五十七\n       \n        メシイナ\n       \n       より六百八十五里\n       \n        阿歴山大\n       \n       より百五十壱里\n       \n       土\n       \n        十月廿四日\n       \n\n\n       朝より天気朗晴、軽風ニて波高からす、〓行頗随意なり、午後帆前船の〓行を見る\n       \n       此夜\n       \n        阿歴散大\n       \n       到着之筈なれは、午後より〓行稍緩かなり、夜に入て蒸気船の〓行を見る\n       \n       一　弐拾九フランク　　船中シヤンハン其外代\n       \n       一　四十フランク　　　小遣一同被下\n       \n       此日重陽なれはとて、夜饌にシヤンパンを一同江被下\n      \n",
     "fullname": [],
-    "label": "九月九日                                                   晴　　北緯三十二度弐十三　東経弐十四　五十七　　メシイナより六百八十五里　阿歴山大より百五十壱里                                                   土  十月廿四日",
+    "label": "九月九日              晴　　北緯三十二度弐十三　東経弐十四　五十七               メシイナ              より六百八十五里               阿歴山大              より百五十壱里              土               十月廿四日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
-    "next": "DKB10001m-31",
-    "objectID": "DKB10001m-30",
-    "prev": "DKB10001m-29",
+    "next": "DKB10001m-0031",
+    "objectID": "DKB10001m-0030",
+    "prev": "DKB10001m-0029",
     "sort": "DKB10001m-0030",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "メシイナ",
         "阿歴山大",
         "阿歴散大"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/メシイナ",
+        "https://shibusawa-dlab.github.io/lab1/api/place/阿歴山大",
+        "https://shibusawa-dlab.github.io/lab1/api/place/阿歴散大"
+    ],
     "temporal": "1868-10-24",
     "time": {},
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10001m-30\">\n<head>\n<date type=\"旧暦\" when=\"1868-10-24\"> 九月九日 </date>\n                                                  晴　　北緯三十二度弐十三　東経弐十四　五十七　　<placeName>メシイナ</placeName>より六百八十五里　<placeName>阿歴山大</placeName>より百五十壱里\n                                                  <lb/> 土 <date when=\"1868-10-24\"> 十月廿四日 </date>\n</head>\n<p>朝より天気朗晴、軽風ニて波高からす、〓行頗随意なり、午後帆前船の〓行を見る<lb/>此夜<placeName>阿歴散大</placeName>到着之筈なれは、午後より〓行稍緩かなり、夜に入て蒸気船の〓行を見る<lb/>一　弐拾九フランク　　船中シヤンハン其外代<lb/>一　四十フランク　　　小遣一同被下<lb/>此日重陽なれはとて、夜饌にシヤンパンを一同江被下</p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10001m-0030\">\n<head>\n<date type=\"旧暦\" when=\"1868-10-24\">\n        九月九日\n       </date>\n       晴　　北緯三十二度弐十三　東経弐十四　五十七\n       <placeName corresp=\"#place_メシイナ\">\n        メシイナ\n       </placeName>\n       より六百八十五里\n       <placeName corresp=\"#place_阿歴山大\">\n        阿歴山大\n       </placeName>\n       より百五十壱里\n       <lb/>\n       土\n       <date when=\"1868-10-24\">\n        十月廿四日\n       </date>\n</head>\n<p>\n       朝より天気朗晴、軽風ニて波高からす、〓行頗随意なり、午後帆前船の〓行を見る\n       <lb/>\n       此夜\n       <placeName corresp=\"#place_阿歴散大\">\n        阿歴散大\n       </placeName>\n       到着之筈なれは、午後より〓行稍緩かなり、夜に入て蒸気船の〓行を見る\n       <lb/>\n       一　弐拾九フランク　　船中シヤンハン其外代\n       <lb/>\n       一　四十フランク　　　小遣一同被下\n       <lb/>\n       此日重陽なれはとて、夜饌にシヤンパンを一同江被下\n      </p>\n</div>",
     "year": "1868",
     "yearAndMonth": "1868-10"
 }

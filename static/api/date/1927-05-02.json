@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1543",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -20,15 +20,15 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-05",
     "date_lvl2": "1927-05-02",
-    "description": "\n\n 二日  （月） \n\n\n午前九時帝国通信社河合氏来訪（飛鳥山）\n\n\n午前十一・四〇時　帝大病院真鍋内科ニ奥様ヲ御見舞\n\n\n午後一・四〇時　御出勤\n\n\n",
+    "description": "\n\n\n           二日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n            帝国通信社河合氏来訪（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十一・四〇時\n            \n            帝大病院\n            \n\n              真鍋\n             \n\n            内科ニ奥様ヲ御見舞\n           \n\n\n\n\n             午後一・四〇時\n            \n            御出勤\n           \n\n\n",
     "fullname": [],
-    "label": "二日  （月）",
+    "label": "二日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-107",
-    "objectID": "DKB20029m-106",
-    "prev": "DKB20029m-103",
+    "next": "DKB20029m-0107",
+    "objectID": "DKB20029m-0106",
+    "prev": "DKB20029m-0103",
     "sort": "DKB20029m-0106",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園"
     ],
@@ -37,10 +37,10 @@
     ],
     "temporal": "1927-05-02",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time>帝国通信社河合氏来訪（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            帝国通信社河合氏来訪（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-106\">\n<head>\n<date when=\"1927-05-02\"> 二日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time>帝国通信社河合氏来訪（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:40:00\">午前十一・四〇時</time>　帝大病院<persName><surname>真鍋</surname></persName>内科ニ奥様ヲ御見舞</p>\n</event>\n<event>\n<p><time when=\"13:40:00\">午後一・四〇時</time>　御出勤</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0106\">\n<head>\n<date when=\"1927-05-02\">\n           二日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            帝国通信社河合氏来訪（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:40:00\">\n             午前十一・四〇時\n            </time>\n            帝大病院\n            <persName corresp=\"#pers_真鍋\">\n<surname>\n              真鍋\n             </surname>\n</persName>\n            内科ニ奥様ヲ御見舞\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:40:00\">\n             午後一・四〇時\n            </time>\n            御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-05"
 }

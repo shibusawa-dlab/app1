@@ -4,14 +4,15 @@
         "大隈"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ガスリー",
         "https://shibusawa-dlab.github.io/lab1/api/chname/大隈"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1231",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -21,15 +22,15 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-03",
     "date_lvl2": "1917-03-13",
-    "description": "\n\n 十三日  （火） \n\n\n午前十時ガスリー氏葬儀（築地三一教会）\n\n\n午前十一時中日実業会社相談役会（ホテル）\n\n\n午前十一―十二時アボツト氏ト（ホテル）ニテ御会見ノ約\n\n\n午後壱時　　　慈恵会理時会《（事）》（同所）\n\n\n午後四時大隈侯ヲ御訪問（早稲田邸）\n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n\n\n              ガスリー\n             \n\n            氏葬儀（築地三一教会）\n           \n\n\n\n\n             午前十一時\n            \n            中日実業会社相談役会（ホテル）\n           \n\n\n\n\n             午前十一―十二時\n            \n            アボツト氏ト（ホテル）ニテ御会見ノ約\n           \n\n\n\n\n\n             午後壱時\n            \n            慈恵会理時会《（事）》（同所）\n           \n\n\n\n\n             午後四時\n            \n\n\n              大隈\n             \n\n            侯ヲ御訪問（\n            \n             早稲田\n            \n            邸）\n           \n\n\n",
     "fullname": [],
-    "label": "十三日  （火）",
+    "label": "十三日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-74",
-    "objectID": "DKB20019m-73",
-    "prev": "DKB20019m-72",
+    "next": "DKB20019m-0074",
+    "objectID": "DKB20019m-0073",
+    "prev": "DKB20019m-0072",
     "sort": "DKB20019m-0073",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "早稲田"
     ],
@@ -38,10 +39,10 @@
     ],
     "temporal": "1917-03-13",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><persName><surname>ガスリー</surname></persName>氏葬儀（築地三一教会）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_ガスリー\">\n<surname>\n              ガスリー\n             </surname>\n</persName>\n            氏葬儀（築地三一教会）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-73\">\n<head>\n<date when=\"1917-03-13\"> 十三日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>ガスリー</surname></persName>氏葬儀（築地三一教会）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>中日実業会社相談役会（ホテル）</p>\n</event>\n<event>\n<p><time from=\"11:00:00\" to=\"12:00:00\">午前十一―十二時</time>アボツト氏ト（ホテル）ニテ御会見ノ約</p>\n</event>\n<event>\n<p><pb n=\"B2392\"/><time from=\"13:00:00\">午後壱時</time>　　　慈恵会理時会《（事）》（同所）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><persName><surname>大隈</surname></persName>侯ヲ御訪問（<placeName>早稲田</placeName>邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0073\">\n<head>\n<date when=\"1917-03-13\">\n           十三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_ガスリー\">\n<surname>\n              ガスリー\n             </surname>\n</persName>\n            氏葬儀（築地三一教会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            中日実業会社相談役会（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"11:00:00\" to=\"12:00:00\">\n             午前十一―十二時\n            </time>\n            アボツト氏ト（ホテル）ニテ御会見ノ約\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2392\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1231/full/max/0/default.jpg\" n=\"B2392\" source=\"#pageB2392\"/>\n<time from=\"13:00:00\">\n             午後壱時\n            </time>\n            慈恵会理時会《（事）》（同所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯ヲ御訪問（\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-03"
 }

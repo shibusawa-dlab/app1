@@ -5,15 +5,16 @@
         "牧野伸顕"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/島田藤吉",
         "https://shibusawa-dlab.github.io/lab1/api/chname/浅野",
         "https://shibusawa-dlab.github.io/lab1/api/chname/牧野伸顕"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1320",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20021m 大正八年 1919"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20021m 大正八年 1919"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20021m 大正八年 1919",
     "date": {
         "lvl0": "1919",
@@ -23,18 +24,18 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-12",
     "date_lvl2": "1919-12-28",
-    "description": "\n\n 廿八日  （日） \n\n\n午前九半時　　島田藤吉氏兜町ニ来約\n\n\n午前十時浅野対日本鋼管会社ノ件\n\n\n正午　　　　　東亜同文会相談役会（鍋島侯邸）\n\n\n午後一時牧野伸顕男ト御会見ノ約（鍋島侯邸）\n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （日）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              島田\n             \n\n              藤吉\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午前十時\n            \n\n\n              浅野\n             \n\n            対\n            \n             日本\n            \n            鋼管会社ノ件\n           \n\n\n\n\n             正午\n            \n\n             東亜\n            \n            同文会相談役会（\n            \n             鍋島\n            \n            侯邸）\n           \n\n\n\n\n             午後一時\n            \n\n\n              牧野\n             \n\n              伸顕\n             \n\n            男ト御会見ノ約（\n            \n             鍋島\n            \n            侯邸）\n           \n\n\n",
     "fullname": [
-        "島田藤吉",
-        "牧野伸顕"
+        "\n              島田\n             \n              藤吉\n             ",
+        "\n              牧野\n             \n              伸顕\n             "
     ],
-    "label": "廿八日  （日）",
+    "label": "廿八日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20021m-333",
-    "objectID": "DKB20021m-332",
-    "prev": "DKB20021m-331",
+    "next": "DKB20021m-0333",
+    "objectID": "DKB20021m-0332",
+    "prev": "DKB20021m-0331",
     "sort": "DKB20021m-0332",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "日本",
@@ -49,10 +50,10 @@
     ],
     "temporal": "1919-12-28",
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">午前九半時</time>　　<persName><surname>島田</surname><forename>藤吉</forename></persName>氏<placeName>兜町</placeName>ニ来約</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_島田藤吉\">\n<surname>\n              島田\n             </surname>\n<forename>\n              藤吉\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-332\">\n<head>\n<date when=\"1919-12-28\"> 廿八日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"09:30:00\">午前九半時</time>　　<persName><surname>島田</surname><forename>藤吉</forename></persName>氏<placeName>兜町</placeName>ニ来約</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>浅野</surname></persName>対<placeName>日本</placeName>鋼管会社ノ件</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　<placeName>東亜</placeName>同文会相談役会（<placeName>鍋島</placeName>侯邸）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time><persName><surname>牧野</surname><forename>伸顕</forename></persName>男ト御会見ノ約（<placeName>鍋島</placeName>侯邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0332\">\n<head>\n<date when=\"1919-12-28\">\n           廿八日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_島田藤吉\">\n<surname>\n              島田\n             </surname>\n<forename>\n              藤吉\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_浅野\">\n<surname>\n              浅野\n             </surname>\n</persName>\n            対\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            鋼管会社ノ件\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_東亜\">\n             東亜\n            </placeName>\n            同文会相談役会（\n            <placeName corresp=\"#place_鍋島\">\n             鍋島\n            </placeName>\n            侯邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_牧野伸顕\">\n<surname>\n              牧野\n             </surname>\n<forename>\n              伸顕\n             </forename>\n</persName>\n            男ト御会見ノ約（\n            <placeName corresp=\"#place_鍋島\">\n             鍋島\n            </placeName>\n            侯邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-12"
 }

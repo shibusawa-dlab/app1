@@ -4,14 +4,15 @@
         "徳川"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/明石静子",
         "https://shibusawa-dlab.github.io/lab1/api/chname/徳川"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1224",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -21,17 +22,17 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-01",
     "date_lvl2": "1917-01-10",
-    "description": "\n\n 十日  （水） \n\n\n午前八・四〇時　故明石静子殿遺骨到着（東京駅）\n\n\n午前十時同埋骨式（於谷中祭場）\n\n\n午後一時半徳川公ヲ御訪問（華族会館）\n\n\n午後四時偕楽会（トキワヤ）\n\n\n",
+    "description": "\n\n\n           十日\n          \n          （水）\n         \n\n\n\n\n             午前八・四〇時\n            \n            故\n            \n\n              明石\n             \n\n              静子\n             \n\n            殿遺骨到着（\n            \n             東京\n            \n            駅）\n           \n\n\n\n\n             午前十時\n            \n            同埋骨式（於\n            \n             谷中\n            \n            祭場）\n           \n\n\n\n\n             午後一時半\n            \n\n\n              徳川\n             \n\n            公ヲ御訪問（華族会館）\n           \n\n\n\n\n             午後四時\n            \n            偕楽会（トキワヤ）\n           \n\n\n",
     "fullname": [
-        "明石静子"
+        "\n              明石\n             \n              静子\n             "
     ],
-    "label": "十日  （水）",
+    "label": "十日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-11",
-    "objectID": "DKB20019m-10",
-    "prev": "DKB20019m-9",
+    "next": "DKB20019m-0011",
+    "objectID": "DKB20019m-0010",
+    "prev": "DKB20019m-0009",
     "sort": "DKB20019m-0010",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京",
         "谷中"
@@ -42,10 +43,10 @@
     ],
     "temporal": "1917-01-10",
     "time": {
-        "08:40:00": "<div><time when=\"08:40:00\">午前八・四〇時</time>　故<persName><surname>明石</surname><forename>静子</forename></persName>殿遺骨到着（<placeName>東京</placeName>駅）</div>"
+        "08:40:00": "<div><time when=\"08:40:00\">\n             午前八・四〇時\n            </time>\n            故\n            <persName corresp=\"#pers_明石静子\">\n<surname>\n              明石\n             </surname>\n<forename>\n              静子\n             </forename>\n</persName>\n            殿遺骨到着（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-10\">\n<head>\n<date when=\"1917-01-10\"> 十日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"08:40:00\">午前八・四〇時</time>　故<persName><surname>明石</surname><forename>静子</forename></persName>殿遺骨到着（<placeName>東京</placeName>駅）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>同埋骨式（於<placeName>谷中</placeName>祭場）</p>\n</event>\n<event>\n<p><time when=\"13:30:00\">午後一時半</time><persName><surname>徳川</surname></persName>公ヲ御訪問（華族会館）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>偕楽会（トキワヤ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0010\">\n<head>\n<date when=\"1917-01-10\">\n           十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:40:00\">\n             午前八・四〇時\n            </time>\n            故\n            <persName corresp=\"#pers_明石静子\">\n<surname>\n              明石\n             </surname>\n<forename>\n              静子\n             </forename>\n</persName>\n            殿遺骨到着（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            同埋骨式（於\n            <placeName corresp=\"#place_谷中\">\n             谷中\n            </placeName>\n            祭場）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一時半\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公ヲ御訪問（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            偕楽会（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-01"
 }

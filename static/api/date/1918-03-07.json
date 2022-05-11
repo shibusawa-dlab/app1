@@ -2,13 +2,15 @@
     "agential": [
         "宮岡"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/宮岡"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1261",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20020m 大正七年 1918"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20020m 大正七年 1918"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20020m 大正七年 1918",
     "date": {
         "lvl0": "1918",
@@ -18,15 +20,15 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-03",
     "date_lvl2": "1918-03-07",
-    "description": "\n\n 七日  （木） \n\n\n午前十時メーソン氏（宮岡氏）ト御会見（兜町）\n\n\n午後五時名古屋市長ヨリ御案内（上野松坂屋）\n\n\n",
+    "description": "\n\n\n           七日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n            メーソン氏（\n            \n\n              宮岡\n             \n\n            氏）ト御会見（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n             名古屋\n            \n            市長ヨリ御案内（\n            \n             上野\n            \n\n             松坂\n            \n            屋）\n           \n\n\n",
     "fullname": [],
-    "label": "七日  （木）",
+    "label": "七日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20020m-61",
-    "objectID": "DKB20020m-60",
-    "prev": "DKB20020m-59",
+    "next": "DKB20020m-0061",
+    "objectID": "DKB20020m-0060",
+    "prev": "DKB20020m-0059",
     "sort": "DKB20020m-0060",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "名古屋",
@@ -41,10 +43,10 @@
     ],
     "temporal": "1918-03-07",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time>メーソン氏（<persName><surname>宮岡</surname></persName>氏）ト御会見（<placeName>兜町</placeName>）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            メーソン氏（\n            <persName corresp=\"#pers_宮岡\">\n<surname>\n              宮岡\n             </surname>\n</persName>\n            氏）ト御会見（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-60\">\n<head>\n<date when=\"1918-03-07\"> 七日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>メーソン氏（<persName><surname>宮岡</surname></persName>氏）ト御会見（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><placeName>名古屋</placeName>市長ヨリ御案内（<placeName>上野</placeName><placeName>松坂</placeName>屋）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0060\">\n<head>\n<date when=\"1918-03-07\">\n           七日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            メーソン氏（\n            <persName corresp=\"#pers_宮岡\">\n<surname>\n              宮岡\n             </surname>\n</persName>\n            氏）ト御会見（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_名古屋\">\n             名古屋\n            </placeName>\n            市長ヨリ御案内（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n<placeName corresp=\"#place_松坂\">\n             松坂\n            </placeName>\n            屋）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-03"
 }

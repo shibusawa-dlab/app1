@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1439",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -20,17 +20,17 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-09",
     "date_lvl2": "1923-09-18",
-    "description": "\n\n 十八日  （火） \n\n\n午前十一時大震災善後会（東京商業会議所）\n\n\n午後二時大川平三郎氏来約（事務所）\n\n\n",
+    "description": "\n\n\n           十八日\n          \n          （火）\n         \n\n\n\n\n             午前十一時\n            \n            大震災善後会（\n            \n             東京\n            \n            商業会議所）\n           \n\n\n\n\n             午後二時\n            \n\n\n              大川\n             \n\n              平三郎\n             \n\n            氏来約（事務所）\n           \n\n\n",
     "fullname": [
-        "大川平三郎"
+        "\n              大川\n             \n              平三郎\n             "
     ],
-    "label": "十八日  （火）",
+    "label": "十八日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20025m-237",
-    "objectID": "DKB20025m-236",
-    "prev": "DKB20025m-235",
+    "next": "DKB20025m-0237",
+    "objectID": "DKB20025m-0236",
+    "prev": "DKB20025m-0235",
     "sort": "DKB20025m-0236",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京"
     ],
@@ -39,10 +39,10 @@
     ],
     "temporal": "1923-09-18",
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">午前十一時</time>大震災善後会（<placeName>東京</placeName>商業会議所）</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            大震災善後会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商業会議所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-236\">\n<head>\n<date when=\"1923-09-18\"> 十八日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>大震災善後会（<placeName>東京</placeName>商業会議所）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>大川</surname><forename>平三郎</forename></persName>氏来約（事務所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0236\">\n<head>\n<date when=\"1923-09-18\">\n           十八日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            大震災善後会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_大川平三郎\">\n<surname>\n              大川\n             </surname>\n<forename>\n              平三郎\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-09"
 }

@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1593",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20031m 昭和四年 1929"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20031m 昭和四年 1929"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20031m 昭和四年 1929",
     "date": {
         "lvl0": "1929",
@@ -22,17 +22,17 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-05",
     "date_lvl2": "1929-05-16",
-    "description": "\n\n 十六日  （木） \n\n\n午前九―十時岩崎小弥太氏来約（飛鳥山）\n\n\n午後三時仏国シユナイダー会社ロア氏一行招待茶会（飛鳥山邸）\n\n\n午後五時半喜久子姫御婚儀ニ付御内祝晩餐会（華族会館）\n\n\n",
+    "description": "\n\n\n           十六日\n          \n          （木）\n         \n\n\n\n\n             午前九―十時\n            \n\n\n              岩崎\n             \n\n              小弥太\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n             仏国\n            \n            シユナイダー会社ロア氏一行招待茶会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後五時半\n            \n\n\n              喜久子\n             \n\n            姫御婚儀ニ付御内祝晩餐会（華族会館）\n           \n\n\n",
     "fullname": [
-        "岩崎小弥太"
+        "\n              岩崎\n             \n              小弥太\n             "
     ],
-    "label": "十六日  （木）",
+    "label": "十六日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20031m-60",
-    "objectID": "DKB20031m-59",
-    "prev": "DKB20031m-58",
+    "next": "DKB20031m-0060",
+    "objectID": "DKB20031m-0059",
+    "prev": "DKB20031m-0058",
     "sort": "DKB20031m-0059",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "仏国",
@@ -40,12 +40,13 @@
     ],
     "spatial_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園",
-        "https://shibusawa-dlab.github.io/lab1/api/place/仏国"
+        "https://shibusawa-dlab.github.io/lab1/api/place/仏国",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1929-05-16",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-59\">\n<head>\n<date when=\"1929-05-16\"> 十六日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time from=\"09:00:00\" to=\"10:00:00\">午前九―十時</time><persName><surname>岩崎</surname><forename>小弥太</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><placeName>仏国</placeName>シユナイダー会社ロア氏一行招待茶会（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"17:30:00\">午後五時半</time><persName><forename>喜久子</forename></persName>姫御婚儀ニ付御内祝晩餐会（華族会館）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0059\">\n<head>\n<date when=\"1929-05-16\">\n           十六日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"09:00:00\" to=\"10:00:00\">\n             午前九―十時\n            </time>\n<persName corresp=\"#pers_岩崎小弥太\">\n<surname>\n              岩崎\n             </surname>\n<forename>\n              小弥太\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_仏国\">\n             仏国\n            </placeName>\n            シユナイダー会社ロア氏一行招待茶会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五時半\n            </time>\n<persName corresp=\"#pers_宣仁親王妃喜久子\">\n<forename>\n              喜久子\n             </forename>\n</persName>\n            姫御婚儀ニ付御内祝晩餐会（華族会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-05"
 }

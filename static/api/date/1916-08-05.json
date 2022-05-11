@@ -4,14 +4,15 @@
         "和田豊治"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/武石弘太郎",
         "https://shibusawa-dlab.github.io/lab1/api/chname/和田豊治"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1212",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -21,18 +22,18 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-08",
     "date_lvl2": "1916-08-05",
-    "description": "\n\n 五日  （土） \n\n\n午前九時武石弘太郎氏方ヘ御立寄（彫刻家）\n\n\n午後一―午後二時和田豊治氏来約（兜町邸）\n\n\n",
+    "description": "\n\n\n           五日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n\n\n              武石\n             \n\n              弘太郎\n             \n\n            氏方ヘ御立寄（彫刻家）\n           \n\n\n\n\n             午後一―午後二時\n            \n\n\n              和田\n             \n\n              豊治\n             \n\n            氏来約（\n            \n             兜町\n            \n            邸）\n           \n\n\n",
     "fullname": [
-        "武石弘太郎",
-        "和田豊治"
+        "\n              武石\n             \n              弘太郎\n             ",
+        "\n              和田\n             \n              豊治\n             "
     ],
-    "label": "五日  （土）",
+    "label": "五日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-203",
-    "objectID": "DKB20018m-202",
-    "prev": "DKB20018m-201",
+    "next": "DKB20018m-0203",
+    "objectID": "DKB20018m-0202",
+    "prev": "DKB20018m-0201",
     "sort": "DKB20018m-0202",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -41,10 +42,10 @@
     ],
     "temporal": "1916-08-05",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>武石</surname><forename>弘太郎</forename></persName>氏方ヘ御立寄（彫刻家）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_武石弘太郎\">\n<surname>\n              武石\n             </surname>\n<forename>\n              弘太郎\n             </forename>\n</persName>\n            氏方ヘ御立寄（彫刻家）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-202\">\n<head>\n<date when=\"1916-08-05\"> 五日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>武石</surname><forename>弘太郎</forename></persName>氏方ヘ御立寄（彫刻家）</p>\n</event>\n<event>\n<p><time from=\"13:00:00\" to=\"14:00:00\">午後一―午後二時</time><persName><surname>和田</surname><forename>豊治</forename></persName>氏来約（<placeName>兜町</placeName>邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0202\">\n<head>\n<date when=\"1916-08-05\">\n           五日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_武石弘太郎\">\n<surname>\n              武石\n             </surname>\n<forename>\n              弘太郎\n             </forename>\n</persName>\n            氏方ヘ御立寄（彫刻家）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"14:00:00\">\n             午後一―午後二時\n            </time>\n<persName corresp=\"#pers_和田豊治\">\n<surname>\n              和田\n             </surname>\n<forename>\n              豊治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-08"
 }

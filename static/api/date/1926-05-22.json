@@ -4,14 +4,18 @@
         "浜口大蔵",
         "尾立維孝"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田島準一郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浜口大蔵",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/尾立維孝"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1512",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20028m 大正十五年　1926  昭和元年"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20028m 大正十五年　1926 昭和元年"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-    "category_lvl1": "DKB20028m 大正十五年　1926  昭和元年",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl1": "DKB20028m 大正十五年　1926 昭和元年",
     "date": {
         "lvl0": "1926",
         "lvl1": "1926 > 1926-05",
@@ -20,29 +24,31 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-05",
     "date_lvl2": "1926-05-22",
-    "description": "\n\n 廿二日  （土） \n\n\n午前九時田島準一郎氏来約（飛鳥山邸）\n\n\n午后二時浜口大蔵大臣御訪問（同官邸）\n\n\n午后三時総理大臣官邸ヘ御訪問（同官邸）\n\n\n午後三時御出勤（事ム所）\n\n\n午后四時尾立維孝来約《（氏脱）》（事務所）\n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n\n\n              田島\n             \n\n              準一郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午后二時\n            \n\n\n              浜口\n             \n\n              大蔵\n             \n\n            大臣御訪問（同官邸）\n           \n\n\n\n\n             午后三時\n            \n            総理大臣官邸ヘ御訪問（同官邸）\n           \n\n\n\n\n             午後三時\n            \n            御出勤（事ム所）\n           \n\n\n\n\n             午后四時\n            \n\n\n              尾立\n             \n\n              維孝\n             \n\n            来約《（氏脱）》（事務所）\n           \n\n\n",
     "fullname": [
-        "田島準一郎",
-        "浜口大蔵",
-        "尾立維孝"
+        "\n              田島\n             \n              準一郎\n             ",
+        "\n              浜口\n             \n              大蔵\n             ",
+        "\n              尾立\n             \n              維孝\n             "
     ],
-    "label": "廿二日  （土）",
+    "label": "廿二日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20028m-143",
-    "objectID": "DKB20028m-142",
-    "prev": "DKB20028m-141",
+    "next": "DKB20028m-0143",
+    "objectID": "DKB20028m-0142",
+    "prev": "DKB20028m-0141",
     "sort": "DKB20028m-0142",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1926-05-22",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>田島</surname><forename>準一郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_田島準一郎\">\n<surname>\n              田島\n             </surname>\n<forename>\n              準一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-142\">\n<head>\n<date when=\"1926-05-22\"> 廿二日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>田島</surname><forename>準一郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午后二時</time><persName><surname>浜口</surname><forename>大蔵</forename></persName>大臣御訪問（同官邸）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午后三時</time>総理大臣官邸ヘ御訪問（同官邸）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>御出勤（事ム所）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午后四時</time><persName><surname>尾立</surname><forename>維孝</forename></persName>来約《（氏脱）》（事務所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0142\">\n<head>\n<date when=\"1926-05-22\">\n           廿二日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_田島準一郎\">\n<surname>\n              田島\n             </surname>\n<forename>\n              準一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n<persName corresp=\"#pers_浜口大蔵\">\n<surname>\n              浜口\n             </surname>\n<forename>\n              大蔵\n             </forename>\n</persName>\n            大臣御訪問（同官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n            総理大臣官邸ヘ御訪問（同官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            御出勤（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午后四時\n            </time>\n<persName corresp=\"#pers_尾立維孝\">\n<surname>\n              尾立\n             </surname>\n<forename>\n              維孝\n             </forename>\n</persName>\n            来約《（氏脱）》（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-05"
 }

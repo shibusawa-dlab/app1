@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1619",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20032m 昭和五年 1930"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20032m 昭和五年 1930"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20032m 昭和五年 1930",
     "date": {
         "lvl0": "1930",
@@ -20,17 +20,17 @@
     "date_lvl0": "1930",
     "date_lvl1": "1930-11",
     "date_lvl2": "1930-11-06",
-    "description": "\n\n 六日  （木） \n\n\n午時　　　　　石井秀雄氏来約（飛鳥山）\n\n\n",
+    "description": "\n\n\n           六日\n          \n          （木）\n         \n\n\n\n\n             午時\n            \n\n\n              石井\n             \n\n              秀雄\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "石井秀雄"
+        "\n              石井\n             \n              秀雄\n             "
     ],
-    "label": "六日  （木）",
+    "label": "六日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20032m-193",
-    "objectID": "DKB20032m-192",
-    "prev": "DKB20032m-191",
+    "next": "DKB20032m-0193",
+    "objectID": "DKB20032m-0192",
+    "prev": "DKB20032m-0191",
     "sort": "DKB20032m-0192",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園"
     ],
@@ -39,10 +39,10 @@
     ],
     "temporal": "1930-11-06",
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">午時</time>　　　　　<persName><surname>石井</surname><forename>秀雄</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_石井秀雄\">\n<surname>\n              石井\n             </surname>\n<forename>\n              秀雄\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20032m-192\">\n<head>\n<date when=\"1930-11-06\"> 六日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"12:00:00\">午時</time>　　　　　<persName><surname>石井</surname><forename>秀雄</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0192\">\n<head>\n<date when=\"1930-11-06\">\n           六日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_石井秀雄\">\n<surname>\n              石井\n             </surname>\n<forename>\n              秀雄\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1930",
     "yearAndMonth": "1930-11"
 }

@@ -10,14 +10,15 @@
         "https://shibusawa-dlab.github.io/lab1/api/chname/大隈",
         "https://shibusawa-dlab.github.io/lab1/api/chname/板橋",
         "https://shibusawa-dlab.github.io/lab1/api/chname/蓮沼門三",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田中善",
         "https://shibusawa-dlab.github.io/lab1/api/chname/本野"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1244",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -27,18 +28,18 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-08",
     "date_lvl2": "1917-08-24",
-    "description": "\n\n 廿四日  （金） \n\n\n午前七時大隈侯邸ヘ御出向\n\n\n引続　　　　　養育院板橋分院ヘ御出向\n\n\n午後二時半蓮沼門三氏来約（兜町）\n\n\n午後三時田中善立氏来約（兜町）\n\n\n午後四時本野外相ヲ御訪問ノ約（同官邸）\n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （金）\n         \n\n\n\n\n             午前七時\n            \n\n\n              大隈\n             \n\n            侯邸ヘ御出向\n           \n\n\n\n\n             引続\n            \n            養育院\n            \n\n              板橋\n             \n\n            分院ヘ御出向\n           \n\n\n\n\n             午後二時半\n            \n\n\n              蓮沼\n             \n\n              門三\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              田中\n             \n\n              善\n             \n\n            立氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n\n              本野\n             \n\n            外相ヲ御訪問ノ約（同官邸）\n           \n\n\n",
     "fullname": [
-        "蓮沼門三",
-        "田中善"
+        "\n              蓮沼\n             \n              門三\n             ",
+        "\n              田中\n             \n              善\n             "
     ],
-    "label": "廿四日  （金）",
+    "label": "廿四日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-222",
-    "objectID": "DKB20019m-221",
-    "prev": "DKB20019m-220",
+    "next": "DKB20019m-0222",
+    "objectID": "DKB20019m-0221",
+    "prev": "DKB20019m-0220",
     "sort": "DKB20019m-0221",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -47,10 +48,10 @@
     ],
     "temporal": "1917-08-24",
     "time": {
-        "07:00:00": "<div><time when=\"07:00:00\">午前七時</time><persName><surname>大隈</surname></persName>侯邸ヘ御出向</div>"
+        "07:00:00": "<div><time when=\"07:00:00\">\n             午前七時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯邸ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-221\">\n<head>\n<date when=\"1917-08-24\"> 廿四日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"07:00:00\">午前七時</time><persName><surname>大隈</surname></persName>侯邸ヘ御出向</p>\n</event>\n<event>\n<p><time>引続</time>　　　　　養育院<persName><surname>板橋</surname></persName>分院ヘ御出向</p>\n</event>\n<event>\n<p><time when=\"14:30:00\">午後二時半</time><persName><surname>蓮沼</surname><forename>門三</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>田中</surname><forename>善</forename></persName>立氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><persName><surname>本野</surname></persName>外相ヲ御訪問ノ約（同官邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0221\">\n<head>\n<date when=\"1917-08-24\">\n           廿四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"07:00:00\">\n             午前七時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯邸ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続\n            </time>\n            養育院\n            <persName corresp=\"#pers_板橋\">\n<surname>\n              板橋\n             </surname>\n</persName>\n            分院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二時半\n            </time>\n<persName corresp=\"#pers_蓮沼門三\">\n<surname>\n              蓮沼\n             </surname>\n<forename>\n              門三\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_田中善\">\n<surname>\n              田中\n             </surname>\n<forename>\n              善\n             </forename>\n</persName>\n            立氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_本野\">\n<surname>\n              本野\n             </surname>\n</persName>\n            外相ヲ御訪問ノ約（同官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-08"
 }

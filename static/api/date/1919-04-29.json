@@ -4,13 +4,17 @@
         "床次",
         "浅野良三"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/波多野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/床次",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野良三"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1297",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20021m 大正八年 1919"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20021m 大正八年 1919"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20021m 大正八年 1919",
     "date": {
         "lvl0": "1919",
@@ -20,17 +24,17 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-04",
     "date_lvl2": "1919-04-29",
-    "description": "\n\n 廿九日  （火） \n\n\n午前九時波多野宮相ヲ御訪問ノ約（一番町官舎）\n\n\n午前十時米国大使館ヘ御出向ノ約\n\n\n午後四半時　　床次内相ヲ御訪問ノ約（同官邸）\n\n\n引続　　　　　市役所ヘ御出向ノ筈\n\n\n午後四時浅野良三氏来約（兜町）\n\n\n",
+    "description": "\n\n\n           廿九日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n\n\n              波多野\n             \n\n            宮相ヲ御訪問ノ約（一番町官舎）\n           \n\n\n\n\n             午前十時\n            \n\n             米国\n            \n            大使館ヘ御出向ノ約\n           \n\n\n\n\n             午後四半時\n            \n\n\n              床次\n             \n\n            内相ヲ御訪問ノ約（同官邸）\n           \n\n\n\n\n             引続\n            \n            市役所ヘ御出向ノ筈\n           \n\n\n\n\n             午後四時\n            \n\n\n              浅野\n             \n\n              良三\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "浅野良三"
+        "\n              浅野\n             \n              良三\n             "
     ],
-    "label": "廿九日  （火）",
+    "label": "廿九日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20021m-100",
-    "objectID": "DKB20021m-99",
-    "prev": "DKB20021m-98",
+    "next": "DKB20021m-0100",
+    "objectID": "DKB20021m-0099",
+    "prev": "DKB20021m-0098",
     "sort": "DKB20021m-0099",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アメリカ合衆国",
         "日本橋兜町"
@@ -41,10 +45,10 @@
     ],
     "temporal": "1919-04-29",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>波多野</surname></persName>宮相ヲ御訪問ノ約（一番町官舎）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_波多野\">\n<surname>\n              波多野\n             </surname>\n</persName>\n            宮相ヲ御訪問ノ約（一番町官舎）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-99\">\n<head>\n<date when=\"1919-04-29\"> 廿九日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>波多野</surname></persName>宮相ヲ御訪問ノ約（一番町官舎）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><placeName>米国</placeName>大使館ヘ御出向ノ約</p>\n</event>\n<event>\n<p><time when=\"16:30:00\">午後四半時</time>　　<persName><surname>床次</surname></persName>内相ヲ御訪問ノ約（同官邸）</p>\n</event>\n<event>\n<p><time>引続</time>　　　　　市役所ヘ御出向ノ筈</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><persName><surname>浅野</surname><forename>良三</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0099\">\n<head>\n<date when=\"1919-04-29\">\n           廿九日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_波多野\">\n<surname>\n              波多野\n             </surname>\n</persName>\n            宮相ヲ御訪問ノ約（一番町官舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            大使館ヘ御出向ノ約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n<persName corresp=\"#pers_床次\">\n<surname>\n              床次\n             </surname>\n</persName>\n            内相ヲ御訪問ノ約（同官邸）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続\n            </time>\n            市役所ヘ御出向ノ筈\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_浅野良三\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              良三\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-04"
 }

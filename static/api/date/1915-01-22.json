@@ -10,14 +10,15 @@
         "https://shibusawa-dlab.github.io/lab1/api/chname/森村",
         "https://shibusawa-dlab.github.io/lab1/api/chname/和田",
         "https://shibusawa-dlab.github.io/lab1/api/chname/清水一雄",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/井上友勝",
         "https://shibusawa-dlab.github.io/lab1/api/chname/平岡"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1175",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20017m 大正四年 1915"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20017m 大正四年 1915"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20017m 大正四年 1915",
     "date": {
         "lvl0": "1915",
@@ -27,18 +28,18 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-01",
     "date_lvl2": "1915-01-22",
-    "description": "\n\n 廿二日  （金） \n\n\n午前九半時　　森村、和田両氏来約（兜町）\n\n\n午前十一時清水一雄氏等来約（兜町）\n\n\n午后一時井上友勝氏ト御会見（総理大臣官邸）\n\n\n午後四時平岡氏ヨリ御案内（常盤屋）\n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （金）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              森村\n             \n\n            、\n            \n\n              和田\n             \n\n            両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              清水\n             \n\n              一雄\n             \n\n            氏等来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午后一時\n            \n\n\n              井上\n             \n\n              友勝\n             \n\n            氏ト御会見（総理大臣官邸）\n           \n\n\n\n\n             午後四時\n            \n\n\n              平岡\n             \n\n            氏ヨリ御案内（常盤屋）\n           \n\n\n",
     "fullname": [
-        "清水一雄",
-        "井上友勝"
+        "\n              清水\n             \n              一雄\n             ",
+        "\n              井上\n             \n              友勝\n             "
     ],
-    "label": "廿二日  （金）",
+    "label": "廿二日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20017m-21",
-    "objectID": "DKB20017m-20",
-    "prev": "DKB20017m-19",
+    "next": "DKB20017m-0021",
+    "objectID": "DKB20017m-0020",
+    "prev": "DKB20017m-0019",
     "sort": "DKB20017m-0020",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -47,10 +48,10 @@
     ],
     "temporal": "1915-01-22",
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">午前九半時</time>　　<persName><surname>森村</surname></persName>、<persName><surname>和田</surname></persName>両氏来約（<placeName>兜町</placeName>）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_森村\">\n<surname>\n              森村\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_和田\">\n<surname>\n              和田\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-20\">\n<head>\n<date when=\"1915-01-22\"> 廿二日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"09:30:00\">午前九半時</time>　　<persName><surname>森村</surname></persName>、<persName><surname>和田</surname></persName>両氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>清水</surname><forename>一雄</forename></persName>氏等来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午后一時</time><persName><surname>井上</surname><forename>友勝</forename></persName>氏ト御会見（総理大臣官邸）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time><persName><surname>平岡</surname></persName>氏ヨリ御案内（常盤屋）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0020\">\n<head>\n<date when=\"1915-01-22\">\n           廿二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_森村\">\n<surname>\n              森村\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_和田\">\n<surname>\n              和田\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_清水一雄\">\n<surname>\n              清水\n             </surname>\n<forename>\n              一雄\n             </forename>\n</persName>\n            氏等来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n<persName corresp=\"#pers_井上友勝\">\n<surname>\n              井上\n             </surname>\n<forename>\n              友勝\n             </forename>\n</persName>\n            氏ト御会見（総理大臣官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_平岡\">\n<surname>\n              平岡\n             </surname>\n</persName>\n            氏ヨリ御案内（常盤屋）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-01"
 }

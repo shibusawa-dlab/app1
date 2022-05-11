@@ -2,18 +2,21 @@
     "agential": [
         "大橋",
         "杉原",
-        "渋沢平九郎"
+        "渋沢平九郎",
+        "ボールス"
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/大橋",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/杉原"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/杉原",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢平九郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ボールス"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1237",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -23,17 +26,17 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-05",
     "date_lvl2": "1917-05-23",
-    "description": "\n\n 廿三日  （水） \n\n\n午前十時大橋、杉原両氏ト御会見ノ約（商業会ギ所）\n\n\n正午　　　　　同族会社重役会（兜町）\n\n\n午後三時故渋沢平九郎殿五十年祭（寛永寺）\n\n\n午後五時平和協会日米関係調査委員会（中央亭）\n\n\n午後六時半ボールス氏送別会「フロックコート」（中央亭）\n\n\n",
+    "description": "\n\n\n           廿三日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n\n\n              大橋\n             \n\n            、\n            \n\n              杉原\n             \n\n            両氏ト御会見ノ約（商業会ギ所）\n           \n\n\n\n\n             正午\n            \n            同族会社重役会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            故\n            \n\n              渋沢\n             \n\n              平九郎\n             \n\n            殿五十年祭（寛永寺）\n           \n\n\n\n\n             午後五時\n            \n            平和協会日米関係調査委員会（中央亭）\n           \n\n\n\n\n             午後六時半\n            \n\n\n              ボールス\n             \n\n            氏送別会「フロックコート」（中央亭）\n           \n\n\n",
     "fullname": [
-        "渋沢平九郎"
+        "\n              渋沢\n             \n              平九郎\n             "
     ],
-    "label": "廿三日  （水）",
+    "label": "廿三日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-143",
-    "objectID": "DKB20019m-142",
-    "prev": "DKB20019m-141",
+    "next": "DKB20019m-0143",
+    "objectID": "DKB20019m-0142",
+    "prev": "DKB20019m-0141",
     "sort": "DKB20019m-0142",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -42,10 +45,10 @@
     ],
     "temporal": "1917-05-23",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><persName><surname>大橋</surname></persName>、<persName><surname>杉原</surname></persName>両氏ト御会見ノ約（商業会ギ所）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_大橋\">\n<surname>\n              大橋\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_杉原\">\n<surname>\n              杉原\n             </surname>\n</persName>\n            両氏ト御会見ノ約（商業会ギ所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-142\">\n<head>\n<date when=\"1917-05-23\"> 廿三日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>大橋</surname></persName>、<persName><surname>杉原</surname></persName>両氏ト御会見ノ約（商業会ギ所）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　同族会社重役会（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>故<persName><surname>渋沢</surname><forename>平九郎</forename></persName>殿<date when=\"1917\">五十年</date>祭（寛永寺）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>平和協会日米関係調査委員会（中央亭）</p>\n</event>\n<event>\n<p><time when=\"18:30:00\">午後六時半</time>ボールス氏送別会「フロックコート」（中央亭）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0142\">\n<head>\n<date when=\"1917-05-23\">\n           廿三日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_大橋\">\n<surname>\n              大橋\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_杉原\">\n<surname>\n              杉原\n             </surname>\n</persName>\n            両氏ト御会見ノ約（商業会ギ所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            同族会社重役会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            故\n            <persName corresp=\"#pers_渋沢平九郎\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              平九郎\n             </forename>\n</persName>\n            殿五十年祭（寛永寺）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            平和協会日米関係調査委員会（中央亭）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:30:00\">\n             午後六時半\n            </time>\n<persName corresp=\"#pers_ボールス\">\n<surname>\n              ボールス\n             </surname>\n</persName>\n            氏送別会「フロックコート」（中央亭）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-05"
 }

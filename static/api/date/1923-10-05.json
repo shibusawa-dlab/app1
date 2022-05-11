@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1440",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -20,15 +20,15 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-10",
     "date_lvl2": "1923-10-05",
-    "description": "\n\n 五日  （金） \n\n\n午前十時後藤内相ヲ御訪問（総理大臣官邸）\n\n\n午後一時鮮人ニ関スル協議会（桜田倶楽部）芝区桜田本郷町十四（丸木写真横）\n\n\n午後二時大震災善後会常務委員会（商会業議所）\n\n\n",
+    "description": "\n\n\n           五日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n\n\n              後藤\n             \n\n            内相ヲ御訪問（総理大臣官邸）\n           \n\n\n\n\n             午後一時\n            \n            鮮人ニ関スル協議会（\n            \n             桜田\n            \n            倶楽部）\n            \n\n             芝区\n            \n\n             桜田本郷町\n            \n            十四（丸木写真横）\n           \n\n\n\n\n             午後二時\n            \n            大震災善後会常務委員会（商会業議所）\n           \n\n\n",
     "fullname": [],
-    "label": "五日  （金）",
+    "label": "五日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20025m-254",
-    "objectID": "DKB20025m-253",
-    "prev": "DKB20025m-252",
+    "next": "DKB20025m-0254",
+    "objectID": "DKB20025m-0253",
+    "prev": "DKB20025m-0252",
     "sort": "DKB20025m-0253",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "桜田",
         "芝区",
@@ -36,14 +36,15 @@
     ],
     "spatial_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/place/桜田",
-        "https://shibusawa-dlab.github.io/lab1/api/place/芝区"
+        "https://shibusawa-dlab.github.io/lab1/api/place/芝区",
+        "https://shibusawa-dlab.github.io/lab1/api/place/桜田本郷町"
     ],
     "temporal": "1923-10-05",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><persName><surname>後藤</surname></persName>内相ヲ御訪問（総理大臣官邸）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_後藤\">\n<surname>\n              後藤\n             </surname>\n</persName>\n            内相ヲ御訪問（総理大臣官邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-253\">\n<head>\n<date when=\"1923-10-05\"> 五日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>後藤</surname></persName>内相ヲ御訪問（総理大臣官邸）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>鮮人ニ関スル協議会（<placeName>桜田</placeName>倶楽部）<lb/><placeName>芝区</placeName><placeName>桜田本郷町</placeName>十四（丸木写真横）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>大震災善後会常務委員会（商会業議所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0253\">\n<head>\n<date when=\"1923-10-05\">\n           五日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_後藤\">\n<surname>\n              後藤\n             </surname>\n</persName>\n            内相ヲ御訪問（総理大臣官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            鮮人ニ関スル協議会（\n            <placeName corresp=\"#place_桜田\">\n             桜田\n            </placeName>\n            倶楽部）\n            <lb/>\n<placeName corresp=\"#place_芝区\">\n             芝区\n            </placeName>\n<placeName corresp=\"#place_桜田本郷町\">\n             桜田本郷町\n            </placeName>\n            十四（丸木写真横）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            大震災善後会常務委員会（商会業議所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-10"
 }

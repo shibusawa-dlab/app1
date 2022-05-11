@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1198",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -20,25 +20,25 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-02",
     "date_lvl2": "1916-02-17",
-    "description": "\n\n 十七日  （木） \n\n\n午後一時第一銀行\n\n\n午後五半時　　御断リ申候中島久万吉男爵ヨリ御案内（トキワヤ）\n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （木）\n         \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午後五半時\n            \n            御断リ申候\n            \n\n\n              中島\n             \n\n              久万吉\n             \n\n            男爵ヨリ御案内（トキワヤ）\n           \n\n\n",
     "fullname": [
-        "中島久万吉"
+        "\n              中島\n             \n              久万吉\n             "
     ],
-    "label": "十七日  （木）",
+    "label": "十七日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-47",
-    "objectID": "DKB20018m-46",
-    "prev": "DKB20018m-45",
+    "next": "DKB20018m-0047",
+    "objectID": "DKB20018m-0046",
+    "prev": "DKB20018m-0045",
     "sort": "DKB20018m-0046",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [],
     "spatial_uri": [],
     "temporal": "1916-02-17",
     "time": {
-        "13:00:00": "<div><time when=\"13:00:00\">午後一時</time>第一銀行</div>"
+        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName></div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-46\">\n<head>\n<date when=\"1916-02-17\"> 十七日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>第一銀行</p>\n</event>\n<event>\n<p><time when=\"17:30:00\">午後五半時</time>　　御断リ申候<lb/><persName><surname>中島</surname><forename>久万吉</forename></persName>男爵ヨリ御案内（トキワヤ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0046\">\n<head>\n<date when=\"1916-02-17\">\n           十七日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            御断リ申候\n            <lb/>\n<persName corresp=\"#pers_中島久万吉\">\n<surname>\n              中島\n             </surname>\n<forename>\n              久万吉\n             </forename>\n</persName>\n            男爵ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-02"
 }

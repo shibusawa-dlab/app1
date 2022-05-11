@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1580",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20030m 昭和三年 1928"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20030m 昭和三年 1928"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20030m 昭和三年 1928",
     "date": {
         "lvl0": "1928",
@@ -22,18 +22,18 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-04",
     "date_lvl2": "1928-04-22",
-    "description": "\n\n 廿二日  （日） \n\n\n午前九時斯文会孔子祭（湯島聖堂）　○先生欠席\n\n\n午前十一時〃　会尚歯会（東京女子高等師範学校）\n\n\n正午　　　　　田中平八氏御招待ヘ御出向（芝葺手町邸）\n\n\n午後二時矢野恒太氏招宴（同氏邸）\n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n            斯文会孔子祭（\n            \n             湯島\n            \n            聖堂）　○先生欠席\n           \n\n\n\n\n             午前十一時\n            \n            〃　会尚歯会（\n            \n             東京\n            \n            女子高等師範学校）\n           \n\n\n\n\n             正午\n            \n\n\n              田中\n             \n\n              平八\n             \n\n            氏御招待ヘ御出向（芝葺手町邸）\n           \n\n\n\n\n             午後二時\n            \n\n\n              矢野\n             \n\n              恒太\n             \n\n            氏招宴（同氏邸）\n           \n\n\n",
     "fullname": [
-        "田中平八",
-        "矢野恒太"
+        "\n              田中\n             \n              平八\n             ",
+        "\n              矢野\n             \n              恒太\n             "
     ],
-    "label": "廿二日  （日）",
+    "label": "廿二日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20030m-116",
-    "objectID": "DKB20030m-115",
-    "prev": "DKB20030m-114",
+    "next": "DKB20030m-0116",
+    "objectID": "DKB20030m-0115",
+    "prev": "DKB20030m-0114",
     "sort": "DKB20030m-0115",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "湯島",
         "東京"
@@ -44,10 +44,10 @@
     ],
     "temporal": "1928-04-22",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time>斯文会孔子祭（<placeName>湯島</placeName>聖堂）　○先生欠席</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            斯文会孔子祭（\n            <placeName corresp=\"#place_湯島\">\n             湯島\n            </placeName>\n            聖堂）　○先生欠席</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-115\">\n<head>\n<date when=\"1928-04-22\"> 廿二日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time>斯文会孔子祭（<placeName>湯島</placeName>聖堂）　○先生欠席</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>〃　会尚歯会（<placeName>東京</placeName>女子高等師範学校）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　<persName><surname>田中</surname><forename>平八</forename></persName>氏御招待ヘ御出向（芝葺手町邸）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>矢野</surname><forename>恒太</forename></persName>氏招宴（同氏邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0115\">\n<head>\n<date when=\"1928-04-22\">\n           廿二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            斯文会孔子祭（\n            <placeName corresp=\"#place_湯島\">\n             湯島\n            </placeName>\n            聖堂）　○先生欠席\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            〃　会尚歯会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            女子高等師範学校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_田中平八\">\n<surname>\n              田中\n             </surname>\n<forename>\n              平八\n             </forename>\n</persName>\n            氏御招待ヘ御出向（芝葺手町邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_矢野恒太\">\n<surname>\n              矢野\n             </surname>\n<forename>\n              恒太\n             </forename>\n</persName>\n            氏招宴（同氏邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-04"
 }

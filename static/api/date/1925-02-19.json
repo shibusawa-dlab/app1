@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1487",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -20,27 +20,29 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-02",
     "date_lvl2": "1925-02-19",
-    "description": "\n\n 十九日  （木） \n\n\n午前十時ワード博士、コールマン両氏来約（アスカ山）\n\n\n午後一時協調会ヘ御出向\n\n\n午四半時　　　井上準之助氏来約（事務所）\n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n            ワード博士、コールマン両氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n            協調会ヘ御出向\n           \n\n\n\n\n             午四半時\n            \n\n\n              井上\n             \n\n              準之助\n             \n\n            氏来約（事務所）\n           \n\n\n",
     "fullname": [
-        "井上準之助"
+        "\n              井上\n             \n              準之助\n             "
     ],
-    "label": "十九日  （木）",
+    "label": "十九日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20027m-36",
-    "objectID": "DKB20027m-35",
-    "prev": "DKB20027m-34",
+    "next": "DKB20027m-0036",
+    "objectID": "DKB20027m-0035",
+    "prev": "DKB20027m-0034",
     "sort": "DKB20027m-0035",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山"
+    ],
     "temporal": "1925-02-19",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time>ワード博士、コールマン両氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            ワード博士、コールマン両氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-35\">\n<head>\n<date when=\"1925-02-19\"> 十九日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>ワード博士、コールマン両氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>協調会ヘ御出向</p>\n</event>\n<event>\n<p><time when=\"16:30:00\">午四半時</time>　　　<persName><surname>井上</surname><forename>準之助</forename></persName>氏来約（事務所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0035\">\n<head>\n<date when=\"1925-02-19\">\n           十九日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            ワード博士、コールマン両氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            協調会ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午四半時\n            </time>\n<persName corresp=\"#pers_井上準之助\">\n<surname>\n              井上\n             </surname>\n<forename>\n              準之助\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-02"
 }

@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1221",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -20,17 +20,17 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-12",
     "date_lvl2": "1916-12-03",
-    "description": "\n\n 三日  （日） \n\n\n午後二時久野久子音楽会（上野音楽学校）\n\n\n午後四時半小倉安田両家結婚披露（帝国ホテル）\n\n\n断　　　午後四時発明協会ヨリ御案内（築地精養軒）\n\n\n",
+    "description": "\n\n\n           三日\n          \n          （日）\n         \n\n\n\n\n             午後二時\n            \n\n\n              久野\n             \n\n              久子\n             \n\n            音楽会（\n            \n             上野\n            \n            音楽学校）\n           \n\n\n\n\n             午後四時半\n            \n\n             小倉\n            \n\n             安田\n            \n            両家結婚披露（帝国ホテル）\n           \n\n\n\n            断\n            \n             午後四時\n            \n            発明協会ヨリ御案内（築地精養軒）\n           \n\n\n",
     "fullname": [
-        "久野久_(ピアニスト)"
+        "\n              久野\n             \n              久子\n             "
     ],
-    "label": "三日  （日）",
+    "label": "三日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-321",
-    "objectID": "DKB20018m-320",
-    "prev": "DKB20018m-319",
+    "next": "DKB20018m-0321",
+    "objectID": "DKB20018m-0320",
+    "prev": "DKB20018m-0319",
     "sort": "DKB20018m-0320",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "上野",
         "小倉",
@@ -43,10 +43,10 @@
     ],
     "temporal": "1916-12-03",
     "time": {
-        "14:00:00": "<div><time when=\"14:00:00\">午後二時</time><persName><surname>久野</surname><forename>久子</forename></persName>音楽会（<placeName>上野</placeName>音楽学校）</div>"
+        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_久野久_(ピアニスト)\">\n<surname>\n              久野\n             </surname>\n<forename>\n              久子\n             </forename>\n</persName>\n            音楽会（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            音楽学校）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-320\">\n<head>\n<date when=\"1916-12-03\"> 三日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>久野</surname><forename>久子</forename></persName>音楽会（<placeName>上野</placeName>音楽学校）</p>\n</event>\n<event>\n<p><time when=\"16:30:00\">午後四時半</time><placeName>小倉</placeName><placeName>安田</placeName>両家結婚披露（帝国ホテル）</p>\n</event>\n<event>\n<p>断　　　<time when=\"16:00:00\">午後四時</time>発明協会ヨリ御案内（築地精養軒）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0320\">\n<head>\n<date when=\"1916-12-03\">\n           三日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_久野久_(ピアニスト)\">\n<surname>\n              久野\n             </surname>\n<forename>\n              久子\n             </forename>\n</persName>\n            音楽会（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            音楽学校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四時半\n            </time>\n<placeName corresp=\"#place_小倉\">\n             小倉\n            </placeName>\n<placeName corresp=\"#place_安田\">\n             安田\n            </placeName>\n            両家結婚披露（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n            断\n            <time when=\"16:00:00\">\n             午後四時\n            </time>\n            発明協会ヨリ御案内（築地精養軒）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-12"
 }

@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1466",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -22,28 +22,30 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-06",
     "date_lvl2": "1924-06-03",
-    "description": "\n\n 三日  （火） \n\n\n午前九時滝の川学園理事会（銀行クラブ）\n\n\n午後一時汎太平洋協会催ウツヅ大使送別会（帝国ホテル）\n\n\n午後三時尾崎行雄氏ト会見（帝国ホテル）\n\n\n午後五半時　　徳川慶喜公授爵記念会（第六天町同邸）\n\n\n",
+    "description": "\n\n\n           三日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n            滝の川学園理事会（銀行クラブ）\n           \n\n\n\n\n             午後一時\n            \n            汎太平洋協会催ウツヅ大使送別会（帝国ホテル）\n           \n\n\n\n\n             午後三時\n            \n\n\n              尾崎\n             \n\n              行雄\n             \n\n            氏ト会見（帝国ホテル）\n           \n\n\n\n\n             午後五半時\n            \n\n\n              徳川\n             \n\n              慶喜\n             \n\n            公授爵記念会（\n            \n             第六天町\n            \n            同邸）\n           \n\n\n",
     "fullname": [
-        "尾崎行雄",
-        "徳川慶喜"
+        "\n              尾崎\n             \n              行雄\n             ",
+        "\n              徳川\n             \n              慶喜\n             "
     ],
-    "label": "三日  （火）",
+    "label": "三日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-160",
-    "objectID": "DKB20026m-159",
-    "prev": "DKB20026m-158",
+    "next": "DKB20026m-0160",
+    "objectID": "DKB20026m-0159",
+    "prev": "DKB20026m-0158",
     "sort": "DKB20026m-0159",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "第六天町"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/第六天町"
+    ],
     "temporal": "1924-06-03",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time>滝の川学園理事会（銀行クラブ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            滝の川学園理事会（銀行クラブ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-159\">\n<head>\n<date when=\"1924-06-03\"> 三日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time>滝の川学園理事会（銀行クラブ）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>汎太平洋協会催ウツヅ大使送別会（帝国ホテル）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>尾崎</surname><forename>行雄</forename></persName>氏ト会見（帝国ホテル）</p>\n</event>\n<event>\n<p><time when=\"17:30:00\">午後五半時</time>　　<persName><surname>徳川</surname><forename>慶喜</forename></persName>公授爵記念会（<placeName>第六天町</placeName>同邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0159\">\n<head>\n<date when=\"1924-06-03\">\n           三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            滝の川学園理事会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            汎太平洋協会催ウツヅ大使送別会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_尾崎行雄\">\n<surname>\n              尾崎\n             </surname>\n<forename>\n              行雄\n             </forename>\n</persName>\n            氏ト会見（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_徳川慶喜\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶喜\n             </forename>\n</persName>\n            公授爵記念会（\n            <placeName corresp=\"#place_第六天町\">\n             第六天町\n            </placeName>\n            同邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-06"
 }

@@ -3,13 +3,16 @@
         "木村雄次",
         "井上大蔵"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/木村雄次",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/井上大蔵"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1442",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -19,28 +22,30 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-10",
     "date_lvl2": "1923-10-24",
-    "description": "\n\n 廿四日  （水） \n\n\n午前八時木村雄次氏来約（飛鳥山邸）\n\n\n午後二時半井上大蔵大臣ヲ御訪問ノ約（大蔵省）\n\n\n午後三時社会事業協会理事会（社会局）\n\n\n午後五時講道館評議員会（中央亭）\n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （水）\n         \n\n\n\n\n             午前八時\n            \n\n\n              木村\n             \n\n              雄次\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二時半\n            \n\n\n              井上\n             \n\n              大蔵\n             \n\n            大臣ヲ御訪問ノ約（大蔵省）\n           \n\n\n\n\n             午後三時\n            \n            社会事業協会理事会（社会局）\n           \n\n\n\n\n             午後五時\n            \n            講道館評議員会（中央亭）\n           \n\n\n",
     "fullname": [
-        "木村雄次",
-        "井上大蔵"
+        "\n              木村\n             \n              雄次\n             ",
+        "\n              井上\n             \n              大蔵\n             "
     ],
-    "label": "廿四日  （水）",
+    "label": "廿四日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20025m-274",
-    "objectID": "DKB20025m-273",
-    "prev": "DKB20025m-272",
+    "next": "DKB20025m-0274",
+    "objectID": "DKB20025m-0273",
+    "prev": "DKB20025m-0272",
     "sort": "DKB20025m-0273",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1923-10-24",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>木村</surname><forename>雄次</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_木村雄次\">\n<surname>\n              木村\n             </surname>\n<forename>\n              雄次\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-273\">\n<head>\n<date when=\"1923-10-24\"> 廿四日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>木村</surname><forename>雄次</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:30:00\">午後二時半</time><persName><surname>井上</surname><forename>大蔵</forename></persName>大臣ヲ御訪問ノ約（大蔵省）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time>社会事業協会理事会（社会局）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>講道館評議員会（中央亭）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0273\">\n<head>\n<date when=\"1923-10-24\">\n           廿四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_木村雄次\">\n<surname>\n              木村\n             </surname>\n<forename>\n              雄次\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二時半\n            </time>\n<persName corresp=\"#pers_井上大蔵\">\n<surname>\n              井上\n             </surname>\n<forename>\n              大蔵\n             </forename>\n</persName>\n            大臣ヲ御訪問ノ約（大蔵省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            社会事業協会理事会（社会局）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            講道館評議員会（中央亭）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-10"
 }

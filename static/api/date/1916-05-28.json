@@ -2,13 +2,15 @@
     "agential": [
         "水戸清香"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/水戸清香"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1205",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -18,17 +20,17 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-05",
     "date_lvl2": "1916-05-28",
-    "description": "\n\n 廿八日  （日） \n\n\n午前八時十分水戸市ヘ御出向（上の駅発）\n\n\n午後一時関東北感化院長協議会（水戸市県会議事堂）\n\n\n夕　　　　　　水戸有志催男爵歓迎会（水戸市公会堂）\n\n\n水戸清香亭ニ御一泊\n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （日）\n         \n\n\n\n\n             午前八時十分\n            \n\n             水戸\n            \n            市ヘ御出向（上の駅発）\n           \n\n\n\n\n             午後一時\n            \n            関\n            \n             東北\n            \n            感化院長協議会（\n            \n             水戸\n            \n            市県会議事堂）\n           \n\n\n\n\n             夕\n            \n\n             水戸\n            \n            有志催男爵歓迎会（\n            \n             水戸\n            \n            市公会堂）\n           \n\n\n\n\n\n              水戸\n             \n\n              清香\n             \n\n            亭ニ御一泊\n           \n\n\n",
     "fullname": [
-        "水戸清香"
+        "\n              水戸\n             \n              清香\n             "
     ],
-    "label": "廿八日  （日）",
+    "label": "廿八日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-132",
-    "objectID": "DKB20018m-131",
-    "prev": "DKB20018m-130",
+    "next": "DKB20018m-0132",
+    "objectID": "DKB20018m-0131",
+    "prev": "DKB20018m-0130",
     "sort": "DKB20018m-0131",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "水戸",
         "東北地方"
@@ -39,10 +41,10 @@
     ],
     "temporal": "1916-05-28",
     "time": {
-        "08:10:00": "<div><time when=\"08:10:00\">午前八時十分</time><placeName>水戸</placeName>市ヘ御出向（上の駅発）</div>"
+        "08:10:00": "<div><time when=\"08:10:00\">\n             午前八時十分\n            </time>\n<placeName corresp=\"#place_水戸\">\n             水戸\n            </placeName>\n            市ヘ御出向（上の駅発）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-131\">\n<head>\n<date when=\"1916-05-28\"> 廿八日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"08:10:00\">午前八時十分</time><placeName>水戸</placeName>市ヘ御出向（上の駅発）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time>関<placeName>東北</placeName>感化院長協議会（<placeName>水戸</placeName>市県会議事堂）</p>\n</event>\n<event>\n<p><time>夕</time>　　　　　　<placeName>水戸</placeName>有志催男爵歓迎会（<placeName>水戸</placeName>市公会堂）</p>\n</event>\n<event>\n<p><persName><surname>水戸</surname><forename>清香</forename></persName>亭ニ御一泊</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0131\">\n<head>\n<date when=\"1916-05-28\">\n           廿八日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:10:00\">\n             午前八時十分\n            </time>\n<placeName corresp=\"#place_水戸\">\n             水戸\n            </placeName>\n            市ヘ御出向（上の駅発）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            関\n            <placeName corresp=\"#place_東北地方\">\n             東北\n            </placeName>\n            感化院長協議会（\n            <placeName corresp=\"#place_水戸\">\n             水戸\n            </placeName>\n            市県会議事堂）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             夕\n            </time>\n<placeName corresp=\"#place_水戸\">\n             水戸\n            </placeName>\n            有志催男爵歓迎会（\n            <placeName corresp=\"#place_水戸\">\n             水戸\n            </placeName>\n            市公会堂）\n           </p>\n</event>\n<event>\n<p>\n<persName corresp=\"#pers_水戸清香\">\n<surname>\n              水戸\n             </surname>\n<forename>\n              清香\n             </forename>\n</persName>\n            亭ニ御一泊\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-05"
 }

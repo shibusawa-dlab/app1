@@ -11,10 +11,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1389",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -24,18 +24,18 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-04",
     "date_lvl2": "1922-04-24",
-    "description": "\n\n 廿四日  （月） \n\n\n午後三時高橋首相ヲ御訪問（同官邸）\n\n\n午後四―五時服部金太郎氏来約（兜町）\n\n\n夕　　　　　　大川平三郎氏ヲ御訪問（向島同邸）\n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （月）\n         \n\n\n\n\n             午後三時\n            \n\n\n              高橋\n             \n\n            首相ヲ御訪問（同官邸）\n           \n\n\n\n\n             午後四―五時\n            \n\n\n              服部\n             \n\n              金太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             夕\n            \n\n\n              大川\n             \n\n              平三郎\n             \n\n            氏ヲ御訪問（\n            \n             向島\n            \n            同邸）\n           \n\n\n",
     "fullname": [
-        "服部金太郎",
-        "大川平三郎"
+        "\n              服部\n             \n              金太郎\n             ",
+        "\n              大川\n             \n              平三郎\n             "
     ],
-    "label": "廿四日  （月）",
+    "label": "廿四日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20024m-88",
-    "objectID": "DKB20024m-87",
-    "prev": "DKB20024m-86",
+    "next": "DKB20024m-0088",
+    "objectID": "DKB20024m-0087",
+    "prev": "DKB20024m-0086",
     "sort": "DKB20024m-0087",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "向島"
@@ -46,10 +46,10 @@
     ],
     "temporal": "1922-04-24",
     "time": {
-        "15:00:00": "<div><time when=\"15:00:00\">午後三時</time><persName><surname>高橋</surname></persName>首相ヲ御訪問（同官邸）</div>"
+        "15:00:00": "<div><time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_高橋\">\n<surname>\n              高橋\n             </surname>\n</persName>\n            首相ヲ御訪問（同官邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-87\">\n<head>\n<date when=\"1922-04-24\"> 廿四日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>高橋</surname></persName>首相ヲ御訪問（同官邸）</p>\n</event>\n<event>\n<p><time from=\"16:00:00\" to=\"17:00:00\">午後四―五時</time><persName><surname>服部</surname><forename>金太郎</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time>夕</time>　　　　　　<persName><surname>大川</surname><forename>平三郎</forename></persName>氏ヲ御訪問（<placeName>向島</placeName>同邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0087\">\n<head>\n<date when=\"1922-04-24\">\n           廿四日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_高橋\">\n<surname>\n              高橋\n             </surname>\n</persName>\n            首相ヲ御訪問（同官邸）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"16:00:00\" to=\"17:00:00\">\n             午後四―五時\n            </time>\n<persName corresp=\"#pers_服部金太郎\">\n<surname>\n              服部\n             </surname>\n<forename>\n              金太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             夕\n            </time>\n<persName corresp=\"#pers_大川平三郎\">\n<surname>\n              大川\n             </surname>\n<forename>\n              平三郎\n             </forename>\n</persName>\n            氏ヲ御訪問（\n            <placeName corresp=\"#place_向島\">\n             向島\n            </placeName>\n            同邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-04"
 }

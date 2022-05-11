@@ -4,14 +4,15 @@
         "岡田"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田大蔵",
         "https://shibusawa-dlab.github.io/lab1/api/chname/岡田"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1497",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -21,25 +22,25 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-11",
     "date_lvl2": "1925-11-17",
-    "description": "\n\n 十七日  （火） \n\n\n午後二頃　　　田大蔵次官ヲ御訪問（大蔵省）\n\n\n午后二―四時岡田文部大臣ヲ御訪問（文部省）\n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （火）\n         \n\n\n\n\n             午後二\n            \n            頃\n            \n\n              田\n             \n\n              大蔵\n             \n\n            次官ヲ御訪問（大蔵省）\n           \n\n\n\n\n             午后二―四時\n            \n\n\n              岡田\n             \n\n            文部大臣ヲ御訪問（文部省）\n           \n\n\n",
     "fullname": [
-        "田大蔵"
+        "\n              田\n             \n              大蔵\n             "
     ],
-    "label": "十七日  （火）",
+    "label": "十七日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20027m-207",
-    "objectID": "DKB20027m-205",
-    "prev": "DKB20027m-204",
+    "next": "DKB20027m-0207",
+    "objectID": "DKB20027m-0205",
+    "prev": "DKB20027m-0204",
     "sort": "DKB20027m-0205",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [],
     "spatial_uri": [],
     "temporal": "1925-11-17",
     "time": {
-        "14:00:00": "<div><time when=\"14:00:00\">午後二</time>頃　　　<persName><surname>田</surname><forename>大蔵</forename></persName>次官ヲ御訪問（大蔵省）</div>"
+        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二\n            </time>\n            頃\n            <persName corresp=\"#pers_田大蔵\">\n<surname>\n              田\n             </surname>\n<forename>\n              大蔵\n             </forename>\n</persName>\n            次官ヲ御訪問（大蔵省）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-205\">\n<head>\n<date when=\"1925-11-17\"> 十七日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"14:00:00\">午後二</time>頃　　　<persName><surname>田</surname><forename>大蔵</forename></persName>次官ヲ御訪問（大蔵省）</p>\n</event>\n<event>\n<p><time from=\"14:00:00\" to=\"16:00:00\">午后二―四時</time><persName><surname>岡田</surname></persName>文部大臣ヲ御訪問（文部省）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0205\">\n<head>\n<date when=\"1925-11-17\">\n           十七日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二\n            </time>\n            頃\n            <persName corresp=\"#pers_田大蔵\">\n<surname>\n              田\n             </surname>\n<forename>\n              大蔵\n             </forename>\n</persName>\n            次官ヲ御訪問（大蔵省）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"16:00:00\">\n             午后二―四時\n            </time>\n<persName corresp=\"#pers_岡田\">\n<surname>\n              岡田\n             </surname>\n</persName>\n            文部大臣ヲ御訪問（文部省）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-11"
 }

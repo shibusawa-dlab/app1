@@ -4,14 +4,15 @@
         "大隈"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/都倉義一",
         "https://shibusawa-dlab.github.io/lab1/api/chname/大隈"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1378",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -21,30 +22,31 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-09",
     "date_lvl2": "1921-09-25",
-    "description": "\n\n 廿五日  （日） \n\n\n午前九時都倉義一氏来約（飛鳥山）\n\n\n午前九―十時大隈侯爵ヲ御訪問（同邸）\n\n\n午後四時オリヱンタル写真工業会社ノ件（工業クラブ）\n\n\n午後五時綱町邸ヘ御出向ノ約\n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n\n\n              都倉\n             \n\n              義一\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前九―十時\n            \n\n\n              大隈\n             \n\n            侯爵ヲ御訪問（同邸）\n           \n\n\n\n\n             午後四時\n            \n            オリヱンタル写真工業会社ノ件（工業クラブ）\n           \n\n\n\n\n             午後五時\n            \n\n             綱町\n            \n            邸ヘ御出向ノ約\n           \n\n\n",
     "fullname": [
-        "都倉義一"
+        "\n              都倉\n             \n              義一\n             "
     ],
-    "label": "廿五日  （日）",
+    "label": "廿五日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20023m-262",
-    "objectID": "DKB20023m-261",
-    "prev": "DKB20023m-260",
+    "next": "DKB20023m-0262",
+    "objectID": "DKB20023m-0261",
+    "prev": "DKB20023m-0260",
     "sort": "DKB20023m-0261",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "綱町"
     ],
     "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園"
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園",
+        "https://shibusawa-dlab.github.io/lab1/api/place/綱町"
     ],
     "temporal": "1921-09-25",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>都倉</surname><forename>義一</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_都倉義一\">\n<surname>\n              都倉\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-261\">\n<head>\n<date when=\"1921-09-25\"> 廿五日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>都倉</surname><forename>義一</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time from=\"09:00:00\" to=\"10:00:00\">午前九―十時</time><persName><surname>大隈</surname></persName>侯爵ヲ御訪問（同邸）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>オリヱンタル写真工業会社ノ件（工業クラブ）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><placeName>綱町</placeName>邸ヘ御出向ノ約</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0261\">\n<head>\n<date when=\"1921-09-25\">\n           廿五日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_都倉義一\">\n<surname>\n              都倉\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"09:00:00\" to=\"10:00:00\">\n             午前九―十時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯爵ヲ御訪問（同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            オリヱンタル写真工業会社ノ件（工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            邸ヘ御出向ノ約\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-09"
 }

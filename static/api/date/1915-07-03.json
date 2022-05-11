@@ -7,14 +7,16 @@
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/大隈",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/尾崎敬義",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/海老名弾正",
         "https://shibusawa-dlab.github.io/lab1/api/chname/野崎廣太"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1186",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20017m 大正四年 1915"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20017m 大正四年 1915"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20017m 大正四年 1915",
     "date": {
         "lvl0": "1915",
@@ -24,19 +26,19 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-07",
     "date_lvl2": "1915-07-03",
-    "description": "\n\n 三日  （土） \n\n\n午前十時前　　大隈伯早稲田邸ヘ御出向\n\n\n午前十時横堀博士、尾崎敬義氏来約（兜町）\n\n\n午后三―四時海老名弾正氏来約（兜町）\n\n\n午後五時野崎広太氏ヨリ御案内（トキワヤ）\n\n\n",
+    "description": "\n\n\n           三日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n            前\n            \n\n              大隈\n             \n\n            伯\n            \n             早稲田\n            \n            邸ヘ御出向\n           \n\n\n\n\n             午前十時\n            \n\n             横堀\n            \n            博士、\n            \n\n              尾崎\n             \n\n              敬義\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午后三―四時\n            \n\n\n              海老名\n             \n\n              弾正\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              野崎\n             \n\n              広太\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n",
     "fullname": [
-        "尾崎敬義",
-        "海老名弾正",
-        "野崎廣太"
+        "\n              尾崎\n             \n              敬義\n             ",
+        "\n              海老名\n             \n              弾正\n             ",
+        "\n              野崎\n             \n              広太\n             "
     ],
-    "label": "三日  （土）",
+    "label": "三日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20017m-175",
-    "objectID": "DKB20017m-174",
-    "prev": "DKB20017m-173",
+    "next": "DKB20017m-0175",
+    "objectID": "DKB20017m-0174",
+    "prev": "DKB20017m-0173",
     "sort": "DKB20017m-0174",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "早稲田",
         "横堀",
@@ -49,10 +51,10 @@
     ],
     "temporal": "1915-07-03",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time>前　　<persName><surname>大隈</surname></persName>伯<placeName>早稲田</placeName>邸ヘ御出向</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            前\n            <persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            伯\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            邸ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-174\">\n<head>\n<date when=\"1915-07-03\"> 三日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>前　　<persName><surname>大隈</surname></persName>伯<placeName>早稲田</placeName>邸ヘ御出向</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><placeName>横堀</placeName>博士、<persName><surname>尾崎</surname><forename>敬義</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time from=\"15:00:00\" to=\"16:00:00\">午后三―四時</time><persName><surname>海老名</surname><forename>弾正</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><persName><surname>野崎</surname><forename>広太</forename></persName>氏ヨリ御案内（トキワヤ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0174\">\n<head>\n<date when=\"1915-07-03\">\n           三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            前\n            <persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            伯\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            邸ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_横堀\">\n             横堀\n            </placeName>\n            博士、\n            <persName corresp=\"#pers_尾崎敬義\">\n<surname>\n              尾崎\n             </surname>\n<forename>\n              敬義\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午后三―四時\n            </time>\n<persName corresp=\"#pers_海老名弾正\">\n<surname>\n              海老名\n             </surname>\n<forename>\n              弾正\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_野崎廣太\">\n<surname>\n              野崎\n             </surname>\n<forename>\n              広太\n             </forename>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-07"
 }

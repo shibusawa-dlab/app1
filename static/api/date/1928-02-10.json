@@ -6,14 +6,17 @@
         "高田利吉"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/中村孝也"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/阪谷",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小畑久五郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中村孝也",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高田利吉"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1572",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20030m 昭和三年 1928"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20030m 昭和三年 1928"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20030m 昭和三年 1928",
     "date": {
         "lvl0": "1928",
@@ -23,32 +26,33 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-02",
     "date_lvl2": "1928-02-10",
-    "description": "\n\n 十日  （金） \n\n\n午前九時半阪谷男爵、小畑久五郎氏来約（アスカ山）\n\n\n午後五時中村孝也、高田利吉氏来約　飛鳥山\n\n\n",
+    "description": "\n\n\n           十日\n          \n          （金）\n         \n\n\n\n\n             午前九時半\n            \n\n\n              阪谷\n             \n\n            男爵、\n            \n\n              小畑\n             \n\n              久五郎\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              中村\n             \n\n              孝也\n             \n\n            、\n            \n\n              高田\n             \n\n              利吉\n             \n\n            氏来約\n            \n             飛鳥山\n            \n\n\n\n",
     "fullname": [
-        "小畑久五郎",
-        "中村孝也",
-        "高田利吉"
+        "\n              小畑\n             \n              久五郎\n             ",
+        "\n              中村\n             \n              孝也\n             ",
+        "\n              高田\n             \n              利吉\n             "
     ],
-    "label": "十日  （金）",
+    "label": "十日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20030m-42",
-    "objectID": "DKB20030m-41",
-    "prev": "DKB20030m-40",
+    "next": "DKB20030m-0042",
+    "objectID": "DKB20030m-0041",
+    "prev": "DKB20030m-0040",
     "sort": "DKB20030m-0041",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山",
         "飛鳥山公園"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
         "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園"
     ],
     "temporal": "1928-02-10",
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">午前九時半</time><persName><surname>阪谷</surname></persName>男爵、<persName><surname>小畑</surname><forename>久五郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九時半\n            </time>\n<persName corresp=\"#pers_阪谷\">\n<surname>\n              阪谷\n             </surname>\n</persName>\n            男爵、\n            <persName corresp=\"#pers_小畑久五郎\">\n<surname>\n              小畑\n             </surname>\n<forename>\n              久五郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-41\">\n<head>\n<date when=\"1928-02-10\"> 十日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"09:30:00\">午前九時半</time><persName><surname>阪谷</surname></persName>男爵、<persName><surname>小畑</surname><forename>久五郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><persName><surname>中村</surname><forename>孝也</forename></persName>、<persName><surname>高田</surname><forename>利吉</forename></persName>氏来約　<placeName>飛鳥山</placeName></p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0041\">\n<head>\n<date when=\"1928-02-10\">\n           十日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九時半\n            </time>\n<persName corresp=\"#pers_阪谷\">\n<surname>\n              阪谷\n             </surname>\n</persName>\n            男爵、\n            <persName corresp=\"#pers_小畑久五郎\">\n<surname>\n              小畑\n             </surname>\n<forename>\n              久五郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_中村孝也\">\n<surname>\n              中村\n             </surname>\n<forename>\n              孝也\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_高田利吉\">\n<surname>\n              高田\n             </surname>\n<forename>\n              利吉\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n</p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-02"
 }

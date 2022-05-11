@@ -10,14 +10,15 @@
         "https://shibusawa-dlab.github.io/lab1/api/chname/井上",
         "https://shibusawa-dlab.github.io/lab1/api/chname/宮村",
         "https://shibusawa-dlab.github.io/lab1/api/chname/町",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/上原豊吉",
         "https://shibusawa-dlab.github.io/lab1/api/chname/内田嘉吉"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1374",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -27,18 +28,18 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-09",
     "date_lvl2": "1921-09-01",
-    "description": "\n\n 一日  （木） \n\n\n午前九時野田逓相ヲ御訪問（官邸）\n\n\n午前十―十一時故井上世外院侯七週忌焼香（宮村町井上侯邸）\n\n\n正午　　　　　報効会理事監事会（銀行クラブ）\n\n\n午後二時上原豊吉氏来約（兜町）\n\n\n午後三半時　　内田嘉吉氏来約（兜町）\n\n\n",
+    "description": "\n\n\n           一日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n\n             野田\n            \n            逓相ヲ御訪問（官邸）\n           \n\n\n\n\n             午前十―十一時\n            \n            故\n            \n\n              井上\n             \n\n            世外院侯七週忌焼香（\n            \n\n              宮村\n             \n\n\n\n              町\n             \n\n\n\n              井上\n             \n\n            侯邸）\n           \n\n\n\n\n             正午\n            \n            報効会理事監事会（銀行クラブ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              上原\n             \n\n              豊吉\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三半時\n            \n\n\n              内田\n             \n\n              嘉吉\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "上原豊吉",
-        "内田嘉吉"
+        "\n              上原\n             \n              豊吉\n             ",
+        "\n              内田\n             \n              嘉吉\n             "
     ],
-    "label": "一日  （木）",
+    "label": "一日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20023m-238",
-    "objectID": "DKB20023m-237",
-    "prev": "DKB20023m-236",
+    "next": "DKB20023m-0238",
+    "objectID": "DKB20023m-0237",
+    "prev": "DKB20023m-0236",
     "sort": "DKB20023m-0237",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "野田",
         "日本橋兜町"
@@ -49,10 +50,10 @@
     ],
     "temporal": "1921-09-01",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><placeName>野田</placeName>逓相ヲ御訪問（官邸）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_野田\">\n             野田\n            </placeName>\n            逓相ヲ御訪問（官邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-237\">\n<head>\n<date when=\"1921-09-01\"> 一日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><placeName>野田</placeName>逓相ヲ御訪問（官邸）</p>\n</event>\n<event>\n<p><time from=\"10:00:00\" to=\"11:00:00\">午前十―十一時</time>故<persName><surname>井上</surname></persName>世外院侯七週忌焼香（<persName><surname>宮村</surname></persName><persName><surname>町</surname></persName><persName><surname>井上</surname></persName>侯邸）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　報効会理事監事会（銀行クラブ）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>上原</surname><forename>豊吉</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:30:00\">午後三半時</time>　　<persName><surname>内田</surname><forename>嘉吉</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0237\">\n<head>\n<date when=\"1921-09-01\">\n           一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_野田\">\n             野田\n            </placeName>\n            逓相ヲ御訪問（官邸）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"11:00:00\">\n             午前十―十一時\n            </time>\n            故\n            <persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            世外院侯七週忌焼香（\n            <persName corresp=\"#pers_宮村\">\n<surname>\n              宮村\n             </surname>\n</persName>\n<persName corresp=\"#pers_町\">\n<surname>\n              町\n             </surname>\n</persName>\n<persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            侯邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            報効会理事監事会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_上原豊吉\">\n<surname>\n              上原\n             </surname>\n<forename>\n              豊吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n<persName corresp=\"#pers_内田嘉吉\">\n<surname>\n              内田\n             </surname>\n<forename>\n              嘉吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-09"
 }

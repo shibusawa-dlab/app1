@@ -4,14 +4,15 @@
         "浅野総一郎"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/米富辰雄",
         "https://shibusawa-dlab.github.io/lab1/api/chname/浅野総一郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1242",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -21,18 +22,18 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-07",
     "date_lvl2": "1917-07-09",
-    "description": "\n\n 九日  （月） \n\n\n午後三時半米富辰雄氏来約（兜町）\n\n\n午後六時浅野総一郎氏ヨリ御招待（田町同邸）\n\n\n",
+    "description": "\n\n\n           九日\n          \n          （月）\n         \n\n\n\n\n             午後三時半\n            \n\n\n              米富\n             \n\n              辰雄\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n\n\n              浅野\n             \n\n              総一郎\n             \n\n            氏ヨリ御招待（\n            \n             田町\n            \n            同邸）\n           \n\n\n",
     "fullname": [
-        "米富辰雄",
-        "浅野総一郎"
+        "\n              米富\n             \n              辰雄\n             ",
+        "\n              浅野\n             \n              総一郎\n             "
     ],
-    "label": "九日  （月）",
+    "label": "九日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-192",
-    "objectID": "DKB20019m-191",
-    "prev": "DKB20019m-190",
+    "next": "DKB20019m-0192",
+    "objectID": "DKB20019m-0191",
+    "prev": "DKB20019m-0190",
     "sort": "DKB20019m-0191",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "田町"
@@ -43,10 +44,10 @@
     ],
     "temporal": "1917-07-09",
     "time": {
-        "15:30:00": "<div><time when=\"15:30:00\">午後三時半</time><persName><surname>米富</surname><forename>辰雄</forename></persName>氏来約（<placeName>兜町</placeName>）</div>"
+        "15:30:00": "<div><time when=\"15:30:00\">\n             午後三時半\n            </time>\n<persName corresp=\"#pers_米富辰雄\">\n<surname>\n              米富\n             </surname>\n<forename>\n              辰雄\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-191\">\n<head>\n<date when=\"1917-07-09\"> 九日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"15:30:00\">午後三時半</time><persName><surname>米富</surname><forename>辰雄</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time><persName><surname>浅野</surname><forename>総一郎</forename></persName>氏ヨリ御招待（<placeName>田町</placeName>同邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0191\">\n<head>\n<date when=\"1917-07-09\">\n           九日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三時半\n            </time>\n<persName corresp=\"#pers_米富辰雄\">\n<surname>\n              米富\n             </surname>\n<forename>\n              辰雄\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏ヨリ御招待（\n            <placeName corresp=\"#place_田町\">\n             田町\n            </placeName>\n            同邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-07"
 }

@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1607",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20032m 昭和五年 1930"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20032m 昭和五年 1930"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20032m 昭和五年 1930",
     "date": {
         "lvl0": "1930",
@@ -20,25 +20,27 @@
     "date_lvl0": "1930",
     "date_lvl1": "1930-01",
     "date_lvl2": "1930-01-04",
-    "description": "\n\n 四日  （土） \n\n\n塩谷温氏来約（飛鳥山邸）\n\n\n",
+    "description": "\n\n\n           四日\n          \n          （土）\n         \n\n\n\n\n\n              塩谷\n             \n\n              温\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "塩谷温"
+        "\n              塩谷\n             \n              温\n             "
     ],
-    "label": "四日  （土）",
+    "label": "四日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20032m-5",
-    "objectID": "DKB20032m-4",
-    "prev": "DKB20032m-3",
+    "next": "DKB20032m-0005",
+    "objectID": "DKB20032m-0004",
+    "prev": "DKB20032m-0003",
     "sort": "DKB20032m-0004",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+    ],
     "temporal": "1930-01-04",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20032m-4\">\n<head>\n<date when=\"1930-01-04\"> 四日 </date> （土） </head>\n<listEvent>\n<event>\n<p><persName><surname>塩谷</surname><forename>温</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0004\">\n<head>\n<date when=\"1930-01-04\">\n           四日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<persName corresp=\"#pers_塩谷温\">\n<surname>\n              塩谷\n             </surname>\n<forename>\n              温\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1930",
     "yearAndMonth": "1930-01"
 }

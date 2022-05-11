@@ -6,16 +6,17 @@
         "嘉納治五郎"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/黒岩",
         "https://shibusawa-dlab.github.io/lab1/api/chname/塩谷",
         "https://shibusawa-dlab.github.io/lab1/api/chname/正木",
         "https://shibusawa-dlab.github.io/lab1/api/chname/嘉納治五郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1222",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -25,17 +26,17 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-12",
     "date_lvl2": "1916-12-13",
-    "description": "\n\n 十三日  （水） \n\n\n午前十時黒岩、塩谷両氏来約（兜町）\n\n\n午後二時黒板、正木両氏来約（兜町）\n\n\n午後三―午後四時嘉納治五郎氏来約（兜町）\n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n\n\n              黒岩\n             \n\n            、\n            \n\n              塩谷\n             \n\n            両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            黒板、\n            \n\n              正木\n             \n\n            両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三―午後四時\n            \n\n\n              嘉納\n             \n\n              治五郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "嘉納治五郎"
+        "\n              嘉納\n             \n              治五郎\n             "
     ],
-    "label": "十三日  （水）",
+    "label": "十三日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-331",
-    "objectID": "DKB20018m-330",
-    "prev": "DKB20018m-329",
+    "next": "DKB20018m-0331",
+    "objectID": "DKB20018m-0330",
+    "prev": "DKB20018m-0329",
     "sort": "DKB20018m-0330",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
@@ -44,10 +45,10 @@
     ],
     "temporal": "1916-12-13",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><persName><surname>黒岩</surname></persName>、<persName><surname>塩谷</surname></persName>両氏来約（<placeName>兜町</placeName>）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_黒岩\">\n<surname>\n              黒岩\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_塩谷\">\n<surname>\n              塩谷\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-330\">\n<head>\n<date when=\"1916-12-13\"> 十三日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>黒岩</surname></persName>、<persName><surname>塩谷</surname></persName>両氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>黒板、<persName><surname>正木</surname></persName>両氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time from=\"15:00:00\" to=\"16:00:00\">午後三―午後四時</time><persName><surname>嘉納</surname><forename>治五郎</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0330\">\n<head>\n<date when=\"1916-12-13\">\n           十三日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_黒岩\">\n<surname>\n              黒岩\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_塩谷\">\n<surname>\n              塩谷\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            黒板、\n            <persName corresp=\"#pers_正木\">\n<surname>\n              正木\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―午後四時\n            </time>\n<persName corresp=\"#pers_嘉納治五郎\">\n<surname>\n              嘉納\n             </surname>\n<forename>\n              治五郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-12"
 }

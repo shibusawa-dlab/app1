@@ -2,18 +2,19 @@
     "agential": [
         "梶原",
         "吉池慶正",
-        "藤山雷太",
-        "二松"
+        "藤山雷太"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/梶原",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/吉池慶正",
         "https://shibusawa-dlab.github.io/lab1/api/chname/藤山雷太"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1467",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -23,18 +24,18 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-06",
     "date_lvl2": "1924-06-10",
-    "description": "\n\n 十日  （火） \n\n\n午前八半時　　画家梶原氏来約（飛鳥山）\n\n\n午後一時吉池慶正氏来約（事務所）\n\n\n午後二時藤山雷太氏催ヘルフエリヒ氏招待茶話会（同氏邸）\n\n\n午後四半時　　二松学舎臨時評議員会（同学会）\n\n\n午後五半時　　日本女子大学校タゴール氏招待晩餐会（同校）略服\n\n\n",
+    "description": "\n\n\n           十日\n          \n          （火）\n         \n\n\n\n\n             午前八半時\n            \n            画家\n            \n\n              梶原\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n\n              吉池\n             \n\n              慶正\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後二時\n            \n\n\n              藤山\n             \n\n              雷太\n             \n\n            氏催ヘルフエリヒ氏招待茶話会（同氏邸）\n           \n\n\n\n\n             午後四半時\n            \n            二松学舎臨時評議員会（同学会）\n           \n\n\n\n\n             午後五半時\n            \n\n             日本\n            \n            女子大学校タゴール氏招待晩餐会（同校）略服\n           \n\n\n",
     "fullname": [
-        "吉池慶正",
-        "藤山雷太"
+        "\n              吉池\n             \n              慶正\n             ",
+        "\n              藤山\n             \n              雷太\n             "
     ],
-    "label": "十日  （火）",
+    "label": "十日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-167",
-    "objectID": "DKB20026m-166",
-    "prev": "DKB20026m-165",
+    "next": "DKB20026m-0167",
+    "objectID": "DKB20026m-0166",
+    "prev": "DKB20026m-0165",
     "sort": "DKB20026m-0166",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "日本"
@@ -45,10 +46,10 @@
     ],
     "temporal": "1924-06-10",
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">午前八半時</time>　　画家<persName><surname>梶原</surname></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n            画家\n            <persName corresp=\"#pers_梶原\">\n<surname>\n              梶原\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-166\">\n<head>\n<date when=\"1924-06-10\"> 十日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"08:30:00\">午前八半時</time>　　画家<persName><surname>梶原</surname></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"13:00:00\">午後一時</time><persName><surname>吉池</surname><forename>慶正</forename></persName>氏来約（事務所）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>藤山</surname><forename>雷太</forename></persName>氏催ヘルフエリヒ氏招待茶話会（同氏邸）</p>\n</event>\n<event>\n<p><time when=\"16:30:00\">午後四半時</time>　　<persName><forename>二松</forename></persName>学舎臨時評議員会（同学会）</p>\n</event>\n<event>\n<p><time when=\"17:30:00\">午後五半時</time>　　<placeName>日本</placeName>女子大学校タゴール氏招待晩餐会（同校）略服</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0166\">\n<head>\n<date when=\"1924-06-10\">\n           十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            画家\n            <persName corresp=\"#pers_梶原\">\n<surname>\n              梶原\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_藤山雷太\">\n<surname>\n              藤山\n             </surname>\n<forename>\n              雷太\n             </forename>\n</persName>\n            氏催ヘルフエリヒ氏招待茶話会（同氏邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            二松学舎臨時評議員会（同学会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            女子大学校タゴール氏招待晩餐会（同校）略服\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-06"
 }

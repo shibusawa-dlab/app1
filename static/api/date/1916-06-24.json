@@ -7,14 +7,16 @@
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/鈴木文治",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/河津益雄",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/峰一郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1208",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -24,19 +26,19 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-06",
     "date_lvl2": "1916-06-24",
-    "description": "\n\n 廿四日  （土） \n\n\n午前八時鈴木文治氏来約（飛鳥山）\n\n\n午後二時故渋沢母堂御葬送（横浜久保町慈眼院）\n\n\n午後三時河津益雄氏結婚披露河津暹安達峰一郎氏ヨリ御案内（築地精養軒）\n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （土）\n         \n\n\n\n\n             午前八時\n            \n\n\n              鈴木\n             \n\n              文治\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            故\n            \n\n              渋沢\n             \n\n            母堂御葬送（\n            \n             横浜\n            \n\n             久保\n            \n            町慈眼院）\n           \n\n\n\n\n             午後三時\n            \n\n\n              河津\n             \n\n              益雄\n             \n\n            氏結婚披露\n            \n             河津\n            \n            暹安達\n            \n\n              峰\n             \n\n              一郎\n             \n\n            氏ヨリ御案内（築地精養軒）\n           \n\n\n",
     "fullname": [
-        "鈴木文治",
-        "河津益雄",
-        "峰一郎"
+        "\n              鈴木\n             \n              文治\n             ",
+        "\n              河津\n             \n              益雄\n             ",
+        "\n              峰\n             \n              一郎\n             "
     ],
-    "label": "廿四日  （土）",
+    "label": "廿四日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-160",
-    "objectID": "DKB20018m-159",
-    "prev": "DKB20018m-158",
+    "next": "DKB20018m-0160",
+    "objectID": "DKB20018m-0159",
+    "prev": "DKB20018m-0158",
     "sort": "DKB20018m-0159",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "横浜",
@@ -51,10 +53,10 @@
     ],
     "temporal": "1916-06-24",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>鈴木</surname><forename>文治</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_鈴木文治\">\n<surname>\n              鈴木\n             </surname>\n<forename>\n              文治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-159\">\n<head>\n<date when=\"1916-06-24\"> 廿四日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>鈴木</surname><forename>文治</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>故<persName><surname>渋沢</surname></persName>母堂御葬送（<placeName>横浜</placeName><placeName>久保</placeName>町慈眼院）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>河津</surname><forename>益雄</forename></persName>氏結婚披露<placeName>河津</placeName>暹安達<persName><surname>峰</surname><forename>一郎</forename></persName>氏ヨリ御案内（築地精養軒）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0159\">\n<head>\n<date when=\"1916-06-24\">\n           廿四日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_鈴木文治\">\n<surname>\n              鈴木\n             </surname>\n<forename>\n              文治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            故\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            母堂御葬送（\n            <placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n<placeName corresp=\"#place_久保\">\n             久保\n            </placeName>\n            町慈眼院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_河津益雄\">\n<surname>\n              河津\n             </surname>\n<forename>\n              益雄\n             </forename>\n</persName>\n            氏結婚披露\n            <placeName corresp=\"#place_河津\">\n             河津\n            </placeName>\n            暹安達\n            <persName corresp=\"#pers_峰一郎\">\n<surname>\n              峰\n             </surname>\n<forename>\n              一郎\n             </forename>\n</persName>\n            氏ヨリ御案内（築地精養軒）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-06"
 }

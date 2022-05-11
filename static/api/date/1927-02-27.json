@@ -2,13 +2,15 @@
     "agential": [
         "原松胤"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/原松胤"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1536",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -18,30 +20,31 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-02",
     "date_lvl2": "1927-02-27",
-    "description": "\n\n 廿七日  （日） \n\n\n午前九半時　　原松胤来訪《（氏脱）》（アスカ山）\n\n\n午後三時日本国民高等学校第三回通常総会（日本青年館）\n\n\n",
+    "description": "\n\n\n           廿七日\n          \n          （日）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              原\n             \n\n              松胤\n             \n\n            来訪《（氏脱）》（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n             日本\n            \n            国民高等学校第三回通常総会（\n            \n             日本\n            \n            青年館）\n           \n\n\n",
     "fullname": [
-        "原松胤"
+        "\n              原\n             \n              松胤\n             "
     ],
-    "label": "廿七日  （日）",
+    "label": "廿七日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-42",
-    "objectID": "DKB20029m-41",
-    "prev": "DKB20029m-40",
+    "next": "DKB20029m-0042",
+    "objectID": "DKB20029m-0041",
+    "prev": "DKB20029m-0040",
     "sort": "DKB20029m-0041",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山",
         "日本"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本"
     ],
     "temporal": "1927-02-27",
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">午前九半時</time>　　<persName><surname>原</surname><forename>松胤</forename></persName>来訪《（氏脱）》（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_原松胤\">\n<surname>\n              原\n             </surname>\n<forename>\n              松胤\n             </forename>\n</persName>\n            来訪《（氏脱）》（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-41\">\n<head>\n<date when=\"1927-02-27\"> 廿七日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"09:30:00\">午前九半時</time>　　<persName><surname>原</surname><forename>松胤</forename></persName>来訪《（氏脱）》（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><placeName>日本</placeName>国民高等学校第三回通常総会（<placeName>日本</placeName>青年館）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0041\">\n<head>\n<date when=\"1927-02-27\">\n           廿七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_原松胤\">\n<surname>\n              原\n             </surname>\n<forename>\n              松胤\n             </forename>\n</persName>\n            来訪《（氏脱）》（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            国民高等学校第三回通常総会（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            青年館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-02"
 }

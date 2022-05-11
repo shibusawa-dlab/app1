@@ -4,14 +4,15 @@
         "渋沢篤二"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢篤二"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1448",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -21,16 +22,16 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-12",
     "date_lvl2": "1923-12-31",
-    "description": "\n\n 卅一日  （月） \n\n\n午前十時第六天徳川家ヘ御出向\n\n\n引続　　　　　第一銀行ヘ御出向\n\n\n正午　　　　　渋沢篤二様ト御会見ノ筈（事務所）\n\n\n",
+    "description": "\n\n\n           卅一日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n\n             第六天\n            \n\n\n              徳川\n             \n\n            家ヘ御出向\n           \n\n\n\n\n             引続\n            \n\n             第一銀行\n            \n            ヘ御出向\n           \n\n\n\n\n             正午\n            \n\n\n              渋沢\n             \n\n              篤二\n             \n\n            様ト御会見ノ筈（事務所）\n           \n\n\n",
     "fullname": [
-        "渋沢篤二"
+        "\n              渋沢\n             \n              篤二\n             "
     ],
-    "label": "卅一日  （月）",
+    "label": "卅一日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "objectID": "DKB20025m-341",
-    "prev": "DKB20025m-340",
+    "objectID": "DKB20025m-0341",
+    "prev": "DKB20025m-0340",
     "sort": "DKB20025m-0341",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "第六天"
     ],
@@ -39,10 +40,10 @@
     ],
     "temporal": "1923-12-31",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time><placeName>第六天</placeName><persName><surname>徳川</surname></persName>家ヘ御出向</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-341\">\n<head>\n<date when=\"1923-12-31\"> 卅一日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><placeName>第六天</placeName><persName><surname>徳川</surname></persName>家ヘ御出向</p>\n</event>\n<event>\n<p><time>引続</time>　　　　　第一銀行ヘ御出向</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　<persName><surname>渋沢</surname><forename>篤二</forename></persName>様ト御会見ノ筈（事務所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0341\">\n<head>\n<date when=\"1923-12-31\">\n           卅一日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n            ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_渋沢篤二\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              篤二\n             </forename>\n</persName>\n            様ト御会見ノ筈（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-12"
 }

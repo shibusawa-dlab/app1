@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1486",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -22,25 +22,27 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-02",
     "date_lvl2": "1925-02-08",
-    "description": "\n\n 八日  （日） \n\n\n午前八時坂井氏安田翁伝記之件ニ付来約（アスカ山）\n\n\n",
+    "description": "\n\n\n           八日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n\n\n              坂井\n             \n\n            氏\n            \n\n              安田\n             \n\n            翁伝記之件ニ付来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n",
     "fullname": [],
-    "label": "八日  （日）",
+    "label": "八日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20027m-25",
-    "objectID": "DKB20027m-24",
-    "prev": "DKB20027m-23",
+    "next": "DKB20027m-0025",
+    "objectID": "DKB20027m-0024",
+    "prev": "DKB20027m-0023",
     "sort": "DKB20027m-0024",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山"
+    ],
     "temporal": "1925-02-08",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>坂井</surname></persName>氏<persName><surname>安田</surname></persName>翁伝記之件ニ付来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_坂井\">\n<surname>\n              坂井\n             </surname>\n</persName>\n            氏\n            <persName corresp=\"#pers_安田\">\n<surname>\n              安田\n             </surname>\n</persName>\n            翁伝記之件ニ付来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-24\">\n<head>\n<date when=\"1925-02-08\"> 八日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>坂井</surname></persName>氏<persName><surname>安田</surname></persName>翁伝記之件ニ付来約（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0024\">\n<head>\n<date when=\"1925-02-08\">\n           八日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_坂井\">\n<surname>\n              坂井\n             </surname>\n</persName>\n            氏\n            <persName corresp=\"#pers_安田\">\n<surname>\n              安田\n             </surname>\n</persName>\n            翁伝記之件ニ付来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-02"
 }

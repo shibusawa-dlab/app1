@@ -5,13 +5,18 @@
         "松下軍治",
         "三友"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/滝武司",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/尾崎敬義",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松下軍治",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/三友"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1166",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20016m 大正三年 1914"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20016m 大正三年 1914"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20016m 大正三年 1914",
     "date": {
         "lvl0": "1914",
@@ -21,19 +26,19 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-10",
     "date_lvl2": "1914-10-06",
-    "description": "\n\n 六日  （火） \n\n\n午前十一時長滝武司氏来ル約（兜町）\n\n\n午前十一時尾崎敬義氏来ル約（兜町）\n\n\n午前十一時松下軍治氏来ル約（兜町）\n\n\n午後二時東北振興会ノ件（三友クラブ）\n\n\n午後四時日仏協会ノ件（仏国大使館）\n\n\n午後五時大日本蚕糸会ノ会合（同会）\n\n\n",
+    "description": "\n\n\n           六日\n          \n          （火）\n         \n\n\n\n\n             午前十一時\n            \n            長\n            \n\n              滝\n             \n\n              武司\n             \n\n            氏来ル約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              尾崎\n             \n\n              敬義\n             \n\n            氏来ル約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              松下\n             \n\n              軍治\n             \n\n            氏来ル約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n             東北\n            \n            振興会ノ件（\n            \n\n              三友\n             \n\n            クラブ）\n           \n\n\n\n\n             午後四時\n            \n            日仏協会ノ件（\n            \n             仏国\n            \n            大使館）\n           \n\n\n\n\n             午後五時\n            \n            大日本蚕糸会ノ会合（同会）\n           \n\n\n",
     "fullname": [
-        "滝武司",
-        "尾崎敬義",
-        "松下軍治"
+        "\n              滝\n             \n              武司\n             ",
+        "\n              尾崎\n             \n              敬義\n             ",
+        "\n              松下\n             \n              軍治\n             "
     ],
-    "label": "六日  （火）",
+    "label": "六日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20016m-22",
-    "objectID": "DKB20016m-21",
-    "prev": "DKB20016m-20",
+    "next": "DKB20016m-0022",
+    "objectID": "DKB20016m-0021",
+    "prev": "DKB20016m-0020",
     "sort": "DKB20016m-0021",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "東北地方",
@@ -46,10 +51,10 @@
     ],
     "temporal": "1914-10-06",
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">午前十一時</time>長<persName><surname>滝</surname><forename>武司</forename></persName>氏来ル約（<placeName>兜町</placeName>）</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            長\n            <persName corresp=\"#pers_滝武司\">\n<surname>\n              滝\n             </surname>\n<forename>\n              武司\n             </forename>\n</persName>\n            氏来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-21\">\n<head>\n<date when=\"1914-10-06\"> 六日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>長<persName><surname>滝</surname><forename>武司</forename></persName>氏来ル約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>尾崎</surname><forename>敬義</forename></persName>氏来ル約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>松下</surname><forename>軍治</forename></persName>氏来ル約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><placeName>東北</placeName>振興会ノ件（<persName><surname>三友</surname></persName>クラブ）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>日仏協会ノ件（<placeName>仏国</placeName>大使館）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>大日本蚕糸会ノ会合（同会）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0021\">\n<head>\n<date when=\"1914-10-06\">\n           六日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            長\n            <persName corresp=\"#pers_滝武司\">\n<surname>\n              滝\n             </surname>\n<forename>\n              武司\n             </forename>\n</persName>\n            氏来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_尾崎敬義\">\n<surname>\n              尾崎\n             </surname>\n<forename>\n              敬義\n             </forename>\n</persName>\n            氏来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_松下軍治\">\n<surname>\n              松下\n             </surname>\n<forename>\n              軍治\n             </forename>\n</persName>\n            氏来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_東北地方\">\n             東北\n            </placeName>\n            振興会ノ件（\n            <persName corresp=\"#pers_三友\">\n<surname>\n              三友\n             </surname>\n</persName>\n            クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            日仏協会ノ件（\n            <placeName corresp=\"#place_仏国\">\n             仏国\n            </placeName>\n            大使館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            大日本蚕糸会ノ会合（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-10"
 }

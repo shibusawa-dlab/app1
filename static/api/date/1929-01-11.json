@@ -2,13 +2,15 @@
     "agential": [
         "高梨慶三郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高梨慶三郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1591",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20031m 昭和四年 1929"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20031m 昭和四年 1929"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20031m 昭和四年 1929",
     "date": {
         "lvl0": "1929",
@@ -18,23 +20,23 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-01",
     "date_lvl2": "1929-01-11",
-    "description": "\n\n 十一日  （金） \n\n\n高梨慶三郎氏来約\n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （金）\n         \n\n\n\n\n\n              高梨\n             \n\n              慶三郎\n             \n\n            氏来約\n           \n\n\n",
     "fullname": [
-        "高梨慶三郎"
+        "\n              高梨\n             \n              慶三郎\n             "
     ],
-    "label": "十一日  （金）",
+    "label": "十一日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20031m-10",
-    "objectID": "DKB20031m-8",
-    "prev": "DKB20031m-6",
+    "next": "DKB20031m-0010",
+    "objectID": "DKB20031m-0008",
+    "prev": "DKB20031m-0006",
     "sort": "DKB20031m-0008",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [],
     "spatial_uri": [],
     "temporal": "1929-01-11",
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-8\">\n<head>\n<date when=\"1929-01-11\"> 十一日 </date> （金） </head>\n<listEvent>\n<event>\n<p><persName><surname>高梨</surname><forename>慶三郎</forename></persName>氏来約</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0008\">\n<head>\n<date when=\"1929-01-11\">\n           十一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<persName corresp=\"#pers_高梨慶三郎\">\n<surname>\n              高梨\n             </surname>\n<forename>\n              慶三郎\n             </forename>\n</persName>\n            氏来約\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-01"
 }

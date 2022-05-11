@@ -3,13 +3,16 @@
         "金野貞治",
         "石坂亀治"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/金野貞治",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/石坂亀治"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1452",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -19,18 +22,18 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-02",
     "date_lvl2": "1924-02-07",
-    "description": "\n\n 七日  （木） \n\n\n午時　　　　　金野貞治氏来約（飛鳥山）\n\n\n午前八半―九時石坂亀治氏来約（同右）\n\n\n午後二半時　　清水釘吉氏来約（事務所）\n\n\n午後五時社会事業協会ノ件（仲通中央亭）\n\n\n",
+    "description": "\n\n\n           七日\n          \n          （木）\n         \n\n\n\n\n             午時\n            \n\n\n              金野\n             \n\n              貞治\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前八半―九時\n            \n\n\n              石坂\n             \n\n              亀治\n             \n\n            氏来約（同右）\n           \n\n\n\n\n             午後二半時\n            \n\n             清水\n            \n            釘吉氏来約（事務所）\n           \n\n\n\n\n             午後五時\n            \n            社会事業協会ノ件（仲通中央亭）\n           \n\n\n",
     "fullname": [
-        "金野貞治",
-        "石坂亀治"
+        "\n              金野\n             \n              貞治\n             ",
+        "\n              石坂\n             \n              亀治\n             "
     ],
-    "label": "七日  （木）",
+    "label": "七日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20026m-40",
-    "objectID": "DKB20026m-39",
-    "prev": "DKB20026m-38",
+    "next": "DKB20026m-0040",
+    "objectID": "DKB20026m-0039",
+    "prev": "DKB20026m-0038",
     "sort": "DKB20026m-0039",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "清水"
@@ -41,10 +44,10 @@
     ],
     "temporal": "1924-02-07",
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">午時</time>　　　　　<persName><surname>金野</surname><forename>貞治</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_金野貞治\">\n<surname>\n              金野\n             </surname>\n<forename>\n              貞治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-39\">\n<head>\n<date when=\"1924-02-07\"> 七日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"12:00:00\">午時</time>　　　　　<persName><surname>金野</surname><forename>貞治</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time from=\"08:30:00\" to=\"09:00:00\">午前八半―九時</time><persName><surname>石坂</surname><forename>亀治</forename></persName>氏来約（同右）</p>\n</event>\n<event>\n<p><time when=\"14:30:00\">午後二半時</time>　　<placeName>清水</placeName>釘吉氏来約（事務所）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>社会事業協会ノ件（仲通中央亭）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0039\">\n<head>\n<date when=\"1924-02-07\">\n           七日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_金野貞治\">\n<surname>\n              金野\n             </surname>\n<forename>\n              貞治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"08:30:00\" to=\"09:00:00\">\n             午前八半―九時\n            </time>\n<persName corresp=\"#pers_石坂亀治\">\n<surname>\n              石坂\n             </surname>\n<forename>\n              亀治\n             </forename>\n</persName>\n            氏来約（同右）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<placeName corresp=\"#place_清水\">\n             清水\n            </placeName>\n            釘吉氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            社会事業協会ノ件（仲通中央亭）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-02"
 }

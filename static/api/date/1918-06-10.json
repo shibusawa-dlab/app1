@@ -3,10 +3,10 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1270",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20020m 大正七年 1918"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20020m 大正七年 1918"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20020m 大正七年 1918",
     "date": {
         "lvl0": "1918",
@@ -16,15 +16,15 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-06",
     "date_lvl2": "1918-06-10",
-    "description": "\n\n 十日  （月） \n\n\n午前九・二一　金沢駅発\n\n\n",
+    "description": "\n\n\n           十日\n          \n          （月）\n         \n\n\n\n\n             午前九・二一\n            \n\n             金沢\n            \n            駅発\n           \n\n\n",
     "fullname": [],
-    "label": "十日  （月）",
+    "label": "十日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20020m-156",
-    "objectID": "DKB20020m-155",
-    "prev": "DKB20020m-154",
+    "next": "DKB20020m-0156",
+    "objectID": "DKB20020m-0155",
+    "prev": "DKB20020m-0154",
     "sort": "DKB20020m-0155",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "金沢市"
     ],
@@ -33,10 +33,10 @@
     ],
     "temporal": "1918-06-10",
     "time": {
-        "09:21:00": "<div><time when=\"09:21:00\">午前九・二一</time>　<placeName>金沢</placeName>駅発</div>"
+        "09:21:00": "<div><time when=\"09:21:00\">\n             午前九・二一\n            </time>\n<placeName corresp=\"#place_金沢市\">\n             金沢\n            </placeName>\n            駅発</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-155\">\n<head>\n<date when=\"1918-06-10\"> 十日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"09:21:00\">午前九・二一</time>　<placeName>金沢</placeName>駅発</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0155\">\n<head>\n<date when=\"1918-06-10\">\n           十日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:21:00\">\n             午前九・二一\n            </time>\n<placeName corresp=\"#place_金沢市\">\n             金沢\n            </placeName>\n            駅発\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-06"
 }

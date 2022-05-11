@@ -3,13 +3,16 @@
         "村井貞之助",
         "藤平純三"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/村井貞之助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/藤平純三"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1551",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -19,28 +22,30 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-07",
     "date_lvl2": "1927-07-15",
-    "description": "\n\n 十五日  （金） \n\n\n午前九時村井貞之助、藤平純三両氏来邸（アスカ山）\n\n\n午前十一時理化学興業会社ノ件（工業クラブ）\n\n\n午後五時御出勤\n\n\n午後五時中央社会事業協会ノ件（日本クラブ）\n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n\n\n              村井\n             \n\n              貞之助\n             \n\n            、\n            \n\n              藤平\n             \n\n              純三\n             \n\n            両氏来邸（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            理化学興業会社ノ件（工業クラブ）\n           \n\n\n\n\n             午後五時\n            \n            御出勤\n           \n\n\n\n\n             午後五時\n            \n            中央社会事業協会ノ件（日本クラブ）\n           \n\n\n",
     "fullname": [
-        "村井貞之助",
-        "藤平純三"
+        "\n              村井\n             \n              貞之助\n             ",
+        "\n              藤平\n             \n              純三\n             "
     ],
-    "label": "十五日  （金）",
+    "label": "十五日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-181",
-    "objectID": "DKB20029m-180",
-    "prev": "DKB20029m-179",
+    "next": "DKB20029m-0181",
+    "objectID": "DKB20029m-0180",
+    "prev": "DKB20029m-0179",
     "sort": "DKB20029m-0180",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山"
+    ],
     "temporal": "1927-07-15",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>村井</surname><forename>貞之助</forename></persName>、<persName><surname>藤平</surname><forename>純三</forename></persName>両氏来邸（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_村井貞之助\">\n<surname>\n              村井\n             </surname>\n<forename>\n              貞之助\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_藤平純三\">\n<surname>\n              藤平\n             </surname>\n<forename>\n              純三\n             </forename>\n</persName>\n            両氏来邸（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-180\">\n<head>\n<date when=\"1927-07-15\"> 十五日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>村井</surname><forename>貞之助</forename></persName>、<persName><surname>藤平</surname><forename>純三</forename></persName>両氏来邸（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>理化学興業会社ノ件（工業クラブ）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>御出勤</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>中央社会事業協会ノ件（日本クラブ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0180\">\n<head>\n<date when=\"1927-07-15\">\n           十五日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_村井貞之助\">\n<surname>\n              村井\n             </surname>\n<forename>\n              貞之助\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_藤平純三\">\n<surname>\n              藤平\n             </surname>\n<forename>\n              純三\n             </forename>\n</persName>\n            両氏来邸（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            理化学興業会社ノ件（工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            中央社会事業協会ノ件（日本クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-07"
 }

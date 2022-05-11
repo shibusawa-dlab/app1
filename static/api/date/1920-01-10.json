@@ -1,14 +1,16 @@
 {
     "agential": [
-        "東郷安男"
+        "東郷安"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/東郷安"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1321",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -18,17 +20,17 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-01",
     "date_lvl2": "1920-01-10",
-    "description": "\n\n 十日  （土） \n\n\n午前十一時東郷安男来約（兜町）\n\n\n午後二半―三時国民教育会ノ為ニ御講演ノ約（神田青年会館）\n\n\n午後四時日米関係委員会（銀行クラブ）\n\n\n",
+    "description": "\n\n\n           十日\n          \n          （土）\n         \n\n\n\n\n             午前十一時\n            \n\n\n              東郷\n             \n\n              安\n             \n\n            男来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二半―三時\n            \n            国民教育会ノ為ニ御講演ノ約（\n            \n             神田\n            \n\n            青年会館）\n           \n\n\n\n\n             午後四時\n            \n            日米関係委員会（銀行クラブ）\n           \n\n\n",
     "fullname": [
-        "東郷安男"
+        "\n              東郷\n             \n              安\n             "
     ],
-    "label": "十日  （土）",
+    "label": "十日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-12",
-    "objectID": "DKB20022m-10",
-    "prev": "DKB20022m-9",
+    "next": "DKB20022m-0012",
+    "objectID": "DKB20022m-0010",
+    "prev": "DKB20022m-0009",
     "sort": "DKB20022m-0010",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "神田"
@@ -39,10 +41,10 @@
     ],
     "temporal": "1920-01-10",
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">午前十一時</time><persName><surname>東郷</surname><forename>安男</forename></persName>来約（<placeName>兜町</placeName>）</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_東郷安\">\n<surname>\n              東郷\n             </surname>\n<forename>\n              安\n             </forename>\n</persName>\n            男来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-10\">\n<head>\n<date when=\"1920-01-10\"> 十日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>東郷</surname><forename>安男</forename></persName>来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time from=\"14:30:00\" to=\"15:00:00\">午後二半―三時</time>国民教育会ノ為ニ御講演ノ約（<placeName>神田</placeName><pb n=\"B2482\"/>青年会館）</p>\n</event>\n<event>\n<p><time when=\"16:00:00\">午後四時</time>日米関係委員会（銀行クラブ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0010\">\n<head>\n<date when=\"1920-01-10\">\n           十日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_東郷安\">\n<surname>\n              東郷\n             </surname>\n<forename>\n              安\n             </forename>\n</persName>\n            男来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:30:00\" to=\"15:00:00\">\n             午後二半―三時\n            </time>\n            国民教育会ノ為ニ御講演ノ約（\n            <placeName corresp=\"#place_神田\">\n             神田\n            </placeName>\n<pb corresp=\"#pageB2482\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1321/full/max/0/default.jpg\" n=\"B2482\" source=\"#pageB2482\"/>\n            青年会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            日米関係委員会（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-01"
 }

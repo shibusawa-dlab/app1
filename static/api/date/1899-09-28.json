@@ -7,11 +7,11 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/130",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB10008m 明治三十二年  1899"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB10008m 明治三十二年 1899"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-    "category_lvl1": "DKB10008m 明治三十二年  1899",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl1": "DKB10008m 明治三十二年 1899",
     "date": {
         "lvl0": "1899",
         "lvl1": "1899 > 1899-09",
@@ -20,23 +20,25 @@
     "date_lvl0": "1899",
     "date_lvl1": "1899-09",
     "date_lvl2": "1899-09-28",
-    "description": "\n\n 九月廿八日 \n\n午前霊南阪ニテ伊藤侯ヲ訪フ、京釜鉄道ノ事ヲ談ス、午後第一銀行ニ於テ重役会ヲ開ク、畢テ深川区役所ニ於テ区会ヲ開ク、夜深川ニ帰宿ス\n",
+    "description": "\n\n\n        九月廿八日\n       \n\n\n       午前\n       \n        霊南阪\n       \n       ニテ\n       \n\n         伊藤\n        \n\n       侯ヲ訪フ、京釜鉄道ノ事ヲ談ス、午後\n       \n        第一銀行\n       \n       ニ於テ重役会ヲ開ク、畢テ深川区役所ニ於テ区会ヲ開ク、夜深川ニ帰宿ス\n      \n",
     "fullname": [],
     "label": "九月廿八日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
-    "next": "DKB10008m-273",
-    "objectID": "DKB10008m-272",
-    "prev": "DKB10008m-271",
+    "next": "DKB10008m-0273",
+    "objectID": "DKB10008m-0272",
+    "prev": "DKB10008m-0271",
     "sort": "DKB10008m-0272",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "霊南阪"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/霊南阪"
+    ],
     "temporal": "1899-09-28",
     "time": {},
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-272\">\n<head>\n<date when=\"1899-09-28\"> 九月廿八日 </date>\n</head>\n<p>午前<placeName>霊南阪</placeName>ニテ<persName><surname>伊藤</surname></persName>侯ヲ訪フ、京釜鉄道ノ事ヲ談ス、午後<orgName>第一銀行</orgName>ニ於テ重役会ヲ開ク、畢テ深川区役所ニ於テ区会ヲ開ク、夜深川ニ帰宿ス</p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-0272\">\n<head>\n<date when=\"1899-09-28\">\n        九月廿八日\n       </date>\n</head>\n<p>\n       午前\n       <placeName corresp=\"#place_霊南阪\">\n        霊南阪\n       </placeName>\n       ニテ\n       <persName corresp=\"#pers_伊藤\">\n<surname>\n         伊藤\n        </surname>\n</persName>\n       侯ヲ訪フ、京釜鉄道ノ事ヲ談ス、午後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ於テ重役会ヲ開ク、畢テ深川区役所ニ於テ区会ヲ開ク、夜深川ニ帰宿ス\n      </p>\n</div>",
     "year": "1899",
     "yearAndMonth": "1899-09"
 }

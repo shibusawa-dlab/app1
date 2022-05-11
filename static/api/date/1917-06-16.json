@@ -7,15 +7,16 @@
     ],
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/大隈",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/副島",
         "https://shibusawa-dlab.github.io/lab1/api/chname/森村",
         "https://shibusawa-dlab.github.io/lab1/api/chname/徳川"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1240",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -25,15 +26,15 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-06",
     "date_lvl2": "1917-06-16",
-    "description": "\n\n 十六日  （土） \n\n\n午前十一時大隈侯ヲ御訪問（早稲田邸）\n\n\n午後一―午後二時イード氏、副島氏来約（兜町）\n\n\n午後二時慰問会之件　衆議院ヘ御出向\n\n\n午後三時半森村男ヲ御訪問（同男邸）\n\n\n午後五時徳川家茶話会ニ御出向（千駄ケ谷同邸）\n\n\n",
+    "description": "\n\n\n           十六日\n          \n          （土）\n         \n\n\n\n\n             午前十一時\n            \n\n\n              大隈\n             \n\n            侯ヲ御訪問（\n            \n             早稲田\n            \n            邸）\n           \n\n\n\n\n             午後一―午後二時\n            \n            イード氏、\n            \n\n              副島\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            慰問会之件　衆議院ヘ御出向\n           \n\n\n\n\n             午後三時半\n            \n\n\n              森村\n             \n\n            男ヲ御訪問（同男邸）\n           \n\n\n\n\n             午後五時\n            \n\n\n              徳川\n             \n\n            家茶話会ニ御出向（\n            \n             千駄ケ谷\n            \n            同邸）\n           \n\n\n",
     "fullname": [],
-    "label": "十六日  （土）",
+    "label": "十六日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-168",
-    "objectID": "DKB20019m-167",
-    "prev": "DKB20019m-166",
+    "next": "DKB20019m-0168",
+    "objectID": "DKB20019m-0167",
+    "prev": "DKB20019m-0166",
     "sort": "DKB20019m-0167",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "早稲田",
         "日本橋兜町",
@@ -46,10 +47,10 @@
     ],
     "temporal": "1917-06-16",
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">午前十一時</time><persName><surname>大隈</surname></persName>侯ヲ御訪問（<placeName>早稲田</placeName>邸）</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯ヲ御訪問（\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-167\">\n<head>\n<date when=\"1917-06-16\"> 十六日 </date> （土） </head>\n<listEvent>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><persName><surname>大隈</surname></persName>侯ヲ御訪問（<placeName>早稲田</placeName>邸）</p>\n</event>\n<event>\n<p><time from=\"13:00:00\" to=\"14:00:00\">午後一―午後二時</time>イード氏、<persName><surname>副島</surname></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>慰問会之件　衆議院ヘ御出向</p>\n</event>\n<event>\n<p><time when=\"15:30:00\">午後三時半</time><persName><surname>森村</surname></persName>男ヲ御訪問（同男邸）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><persName><surname>徳川</surname></persName>家茶話会ニ御出向（<placeName>千駄ケ谷</placeName>同邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0167\">\n<head>\n<date when=\"1917-06-16\">\n           十六日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯ヲ御訪問（\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"14:00:00\">\n             午後一―午後二時\n            </time>\n            イード氏、\n            <persName corresp=\"#pers_副島\">\n<surname>\n              副島\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            慰問会之件　衆議院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三時半\n            </time>\n<persName corresp=\"#pers_森村\">\n<surname>\n              森村\n             </surname>\n</persName>\n            男ヲ御訪問（同男邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家茶話会ニ御出向（\n            <placeName corresp=\"#place_千駄ヶ谷\">\n             千駄ケ谷\n            </placeName>\n            同邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-06"
 }

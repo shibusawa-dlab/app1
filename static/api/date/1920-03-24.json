@@ -2,13 +2,15 @@
     "agential": [
         "アレキサダンー"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/アレキサダンー"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1328",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -18,15 +20,15 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-03",
     "date_lvl2": "1920-03-24",
-    "description": "\n\n 廿四日  （水） \n\n\n午前九時半日米関係委員会協議会（銀行クラブ）\n\n\n午後六時高田商会主催、アレキサダンー氏一行招待晩餐会（日本橋クラブ）\n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （水）\n         \n\n\n\n\n             午前九時半\n            \n            日米関係委員会協議会（銀行クラブ）\n           \n\n\n\n\n             午後六時\n            \n            高田商会主催、\n            \n\n              アレキサダンー\n             \n\n            氏一行招待晩餐会（\n            \n             日本橋\n            \n            クラブ）\n           \n\n\n",
     "fullname": [],
-    "label": "廿四日  （水）",
+    "label": "廿四日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20022m-82",
-    "objectID": "DKB20022m-81",
-    "prev": "DKB20022m-80",
+    "next": "DKB20022m-0082",
+    "objectID": "DKB20022m-0081",
+    "prev": "DKB20022m-0080",
     "sort": "DKB20022m-0081",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋"
     ],
@@ -35,10 +37,10 @@
     ],
     "temporal": "1920-03-24",
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">午前九時半</time>日米関係委員会協議会（銀行クラブ）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九時半\n            </time>\n            日米関係委員会協議会（銀行クラブ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-81\">\n<head>\n<date when=\"1920-03-24\"> 廿四日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"09:30:00\">午前九時半</time>日米関係委員会協議会（銀行クラブ）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time>高田商会主催、<persName><surname>アレキサダンー</surname></persName>氏一行招待晩餐会（<placeName>日本橋</placeName>クラブ）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0081\">\n<head>\n<date when=\"1920-03-24\">\n           廿四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九時半\n            </time>\n            日米関係委員会協議会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            高田商会主催、\n            <persName corresp=\"#pers_アレキサダンー\">\n<surname>\n              アレキサダンー\n             </surname>\n</persName>\n            氏一行招待晩餐会（\n            <placeName corresp=\"#place_日本橋\">\n             日本橋\n            </placeName>\n            クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-03"
 }

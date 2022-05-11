@@ -7,6 +7,7 @@
         "加藤正義"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/植村澄三郎",
         "https://shibusawa-dlab.github.io/lab1/api/chname/伊東",
         "https://shibusawa-dlab.github.io/lab1/api/chname/白岩",
         "https://shibusawa-dlab.github.io/lab1/api/chname/工藤氏",
@@ -14,10 +15,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1362",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -27,18 +28,18 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-05",
     "date_lvl2": "1921-05-06",
-    "description": "\n\n 六日  （金） \n\n\n午前十半時　　植村澄三郎氏来約（飛鳥山）\n\n\n午後二時劉錫□《（廉カ）》、伊東、白岩、工藤氏来約（兜町）\n\n\n午後三半時　　加藤正義氏来約（兜町）\n\n\n午後五時協調会主催地方官招待（帝国ホテル）\n\n\n",
+    "description": "\n\n\n           六日\n          \n          （金）\n         \n\n\n\n\n             午前十半時\n            \n\n\n              植村\n             \n\n              澄三郎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            劉錫□《（廉カ）》、\n            \n\n              伊東\n             \n\n            、\n            \n\n              白岩\n             \n\n            、\n            \n\n              工藤\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三半時\n            \n\n\n              加藤\n             \n\n              正義\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            協調会主催地方官招待（帝国ホテル）\n           \n\n\n",
     "fullname": [
-        "植村澄三郎",
-        "加藤正義"
+        "\n              植村\n             \n              澄三郎\n             ",
+        "\n              加藤\n             \n              正義\n             "
     ],
-    "label": "六日  （金）",
+    "label": "六日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20023m-119",
-    "objectID": "DKB20023m-118",
-    "prev": "DKB20023m-117",
+    "next": "DKB20023m-0119",
+    "objectID": "DKB20023m-0118",
+    "prev": "DKB20023m-0117",
     "sort": "DKB20023m-0118",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "日本橋兜町"
@@ -49,10 +50,10 @@
     ],
     "temporal": "1921-05-06",
     "time": {
-        "10:30:00": "<div><time when=\"10:30:00\">午前十半時</time>　　<persName><surname>植村</surname><forename>澄三郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "10:30:00": "<div><time when=\"10:30:00\">\n             午前十半時\n            </time>\n<persName corresp=\"#pers_植村澄三郎\">\n<surname>\n              植村\n             </surname>\n<forename>\n              澄三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-118\">\n<head>\n<date when=\"1921-05-06\"> 六日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"10:30:00\">午前十半時</time>　　<persName><surname>植村</surname><forename>澄三郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>劉錫□《（廉カ）》、<persName><surname>伊東</surname></persName>、<persName><surname>白岩</surname></persName>、<persName><surname>工藤</surname></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:30:00\">午後三半時</time>　　<persName><surname>加藤</surname><forename>正義</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time>協調会主催地方官招待（帝国ホテル）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0118\">\n<head>\n<date when=\"1921-05-06\">\n           六日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n<persName corresp=\"#pers_植村澄三郎\">\n<surname>\n              植村\n             </surname>\n<forename>\n              澄三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            劉錫□《（廉カ）》、\n            <persName corresp=\"#pers_伊東\">\n<surname>\n              伊東\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_白岩\">\n<surname>\n              白岩\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_工藤氏\">\n<surname>\n              工藤\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n<persName corresp=\"#pers_加藤正義\">\n<surname>\n              加藤\n             </surname>\n<forename>\n              正義\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            協調会主催地方官招待（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-05"
 }

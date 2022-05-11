@@ -10,15 +10,17 @@
     "agential_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/chname/田辺太一",
         "https://shibusawa-dlab.github.io/lab1/api/chname/赤坂",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/萩野",
         "https://shibusawa-dlab.github.io/lab1/api/chname/高田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/友野",
         "https://shibusawa-dlab.github.io/lab1/api/chname/原胤昭"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1191",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20017m 大正四年 1915"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20017m 大正四年 1915"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20017m 大正四年 1915",
     "date": {
         "lvl0": "1915",
@@ -28,18 +30,18 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-09",
     "date_lvl2": "1915-09-19",
-    "description": "\n\n 十九日  （日） \n\n\n午前九時故田辺太一氏葬儀（青山斎場自宅赤坂区新坂町八二）\n\n\n午前十時御伝記ノ件（兜町）萩野、高田、友野氏来ル\n\n\n午後三時原胤昭氏来約（兜町）\n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n            故\n            \n\n              田辺\n             \n\n              太一\n             \n\n            氏葬儀（青山斎場自宅\n            \n\n              赤坂\n             \n\n            区新\n            \n             坂町\n            \n            八二）\n           \n\n\n\n\n             午前十時\n            \n            御伝記ノ件（\n            \n             兜町\n            \n            ）\n            \n\n\n              萩野\n             \n\n            、\n            \n\n              高田\n             \n\n            、\n            \n\n              友野\n             \n\n            氏来ル\n           \n\n\n\n\n             午後三時\n            \n\n\n              原\n             \n\n              胤昭\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "fullname": [
-        "田辺太一",
-        "原胤昭"
+        "\n              田辺\n             \n              太一\n             ",
+        "\n              原\n             \n              胤昭\n             "
     ],
-    "label": "十九日  （日）",
+    "label": "十九日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20017m-239",
-    "objectID": "DKB20017m-238",
-    "prev": "DKB20017m-237",
+    "next": "DKB20017m-0239",
+    "objectID": "DKB20017m-0238",
+    "prev": "DKB20017m-0237",
     "sort": "DKB20017m-0238",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "坂町",
         "日本橋兜町"
@@ -50,10 +52,10 @@
     ],
     "temporal": "1915-09-19",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time>故<persName><surname>田辺</surname><forename>太一</forename></persName>氏葬儀（青山斎場自宅<persName><surname>赤坂</surname></persName>区新<placeName>坂町</placeName>八二）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            故\n            <persName corresp=\"#pers_田辺太一\">\n<surname>\n              田辺\n             </surname>\n<forename>\n              太一\n             </forename>\n</persName>\n            氏葬儀（青山斎場自宅\n            <persName corresp=\"#pers_赤坂\">\n<surname>\n              赤坂\n             </surname>\n</persName>\n            区新\n            <placeName corresp=\"#place_坂町\">\n             坂町\n            </placeName>\n            八二）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-238\">\n<head>\n<date when=\"1915-09-19\"> 十九日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time>故<persName><surname>田辺</surname><forename>太一</forename></persName>氏葬儀（青山斎場自宅<persName><surname>赤坂</surname></persName>区新<placeName>坂町</placeName>八二）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>御伝記ノ件（<placeName>兜町</placeName>）<lb/><persName><surname>萩野</surname></persName>、<persName><surname>高田</surname></persName>、<persName><surname>友野</surname></persName>氏来ル</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>原</surname><forename>胤昭</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0238\">\n<head>\n<date when=\"1915-09-19\">\n           十九日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            故\n            <persName corresp=\"#pers_田辺太一\">\n<surname>\n              田辺\n             </surname>\n<forename>\n              太一\n             </forename>\n</persName>\n            氏葬儀（青山斎場自宅\n            <persName corresp=\"#pers_赤坂\">\n<surname>\n              赤坂\n             </surname>\n</persName>\n            区新\n            <placeName corresp=\"#place_坂町\">\n             坂町\n            </placeName>\n            八二）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            御伝記ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n            <lb/>\n<persName corresp=\"#pers_萩野\">\n<surname>\n              萩野\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_高田\">\n<surname>\n              高田\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_友野\">\n<surname>\n              友野\n             </surname>\n</persName>\n            氏来ル\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_原胤昭\">\n<surname>\n              原\n             </surname>\n<forename>\n              胤昭\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-09"
 }

@@ -5,15 +5,16 @@
         "尾高"
     ],
     "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/水谷清",
         "https://shibusawa-dlab.github.io/lab1/api/chname/森村",
         "https://shibusawa-dlab.github.io/lab1/api/chname/尾高"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1235",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -23,17 +24,17 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-04",
     "date_lvl2": "1917-04-29",
-    "description": "\n\n 廿九日  （日） \n\n\n午前八時迄ニ　水谷清氏来約（飛鳥山邸）\n\n\n午前十時森村男ト御会見ノ約（ホテル）\n\n\n午前十時日本橋区役所落成式（蠣殻町二ノ二）\n\n\n正午　　　　　大倉男爵ヨリ御案内（ホテル）\n\n\n午後二半時　　尾高家結婚式（日比谷太神宮《（大神宮）》）坐礼ニ付羽織袴ニ願上候\n\n\n午後五半時　　同披露会（華族会館）\n\n\n",
+    "description": "\n\n\n           廿九日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n            迄ニ\n            \n\n              水谷\n             \n\n              清\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              森村\n             \n\n            男ト御会見ノ約（ホテル）\n           \n\n\n\n\n             午前十時\n            \n\n             日本橋\n            \n            区役所落成式（\n            \n             蠣殻町\n            \n            二ノ二）\n           \n\n\n\n\n             正午\n            \n            大倉男爵ヨリ御案内（ホテル）\n           \n\n\n\n\n             午後二半時\n            \n\n\n              尾高\n             \n\n            家結婚式（\n            \n             日比谷\n            \n            太神宮《（大神宮）》）\n            \n            坐礼ニ付羽織袴ニ願上候\n           \n\n\n\n\n             午後五半時\n            \n            同披露会（華族会館）\n           \n\n\n",
     "fullname": [
-        "水谷清"
+        "\n              水谷\n             \n              清\n             "
     ],
-    "label": "廿九日  （日）",
+    "label": "廿九日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20019m-119",
-    "objectID": "DKB20019m-118",
-    "prev": "DKB20019m-117",
+    "next": "DKB20019m-0119",
+    "objectID": "DKB20019m-0118",
+    "prev": "DKB20019m-0117",
     "sort": "DKB20019m-0118",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "日本橋",
@@ -41,16 +42,17 @@
         "日比谷"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋蛎殻町",
         "https://shibusawa-dlab.github.io/lab1/api/place/日比谷"
     ],
     "temporal": "1917-04-29",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time>迄ニ　<persName><surname>水谷</surname><forename>清</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            迄ニ\n            <persName corresp=\"#pers_水谷清\">\n<surname>\n              水谷\n             </surname>\n<forename>\n              清\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-118\">\n<head>\n<date when=\"1917-04-29\"> 廿九日 </date> （日） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time>迄ニ　<persName><surname>水谷</surname><forename>清</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><persName><surname>森村</surname></persName>男ト御会見ノ約（ホテル）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time><placeName>日本橋</placeName>区役所落成式（<placeName>蠣殻町</placeName>二ノ二）</p>\n</event>\n<event>\n<p><time when=\"12:00:00\">正午</time>　　　　　大倉男爵ヨリ御案内（ホテル）</p>\n</event>\n<event>\n<p><time when=\"14:30:00\">午後二半時</time>　　<persName><surname>尾高</surname></persName>家結婚式（<placeName>日比谷</placeName>太神宮《（大神宮）》）<lb/>坐礼ニ付羽織袴ニ願上候</p>\n</event>\n<event>\n<p><time when=\"17:30:00\">午後五半時</time>　　同披露会（華族会館）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0118\">\n<head>\n<date when=\"1917-04-29\">\n           廿九日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            迄ニ\n            <persName corresp=\"#pers_水谷清\">\n<surname>\n              水谷\n             </surname>\n<forename>\n              清\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_森村\">\n<surname>\n              森村\n             </surname>\n</persName>\n            男ト御会見ノ約（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_日本橋\">\n             日本橋\n            </placeName>\n            区役所落成式（\n            <placeName corresp=\"#place_日本橋蛎殻町\">\n             蠣殻町\n            </placeName>\n            二ノ二）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            大倉男爵ヨリ御案内（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<persName corresp=\"#pers_尾高\">\n<surname>\n              尾高\n             </surname>\n</persName>\n            家結婚式（\n            <placeName corresp=\"#place_日比谷\">\n             日比谷\n            </placeName>\n            太神宮《（大神宮）》）\n            <lb/>\n            坐礼ニ付羽織袴ニ願上候\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            同披露会（華族会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-04"
 }

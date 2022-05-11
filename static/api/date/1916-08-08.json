@@ -1,12 +1,20 @@
 {
-    "agential": [],
-    "agential_uri": [],
-    "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1213",
+    "agential": [
+        "江木",
+        "福井菊三郎",
+        "小田切万寿之助"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/江木",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/福井菊三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小田切万寿之助"
+    ],
+    "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1212",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -16,29 +24,30 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-08",
     "date_lvl2": "1916-08-08",
-    "description": "\n\n 十八日  （金） \n\n\n午前十一時三十九分御避暑ノ為塩原ヘ御出向（王子駅発）\n\n\n",
-    "fullname": [],
-    "label": "十八日  （金）",
+    "description": "\n\n\n           八日\n          \n          （火）\n         \n\n\n\n\n             午前十一時\n            \n            製鉄会社ノ件（帝国ホテル）\n           \n\n\n\n\n             午後二時\n            \n\n\n              江木\n             \n\n            翰長ト御会見ノ約（首相官邸）\n           \n\n\n\n\n             午後三時\n            \n\n\n              福井\n             \n\n              菊三郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             〃\n            \n\n\n              小田切\n             \n\n              万寿之助\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "fullname": [
+        "\n              福井\n             \n              菊三郎\n             ",
+        "\n              小田切\n             \n              万寿之助\n             "
+    ],
+    "label": "八日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-217",
-    "objectID": "DKB20018m-215",
-    "prev": "DKB20018m-214",
-    "sort": "DKB20018m-0215",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "next": "DKB20018m-0206",
+    "objectID": "DKB20018m-0205",
+    "prev": "DKB20018m-0204",
+    "sort": "DKB20018m-0205",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
-        "塩原",
-        "王子"
+        "日本橋兜町"
     ],
     "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/塩原",
-        "https://shibusawa-dlab.github.io/lab1/api/place/王子"
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1916-08-08",
     "time": {
-        "11:39:00": "<div><time when=\"11:39:00\">午前十一時三十九分</time>御避暑ノ為<placeName>塩原</placeName>ヘ御出向（<placeName>王子</placeName>駅発）</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            製鉄会社ノ件（帝国ホテル）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-215\">\n<head>\n<date when=\"1916-08-08\"> 十八日 </date> （金） </head>\n<listEvent>\n<event>\n<p><time when=\"11:39:00\">午前十一時三十九分</time>御避暑ノ為<placeName>塩原</placeName>ヘ御出向（<placeName>王子</placeName>駅発）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0205\">\n<head>\n<date when=\"1916-08-08\">\n           八日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            製鉄会社ノ件（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_江木\">\n<surname>\n              江木\n             </surname>\n</persName>\n            翰長ト御会見ノ約（首相官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_福井菊三郎\">\n<surname>\n              福井\n             </surname>\n<forename>\n              菊三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             〃\n            </time>\n<persName corresp=\"#pers_小田切万寿之助\">\n<surname>\n              小田切\n             </surname>\n<forename>\n              万寿之助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-08"
 }

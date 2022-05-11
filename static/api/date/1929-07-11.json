@@ -4,14 +4,15 @@
         "崎山比佐衛"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/安川敬一郎"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/安川敬一郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/崎山比佐衛"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1597",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20031m 昭和四年 1929"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20031m 昭和四年 1929"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20031m 昭和四年 1929",
     "date": {
         "lvl0": "1929",
@@ -21,18 +22,18 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-07",
     "date_lvl2": "1929-07-11",
-    "description": "\n\n 十一日  （木） \n\n\n午前九時安川敬一郎氏来約（飛鳥山）\n\n\n午前時　　　　崎山比佐衛氏来約（飛鳥山）\n\n\n正午　　　　　日米関係委員会（銀行倶楽部）\n\n\n午後二時一橋、東京高等歯科医学校ヘ御出向\n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n\n\n              安川\n             \n\n              敬一郎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前時\n            \n\n\n              崎山\n             \n\n              比佐衛\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n\n             正午\n            \n            日米関係委員会（銀行倶楽部）\n           \n\n\n\n\n             午後二時\n            \n\n             一橋\n            \n            、\n            \n             東京\n            \n            高等歯科医学校ヘ御出向\n           \n\n\n",
     "fullname": [
-        "安川敬一郎",
-        "崎山比佐衛"
+        "\n              安川\n             \n              敬一郎\n             ",
+        "\n              崎山\n             \n              比佐衛\n             "
     ],
-    "label": "十一日  （木）",
+    "label": "十一日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20031m-116",
-    "objectID": "DKB20031m-115",
-    "prev": "DKB20031m-114",
+    "next": "DKB20031m-0116",
+    "objectID": "DKB20031m-0115",
+    "prev": "DKB20031m-0114",
     "sort": "DKB20031m-0115",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "一橋",
@@ -45,10 +46,10 @@
     ],
     "temporal": "1929-07-11",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><persName><surname>安川</surname><forename>敬一郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_安川敬一郎\">\n<surname>\n              安川\n             </surname>\n<forename>\n              敬一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-115\">\n<head>\n<date when=\"1929-07-11\"> 十一日 </date> （木） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><persName><surname>安川</surname><forename>敬一郎</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><time>午前時</time>　　　　<persName><surname>崎山</surname><forename>比佐衛</forename></persName>氏来約（<placeName corresp=\"#飛鳥山\">飛鳥山</placeName>）</p>\n</event>\n<event>\n<p><pb n=\"B2758\"/><time when=\"12:00:00\">正午</time>　　　　　日米関係委員会（銀行倶楽部）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><placeName>一橋</placeName>、<placeName>東京</placeName>高等歯科医学校ヘ御出向</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0115\">\n<head>\n<date when=\"1929-07-11\">\n           十一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_安川敬一郎\">\n<surname>\n              安川\n             </surname>\n<forename>\n              敬一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             午前時\n            </time>\n<persName corresp=\"#pers_崎山比佐衛\">\n<surname>\n              崎山\n             </surname>\n<forename>\n              比佐衛\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2758\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1597/full/max/0/default.jpg\" n=\"B2758\" source=\"#pageB2758\"/>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日米関係委員会（銀行倶楽部）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_一橋\">\n             一橋\n            </placeName>\n            、\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            高等歯科医学校ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-07"
 }

@@ -3,13 +3,16 @@
         "渋沢義一",
         "友野茂三郎"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢義一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/友野茂三郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1262",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20020m 大正七年 1918"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20020m 大正七年 1918"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20020m 大正七年 1918",
     "date": {
         "lvl0": "1918",
@@ -19,18 +22,18 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-03",
     "date_lvl2": "1918-03-20",
-    "description": "\n\n 二十日  （水） \n\n\n午前九半時　　電気博覧会開会式（不忍池畔会場）\n\n\n午前十時高千穂学校卒業式（大久保町同校）\n\n\n午後二時ベリー氏ノ件ニ付デビス氏兜町ニ来約\n\n\n午後二時渋沢義一氏　同上\n\n\n午後五時友野茂三郎氏来約（兜町）\n\n\n午後八時米国大使ヨリ御案内（米大使館）（令夫人共）（燕尾服、略綬）\n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （水）\n         \n\n\n\n\n             午前九半時\n            \n            電気博覧会開会式（\n            \n             不忍\n            \n            池畔会場）\n           \n\n\n\n\n             午前十時\n            \n            高千穂学校卒業式（\n            \n             大久保\n            \n            町同校）\n           \n\n\n\n\n             午後二時\n            \n            ベリー氏ノ件ニ付デビス氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後二時\n            \n\n\n              渋沢\n             \n\n              義一\n             \n\n            氏　同上\n           \n\n\n\n\n             午後五時\n            \n\n\n              友野\n             \n\n              茂三郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後八時\n            \n\n             米国\n            \n            大使ヨリ御案内（米大使館）\n            \n            （令夫人共）（燕尾服、略綬）\n           \n\n\n",
     "fullname": [
-        "渋沢義一",
-        "友野茂三郎"
+        "\n              渋沢\n             \n              義一\n             ",
+        "\n              友野\n             \n              茂三郎\n             "
     ],
-    "label": "二十日  （水）",
+    "label": "二十日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20020m-74",
-    "objectID": "DKB20020m-73",
-    "prev": "DKB20020m-72",
+    "next": "DKB20020m-0074",
+    "objectID": "DKB20020m-0073",
+    "prev": "DKB20020m-0072",
     "sort": "DKB20020m-0073",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "不忍",
         "大久保",
@@ -38,16 +41,17 @@
         "アメリカ合衆国"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/不忍",
         "https://shibusawa-dlab.github.io/lab1/api/place/大久保",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
         "https://shibusawa-dlab.github.io/lab1/api/place/アメリカ合衆国"
     ],
     "temporal": "1918-03-20",
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">午前九半時</time>　　電気博覧会開会式（<placeName>不忍</placeName>池畔会場）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n            電気博覧会開会式（\n            <placeName corresp=\"#place_不忍\">\n             不忍\n            </placeName>\n            池畔会場）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-73\">\n<head>\n<date when=\"1918-03-20\"> 二十日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"09:30:00\">午前九半時</time>　　電気博覧会開会式（<placeName>不忍</placeName>池畔会場）</p>\n</event>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>高千穂学校卒業式（<placeName>大久保</placeName>町同校）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time>ベリー氏ノ件ニ付デビス氏<placeName>兜町</placeName>ニ来約</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午後二時</time><persName><surname>渋沢</surname><forename>義一</forename></persName>氏　同上</p>\n</event>\n<event>\n<p><time when=\"17:00:00\">午後五時</time><persName><surname>友野</surname><forename>茂三郎</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"20:00:00\">午後八時</time><placeName>米国</placeName>大使ヨリ御案内（米大使館）<lb/>（令夫人共）（燕尾服、略綬）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0073\">\n<head>\n<date when=\"1918-03-20\">\n           二十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n            電気博覧会開会式（\n            <placeName corresp=\"#place_不忍\">\n             不忍\n            </placeName>\n            池畔会場）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            高千穂学校卒業式（\n            <placeName corresp=\"#place_大久保\">\n             大久保\n            </placeName>\n            町同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            ベリー氏ノ件ニ付デビス氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_渋沢義一\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏　同上\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_友野茂三郎\">\n<surname>\n              友野\n             </surname>\n<forename>\n              茂三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"20:00:00\">\n             午後八時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            大使ヨリ御案内（米大使館）\n            <lb/>\n            （令夫人共）（燕尾服、略綬）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-03"
 }

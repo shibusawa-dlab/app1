@@ -1,17 +1,18 @@
 {
     "agential": [
         "植村澄三郎",
-        "塩飽諸島"
+        "手島"
     ],
     "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/塩飽諸島"
+        "https://shibusawa-dlab.github.io/lab1/api/chname/植村澄三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/手島"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1217",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -21,17 +22,17 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-10",
     "date_lvl2": "1916-10-23",
-    "description": "\n\n 廿三日  （月） \n\n\n正午頃　　　　植村澄三郎氏来約（兜町）\n\n\n午後三時手島前校長功労表彰会　上野精養軒\n\n\n",
+    "description": "\n\n\n           廿三日\n          \n          （月）\n         \n\n\n\n\n             正午\n            \n            頃\n            \n\n              植村\n             \n\n              澄三郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              手島\n             \n\n            前校長功労表彰会\n            \n             上野精養軒\n            \n\n\n\n",
     "fullname": [
-        "植村澄三郎"
+        "\n              植村\n             \n              澄三郎\n             "
     ],
-    "label": "廿三日  （月）",
+    "label": "廿三日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20018m-279",
-    "objectID": "DKB20018m-278",
-    "prev": "DKB20018m-277",
+    "next": "DKB20018m-0279",
+    "objectID": "DKB20018m-0278",
+    "prev": "DKB20018m-0277",
     "sort": "DKB20018m-0278",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "上野精養軒"
@@ -42,10 +43,10 @@
     ],
     "temporal": "1916-10-23",
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">正午</time>頃　　　　<persName><surname>植村</surname><forename>澄三郎</forename></persName>氏来約（<placeName>兜町</placeName>）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            頃\n            <persName corresp=\"#pers_植村澄三郎\">\n<surname>\n              植村\n             </surname>\n<forename>\n              澄三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-278\">\n<head>\n<date when=\"1916-10-23\"> 廿三日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"12:00:00\">正午</time>頃　　　　<persName><surname>植村</surname><forename>澄三郎</forename></persName>氏来約（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"15:00:00\">午後三時</time><persName><surname>手島</surname></persName>前校長功労表彰会　<placeName>上野精養軒</placeName></p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0278\">\n<head>\n<date when=\"1916-10-23\">\n           廿三日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            頃\n            <persName corresp=\"#pers_植村澄三郎\">\n<surname>\n              植村\n             </surname>\n<forename>\n              澄三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_手島\">\n<surname>\n              手島\n             </surname>\n</persName>\n            前校長功労表彰会\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n</p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-10"
 }

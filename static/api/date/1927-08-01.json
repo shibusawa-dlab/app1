@@ -3,13 +3,16 @@
         "堀川直吉",
         "浅野良三"
     ],
-    "agential_uri": [],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/堀川直吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野良三"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1552",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -19,18 +22,18 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-08",
     "date_lvl2": "1927-08-01",
-    "description": "\n\n 一日  （月） \n\n\n午前九時日本労働移動保護協会理事堀川直吉氏来約（飛鳥山邸）\n\n\n午前十一時理化学研究所ノ件（工業クラブ）\n\n\n午后二時浅野良三氏来約　永楽町事務所\n\n\n",
+    "description": "\n\n\n           一日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n\n             日本\n            \n            労働移動保護協会理事\n            \n\n              堀川\n             \n\n              直吉\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            理化学研究所ノ件（工業クラブ）\n           \n\n\n\n\n             午后二時\n            \n\n\n              浅野\n             \n\n              良三\n             \n\n            氏来約\n            \n             永楽町\n            \n            事務所\n           \n\n\n",
     "fullname": [
-        "堀川直吉",
-        "浅野良三"
+        "\n              堀川\n             \n              直吉\n             ",
+        "\n              浅野\n             \n              良三\n             "
     ],
-    "label": "一日  （月）",
+    "label": "一日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20029m-200",
-    "objectID": "DKB20029m-198",
-    "prev": "DKB20029m-196",
+    "next": "DKB20029m-0200",
+    "objectID": "DKB20029m-0198",
+    "prev": "DKB20029m-0196",
     "sort": "DKB20029m-0198",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本",
         "飛鳥山邸",
@@ -38,14 +41,15 @@
     ],
     "spatial_uri": [
         "https://shibusawa-dlab.github.io/lab1/api/place/日本",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/永楽町"
     ],
     "temporal": "1927-08-01",
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">午前九時</time><placeName>日本</placeName>労働移動保護協会理事<persName><surname>堀川</surname><forename>直吉</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            労働移動保護協会理事\n            <persName corresp=\"#pers_堀川直吉\">\n<surname>\n              堀川\n             </surname>\n<forename>\n              直吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-198\">\n<head>\n<date when=\"1927-08-01\"> 一日 </date> （月） </head>\n<listEvent>\n<event>\n<p><time when=\"09:00:00\">午前九時</time><placeName>日本</placeName>労働移動保護協会理事<persName><surname>堀川</surname><forename>直吉</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time>理化学研究所ノ件（工業クラブ）</p>\n</event>\n<event>\n<p><time when=\"14:00:00\">午后二時</time><persName><surname>浅野</surname><forename>良三</forename></persName>氏来約　<placeName>永楽町</placeName>事務所</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0198\">\n<head>\n<date when=\"1927-08-01\">\n           一日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            労働移動保護協会理事\n            <persName corresp=\"#pers_堀川直吉\">\n<surname>\n              堀川\n             </surname>\n<forename>\n              直吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            理化学研究所ノ件（工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n<persName corresp=\"#pers_浅野良三\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              良三\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_永楽町\">\n             永楽町\n            </placeName>\n            事務所\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-08"
 }

@@ -7,10 +7,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1497",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -20,17 +20,17 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-11",
     "date_lvl2": "1925-11-24",
-    "description": "\n\n 廿四日  （火） \n\n\n午前十時事ム所ニ御出勤\n\n\n午前十・十五山下亀三郎氏ト御会見（事務所）\n\n\n午前十一時東京女学館ノ件（兜町事務所）\n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n            事ム所ニ御出勤\n           \n\n\n\n\n             午前十・十五\n            \n\n\n              山下\n             \n\n              亀三郎\n             \n\n            氏ト御会見（事務所）\n           \n\n\n\n\n             午前十一時\n            \n\n             東京\n            \n            女学館ノ件（\n            \n             兜町\n            \n            事務所）\n           \n\n\n",
     "fullname": [
-        "山下亀三郎"
+        "\n              山下\n             \n              亀三郎\n             "
     ],
-    "label": "廿四日  （火）",
+    "label": "廿四日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20027m-213",
-    "objectID": "DKB20027m-212",
-    "prev": "DKB20027m-211",
+    "next": "DKB20027m-0213",
+    "objectID": "DKB20027m-0212",
+    "prev": "DKB20027m-0211",
     "sort": "DKB20027m-0212",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京",
         "日本橋兜町"
@@ -41,10 +41,10 @@
     ],
     "temporal": "1925-11-24",
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">午前十時</time>事ム所ニ御出勤</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            事ム所ニ御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-212\">\n<head>\n<date when=\"1925-11-24\"> 廿四日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"10:00:00\">午前十時</time>事ム所ニ御出勤</p>\n</event>\n<event>\n<p><time when=\"10:15:00\">午前十・十五</time><persName><surname>山下</surname><forename>亀三郎</forename></persName>氏ト御会見（事務所）</p>\n</event>\n<event>\n<p><time when=\"11:00:00\">午前十一時</time><placeName>東京</placeName>女学館ノ件（<placeName>兜町</placeName>事務所）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0212\">\n<head>\n<date when=\"1925-11-24\">\n           廿四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            事ム所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:15:00\">\n             午前十・十五\n            </time>\n<persName corresp=\"#pers_山下亀三郎\">\n<surname>\n              山下\n             </surname>\n<forename>\n              亀三郎\n             </forename>\n</persName>\n            氏ト御会見（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            女学館ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-11"
 }

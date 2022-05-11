@@ -9,10 +9,10 @@
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1303",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20021m 大正八年 1919"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20021m 大正八年 1919"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20021m 大正八年 1919",
     "date": {
         "lvl0": "1919",
@@ -22,32 +22,33 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-07",
     "date_lvl2": "1919-07-08",
-    "description": "\n\n 八日  （火） \n\n\n午前八時留岡幸助氏来約（飛鳥山邸）\n\n\n午前十一時半日本工業倶楽部ノ件（兜町）\n\n\n午後六時理化学研究所ノ件　原首相ヨリ御案内（官邸）\n\n\n",
+    "description": "\n\n\n           八日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n\n\n              留岡\n             \n\n              幸助\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一時半\n            \n\n             日本\n            \n            工業倶楽部ノ件（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n            理化学研究所ノ件\n            \n\n              原\n             \n\n            首相ヨリ御案内（官邸）\n           \n\n\n",
     "fullname": [
-        "留岡幸助"
+        "\n              留岡\n             \n              幸助\n             "
     ],
-    "label": "八日  （火）",
+    "label": "八日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20021m-164",
-    "objectID": "DKB20021m-163",
-    "prev": "DKB20021m-162",
+    "next": "DKB20021m-0164",
+    "objectID": "DKB20021m-0163",
+    "prev": "DKB20021m-0162",
     "sort": "DKB20021m-0163",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "日本",
         "日本橋兜町"
     ],
     "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本",
         "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1919-07-08",
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">午前八時</time><persName><surname>留岡</surname><forename>幸助</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_留岡幸助\">\n<surname>\n              留岡\n             </surname>\n<forename>\n              幸助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-163\">\n<head>\n<date when=\"1919-07-08\"> 八日 </date> （火） </head>\n<listEvent>\n<event>\n<p><time when=\"08:00:00\">午前八時</time><persName><surname>留岡</surname><forename>幸助</forename></persName>氏来約（<placeName corresp=\"#飛鳥山邸\">飛鳥山邸</placeName>）</p>\n</event>\n<event>\n<p><time when=\"11:30:00\">午前十一時半</time><placeName>日本</placeName>工業倶楽部ノ件（<placeName>兜町</placeName>）</p>\n</event>\n<event>\n<p><time when=\"18:00:00\">午後六時</time>理化学研究所ノ件　<persName><surname>原</surname></persName>首相ヨリ御案内（官邸）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0163\">\n<head>\n<date when=\"1919-07-08\">\n           八日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_留岡幸助\">\n<surname>\n              留岡\n             </surname>\n<forename>\n              幸助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            工業倶楽部ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            理化学研究所ノ件\n            <persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            首相ヨリ御案内（官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-07"
 }

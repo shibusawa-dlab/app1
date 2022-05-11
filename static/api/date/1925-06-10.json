@@ -3,10 +3,10 @@
     "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1489",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -16,25 +16,27 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-06",
     "date_lvl2": "1925-06-10",
-    "description": "\n\n 十日  （水） \n\n\n午后六時宮仲様仰付仏人其他晩香廬ニ於テ茶菓饗応（アスカ山）\n\n\n",
+    "description": "\n\n\n           十日\n          \n          （水）\n         \n\n\n\n\n             午后六時\n            \n            宮仲様仰付仏人其他晩香廬ニ於テ茶菓饗応（\n            \n             アスカ山\n            \n            ）\n           \n\n\n",
     "fullname": [],
-    "label": "十日  （水）",
+    "label": "十日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
-    "next": "DKB20027m-69",
-    "objectID": "DKB20027m-68",
-    "prev": "DKB20027m-67",
+    "next": "DKB20027m-0069",
+    "objectID": "DKB20027m-0068",
+    "prev": "DKB20027m-0067",
     "sort": "DKB20027m-0068",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山"
     ],
-    "spatial_uri": [],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山"
+    ],
     "temporal": "1925-06-10",
     "time": {
-        "18:00:00": "<div><time when=\"18:00:00\">午后六時</time>宮仲様仰付仏人其他晩香廬ニ於テ茶菓饗応（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</div>"
+        "18:00:00": "<div><time when=\"18:00:00\">\n             午后六時\n            </time>\n            宮仲様仰付仏人其他晩香廬ニ於テ茶菓饗応（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-68\">\n<head>\n<date when=\"1925-06-10\"> 十日 </date> （水） </head>\n<listEvent>\n<event>\n<p><time when=\"18:00:00\">午后六時</time>宮仲様仰付仏人其他晩香廬ニ於テ茶菓饗応（<placeName corresp=\"#飛鳥山\">アスカ山</placeName>）</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0068\">\n<head>\n<date when=\"1925-06-10\">\n           十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午后六時\n            </time>\n            宮仲様仰付仏人其他晩香廬ニ於テ茶菓饗応（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-06"
 }
