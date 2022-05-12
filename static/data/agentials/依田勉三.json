@@ -9,20 +9,14 @@
         {
             "color": "lightgrey",
             "from": "加藤",
-            "to": "徳川",
-            "value": 10
-        },
-        {
-            "color": "lightgrey",
-            "from": "加藤",
             "to": "佐々木",
             "value": 11
         },
         {
             "color": "lightgrey",
-            "from": "金子",
-            "to": "阪谷",
-            "value": 15
+            "from": "加藤",
+            "to": "徳川",
+            "value": 10
         },
         {
             "color": "lightgrey",
@@ -35,6 +29,12 @@
             "from": "金子",
             "to": "添田",
             "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "金子",
+            "to": "阪谷",
+            "value": 15
         }
     ],
     "nodes": [
@@ -76,10 +76,21 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 10,
-            "id": "添田",
+            "count": 11,
+            "id": "井上",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "添田",
+            "label": "井上",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "id": "徳川",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "徳川",
             "shape": "image"
         },
         {
@@ -98,21 +109,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 11,
-            "id": "井上",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "井上",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
             "count": 10,
-            "id": "徳川",
+            "id": "添田",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "徳川",
+            "label": "添田",
             "shape": "image"
         },
         {

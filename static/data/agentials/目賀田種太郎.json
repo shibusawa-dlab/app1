@@ -3,26 +3,8 @@
         {
             "color": "lightgrey",
             "from": "大隈",
-            "to": "阪谷",
-            "value": 21
-        },
-        {
-            "color": "lightgrey",
-            "from": "大隈",
-            "to": "徳川",
-            "value": 17
-        },
-        {
-            "color": "lightgrey",
-            "from": "大隈",
-            "to": "中野",
-            "value": 15
-        },
-        {
-            "color": "lightgrey",
-            "from": "大隈",
-            "to": "森村",
-            "value": 17
+            "to": "伊藤",
+            "value": 10
         },
         {
             "color": "lightgrey",
@@ -39,14 +21,14 @@
         {
             "color": "lightgrey",
             "from": "大隈",
-            "to": "成瀬",
-            "value": 18
+            "to": "井上",
+            "value": 16
         },
         {
             "color": "lightgrey",
             "from": "大隈",
-            "to": "高田",
-            "value": 10
+            "to": "成瀬",
+            "value": 18
         },
         {
             "color": "lightgrey",
@@ -57,19 +39,7 @@
         {
             "color": "lightgrey",
             "from": "大隈",
-            "to": "井上",
-            "value": 16
-        },
-        {
-            "color": "lightgrey",
-            "from": "大隈",
             "to": "桂",
-            "value": 10
-        },
-        {
-            "color": "lightgrey",
-            "from": "大隈",
-            "to": "伊藤",
             "value": 10
         },
         {
@@ -80,9 +50,33 @@
         },
         {
             "color": "lightgrey",
-            "from": "成瀬仁蔵",
-            "to": "中野武営",
-            "value": 11
+            "from": "大隈",
+            "to": "阪谷",
+            "value": 21
+        },
+        {
+            "color": "lightgrey",
+            "from": "大隈",
+            "to": "高田",
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "大隈",
+            "to": "中野",
+            "value": 15
+        },
+        {
+            "color": "lightgrey",
+            "from": "大隈",
+            "to": "森村",
+            "value": 17
+        },
+        {
+            "color": "lightgrey",
+            "from": "大隈",
+            "to": "徳川",
+            "value": 17
         },
         {
             "color": "lightgrey",
@@ -98,8 +92,20 @@
         },
         {
             "color": "lightgrey",
+            "from": "成瀬仁蔵",
+            "to": "中野武営",
+            "value": 11
+        },
+        {
+            "color": "lightgrey",
             "from": "仙石",
             "to": "桂",
+            "value": 11
+        },
+        {
+            "color": "lightgrey",
+            "from": "和田",
+            "to": "井上",
             "value": 11
         },
         {
@@ -119,12 +125,6 @@
             "from": "和田",
             "to": "添田",
             "value": 10
-        },
-        {
-            "color": "lightgrey",
-            "from": "和田",
-            "to": "井上",
-            "value": 11
         }
     ],
     "nodes": [
@@ -257,10 +257,54 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 17,
-            "id": "徳川",
+            "count": 10,
+            "id": "伊藤",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "徳川",
+            "label": "伊藤",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 18,
+            "id": "成瀬",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "成瀬",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 21,
+            "id": "桂",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "桂",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 11,
+            "id": "西園寺",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "西園寺",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "id": "高田",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "高田",
             "shape": "image"
         },
         {
@@ -272,17 +316,6 @@
             "id": "中野",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "中野",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 19,
-            "id": "大橋",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "大橋",
             "shape": "image"
         },
         {
@@ -312,10 +345,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 18,
-            "id": "成瀬",
+            "count": 17,
+            "id": "徳川",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "成瀬",
+            "label": "徳川",
             "shape": "image"
         },
         {
@@ -323,43 +356,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 10,
-            "id": "高田",
+            "count": 19,
+            "id": "大橋",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "高田",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 21,
-            "id": "桂",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "桂",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 10,
-            "id": "伊藤",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "伊藤",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 11,
-            "id": "西園寺",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "西園寺",
+            "label": "大橋",
             "shape": "image"
         }
     ]

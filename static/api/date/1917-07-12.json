@@ -5,18 +5,12 @@
         "阪井徳太郎",
         "諸井恒平"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/足立",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/栗",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/阪井徳太郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/諸井恒平"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1242",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -27,24 +21,39 @@
     "date_lvl1": "1917-07",
     "date_lvl2": "1917-07-12",
     "description": "\n\n\n           十二日\n          \n          （木）\n         \n\n\n\n\n             午後時\n            \n\n\n              足立\n             \n\n\n\n              栗\n             \n\n            園氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二―午後三時\n            \n            フライシヤー、\n            \n\n              阪井\n             \n\n              徳太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              諸井\n             \n\n              恒平\n             \n\n            氏ヨリ御案内（八百膳）《（八百善）》\n           \n\n\n",
-    "fullname": [
-        "\n              阪井\n             \n              徳太郎\n             ",
-        "\n              諸井\n             \n              恒平\n             "
-    ],
     "label": "十二日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0195",
     "objectID": "DKB20019m-0194",
     "prev": "DKB20019m-0193",
     "sort": "DKB20019m-0194",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
-    ],
     "temporal": "1917-07-12",
+    "texts": [
+        "DKB20025m-0228",
+        "DKB20017m-0060",
+        "DKB20017m-0188",
+        "DKB20017m-0218",
+        "DKB20029m-0210",
+        "DKB20021m-0328",
+        "DKB20015m-0002",
+        "DKB20018m-0330",
+        "DKB20019m-0066",
+        "DKB20020m-0302",
+        "DKB20017m-0005",
+        "DKB20021m-0259",
+        "DKB20032m-0181",
+        "DKB20025m-0045",
+        "DKB20019m-0237",
+        "DKB20018m-0302",
+        "DKB20019m-0313",
+        "DKB20020m-0011",
+        "DKB20016m-0106",
+        "DKB20018m-0283"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20019m-0194\">\n<head>\n<date when=\"1917-07-12\">\n           十二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午後時\n            </time>\n<persName corresp=\"#pers_足立\">\n<surname>\n              足立\n             </surname>\n</persName>\n<persName corresp=\"#pers_栗\">\n<surname>\n              栗\n             </surname>\n</persName>\n            園氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―午後三時\n            </time>\n            フライシヤー、\n            <persName corresp=\"#pers_阪井徳太郎\">\n<surname>\n              阪井\n             </surname>\n<forename>\n              徳太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_諸井恒平\">\n<surname>\n              諸井\n             </surname>\n<forename>\n              恒平\n             </forename>\n</persName>\n            氏ヨリ御案内（八百膳）《（八百善）》\n           </p>\n</event>\n</listEvent>\n</div>",

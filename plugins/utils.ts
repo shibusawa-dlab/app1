@@ -52,7 +52,10 @@ export class Utils {
     }
   }
 
-  wareki(text: any){
+  wareki(text: any): any {
+    if(!text){
+      return null
+    }
     const spl = text.split("-")
     const year = spl[0]
     let month = 1
@@ -65,7 +68,7 @@ export class Utils {
     }
     const date = new Date(year, month - 1, day, 0, 0, 0);
     const options: any = {era: 'long'};
-    let wareki = new Intl.DateTimeFormat('ja-JP-u-ca-japanese', options).format(date).split("年")[0]
+    let wareki = new Intl.DateTimeFormat('ja-JP-u-ca-japanese', options).format(date).split("年")[0].split("/")[0]
     
     if(spl.length === 1){ //年のみ指定の場合
       if(wareki === "慶応4"){
@@ -76,7 +79,6 @@ export class Utils {
         wareki = "大正15/昭和元"
       }
     }
-    
     
     let result = year + "（" + wareki + "）年"
     if(spl.length > 1){

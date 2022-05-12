@@ -4,17 +4,12 @@
         "田中",
         "阪井徳太郎"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/小松原英太郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/田中",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/阪井徳太郎"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1282",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20020m 大正七年 1918"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20020m 大正七年 1918"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20020m 大正七年 1918",
     "date": {
         "lvl0": "1918",
@@ -25,24 +20,39 @@
     "date_lvl1": "1918-11",
     "date_lvl2": "1918-11-19",
     "description": "\n\n\n           十九日\n          \n          （火）\n         \n\n\n\n\n             午后二―午后三時\n            \n\n\n              小松原\n             \n\n              英太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            ヘンリー・ピー・バウイー氏\n            \n             兜町\n            \n            ニ来約（\n            \n\n              田中\n             \n\n            氏通訳）\n           \n\n\n\n\n             午後六半時\n            \n\n\n              阪井\n             \n\n              徳太郎\n             \n\n            氏主催、ウード氏招待会（ホテル）（略服）\n           \n\n\n",
-    "fullname": [
-        "\n              小松原\n             \n              英太郎\n             ",
-        "\n              阪井\n             \n              徳太郎\n             "
-    ],
     "label": "十九日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0303",
     "objectID": "DKB20020m-0302",
     "prev": "DKB20020m-0301",
     "sort": "DKB20020m-0302",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
-    ],
     "temporal": "1918-11-19",
+    "texts": [
+        "DKB20025m-0228",
+        "DKB20020m-0107",
+        "DKB20021m-0259",
+        "DKB20024m-0123",
+        "DKB20032m-0135",
+        "DKB20022m-0309",
+        "DKB20024m-0164",
+        "DKB20022m-0213",
+        "DKB20023m-0036",
+        "DKB20016m-0095",
+        "DKB20018m-0330",
+        "DKB20031m-0032",
+        "DKB20020m-0034",
+        "DKB20022m-0338",
+        "DKB20017m-0218",
+        "DKB20017m-0058",
+        "DKB20017m-0060",
+        "DKB20018m-0243",
+        "DKB20020m-0199",
+        "DKB20023m-0118"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20020m-0302\">\n<head>\n<date when=\"1918-11-19\">\n           十九日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午后二―午后三時\n            </time>\n<persName corresp=\"#pers_小松原英太郎\">\n<surname>\n              小松原\n             </surname>\n<forename>\n              英太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            ヘンリー・ピー・バウイー氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約（\n            <persName corresp=\"#pers_田中\">\n<surname>\n              田中\n             </surname>\n</persName>\n            氏通訳）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:30:00\">\n             午後六半時\n            </time>\n<persName corresp=\"#pers_阪井徳太郎\">\n<surname>\n              阪井\n             </surname>\n<forename>\n              徳太郎\n             </forename>\n</persName>\n            氏主催、ウード氏招待会（ホテル）（略服）\n           </p>\n</event>\n</listEvent>\n</div>",

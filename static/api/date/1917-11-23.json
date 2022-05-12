@@ -4,17 +4,12 @@
         "浅野泰次郎",
         "浅野泰治"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/大隈",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野泰次郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野泰治"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1252",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -25,24 +20,39 @@
     "date_lvl1": "1917-11",
     "date_lvl2": "1917-11-23",
     "description": "\n\n\n           廿三日\n          \n          （金）\n         \n\n\n\n            新嘗祭\n           \n\n\n\n\n             午後三時\n            \n            日印協会総会及\n            \n\n              大隈\n             \n\n            侯全快祝賀会（帝国ホテル）\n           \n\n\n\n\n             午後三時半\n            \n\n\n              浅野\n             \n\n              泰次郎\n             \n\n            氏御来訪《（\n            \n\n              浅野\n             \n\n              泰治\n             \n\n            郎氏）》（帝国ホテル）\n           \n\n\n\n\n             午後四時\n            \n\n             梁\n            \n            士貽氏《（梁士詒氏）》ヲステーシヨン・ホテルニ御訪問\n           \n\n\n",
-    "fullname": [
-        "\n              浅野\n             \n              泰次郎\n             ",
-        "\n              浅野\n             \n              泰治\n             "
-    ],
     "label": "廿三日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0304",
     "objectID": "DKB20019m-0303",
     "prev": "DKB20019m-0302",
     "sort": "DKB20019m-0303",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "梁"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/梁"
-    ],
     "temporal": "1917-11-23",
+    "texts": [
+        "DKB20018m-0054",
+        "DKB20021m-0271",
+        "DKB20029m-0012",
+        "DKB20023m-0021",
+        "DKB20032m-0050",
+        "DKB20018m-0321",
+        "DKB20032m-0040",
+        "DKB20017m-0055",
+        "DKB20021m-0205",
+        "DKB20019m-0144",
+        "DKB20029m-0193",
+        "DKB20032m-0148",
+        "DKB20018m-0261",
+        "DKB20019m-0079",
+        "DKB20031m-0035",
+        "DKB20032m-0169",
+        "DKB20018m-0336",
+        "DKB20019m-0221",
+        "DKB20020m-0026",
+        "DKB20032m-0157"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20019m-0303\">\n<head>\n<date when=\"1917-11-23\">\n           廿三日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n            新嘗祭\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            日印協会総会及\n            <persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯全快祝賀会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三時半\n            </time>\n<persName corresp=\"#pers_浅野泰次郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              泰次郎\n             </forename>\n</persName>\n            氏御来訪《（\n            <persName corresp=\"#pers_浅野泰治\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              泰治\n             </forename>\n</persName>\n            郎氏）》（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_梁\">\n             梁\n            </placeName>\n            士貽氏《（梁士詒氏）》ヲステーシヨン・ホテルニ御訪問\n           </p>\n</event>\n</listEvent>\n</div>",

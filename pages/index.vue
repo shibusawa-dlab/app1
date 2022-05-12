@@ -183,12 +183,14 @@ export default class about extends Vue {
         icon: 'mdi-image',
       },
       */
+      /*
       {
         label: 'TEI/XML',
         href: this.github + '/tree/master/tei',
         description: '',
         icon: 'mdi-file',
       },
+      */
       /*
       {
         label: this.$t('snorql'),

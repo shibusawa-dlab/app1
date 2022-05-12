@@ -5,18 +5,12 @@
         "杉原",
         "小坂梅吉"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/清浦奎吾",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/唐沢",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/杉原",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/小坂梅吉"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1425",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -27,28 +21,41 @@
     "date_lvl1": "1923-04",
     "date_lvl2": "1923-04-02",
     "description": "\n\n\n           二日\n          \n          （月）\n         \n\n\n\n\n             午後二―三時\n            \n\n\n              清浦\n             \n\n              奎吾\n             \n\n            氏ト御会見ノ約（華族会館）\n           \n\n\n\n\n             午後三半―五時\n            \n\n\n              唐沢\n             \n\n            、\n            \n\n              杉原\n             \n\n            両家結婚披露（\n            \n             東京\n            \n            会館）\n           \n\n\n\n\n             午後五時\n            \n\n\n              小坂\n             \n\n              梅吉\n             \n\n            氏ヨリ御案内（\n            \n             尾張町\n            \n\n             松本\n            \n            楼）\n           \n\n\n",
-    "fullname": [
-        "\n              清浦\n             \n              奎吾\n             ",
-        "\n              小坂\n             \n              梅吉\n             "
-    ],
     "label": "二日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0087",
     "objectID": "DKB20025m-0086",
     "prev": "DKB20025m-0085",
     "sort": "DKB20025m-0086",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "東京",
         "尾張町",
         "松本"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
-        "https://shibusawa-dlab.github.io/lab1/api/place/尾張町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/松本"
-    ],
     "temporal": "1923-04-02",
+    "texts": [
+        "DKB20029m-0141",
+        "DKB20018m-0322",
+        "DKB20028m-0013",
+        "DKB20017m-0060",
+        "DKB20020m-0254",
+        "DKB20017m-0148",
+        "DKB20020m-0097",
+        "DKB20025m-0255",
+        "DKB20025m-0062",
+        "DKB20017m-0084",
+        "DKB20021m-0312",
+        "DKB20024m-0316",
+        "DKB20025m-0064",
+        "DKB20016m-0007",
+        "DKB20017m-0218",
+        "DKB20020m-0032",
+        "DKB20021m-0328",
+        "DKB20025m-0228",
+        "DKB20028m-0285",
+        "DKB20030m-0087"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20025m-0086\">\n<head>\n<date when=\"1923-04-02\">\n           二日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―三時\n            </time>\n<persName corresp=\"#pers_清浦奎吾\">\n<surname>\n              清浦\n             </surname>\n<forename>\n              奎吾\n             </forename>\n</persName>\n            氏ト御会見ノ約（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:30:00\" to=\"17:00:00\">\n             午後三半―五時\n            </time>\n<persName corresp=\"#pers_唐沢\">\n<surname>\n              唐沢\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_杉原\">\n<surname>\n              杉原\n             </surname>\n</persName>\n            両家結婚披露（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_小坂梅吉\">\n<surname>\n              小坂\n             </surname>\n<forename>\n              梅吉\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <placeName corresp=\"#place_尾張町\">\n             尾張町\n            </placeName>\n<placeName corresp=\"#place_松本\">\n             松本\n            </placeName>\n            楼）\n           </p>\n</event>\n</listEvent>\n</div>",

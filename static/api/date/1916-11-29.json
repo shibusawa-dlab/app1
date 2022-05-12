@@ -1,12 +1,11 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1221",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -17,21 +16,39 @@
     "date_lvl1": "1916-11",
     "date_lvl2": "1916-11-29",
     "description": "\n\n\n           廿九日\n          \n          （水）\n         \n\n\n\n            御静養\n           \n\n\n\n\n             午後五時\n            \n            御同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
-    "fullname": [],
     "label": "廿九日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0316",
     "objectID": "DKB20018m-0315",
     "prev": "DKB20018m-0314",
     "sort": "DKB20018m-0315",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
-    ],
     "temporal": "1916-11-29",
+    "texts": [
+        "DKB20021m-0273",
+        "DKB20025m-0309",
+        "DKB20023m-0023",
+        "DKB20031m-0072",
+        "DKB20020m-0221",
+        "DKB20026m-0059",
+        "DKB20031m-0040",
+        "DKB20032m-0155",
+        "DKB20017m-0139",
+        "DKB20025m-0111",
+        "DKB20030m-0288",
+        "DKB20020m-0107",
+        "DKB20026m-0329",
+        "DKB20030m-0120",
+        "DKB20018m-0282",
+        "DKB20020m-0051",
+        "DKB20019m-0085",
+        "DKB20031m-0234",
+        "DKB20033m-0085",
+        "DKB20021m-0184"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20018m-0315\">\n<head>\n<date when=\"1916-11-29\">\n           廿九日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n            御静養\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",

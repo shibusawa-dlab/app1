@@ -2,6 +2,12 @@
     "edges": [
         {
             "color": "lightgrey",
+            "from": "菊地",
+            "to": "菊池",
+            "value": 14
+        },
+        {
+            "color": "lightgrey",
             "from": "中野武営",
             "to": "井上",
             "value": 11
@@ -11,15 +17,20 @@
             "from": "中野武営",
             "to": "成瀬仁蔵",
             "value": 11
-        },
-        {
-            "color": "lightgrey",
-            "from": "菊地",
-            "to": "菊池",
-            "value": 14
         }
     ],
     "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 14,
+            "id": "菊地",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "菊地",
+            "shape": "image"
+        },
         {
             "borderWidth": 4,
             "color": {
@@ -30,17 +41,6 @@
             "id": "中野武営",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nakano_Takenaka.jpg/205px-Nakano_Takenaka.jpg",
             "label": "中野武営",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 14,
-            "id": "菊地",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "菊地",
             "shape": "image"
         },
         {
@@ -59,11 +59,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 11,
-            "description": "\n     成瀬 仁蔵（なるせ じんぞう、1858年8月2日（安政5年6月23日） - 1919年（大正8年）3月4日）は、明治から大正のキリスト教牧師（プロテスタント）であり、日本における女子高等教育の開拓者の1人であり、日本女子大学（日本女子大学校）の創設者として知られる。\n    ",
-            "id": "成瀬仁蔵",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Jinzo_Naruse.JPG/231px-Jinzo_Naruse.JPG",
-            "label": "成瀬仁蔵",
+            "count": 14,
+            "id": "菊池",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "菊池",
             "shape": "image"
         },
         {
@@ -71,10 +70,11 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 14,
-            "id": "菊池",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "菊池",
+            "count": 11,
+            "description": "\n     成瀬 仁蔵（なるせ じんぞう、1858年8月2日（安政5年6月23日） - 1919年（大正8年）3月4日）は、明治から大正のキリスト教牧師（プロテスタント）であり、日本における女子高等教育の開拓者の1人であり、日本女子大学（日本女子大学校）の創設者として知られる。\n    ",
+            "id": "成瀬仁蔵",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Jinzo_Naruse.JPG/231px-Jinzo_Naruse.JPG",
+            "label": "成瀬仁蔵",
             "shape": "image"
         }
     ]

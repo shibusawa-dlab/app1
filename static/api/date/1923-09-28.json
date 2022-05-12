@@ -1,12 +1,11 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1440",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -17,21 +16,39 @@
     "date_lvl1": "1923-09",
     "date_lvl2": "1923-09-28",
     "description": "\n\n\n           廿八日\n          \n          （金）\n         \n\n\n\n\n             午前時\n            \n\n             山本\n            \n            首相ヲ御訪問ノ筈\n           \n\n\n\n\n             午前十時\n            \n            大震災善後会救済部会（商業会議所）\n           \n\n\n\n\n             正午\n            \n            道路改良会理事会（生命保険協会）\n           \n\n\n\n\n             午後一半時\n            \n            大震災善後会委員総会（商業会議所）\n           \n\n\n",
-    "fullname": [],
     "label": "廿八日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0247",
     "objectID": "DKB20025m-0246",
     "prev": "DKB20025m-0245",
     "sort": "DKB20025m-0246",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "山本"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/山本"
-    ],
     "temporal": "1923-09-28",
+    "texts": [
+        "DKB20025m-0244",
+        "DKB20025m-0268",
+        "DKB20025m-0275",
+        "DKB20025m-0283",
+        "DKB20025m-0259",
+        "DKB20025m-0249",
+        "DKB20025m-0237",
+        "DKB20025m-0238",
+        "DKB20020m-0219",
+        "DKB20025m-0241",
+        "DKB20026m-0061",
+        "DKB20020m-0193",
+        "DKB20020m-0268",
+        "DKB20025m-0272",
+        "DKB20025m-0260",
+        "DKB20018m-0164",
+        "DKB20025m-0236",
+        "DKB20019m-0172",
+        "DKB20020m-0022",
+        "DKB20028m-0026"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20025m-0246\">\n<head>\n<date when=\"1923-09-28\">\n           廿八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前時\n            </time>\n<placeName corresp=\"#place_山本\">\n             山本\n            </placeName>\n            首相ヲ御訪問ノ筈\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            大震災善後会救済部会（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            道路改良会理事会（生命保険協会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n            大震災善後会委員総会（商業会議所）\n           </p>\n</event>\n</listEvent>\n</div>",

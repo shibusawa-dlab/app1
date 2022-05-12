@@ -2,15 +2,12 @@
     "agential": [
         "斎藤"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/斎藤"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1384",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -21,21 +18,39 @@
     "date_lvl1": "1922-03",
     "date_lvl2": "1922-03-14",
     "description": "\n\n\n           十四日\n          \n          （火）\n         \n\n\n\n\n             午前中\n            \n\n\n              斎藤\n             \n\n            男爵を御訪問（貴族院）\n           \n\n\n\n\n             正午\n            \n            モツト氏招待（帝国ホテル）\n           \n\n\n\n\n             午時\n            \n            日華実業協会\n           \n\n\n\n\n             午後三半時\n            \n\n             アルメニヤ\n            \n            救助委員会（国際聯盟協会事務所）\n           \n\n\n\n\n             午後四時\n            \n            国際聯盟協会理事会（同上）\n           \n\n\n",
-    "fullname": [],
     "label": "十四日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0046",
     "objectID": "DKB20024m-0045",
     "prev": "DKB20024m-0044",
     "sort": "DKB20024m-0045",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "アルメニヤ"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/アルメニヤ"
-    ],
     "temporal": "1922-03-14",
+    "texts": [
+        "DKB20024m-0067",
+        "DKB20030m-0014",
+        "DKB20031m-0124",
+        "DKB20029m-0114",
+        "DKB20033m-0040",
+        "DKB20033m-0086",
+        "DKB20026m-0066",
+        "DKB20025m-0300",
+        "DKB20020m-0034",
+        "DKB20032m-0007",
+        "DKB20028m-0067",
+        "DKB20023m-0015",
+        "DKB20030m-0243",
+        "DKB20022m-0262",
+        "DKB20030m-0019",
+        "DKB20026m-0190",
+        "DKB20030m-0260",
+        "DKB20031m-0032",
+        "DKB20030m-0095",
+        "DKB20028m-0324"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20024m-0045\">\n<head>\n<date when=\"1922-03-14\">\n           十四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前中\n            </time>\n<persName corresp=\"#pers_斎藤\">\n<surname>\n              斎藤\n             </surname>\n</persName>\n            男爵を御訪問（貴族院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            モツト氏招待（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            日華実業協会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n<placeName corresp=\"#place_アルメニヤ\">\n             アルメニヤ\n            </placeName>\n            救助委員会（国際聯盟協会事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            国際聯盟協会理事会（同上）\n           </p>\n</event>\n</listEvent>\n</div>",

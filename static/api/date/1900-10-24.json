@@ -1,12 +1,11 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/185",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB10009m 自 明治三十三年一月 至 明治三十四年五月 1900―1901"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB10009m 自 明治三十三年一月 至 明治三十四年五月 1900―1901"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB10009m 自 明治三十三年一月 至 明治三十四年五月 1900―1901",
     "date": {
         "lvl0": "1900",
@@ -17,25 +16,41 @@
     "date_lvl1": "1900-10",
     "date_lvl2": "1900-10-24",
     "description": "\n\n\n        十月廿四日\n       \n\n\n       晴、午前\n       \n        第一銀行\n       \n       ニ出勤シ\n       \n        韓国\n       \n       ヘ電報ヲ発ス、午後韓国皇帝及大官ヘノ送品ヲ撰択ス、\n       \n        二時\n       \n\n        東京市\n       \n       ニ抵リ市長ニ面話ス、\n       \n        三時\n       \n\n        日本郵船会社\n       \n       重役会ニ列ス、夜\n       \n        兜町\n       \n       ニ帰宿ス\n       \n       此夜有楽会ヲ三井集会所ニ開ク\n      \n",
-    "fullname": [],
     "label": "十月廿四日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10009m-0298",
     "objectID": "DKB10009m-0297",
     "prev": "DKB10009m-0296",
     "sort": "DKB10009m-0297",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "大韓民国",
         "東京市",
         "日本橋兜町"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/大韓民国",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京市",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
-    ],
     "temporal": "1900-10-24",
+    "texts": [
+        "DKB10009m-0115",
+        "DKB10008m-0271",
+        "DKB10010m-0156",
+        "DKB10008m-0244",
+        "DKB10009m-0207",
+        "DKB10008m-0330",
+        "DKB10009m-0087",
+        "DKB10011m-0127",
+        "DKB10011m-0134",
+        "DKB10011m-0416",
+        "DKB10008m-0335",
+        "DKB10008m-0351",
+        "DKB10010m-0109",
+        "DKB10009m-0354",
+        "DKB10011m-0121",
+        "DKB10008m-0204",
+        "DKB10012m-0010",
+        "DKB10009m-0417",
+        "DKB10008m-0278",
+        "DKB10011m-0244"
+    ],
     "time": {
         "14:00:00": "<div>晴、午前\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ出勤シ\n       <placeName corresp=\"#place_大韓民国\">\n        韓国\n       </placeName>\n       ヘ電報ヲ発ス、午後韓国皇帝及大官ヘノ送品ヲ撰択ス、<time when=\"14:00:00\">\n        二時\n       </time>\n<placeName corresp=\"#place_東京市\">\n        東京市\n       </placeName>\n       ニ抵リ市長ニ面話ス、</div>",
         "15:00:00": "<div><time when=\"15:00:00\">\n        三時\n       </time>\n<orgName>\n        日本郵船会社\n       </orgName>\n       重役会ニ列ス、夜\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       ニ帰宿ス\n       <lb/>\n       此夜有楽会ヲ三井集会所ニ開ク</div>"

@@ -1,12 +1,11 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1279",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20020m 大正七年 1918"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20020m 大正七年 1918"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20020m 大正七年 1918",
     "date": {
         "lvl0": "1918",
@@ -17,23 +16,40 @@
     "date_lvl1": "1918-10",
     "date_lvl2": "1918-10-17",
     "description": "\n\n\n           十七日\n          \n          （木）\n         \n\n\n\n            神嘗祭\n           \n\n\n\n\n             午前九時\n            \n\n             高千穂\n            \n            商業学校ヘ御出向（御講演ノ約）\n           \n\n\n\n\n             午後二時\n            \n            第一銀行員招待会（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n",
-    "fullname": [],
     "label": "十七日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0270",
     "objectID": "DKB20020m-0269",
     "prev": "DKB20020m-0268",
     "sort": "DKB20020m-0269",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "高千穂",
         "飛鳥山公園"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/高千穂",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園"
-    ],
     "temporal": "1918-10-17",
+    "texts": [
+        "DKB20018m-0231",
+        "DKB20021m-0121",
+        "DKB20022m-0293",
+        "DKB20018m-0277",
+        "DKB20019m-0244",
+        "DKB20016m-0016",
+        "DKB20017m-0040",
+        "DKB20019m-0164",
+        "DKB20024m-0077",
+        "DKB20024m-0112",
+        "DKB20028m-0153",
+        "DKB20016m-0001",
+        "DKB20017m-0210",
+        "DKB20017m-0068",
+        "DKB20030m-0001",
+        "DKB20031m-0115",
+        "DKB20017m-0102",
+        "DKB20030m-0203",
+        "DKB20018m-0144",
+        "DKB20017m-0193"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20020m-0269\">\n<head>\n<date when=\"1918-10-17\">\n           十七日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n            神嘗祭\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_高千穂\">\n             高千穂\n            </placeName>\n            商業学校ヘ御出向（御講演ノ約）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            第一銀行員招待会（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",

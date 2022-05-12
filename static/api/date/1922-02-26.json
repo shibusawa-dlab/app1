@@ -4,17 +4,12 @@
         "窪田",
         "山本栄男"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/田子",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/窪田",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/山本栄男"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1383",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -25,23 +20,39 @@
     "date_lvl1": "1922-02",
     "date_lvl2": "1922-02-26",
     "description": "\n\n\n           廿六日\n          \n          （日）\n         \n\n\n\n            御引籠リ\n           \n\n\n\n\n             正午\n            \n            協調会歓迎会（築地精養軒）\n           \n\n\n\n\n             午後四時\n            \n\n\n              田子\n             \n\n            、\n            \n\n              窪田\n             \n\n            両氏来約（\n            \n             兜町\n            \n            事務所）\n           \n\n\n\n\n             午後五半時\n            \n\n\n              山本\n             \n\n              栄男\n             \n\n            氏招待（トキワヤ）\n           \n\n\n",
-    "fullname": [
-        "\n              山本\n             \n              栄男\n             "
-    ],
     "label": "廿六日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0030",
     "objectID": "DKB20024m-0029",
     "prev": "DKB20024m-0028",
     "sort": "DKB20024m-0029",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
-    ],
     "temporal": "1922-02-26",
+    "texts": [
+        "DKB20020m-0107",
+        "DKB20022m-0275",
+        "DKB20022m-0055",
+        "DKB20022m-0120",
+        "DKB20024m-0125",
+        "DKB20024m-0164",
+        "DKB20021m-0328",
+        "DKB20020m-0034",
+        "DKB20021m-0151",
+        "DKB20022m-0176",
+        "DKB20019m-0114",
+        "DKB20021m-0228",
+        "DKB20023m-0227",
+        "DKB20019m-0330",
+        "DKB20021m-0180",
+        "DKB20021m-0098",
+        "DKB20021m-0304",
+        "DKB20020m-0201",
+        "DKB20025m-0111",
+        "DKB20016m-0101"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20024m-0029\">\n<head>\n<date when=\"1922-02-26\">\n           廿六日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n            御引籠リ\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            協調会歓迎会（築地精養軒）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_田子\">\n<surname>\n              田子\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_窪田\">\n<surname>\n              窪田\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_山本栄男\">\n<surname>\n              山本\n             </surname>\n<forename>\n              栄男\n             </forename>\n</persName>\n            氏招待（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",

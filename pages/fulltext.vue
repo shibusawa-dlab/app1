@@ -36,6 +36,7 @@
                 <th class="text-center">
                   
                 </th>
+                
                 <th class="text-center">
                   TEI Viewer
                 </th>
@@ -48,6 +49,9 @@
                 <th class="text-center">
                   EPUB
                 </th>
+                <th class="text-center">
+                  TEI/XML
+                </th>
               </tr>
             </thead>
             <tbody>
@@ -56,6 +60,7 @@
                 :key="key"
               >
                 <td>{{ item.label }}</td>
+
                 <td class="text-center pa-5">
                   <nuxt-link :to="
                     localePath({
@@ -65,36 +70,46 @@
                   ">
                   <!--
                     <img width="40" :src="baseUrl + '/img/icons/tei.png'"/> -->
-                    <v-icon>mdi-file-download</v-icon>
+                    <v-icon>mdi-exit-to-app</v-icon>
                   </nuxt-link>
                 </td>
                 
                 <td class="text-center pa-5">
                   <a :href="
-                    baseUrl + '/fulltext/' + item.viewer_id + '.html'
+                    github_pages + '/tei/' + item.viewer_id + '.html'
                   ">
                     <!--
                     <img src="https://img.icons8.com/ios/26/000000/html-filetype.png"/> -->
-                    <v-icon>mdi-file-download</v-icon>
+                    <v-icon>mdi-exit-to-app</v-icon>
                   </a>
                 </td>
 
                 <td class="text-center pa-5">
                   <a :href="
-                    baseUrl + '/fulltext/' + item.viewer_id + '.pdf'
+                    github_pages + '/tei/' + item.viewer_id + '.pdf'
                   ">
                     <!--
                     <img src="https://img.icons8.com/ios/24/000000/pdf.png"/> -->
+                    <v-icon>mdi-exit-to-app</v-icon>
+                  </a>
+                </td>
+
+                <td class="text-center pa-5">
+                  <a :href="
+                    github_pages + '/tei/' + item.viewer_id + '.epub'
+                  ">
+                    <!-- 
+                    <img src="https://img.icons8.com/ios/26/000000/epub.png"/> -->
                     <v-icon>mdi-file-download</v-icon>
                   </a>
                 </td>
 
                 <td class="text-center pa-5">
                   <a :href="
-                    baseUrl + '/fulltext/' + item.viewer_id + '.epub'
+                    github_pages + '/tei/' + item.viewer_id + '.xml'
                   ">
-                    <!-- 
-                    <img src="https://img.icons8.com/ios/26/000000/epub.png"/> -->
+                    <!--
+                    <img src="https://img.icons8.com/ios/24/000000/pdf.png"/> -->
                     <v-icon>mdi-file-download</v-icon>
                   </a>
                 </td>
@@ -236,6 +251,7 @@ import { Vue, Component } from 'nuxt-property-decorator'
 @Component({})
 export default class about extends Vue {
   baseUrl: any = process.env.BASE_URL
+  github_pages: any = process.env.github_pages
 
   get bh(): any[] {
     return [

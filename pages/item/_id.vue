@@ -159,10 +159,11 @@
                 "
                 icon
                 target="_blank"
+                x-small
                 v-on="on"
                 ><v-img
                   contain
-                  width="30px"
+                  width="24px"
                   :src="baseUrl + '/img/icons/mirador3.svg'"
               /></v-btn>
             </template>
@@ -171,11 +172,11 @@
 
           <v-tooltip bottom>
             <template #activator="{ on }">
-              <v-btn icon class="mx-2" v-on="on">
+              <v-btn small icon class="mx-2" v-on="on">
                 <a @click="dwnJson">
                   <v-img
                     contain
-                    width="30px"
+                    width="24px"
                     :src="baseUrl + '/img/icons/json-logo.svg'"
                   />
                 </a>
@@ -409,8 +410,8 @@
         -->
 
         <HorizontalItems
-          v-if="false"
-          :title="`${$t('related')} ${$t('items')}`"
+          v-if="/*false*/true"
+          :title="`${$t('similar')} ${$t('items')}`"
           :data="moreLikeThisData"
         />
       </v-container>
@@ -573,6 +574,7 @@ export default {
       return data
     },
     categories() {
+      //console.log("item", this.item)
       const values = this.item.category
       const keys = Object.keys(values)
       const value = values[keys[keys.length - 1]]
@@ -636,7 +638,7 @@ export default {
     //this.getEntity('agential')
     //this.getEntity('spatial')
     
-    //this.getSimilarItems()
+    this.getSimilarItems()
     if (process.browser) {
       this.width = window.innerWidth
     }
@@ -645,6 +647,42 @@ export default {
   },
 
   methods: {
+    async getSimilarItems(){
+
+      const item = this.item
+
+      const response = await this.$axios.$get(process.env.BASE_URL + "/data/docs.json");
+
+      const arr = []
+      if(!item["texts"]){
+        return
+      }
+      for(const id of item["texts"]){
+        if(!response[id]){
+          continue
+        }
+        const hit = response[id]
+        arr.push({
+          _id: id,
+          _source: {
+            _label: [hit.label],
+            description: [
+              '<p class="mt-4"><b>' +
+                this.$t('date') +
+                '</b>: ' +
+                hit.temporal +
+                '</p>' +
+                hit.xml,
+            ],
+            _thumbnail: [],
+            _url: [this.baseUrl + '/item/' + hit.objectID],
+          },
+        })
+      }
+      
+
+      this.moreLikeThisData = arr
+    },
     /*
     async getSimilarItems(){
 

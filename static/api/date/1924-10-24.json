@@ -5,18 +5,12 @@
         "小林順一郎",
         "小田切万寿之助"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/鮎川義介",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/加藤外松",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/小林順一郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/小田切万寿之助"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1479",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -27,30 +21,41 @@
     "date_lvl1": "1924-10",
     "date_lvl2": "1924-10-24",
     "description": "\n\n\n           廿四日\n          \n          （金）\n         \n\n\n\n\n             午前八―八半\n            \n\n\n              鮎川\n             \n\n              義介\n             \n\n            氏来約（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              加藤\n             \n\n              外松\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午零時半時\n            \n\n\n              小林\n             \n\n              順一郎\n             \n\n            氏ノ件（\n            \n             仏国\n            \n            大使館）\n           \n\n\n\n\n             午後二半時\n            \n\n             日本\n            \n            郵船会社ノ件（銀行クラブ）\n           \n\n\n\n\n             午後四半時\n            \n            銀行クラブ月例晩餐会催\n            \n\n              小田切\n             \n\n              万寿之助\n             \n\n            氏講演会（同クラブ）\n           \n\n\n",
-    "fullname": [
-        "\n              鮎川\n             \n              義介\n             ",
-        "\n              加藤\n             \n              外松\n             ",
-        "\n              小林\n             \n              順一郎\n             ",
-        "\n              小田切\n             \n              万寿之助\n             "
-    ],
     "label": "廿四日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0293",
     "objectID": "DKB20026m-0292",
     "prev": "DKB20026m-0291",
     "sort": "DKB20026m-0292",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "アスカ山邸",
         "仏国",
         "日本"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/仏国",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本"
-    ],
     "temporal": "1924-10-24",
+    "texts": [
+        "DKB20025m-0139",
+        "DKB20023m-0220",
+        "DKB20026m-0074",
+        "DKB20026m-0213",
+        "DKB20027m-0096",
+        "DKB20029m-0053",
+        "DKB20026m-0145",
+        "DKB20026m-0185",
+        "DKB20027m-0117",
+        "DKB20018m-0007",
+        "DKB20016m-0021",
+        "DKB20028m-0279",
+        "DKB20029m-0074",
+        "DKB20029m-0194",
+        "DKB20019m-0129",
+        "DKB20021m-0225",
+        "DKB20028m-0105",
+        "DKB20029m-0245",
+        "DKB20026m-0042",
+        "DKB20018m-0010"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20026m-0292\">\n<head>\n<date when=\"1924-10-24\">\n           廿四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"08:30:00\">\n             午前八―八半\n            </time>\n<persName corresp=\"#pers_鮎川義介\">\n<surname>\n              鮎川\n             </surname>\n<forename>\n              義介\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_加藤外松\">\n<surname>\n              加藤\n             </surname>\n<forename>\n              外松\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午零時半時\n            </time>\n<persName corresp=\"#pers_小林順一郎\">\n<surname>\n              小林\n             </surname>\n<forename>\n              順一郎\n             </forename>\n</persName>\n            氏ノ件（\n            <placeName corresp=\"#place_仏国\">\n             仏国\n            </placeName>\n            大使館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            郵船会社ノ件（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            銀行クラブ月例晩餐会催\n            <persName corresp=\"#pers_小田切万寿之助\">\n<surname>\n              小田切\n             </surname>\n<forename>\n              万寿之助\n             </forename>\n</persName>\n            氏講演会（同クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",

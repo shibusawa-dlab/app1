@@ -4,17 +4,12 @@
         "松方",
         "高橋是清"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/高桑与市",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/松方",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/高橋是清"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1310",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20021m 大正八年 1919"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20021m 大正八年 1919"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20021m 大正八年 1919",
     "date": {
         "lvl0": "1919",
@@ -25,26 +20,40 @@
     "date_lvl1": "1919-09",
     "date_lvl2": "1919-09-24",
     "description": "\n\n\n           廿四日\n          \n          （水）\n         \n\n\n\n            秋季皇霊祭\n           \n\n\n\n\n             午前八時\n            \n\n\n              高桑\n             \n\n              与市\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十時半\n            \n\n\n              松方\n             \n\n            侯爵ト御会見ノ約（\n            \n             三田\n            \n            邸）\n           \n\n\n\n\n             午前十一時半\n            \n\n\n              高橋\n             \n\n              是清\n             \n\n            氏ヲ御訪問（私邸）\n           \n\n\n",
-    "fullname": [
-        "\n              高桑\n             \n              与市\n             ",
-        "\n              高橋\n             \n              是清\n             "
-    ],
     "label": "廿四日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0238",
     "objectID": "DKB20021m-0237",
     "prev": "DKB20021m-0236",
     "sort": "DKB20021m-0237",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山公園",
         "三田"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園",
-        "https://shibusawa-dlab.github.io/lab1/api/place/三田"
-    ],
     "temporal": "1919-09-24",
+    "texts": [
+        "DKB20025m-0004",
+        "DKB20020m-0143",
+        "DKB20021m-0318",
+        "DKB20027m-0181",
+        "DKB20024m-0147",
+        "DKB20017m-0208",
+        "DKB20025m-0331",
+        "DKB20033m-0177",
+        "DKB20023m-0072",
+        "DKB20028m-0122",
+        "DKB20018m-0305",
+        "DKB20033m-0104",
+        "DKB20027m-0123",
+        "DKB20020m-0064",
+        "DKB20032m-0026",
+        "DKB20028m-0010",
+        "DKB20030m-0249",
+        "DKB20027m-0115",
+        "DKB20026m-0251",
+        "DKB20030m-0151"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20021m-0237\">\n<head>\n<date when=\"1919-09-24\">\n           廿四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n            秋季皇霊祭\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_高桑与市\">\n<surname>\n              高桑\n             </surname>\n<forename>\n              与市\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十時半\n            </time>\n<persName corresp=\"#pers_松方\">\n<surname>\n              松方\n             </surname>\n</persName>\n            侯爵ト御会見ノ約（\n            <placeName corresp=\"#place_三田\">\n             三田\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n<persName corresp=\"#pers_高橋是清\">\n<surname>\n              高橋\n             </surname>\n<forename>\n              是清\n             </forename>\n</persName>\n            氏ヲ御訪問（私邸）\n           </p>\n</event>\n</listEvent>\n</div>",

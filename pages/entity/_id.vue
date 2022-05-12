@@ -140,6 +140,7 @@ export default class PageCategory extends Vue {
     return Math.ceil(this.total / this.perPage)
   }
 
+  /*
   async getTotal() {
     const type = this.id === 'agential' ? 'Agent' : 'Place'
 
@@ -177,6 +178,7 @@ export default class PageCategory extends Vue {
 
     return results.data[0].c
   }
+  */
 
   search(){
     const index = this.index
@@ -194,8 +196,9 @@ export default class PageCategory extends Vue {
 
     let list = []
 
-    for(let label in index){
-      const obj = index[label]
+    for(let obj of index){
+      //const obj = index[label]
+      const label = obj.id
 
       if(keyword !== "" && !label.includes(keyword)){
         continue
@@ -237,6 +240,7 @@ export default class PageCategory extends Vue {
     this.loadingFlag = false
   }
 
+  /*
   async search2() {
     const id: any = this.$route.params.id
     this.id = id
@@ -305,10 +309,10 @@ export default class PageCategory extends Vue {
         const person: any = {
           label: obj.label + ' (' + obj.c.toLocaleString() + ')',
           path: {
-            /*
-            name: 'search',
-            query: queryObj,
-            */
+            
+            //name: 'search',
+            //query: queryObj,
+            
             name: 'entity-entity-id',
             params: {
               entity: tmp,
@@ -332,6 +336,7 @@ export default class PageCategory extends Vue {
       this.loadingFlag = false
     })
   }
+  */
 
   get title() {
     return this.$t(this.settings[this.$route.params.id].label)

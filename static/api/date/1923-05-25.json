@@ -2,15 +2,12 @@
     "agential": [
         "高田早苗"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/高田早苗"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1429",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -21,25 +18,40 @@
     "date_lvl1": "1923-05",
     "date_lvl2": "1923-05-25",
     "description": "\n\n\n           廿五日\n          \n          （金）\n         \n\n\n\n\n             午前八半―九時\n            \n\n\n              高田\n             \n\n              早苗\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後三半時\n            \n\n             東北\n            \n            振興会ノ件（銀行クラブ）\n           \n\n\n\n\n             午後五時\n            \n            帰一協会例会（如水会館）\n           \n\n\n",
-    "fullname": [
-        "\n              高田\n             \n              早苗\n             "
-    ],
     "label": "廿五日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0140",
     "objectID": "DKB20025m-0139",
     "prev": "DKB20025m-0138",
     "sort": "DKB20025m-0139",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸",
         "東北地方"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東北地方"
-    ],
     "temporal": "1923-05-25",
+    "texts": [
+        "DKB20024m-0091",
+        "DKB20027m-0161",
+        "DKB20022m-0030",
+        "DKB20030m-0267",
+        "DKB20023m-0142",
+        "DKB20031m-0254",
+        "DKB20018m-0007",
+        "DKB20020m-0087",
+        "DKB20020m-0203",
+        "DKB20031m-0129",
+        "DKB20032m-0057",
+        "DKB20030m-0055",
+        "DKB20019m-0144",
+        "DKB20024m-0180",
+        "DKB20030m-0079",
+        "DKB20017m-0101",
+        "DKB20022m-0194",
+        "DKB20018m-0028",
+        "DKB20031m-0132",
+        "DKB20028m-0141"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20025m-0139\">\n<head>\n<date when=\"1923-05-25\">\n           廿五日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"08:30:00\" to=\"09:00:00\">\n             午前八半―九時\n            </time>\n<persName corresp=\"#pers_高田早苗\">\n<surname>\n              高田\n             </surname>\n<forename>\n              早苗\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n<placeName corresp=\"#place_東北地方\">\n             東北\n            </placeName>\n            振興会ノ件（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            帰一協会例会（如水会館）\n           </p>\n</event>\n</listEvent>\n</div>",

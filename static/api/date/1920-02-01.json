@@ -2,15 +2,12 @@
     "agential": [
         "清水三男"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/清水三男"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1323",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -21,25 +18,40 @@
     "date_lvl1": "1920-02",
     "date_lvl2": "1920-02-01",
     "description": "\n\n\n           一日\n          \n          （日）\n         \n\n\n\n\n             午前八―九時\n            \n\n\n              清水\n             \n\n              三男\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n\n             埼玉\n            \n            学生誘掖会茶話会（同会）\n           \n\n\n",
-    "fullname": [
-        "\n              清水\n             \n              三男\n             "
-    ],
     "label": "一日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0031",
     "objectID": "DKB20022m-0030",
     "prev": "DKB20022m-0028",
     "sort": "DKB20022m-0030",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸",
         "埼玉"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/埼玉"
-    ],
     "temporal": "1920-02-01",
+    "texts": [
+        "DKB20018m-0139",
+        "DKB20018m-0007",
+        "DKB20019m-0258",
+        "DKB20018m-0305",
+        "DKB20027m-0182",
+        "DKB20025m-0306",
+        "DKB20030m-0007",
+        "DKB20024m-0238",
+        "DKB20031m-0129",
+        "DKB20020m-0087",
+        "DKB20020m-0203",
+        "DKB20027m-0132",
+        "DKB20019m-0168",
+        "DKB20029m-0217",
+        "DKB20030m-0165",
+        "DKB20018m-0028",
+        "DKB20031m-0132",
+        "DKB20026m-0247",
+        "DKB20028m-0141",
+        "DKB20020m-0008"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20022m-0030\">\n<head>\n<date when=\"1920-02-01\">\n           一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"09:00:00\">\n             午前八―九時\n            </time>\n<persName corresp=\"#pers_清水三男\">\n<surname>\n              清水\n             </surname>\n<forename>\n              三男\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会茶話会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",

@@ -2,9 +2,21 @@
     "edges": [
         {
             "color": "lightgrey",
-            "from": "沼野",
-            "to": "牛島",
+            "from": "早川",
+            "to": "園田",
+            "value": 19
+        },
+        {
+            "color": "lightgrey",
+            "from": "早川",
+            "to": "井上",
             "value": 11
+        },
+        {
+            "color": "lightgrey",
+            "from": "早川",
+            "to": "豊川",
+            "value": 27
         },
         {
             "color": "lightgrey",
@@ -20,33 +32,9 @@
         },
         {
             "color": "lightgrey",
-            "from": "早川",
-            "to": "井上",
-            "value": 11
-        },
-        {
-            "color": "lightgrey",
-            "from": "早川",
-            "to": "園田",
-            "value": 19
-        },
-        {
-            "color": "lightgrey",
-            "from": "早川",
-            "to": "豊川",
-            "value": 27
-        },
-        {
-            "color": "lightgrey",
             "from": "村井",
             "to": "大倉",
             "value": 10
-        },
-        {
-            "color": "lightgrey",
-            "from": "金子",
-            "to": "阪谷",
-            "value": 15
         },
         {
             "color": "lightgrey",
@@ -59,31 +47,21 @@
             "from": "金子",
             "to": "添田",
             "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "金子",
+            "to": "阪谷",
+            "value": 15
+        },
+        {
+            "color": "lightgrey",
+            "from": "沼野",
+            "to": "牛島",
+            "value": 11
         }
     ],
     "nodes": [
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 11,
-            "id": "沼野",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "沼野",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 11,
-            "id": "牛島",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "牛島",
-            "shape": "image"
-        },
         {
             "borderWidth": 4,
             "color": {
@@ -122,10 +100,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 15,
-            "id": "阪谷",
+            "count": 11,
+            "id": "沼野",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "阪谷",
+            "label": "沼野",
             "shape": "image"
         },
         {
@@ -133,10 +111,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 10,
-            "id": "添田",
+            "count": 11,
+            "id": "牛島",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "添田",
+            "label": "牛島",
             "shape": "image"
         },
         {
@@ -155,10 +133,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 19,
-            "id": "園田",
+            "count": 27,
+            "id": "豊川",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "園田",
+            "label": "豊川",
             "shape": "image"
         },
         {
@@ -188,10 +166,32 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 27,
-            "id": "豊川",
+            "count": 15,
+            "id": "阪谷",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "豊川",
+            "label": "阪谷",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 19,
+            "id": "園田",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "園田",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "id": "添田",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "添田",
             "shape": "image"
         },
         {

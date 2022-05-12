@@ -2,18 +2,6 @@
     "edges": [
         {
             "color": "lightgrey",
-            "from": "日下義雄",
-            "to": "佐々木勇之助",
-            "value": 10
-        },
-        {
-            "color": "lightgrey",
-            "from": "日下義雄",
-            "to": "竹内綱",
-            "value": 10
-        },
-        {
-            "color": "lightgrey",
             "from": "足立",
             "to": "佐々木",
             "value": 10
@@ -27,12 +15,6 @@
         {
             "color": "lightgrey",
             "from": "大川平三郎",
-            "to": "佐々木",
-            "value": 10
-        },
-        {
-            "color": "lightgrey",
-            "from": "大川平三郎",
             "to": "田中栄八郎",
             "value": 15
         },
@@ -40,6 +22,12 @@
             "color": "lightgrey",
             "from": "大川平三郎",
             "to": "桂",
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "大川平三郎",
+            "to": "佐々木",
             "value": 10
         },
         {
@@ -57,20 +45,8 @@
         {
             "color": "lightgrey",
             "from": "明石",
-            "to": "阪谷",
-            "value": 10
-        },
-        {
-            "color": "lightgrey",
-            "from": "明石",
-            "to": "愛子",
-            "value": 10
-        },
-        {
-            "color": "lightgrey",
-            "from": "明石",
             "to": "兼子",
-            "value": 19
+            "value": 20
         },
         {
             "color": "lightgrey",
@@ -81,14 +57,32 @@
         {
             "color": "lightgrey",
             "from": "明石",
+            "to": "井上",
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "明石",
             "to": "正雄",
             "value": 15
         },
         {
             "color": "lightgrey",
             "from": "明石",
-            "to": "井上",
+            "to": "阪谷",
+            "value": 11
+        },
+        {
+            "color": "lightgrey",
+            "from": "明石",
+            "to": "愛子",
             "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "愛子",
+            "to": "篤二",
+            "value": 11
         },
         {
             "color": "lightgrey",
@@ -105,29 +99,23 @@
         {
             "color": "lightgrey",
             "from": "愛子",
-            "to": "篤二",
+            "to": "穂積",
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "日下義雄",
+            "to": "佐々木勇之助",
             "value": 11
         },
         {
             "color": "lightgrey",
-            "from": "愛子",
-            "to": "穂積",
+            "from": "日下義雄",
+            "to": "竹内綱",
             "value": 10
         }
     ],
     "nodes": [
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 20,
-            "description": "\n     日下義雄（くさか よしお、嘉永4年12月25日（1852年1月16日） - 大正12年（1923年）3月18日）は、明治から大正時代の政治家、実業家。\n    ",
-            "id": "日下義雄",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Kusaka_Yoshio.jpg/244px-Kusaka_Yoshio.jpg",
-            "label": "日下義雄",
-            "shape": "image"
-        },
         {
             "borderWidth": 4,
             "color": {
@@ -178,7 +166,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 77,
+            "count": 79,
             "id": "明石",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "明石",
@@ -200,10 +188,11 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 10,
-            "id": "佐々木勇之助",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "佐々木勇之助",
+            "count": 21,
+            "description": "\n     日下義雄（くさか よしお、嘉永4年12月25日（1852年1月16日） - 大正12年（1923年）3月18日）は、明治から大正時代の政治家、実業家。\n    ",
+            "id": "日下義雄",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Kusaka_Yoshio.jpg/244px-Kusaka_Yoshio.jpg",
+            "label": "日下義雄",
             "shape": "image"
         },
         {
@@ -223,10 +212,42 @@
                 "border": "lightgreen"
             },
             "count": 10,
-            "description": "\n     竹内 綱（たけうち（たけのうち） つな、天保10年12月26日（1840年1月30日） - 大正11年（1922年）1月9日）は、日本の武士（土佐藩士）、実業家、政治家。内閣総理大臣を務めた吉田茂は五男、麻生太郎は外曾孫。\n    ",
-            "id": "竹内綱",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Tsuna_Takeuchi.jpg",
-            "label": "竹内綱",
+            "id": "大倉",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "大倉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 11,
+            "id": "佐々木勇之助",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "佐々木勇之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "id": "桂",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "桂",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 11,
+            "id": "篤二",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "篤二",
             "shape": "image"
         },
         {
@@ -245,10 +266,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 10,
-            "id": "大倉",
+            "count": 11,
+            "id": "阪谷",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "大倉",
+            "label": "阪谷",
             "shape": "image"
         },
         {
@@ -256,10 +277,21 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 64,
+            "count": 65,
             "id": "兼子",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "兼子",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 15,
+            "id": "田中栄八郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "田中栄八郎",
             "shape": "image"
         },
         {
@@ -279,42 +311,10 @@
                 "border": "lightgreen"
             },
             "count": 10,
-            "id": "阪谷",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "阪谷",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 11,
-            "id": "篤二",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "篤二",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 10,
-            "id": "桂",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "桂",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 15,
-            "id": "田中栄八郎",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "田中栄八郎",
+            "description": "\n     竹内 綱（たけうち（たけのうち） つな、天保10年12月26日（1840年1月30日） - 大正11年（1922年）1月9日）は、日本の武士（土佐藩士）、実業家、政治家。内閣総理大臣を務めた吉田茂は五男、麻生太郎は外曾孫。\n    ",
+            "id": "竹内綱",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Tsuna_Takeuchi.jpg",
+            "label": "竹内綱",
             "shape": "image"
         },
         {

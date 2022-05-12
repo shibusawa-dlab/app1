@@ -4,17 +4,12 @@
         "入江",
         "服部"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/中村",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/入江",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/服部"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1208",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -25,25 +20,41 @@
     "date_lvl1": "1916-06",
     "date_lvl2": "1916-06-27",
     "description": "\n\n\n           廿七日\n          \n          （火）\n         \n\n\n\n\n             午前八―九時\n            \n\n             丹波\n            \n            同仁会副会長等来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後三―午後四時\n            \n\n\n              中村\n             \n\n            杏堂氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n\n              入江\n             \n\n            東宮侍従長来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n            帰一協会\n            \n\n              服部\n             \n\n            博士歓迎会（中央亭）\n           \n\n\n",
-    "fullname": [],
     "label": "廿七日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0163",
     "objectID": "DKB20018m-0162",
     "prev": "DKB20018m-0161",
     "sort": "DKB20018m-0162",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "丹波",
         "飛鳥山邸",
         "日本橋兜町"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/丹波",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
-    ],
     "temporal": "1916-06-27",
+    "texts": [
+        "DKB20021m-0273",
+        "DKB20018m-0057",
+        "DKB20019m-0144",
+        "DKB20025m-0139",
+        "DKB20019m-0170",
+        "DKB20017m-0196",
+        "DKB20022m-0030",
+        "DKB20023m-0171",
+        "DKB20020m-0050",
+        "DKB20023m-0193",
+        "DKB20020m-0173",
+        "DKB20019m-0168",
+        "DKB20022m-0070",
+        "DKB20022m-0194",
+        "DKB20031m-0229",
+        "DKB20024m-0150",
+        "DKB20031m-0132",
+        "DKB20024m-0091",
+        "DKB20031m-0077",
+        "DKB20018m-0206"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20018m-0162\">\n<head>\n<date when=\"1916-06-27\">\n           廿七日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"09:00:00\">\n             午前八―九時\n            </time>\n<placeName corresp=\"#place_丹波\">\n             丹波\n            </placeName>\n            同仁会副会長等来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―午後四時\n            </time>\n<persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            杏堂氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_入江\">\n<surname>\n              入江\n             </surname>\n</persName>\n            東宮侍従長来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            帰一協会\n            <persName corresp=\"#pers_服部\">\n<surname>\n              服部\n             </surname>\n</persName>\n            博士歓迎会（中央亭）\n           </p>\n</event>\n</listEvent>\n</div>",

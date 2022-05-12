@@ -3,16 +3,12 @@
         "福島四郎",
         "白岩竜平"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/福島四郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/白岩竜平"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1336",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20022m 大正九年 1920"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20022m 大正九年 1920"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20022m 大正九年 1920",
     "date": {
         "lvl0": "1920",
@@ -23,28 +19,41 @@
     "date_lvl1": "1920-06",
     "date_lvl2": "1920-06-26",
     "description": "\n\n\n           廿六日\n          \n          （土）\n         \n\n\n\n            御引籠リ\n           \n\n\n\n\n             正午\n            \n            御同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午后二時\n            \n\n\n              福島\n             \n\n              四郎\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午后三時\n            \n\n\n              白岩\n             \n\n              竜平\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
-    "fullname": [
-        "\n              福島\n             \n              四郎\n             ",
-        "\n              白岩\n             \n              竜平\n             "
-    ],
     "label": "廿六日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0177",
     "objectID": "DKB20022m-0176",
     "prev": "DKB20022m-0175",
     "sort": "DKB20022m-0176",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町",
         "アスカ山",
         "飛鳥山邸"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
-    ],
     "temporal": "1920-06-26",
+    "texts": [
+        "DKB20020m-0107",
+        "DKB20025m-0228",
+        "DKB20022m-0169",
+        "DKB20022m-0120",
+        "DKB20025m-0327",
+        "DKB20021m-0273",
+        "DKB20025m-0004",
+        "DKB20027m-0071",
+        "DKB20030m-0034",
+        "DKB20017m-0131",
+        "DKB20022m-0055",
+        "DKB20025m-0332",
+        "DKB20027m-0151",
+        "DKB20022m-0336",
+        "DKB20019m-0251",
+        "DKB20022m-0137",
+        "DKB20027m-0042",
+        "DKB20022m-0147",
+        "DKB20022m-0209",
+        "DKB20024m-0266"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20022m-0176\">\n<head>\n<date when=\"1920-06-26\">\n           廿六日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n            御引籠リ\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n<persName corresp=\"#pers_福島四郎\">\n<surname>\n              福島\n             </surname>\n<forename>\n              四郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n<persName corresp=\"#pers_白岩竜平\">\n<surname>\n              白岩\n             </surname>\n<forename>\n              竜平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",

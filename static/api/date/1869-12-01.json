@@ -2,15 +2,12 @@
     "agential": [
         "植松与右衛門"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/植松与右衛門"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/71",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB10003m 自 明治二年十月二十一日 至同年 十一月十九日 1869"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB10003m 自 明治二年十月二十一日 至同年 十一月十九日 1869"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB10003m 自 明治二年十月二十一日 至同年 十一月十九日 1869",
     "date": {
         "lvl0": "1869",
@@ -21,27 +18,41 @@
     "date_lvl1": "1869-12",
     "date_lvl2": "1869-12-01",
     "description": "\n\n\n        （十月）廿八日\n       \n       晴\n      \n\n       早朝\n       \n        吉原\n       \n       を発し、\n       \n        原宿\n       \n       にて\n       \n\n         植松\n        \n\n         与右衛門\n        \n\n       といふ者の名園を一覧す\n       \n\n\n       有詩\n       \n       遺子何須書五車。慣家有法又堪誇。世間経年多少紛更事。不到園中濃淡花。\n       \n\n        沼津\n       \n       にて午餐、同所に知人の多けれど、心せかるゝまゝ其儘打過ぬ、薄暮三島駅に至り投宿\n      \n",
-    "fullname": [
-        "\n         植松\n        \n         与右衛門\n        "
-    ],
     "label": "（十月）廿八日              晴",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10003m-0010",
     "objectID": "DKB10003m-0009",
     "prev": "DKB10003m-0008",
     "sort": "DKB10003m-0009",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "吉原",
         "原宿",
         "沼津"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/吉原",
-        "https://shibusawa-dlab.github.io/lab1/api/place/原宿",
-        "https://shibusawa-dlab.github.io/lab1/api/place/沼津"
-    ],
     "temporal": "1869-12-01",
+    "texts": [
+        "DKB10003m-0008",
+        "DKB10002m-0046",
+        "DKB10001m-0077",
+        "DKB10003m-0011",
+        "DKB10004m-0006",
+        "DKB10002m-0013",
+        "DKB10001m-0017",
+        "DKB10002m-0033",
+        "DKB10003m-0021",
+        "DKB10002m-0006",
+        "DKB10002m-0067",
+        "DKB10002m-0022",
+        "DKB10003m-0007",
+        "DKB10001m-0011",
+        "DKB10002m-0034",
+        "DKB10002m-0068",
+        "DKB10002m-0021",
+        "DKB10005m-0028",
+        "DKB10008m-0141",
+        "DKB10007m-0002"
+    ],
     "time": {},
     "type": "diary-entry",
     "xml": "<div type=\"diary-entry\" xml:id=\"DKB10003m-0009\">\n<head>\n<date evidence=\"year inferenced, month\" type=\"旧暦\" when=\"1869-12-01\">\n        （十月）廿八日\n       </date>\n       晴\n      </head>\n<p>\n       早朝\n       <placeName corresp=\"#place_吉原\">\n        吉原\n       </placeName>\n       を発し、\n       <placeName corresp=\"#place_原宿\">\n        原宿\n       </placeName>\n       にて\n       <persName corresp=\"#pers_植松与右衛門\">\n<surname>\n         植松\n        </surname>\n<forename>\n         与右衛門\n        </forename>\n</persName>\n       といふ者の名園を一覧す\n       <lb/>\n<pb corresp=\"#pageB1046\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/72/full/max/0/default.jpg\" n=\"B1046\" source=\"#pageB1046\"/>\n<lb/>\n       有詩\n       <lb/>\n       遺子何須書五車。慣家有法又堪誇。世間経年多少紛更事。不到園中濃淡花。\n       <lb/>\n<placeName corresp=\"#place_沼津\">\n        沼津\n       </placeName>\n       にて午餐、同所に知人の多けれど、心せかるゝまゝ其儘打過ぬ、薄暮三島駅に至り投宿\n      </p>\n</div>",

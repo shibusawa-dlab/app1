@@ -3,26 +3,8 @@
         {
             "color": "lightgrey",
             "from": "大隈",
-            "to": "阪谷",
-            "value": 21
-        },
-        {
-            "color": "lightgrey",
-            "from": "大隈",
-            "to": "徳川",
-            "value": 17
-        },
-        {
-            "color": "lightgrey",
-            "from": "大隈",
-            "to": "中野",
-            "value": 15
-        },
-        {
-            "color": "lightgrey",
-            "from": "大隈",
-            "to": "森村",
-            "value": 17
+            "to": "伊藤",
+            "value": 10
         },
         {
             "color": "lightgrey",
@@ -39,14 +21,14 @@
         {
             "color": "lightgrey",
             "from": "大隈",
-            "to": "成瀬",
-            "value": 18
+            "to": "井上",
+            "value": 16
         },
         {
             "color": "lightgrey",
             "from": "大隈",
-            "to": "高田",
-            "value": 10
+            "to": "成瀬",
+            "value": 18
         },
         {
             "color": "lightgrey",
@@ -57,19 +39,7 @@
         {
             "color": "lightgrey",
             "from": "大隈",
-            "to": "井上",
-            "value": 16
-        },
-        {
-            "color": "lightgrey",
-            "from": "大隈",
             "to": "桂",
-            "value": 10
-        },
-        {
-            "color": "lightgrey",
-            "from": "大隈",
-            "to": "伊藤",
             "value": 10
         },
         {
@@ -80,9 +50,33 @@
         },
         {
             "color": "lightgrey",
-            "from": "成瀬仁蔵",
-            "to": "中野武営",
-            "value": 11
+            "from": "大隈",
+            "to": "阪谷",
+            "value": 21
+        },
+        {
+            "color": "lightgrey",
+            "from": "大隈",
+            "to": "高田",
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "大隈",
+            "to": "中野",
+            "value": 15
+        },
+        {
+            "color": "lightgrey",
+            "from": "大隈",
+            "to": "森村",
+            "value": 17
+        },
+        {
+            "color": "lightgrey",
+            "from": "大隈",
+            "to": "徳川",
+            "value": 17
         },
         {
             "color": "lightgrey",
@@ -95,6 +89,12 @@
             "from": "成瀬仁蔵",
             "to": "佐々木",
             "value": 20
+        },
+        {
+            "color": "lightgrey",
+            "from": "成瀬仁蔵",
+            "to": "中野武営",
+            "value": 11
         }
     ],
     "nodes": [
@@ -126,43 +126,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 21,
-            "id": "阪谷",
+            "count": 10,
+            "id": "伊藤",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "阪谷",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 17,
-            "id": "徳川",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "徳川",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 15,
-            "id": "中野",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "中野",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 17,
-            "id": "森村",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "森村",
+            "label": "伊藤",
             "shape": "image"
         },
         {
@@ -182,11 +149,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 11,
-            "description": "\n     中野 武営（なかの たけなか、なかの ぶえい、嘉永元年1月3日（1848年2月7日） - 大正7年（1918年）10月8日）は、明治・大正時代の官僚出身政治家、実業家。幼名は「権之助」または「作造」。号は「随郷」。\n    ",
-            "id": "中野武営",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nakano_Takenaka.jpg/205px-Nakano_Takenaka.jpg",
-            "label": "中野武営",
+            "count": 33,
+            "id": "井上",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "井上",
             "shape": "image"
         },
         {
@@ -216,32 +182,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 10,
-            "id": "高田",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "高田",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
             "count": 15,
             "id": "兼子",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "兼子",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 33,
-            "id": "井上",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "井上",
             "shape": "image"
         },
         {
@@ -260,10 +204,65 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 10,
-            "id": "伊藤",
+            "count": 11,
+            "id": "西園寺",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "伊藤",
+            "label": "西園寺",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 21,
+            "id": "阪谷",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "阪谷",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "id": "高田",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "高田",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 15,
+            "id": "中野",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "中野",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 17,
+            "id": "森村",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "森村",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 17,
+            "id": "徳川",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "徳川",
             "shape": "image"
         },
         {
@@ -272,9 +271,10 @@
                 "border": "lightgreen"
             },
             "count": 11,
-            "id": "西園寺",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "西園寺",
+            "description": "\n     中野 武営（なかの たけなか、なかの ぶえい、嘉永元年1月3日（1848年2月7日） - 大正7年（1918年）10月8日）は、明治・大正時代の官僚出身政治家、実業家。幼名は「権之助」または「作造」。号は「随郷」。\n    ",
+            "id": "中野武営",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nakano_Takenaka.jpg/205px-Nakano_Takenaka.jpg",
+            "label": "中野武営",
             "shape": "image"
         }
     ]

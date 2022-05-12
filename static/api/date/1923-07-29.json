@@ -1,12 +1,11 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1437",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -17,23 +16,40 @@
     "date_lvl1": "1923-07",
     "date_lvl2": "1923-07-29",
     "description": "\n\n\n           廿九日\n          \n          （日）\n         \n\n\n\n\n             午前八―九時\n            \n\n             日高\n            \n            丙子郎氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n",
-    "fullname": [],
     "label": "廿九日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0207",
     "objectID": "DKB20025m-0206",
     "prev": "DKB20025m-0205",
     "sort": "DKB20025m-0206",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日高",
         "飛鳥山公園"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日高",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園"
-    ],
     "temporal": "1923-07-29",
+    "texts": [
+        "DKB20031m-0177",
+        "DKB20031m-0017",
+        "DKB20020m-0203",
+        "DKB20030m-0116",
+        "DKB20032m-0141",
+        "DKB20020m-0198",
+        "DKB20022m-0239",
+        "DKB20020m-0087",
+        "DKB20027m-0038",
+        "DKB20022m-0210",
+        "DKB20032m-0182",
+        "DKB20020m-0018",
+        "DKB20032m-0027",
+        "DKB20031m-0132",
+        "DKB20018m-0014",
+        "DKB20019m-0204",
+        "DKB20027m-0132",
+        "DKB20031m-0076",
+        "DKB20032m-0057",
+        "DKB20033m-0164"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20025m-0206\">\n<head>\n<date when=\"1923-07-29\">\n           廿九日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"09:00:00\">\n             午前八―九時\n            </time>\n<placeName corresp=\"#place_日高\">\n             日高\n            </placeName>\n            丙子郎氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",

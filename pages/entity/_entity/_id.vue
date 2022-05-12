@@ -20,9 +20,9 @@
       </p>
 
       <div class="text-center my-5">
-        <v-tooltip bottom v-if="rdf">
+        <v-tooltip bottom v-if="rdf && false">
           <template #activator="{ on }">
-            <v-btn class="mr-5" :href="uri" icon v-on="on"
+            <v-btn small class="mr-5" :href="uri" icon v-on="on"
               ><v-img
                 contain
                 width="30px"
@@ -178,9 +178,11 @@ export default {
 
       const response = await $axios.$get(process.env.BASE_URL + "/data/docs.json");
 
+      /*
       const results = {
         hits: []
       }
+      */
 
       const facetsMap = {}
 
@@ -364,12 +366,22 @@ export default {
     let results = await axios.get(this.baseUrl+"/data/entity.json")
     results = results.data
 
-    this.map = results
-
     const id = this.field
     const tmp = id === 'agential' ? id : 'spatial'
 
-    this.index = results[tmp]
+    const map = {}
+
+    for(const key in results){
+      const tmp = {}
+      for(const item of results[key]){
+        tmp[item.id] = item
+      }
+      map[key] = tmp
+    }
+
+    //agentialとspatialの両方
+    this.map = map
+    this.index = map[tmp]
     
     this.getInformation()
 
@@ -379,6 +391,7 @@ export default {
 
   methods: {
     async getInformation(){
+      console.log("getInformation")
 
       const map = {
         spatial: 'place',
@@ -387,44 +400,18 @@ export default {
       }
 
       let id = this.id
+      /*
       if (id === '兜町') {
         id = '日本橋兜町'
       }
+      */
 
       const uri = "https://www.kanzaki.com/works/2014/pub/ld-browser?u=" + encodeURIComponent(this.baseUrl + '/api/' + map[this.field] + '/' + id) + ".json&t=jsonld"
       this.uri = uri
 
-      /*
-      const query = `
-        PREFIX schema: <http://schema.org/>
-        PREFIX type: <https://jpsearch.go.jp/term/type/>
-        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-        PREFIX owl: <http://www.w3.org/2002/07/owl#>
-        PREFIX dct: <http://purl.org/dc/terms/>
-        PREFIX hpdb: <https://w3id.org/hpdb/api/>
-        PREFIX sh: <http://www.w3.org/ns/shacl#>
-        SELECT DISTINCT * WHERE {
-          ?s rdfs:label ?label .
-          filter (?s = <${uri}>)
-          optional { ?s schema:description ?description }
-          optional { ?s schema:image ?image }
-        }
-        LIMIT 1
-      `
-
-      let url = process.env.endpoint + '?query='
-
-      url = url + encodeURIComponent(query) + '&output=json'
-
-      const res = await axios.get(url)
-      const results = res.data
-      this.entities = results
-      */
-
       const index = this.index
+
+      console.log({index})
 
       const entities = []
 
@@ -439,21 +426,7 @@ export default {
     async getRelatedItems(field = 'spatial') {
       const id = this.id
 
-      // const field = this.$route.params.entity
-
-      /*
-      const client = algoliasearch(config.appId, config.apiKey)
-      const index = client.initIndex(this.index) // _temporal_asc
-
-      const facets = await index.searchForFacetValues(field, '', {
-        filters: this.field + ':' + id, // 重要。条件のほうはentityに基づく
-        maxFacetHits: 10,
-      })
-      */
-
       const index = this.map[field]
-
-      console.log({index})
 
       let response = await axios.get(process.env.BASE_URL + "/data/docs.json");
       response = response.data

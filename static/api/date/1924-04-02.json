@@ -3,16 +3,12 @@
         "福原有信",
         "徳川"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/福原有信",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1459",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -23,25 +19,40 @@
     "date_lvl1": "1924-04",
     "date_lvl2": "1924-04-02",
     "description": "\n\n\n           二日\n          \n          （水）\n         \n\n\n\n\n             午前九時―十時\n            \n            故\n            \n\n              福原\n             \n\n              有信\n             \n\n            氏告別式（青山斎場）\n           \n\n\n\n\n             午前十―十一時\n            \n            文部大臣ヲ御訪問ノ約（文部省）\n           \n\n\n\n\n             午後三時\n            \n            張孝若氏一行来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後四時―五時\n            \n\n\n              徳川\n             \n\n            公爵ヲ御訪問（\n            \n             千駄ケ谷\n            \n            同邸）\n           \n\n\n",
-    "fullname": [
-        "\n              福原\n             \n              有信\n             "
-    ],
     "label": "二日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0097",
     "objectID": "DKB20026m-0096",
     "prev": "DKB20026m-0095",
     "sort": "DKB20026m-0096",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山公園",
         "千駄ヶ谷"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園",
-        "https://shibusawa-dlab.github.io/lab1/api/place/千駄ヶ谷"
-    ],
     "temporal": "1924-04-02",
+    "texts": [
+        "DKB20022m-0327",
+        "DKB20028m-0099",
+        "DKB20020m-0143",
+        "DKB20023m-0040",
+        "DKB20027m-0115",
+        "DKB20023m-0217",
+        "DKB20023m-0235",
+        "DKB20024m-0077",
+        "DKB20028m-0033",
+        "DKB20027m-0247",
+        "DKB20028m-0122",
+        "DKB20032m-0041",
+        "DKB20024m-0193",
+        "DKB20021m-0154",
+        "DKB20023m-0229",
+        "DKB20021m-0318",
+        "DKB20028m-0100",
+        "DKB20031m-0181",
+        "DKB20022m-0148",
+        "DKB20022m-0209"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20026m-0096\">\n<head>\n<date when=\"1924-04-02\">\n           二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"09:00:00\" to=\"10:00:00\">\n             午前九時―十時\n            </time>\n            故\n            <persName corresp=\"#pers_福原有信\">\n<surname>\n              福原\n             </surname>\n<forename>\n              有信\n             </forename>\n</persName>\n            氏告別式（青山斎場）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"11:00:00\">\n             午前十―十一時\n            </time>\n            文部大臣ヲ御訪問ノ約（文部省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            張孝若氏一行来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"16:00:00\" to=\"17:00:00\">\n             午後四時―五時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公爵ヲ御訪問（\n            <placeName corresp=\"#place_千駄ヶ谷\">\n             千駄ケ谷\n            </placeName>\n            同邸）\n           </p>\n</event>\n</listEvent>\n</div>",

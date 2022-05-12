@@ -4,17 +4,12 @@
         "栗塚竜子",
         "大川平三郎"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/宮下",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/栗塚竜子",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/大川平三郎"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1400",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20024m 大正十一年 1922"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20024m 大正十一年 1922"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20024m 大正十一年 1922",
     "date": {
         "lvl0": "1922",
@@ -25,17 +20,13 @@
     "date_lvl1": "1922-08",
     "date_lvl2": "1922-08-04",
     "description": "\n\n\n           四日\n          \n          （金）\n         \n\n\n\n\n             朝\n            \n            大\n            \n             日本\n            \n            雄弁会\n            \n\n              宮下\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十頃時\n            \n\n\n              栗塚\n             \n\n              竜子\n             \n\n            女史依頼\n            \n             支那\n            \n            児童\n            \n             飛鳥山\n            \n            邸参観\n           \n\n\n\n\n             午前十一時\n            \n            協調会催、農村問題懇談会（銀行集会所）\n           \n\n\n\n\n             午後二―三時\n            \n\n\n              大川\n             \n\n              平三郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            外務大臣御訪問（外務省）\n           \n\n\n",
-    "fullname": [
-        "\n              栗塚\n             \n              竜子\n             ",
-        "\n              大川\n             \n              平三郎\n             "
-    ],
     "label": "四日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0193",
     "objectID": "DKB20024m-0192",
     "prev": "DKB20024m-0191",
     "sort": "DKB20024m-0192",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本",
         "飛鳥山邸",
@@ -43,14 +34,29 @@
         "飛鳥山公園",
         "日本橋兜町"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/支那",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
-    ],
     "temporal": "1922-08-04",
+    "texts": [
+        "DKB20020m-0008",
+        "DKB20025m-0147",
+        "DKB20017m-0058",
+        "DKB20022m-0070",
+        "DKB20024m-0007",
+        "DKB20023m-0192",
+        "DKB20022m-0032",
+        "DKB20017m-0015",
+        "DKB20031m-0058",
+        "DKB20019m-0153",
+        "DKB20021m-0159",
+        "DKB20026m-0127",
+        "DKB20029m-0088",
+        "DKB20020m-0106",
+        "DKB20033m-0134",
+        "DKB20023m-0170",
+        "DKB20017m-0131",
+        "DKB20021m-0273",
+        "DKB20025m-0197",
+        "DKB20029m-0257"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20024m-0192\">\n<head>\n<date when=\"1922-08-04\">\n           四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             朝\n            </time>\n            大\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            雄弁会\n            <persName corresp=\"#pers_宮下\">\n<surname>\n              宮下\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十頃時\n            </time>\n<persName corresp=\"#pers_栗塚竜子\">\n<surname>\n              栗塚\n             </surname>\n<forename>\n              竜子\n             </forename>\n</persName>\n            女史依頼\n            <placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            児童\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸参観\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            協調会催、農村問題懇談会（銀行集会所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―三時\n            </time>\n<persName corresp=\"#pers_大川平三郎\">\n<surname>\n              大川\n             </surname>\n<forename>\n              平三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            外務大臣御訪問（外務省）\n           </p>\n</event>\n</listEvent>\n</div>",

@@ -15,8 +15,26 @@
         {
             "color": "lightgrey",
             "from": "増田",
+            "to": "増田明六",
+            "value": 13
+        },
+        {
+            "color": "lightgrey",
+            "from": "増田",
+            "to": "阪谷",
+            "value": 11
+        },
+        {
+            "color": "lightgrey",
+            "from": "増田",
             "to": "佐々木",
             "value": 13
+        },
+        {
+            "color": "lightgrey",
+            "from": "増田",
+            "to": "八十島",
+            "value": 10
         },
         {
             "color": "lightgrey",
@@ -29,24 +47,6 @@
             "from": "増田",
             "to": "白石",
             "value": 22
-        },
-        {
-            "color": "lightgrey",
-            "from": "増田",
-            "to": "八十島",
-            "value": 10
-        },
-        {
-            "color": "lightgrey",
-            "from": "増田",
-            "to": "阪谷",
-            "value": 11
-        },
-        {
-            "color": "lightgrey",
-            "from": "増田",
-            "to": "増田明六",
-            "value": 13
         },
         {
             "color": "lightgrey",
@@ -94,13 +94,7 @@
             "color": "lightgrey",
             "from": "森村",
             "to": "成瀬",
-            "value": 11
-        },
-        {
-            "color": "lightgrey",
-            "from": "松方",
-            "to": "佐々木",
-            "value": 15
+            "value": 12
         },
         {
             "color": "lightgrey",
@@ -117,6 +111,12 @@
         {
             "color": "lightgrey",
             "from": "松方",
+            "to": "佐々木",
+            "value": 15
+        },
+        {
+            "color": "lightgrey",
+            "from": "松方",
             "to": "桂",
             "value": 12
         },
@@ -129,14 +129,8 @@
         {
             "color": "lightgrey",
             "from": "中野",
-            "to": "阪谷",
-            "value": 21
-        },
-        {
-            "color": "lightgrey",
-            "from": "中野",
-            "to": "添田",
-            "value": 16
+            "to": "伊藤",
+            "value": 13
         },
         {
             "color": "lightgrey",
@@ -153,14 +147,20 @@
         {
             "color": "lightgrey",
             "from": "中野",
-            "to": "伊藤",
-            "value": 13
+            "to": "添田",
+            "value": 16
         },
         {
             "color": "lightgrey",
             "from": "中野",
             "to": "堀越",
             "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "中野",
+            "to": "阪谷",
+            "value": 21
         },
         {
             "color": "lightgrey",
@@ -241,7 +241,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 28,
+            "count": 29,
             "id": "森村",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "森村",
@@ -285,10 +285,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 15,
-            "id": "和田",
+            "count": 54,
+            "id": "佐々木",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "和田",
+            "label": "佐々木",
             "shape": "image"
         },
         {
@@ -307,10 +307,32 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 32,
-            "id": "大隈",
+            "count": 13,
+            "id": "伊藤",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "大隈",
+            "label": "伊藤",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 12,
+            "id": "成瀬",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "成瀬",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 11,
+            "id": "堀井",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "堀井",
             "shape": "image"
         },
         {
@@ -322,6 +344,39 @@
             "id": "井上",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "井上",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "id": "堀越",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "堀越",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 15,
+            "id": "和田",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "和田",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 32,
+            "id": "大隈",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "大隈",
             "shape": "image"
         },
         {
@@ -351,65 +406,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 11,
-            "id": "成瀬",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "成瀬",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
             "count": 32,
             "id": "阪谷",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "阪谷",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 54,
-            "id": "佐々木",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "佐々木",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 13,
-            "id": "伊藤",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "伊藤",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 11,
-            "id": "堀井",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "堀井",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 10,
-            "id": "堀越",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "堀越",
             "shape": "image"
         },
         {

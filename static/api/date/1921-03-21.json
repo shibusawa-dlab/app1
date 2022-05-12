@@ -2,15 +2,12 @@
     "agential": [
         "小貫修一郎"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/小貫修一郎"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1356",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20023m 大正十年　1921"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20023m 大正十年　1921"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20023m 大正十年　1921",
     "date": {
         "lvl0": "1921",
@@ -21,23 +18,39 @@
     "date_lvl1": "1921-03",
     "date_lvl2": "1921-03-21",
     "description": "\n\n\n           廿一日\n          \n          （月）\n         \n\n\n\n            春季皇霊祭\n           \n\n\n\n\n             午前八時\n            \n\n\n              小貫\n             \n\n              修一郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n            国際平和協会発会式（帝国ホテル）\n           \n\n\n",
-    "fullname": [
-        "\n              小貫\n             \n              修一郎\n             "
-    ],
     "label": "廿一日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0073",
     "objectID": "DKB20023m-0072",
     "prev": "DKB20023m-0071",
     "sort": "DKB20023m-0072",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
-    ],
     "temporal": "1921-03-21",
+    "texts": [
+        "DKB20020m-0064",
+        "DKB20020m-0018",
+        "DKB20025m-0331",
+        "DKB20032m-0141",
+        "DKB20033m-0096",
+        "DKB20017m-0101",
+        "DKB20018m-0305",
+        "DKB20020m-0203",
+        "DKB20022m-0210",
+        "DKB20025m-0235",
+        "DKB20018m-0028",
+        "DKB20027m-0182",
+        "DKB20031m-0132",
+        "DKB20028m-0141",
+        "DKB20030m-0151",
+        "DKB20019m-0175",
+        "DKB20029m-0217",
+        "DKB20032m-0126",
+        "DKB20033m-0168",
+        "DKB20021m-0157"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20023m-0072\">\n<head>\n<date when=\"1921-03-21\">\n           廿一日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n            春季皇霊祭\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_小貫修一郎\">\n<surname>\n              小貫\n             </surname>\n<forename>\n              修一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            国際平和協会発会式（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",

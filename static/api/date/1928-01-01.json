@@ -1,12 +1,11 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1569",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20030m 昭和三年 1928"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20030m 昭和三年 1928"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20030m 昭和三年 1928",
     "date": {
         "lvl0": "1928",
@@ -17,20 +16,38 @@
     "date_lvl1": "1928-01",
     "date_lvl2": "1928-01-01",
     "description": "\n\n\n           一日\n          \n          （日）\n         \n\n\n\n            四方拝\n           \n\n\n\n\n             午前九時\n            \n            事務所員一同来邸（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n            終テ\n            \n             第一銀行\n            \n            ニ御出向\n           \n\n\n",
-    "fullname": [],
     "label": "一日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20030m-0003",
     "objectID": "DKB20030m-0001",
     "sort": "DKB20030m-0001",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
-    ],
     "temporal": "1928-01-01",
+    "texts": [
+        "DKB20032m-0001",
+        "DKB20032m-0139",
+        "DKB20029m-0061",
+        "DKB20020m-0269",
+        "DKB20032m-0136",
+        "DKB20031m-0215",
+        "DKB20019m-0001",
+        "DKB20032m-0142",
+        "DKB20030m-0203",
+        "DKB20033m-0047",
+        "DKB20021m-0051",
+        "DKB20031m-0175",
+        "DKB20024m-0287",
+        "DKB20031m-0196",
+        "DKB20028m-0122",
+        "DKB20022m-0137",
+        "DKB20025m-0248",
+        "DKB20031m-0206",
+        "DKB20031m-0225",
+        "DKB20031m-0015"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20030m-0001\">\n<head>\n<date when=\"1928-01-01\">\n           一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n            四方拝\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            事務所員一同来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n            終テ\n            <orgName>\n             第一銀行\n            </orgName>\n            ニ御出向\n           </p>\n</event>\n</listEvent>\n</div>",

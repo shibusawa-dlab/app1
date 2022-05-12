@@ -2,21 +2,21 @@
     "edges": [
         {
             "color": "lightgrey",
-            "from": "瓜生震",
-            "to": "益田孝",
+            "from": "近藤",
+            "to": "井上",
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "近藤",
+            "to": "佐々木",
             "value": 11
         },
         {
             "color": "lightgrey",
             "from": "近藤",
-            "to": "添田",
-            "value": 12
-        },
-        {
-            "color": "lightgrey",
-            "from": "近藤",
-            "to": "井上",
-            "value": 10
+            "to": "大倉",
+            "value": 18
         },
         {
             "color": "lightgrey",
@@ -33,17 +33,28 @@
         {
             "color": "lightgrey",
             "from": "近藤",
-            "to": "佐々木",
-            "value": 11
+            "to": "添田",
+            "value": 12
         },
         {
             "color": "lightgrey",
-            "from": "近藤",
-            "to": "大倉",
-            "value": 18
+            "from": "瓜生震",
+            "to": "益田孝",
+            "value": 11
         }
     ],
     "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 71,
+            "id": "近藤",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "近藤",
+            "shape": "image"
+        },
         {
             "borderWidth": 4,
             "color": {
@@ -60,10 +71,32 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 71,
-            "id": "近藤",
+            "count": 11,
+            "id": "佐々木",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "近藤",
+            "label": "佐々木",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "id": "井上",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "井上",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 12,
+            "id": "添田",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "添田",
             "shape": "image"
         },
         {
@@ -83,28 +116,6 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 10,
-            "id": "加藤",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "加藤",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 10,
-            "id": "井上",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "井上",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
             "count": 18,
             "id": "大倉",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
@@ -116,21 +127,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 11,
-            "id": "佐々木",
+            "count": 10,
+            "id": "加藤",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "佐々木",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 12,
-            "id": "添田",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "添田",
+            "label": "加藤",
             "shape": "image"
         },
         {

@@ -4,17 +4,12 @@
         "増子",
         "杉山"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/平沼",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/増子",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/杉山"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1283",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20020m 大正七年 1918"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20020m 大正七年 1918"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20020m 大正七年 1918",
     "date": {
         "lvl0": "1918",
@@ -25,21 +20,39 @@
     "date_lvl1": "1918-11",
     "date_lvl2": "1918-11-23",
     "description": "\n\n\n           廿三日\n          \n          （土）\n         \n\n\n\n            新嘗祭\n           \n\n\n\n\n             午前八時\n            \n\n\n              平沼\n             \n\n            、\n            \n\n              増子\n             \n\n            、\n            \n\n              杉山\n             \n\n            三氏\n            \n             飛鳥山\n            \n            ニ来約\n           \n\n\n\n\n             午後三時\n            \n            米大使ヲ御訪問（米大使館）\n           \n\n\n",
-    "fullname": [],
     "label": "廿三日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0307",
     "objectID": "DKB20020m-0306",
     "prev": "DKB20020m-0305",
     "sort": "DKB20020m-0306",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山公園"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園"
-    ],
     "temporal": "1918-11-23",
+    "texts": [
+        "DKB20030m-0253",
+        "DKB20025m-0304",
+        "DKB20019m-0337",
+        "DKB20018m-0247",
+        "DKB20030m-0116",
+        "DKB20021m-0122",
+        "DKB20022m-0196",
+        "DKB20022m-0209",
+        "DKB20031m-0256",
+        "DKB20032m-0122",
+        "DKB20032m-0135",
+        "DKB20020m-0018",
+        "DKB20018m-0241",
+        "DKB20031m-0097",
+        "DKB20023m-0229",
+        "DKB20024m-0147",
+        "DKB20028m-0231",
+        "DKB20021m-0205",
+        "DKB20023m-0140",
+        "DKB20028m-0092"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20020m-0306\">\n<head>\n<date when=\"1918-11-23\">\n           廿三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n            新嘗祭\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_平沼\">\n<surname>\n              平沼\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_増子\">\n<surname>\n              増子\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_杉山\">\n<surname>\n              杉山\n             </surname>\n</persName>\n            三氏\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            米大使ヲ御訪問（米大使館）\n           </p>\n</event>\n</listEvent>\n</div>",

@@ -4,17 +4,12 @@
         "中村",
         "渋沢"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/角田柳作",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/中村",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1605",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20031m 昭和四年 1929"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20031m 昭和四年 1929"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20031m 昭和四年 1929",
     "date": {
         "lvl0": "1929",
@@ -25,27 +20,41 @@
     "date_lvl1": "1929-11",
     "date_lvl2": "1929-11-26",
     "description": "\n\n\n           廿六日\n          \n          （火）\n         \n\n\n\n\n             午前九―十時\n            \n\n\n              角田\n             \n\n              柳作\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n            協調会\n            \n\n              中村\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n             東京\n            \n            女学館評議員会（\n            \n\n              渋沢\n             \n\n            事務所）\n           \n\n\n",
-    "fullname": [
-        "\n              角田\n             \n              柳作\n             "
-    ],
     "label": "廿六日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20031m-0233",
     "objectID": "DKB20031m-0231",
     "prev": "DKB20031m-0230",
     "sort": "DKB20031m-0231",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸",
         "飛鳥山公園",
         "東京"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
-    ],
     "temporal": "1929-11-26",
+    "texts": [
+        "DKB20033m-0036",
+        "DKB20033m-0045",
+        "DKB20032m-0143",
+        "DKB20031m-0208",
+        "DKB20032m-0088",
+        "DKB20020m-0166",
+        "DKB20029m-0333",
+        "DKB20030m-0258",
+        "DKB20018m-0014",
+        "DKB20027m-0038",
+        "DKB20018m-0305",
+        "DKB20030m-0047",
+        "DKB20031m-0128",
+        "DKB20026m-0028",
+        "DKB20032m-0054",
+        "DKB20026m-0247",
+        "DKB20030m-0151",
+        "DKB20025m-0331",
+        "DKB20032m-0081",
+        "DKB20025m-0274"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20031m-0231\">\n<head>\n<date when=\"1929-11-26\">\n           廿六日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"09:00:00\" to=\"10:00:00\">\n             午前九―十時\n            </time>\n<persName corresp=\"#pers_角田柳作\">\n<surname>\n              角田\n             </surname>\n<forename>\n              柳作\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n            協調会\n            <persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            女学館評議員会（\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            事務所）\n           </p>\n</event>\n</listEvent>\n</div>",

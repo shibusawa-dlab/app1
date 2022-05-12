@@ -1,12 +1,11 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/358",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB10012m 自 明治三十六年十一月 至 明治三十七年四月 1903―1904"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB10012m 自 明治三十六年十一月 至 明治三十七年四月 1903―1904"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB10012m 自 明治三十六年十一月 至 明治三十七年四月 1903―1904",
     "date": {
         "lvl0": "1903",
@@ -17,23 +16,40 @@
     "date_lvl1": "1903-11",
     "date_lvl2": "1903-11-20",
     "description": "\n\n\n        十一月廿日\n       \n\n\n       曇、\n       \n        午前七時\n       \n       起床、朝飧後\n       \n        日本銀行\n       \n       ニ抵リ幣制会議ニ出席ス、\n       \n        十二時\n       \n       畢テ\n       \n        兜町\n       \n       事務所ニ抵リ来人ニ接ス、夜\n       \n        七時\n       \n\n        浜町\n       \n       宅ニ帰宿ス\n      \n",
-    "fullname": [],
     "label": "十一月廿日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10012m-0019",
     "objectID": "DKB10012m-0018",
     "prev": "DKB10012m-0017",
     "sort": "DKB10012m-0018",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "日本橋兜町",
         "浜町"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/浜町"
-    ],
     "temporal": "1903-11-20",
+    "texts": [
+        "DKB10012m-0008",
+        "DKB10012m-0009",
+        "DKB10011m-0318",
+        "DKB10012m-0010",
+        "DKB10011m-0213",
+        "DKB10011m-0416",
+        "DKB10010m-0228",
+        "DKB10012m-0017",
+        "DKB10011m-0282",
+        "DKB10016m-0218",
+        "DKB10011m-0261",
+        "DKB10011m-0207",
+        "DKB10011m-0095",
+        "DKB10011m-0121",
+        "DKB10011m-0127",
+        "DKB10011m-0244",
+        "DKB10015m-0106",
+        "DKB10008m-0271",
+        "DKB10011m-0129",
+        "DKB10011m-0258"
+    ],
     "time": {
         "07:00:00": "<div>曇、<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、朝飧後\n       <orgName>\n        日本銀行\n       </orgName>\n       ニ抵リ幣制会議ニ出席ス、</div>",
         "12:00:00": "<div><time when=\"12:00:00\">\n        十二時\n       </time>\n       畢テ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接ス、夜</div>",

@@ -15,12 +15,6 @@
         {
             "color": "lightgrey",
             "from": "金子",
-            "to": "阪谷",
-            "value": 15
-        },
-        {
-            "color": "lightgrey",
-            "from": "金子",
             "to": "井上",
             "value": 11
         },
@@ -29,6 +23,12 @@
             "from": "金子",
             "to": "添田",
             "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "金子",
+            "to": "阪谷",
+            "value": 15
         }
     ],
     "nodes": [
@@ -52,6 +52,17 @@
             "id": "金子",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "金子",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 11,
+            "id": "井上",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "井上",
             "shape": "image"
         },
         {
@@ -85,17 +96,6 @@
             "id": "添田",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "添田",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 11,
-            "id": "井上",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "井上",
             "shape": "image"
         },
         {

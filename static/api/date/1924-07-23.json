@@ -5,18 +5,12 @@
         "床次竹二郎",
         "佐藤政五郎"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢治太郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/斎藤",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/床次竹二郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/佐藤政五郎"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1472",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20026m 大正十三年 1924"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20026m 大正十三年 1924"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20026m 大正十三年 1924",
     "date": {
         "lvl0": "1924",
@@ -27,27 +21,40 @@
     "date_lvl1": "1924-07",
     "date_lvl2": "1924-07-23",
     "description": "\n\n\n           廿三日\n          \n          （水）\n         \n\n\n\n\n             早朝\n            \n\n\n              渋沢\n             \n\n              治太郎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              斎藤\n             \n\n\n             埼玉\n            \n            県知事来約\n           \n\n\n\n\n             午前十一時\n            \n\n\n              床次\n             \n\n              竹二郎\n             \n\n            氏ト御会見（協調会）\n           \n\n\n\n\n             午後二時\n            \n\n\n              佐藤\n             \n\n              政五郎\n             \n\n            氏来約（事務所）\n           \n\n\n",
-    "fullname": [
-        "\n              渋沢\n             \n              治太郎\n             ",
-        "\n              床次\n             \n              竹二郎\n             ",
-        "\n              佐藤\n             \n              政五郎\n             "
-    ],
     "label": "廿三日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0211",
     "objectID": "DKB20026m-0210",
     "prev": "DKB20026m-0209",
     "sort": "DKB20026m-0210",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山公園",
         "埼玉"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園",
-        "https://shibusawa-dlab.github.io/lab1/api/place/埼玉"
-    ],
     "temporal": "1924-07-23",
+    "texts": [
+        "DKB20032m-0143",
+        "DKB20026m-0247",
+        "DKB20032m-0110",
+        "DKB20033m-0091",
+        "DKB20018m-0305",
+        "DKB20031m-0058",
+        "DKB20031m-0181",
+        "DKB20022m-0148",
+        "DKB20029m-0053",
+        "DKB20029m-0228",
+        "DKB20031m-0239",
+        "DKB20033m-0177",
+        "DKB20021m-0273",
+        "DKB20028m-0056",
+        "DKB20031m-0254",
+        "DKB20032m-0075",
+        "DKB20026m-0007",
+        "DKB20028m-0122",
+        "DKB20031m-0097",
+        "DKB20031m-0101"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20026m-0210\">\n<head>\n<date when=\"1924-07-23\">\n           廿三日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             早朝\n            </time>\n<persName corresp=\"#pers_渋沢治太郎\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              治太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_斎藤\">\n<surname>\n              斎藤\n             </surname>\n</persName>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県知事来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_床次竹二郎\">\n<surname>\n              床次\n             </surname>\n<forename>\n              竹二郎\n             </forename>\n</persName>\n            氏ト御会見（協調会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_佐藤政五郎\">\n<surname>\n              佐藤\n             </surname>\n<forename>\n              政五郎\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",

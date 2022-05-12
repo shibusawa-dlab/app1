@@ -322,10 +322,13 @@
                         class="mb-2"
                         v-html="
                           highlightRelation(
+                            /*
                             $utils.removeHead(
                               //$utils.xml2html(item2._highlightResult.xml.value)
                               $utils.xml2html(item2.xml)
                             ),
+                            */
+                            item2.xml,
                             item.key
                           )
                         "
@@ -738,25 +741,29 @@ export default class about extends Vue {
   }
 
   highlightRelation(xml: any, other: string) {
-    xml = String(xml).replace(/<[^>]*>?/gm, '')
-    xml = xml
-      .split(other)
-      .join(
-        '<span style="font-size : large; font-weight: bold; background-color: #FFF59D;">' +
-          other +
-          '</span>'
-      )
+
+    const parser = new DOMParser();
+    let xmlData  = parser.parseFromString(xml,"text/xml");
+
+    const nodes: any = xmlData.querySelectorAll(`[corresp='#pers_${other}']`)
+    for(const node of nodes){
+      node.setAttribute('style', 'font-size : large; font-weight: bold; background-color: #FFF59D;')
+    }
 
     const id = this.$route.params.id
-    xml = xml
-      .split(id)
-      .join(
-        '<span style="font-size : large; font-weight: bold; background-color: #FFF59D;">' +
-          id +
-          '</span>'
-      )
 
-    return xml
+    const nodes2: any = xmlData.querySelectorAll(`[corresp='#pers_${id}']`)
+    for(const node of nodes2){
+      node.setAttribute('style', 'font-size : large; font-weight: bold; background-color: #FFF59D;')
+    }
+
+    //headの削除
+    const nodes3: any = xmlData.querySelectorAll(`head`)
+    for(const node of nodes3){
+      node.parentNode.removeChild(node)
+    }
+
+    return (new XMLSerializer()).serializeToString(xmlData);
   }
 
   /*

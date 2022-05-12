@@ -168,7 +168,7 @@ export default {
 
     document.getElementById('container').addEventListener('wheel', (e) => {
       e.preventDefault();
-      document.getElementById('container').scrollLeft += e.deltaY;
+      document.getElementById('container').scrollLeft -= e.deltaY;
     })
 
     window.addEventListener('resize', this.handleResize)

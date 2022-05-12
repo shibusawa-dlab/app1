@@ -2,15 +2,12 @@
     "agential": [
         "章士ショウ"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/章士ショウ"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1281",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20020m 大正七年 1918"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20020m 大正七年 1918"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20020m 大正七年 1918",
     "date": {
         "lvl0": "1918",
@@ -21,25 +18,40 @@
     "date_lvl1": "1918-10",
     "date_lvl2": "1918-10-31",
     "description": "\n\n\n           卅一日\n          \n          （木）\n         \n\n\n\n            天長節祝日\n           \n\n\n\n\n             午前十時\n            \n\n             埼玉\n            \n            学友会園遊会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後一時四十分\n            \n            参内　大礼服\n           \n\n\n\n\n             午後六時\n            \n\n\n              章\n             \n\n              士釗\n             \n\n            氏晩餐会（帝国ホテル）\n           \n\n\n",
-    "fullname": [
-        "\n              章\n             \n              士釗\n             "
-    ],
     "label": "卅一日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0284",
     "objectID": "DKB20020m-0283",
     "prev": "DKB20020m-0282",
     "sort": "DKB20020m-0283",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "埼玉",
         "飛鳥山邸"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/埼玉",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
-    ],
     "temporal": "1918-10-31",
+    "texts": [
+        "DKB20016m-0046",
+        "DKB20032m-0144",
+        "DKB20028m-0223",
+        "DKB20025m-0004",
+        "DKB20022m-0099",
+        "DKB20019m-0280",
+        "DKB20020m-0181",
+        "DKB20033m-0154",
+        "DKB20029m-0179",
+        "DKB20022m-0070",
+        "DKB20030m-0047",
+        "DKB20018m-0305",
+        "DKB20030m-0247",
+        "DKB20033m-0104",
+        "DKB20032m-0172",
+        "DKB20033m-0173",
+        "DKB20019m-0187",
+        "DKB20020m-0288",
+        "DKB20018m-0139",
+        "DKB20018m-0302"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20020m-0283\">\n<head>\n<date when=\"1918-10-31\">\n           卅一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n            天長節祝日\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学友会園遊会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:40:00\">\n             午後一時四十分\n            </time>\n            参内　大礼服\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_章士ショウ\">\n<surname>\n              章\n             </surname>\n<forename>\n              士釗\n             </forename>\n</persName>\n            氏晩餐会（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",

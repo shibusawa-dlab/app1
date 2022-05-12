@@ -3,16 +3,12 @@
         "杉山直治郎",
         "山口正剛"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/杉山直治郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/山口正剛"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1437",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -23,26 +19,40 @@
     "date_lvl1": "1923-07",
     "date_lvl2": "1923-07-30",
     "description": "\n\n\n           三十日\n          \n          （月）\n         \n\n\n\n            明治天皇祭\n           \n\n\n\n\n             午前八時\n            \n\n\n              杉山\n             \n\n              直治郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              山口\n             \n\n              正剛\n             \n\n            氏ノ件ニ付\n            \n             上野精養軒\n            \n            ニ御出向\n           \n\n\n",
-    "fullname": [
-        "\n              杉山\n             \n              直治郎\n             ",
-        "\n              山口\n             \n              正剛\n             "
-    ],
     "label": "三十日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0210",
     "objectID": "DKB20025m-0207",
     "prev": "DKB20025m-0206",
     "sort": "DKB20025m-0207",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸",
         "上野精養軒"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/上野精養軒"
-    ],
     "temporal": "1923-07-30",
+    "texts": [
+        "DKB20021m-0274",
+        "DKB20024m-0066",
+        "DKB20026m-0217",
+        "DKB20025m-0004",
+        "DKB20025m-0007",
+        "DKB20018m-0210",
+        "DKB20020m-0064",
+        "DKB20025m-0235",
+        "DKB20018m-0028",
+        "DKB20030m-0249",
+        "DKB20033m-0168",
+        "DKB20029m-0328",
+        "DKB20025m-0327",
+        "DKB20017m-0208",
+        "DKB20030m-0157",
+        "DKB20032m-0141",
+        "DKB20033m-0103",
+        "DKB20033m-0177",
+        "DKB20022m-0169",
+        "DKB20031m-0097"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20025m-0207\">\n<head>\n<date when=\"1923-07-30\">\n           三十日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n            明治天皇祭\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_杉山直治郎\">\n<surname>\n              杉山\n             </surname>\n<forename>\n              直治郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_山口正剛\">\n<surname>\n              山口\n             </surname>\n<forename>\n              正剛\n             </forename>\n</persName>\n            氏ノ件ニ付\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ニ御出向\n           </p>\n</event>\n</listEvent>\n</div>",

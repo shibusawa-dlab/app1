@@ -2,15 +2,12 @@
     "agential": [
         "丹羽清次郎"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/丹羽清次郎"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/131",
     "category": {
-        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
-        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB10008m 明治三十二年 1899"
+        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB10008m 明治三十二年 1899"
     },
-    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
     "category_lvl1": "DKB10008m 明治三十二年 1899",
     "date": {
         "lvl0": "1899",
@@ -21,27 +18,41 @@
     "date_lvl1": "1899-10",
     "date_lvl2": "1899-10-10",
     "description": "\n\n\n        十月十日\n       \n\n\n       晴、\n       \n        午前十時\n       \n\n        小石川\n       \n       養育院ニ抵リ委員会ヲ開ク、\n       \n\n         丹羽\n        \n\n         清次郎\n        \n\n       来リテ\n       \n        米国\n       \n       慈善事業ノ概況ヲ演説ス、畢テ日本鉄道会社臨時重役会ニ列ス、夜\n       \n        浜町\n       \n       常盤屋ニ抵リ階楽会《（偕）》ニ参席ス、\n       \n        九時\n       \n       過\n       \n        浜町\n       \n       宅ニ帰宿ス\n      \n",
-    "fullname": [
-        "\n         丹羽\n        \n         清次郎\n        "
-    ],
     "label": "十月十日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10008m-0285",
     "objectID": "DKB10008m-0284",
     "prev": "DKB10008m-0283",
     "sort": "DKB10008m-0284",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "小石川",
         "アメリカ合衆国",
         "浜町"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/小石川",
-        "https://shibusawa-dlab.github.io/lab1/api/place/アメリカ合衆国",
-        "https://shibusawa-dlab.github.io/lab1/api/place/浜町"
-    ],
     "temporal": "1899-10-10",
+    "texts": [
+        "DKB10009m-0127",
+        "DKB10008m-0315",
+        "DKB10011m-0335",
+        "DKB10011m-0318",
+        "DKB10009m-0047",
+        "DKB10011m-0207",
+        "DKB10010m-0250",
+        "DKB10011m-0122",
+        "DKB10009m-0284",
+        "DKB10010m-0086",
+        "DKB10011m-0126",
+        "DKB10015m-0299",
+        "DKB10008m-0282",
+        "DKB10009m-0257",
+        "DKB10008m-0273",
+        "DKB10011m-0261",
+        "DKB10008m-0351",
+        "DKB10009m-0353",
+        "DKB10009m-0392",
+        "DKB10010m-0220"
+    ],
     "time": {
         "10:00:00": "<div>晴、<time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_小石川\">\n        小石川\n       </placeName>\n       養育院ニ抵リ委員会ヲ開ク、\n       <persName corresp=\"#pers_丹羽清次郎\">\n<surname>\n         丹羽\n        </surname>\n<forename>\n         清次郎\n        </forename>\n</persName>\n       来リテ\n       <placeName corresp=\"#place_アメリカ合衆国\">\n        米国\n       </placeName>\n       慈善事業ノ概況ヲ演説ス、畢テ日本鉄道会社臨時重役会ニ列ス、夜\n       <placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       常盤屋ニ抵リ階楽会《（偕）》ニ参席ス、</div>",
         "21:00:00": "<div><time when=\"21:00:00\">\n        九時\n       </time>\n       過\n       <placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       宅ニ帰宿ス</div>"

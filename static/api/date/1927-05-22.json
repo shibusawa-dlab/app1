@@ -3,16 +3,12 @@
         "大川平三郎",
         "望月小太郎"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/大川平三郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/望月小太郎"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1545",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20029m 昭和二年 1927"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20029m 昭和二年 1927"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20029m 昭和二年 1927",
     "date": {
         "lvl0": "1927",
@@ -23,24 +19,39 @@
     "date_lvl1": "1927-05",
     "date_lvl2": "1927-05-22",
     "description": "\n\n\n           廿二日\n          \n          （日）\n         \n\n\n\n\n             午前九―十時\n            \n            養育院慰労会（同院\n            \n             巣鴨\n            \n            分院）\n           \n\n\n\n\n             午前十半時\n            \n\n\n              大川\n             \n\n              平三郎\n             \n\n            催園遊会《（氏脱）》（同氏邸）\n           \n\n\n\n\n             午后二時\n            \n\n\n              望月\n             \n\n              小太郎\n             \n\n            氏告別式ノ為メ青山斎場ヘ御出向\n           \n\n\n",
-    "fullname": [
-        "\n              大川\n             \n              平三郎\n             ",
-        "\n              望月\n             \n              小太郎\n             "
-    ],
     "label": "廿二日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0127",
     "objectID": "DKB20029m-0126",
     "prev": "DKB20029m-0125",
     "sort": "DKB20029m-0126",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "巣鴨"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/巣鴨"
-    ],
     "temporal": "1927-05-22",
+    "texts": [
+        "DKB20022m-0272",
+        "DKB20022m-0337",
+        "DKB20018m-0210",
+        "DKB20020m-0220",
+        "DKB20023m-0010",
+        "DKB20026m-0258",
+        "DKB20032m-0066",
+        "DKB20028m-0303",
+        "DKB20029m-0083",
+        "DKB20027m-0038",
+        "DKB20027m-0170",
+        "DKB20029m-0042",
+        "DKB20019m-0294",
+        "DKB20019m-0013",
+        "DKB20031m-0192",
+        "DKB20017m-0154",
+        "DKB20026m-0013",
+        "DKB20027m-0140",
+        "DKB20031m-0118",
+        "DKB20029m-0292"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20029m-0126\">\n<head>\n<date when=\"1927-05-22\">\n           廿二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"09:00:00\" to=\"10:00:00\">\n             午前九―十時\n            </time>\n            養育院慰労会（同院\n            <placeName corresp=\"#place_巣鴨\">\n             巣鴨\n            </placeName>\n            分院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n<persName corresp=\"#pers_大川平三郎\">\n<surname>\n              大川\n             </surname>\n<forename>\n              平三郎\n             </forename>\n</persName>\n            催園遊会《（氏脱）》（同氏邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n<persName corresp=\"#pers_望月小太郎\">\n<surname>\n              望月\n             </surname>\n<forename>\n              小太郎\n             </forename>\n</persName>\n            氏告別式ノ為メ青山斎場ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",

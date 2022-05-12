@@ -3,16 +3,12 @@
         "黒板",
         "楽翁"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/黒板",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/楽翁"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1268",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20020m 大正七年 1918"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20020m 大正七年 1918"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20020m 大正七年 1918",
     "date": {
         "lvl0": "1918",
@@ -23,14 +19,13 @@
     "date_lvl1": "1918-05",
     "date_lvl2": "1918-05-13",
     "description": "\n\n\n           十三日\n          \n          （月）\n         \n\n\n\n\n             午前時\n            \n\n             芬蘭\n            \n            人来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前時\n            \n\n\n              黒板\n             \n\n            博士来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午后壱時\n            \n\n             白河\n            \n\n             楽翁\n            \n            公祭（養育院）\n           \n\n\n\n\n             午後三半時\n            \n            於\n            \n             埼玉\n            \n            学生誘掖会剣道仕合ヘ御出向\n           \n\n\n\n\n             午後五時\n            \n            経済叢書刊行会祝賀会（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n             田尻\n            \n            市長歓迎会（\n            \n             日本橋\n            \n            クラブ）\n           \n\n\n",
-    "fullname": [],
     "label": "十三日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0128",
     "objectID": "DKB20020m-0127",
     "prev": "DKB20020m-0125",
     "sort": "DKB20020m-0127",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "フィンランド",
         "飛鳥山邸",
@@ -40,16 +35,29 @@
         "田尻",
         "日本橋"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/フィンランド",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/白河",
-        "https://shibusawa-dlab.github.io/lab1/api/place/埼玉",
-        "https://shibusawa-dlab.github.io/lab1/api/place/上野精養軒",
-        "https://shibusawa-dlab.github.io/lab1/api/place/田尻",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋"
-    ],
     "temporal": "1918-05-13",
+    "texts": [
+        "DKB20020m-0140",
+        "DKB20029m-0117",
+        "DKB20026m-0138",
+        "DKB20018m-0210",
+        "DKB20017m-0154",
+        "DKB20017m-0123",
+        "DKB20028m-0133",
+        "DKB20020m-0099",
+        "DKB20019m-0291",
+        "DKB20022m-0030",
+        "DKB20017m-0257",
+        "DKB20021m-0100",
+        "DKB20029m-0134",
+        "DKB20018m-0139",
+        "DKB20027m-0140",
+        "DKB20030m-0274",
+        "DKB20025m-0156",
+        "DKB20019m-0052",
+        "DKB20032m-0066",
+        "DKB20017m-0119"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20020m-0127\">\n<head>\n<date when=\"1918-05-13\">\n           十三日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前時\n            </time>\n<placeName corresp=\"#place_フィンランド\">\n             芬蘭\n            </placeName>\n            人来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             午前時\n            </time>\n<persName corresp=\"#pers_黒板\">\n<surname>\n              黒板\n             </surname>\n</persName>\n            博士来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后壱時\n            </time>\n<placeName corresp=\"#place_白河\">\n             白河\n            </placeName>\n<persName corresp=\"#pers_楽翁\">\n             楽翁\n            </persName>\n            公祭（養育院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n            於\n            <placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会剣道仕合ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            経済叢書刊行会祝賀会（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_田尻\">\n             田尻\n            </placeName>\n            市長歓迎会（\n            <placeName corresp=\"#place_日本橋\">\n             日本橋\n            </placeName>\n            クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",

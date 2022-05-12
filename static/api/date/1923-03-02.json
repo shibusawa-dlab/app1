@@ -6,19 +6,12 @@
         "和田",
         "井上"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/高木陸郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/後藤",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/藤山",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/和田",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/井上"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1421",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20025m 大正十二年　1923"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20025m 大正十二年　1923"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20025m 大正十二年　1923",
     "date": {
         "lvl0": "1923",
@@ -29,27 +22,41 @@
     "date_lvl1": "1923-03",
     "date_lvl2": "1923-03-02",
     "description": "\n\n\n           二日\n          \n          （金）\n         \n\n\n\n\n             正午―一時\n            \n\n\n              高木\n             \n\n              陸郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一―三時\n            \n\n\n              後藤\n             \n\n            子爵母堂告別式（\n            \n             桜田町\n            \n            同子邸）\n           \n\n\n\n\n             午後四時\n            \n\n             英国\n            \n            ニ関スル件ニ付、団、\n            \n\n              藤山\n             \n\n            、\n            \n\n              和田\n             \n\n\n\n              井上\n             \n\n            四氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
-    "fullname": [
-        "\n              高木\n             \n              陸郎\n             "
-    ],
     "label": "二日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0055",
     "objectID": "DKB20025m-0054",
     "prev": "DKB20025m-0053",
     "sort": "DKB20025m-0054",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町",
         "桜田町",
         "イギリス"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/桜田町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/イギリス"
-    ],
     "temporal": "1923-03-02",
+    "texts": [
+        "DKB20025m-0096",
+        "DKB20016m-0080",
+        "DKB20024m-0193",
+        "DKB20017m-0058",
+        "DKB20020m-0208",
+        "DKB20023m-0004",
+        "DKB20032m-0126",
+        "DKB20025m-0213",
+        "DKB20024m-0258",
+        "DKB20022m-0191",
+        "DKB20023m-0057",
+        "DKB20025m-0179",
+        "DKB20023m-0229",
+        "DKB20018m-0208",
+        "DKB20018m-0330",
+        "DKB20027m-0194",
+        "DKB20028m-0063",
+        "DKB20024m-0007",
+        "DKB20028m-0069",
+        "DKB20020m-0197"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20025m-0054\">\n<head>\n<date when=\"1923-03-02\">\n           二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"12:00:00\" to=\"13:00:00\">\n             正午―一時\n            </time>\n<persName corresp=\"#pers_高木陸郎\">\n<surname>\n              高木\n             </surname>\n<forename>\n              陸郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"15:00:00\">\n             午後一―三時\n            </time>\n<persName corresp=\"#pers_後藤\">\n<surname>\n              後藤\n             </surname>\n</persName>\n            子爵母堂告別式（\n            <placeName corresp=\"#place_桜田町\">\n             桜田町\n            </placeName>\n            同子邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_イギリス\">\n             英国\n            </placeName>\n            ニ関スル件ニ付、団、\n            <persName corresp=\"#pers_藤山\">\n<surname>\n              藤山\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_和田\">\n<surname>\n              和田\n             </surname>\n</persName>\n<persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            四氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",

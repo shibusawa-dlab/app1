@@ -1,12 +1,11 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1486",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20027m 大正十四年 1925"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20027m 大正十四年 1925"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20027m 大正十四年 1925",
     "date": {
         "lvl0": "1925",
@@ -17,25 +16,41 @@
     "date_lvl1": "1925-02",
     "date_lvl2": "1925-02-11",
     "description": "\n\n\n           十一日\n          \n          （水）\n         \n\n\n\n            紀元節\n           \n\n\n\n            御風邪ニツキ御引籠リ\n           \n\n\n\n\n             午前十時\n            \n            中央社会事業協会講習会開会式（\n            \n             芝\n            \n            、\n            \n             栄\n            \n            、一一\n            \n             東京\n            \n            親隣館）\n           \n\n\n\n\n             午后二半時\n            \n            青山師範学校ニ於テ修養団二十周年記\n            \n            念会（青山師範学校）\n           \n\n\n\n\n             午後五時\n            \n            清明会ノ件\n           \n\n\n",
-    "fullname": [],
     "label": "十一日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20027m-0028",
     "objectID": "DKB20027m-0027",
     "prev": "DKB20027m-0026",
     "sort": "DKB20027m-0027",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "芝",
         "栄",
         "東京"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/芝",
-        "https://shibusawa-dlab.github.io/lab1/api/place/栄",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
-    ],
     "temporal": "1925-02-11",
+    "texts": [
+        "DKB20026m-0073",
+        "DKB20022m-0145",
+        "DKB20023m-0009",
+        "DKB20030m-0046",
+        "DKB20022m-0040",
+        "DKB20024m-0082",
+        "DKB20022m-0173",
+        "DKB20029m-0129",
+        "DKB20029m-0171",
+        "DKB20024m-0178",
+        "DKB20022m-0137",
+        "DKB20028m-0042",
+        "DKB20025m-0107",
+        "DKB20022m-0168",
+        "DKB20017m-0099",
+        "DKB20017m-0121",
+        "DKB20022m-0294",
+        "DKB20021m-0184",
+        "DKB20025m-0238",
+        "DKB20029m-0147"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20027m-0027\">\n<head>\n<date when=\"1925-02-11\">\n           十一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n            紀元節\n           </p>\n</event>\n<event>\n<p>\n            御風邪ニツキ御引籠リ\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            中央社会事業協会講習会開会式（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n            、\n            <placeName corresp=\"#place_栄\">\n             栄\n            </placeName>\n            、一一\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            親隣館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午后二半時\n            </time>\n            青山師範学校ニ於テ修養団二十周年記\n            <pb corresp=\"#pageB2647\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1486/full/max/0/default.jpg\" n=\"B2647\" source=\"#pageB2647\"/>\n            念会（青山師範学校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            清明会ノ件\n           </p>\n</event>\n</listEvent>\n</div>",

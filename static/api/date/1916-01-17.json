@@ -3,16 +3,12 @@
         "岩井重太郎",
         "穂積"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/岩井重太郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/穂積"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1196",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20018m 大正五年 1916"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20018m 大正五年 1916"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20018m 大正五年 1916",
     "date": {
         "lvl0": "1916",
@@ -23,27 +19,41 @@
     "date_lvl1": "1916-01",
     "date_lvl2": "1916-01-17",
     "description": "\n\n\n           十七日\n          \n          （月）\n         \n\n\n\n\n             午後二―午後三時\n            \n\n             益田\n            \n            孝氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              岩井\n             \n\n              重太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              穂積\n             \n\n            男爵事務所ヘ御来約\n           \n\n\n\n\n             午後五時\n            \n            御親族及竜門社主催　於帝国ホテル\n            \n            御帰朝歓迎及\n            \n\n              穂積\n             \n\n            男爵授爵祝賀会\n           \n\n\n\n\n             午後九時\n            \n\n             露国\n            \n            大使館晩餐会（同館）\n            \n            （燕尾服着用、勲章御佩用）\n           \n\n\n",
-    "fullname": [
-        "\n              岩井\n             \n              重太郎\n             "
-    ],
     "label": "十七日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0016",
     "objectID": "DKB20018m-0015",
     "prev": "DKB20018m-0014",
     "sort": "DKB20018m-0015",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "益田",
         "日本橋兜町",
         "ロシア"
     ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/益田",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/ロシア"
-    ],
     "temporal": "1916-01-17",
+    "texts": [
+        "DKB20019m-0016",
+        "DKB20018m-0237",
+        "DKB20020m-0054",
+        "DKB20020m-0302",
+        "DKB20017m-0049",
+        "DKB20025m-0228",
+        "DKB20026m-0266",
+        "DKB20022m-0268",
+        "DKB20021m-0257",
+        "DKB20017m-0058",
+        "DKB20021m-0259",
+        "DKB20024m-0123",
+        "DKB20032m-0135",
+        "DKB20022m-0101",
+        "DKB20020m-0148",
+        "DKB20025m-0064",
+        "DKB20023m-0041",
+        "DKB20020m-0107",
+        "DKB20021m-0242",
+        "DKB20032m-0033"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20018m-0015\">\n<head>\n<date when=\"1916-01-17\">\n           十七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―午後三時\n            </time>\n<placeName corresp=\"#place_益田\">\n             益田\n            </placeName>\n            孝氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_岩井重太郎\">\n<surname>\n              岩井\n             </surname>\n<forename>\n              重太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_穂積\">\n<surname>\n              穂積\n             </surname>\n</persName>\n            男爵事務所ヘ御来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御親族及竜門社主催　於帝国ホテル\n            <lb/>\n            御帰朝歓迎及\n            <persName corresp=\"#pers_穂積\">\n<surname>\n              穂積\n             </surname>\n</persName>\n            男爵授爵祝賀会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"21:00:00\">\n             午後九時\n            </time>\n<placeName corresp=\"#place_ロシア\">\n             露国\n            </placeName>\n            大使館晩餐会（同館）\n            <lb/>\n            （燕尾服着用、勲章御佩用）\n           </p>\n</event>\n</listEvent>\n</div>",

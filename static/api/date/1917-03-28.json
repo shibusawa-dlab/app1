@@ -3,16 +3,12 @@
         "高田慎蔵",
         "大隈"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/高田慎蔵",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/大隈"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1232",
     "category": {
-        "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
-        "lvl1": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年) > DKB20019m 大正六年 1917"
+        "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
+        "lvl1": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表 > DKB20019m 大正六年 1917"
     },
-    "category_lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "category_lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
     "category_lvl1": "DKB20019m 大正六年 1917",
     "date": {
         "lvl0": "1917",
@@ -23,19 +19,37 @@
     "date_lvl1": "1917-03",
     "date_lvl2": "1917-03-28",
     "description": "\n\n\n           廿八日\n          \n          （水）\n         \n\n\n\n            午自至後二五時\n            \n\n              高田\n             \n\n              慎蔵\n             \n\n            ヨリ不動祭御案内\n           \n\n\n\n\n             午時\n            \n            日曜学校協会委員会（\n            \n\n              大隈\n             \n\n            侯邸）\n           \n\n\n\n\n             午後五時\n            \n            銀行クラブ晩餐会（同所）\n           \n\n\n",
-    "fullname": [
-        "\n              高田\n             \n              慎蔵\n             "
-    ],
     "label": "廿八日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0085",
     "objectID": "DKB20019m-0084",
     "prev": "DKB20019m-0083",
     "sort": "DKB20019m-0084",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [],
-    "spatial_uri": [],
     "temporal": "1917-03-28",
+    "texts": [
+        "DKB20024m-0031",
+        "DKB20021m-0271",
+        "DKB20022m-0330",
+        "DKB20029m-0162",
+        "DKB20025m-0010",
+        "DKB20020m-0136",
+        "DKB20022m-0264",
+        "DKB20019m-0052",
+        "DKB20019m-0022",
+        "DKB20020m-0111",
+        "DKB20016m-0050",
+        "DKB20023m-0022",
+        "DKB20024m-0122",
+        "DKB20016m-0007",
+        "DKB20022m-0286",
+        "DKB20019m-0176",
+        "DKB20025m-0110",
+        "DKB20025m-0309",
+        "DKB20026m-0129",
+        "DKB20017m-0046"
+    ],
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20019m-0084\">\n<head>\n<date when=\"1917-03-28\">\n           廿八日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n            午自至後二五時\n            <persName corresp=\"#pers_高田慎蔵\">\n<surname>\n              高田\n             </surname>\n<forename>\n              慎蔵\n             </forename>\n</persName>\n            ヨリ不動祭御案内\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            日曜学校協会委員会（\n            <persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            銀行クラブ晩餐会（同所）\n           </p>\n</event>\n</listEvent>\n</div>",
