@@ -5,6 +5,12 @@
         "松永整",
         "武沢市五郎"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/乙骨彦十郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/前田重吾",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松永整",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/武沢市五郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/71",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -21,41 +27,30 @@
     "date_lvl1": "1869-11",
     "date_lvl2": "1869-11-30",
     "description": "\n\n\n        （十月）廿七日\n       \n\n\n       朝\n       \n        江尻\n       \n       宿を発し初而諸事を脱却し、頗る籠外初飛之鳥、江中不繫之船の想をなす、\n       \n        蒲原\n       \n       駅に至り午餐、同所詰\n       \n\n         乙骨\n        \n\n         彦十郎\n        \n\n       といふ者、\n       \n\n         前田\n        \n\n         重吾\n        \n\n       縁者なるか旅店に来り面話す、八ツ頃平垣\n       \n\n         松永\n        \n\n         整\n        \n\n       を訪ふ、\n       \n\n         武沢\n        \n\n         市五郎\n        \n\n       岩淵迄罷越し同行にて開墾せし土地一覧す、夕方\n       \n        吉原\n       \n       駅に至り投宿\n      \n",
+    "fullname": [
+        "\n         乙骨\n        \n         彦十郎\n        ",
+        "\n         前田\n        \n         重吾\n        ",
+        "\n         松永\n        \n         整\n        ",
+        "\n         武沢\n        \n         市五郎\n        "
+    ],
     "label": "（十月）廿七日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10003m-0009",
     "objectID": "DKB10003m-0008",
     "prev": "DKB10003m-0007",
     "sort": "DKB10003m-0008",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "江尻",
         "蒲原",
         "吉原"
     ],
-    "temporal": "1869-11-30",
-    "texts": [
-        "DKB10003m-0009",
-        "DKB10002m-0033",
-        "DKB10002m-0028",
-        "DKB10002m-0043",
-        "DKB10002m-0019",
-        "DKB10002m-0046",
-        "DKB10003m-0021",
-        "DKB10002m-0013",
-        "DKB10002m-0020",
-        "DKB10002m-0035",
-        "DKB10003m-0011",
-        "DKB10002m-0042",
-        "DKB10002m-0016",
-        "DKB10002m-0066",
-        "DKB10002m-0032",
-        "DKB10002m-0024",
-        "DKB10002m-0067",
-        "DKB10002m-0034",
-        "DKB10001m-0077",
-        "DKB10003m-0007"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/江尻",
+        "https://shibusawa-dlab.github.io/lab1/api/place/蒲原",
+        "https://shibusawa-dlab.github.io/lab1/api/place/吉原"
     ],
+    "temporal": "1869-11-30",
     "time": {},
     "type": "diary-entry",
     "xml": "<div type=\"diary-entry\" xml:id=\"DKB10003m-0008\">\n<head>\n<date evidence=\"year inferenced, month\" type=\"旧暦\" when=\"1869-11-30\">\n        （十月）廿七日\n       </date>\n</head>\n<p>\n       朝\n       <placeName corresp=\"#place_江尻\">\n        江尻\n       </placeName>\n       宿を発し初而諸事を脱却し、頗る籠外初飛之鳥、江中不繫之船の想をなす、\n       <placeName corresp=\"#place_蒲原\">\n        蒲原\n       </placeName>\n       駅に至り午餐、同所詰\n       <persName corresp=\"#pers_乙骨彦十郎\">\n<surname>\n         乙骨\n        </surname>\n<forename>\n         彦十郎\n        </forename>\n</persName>\n       といふ者、\n       <persName corresp=\"#pers_前田重吾\">\n<surname>\n         前田\n        </surname>\n<forename>\n         重吾\n        </forename>\n</persName>\n       縁者なるか旅店に来り面話す、八ツ頃平垣\n       <persName corresp=\"#pers_松永整\">\n<surname>\n         松永\n        </surname>\n<forename>\n         整\n        </forename>\n</persName>\n       を訪ふ、\n       <persName corresp=\"#pers_武沢市五郎\">\n<surname>\n         武沢\n        </surname>\n<forename>\n         市五郎\n        </forename>\n</persName>\n       岩淵迄罷越し同行にて開墾せし土地一覧す、夕方\n       <placeName corresp=\"#place_吉原\">\n        吉原\n       </placeName>\n       駅に至り投宿\n      </p>\n</div>",

@@ -5,6 +5,12 @@
         "頭本元貞",
         "結城豊太郎"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/天野いう殿告別式（本郷真砂町天野七三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/東郷安",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/頭本元貞",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/結城豊太郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1494",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -21,40 +27,28 @@
     "date_lvl1": "1925-10",
     "date_lvl2": "1925-10-05",
     "description": "\n\n\n           五日\n          \n          （月）\n         \n\n\n\n\n             午後一―二時\n            \n            故\n            \n\n              天野\n             \n             いう殿告別式（\n             \n              本郷\n             \n\n              真砂町\n             \n\n              天野\n             \n\n              七三郎\n             \n\n            氏邸）\n           \n\n\n\n\n             午後二時\n            \n\n\n              東郷\n             \n\n              安\n             \n\n            男来約（事務所）\n           \n\n\n\n\n             午後二半時\n            \n\n\n              頭本\n             \n\n              元貞\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午〃三時\n            \n\n\n              結城\n             \n\n              豊太郎\n             \n\n            氏来約（〃）\n           \n\n\n",
+    "fullname": [
+        "\n              天野\n             \n              七三郎\n             ",
+        "\n              東郷\n             \n              安\n             ",
+        "\n              頭本\n             \n              元貞\n             ",
+        "\n              結城\n             \n              豊太郎\n             "
+    ],
     "label": "五日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20027m-0164",
     "objectID": "DKB20027m-0163",
     "prev": "DKB20027m-0162",
     "sort": "DKB20027m-0163",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "本郷",
         "真砂町"
     ],
-    "temporal": "1925-10-05",
-    "texts": [
-        "DKB20027m-0247",
-        "DKB20024m-0258",
-        "DKB20028m-0069",
-        "DKB20026m-0035",
-        "DKB20017m-0058",
-        "DKB20028m-0033",
-        "DKB20026m-0087",
-        "DKB20023m-0040",
-        "DKB20027m-0141",
-        "DKB20030m-0277",
-        "DKB20026m-0069",
-        "DKB20030m-0023",
-        "DKB20017m-0131",
-        "DKB20028m-0008",
-        "DKB20029m-0208",
-        "DKB20032m-0039",
-        "DKB20032m-0126",
-        "DKB20033m-0162",
-        "DKB20024m-0007",
-        "DKB20028m-0099"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/本郷",
+        "https://shibusawa-dlab.github.io/lab1/api/place/真砂町"
     ],
+    "temporal": "1925-10-05",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20027m-0163\">\n<head>\n<date when=\"1925-10-05\">\n           五日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"14:00:00\">\n             午後一―二時\n            </time>\n            故\n            <persName corresp=\"#pers_天野いう殿告別式（本郷真砂町天野七三郎\">\n<surname>\n              天野\n             </surname>\n             いう殿告別式（\n             <placeName corresp=\"#place_本郷\">\n              本郷\n             </placeName>\n<placeName corresp=\"#place_真砂町\">\n              真砂町\n             </placeName>\n<surname>\n              天野\n             </surname>\n<forename>\n              七三郎\n             </forename>\n</persName>\n            氏邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_東郷安\">\n<surname>\n              東郷\n             </surname>\n<forename>\n              安\n             </forename>\n</persName>\n            男来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<persName corresp=\"#pers_頭本元貞\">\n<surname>\n              頭本\n             </surname>\n<forename>\n              元貞\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午〃三時\n            </time>\n<persName corresp=\"#pers_結城豊太郎\">\n<surname>\n              結城\n             </surname>\n<forename>\n              豊太郎\n             </forename>\n</persName>\n            氏来約（〃）\n           </p>\n</event>\n</listEvent>\n</div>",

@@ -2,6 +2,9 @@
     "agential": [
         "渋沢"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1534",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,38 +21,20 @@
     "date_lvl1": "1927-01",
     "date_lvl2": "1927-01-01",
     "description": "\n\n\n           一日\n          \n          （土）\n         \n\n\n\n            四方拝\n           \n\n\n\n\n             午前十時\n            \n\n\n              渋沢\n             \n\n            事務所、日新ゴム、竜門社々員来訪（\n            \n             あすか山邸\n            \n            ）\n           \n\n\n",
+    "fullname": [],
     "label": "一日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0003",
     "objectID": "DKB20029m-0001",
     "sort": "DKB20029m-0001",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "あすか山邸"
     ],
-    "temporal": "1927-01-01",
-    "texts": [
-        "DKB20021m-0126",
-        "DKB20026m-0357",
-        "DKB20021m-0285",
-        "DKB20027m-0202",
-        "DKB20029m-0061",
-        "DKB20022m-0169",
-        "DKB20022m-0091",
-        "DKB20018m-0247",
-        "DKB20030m-0001",
-        "DKB20031m-0054",
-        "DKB20025m-0114",
-        "DKB20027m-0100",
-        "DKB20028m-0078",
-        "DKB20033m-0031",
-        "DKB20028m-0056",
-        "DKB20029m-0019",
-        "DKB20032m-0001",
-        "DKB20033m-0175",
-        "DKB20029m-0057",
-        "DKB20029m-0118"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/あすか山邸"
     ],
+    "temporal": "1927-01-01",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20029m-0001\">\n<head>\n<date when=\"1927-01-01\">\n           一日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n            四方拝\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            事務所、日新ゴム、竜門社々員来訪（\n            <placeName corresp=\"#place_あすか山邸\">\n             あすか山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",

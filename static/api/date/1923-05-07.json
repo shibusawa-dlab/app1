@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1428",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,40 +17,23 @@
     "date_lvl1": "1923-05",
     "date_lvl2": "1923-05-07",
     "description": "\n\n\n           七日\n          \n          （月）\n         \n\n\n\n\n             午後四時五分\n            \n\n             大磯\n            \n            より御帰京（\n            \n             東京\n            \n            駅着）\n           \n\n\n",
+    "fullname": [],
     "label": "七日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0121",
     "objectID": "DKB20025m-0120",
     "prev": "DKB20025m-0118",
     "sort": "DKB20025m-0120",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "大磯町",
         "東京"
     ],
-    "temporal": "1923-05-07",
-    "texts": [
-        "DKB20023m-0050",
-        "DKB20022m-0319",
-        "DKB20023m-0099",
-        "DKB20017m-0212",
-        "DKB20018m-0333",
-        "DKB20022m-0190",
-        "DKB20025m-0125",
-        "DKB20024m-0026",
-        "DKB20017m-0099",
-        "DKB20018m-0218",
-        "DKB20027m-0009",
-        "DKB20023m-0064",
-        "DKB20020m-0211",
-        "DKB20017m-0206",
-        "DKB20017m-0064",
-        "DKB20018m-0269",
-        "DKB20026m-0230",
-        "DKB20024m-0022",
-        "DKB20024m-0086",
-        "DKB20024m-0208"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/大磯町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
+    "temporal": "1923-05-07",
     "time": {
         "16:05:00": "<div><time when=\"16:05:00\">\n             午後四時五分\n            </time>\n<placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            より御帰京（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅着）</div>"
     },

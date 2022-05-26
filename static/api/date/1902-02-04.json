@@ -9,6 +9,16 @@
         "竹井",
         "諸井"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/足立",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/笠井",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/市原",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢作太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田沼為右衛門",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/竹井",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/諸井"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/247",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -25,13 +35,17 @@
     "date_lvl1": "1902-02",
     "date_lvl2": "1902-02-04",
     "description": "\n\n\n        二月四日\n       \n\n\n       晴、\n       \n        午前九時\n       \n       朝飧ヲ畢リ、\n       \n        十時\n       \n\n        兜町\n       \n       ニ抵リ京釜鉄道常務重役及\n       \n\n         足立\n        \n\n       、\n       \n\n         笠井\n        \n\n       諸氏ト同会社ノ工事進行順序ヲ議ス、畢テ\n       \n        第一銀行\n       \n       ニ出勤シ、\n       \n        午後二時\n       \n\n        新橋\n       \n       発汽車ニテ\n       \n        横浜\n       \n       ニ抵リ、支店ニ於テ\n       \n\n         市原\n        \n\n       、石井ニ面会シ、二十七番館ヲ訪ヒ、ミツチヱル氏ニ面会ス、\n       \n        四時\n       \n\n        相生町\n       \n       賀以古楼ニ\n       \n        横浜\n       \n       居住埼玉県人ヲ会シテ学生誘掖会設立ノ事ヲ談話ス、\n       \n\n         渋沢\n        \n\n         作太郎\n        \n\n       、\n       \n\n         田沼\n        \n\n         為右衛門\n        \n\n       其他七八名来会ス、\n       \n\n         佐野\n        \n\n       、\n       \n\n         竹井\n        \n\n       、\n       \n\n         諸井\n        \n\n       諸氏同伴ス、夜\n       \n        十時\n       \n\n        王子別荘\n       \n       ニ帰宿ス\n      \n",
+    "fullname": [
+        "\n         渋沢\n        \n         作太郎\n        ",
+        "\n         田沼\n        \n         為右衛門\n        "
+    ],
     "label": "二月四日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10010m-0213",
     "objectID": "DKB10010m-0212",
     "prev": "DKB10010m-0211",
     "sort": "DKB10010m-0212",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "日本橋兜町",
         "新橋",
@@ -39,29 +53,14 @@
         "相生町",
         "王子別荘"
     ],
-    "temporal": "1902-02-04",
-    "texts": [
-        "DKB10011m-0317",
-        "DKB10010m-0268",
-        "DKB10010m-0095",
-        "DKB10011m-0395",
-        "DKB10011m-0336",
-        "DKB10011m-0340",
-        "DKB10011m-0293",
-        "DKB10010m-0223",
-        "DKB10011m-0333",
-        "DKB10011m-0163",
-        "DKB10011m-0184",
-        "DKB10011m-0186",
-        "DKB10011m-0212",
-        "DKB10011m-0295",
-        "DKB10011m-0402",
-        "DKB10011m-0128",
-        "DKB10011m-0185",
-        "DKB10009m-0438",
-        "DKB10011m-0209",
-        "DKB10010m-0197"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/新橋",
+        "https://shibusawa-dlab.github.io/lab1/api/place/横浜",
+        "https://shibusawa-dlab.github.io/lab1/api/place/相生町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子別荘"
     ],
+    "temporal": "1902-02-04",
     "time": {
         "09:00:00": "<div>晴、<time when=\"09:00:00\">\n        午前九時\n       </time>\n       朝飧ヲ畢リ、</div>",
         "10:00:00": "<div><time when=\"10:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       ニ抵リ京釜鉄道常務重役及\n       <persName corresp=\"#pers_足立\">\n<surname>\n         足立\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_笠井\">\n<surname>\n         笠井\n        </surname>\n</persName>\n       諸氏ト同会社ノ工事進行順序ヲ議ス、畢テ\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ出勤シ、</div>",

@@ -3,6 +3,10 @@
         "近藤",
         "サミユール_ヒル"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/近藤",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/サミユール_ヒル"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1288",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -19,40 +23,25 @@
     "date_lvl1": "1919-01",
     "date_lvl2": "1919-01-03",
     "description": "\n\n\n           三日\n          \n          （金）\n         \n\n\n\n            元始祭\n           \n\n\n\n\n             午後一時四分\n            \n\n\n              近藤\n             \n\n            男爵渡欧出発（\n            \n             東京\n            \n            駅）\n           \n\n\n\n\n             午後三時\n            \n\n             横浜\n            \n            ヨリ乗船\n           \n\n\n\n\n             午後三時\n            \n\n\n              サミユール\n             \n             ・\n             \n              ヒル\n             \n\n            氏出発帰国（\n            \n             横浜\n            \n            ）\n            \n            （\n            \n             東京\n            \n            駅ノ時間予定ナキ由）\n           \n\n\n",
+    "fullname": [
+        "\n              ヒル\n             \n              サミユール\n             "
+    ],
     "label": "三日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0005",
     "objectID": "DKB20021m-0003",
     "prev": "DKB20021m-0002",
     "sort": "DKB20021m-0003",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京",
         "横浜"
     ],
-    "temporal": "1919-01-03",
-    "texts": [
-        "DKB20023m-0012",
-        "DKB20024m-0022",
-        "DKB20023m-0050",
-        "DKB20017m-0145",
-        "DKB20027m-0104",
-        "DKB20032m-0003",
-        "DKB20019m-0320",
-        "DKB20020m-0159",
-        "DKB20018m-0132",
-        "DKB20019m-0079",
-        "DKB20021m-0104",
-        "DKB20022m-0018",
-        "DKB20017m-0206",
-        "DKB20016m-0047",
-        "DKB20023m-0125",
-        "DKB20029m-0246",
-        "DKB20018m-0303",
-        "DKB20020m-0096",
-        "DKB20023m-0064",
-        "DKB20017m-0267"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/横浜"
     ],
+    "temporal": "1919-01-03",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20021m-0003\">\n<head>\n<date when=\"1919-01-03\">\n           三日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n            元始祭\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:04:00\">\n             午後一時四分\n            </time>\n<persName corresp=\"#pers_近藤\">\n<surname>\n              近藤\n             </surname>\n</persName>\n            男爵渡欧出発（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            ヨリ乗船\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_サミユール_ヒル\">\n<forename>\n              サミユール\n             </forename>\n             ・\n             <surname>\n              ヒル\n             </surname>\n</persName>\n            氏出発帰国（\n            <placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            ）\n            <lb/>\n            （\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅ノ時間予定ナキ由）\n           </p>\n</event>\n</listEvent>\n</div>",

@@ -3,6 +3,10 @@
         "小田",
         "阪谷"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/阪谷"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1453",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -19,42 +23,27 @@
     "date_lvl1": "1924-02",
     "date_lvl2": "1924-02-17",
     "description": "\n\n\n           十七日\n          \n          （日）\n         \n\n\n\n\n             午後\n            \n\n             埼玉\n            \n            県\n            \n             鴻巣\n            \n            町在郷軍人分会員二名来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              小田\n             \n\n            川全之令息同伴来約（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              阪谷\n             \n\n            家ヘ御出向\n           \n\n\n\n\n             午後四半時\n            \n            斯文会協議会（華族会館）\n           \n\n\n",
+    "fullname": [],
     "label": "十七日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0050",
     "objectID": "DKB20026m-0049",
     "prev": "DKB20026m-0048",
     "sort": "DKB20026m-0049",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "埼玉",
         "鴻巣市",
         "飛鳥山公園",
         "アスカ山邸"
     ],
-    "temporal": "1924-02-17",
-    "texts": [
-        "DKB20028m-0153",
-        "DKB20024m-0166",
-        "DKB20018m-0248",
-        "DKB20029m-0048",
-        "DKB20025m-0197",
-        "DKB20024m-0272",
-        "DKB20027m-0170",
-        "DKB20027m-0047",
-        "DKB20018m-0210",
-        "DKB20022m-0208",
-        "DKB20022m-0260",
-        "DKB20026m-0280",
-        "DKB20027m-0131",
-        "DKB20025m-0009",
-        "DKB20022m-0236",
-        "DKB20029m-0053",
-        "DKB20030m-0205",
-        "DKB20031m-0156",
-        "DKB20029m-0333",
-        "DKB20030m-0180"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/埼玉",
+        "https://shibusawa-dlab.github.io/lab1/api/place/鴻巣市",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山邸"
     ],
+    "temporal": "1924-02-17",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20026m-0049\">\n<head>\n<date when=\"1924-02-17\">\n           十七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午後\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県\n            <placeName corresp=\"#place_鴻巣市\">\n             鴻巣\n            </placeName>\n            町在郷軍人分会員二名来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_小田\">\n<surname>\n              小田\n             </surname>\n</persName>\n            川全之令息同伴来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_阪谷\">\n<surname>\n              阪谷\n             </surname>\n</persName>\n            家ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            斯文会協議会（華族会館）\n           </p>\n</event>\n</listEvent>\n</div>",

@@ -4,6 +4,11 @@
         "綱島佳吉",
         "菊池長四郎"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川慶久",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/綱島佳吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/菊池長四郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1379",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,13 +25,18 @@
     "date_lvl1": "1921-10",
     "date_lvl2": "1921-10-03",
     "description": "\n\n\n           三日\n          \n          （月）\n         \n\n\n\n\n             午前八―九時\n            \n\n\n              徳川\n             \n\n              慶久\n             \n\n            公ヲ御訪問（\n            \n             第六天\n            \n            同邸）\n           \n\n\n\n\n             午前十半時\n            \n\n             支那\n            \n            公使ヲ御訪問（同公使館）\n           \n\n\n\n\n             午前十一半時\n            \n\n             米国\n            \n            大使ヲ御訪問（同大使館）\n           \n\n\n\n\n             正午\n            \n\n             東京\n            \n            商業会議所送別午餐会（同会ギ所）\n           \n\n\n\n\n             午後四時\n            \n\n\n              綱島\n             \n\n              佳吉\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n\n              菊池\n             \n\n              長四郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            平和記念東京博覧会ノ件（帝国ホテル）\n           \n\n\n",
+    "fullname": [
+        "\n              徳川\n             \n              慶久\n             ",
+        "\n              綱島\n             \n              佳吉\n             ",
+        "\n              菊池\n             \n              長四郎\n             "
+    ],
     "label": "三日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0270",
     "objectID": "DKB20023m-0269",
     "prev": "DKB20023m-0268",
     "sort": "DKB20023m-0269",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "第六天",
         "支那",
@@ -34,29 +44,14 @@
         "東京",
         "日本橋兜町"
     ],
-    "temporal": "1921-10-03",
-    "texts": [
-        "DKB20018m-0261",
-        "DKB20025m-0009",
-        "DKB20025m-0064",
-        "DKB20023m-0142",
-        "DKB20018m-0012",
-        "DKB20022m-0061",
-        "DKB20022m-0086",
-        "DKB20026m-0213",
-        "DKB20018m-0176",
-        "DKB20025m-0023",
-        "DKB20018m-0170",
-        "DKB20018m-0297",
-        "DKB20030m-0014",
-        "DKB20023m-0111",
-        "DKB20031m-0077",
-        "DKB20019m-0048",
-        "DKB20024m-0077",
-        "DKB20020m-0090",
-        "DKB20021m-0311",
-        "DKB20022m-0209"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/第六天",
+        "https://shibusawa-dlab.github.io/lab1/api/place/支那",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アメリカ合衆国",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
+    "temporal": "1921-10-03",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20023m-0269\">\n<head>\n<date when=\"1921-10-03\">\n           三日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"09:00:00\">\n             午前八―九時\n            </time>\n<persName corresp=\"#pers_徳川慶久\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶久\n             </forename>\n</persName>\n            公ヲ御訪問（\n            <placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n<placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            公使ヲ御訪問（同公使館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            大使ヲ御訪問（同大使館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商業会議所送別午餐会（同会ギ所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_綱島佳吉\">\n<surname>\n              綱島\n             </surname>\n<forename>\n              佳吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_菊池長四郎\">\n<surname>\n              菊池\n             </surname>\n<forename>\n              長四郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            平和記念東京博覧会ノ件（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",

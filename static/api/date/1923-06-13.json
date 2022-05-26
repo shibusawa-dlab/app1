@@ -4,6 +4,11 @@
         "服部文四郎",
         "大谷尊由"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢武之助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/服部文四郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大谷尊由"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1432",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,13 +25,18 @@
     "date_lvl1": "1923-06",
     "date_lvl2": "1923-06-13",
     "description": "\n\n\n           十三日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n            養育院\n            \n             巣鴨\n            \n            分院ヘ御出向\n           \n\n\n\n\n             終ツテ\n            \n\n             東京\n            \n            市養育院ヘ御出向\n           \n\n\n\n\n             午前十一半時\n            \n\n\n              渋沢\n             \n\n              武之助\n             \n\n            様外数氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              服部\n             \n\n              文四郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              大谷\n             \n\n              尊由\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            レコード吹込ノ為メ日蓄文芸部ヘ御出向、江口氏御迎ノ為メ\n            \n             兜町\n            \n            ニ来約（\n            \n             赤坂\n            \n\n             霊南坂\n            \n            同部）\n           \n\n\n",
+    "fullname": [
+        "\n              渋沢\n             \n              武之助\n             ",
+        "\n              服部\n             \n              文四郎\n             ",
+        "\n              大谷\n             \n              尊由\n             "
+    ],
     "label": "十三日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0160",
     "objectID": "DKB20025m-0159",
     "prev": "DKB20025m-0158",
     "sort": "DKB20025m-0159",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "巣鴨",
         "東京",
@@ -34,29 +44,14 @@
         "赤坂",
         "霊南坂"
     ],
-    "temporal": "1923-06-13",
-    "texts": [
-        "DKB20027m-0170",
-        "DKB20021m-0257",
-        "DKB20017m-0207",
-        "DKB20021m-0100",
-        "DKB20022m-0234",
-        "DKB20017m-0123",
-        "DKB20025m-0065",
-        "DKB20022m-0101",
-        "DKB20025m-0197",
-        "DKB20025m-0190",
-        "DKB20017m-0102",
-        "DKB20023m-0041",
-        "DKB20032m-0066",
-        "DKB20020m-0191",
-        "DKB20022m-0042",
-        "DKB20025m-0324",
-        "DKB20026m-0013",
-        "DKB20027m-0140",
-        "DKB20029m-0148",
-        "DKB20025m-0025"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/巣鴨",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/赤坂",
+        "https://shibusawa-dlab.github.io/lab1/api/place/霊南坂"
     ],
+    "temporal": "1923-06-13",
     "time": {
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            養育院\n            <placeName corresp=\"#place_巣鴨\">\n             巣鴨\n            </placeName>\n            分院ヘ御出向</div>"
     },

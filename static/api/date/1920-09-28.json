@@ -2,6 +2,9 @@
     "agential": [
         "添田"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/添田"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1342",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,39 +21,21 @@
     "date_lvl1": "1920-09",
     "date_lvl2": "1920-09-28",
     "description": "\n\n\n           廿八日\n          \n          （火）\n         \n\n\n\n\n             血洗島\n            \n            ヨリ御帰京\n           \n\n\n\n\n             正午\n            \n            日華実業協会幹事会（同会）\n            \n            麴、有楽、一ノ一\n           \n\n\n\n\n             午後六時\n            \n\n\n              添田\n             \n\n            氏ヨリ御招待（同邸）\n            \n\n\n              添田\n             \n\n            邸ニテ英大使ト御会見ノ約\n           \n\n\n",
+    "fullname": [],
     "label": "廿八日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0249",
     "objectID": "DKB20022m-0248",
     "prev": "DKB20022m-0247",
     "sort": "DKB20022m-0248",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "血洗島"
     ],
-    "temporal": "1920-09-28",
-    "texts": [
-        "DKB20029m-0203",
-        "DKB20024m-0067",
-        "DKB20023m-0179",
-        "DKB20023m-0221",
-        "DKB20026m-0173",
-        "DKB20024m-0327",
-        "DKB20024m-0031",
-        "DKB20028m-0251",
-        "DKB20029m-0315",
-        "DKB20021m-0091",
-        "DKB20029m-0035",
-        "DKB20025m-0250",
-        "DKB20020m-0231",
-        "DKB20032m-0091",
-        "DKB20026m-0239",
-        "DKB20024m-0238",
-        "DKB20018m-0305",
-        "DKB20029m-0207",
-        "DKB20019m-0225",
-        "DKB20021m-0258"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/血洗島"
     ],
+    "temporal": "1920-09-28",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20022m-0248\">\n<head>\n<date when=\"1920-09-28\">\n           廿八日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<placeName corresp=\"#place_血洗島\">\n             血洗島\n            </placeName>\n            ヨリ御帰京\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華実業協会幹事会（同会）\n            <lb/>\n            麴、有楽、一ノ一\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_添田\">\n<surname>\n              添田\n             </surname>\n</persName>\n            氏ヨリ御招待（同邸）\n            <lb/>\n<persName corresp=\"#pers_添田\">\n<surname>\n              添田\n             </surname>\n</persName>\n            邸ニテ英大使ト御会見ノ約\n           </p>\n</event>\n</listEvent>\n</div>",

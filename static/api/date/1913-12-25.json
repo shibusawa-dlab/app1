@@ -3,6 +3,10 @@
         "正雄",
         "宇治原退蔵"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/正雄",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/宇治原退蔵"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1163",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -19,40 +23,25 @@
     "date_lvl1": "1913-12",
     "date_lvl2": "1913-12-25",
     "description": "\n\n\n           廿五日\n          \n          （木）\n         \n\n\n\n\n             午前中\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午前十一時\n            \n            神社奉祠会《（祀）》ノ件（内\n            \n             山下町\n            \n            内相官邸）\n           \n\n\n\n\n             午後一時五十分\n            \n\n\n              正雄\n             \n\n            殿\n            \n             新橋\n            \n            着\n           \n\n\n\n\n             午後四時\n            \n\n\n              宇治原\n             \n\n              退蔵\n             \n\n            氏結婚披露（大松閣）\n           \n\n\n\n\n             午後七時\n            \n            外務大臣ヨリ御案内（官邸）\n            \n            エンビフク、クンシヨウ\n           \n\n\n",
+    "fullname": [
+        "\n              宇治原\n             \n              退蔵\n             "
+    ],
     "label": "廿五日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20015m-0010",
     "objectID": "DKB20015m-0009",
     "prev": "DKB20015m-0008",
     "sort": "DKB20015m-0009",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "山下町",
         "新橋"
     ],
-    "temporal": "1913-12-25",
-    "texts": [
-        "DKB20017m-0265",
-        "DKB20017m-0186",
-        "DKB20018m-0245",
-        "DKB20020m-0339",
-        "DKB20017m-0047",
-        "DKB20018m-0032",
-        "DKB20018m-0150",
-        "DKB20015m-0002",
-        "DKB20017m-0244",
-        "DKB20018m-0100",
-        "DKB20018m-0303",
-        "DKB20018m-0106",
-        "DKB20022m-0018",
-        "DKB20028m-0054",
-        "DKB20017m-0172",
-        "DKB20018m-0046",
-        "DKB20024m-0138",
-        "DKB20026m-0024",
-        "DKB20022m-0195",
-        "DKB20018m-0023"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/山下町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/新橋"
     ],
+    "temporal": "1913-12-25",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20015m-0009\">\n<head>\n<date when=\"1913-12-25\">\n           廿五日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前中\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            神社奉祠会《（祀）》ノ件（内\n            <placeName corresp=\"#place_山下町\">\n             山下町\n            </placeName>\n            内相官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:50:00\">\n             午後一時五十分\n            </time>\n<persName corresp=\"#pers_正雄\">\n<forename>\n              正雄\n             </forename>\n</persName>\n            殿\n            <placeName corresp=\"#place_新橋\">\n             新橋\n            </placeName>\n            着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_宇治原退蔵\">\n<surname>\n              宇治原\n             </surname>\n<forename>\n              退蔵\n             </forename>\n</persName>\n            氏結婚披露（大松閣）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            外務大臣ヨリ御案内（官邸）\n            <lb/>\n            エンビフク、クンシヨウ\n           </p>\n</event>\n</listEvent>\n</div>",

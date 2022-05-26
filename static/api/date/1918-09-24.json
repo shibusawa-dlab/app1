@@ -4,6 +4,11 @@
         "林",
         "赤司鷹一郎"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/古河市兵衛",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/林",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/赤司鷹一郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1277",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,40 +25,26 @@
     "date_lvl1": "1918-09",
     "date_lvl2": "1918-09-24",
     "description": "\n\n\n           廿四日\n          \n          （火）\n         \n\n\n\n            秋季皇霊祭《（朱書）》\n           \n\n\n\n\n             午前八時\n            \n            故\n            \n\n              古河\n             \n\n              市兵衛\n             \n\n            氏伝記編纂者\n            \n\n              林\n             \n\n            発未夫氏\n            \n             飛鳥山\n            \n            邸《（林癸未夫カ）》ニ来約\n           \n\n\n\n\n             午前九時\n            \n\n\n              赤司\n             \n\n              鷹一郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            救世軍療養所第三、四病室落成式\n           \n\n\n",
+    "fullname": [
+        "\n              古河\n             \n              市兵衛\n             ",
+        "\n              赤司\n             \n              鷹一郎\n             "
+    ],
     "label": "廿四日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0247",
     "objectID": "DKB20020m-0246",
     "prev": "DKB20020m-0245",
     "sort": "DKB20020m-0246",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "飛鳥山邸"
     ],
-    "temporal": "1918-09-24",
-    "texts": [
-        "DKB20032m-0032",
-        "DKB20023m-0072",
-        "DKB20030m-0151",
-        "DKB20033m-0138",
-        "DKB20018m-0247",
-        "DKB20031m-0157",
-        "DKB20019m-0337",
-        "DKB20031m-0172",
-        "DKB20019m-0170",
-        "DKB20019m-0175",
-        "DKB20031m-0132",
-        "DKB20028m-0092",
-        "DKB20029m-0036",
-        "DKB20033m-0126",
-        "DKB20027m-0178",
-        "DKB20030m-0213",
-        "DKB20032m-0164",
-        "DKB20027m-0114",
-        "DKB20031m-0184",
-        "DKB20031m-0254"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
+    "temporal": "1918-09-24",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20020m-0246\">\n<head>\n<date when=\"1918-09-24\">\n           廿四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n            秋季皇霊祭《（朱書）》\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            故\n            <persName corresp=\"#pers_古河市兵衛\">\n<surname>\n              古河\n             </surname>\n<forename>\n              市兵衛\n             </forename>\n</persName>\n            氏伝記編纂者\n            <persName corresp=\"#pers_林\">\n<surname>\n              林\n             </surname>\n</persName>\n            発未夫氏\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸《（林癸未夫カ）》ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_赤司鷹一郎\">\n<surname>\n              赤司\n             </surname>\n<forename>\n              鷹一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            救世軍療養所第三、四病室落成式\n           </p>\n</event>\n</listEvent>\n</div>",

@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1239",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,40 +17,23 @@
     "date_lvl1": "1917-06",
     "date_lvl2": "1917-06-06",
     "description": "\n\n\n           六日\n          \n          （水）\n         \n\n\n\n\n             午前十一時\n            \n            □分《（断落）》\n            \n             東京\n            \n            駅発\n           \n\n\n\n\n             午後〇時□十六分\n            \n            《（断落）》\n            \n             横須賀\n            \n            駅着\n           \n\n\n\n\n             午後七・二三分\n            \n\n             横須賀\n            \n            駅発汽車ニテ\n           \n\n\n\n\n             午後九・一三分\n            \n\n             東京\n            \n            駅御着\n           \n\n\n",
+    "fullname": [],
     "label": "六日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0158",
     "objectID": "DKB20019m-0157",
     "prev": "DKB20019m-0156",
     "sort": "DKB20019m-0157",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京",
         "横須賀"
     ],
-    "temporal": "1917-06-06",
-    "texts": [
-        "DKB20020m-0123",
-        "DKB20019m-0136",
-        "DKB20019m-0133",
-        "DKB20024m-0070",
-        "DKB20023m-0099",
-        "DKB20019m-0320",
-        "DKB20022m-0319",
-        "DKB20019m-0138",
-        "DKB20029m-0249",
-        "DKB20020m-0149",
-        "DKB20021m-0019",
-        "DKB20024m-0022",
-        "DKB20029m-0165",
-        "DKB20017m-0206",
-        "DKB20025m-0162",
-        "DKB20026m-0224",
-        "DKB20029m-0148",
-        "DKB20020m-0046",
-        "DKB20023m-0050",
-        "DKB20017m-0099"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/横須賀"
     ],
+    "temporal": "1917-06-06",
     "time": {
         "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            □分《（断落）》\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発</div>"
     },

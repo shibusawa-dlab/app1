@@ -5,6 +5,12 @@
         "植村澄三郎",
         "高橋徹夫"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/尾崎哲之助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/武藤長蔵",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/植村澄三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高橋徹夫"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1287",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -21,13 +27,19 @@
     "date_lvl1": "1918-12",
     "date_lvl2": "1918-12-28",
     "description": "\n\n\n           廿八日\n          \n          （土）\n         \n\n\n\n\n             午前八時\n            \n\n\n              尾崎\n             \n\n              哲之助\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前八半時\n            \n\n\n              武藤\n             \n\n              長蔵\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前中\n            \n            御下賜金ノ御礼ノ為宮内省ヘ御出向ノ筈（\n            \n             東御\n            \n            車寄）\n           \n\n\n\n\n             午後二時\n            \n\n             山本\n            \n            農相ヲ御訪問ノ約（場所ハ当日電話ニテ当方ヨリ伺フ事）\n            \n             富士見町\n            \n            官邸\n           \n\n\n\n\n             午后三半―午后四時\n            \n\n\n              植村\n             \n\n              澄三郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四半時\n            \n            ヒル氏、\n            \n\n              高橋\n             \n\n              徹夫\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "fullname": [
+        "\n              尾崎\n             \n              哲之助\n             ",
+        "\n              武藤\n             \n              長蔵\n             ",
+        "\n              植村\n             \n              澄三郎\n             ",
+        "\n              高橋\n             \n              徹夫\n             "
+    ],
     "label": "廿八日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0342",
     "objectID": "DKB20020m-0341",
     "prev": "DKB20020m-0340",
     "sort": "DKB20020m-0341",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "東御",
@@ -35,29 +47,14 @@
         "富士見町",
         "日本橋兜町"
     ],
-    "temporal": "1918-12-28",
-    "texts": [
-        "DKB20021m-0095",
-        "DKB20017m-0174",
-        "DKB20025m-0142",
-        "DKB20022m-0209",
-        "DKB20017m-0181",
-        "DKB20019m-0221",
-        "DKB20019m-0107",
-        "DKB20021m-0122",
-        "DKB20021m-0099",
-        "DKB20022m-0020",
-        "DKB20021m-0148",
-        "DKB20021m-0057",
-        "DKB20020m-0086",
-        "DKB20021m-0242",
-        "DKB20023m-0229",
-        "DKB20017m-0134",
-        "DKB20024m-0166",
-        "DKB20020m-0248",
-        "DKB20024m-0193",
-        "DKB20022m-0195"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東御",
+        "https://shibusawa-dlab.github.io/lab1/api/place/山本",
+        "https://shibusawa-dlab.github.io/lab1/api/place/富士見町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
+    "temporal": "1918-12-28",
     "time": {
         "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_尾崎哲之助\">\n<surname>\n              尾崎\n             </surname>\n<forename>\n              哲之助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },

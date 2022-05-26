@@ -4,6 +4,11 @@
         "伊東米次郎",
         "伊東米治郎"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/伊東米次郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/伊東米治郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1452",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,39 +25,24 @@
     "date_lvl1": "1924-02",
     "date_lvl2": "1924-02-05",
     "description": "\n\n\n           五日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n\n\n              徳川\n             \n\n            家ヘ御出向（\n            \n             千駄ケ谷\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              伊東\n             \n\n              米次郎\n             \n\n            氏来約《（\n            \n\n              伊東\n             \n\n              米治郎\n             \n\n            氏）》（事務所）\n           \n\n\n",
+    "fullname": [
+        "\n              伊東\n             \n              米次郎\n             ",
+        "\n              伊東\n             \n              米治郎\n             "
+    ],
     "label": "五日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0038",
     "objectID": "DKB20026m-0037",
     "prev": "DKB20026m-0036",
     "sort": "DKB20026m-0037",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "千駄ヶ谷"
     ],
-    "temporal": "1924-02-05",
-    "texts": [
-        "DKB20027m-0232",
-        "DKB20030m-0010",
-        "DKB20025m-0331",
-        "DKB20026m-0266",
-        "DKB20032m-0105",
-        "DKB20018m-0210",
-        "DKB20026m-0280",
-        "DKB20027m-0142",
-        "DKB20020m-0143",
-        "DKB20028m-0037",
-        "DKB20030m-0196",
-        "DKB20027m-0067",
-        "DKB20029m-0053",
-        "DKB20031m-0206",
-        "DKB20031m-0236",
-        "DKB20027m-0218",
-        "DKB20031m-0196",
-        "DKB20032m-0139",
-        "DKB20025m-0274",
-        "DKB20029m-0210"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/千駄ヶ谷"
     ],
+    "temporal": "1924-02-05",
     "time": {
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家ヘ御出向（\n            <placeName corresp=\"#place_千駄ヶ谷\">\n             千駄ケ谷\n            </placeName>\n            ）</div>"
     },

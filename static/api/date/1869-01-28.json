@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/59",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -16,40 +17,23 @@
     "date_lvl1": "1869-01",
     "date_lvl2": "1869-01-28",
     "description": "\n\n\n        十二月十六日\n       \n       晴\n       \n        一月廿七日《（廿八日）》\n       \n\n\n       朝\n       \n        七時\n       \n       発、路程も平垣《（坦カ）》にて人馬も稍差支されハ行路捗取りぬ、\n       \n        大磯\n       \n       宿\n       \n       ニ而午飯、夕\n       \n        四時\n       \n       頃\n       \n        小田原\n       \n       宿着、一泊\n      \n",
+    "fullname": [],
     "label": "十二月十六日              晴               一月廿七日《（廿八日）》",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10002m-0045",
     "objectID": "DKB10002m-0044",
     "prev": "DKB10002m-0043",
     "sort": "DKB10002m-0044",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "大磯町",
         "小田原"
     ],
-    "temporal": "1869-01-28",
-    "texts": [
-        "DKB10002m-0043",
-        "DKB10002m-0045",
-        "DKB10002m-0035",
-        "DKB10009m-0027",
-        "DKB10001m-0049",
-        "DKB10002m-0033",
-        "DKB10001m-0077",
-        "DKB10001m-0082",
-        "DKB10011m-0133",
-        "DKB10008m-0297",
-        "DKB10011m-0123",
-        "DKB10001m-0050",
-        "DKB10001m-0011",
-        "DKB10002m-0034",
-        "DKB10002m-0042",
-        "DKB10011m-0089",
-        "DKB10011m-0332",
-        "DKB10014m-0113",
-        "DKB20023m-0099",
-        "DKB10007m-0002"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/大磯町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/小田原"
     ],
+    "temporal": "1869-01-28",
     "time": {
         "07:00:00": "<div>朝<time when=\"07:00:00\">\n        七時\n       </time>\n       発、路程も平垣《（坦カ）》にて人馬も稍差支されハ行路捗取りぬ、\n       <placeName corresp=\"#place_大磯町\">\n        大磯\n       </placeName>\n       宿\n       <pb corresp=\"#pageB1034\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/60/full/max/0/default.jpg\" n=\"B1034\" source=\"#pageB1034\"/>\n       ニ而午飯、夕</div>",
         "16:00:00": "<div><time when=\"16:00:00\">\n        四時\n       </time>\n       頃\n       <placeName corresp=\"#place_小田原\">\n        小田原\n       </placeName>\n       宿着、一泊</div>"

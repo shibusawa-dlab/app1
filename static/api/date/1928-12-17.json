@@ -4,6 +4,11 @@
         "寛芳",
         "木村久寿弥太"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/宇治",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/寛芳",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/木村久寿弥太"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1589",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,39 +25,23 @@
     "date_lvl1": "1928-12",
     "date_lvl2": "1928-12-17",
     "description": "\n\n\n           十七日\n          \n          （月）\n         \n\n\n\n\n             午後\n            \n\n\n              宇治\n             \n\n            川\n            \n\n              寛芳\n             \n\n            氏来約\n            \n             飛鳥山\n            \n            邸\n           \n\n\n\n\n             午前十・五〇\n            \n            御出勤\n           \n\n\n\n\n             午後二時\n            \n\n\n              木村\n             \n\n              久寿弥太\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後二―三時\n            \n            団男爵来約（事務所）\n           \n\n\n",
+    "fullname": [
+        "\n              木村\n             \n              久寿弥太\n             "
+    ],
     "label": "十七日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20030m-0278",
     "objectID": "DKB20030m-0277",
     "prev": "DKB20030m-0276",
     "sort": "DKB20030m-0277",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園"
     ],
-    "temporal": "1928-12-17",
-    "texts": [
-        "DKB20031m-0181",
-        "DKB20031m-0196",
-        "DKB20029m-0233",
-        "DKB20031m-0237",
-        "DKB20031m-0172",
-        "DKB20029m-0328",
-        "DKB20032m-0183",
-        "DKB20033m-0108",
-        "DKB20031m-0239",
-        "DKB20031m-0126",
-        "DKB20033m-0137",
-        "DKB20031m-0131",
-        "DKB20032m-0080",
-        "DKB20033m-0064",
-        "DKB20028m-0286",
-        "DKB20033m-0104",
-        "DKB20030m-0047",
-        "DKB20029m-0208",
-        "DKB20030m-0016",
-        "DKB20031m-0256"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園"
     ],
+    "temporal": "1928-12-17",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20030m-0277\">\n<head>\n<date when=\"1928-12-17\">\n           十七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午後\n            </time>\n<persName corresp=\"#pers_宇治\">\n<surname>\n              宇治\n             </surname>\n</persName>\n            川\n            <persName corresp=\"#pers_寛芳\">\n<forename>\n              寛芳\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:50:00\">\n             午前十・五〇\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_木村久寿弥太\">\n<surname>\n              木村\n             </surname>\n<forename>\n              久寿弥太\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―三時\n            </time>\n            団男爵来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",

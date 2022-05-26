@@ -5,6 +5,12 @@
         "福岡孝弟",
         "山本達雄"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/益田孝",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松方",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/福岡孝弟",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山本達雄"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/209",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -21,13 +27,18 @@
     "date_lvl1": "1901-03",
     "date_lvl2": "1901-03-21",
     "description": "\n\n\n        三月二十一日\n       \n\n\n       晴、\n       \n        午前十時\n       \n\n        上野\n       \n       停車場ニ抵リ王子行汽車ニテ\n       \n        飛鳥山別荘\n       \n       ニ抵リ新築及庭園ヲ一覧、\n       \n        午後一時\n       \n\n        赤羽\n       \n       経過\n       \n        品川\n       \n       行ノ汽車ニ搭シテ\n       \n        二時\n       \n\n        品川\n       \n       ニ抵リ\n       \n\n         益田\n        \n\n         孝\n        \n\n       氏ノ大師会ニ出席ス、\n       \n\n         松方\n        \n\n       伯、\n       \n\n         福岡\n        \n\n         孝悌\n        \n\n       、\n       \n\n         山本\n        \n\n         達雄\n        \n\n       ノ諸氏ヲモ見受ケタリ、畢テ夕\n       \n        四時\n       \n       過\n       \n        兜町\n       \n       ニ帰宿ス\n      \n",
+    "fullname": [
+        "\n         益田\n        \n         孝\n        ",
+        "\n         福岡\n        \n         孝悌\n        ",
+        "\n         山本\n        \n         達雄\n        "
+    ],
     "label": "三月二十一日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10009m-0446",
     "objectID": "DKB10009m-0445",
     "prev": "DKB10009m-0444",
     "sort": "DKB10009m-0445",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "上野",
         "飛鳥山別荘",
@@ -35,29 +46,14 @@
         "品川",
         "日本橋兜町"
     ],
-    "temporal": "1901-03-21",
-    "texts": [
-        "DKB10010m-0066",
-        "DKB10011m-0124",
-        "DKB10011m-0340",
-        "DKB10010m-0265",
-        "DKB10009m-0210",
-        "DKB10008m-0114",
-        "DKB10011m-0317",
-        "DKB10009m-0470",
-        "DKB10010m-0268",
-        "DKB10011m-0327",
-        "DKB10011m-0116",
-        "DKB10011m-0127",
-        "DKB10011m-0215",
-        "DKB10012m-0010",
-        "DKB10011m-0386",
-        "DKB10010m-0131",
-        "DKB10011m-0288",
-        "DKB10008m-0125",
-        "DKB10011m-0179",
-        "DKB10010m-0239"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山別荘",
+        "https://shibusawa-dlab.github.io/lab1/api/place/赤羽",
+        "https://shibusawa-dlab.github.io/lab1/api/place/品川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
+    "temporal": "1901-03-21",
     "time": {
         "10:00:00": "<div>晴、<time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_上野\">\n        上野\n       </placeName>\n       停車場ニ抵リ王子行汽車ニテ\n       <placeName corresp=\"#place_飛鳥山別荘\">\n        飛鳥山別荘\n       </placeName>\n       ニ抵リ新築及庭園ヲ一覧、</div>",
         "13:00:00": "<div><time when=\"13:00:00\">\n        午後一時\n       </time>\n<placeName corresp=\"#place_赤羽\">\n        赤羽\n       </placeName>\n       経過\n       <placeName corresp=\"#place_品川\">\n        品川\n       </placeName>\n       行ノ汽車ニ搭シテ</div>",

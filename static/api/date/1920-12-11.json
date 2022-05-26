@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1348",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,40 +17,23 @@
     "date_lvl1": "1920-12",
     "date_lvl2": "1920-12-11",
     "description": "\n\n\n           十一日\n          \n          （土）\n         \n\n\n\n\n             午後〇時十六分\n            \n\n             大磯\n            \n            より御帰京（\n            \n             東京\n            \n            駅）\n           \n\n\n",
+    "fullname": [],
     "label": "十一日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0320",
     "objectID": "DKB20022m-0319",
     "prev": "DKB20022m-0317",
     "sort": "DKB20022m-0319",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "大磯町",
         "東京"
     ],
-    "temporal": "1920-12-11",
-    "texts": [
-        "DKB20020m-0211",
-        "DKB20025m-0120",
-        "DKB20025m-0125",
-        "DKB20017m-0206",
-        "DKB20023m-0050",
-        "DKB20021m-0104",
-        "DKB20018m-0088",
-        "DKB20019m-0215",
-        "DKB20023m-0062",
-        "DKB20024m-0022",
-        "DKB20017m-0212",
-        "DKB20017m-0255",
-        "DKB20019m-0320",
-        "DKB20018m-0269",
-        "DKB20023m-0064",
-        "DKB20023m-0099",
-        "DKB20024m-0264",
-        "DKB20018m-0218",
-        "DKB20020m-0216",
-        "DKB20031m-0191"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/大磯町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
+    "temporal": "1920-12-11",
     "time": {
         "12:16:00": "<div><time when=\"12:16:00\">\n             午後〇時十六分\n            </time>\n<placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            より御帰京（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）</div>"
     },

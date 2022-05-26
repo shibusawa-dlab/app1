@@ -5,6 +5,12 @@
         "阿部吾市",
         "浅野"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/日下義雄",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野総一郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/阿部吾市",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/223",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -21,39 +27,25 @@
     "date_lvl1": "1901-06",
     "date_lvl2": "1901-06-07",
     "description": "\n\n\n        六月七日\n       \n\n\n       雨、午前書類ヲ整理ス、午後、\n       \n\n         日下\n        \n\n         義雄\n        \n\n       来ル、京釜鉄道会社ノ事務ニ関シテ種々協議ス、夜、\n       \n\n         浅野\n        \n\n         総一郎\n        \n\n       、\n       \n\n         阿部\n        \n\n        吾市\n       \n       来リ茨城炭坑会社創立ノ事ヲ談ス、\n       \n\n         浅野\n        \n\n       氏ト\n       \n        北越\n       \n       石油事業ノ合同方法ヲ協議ス、此日モ日本鉄道会社重役会例日ナリシモ病ノ為謝絶ス\n      \n",
+    "fullname": [
+        "\n         日下\n        \n         義雄\n        ",
+        "\n         浅野\n        \n         総一郎\n        ",
+        "\n         阿部\n        "
+    ],
     "label": "六月七日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10010m-0034",
     "objectID": "DKB10010m-0033",
     "prev": "DKB10010m-0032",
     "sort": "DKB10010m-0033",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "北越"
     ],
-    "temporal": "1901-06-07",
-    "texts": [
-        "DKB10010m-0028",
-        "DKB10011m-0293",
-        "DKB10015m-0150",
-        "DKB10011m-0306",
-        "DKB10011m-0212",
-        "DKB10011m-0379",
-        "DKB10009m-0416",
-        "DKB10010m-0031",
-        "DKB10008m-0142",
-        "DKB10009m-0381",
-        "DKB10010m-0042",
-        "DKB10010m-0152",
-        "DKB10011m-0309",
-        "DKB10010m-0095",
-        "DKB10008m-0097",
-        "DKB10008m-0165",
-        "DKB10008m-0195",
-        "DKB10008m-0358",
-        "DKB10009m-0450",
-        "DKB10011m-0077"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/北越"
     ],
+    "temporal": "1901-06-07",
     "time": {},
     "type": "diary-entry",
     "xml": "<div type=\"diary-entry\" xml:id=\"DKB10010m-0033\">\n<head>\n<date when=\"1901-06-07\">\n        六月七日\n       </date>\n</head>\n<p>\n       雨、午前書類ヲ整理ス、午後、\n       <persName corresp=\"#pers_日下義雄\">\n<surname>\n         日下\n        </surname>\n<forename>\n         義雄\n        </forename>\n</persName>\n       来ル、京釜鉄道会社ノ事務ニ関シテ種々協議ス、夜、\n       <persName corresp=\"#pers_浅野総一郎\">\n<surname>\n         浅野\n        </surname>\n<forename>\n         総一郎\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_阿部吾市\">\n<surname>\n         阿部\n        </surname>\n<forename/>\n        吾市\n       </persName>\n       来リ茨城炭坑会社創立ノ事ヲ談ス、\n       <persName corresp=\"#pers_浅野\">\n<surname>\n         浅野\n        </surname>\n</persName>\n       氏ト\n       <placeName corresp=\"#place_北越\">\n        北越\n       </placeName>\n       石油事業ノ合同方法ヲ協議ス、此日モ日本鉄道会社重役会例日ナリシモ病ノ為謝絶ス\n      </p>\n</div>",

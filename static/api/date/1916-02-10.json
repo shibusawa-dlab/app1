@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1198",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,40 +17,23 @@
     "date_lvl1": "1916-02",
     "date_lvl2": "1916-02-10",
     "description": "\n\n\n           十日\n          \n          （木）\n         \n\n\n\n\n             午後一時\n            \n            断済\n            \n             兜町\n            \n            ヨリ\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午後五時半\n            \n            断済\n            \n             兜町\n            \n            ヨリ\n            \n\n             朝鮮\n            \n            銀行総裁ヨリ御案内（瓢屋）\n           \n\n\n",
+    "fullname": [],
     "label": "十日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0040",
     "objectID": "DKB20018m-0039",
     "prev": "DKB20018m-0038",
     "sort": "DKB20018m-0039",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "朝鮮"
     ],
-    "temporal": "1916-02-10",
-    "texts": [
-        "DKB20018m-0060",
-        "DKB20017m-0095",
-        "DKB20018m-0066",
-        "DKB20018m-0046",
-        "DKB20017m-0206",
-        "DKB20016m-0001",
-        "DKB20017m-0012",
-        "DKB20017m-0075",
-        "DKB20017m-0210",
-        "DKB20017m-0249",
-        "DKB20018m-0073",
-        "DKB20018m-0082",
-        "DKB20018m-0086",
-        "DKB20015m-0002",
-        "DKB20017m-0093",
-        "DKB20017m-0252",
-        "DKB20018m-0084",
-        "DKB20020m-0060",
-        "DKB20020m-0221",
-        "DKB20017m-0130"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/朝鮮"
     ],
+    "temporal": "1916-02-10",
     "time": {
         "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n            断済\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ヨリ\n            <lb/>\n<orgName>\n             第一銀行\n            </orgName></div>"
     },

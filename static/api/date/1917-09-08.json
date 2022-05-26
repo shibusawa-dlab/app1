@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1245",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,41 +17,25 @@
     "date_lvl1": "1917-09",
     "date_lvl2": "1917-09-08",
     "description": "\n\n\n           八日\n          \n          （土）\n         \n\n\n\n\n             午前十・十六\n            \n\n             浦和\n            \n            町ヘ御出向ノ約（報知講演会）\n            \n            （\n            \n             王子\n            \n            駅発）\n           \n\n\n\n\n             午後六・十三\n            \n\n             浦和\n            \n            町ヨリ御帰邸\n            \n             王子\n            \n            駅\n           \n\n\n\n\n             午後七時\n            \n\n             綱町\n            \n            邸ヘ御出向\n           \n\n\n",
+    "fullname": [],
     "label": "八日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0237",
     "objectID": "DKB20019m-0236",
     "prev": "DKB20019m-0235",
     "sort": "DKB20019m-0236",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "浦和",
         "王子",
         "綱町"
     ],
-    "temporal": "1917-09-08",
-    "texts": [
-        "DKB20019m-0298",
-        "DKB20019m-0190",
-        "DKB20028m-0199",
-        "DKB20024m-0272",
-        "DKB20024m-0112",
-        "DKB20019m-0210",
-        "DKB20021m-0019",
-        "DKB20026m-0100",
-        "DKB20019m-0269",
-        "DKB20032m-0146",
-        "DKB20017m-0126",
-        "DKB20026m-0295",
-        "DKB20021m-0240",
-        "DKB20031m-0145",
-        "DKB20020m-0209",
-        "DKB20020m-0149",
-        "DKB20020m-0084",
-        "DKB20026m-0222",
-        "DKB20018m-0215",
-        "DKB20025m-0162"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/浦和",
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子",
+        "https://shibusawa-dlab.github.io/lab1/api/place/綱町"
     ],
+    "temporal": "1917-09-08",
     "time": {
         "10:16:00": "<div><time when=\"10:16:00\">\n             午前十・十六\n            </time>\n<placeName corresp=\"#place_浦和\">\n             浦和\n            </placeName>\n            町ヘ御出向ノ約（報知講演会）\n            <lb/>\n            （\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅発）</div>"
     },

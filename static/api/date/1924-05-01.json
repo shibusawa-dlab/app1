@@ -4,6 +4,11 @@
         "阿部泰助",
         "清浦"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/喜多貞吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/阿部泰助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/清浦"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1462",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,13 +25,17 @@
     "date_lvl1": "1924-05",
     "date_lvl2": "1924-05-01",
     "description": "\n\n\n           一日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n\n\n              喜多\n             \n\n              貞吉\n             \n\n            氏記者同行来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             〃八時\n            \n\n\n              阿部\n             \n\n              泰助\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              清浦\n             \n\n            首相ヨリ御案内（同官邸）\n           \n\n\n\n\n             午後一時\n            \n\n             東京\n            \n            慈恵会并ニ同医科大学復興祝賀会（同所）\n           \n\n\n\n\n             午后三―四時\n            \n            日米問題ニ関シ\n            \n             名古屋\n            \n            市民代表黒宮氏外七名来約（\n            \n             兜町\n            \n            事ム所）\n           \n\n\n\n\n             午後六時\n            \n            帝都復興促進会主催復興ニ関スル講演会（\n            \n             神田美土代町\n            \n            青年会館）\n           \n\n\n",
+    "fullname": [
+        "\n              喜多\n             \n              貞吉\n             ",
+        "\n              阿部\n             \n              泰助\n             "
+    ],
     "label": "一日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0127",
     "objectID": "DKB20026m-0126",
     "prev": "DKB20026m-0124",
     "sort": "DKB20026m-0126",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "東京",
@@ -34,29 +43,14 @@
         "日本橋兜町",
         "神田美土代町"
     ],
-    "temporal": "1924-05-01",
-    "texts": [
-        "DKB20020m-0304",
-        "DKB20021m-0163",
-        "DKB20018m-0302",
-        "DKB20023m-0235",
-        "DKB20025m-0228",
-        "DKB20018m-0199",
-        "DKB20024m-0211",
-        "DKB20019m-0316",
-        "DKB20023m-0277",
-        "DKB20029m-0139",
-        "DKB20018m-0012",
-        "DKB20024m-0193",
-        "DKB20025m-0092",
-        "DKB20020m-0237",
-        "DKB20021m-0231",
-        "DKB20026m-0175",
-        "DKB20027m-0226",
-        "DKB20023m-0170",
-        "DKB20023m-0273",
-        "DKB20024m-0181"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/名古屋",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/神田美土代町"
     ],
+    "temporal": "1924-05-01",
     "time": {
         "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_喜多貞吉\">\n<surname>\n              喜多\n             </surname>\n<forename>\n              貞吉\n             </forename>\n</persName>\n            氏記者同行来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },

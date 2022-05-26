@@ -3,6 +3,10 @@
         "新井",
         "西村茂樹"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/新井",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/西村茂樹"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1559",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -19,42 +23,29 @@
     "date_lvl1": "1927-10",
     "date_lvl2": "1927-10-17",
     "description": "\n\n\n           十七日\n          \n          （月）\n         \n\n\n\n            神嘗祭\n           \n\n\n\n\n             午前八時\n            \n\n             埼玉\n            \n            県学友会\n            \n\n              新井\n             \n\n            氏来約\n            \n             アスカ山\n            \n\n\n\n\n\n             午後二時\n            \n\n\n              西村\n             \n\n              茂樹\n             \n\n            先生二十五年記念祭（\n            \n             駒込\n            \n\n             林町\n            \n            養源寺）\n           \n\n\n",
+    "fullname": [
+        "\n              西村\n             \n              茂樹\n             "
+    ],
     "label": "十七日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0265",
     "objectID": "DKB20029m-0264",
     "prev": "DKB20029m-0262",
     "sort": "DKB20029m-0264",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "埼玉",
         "アスカ山",
         "駒込",
         "林町"
     ],
-    "temporal": "1927-10-17",
-    "texts": [
-        "DKB20019m-0168",
-        "DKB20026m-0288",
-        "DKB20026m-0135",
-        "DKB20026m-0217",
-        "DKB20028m-0263",
-        "DKB20024m-0012",
-        "DKB20026m-0285",
-        "DKB20030m-0270",
-        "DKB20017m-0196",
-        "DKB20017m-0097",
-        "DKB20027m-0031",
-        "DKB20029m-0228",
-        "DKB20018m-0241",
-        "DKB20019m-0170",
-        "DKB20022m-0147",
-        "DKB20024m-0166",
-        "DKB20026m-0042",
-        "DKB20026m-0069",
-        "DKB20030m-0193",
-        "DKB20025m-0235"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/埼玉",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
+        "https://shibusawa-dlab.github.io/lab1/api/place/駒込",
+        "https://shibusawa-dlab.github.io/lab1/api/place/林町"
     ],
+    "temporal": "1927-10-17",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20029m-0264\">\n<head>\n<date when=\"1927-10-17\">\n           十七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n            神嘗祭\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県学友会\n            <persName corresp=\"#pers_新井\">\n<surname>\n              新井\n             </surname>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_西村茂樹\">\n<surname>\n              西村\n             </surname>\n<forename>\n              茂樹\n             </forename>\n</persName>\n            先生二十五年記念祭（\n            <placeName corresp=\"#place_駒込\">\n             駒込\n            </placeName>\n<placeName corresp=\"#place_林町\">\n             林町\n            </placeName>\n            養源寺）\n           </p>\n</event>\n</listEvent>\n</div>",

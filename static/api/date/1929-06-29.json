@@ -4,6 +4,11 @@
         "岡田朝太郎",
         "原泰一"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山崎亀吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡田朝太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/原泰一"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1596",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,39 +25,25 @@
     "date_lvl1": "1929-06",
     "date_lvl2": "1929-06-29",
     "description": "\n\n\n           廿九日\n          \n          （土）\n         \n\n\n\n\n             朝\n            \n\n\n              山崎\n             \n\n              亀吉\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n\n             午前九時\n            \n            法学博士\n            \n\n              岡田\n             \n\n              朝太郎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十一時半\n            \n            御出勤\n           \n\n\n\n\n             正午\n            \n\n\n              原\n             \n\n              泰一\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後二時\n            \n            国際聯盟協会評議員会（同会）\n           \n\n\n",
+    "fullname": [
+        "\n              山崎\n             \n              亀吉\n             ",
+        "\n              岡田\n             \n              朝太郎\n             ",
+        "\n              原\n             \n              泰一\n             "
+    ],
     "label": "廿九日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20031m-0105",
     "objectID": "DKB20031m-0103",
     "prev": "DKB20031m-0102",
     "sort": "DKB20031m-0103",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園"
     ],
-    "temporal": "1929-06-29",
-    "texts": [
-        "DKB20031m-0124",
-        "DKB20028m-0049",
-        "DKB20030m-0053",
-        "DKB20031m-0237",
-        "DKB20032m-0106",
-        "DKB20031m-0256",
-        "DKB20032m-0176",
-        "DKB20032m-0160",
-        "DKB20029m-0203",
-        "DKB20031m-0061",
-        "DKB20033m-0086",
-        "DKB20030m-0014",
-        "DKB20028m-0054",
-        "DKB20033m-0064",
-        "DKB20027m-0131",
-        "DKB20029m-0053",
-        "DKB20029m-0129",
-        "DKB20029m-0160",
-        "DKB20030m-0164",
-        "DKB20032m-0091"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園"
     ],
+    "temporal": "1929-06-29",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20031m-0103\">\n<head>\n<date when=\"1929-06-29\">\n           廿九日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             朝\n            </time>\n<persName corresp=\"#pers_山崎亀吉\">\n<surname>\n              山崎\n             </surname>\n<forename>\n              亀吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2757\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1596/full/max/0/default.jpg\" n=\"B2757\" source=\"#pageB2757\"/>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            法学博士\n            <persName corresp=\"#pers_岡田朝太郎\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              朝太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_原泰一\">\n<surname>\n              原\n             </surname>\n<forename>\n              泰一\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            国際聯盟協会評議員会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",

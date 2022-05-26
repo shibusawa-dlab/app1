@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1274",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,40 +17,23 @@
     "date_lvl1": "1918-08",
     "date_lvl2": "1918-08-16",
     "description": "\n\n\n           十六日\n          \n          （金）\n         \n\n\n\n\n             午後一時廿分\n            \n\n             伊香保\n            \n            より御帰京\n            \n             王子\n            \n            駅\n           \n\n\n",
+    "fullname": [],
     "label": "十六日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0212",
     "objectID": "DKB20020m-0211",
     "prev": "DKB20020m-0209",
     "sort": "DKB20020m-0211",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "伊香保",
         "王子"
     ],
-    "temporal": "1918-08-16",
-    "texts": [
-        "DKB20022m-0319",
-        "DKB20018m-0218",
-        "DKB20024m-0196",
-        "DKB20020m-0216",
-        "DKB20028m-0217",
-        "DKB20024m-0203",
-        "DKB20025m-0223",
-        "DKB20019m-0215",
-        "DKB20024m-0208",
-        "DKB20023m-0050",
-        "DKB20021m-0241",
-        "DKB20017m-0212",
-        "DKB20025m-0120",
-        "DKB20025m-0225",
-        "DKB20030m-0175",
-        "DKB20017m-0206",
-        "DKB20031m-0154",
-        "DKB20021m-0203",
-        "DKB20021m-0240",
-        "DKB20023m-0099"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/伊香保",
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子"
     ],
+    "temporal": "1918-08-16",
     "time": {
         "13:20:00": "<div><time when=\"13:20:00\">\n             午後一時廿分\n            </time>\n<placeName corresp=\"#place_伊香保\">\n             伊香保\n            </placeName>\n            より御帰京\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅</div>"
     },

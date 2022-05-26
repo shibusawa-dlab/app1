@@ -3,6 +3,10 @@
         "佐野善作",
         "塩沢"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐野善作",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/塩沢"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1426",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -19,40 +23,25 @@
     "date_lvl1": "1923-04",
     "date_lvl2": "1923-04-11",
     "description": "\n\n\n           十一日\n          \n          （水）\n         \n\n\n\n\n             午前十一―正午\n            \n\n\n              佐野\n             \n\n              善作\n             \n\n            氏ト御会談約（\n            \n             東京\n            \n            商科大学）\n           \n\n\n\n\n             午後一時\n            \n            聖徳太子千三百年御忌奉賛会御忌法用引続同会評議員会《（要）》（南葵文庫）\n           \n\n\n\n\n             午後四時\n            \n\n\n              塩沢\n             \n\n            早大学長ヨリ御案内（\n            \n             東京\n            \n            会館）\n           \n\n\n\n\n             午後五時\n            \n\n             東京\n            \n            市長催、\n            \n             白国\n            \n            実業団一行歓迎会\n            \n            （帝劇続テ\n            \n             東京\n            \n            会館）燕尾服本綬佩用\n           \n\n\n",
+    "fullname": [
+        "\n              佐野\n             \n              善作\n             "
+    ],
     "label": "十一日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0096",
     "objectID": "DKB20025m-0095",
     "prev": "DKB20025m-0094",
     "sort": "DKB20025m-0095",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京",
         "ベルギー"
     ],
-    "temporal": "1923-04-11",
-    "texts": [
-        "DKB20021m-0246",
-        "DKB20026m-0105",
-        "DKB20023m-0093",
-        "DKB20017m-0032",
-        "DKB20021m-0315",
-        "DKB20023m-0009",
-        "DKB20021m-0218",
-        "DKB20027m-0091",
-        "DKB20016m-0007",
-        "DKB20020m-0237",
-        "DKB20023m-0173",
-        "DKB20029m-0178",
-        "DKB20031m-0128",
-        "DKB20019m-0194",
-        "DKB20028m-0192",
-        "DKB20030m-0052",
-        "DKB20016m-0064",
-        "DKB20017m-0046",
-        "DKB20017m-0072",
-        "DKB20020m-0097"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/ベルギー"
     ],
+    "temporal": "1923-04-11",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20025m-0095\">\n<head>\n<date when=\"1923-04-11\">\n           十一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"11:00:00\" to=\"12:00:00\">\n             午前十一―正午\n            </time>\n<persName corresp=\"#pers_佐野善作\">\n<surname>\n              佐野\n             </surname>\n<forename>\n              善作\n             </forename>\n</persName>\n            氏ト御会談約（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商科大学）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            聖徳太子千三百年御忌奉賛会御忌法用引続同会評議員会《（要）》（南葵文庫）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_塩沢\">\n<surname>\n              塩沢\n             </surname>\n</persName>\n            早大学長ヨリ御案内（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市長催、\n            <placeName corresp=\"#place_ベルギー\">\n             白国\n            </placeName>\n            実業団一行歓迎会\n            <lb/>\n            （帝劇続テ\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            会館）燕尾服本綬佩用\n           </p>\n</event>\n</listEvent>\n</div>",

@@ -3,6 +3,10 @@
         "細野",
         "新宅市五郎"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/細野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/新宅市五郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/58",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -19,40 +23,25 @@
     "date_lvl1": "1869-01",
     "date_lvl2": "1869-01-17",
     "description": "\n\n\n        十二月五日\n       \n       晴\n       \n        一月十六日《（十七日）》\n       \n\n\n       午時より近隣を訪ひ、\n       \n        新田\n       \n\n        吉岡\n       \n       に至る、伊勢崎\n       \n\n         細野\n        \n\n       の妻来りしより帰宿面会、夫より\n       \n\n         新宅\n        \n\n         市五郎\n        \n\n       の宅を訪ひ、前の内ニ而午飯、隠居に至り老叔父に逢ひ旧を話す\n      \n",
+    "fullname": [
+        "\n         新宅\n        \n         市五郎\n        "
+    ],
     "label": "十二月五日              晴               一月十六日《（十七日）》",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10002m-0034",
     "objectID": "DKB10002m-0033",
     "prev": "DKB10002m-0032",
     "sort": "DKB10002m-0033",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "新田",
         "吉岡"
     ],
-    "temporal": "1869-01-17",
-    "texts": [
-        "DKB10002m-0043",
-        "DKB10002m-0035",
-        "DKB10002m-0034",
-        "DKB10002m-0039",
-        "DKB10011m-0089",
-        "DKB10011m-0133",
-        "DKB10002m-0018",
-        "DKB10002m-0032",
-        "DKB10002m-0029",
-        "DKB10009m-0027",
-        "DKB10002m-0014",
-        "DKB10002m-0044",
-        "DKB10002m-0021",
-        "DKB10003m-0021",
-        "DKB10002m-0024",
-        "DKB10010m-0009",
-        "DKB10002m-0038",
-        "DKB10008m-0116",
-        "DKB10003m-0014",
-        "DKB10002m-0045"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/新田",
+        "https://shibusawa-dlab.github.io/lab1/api/place/吉岡"
     ],
+    "temporal": "1869-01-17",
     "time": {},
     "type": "diary-entry",
     "xml": "<div type=\"diary-entry\" xml:id=\"DKB10002m-0033\">\n<head>\n<date type=\"旧暦\" when=\"1869-01-17\">\n        十二月五日\n       </date>\n       晴\n       <date evidence=\"day inferenced\" when=\"1869-01-17\">\n        一月十六日《（十七日）》\n       </date>\n</head>\n<p>\n       午時より近隣を訪ひ、\n       <placeName corresp=\"#place_新田\">\n        新田\n       </placeName>\n<placeName corresp=\"#place_吉岡\">\n        吉岡\n       </placeName>\n       に至る、伊勢崎\n       <persName corresp=\"#pers_細野\">\n<surname>\n         細野\n        </surname>\n</persName>\n       の妻来りしより帰宿面会、夫より\n       <persName corresp=\"#pers_新宅市五郎\">\n<surname>\n         新宅\n        </surname>\n<forename>\n         市五郎\n        </forename>\n</persName>\n       の宅を訪ひ、前の内ニ而午飯、隠居に至り老叔父に逢ひ旧を話す\n      </p>\n</div>",

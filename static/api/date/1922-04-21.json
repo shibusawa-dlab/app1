@@ -4,6 +4,11 @@
         "清水",
         "尺"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/舟阪八郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/清水",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/尺"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1389",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,13 +25,16 @@
     "date_lvl1": "1922-04",
     "date_lvl2": "1922-04-21",
     "description": "\n\n\n           廿一日\n          \n          （金）\n         \n\n\n\n\n             午前八時\n            \n\n\n              舟阪\n             \n\n              八郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後四―五時\n            \n\n             竹田\n            \n            政智氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n\n\n              清水\n             \n\n            、\n            \n\n              尺\n             \n\n            両家結婚披露（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n\n\n             午後七時\n            \n            三井男爵ヨリ御案内（\n            \n             麻布\n            \n\n             今井\n            \n            町同邸）\n            \n             英国\n            \n            皇太子殿下御台臨（エンビ服、勲章ナシ）\n           \n\n\n",
+    "fullname": [
+        "\n              舟阪\n             \n              八郎\n             "
+    ],
     "label": "廿一日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0085",
     "objectID": "DKB20024m-0084",
     "prev": "DKB20024m-0083",
     "sort": "DKB20024m-0084",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "竹田",
@@ -36,29 +44,16 @@
         "今井",
         "イギリス"
     ],
-    "temporal": "1922-04-21",
-    "texts": [
-        "DKB20019m-0114",
-        "DKB20022m-0030",
-        "DKB20022m-0020",
-        "DKB20021m-0188",
-        "DKB20020m-0317",
-        "DKB20023m-0127",
-        "DKB20019m-0146",
-        "DKB20018m-0195",
-        "DKB20024m-0072",
-        "DKB20025m-0170",
-        "DKB20020m-0201",
-        "DKB20025m-0211",
-        "DKB20020m-0109",
-        "DKB20017m-0196",
-        "DKB20021m-0273",
-        "DKB20030m-0007",
-        "DKB20019m-0173",
-        "DKB20032m-0081",
-        "DKB20020m-0009",
-        "DKB20020m-0011"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/竹田",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野精養軒",
+        "https://shibusawa-dlab.github.io/lab1/api/place/麻布",
+        "https://shibusawa-dlab.github.io/lab1/api/place/今井",
+        "https://shibusawa-dlab.github.io/lab1/api/place/イギリス"
     ],
+    "temporal": "1922-04-21",
     "time": {
         "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_舟阪八郎\">\n<surname>\n              舟阪\n             </surname>\n<forename>\n              八郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },

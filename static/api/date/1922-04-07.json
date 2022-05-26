@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1387",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,40 +17,23 @@
     "date_lvl1": "1922-04",
     "date_lvl2": "1922-04-07",
     "description": "\n\n\n           七日\n          \n          （金）\n         \n\n\n\n\n             午前九・一五\n            \n\n             上野\n            \n            駅発、\n            \n             宇都宮\n            \n            ヘ御出向（\n            \n             午後十二時十七分\n            \n\n             宇都宮\n            \n            駅着）\n           \n\n\n\n\n             午後四・一五\n            \n\n             宇都宮\n            \n            発御帰京之筈（\n            \n             午後七時十六分\n            \n\n             上野\n            \n            駅着）\n           \n\n\n",
+    "fullname": [],
     "label": "七日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0071",
     "objectID": "DKB20024m-0070",
     "prev": "DKB20024m-0069",
     "sort": "DKB20024m-0070",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "上野",
         "宇都宮"
     ],
-    "temporal": "1922-04-07",
-    "texts": [
-        "DKB20024m-0112",
-        "DKB20024m-0086",
-        "DKB20020m-0149",
-        "DKB20021m-0019",
-        "DKB20023m-0099",
-        "DKB20018m-0248",
-        "DKB20022m-0225",
-        "DKB20018m-0218",
-        "DKB20020m-0046",
-        "DKB20025m-0162",
-        "DKB20026m-0224",
-        "DKB20031m-0185",
-        "DKB20019m-0133",
-        "DKB20019m-0157",
-        "DKB20028m-0136",
-        "DKB20026m-0100",
-        "DKB20029m-0165",
-        "DKB20019m-0269",
-        "DKB20029m-0151",
-        "DKB20020m-0123"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野",
+        "https://shibusawa-dlab.github.io/lab1/api/place/宇都宮"
     ],
+    "temporal": "1922-04-07",
     "time": {
         "09:15:00": "<div><time when=\"09:15:00\">\n             午前九・一五\n            </time>\n<placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            駅発、\n            <placeName corresp=\"#place_宇都宮\">\n             宇都宮\n            </placeName>\n            ヘ御出向（</div>",
         "12:17:00": "<div><time when=\"12:17:00\">\n             午後十二時十七分\n            </time>\n<placeName corresp=\"#place_宇都宮\">\n             宇都宮\n            </placeName>\n            駅着）</div>"

@@ -3,6 +3,10 @@
         "ハミルトン",
         "王鴻年"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ハミルトン",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/王鴻年"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1352",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -19,39 +23,23 @@
     "date_lvl1": "1921-01",
     "date_lvl2": "1921-01-25",
     "description": "\n\n\n           廿五日\n          \n          （火）\n         \n\n\n\n            同上\n           \n\n\n\n\n             正午\n            \n\n\n              ハミルトン\n             \n\n            氏ヲ御招待（銀行クラブ）\n           \n\n\n\n\n             午後六時\n            \n\n\n              王\n             \n\n              鴻年\n             \n\n            氏ヨリ御案内（\n            \n             支那\n            \n            公使館）\n           \n\n\n",
+    "fullname": [
+        "\n              王\n             \n              鴻年\n             "
+    ],
     "label": "廿五日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0023",
     "objectID": "DKB20023m-0022",
     "prev": "DKB20023m-0021",
     "sort": "DKB20023m-0022",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "支那"
     ],
-    "temporal": "1921-01-25",
-    "texts": [
-        "DKB20020m-0107",
-        "DKB20024m-0151",
-        "DKB20017m-0107",
-        "DKB20020m-0034",
-        "DKB20022m-0306",
-        "DKB20023m-0168",
-        "DKB20020m-0096",
-        "DKB20021m-0328",
-        "DKB20018m-0307",
-        "DKB20017m-0163",
-        "DKB20018m-0098",
-        "DKB20024m-0010",
-        "DKB20018m-0335",
-        "DKB20026m-0080",
-        "DKB20016m-0007",
-        "DKB20025m-0005",
-        "DKB20019m-0333",
-        "DKB20022m-0120",
-        "DKB20017m-0194",
-        "DKB20018m-0023"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/支那"
     ],
+    "temporal": "1921-01-25",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20023m-0022\">\n<head>\n<date when=\"1921-01-25\">\n           廿五日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n            同上\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_ハミルトン\">\n<surname>\n              ハミルトン\n             </surname>\n</persName>\n            氏ヲ御招待（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_王鴻年\">\n<surname>\n              王\n             </surname>\n<forename>\n              鴻年\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            公使館）\n           </p>\n</event>\n</listEvent>\n</div>",

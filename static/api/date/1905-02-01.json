@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/375",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -16,13 +17,14 @@
     "date_lvl1": "1905-02",
     "date_lvl2": "1905-02-01",
     "description": "\n\n\n        二月一日\n       \n       水　曇夕方ヨリ雪降ル、翌朝ニ至リテ歇ム　寒シ\n      \n\n\n        午前七時\n       \n       起床、室内運動ヲ為シ、\n       \n        八時\n       \n       朝飧ヲ畢ル\n       \n\n        午前九時四十六分\n       \n\n        王子\n       \n       発ノ汽車ニテ出京、\n       \n        上野\n       \n       ヨリ電車ニテ\n       \n        第一銀行\n       \n       ニ抵リ要務ヲ処理ス、午飧後\n       \n        兜町\n       \n       事務所ニ抵リ書類ヲ整理ス\n       \n\n        午後五時\n       \n       前電車ニテ\n       \n        上野\n       \n       附近ニ抵ル、\n       \n        根岸\n       \n       ニ於テ知人ヲ訪フ、夜食後\n       \n       雪ヲ冒シテ\n       \n        八時弐十五分\n       \n       、汽車ニテ\n       \n        王子別荘\n       \n       ニ帰宿ス\n      \n",
+    "fullname": [],
     "label": "二月一日              水　曇夕方ヨリ雪降ル、翌朝ニ至リテ歇ム　寒シ",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10013m-0033",
     "objectID": "DKB10013m-0032",
     "prev": "DKB10013m-0031",
     "sort": "DKB10013m-0032",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "王子",
         "上野",
@@ -30,29 +32,14 @@
         "根岸",
         "王子別荘"
     ],
-    "temporal": "1905-02-01",
-    "texts": [
-        "DKB10013m-0026",
-        "DKB10013m-0046",
-        "DKB10013m-0058",
-        "DKB10013m-0056",
-        "DKB10017m-0138",
-        "DKB10013m-0047",
-        "DKB10013m-0236",
-        "DKB10013m-0060",
-        "DKB10017m-0107",
-        "DKB10013m-0076",
-        "DKB10013m-0207",
-        "DKB10017m-0036",
-        "DKB10013m-0109",
-        "DKB10013m-0061",
-        "DKB10013m-0073",
-        "DKB10015m-0069",
-        "DKB10015m-0250",
-        "DKB10017m-0032",
-        "DKB10013m-0168",
-        "DKB10013m-0153"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子",
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/根岸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子別荘"
     ],
+    "temporal": "1905-02-01",
     "time": {
         "07:00:00": "<div><time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、室内運動ヲ為シ、</div>",
         "08:00:00": "<div><time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ畢ル\n       <lb/></div>",

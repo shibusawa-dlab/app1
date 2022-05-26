@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/357",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -16,40 +17,23 @@
     "date_lvl1": "1903-11",
     "date_lvl2": "1903-11-11",
     "description": "\n\n\n        十一月十一日\n       \n\n\n       曇、\n       \n        午前七時\n       \n       起床、朝飧後\n       \n        兜町\n       \n       事務所ニ抵リ来人ニ接ス、午後\n       \n        日本郵船会社\n       \n       重役会ニ列ス、畢テ\n       \n        王子別荘\n       \n       ニ帰宅ス\n      \n",
+    "fullname": [],
     "label": "十一月十一日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10012m-0010",
     "objectID": "DKB10012m-0009",
     "prev": "DKB10012m-0008",
     "sort": "DKB10012m-0009",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "日本橋兜町",
         "王子別荘"
     ],
-    "temporal": "1903-11-11",
-    "texts": [
-        "DKB10012m-0010",
-        "DKB10012m-0008",
-        "DKB10012m-0018",
-        "DKB10011m-0155",
-        "DKB10011m-0127",
-        "DKB10010m-0108",
-        "DKB10011m-0336",
-        "DKB10011m-0416",
-        "DKB10008m-0271",
-        "DKB10011m-0129",
-        "DKB10011m-0282",
-        "DKB10010m-0153",
-        "DKB10010m-0089",
-        "DKB10011m-0318",
-        "DKB10016m-0098",
-        "DKB10010m-0066",
-        "DKB10011m-0213",
-        "DKB10011m-0261",
-        "DKB10011m-0316",
-        "DKB10011m-0095"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子別荘"
     ],
+    "temporal": "1903-11-11",
     "time": {
         "07:00:00": "<div>曇、<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、朝飧後\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接ス、午後\n       <orgName>\n        日本郵船会社\n       </orgName>\n       重役会ニ列ス、畢テ\n       <placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宅ス</div>"
     },

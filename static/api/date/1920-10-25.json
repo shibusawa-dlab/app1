@@ -3,6 +3,10 @@
         "白堅",
         "渋沢"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/白堅",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1345",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -19,39 +23,23 @@
     "date_lvl1": "1920-10",
     "date_lvl2": "1920-10-25",
     "description": "\n\n\n           廿五日\n          \n          （月）\n         \n\n\n\n            御引籠\n           \n\n\n\n\n             午前十時\n            \n\n\n              白\n             \n\n              堅\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午〃十一時\n            \n            協調会理事会（其会）\n           \n\n\n\n\n             午後六時\n            \n            如水会館主催、\n            \n\n              渋沢\n             \n\n            子爵陞爵祝賀会（同館）\n           \n\n\n",
+    "fullname": [
+        "\n              白\n             \n              堅\n             "
+    ],
     "label": "廿五日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0276",
     "objectID": "DKB20022m-0275",
     "prev": "DKB20022m-0274",
     "sort": "DKB20022m-0275",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
-    "temporal": "1920-10-25",
-    "texts": [
-        "DKB20023m-0199",
-        "DKB20024m-0029",
-        "DKB20020m-0107",
-        "DKB20025m-0147",
-        "DKB20022m-0312",
-        "DKB20022m-0070",
-        "DKB20023m-0150",
-        "DKB20023m-0227",
-        "DKB20017m-0245",
-        "DKB20021m-0098",
-        "DKB20025m-0197",
-        "DKB20026m-0357",
-        "DKB20016m-0104",
-        "DKB20025m-0327",
-        "DKB20017m-0196",
-        "DKB20021m-0273",
-        "DKB20025m-0062",
-        "DKB20026m-0266",
-        "DKB20022m-0032",
-        "DKB20023m-0171"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
+    "temporal": "1920-10-25",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20022m-0275\">\n<head>\n<date when=\"1920-10-25\">\n           廿五日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n            御引籠\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_白堅\">\n<surname>\n              白\n             </surname>\n<forename>\n              堅\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午〃十一時\n            </time>\n            協調会理事会（其会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            如水会館主催、\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            子爵陞爵祝賀会（同館）\n           </p>\n</event>\n</listEvent>\n</div>",

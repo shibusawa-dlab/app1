@@ -5,6 +5,12 @@
         "堀越善重",
         "植村澄三郎"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/野崎廣太",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/奥宮正治",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/堀越善重",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/植村澄三郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1336",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -21,41 +27,30 @@
     "date_lvl1": "1920-07",
     "date_lvl2": "1920-07-01",
     "description": "\n\n\n           一日\n          \n          （木）\n         \n\n\n\n\n             午前時\n            \n\n\n              野崎\n             \n\n              広太\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              奥宮\n             \n\n              正治\n             \n\n            氏　　同上\n           \n\n\n\n\n             午後一時半\n            \n\n             東京\n            \n            商業会議所ヘ御出向ノ約\n           \n\n\n\n\n             引続\n            \n            外務省ヘ御出向\n           \n\n\n\n\n             午後二時\n            \n\n\n              堀越\n             \n\n              善重\n             \n\n            郎氏ト御会見（商業会議所）\n           \n\n\n\n\n             午後四時\n            \n\n\n              植村\n             \n\n              澄三郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "fullname": [
+        "\n              野崎\n             \n              広太\n             ",
+        "\n              奥宮\n             \n              正治\n             ",
+        "\n              堀越\n             \n              善重\n             ",
+        "\n              植村\n             \n              澄三郎\n             "
+    ],
     "label": "一日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0182",
     "objectID": "DKB20022m-0181",
     "prev": "DKB20022m-0180",
     "sort": "DKB20022m-0181",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "東京",
         "日本橋兜町"
     ],
-    "temporal": "1920-07-01",
-    "texts": [
-        "DKB20016m-0018",
-        "DKB20026m-0127",
-        "DKB20021m-0006",
-        "DKB20018m-0304",
-        "DKB20025m-0247",
-        "DKB20022m-0033",
-        "DKB20020m-0312",
-        "DKB20017m-0102",
-        "DKB20018m-0170",
-        "DKB20030m-0180",
-        "DKB20021m-0303",
-        "DKB20020m-0220",
-        "DKB20025m-0013",
-        "DKB20021m-0101",
-        "DKB20018m-0200",
-        "DKB20025m-0224",
-        "DKB20019m-0220",
-        "DKB20022m-0208",
-        "DKB20029m-0217",
-        "DKB20030m-0165"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
+    "temporal": "1920-07-01",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20022m-0181\">\n<head>\n<date when=\"1920-07-01\">\n           一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前時\n            </time>\n<persName corresp=\"#pers_野崎廣太\">\n<surname>\n              野崎\n             </surname>\n<forename>\n              広太\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_奥宮正治\">\n<surname>\n              奥宮\n             </surname>\n<forename>\n              正治\n             </forename>\n</persName>\n            氏　　同上\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一時半\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商業会議所ヘ御出向ノ約\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続\n            </time>\n            外務省ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_堀越善重\">\n<surname>\n              堀越\n             </surname>\n<forename>\n              善重\n             </forename>\n</persName>\n            郎氏ト御会見（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_植村澄三郎\">\n<surname>\n              植村\n             </surname>\n<forename>\n              澄三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",

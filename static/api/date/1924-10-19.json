@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1478",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,40 +17,23 @@
     "date_lvl1": "1924-10",
     "date_lvl2": "1924-10-19",
     "description": "\n\n\n           十九日\n          \n          （日）\n         \n\n\n\n\n             午前十時\n            \n\n             田端\n            \n            台下組合発会式（\n            \n             田端\n            \n            第四小学校）\n           \n\n\n\n\n             午後二時\n            \n            修養団々長推戴式（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
+    "fullname": [],
     "label": "十九日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0288",
     "objectID": "DKB20026m-0287",
     "prev": "DKB20026m-0286",
     "sort": "DKB20026m-0287",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "田端",
         "飛鳥山邸"
     ],
-    "temporal": "1924-10-19",
-    "texts": [
-        "DKB20020m-0175",
-        "DKB20031m-0118",
-        "DKB20024m-0282",
-        "DKB20031m-0141",
-        "DKB20022m-0296",
-        "DKB20020m-0098",
-        "DKB20021m-0229",
-        "DKB20016m-0040",
-        "DKB20020m-0091",
-        "DKB20031m-0165",
-        "DKB20030m-0135",
-        "DKB20031m-0062",
-        "DKB20026m-0038",
-        "DKB20033m-0137",
-        "DKB20020m-0293",
-        "DKB20019m-0133",
-        "DKB20024m-0077",
-        "DKB20029m-0327",
-        "DKB20021m-0285",
-        "DKB20024m-0043"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/田端",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
+    "temporal": "1924-10-19",
     "time": {
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_田端\">\n             田端\n            </placeName>\n            台下組合発会式（\n            <placeName corresp=\"#place_田端\">\n             田端\n            </placeName>\n            第四小学校）</div>"
     },

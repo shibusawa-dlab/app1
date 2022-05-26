@@ -2,6 +2,9 @@
     "agential": [
         "中村"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中村"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1436",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,13 +21,14 @@
     "date_lvl1": "1923-07",
     "date_lvl2": "1923-07-16",
     "description": "\n\n\n           十六日\n          \n          （月）\n         \n\n\n\n\n             午前十―十一時\n            \n\n             永田\n            \n\n             東京\n            \n            市長ト御会談約（内務省）\n           \n\n\n\n\n             正午\n            \n\n             宮川\n            \n            一貫、\n            \n             鄭\n            \n            垂、任調民三氏招待会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二―三時\n            \n\n\n              中村\n             \n\n            安得氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            日華実業協会幹事会（同会）\n           \n\n\n\n\n             午後六時\n            \n\n             小林\n            \n            錡氏送別会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "fullname": [],
     "label": "十六日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0194",
     "objectID": "DKB20025m-0193",
     "prev": "DKB20025m-0192",
     "sort": "DKB20025m-0193",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "永田",
         "東京",
@@ -33,29 +37,15 @@
         "日本橋兜町",
         "小林"
     ],
-    "temporal": "1923-07-16",
-    "texts": [
-        "DKB20023m-0193",
-        "DKB20023m-0234",
-        "DKB20020m-0106",
-        "DKB20025m-0076",
-        "DKB20017m-0072",
-        "DKB20029m-0203",
-        "DKB20025m-0228",
-        "DKB20023m-0171",
-        "DKB20024m-0278",
-        "DKB20018m-0257",
-        "DKB20020m-0199",
-        "DKB20023m-0273",
-        "DKB20025m-0037",
-        "DKB20025m-0026",
-        "DKB20021m-0006",
-        "DKB20025m-0210",
-        "DKB20022m-0226",
-        "DKB20025m-0142",
-        "DKB20023m-0206",
-        "DKB20020m-0171"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/永田",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/宮川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/鄭",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/小林"
     ],
+    "temporal": "1923-07-16",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20025m-0193\">\n<head>\n<date when=\"1923-07-16\">\n           十六日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"11:00:00\">\n             午前十―十一時\n            </time>\n<placeName corresp=\"#place_永田\">\n             永田\n            </placeName>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市長ト御会談約（内務省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_宮川\">\n             宮川\n            </placeName>\n            一貫、\n            <placeName corresp=\"#place_鄭\">\n             鄭\n            </placeName>\n            垂、任調民三氏招待会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―三時\n            </time>\n<persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            安得氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            日華実業協会幹事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_小林\">\n             小林\n            </placeName>\n            錡氏送別会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",

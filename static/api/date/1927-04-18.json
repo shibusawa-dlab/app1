@@ -3,6 +3,10 @@
         "深井英五",
         "田中栄八郎"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/深井英五",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田中栄八郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1541",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -19,39 +23,24 @@
     "date_lvl1": "1927-04",
     "date_lvl2": "1927-04-18",
     "description": "\n\n\n           十八日\n          \n          （月）\n         \n\n\n\n\n             午前十―十一時\n            \n\n\n              深井\n             \n\n              英五\n             \n\n            氏ヲ御訪問（\n            \n             日本\n            \n            銀行）\n           \n\n\n\n\n             午前十一・四〇時\n            \n            御出勤\n           \n\n\n\n\n             正午\n            \n            日華実業協会幹事会（同会）\n           \n\n\n\n\n             午後五半時\n            \n\n\n              田中\n             \n\n              栄八郎\n             \n\n            氏ヨリ御案内（新喜楽）\n           \n\n\n",
+    "fullname": [
+        "\n              深井\n             \n              英五\n             ",
+        "\n              田中\n             \n              栄八郎\n             "
+    ],
     "label": "十八日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0092",
     "objectID": "DKB20029m-0091",
     "prev": "DKB20029m-0089",
     "sort": "DKB20029m-0091",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本"
     ],
-    "temporal": "1927-04-18",
-    "texts": [
-        "DKB20029m-0315",
-        "DKB20030m-0051",
-        "DKB20028m-0232",
-        "DKB20028m-0324",
-        "DKB20023m-0015",
-        "DKB20030m-0091",
-        "DKB20030m-0263",
-        "DKB20029m-0170",
-        "DKB20026m-0215",
-        "DKB20030m-0171",
-        "DKB20032m-0176",
-        "DKB20029m-0203",
-        "DKB20023m-0277",
-        "DKB20028m-0321",
-        "DKB20030m-0053",
-        "DKB20032m-0091",
-        "DKB20027m-0135",
-        "DKB20029m-0328",
-        "DKB20032m-0136",
-        "DKB20032m-0185"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本"
     ],
+    "temporal": "1927-04-18",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20029m-0091\">\n<head>\n<date when=\"1927-04-18\">\n           十八日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"11:00:00\">\n             午前十―十一時\n            </time>\n<persName corresp=\"#pers_深井英五\">\n<surname>\n              深井\n             </surname>\n<forename>\n              英五\n             </forename>\n</persName>\n            氏ヲ御訪問（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            銀行）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:40:00\">\n             午前十一・四〇時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華実業協会幹事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_田中栄八郎\">\n<surname>\n              田中\n             </surname>\n<forename>\n              栄八郎\n             </forename>\n</persName>\n            氏ヨリ御案内（新喜楽）\n           </p>\n</event>\n</listEvent>\n</div>",

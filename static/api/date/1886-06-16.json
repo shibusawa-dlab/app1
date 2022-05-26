@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/88",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -16,41 +17,25 @@
     "date_lvl1": "1886-06",
     "date_lvl2": "1886-06-16",
     "description": "\n\n\n        （六月）十六日\n       \n\n\n       晴、昧爽\n       \n        糸魚川\n       \n       ヲ発シ、\n       \n        直江津\n       \n       ニ於テ午餐ス、\n       \n        午後七時\n       \n\n        柏崎\n       \n       ニ抵リ、天屋京兵衛ニ投宿ス、此夜\n       \n        柏崎\n       \n       広信社員来リテ一宴ヲ開テ余ヲ饗スル事ヲ乞フ、依テ其宴ニ赴ク、高田銀行支店役員来会ス、\n       \n        十二時\n       \n       帰宿ス\n      \n",
+    "fullname": [],
     "label": "（六月）十六日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10006m-0023",
     "objectID": "DKB10006m-0022",
     "prev": "DKB10006m-0021",
     "sort": "DKB10006m-0022",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "糸魚川市",
         "直江津市",
         "柏崎"
     ],
-    "temporal": "1886-06-16",
-    "texts": [
-        "DKB10006m-0004",
-        "DKB10005m-0005",
-        "DKB10004m-0006",
-        "DKB10007m-0002",
-        "DKB10011m-0261",
-        "DKB10009m-0207",
-        "DKB10008m-0171",
-        "DKB10009m-0391",
-        "DKB10006m-0012",
-        "DKB10009m-0220",
-        "DKB10011m-0121",
-        "DKB10008m-0204",
-        "DKB10011m-0332",
-        "DKB10011m-0130",
-        "DKB10011m-0295",
-        "DKB10008m-0168",
-        "DKB10009m-0291",
-        "DKB10011m-0294",
-        "DKB10013m-0244",
-        "DKB10015m-0143"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/糸魚川市",
+        "https://shibusawa-dlab.github.io/lab1/api/place/直江津市",
+        "https://shibusawa-dlab.github.io/lab1/api/place/柏崎"
     ],
+    "temporal": "1886-06-16",
     "time": {
         "19:00:00": "<div>晴、昧爽\n       <placeName corresp=\"#place_糸魚川市\">\n        糸魚川\n       </placeName>\n       ヲ発シ、\n       <placeName corresp=\"#place_直江津市\">\n        直江津\n       </placeName>\n       ニ於テ午餐ス、<time when=\"19:00:00\">\n        午後七時\n       </time>\n<placeName corresp=\"#place_柏崎\">\n        柏崎\n       </placeName>\n       ニ抵リ、天屋京兵衛ニ投宿ス、此夜\n       <placeName corresp=\"#place_柏崎\">\n        柏崎\n       </placeName>\n       広信社員来リテ一宴ヲ開テ余ヲ饗スル事ヲ乞フ、依テ其宴ニ赴ク、高田銀行支店役員来会ス、</div>",
         "24:00:00": "<div><time when-iso=\"1886-06-17T00:00+0900\">\n        十二時\n       </time>\n       帰宿ス</div>"

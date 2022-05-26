@@ -2,6 +2,9 @@
     "agential": [
         "兼子"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/兼子"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/131",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -18,13 +21,14 @@
     "date_lvl1": "1899-10",
     "date_lvl2": "1899-10-07",
     "description": "\n\n\n        十月七日\n       \n\n\n       暴風雨、朝来雨且風ヲ帯ヒテ天候不穏ナリシカ、三四ノ来客ニ接ス、午後ニ至リ風益強ク雨頗ル多シ、\n       \n        三時\n       \n\n        第一銀行\n       \n       ニ抵リ事務ヲ視ル、\n       \n        四時\n       \n       頃ヨリ風雨猛烈ナリシテ《（ガ）》数時ニシテ歇ム、此日\n       \n        兜町\n       \n       宅ノ鉄柵ヲ破壊セラル、\n       \n\n         兼子\n        \n\n       ハ病ニ依テ転地療養ノ為此日\n       \n        十二時\n       \n       ノ汽車ニテ\n       \n        大磯\n       \n       ニ赴キシカ、同地ノ海嘯ノ厄アリテ、一夕招仙閣ニ宿シ、翌日長生館ニ投宿セシ由報シ来ル\n       \n       此風災ノ為メ日本鉄道会社ノ列車、\n       \n        矢板\n       \n       、\n       \n        野崎\n       \n       間ニ於テ\n       \n        箒川\n       \n       ニ転覆ノ変アリ、夜\n       \n        六時\n       \n\n        深川\n       \n       宅ニ抵リ書生等ノ談話会ヲ聞ク\n      \n",
+    "fullname": [],
     "label": "十月七日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10008m-0282",
     "objectID": "DKB10008m-0281",
     "prev": "DKB10008m-0280",
     "sort": "DKB10008m-0281",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "日本橋兜町",
         "大磯町",
@@ -33,29 +37,15 @@
         "箒川",
         "深川"
     ],
-    "temporal": "1899-10-07",
-    "texts": [
-        "DKB10008m-0168",
-        "DKB10008m-0353",
-        "DKB10011m-0177",
-        "DKB10008m-0271",
-        "DKB10011m-0396",
-        "DKB10008m-0094",
-        "DKB10016m-0344",
-        "DKB10008m-0270",
-        "DKB10008m-0255",
-        "DKB10011m-0261",
-        "DKB10008m-0258",
-        "DKB10009m-0125",
-        "DKB10008m-0350",
-        "DKB10015m-0119",
-        "DKB10010m-0221",
-        "DKB10008m-0088",
-        "DKB10011m-0409",
-        "DKB10011m-0226",
-        "DKB10013m-0154",
-        "DKB10017m-0022"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/大磯町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/矢板",
+        "https://shibusawa-dlab.github.io/lab1/api/place/野崎",
+        "https://shibusawa-dlab.github.io/lab1/api/place/箒川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/深川"
     ],
+    "temporal": "1899-10-07",
     "time": {
         "12:00:00": "<div><time when=\"12:00:00\">\n        十二時\n       </time>\n       ノ汽車ニテ\n       <placeName corresp=\"#place_大磯町\">\n        大磯\n       </placeName>\n       ニ赴キシカ、同地ノ海嘯ノ厄アリテ、一夕招仙閣ニ宿シ、翌日長生館ニ投宿セシ由報シ来ル\n       <lb/>\n       此風災ノ為メ日本鉄道会社ノ列車、\n       <placeName corresp=\"#place_矢板\">\n        矢板\n       </placeName>\n       、\n       <placeName corresp=\"#place_野崎\">\n        野崎\n       </placeName>\n       間ニ於テ\n       <placeName corresp=\"#place_箒川\">\n        箒川\n       </placeName>\n       ニ転覆ノ変アリ、夜</div>",
         "15:00:00": "<div>暴風雨、朝来雨且風ヲ帯ヒテ天候不穏ナリシカ、三四ノ来客ニ接ス、午後ニ至リ風益強ク雨頗ル多シ、<time when=\"15:00:00\">\n        三時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ抵リ事務ヲ視ル、</div>",

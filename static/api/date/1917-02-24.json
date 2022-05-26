@@ -7,6 +7,14 @@
         "本野",
         "近藤"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/清水",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/穂積重遠",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/副島道正",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/八郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/本野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/近藤"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1229",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -23,13 +31,17 @@
     "date_lvl1": "1917-02",
     "date_lvl2": "1917-02-24",
     "description": "\n\n\n           廿四日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n            記念館建築ノ件ニ付キ\n            \n\n              清水\n             \n\n            氏其ノ他来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n\n              穂積\n             \n\n              重遠\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              副島\n             \n\n              道正\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午〇時半\n            \n            三井\n            \n\n              八郎\n             \n\n            《（右脱）》ヱ門男ヨリ御案内（\n            \n             芝\n            \n\n             三田\n            \n\n             綱町\n            \n            同邸）\n           \n\n\n\n\n             午二時半\n            \n\n\n              本野\n             \n\n            外務大臣御訪問（霞関同官舎）\n           \n\n\n\n\n             午後三時半\n            \n            帰一協会幹事会（\n            \n             兜町\n            \n            事ム処）\n           \n\n\n\n\n             午後六時\n            \n\n\n              近藤\n             \n\n            男爵ヨリ御案内（ヒサゴヤ）\n           \n\n\n",
+    "fullname": [
+        "\n              穂積\n             \n              重遠\n             ",
+        "\n              副島\n             \n              道正\n             "
+    ],
     "label": "廿四日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0057",
     "objectID": "DKB20019m-0056",
     "prev": "DKB20019m-0055",
     "sort": "DKB20019m-0056",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "飛鳥山邸",
@@ -38,29 +50,15 @@
         "三田",
         "綱町"
     ],
-    "temporal": "1917-02-24",
-    "texts": [
-        "DKB20028m-0191",
-        "DKB20020m-0292",
-        "DKB20019m-0257",
-        "DKB20024m-0327",
-        "DKB20022m-0195",
-        "DKB20023m-0139",
-        "DKB20030m-0077",
-        "DKB20021m-0006",
-        "DKB20020m-0276",
-        "DKB20021m-0205",
-        "DKB20023m-0271",
-        "DKB20021m-0212",
-        "DKB20024m-0193",
-        "DKB20019m-0316",
-        "DKB20019m-0327",
-        "DKB20021m-0174",
-        "DKB20021m-0219",
-        "DKB20023m-0145",
-        "DKB20028m-0142",
-        "DKB20031m-0253"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/芝",
+        "https://shibusawa-dlab.github.io/lab1/api/place/三田",
+        "https://shibusawa-dlab.github.io/lab1/api/place/綱町"
     ],
+    "temporal": "1917-02-24",
     "time": {
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            記念館建築ノ件ニ付キ\n            <persName corresp=\"#pers_清水\">\n<surname>\n              清水\n             </surname>\n</persName>\n            氏其ノ他来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },

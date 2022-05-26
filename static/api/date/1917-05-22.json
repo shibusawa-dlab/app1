@@ -4,6 +4,11 @@
         "寺田",
         "仲小路"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡崎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/寺田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/仲小路"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1237",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,40 +25,23 @@
     "date_lvl1": "1917-05",
     "date_lvl2": "1917-05-22",
     "description": "\n\n\n           廿二日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n\n             東京\n            \n            府慈善協会第一回大会（\n            \n             小石川\n            \n            植物園）\n           \n\n\n\n\n             午後一時\n            \n            慰問会ノ件ニ付\n            \n\n              岡崎\n             \n\n            、\n            \n\n              寺田\n             \n\n            両氏ト御会見ノ約（衆議院図書館）\n           \n\n\n\n\n             午後二半時\n            \n\n\n              仲小路\n             \n\n            農相ト御会見ノ約（農商務省）\n           \n\n\n",
+    "fullname": [],
     "label": "廿二日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0142",
     "objectID": "DKB20019m-0141",
     "prev": "DKB20019m-0140",
     "sort": "DKB20019m-0141",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東京",
         "小石川"
     ],
-    "temporal": "1917-05-22",
-    "texts": [
-        "DKB20020m-0208",
-        "DKB20019m-0293",
-        "DKB20024m-0024",
-        "DKB20029m-0015",
-        "DKB20029m-0194",
-        "DKB20017m-0062",
-        "DKB20019m-0225",
-        "DKB20021m-0212",
-        "DKB20030m-0259",
-        "DKB20026m-0132",
-        "DKB20032m-0120",
-        "DKB20025m-0247",
-        "DKB20017m-0193",
-        "DKB20018m-0008",
-        "DKB20022m-0221",
-        "DKB20028m-0054",
-        "DKB20021m-0184",
-        "DKB20021m-0215",
-        "DKB20029m-0096",
-        "DKB20019m-0218"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/小石川"
     ],
+    "temporal": "1917-05-22",
     "time": {
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            府慈善協会第一回大会（\n            <placeName corresp=\"#place_小石川\">\n             小石川\n            </placeName>\n            植物園）</div>"
     },

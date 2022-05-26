@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/344",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -16,40 +17,23 @@
     "date_lvl1": "1903-08",
     "date_lvl2": "1903-08-06",
     "description": "\n\n\n        八月六日\n       \n\n\n       晴、\n       \n        午前八時\n       \n       朝飧ヲ畢リ、\n       \n        十時\n       \n\n        兜町\n       \n       事務所ニ抵リ来人ニ接ス、午後\n       \n        第一銀行\n       \n       ニ抵リ重役会ヲ開ク、\n       \n        四時\n       \n       深川区役所ニ抵リ区会ヲ開ク、\n       \n        七時\n       \n\n        深川\n       \n       宅ニ帰宿ス、夜市中ヲ散歩ス\n      \n",
+    "fullname": [],
     "label": "八月六日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10011m-0333",
     "objectID": "DKB10011m-0332",
     "prev": "DKB10011m-0331",
     "sort": "DKB10011m-0332",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "日本橋兜町",
         "深川"
     ],
-    "temporal": "1903-08-06",
-    "texts": [
-        "DKB10011m-0261",
-        "DKB10011m-0121",
-        "DKB10011m-0318",
-        "DKB10011m-0416",
-        "DKB10011m-0213",
-        "DKB10009m-0060",
-        "DKB10009m-0207",
-        "DKB10011m-0207",
-        "DKB10009m-0291",
-        "DKB10011m-0336",
-        "DKB10017m-0035",
-        "DKB10011m-0340",
-        "DKB10011m-0244",
-        "DKB10011m-0129",
-        "DKB10008m-0215",
-        "DKB10010m-0228",
-        "DKB10011m-0258",
-        "DKB10009m-0046",
-        "DKB10012m-0010",
-        "DKB10011m-0163"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/深川"
     ],
+    "temporal": "1903-08-06",
     "time": {
         "08:00:00": "<div>晴、<time when=\"08:00:00\">\n        午前八時\n       </time>\n       朝飧ヲ畢リ、</div>",
         "10:00:00": "<div><time when=\"10:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接ス、午後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ抵リ重役会ヲ開ク、</div>",

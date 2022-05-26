@@ -5,6 +5,12 @@
         "中野",
         "和田"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/各務鎌吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/林",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/和田"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1229",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -21,13 +27,17 @@
     "date_lvl1": "1917-02",
     "date_lvl2": "1917-02-26",
     "description": "\n\n\n           廿六日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n            末延道成氏御訪問ノ約（\n            \n             麻\n            \n\n             鳥居阪\n            \n            五《（\n            \n             麻\n            \n\n             鳥居坂\n            \n            五）》、同家）\n           \n\n\n\n\n             午前十時半\n            \n\n\n              各務\n             \n\n              謙吉\n             \n\n            氏《（\n            \n\n              各務\n             \n\n              鎌吉\n             \n\n            氏）》ヲ御訪問ノ約（\n            \n             東京\n            \n            海上保\n            \n            険）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              林\n             \n\n            駐\n            \n             支那\n            \n            公使来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n             上山\n            \n            次官ヲ農商務省ニ御訪問\n           \n\n\n\n\n             午後四時《（朱書）》―五時ノ間\n            \n\n\n              中野\n             \n\n            、\n            \n\n              和田\n             \n\n            両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            御同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "fullname": [
+        "\n              各務\n             \n              謙吉\n             ",
+        "\n              各務\n             \n              鎌吉\n             "
+    ],
     "label": "廿六日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0059",
     "objectID": "DKB20019m-0058",
     "prev": "DKB20019m-0057",
     "sort": "DKB20019m-0058",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "麻",
         "鳥居阪",
@@ -37,29 +47,16 @@
         "日本橋兜町",
         "上山"
     ],
-    "temporal": "1917-02-26",
-    "texts": [
-        "DKB20017m-0056",
-        "DKB20021m-0205",
-        "DKB20019m-0278",
-        "DKB20021m-0214",
-        "DKB20018m-0242",
-        "DKB20022m-0147",
-        "DKB20024m-0266",
-        "DKB20023m-0229",
-        "DKB20018m-0328",
-        "DKB20020m-0208",
-        "DKB20023m-0216",
-        "DKB20019m-0065",
-        "DKB20016m-0104",
-        "DKB20023m-0157",
-        "DKB20025m-0023",
-        "DKB20023m-0128",
-        "DKB20021m-0184",
-        "DKB20018m-0261",
-        "DKB20020m-0277",
-        "DKB20025m-0142"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/麻",
+        "https://shibusawa-dlab.github.io/lab1/api/place/鳥居阪",
+        "https://shibusawa-dlab.github.io/lab1/api/place/鳥居坂",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/支那",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/上山"
     ],
+    "temporal": "1917-02-26",
     "time": {
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            末延道成氏御訪問ノ約（\n            <placeName corresp=\"#place_麻\">\n             麻\n            </placeName>\n<placeName corresp=\"#place_鳥居阪\">\n             鳥居阪\n            </placeName>\n            五《（\n            <placeName corresp=\"#place_麻\">\n             麻\n            </placeName>\n<placeName corresp=\"#place_鳥居坂\">\n             鳥居坂\n            </placeName>\n            五）》、同家）</div>"
     },

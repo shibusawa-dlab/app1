@@ -7,6 +7,14 @@
         "笠井重治",
         "添田"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/妹尾幸三",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡本",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/伊坂",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/迎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/笠井重治",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/添田"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1309",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -23,40 +31,26 @@
     "date_lvl1": "1919-09",
     "date_lvl2": "1919-09-10",
     "description": "\n\n\n           十日\n          \n          （水）\n         \n\n\n\n\n             午前時\n            \n\n\n              妹尾\n             \n\n              幸三\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            帝劇主催、\n            \n\n              岡本\n             \n\n            、\n            \n\n              伊坂\n             \n\n            両氏観\n            \n\n              迎\n             \n\n            会《（歓）》（ホテル）\n           \n\n\n\n\n             午後一時\n            \n\n\n              笠井\n             \n\n              重治\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n\n\n              添田\n             \n\n            地方局長\n            \n             兜町\n            \n            ニ来約\n           \n\n\n",
+    "fullname": [
+        "\n              妹尾\n             \n              幸三\n             ",
+        "\n              笠井\n             \n              重治\n             "
+    ],
     "label": "十日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0224",
     "objectID": "DKB20021m-0223",
     "prev": "DKB20021m-0222",
     "sort": "DKB20021m-0223",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "日本橋兜町"
     ],
-    "temporal": "1919-09-10",
-    "texts": [
-        "DKB20018m-0120",
-        "DKB20022m-0070",
-        "DKB20029m-0015",
-        "DKB20019m-0170",
-        "DKB20023m-0061",
-        "DKB20021m-0273",
-        "DKB20022m-0041",
-        "DKB20021m-0176",
-        "DKB20017m-0058",
-        "DKB20021m-0259",
-        "DKB20021m-0245",
-        "DKB20033m-0049",
-        "DKB20017m-0187",
-        "DKB20023m-0118",
-        "DKB20025m-0051",
-        "DKB20026m-0247",
-        "DKB20023m-0137",
-        "DKB20033m-0126",
-        "DKB20021m-0183",
-        "DKB20024m-0133"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
+    "temporal": "1919-09-10",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20021m-0223\">\n<head>\n<date when=\"1919-09-10\">\n           十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前時\n            </time>\n<persName corresp=\"#pers_妹尾幸三\">\n<surname>\n              妹尾\n             </surname>\n<forename>\n              幸三\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            帝劇主催、\n            <persName corresp=\"#pers_岡本\">\n<surname>\n              岡本\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_伊坂\">\n<surname>\n              伊坂\n             </surname>\n</persName>\n            両氏観\n            <persName corresp=\"#pers_迎\">\n<surname>\n              迎\n             </surname>\n</persName>\n            会《（歓）》（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_笠井重治\">\n<surname>\n              笠井\n             </surname>\n<forename>\n              重治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_添田\">\n<surname>\n              添田\n             </surname>\n</persName>\n            地方局長\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n</listEvent>\n</div>",

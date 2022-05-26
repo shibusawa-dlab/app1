@@ -5,6 +5,12 @@
         "佐々木",
         "池田"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/横山徳次郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/豊川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐々木",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/池田"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/666",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -21,13 +27,16 @@
     "date_lvl1": "1910-08",
     "date_lvl2": "1910-08-31",
     "description": "\n\n\n        八月三十一日\n       \n       水　曇　暑\n      \n\n\n        午前六時半\n       \n       起床、入浴シテ、朝飧ヲ食ス、後、日記ヲ編成ス、\n       \n\n         横山\n        \n\n         徳次郎\n        \n\n       氏ト電話ニテ要務ヲ談ス、又、書状ヲ裁ス、\n       \n        十時\n       \n       事務所ニ抵リ\n       \n        大阪\n       \n       其他ヘ書状ヲ認ム、\n       \n        正午\n       \n\n        銀行倶楽部\n       \n       ニ於テ午飧シ、後、\n       \n\n         豊川\n        \n\n       、\n       \n\n         佐々木\n        \n\n       、\n       \n\n         池田\n        \n\n       等ト要務ヲ談ス、\n       \n        午後二時\n       \n       事務所ニ於テ\n       \n        大阪\n       \n       、\n       \n        三重\n       \n       又ハ\n       \n        北越\n       \n       等ヘ書状ヲ認ム、実業団ノ書類ニ記名ス\n       \n\n        午後五時\n       \n       ヨリ同族会ヲ開キ、水害ニ付\n       \n        八基村\n       \n       寄附金ノ事其他要件ヲ議\n       \n       決ス、夜飧後諸事務ヲ談話シ、夜\n       \n        十一時\n       \n       過\n       \n        王子\n       \n       ニ帰宿ス、途中自働車損シテ数十分遅引ス\n      \n",
+    "fullname": [
+        "\n         横山\n        \n         徳次郎\n        "
+    ],
     "label": "八月三十一日              水　曇　暑",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10018m-0203",
     "objectID": "DKB10018m-0202",
     "prev": "DKB10018m-0201",
     "sort": "DKB10018m-0202",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "大阪",
         "三重",
@@ -35,29 +44,14 @@
         "八基村",
         "王子"
     ],
-    "temporal": "1910-08-31",
-    "texts": [
-        "DKB10019m-0019",
-        "DKB10019m-0150",
-        "DKB10019m-0193",
-        "DKB10019m-0135",
-        "DKB10019m-0235",
-        "DKB10018m-0190",
-        "DKB10019m-0327",
-        "DKB10017m-0090",
-        "DKB10018m-0048",
-        "DKB10019m-0174",
-        "DKB10019m-0192",
-        "DKB10019m-0230",
-        "DKB10019m-0243",
-        "DKB10016m-0312",
-        "DKB10015m-0165",
-        "DKB10020m-0036",
-        "DKB10017m-0021",
-        "DKB10019m-0220",
-        "DKB10018m-0124",
-        "DKB10020m-0047"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/大阪",
+        "https://shibusawa-dlab.github.io/lab1/api/place/三重",
+        "https://shibusawa-dlab.github.io/lab1/api/place/北越",
+        "https://shibusawa-dlab.github.io/lab1/api/place/八基村",
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子"
     ],
+    "temporal": "1910-08-31",
     "time": {
         "06:30:00": "<div><time when=\"06:30:00\">\n        午前六時半\n       </time>\n       起床、入浴シテ、朝飧ヲ食ス、後、日記ヲ編成ス、\n       <persName corresp=\"#pers_横山徳次郎\">\n<surname>\n         横山\n        </surname>\n<forename>\n         徳次郎\n        </forename>\n</persName>\n       氏ト電話ニテ要務ヲ談ス、又、書状ヲ裁ス、</div>",
         "10:00:00": "<div><time when=\"10:00:00\">\n        十時\n       </time>\n       事務所ニ抵リ\n       <placeName corresp=\"#place_大阪\">\n        大阪\n       </placeName>\n       其他ヘ書状ヲ認ム、</div>",

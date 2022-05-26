@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/60",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -16,42 +17,27 @@
     "date_lvl1": "1869-01",
     "date_lvl2": "1869-01-29",
     "description": "\n\n\n        十二月十七日\n       \n       雲\n       \n        一月廿八日《（廿九日）》\n       \n\n\n       朝\n       \n        六時\n       \n       発、陌頭より山路を取り\n       \n        湯本\n       \n       に至休息、路程稍嶮峻なり、畑といふ処ニ而茶肆に憩ひ、雑煮餅を食す、道路尤嶮なり、時に雨来りぬれは駕に乗りて関門を通、\n       \n        箱根\n       \n       宿ニ而午飯、夕\n       \n        六時\n       \n       頃三島宿着、\n       \n        金川\n       \n       やといふ旗亭投宿\n       \n       横打御門外\n       \n        浅野\n       \n       旅宿\n       \n       元御武具奉行屋敷\n      \n",
+    "fullname": [],
     "label": "十二月十七日              雲               一月廿八日《（廿九日）》",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10002m-0046",
     "objectID": "DKB10002m-0045",
     "prev": "DKB10002m-0044",
     "sort": "DKB10002m-0045",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "湯本",
         "箱根",
         "金川",
         "浅野"
     ],
-    "temporal": "1869-01-29",
-    "texts": [
-        "DKB10002m-0044",
-        "DKB10002m-0035",
-        "DKB10002m-0043",
-        "DKB10002m-0046",
-        "DKB10001m-0082",
-        "DKB10002m-0042",
-        "DKB10002m-0033",
-        "DKB10001m-0057",
-        "DKB10007m-0002",
-        "DKB10001m-0050",
-        "DKB10001m-0027",
-        "DKB10002m-0012",
-        "DKB10002m-0047",
-        "DKB10001m-0051",
-        "DKB10002m-0014",
-        "DKB10002m-0036",
-        "DKB10001m-0077",
-        "DKB10001m-0049",
-        "DKB10002m-0018",
-        "DKB10001m-0084"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/湯本",
+        "https://shibusawa-dlab.github.io/lab1/api/place/箱根",
+        "https://shibusawa-dlab.github.io/lab1/api/place/金川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/浅野"
     ],
+    "temporal": "1869-01-29",
     "time": {
         "06:00:00": "<div>朝<time when=\"06:00:00\">\n        六時\n       </time>\n       発、陌頭より山路を取り\n       <placeName corresp=\"#place_湯本\">\n        湯本\n       </placeName>\n       に至休息、路程稍嶮峻なり、畑といふ処ニ而茶肆に憩ひ、雑煮餅を食す、道路尤嶮なり、時に雨来りぬれは駕に乗りて関門を通、\n       <placeName corresp=\"#place_箱根\">\n        箱根\n       </placeName>\n       宿ニ而午飯、夕</div>",
         "18:00:00": "<div><time when=\"18:00:00\">\n        六時\n       </time>\n       頃三島宿着、\n       <placeName corresp=\"#place_金川\">\n        金川\n       </placeName>\n       やといふ旗亭投宿\n       <lb/>\n       横打御門外\n       <placeName corresp=\"#place_浅野\">\n        浅野\n       </placeName>\n       旅宿\n       <lb/>\n       元御武具奉行屋敷</div>"

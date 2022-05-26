@@ -4,6 +4,11 @@
         "木村",
         "高田"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/坂野新次郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/木村",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高田"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1536",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,13 +25,16 @@
     "date_lvl1": "1927-03",
     "date_lvl2": "1927-03-01",
     "description": "\n\n\n           一日\n          \n          （火）\n         \n\n\n\n\n             午前九時半\n            \n\n\n              坂野\n             \n\n              新次郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            東洋生命保険会社長\n            \n\n              木村\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            大倉集古館評議員会（\n            \n             葵町\n            \n            大倉邸）\n           \n\n\n\n\n             午後一半時\n            \n            事務所御出勤\n           \n\n\n\n\n             午後二時\n            \n\n             米国\n            \n            ドール・メッセージノ件ニ付三越呉服店御出向\n           \n\n\n\n\n             午後五時\n            \n\n\n              高田\n             \n\n            、井の辺両氏来訪（\n            \n             あすか山邸\n            \n            ）\n           \n\n\n",
+    "fullname": [
+        "\n              坂野\n             \n              新次郎\n             "
+    ],
     "label": "一日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0044",
     "objectID": "DKB20029m-0043",
     "prev": "DKB20029m-0042",
     "sort": "DKB20029m-0043",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "飛鳥山公園",
@@ -34,29 +42,14 @@
         "アメリカ合衆国",
         "あすか山邸"
     ],
-    "temporal": "1927-03-01",
-    "texts": [
-        "DKB20029m-0015",
-        "DKB20028m-0286",
-        "DKB20029m-0057",
-        "DKB20028m-0314",
-        "DKB20029m-0254",
-        "DKB20029m-0233",
-        "DKB20031m-0181",
-        "DKB20028m-0054",
-        "DKB20029m-0074",
-        "DKB20030m-0031",
-        "DKB20032m-0136",
-        "DKB20029m-0051",
-        "DKB20029m-0124",
-        "DKB20030m-0049",
-        "DKB20032m-0135",
-        "DKB20028m-0160",
-        "DKB20031m-0196",
-        "DKB20029m-0065",
-        "DKB20028m-0255",
-        "DKB20029m-0118"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園",
+        "https://shibusawa-dlab.github.io/lab1/api/place/葵町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アメリカ合衆国",
+        "https://shibusawa-dlab.github.io/lab1/api/place/あすか山邸"
     ],
+    "temporal": "1927-03-01",
     "time": {
         "09:30:00": "<div><time when=\"09:30:00\">\n             午前九時半\n            </time>\n<persName corresp=\"#pers_坂野新次郎\">\n<surname>\n              坂野\n             </surname>\n<forename>\n              新次郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },

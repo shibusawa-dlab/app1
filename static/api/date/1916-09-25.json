@@ -4,6 +4,11 @@
         "田島信夫",
         "道家斉"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/倉知鉄吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田島信夫",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/道家斉"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1216",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,39 +25,25 @@
     "date_lvl1": "1916-09",
     "date_lvl2": "1916-09-25",
     "description": "\n\n\n           廿五日\n          \n          （月）\n         \n\n\n\n\n             自午前九時至午後五時\n            \n            銀行集会所ヘ御出向\n           \n\n\n\n\n             午前十半時\n            \n            明治神宮奉賛会理事会（同事務所）\n           \n\n\n\n\n             正午\n            \n\n\n              倉知\n             \n\n              鉄吉\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              田島\n             \n\n              信夫\n             \n\n            、\n            \n\n              道家\n             \n\n              斉\n             \n\n            氏ヨリ御案内（築地精養軒）\n           \n\n\n",
+    "fullname": [
+        "\n              倉知\n             \n              鉄吉\n             ",
+        "\n              田島\n             \n              信夫\n             ",
+        "\n              道家\n             \n              斉\n             "
+    ],
     "label": "廿五日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0250",
     "objectID": "DKB20018m-0249",
     "prev": "DKB20018m-0248",
     "sort": "DKB20018m-0249",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町"
     ],
-    "temporal": "1916-09-25",
-    "texts": [
-        "DKB20017m-0125",
-        "DKB20017m-0013",
-        "DKB20020m-0009",
-        "DKB20018m-0161",
-        "DKB20016m-0101",
-        "DKB20017m-0129",
-        "DKB20018m-0103",
-        "DKB20017m-0118",
-        "DKB20019m-0032",
-        "DKB20018m-0304",
-        "DKB20020m-0034",
-        "DKB20022m-0312",
-        "DKB20023m-0041",
-        "DKB20017m-0005",
-        "DKB20023m-0199",
-        "DKB20019m-0153",
-        "DKB20023m-0108",
-        "DKB20023m-0227",
-        "DKB20024m-0155",
-        "DKB20018m-0207"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
+    "temporal": "1916-09-25",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20018m-0249\">\n<head>\n<date when=\"1916-09-25\">\n           廿五日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"09:00:00\" to=\"17:00:00\">\n             自午前九時至午後五時\n            </time>\n            銀行集会所ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n            明治神宮奉賛会理事会（同事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_倉知鉄吉\">\n<surname>\n              倉知\n             </surname>\n<forename>\n              鉄吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_田島信夫\">\n<surname>\n              田島\n             </surname>\n<forename>\n              信夫\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_道家斉\">\n<surname>\n              道家\n             </surname>\n<forename>\n              斉\n             </forename>\n</persName>\n            氏ヨリ御案内（築地精養軒）\n           </p>\n</event>\n</listEvent>\n</div>",

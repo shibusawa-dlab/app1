@@ -3,6 +3,10 @@
         "福島",
         "桜井"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/福島",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/桜井"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1317",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -19,13 +23,14 @@
     "date_lvl1": "1919-11",
     "date_lvl2": "1919-11-30",
     "description": "\n\n\n           三十日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n\n\n              福島\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九―後四時\n            \n            生活改善展覧会（\n            \n             御茶ノ水\n            \n\n             東京\n            \n            教育博物館）\n           \n\n\n\n\n             午後一時\n            \n            奨工会発会式（後楽園）\n           \n\n\n\n\n             午後三時半\n            \n            池上\n            \n             大阪\n            \n            市長来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              桜井\n             \n\n            博士還暦祝賀会（築地精養軒）\n           \n\n\n",
+    "fullname": [],
     "label": "三十日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0308",
     "objectID": "DKB20021m-0306",
     "prev": "DKB20021m-0305",
     "sort": "DKB20021m-0306",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "御茶ノ水",
@@ -33,29 +38,14 @@
         "大阪",
         "日本橋兜町"
     ],
-    "temporal": "1919-11-30",
-    "texts": [
-        "DKB20022m-0070",
-        "DKB20021m-0273",
-        "DKB20021m-0040",
-        "DKB20022m-0030",
-        "DKB20018m-0305",
-        "DKB20017m-0257",
-        "DKB20018m-0028",
-        "DKB20020m-0008",
-        "DKB20032m-0081",
-        "DKB20017m-0196",
-        "DKB20017m-0067",
-        "DKB20019m-0258",
-        "DKB20019m-0192",
-        "DKB20019m-0314",
-        "DKB20020m-0087",
-        "DKB20027m-0132",
-        "DKB20033m-0164",
-        "DKB20022m-0014",
-        "DKB20017m-0058",
-        "DKB20020m-0141"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/御茶ノ水",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/大阪",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
+    "temporal": "1919-11-30",
     "time": {
         "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_福島\">\n<surname>\n              福島\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },

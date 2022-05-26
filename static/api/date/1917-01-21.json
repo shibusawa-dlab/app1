@@ -3,6 +3,10 @@
         "若槻禮次郎",
         "町憲"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/若槻禮次郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/町憲"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1225",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -19,41 +23,28 @@
     "date_lvl1": "1917-01",
     "date_lvl2": "1917-01-21",
     "description": "\n\n\n           廿一日\n          \n          （日）\n         \n\n\n\n\n             午前中\n            \n\n\n              若槻\n             \n\n              礼次郎\n             \n\n            氏ヲ御訪問（\n            \n             桜田\n            \n\n             本郷\n            \n\n\n              町\n             \n\n              憲\n             \n\n\n            政会本部）\n           \n\n\n\n\n             午後一時\n            \n            大\n            \n             日本\n            \n            書道会ヘ御出席（帝国ホテル劇場）\n           \n\n\n",
+    "fullname": [
+        "\n              若槻\n             \n              礼次郎\n             ",
+        "\n              町\n             \n              憲\n             "
+    ],
     "label": "廿一日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0022",
     "objectID": "DKB20019m-0021",
     "prev": "DKB20019m-0020",
     "sort": "DKB20019m-0021",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "桜田",
         "本郷",
         "日本"
     ],
-    "temporal": "1917-01-21",
-    "texts": [
-        "DKB20024m-0185",
-        "DKB20023m-0200",
-        "DKB20025m-0198",
-        "DKB20025m-0023",
-        "DKB20016m-0043",
-        "DKB20028m-0153",
-        "DKB20023m-0039",
-        "DKB20031m-0156",
-        "DKB20022m-0032",
-        "DKB20018m-0261",
-        "DKB20023m-0230",
-        "DKB20032m-0144",
-        "DKB20017m-0196",
-        "DKB20020m-0107",
-        "DKB20021m-0273",
-        "DKB20024m-0283",
-        "DKB20022m-0215",
-        "DKB20024m-0266",
-        "DKB20031m-0128",
-        "DKB20017m-0230"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/桜田",
+        "https://shibusawa-dlab.github.io/lab1/api/place/本郷",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本"
     ],
+    "temporal": "1917-01-21",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20019m-0021\">\n<head>\n<date when=\"1917-01-21\">\n           廿一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前中\n            </time>\n<persName corresp=\"#pers_若槻禮次郎\">\n<surname>\n              若槻\n             </surname>\n<forename>\n              礼次郎\n             </forename>\n</persName>\n            氏ヲ御訪問（\n            <placeName corresp=\"#place_桜田\">\n             桜田\n            </placeName>\n<placeName corresp=\"#place_本郷\">\n             本郷\n            </placeName>\n<persName corresp=\"#pers_町憲\">\n<surname>\n              町\n             </surname>\n<forename>\n              憲\n             </forename>\n</persName>\n<pb corresp=\"#pageB2386\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1225/full/max/0/default.jpg\" n=\"B2386\" source=\"#pageB2386\"/>\n            政会本部）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            大\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            書道会ヘ御出席（帝国ホテル劇場）\n           </p>\n</event>\n</listEvent>\n</div>",

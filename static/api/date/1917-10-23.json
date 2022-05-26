@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1249",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,40 +17,23 @@
     "date_lvl1": "1917-10",
     "date_lvl2": "1917-10-23",
     "description": "\n\n\n           廿三日\n          \n          （火）\n         \n\n\n\n\n             午後四半時\n            \n            男爵御一行\n            \n             東北\n            \n            地方ヨリ御帰リ（\n            \n             上野\n            \n            駅着）\n           \n\n\n",
+    "fullname": [],
     "label": "廿三日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0273",
     "objectID": "DKB20019m-0272",
     "prev": "DKB20019m-0270",
     "sort": "DKB20019m-0272",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "東北地方",
         "上野"
     ],
-    "temporal": "1917-10-23",
-    "texts": [
-        "DKB20018m-0269",
-        "DKB20026m-0230",
-        "DKB20021m-0206",
-        "DKB20023m-0050",
-        "DKB20031m-0023",
-        "DKB20031m-0186",
-        "DKB20025m-0227",
-        "DKB20027m-0009",
-        "DKB20026m-0296",
-        "DKB20025m-0223",
-        "DKB20017m-0212",
-        "DKB20025m-0225",
-        "DKB20030m-0175",
-        "DKB20020m-0048",
-        "DKB20032m-0179",
-        "DKB20020m-0227",
-        "DKB20022m-0051",
-        "DKB20026m-0354",
-        "DKB20024m-0026",
-        "DKB20020m-0253"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東北地方",
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
     ],
+    "temporal": "1917-10-23",
     "time": {
         "16:30:00": "<div><time when=\"16:30:00\">\n             午後四半時\n            </time>\n            男爵御一行\n            <placeName corresp=\"#place_東北地方\">\n             東北\n            </placeName>\n            地方ヨリ御帰リ（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            駅着）</div>"
     },

@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/108",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -16,40 +17,23 @@
     "date_lvl1": "1899-03",
     "date_lvl2": "1899-03-30",
     "description": "\n\n\n        三月三十日\n       \n\n\n       大風曇、朝来客数名ニ接ス、十勝開墾会社役員会ヲ\n       \n        兜町\n       \n       宅ニ開ク、午後銀行ニ於テ重役会ヲ開ク、\n       \n        四時\n       \n       過\n       \n        深川\n       \n       宅ニテ鷗盟会常議員会ヲ開ク夜\n       \n        深川\n       \n       ニ一泊ス、此夜大雨\n      \n",
+    "fullname": [],
     "label": "三月三十日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10008m-0090",
     "objectID": "DKB10008m-0089",
     "prev": "DKB10008m-0088",
     "sort": "DKB10008m-0089",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "日本橋兜町",
         "深川"
     ],
-    "temporal": "1899-03-30",
-    "texts": [
-        "DKB10008m-0244",
-        "DKB10011m-0121",
-        "DKB10008m-0164",
-        "DKB10008m-0245",
-        "DKB10008m-0350",
-        "DKB10009m-0060",
-        "DKB10009m-0088",
-        "DKB10009m-0291",
-        "DKB10008m-0278",
-        "DKB10011m-0213",
-        "DKB10009m-0046",
-        "DKB10010m-0250",
-        "DKB10008m-0280",
-        "DKB10011m-0210",
-        "DKB10008m-0351",
-        "DKB10009m-0115",
-        "DKB10011m-0127",
-        "DKB10008m-0349",
-        "DKB10011m-0408",
-        "DKB10009m-0052"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/深川"
     ],
+    "temporal": "1899-03-30",
     "time": {
         "16:00:00": "<div>大風曇、朝来客数名ニ接ス、十勝開墾会社役員会ヲ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       宅ニ開ク、午後銀行ニ於テ重役会ヲ開ク、<time when=\"16:00:00\">\n        四時\n       </time>\n       過\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       宅ニテ鷗盟会常議員会ヲ開ク夜\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       ニ一泊ス、此夜大雨</div>"
     },

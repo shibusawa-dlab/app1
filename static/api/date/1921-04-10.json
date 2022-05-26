@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1358",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,13 +17,14 @@
     "date_lvl1": "1921-04",
     "date_lvl2": "1921-04-10",
     "description": "\n\n\n           十日\n          \n          （日）\n         \n\n\n\n\n             午前八半時\n            \n            法隆寺ニ於ケル聖徳太子遠忌会ノ件ニ付\n            \n             関西\n            \n            地方ヘ御旅行\n           \n\n\n\n\n             東京\n            \n            駅発、\n            \n             午後七時三十分\n            \n\n             京都\n            \n            ヘ着\n           \n\n\n\n\n             午後十時五分\n            \n\n             奈良\n            \n            駅着、\n            \n             奈良\n            \n\n             泊\n            \n            （\n            \n             奈良\n            \n            ホテル）\n           \n\n\n",
+    "fullname": [],
     "label": "十日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0093",
     "objectID": "DKB20023m-0092",
     "prev": "DKB20023m-0091",
     "sort": "DKB20023m-0092",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "関西",
         "東京",
@@ -30,29 +32,14 @@
         "奈良",
         "泊"
     ],
-    "temporal": "1921-04-10",
-    "texts": [
-        "DKB20019m-0074",
-        "DKB20023m-0096",
-        "DKB20017m-0248",
-        "DKB20023m-0099",
-        "DKB20017m-0255",
-        "DKB20017m-0064",
-        "DKB20023m-0094",
-        "DKB20024m-0259",
-        "DKB20017m-0099",
-        "DKB20021m-0240",
-        "DKB20024m-0086",
-        "DKB20019m-0138",
-        "DKB20020m-0118",
-        "DKB20030m-0173",
-        "DKB20021m-0203",
-        "DKB20023m-0279",
-        "DKB20018m-0248",
-        "DKB20026m-0295",
-        "DKB20018m-0300",
-        "DKB20023m-0050"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/関西",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/京都",
+        "https://shibusawa-dlab.github.io/lab1/api/place/奈良",
+        "https://shibusawa-dlab.github.io/lab1/api/place/泊"
     ],
+    "temporal": "1921-04-10",
     "time": {
         "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n            法隆寺ニ於ケル聖徳太子遠忌会ノ件ニ付\n            <placeName corresp=\"#place_関西\">\n             関西\n            </placeName>\n            地方ヘ御旅行</div>"
     },

@@ -4,6 +4,11 @@
         "末弘厳太郎",
         "大島正徳"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山本栄男",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/末弘厳太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大島正徳"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1390",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,13 +25,18 @@
     "date_lvl1": "1922-05",
     "date_lvl2": "1922-05-06",
     "description": "\n\n\n           六日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n\n\n              山本\n             \n\n              栄男\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午自前十至後四時\n            \n\n             東京\n            \n            帝大史料展覧会（帝大史料室）\n           \n\n\n\n\n             午後一時\n            \n\n             仏蘭西\n            \n            午餐会（\n            \n             八重洲\n            \n            町一ノ一中央亭本店）\n           \n\n\n\n\n             午後四時\n            \n            帝国飛行協会評議員会（日本クラブ）\n           \n\n\n\n\n             午後五半時\n            \n\n\n              末弘\n             \n\n              厳太郎\n             \n\n            、\n            \n\n              大島\n             \n\n              正徳\n             \n\n            両氏等ト御会談（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "fullname": [
+        "\n              山本\n             \n              栄男\n             ",
+        "\n              末弘\n             \n              厳太郎\n             ",
+        "\n              大島\n             \n              正徳\n             "
+    ],
     "label": "六日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0101",
     "objectID": "DKB20024m-0100",
     "prev": "DKB20024m-0099",
     "sort": "DKB20024m-0100",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "東京",
@@ -34,29 +44,14 @@
         "八重洲",
         "日本橋兜町"
     ],
-    "temporal": "1922-05-06",
-    "texts": [
-        "DKB20024m-0099",
-        "DKB20024m-0328",
-        "DKB20019m-0248",
-        "DKB20031m-0089",
-        "DKB20024m-0146",
-        "DKB20024m-0297",
-        "DKB20021m-0011",
-        "DKB20016m-0092",
-        "DKB20023m-0061",
-        "DKB20023m-0142",
-        "DKB20029m-0283",
-        "DKB20024m-0229",
-        "DKB20020m-0169",
-        "DKB20023m-0173",
-        "DKB20025m-0142",
-        "DKB20025m-0036",
-        "DKB20033m-0094",
-        "DKB20019m-0117",
-        "DKB20019m-0168",
-        "DKB20022m-0070"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/フランス",
+        "https://shibusawa-dlab.github.io/lab1/api/place/八重洲",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
+    "temporal": "1922-05-06",
     "time": {
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_山本栄男\">\n<surname>\n              山本\n             </surname>\n<forename>\n              栄男\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },

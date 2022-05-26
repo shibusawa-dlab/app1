@@ -6,6 +6,13 @@
         "稲垣",
         "松井"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大隈信常",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/安保",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/稲垣",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松井"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1432",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -22,42 +29,29 @@
     "date_lvl1": "1923-06",
     "date_lvl2": "1923-06-20",
     "description": "\n\n\n           二十日\n          \n          （水）\n         \n\n\n\n\n             午前八―九時\n            \n\n\n              大隈\n             \n\n              信常\n             \n\n            侯来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              岡田\n             \n\n\n             熊本\n            \n            県知事来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            国際聯盟協会催、\n            \n\n              安保\n             \n\n            、\n            \n\n              稲垣\n             \n\n            、\n            \n\n              松井\n             \n\n            三氏招待会（\n            \n             八重洲\n            \n            町中央亭）\n           \n\n\n\n\n             引続\n            \n            同会理事会（右同亭）\n           \n\n\n\n\n\n             午後六時\n            \n            銀行クラブ月例晩餐会\n            \n             東京\n            \n            市長及三助役招待会（同クラブ）\n           \n\n\n",
+    "fullname": [
+        "\n              大隈\n             \n              信常\n             "
+    ],
     "label": "二十日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0167",
     "objectID": "DKB20025m-0166",
     "prev": "DKB20025m-0165",
     "sort": "DKB20025m-0166",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "熊本",
         "八重洲",
         "東京"
     ],
-    "temporal": "1923-06-20",
-    "texts": [
-        "DKB20029m-0288",
-        "DKB20025m-0038",
-        "DKB20023m-0221",
-        "DKB20028m-0049",
-        "DKB20031m-0124",
-        "DKB20018m-0007",
-        "DKB20025m-0269",
-        "DKB20020m-0171",
-        "DKB20031m-0114",
-        "DKB20021m-0108",
-        "DKB20025m-0026",
-        "DKB20025m-0144",
-        "DKB20023m-0192",
-        "DKB20020m-0087",
-        "DKB20024m-0146",
-        "DKB20019m-0128",
-        "DKB20019m-0248",
-        "DKB20024m-0111",
-        "DKB20030m-0275",
-        "DKB20018m-0305"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/熊本",
+        "https://shibusawa-dlab.github.io/lab1/api/place/八重洲",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
+    "temporal": "1923-06-20",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20025m-0166\">\n<head>\n<date when=\"1923-06-20\">\n           二十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"09:00:00\">\n             午前八―九時\n            </time>\n<persName corresp=\"#pers_大隈信常\">\n<surname>\n              大隈\n             </surname>\n<forename>\n              信常\n             </forename>\n</persName>\n            侯来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_岡田\">\n<surname>\n              岡田\n             </surname>\n</persName>\n<placeName corresp=\"#place_熊本\">\n             熊本\n            </placeName>\n            県知事来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            国際聯盟協会催、\n            <persName corresp=\"#pers_安保\">\n<surname>\n              安保\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_稲垣\">\n<surname>\n              稲垣\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_松井\">\n<surname>\n              松井\n             </surname>\n</persName>\n            三氏招待会（\n            <placeName corresp=\"#place_八重洲\">\n             八重洲\n            </placeName>\n            町中央亭）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続\n            </time>\n            同会理事会（右同亭）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2593\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1432/full/max/0/default.jpg\" n=\"B2593\" source=\"#pageB2593\"/>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            銀行クラブ月例晩餐会\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市長及三助役招待会（同クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",

@@ -6,6 +6,13 @@
         "野田",
         "篤二"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/八十島",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/早川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/北垣",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/野田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/篤二"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/345",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -22,13 +29,14 @@
     "date_lvl1": "1903-08",
     "date_lvl2": "1903-08-20",
     "description": "\n\n\n        八月廿日\n       \n\n\n       晴、\n       \n        午前六時\n       \n       起床直ニ海水ニ浴ス、\n       \n        七時\n       \n       朝飧後\n       \n        東京\n       \n\n\n         八十島\n        \n\n       宛書状ヲ発ス、\n       \n        三井銀行\n       \n\n\n         早川\n        \n\n       氏ヘ電報シテ昨日ノ回答ヲ為ス、\n       \n        九時\n       \n       犬若巌一覧ノ為メ一行共ニ発ス、行程凡十丁余徒歩シテ行ク、松林間ヲ経テ戸川村ニ抵リ村内ヲ通過シテ海岸ニ出ツ、\n       \n        千貫巌\n       \n       、\n       \n        犬巌\n       \n       、\n       \n        若巌\n       \n       等相聯続シテ\n       \n       眺望佳絶ナリ、邱上ノ一小亭ニ小憩シテ帰途ニ就ク、\n       \n        十二時\n       \n       暁雞館ニ帰着ス、\n       \n\n         北垣\n        \n\n       氏来訪シテ北海道鉄道会社々債ノ事ヲ談ス、\n       \n\n         野田\n        \n\n       夫人来訪セラル、\n       \n        東京\n       \n       ヨリ来状アリテ\n       \n\n         篤二\n        \n\n       ノ書状ハヱブリー招宴ノ都合ヲ報シ来ル、早川ノ書状ハ電報ノ事ヲ書送スルニ在リ、依テ\n       \n        深川\n       \n       宅及\n       \n        兜町\n       \n       ニ各一書ヲ発シテヱブリー氏招宴ノ事、及\n       \n        廿三日\n       \n       帰京ノ事ヲ申遣ス\n      \n",
+    "fullname": [],
     "label": "八月廿日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10011m-0347",
     "objectID": "DKB10011m-0346",
     "prev": "DKB10011m-0345",
     "sort": "DKB10011m-0346",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml.xml",
     "spatial": [
         "東京",
         "千貫巌",
@@ -37,29 +45,15 @@
         "深川",
         "日本橋兜町"
     ],
-    "temporal": "1903-08-20",
-    "texts": [
-        "DKB10011m-0347",
-        "DKB10011m-0348",
-        "DKB10009m-0226",
-        "DKB10011m-0339",
-        "DKB10015m-0218",
-        "DKB10012m-0061",
-        "DKB10012m-0064",
-        "DKB10011m-0225",
-        "DKB10015m-0217",
-        "DKB10011m-0418",
-        "DKB10012m-0042",
-        "DKB10009m-0367",
-        "DKB10011m-0220",
-        "DKB10011m-0337",
-        "DKB10011m-0357",
-        "DKB10009m-0228",
-        "DKB10017m-0036",
-        "DKB10011m-0271",
-        "DKB10011m-0345",
-        "DKB10015m-0133"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/千貫巌",
+        "https://shibusawa-dlab.github.io/lab1/api/place/犬巌",
+        "https://shibusawa-dlab.github.io/lab1/api/place/若巌",
+        "https://shibusawa-dlab.github.io/lab1/api/place/深川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
+    "temporal": "1903-08-20",
     "time": {
         "06:00:00": "<div>晴、<time when=\"06:00:00\">\n        午前六時\n       </time>\n       起床直ニ海水ニ浴ス、</div>",
         "07:00:00": "<div><time when=\"07:00:00\">\n        七時\n       </time>\n       朝飧後\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n<persName corresp=\"#pers_八十島\">\n<surname>\n         八十島\n        </surname>\n</persName>\n       宛書状ヲ発ス、\n       <orgName>\n        三井銀行\n       </orgName>\n<persName corresp=\"#pers_早川\">\n<surname>\n         早川\n        </surname>\n</persName>\n       氏ヘ電報シテ昨日ノ回答ヲ為ス、</div>",

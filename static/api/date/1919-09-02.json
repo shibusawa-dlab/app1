@@ -8,6 +8,15 @@
         "和田",
         "中島"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川慶久",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/添田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松岡",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/桑田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大橋",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/和田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中島"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1308",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -24,40 +33,25 @@
     "date_lvl1": "1919-09",
     "date_lvl2": "1919-09-02",
     "description": "\n\n\n           二日\n          \n          （火）\n         \n\n\n\n\n             午前八九間時\n            \n\n\n              徳川\n             \n\n              慶久\n             \n\n            公御訪問ノ約（同公邸）\n           \n\n\n\n\n             午後一時\n            \n            協調会ノ件ニ付\n            \n\n              添田\n             \n\n            、\n            \n\n              松岡\n             \n\n            、\n            \n\n              桑田\n             \n\n            、\n            \n\n              大橋\n             \n\n            、\n            \n\n              和田\n             \n\n            、\n            \n\n              中島\n             \n\n            男六氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後三時\n            \n\n             高根\n            \n            博士来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "fullname": [
+        "\n              徳川\n             \n              慶久\n             "
+    ],
     "label": "二日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0216",
     "objectID": "DKB20021m-0215",
     "prev": "DKB20021m-0214",
     "sort": "DKB20021m-0215",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "日本橋兜町",
         "高根"
     ],
-    "temporal": "1919-09-02",
-    "texts": [
-        "DKB20022m-0215",
-        "DKB20020m-0208",
-        "DKB20021m-0212",
-        "DKB20020m-0191",
-        "DKB20023m-0142",
-        "DKB20021m-0184",
-        "DKB20023m-0137",
-        "DKB20028m-0054",
-        "DKB20018m-0174",
-        "DKB20023m-0229",
-        "DKB20022m-0209",
-        "DKB20023m-0150",
-        "DKB20023m-0039",
-        "DKB20019m-0167",
-        "DKB20020m-0107",
-        "DKB20018m-0261",
-        "DKB20021m-0313",
-        "DKB20023m-0049",
-        "DKB20021m-0208",
-        "DKB20017m-0052"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/高根"
     ],
+    "temporal": "1919-09-02",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20021m-0215\">\n<head>\n<date when=\"1919-09-02\">\n           二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"09:00:00\" to=\"09:00:00\">\n             午前八九間時\n            </time>\n<persName corresp=\"#pers_徳川慶久\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶久\n             </forename>\n</persName>\n            公御訪問ノ約（同公邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            協調会ノ件ニ付\n            <persName corresp=\"#pers_添田\">\n<surname>\n              添田\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_松岡\">\n<surname>\n              松岡\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_桑田\">\n<surname>\n              桑田\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_大橋\">\n<surname>\n              大橋\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_和田\">\n<surname>\n              和田\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_中島\">\n<surname>\n              中島\n             </surname>\n</persName>\n            男六氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_高根\">\n             高根\n            </placeName>\n            博士来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",

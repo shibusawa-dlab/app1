@@ -9,6 +9,16 @@
         "山本",
         "茂木"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐々木勇之助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/藤村",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山崎亀吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/村山",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/阿部",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山本",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/茂木"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1438",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -25,13 +35,17 @@
     "date_lvl1": "1923-08",
     "date_lvl2": "1923-08-05",
     "description": "\n\n\n           五日\n          \n          （日）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              佐々木\n             \n\n              勇之助\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              藤村\n             \n\n            男、\n            \n             宮川\n            \n            一貫両氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              山崎\n             \n\n              亀吉\n             \n\n            、\n            \n             神戸\n            \n            挙一、\n            \n\n              村山\n             \n\n            令蔵三氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n\n              小川\n             \n\n            、\n            \n\n              阿部\n             \n\n            、\n            \n\n              山本\n             \n\n            、\n            \n\n              茂木\n             \n\n            四氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "fullname": [
+        "\n              佐々木\n             \n              勇之助\n             ",
+        "\n              山崎\n             \n              亀吉\n             "
+    ],
     "label": "五日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0215",
     "objectID": "DKB20025m-0214",
     "prev": "DKB20025m-0213",
     "sort": "DKB20025m-0214",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "宮川",
@@ -39,29 +53,14 @@
         "神戸",
         "日本橋兜町"
     ],
-    "temporal": "1923-08-05",
-    "texts": [
-        "DKB20025m-0189",
-        "DKB20030m-0276",
-        "DKB20029m-0139",
-        "DKB20021m-0095",
-        "DKB20025m-0211",
-        "DKB20025m-0199",
-        "DKB20030m-0193",
-        "DKB20031m-0210",
-        "DKB20027m-0100",
-        "DKB20029m-0295",
-        "DKB20024m-0197",
-        "DKB20032m-0133",
-        "DKB20021m-0259",
-        "DKB20022m-0070",
-        "DKB20030m-0072",
-        "DKB20027m-0199",
-        "DKB20031m-0156",
-        "DKB20025m-0011",
-        "DKB20025m-0142",
-        "DKB20033m-0126"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/宮川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
+        "https://shibusawa-dlab.github.io/lab1/api/place/神戸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
+    "temporal": "1923-08-05",
     "time": {
         "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_佐々木勇之助\">\n<surname>\n              佐々木\n             </surname>\n<forename>\n              勇之助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },

@@ -3,6 +3,10 @@
         "神田正雄",
         "原"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/神田正雄",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/原"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1294",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -19,41 +23,27 @@
     "date_lvl1": "1919-02",
     "date_lvl2": "1919-02-28",
     "description": "\n\n\n           廿八日\n          \n          （金）\n         \n\n\n\n\n             午前八―九時\n            \n\n\n              神田\n             \n\n              正雄\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）（取消ノ交渉中）\n           \n\n\n\n\n             午前九時四十五分\n            \n            葉山ヘ御出向（\n            \n             東京\n            \n            駅発）\n           \n\n\n\n\n             午後五時\n            \n\n\n              原\n             \n\n            内閣総理大臣ヨリ御案内（\n            \n             永田町\n            \n            官舎）（略服）\n           \n\n\n",
+    "fullname": [
+        "\n              神田\n             \n              正雄\n             "
+    ],
     "label": "廿八日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0062",
     "objectID": "DKB20021m-0060",
     "prev": "DKB20021m-0059",
     "sort": "DKB20021m-0060",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山邸",
         "東京",
         "永田町"
     ],
-    "temporal": "1919-02-28",
-    "texts": [
-        "DKB20033m-0164",
-        "DKB20025m-0027",
-        "DKB20018m-0302",
-        "DKB20031m-0196",
-        "DKB20020m-0011",
-        "DKB20023m-0261",
-        "DKB20025m-0020",
-        "DKB20020m-0203",
-        "DKB20027m-0038",
-        "DKB20027m-0047",
-        "DKB20027m-0132",
-        "DKB20018m-0210",
-        "DKB20018m-0305",
-        "DKB20021m-0154",
-        "DKB20026m-0251",
-        "DKB20033m-0168",
-        "DKB20029m-0012",
-        "DKB20032m-0138",
-        "DKB20027m-0131",
-        "DKB20029m-0298"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/永田町"
     ],
+    "temporal": "1919-02-28",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20021m-0060\">\n<head>\n<date when=\"1919-02-28\">\n           廿八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"09:00:00\">\n             午前八―九時\n            </time>\n<persName corresp=\"#pers_神田正雄\">\n<surname>\n              神田\n             </surname>\n<forename>\n              正雄\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）（取消ノ交渉中）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:45:00\">\n             午前九時四十五分\n            </time>\n            葉山ヘ御出向（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            内閣総理大臣ヨリ御案内（\n            <placeName corresp=\"#place_永田町\">\n             永田町\n            </placeName>\n            官舎）（略服）\n           </p>\n</event>\n</listEvent>\n</div>",

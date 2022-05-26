@@ -5,6 +5,12 @@
         "日置益",
         "葵友"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/畑弥右衛門",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/井上",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/日置益",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/葵友"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1528",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -21,13 +27,18 @@
     "date_lvl1": "1926-10",
     "date_lvl2": "1926-10-25",
     "description": "\n\n\n           廿五日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n\n\n              畑\n             \n\n              弥右衛門\n             \n\n            氏外三人来約\n            \n             アスカ山\n            \n\n\n\n\n\n             午後一時\n            \n\n\n              井上\n             \n\n            眼科医院ヘ御立寄（\n            \n             神田\n            \n\n             駿河\n            \n            台）\n           \n\n\n\n\n             午後二時\n            \n            慈恵会委員会ノ件\n           \n\n\n\n\n             午後三半時\n            \n            事ム所ニ御出勤\n           \n\n\n\n\n             午后三―四時\n            \n\n\n              日置\n             \n\n              益\n             \n\n            氏告別式（\n            \n             駒込\n            \n\n             吉祥寺\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n             滝野\n            \n            学園理事会《（川脱カ）》（事務所）\n           \n\n\n\n\n             午後六時\n            \n\n\n              葵\n             \n\n              友\n             \n\n            会第二回総会（帝国ホテル）\n           \n\n\n",
+    "fullname": [
+        "\n              畑\n             \n              弥右衛門\n             ",
+        "\n              日置\n             \n              益\n             ",
+        "\n              葵\n             \n              友\n             "
+    ],
     "label": "廿五日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0279",
     "objectID": "DKB20028m-0278",
     "prev": "DKB20028m-0277",
     "sort": "DKB20028m-0278",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "アスカ山",
         "神田",
@@ -36,29 +47,15 @@
         "吉祥寺",
         "滝野"
     ],
-    "temporal": "1926-10-25",
-    "texts": [
-        "DKB20028m-0113",
-        "DKB20026m-0212",
-        "DKB20029m-0074",
-        "DKB20028m-0167",
-        "DKB20028m-0176",
-        "DKB20028m-0253",
-        "DKB20028m-0054",
-        "DKB20029m-0193",
-        "DKB20028m-0094",
-        "DKB20027m-0243",
-        "DKB20028m-0179",
-        "DKB20031m-0192",
-        "DKB20029m-0322",
-        "DKB20029m-0053",
-        "DKB20031m-0201",
-        "DKB20032m-0148",
-        "DKB20029m-0127",
-        "DKB20028m-0175",
-        "DKB20028m-0282",
-        "DKB20030m-0077"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
+        "https://shibusawa-dlab.github.io/lab1/api/place/神田",
+        "https://shibusawa-dlab.github.io/lab1/api/place/駿河",
+        "https://shibusawa-dlab.github.io/lab1/api/place/駒込",
+        "https://shibusawa-dlab.github.io/lab1/api/place/吉祥寺",
+        "https://shibusawa-dlab.github.io/lab1/api/place/滝野"
     ],
+    "temporal": "1926-10-25",
     "time": {
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_畑弥右衛門\">\n<surname>\n              畑\n             </surname>\n<forename>\n              弥右衛門\n             </forename>\n</persName>\n            氏外三人来約\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName></div>"
     },

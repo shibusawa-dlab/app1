@@ -6,6 +6,13 @@
         "白岩竜平",
         "田中善"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中島",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田中",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小池張造",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/白岩竜平",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田中善"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1246",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -22,42 +29,31 @@
     "date_lvl1": "1917-09",
     "date_lvl2": "1917-09-14",
     "description": "\n\n\n           十四日\n          \n          （金）\n         \n\n\n\n\n             午　時\n            \n\n\n              中島\n             \n\n            男爵ト御会見\n           \n\n\n\n\n             午前八時\n            \n\n\n              田中\n             \n\n            唯一郎氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              小池\n             \n\n              張造\n             \n\n            、\n            \n\n              白岩\n             \n\n              竜平\n             \n\n            両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              田中\n             \n\n              善\n             \n\n            立氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n            大倉美術館ノ件（\n            \n             葵町\n            \n            大倉邸）\n           \n\n\n\n            右終リテ\n            \n             第一銀行\n            \n            支店長の宴会、\n            \n             山口\n            \n            ヘ御出向ノ約\n           \n\n\n",
+    "fullname": [
+        "\n              小池\n             \n              張造\n             ",
+        "\n              白岩\n             \n              竜平\n             ",
+        "\n              田中\n             \n              善\n             "
+    ],
     "label": "十四日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0243",
     "objectID": "DKB20019m-0242",
     "prev": "DKB20019m-0241",
     "sort": "DKB20019m-0242",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "日本橋兜町",
         "葵町",
         "山口"
     ],
-    "temporal": "1917-09-14",
-    "texts": [
-        "DKB20029m-0020",
-        "DKB20021m-0006",
-        "DKB20020m-0208",
-        "DKB20020m-0320",
-        "DKB20023m-0224",
-        "DKB20022m-0020",
-        "DKB20025m-0142",
-        "DKB20030m-0170",
-        "DKB20021m-0159",
-        "DKB20016m-0039",
-        "DKB20023m-0040",
-        "DKB20029m-0283",
-        "DKB20019m-0048",
-        "DKB20019m-0102",
-        "DKB20021m-0040",
-        "DKB20017m-0063",
-        "DKB20032m-0136",
-        "DKB20018m-0238",
-        "DKB20023m-0049",
-        "DKB20018m-0304"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/葵町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/山口"
     ],
+    "temporal": "1917-09-14",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20019m-0242\">\n<head>\n<date when=\"1917-09-14\">\n           十四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午　時\n            </time>\n<persName corresp=\"#pers_中島\">\n<surname>\n              中島\n             </surname>\n</persName>\n            男爵ト御会見\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_田中\">\n<surname>\n              田中\n             </surname>\n</persName>\n            唯一郎氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_小池張造\">\n<surname>\n              小池\n             </surname>\n<forename>\n              張造\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_白岩竜平\">\n<surname>\n              白岩\n             </surname>\n<forename>\n              竜平\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_田中善\">\n<surname>\n              田中\n             </surname>\n<forename>\n              善\n             </forename>\n</persName>\n            立氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            大倉美術館ノ件（\n            <placeName corresp=\"#place_葵町\">\n             葵町\n            </placeName>\n            大倉邸）\n           </p>\n</event>\n<event>\n<p>\n            右終リテ\n            <orgName>\n             第一銀行\n            </orgName>\n            支店長の宴会、\n            <placeName corresp=\"#place_山口\">\n             山口\n            </placeName>\n            ヘ御出向ノ約\n           </p>\n</event>\n</listEvent>\n</div>",

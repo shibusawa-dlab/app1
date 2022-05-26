@@ -5,6 +5,12 @@
         "勝美",
         "神田鐳蔵"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/新井智信",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/後藤",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/勝美",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/神田鐳蔵"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1509",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -21,13 +27,17 @@
     "date_lvl1": "1926-04",
     "date_lvl2": "1926-04-25",
     "description": "\n\n\n           廿五日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n\n\n              新井\n             \n\n              智信\n             \n\n            （昼）来約\n            \n             飛鳥山\n            \n            邸\n           \n\n\n\n\n             午十二時\n            \n            頃\n            \n             東京\n            \n            市養育院常設委員諸氏慰労招待会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午后一時\n            \n\n\n              後藤\n             \n\n            子、黒板\n            \n\n              勝美\n             \n\n            両氏催、浮世絵展覧ノ件（\n            \n             中富\n            \n\n             坂町\n            \n\n\n              神田\n             \n\n              鐳蔵\n             \n\n            氏別邸）\n           \n\n\n",
+    "fullname": [
+        "\n              新井\n             \n              智信\n             ",
+        "\n              神田\n             \n              鐳蔵\n             "
+    ],
     "label": "廿五日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0115",
     "objectID": "DKB20028m-0114",
     "prev": "DKB20028m-0113",
     "sort": "DKB20028m-0114",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "東京",
@@ -35,29 +45,14 @@
         "中富",
         "坂町"
     ],
-    "temporal": "1926-04-25",
-    "texts": [
-        "DKB20023m-0157",
-        "DKB20027m-0038",
-        "DKB20030m-0074",
-        "DKB20026m-0171",
-        "DKB20021m-0100",
-        "DKB20021m-0014",
-        "DKB20031m-0062",
-        "DKB20020m-0281",
-        "DKB20032m-0144",
-        "DKB20031m-0117",
-        "DKB20020m-0134",
-        "DKB20029m-0194",
-        "DKB20017m-0009",
-        "DKB20018m-0305",
-        "DKB20020m-0327",
-        "DKB20030m-0079",
-        "DKB20024m-0043",
-        "DKB20028m-0150",
-        "DKB20031m-0054",
-        "DKB20032m-0145"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/中富",
+        "https://shibusawa-dlab.github.io/lab1/api/place/坂町"
     ],
+    "temporal": "1926-04-25",
     "time": {
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_新井智信\">\n<surname>\n              新井\n             </surname>\n<forename>\n              智信\n             </forename>\n</persName>\n            （昼）来約\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸</div>"
     },

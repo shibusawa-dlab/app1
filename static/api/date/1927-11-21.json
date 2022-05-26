@@ -6,6 +6,13 @@
         "飯田佐治兵衛",
         "出淵"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐藤",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/三井清一郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/加藤正治",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/飯田佐治兵衛",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/出淵"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1563",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -22,41 +29,29 @@
     "date_lvl1": "1927-11",
     "date_lvl2": "1927-11-21",
     "description": "\n\n\n           廿一日\n          \n          （月）\n         \n\n\n\n\n             午前\n            \n\n\n              佐藤\n             \n\n            さた《（氏脱）》来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n            陸軍糧秣本廠主計総監\n            \n\n              三井\n             \n\n              清一郎\n             \n\n            《（衍）》、丸\n            \n            本氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              加藤\n             \n\n              正治\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午前十一・二五\n            \n            御出勤\n           \n\n\n\n\n             午前十一時半\n            \n\n\n              飯田\n             \n\n              佐治兵衛\n             \n\n            氏来約（\n            \n             永楽町\n            \n            事務所）\n           \n\n\n\n\n             午後二半時\n            \n\n\n              出淵\n             \n\n            外務次官を御訪問、引続キ田中総理と御会見の約（外務省）\n           \n\n\n",
+    "fullname": [
+        "\n              三井\n             \n              清一郎\n             ",
+        "\n              加藤\n             \n              正治\n             ",
+        "\n              飯田\n             \n              佐治兵衛\n             "
+    ],
     "label": "廿一日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0301",
     "objectID": "DKB20029m-0300",
     "prev": "DKB20029m-0299",
     "sort": "DKB20029m-0300",
-    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
+    "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml.xml",
     "spatial": [
         "飛鳥山公園",
         "アスカ山",
         "永楽町"
     ],
-    "temporal": "1927-11-21",
-    "texts": [
-        "DKB20029m-0331",
-        "DKB20030m-0270",
-        "DKB20031m-0119",
-        "DKB20029m-0053",
-        "DKB20030m-0010",
-        "DKB20032m-0105",
-        "DKB20030m-0032",
-        "DKB20031m-0192",
-        "DKB20028m-0037",
-        "DKB20029m-0074",
-        "DKB20031m-0181",
-        "DKB20029m-0209",
-        "DKB20029m-0190",
-        "DKB20030m-0088",
-        "DKB20031m-0194",
-        "DKB20029m-0118",
-        "DKB20029m-0233",
-        "DKB20029m-0238",
-        "DKB20032m-0055",
-        "DKB20032m-0122"
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山公園",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アスカ山",
+        "https://shibusawa-dlab.github.io/lab1/api/place/永楽町"
     ],
+    "temporal": "1927-11-21",
     "time": {},
     "type": "day",
     "xml": "<div type=\"day\" xml:id=\"DKB20029m-0300\">\n<head>\n<date when=\"1927-11-21\">\n           廿一日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前\n            </time>\n<persName corresp=\"#pers_佐藤\">\n<surname>\n              佐藤\n             </surname>\n</persName>\n            さた《（氏脱）》来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n            陸軍糧秣本廠主計総監\n            <persName corresp=\"#pers_三井清一郎\">\n<surname>\n              三井\n             </surname>\n<forename>\n              清一郎\n             </forename>\n</persName>\n            《（衍）》、丸\n            <pb corresp=\"#pageB2724\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1563/full/max/0/default.jpg\" n=\"B2724\" source=\"#pageB2724\"/>\n            本氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_加藤正治\">\n<surname>\n              加藤\n             </surname>\n<forename>\n              正治\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:25:00\">\n             午前十一・二五\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n<persName corresp=\"#pers_飯田佐治兵衛\">\n<surname>\n              飯田\n             </surname>\n<forename>\n              佐治兵衛\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_永楽町\">\n             永楽町\n            </placeName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<persName corresp=\"#pers_出淵\">\n<surname>\n              出淵\n             </surname>\n</persName>\n            外務次官を御訪問、引続キ田中総理と御会見の約（外務省）\n           </p>\n</event>\n</listEvent>\n</div>",
