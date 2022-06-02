@@ -11,7 +11,7 @@
     "generate:staging2": "NODE_ENV=\"staging\" nuxt generate",
     "generate:staging": "NODE_ENV=\"staging\" node --max-old-space-size=8192 node_modules/nuxt/bin/nuxt.js generate",
     "generate:production2": "NODE_ENV=\"production\" DEPLOY_ENV=\"GH_PAGES\" nuxt generate",
-    "generate:production": "NODE_ENV=\"production\" node --max-old-space-size=8192 node_modules/nuxt/bin/nuxt.js generate",
+    "generate:production": "NODE_ENV=\"production\" DEPLOY_ENV=\"GH_PAGES\" node --max-old-space-size=8192 node_modules/nuxt/bin/nuxt.js generate",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint:style": "stylelint **/*.{vue,css} --ignore-path .gitignore",
     "lint": "yarn lint:js && yarn lint:style",

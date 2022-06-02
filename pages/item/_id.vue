@@ -451,19 +451,11 @@ export default {
     if (payload) {
       return { item: payload }
     } else {
-      const id = app.context.params.id
+      let id = app.context.params.id
 
-      /*
-      const client = algoliasearch(config.appId, config.apiKey)
-      const index = client.initIndex(config.index)
-      const item = await index.getObject(id)
-      */
+      const spl = id.split('-')
 
-      /*
-      const response = await $axios.$get(
-        process.env.BASE_URL + '/data/docs.json'
-      )
-      */
+      id = spl[0] + '-' + String(Number(spl[1])).padStart(4, '0')
 
       const data_ = await import(`~/static/data/docs.json`)
       const response = data_.default
