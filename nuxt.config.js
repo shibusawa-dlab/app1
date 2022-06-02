@@ -225,7 +225,7 @@ const routerBase =
   process.env.DEPLOY_ENV === 'GH_PAGES'
     ? {
         router: {
-          base: '/engishiki/', // '/genji/',
+          base: '/app1/', // '/genji/',
         },
       }
     : {}
