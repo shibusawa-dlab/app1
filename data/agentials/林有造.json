@@ -2,15 +2,81 @@
     "edges": [
         {
             "color": "lightgrey",
-            "from": "原六郎",
-            "to": "浅野総一郎",
-            "value": 4
+            "from": "益田",
+            "to": "井上",
+            "value": 21
         },
         {
             "color": "lightgrey",
-            "from": "原六郎",
-            "to": "益田孝",
-            "value": 4
+            "from": "益田",
+            "to": "田中",
+            "value": 13
+        },
+        {
+            "color": "lightgrey",
+            "from": "益田",
+            "to": "大倉",
+            "value": 19
+        },
+        {
+            "color": "lightgrey",
+            "from": "益田",
+            "to": "桂",
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "益田",
+            "to": "佐々木",
+            "value": 14
+        },
+        {
+            "color": "lightgrey",
+            "from": "大江",
+            "to": "尾崎",
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "大江",
+            "to": "竹内",
+            "value": 13
+        },
+        {
+            "color": "lightgrey",
+            "from": "馬越",
+            "to": "佐々木",
+            "value": 12
+        },
+        {
+            "color": "lightgrey",
+            "from": "田中",
+            "to": "佐々木",
+            "value": 18
+        },
+        {
+            "color": "lightgrey",
+            "from": "田中",
+            "to": "井上",
+            "value": 18
+        },
+        {
+            "color": "lightgrey",
+            "from": "田中",
+            "to": "池田",
+            "value": 11
+        },
+        {
+            "color": "lightgrey",
+            "from": "田中",
+            "to": "兼子",
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "田中",
+            "to": "徳川",
+            "value": 11
         }
     ],
     "nodes": [
@@ -19,11 +85,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 8,
-            "description": "原 六郎（はらろくろう、天保13年11月9日（1842年12月10日） - 昭和8年（1933年）11月14日）は日本の幕末から大正期の志士、軍人、銀行家、実業家。もとの名は進藤俊三郎長政といい、生野の変で敗れ潜伏中に、原六郎と改名。但馬国佐中村（現・兵庫県朝来市）出身。",
-            "id": "原六郎",
-            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Private_school_Seikei_Shoin_Yabu_Hyogo.jpg?width=300",
-            "label": "原六郎",
+            "count": 77,
+            "id": "益田",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "益田",
             "shape": "image"
         },
         {
@@ -31,11 +96,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 4,
-            "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
-            "id": "浅野総一郎",
-            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
-            "label": "浅野総一郎",
+            "count": 23,
+            "id": "大江",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "大江",
             "shape": "image"
         },
         {
@@ -43,11 +107,120 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 4,
-            "description": "益田 孝（ますだ たかし、嘉永元年10月17日（1848年11月12日） - 昭和13年（1938年）12月28日）は、日本の実業家。草創期の日本経済を動かし、三井財閥を支えた実業家である。明治維新後世界初の総合商社・三井物産の設立に関わり、日本経済新聞の前身である中外物価新報を創刊した。茶人としても高名で鈍翁と号し、「千利休以来の大茶人」と称された。男爵。",
-            "id": "益田孝",
-            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Masuda_Takashi.jpg?width=300",
-            "label": "益田孝",
+            "count": 12,
+            "id": "馬越",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "馬越",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 81,
+            "id": "田中",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "田中",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 39,
+            "id": "井上",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "井上",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 19,
+            "id": "大倉",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "大倉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 11,
+            "id": "池田",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "池田",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "id": "尾崎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "尾崎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 13,
+            "id": "竹内",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "竹内",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "id": "桂",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "桂",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "id": "兼子",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "兼子",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 44,
+            "id": "佐々木",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "佐々木",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 11,
+            "id": "徳川",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "徳川",
             "shape": "image"
         }
     ]

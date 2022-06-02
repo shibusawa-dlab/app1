@@ -2,9 +2,33 @@
     "edges": [
         {
             "color": "lightgrey",
-            "from": "山辺丈夫",
-            "to": "斎藤恒三",
-            "value": 4
+            "from": "松方",
+            "to": "井上",
+            "value": 21
+        },
+        {
+            "color": "lightgrey",
+            "from": "松方",
+            "to": "松尾",
+            "value": 11
+        },
+        {
+            "color": "lightgrey",
+            "from": "松方",
+            "to": "佐々木",
+            "value": 15
+        },
+        {
+            "color": "lightgrey",
+            "from": "松方",
+            "to": "桂",
+            "value": 12
+        },
+        {
+            "color": "lightgrey",
+            "from": "服部",
+            "to": "阪谷",
+            "value": 13
         }
     ],
     "nodes": [
@@ -13,11 +37,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 4,
-            "description": "山辺 丈夫（やまのべ たけお、1851年12月30日（嘉永4年12月8日） - 1920年5月14日）は、明治期の実業家、紡績技師、津和野藩士。従五位。",
-            "id": "山辺丈夫",
+            "count": 59,
+            "id": "松方",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "山辺丈夫",
+            "label": "松方",
             "shape": "image"
         },
         {
@@ -25,10 +48,65 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 4,
-            "id": "斎藤恒三",
+            "count": 13,
+            "id": "服部",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "斎藤恒三",
+            "label": "服部",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 21,
+            "id": "井上",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "井上",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 13,
+            "id": "阪谷",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "阪谷",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 15,
+            "id": "佐々木",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "佐々木",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 12,
+            "id": "桂",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "桂",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 11,
+            "id": "松尾",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "松尾",
             "shape": "image"
         }
     ]

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/viewer/DKB02", {data:[{}],fetch:{},mutations:[]});
