@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1796],{2411:function(e){e.exports=JSON.parse('{"edges":[],"nodes":[]}')}}]);
