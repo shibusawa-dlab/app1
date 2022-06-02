@@ -12,9 +12,9 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@master
       - name: Install Dependencies
-        run: yarn install
+        run: npm install
       - name: Generate
-        run: yarn generate:production
+        run: npm run generate:production
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

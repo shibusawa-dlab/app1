@@ -275,8 +275,8 @@ export default class Ngram extends Vue {
     const data_ = await import(`~/static/data/ngram.json`)
     const results = data_.default
 
-    const dataDf = await import(`~/static/data/ngram_df.json`)
-    const resultsDf = dataDf.default
+    // const dataDf = await import(`~/static/data/ngram.json`)
+    // const resultsDf = dataDf.default
 
     const dataNgramAll = await import(`~/static/data/all.json`)
     const ngramAll = dataNgramAll.default
@@ -284,7 +284,11 @@ export default class Ngram extends Vue {
     // const data2_ = await import(`~/static/data/ngram_keys.json`)
     // const keys = data2_.default
 
-    return { index: results, indexDf: resultsDf, ngramAll /*, keys */ }
+    return {
+      index: results.tf,
+      indexDf: /* resultsDf */ results.df,
+      ngramAll /*, keys */,
+    }
   }
 
   mounted() {

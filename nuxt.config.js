@@ -445,10 +445,20 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    optimization: {
+      splitChunks: {
+        name: true,
+      },
+    },
     standalone: true, // これを追加！
   },
 
   generate: {
+    optimization: {
+      splitChunks: {
+        name: true,
+      },
+    },
     crawler: false,
     exclude: [
       /^\/tei/, // /admin で始まるパス
