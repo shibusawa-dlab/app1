@@ -1,14 +1,6 @@
 <template>
   <div>
-    <v-sheet color="grey lighten-2">
-      <v-container fluid class="py-4">
-        <v-breadcrumbs class="py-0" :items="bh">
-          <template #divider>
-            <v-icon>mdi-chevron-right</v-icon>
-          </template>
-        </v-breadcrumbs>
-      </v-container>
-    </v-sheet>
+    <Breadcrumbs :items="bh" />
     <v-sheet v-if="entity.image" color="grey lighten-4">
       <v-img :src="entity.image" contain style="height: 300px"></v-img>
     </v-sheet>
@@ -20,9 +12,9 @@
       </p>
 
       <div class="text-center my-5">
-        <v-tooltip bottom v-if="rdf">
+        <v-tooltip v-if="rdf && false" bottom>
           <template #activator="{ on }">
-            <v-btn class="mr-5" :href="uri" icon v-on="on"
+            <v-btn small class="mr-5" :href="uri" icon v-on="on"
               ><v-img
                 contain
                 width="30px"
@@ -66,6 +58,7 @@
           </h3>
         </small>
         <GChart
+          v-if="total > 0"
           class="pb-10"
           type="ColumnChart"
           :data="chartData"
@@ -77,6 +70,7 @@
         class="mt-10"
         block
         color="primary"
+        depressed
         rounded
         dark
         x-large
@@ -162,51 +156,29 @@ import { GChart } from 'vue-google-charts'
 import axios from 'axios'
 import ResultOption from '~/components/display/ResultOption.vue'
 import HorizontalItems from '~/components/display/HorizontalItems.vue'
+import Breadcrumbs from '~/components/common/Breadcrumbs.vue'
 
 export default {
   components: {
     GChart,
     ResultOption,
     HorizontalItems,
+    Breadcrumbs,
   },
-  async asyncData({ payload, app, $axios }) {
+  asyncData({ payload, app }) {
     if (payload) {
       return { item: payload }
     } else {
       const id = app.context.params.id
       const field = app.context.params.entity
 
-      const response = await $axios.$get(process.env.BASE_URL + "/data/docs.json");
-
+      /*
       const results = {
         hits: []
       }
+      */
 
-      const facetsMap = {}
-
-      for(const key in response){
-        const e = response[key]
-        if(e[field] && e[field].includes(id)){
-          const year = e.year
-
-          if(!facetsMap[year]){
-            facetsMap[year] = 0
-          }
-
-          facetsMap[year] += 1
-        }
-      }
-
-      const facets = []
-
-      for(let year in facetsMap){
-        facets.push({
-          value: year,
-          count: facetsMap[year]
-        })
-      }
-
-      return { field, facets}
+      return { field, id /*, facets */ }
     }
   },
 
@@ -229,36 +201,9 @@ export default {
       map: {},
       index: {},
 
-      rdf: false
-    }
-  },
+      rdf: false,
 
-  head() {
-    const title = this.title
-    return {
-      title,
-      meta: [
-        {
-          hid: 'og:title',
-          property: 'og:title',
-          content: title,
-        },
-        {
-          hid: 'og:type',
-          property: 'og:type',
-          content: 'article',
-        },
-        {
-          hid: 'og:url',
-          property: 'og:url',
-          content: this.url,
-        },
-        {
-          hid: 'twitter:card',
-          name: 'twitter:card',
-          content: 'summary_large_image',
-        },
-      ],
+      facets: [],
     }
   },
 
@@ -311,11 +256,11 @@ export default {
     title() {
       return this.id
     },
-
+    /*
     id() {
       return this.$route.params.id
     },
-
+    */
     url() {
       return this.baseUrl + this.$route.path
     },
@@ -360,17 +305,58 @@ export default {
   },
 
   async created() {
+    let response = await axios.get(process.env.BASE_URL + '/data/docs.json')
+    response = response.data
 
-    let results = await axios.get(this.baseUrl+"/data/entity.json")
+    const field = this.field
+    const id = this.id
+
+    const facetsMap = {}
+
+    for (const key in response) {
+      const e = response[key]
+      if (e[field] && e[field].includes(id)) {
+        const year = e.year
+
+        if (!facetsMap[year]) {
+          facetsMap[year] = 0
+        }
+
+        facetsMap[year] += 1
+      }
+    }
+
+    const facets = []
+
+    for (const year in facetsMap) {
+      facets.push({
+        value: year,
+        count: facetsMap[year],
+      })
+    }
+
+    this.facets = facets
+
+    let results = await axios.get(this.baseUrl + '/data/entity.json')
     results = results.data
 
-    this.map = results
+    // const field = this.field
+    const tmp = field === 'agential' ? field : 'spatial'
 
-    const id = this.field
-    const tmp = id === 'agential' ? id : 'spatial'
+    const map = {}
 
-    this.index = results[tmp]
-    
+    for (const key in results) {
+      const tmp = {}
+      for (const item of results[key]) {
+        tmp[item.id] = item
+      }
+      map[key] = tmp
+    }
+
+    // agentialとspatialの両方
+    this.map = map
+    this.index = map[tmp]
+
     this.getInformation()
 
     this.getRelatedItems()
@@ -378,7 +364,8 @@ export default {
   },
 
   methods: {
-    async getInformation(){
+    getInformation() {
+      // console.log('getInformation')
 
       const map = {
         spatial: 'place',
@@ -386,87 +373,51 @@ export default {
         agential: 'chname',
       }
 
-      let id = this.id
+      const id = this.id
+      /*
       if (id === '兜町') {
         id = '日本橋兜町'
       }
-
-      const uri = "https://www.kanzaki.com/works/2014/pub/ld-browser?u=" + encodeURIComponent(this.baseUrl + '/api/' + map[this.field] + '/' + id) + ".json&t=jsonld"
-      this.uri = uri
-
-      /*
-      const query = `
-        PREFIX schema: <http://schema.org/>
-        PREFIX type: <https://jpsearch.go.jp/term/type/>
-        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-        PREFIX owl: <http://www.w3.org/2002/07/owl#>
-        PREFIX dct: <http://purl.org/dc/terms/>
-        PREFIX hpdb: <https://w3id.org/hpdb/api/>
-        PREFIX sh: <http://www.w3.org/ns/shacl#>
-        SELECT DISTINCT * WHERE {
-          ?s rdfs:label ?label .
-          filter (?s = <${uri}>)
-          optional { ?s schema:description ?description }
-          optional { ?s schema:image ?image }
-        }
-        LIMIT 1
-      `
-
-      let url = process.env.endpoint + '?query='
-
-      url = url + encodeURIComponent(query) + '&output=json'
-
-      const res = await axios.get(url)
-      const results = res.data
-      this.entities = results
       */
+
+      const uri =
+        'https://www.kanzaki.com/works/2014/pub/ld-browser?u=' +
+        encodeURIComponent(
+          this.baseUrl + '/api/' + map[this.field] + '/' + id
+        ) +
+        '.json&t=jsonld'
+      this.uri = uri
 
       const index = this.index
 
+      // console.log({ index })
+
       const entities = []
 
-      if(index[id]){
+      if (index[id]) {
         this.rdf = true
         entities.push(index[id])
       }
 
       this.entities = entities
-
     },
     async getRelatedItems(field = 'spatial') {
       const id = this.id
 
-      // const field = this.$route.params.entity
-
-      /*
-      const client = algoliasearch(config.appId, config.apiKey)
-      const index = client.initIndex(this.index) // _temporal_asc
-
-      const facets = await index.searchForFacetValues(field, '', {
-        filters: this.field + ':' + id, // 重要。条件のほうはentityに基づく
-        maxFacetHits: 10,
-      })
-      */
-
       const index = this.map[field]
 
-      console.log({index})
-
-      let response = await axios.get(process.env.BASE_URL + "/data/docs.json");
+      let response = await axios.get(process.env.BASE_URL + '/data/docs.json')
       response = response.data
 
       const facetsMap = {}
 
-      for(const key in response){
+      for (const key in response) {
         const e = response[key]
-        if(e[this.field] && e[this.field].includes(id)){
+        if (e[this.field] && e[this.field].includes(id)) {
           const values = e[field]
 
-          for(const value of values){
-            if(!facetsMap[value]){
+          for (const value of values) {
+            if (!facetsMap[value]) {
               facetsMap[value] = 0
             }
 
@@ -475,24 +426,27 @@ export default {
         }
       }
 
-      let arr = Object.keys(facetsMap).map((e)=>({ key: e, value: facetsMap[e] }));
+      let arr = Object.keys(facetsMap).map((e) => ({
+        key: e,
+        value: facetsMap[e],
+      }))
 
-      arr.sort(function(a,b){
-        if(a.value < b.value) return 1;
-        if(a.value > b.value) return -1;
-        return 0;
-      });
+      arr.sort(function (a, b) {
+        if (a.value < b.value) return 1
+        if (a.value > b.value) return -1
+        return 0
+      })
 
-      arr = arr.slice(0, 10) //最大50
+      arr = arr.slice(0, 10) // 最大50
 
       const facets = {
-        facetHits: []
+        facetHits: [],
       }
 
-      for(const obj of arr){
+      for (const obj of arr) {
         facets.facetHits.push({
           value: obj.key,
-          count: obj.value
+          count: obj.value,
         })
       }
 
@@ -523,7 +477,7 @@ export default {
         })
 
         // indexの反映
-        if(index[value] && index[value].image){
+        if (index[value] && index[value].image) {
           image = [index[value].image]
         }
 
@@ -647,6 +601,10 @@ export default {
     },
 
     dwnJson() {
+      /*
+      if (!process.browser){
+        return
+      }
       // 保存するJSONファイルの名前
       const fileName = this.item.objectID + '.xml'
 
@@ -664,7 +622,37 @@ export default {
 
       // ファイルを保存する。
       link.click()
+      */
     },
+  },
+
+  head() {
+    const title = this.title
+    return {
+      title,
+      meta: [
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: title,
+        },
+        {
+          hid: 'og:type',
+          property: 'og:type',
+          content: 'article',
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: this.url,
+        },
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+      ],
+    }
   },
 }
 </script>

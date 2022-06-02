@@ -13,7 +13,8 @@
       <h2>{{ $t('fulltext_search') }}</h2>
 
       <p class="my-2">
-        『渋沢栄一伝記資料』別巻第1, 第2の本文を対象に検索します。検索するとその結果がハイライトされますが、ファセット・ナビゲーションを利用した際には機能しない場合があります。
+        『渋沢栄一伝記資料』別巻第1,
+        第2の本文を対象に検索します。検索するとその結果がハイライトされますが、ファセット・ナビゲーションを利用した際には機能しない場合があります。
       </p>
 
       <template v-if="loading">
@@ -24,27 +25,28 @@
             class="my-10"
           ></v-progress-circular>
 
-          <p>初回はインデックスファイルのダウンロードに時間を要します。2回目以降はキャッシュにより待ち時間が改善します。</p>
+          <p>
+            初回はインデックスファイルのダウンロードに時間を要します。2回目以降はキャッシュにより待ち時間が改善します。
+          </p>
         </div>
       </template>
 
       <template v-else>
-
         <v-row class="mt-2" dense>
           <v-col cols="12" md="12">
             <!-- <ais-search-box :placeholder="$t('add_a_search_term')"
             /> -->
 
             <v-text-field
-            background-color="grey lighten-3"
-            filled
-                rounded
               v-model="q"
+              background-color="grey lighten-3"
+              filled
+              rounded
               dense
               :placeholder="$t('add_a_search_term')"
               append-icon="mdi-magnify"
               clearable
-                clear-icon="mdi-close-circle"
+              clear-icon="mdi-close-circle"
               @click:append="search(q, $event)"
               @keydown.enter="search(q, $event)"
             ></v-text-field>
@@ -57,15 +59,21 @@
             :key="key"
             class="mr-2 my-2"
             close
+            dark
             @click:close="faceted(filter.label, filter.value)"
-            label
           >
             {{ aggs[filter.label].label }}: {{ filter.value }}
           </v-chip>
 
-          <v-chip v-if="filters.length > 0" @click="init()" label class="mr-2 my-2">
+          <v-btn
+            v-if="filters.length > 0"
+            text
+            color="primary"
+            class="mr-2 my-2"
+            @click="init()"
+          >
             {{ $t('Clear all') }}
-          </v-chip>
+          </v-btn>
         </div>
 
         <v-row class="mt-5" dense>
@@ -117,8 +125,9 @@
                           {{ item.objectID }}
                         </span>
                         <span class="mr-4"
-                          ><b>{{ $t('date_year') }}:</b>
-                          {{ item.temporal }}</span
+                          ><b>{{ $t('date') }}:</b>
+                          <!-- $t('date_year') -->
+                          {{ $utils.wareki(item.temporal) }}</span
                         >
                         <span
                           v-if="item.agential && item.agential.length > 0"
@@ -141,7 +150,8 @@
                       style="max-height: 200px; overflow-y: auto"
                       v-html="
                         highlightRelation(
-                          $utils.removeHead($utils.xml2html(item.xml)),
+                          //$utils.removeHead($utils.xml2html(item.xml))
+                          convert(item.xml),
                           q
                         )
                       "
@@ -154,11 +164,11 @@
 
           <v-col cols="12" sm="4" order-sm="1">
             <v-expansion-panels
+              v-for="(aggList, aggField) in aggs"
+              :key="aggField"
               :value="0"
               flat
               class="mb-4"
-              v-for="(aggList, aggField) in aggs"
-              :key="aggField"
             >
               <v-expansion-panel>
                 <v-expansion-panel-header class="grey lighten-2">
@@ -167,11 +177,11 @@
                 <v-expansion-panel-content outlined class="py-2">
                   <template v-for="(e, key) in aggList.value">
                     <div
-                      style="cursor: pointer"
                       v-if="key < limit || aggList.more"
                       :key="key"
-                      @click="faceted(aggField, e[0])"
+                      style="cursor: pointer"
                       class="mt-1"
+                      @click="faceted(aggField, e[0])"
                     >
                       <template v-if="checked(aggField, e[0])">
                         <v-icon color="primary"> mdi-checkbox-marked </v-icon>
@@ -214,7 +224,7 @@
 
 <script>
 import axios from 'axios'
-var _ = require('lodash')
+const _ = require('lodash')
 
 export default {
   data() {
@@ -245,15 +255,28 @@ export default {
     }
   },
 
-  head() {
-    return {
-      title: this.$t('fulltext_search'),
-    }
+  computed: {
+    length() {
+      return Math.ceil(this.total / this.perPage)
+    },
+    filters() {
+      const query = this.$route.query
+      const filters = []
+      for (const key in query) {
+        if (key.includes('refinementList')) {
+          filters.push({
+            label: key.split('[')[2].split(']')[0],
+            value: query[key],
+          })
+        }
+      }
+      return filters
+    },
   },
 
   watch: {
-    page: function (val) {
-      //this.list(val)
+    page(val) {
+      // this.list(val)
       const query = JSON.parse(JSON.stringify(this.$route.query))
 
       if (val === 1) {
@@ -270,35 +293,16 @@ export default {
       )
     },
 
-    $route: function (current, old) {
-      //フィルタの実行条件は要検討
+    $route(current, old) {
+      // フィルタの実行条件は要検討
       this.filter()
 
       this.list()
     },
   },
 
-  computed: {
-    length: function () {
-      return Math.ceil(this.total / this.perPage)
-    },
-    filters: function () {
-      const query = this.$route.query
-      const filters = []
-      for (const key in query) {
-        if (key.includes('refinementList')) {
-          filters.push({
-            label: key.split('[')[2].split(']')[0],
-            value: query[key],
-          })
-        }
-      }
-      return filters
-    },
-  },
-
   async mounted() {
-    //初期読み込み
+    // 初期読み込み
     let docs = await axios.get(process.env.BASE_URL + '/data/docs.json')
     docs = docs.data
     this.docs = docs
@@ -311,20 +315,20 @@ export default {
     facets = facets.data
     this.facets = facets
 
-    //クエリの処理
+    // クエリの処理
     const query = this.$route.query
 
-    //ページの初期化
+    // ページの初期化
     const page = Number(query['main[page]']) || 1
     this.page = page
 
-    //検索キーワード
+    // 検索キーワード
     const q = query['main[query]'] || ''
     this.q = q
 
     this.filter()
 
-    //初期検索の場合
+    // 初期検索の場合
     this.list()
 
     this.loading = false
@@ -341,7 +345,7 @@ export default {
         }
       }
 
-      //ページは先頭へ
+      // ページは先頭へ
       delete query['main[page]']
 
       this.$router.push(
@@ -361,31 +365,37 @@ export default {
 
       let ids = []
 
-      //全文
+      // console.log({ terms })
+
+      // 全文
       if (q === '') {
         ids = Object.keys(docs)
       } else {
-        const terms = q.split("　").join(" ").split(" ")
-        
-        for (const key in index) {
-          let flg = true
-          for(const term of terms){
-            if (!key.includes(term)) {
-              flg = false
-              break
-            }
+        const terms = q.split('　').join(' ').split(' ')
+
+        // and または or
+
+        // and
+
+        let idsFulltext = Object.keys(docs) // ids
+
+        for (const keyword of terms) {
+          const idsKeyword = []
+          const keys = Object.keys(index).filter((x) => x.match(keyword))
+          for (const key of keys) {
+            idsKeyword.push(...index[key])
           }
 
-          if(flg){
-            ids = ids.concat(index[key])
-          }
+          idsFulltext = _.intersection(idsFulltext, idsKeyword)
         }
+
+        ids = idsFulltext
       }
 
-      //ファセット
+      // ファセット
       const facets = this.facets
 
-      for (let queryField in query) {
+      for (const queryField in query) {
         if (queryField.includes('refinementList')) {
           const facetField = queryField.split('[')[2].split(']')[0]
 
@@ -465,7 +475,7 @@ export default {
       for (const id of ids) {
         const item = docs[id]
 
-        for (let aggField in aggs) {
+        for (const aggField in aggs) {
           const aggMap = aggs[aggField].value
 
           let values = item[aggField]
@@ -490,17 +500,28 @@ export default {
       for (const aggField in aggs) {
         const aggMap = aggs[aggField]
 
-        var pairs = Object.entries(aggMap.value)
-
         if (aggMap.sort !== 'name:asc') {
+          var pairs = Object.entries(aggMap.value)
           pairs.sort(function (p1, p2) {
-            var p1Val = p1[1],
-              p2Val = p2[1]
+            const p1Val = p1[1]
+            const p2Val = p2[1]
             return -(p1Val - p2Val)
           })
+        } else {
+          const tmp = aggMap.value
+
+          const keys = Object.keys(tmp)
+          keys.sort()
+
+          const tmp2 = {}
+          for (const key of keys) {
+            tmp2[key] = tmp[key]
+          }
+
+          var pairs = Object.entries(tmp2)
         }
 
-        const aggList = pairs.slice(0, 50) //Object.fromEntries(pairs);
+        const aggList = pairs.slice(0, 50) // Object.fromEntries(pairs);
         aggs[aggField].value = aggList
       }
 
@@ -509,7 +530,7 @@ export default {
     search() {
       const query = JSON.parse(JSON.stringify(this.$route.query))
 
-      let q = this.q || ""
+      let q = this.q || ''
       q = q.trim()
 
       if (q === '') {
@@ -518,7 +539,7 @@ export default {
         query['main[query]'] = q
       }
 
-      //ページは先頭へ
+      // ページは先頭へ
       delete query['main[page]']
       this.page = 1
 
@@ -528,7 +549,7 @@ export default {
           query,
         })
       )
-      //if (event.keyCode !== 13) return
+      // if (event.keyCode !== 13) return
     },
     list() {
       const query = this.$route.query
@@ -594,56 +615,84 @@ export default {
     highlightRelation(xml, other) {
       const others = []
 
-      const terms = other.split("　").join(" ").split(" ")
-      for(const term of terms){
-        if(term && !others.includes(term)){
+      const terms = other.split('　').join(' ').split(' ')
+      for (const term of terms) {
+        if (term && !others.includes(term)) {
           others.push(term)
         }
-      }      
+      }
 
       const filters = this.filters
-      for(let filter of filters){
+      for (const filter of filters) {
         const label = filter.value
-        if(!others.includes(label) ){
+        if (!others.includes(label)) {
           others.push(label)
         }
       }
 
       xml = String(xml).replace(/<[^>]*>?/gm, '')
 
-      const map = {}
+      // const map = {}
 
-      for(const other2 of others.sort(function(a, b) {return b.length - a.length;})){
+      for (const other2 of others.sort(function (a, b) {
+        return b.length - a.length
+      })) {
+        // const uuid = getUniqueStr()
+        /*
+        map[uuid] =
+          '<span style="font-weight: bold; background-color: #FFF59D;">' +
+          other2 +
+          '</span>'
+        */
 
-        const uuid = getUniqueStr()
-        map[uuid] = '<span style="font-weight: bold; background-color: #FFF59D;">' +
-              other2 +
+        try {
+          const regexp = new RegExp(other2, 'g')
+          xml = xml.replace(regexp, function (match) {
+            // return uuid
+            return (
+              '<span style="font-weight: bold; background-color: #FFF59D;">' +
+              match +
               '</span>'
-        
-        xml = xml
-          .split(other2)
-          .join(
-            uuid
-          )
+            )
+          })
+        } catch (e) {
+          console.log({ e })
+        }
+
+        // xml = xml.split(other2).join(uuid)
       }
 
-      for(const uuid in map){
-        xml = xml
-          .split(uuid)
-          .join(
-            map[uuid]
-          )
+      /*
+      for (const uuid in map) {
+        xml = xml.split(uuid).join(map[uuid])
       }
+      */
 
       return xml
     },
+    convert(xml) {
+      const tmp = document.createElement('div')
+      tmp.innerHTML = xml
+      xml = tmp.textContent
+      xml = xml.split('\n').join('').split(' ').join('')
+      return xml
+    },
+  },
+
+  head() {
+    return {
+      title: this.$t('fulltext_search'),
+    }
   },
 }
 
-function getUniqueStr(myStrong){
- var strong = 1000;
- if (myStrong) strong = myStrong;
- return new Date().getTime().toString(16)  + Math.floor(strong*Math.random()).toString(16)
+function getUniqueStr(myStrong) {
+  let strong = 1000
+  if (myStrong) strong = myStrong
+  return (
+    new Date().getTime().toString(16) +
+    Math.floor(strong * Math.random()).toString(16)
+  )
 }
 </script>
 <style>

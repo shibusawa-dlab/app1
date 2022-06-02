@@ -71,15 +71,13 @@
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
-import axios from 'axios'
+// import axios from 'axios'
 
 @Component({})
 export default class about extends Vue {
   baseUrl: any = process.env.BASE_URL
 
-  title: any = this.$t(
-    "ad_title"
-  )
+  title: any = this.$t('ad_title')
 
   get bh(): any[] {
     return [
@@ -98,17 +96,23 @@ export default class about extends Vue {
   children: any = {}
   map: any = {}
 
+  async asyncData() {
+    const data_ = await import(`~/static/data/ad.json`)
+    const results = data_.default
+    return { results }
+  }
+
   // state
   mounted() {
     this.search()
   }
 
-  async search() {
-    const url = process.env.BASE_URL + '/data/ad.json'
+  /* async */ search() {
+    // const url = process.env.BASE_URL + '/data/ad.json'
 
-    const result = await axios.get(url)
+    // const result = await axios.get(url)
 
-    const results = result.data
+    const results = (this as any).results // result.data
 
     const children: any = {}
 
@@ -118,7 +122,9 @@ export default class about extends Vue {
       const item: any = {
         id: obj['@id'],
         slug: obj['@id'].split('/items/')[1],
-        label: obj['http://www.w3.org/2000/01/rdf-schema#label'] ? obj['http://www.w3.org/2000/01/rdf-schema#label'][0]['@value'] : obj['@id'],
+        label: obj['http://www.w3.org/2000/01/rdf-schema#label']
+          ? obj['http://www.w3.org/2000/01/rdf-schema#label'][0]['@value']
+          : obj['@id'],
       }
       map[obj['@id']] = item
 

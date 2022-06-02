@@ -11,10 +11,14 @@
     </v-sheet>
     <v-container class="my-5">
       <h2 class="mb-5">{{ $t('calendar') }}</h2>
-      <p>
-        『渋沢栄一伝記資料』別巻第1, 第2の日付と時間情報を活用し,
-        カレンダー形式で可視化しています。
-      </p>
+
+      <ul>
+        <li>
+          『渋沢栄一伝記資料』別巻第1,
+          第2の日付と時間情報を活用し,カレンダー形式で可視化しています。
+        </li>
+        <li>年齢は当該年の誕生日における渋沢栄一の満年齢を示します。</li>
+      </ul>
 
       <v-card flat outlined class="my-10">
         <GChart type="ColumnChart" :data="chartData" :options="chartOptions" />
@@ -26,16 +30,15 @@
             <tr v-for="(obj, key) in years" :key="key">
               <th
                 class="text-center"
-                width="4%"
+                width="16%"
                 style="border: 0.5px solid lightgrey"
-              >
-                {{ display(key) }}
-              </th>
+                v-html="display(key)"
+              ></th>
               <template v-for="value in 12">
                 <td
                   :key="key + '-' + value"
                   class="text-center"
-                  width="3%"
+                  width="7%"
                   style="border: 0.5px solid lightgrey"
                   :style="
                     count(key, value) > 0 ? 'background-color: #FFF59D;' : ''
@@ -72,7 +75,6 @@
 </template>
 
 <script>
-import axios from 'axios'
 import { GChart } from 'vue-google-charts'
 
 export default {
@@ -83,8 +85,9 @@ export default {
     if (payload) {
       return { item: payload }
     } else {
-      const results = await axios.get(process.env.BASE_URL + '/data/years.json')
-      return { items: results.data }
+      const results_ = await import(`~/static/data/years.json`)
+      const results = results_.default
+      return { items: results }
     }
   },
   data: () => ({
@@ -95,34 +98,6 @@ export default {
       },
     },
   }),
-  head() {
-    const title = this.title
-    return {
-      title,
-      meta: [
-        {
-          hid: 'og:title',
-          property: 'og:title',
-          content: title,
-        },
-        {
-          hid: 'og:type',
-          property: 'og:type',
-          content: 'article',
-        },
-        {
-          hid: 'og:url',
-          property: 'og:url',
-          content: this.url,
-        },
-        {
-          hid: 'twitter:card',
-          name: 'twitter:card',
-          content: 'summary_large_image',
-        },
-      ],
-    }
-  },
   computed: {
     title() {
       return this.$t('calendar')
@@ -221,11 +196,54 @@ export default {
     },
     display(text) {
       if (this.$i18n.locale === 'ja') {
-        return text + '年'
+        let wareki = this.$utils.wareki(text).replace('）', '（').split('（')[1]
+        if (wareki === '慶応4') {
+          wareki = '慶応4/明治元'
+        } else if (wareki === '明治45') {
+          wareki = '明治45/大正元'
+        } else if (wareki === '大正15') {
+          wareki = '大正15/昭和元'
+        }
+        return (
+          text +
+          '（' +
+          wareki.split('/')[0] +
+          '）年<br/>〔' +
+          (text - 1840) +
+          '歳〕'
+        )
       } else {
         return text
       }
     },
+  },
+  head() {
+    const title = this.title
+    return {
+      title,
+      meta: [
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: title,
+        },
+        {
+          hid: 'og:type',
+          property: 'og:type',
+          content: 'article',
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: this.url,
+        },
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+      ],
+    }
   },
 }
 </script>

@@ -1,8 +1,8 @@
 name: Deployment (Production)
 on:
   push:
-    branches:
-      - master
+    tags:
+      - 'v*'
 
 jobs:
   deploy:
@@ -14,7 +14,7 @@ jobs:
       - name: Install Dependencies
         run: yarn install
       - name: Generate
-        run: yarn generate:production2
+        run: yarn generate:production
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

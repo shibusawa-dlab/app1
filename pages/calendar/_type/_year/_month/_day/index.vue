@@ -15,6 +15,7 @@
         『渋沢栄一伝記資料』別巻第1, 第2の日付と時間情報を活用し,
         カレンダー形式で可視化しています。日記は水色、集会日時通知表は灰色で表示されます。
       </p>
+
       <v-row v-show="mainFlag" class="fill-height">
         <v-col>
           <v-sheet height="64">
@@ -62,18 +63,20 @@
             </v-toolbar>
           </v-sheet>
           <v-sheet height="600">
-            <v-calendar
-              ref="calendar"
-              v-model="value"
-              color="primary"
-              :events="events"
-              :type="type"
-              :locale="lang"
-              @click:more="viewDay"
-              @click:date="viewDay"
-              @click:event="showEvent"
-              @change="updateRange"
-            ></v-calendar>
+            <client-only>
+              <v-calendar
+                ref="calendar"
+                v-model="value"
+                color="primary"
+                :events="events"
+                :type="type"
+                :locale="lang"
+                @click:more="viewDay"
+                @click:date="viewDay"
+                @click:event="showEvent"
+                @change="updateRange"
+              ></v-calendar>
+            </client-only>
             <v-menu
               v-model="selectedOpen"
               :close-on-content-click="false"
@@ -84,9 +87,9 @@
                 <v-toolbar :color="selectedEvent.color" dark>
                   <v-toolbar-title>{{ selectedEvent.name }}</v-toolbar-title>
                   <!-- 
-                  <v-spacer></v-spacer>
-                  <v-toolbar-title>{{ selectedEvent.id }}</v-toolbar-title>
-                  -->
+                    <v-spacer></v-spacer>
+                    <v-toolbar-title>{{ selectedEvent.id }}</v-toolbar-title>
+                    -->
                 </v-toolbar>
                 <v-card-text>
                   <span v-html="$utils.xml2html(selectedEvent.xml, true)" />
@@ -119,22 +122,12 @@
 </template>
 
 <script>
+import axios from 'axios'
 
 // NUM=値 LEN=桁数
 function zfill(NUM, LEN) {
   NUM = Number(NUM)
   return (Array(LEN).join('0') + NUM).slice(-LEN)
-}
-
-// 今後TEI側で構造化データとしたい
-function getColor(data) {
-  const color = 'cyan'
-  if (data.includes('晴')) {
-    return 'orange'
-  } else if (data.includes('曇')) {
-    return 'grey darken-1'
-  }
-  return color
 }
 
 function getColor2(data) {
@@ -146,119 +139,45 @@ function getColor2(data) {
 }
 
 function formatDate(dt) {
-  var y = dt.getFullYear();
-  var m = ('00' + (dt.getMonth()+1)).slice(-2);
-  var d = ('00' + dt.getDate()).slice(-2);
-  return (y + '-' + m + '-' + d);
+  const y = dt.getFullYear()
+  const m = ('00' + (dt.getMonth() + 1)).slice(-2)
+  const d = ('00' + dt.getDate()).slice(-2)
+  return y + '-' + m + '-' + d
 }
 
 export default {
-  /*
-  async asyncData({ payload, app, $axios }) {
+  // async
+  asyncData({ /* payload, */ app }) {
+    /*
+    let docs = {}
     if (payload) {
-      return { item: payload }
+      docs = payload
     } else {
-      // 初期値
-      let value = '1914-01-02'
-      let type = 'custom-daily'
-
-      if (app.context.params.year) {
-        const params = app.context.params
-        value =
-          params.year +
-          '-' +
-          zfill(params.month, 2) +
-          '-' +
-          zfill(params.day, 2)
-        if (params.type !== 'year') {
-          type = params.type
-        }
-      }
-
-      const es = value.split('-')
-
-      const query = es[0] + '-' + es[1]
-
-      const response = await $axios.$get(process.env.BASE_URL + "/data/docs.json");
-
-      const results = {
-        hits: []
-      }
-
-      for(const key in response){
-        const e = response[key]
-        if(e.yearAndMonth === query){
-          results.hits.push(e)
-        }
-      }
-
-      const events = []
-      for (let i = 0; i < results.hits.length; i++) {
-        const obj = results.hits[i]
-        //console.log(obj)
-
-        if (type !== 'month' && Object.keys(obj.time).length > 0) {
-          for (const time in obj.time) {
-            const obj2 = obj.time[time]
-
-            let date2 = `${obj.temporal} ${time}`
-
-            const h = Number(time.split(":")[0])
-
-            // 0時から4時までの場合
-            if(h >= 0 && h < 4){
-              var today = new Date(date2)
-              var tomorrow = new Date(today.getTime() + (24 * 60 * 60 * 1000));
-              date2 = formatDate(tomorrow)+" "+time
-            } else if (h >= 24){
-              var today = new Date(`${obj.temporal} 00:00:00`)
-              var tomorrow = new Date(today.getTime() + (24 * 60 * 60 * 1000));
-              const times = time.split(":")
-              const newH = h - 24
-              const newTime = ( '00' + newH ).slice( -2 ) + ":" + times[1] + ":" + times[2]
-              date2 = formatDate(tomorrow)+" "+newTime
-            }
-
-            
-            const event2 = {
-              name: obj2.replace(/<[^>]*>?/gm, ''),
-              start: date2,
-              end: date2,
-              color: getColor2(obj.type), // getColor(obj.label),
-              id: obj.objectID,
-              xml: obj2,
-            }
-
-            events.push(event2)
-          }
-        } else {
-          const date = new Date(`${obj.temporal}T00:00:00`)
-          const event = {
-            name: obj.label,
-            start: date,
-            end: date,
-            color: getColor2(obj.type), // getColor2(obj.label),
-            id: obj.objectID,
-            xml: obj.xml,
-          }
-          events.push(event)
-        }
-      }
-
-      return { value, type, events, query }
+      const data_ = await import(`~/static/data/docs.json`)
+      docs = data_.default
     }
-  },
-  */
-  async asyncData({ payload, app, $axios }) {
-    if (payload) {
-      return { docs: payload }
-    } else {
+    */
 
-      const docs = await $axios.$get(process.env.BASE_URL + "/data/docs.json");
+    // 初期値
+    let value = '1914-01-02'
+    let type = 'custom-daily'
 
-      return {docs}
+    const routeQuery = app.context
 
+    if (routeQuery.params.year) {
+      const params = routeQuery.params
+      value =
+        params.year + '-' + zfill(params.month, 2) + '-' + zfill(params.day, 2)
+      if (params.type !== 'year') {
+        type = params.type
+      }
     }
+
+    const es = value.split('-')
+
+    const query = es[0] + '-' + es[1]
+
+    return { value, type, query }
   },
   data: () => ({
     baseUrl: process.env.BASE_URL,
@@ -275,74 +194,96 @@ export default {
     selectedEvent: {},
     selectedElement: null,
     selectedOpen: false,
-
-    value: {},
-    type: {},
-    events: {},
-    query: {}
+    events: [],
   }),
+  computed: {
+    url() {
+      return this.baseUrl + this.$route.path
+    },
+    lang() {
+      return this.$i18n.locale
+    },
+    title() {
+      let value = '1914-01-02'
+      // const type = 'custom-daily'
 
-  head() {
-    const title = this.$t('calendar') + ' ' + this.title
-    return {
-      title,
-      meta: [
-        {
-          hid: 'og:title',
-          property: 'og:title',
-          content: title,
-        },
-        {
-          hid: 'og:type',
-          property: 'og:type',
-          content: 'article',
-        },
-        {
-          hid: 'og:url',
-          property: 'og:url',
-          content: this.url,
-        },
-        {
-          hid: 'twitter:card',
-          name: 'twitter:card',
-          content: 'summary_large_image',
-        },
-      ],
-    }
-  },
-  created() {
-    // 初期値
-    let value = '1914-01-02'
-    let type = 'custom-daily'
+      const routeQuery = this.$route
 
-    const routeQuery = this.$route
-
-    if(routeQuery.params.year){
-      const params = routeQuery.params
-      value =
-        params.year +
-        '-' +
-        zfill(params.month, 2) +
-        '-' +
-        zfill(params.day, 2)
-      if (params.type !== 'year') {
-        type = params.type
+      if (routeQuery.params.year) {
+        const params = routeQuery.params
+        value =
+          params.year +
+          '-' +
+          zfill(params.month, 2) +
+          '-' +
+          zfill(params.day, 2)
+        /*
+        if (params.type !== 'year') {
+          type = params.type
+        }
+        */
       }
-    }
 
-    const es = value.split('-')
+      const es = value.split('-')
 
-    const query = es[0] + '-' + es[1]
+      const monthEnglishList = [
+        'Jan.',
+        'Feb.',
+        'Mar.',
+        'Apr.',
+        'May',
+        'Jun.',
+        'Jul.',
+        'Aug.',
+        'Sep.',
+        'Oct.',
+        'Nov.',
+        'Dec.',
+      ]
+      const year = es[0]
+      const month = Number(es[1])
+      const day = Number(es[2])
 
-    const response = this.docs;
+      return this.lang === 'ja'
+        ? this.$utils.wareki(year + '-' + month + '-' + day).split('月')[0] +
+            '月'
+        : monthEnglishList[month - 1] + ' ' + year
+    },
+    bh() {
+      return [
+        {
+          text: this.$t('top'),
+          disabled: false,
+          to: this.localePath({ name: 'index' }),
+          exact: true,
+        },
+        {
+          text: this.$t('calendar'),
+          disabled: false,
+          to: this.localePath({ name: 'calendar' }),
+          exact: true,
+        },
+        {
+          text: this.title,
+        },
+      ]
+    },
+  },
+  async created() {
+    let response = await axios.get(process.env.BASE_URL + '/data/docs.json')
+
+    response = response.data // docs // docs.data
+
+    const query = this.query
+    const type = this.type
 
     const results = {
-      hits: []
+      hits: [],
     }
 
-    for(const key in response){
+    for (const key in response) {
       const e = response[key]
-      if(e.yearAndMonth === query){
+      if (e.yearAndMonth === query) {
         results.hits.push(e)
       }
     }
@@ -350,7 +291,6 @@ export default {
     const events = []
     for (let i = 0; i < results.hits.length; i++) {
       const obj = results.hits[i]
-      //console.log(obj)
 
       if (type !== 'month' && Object.keys(obj.time).length > 0) {
         for (const time in obj.time) {
@@ -358,23 +298,23 @@ export default {
 
           let date2 = `${obj.temporal} ${time}`
 
-          const h = Number(time.split(":")[0])
+          const h = Number(time.split(':')[0])
 
           // 0時から4時までの場合
-          if(h >= 0 && h < 4){
-            var today = new Date(date2)
-            var tomorrow = new Date(today.getTime() + (24 * 60 * 60 * 1000));
-            date2 = formatDate(tomorrow)+" "+time
-          } else if (h >= 24){
-            var today = new Date(`${obj.temporal} 00:00:00`)
-            var tomorrow = new Date(today.getTime() + (24 * 60 * 60 * 1000));
-            const times = time.split(":")
+          if (h >= 0 && h < 4) {
+            const today = new Date(date2)
+            const tomorrow = new Date(today.getTime() + 24 * 60 * 60 * 1000)
+            date2 = formatDate(tomorrow) + ' ' + time
+          } else if (h >= 24) {
+            const today = new Date(`${obj.temporal} 00:00:00`)
+            const tomorrow = new Date(today.getTime() + 24 * 60 * 60 * 1000)
+            const times = time.split(':')
             const newH = h - 24
-            const newTime = ( '00' + newH ).slice( -2 ) + ":" + times[1] + ":" + times[2]
-            date2 = formatDate(tomorrow)+" "+newTime
+            const newTime =
+              ('00' + newH).slice(-2) + ':' + times[1] + ':' + times[2]
+            date2 = formatDate(tomorrow) + ' ' + newTime
           }
 
-          
           const event2 = {
             name: obj2.replace(/<[^>]*>?/gm, ''),
             start: date2,
@@ -400,95 +340,7 @@ export default {
       }
     }
 
-    //return { value, type, events, query }
-    this.value = value
-    this.type = type
     this.events = events
-    this.query = query
-
-  },
-  computed: {
-    url() {
-      return this.baseUrl + this.$route.path
-    },
-    lang() {
-      return this.$i18n.locale
-    },
-    title() {
-      let value = '1914-01-02'
-      let type = 'custom-daily'
-
-      const routeQuery = this.$route
-
-      if(routeQuery.params.year){
-        const params = routeQuery.params
-        value =
-          params.year +
-          '-' +
-          zfill(params.month, 2) +
-          '-' +
-          zfill(params.day, 2)
-        if (params.type !== 'year') {
-          type = params.type
-        }
-      }
-
-      const es = value.split('-')
-
-      /*
-
-      const query = es[0] + '-' + es[1]
-
-      // 以下、冗長
-      //const query = this.query
-      
-      if (!query) {
-        return query
-      }
-      
-      const es = query.split('-')
-
-      */
-      
-      const monthEnglishList = [
-        'Jan.',
-        'Feb.',
-        'Mar.',
-        'Apr.',
-        'May',
-        'Jun.',
-        'Jul.',
-        'Aug.',
-        'Sep.',
-        'Oct.',
-        'Nov.',
-        'Dec.',
-      ]
-      const year = es[0]
-      const month = Number(es[1])
-      return this.lang === 'ja'
-        ? year + '年' + month + '月'
-        : monthEnglishList[month - 1] + ' ' + year
-    },
-    bh() {
-      return [
-        {
-          text: this.$t('top'),
-          disabled: false,
-          to: this.localePath({ name: 'index' }),
-          exact: true,
-        },
-        {
-          text: this.$t('calendar'),
-          disabled: false,
-          to: this.localePath({ name: 'calendar' }),
-          exact: true,
-        },
-        {
-          text: this.title,
-        },
-      ]
-    },
   },
   methods: {
     viewDay({ date }) {
@@ -548,6 +400,35 @@ export default {
       }
       this.initFlag = false
     },
+  },
+
+  head() {
+    const title = this.$t('calendar') + ' ' + this.title
+    return {
+      title,
+      meta: [
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: title,
+        },
+        {
+          hid: 'og:type',
+          property: 'og:type',
+          content: 'article',
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: this.url,
+        },
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+      ],
+    }
   },
 }
 </script>

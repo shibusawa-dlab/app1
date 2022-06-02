@@ -44,8 +44,6 @@
             </v-list-item-content>
           </v-list-item>
 
-          
-
           <v-list-item
             link
             :to="
@@ -141,7 +139,40 @@
           </v-list-item>
           -->
 
+          <v-list-item link :to="localePath({ name: 'ngram' })">
+            <v-list-item-action>
+              <v-icon>mdi-chart-line</v-icon>
+            </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title>{{ 'Ngram Viewer' }}</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+
           <v-list-item
+            link
+            :to="
+              localePath({ name: 'static-slug', params: { slug: 'dataset' } })
+            "
+          >
+            <v-list-item-action>
+              <v-icon>mdi-database</v-icon>
+            </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title>{{ $t('dataset') }}</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+
+          <v-list-item link :to="localePath({ name: 'news' })">
+            <v-list-item-action>
+              <v-icon>mdi-newspaper</v-icon>
+            </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title>{{ $t('news') }}</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+
+          <v-list-item
+            v-if="false"
             link
             target="_blank"
             :href="github + '/tree/master/tei'"
@@ -173,7 +204,7 @@
           -->
 
           <v-list-item
-          v-if="false"
+            v-if="false"
             link
             target="_blank"
             href="https://la1l89esu7-dsn.algolia.net/1/indexes/dev_MAIN/?X-Algolia-API-Key=a8dc3bccca1af99f7a77ea55f7dd9f4d&X-Algolia-Application-Id=LA1L89ESU7"
@@ -190,7 +221,7 @@
         </v-list>
       </v-navigation-drawer>
 
-      <v-app-bar dark>
+      <v-app-bar dark flat>
         <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
         <v-toolbar-title>
           <nuxt-link
@@ -229,8 +260,6 @@
             </v-list-item>
           </v-list>
         </v-menu>
-
-        
       </v-app-bar>
     </div>
 
@@ -238,18 +267,27 @@
       <nuxt />
     </v-main>
 
-    <v-footer :dark="true" class="mt-5">
+    <v-footer :dark="true" class="pt-5">
       <v-container>
-        <v-btn v-if="false" link depressed btn :to="localePath({name : 'about'})">
+        <v-btn
+          v-if="false"
+          link
+          depressed
+          btn
+          :to="localePath({ name: 'about' })"
+        >
           <v-icon class="mr-2">mdi-information</v-icon>
-          {{
-            $t('about')
-          }}
+          {{ $t('about') }}
         </v-btn>
 
-        <div class="text-center my-5"> <!-- mt-10 -->
+        <div class="text-center my-5">
+          <!-- mt-10 -->
           <p>
-            <nuxt-link :to="localePath({name : 'index'})" style="color: white;">{{$t(siteName)}}</nuxt-link>
+            <nuxt-link
+              :to="localePath({ name: 'index' })"
+              style="color: white"
+              >{{ $t(siteName) }}</nuxt-link
+            >
           </p>
         </div>
       </v-container>

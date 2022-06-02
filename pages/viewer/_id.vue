@@ -1,93 +1,98 @@
 <template>
   <div>
-    <template v-if="loading"
-      ><div class="pa-10 text-center">
-        <p>Loading...</p>
-        <p>{{ $t('読み込みに少し時間がかかります。') }}</p>
+    <template>
+      <template v-if="loading"
+        ><div class="pa-10 text-center">
+          <p>Loading...</p>
+          <p>{{ $t('読み込みに少し時間がかかります。') }}</p>
+        </div>
+      </template>
+
+      <div v-show="!loading">
+        <v-navigation-drawer
+          v-model="drawer"
+          style="z-index: 100000"
+          app
+          :temporary="false"
+          :width="(256 * 3) / 2"
+        >
+          <v-btn class="ma-2" icon top right @click="drawer = !drawer">
+            <v-icon>mdi-close</v-icon>
+          </v-btn>
+          <Menu v-if="xml != null"></Menu>
+        </v-navigation-drawer>
+
+        <v-navigation-drawer
+          v-model="drawer2"
+          app
+          :temporary="false"
+          right
+          :width="256 * 2"
+        >
+          <v-btn class="ma-2" icon top right @click="drawer2 = !drawer2">
+            <v-icon>mdi-close</v-icon>
+          </v-btn>
+          <no-ssr>
+            <Metadata></Metadata>
+          </no-ssr>
+        </v-navigation-drawer>
+
+        <v-app-bar flat>
+          <v-btn icon @click="drawer = !drawer"
+            ><v-icon>mdi-view-list</v-icon></v-btn
+          >
+
+          <v-toolbar-title>
+            {{ title }}
+          </v-toolbar-title>
+
+          <v-spacer></v-spacer>
+
+          <v-app-bar-nav-icon @click.stop="drawer2 = !drawer2" />
+        </v-app-bar>
+
+        <v-container fluid>
+          <v-row class="mt-2">
+            <v-col cols="12" :sm="manifest ? 6 : 12">
+              <v-card
+                id="container"
+                flat
+                outlined
+                class="scroll vertical"
+                :style="`height: ${height * 0.85}px; width: ${
+                  manifest && $vuetify.breakpoint.name != 'xs'
+                    ? width / 2
+                    : width
+                }px;`"
+              >
+                <div class="pa-4 px-5">
+                  <div id="tei" />
+                </div>
+              </v-card>
+            </v-col>
+
+            <v-col cols="12" :sm="manifest ? 6 : 12">
+              <iframe
+                v-if="manifest"
+                :src="
+                  baseUrl +
+                  `/mirador/?manifest=${manifest}&canvas=${canvas}&bottomPanel=false`
+                "
+                width="100%"
+                :style="`height: ${height * 0.85}px;`"
+                allowfullscreen="allowfullscreen"
+                frameborder="0"
+              >
+              </iframe>
+            </v-col>
+          </v-row>
+        </v-container>
       </div>
     </template>
-
-    <div v-show="!loading">
-      <v-navigation-drawer
-        v-model="drawer"
-        style="z-index: 100000"
-        app
-        :temporary="false"
-        :width="(256 * 3) / 2"
-      >
-        <v-btn class="ma-2" icon top right @click="drawer = !drawer">
-          <v-icon>mdi-close</v-icon>
-        </v-btn>
-        <Menu v-if="xml != null"></Menu>
-      </v-navigation-drawer>
-
-      <v-navigation-drawer
-        v-model="drawer2"
-        app
-        :temporary="false"
-        right
-        :width="256 * 2"
-      >
-        <v-btn class="ma-2" icon top right @click="drawer2 = !drawer2">
-          <v-icon>mdi-close</v-icon>
-        </v-btn>
-        <Metadata></Metadata>
-      </v-navigation-drawer>
-
-      <v-app-bar flat>
-        <v-btn icon @click="drawer = !drawer"
-          ><v-icon>mdi-view-list</v-icon></v-btn
-        >
-
-        <v-toolbar-title>
-          {{ title }}
-        </v-toolbar-title>
-
-        <v-spacer></v-spacer>
-
-        <v-app-bar-nav-icon @click.stop="drawer2 = !drawer2" />
-      </v-app-bar>
-
-      <v-container fluid>
-        <v-row class="mt-2">
-          <v-col cols="12" :sm="manifest ? 6 : 12">
-            <v-card              
-              id="container"
-              flat
-              outlined
-              class="scroll vertical"
-              :style="`height: ${height * 0.85}px; width: ${
-                manifest && $vuetify.breakpoint.name !='xs' ? width / 2 : width
-              }px;`"
-            >
-              <div class="pa-4 px-5">
-                <div id="tei" />
-              </div>
-            </v-card>
-          </v-col>
-
-          <v-col cols="12" :sm="manifest ? 6 : 12">
-            <iframe
-              v-if="manifest"
-              :src="
-                baseUrl +
-                `/mirador/?manifest=${manifest}&canvas=${canvas}&bottomPanel=false`
-              "
-              width="100%"
-              :style="`height: ${height * 0.85}px;`"
-              allowfullscreen="allowfullscreen"
-              frameborder="0"
-            >
-            </iframe>
-          </v-col>
-        </v-row>
-      </v-container>
-    </div>
   </div>
 </template>
 
 <script>
-import CETEI from 'CETEIcean'
 import VueScrollTo from 'vue-scrollto'
 import $ from 'jquery'
 import Menu from '~/components/viewer/Menu.vue'
@@ -105,8 +110,8 @@ export default {
 
       loading: false,
 
-      width: window.innerWidth,
-      height: window.innerHeight,
+      width: -1, // window.innerWidth,
+      height: -1, // window.innerHeight,
 
       drawer: false,
       drawer2: false,
@@ -116,33 +121,6 @@ export default {
 
       title: '',
     }
-  },
-  head() {
-    const title = this.title
-    return {
-      titleTemplate: null,
-      title,
-    }
-  },
-  watch: {
-    // この関数は question が変わるごとに実行されます。
-    id: function (val) {
-      this.$router.push(
-        this.localePath({
-          name: 'viewer-id',
-          params: {
-            id: this.$route.params.id,
-          },
-          query: {
-            id: val,
-          },
-        }),
-        () => {},
-        () => {}
-      )
-
-      this.scroll()
-    },
   },
   computed: {
     xml: {
@@ -162,28 +140,51 @@ export default {
       },
     },
   },
+  watch: {
+    // この関数は question が変わるごとに実行されます。
+    id(val) {
+      this.$router.push(
+        this.localePath({
+          name: 'viewer-id',
+          params: {
+            id: this.$route.params.id,
+          },
+          query: {
+            id: val,
+          },
+        }),
+        () => {},
+        () => {}
+      )
+
+      this.scroll()
+    },
+  },
 
   mounted() {
     this.loading = true
 
-    document.getElementById('container').addEventListener('wheel', (e) => {
-      e.preventDefault();
-      document.getElementById('container').scrollLeft += e.deltaY;
-    })
+    if (process.browser) {
+      document.getElementById('container').addEventListener('wheel', (e) => {
+        e.preventDefault()
+        document.getElementById('container').scrollLeft -= e.deltaY
+      })
 
-    window.addEventListener('resize', this.handleResize)
+      window.addEventListener('resize', this.handleResize)
+
+      this.width = window.innerWidth
+      this.height = window.innerHeight
+    }
 
     const fileId = this.$route.params.id
     const query = this.$route.query
-    const url = query.u || this.pages + '/tei/' + fileId + '.xml'
-    //const url = this.baseUrl + "/data/tei/" + fileId + '.xml' // テスト
+    // const url = query.u || this.pages + '/tei/' + fileId + '.xml'
+    const url = this.baseUrl + '/data/DKB01_チェック用.xml' // テスト
     const CETEIcean = new CETEI()
 
     CETEIcean.addBehaviors({
       tei: {
-        graphic: function () {
-          return
-        },
+        graphic() {},
       },
     })
 
@@ -227,13 +228,15 @@ export default {
 
       self.loading = false
 
-      //以下、少し時間を置く？
-      window.setTimeout(function(){
-        const queryId = query.id
-        if(queryId){
-          self.id = queryId
-        }
-      }, 1);
+      if (process.browser) {
+        // 以下、少し時間を置く？
+        window.setTimeout(function () {
+          const queryId = query.id
+          if (queryId) {
+            self.id = queryId
+          }
+        }, 1)
+      }
     })
   },
 
@@ -245,6 +248,9 @@ export default {
     },
 
     scroll() {
+      if (!proccess.browser) {
+        return
+      }
       const id = this.id
 
       const point2 = document
@@ -259,9 +265,17 @@ export default {
       VueScrollTo.scrollTo('#' + id, 0, options)
     },
   },
+  head() {
+    const title = this.title
+    return {
+      titleTemplate: null,
+      title,
+    }
+  },
 }
 </script>
 <style>
+/* stylelint-disable */
 .scroll {
   overflow-y: auto;
 }

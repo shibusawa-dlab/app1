@@ -92,13 +92,47 @@
         </div>
       </v-card>
     </v-container>
+    <v-sheet color="grey lighten-3" class="">
+      <v-container class="py-10">
+        <div>
+          <span class="text-h5 mr-2">{{ $t('news') }}</span>
+          <nuxt-link :to="localePath({ name: 'news' })">{{
+            $t('all')
+          }}</nuxt-link>
+
+          <News class="mt-4" />
+
+          <!--
+          <ul class="text--primary">
+            <li class="mt-2">2021年12月3日: システムを公開しました。</li>
+            <li class="mt-2">2021年12月3日: システムを公開しました。</li>
+          </ul>
+          -->
+        </div>
+        <!--
+        <v-card-title>
+          
+        </v-card-title>
+        <v-card-text>
+          <ul class="text--primary">
+            <li>2021年12月3日: システムを公開しました。</li>
+          </ul>
+        </v-card-text>
+        -->
+      </v-container>
+    </v-sheet>
   </div>
 </template>
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
+import News from '~/components/news/News.vue'
 
-@Component({})
+@Component({
+  components: {
+    News,
+  },
+})
 export default class about extends Vue {
   baseUrl: string = process.env.BASE_URL || ''
   siteName: string = process.env.siteName || ''
@@ -173,7 +207,33 @@ export default class about extends Vue {
         description: '',
         icon: 'mdi-map',
       },
-
+      {
+        label: 'Ngram Viewer',
+        path: {
+          name: 'ngram',
+        },
+        description: '',
+        icon: 'mdi-chart-line',
+      },
+      /*
+      {
+        label: 'TEI/XML',
+        href: this.github + '/tree/master/tei',
+        description: '',
+        icon: 'mdi-file',
+      },
+      */
+      {
+        label: this.$t('dataset'),
+        path: {
+          name: 'static-slug',
+          params: {
+            slug: 'dataset',
+          },
+        },
+        description: '',
+        icon: 'mdi-database',
+      },
       /*
       {
         label: '渋沢栄一日記リスト',
@@ -183,12 +243,14 @@ export default class about extends Vue {
         icon: 'mdi-image',
       },
       */
+      /*
       {
         label: 'TEI/XML',
         href: this.github + '/tree/master/tei',
         description: '',
         icon: 'mdi-file',
       },
+      */
       /*
       {
         label: this.$t('snorql'),
@@ -221,11 +283,11 @@ export default class about extends Vue {
 <style lang="scss">
 .nuxt-content {
   h2 {
-    margin-top : 36px;
+    margin-top: 36px;
   }
 
   h3 {
-    margin-top : 24px;
+    margin-top: 24px;
   }
 }
 </style>

@@ -1,29 +1,193 @@
-import fs from 'fs'
-import colors from 'vuetify/es5/util/colors'
-
 const environment = process.env.NODE_ENV
 const env = require(`./env/${environment}.ts`)
 env.github = 'https://github.com/shibusawa-dlab/lab1'
 env.github_pages = 'https://shibusawa-dlab.github.io/lab1'
 env.host = env.BASE_URL
+env.prefix = 'https://shibusawa-dlab.github.io'
 env.endpoint = 'https://dydra.com/ut-digital-archives/shibusawa/sparql'
-env.index = "main"
+env.index = 'main'
 
-//const index = JSON.parse(fs.readFileSync('static/data/index.json_with_images.json'))
-//env.index = index
+env.menu = [
+  /*
+  {
+    label: 'about_',
+    to: {
+      name: 'about-slug',
+    },
+    icon: 'mdi-information',
+    top: true,
+    type: 'about',
+    weight: 0,
+    // description: 'このサイトは、ＷＥＢ上で正保琉球国絵図の画像を公開するとともに、絵図に描き込まれた情報を分析するために構築されたデジタルアーカイブです。',
+  },
+  */
+  {
+    label: 'news',
+    to: {
+      name: 'news',
+    },
+    top: false,
+    type: 'about',
+    weight: 3,
+    // description: 'このサイトは、ＷＥＢ上で正保琉球国絵図の画像を公開するとともに、絵図に描き込まれた情報を分析するために構築されたデジタルアーカイブです。',
+  },
 
-const routerBase =
-  process.env.DEPLOY_ENV === 'GH_PAGES'
-    ? {
-        router: {
-          base: '/app1/',
-        },
-      }
-    : {}
+  /*
+  {
+    label: 'progress',
+    to: {
+      name: 'about-slug',
+      params: { slug: 'progress' },
+    },
+    top: false,
+    type: 'about',
+    weight: 1,
+    // description: 'このサイトは、ＷＥＢ上で正保琉球国絵図の画像を公開するとともに、絵図に描き込まれた情報を分析するために構築されたデジタルアーカイブです。',
+  },
+  {
+    label: 'team',
+    to: {
+      name: 'about-slug',
+      params: { slug: 'team' },
+    },
+    top: false,
+    type: 'about',
+    weight: 2,
+    // description: 'このサイトは、ＷＥＢ上で正保琉球国絵図の画像を公開するとともに、絵図に描き込まれた情報を分析するために構築されたデジタルアーカイブです。',
+  },
+  {
+    label: 'news',
+    to: {
+      name: 'news',
+    },
+    top: false,
+    type: 'about',
+    weight: 3,
+    // description: 'このサイトは、ＷＥＢ上で正保琉球国絵図の画像を公開するとともに、絵図に描き込まれた情報を分析するために構築されたデジタルアーカイブです。',
+  },
+  */
+  {
+    label: 'search',
+    to: {
+      name: 'search',
+    },
+    icon: 'mdi-magnify',
+    // description: '正保の琉球国絵図３舗に書き込まれた文字などの情報（全895件）を検索できます。',
+    top: true,
+    type: 'tools',
+    weight: 0,
+  },
+  {
+    label: 'category',
+    to: {
+      name: 'category',
+    },
+    icon: 'mdi-tag',
+    // description: '正保の琉球国絵図３舗に書き込まれた文字などの情報（全895件）につき、島や村などの分類によって検索できます。',
+    top: true,
+    type: 'tools',
+    weight: 1,
+  },
+  {
+    label: 'Ngram Viewer',
+    to: {
+      name: 'ngram',
+    },
+    icon: 'mdi-chart-bar',
+    // description: '正保の琉球国絵図３舗に書き込まれた文字などの情報（全895件）につき、島や村などの分類によって検索できます。',
+    top: true,
+    type: 'tools',
+    weight: 2,
+  },
+  /*
+  {
+    label: 'category',
+    to: {
+      name: 'category',
+    },
+    icon: 'mdi-tag',
+    // description: '正保の琉球国絵図３舗に書き込まれた文字などの情報（全895件）につき、島や村などの分類によって検索できます。',
+    top: true,
+    type: 'tools',
+    weight: 2,
+  },
+  */
+  /*
+  {
+    label: 'list_',
+    to: {
+      name: 'collection',
+    },
+    icon: 'mdi-view-list',
+    // description: '正保の琉球国絵図３舗につき、絵図の画像データの閲覧と、書き込まれた文字の検索ができます。',
+    top: true,
+    type: 'tools',
+    weight: 1,
+  },
 
-const ssr = false // environment === "production2" ? true : false
+  
+  {
+    label: 'khirin-t',
+    href: 'https://khirin-t.rekihaku.ac.jp/',
+    target: '_blank',
+    type: 'links',
+    weight: 0,
+  },
+  
+  {
+    label: '総合資料学',
+    href: 'https://www.metaresource.jp/',
+    target: '_blank',
+    type: 'links',
+    weight: 1,
+  },
+  */
+  {
+    label: '史料集版面ギャラリー',
+    href: 'https://www.hi.u-tokyo.ac.jp/publication/dip',
+    target: '_blank',
+    type: 'links',
+    weight: 0,
+  },
+  {
+    label: 'Digital Image Publisher',
+    href:
+      'https://www.hi.u-tokyo.ac.jp/dip/?u=https%3A%2F%2Fwww.hi.u-tokyo.ac.jp%2Fassets%2Fjson%2Fdip%2Finternal.json',
+    target: '_blank',
+    type: 'links',
+    weight: 1,
+  },
+  {
+    label: '東京大学史料編纂所',
+    href: 'https://www.hi.u-tokyo.ac.jp/',
+    target: '_blank',
+    type: 'links',
+    weight: 2,
+  },
 
-const GOOGLE_ANALYTICS_ID = 'G-DHZMRZFZ54'
+  {
+    label: '史料集の統計分析例(Googleデータポータル)',
+    top: true,
+    href: 'https://datastudio.google.com/s/r-3IeQHVmwA',
+    target: '_blank',
+    type: 'about',
+    weight: 4,
+    icon: 'mdi-table',
+  },
+
+  {
+    label: 'OCR結果の確認(IIIFコレクション)',
+    top: true,
+    href:
+      'https://www.kanzaki.com/works/2016/pub/image-annotator?u=https://d2fgucnbaqurvq.cloudfront.net/v3/top.json',
+    target: '_blank',
+    type: 'about',
+    icon: 'mdi-ocr',
+    weight: 5,
+  },
+]
+
+/// /
 
 // path
 const baseUrl = env.BASE_URL || ''
@@ -34,30 +198,48 @@ const basePath = baseUrl + baseDir
 const lang = 'ja'
 const siteName = '渋沢栄一ダイアリー'
 env.siteName = siteName
+
 const siteDesc =
   '『渋沢栄一伝記資料』別巻第1, 第2掲載の渋沢栄一の日記および集会日時通知表を公開しています。\n\n本サイトは、令和2（2020）年度国立歴史民俗博物館総合資料学奨励研究「TEIを用いた『渋沢栄一伝記資料』テキストデータの再構築と活用」の成果として構築されました。'
 env.siteDesc = siteDesc
+
+const footer = 'abc'
+env.footer = footer
 const siteKeywords = 'IIIF, TEI'
 
 // images
-const iconImages = basePath + 'img/icons/'
+const iconImages = baseDir + 'img/icons/'
 const ogpImages = basePath + 'img/ogp/' // cdnPath + 'img/ogp/'
 const assets = basePath + 'assets/css/'
+
+env.top = basePath + 'img/ogp/home.webp'
 
 // pwa
 const shortName = 'shibusawa'
 const manifestIcon = 'img/icons/icon-512.png'
+// const splashscreens = cdnPath + 'img/splashscreens/'
+
+/* nuxt.config.js */
+// `DEPLOY_ENV` が `GH_PAGES` の場合のみ `router.base = '/<repository-name>/'` を追加する
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/engishiki/', // '/genji/',
+        },
+      }
+    : {}
 
 export default {
-  // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
-  ssr,
-
+  ...routerBase,
   // Target (https://go.nuxtjs.dev/config-target)
+
+  ssr: env.ssr,
   target: 'static',
+  // srcDir: 'src/',
 
   env,
 
-  // Global page headers (https://go.nuxtjs.dev/config-head)
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     htmlAttrs: {
@@ -94,7 +276,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: `${ogpImages}home.jpg`,
+        content: `${ogpImages}home.webp`,
       },
       { name: 'twitter:card', content: 'summary_large_image' },
       // pwa iOS
@@ -104,12 +286,6 @@ export default {
         content: 'black-translucent',
       },
     ],
-    /*
-    script: [
-      { src: 'https://cdn.rawgit.com/itemsapi/itemsapi-example-data/master/jsfiddle/imdb.js'},
-      { src: 'https://unpkg.com/itemsjs@2.0.0-alpha.1/dist/itemsjs.min.js' },
-    ],
-    */
     link: [
       {
         rel: 'icon',
@@ -143,12 +319,22 @@ export default {
       },
       {
         rel: 'stylesheet',
+        href:
+          'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
+      },
+      {
+        rel: 'stylesheet',
         href: assets + 'CETEIcean.css',
       },
       {
         rel: 'stylesheet',
         href:
           'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
+      },
+    ],
+    script: [
+      {
+        // src: 'https://unpkg.com/mirador@latest/dist/mirador.min.js',
       },
     ],
   },
@@ -175,8 +361,9 @@ export default {
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
     '@/plugins/utils.ts',
-    { src: '@/plugins/gtag.js', ssr: false },
+    /* { src: '@/plugins/gtag.js', ssr: false }, */
     { src: '~plugins/leaflet.js', ssr: false },
+    { src: '~plugins/cetei.js', ssr: false },
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -185,10 +372,17 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     // https://go.nuxtjs.dev/typescript
-    '@nuxt/typescript-build',
+    [
+      '@nuxt/typescript-build',
+      {
+        typeCheck: false,
+      },
+    ],
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
     '@nuxtjs/moment',
+    // https://go.nuxtjs.dev/stylelint
+    '@nuxtjs/stylelint-module',
   ],
 
   moment: {
@@ -203,19 +397,27 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     '@nuxtjs/sitemap',
+    '@nuxtjs/google-gtag',
     'nuxt-i18n',
-    [
-      '@nuxtjs/google-analytics',
-      {
-        id: GOOGLE_ANALYTICS_ID,
-      },
-    ],
+    // Simple usage
+    // '@nuxtjs/amp',
     '@nuxt/content',
   ],
 
+  'google-gtag': {
+    id: env.gtag, // サイトのID
+    debug: true, // 開発環境でも表示したい場合
+  },
+
   sitemap: {
     path: '/sitemap.xml',
-    hostname: baseUrl,
+    hostname: baseUrl ? new URL(baseUrl).origin : baseUrl,
+    routes: async () => {
+      let pages = []
+      pages = pages.concat(getPageList())
+
+      return pages
+    },
   },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -223,20 +425,9 @@ export default {
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
   vuetify: {
-    customVariables: ['~/assets/variables.scss'],
-    theme: {
-      dark: false,
-      themes: {
-        dark: {
-          primary: colors.blue.darken2,
-          accent: colors.grey.darken3,
-          secondary: colors.amber.darken3,
-          info: colors.teal.lighten1,
-          warning: colors.amber.base,
-          error: colors.deepOrange.accent4,
-          success: colors.green.accent3,
-        },
-      },
+    defaultAssets: {
+      font: false,
+      icons: 'mdi',
     },
   },
 
@@ -252,79 +443,124 @@ export default {
     // strategy: 'no_prefix'
   },
 
-  content: {},
-
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    babel: {
-      plugins: [
-        ['@babel/plugin-proposal-decorators', { legacy: true }],
-        ['@babel/plugin-proposal-class-properties', { loose: true }],
-      ],
-    },
+    standalone: true, // これを追加！
   },
-
-  ...routerBase,
 
   generate: {
+    crawler: false,
     exclude: [
-      /^\/tei/ // /admin で始まるパス
+      /^\/tei/, // /admin で始まるパス
     ],
     routes() {
-      const pages = []
-
-      /*
-
-      const fs = require('fs')
-
-      const docs = JSON.parse(
-        fs.readFileSync('static/data/docs.json')
-      )
-
-      for(const id in docs){
-        pages.push({
-          route: `/item/${id}`,
-          payload: docs[id],
-        })
-
-        pages.push({
-          route: `/en/item/${id}`,
-          payload: docs[id],
-        })
-
-      }
-
-      */
-
-      /*
-      const fs = require('fs')
-
-      const years = JSON.parse(
-        fs.readFileSync('static/data/years.json')
-      )
-
-      const docs = JSON.parse(
-        fs.readFileSync('static/data/docs.json')
-      )
-
-      for(const year in years){
-        for(const month in years[year]){
-          console.log({year, month})
-          pages.push({
-            route: `/calendar/month/${year}/${month}`,
-            payload: docs,
-          })
-
-          pages.push({
-            route: `/en/calendar/month/${year}/${month}`,
-            payload: docs,
-          })
-        }
-      }
-      */
-
-      return pages
-      
-    }
+      return getPageList()
+    },
   },
+}
+
+function getPageList() {
+  const pages = []
+
+  const fs = require('fs')
+
+  const docs = JSON.parse(fs.readFileSync('static/data/docs.json'))
+
+  for (const id in docs) {
+    const payload = docs[id] || {}
+
+    pages.push({
+      route: `/item/${id}`,
+      payload,
+    })
+
+    pages.push({
+      route: `/en/item/${id}`,
+      payload,
+    })
+  }
+
+  // calendar
+
+  /*
+
+  const years = JSON.parse(fs.readFileSync('static/data/years.json'))
+
+  // const docs = JSON.parse(fs.readFileSync('static/data/docs.json'))
+
+  for (const year in years) {
+    for (const month in years[year]) {
+      // console.log({ year, month })
+
+      const payload = {}
+
+      pages.push({
+        route: `/calendar/month/${year}/${month}`,
+        payload,
+      })
+
+      pages.push({
+        route: `/en/calendar/month/${year}/${month}`,
+        payload,
+      })
+    }
+  }
+
+  */
+
+  // entity
+
+  /*
+  const entity = JSON.parse(fs.readFileSync('static/data/entity.json'))
+
+  for (const field in entity) {
+    for (const item of entity[field]) {
+      const payload = {
+        field,
+        id: item.id,
+      }
+
+      pages.push({
+        route: `/entity/${field}/${item.id}`,
+        payload,
+      })
+
+      pages.push({
+        route: `/en/entity/${field}/${item.id}`,
+        payload,
+      })
+    }
+  }
+  */
+
+  const xmls = ['DKB01', 'DKB02']
+
+  for (const xml of xmls) {
+    pages.push({
+      route: `/viewer/${xml}`,
+    })
+
+    pages.push({
+      route: `/en/viewer/${xml}`,
+    })
+  }
+
+  const ads = JSON.parse(fs.readFileSync('static/data/ad.json'))
+
+  for (const ad of ads) {
+    if (!ad['@id']) {
+      continue
+    }
+    const id = ad['@id'].split('/items/')[1]
+
+    pages.push({
+      route: `/ad/${id}`,
+    })
+
+    pages.push({
+      route: `/en/ad/${id}`,
+    })
+  }
+
+  return pages
 }

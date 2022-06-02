@@ -10,9 +10,9 @@
       </v-container>
     </v-sheet>
     <v-container fluid class="py-5">
-      <h2 class="mb-5">{{$t("network_of_people")}}</h2>
+      <h2 class="mb-5">{{ $t('network_of_people') }}</h2>
       <p class="mt-2">
-        {{$t("network_lead")}}
+        {{ $t('network_lead') }}
       </p>
 
       <!-- 
@@ -42,6 +42,14 @@
         </v-col>
       </v-row>
       -->
+      <!--
+      <v-overlay :value="loading && false">
+        <v-progress-circular indeterminate size="64"></v-progress-circular>
+      </v-overlay>
+      -->
+
+      <p v-if="loading" class="text-center">表示に時間がかかります。</p>
+
       <v-row>
         <v-col cols="12" :sm="9">
           <no-ssr>
@@ -56,16 +64,26 @@
               @double-click="aaa"
               @stabilized="stabilized"
             >
-              <!-- @click="onNodeSelected" -->
+              <!-- @click="onNodeSelected" @stabilized="stabilized"
+            @afterDrawing="loading = false"
+            @startStabilizing="loading = false" -->
             </network>
           </no-ssr>
         </v-col>
         <v-col cols="12" :sm="3">
           <v-sheet class="grey lighten-3 pa-2"
-            ><h3><v-icon>mdi-view-list</v-icon> {{$t("people_list")}}
-            <template v-if="counts.length > 0">({{counts.length}})</template></h3></v-sheet
+            ><h3>
+              <v-icon>mdi-view-list</v-icon> {{ $t('people_list') }}
+              <template v-if="counts.length > 0"
+                >({{ counts.length }})</template
+              >
+            </h3></v-sheet
           >
-          <v-list class="mt-4" dense style="max-height: 800px; overflow-y: auto">
+          <v-list
+            class="mt-4"
+            dense
+            style="max-height: 800px; overflow-y: auto"
+          >
             <v-list-item
               v-for="(item, key) in counts"
               :key="key"
@@ -93,15 +111,12 @@
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
-import axios from 'axios'
-const { Network } = require('vue-vis-network')
 
 @Component({
-  components: {
-    network: Network,
-  },
+  components: {},
 })
-export default class about extends Vue {
+export default class network extends Vue {
+  loading: boolean = true
   baseUrl: any = process.env.BASE_URL
 
   nodesOrg: any = []
@@ -159,9 +174,14 @@ export default class about extends Vue {
     ]
   }
 
-  async created() {
-    const results: any = await axios.get(this.baseUrl + '/data/agentials.json')
-    const data = results.data
+  async asyncData() {
+    const data_ = await import(`~/static/data/agentials.json`)
+    const results = data_.default
+    return { results }
+  }
+
+  created() {
+    const data: any = (this as any).results
 
     const nodesMap: any = {}
 
@@ -245,15 +265,15 @@ export default class about extends Vue {
     }
   }
 
-  bbb(value: any){
+  bbb(value: any) {
     this.$router.push(
-        this.localePath({
-          name: 'network-id',
-          params: {
-            id: value,
-          },
-        })
-      )
+      this.localePath({
+        name: 'network-id',
+        params: {
+          id: value,
+        },
+      })
+    )
   }
 
   select(id: string) {
@@ -269,6 +289,7 @@ export default class about extends Vue {
 
   stabilized() {
     this.options.physics.enabled = false
+    this.loading = false
   }
 
   head() {

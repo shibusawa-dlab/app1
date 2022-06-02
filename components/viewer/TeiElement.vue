@@ -17,7 +17,7 @@
     </template>
     <template
       v-else-if="
-      false &&
+        false &&
         (element.name == 'tei-persname' || element.name == 'tei-placename') &&
         element.attributes
       "
@@ -52,15 +52,15 @@
         "
       >
         <div class="ma-2">
-        <v-icon
-          class="ma-1"
-          color="purple"
-          @click="canvas = facs[element.attributes.corresp.replace('#', '')]"
-          >mdi-image</v-icon
-        >
-        <span class="ma-1" style="color: grey"
-          >[Page @{{ element.attributes.corresp }}]</span
-        >
+          <v-icon
+            class="ma-1"
+            color="purple"
+            @click="canvas = facs[element.attributes.corresp.replace('#', '')]"
+            >mdi-image</v-icon
+          >
+          <span class="ma-1" style="color: grey"
+            >[Page @{{ element.attributes.corresp }}]</span
+          >
         </div>
       </template>
       <TeiElement
@@ -103,7 +103,7 @@ export default class Menu extends Vue {
   set facs(value) {
     this.$store.commit('setFacs', value)
   }
-  
+
   getTextContent(element: any) {
     let text = ''
     if (element.text) {
@@ -119,6 +119,7 @@ export default class Menu extends Vue {
 }
 </script>
 <style scoped>
+/* stylelint-disable */
 tei-persName {
   background-color: #ffccbc;
 }

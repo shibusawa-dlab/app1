@@ -24,7 +24,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import axios from 'axios'
+// import axios from 'axios'
 import Mapc from '~/components/common/Map.vue'
 
 @Component({
@@ -40,13 +40,19 @@ export default class PageMap extends Vue {
     if (payload) {
       return { item: payload }
     } else {
+      /*
       const results = await axios.get(
         process.env.BASE_URL + '/data/spatial.json'
       )
+      */
+
+      const data_ = await import(`~/static/data/spatial.json`)
+      const results: any = data_.default
+
       const markers = []
 
-      for (const label in results.data) {
-        const obj = results.data[label]
+      for (const label in results) {
+        const obj = results[label]
 
         const param: any = {}
         const fcField = 'fc-spatial'

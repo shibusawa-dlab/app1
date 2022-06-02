@@ -12,13 +12,16 @@
     <v-container fluid class="py-5">
       <h2 class="mb-5">{{ title }}</h2>
       <p class="mt-2">
-        {{$t("network_lead")}}
+        {{ $t('network_lead') }}
       </p>
       <v-row class="mt-5" dense>
         <v-col cols="12" :sm="3">
           <v-sheet class="grey lighten-3 pa-2"
-                ><h3><v-icon class="mr-2">mdi-account</v-icon>{{$t("person_information")}}</h3></v-sheet
-              >
+            ><h3>
+              <v-icon class="mr-2">mdi-account</v-icon
+              >{{ $t('person_information') }}
+            </h3></v-sheet
+          >
 
           <!-- Main -->
           <v-card flat outlined class="mt-5 mb-5">
@@ -34,7 +37,6 @@
             ></v-img>
 
             <div class="pa-4" :style="'max-height: 200px; overflow-y: auto;'">
-              
               <nuxt-link
                 :to="
                   item.to ||
@@ -44,12 +46,11 @@
                   })
                 "
               >
-                
                 <h4 v-html="$utils.formatArrayValue(item._source._label)"></h4>
               </nuxt-link>
-              
+
               <!-- eslint-disable-next-line vue/no-v-html -->
-              
+
               <!--
               <h4 v-html="$utils.formatArrayValue(item._source._label)"></h4>
               -->
@@ -80,7 +81,8 @@
                   v-if="tab === 0"
                   color="primary"
                   @click="select($route.params.id)"
-                  ><v-icon class="mr-2">mdi-image-filter-center-focus</v-icon>{{ $t('focus') }}</v-btn
+                  ><v-icon class="mr-2">mdi-image-filter-center-focus</v-icon
+                  >{{ $t('focus') }}</v-btn
                 >
                 <v-spacer></v-spacer>
                 <ResultOption
@@ -91,8 +93,6 @@
                 />
               </v-card-actions>
             </template>
-
-            
           </v-card>
 
           <!-- Other -->
@@ -108,7 +108,6 @@
             ></v-img>
 
             <div class="pa-4" :style="'max-height: 200px; overflow-y: auto;'">
-              
               <nuxt-link
                 :to="
                   localePath({
@@ -117,10 +116,9 @@
                   })
                 "
               >
-                
                 <h4>{{ otherId }}</h4>
               </nuxt-link>
-              
+
               <!-- eslint-disable-next-line vue/no-v-html -->
 
               <!--
@@ -157,7 +155,8 @@
                         },
                       })
                     "
-                    ><v-icon class="mr-2">mdi-account-network</v-icon>{{$t("view_network")}}</v-btn
+                    ><v-icon class="mr-2">mdi-account-network</v-icon
+                    >{{ $t('view_network') }}</v-btn
                   >
                 </template>
                 <v-spacer></v-spacer>
@@ -174,8 +173,6 @@
                 />
               </v-card-actions>
             </template>
-
-            
           </v-card>
 
           <h3 v-if="false" class="mt-10">
@@ -209,43 +206,34 @@
           </p>
         </v-col>
         <v-col cols="12" :sm="6">
+          <v-tabs v-model="tab" fixed-tabs>
+            <v-tab>
+              {{ $t('network') }}
+            </v-tab>
+            <v-tab>
+              {{ $t('つながりを表すアイテム') }}
+            </v-tab>
+          </v-tabs>
 
-          <v-tabs
-          v-model="tab"
-          fixed-tabs
-        >
-
-          <v-tab
-          >
-            {{$t("network")}}
-          </v-tab>
-          <v-tab
-          >
-            {{$t("つながりを表すアイテム")}}
-          </v-tab>
-        </v-tabs>
-
-        <v-tabs-items v-model="tab" class="mt-5">
-      <v-tab-item
-      >
-      <no-ssr>
-        <network
-                ref="network"
-                :nodes="network.nodes"
-                :edges="network.edges"
-                :options="network.options"
-                style="height: 800px; background-color: #f0f4c3"
-                @click="onNodeSelected"
-                @double-click="aaa"
-                @stabilized="stabilized"
-              >
-              </network>
+          <v-tabs-items v-model="tab" class="mt-5">
+            <v-tab-item>
+              <no-ssr>
+                <network
+                  ref="network"
+                  :nodes="network.nodes"
+                  :edges="network.edges"
+                  :options="network.options"
+                  style="height: 800px; background-color: #f0f4c3"
+                  @click="onNodeSelected"
+                  @double-click="aaa"
+                  @stabilized="stabilized"
+                >
+                </network>
               </no-ssr>
-      </v-tab-item>
+            </v-tab-item>
 
-      <v-tab-item
-      >
-        <div
+            <v-tab-item>
+              <div
                 id="container"
                 class="grey lighten-2 mb-5"
                 style="height: 850px; overflow-y: auto"
@@ -285,14 +273,15 @@
 
                   <div class="pa-4 grey lighten-3">
                     <h4 class="mb-4">
-                      <v-icon class="mr-2">mdi-file</v-icon> つながりを表すアイテム
+                      <v-icon class="mr-2">mdi-file</v-icon>
+                      つながりを表すアイテム
                     </h4>
 
                     <div v-if="!documents[item.key]" class="text-center py-10">
                       <v-progress-circular
-            indeterminate
-            color="primary"
-          ></v-progress-circular>
+                        indeterminate
+                        color="primary"
+                      ></v-progress-circular>
                     </div>
 
                     <div
@@ -322,10 +311,13 @@
                         class="mb-2"
                         v-html="
                           highlightRelation(
+                            /*
                             $utils.removeHead(
                               //$utils.xml2html(item2._highlightResult.xml.value)
                               $utils.xml2html(item2.xml)
                             ),
+                            */
+                            item2.xml,
                             item.key
                           )
                         "
@@ -341,40 +333,45 @@
                   </div>
                 </v-card>
               </div>
-      </v-tab-item>
-    </v-tabs-items>
-          
+            </v-tab-item>
+          </v-tabs-items>
         </v-col>
         <v-col cols="12" :sm="3">
           <v-sheet class="grey lighten-3 pa-2"
-                ><h3><v-icon class="mr-2">mdi-view-list</v-icon>{{$t("relation")}}
-                <template v-if="items.length > 0">({{items.length}})</template></h3></v-sheet
-              >
-              <v-list class="mt-4" dense style="max-height: 800px; overflow-y: auto">
-                <v-list-item
-                  v-for="item in items"
-                  :key="item.key"
-                  @click="
-                    otherId = item.key
-                    scroll(item.key)
-                    select(item.key)
-                  "
-                   @dblclick="bbb(item.key)"
-                >
-                  <v-list-item-avatar>
-                    <v-img :src="nodesMap[item.key].image"></v-img>
-                  </v-list-item-avatar>
+            ><h3>
+              <v-icon class="mr-2">mdi-view-list</v-icon>{{ $t('relation') }}
+              <template v-if="items.length > 0">({{ items.length }})</template>
+            </h3></v-sheet
+          >
+          <v-list
+            class="mt-4"
+            dense
+            style="max-height: 800px; overflow-y: auto"
+          >
+            <v-list-item
+              v-for="item in items"
+              :key="item.key"
+              @click="
+                otherId = item.key
+                scroll(item.key)
+                select(item.key)
+              "
+              @dblclick="bbb(item.key)"
+            >
+              <v-list-item-avatar>
+                <v-img :src="nodesMap[item.key].image"></v-img>
+              </v-list-item-avatar>
 
-                  <v-list-item-content>
-                    <v-list-item-title v-text="item.key"></v-list-item-title>
-                  </v-list-item-content>
+              <v-list-item-content>
+                <v-list-item-title v-text="item.key"></v-list-item-title>
+              </v-list-item-content>
 
-                  <v-list-item-action>
-                    {{ item.value }}
-                  </v-list-item-action>
-                </v-list-item>
-              </v-list>
-          </v-col>
+              <v-list-item-action>
+                {{ item.value }}
+              </v-list-item-action>
+            </v-list-item>
+          </v-list>
+        </v-col>
       </v-row>
     </v-container>
   </div>
@@ -385,11 +382,11 @@ import { Vue, Component } from 'nuxt-property-decorator'
 import axios from 'axios'
 import VueScrollTo from 'vue-scrollto'
 import ResultOption from '~/components/display/ResultOption.vue'
-const { Network } = require('vue-vis-network')
+// const { Network } = require('vue-vis-network')
 
 @Component({
   components: {
-    network: Network,
+    // network: Network,
     ResultOption,
   },
 })
@@ -497,7 +494,14 @@ export default class about extends Vue {
     ]
   }
 
-  async created() {
+  async asyncData({ params }: any) {
+    const data_ = await import(`~/static/data/agentials/${params.id}.json`)
+    const results = data_.default
+
+    return { results /*, docs */ }
+  }
+
+  created() {
     const id = this.$route.params.id
 
     const mode = this.$route.query.mode
@@ -505,13 +509,11 @@ export default class about extends Vue {
       this.tab = 1
     }
 
-    let results: any = await axios.get(
-      this.baseUrl + '/data/agentials/' + id + '.json'
-    )
+    const results: any = (this as any).results
 
-    const nodes = results.data.nodes
+    const nodes = results.nodes
 
-    this.network.edges = results.data.edges
+    this.network.edges = results.edges
 
     const nodesMap: any = {}
     for (let i = 0; i < nodes.length; i++) {
@@ -525,8 +527,8 @@ export default class about extends Vue {
 
     const edgesMap: any = {}
 
-    for (let i = 0; i < results.data.edges.length; i++) {
-      const edge = results.data.edges[i]
+    for (let i = 0; i < results.edges.length; i++) {
+      const edge = results.edges[i]
       edge.id = i
       if (edge.from === id || edge.to === id) {
         if (edge.from === id) {
@@ -551,8 +553,7 @@ export default class about extends Vue {
     this.nodesMap = nodesMap
     this.edgesMap = edgesMap
 
-    const network: any = this.$refs.network
-    
+    // const network: any = (this as any).$refs.network
 
     /// //
 
@@ -574,28 +575,35 @@ export default class about extends Vue {
 
     /// ///
 
-    await this.getRelatedItems()
+    /* await */ this.getRelatedItems()
   }
 
-  async getRelatedItems(){
+  async getRelatedItems() {
     const id = this.$route.params.id
 
     const field = 'agential'
 
-    let response: any = await axios.get(process.env.BASE_URL + "/data/docs.json");    
+    let response: any = await axios.get(
+      process.env.BASE_URL + '/data/docs.json'
+    )
+
+    /*
+     */
 
     const hits: any[] = []
 
     const results = {
-      hits
+      hits,
     }
 
     response = response.data
 
-    for(const key in response){
+    // const response = (this as any).docs
+
+    for (const key in response) {
       const e = response[key]
-      //console.log(e)
-      if(e[field] && e[field].includes(id)){
+      // console.log(e)
+      if (e[field] && e[field].includes(id)) {
         results.hits.push(e)
       }
     }
@@ -610,12 +618,9 @@ export default class about extends Vue {
     })
     */
 
-    
-
     const documents: any = {}
 
     for (let i = 0; i < results.hits.length; i++) {
-      
       const obj: any = results.hits[i]
       const agentials = obj.agential
       for (let j = 0; j < agentials.length; j++) {
@@ -628,7 +633,6 @@ export default class about extends Vue {
     }
 
     this.documents = documents
-
   }
 
   onNodeSelected(value: any) {
@@ -692,15 +696,15 @@ export default class about extends Vue {
     }
   }
 
-  bbb(value: any){
+  bbb(value: any) {
     this.$router.push(
-        this.localePath({
-          name: 'network-id',
-          params: {
-            id: value,
-          },
-        })
-      )
+      this.localePath({
+        name: 'network-id',
+        params: {
+          id: value,
+        },
+      })
+    )
   }
 
   /*
@@ -738,25 +742,37 @@ export default class about extends Vue {
   }
 
   highlightRelation(xml: any, other: string) {
-    xml = String(xml).replace(/<[^>]*>?/gm, '')
-    xml = xml
-      .split(other)
-      .join(
-        '<span style="font-size : large; font-weight: bold; background-color: #FFF59D;">' +
-          other +
-          '</span>'
+    if (!process.browser) {
+      return
+    }
+    const parser = new DOMParser()
+    const xmlData = parser.parseFromString(xml, 'text/xml')
+
+    const nodes: any = xmlData.querySelectorAll(`[corresp='#pers_${other}']`)
+    for (const node of nodes) {
+      node.setAttribute(
+        'style',
+        'font-size : large; font-weight: bold; background-color: #FFF59D;'
       )
+    }
 
     const id = this.$route.params.id
-    xml = xml
-      .split(id)
-      .join(
-        '<span style="font-size : large; font-weight: bold; background-color: #FFF59D;">' +
-          id +
-          '</span>'
-      )
 
-    return xml
+    const nodes2: any = xmlData.querySelectorAll(`[corresp='#pers_${id}']`)
+    for (const node of nodes2) {
+      node.setAttribute(
+        'style',
+        'font-size : large; font-weight: bold; background-color: #FFF59D;'
+      )
+    }
+
+    // headの削除
+    const nodes3: any = xmlData.querySelectorAll(`head`)
+    for (const node of nodes3) {
+      node.parentNode.removeChild(node)
+    }
+
+    return new XMLSerializer().serializeToString(xmlData)
   }
 
   /*
@@ -825,9 +841,7 @@ export default class about extends Vue {
 
   getQuery() {
     const query: any = {}
-    query[
-      `${this.index}[refinementList][agential][0]`
-    ] = this.$route.params.id
+    query[`${this.index}[refinementList][agential][0]`] = this.$route.params.id
     return query
   }
 

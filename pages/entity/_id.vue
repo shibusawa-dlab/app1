@@ -1,4 +1,3 @@
-
 <template>
   <div>
     <v-sheet color="grey lighten-2">
@@ -28,7 +27,7 @@
         <v-row align="center" class="mt-5">
           <v-col cols="12">
             <v-text-field
-              v-model="keyword/*keywordStr*/"
+              v-model="keyword /*keywordStr*/"
               single-line
               background-color="grey lighten-3"
               class="px-4"
@@ -83,7 +82,7 @@ export default class PageCategory extends Vue {
 
   baseUrl: any = process.env.BASE_URL
 
-  keyword: string = ""
+  keyword: string = ''
 
   settings: any = {
     agential: {
@@ -110,36 +109,43 @@ export default class PageCategory extends Vue {
 
   id: string = ''
 
+  async asyncData() {
+    const data_ = await import(`~/static/data/entity.json`)
+    const results = data_.default
+    return { results }
+  }
+
   // state
   async mounted() {
-    
     await this.createIndex()
-    
+
     await this.search()
   }
 
   index: any = {}
 
-  async createIndex(){
-    let results: any = await axios.get(this.baseUrl+"/data/entity.json")
-    results = results.data
+  /* async */ createIndex() {
+    // let results: any = await axios.get(this.baseUrl + '/data/entity.json')
+    // results = results.data
+    const results = this.results
 
     const id: any = this.$route.params.id
 
-    const keyword: any = this.$route.query.keyword || ""
+    const keyword: any = this.$route.query.keyword || ''
     this.keyword = keyword
 
     const tmp = id === 'agential' ? id : 'spatial'
 
     this.id = id
     this.index = results[tmp]
-    //console.log({results})
+    // console.log({results})
   }
 
   get paginationLength() {
     return Math.ceil(this.total / this.perPage)
   }
 
+  /*
   async getTotal() {
     const type = this.id === 'agential' ? 'Agent' : 'Place'
 
@@ -177,12 +183,13 @@ export default class PageCategory extends Vue {
 
     return results.data[0].c
   }
+  */
 
-  search(){
+  search() {
     const index = this.index
 
     const id = this.id
-    
+
     const tmp = id === 'agential' ? id : 'spatial'
 
     this.loadingFlag = true
@@ -190,17 +197,17 @@ export default class PageCategory extends Vue {
     const from = Number(this.$route.query.from) || 0
     this.currentPage = from / this.perPage + 1
 
-    const keyword = this.keyword //this.$route.query.keyword || ''
+    const keyword = this.keyword // this.$route.query.keyword || ''
 
     let list = []
 
-    for(let label in index){
-      const obj = index[label]
+    for (const obj of index) {
+      // const obj = index[label]
+      const label = obj.id
 
-      if(keyword !== "" && !label.includes(keyword)){
+      if (keyword !== '' && !label.includes(keyword)) {
         continue
       }
-        
 
       const entity: any = {
         label: label + ' (' + obj.value.toLocaleString() + ')',
@@ -237,6 +244,7 @@ export default class PageCategory extends Vue {
     this.loadingFlag = false
   }
 
+  /*
   async search2() {
     const id: any = this.$route.params.id
     this.id = id
@@ -305,10 +313,10 @@ export default class PageCategory extends Vue {
         const person: any = {
           label: obj.label + ' (' + obj.c.toLocaleString() + ')',
           path: {
-            /*
-            name: 'search',
-            query: queryObj,
-            */
+            
+            //name: 'search',
+            //query: queryObj,
+            
             name: 'entity-entity-id',
             params: {
               entity: tmp,
@@ -332,6 +340,7 @@ export default class PageCategory extends Vue {
       this.loadingFlag = false
     })
   }
+  */
 
   get title() {
     return this.$t(this.settings[this.$route.params.id].label)

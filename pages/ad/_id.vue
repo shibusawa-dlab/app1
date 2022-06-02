@@ -1,17 +1,9 @@
 <template>
   <div>
-    <v-sheet color="grey lighten-2">
-      <v-container fluid class="py-4">
-        <v-breadcrumbs class="py-0" :items="bh">
-          <template #divider>
-            <v-icon>mdi-chevron-right</v-icon>
-          </template>
-        </v-breadcrumbs>
-      </v-container>
-    </v-sheet>
+    <Breadcrumbs :items="bh" />
 
     <v-container class="mb-5">
-      <h2 class="mt-10">{{ title }}（{{showId(id)}}）</h2>
+      <h2 class="mt-10">{{ title }}（{{ showId(id) }}）</h2>
 
       <v-simple-table v-if="item.parent" class="mt-10">
         <template #default>
@@ -81,15 +73,23 @@
         class="mt-10"
         block
         color="primary"
+        depressed
         rounded
         dark
         x-large
-        :to="localePath({
-          name: 'search',
-          query: {
-            'main[refinementList][category_lvl1][0]' : id + ' ' + item.name
-          }
-        })"
+        :to="
+          localePath({
+            name: 'search',
+            query: {
+              'main[refinementList][category_lvl1][0]':
+                id +
+                ' ' +
+                (item.name
+                  ? item.name.split('  ').join(' ').split('  ').join(' ')
+                  : ''),
+            },
+          })
+        "
       >
         <v-icon class="mr-2">mdi-magnify</v-icon>
         {{ $t('fulltext_search') }}
@@ -98,12 +98,18 @@
       <grid v-if="false" :col="4" :list="children" class="mt-10"></grid>
 
       <div class="mt-10">
+        <div class="my-4">
+          以下の画像およびメタデータは、原資料の所蔵者である国文学研究資料館が作成したものを使用しています。
+        </div>
+
         <iframe
           v-if="item.manifest"
           allowfullscreen="allowfullscreen"
           frameborder="0"
           height="600px"
-          :src="baseUrl + `/mirador/?manifest=${item.manifest}&bottomPanel=false`"
+          :src="
+            baseUrl + `/mirador/?manifest=${item.manifest}&bottomPanel=false`
+          "
           width="100%"
         ></iframe>
       </div>
@@ -175,19 +181,20 @@
           <template #activator="{ on }">
             <v-btn
               class="mr-5"
-              :href="
-                baseUrl + '/mirador/?manifest=' +
-                item.manifest
-              "
+              :href="baseUrl + '/mirador/?manifest=' + item.manifest"
               icon
               target="_blank"
+              small
               v-on="on"
-              ><v-img contain width="30px" :src="baseUrl + '/img/icons/mirador3.svg'"
+              ><v-img
+                contain
+                width="24px"
+                :src="baseUrl + '/img/icons/mirador3.svg'"
             /></v-btn>
           </template>
           <span>Mirador</span>
         </v-tooltip>
-        <v-tooltip bottom v-if="false">
+        <v-tooltip v-if="false" bottom>
           <template #activator="{ on }">
             <v-btn class="mr-5" :href="uri" icon v-on="on"
               ><v-img
@@ -211,12 +218,13 @@
 
 <script lang="ts">
 import { Component, Vue, Watch } from 'nuxt-property-decorator'
-import axios from 'axios'
 import ResultOption from '~/components/display/ResultOption.vue'
+import Breadcrumbs from '~/components/common/Breadcrumbs.vue'
 
 @Component({
   components: {
     ResultOption,
+    Breadcrumbs,
   },
 })
 export default class PageCategory extends Vue {
@@ -237,32 +245,60 @@ export default class PageCategory extends Vue {
     this.search()
   }
 
-  ops: string[] = ["DKB20015m", "DKB20016m", "DKB20017m", "DKB20018m", "DKB20019m", "DKB20020m", "DKB20021m", "DKB20022m", "DKB20023m"
-        , "DKB20022m", "DKB20023m", "DKB20024m", "DKB20025m", "DKB20026m", "DKB20027m", "DKB20028m", "DKB20029m"
-        , "DKB20030m", "DKB20031m", "DKB20032m", "DKB20033m"]
+  ops: string[] = [
+    'DKB20015m',
+    'DKB20016m',
+    'DKB20017m',
+    'DKB20018m',
+    'DKB20019m',
+    'DKB20020m',
+    'DKB20021m',
+    'DKB20022m',
+    'DKB20023m',
+    'DKB20022m',
+    'DKB20023m',
+    'DKB20024m',
+    'DKB20025m',
+    'DKB20026m',
+    'DKB20027m',
+    'DKB20028m',
+    'DKB20029m',
+    'DKB20030m',
+    'DKB20031m',
+    'DKB20032m',
+    'DKB20033m',
+  ]
 
-  async search() {
+  async asyncData() {
+    const data_ = await import(`~/static/data/ad.json`)
+    const results = data_.default
+    return { results }
+  }
+
+  search() {
     const id = this.$route.params.id || 'top'
     this.id = id
 
-    if(this.ops.includes(id)){
-          this.$router.replace(
+    if (this.ops.includes(id)) {
+      this.$router.replace(
         this.localePath({
           name: 'ad-id',
           params: {
-            id : "DKB20014m"
-          }
+            id: 'DKB20014m',
+          },
         })
       )
     }
 
     const subject = process.env.github_pages + '/api/items/' + id
 
-    const url = process.env.BASE_URL + '/data/ad.json'
+    // const url = process.env.BASE_URL + '/data/ad.json'
 
-    const result = await axios.get(url)
+    // const result = await axios.get(url)
 
-    const results = result.data
+    // const results = result.data
+
+    const results = (this as any).results
 
     const children: any = {}
 
@@ -273,8 +309,12 @@ export default class PageCategory extends Vue {
       const item: any = {
         id: obj['@id'],
         slug: obj['@id'].split('/items/')[1],
-        label: obj['http://www.w3.org/2000/01/rdf-schema#label'] ? obj['http://www.w3.org/2000/01/rdf-schema#label'][0]['@value'] : obj['@id'],
-        name: obj["http://schema.org/name"] ? obj["http://schema.org/name"][0]["@value"] : ""
+        label: obj['http://www.w3.org/2000/01/rdf-schema#label']
+          ? obj['http://www.w3.org/2000/01/rdf-schema#label'][0]['@value']
+          : obj['@id'],
+        name: obj['http://schema.org/name']
+          ? obj['http://schema.org/name'][0]['@value']
+          : '',
       }
       map[obj['@id']] = item
 
@@ -456,9 +496,9 @@ export default class PageCategory extends Vue {
     return text
   }
 
-  showId(id: any){
-    if(id === "DKB20014m"){
-      return "DKB20015m - DKB20033m"
+  showId(id: any) {
+    if (id === 'DKB20014m') {
+      return 'DKB20015m - DKB20033m'
     }
     return id
   }

@@ -62,6 +62,7 @@ export default class Metadata extends Vue {
 }
 </script>
 <style>
+/* stylelint-disable */
 tei-encodingdesc {
   display: block !important;
 }
