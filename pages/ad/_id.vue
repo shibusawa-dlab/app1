@@ -107,9 +107,7 @@
           allowfullscreen="allowfullscreen"
           frameborder="0"
           height="600px"
-          :src="
-            baseUrl + `/mirador/?manifest=${item.manifest}&bottomPanel=false`
-          "
+          :src="baseUrl + `/mirador/?manifest=${item.manifest}`"
           width="100%"
         ></iframe>
       </div>

@@ -50,29 +50,29 @@
           }
           obj["manifestId"] = manifest;
 
-          //if(vars["bottomPanel"] != "false"){
-          obj["thumbnailNavigationPosition"] = "far-right";
-          //}
+          if(vars["bottomPanel"] != "false"){
+            obj["thumbnailNavigationPosition"] = "far-right";
+          }
           
           windows.push(obj);
         }
       }
 
       var windowSettings = {}
-      //if(vars["annotationState"]){
+      if(vars["annotationState"]){
         windowSettings = {
-          //highlightAllAnnotations : true,
+          highlightAllAnnotations : true,
           sideBarOpen : true,
-          //defaultSideBarPanel: 'annotations',
+          defaultSideBarPanel: 'annotations',
         }
-      //}
+      }
 
       var workspaceControlPanel = {}
-      //if(vars["bottomPanel"]){
+      if(vars["bottomPanel"]){
         workspaceControlPanel = {
-          enabled: true//false,
+          enabled: false,
         }
-      //}
+      }
 
       var miradorInstance = Mirador.viewer({
         id: "mirador",
