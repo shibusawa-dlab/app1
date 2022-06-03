@@ -674,7 +674,7 @@ export default {
       const tmp = document.createElement('div')
       tmp.innerHTML = xml
       xml = tmp.textContent
-      xml = xml.split('\n').join('').split(' ').join('')
+      xml = xml.split('\n').join('') // .split(' ').join('')
       return xml
     },
   },
