@@ -4,152 +4,171 @@
     <v-container class="my-5 mb-10">
       <h1 class="mb-5">{{ title }}</h1>
 
-      <v-row class="mb-5">
-        <v-col cols="12" md="10">
-          <v-text-field
-            v-model="q"
-            autocomplete="off"
-            light
-            single-line
-            filled
-            rounded
-            dense
-            hide-details
-            :clearable2="true"
-            :clear-icon="mdiClose"
-            background-color="#E0E0E0"
-            :placeholder="$t('inputSearchKeyword')"
-            :append-icon="mdiMagnify"
-            @click:append="search"
-            @keydown.enter="trigger"
-          ></v-text-field>
-        </v-col>
-        <v-col cols="12" md="2">
-          <v-switch
-            v-model="isHelp"
-            class="mt-1"
-            dense
-            hide-details
-            inset
-            :label="`ヘルプ`"
-          ></v-switch>
-        </v-col>
-      </v-row>
+      <template v-if="loading">
+        <div class="text-center">
+          <v-progress-circular
+            indeterminate
+            color="primary"
+            class="my-10"
+          ></v-progress-circular>
 
-      <v-sheet v-show="isHelp" class="pa-5 mb-5" color="grey lighten-3">
-        <p>
-          年代ごとの出現頻度を可視化します。<!--（可視化対象は、デフォルトでは総出現頻度上位5件です）-->
-          <br />可視化グラフの縦軸は、年代ごとに何回出現したかを表す出現頻度と、出現頻度を出版年代ごとの総ngram数で割った値を表す出現比率の2種類を切り替えることができます。
-          <br />
-        </p>
-        <ul>
-          <li class="mb-2">
-            複数のキーワードをスラッシュ(/)区切りでクエリに指定することで、出現頻度を重ねて表示することができます。
-            <div>
-              例：「<nuxt-link
+          <p>
+            初回はインデックスファイルのダウンロードに時間を要します。2回目以降はキャッシュにより待ち時間が改善します。
+          </p>
+        </div>
+      </template>
+
+      <template v-else>
+        <v-row class="mb-5">
+          <v-col cols="12" md="10">
+            <v-text-field
+              v-model="q"
+              autocomplete="off"
+              light
+              single-line
+              filled
+              rounded
+              dense
+              hide-details
+              :clearable2="true"
+              :clear-icon="mdiClose"
+              background-color="#E0E0E0"
+              :placeholder="$t('inputSearchKeyword')"
+              :append-icon="mdiMagnify"
+              @click:append="search"
+              @keydown.enter="trigger"
+            ></v-text-field>
+          </v-col>
+          <v-col cols="12" md="2">
+            <v-switch
+              v-model="isHelp"
+              class="mt-1"
+              dense
+              hide-details
+              inset
+              :label="`ヘルプ`"
+            ></v-switch>
+          </v-col>
+        </v-row>
+
+        <v-sheet v-show="isHelp" class="pa-5 mb-5" color="grey lighten-3">
+          <p>
+            年代ごとの出現頻度を可視化します。<!--（可視化対象は、デフォルトでは総出現頻度上位5件です）-->
+            <br />可視化グラフの縦軸は、年代ごとに何回出現したかを表す出現頻度と、出現頻度を出版年代ごとの総ngram数で割った値を表す出現比率の2種類を切り替えることができます。
+            <br />
+          </p>
+          <ul>
+            <li class="mb-2">
+              複数のキーワードをスラッシュ(/)区切りでクエリに指定することで、出現頻度を重ねて表示することができます。
+              <div>
+                例：「<nuxt-link
+                  :to="
+                    localePath({
+                      name: 'ngram',
+                      query: { keyword: '第一銀行/日本銀行' },
+                    })
+                  "
+                  >第一銀行/日本銀行</nuxt-link
+                >」
+              </div>
+            </li>
+
+            <li class="mb-2">
+              正規表現を利用したクエリが可能です。
+              <div>
+                例：「<nuxt-link
+                  :to="
+                    localePath({
+                      name: 'ngram',
+                      query: { keyword: '浅野..郎' },
+                    })
+                  "
+                  >浅野..郎</nuxt-link
+                >」
+              </div>
+            </li>
+          </ul>
+          <div v-if="false">
+            【注意】クエリにスラッシュ(/)が含まれる場合、正規表現は無効化されます。つまり複数キーワードクエリと正規表現クエリを併用することはできません。
+          </div>
+          <div>
+            【注意】処理の特性により、総出現頻度が5程度以下のものについては集計漏れが発生することがあります。
+          </div>
+        </v-sheet>
+
+        <div v-if="results.hits">
+          <p>
+            {{ results.hits.total.value.toLocaleString() }} 件ヒットしました。
+          </p>
+        </div>
+
+        <div v-if="results.hits && results.hits.hits.length > 0" id="result">
+          <v-radio-group v-model="type" row>
+            <v-radio label="出現頻度" value="freq"></v-radio>
+            <v-radio
+              label="出現比率（年ごとの出現頻度/年ごとの総対象Ngram数）"
+              value="ratio"
+            ></v-radio>
+          </v-radio-group>
+
+          <LineChart :data="data" :option="option" class="mb-10"></LineChart>
+
+          <v-data-table
+            v-model="selected"
+            :sort-by="['freq']"
+            :sort-desc="[true]"
+            :headers="headers"
+            :items="items"
+            item-key="label"
+            :items-per-page="20"
+            show-select
+          >
+            <template v-slot:item.link="{ item }">
+              <nuxt-link
                 :to="
                   localePath({
-                    name: 'ngram',
-                    query: { keyword: '第一銀行/日本銀行' },
+                    name: 'search',
+                    query: { 'main[query]': item.label },
                   })
                 "
-                >第一銀行/日本銀行</nuxt-link
-              >」
-            </div>
-          </li>
-
-          <li class="mb-2">
-            正規表現を利用したクエリが可能です。
-            <div>
-              例：「<nuxt-link
-                :to="
-                  localePath({ name: 'ngram', query: { keyword: '浅野..郎' } })
-                "
-                >浅野..郎</nuxt-link
-              >」
-            </div>
-          </li>
-        </ul>
-        <div v-if="false">
-          【注意】クエリにスラッシュ(/)が含まれる場合、正規表現は無効化されます。つまり複数キーワードクエリと正規表現クエリを併用することはできません。
-        </div>
-        <div>
-          【注意】処理の特性により、総出現頻度が5程度以下のものについては集計漏れが発生することがあります。
-        </div>
-      </v-sheet>
-
-      <div v-if="results.hits">
-        <p>
-          {{ results.hits.total.value.toLocaleString() }} 件ヒットしました。
-        </p>
-      </div>
-
-      <div v-if="results.hits && results.hits.hits.length > 0" id="result">
-        <v-radio-group v-model="type" row>
-          <v-radio label="出現頻度" value="freq"></v-radio>
-          <v-radio
-            label="出現比率（年ごとの出現頻度/年ごとの総対象Ngram数）"
-            value="ratio"
-          ></v-radio>
-        </v-radio-group>
-
-        <LineChart :data="data" :option="option" class="mb-10"></LineChart>
-
-        <v-data-table
-          v-model="selected"
-          :sort-by="['freq']"
-          :sort-desc="[true]"
-          :headers="headers"
-          :items="items"
-          item-key="label"
-          :items-per-page="20"
-          show-select
-        >
-          <template v-slot:item.link="{ item }">
-            <nuxt-link
-              :to="
-                localePath({
-                  name: 'search',
-                  query: { 'main[query]': item.label },
-                })
-              "
-              >検索</nuxt-link
-            >
-          </template>
-        </v-data-table>
-
-        <v-simple-table v-if="false">
-          <template v-slot:default>
-            <thead>
-              <tr>
-                <th class="text-left">キーワード</th>
-                <th class="text-left">総頻度</th>
-                <th class="text-left"></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr
-                v-for="(item, key) in results.hits.hits.slice(0, 200)"
-                :key="key"
+                >検索</nuxt-link
               >
-                <td>{{ item._source.label }}</td>
-                <td>{{ item._source.count.toLocaleString() }}</td>
-                <td>
-                  <nuxt-link
-                    :to="
-                      localePath({
-                        name: 'search',
-                        query: { keyword: item._source.label },
-                      })
-                    "
-                    >検索</nuxt-link
-                  >
-                </td>
-              </tr>
-            </tbody>
-          </template>
-        </v-simple-table>
-      </div>
+            </template>
+          </v-data-table>
+
+          <v-simple-table v-if="false">
+            <template v-slot:default>
+              <thead>
+                <tr>
+                  <th class="text-left">キーワード</th>
+                  <th class="text-left">総頻度</th>
+                  <th class="text-left"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr
+                  v-for="(item, key) in results.hits.hits.slice(0, 200)"
+                  :key="key"
+                >
+                  <td>{{ item._source.label }}</td>
+                  <td>{{ item._source.count.toLocaleString() }}</td>
+                  <td>
+                    <nuxt-link
+                      :to="
+                        localePath({
+                          name: 'search',
+                          query: { keyword: item._source.label },
+                        })
+                      "
+                      >検索</nuxt-link
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </template>
+          </v-simple-table>
+        </div>
+      </template>
     </v-container>
   </div>
 </template>
@@ -189,6 +208,8 @@ export default class Ngram extends Vue {
   type: string = 'freq'
 
   selected: any = []
+
+  loading: boolean = true
 
   get option(): any {
     let ticks: any = {
@@ -305,6 +326,8 @@ export default class Ngram extends Vue {
     // const {data} = await axios.get(process.env.BASE_URL + "/static/")
     const data_ = await import(`~/static/data/ngram.json`)
     const results = data_.default
+
+    this.loading = false
 
     // console.log({ results })
 

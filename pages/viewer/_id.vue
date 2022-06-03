@@ -178,8 +178,8 @@ export default {
 
     const fileId = this.$route.params.id
     const query = this.$route.query
-    // const url = query.u || this.pages + '/tei/' + fileId + '.xml'
-    const url = this.baseUrl + '/data/DKB01_チェック用.xml' // テスト
+    const url = query.u || this.pages + '/tei/' + fileId + '.xml'
+    // const url = this.baseUrl + '/data/DKB01_チェック用.xml' // テスト
     const CETEIcean = new CETEI()
 
     CETEIcean.addBehaviors({
