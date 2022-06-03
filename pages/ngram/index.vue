@@ -158,6 +158,7 @@
 import { Vue, Component, Watch } from 'nuxt-property-decorator'
 import { mdiMagnify, mdiClose } from '@mdi/js'
 // import Breadcrumbs from '~/components/common/Breadcrumbs.vue'
+import axios from 'axios'
 import LineChart from '~/components/LineChart.vue'
 
 @Component({
@@ -272,26 +273,44 @@ export default class Ngram extends Vue {
   items: any[] = []
 
   async asyncData() {
+    /*
     const data_ = await import(`~/static/data/ngram.json`)
     const results = data_.default
+    */
 
     // const dataDf = await import(`~/static/data/ngram.json`)
     // const resultsDf = dataDf.default
 
     const dataNgramAll = await import(`~/static/data/all.json`)
     const ngramAll = dataNgramAll.default
+    /*
+     */
 
     // const data2_ = await import(`~/static/data/ngram_keys.json`)
     // const keys = data2_.default
 
     return {
-      index: results.tf,
-      indexDf: /* resultsDf */ results.df,
+      // index: results.tf,
+      // indexDf: /* resultsDf */ results.df,
       ngramAll /*, keys */,
     }
   }
 
-  mounted() {
+  index: any = []
+  indexDf: any = []
+
+  async mounted() {
+    // const dataNgramAll = await import(`~/static/data/all.json`)
+    // const ngramAll = dataNgramAll.default
+    // const {data} = await axios.get(process.env.BASE_URL + "/static/")
+    const data_ = await import(`~/static/data/ngram.json`)
+    const results = data_.default
+
+    // console.log({ results })
+
+    this.index = results.tf
+    this.indexDf = results.df
+
     if (this.$route.query.keyword) {
       this.q = String(this.$route.query.keyword)
 

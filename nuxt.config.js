@@ -1,5 +1,13 @@
+import fs from 'fs'
 const environment = process.env.NODE_ENV
 const env = require(`./env/${environment}.ts`)
+
+const conf = JSON.parse(fs.readFileSync('static/data/conf.json'))
+
+for (const key in conf) {
+  env[key] = conf[key]
+}
+
 env.github = 'https://github.com/shibusawa-dlab/lab1'
 env.github_pages = 'https://shibusawa-dlab.github.io/lab1'
 env.host = env.BASE_URL
