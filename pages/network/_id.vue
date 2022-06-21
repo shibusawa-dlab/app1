@@ -217,7 +217,7 @@
 
           <v-tabs-items v-model="tab" class="mt-5">
             <v-tab-item>
-              <no-ssr>
+              <client-only>
                 <network
                   ref="network"
                   :nodes="network.nodes"
@@ -229,7 +229,7 @@
                   @stabilized="stabilized"
                 >
                 </network>
-              </no-ssr>
+              </client-only>
             </v-tab-item>
 
             <v-tab-item>
@@ -309,18 +309,7 @@
                       <div
                         style="max-height: 200px; overflow-y: auto"
                         class="mb-2"
-                        v-html="
-                          highlightRelation(
-                            /*
-                            $utils.removeHead(
-                              //$utils.xml2html(item2._highlightResult.xml.value)
-                              $utils.xml2html(item2.xml)
-                            ),
-                            */
-                            item2.xml,
-                            item.key
-                          )
-                        "
+                        v-html="highlightRelation(item2.xml, item.key)"
                       ></div>
                       <v-divider />
                     </div>
@@ -494,14 +483,23 @@ export default class about extends Vue {
     ]
   }
 
+  /*
   async asyncData({ params }: any) {
     const data_ = await import(`~/static/data/agentials/${params.id}.json`)
     const results = data_.default
 
-    return { results /*, docs */ }
+    return { results }
   }
+  */
 
-  created() {
+  results: any = {}
+
+  async created() {
+    const data_ = await import(
+      `~/static/data/agentials/${this.$route.params.id}.json`
+    )
+    this.results = data_.default
+
     const id = this.$route.params.id
 
     const mode = this.$route.query.mode

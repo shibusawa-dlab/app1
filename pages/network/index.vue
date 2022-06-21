@@ -52,7 +52,7 @@
 
       <v-row>
         <v-col cols="12" :sm="9">
-          <no-ssr>
+          <client-only>
             <network
               ref="network"
               :nodes="nodes"
@@ -64,11 +64,8 @@
               @double-click="aaa"
               @stabilized="stabilized"
             >
-              <!-- @click="onNodeSelected" @stabilized="stabilized"
-            @afterDrawing="loading = false"
-            @startStabilizing="loading = false" -->
             </network>
-          </no-ssr>
+          </client-only>
         </v-col>
         <v-col cols="12" :sm="3">
           <v-sheet class="grey lighten-3 pa-2"
@@ -111,7 +108,6 @@
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
-
 @Component({
   components: {},
 })
@@ -174,13 +170,20 @@ export default class network extends Vue {
     ]
   }
 
+  /*
   async asyncData() {
     const data_ = await import(`~/static/data/agentials.json`)
     const results = data_.default
     return { results }
   }
+  */
 
-  created() {
+  results: any = {}
+
+  async created() {
+    const data_ = await import(`~/static/data/agentials.json`)
+    this.results = data_.default
+
     const data: any = (this as any).results
 
     const nodesMap: any = {}
