@@ -56,7 +56,7 @@
               @click="highlight"
               @dblclick="onNodeSelected"
               @double-click="aaa"
-              @stabilized="stabilized"
+              @stabilized_="stabilized"
             >
             </network2>
           </client-only>
@@ -243,14 +243,13 @@ export default class network extends Vue {
 
     this.counts = arr
 
-    /*
     const self = this
     window.setTimeout(function () {
       const network: any = self.$refs.network
       // console.log('stop')
       network.stopSimulation()
-    }, 2000)
-    */
+      self.options.physics.enabled = false
+    }, 5000)
   }
 
   otherId = ''

@@ -218,11 +218,10 @@
                   ref="network"
                   :nodes="network.nodes"
                   :edges="network.edges"
-                  :options="network.options"
+                  :options="options"
                   style="height: 800px; background-color: #f0f4c3"
                   @click="onNodeSelected"
                   @double-click="aaa"
-                  @stabilized="stabilized"
                 >
                 </network2>
                 <!-- @stabilized="stabilized" -->
@@ -396,29 +395,26 @@ export default class about extends Vue {
 
   counts: any = {}
 
-  network: any = {
-    nodes: [],
-    edges: [],
-    options: {
-      nodes: {
-        color: {
+  options: any = {
+    nodes: {
+      color: {
+        background: 'lightgray',
+        highlight: {
           background: 'lightgray',
-          highlight: {
-            background: 'lightgray',
-            border: '#FF6E00',
-          },
-        },
-        borderWidth: 4,
-        borderWidthSelected: 4,
-        shapeProperties: {
-          useBorderWithImage: true,
+          border: '#FF6E00',
         },
       },
-      edges: {
-        // color: 'orange',
+      borderWidth: 4,
+      borderWidthSelected: 4,
+      shapeProperties: {
+        useBorderWithImage: true,
       },
-      physics: {
-        /*
+    },
+    edges: {
+      // color: 'orange',
+    },
+    physics: {
+      /*
         // enabled: true,
         // enabled: false,
         stabilization_: {
@@ -427,17 +423,23 @@ export default class about extends Vue {
           iterations: 0, // 100000, // 20,
         },
         */
-        timestep: 0.1,
-      },
-      layout: {
-        randomSeed: 2,
-        /*
+      timestep: 0.1,
+      enabled: true,
+    },
+    layout: {
+      randomSeed: 2,
+      /*
         hierarchical_: {
           // sortMethod: 'hubsize',
         },
         */
-      },
     },
+  }
+
+  network: any = {
+    nodes: [],
+    edges: [],
+    options: this.options,
   }
 
   item2: any = {
@@ -581,6 +583,16 @@ export default class about extends Vue {
     })
 
     this.counts = arr
+
+    const self = this
+    window.setTimeout(function () {
+      const network: any = self.$refs.network
+      // console.log('stop')
+      network.stopSimulation()
+      self.options.physics.enabled = false
+      // self.network.options.physics.enabled = false
+      // console.log(self.network.options)
+    }, 5000)
 
     /// ///
 
@@ -739,9 +751,12 @@ export default class about extends Vue {
     network.focus(id)
   }
 
+  /*
   stabilized() {
+    console.log('stabilized')
     this.network.options.physics.enabled = false
   }
+  */
 
   head() {
     const title = this.title
