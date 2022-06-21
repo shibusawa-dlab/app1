@@ -1,14 +1,6 @@
 <template>
   <div>
-    <v-sheet color="grey lighten-2">
-      <v-container fluid class="py-4">
-        <v-breadcrumbs class="py-0" :items="bh">
-          <template #divider>
-            <v-icon>mdi-chevron-right</v-icon>
-          </template>
-        </v-breadcrumbs>
-      </v-container>
-    </v-sheet>
+    <Breadcrumbs :items="bh" />
     <v-container class="my-5">
       <p v-if="false">晴は橙色、曇は灰色、雨は水色で示されます。</p>
       <p>
@@ -123,6 +115,7 @@
 
 <script>
 import axios from 'axios'
+import Breadcrumbs from '~/components/common/Breadcrumbs.vue'
 
 // NUM=値 LEN=桁数
 function zfill(NUM, LEN) {
@@ -146,6 +139,9 @@ function formatDate(dt) {
 }
 
 export default {
+  components: {
+    Breadcrumbs,
+  },
   // async
   asyncData({ /* payload, */ app }) {
     /*

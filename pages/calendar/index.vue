@@ -1,16 +1,8 @@
 <template>
   <div>
-    <v-sheet color="grey lighten-2">
-      <v-container fluid class="py-4">
-        <v-breadcrumbs class="py-0" :items="bh">
-          <template #divider>
-            <v-icon>mdi-chevron-right</v-icon>
-          </template>
-        </v-breadcrumbs>
-      </v-container>
-    </v-sheet>
+    <Breadcrumbs :items="bh" />
     <v-container class="my-5">
-      <h2 class="mb-5">{{ $t('calendar') }}</h2>
+      <h1 class="mb-5">{{ $t('calendar') }}</h1>
 
       <ul>
         <li>
@@ -76,10 +68,12 @@
 
 <script>
 import { GChart } from 'vue-google-charts'
+import Breadcrumbs from '~/components/common/Breadcrumbs.vue'
 
 export default {
   components: {
     GChart,
+    Breadcrumbs,
   },
   async asyncData({ payload }) {
     if (payload) {

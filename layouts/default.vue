@@ -358,4 +358,16 @@ tbody tr:nth-of-type(odd) {
 * {
   text-transform: none;
 }
+.v-pagination__navigation {
+  box-shadow: none !important;
+}
+
+.v-pagination__item {
+  box-shadow: none !important;
+}
+
+.nuxt-content li {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
 </style>

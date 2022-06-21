@@ -1,14 +1,6 @@
 <template>
   <div>
-    <v-sheet color="grey lighten-2">
-      <v-container fluid class="py-4">
-        <v-breadcrumbs class="py-0" :items="bh">
-          <template #divider>
-            <v-icon>mdi-chevron-right</v-icon>
-          </template>
-        </v-breadcrumbs>
-      </v-container>
-    </v-sheet>
+    <Breadcrumbs :items="bh" />
     <v-container class="my-5">
       <h2>{{ $t('fulltext_search') }}</h2>
 
@@ -200,6 +192,8 @@
                     v-if="aggList.value.length >= limit"
                     color="primary"
                     small
+                    rounded
+                    depressed
                     class="mt-4"
                     @click="aggList.more = !aggList.more"
                     >{{ $t(aggList.more ? 'Show less' : 'Show more') }}</v-btn
@@ -224,9 +218,13 @@
 
 <script>
 import axios from 'axios'
+import Breadcrumbs from '~/components/common/Breadcrumbs.vue'
 const _ = require('lodash')
 
 export default {
+  components: {
+    Breadcrumbs,
+  },
   data() {
     return {
       page: 1,

@@ -1,14 +1,6 @@
 <template>
   <div>
-    <v-sheet color="grey lighten-2">
-      <v-container fluid class="py-4">
-        <v-breadcrumbs class="py-0" :items="bh">
-          <template #divider>
-            <v-icon>mdi-chevron-right</v-icon>
-          </template>
-        </v-breadcrumbs>
-      </v-container>
-    </v-sheet>
+    <Breadcrumbs :items="bh" />
 
     <v-container>
       <h2 class="my-5">
@@ -70,10 +62,13 @@
 
 <script lang="ts">
 import { Component, Vue, Watch } from 'nuxt-property-decorator'
-import axios from 'axios'
-// import grid from '~/components/Grid.vue'
+import Breadcrumbs from '~/components/common/Breadcrumbs.vue'
 
-@Component({})
+@Component({
+  components: {
+    Breadcrumbs,
+  },
+})
 export default class PageCategory extends Vue {
   @Watch('$route', { deep: true })
   watchTmp(): void {
@@ -227,7 +222,7 @@ export default class PageCategory extends Vue {
       if (obj.image) {
         entity.image = obj.image
       } else {
-        entity.image = process.env.BASE_URL + '/img/icons/no-image.png'
+        entity.image = process.env.BASE_URL + '/img/icons/no-image.webp'
       }
 
       const url = process.env.BASE_URL + '/snorql/?describe=' + obj.id

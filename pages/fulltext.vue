@@ -1,14 +1,6 @@
 <template>
   <div>
-    <v-sheet color="grey lighten-2">
-      <v-container fluid class="py-4">
-        <v-breadcrumbs class="py-0" :items="bh">
-          <template #divider>
-            <v-icon>mdi-chevron-right</v-icon>
-          </template>
-        </v-breadcrumbs>
-      </v-container>
-    </v-sheet>
+    <Breadcrumbs :items="bh" />
     <v-container class="py-5">
       <h2 class="my-5">{{ $t('fulltext') }}</h2>
 
@@ -247,11 +239,16 @@
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
+import Breadcrumbs from '~/components/common/Breadcrumbs.vue'
 
-@Component({})
+@Component({
+  components: {
+    Breadcrumbs,
+  },
+})
 export default class about extends Vue {
   baseUrl: any = process.env.BASE_URL
-  github_pages: any = process.env.github_pages
+  // github_pages: any = process.env.github_pages
 
   get bh(): any[] {
     return [

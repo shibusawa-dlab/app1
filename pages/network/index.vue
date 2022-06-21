@@ -1,16 +1,8 @@
 <template>
   <div>
-    <v-sheet color="grey lighten-2">
-      <v-container fluid class="py-4">
-        <v-breadcrumbs class="py-0" :items="bh">
-          <template #divider>
-            <v-icon>mdi-chevron-right</v-icon>
-          </template>
-        </v-breadcrumbs>
-      </v-container>
-    </v-sheet>
+    <Breadcrumbs :items="bh" />
     <v-container fluid class="py-5">
-      <h2 class="mb-5">{{ $t('network_of_people') }}</h2>
+      <h1 class="mb-5">{{ $t('network_of_people') }}</h1>
       <p class="mt-2">
         {{ $t('network_lead') }}
       </p>
@@ -48,12 +40,14 @@
       </v-overlay>
       -->
 
-      <p v-if="loading" class="text-center">表示に時間がかかります。</p>
+      <p v-if="loading && false" class="text-center">
+        表示に時間がかかります。
+      </p>
 
       <v-row>
         <v-col cols="12" :sm="9">
           <client-only>
-            <network
+            <network2
               ref="network"
               :nodes="nodes"
               :edges="edges"
@@ -64,7 +58,7 @@
               @double-click="aaa"
               @stabilized="stabilized"
             >
-            </network>
+            </network2>
           </client-only>
         </v-col>
         <v-col cols="12" :sm="3">
@@ -108,8 +102,13 @@
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
+import { Network } from 'vue-vis-network'
+import Breadcrumbs from '~/components/common/Breadcrumbs.vue'
 @Component({
-  components: {},
+  components: {
+    network2: Network,
+    Breadcrumbs,
+  },
 })
 export default class network extends Vue {
   loading: boolean = true
@@ -151,6 +150,8 @@ export default class network extends Vue {
       // color: 'lightgray',
     },
     physics: {
+      // timestep: 0.01, // 100, // 0.1,
+      timestep: 0.1,
       enabled: true,
     },
     layout: { randomSeed: 2 },
@@ -241,6 +242,15 @@ export default class network extends Vue {
     })
 
     this.counts = arr
+
+    /*
+    const self = this
+    window.setTimeout(function () {
+      const network: any = self.$refs.network
+      // console.log('stop')
+      network.stopSimulation()
+    }, 2000)
+    */
   }
 
   otherId = ''

@@ -1,14 +1,6 @@
 <template>
   <div>
-    <v-sheet color="grey lighten-2">
-      <v-container fluid class="py-4">
-        <v-breadcrumbs class="py-0" :items="bh">
-          <template #divider>
-            <v-icon>mdi-chevron-right</v-icon>
-          </template>
-        </v-breadcrumbs>
-      </v-container>
-    </v-sheet>
+    <Breadcrumbs :items="bh" />
     <v-container class="mb-5">
       <h2 class="mt-10">{{ title }}</h2>
 
@@ -71,9 +63,14 @@
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
+import Breadcrumbs from '~/components/common/Breadcrumbs.vue'
 // import axios from 'axios'
 
-@Component({})
+@Component({
+  components: {
+    Breadcrumbs,
+  },
+})
 export default class about extends Vue {
   baseUrl: any = process.env.BASE_URL
 

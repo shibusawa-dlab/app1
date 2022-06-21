@@ -1,16 +1,8 @@
 <template>
   <div>
-    <v-sheet color="grey lighten-2">
-      <v-container fluid class="py-4">
-        <v-breadcrumbs class="py-0" :items="bh">
-          <template #divider>
-            <v-icon>mdi-chevron-right</v-icon>
-          </template>
-        </v-breadcrumbs>
-      </v-container>
-    </v-sheet>
+    <Breadcrumbs :items="bh" />
     <v-container fluid class="py-5">
-      <h2 class="mb-5">{{ title }}</h2>
+      <h1 class="mb-5">{{ title }}</h1>
       <p class="mt-2">
         {{ $t('network_lead') }}
       </p>
@@ -79,6 +71,8 @@
               <v-card-actions>
                 <v-btn
                   v-if="tab === 0"
+                  rounded
+                  depressed
                   color="primary"
                   @click="select($route.params.id)"
                   ><v-icon class="mr-2">mdi-image-filter-center-focus</v-icon
@@ -146,6 +140,8 @@
               <v-card-actions>
                 <template>
                   <v-btn
+                    rounded
+                    depressed
                     color="primary"
                     :to="
                       localePath({
@@ -218,7 +214,7 @@
           <v-tabs-items v-model="tab" class="mt-5">
             <v-tab-item>
               <client-only>
-                <network
+                <network2
                   ref="network"
                   :nodes="network.nodes"
                   :edges="network.edges"
@@ -228,7 +224,8 @@
                   @double-click="aaa"
                   @stabilized="stabilized"
                 >
-                </network>
+                </network2>
+                <!-- @stabilized="stabilized" -->
               </client-only>
             </v-tab-item>
 
@@ -371,12 +368,14 @@ import { Vue, Component } from 'nuxt-property-decorator'
 import axios from 'axios'
 import VueScrollTo from 'vue-scrollto'
 import ResultOption from '~/components/display/ResultOption.vue'
-// const { Network } = require('vue-vis-network')
+import Breadcrumbs from '~/components/common/Breadcrumbs.vue'
+const { Network } = require('vue-vis-network')
 
 @Component({
   components: {
-    // network: Network,
+    network2: Network,
     ResultOption,
+    Breadcrumbs,
   },
 })
 export default class about extends Vue {
@@ -419,13 +418,25 @@ export default class about extends Vue {
         // color: 'orange',
       },
       physics: {
-        enabled: true,
-        stabilization: {
-          enabled: true,
-          iterations: 20,
+        /*
+        // enabled: true,
+        // enabled: false,
+        stabilization_: {
+          // enabled: false,
+          // enabled: true,
+          iterations: 0, // 100000, // 20,
         },
+        */
+        timestep: 0.1,
       },
-      layout: { randomSeed: 2 },
+      layout: {
+        randomSeed: 2,
+        /*
+        hierarchical_: {
+          // sortMethod: 'hubsize',
+        },
+        */
+      },
     },
   }
 

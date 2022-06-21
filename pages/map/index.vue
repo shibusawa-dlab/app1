@@ -1,35 +1,24 @@
 <template>
-  <div>
-    <v-sheet color="grey lighten-2">
-      <v-container fluid class="py-4">
-        <v-breadcrumbs class="py-0" :items="bh">
-          <template #divider>
-            <v-icon>mdi-chevron-right</v-icon>
-          </template>
-        </v-breadcrumbs>
-      </v-container>
-    </v-sheet>
-
-    <v-container class="py-5">
-      <h2>{{ $t('map') }}</h2>
-      <p class="mt-2">
-        Wikipediaで位置情報が取得できた場所のみを表示しています。
-      </p>
-      <div id="map-wrap" style="height: 80vh" class="my-2">
-        <mapc :markers="markers" :zoom="2" :center="[35.689556, 139.691722]" />
-      </div>
-    </v-container>
-  </div>
+  <Main :bh="bh">
+    <h1>{{ $t('map') }}</h1>
+    <p class="mt-2">
+      Wikipediaで位置情報が取得できた場所のみを表示しています。
+    </p>
+    <div id="map-wrap" style="height: 80vh" class="my-2">
+      <mapc :markers="markers" :zoom="2" :center="[35.689556, 139.691722]" />
+    </div>
+  </Main>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-// import axios from 'axios'
 import Mapc from '~/components/common/Map.vue'
+import Main from '~/components/layout/Main.vue'
 
 @Component({
   components: {
     Mapc,
+    Main,
   },
 })
 export default class PageMap extends Vue {

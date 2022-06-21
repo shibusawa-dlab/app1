@@ -12,6 +12,26 @@
       </p>
 
       <div class="text-center my-5">
+        <v-btn
+          v-if="field === 'agential'"
+          color="primary"
+          rounded
+          depressed
+          small_
+          class="mr-5"
+          :href_="uri"
+          :to="
+            localePath({
+              name: 'network-id',
+              params: {
+                id,
+              },
+            })
+          "
+          icon_
+          ><v-icon class="mr-2">mdi-account-network</v-icon
+          >{{ $t('view_network') }}</v-btn
+        >
         <v-tooltip v-if="rdf && false" bottom>
           <template #activator="{ on }">
             <v-btn small class="mr-5" :href="uri" icon v-on="on"
@@ -33,9 +53,9 @@
     </v-container>
     <v-container class="my-5">
       <div v-if="false">
-        <h2 class="mb-5">
+        <h1 class="mb-5">
           {{ $t(field) }}: {{ id }}（{{ total.toLocaleString() }}）
-        </h2>
+        </h1>
 
         <template v-if="Object.keys(entity).length > 0">
           <v-row class="mb-5">

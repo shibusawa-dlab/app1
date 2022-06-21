@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- <Breadcrumbs :items="bh" /> -->
+    <Breadcrumbs :items="bh" />
     <v-container class="my-5 mb-10">
       <h1 class="mb-5">{{ title }}</h1>
 
@@ -176,14 +176,14 @@
 <script lang="ts">
 import { Vue, Component, Watch } from 'nuxt-property-decorator'
 import { mdiMagnify, mdiClose } from '@mdi/js'
-// import Breadcrumbs from '~/components/common/Breadcrumbs.vue'
-import axios from 'axios'
+import Breadcrumbs from '~/components/common/Breadcrumbs.vue'
+// import axios from 'axios'
 import LineChart from '~/components/LineChart.vue'
 
 @Component({
   components: {
     LineChart,
-    // Breadcrumbs,
+    Breadcrumbs,
   },
 })
 export default class Ngram extends Vue {
