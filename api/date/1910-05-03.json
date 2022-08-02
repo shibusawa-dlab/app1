@@ -1,10 +1,17 @@
 {
     "agential": [
         "佐々木",
-        "貞子",
-        "栄一",
-        "篤二",
+        "渋沢貞子",
+        "渋沢栄一",
+        "渋沢篤二",
         "入沢"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐々木",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢貞子",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢栄一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢篤二",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/入沢"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/645",
     "category": {
@@ -36,6 +43,13 @@
         "王子",
         "血洗島"
     ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野",
+        "https://shibusawa-dlab.github.io/lab1/api/place/深川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アメリカ合衆国",
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子",
+        "https://shibusawa-dlab.github.io/lab1/api/place/血洗島"
+    ],
     "temporal": "1910-05-03",
     "texts": [
         "DKB10019m-0135",
@@ -63,10 +77,10 @@
         "07:00:00": "<div><time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、入浴シ、畢テ朝飧ス、後、種々ノ来客ニ接ス、</div>",
         "09:30:00": "<div><time when=\"09:30:00\">\n        九時半\n       </time>\n<pb corresp=\"#pageB1620\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/646/full/max/0/default.jpg\" n=\"B1620\" source=\"#pageB1620\"/>\n       事務所ニ抵リ事務ヲ処理ス、又、来人ニ接見ス、</div>",
         "12:00:00": "<div><time when=\"12:00:00\">\n        正午\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ抵リ午飧シ、後、\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       氏ト行務ヲ談ス、</div>",
-        "15:00:00": "<div><time when=\"15:00:00\">\n        午後三時\n       </time>\n<placeName corresp=\"#place_上野\">\n        上野\n       </placeName>\n       常盤花壇ニ抵リ、\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       鷗盟会ヨリ案内セラレタル集会ニ出席ス、余興アリ、後、宴会ニ際シテ常議員総代ヨリ歓迎ノ辞アリ、依テ之ニ答ヘテ\n       <placeName corresp=\"#place_アメリカ合衆国\">\n        米国\n       </placeName>\n       旅行談ト本会設立当時ヨリノ地方自治制ニ関スル意見ヲ演説ス、畢テ\n       <placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス、夜、新聞紙ヲ一覧ス、\n       <placeName corresp=\"#place_血洗島\">\n        血洗島\n       </placeName>\n       ナル\n       <persName corresp=\"#pers_貞子\">\n<forename>\n         貞子\n        </forename>\n</persName>\n       ○\n       <persName corresp=\"#pers_栄一\">\n<forename>\n         栄一\n        </forename>\n</persName>\n       妹ノ病気近頃重体ナル由ニテ本日\n       <persName corresp=\"#pers_篤二\">\n<forename>\n         篤二\n        </forename>\n</persName>\n       見舞ノ為メ往訪セシカ、其模様宜シカラストノ事ニ付明日出張ノ事トシ、\n       <persName corresp=\"#pers_入沢\">\n<surname>\n         入沢\n        </surname>\n</persName>\n       博士同行診察ヲ請フヘキ事トシテ\n       <persName corresp=\"#pers_篤二\">\n<forename>\n         篤二\n        </forename>\n</persName>\n       ト打合ハセ、此夜其手配ヲ為シタリ</div>"
+        "15:00:00": "<div><time when=\"15:00:00\">\n        午後三時\n       </time>\n<placeName corresp=\"#place_上野\">\n        上野\n       </placeName>\n       常盤花壇ニ抵リ、\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       鷗盟会ヨリ案内セラレタル集会ニ出席ス、余興アリ、後、宴会ニ際シテ常議員総代ヨリ歓迎ノ辞アリ、依テ之ニ答ヘテ\n       <placeName corresp=\"#place_アメリカ合衆国\">\n        米国\n       </placeName>\n       旅行談ト本会設立当時ヨリノ地方自治制ニ関スル意見ヲ演説ス、畢テ\n       <placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス、夜、新聞紙ヲ一覧ス、\n       <placeName corresp=\"#place_血洗島\">\n        血洗島\n       </placeName>\n       ナル\n       <persName corresp=\"#pers_渋沢貞子\">\n<forename>\n         貞子\n        </forename>\n</persName>\n       ○\n       <persName corresp=\"#pers_渋沢栄一\">\n<forename>\n         栄一\n        </forename>\n</persName>\n       妹ノ病気近頃重体ナル由ニテ本日\n       <persName corresp=\"#pers_渋沢篤二\">\n<forename>\n         篤二\n        </forename>\n</persName>\n       見舞ノ為メ往訪セシカ、其模様宜シカラストノ事ニ付明日出張ノ事トシ、\n       <persName corresp=\"#pers_入沢\">\n<surname>\n         入沢\n        </surname>\n</persName>\n       博士同行診察ヲ請フヘキ事トシテ\n       <persName corresp=\"#pers_渋沢篤二\">\n<forename>\n         篤二\n        </forename>\n</persName>\n       ト打合ハセ、此夜其手配ヲ為シタリ</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10018m-0096\">\n<head>\n<date when=\"1910-05-03\">\n        五月三日\n       </date>\n       火　曇　軽寒\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、入浴シ、畢テ朝飧ス、後、種々ノ来客ニ接ス、\n       <time when=\"09:30:00\">\n        九時半\n       </time>\n<pb corresp=\"#pageB1620\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/646/full/max/0/default.jpg\" n=\"B1620\" source=\"#pageB1620\"/>\n       事務所ニ抵リ事務ヲ処理ス、又、来人ニ接見ス、\n       <time when=\"12:00:00\">\n        正午\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ抵リ午飧シ、後、\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       氏ト行務ヲ談ス、\n       <time when=\"15:00:00\">\n        午後三時\n       </time>\n<placeName corresp=\"#place_上野\">\n        上野\n       </placeName>\n       常盤花壇ニ抵リ、\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       鷗盟会ヨリ案内セラレタル集会ニ出席ス、余興アリ、後、宴会ニ際シテ常議員総代ヨリ歓迎ノ辞アリ、依テ之ニ答ヘテ\n       <placeName corresp=\"#place_アメリカ合衆国\">\n        米国\n       </placeName>\n       旅行談ト本会設立当時ヨリノ地方自治制ニ関スル意見ヲ演説ス、畢テ\n       <placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス、夜、新聞紙ヲ一覧ス、\n       <placeName corresp=\"#place_血洗島\">\n        血洗島\n       </placeName>\n       ナル\n       <persName corresp=\"#pers_貞子\">\n<forename>\n         貞子\n        </forename>\n</persName>\n       ○\n       <persName corresp=\"#pers_栄一\">\n<forename>\n         栄一\n        </forename>\n</persName>\n       妹ノ病気近頃重体ナル由ニテ本日\n       <persName corresp=\"#pers_篤二\">\n<forename>\n         篤二\n        </forename>\n</persName>\n       見舞ノ為メ往訪セシカ、其模様宜シカラストノ事ニ付明日出張ノ事トシ、\n       <persName corresp=\"#pers_入沢\">\n<surname>\n         入沢\n        </surname>\n</persName>\n       博士同行診察ヲ請フヘキ事トシテ\n       <persName corresp=\"#pers_篤二\">\n<forename>\n         篤二\n        </forename>\n</persName>\n       ト打合ハセ、此夜其手配ヲ為シタリ\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10018m-0096\">\n<head>\n<date when=\"1910-05-03\">\n        五月三日\n       </date>\n       火　曇　軽寒\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、入浴シ、畢テ朝飧ス、後、種々ノ来客ニ接ス、\n       <time when=\"09:30:00\">\n        九時半\n       </time>\n<pb corresp=\"#pageB1620\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/646/full/max/0/default.jpg\" n=\"B1620\" source=\"#pageB1620\"/>\n       事務所ニ抵リ事務ヲ処理ス、又、来人ニ接見ス、\n       <time when=\"12:00:00\">\n        正午\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ抵リ午飧シ、後、\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       氏ト行務ヲ談ス、\n       <time when=\"15:00:00\">\n        午後三時\n       </time>\n<placeName corresp=\"#place_上野\">\n        上野\n       </placeName>\n       常盤花壇ニ抵リ、\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       鷗盟会ヨリ案内セラレタル集会ニ出席ス、余興アリ、後、宴会ニ際シテ常議員総代ヨリ歓迎ノ辞アリ、依テ之ニ答ヘテ\n       <placeName corresp=\"#place_アメリカ合衆国\">\n        米国\n       </placeName>\n       旅行談ト本会設立当時ヨリノ地方自治制ニ関スル意見ヲ演説ス、畢テ\n       <placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス、夜、新聞紙ヲ一覧ス、\n       <placeName corresp=\"#place_血洗島\">\n        血洗島\n       </placeName>\n       ナル\n       <persName corresp=\"#pers_渋沢貞子\">\n<forename>\n         貞子\n        </forename>\n</persName>\n       ○\n       <persName corresp=\"#pers_渋沢栄一\">\n<forename>\n         栄一\n        </forename>\n</persName>\n       妹ノ病気近頃重体ナル由ニテ本日\n       <persName corresp=\"#pers_渋沢篤二\">\n<forename>\n         篤二\n        </forename>\n</persName>\n       見舞ノ為メ往訪セシカ、其模様宜シカラストノ事ニ付明日出張ノ事トシ、\n       <persName corresp=\"#pers_入沢\">\n<surname>\n         入沢\n        </surname>\n</persName>\n       博士同行診察ヲ請フヘキ事トシテ\n       <persName corresp=\"#pers_渋沢篤二\">\n<forename>\n         篤二\n        </forename>\n</persName>\n       ト打合ハセ、此夜其手配ヲ為シタリ\n      </p>\n</div>",
     "year": "1910",
     "yearAndMonth": "1910-05"
 }

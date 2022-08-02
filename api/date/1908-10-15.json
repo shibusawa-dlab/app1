@@ -1,6 +1,9 @@
 {
     "agential": [
-        "兼子"
+        "渋沢兼子"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢兼子"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/569",
     "category": {
@@ -17,7 +20,7 @@
     "date_lvl0": "1908",
     "date_lvl1": "1908-10",
     "date_lvl2": "1908-10-15",
-    "description": "\n\n\n        十月十五日\n       \n       雨　冷\n      \n\n\n        午前六時半\n       \n       起床、入浴シ畢テ朝飧ヲ食シ、後、二三ノ来客ニ接ス、\n       \n        午前十時\n       \n\n        兜町\n       \n       事務所ニ抵リテ来人ニ接シ、要務ヲ処理ス、\n       \n        正午\n       \n\n        第一銀行\n       \n       ニ於テ午飧シ、後、同行重役会ヲ開キ要件ヲ議決ス、\n       \n        午後六時\n       \n\n        横浜\n       \n       正金銀行ニ於テ\n       \n        米国\n       \n       実業家招宴ノ為催フシタル晩飧会ニ出席ス、食事後種々ノ余興アリ、夜\n       \n        十時\n       \n       散宴帰宿ス、此夜、\n       \n\n         兼子\n        \n\n       同伴ス\n      \n",
+    "description": "\n\n\n        十月十五日\n       \n       雨　冷\n      \n\n\n        午前六時半\n       \n       起床、入浴シ畢テ朝飧ヲ食シ、後、二三ノ来客ニ接ス、\n       \n        午前十時\n       \n\n        兜町\n       \n       事務所ニ抵リテ来人ニ接シ、要務ヲ処理ス、\n       \n        正午\n       \n\n        第一銀行\n       \n       ニ於テ午飧シ、後、同行重役会ヲ開キ要件ヲ議決ス、\n       \n        午後六時\n       \n\n        横浜正金銀行\n       \n       ニ於テ\n       \n        米国\n       \n       実業家招宴ノ為催フシタル晩飧会ニ出席ス、食事後種々ノ余興アリ、夜\n       \n        十時\n       \n       散宴帰宿ス、此夜、\n       \n\n         兼子\n        \n\n       同伴ス\n      \n",
     "label": "十月十五日              雨　冷",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10016m-0290",
@@ -27,8 +30,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "日本橋兜町",
-        "横浜",
         "アメリカ合衆国"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アメリカ合衆国"
     ],
     "temporal": "1908-10-15",
     "texts": [
@@ -57,11 +63,11 @@
         "06:30:00": "<div><time when=\"06:30:00\">\n        午前六時半\n       </time>\n       起床、入浴シ畢テ朝飧ヲ食シ、後、二三ノ来客ニ接ス、</div>",
         "10:00:00": "<div><time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リテ来人ニ接シ、要務ヲ処理ス、</div>",
         "12:00:00": "<div><time when=\"12:00:00\">\n        正午\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧シ、後、同行重役会ヲ開キ要件ヲ議決ス、</div>",
-        "18:00:00": "<div><time when=\"18:00:00\">\n        午後六時\n       </time>\n<placeName corresp=\"#place_横浜\">\n        横浜\n       </placeName>\n       正金銀行ニ於テ\n       <placeName corresp=\"#place_アメリカ合衆国\">\n        米国\n       </placeName>\n       実業家招宴ノ為催フシタル晩飧会ニ出席ス、食事後種々ノ余興アリ、夜</div>",
-        "22:00:00": "<div><time when=\"22:00:00\">\n        十時\n       </time>\n       散宴帰宿ス、此夜、\n       <persName corresp=\"#pers_兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       同伴ス</div>"
+        "18:00:00": "<div><time when=\"18:00:00\">\n        午後六時\n       </time>\n<orgName>\n        横浜正金銀行\n       </orgName>\n       ニ於テ\n       <placeName corresp=\"#place_アメリカ合衆国\">\n        米国\n       </placeName>\n       実業家招宴ノ為催フシタル晩飧会ニ出席ス、食事後種々ノ余興アリ、夜</div>",
+        "22:00:00": "<div><time when=\"22:00:00\">\n        十時\n       </time>\n       散宴帰宿ス、此夜、\n       <persName corresp=\"#pers_渋沢兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       同伴ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10016m-0289\">\n<head>\n<date when=\"1908-10-15\">\n        十月十五日\n       </date>\n       雨　冷\n      </head>\n<p>\n<time when=\"06:30:00\">\n        午前六時半\n       </time>\n       起床、入浴シ畢テ朝飧ヲ食シ、後、二三ノ来客ニ接ス、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リテ来人ニ接シ、要務ヲ処理ス、\n       <time when=\"12:00:00\">\n        正午\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧シ、後、同行重役会ヲ開キ要件ヲ議決ス、\n       <time when=\"18:00:00\">\n        午後六時\n       </time>\n<placeName corresp=\"#place_横浜\">\n        横浜\n       </placeName>\n       正金銀行ニ於テ\n       <placeName corresp=\"#place_アメリカ合衆国\">\n        米国\n       </placeName>\n       実業家招宴ノ為催フシタル晩飧会ニ出席ス、食事後種々ノ余興アリ、夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n       散宴帰宿ス、此夜、\n       <persName corresp=\"#pers_兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       同伴ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10016m-0289\">\n<head>\n<date when=\"1908-10-15\">\n        十月十五日\n       </date>\n       雨　冷\n      </head>\n<p>\n<time when=\"06:30:00\">\n        午前六時半\n       </time>\n       起床、入浴シ畢テ朝飧ヲ食シ、後、二三ノ来客ニ接ス、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リテ来人ニ接シ、要務ヲ処理ス、\n       <time when=\"12:00:00\">\n        正午\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧シ、後、同行重役会ヲ開キ要件ヲ議決ス、\n       <time when=\"18:00:00\">\n        午後六時\n       </time>\n<orgName>\n        横浜正金銀行\n       </orgName>\n       ニ於テ\n       <placeName corresp=\"#place_アメリカ合衆国\">\n        米国\n       </placeName>\n       実業家招宴ノ為催フシタル晩飧会ニ出席ス、食事後種々ノ余興アリ、夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n       散宴帰宿ス、此夜、\n       <persName corresp=\"#pers_渋沢兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       同伴ス\n      </p>\n</div>",
     "year": "1908",
     "yearAndMonth": "1908-10"
 }

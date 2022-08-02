@@ -1,7 +1,15 @@
 {
     "agential": [
+        "大倉",
         "三島",
+        "菅原",
         "阪西"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大倉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/三島",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/菅原",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/阪西"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1193",
     "category": {
@@ -18,7 +26,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-10",
     "date_lvl2": "1915-10-15",
-    "description": "\n\n\n           十五日\n          \n          （金）\n         \n\n\n\n\n             午前十時半\n            \n            大倉邸ヘ御出向\n           \n\n\n\n\n             午前十一時\n            \n            男爵胸像除幕式（帝国劇場、引続キ午餐会）\n           \n\n\n\n\n             午后二時\n            \n\n\n              三島\n             \n\n\n             日本\n            \n            銀行総裁ヲ御訪問\n           \n\n\n\n\n             午后二時\n            \n\n             東京\n            \n            慈恵会理事会（同会）\n           \n\n\n\n\n             午后三時\n            \n\n             菅原\n            \n            次官ヲ大蔵省ニ御訪問\n           \n\n\n\n\n             午后四時\n            \n\n\n              阪西\n             \n\n            大佐来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （金）\n         \n\n\n\n\n             午前十時半\n            \n\n\n              大倉\n             \n\n            邸ヘ御出向\n           \n\n\n\n\n             午前十一時\n            \n            男爵胸像除幕式（帝国劇場、引続キ午餐会）\n           \n\n\n\n\n             午后二時\n            \n\n\n              三島\n             \n\n\n             日本銀行\n            \n            総裁ヲ御訪問\n           \n\n\n\n\n             午后二時\n            \n            東京慈恵会理事会（同会）\n           \n\n\n\n\n             午后三時\n            \n\n\n              菅原\n             \n\n            次官ヲ大蔵省ニ御訪問\n           \n\n\n\n\n             午后四時\n            \n\n\n              阪西\n             \n\n            大佐来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "十五日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0260",
@@ -27,10 +35,10 @@
     "sort": "DKB20017m-0259",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "日本",
-        "東京",
-        "菅原",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1915-10-15",
     "texts": [
@@ -56,10 +64,10 @@
         "DKB20021m-0247"
     ],
     "time": {
-        "10:30:00": "<div><time when=\"10:30:00\">\n             午前十時半\n            </time>\n            大倉邸ヘ御出向</div>"
+        "10:30:00": "<div><time when=\"10:30:00\">\n             午前十時半\n            </time>\n<persName corresp=\"#pers_大倉\">\n<surname>\n              大倉\n             </surname>\n</persName>\n            邸ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0259\">\n<head>\n<date when=\"1915-10-15\">\n           十五日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十時半\n            </time>\n            大倉邸ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            男爵胸像除幕式（帝国劇場、引続キ午餐会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n<persName corresp=\"#pers_三島\">\n<surname>\n              三島\n             </surname>\n</persName>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            銀行総裁ヲ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n<placeName corresp=\"#place_菅原\">\n             菅原\n            </placeName>\n            次官ヲ大蔵省ニ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午后四時\n            </time>\n<persName corresp=\"#pers_阪西\">\n<surname>\n              阪西\n             </surname>\n</persName>\n            大佐来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0259\">\n<head>\n<date when=\"1915-10-15\">\n           十五日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十時半\n            </time>\n<persName corresp=\"#pers_大倉\">\n<surname>\n              大倉\n             </surname>\n</persName>\n            邸ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            男爵胸像除幕式（帝国劇場、引続キ午餐会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n<persName corresp=\"#pers_三島\">\n<surname>\n              三島\n             </surname>\n</persName>\n<orgName>\n             日本銀行\n            </orgName>\n            総裁ヲ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n            東京慈恵会理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n<persName corresp=\"#pers_菅原\">\n<surname>\n              菅原\n             </surname>\n</persName>\n            次官ヲ大蔵省ニ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午后四時\n            </time>\n<persName corresp=\"#pers_阪西\">\n<surname>\n              阪西\n             </surname>\n</persName>\n            大佐来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-10"
 }

@@ -5,6 +5,12 @@
         "笠井重治",
         "徳川家達"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/稲津喬",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/陳煥章",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/笠井重治",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川家達"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1594",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +26,7 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-06",
     "date_lvl2": "1929-06-01",
-    "description": "\n\n\n           一日\n          \n          （土）\n         \n\n\n\n\n             午時\n            \n\n\n              稲津\n             \n\n              喬\n             \n\n            氏来約\n            \n             飛鳥山\n            \n\n\n\n\n\n             午前九半時\n            \n\n\n              陳\n             \n\n              煥章\n             \n\n            来約《（氏脱）》、\n            \n\n              笠井\n             \n\n              重治\n             \n\n            同伴通訳《（氏脱）》ヲ\n            \n             ナス\n            \n\n\n             飛鳥山\n            \n\n\n\n\n\n             午前十一半時\n            \n\n\n              徳川\n             \n\n              家達\n             \n\n            公貴族院議長官舎ニ御訪問\n           \n\n\n\n\n             午前十一・五〇\n            \n            事務所ニ御出勤\n           \n\n\n",
+    "description": "\n\n\n           一日\n          \n          （土）\n         \n\n\n\n\n             午時\n            \n\n\n              稲津\n             \n\n              喬\n             \n\n            氏来約\n            \n             飛鳥山\n            \n\n\n\n\n\n             午前九半時\n            \n\n\n              陳\n             \n\n              煥章\n             \n\n            来約《（氏脱）》、\n            \n\n              笠井\n             \n\n              重治\n             \n\n            同伴通訳《（氏脱）》ヲナス\n            \n\n             飛鳥山\n            \n\n\n\n\n\n             午前十一半時\n            \n\n\n              徳川\n             \n\n              家達\n             \n\n            公貴族院議長官舎ニ御訪問\n           \n\n\n\n\n             午前十一・五〇\n            \n            事務所ニ御出勤\n           \n\n\n",
     "label": "一日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20031m-0076",
@@ -29,8 +35,10 @@
     "sort": "DKB20031m-0075",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
-        "ナス"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1929-06-01",
     "texts": [
@@ -56,10 +64,10 @@
         "DKB20031m-0119"
     ],
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_稲津喬\">\n<surname>\n              稲津\n             </surname>\n<forename>\n              喬\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName></div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_稲津喬\">\n<surname>\n              稲津\n             </surname>\n<forename>\n              喬\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName></div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0075\">\n<head>\n<date when=\"1929-06-01\">\n           一日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_稲津喬\">\n<surname>\n              稲津\n             </surname>\n<forename>\n              喬\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_陳煥章\">\n<surname>\n              陳\n             </surname>\n<forename>\n              煥章\n             </forename>\n</persName>\n            来約《（氏脱）》、\n            <persName corresp=\"#pers_笠井重治\">\n<surname>\n              笠井\n             </surname>\n<forename>\n              重治\n             </forename>\n</persName>\n            同伴通訳《（氏脱）》ヲ\n            <placeName corresp=\"#place_ナス\">\n             ナス\n            </placeName>\n<lb/>\n<placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<persName corresp=\"#pers_徳川家達\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              家達\n             </forename>\n</persName>\n            公貴族院議長官舎ニ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:50:00\">\n             午前十一・五〇\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0075\">\n<head>\n<date when=\"1929-06-01\">\n           一日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_稲津喬\">\n<surname>\n              稲津\n             </surname>\n<forename>\n              喬\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_陳煥章\">\n<surname>\n              陳\n             </surname>\n<forename>\n              煥章\n             </forename>\n</persName>\n            来約《（氏脱）》、\n            <persName corresp=\"#pers_笠井重治\">\n<surname>\n              笠井\n             </surname>\n<forename>\n              重治\n             </forename>\n</persName>\n            同伴通訳《（氏脱）》ヲナス\n            <lb/>\n<placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<persName corresp=\"#pers_徳川家達\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              家達\n             </forename>\n</persName>\n            公貴族院議長官舎ニ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:50:00\">\n             午前十一・五〇\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-06"
 }

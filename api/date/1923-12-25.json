@@ -3,7 +3,15 @@
         "後藤文夫",
         "原富太郎",
         "吉池慶正",
-        "井上"
+        "井上",
+        "市来"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/後藤文夫",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/原富太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/吉池慶正",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/井上",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/市来"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1447",
     "category": {
@@ -20,7 +28,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-12",
     "date_lvl2": "1923-12-25",
-    "description": "\n\n\n           廿五日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n\n\n              後藤\n             \n\n              文夫\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              原\n             \n\n              富太郎\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午前十―十一時\n            \n\n\n              吉池\n             \n\n              慶正\n             \n\n            氏来約　事務所\n           \n\n\n\n\n             午後三時\n            \n\n             日本\n            \n            煉瓦会社総会（工業クラブ）\n           \n\n\n\n\n             午後四時\n            \n            道路改良会理事会（生命保険協会）\n           \n\n\n\n\n             午后五時\n            \n\n\n              井上\n             \n\n            蔵相ト御会見約（銀行クラブ）\n           \n\n\n\n\n             午后五半時\n            \n\n\n              井上\n             \n\n            蔵相、市来日銀総裁招待晩餐（銀行クラブ）\n           \n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n\n\n              後藤\n             \n\n              文夫\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              原\n             \n\n              富太郎\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午前十―十一時\n            \n\n\n              吉池\n             \n\n              慶正\n             \n\n            氏来約　事務所\n           \n\n\n\n\n             午後三時\n            \n\n             日本煉瓦会社\n            \n            総会（工業クラブ）\n           \n\n\n\n\n             午後四時\n            \n            道路改良会理事会（生命保険協会）\n           \n\n\n\n\n             午后五時\n            \n\n\n              井上\n             \n\n            蔵相ト御会見約（銀行クラブ）\n           \n\n\n\n\n             午后五半時\n            \n\n\n              井上\n             \n\n            蔵相、\n            \n\n              市来\n             \n\n            日銀総裁招待晩餐（銀行クラブ）\n           \n\n\n",
     "label": "廿五日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0336",
@@ -28,9 +36,8 @@
     "prev": "DKB20025m-0334",
     "sort": "DKB20025m-0335",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "日本"
-    ],
+    "spatial": [],
+    "spatial_uri": [],
     "temporal": "1923-12-25",
     "texts": [
         "DKB20020m-0144",
@@ -58,7 +65,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_後藤文夫\">\n<surname>\n              後藤\n             </surname>\n<forename>\n              文夫\n             </forename>\n</persName>\n            氏来約（事務所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0335\">\n<head>\n<date when=\"1923-12-25\">\n           廿五日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_後藤文夫\">\n<surname>\n              後藤\n             </surname>\n<forename>\n              文夫\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_原富太郎\">\n<surname>\n              原\n             </surname>\n<forename>\n              富太郎\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"11:00:00\">\n             午前十―十一時\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏来約　事務所\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            煉瓦会社総会（工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            道路改良会理事会（生命保険協会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午后五時\n            </time>\n<persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            蔵相ト御会見約（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午后五半時\n            </time>\n<persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            蔵相、市来日銀総裁招待晩餐（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0335\">\n<head>\n<date when=\"1923-12-25\">\n           廿五日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_後藤文夫\">\n<surname>\n              後藤\n             </surname>\n<forename>\n              文夫\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_原富太郎\">\n<surname>\n              原\n             </surname>\n<forename>\n              富太郎\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"11:00:00\">\n             午前十―十一時\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏来約　事務所\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<orgName>\n             日本煉瓦会社\n            </orgName>\n            総会（工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            道路改良会理事会（生命保険協会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午后五時\n            </time>\n<persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            蔵相ト御会見約（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午后五半時\n            </time>\n<persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            蔵相、\n            <persName corresp=\"#pers_市来\">\n<surname>\n              市来\n             </surname>\n</persName>\n            日銀総裁招待晩餐（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-12"
 }

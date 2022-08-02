@@ -1,7 +1,11 @@
 {
     "agential": [
-        "伊東",
+        "伊東義五郎",
         "井上準之助"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/伊東義五郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/井上準之助"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1165",
     "category": {
@@ -18,7 +22,7 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-09",
     "date_lvl2": "1914-09-22",
-    "description": "\n\n\n           廿二日\n          \n          （火）\n         \n\n\n\n\n             午前十一時\n            \n\n\n              伊東\n             \n\n            義五郎氏来ル約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            教育調査委員会（文部大臣官邸）\n           \n\n\n\n\n             午後四半時\n            \n            財務委員会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時半\n            \n\n\n              井上\n             \n\n              準之助\n             \n\n            氏ヨリ招待（\n            \n             日本\n            \n            銀行舎宅）\n           \n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （火）\n         \n\n\n\n\n             午前十一時\n            \n\n\n              伊東\n             \n\n              義五郎\n             \n\n            氏来ル約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            教育調査委員会（文部大臣官邸）\n           \n\n\n\n\n             午後四半時\n            \n            財務委員会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時半\n            \n\n\n              井上\n             \n\n              準之助\n             \n\n            氏ヨリ招待（\n            \n             日本銀行\n            \n            舎宅）\n           \n\n\n",
     "label": "廿二日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20016m-0007",
@@ -27,8 +31,10 @@
     "sort": "DKB20016m-0006",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "日本橋兜町",
-        "日本"
+        "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1914-09-22",
     "texts": [
@@ -54,10 +60,10 @@
         "DKB20023m-0199"
     ],
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_伊東\">\n<surname>\n              伊東\n             </surname>\n</persName>\n            義五郎氏来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_伊東義五郎\">\n<surname>\n              伊東\n             </surname>\n<forename>\n              義五郎\n             </forename>\n</persName>\n            氏来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0006\">\n<head>\n<date when=\"1914-09-22\">\n           廿二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_伊東\">\n<surname>\n              伊東\n             </surname>\n</persName>\n            義五郎氏来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            教育調査委員会（文部大臣官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            財務委員会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五時半\n            </time>\n<persName corresp=\"#pers_井上準之助\">\n<surname>\n              井上\n             </surname>\n<forename>\n              準之助\n             </forename>\n</persName>\n            氏ヨリ招待（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            銀行舎宅）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0006\">\n<head>\n<date when=\"1914-09-22\">\n           廿二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_伊東義五郎\">\n<surname>\n              伊東\n             </surname>\n<forename>\n              義五郎\n             </forename>\n</persName>\n            氏来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            教育調査委員会（文部大臣官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            財務委員会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五時半\n            </time>\n<persName corresp=\"#pers_井上準之助\">\n<surname>\n              井上\n             </surname>\n<forename>\n              準之助\n             </forename>\n</persName>\n            氏ヨリ招待（\n            <orgName>\n             日本銀行\n            </orgName>\n            舎宅）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-09"
 }

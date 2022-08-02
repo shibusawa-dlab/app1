@@ -1,10 +1,19 @@
 {
     "agential": [
+        "プスター",
         "シユエーダー",
         "斎藤恒三",
         "伊藤",
         "大隈",
         "阪谷"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/プスター",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/シユエーダー",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/斎藤恒三",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/伊藤",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大隈",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/阪谷"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/425",
     "category": {
@@ -21,7 +30,7 @@
     "date_lvl0": "1906",
     "date_lvl1": "1906-01",
     "date_lvl2": "1906-01-15",
-    "description": "\n\n\n        一月十五日\n       \n       晴　風ナシ　　　　　　　　　　起床\n       \n        七時\n       \n       就蓐\n       \n        十二時\n       \n\n\n       起床後直ニ入浴シ畢テ朝飧ヲ喫ス、\n       \n        午前十時\n       \n\n        兜町\n       \n       事務所ニ抵リ、独乙人海軍大佐プスター氏来訪ニ接ス、英国人\n       \n        シユエーダー\n       \n       氏来リ内地事業ニ関シ種々ノ談話アリ、\n       \n        正午\n       \n\n        第一銀行\n       \n       ニ於テ午飧ス、三重紡績\n       \n\n         斎藤\n        \n\n         恒三\n        \n\n       氏来話ス、食後事務所ニ於テ書類ヲ調査シ、\n       \n        三時\n       \n       海上保険会社ニ抵リ重役会ヲ開ク、\n       \n        午後五時半\n       \n\n        銀行倶楽部\n       \n       新年会ニ出席ス、\n       \n\n         伊藤\n        \n\n       侯爵\n       \n\n         大隈\n        \n\n       伯爵、\n       \n\n         阪谷\n        \n\n       大蔵大臣等会合シテ頗ル盛会ナリキ、食卓上一場ノ演説ヲ為シ、夜\n       \n        十一時\n       \n       過\n       \n        王子別荘\n       \n       ニ帰宿ス\n      \n",
+    "description": "\n\n\n        一月十五日\n       \n       晴　風ナシ　　　　　　　　　　起床\n       \n        七時\n       \n       就蓐\n       \n        十二時\n       \n\n\n       起床後直ニ入浴シ畢テ朝飧ヲ喫ス、\n       \n        午前十時\n       \n\n        兜町\n       \n       事務所ニ抵リ、独乙人海軍大佐\n       \n\n         プスター\n        \n\n       氏来訪ニ接ス、英国人\n       \n        シユエーダー\n       \n       氏来リ内地事業ニ関シ種々ノ談話アリ、\n       \n        正午\n       \n\n        第一銀行\n       \n       ニ於テ午飧ス、三重紡績\n       \n\n         斎藤\n        \n\n         恒三\n        \n\n       氏来話ス、食後事務所ニ於テ書類ヲ調査シ、\n       \n        三時\n       \n       海上保険会社ニ抵リ重役会ヲ開ク、\n       \n        午後五時半\n       \n\n        銀行倶楽部\n       \n       新年会ニ出席ス、\n       \n\n         伊藤\n        \n\n       侯爵\n       \n\n         大隈\n        \n\n       伯爵、\n       \n\n         阪谷\n        \n\n       大蔵大臣等会合シテ頗ル盛会ナリキ、食卓上一場ノ演説ヲ為シ、夜\n       \n        十一時\n       \n       過\n       \n        王子別荘\n       \n       ニ帰宿ス\n      \n",
     "label": "一月十五日              晴　風ナシ　　　　　　　　　　起床               七時              就蓐               十二時",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10014m-0016",
@@ -31,7 +40,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "日本橋兜町",
-        "王子別荘"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1906-01-15",
     "texts": [
@@ -57,14 +70,14 @@
         "DKB10014m-0137"
     ],
     "time": {
-        "10:00:00": "<div>起床後直ニ入浴シ畢テ朝飧ヲ喫ス、<time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ、独乙人海軍大佐プスター氏来訪ニ接ス、英国人\n       <persName corresp=\"#pers_シユエーダー\">\n        シユエーダー\n       </persName>\n       氏来リ内地事業ニ関シ種々ノ談話アリ、</div>",
+        "10:00:00": "<div>起床後直ニ入浴シ畢テ朝飧ヲ喫ス、<time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ、独乙人海軍大佐\n       <persName corresp=\"#pers_プスター\">\n<surname>\n         プスター\n        </surname>\n</persName>\n       氏来訪ニ接ス、英国人\n       <persName corresp=\"#pers_シユエーダー\">\n        シユエーダー\n       </persName>\n       氏来リ内地事業ニ関シ種々ノ談話アリ、</div>",
         "12:00:00": "<div><time when=\"12:00:00\">\n        正午\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧ス、三重紡績\n       <persName corresp=\"#pers_斎藤恒三\">\n<surname>\n         斎藤\n        </surname>\n<forename>\n         恒三\n        </forename>\n</persName>\n       氏来話ス、食後事務所ニ於テ書類ヲ調査シ、</div>",
         "15:00:00": "<div><time when=\"15:00:00\">\n        三時\n       </time>\n       海上保険会社ニ抵リ重役会ヲ開ク、</div>",
         "17:30:00": "<div><time when=\"17:30:00\">\n        午後五時半\n       </time>\n<orgName>\n        銀行倶楽部\n       </orgName>\n       新年会ニ出席ス、\n       <persName corresp=\"#pers_伊藤\">\n<surname>\n         伊藤\n        </surname>\n</persName>\n       侯爵\n       <persName corresp=\"#pers_大隈\">\n<surname>\n         大隈\n        </surname>\n</persName>\n       伯爵、\n       <persName corresp=\"#pers_阪谷\">\n<surname>\n         阪谷\n        </surname>\n</persName>\n       大蔵大臣等会合シテ頗ル盛会ナリキ、食卓上一場ノ演説ヲ為シ、夜</div>",
-        "23:00:00": "<div><time when=\"23:00:00\">\n        十一時\n       </time>\n       過\n       <placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
+        "23:00:00": "<div><time when=\"23:00:00\">\n        十一時\n       </time>\n       過\n       <placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10014m-0015\">\n<head>\n<date when=\"1906-01-15\">\n        一月十五日\n       </date>\n       晴　風ナシ　　　　　　　　　　起床\n       <time when=\"07:00:00\">\n        七時\n       </time>\n       就蓐\n       <time when-iso=\"1906-01-16T00:00+0900\">\n        十二時\n       </time>\n</head>\n<p>\n       起床後直ニ入浴シ畢テ朝飧ヲ喫ス、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ、独乙人海軍大佐プスター氏来訪ニ接ス、英国人\n       <persName corresp=\"#pers_シユエーダー\">\n        シユエーダー\n       </persName>\n       氏来リ内地事業ニ関シ種々ノ談話アリ、\n       <time when=\"12:00:00\">\n        正午\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧ス、三重紡績\n       <persName corresp=\"#pers_斎藤恒三\">\n<surname>\n         斎藤\n        </surname>\n<forename>\n         恒三\n        </forename>\n</persName>\n       氏来話ス、食後事務所ニ於テ書類ヲ調査シ、\n       <time when=\"15:00:00\">\n        三時\n       </time>\n       海上保険会社ニ抵リ重役会ヲ開ク、\n       <time when=\"17:30:00\">\n        午後五時半\n       </time>\n<orgName>\n        銀行倶楽部\n       </orgName>\n       新年会ニ出席ス、\n       <persName corresp=\"#pers_伊藤\">\n<surname>\n         伊藤\n        </surname>\n</persName>\n       侯爵\n       <persName corresp=\"#pers_大隈\">\n<surname>\n         大隈\n        </surname>\n</persName>\n       伯爵、\n       <persName corresp=\"#pers_阪谷\">\n<surname>\n         阪谷\n        </surname>\n</persName>\n       大蔵大臣等会合シテ頗ル盛会ナリキ、食卓上一場ノ演説ヲ為シ、夜\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n       過\n       <placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10014m-0015\">\n<head>\n<date when=\"1906-01-15\">\n        一月十五日\n       </date>\n       晴　風ナシ　　　　　　　　　　起床\n       <time when=\"07:00:00\">\n        七時\n       </time>\n       就蓐\n       <time when-iso=\"1906-01-16T00:00+0900\">\n        十二時\n       </time>\n</head>\n<p>\n       起床後直ニ入浴シ畢テ朝飧ヲ喫ス、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ、独乙人海軍大佐\n       <persName corresp=\"#pers_プスター\">\n<surname>\n         プスター\n        </surname>\n</persName>\n       氏来訪ニ接ス、英国人\n       <persName corresp=\"#pers_シユエーダー\">\n        シユエーダー\n       </persName>\n       氏来リ内地事業ニ関シ種々ノ談話アリ、\n       <time when=\"12:00:00\">\n        正午\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧ス、三重紡績\n       <persName corresp=\"#pers_斎藤恒三\">\n<surname>\n         斎藤\n        </surname>\n<forename>\n         恒三\n        </forename>\n</persName>\n       氏来話ス、食後事務所ニ於テ書類ヲ調査シ、\n       <time when=\"15:00:00\">\n        三時\n       </time>\n       海上保険会社ニ抵リ重役会ヲ開ク、\n       <time when=\"17:30:00\">\n        午後五時半\n       </time>\n<orgName>\n        銀行倶楽部\n       </orgName>\n       新年会ニ出席ス、\n       <persName corresp=\"#pers_伊藤\">\n<surname>\n         伊藤\n        </surname>\n</persName>\n       侯爵\n       <persName corresp=\"#pers_大隈\">\n<surname>\n         大隈\n        </surname>\n</persName>\n       伯爵、\n       <persName corresp=\"#pers_阪谷\">\n<surname>\n         阪谷\n        </surname>\n</persName>\n       大蔵大臣等会合シテ頗ル盛会ナリキ、食卓上一場ノ演説ヲ為シ、夜\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n       過\n       <placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1906",
     "yearAndMonth": "1906-01"
 }

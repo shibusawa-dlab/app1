@@ -1,7 +1,13 @@
 {
     "agential": [
         "松平頼寿",
+        "大倉",
         "徳川"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松平頼寿",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大倉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1368",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-06",
     "date_lvl2": "1921-06-30",
-    "description": "\n\n\n           三十日\n          \n          （木）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              松平\n             \n\n              頼寿\n             \n\n            伯ヲ御訪問（同氏邸）\n           \n\n\n\n\n             午後二時\n            \n            大倉男\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後二半―三時\n            \n\n             東京\n            \n            慈恵会ヘ御出向ノ約\n           \n\n\n\n\n             午後四時\n            \n            聖徳太子千三百年遠忌奉賛会評議員（\n            \n\n              徳川\n             \n\n            侯邸）《（会脱）》\n           \n\n\n\n\n             午後六時\n            \n            同会晩餐会（同邸）\n           \n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （木）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              松平\n             \n\n              頼寿\n             \n\n            伯ヲ御訪問（同氏邸）\n           \n\n\n\n\n             午後二時\n            \n\n\n              大倉\n             \n\n            男\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後二半―三時\n            \n\n             東京\n            \n            慈恵会ヘ御出向ノ約\n           \n\n\n\n\n             午後四時\n            \n            聖徳太子千三百年遠忌奉賛会評議員（\n            \n\n              徳川\n             \n\n            侯邸）《（会脱）》\n           \n\n\n\n\n             午後六時\n            \n            同会晩餐会（同邸）\n           \n\n\n",
     "label": "三十日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0175",
@@ -29,6 +35,10 @@
     "spatial": [
         "日本橋兜町",
         "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1921-06-30",
     "texts": [
@@ -57,7 +67,7 @@
         "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_松平頼寿\">\n<surname>\n              松平\n             </surname>\n<forename>\n              頼寿\n             </forename>\n</persName>\n            伯ヲ御訪問（同氏邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0174\">\n<head>\n<date when=\"1921-06-30\">\n           三十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_松平頼寿\">\n<surname>\n              松平\n             </surname>\n<forename>\n              頼寿\n             </forename>\n</persName>\n            伯ヲ御訪問（同氏邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            大倉男\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:30:00\" to=\"14:00:00\">\n             午後二半―三時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会ヘ御出向ノ約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            聖徳太子千三百年遠忌奉賛会評議員（\n            <persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            侯邸）《（会脱）》\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            同会晩餐会（同邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0174\">\n<head>\n<date when=\"1921-06-30\">\n           三十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_松平頼寿\">\n<surname>\n              松平\n             </surname>\n<forename>\n              頼寿\n             </forename>\n</persName>\n            伯ヲ御訪問（同氏邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_大倉\">\n<surname>\n              大倉\n             </surname>\n</persName>\n            男\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:30:00\" to=\"14:00:00\">\n             午後二半―三時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会ヘ御出向ノ約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            聖徳太子千三百年遠忌奉賛会評議員（\n            <persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            侯邸）《（会脱）》\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            同会晩餐会（同邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-06"
 }

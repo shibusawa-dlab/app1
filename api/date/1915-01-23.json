@@ -1,7 +1,6 @@
 {
-    "agential": [
-        "渋沢"
-    ],
+    "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1175",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +16,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-01",
     "date_lvl2": "1915-01-23",
-    "description": "\n\n\n           廿三日\n          \n          （土）\n         \n\n\n\n\n             午前九時半\n            \n            消防ノ件（商業会議所）\n           \n\n\n\n\n             午後一時半\n            \n            明治神宮奉賛会（内務省）\n           \n\n\n\n\n             午後二時\n            \n\n\n              渋沢\n             \n\n            倉庫総会（同社本店）\n           \n\n\n\n\n             午後五時\n            \n\n             埼玉\n            \n            学生誘掖会茶話会（同会）　○欠席\n           \n\n\n",
+    "description": "\n\n\n           廿三日\n          \n          （土）\n         \n\n\n\n\n             午前九時半\n            \n            消防ノ件（商業会議所）\n           \n\n\n\n\n             午後一時半\n            \n            明治神宮奉賛会（内務省）\n           \n\n\n\n\n             午後二時\n            \n\n             渋沢倉庫\n            \n            総会（同社本店）\n           \n\n\n\n\n             午後五時\n            \n\n             埼玉学生誘掖会\n            \n            茶話会（同会）　○欠席\n           \n\n\n",
     "label": "廿三日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0022",
@@ -25,9 +24,8 @@
     "prev": "DKB20017m-0020",
     "sort": "DKB20017m-0021",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "埼玉"
-    ],
+    "spatial": [],
+    "spatial_uri": [],
     "temporal": "1915-01-23",
     "texts": [
         "DKB20022m-0252",
@@ -55,7 +53,7 @@
         "09:30:00": "<div><time when=\"09:30:00\">\n             午前九時半\n            </time>\n            消防ノ件（商業会議所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0021\">\n<head>\n<date when=\"1915-01-23\">\n           廿三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九時半\n            </time>\n            消防ノ件（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一時半\n            </time>\n            明治神宮奉賛会（内務省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            倉庫総会（同社本店）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会茶話会（同会）　○欠席\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0021\">\n<head>\n<date when=\"1915-01-23\">\n           廿三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九時半\n            </time>\n            消防ノ件（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一時半\n            </time>\n            明治神宮奉賛会（内務省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<orgName>\n             渋沢倉庫\n            </orgName>\n            総会（同社本店）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<orgName>\n             埼玉学生誘掖会\n            </orgName>\n            茶話会（同会）　○欠席\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-01"
 }

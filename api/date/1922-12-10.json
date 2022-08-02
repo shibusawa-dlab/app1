@@ -1,6 +1,11 @@
 {
     "agential": [
-        "高木陸郎"
+        "高木陸郎",
+        "市来"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高木陸郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/市来"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1414",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-12",
     "date_lvl2": "1922-12-10",
-    "description": "\n\n\n           十日\n          \n          （日）\n         \n\n\n\n\n             午前十一時\n            \n\n\n              高木\n             \n\n              陸郎\n             \n\n            氏と共ニ\n            \n             市来\n            \n            大蔵大臣ヲ御訪問（\n            \n             永田町\n            \n            官舎）\n           \n\n\n",
+    "description": "\n\n\n           十日\n          \n          （日）\n         \n\n\n\n\n             午前十一時\n            \n\n\n              高木\n             \n\n              陸郎\n             \n\n            氏と共ニ\n            \n\n              市来\n             \n\n            大蔵大臣ヲ御訪問（\n            \n             永田町\n            \n            官舎）\n           \n\n\n",
     "label": "十日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0309",
@@ -26,8 +31,10 @@
     "sort": "DKB20024m-0308",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "市来",
         "永田町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/永田町"
     ],
     "temporal": "1922-12-10",
     "texts": [
@@ -53,10 +60,10 @@
         "DKB20027m-0100"
     ],
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_高木陸郎\">\n<surname>\n              高木\n             </surname>\n<forename>\n              陸郎\n             </forename>\n</persName>\n            氏と共ニ\n            <placeName corresp=\"#place_市来\">\n             市来\n            </placeName>\n            大蔵大臣ヲ御訪問（\n            <placeName corresp=\"#place_永田町\">\n             永田町\n            </placeName>\n            官舎）</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_高木陸郎\">\n<surname>\n              高木\n             </surname>\n<forename>\n              陸郎\n             </forename>\n</persName>\n            氏と共ニ\n            <persName corresp=\"#pers_市来\">\n<surname>\n              市来\n             </surname>\n</persName>\n            大蔵大臣ヲ御訪問（\n            <placeName corresp=\"#place_永田町\">\n             永田町\n            </placeName>\n            官舎）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0308\">\n<head>\n<date when=\"1922-12-10\">\n           十日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_高木陸郎\">\n<surname>\n              高木\n             </surname>\n<forename>\n              陸郎\n             </forename>\n</persName>\n            氏と共ニ\n            <placeName corresp=\"#place_市来\">\n             市来\n            </placeName>\n            大蔵大臣ヲ御訪問（\n            <placeName corresp=\"#place_永田町\">\n             永田町\n            </placeName>\n            官舎）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0308\">\n<head>\n<date when=\"1922-12-10\">\n           十日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_高木陸郎\">\n<surname>\n              高木\n             </surname>\n<forename>\n              陸郎\n             </forename>\n</persName>\n            氏と共ニ\n            <persName corresp=\"#pers_市来\">\n<surname>\n              市来\n             </surname>\n</persName>\n            大蔵大臣ヲ御訪問（\n            <placeName corresp=\"#place_永田町\">\n             永田町\n            </placeName>\n            官舎）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-12"
 }

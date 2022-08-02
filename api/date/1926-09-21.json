@@ -9,6 +9,16 @@
         "佐伯",
         "渡辺得男"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/永野護",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岸本市太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/水野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田中館",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/原",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/伊沢",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐伯",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渡辺得男"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1523",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -33,9 +43,14 @@
     "sort": "DKB20028m-0244",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山",
+        "飛鳥山邸",
         "東京",
         "横浜"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/横浜"
     ],
     "temporal": "1926-09-21",
     "texts": [
@@ -61,10 +76,10 @@
         "DKB20028m-0068"
     ],
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_永野護\">\n<surname>\n              永野\n             </surname>\n<forename>\n              護\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_永野護\">\n<surname>\n              永野\n             </surname>\n<forename>\n              護\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0244\">\n<head>\n<date when=\"1926-09-21\">\n           廿一日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_永野護\">\n<surname>\n              永野\n             </surname>\n<forename>\n              護\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_岸本市太郎\">\n<surname>\n              岸本\n             </surname>\n<forename>\n              市太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2684\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1523/full/max/0/default.jpg\" n=\"B2684\" source=\"#pageB2684\"/>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            国際聯盟理事会、引続キ\n            <persName corresp=\"#pers_水野\">\n<surname>\n              水野\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_田中館\">\n<surname>\n              田中館\n             </surname>\n</persName>\n<persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_伊沢\">\n<surname>\n              伊沢\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_佐伯\">\n<surname>\n              佐伯\n             </surname>\n</persName>\n            ノ諸氏迎送午餐会（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:10:00\">\n             午後零一〇\n            </time>\n<persName corresp=\"#pers_渡辺得男\">\n<surname>\n              渡辺\n             </surname>\n<forename>\n              得男\n             </forename>\n</persName>\n            氏欧米旅行ノ為メ御出発（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            出帆プレシデント・ピア―ス号ニテ\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0244\">\n<head>\n<date when=\"1926-09-21\">\n           廿一日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_永野護\">\n<surname>\n              永野\n             </surname>\n<forename>\n              護\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_岸本市太郎\">\n<surname>\n              岸本\n             </surname>\n<forename>\n              市太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2684\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1523/full/max/0/default.jpg\" n=\"B2684\" source=\"#pageB2684\"/>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            国際聯盟理事会、引続キ\n            <persName corresp=\"#pers_水野\">\n<surname>\n              水野\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_田中館\">\n<surname>\n              田中館\n             </surname>\n</persName>\n<persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_伊沢\">\n<surname>\n              伊沢\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_佐伯\">\n<surname>\n              佐伯\n             </surname>\n</persName>\n            ノ諸氏迎送午餐会（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:10:00\">\n             午後零一〇\n            </time>\n<persName corresp=\"#pers_渡辺得男\">\n<surname>\n              渡辺\n             </surname>\n<forename>\n              得男\n             </forename>\n</persName>\n            氏欧米旅行ノ為メ御出発（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            出帆プレシデント・ピア―ス号ニテ\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-09"
 }

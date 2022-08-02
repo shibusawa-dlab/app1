@@ -1,6 +1,9 @@
 {
     "agential": [
-        "胡維"
+        "胡惟徳"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/胡惟徳"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1372",
     "category": {
@@ -17,7 +20,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-08",
     "date_lvl2": "1921-08-02",
-    "description": "\n\n\n           二日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n\n             井之頭\n            \n            水泳場会場式《（開）》（同場）\n           \n\n\n\n\n             引続\n            \n            同分院ヘ御出向\n           \n\n\n\n\n             午後七時\n            \n\n             支那\n            \n            公使\n            \n\n              胡\n             \n\n              維\n             \n\n            徳氏《（胡惟徳氏）》ヨリ御案内（同公使館、略服）\n           \n\n\n",
+    "description": "\n\n\n           二日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n\n             井之頭\n            \n            水泳場会場式《（開）》（同場）\n           \n\n\n\n\n             引続\n            \n            同分院ヘ御出向\n           \n\n\n\n\n             午後七時\n            \n\n             支那\n            \n            公使胡維徳氏《（\n            \n\n              胡\n             \n\n              惟徳\n             \n\n            氏）》ヨリ御案内（同公使館、略服）\n           \n\n\n",
     "label": "二日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0208",
@@ -28,6 +31,10 @@
     "spatial": [
         "井之頭",
         "支那"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/井之頭",
+        "https://shibusawa-dlab.github.io/lab1/api/place/支那"
     ],
     "temporal": "1921-08-02",
     "texts": [
@@ -56,7 +63,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_井之頭\">\n             井之頭\n            </placeName>\n            水泳場会場式《（開）》（同場）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0207\">\n<head>\n<date when=\"1921-08-02\">\n           二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_井之頭\">\n             井之頭\n            </placeName>\n            水泳場会場式《（開）》（同場）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続\n            </time>\n            同分院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n<placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            公使\n            <persName corresp=\"#pers_胡維\">\n<surname>\n              胡\n             </surname>\n<forename>\n              維\n             </forename>\n</persName>\n            徳氏《（胡惟徳氏）》ヨリ御案内（同公使館、略服）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0207\">\n<head>\n<date when=\"1921-08-02\">\n           二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_井之頭\">\n             井之頭\n            </placeName>\n            水泳場会場式《（開）》（同場）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続\n            </time>\n            同分院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n<placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            公使胡維徳氏《（\n            <persName corresp=\"#pers_胡惟徳\">\n<surname>\n              胡\n             </surname>\n<forename>\n              惟徳\n             </forename>\n</persName>\n            氏）》ヨリ御案内（同公使館、略服）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-08"
 }

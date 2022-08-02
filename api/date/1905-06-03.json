@@ -2,6 +2,9 @@
     "agential": [
         "イリス"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/イリス"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/396",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -17,7 +20,7 @@
     "date_lvl0": "1905",
     "date_lvl1": "1905-06",
     "date_lvl2": "1905-06-03",
-    "description": "\n\n\n        六月三日\n       \n       土　曇　風強シ\n      \n\n\n        午前七時\n       \n       起床、園内ヲ散歩シ、\n       \n        八時\n       \n       朝飧ヲ畢ル、食後新聞紙ヲ一覧シ\n       \n        午前十時\n       \n\n        兜町\n       \n       事務所ニ抵リ事務ヲ処理ス、\n       \n        十二時\n       \n\n        蠣殻町\n       \n       ニ抵リテ午飧シ、\n       \n        午後一時\n       \n       瓦斯会社株主総会ニ出席ス、畢テ\n       \n        午後二時\n       \n       過キ埼玉学生誘掖会ニ出席シ、\n       \n        四時半\n       \n\n        新橋\n       \n       ニ抵リ汽車ニテ\n       \n        横浜\n       \n       ニ抵ル、\n       \n        第一銀行\n       \n       支店ニ休憩シ、\n       \n        七時\n       \n       オリエンタル・ホテルニ於テ\n       \n\n         イリス\n        \n\n       氏ノ晩飧会ニ出席ス、夜\n       \n        十二時\n       \n       過\n       \n        新橋\n       \n       ニ抵リ、\n       \n        午後一時\n       \n\n        王子別荘\n       \n       《（午前）》ニ帰宿ス\n      \n",
+    "description": "\n\n\n        六月三日\n       \n       土　曇　風強シ\n      \n\n\n        午前七時\n       \n       起床、園内ヲ散歩シ、\n       \n        八時\n       \n       朝飧ヲ畢ル、食後新聞紙ヲ一覧シ\n       \n        午前十時\n       \n\n        兜町\n       \n       事務所ニ抵リ事務ヲ処理ス、\n       \n        十二時\n       \n\n        蠣殻町\n       \n       ニ抵リテ午飧シ、\n       \n        午後一時\n       \n       瓦斯会社株主総会ニ出席ス、畢テ\n       \n        午後二時\n       \n       過キ\n       \n        埼玉学生誘掖会\n       \n       ニ出席シ、\n       \n        四時半\n       \n\n        新橋\n       \n       ニ抵リ汽車ニテ\n       \n        横浜\n       \n       ニ抵ル、\n       \n        第一銀行\n       \n       支店ニ休憩シ、\n       \n        七時\n       \n       オリエンタル・ホテルニ於テ\n       \n\n         イリス\n        \n\n       氏ノ晩飧会ニ出席ス、夜\n       \n        十二時\n       \n       過\n       \n        新橋\n       \n       ニ抵リ、\n       \n        午後一時\n       \n\n        王子別荘\n       \n       《（午前）》ニ帰宿ス\n      \n",
     "label": "六月三日              土　曇　風強シ",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10013m-0155",
@@ -30,7 +33,14 @@
         "日本橋蛎殻町",
         "新橋",
         "横浜",
-        "王子別荘"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋蛎殻町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/新橋",
+        "https://shibusawa-dlab.github.io/lab1/api/place/横浜",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1905-06-03",
     "texts": [
@@ -61,14 +71,14 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ事務ヲ処理ス、</div>",
         "12:00:00": "<div><time when=\"12:00:00\">\n        十二時\n       </time>\n<placeName corresp=\"#place_日本橋蛎殻町\">\n        蠣殻町\n       </placeName>\n       ニ抵リテ午飧シ、</div>",
         "13:00:00": "<div><time when=\"13:00:00\">\n        午後一時\n       </time>\n       瓦斯会社株主総会ニ出席ス、畢テ</div>",
-        "14:00:00": "<div><time when=\"14:00:00\">\n        午後二時\n       </time>\n       過キ埼玉学生誘掖会ニ出席シ、</div>",
+        "14:00:00": "<div><time when=\"14:00:00\">\n        午後二時\n       </time>\n       過キ\n       <orgName>\n        埼玉学生誘掖会\n       </orgName>\n       ニ出席シ、</div>",
         "16:30:00": "<div><time when=\"16:30:00\">\n        四時半\n       </time>\n<placeName corresp=\"#place_新橋\">\n        新橋\n       </placeName>\n       ニ抵リ汽車ニテ\n       <placeName corresp=\"#place_横浜\">\n        横浜\n       </placeName>\n       ニ抵ル、\n       <orgName>\n        第一銀行\n       </orgName>\n       支店ニ休憩シ、</div>",
         "19:00:00": "<div><time when=\"19:00:00\">\n        七時\n       </time>\n       オリエンタル・ホテルニ於テ\n       <persName corresp=\"#pers_イリス\">\n<surname>\n         イリス\n        </surname>\n</persName>\n       氏ノ晩飧会ニ出席ス、夜</div>",
         "24:00:00": "<div><time when-iso=\"1905-06-04T00:00+0900\">\n        十二時\n       </time>\n       過\n       <placeName corresp=\"#place_新橋\">\n        新橋\n       </placeName>\n       ニ抵リ、</div>",
-        "25:00:00": "<div><time when-iso=\"1905-06-04T01:00+0900\">\n        午後一時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       《（午前）》ニ帰宿ス</div>"
+        "25:00:00": "<div><time when-iso=\"1905-06-04T01:00+0900\">\n        午後一時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       《（午前）》ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10013m-0154\">\n<head>\n<date when=\"1905-06-03\">\n        六月三日\n       </date>\n       土　曇　風強シ\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、園内ヲ散歩シ、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ畢ル、食後新聞紙ヲ一覧シ\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ事務ヲ処理ス、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n<placeName corresp=\"#place_日本橋蛎殻町\">\n        蠣殻町\n       </placeName>\n       ニ抵リテ午飧シ、\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n       瓦斯会社株主総会ニ出席ス、畢テ\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n       過キ埼玉学生誘掖会ニ出席シ、\n       <time when=\"16:30:00\">\n        四時半\n       </time>\n<placeName corresp=\"#place_新橋\">\n        新橋\n       </placeName>\n       ニ抵リ汽車ニテ\n       <placeName corresp=\"#place_横浜\">\n        横浜\n       </placeName>\n       ニ抵ル、\n       <orgName>\n        第一銀行\n       </orgName>\n       支店ニ休憩シ、\n       <time when=\"19:00:00\">\n        七時\n       </time>\n       オリエンタル・ホテルニ於テ\n       <persName corresp=\"#pers_イリス\">\n<surname>\n         イリス\n        </surname>\n</persName>\n       氏ノ晩飧会ニ出席ス、夜\n       <time when-iso=\"1905-06-04T00:00+0900\">\n        十二時\n       </time>\n       過\n       <placeName corresp=\"#place_新橋\">\n        新橋\n       </placeName>\n       ニ抵リ、\n       <time when-iso=\"1905-06-04T01:00+0900\">\n        午後一時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       《（午前）》ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10013m-0154\">\n<head>\n<date when=\"1905-06-03\">\n        六月三日\n       </date>\n       土　曇　風強シ\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、園内ヲ散歩シ、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ畢ル、食後新聞紙ヲ一覧シ\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ事務ヲ処理ス、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n<placeName corresp=\"#place_日本橋蛎殻町\">\n        蠣殻町\n       </placeName>\n       ニ抵リテ午飧シ、\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n       瓦斯会社株主総会ニ出席ス、畢テ\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n       過キ\n       <orgName>\n        埼玉学生誘掖会\n       </orgName>\n       ニ出席シ、\n       <time when=\"16:30:00\">\n        四時半\n       </time>\n<placeName corresp=\"#place_新橋\">\n        新橋\n       </placeName>\n       ニ抵リ汽車ニテ\n       <placeName corresp=\"#place_横浜\">\n        横浜\n       </placeName>\n       ニ抵ル、\n       <orgName>\n        第一銀行\n       </orgName>\n       支店ニ休憩シ、\n       <time when=\"19:00:00\">\n        七時\n       </time>\n       オリエンタル・ホテルニ於テ\n       <persName corresp=\"#pers_イリス\">\n<surname>\n         イリス\n        </surname>\n</persName>\n       氏ノ晩飧会ニ出席ス、夜\n       <time when-iso=\"1905-06-04T00:00+0900\">\n        十二時\n       </time>\n       過\n       <placeName corresp=\"#place_新橋\">\n        新橋\n       </placeName>\n       ニ抵リ、\n       <time when-iso=\"1905-06-04T01:00+0900\">\n        午後一時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       《（午前）》ニ帰宿ス\n      </p>\n</div>",
     "year": "1905",
     "yearAndMonth": "1905-06"
 }

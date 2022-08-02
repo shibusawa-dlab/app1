@@ -1,7 +1,6 @@
 {
-    "agential": [
-        "永楽"
-    ],
+    "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1305",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +16,7 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-08",
     "date_lvl2": "1919-08-06",
-    "description": "\n\n\n           六日\n          \n          （水）\n         \n\n\n\n\n             午前十時十六分\n            \n\n             王子\n            \n            駅発\n            \n             塩原\n            \n            ヘ御出向\n           \n\n\n\n\n             午〇時半\n            \n            日米協会常例午餐会（帝国ホテル）\n           \n\n\n\n\n             午後四時\n            \n            道路改良会理事会（\n            \n\n              永楽\n             \n\n            クラブ）\n           \n\n\n",
+    "description": "\n\n\n           六日\n          \n          （水）\n         \n\n\n\n\n             午前十時十六分\n            \n\n             王子\n            \n            駅発\n            \n             塩原\n            \n            ヘ御出向\n           \n\n\n\n\n             午〇時半\n            \n            日米協会常例午餐会（帝国ホテル）\n           \n\n\n\n\n             午後四時\n            \n            道路改良会理事会（永楽クラブ）\n           \n\n\n",
     "label": "六日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0194",
@@ -28,6 +27,10 @@
     "spatial": [
         "王子",
         "塩原"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子",
+        "https://shibusawa-dlab.github.io/lab1/api/place/塩原"
     ],
     "temporal": "1919-08-06",
     "texts": [
@@ -56,7 +59,7 @@
         "10:16:00": "<div><time when=\"10:16:00\">\n             午前十時十六分\n            </time>\n<placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅発\n            <placeName corresp=\"#place_塩原\">\n             塩原\n            </placeName>\n            ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0193\">\n<head>\n<date when=\"1919-08-06\">\n           六日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:16:00\">\n             午前十時十六分\n            </time>\n<placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅発\n            <placeName corresp=\"#place_塩原\">\n             塩原\n            </placeName>\n            ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午〇時半\n            </time>\n            日米協会常例午餐会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            道路改良会理事会（\n            <persName corresp=\"#pers_永楽\">\n<surname>\n              永楽\n             </surname>\n</persName>\n            クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0193\">\n<head>\n<date when=\"1919-08-06\">\n           六日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:16:00\">\n             午前十時十六分\n            </time>\n<placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅発\n            <placeName corresp=\"#place_塩原\">\n             塩原\n            </placeName>\n            ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午〇時半\n            </time>\n            日米協会常例午餐会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            道路改良会理事会（永楽クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-08"
 }

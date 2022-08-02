@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1271",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-06",
     "date_lvl2": "1918-06-20",
-    "description": "\n\n\n           二十日\n          \n          （木）\n         \n\n\n\n\n             午前十時半\n            \n            理化学研究所評議員会（商業会議所）\n           \n\n\n\n\n             午後三時\n            \n\n             東京\n            \n            高等商業学校ニて御講演\n           \n\n\n\n\n             午後六時\n            \n            日華学会晩餐会（築地精養軒）\n           \n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （木）\n         \n\n\n\n\n             午前十時半\n            \n            理化学研究所評議員会（商業会議所）\n           \n\n\n\n\n             午後三時\n            \n\n             東京\n            \n            高等商業学校ニて御講演\n           \n\n\n\n\n             午後六時\n            \n            日華学会晩餐会（\n            \n             築地\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
     "label": "二十日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0166",
@@ -24,7 +25,12 @@
     "sort": "DKB20020m-0165",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "東京"
+        "東京",
+        "築地"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
     ],
     "temporal": "1918-06-20",
     "texts": [
@@ -53,7 +59,7 @@
         "10:30:00": "<div><time when=\"10:30:00\">\n             午前十時半\n            </time>\n            理化学研究所評議員会（商業会議所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0165\">\n<head>\n<date when=\"1918-06-20\">\n           二十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十時半\n            </time>\n            理化学研究所評議員会（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            高等商業学校ニて御講演\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            日華学会晩餐会（築地精養軒）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0165\">\n<head>\n<date when=\"1918-06-20\">\n           二十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十時半\n            </time>\n            理化学研究所評議員会（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            高等商業学校ニて御講演\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            日華学会晩餐会（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-06"
 }

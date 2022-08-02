@@ -1,5 +1,10 @@
 {
-    "agential": [],
+    "agential": [
+        "ヴァンダーリップ"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ヴァンダーリップ"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1333",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +20,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-05",
     "date_lvl2": "1920-05-03",
-    "description": "\n\n\n           三日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n            同　　協調会幹部会（同会）\n           \n\n\n\n\n             午前十時四〇分\n            \n\n             米国\n            \n            絹業協会々長チヤールス・チニー氏一行招待午餐会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午時\n            \n\n             横浜\n            \n            正金銀行催、ヴアダリツプ《（ヴアンダリツプ）》氏一行歓迎晩餐会\n           \n\n\n\n\n             午後九時\n            \n\n             東京\n            \n            市長催、同氏一行歓迎観劇会（帝劇）\n           \n\n\n",
+    "description": "\n\n\n           三日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n            同　　協調会幹部会（同会）\n           \n\n\n\n\n             午前十時四〇分\n            \n\n             米国\n            \n            絹業協会々長チヤールス・チニー氏一行招待午餐会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午時\n            \n\n             横浜\n            \n\n             正金銀行\n            \n            催、ヴアダリツプ《（\n            \n\n              ヴアンダリツプ\n             \n\n            ）》氏一行歓迎晩餐会\n           \n\n\n\n\n             午後九時\n            \n\n             東京\n            \n            市長催、同氏一行歓迎観劇会（帝劇）\n           \n\n\n",
     "label": "三日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0122",
@@ -28,6 +33,12 @@
         "飛鳥山邸",
         "横浜",
         "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アメリカ合衆国",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/横浜",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1920-05-03",
     "texts": [
@@ -56,7 +67,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            同　　協調会幹部会（同会）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0121\">\n<head>\n<date when=\"1920-05-03\">\n           三日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            同　　協調会幹部会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:40:00\">\n             午前十時四〇分\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            絹業協会々長チヤールス・チニー氏一行招待午餐会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            正金銀行催、ヴアダリツプ《（ヴアンダリツプ）》氏一行歓迎晩餐会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"21:00:00\">\n             午後九時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市長催、同氏一行歓迎観劇会（帝劇）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0121\">\n<head>\n<date when=\"1920-05-03\">\n           三日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            同　　協調会幹部会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:40:00\">\n             午前十時四〇分\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            絹業協会々長チヤールス・チニー氏一行招待午餐会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n<orgName>\n             正金銀行\n            </orgName>\n            催、ヴアダリツプ《（\n            <persName corresp=\"#pers_ヴァンダーリップ\">\n<surname>\n              ヴアンダリツプ\n             </surname>\n</persName>\n            ）》氏一行歓迎晩餐会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"21:00:00\">\n             午後九時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市長催、同氏一行歓迎観劇会（帝劇）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-05"
 }

@@ -1,7 +1,13 @@
 {
     "agential": [
+        "益田孝",
         "岩井重太郎",
         "穂積"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/益田孝",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岩井重太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/穂積"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1196",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-01",
     "date_lvl2": "1916-01-17",
-    "description": "\n\n\n           十七日\n          \n          （月）\n         \n\n\n\n\n             午後二―午後三時\n            \n\n             益田\n            \n            孝氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              岩井\n             \n\n              重太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              穂積\n             \n\n            男爵事務所ヘ御来約\n           \n\n\n\n\n             午後五時\n            \n            御親族及竜門社主催　於帝国ホテル\n            \n            御帰朝歓迎及\n            \n\n              穂積\n             \n\n            男爵授爵祝賀会\n           \n\n\n\n\n             午後九時\n            \n\n             露国\n            \n            大使館晩餐会（同館）\n            \n            （燕尾服着用、勲章御佩用）\n           \n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （月）\n         \n\n\n\n\n             午後二―午後三時\n            \n\n\n              益田\n             \n\n              孝\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              岩井\n             \n\n              重太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              穂積\n             \n\n            男爵事務所ヘ御来約\n           \n\n\n\n\n             午後五時\n            \n            御親族及\n            \n             竜門社\n            \n            主催　於帝国ホテル\n            \n            御帰朝歓迎及\n            \n\n              穂積\n             \n\n            男爵授爵祝賀会\n           \n\n\n\n\n             午後九時\n            \n\n             露国\n            \n            大使館晩餐会（同館）\n            \n            （燕尾服着用、勲章御佩用）\n           \n\n\n",
     "label": "十七日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0016",
@@ -27,9 +33,12 @@
     "sort": "DKB20018m-0015",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "益田",
         "日本橋兜町",
         "ロシア"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/ロシア"
     ],
     "temporal": "1916-01-17",
     "texts": [
@@ -56,7 +65,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0015\">\n<head>\n<date when=\"1916-01-17\">\n           十七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―午後三時\n            </time>\n<placeName corresp=\"#place_益田\">\n             益田\n            </placeName>\n            孝氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_岩井重太郎\">\n<surname>\n              岩井\n             </surname>\n<forename>\n              重太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_穂積\">\n<surname>\n              穂積\n             </surname>\n</persName>\n            男爵事務所ヘ御来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御親族及竜門社主催　於帝国ホテル\n            <lb/>\n            御帰朝歓迎及\n            <persName corresp=\"#pers_穂積\">\n<surname>\n              穂積\n             </surname>\n</persName>\n            男爵授爵祝賀会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"21:00:00\">\n             午後九時\n            </time>\n<placeName corresp=\"#place_ロシア\">\n             露国\n            </placeName>\n            大使館晩餐会（同館）\n            <lb/>\n            （燕尾服着用、勲章御佩用）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0015\">\n<head>\n<date when=\"1916-01-17\">\n           十七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―午後三時\n            </time>\n<persName corresp=\"#pers_益田孝\">\n<surname>\n              益田\n             </surname>\n<forename>\n              孝\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_岩井重太郎\">\n<surname>\n              岩井\n             </surname>\n<forename>\n              重太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_穂積\">\n<surname>\n              穂積\n             </surname>\n</persName>\n            男爵事務所ヘ御来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御親族及\n            <orgName>\n             竜門社\n            </orgName>\n            主催　於帝国ホテル\n            <lb/>\n            御帰朝歓迎及\n            <persName corresp=\"#pers_穂積\">\n<surname>\n              穂積\n             </surname>\n</persName>\n            男爵授爵祝賀会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"21:00:00\">\n             午後九時\n            </time>\n<placeName corresp=\"#place_ロシア\">\n             露国\n            </placeName>\n            大使館晩餐会（同館）\n            <lb/>\n            （燕尾服着用、勲章御佩用）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-01"
 }

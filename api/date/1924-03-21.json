@@ -1,8 +1,13 @@
 {
     "agential": [
-        "春田茂",
+        "春田茂躬",
         "高木陸郎",
         "蓮沼門三"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/春田茂躬",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高木陸郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/蓮沼門三"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1457",
     "category": {
@@ -19,7 +24,7 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-03",
     "date_lvl2": "1924-03-21",
-    "description": "\n\n\n           廿一日\n          \n          （金）\n         \n\n\n\n            春季皇霊祭\n           \n\n\n\n\n             午前八時\n            \n\n\n              春田\n             \n\n              茂\n             \n\n            躬、\n            \n\n              高木\n             \n\n              陸郎\n             \n\n            両氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              蓮沼\n             \n\n              門三\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n             東京\n            \n            市養育院本院新築披露（\n            \n             板橋\n            \n            同院）\n           \n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （金）\n         \n\n\n\n            春季皇霊祭\n           \n\n\n\n\n             午前八時\n            \n\n\n              春田\n             \n\n              茂躬\n             \n\n            、\n            \n\n              高木\n             \n\n              陸郎\n             \n\n            両氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              蓮沼\n             \n\n              門三\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n             東京\n            \n            市養育院本院新築披露（\n            \n             板橋\n            \n            同院）\n           \n\n\n",
     "label": "廿一日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0084",
@@ -28,10 +33,14 @@
     "sort": "DKB20026m-0083",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山",
         "飛鳥山邸",
         "東京",
         "板橋"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/板橋"
     ],
     "temporal": "1924-03-21",
     "texts": [
@@ -58,7 +67,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0083\">\n<head>\n<date when=\"1924-03-21\">\n           廿一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n            春季皇霊祭\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_春田茂\">\n<surname>\n              春田\n             </surname>\n<forename>\n              茂\n             </forename>\n</persName>\n            躬、\n            <persName corresp=\"#pers_高木陸郎\">\n<surname>\n              高木\n             </surname>\n<forename>\n              陸郎\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_蓮沼門三\">\n<surname>\n              蓮沼\n             </surname>\n<forename>\n              門三\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院本院新築披露（\n            <placeName corresp=\"#place_板橋\">\n             板橋\n            </placeName>\n            同院）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0083\">\n<head>\n<date when=\"1924-03-21\">\n           廿一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n            春季皇霊祭\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_春田茂躬\">\n<surname>\n              春田\n             </surname>\n<forename>\n              茂躬\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_高木陸郎\">\n<surname>\n              高木\n             </surname>\n<forename>\n              陸郎\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_蓮沼門三\">\n<surname>\n              蓮沼\n             </surname>\n<forename>\n              門三\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院本院新築披露（\n            <placeName corresp=\"#place_板橋\">\n             板橋\n            </placeName>\n            同院）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-03"
 }

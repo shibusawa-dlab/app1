@@ -5,6 +5,12 @@
         "広沢",
         "安部"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/古河",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中島",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/広沢",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/安部"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1163",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +26,7 @@
     "date_lvl0": "1913",
     "date_lvl1": "1913-12",
     "date_lvl2": "1913-12-22",
-    "description": "\n\n\n           廿二日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n\n\n              古河\n             \n\n            、\n            \n\n              中島\n             \n\n            両氏来ル（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              広沢\n             \n\n            氏来ル（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            実業協会ノ午餐会（各大臣御招キ）\n            \n            （保険協会ニテ）\n           \n\n\n\n\n             午後二時\n            \n            南\n            \n             日本\n            \n            製糖ニ関スル件（\n            \n             日本橋\n            \n            クラブ）\n           \n\n\n\n\n             午后五時\n            \n\n\n              安部\n             \n\n            子爵等ト御会食（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n\n\n              古河\n             \n\n            、\n            \n\n              中島\n             \n\n            両氏来ル（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              広沢\n             \n\n            氏来ル（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            実業協会ノ午餐会（各大臣御招キ）\n            \n            （保険協会ニテ）\n           \n\n\n\n\n             午後二時\n            \n            南\n            \n             日本\n            \n            製糖ニ関スル件（日本橋クラブ）\n           \n\n\n\n\n             午后五時\n            \n\n\n              安部\n             \n\n            子爵等ト御会食（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "廿二日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20015m-0007",
@@ -30,8 +36,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町",
-        "日本",
-        "日本橋"
+        "日本"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本"
     ],
     "temporal": "1913-12-22",
     "texts": [
@@ -60,7 +69,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_古河\">\n<surname>\n              古河\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_中島\">\n<surname>\n              中島\n             </surname>\n</persName>\n            両氏来ル（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20015m-0006\">\n<head>\n<date when=\"1913-12-22\">\n           廿二日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_古河\">\n<surname>\n              古河\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_中島\">\n<surname>\n              中島\n             </surname>\n</persName>\n            両氏来ル（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_広沢\">\n<surname>\n              広沢\n             </surname>\n</persName>\n            氏来ル（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            実業協会ノ午餐会（各大臣御招キ）\n            <lb/>\n            （保険協会ニテ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            南\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            製糖ニ関スル件（\n            <placeName corresp=\"#place_日本橋\">\n             日本橋\n            </placeName>\n            クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午后五時\n            </time>\n<persName corresp=\"#pers_安部\">\n<surname>\n              安部\n             </surname>\n</persName>\n            子爵等ト御会食（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20015m-0006\">\n<head>\n<date when=\"1913-12-22\">\n           廿二日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_古河\">\n<surname>\n              古河\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_中島\">\n<surname>\n              中島\n             </surname>\n</persName>\n            両氏来ル（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_広沢\">\n<surname>\n              広沢\n             </surname>\n</persName>\n            氏来ル（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            実業協会ノ午餐会（各大臣御招キ）\n            <lb/>\n            （保険協会ニテ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            南\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            製糖ニ関スル件（日本橋クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午后五時\n            </time>\n<persName corresp=\"#pers_安部\">\n<surname>\n              安部\n             </surname>\n</persName>\n            子爵等ト御会食（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1913",
     "yearAndMonth": "1913-12"
 }

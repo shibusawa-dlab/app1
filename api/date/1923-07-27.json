@@ -2,6 +2,9 @@
     "agential": [
         "加藤"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/加藤"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1437",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-07",
     "date_lvl2": "1923-07-27",
-    "description": "\n\n\n           廿七日\n          \n          （金）\n         \n\n\n\n\n             午前十一時\n            \n            明治神宮祭ノ件（\n            \n             東京\n            \n            会館）\n           \n\n\n\n\n             午〇時半\n            \n\n\n              加藤\n             \n\n            首相ヨリ御案内（同官邸）\n           \n\n\n\n\n             午後三―三半時\n            \n\n             綱町\n            \n            邸ヘ御出向\n           \n\n\n",
+    "description": "\n\n\n           廿七日\n          \n          （金）\n         \n\n\n\n\n             午前十一時\n            \n            明治神宮祭ノ件（東京会館）\n           \n\n\n\n\n             午〇時半\n            \n\n\n              加藤\n             \n\n            首相ヨリ御案内（同官邸）\n           \n\n\n\n\n             午後三―三半時\n            \n\n             綱町\n            \n            邸ヘ御出向\n           \n\n\n",
     "label": "廿七日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0205",
@@ -26,8 +29,10 @@
     "sort": "DKB20025m-0204",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "東京",
         "綱町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/綱町"
     ],
     "temporal": "1923-07-27",
     "texts": [
@@ -53,10 +58,10 @@
         "DKB20030m-0171"
     ],
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            明治神宮祭ノ件（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            会館）</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            明治神宮祭ノ件（東京会館）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0204\">\n<head>\n<date when=\"1923-07-27\">\n           廿七日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            明治神宮祭ノ件（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午〇時半\n            </time>\n<persName corresp=\"#pers_加藤\">\n<surname>\n              加藤\n             </surname>\n</persName>\n            首相ヨリ御案内（同官邸）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"15:30:00\">\n             午後三―三半時\n            </time>\n<placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            邸ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0204\">\n<head>\n<date when=\"1923-07-27\">\n           廿七日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            明治神宮祭ノ件（東京会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午〇時半\n            </time>\n<persName corresp=\"#pers_加藤\">\n<surname>\n              加藤\n             </surname>\n</persName>\n            首相ヨリ御案内（同官邸）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"15:30:00\">\n             午後三―三半時\n            </time>\n<placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            邸ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-07"
 }

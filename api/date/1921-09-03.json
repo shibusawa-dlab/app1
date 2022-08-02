@@ -3,6 +3,10 @@
         "遠藤隆吉",
         "徳川慶久"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/遠藤隆吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川慶久"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1374",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -27,9 +31,14 @@
     "sort": "DKB20023m-0239",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
+        "飛鳥山邸",
         "東京",
         "東北地方"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東北地方"
     ],
     "temporal": "1921-09-03",
     "texts": [
@@ -55,10 +64,10 @@
         "DKB20026m-0266"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_遠藤隆吉\">\n<surname>\n              遠藤\n             </surname>\n<forename>\n              隆吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_遠藤隆吉\">\n<surname>\n              遠藤\n             </surname>\n<forename>\n              隆吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0239\">\n<head>\n<date when=\"1921-09-03\">\n           三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_遠藤隆吉\">\n<surname>\n              遠藤\n             </surname>\n<forename>\n              隆吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2535\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1374/full/max/0/default.jpg\" n=\"B2535\" source=\"#pageB2535\"/>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_徳川慶久\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶久\n             </forename>\n</persName>\n            公ヲ御訪問（同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            皇太子殿下御帰朝奉迎祝賀会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商業会議所内）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            第三回\n            <placeName corresp=\"#place_東北地方\">\n             東北\n            </placeName>\n            名産品陳列会（三越呉服店）引続同店ニテ晩餐会\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0239\">\n<head>\n<date when=\"1921-09-03\">\n           三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_遠藤隆吉\">\n<surname>\n              遠藤\n             </surname>\n<forename>\n              隆吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2535\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1374/full/max/0/default.jpg\" n=\"B2535\" source=\"#pageB2535\"/>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_徳川慶久\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶久\n             </forename>\n</persName>\n            公ヲ御訪問（同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            皇太子殿下御帰朝奉迎祝賀会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商業会議所内）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            第三回\n            <placeName corresp=\"#place_東北地方\">\n             東北\n            </placeName>\n            名産品陳列会（三越呉服店）引続同店ニテ晩餐会\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-09"
 }

@@ -1,8 +1,13 @@
 {
     "agential": [
         "佐藤",
-        "嗣香",
+        "魯嗣香",
         "床次"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐藤",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/魯嗣香",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/床次"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1450",
     "category": {
@@ -19,7 +24,7 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-01",
     "date_lvl2": "1924-01-19",
-    "description": "\n\n\n           十九日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n            カーミツト・ルーズベルト、\n            \n\n              佐藤\n             \n\n            中将両氏来約（事ム所）\n           \n\n\n\n\n             午前十時\n            \n\n             魯\n            \n\n\n              嗣香\n             \n\n            氏来約（事ム所）\n           \n\n\n\n\n             午前十一時\n            \n            理化学研究所定期評議員会（工業倶楽部）\n           \n\n\n\n\n             午後一時\n            \n            ローズヴエルト氏未亡人歓迎能（靖国神社能楽堂）\n           \n\n\n\n\n             午後五時\n            \n            協調会催\n            \n\n              床次\n             \n\n            副会長招待会（協調会館）\n           \n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n            カーミツト・ルーズベルト、\n            \n\n              佐藤\n             \n\n            中将両氏来約（事ム所）\n           \n\n\n\n\n             午前十時\n            \n\n\n              魯\n             \n\n              嗣香\n             \n\n            氏来約（事ム所）\n           \n\n\n\n\n             午前十一時\n            \n            理化学研究所定期評議員会（工業倶楽部）\n           \n\n\n\n\n             午後一時\n            \n            ローズヴエルト氏未亡人歓迎能（靖国神社能楽堂）\n           \n\n\n\n\n             午後五時\n            \n            協調会催\n            \n\n              床次\n             \n\n            副会長招待会（協調会館）\n           \n\n\n",
     "label": "十九日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0020",
@@ -27,9 +32,8 @@
     "prev": "DKB20026m-0018",
     "sort": "DKB20026m-0019",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "魯"
-    ],
+    "spatial": [],
+    "spatial_uri": [],
     "temporal": "1924-01-19",
     "texts": [
         "DKB20026m-0124",
@@ -57,7 +61,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            カーミツト・ルーズベルト、\n            <persName corresp=\"#pers_佐藤\">\n<surname>\n              佐藤\n             </surname>\n</persName>\n            中将両氏来約（事ム所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0019\">\n<head>\n<date when=\"1924-01-19\">\n           十九日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            カーミツト・ルーズベルト、\n            <persName corresp=\"#pers_佐藤\">\n<surname>\n              佐藤\n             </surname>\n</persName>\n            中将両氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_魯\">\n             魯\n            </placeName>\n<persName corresp=\"#pers_嗣香\">\n<forename>\n              嗣香\n             </forename>\n</persName>\n            氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            理化学研究所定期評議員会（工業倶楽部）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            ローズヴエルト氏未亡人歓迎能（靖国神社能楽堂）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            協調会催\n            <persName corresp=\"#pers_床次\">\n<surname>\n              床次\n             </surname>\n</persName>\n            副会長招待会（協調会館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0019\">\n<head>\n<date when=\"1924-01-19\">\n           十九日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            カーミツト・ルーズベルト、\n            <persName corresp=\"#pers_佐藤\">\n<surname>\n              佐藤\n             </surname>\n</persName>\n            中将両氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_魯嗣香\">\n<surname>\n              魯\n             </surname>\n<forename>\n              嗣香\n             </forename>\n</persName>\n            氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            理化学研究所定期評議員会（工業倶楽部）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            ローズヴエルト氏未亡人歓迎能（靖国神社能楽堂）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            協調会催\n            <persName corresp=\"#pers_床次\">\n<surname>\n              床次\n             </surname>\n</persName>\n            副会長招待会（協調会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-01"
 }

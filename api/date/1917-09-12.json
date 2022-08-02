@@ -3,6 +3,10 @@
         "犬養毅",
         "白岩竜平"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/犬養毅",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/白岩竜平"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1246",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,7 +22,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-09",
     "date_lvl2": "1917-09-12",
-    "description": "\n\n\n           十二日\n          \n          （水）\n         \n\n\n\n\n             午前十―十一時\n            \n\n\n              犬養\n             \n\n              毅\n             \n\n            、\n            \n\n              白岩\n             \n\n              竜平\n             \n\n            両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n             日本\n            \n            煉瓦製造会社重役会（\n            \n             日本橋\n            \n            クラブ）\n           \n\n\n\n\n             午後六時\n            \n            東洋製鉄会社ノ件（ホテル）\n           \n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （水）\n         \n\n\n\n\n             午前十―十一時\n            \n\n\n              犬養\n             \n\n              毅\n             \n\n            、\n            \n\n              白岩\n             \n\n              竜平\n             \n\n            両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n             日本\n            \n            煉瓦製造会社重役会（日本橋クラブ）\n           \n\n\n\n\n             午後六時\n            \n            東洋製鉄会社ノ件（ホテル）\n           \n\n\n",
     "label": "十二日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0241",
@@ -28,8 +32,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町",
-        "日本",
-        "日本橋"
+        "日本"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本"
     ],
     "temporal": "1917-09-12",
     "texts": [
@@ -56,7 +63,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0240\">\n<head>\n<date when=\"1917-09-12\">\n           十二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"11:00:00\">\n             午前十―十一時\n            </time>\n<persName corresp=\"#pers_犬養毅\">\n<surname>\n              犬養\n             </surname>\n<forename>\n              毅\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_白岩竜平\">\n<surname>\n              白岩\n             </surname>\n<forename>\n              竜平\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            煉瓦製造会社重役会（\n            <placeName corresp=\"#place_日本橋\">\n             日本橋\n            </placeName>\n            クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            東洋製鉄会社ノ件（ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0240\">\n<head>\n<date when=\"1917-09-12\">\n           十二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"11:00:00\">\n             午前十―十一時\n            </time>\n<persName corresp=\"#pers_犬養毅\">\n<surname>\n              犬養\n             </surname>\n<forename>\n              毅\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_白岩竜平\">\n<surname>\n              白岩\n             </surname>\n<forename>\n              竜平\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            煉瓦製造会社重役会（日本橋クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            東洋製鉄会社ノ件（ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-09"
 }

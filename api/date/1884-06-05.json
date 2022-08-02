@@ -4,6 +4,11 @@
         "増田充績",
         "沢木安二郎"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/書上",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/増田充績",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/沢木安二郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/81",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -19,7 +24,7 @@
     "date_lvl0": "1884",
     "date_lvl1": "1884-06",
     "date_lvl2": "1884-06-05",
-    "description": "\n\n\n        六月五日\n       \n       晴\n      \n\n       朝、地方諸子送別ノ為メ来会ス、\n       \n        七時\n       \n\n        四日市\n       \n       ヲ発シ\n       \n        桑名\n       \n       ニ至リ\n       \n        九時\n       \n       川蒸気船ニ搭シテ\n       \n        揖斐川\n       \n       ヲ遡ル、\n       \n\n         書上\n        \n\n       ハ\n       \n        美濃\n       \n       地方ニ要務アルヲ以テ随行ス、\n       \n        午後六時\n       \n       前\n       \n        大垣\n       \n       着、其\n       \n        四十五分\n       \n       同地発軔ノ汽車ニ駕シ\n       \n        八時四十五分\n       \n       長浜ニ抵ル、\n       \n\n         増田\n        \n\n         充績\n        \n\n       、\n       \n\n         沢木\n        \n\n         安二郎\n        \n\n       来リ迎フ、相携テ某楼ニ投宿ス\n      \n",
+    "description": "\n\n\n        六月五日\n       \n       晴\n      \n\n       朝、地方諸子送別ノ為メ来会ス、\n       \n        七時\n       \n\n        四日市\n       \n       ヲ発シ\n       \n        桑名\n       \n       ニ至リ\n       \n        九時\n       \n       川蒸気船ニ搭シテ\n       \n        揖斐川\n       \n       ヲ遡ル、\n       \n\n         書上\n        \n\n       ハ\n       \n        美濃\n       \n       地方ニ要務アルヲ以テ随行ス、\n       \n        午後六時\n       \n       前\n       \n        大垣\n       \n       着、其\n       \n        四十五分\n       \n       同地発軔ノ汽車ニ駕シ\n       \n        八時四十五分\n       \n\n        長浜\n       \n       ニ抵ル、\n       \n\n         増田\n        \n\n         充績\n        \n\n       、\n       \n\n         沢木\n        \n\n         安二郎\n        \n\n       来リ迎フ、相携テ某楼ニ投宿ス\n      \n",
     "label": "六月五日              晴",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10005m-0009",
@@ -32,7 +37,16 @@
         "桑名",
         "揖斐川",
         "美濃",
-        "大垣市"
+        "大垣市",
+        "長浜"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/四日市",
+        "https://shibusawa-dlab.github.io/lab1/api/place/桑名",
+        "https://shibusawa-dlab.github.io/lab1/api/place/揖斐川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/美濃",
+        "https://shibusawa-dlab.github.io/lab1/api/place/大垣市",
+        "https://shibusawa-dlab.github.io/lab1/api/place/長浜"
     ],
     "temporal": "1884-06-05",
     "texts": [
@@ -62,10 +76,10 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n        九時\n       </time>\n       川蒸気船ニ搭シテ\n       <placeName corresp=\"#place_揖斐川\">\n        揖斐川\n       </placeName>\n       ヲ遡ル、\n       <persName corresp=\"#pers_書上\">\n<surname>\n         書上\n        </surname>\n</persName>\n       ハ\n       <placeName corresp=\"#place_美濃\">\n        美濃\n       </placeName>\n       地方ニ要務アルヲ以テ随行ス、</div>",
         "18:00:00": "<div><time when=\"18:00:00\">\n        午後六時\n       </time>\n       前\n       <placeName corresp=\"#place_大垣市\">\n        大垣\n       </placeName>\n       着、其</div>",
         "18:45:00": "<div><time when=\"18:45:00\">\n        四十五分\n       </time>\n       同地発軔ノ汽車ニ駕シ</div>",
-        "20:45:00": "<div><time when=\"20:45:00\">\n        八時四十五分\n       </time>\n       長浜ニ抵ル、\n       <persName corresp=\"#pers_増田充績\">\n<surname>\n         増田\n        </surname>\n<forename>\n         充績\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_沢木安二郎\">\n<surname>\n         沢木\n        </surname>\n<forename>\n         安二郎\n        </forename>\n</persName>\n       来リ迎フ、相携テ某楼ニ投宿ス</div>"
+        "20:45:00": "<div><time when=\"20:45:00\">\n        八時四十五分\n       </time>\n<placeName corresp=\"#place_長浜\">\n        長浜\n       </placeName>\n       ニ抵ル、\n       <persName corresp=\"#pers_増田充績\">\n<surname>\n         増田\n        </surname>\n<forename>\n         充績\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_沢木安二郎\">\n<surname>\n         沢木\n        </surname>\n<forename>\n         安二郎\n        </forename>\n</persName>\n       来リ迎フ、相携テ某楼ニ投宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10005m-0008\">\n<head>\n<date when=\"1884-06-05\">\n        六月五日\n       </date>\n       晴\n      </head>\n<p>\n       朝、地方諸子送別ノ為メ来会ス、\n       <time when=\"07:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_四日市\">\n        四日市\n       </placeName>\n       ヲ発シ\n       <placeName corresp=\"#place_桑名\">\n        桑名\n       </placeName>\n       ニ至リ\n       <time when=\"09:00:00\">\n        九時\n       </time>\n       川蒸気船ニ搭シテ\n       <placeName corresp=\"#place_揖斐川\">\n        揖斐川\n       </placeName>\n       ヲ遡ル、\n       <persName corresp=\"#pers_書上\">\n<surname>\n         書上\n        </surname>\n</persName>\n       ハ\n       <placeName corresp=\"#place_美濃\">\n        美濃\n       </placeName>\n       地方ニ要務アルヲ以テ随行ス、\n       <time when=\"18:00:00\">\n        午後六時\n       </time>\n       前\n       <placeName corresp=\"#place_大垣市\">\n        大垣\n       </placeName>\n       着、其\n       <time when=\"18:45:00\">\n        四十五分\n       </time>\n       同地発軔ノ汽車ニ駕シ\n       <time when=\"20:45:00\">\n        八時四十五分\n       </time>\n       長浜ニ抵ル、\n       <persName corresp=\"#pers_増田充績\">\n<surname>\n         増田\n        </surname>\n<forename>\n         充績\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_沢木安二郎\">\n<surname>\n         沢木\n        </surname>\n<forename>\n         安二郎\n        </forename>\n</persName>\n       来リ迎フ、相携テ某楼ニ投宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10005m-0008\">\n<head>\n<date when=\"1884-06-05\">\n        六月五日\n       </date>\n       晴\n      </head>\n<p>\n       朝、地方諸子送別ノ為メ来会ス、\n       <time when=\"07:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_四日市\">\n        四日市\n       </placeName>\n       ヲ発シ\n       <placeName corresp=\"#place_桑名\">\n        桑名\n       </placeName>\n       ニ至リ\n       <time when=\"09:00:00\">\n        九時\n       </time>\n       川蒸気船ニ搭シテ\n       <placeName corresp=\"#place_揖斐川\">\n        揖斐川\n       </placeName>\n       ヲ遡ル、\n       <persName corresp=\"#pers_書上\">\n<surname>\n         書上\n        </surname>\n</persName>\n       ハ\n       <placeName corresp=\"#place_美濃\">\n        美濃\n       </placeName>\n       地方ニ要務アルヲ以テ随行ス、\n       <time when=\"18:00:00\">\n        午後六時\n       </time>\n       前\n       <placeName corresp=\"#place_大垣市\">\n        大垣\n       </placeName>\n       着、其\n       <time when=\"18:45:00\">\n        四十五分\n       </time>\n       同地発軔ノ汽車ニ駕シ\n       <time when=\"20:45:00\">\n        八時四十五分\n       </time>\n<placeName corresp=\"#place_長浜\">\n        長浜\n       </placeName>\n       ニ抵ル、\n       <persName corresp=\"#pers_増田充績\">\n<surname>\n         増田\n        </surname>\n<forename>\n         充績\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_沢木安二郎\">\n<surname>\n         沢木\n        </surname>\n<forename>\n         安二郎\n        </forename>\n</persName>\n       来リ迎フ、相携テ某楼ニ投宿ス\n      </p>\n</div>",
     "year": "1884",
     "yearAndMonth": "1884-06"
 }

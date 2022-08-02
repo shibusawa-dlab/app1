@@ -1,8 +1,15 @@
 {
     "agential": [
+        "ナポレオン_レース",
         "横山",
         "川崎",
         "稲畑"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ナポレオン_レース",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/横山",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/川崎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/稲畑"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1191",
     "category": {
@@ -19,7 +26,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-09",
     "date_lvl2": "1915-09-13",
-    "description": "\n\n\n           十三日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n            養育院ヘ御出向\n           \n\n\n\n\n             正午\n            \n            ナポレオン・レース氏招待会（商業会議処）\n           \n\n\n\n\n             午後三―四時\n            \n\n\n              横山\n             \n\n            、\n            \n\n              川崎\n             \n\n            、\n            \n\n              稲畑\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n             東京\n            \n            瓦斯退任重役慰労金ニ関スル件（トキワヤ）\n           \n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n            養育院ヘ御出向\n           \n\n\n\n\n             正午\n            \n\n\n              ナポレオン\n             \n             ・\n             \n              レース\n             \n\n            氏招待会（商業会議処）\n           \n\n\n\n\n             午後三―四時\n            \n\n\n              横山\n             \n\n            、\n            \n\n              川崎\n             \n\n            、\n            \n\n              稲畑\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            東京瓦斯退任重役慰労金ニ関スル件（トキワヤ）\n           \n\n\n",
     "label": "十三日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0233",
@@ -28,8 +35,10 @@
     "sort": "DKB20017m-0232",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "日本橋兜町",
-        "東京"
+        "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1915-09-13",
     "texts": [
@@ -58,7 +67,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            養育院ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0232\">\n<head>\n<date when=\"1915-09-13\">\n           十三日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            養育院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            ナポレオン・レース氏招待会（商業会議処）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―四時\n            </time>\n<persName corresp=\"#pers_横山\">\n<surname>\n              横山\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_川崎\">\n<surname>\n              川崎\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_稲畑\">\n<surname>\n              稲畑\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            瓦斯退任重役慰労金ニ関スル件（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0232\">\n<head>\n<date when=\"1915-09-13\">\n           十三日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            養育院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_ナポレオン_レース\">\n<forename>\n              ナポレオン\n             </forename>\n             ・\n             <surname>\n              レース\n             </surname>\n</persName>\n            氏招待会（商業会議処）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―四時\n            </time>\n<persName corresp=\"#pers_横山\">\n<surname>\n              横山\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_川崎\">\n<surname>\n              川崎\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_稲畑\">\n<surname>\n              稲畑\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            東京瓦斯退任重役慰労金ニ関スル件（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-09"
 }

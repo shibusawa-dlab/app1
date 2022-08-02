@@ -2,6 +2,9 @@
     "agential": [
         "大隈"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大隈"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1382",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-02",
     "date_lvl2": "1922-02-19",
-    "description": "\n\n\n           十九日\n          \n          （日）\n         \n\n\n\n\n             午前一〇・十四分\n            \n\n             東京\n            \n            駅着\n            \n             大磯\n            \n            ヨリ御帰京\n           \n\n\n\n\n             午後一時\n            \n            故\n            \n\n              大隈\n             \n\n            侯爵追悼会（早稲田大学）\n           \n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （日）\n         \n\n\n\n\n             午前一〇・十四分\n            \n\n             東京\n            \n            駅着\n            \n             大磯\n            \n            ヨリ御帰京\n           \n\n\n\n\n             午後一時\n            \n            故\n            \n\n              大隈\n             \n\n            侯爵追悼会（\n            \n             早稲田大学\n            \n            ）\n           \n\n\n",
     "label": "十九日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0023",
@@ -28,6 +31,10 @@
     "spatial": [
         "東京",
         "大磯町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/大磯町"
     ],
     "temporal": "1922-02-19",
     "texts": [
@@ -56,7 +63,7 @@
         "10:14:00": "<div><time when=\"10:14:00\">\n             午前一〇・十四分\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅着\n            <placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            ヨリ御帰京</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0022\">\n<head>\n<date when=\"1922-02-19\">\n           十九日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:14:00\">\n             午前一〇・十四分\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅着\n            <placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            ヨリ御帰京\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            故\n            <persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯爵追悼会（早稲田大学）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0022\">\n<head>\n<date when=\"1922-02-19\">\n           十九日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:14:00\">\n             午前一〇・十四分\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅着\n            <placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            ヨリ御帰京\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            故\n            <persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯爵追悼会（\n            <orgName>\n             早稲田大学\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-02"
 }

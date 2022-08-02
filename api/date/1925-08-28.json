@@ -1,6 +1,11 @@
 {
     "agential": [
-        "安達"
+        "安達",
+        "渋沢敬三"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/安達",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢敬三"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1491",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-08",
     "date_lvl2": "1925-08-28",
-    "description": "\n\n\n           廿八日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n\n\n              安達\n             \n\n            逓相ヲ御訪問（同官舎）\n           \n\n\n\n\n             午後四時\n            \n            御同族会（事務所）\n           \n\n\n\n            引続キ\n            \n             後六時\n            \n            敬三様御帰朝歓迎晩餐会（事務所）\n           \n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n\n\n              安達\n             \n\n            逓相ヲ御訪問（同官舎）\n           \n\n\n\n\n             午後四時\n            \n            御同族会（事務所）\n           \n\n\n\n            引続キ\n            \n             後六時\n            \n\n\n              敬三\n             \n\n            様御帰朝歓迎晩餐会（事務所）\n           \n\n\n",
     "label": "廿八日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20027m-0125",
@@ -26,6 +31,7 @@
     "sort": "DKB20027m-0124",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [],
+    "spatial_uri": [],
     "temporal": "1925-08-28",
     "texts": [
         "DKB20024m-0185",
@@ -53,7 +59,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_安達\">\n<surname>\n              安達\n             </surname>\n</persName>\n            逓相ヲ御訪問（同官舎）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0124\">\n<head>\n<date when=\"1925-08-28\">\n           廿八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_安達\">\n<surname>\n              安達\n             </surname>\n</persName>\n            逓相ヲ御訪問（同官舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            御同族会（事務所）\n           </p>\n</event>\n<event>\n<p>\n            引続キ\n            <time when=\"18:00:00\">\n             後六時\n            </time>\n            敬三様御帰朝歓迎晩餐会（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0124\">\n<head>\n<date when=\"1925-08-28\">\n           廿八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_安達\">\n<surname>\n              安達\n             </surname>\n</persName>\n            逓相ヲ御訪問（同官舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            御同族会（事務所）\n           </p>\n</event>\n<event>\n<p>\n            引続キ\n            <time when=\"18:00:00\">\n             後六時\n            </time>\n<persName corresp=\"#pers_渋沢敬三\">\n<forename>\n              敬三\n             </forename>\n</persName>\n            様御帰朝歓迎晩餐会（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-08"
 }

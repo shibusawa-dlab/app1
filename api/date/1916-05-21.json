@@ -2,6 +2,9 @@
     "agential": [
         "浅野"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1204",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-05",
     "date_lvl2": "1916-05-21",
-    "description": "\n\n\n           廿一日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n            竜門社春季総集会（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              浅野\n             \n\n            家結婚式（\n            \n             日比谷\n            \n            大神宮）\n           \n\n\n\n            同宴会（\n            \n             田町\n            \n\n\n              浅野\n             \n\n            邸）\n           \n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n\n             竜門社\n            \n            春季総集会（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              浅野\n             \n\n            家結婚式（\n            \n             日比谷\n            \n            大神宮）\n           \n\n\n\n            同宴会（\n            \n             田町\n            \n\n\n              浅野\n             \n\n            邸）\n           \n\n\n",
     "label": "廿一日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0125",
@@ -26,9 +29,14 @@
     "sort": "DKB20018m-0124",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
+        "飛鳥山邸",
         "日比谷",
-        "田町"
+        "田町_(東京都港区)"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日比谷",
+        "https://shibusawa-dlab.github.io/lab1/api/place/田町_(東京都港区)"
     ],
     "temporal": "1916-05-21",
     "texts": [
@@ -54,10 +62,10 @@
         "DKB20024m-0273"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            竜門社春季総集会（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<orgName>\n             竜門社\n            </orgName>\n            春季総集会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0124\">\n<head>\n<date when=\"1916-05-21\">\n           廿一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            竜門社春季総集会（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_浅野\">\n<surname>\n              浅野\n             </surname>\n</persName>\n            家結婚式（\n            <placeName corresp=\"#place_日比谷\">\n             日比谷\n            </placeName>\n            大神宮）\n           </p>\n</event>\n<event>\n<p>\n            同宴会（\n            <placeName corresp=\"#place_田町\">\n             田町\n            </placeName>\n<persName corresp=\"#pers_浅野\">\n<surname>\n              浅野\n             </surname>\n</persName>\n            邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0124\">\n<head>\n<date when=\"1916-05-21\">\n           廿一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<orgName>\n             竜門社\n            </orgName>\n            春季総集会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_浅野\">\n<surname>\n              浅野\n             </surname>\n</persName>\n            家結婚式（\n            <placeName corresp=\"#place_日比谷\">\n             日比谷\n            </placeName>\n            大神宮）\n           </p>\n</event>\n<event>\n<p>\n            同宴会（\n            <placeName corresp=\"#place_田町_(東京都港区)\">\n             田町\n            </placeName>\n<persName corresp=\"#pers_浅野\">\n<surname>\n              浅野\n             </surname>\n</persName>\n            邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-05"
 }

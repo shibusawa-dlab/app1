@@ -5,6 +5,12 @@
         "伊藤",
         "桂"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/オツペナール",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大倉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/伊藤",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/桂"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/252",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -31,7 +37,12 @@
     "spatial": [
         "日本橋兜町",
         "新宿",
-        "王子別荘"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/新宿",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1902-03-11",
     "texts": [
@@ -62,10 +73,10 @@
         "12:00:00": "<div><time when=\"12:00:00\">\n        十二時\n       </time>\n<placeName corresp=\"#place_新宿\">\n        新宿\n       </placeName>\n       近傍ナルモスレ氏邸ニ抵ル、白耳義人\n       <persName corresp=\"#pers_オツペナール\">\n<surname>\n         オツペナール\n        </surname>\n</persName>\n       氏ノ招宴ニヨル、\n       <persName corresp=\"#pers_大倉\">\n<surname>\n         大倉\n        </surname>\n</persName>\n       氏同席ス、外ニ外国人三人来会ス、午飧後</div>",
         "15:00:00": "<div><time when=\"15:00:00\">\n        三時\n       </time>\n<orgName>\n        東京商業会議所\n       </orgName>\n       ニ抵リ役員会ヲ開ク、且、\n       <persName corresp=\"#pers_伊藤\">\n<surname>\n         伊藤\n        </surname>\n</persName>\n       侯歓迎会ノ手続ヲ指揮ス、夕方\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接ス、夜</div>",
         "21:00:00": "<div><time when=\"21:00:00\">\n        九時\n       </time>\n<persName corresp=\"#pers_桂\">\n<surname>\n         桂\n        </surname>\n</persName>\n       総理邸ノ夜会ニ列ス、</div>",
-        "23:00:00": "<div><time when=\"23:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
+        "23:00:00": "<div><time when=\"23:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10010m-0247\">\n<head>\n<date when=\"1902-03-11\">\n        三月十一日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"09:00:00\">\n        午前九時\n       </time>\n       朝飧ヲ畢リ\n       <time when=\"10:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵ル、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n<placeName corresp=\"#place_新宿\">\n        新宿\n       </placeName>\n       近傍ナルモスレ氏邸ニ抵ル、白耳義人\n       <persName corresp=\"#pers_オツペナール\">\n<surname>\n         オツペナール\n        </surname>\n</persName>\n       氏ノ招宴ニヨル、\n       <persName corresp=\"#pers_大倉\">\n<surname>\n         大倉\n        </surname>\n</persName>\n       氏同席ス、外ニ外国人三人来会ス、午飧後\n       <time when=\"15:00:00\">\n        三時\n       </time>\n<orgName>\n        東京商業会議所\n       </orgName>\n       ニ抵リ役員会ヲ開ク、且、\n       <persName corresp=\"#pers_伊藤\">\n<surname>\n         伊藤\n        </surname>\n</persName>\n       侯歓迎会ノ手続ヲ指揮ス、夕方\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接ス、夜\n       <time when=\"21:00:00\">\n        九時\n       </time>\n<persName corresp=\"#pers_桂\">\n<surname>\n         桂\n        </surname>\n</persName>\n       総理邸ノ夜会ニ列ス、\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10010m-0247\">\n<head>\n<date when=\"1902-03-11\">\n        三月十一日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"09:00:00\">\n        午前九時\n       </time>\n       朝飧ヲ畢リ\n       <time when=\"10:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵ル、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n<placeName corresp=\"#place_新宿\">\n        新宿\n       </placeName>\n       近傍ナルモスレ氏邸ニ抵ル、白耳義人\n       <persName corresp=\"#pers_オツペナール\">\n<surname>\n         オツペナール\n        </surname>\n</persName>\n       氏ノ招宴ニヨル、\n       <persName corresp=\"#pers_大倉\">\n<surname>\n         大倉\n        </surname>\n</persName>\n       氏同席ス、外ニ外国人三人来会ス、午飧後\n       <time when=\"15:00:00\">\n        三時\n       </time>\n<orgName>\n        東京商業会議所\n       </orgName>\n       ニ抵リ役員会ヲ開ク、且、\n       <persName corresp=\"#pers_伊藤\">\n<surname>\n         伊藤\n        </surname>\n</persName>\n       侯歓迎会ノ手続ヲ指揮ス、夕方\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接ス、夜\n       <time when=\"21:00:00\">\n        九時\n       </time>\n<persName corresp=\"#pers_桂\">\n<surname>\n         桂\n        </surname>\n</persName>\n       総理邸ノ夜会ニ列ス、\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1902",
     "yearAndMonth": "1902-03"
 }

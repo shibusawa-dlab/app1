@@ -2,8 +2,14 @@
     "agential": [
         "白岩竜平",
         "油谷恭一",
-        "佑",
+        "王朝佑",
         "星野錫"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/白岩竜平",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/油谷恭一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/王朝佑",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/星野錫"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1594",
     "category": {
@@ -20,7 +26,7 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-06",
     "date_lvl2": "1929-06-08",
-    "description": "\n\n\n           八日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n\n\n              白岩\n             \n\n              竜平\n             \n\n            、\n            \n\n              油谷\n             \n\n              恭一\n             \n\n            氏来約\n            \n             飛鳥山\n            \n\n\n\n\n\n             午前九時\n            \n            王朝\n            \n\n              佑\n             \n\n            氏外一人　同\n           \n\n\n\n\n\n             午後〇時半\n            \n\n\n              星野\n             \n\n              錫\n             \n\n            氏来約　事務所\n           \n\n\n\n\n             午後〇時半\n            \n            御出勤\n           \n\n\n",
+    "description": "\n\n\n           八日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n\n\n              白岩\n             \n\n              竜平\n             \n\n            、\n            \n\n              油谷\n             \n\n              恭一\n             \n\n            氏来約\n            \n             飛鳥山\n            \n\n\n\n\n\n             午前九時\n            \n\n\n              王\n             \n\n              朝佑\n             \n\n            氏外一人　同\n           \n\n\n\n\n\n             午後〇時半\n            \n\n\n              星野\n             \n\n              錫\n             \n\n            氏来約　事務所\n           \n\n\n\n\n             午後〇時半\n            \n            御出勤\n           \n\n\n",
     "label": "八日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20031m-0083",
@@ -29,7 +35,10 @@
     "sort": "DKB20031m-0082",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1929-06-08",
     "texts": [
@@ -55,10 +64,10 @@
         "DKB20032m-0105"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_白岩竜平\">\n<surname>\n              白岩\n             </surname>\n<forename>\n              竜平\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_油谷恭一\">\n<surname>\n              油谷\n             </surname>\n<forename>\n              恭一\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName></div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_白岩竜平\">\n<surname>\n              白岩\n             </surname>\n<forename>\n              竜平\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_油谷恭一\">\n<surname>\n              油谷\n             </surname>\n<forename>\n              恭一\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName></div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0082\">\n<head>\n<date when=\"1929-06-08\">\n           八日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_白岩竜平\">\n<surname>\n              白岩\n             </surname>\n<forename>\n              竜平\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_油谷恭一\">\n<surname>\n              油谷\n             </surname>\n<forename>\n              恭一\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            王朝\n            <persName corresp=\"#pers_佑\">\n<forename>\n              佑\n             </forename>\n</persName>\n            氏外一人　同\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2755\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1594/full/max/0/default.jpg\" n=\"B2755\" source=\"#pageB2755\"/>\n<time when=\"12:30:00\">\n             午後〇時半\n            </time>\n<persName corresp=\"#pers_星野錫\">\n<surname>\n              星野\n             </surname>\n<forename>\n              錫\n             </forename>\n</persName>\n            氏来約　事務所\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇時半\n            </time>\n            御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0082\">\n<head>\n<date when=\"1929-06-08\">\n           八日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_白岩竜平\">\n<surname>\n              白岩\n             </surname>\n<forename>\n              竜平\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_油谷恭一\">\n<surname>\n              油谷\n             </surname>\n<forename>\n              恭一\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_王朝佑\">\n<surname>\n              王\n             </surname>\n<forename>\n              朝佑\n             </forename>\n</persName>\n            氏外一人　同\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2755\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1594/full/max/0/default.jpg\" n=\"B2755\" source=\"#pageB2755\"/>\n<time when=\"12:30:00\">\n             午後〇時半\n            </time>\n<persName corresp=\"#pers_星野錫\">\n<surname>\n              星野\n             </surname>\n<forename>\n              錫\n             </forename>\n</persName>\n            氏来約　事務所\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇時半\n            </time>\n            御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-06"
 }

@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1587",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-11",
     "date_lvl2": "1928-11-25",
-    "description": "\n\n\n           廿五日\n          \n          （日）\n         \n\n\n\n\n             正午\n            \n\n             独逸\n            \n            大使ゾルフ閣下送別会（\n            \n             東京\n            \n            会館）\n           \n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （日）\n         \n\n\n\n\n             正午\n            \n\n             独逸\n            \n            大使ゾルフ閣下送別会（東京会館）\n           \n\n\n",
     "label": "廿五日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20030m-0256",
@@ -24,8 +25,10 @@
     "sort": "DKB20030m-0255",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "ドイツ",
-        "東京"
+        "ドイツ"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/ドイツ"
     ],
     "temporal": "1928-11-25",
     "texts": [
@@ -51,10 +54,10 @@
         "DKB20025m-0073"
     ],
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_ドイツ\">\n             独逸\n            </placeName>\n            大使ゾルフ閣下送別会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            会館）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_ドイツ\">\n             独逸\n            </placeName>\n            大使ゾルフ閣下送別会（東京会館）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0255\">\n<head>\n<date when=\"1928-11-25\">\n           廿五日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_ドイツ\">\n             独逸\n            </placeName>\n            大使ゾルフ閣下送別会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            会館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0255\">\n<head>\n<date when=\"1928-11-25\">\n           廿五日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_ドイツ\">\n             独逸\n            </placeName>\n            大使ゾルフ閣下送別会（東京会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-11"
 }

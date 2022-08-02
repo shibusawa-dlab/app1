@@ -7,6 +7,14 @@
         "小田切",
         "浅野総一郎"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/井上",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/藤田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/木内",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/劉学詢",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小田切",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野総一郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/127",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -32,8 +40,13 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "アメリカ合衆国",
-        "王子別荘",
+        "飛鳥山邸",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アメリカ合衆国",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1899-08-26",
     "texts": [
@@ -60,11 +73,11 @@
     ],
     "time": {
         "10:00:00": "<div>晴、<time when=\"10:00:00\">\n        午前十時\n       </time>\n<persName corresp=\"#pers_井上\">\n<surname>\n         井上\n        </surname>\n</persName>\n       伯ヲ其邸ニ訪フ、米国費府商業大会ヘ農商務省ヨリ派出員ノ事ヲ談ス、帰路農商務省ニ抵リ\n       <persName corresp=\"#pers_藤田\">\n<surname>\n         藤田\n        </surname>\n</persName>\n       次官ニ面会シテ同シク\n       <placeName corresp=\"#place_アメリカ合衆国\">\n        米国\n       </placeName>\n       派遣員ノ事ヲ話ス、更ニ\n       <persName corresp=\"#pers_木内\">\n<surname>\n         木内\n        </surname>\n</persName>\n       氏ニモ同件ヲ談ス、午後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ出勤シテ事務ヲ視ル、</div>",
-        "16:00:00": "<div><time when=\"16:00:00\">\n        午後四時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ於テ清客\n       <persName corresp=\"#pers_劉学詢\">\n<surname>\n         劉\n        </surname>\n<forename>\n         学詢\n        </forename>\n</persName>\n       ヲ招宴ス、\n       <persName corresp=\"#pers_小田切\">\n<surname>\n         小田切\n        </surname>\n</persName>\n       領事来会ス、\n       <persName corresp=\"#pers_浅野総一郎\">\n<surname>\n         浅野\n        </surname>\n<forename>\n         総一郎\n        </forename>\n</persName>\n       ト共ニ款談数刻商業上ノ談話ヲ為ス、夜</div>",
+        "16:00:00": "<div><time when=\"16:00:00\">\n        午後四時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ於テ清客\n       <persName corresp=\"#pers_劉学詢\">\n<surname>\n         劉\n        </surname>\n<forename>\n         学詢\n        </forename>\n</persName>\n       ヲ招宴ス、\n       <persName corresp=\"#pers_小田切\">\n<surname>\n         小田切\n        </surname>\n</persName>\n       領事来会ス、\n       <persName corresp=\"#pers_浅野総一郎\">\n<surname>\n         浅野\n        </surname>\n<forename>\n         総一郎\n        </forename>\n</persName>\n       ト共ニ款談数刻商業上ノ談話ヲ為ス、夜</div>",
         "21:00:00": "<div><time when=\"21:00:00\">\n        九時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-0239\">\n<head>\n<date when=\"1899-08-26\">\n        八月二十六日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<persName corresp=\"#pers_井上\">\n<surname>\n         井上\n        </surname>\n</persName>\n       伯ヲ其邸ニ訪フ、米国費府商業大会ヘ農商務省ヨリ派出員ノ事ヲ談ス、帰路農商務省ニ抵リ\n       <persName corresp=\"#pers_藤田\">\n<surname>\n         藤田\n        </surname>\n</persName>\n       次官ニ面会シテ同シク\n       <placeName corresp=\"#place_アメリカ合衆国\">\n        米国\n       </placeName>\n       派遣員ノ事ヲ話ス、更ニ\n       <persName corresp=\"#pers_木内\">\n<surname>\n         木内\n        </surname>\n</persName>\n       氏ニモ同件ヲ談ス、午後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ出勤シテ事務ヲ視ル、\n       <time when=\"16:00:00\">\n        午後四時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ於テ清客\n       <persName corresp=\"#pers_劉学詢\">\n<surname>\n         劉\n        </surname>\n<forename>\n         学詢\n        </forename>\n</persName>\n       ヲ招宴ス、\n       <persName corresp=\"#pers_小田切\">\n<surname>\n         小田切\n        </surname>\n</persName>\n       領事来会ス、\n       <persName corresp=\"#pers_浅野総一郎\">\n<surname>\n         浅野\n        </surname>\n<forename>\n         総一郎\n        </forename>\n</persName>\n       ト共ニ款談数刻商業上ノ談話ヲ為ス、夜\n       <time when=\"21:00:00\">\n        九時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-0239\">\n<head>\n<date when=\"1899-08-26\">\n        八月二十六日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<persName corresp=\"#pers_井上\">\n<surname>\n         井上\n        </surname>\n</persName>\n       伯ヲ其邸ニ訪フ、米国費府商業大会ヘ農商務省ヨリ派出員ノ事ヲ談ス、帰路農商務省ニ抵リ\n       <persName corresp=\"#pers_藤田\">\n<surname>\n         藤田\n        </surname>\n</persName>\n       次官ニ面会シテ同シク\n       <placeName corresp=\"#place_アメリカ合衆国\">\n        米国\n       </placeName>\n       派遣員ノ事ヲ話ス、更ニ\n       <persName corresp=\"#pers_木内\">\n<surname>\n         木内\n        </surname>\n</persName>\n       氏ニモ同件ヲ談ス、午後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ出勤シテ事務ヲ視ル、\n       <time when=\"16:00:00\">\n        午後四時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ於テ清客\n       <persName corresp=\"#pers_劉学詢\">\n<surname>\n         劉\n        </surname>\n<forename>\n         学詢\n        </forename>\n</persName>\n       ヲ招宴ス、\n       <persName corresp=\"#pers_小田切\">\n<surname>\n         小田切\n        </surname>\n</persName>\n       領事来会ス、\n       <persName corresp=\"#pers_浅野総一郎\">\n<surname>\n         浅野\n        </surname>\n<forename>\n         総一郎\n        </forename>\n</persName>\n       ト共ニ款談数刻商業上ノ談話ヲ為ス、夜\n       <time when=\"21:00:00\">\n        九時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1899",
     "yearAndMonth": "1899-08"
 }

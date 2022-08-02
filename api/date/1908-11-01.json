@@ -1,9 +1,15 @@
 {
     "agential": [
-        "兼子",
+        "渋沢兼子",
         "鳩山和夫",
-        "愛子",
+        "明石愛子",
         "穂積陳重"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢兼子",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/鳩山和夫",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/明石愛子",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/穂積陳重"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/571",
     "category": {
@@ -20,7 +26,7 @@
     "date_lvl0": "1908",
     "date_lvl1": "1908-11",
     "date_lvl2": "1908-11-01",
-    "description": "\n\n\n        十一月一日\n       \n       晴　冷\n      \n\n\n        午前七時\n       \n       起床、風邪気全ク愈ヘス、入浴スルヲ得ス、\n       \n        八時\n       \n       朝飧ヲ食シ児童等ト談話ス、\n       \n        午前十一時\n       \n       高千穂学校運動会ニ出席シ、学生ニ一場ノ訓示ヲ述フ、\n       \n        午後一時\n       \n\n\n         帝国ホテル\n        \n\n       ニ抵リ午飧シ、後理髪ス、\n       \n        二時\n       \n\n\n         兼子\n        \n\n\n        王子\n       \n       ヨリ来リ会シ、共ニ華族会館ニ抵リ、\n       \n\n         鳩山\n        \n\n         和夫\n        \n\n       氏ノ案内ニ係ル\n       \n       婚儀披露会ニ出席ス、食事中一場ノ祝詞ヲ述ヘ、夕\n       \n        六時\n       \n\n        王子\n       \n       ニ帰宿ス\n       \n\n         愛子\n        \n\n       ノ婚話ヲ\n       \n\n         穂積\n        \n\n         陳重\n        \n\n       氏ニ托ス\n      \n",
+    "description": "\n\n\n        十一月一日\n       \n       晴　冷\n      \n\n\n        午前七時\n       \n       起床、風邪気全ク愈ヘス、入浴スルヲ得ス、\n       \n        八時\n       \n       朝飧ヲ食シ児童等ト談話ス、\n       \n        午前十一時\n       \n\n        高千穂学校\n       \n       運動会ニ出席シ、学生ニ一場ノ訓示ヲ述フ、\n       \n        午後一時\n       \n\n\n         帝国ホテル\n        \n\n       ニ抵リ午飧シ、後理髪ス、\n       \n        二時\n       \n\n\n         兼子\n        \n\n\n        王子\n       \n       ヨリ来リ会シ、共ニ華族会館ニ抵リ、\n       \n\n         鳩山\n        \n\n         和夫\n        \n\n       氏ノ案内ニ係ル\n       \n       婚儀披露会ニ出席ス、食事中一場ノ祝詞ヲ述ヘ、夕\n       \n        六時\n       \n\n        王子\n       \n       ニ帰宿ス\n       \n\n         愛子\n        \n\n       ノ婚話ヲ\n       \n\n         穂積\n        \n\n         陳重\n        \n\n       氏ニ托ス\n      \n",
     "label": "十一月一日              晴　冷",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10016m-0307",
@@ -30,6 +36,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "王子"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子"
     ],
     "temporal": "1908-11-01",
     "texts": [
@@ -57,13 +66,13 @@
     "time": {
         "07:00:00": "<div><time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、風邪気全ク愈ヘス、入浴スルヲ得ス、</div>",
         "08:00:00": "<div><time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ食シ児童等ト談話ス、</div>",
-        "11:00:00": "<div><time when=\"11:00:00\">\n        午前十一時\n       </time>\n       高千穂学校運動会ニ出席シ、学生ニ一場ノ訓示ヲ述フ、</div>",
+        "11:00:00": "<div><time when=\"11:00:00\">\n        午前十一時\n       </time>\n<orgName>\n        高千穂学校\n       </orgName>\n       運動会ニ出席シ、学生ニ一場ノ訓示ヲ述フ、</div>",
         "13:00:00": "<div><time when=\"13:00:00\">\n        午後一時\n       </time>\n<orgName>\n<orgName>\n         帝国ホテル\n        </orgName>\n</orgName>\n       ニ抵リ午飧シ、後理髪ス、</div>",
-        "14:00:00": "<div><time when=\"14:00:00\">\n        二時\n       </time>\n<persName corresp=\"#pers_兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ヨリ来リ会シ、共ニ華族会館ニ抵リ、\n       <persName corresp=\"#pers_鳩山和夫\">\n<surname>\n         鳩山\n        </surname>\n<forename>\n         和夫\n        </forename>\n</persName>\n       氏ノ案内ニ係ル\n       <pb corresp=\"#pageB1546\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/572/full/max/0/default.jpg\" n=\"B1546\" source=\"#pageB1546\"/>\n       婚儀披露会ニ出席ス、食事中一場ノ祝詞ヲ述ヘ、夕</div>",
-        "18:00:00": "<div><time when=\"18:00:00\">\n        六時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス\n       <persName corresp=\"#pers_愛子\">\n<forename>\n         愛子\n        </forename>\n</persName>\n       ノ婚話ヲ\n       <persName corresp=\"#pers_穂積陳重\">\n<surname>\n         穂積\n        </surname>\n<forename>\n         陳重\n        </forename>\n</persName>\n       氏ニ托ス</div>"
+        "14:00:00": "<div><time when=\"14:00:00\">\n        二時\n       </time>\n<persName corresp=\"#pers_渋沢兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ヨリ来リ会シ、共ニ華族会館ニ抵リ、\n       <persName corresp=\"#pers_鳩山和夫\">\n<surname>\n         鳩山\n        </surname>\n<forename>\n         和夫\n        </forename>\n</persName>\n       氏ノ案内ニ係ル\n       <pb corresp=\"#pageB1546\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/572/full/max/0/default.jpg\" n=\"B1546\" source=\"#pageB1546\"/>\n       婚儀披露会ニ出席ス、食事中一場ノ祝詞ヲ述ヘ、夕</div>",
+        "18:00:00": "<div><time when=\"18:00:00\">\n        六時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス\n       <persName corresp=\"#pers_明石愛子\">\n<forename>\n         愛子\n        </forename>\n</persName>\n       ノ婚話ヲ\n       <persName corresp=\"#pers_穂積陳重\">\n<surname>\n         穂積\n        </surname>\n<forename>\n         陳重\n        </forename>\n</persName>\n       氏ニ托ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10016m-0306\">\n<head>\n<date when=\"1908-11-01\">\n        十一月一日\n       </date>\n       晴　冷\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、風邪気全ク愈ヘス、入浴スルヲ得ス、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ食シ児童等ト談話ス、\n       <time when=\"11:00:00\">\n        午前十一時\n       </time>\n       高千穂学校運動会ニ出席シ、学生ニ一場ノ訓示ヲ述フ、\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n<orgName>\n<orgName>\n         帝国ホテル\n        </orgName>\n</orgName>\n       ニ抵リ午飧シ、後理髪ス、\n       <time when=\"14:00:00\">\n        二時\n       </time>\n<persName corresp=\"#pers_兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ヨリ来リ会シ、共ニ華族会館ニ抵リ、\n       <persName corresp=\"#pers_鳩山和夫\">\n<surname>\n         鳩山\n        </surname>\n<forename>\n         和夫\n        </forename>\n</persName>\n       氏ノ案内ニ係ル\n       <pb corresp=\"#pageB1546\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/572/full/max/0/default.jpg\" n=\"B1546\" source=\"#pageB1546\"/>\n       婚儀披露会ニ出席ス、食事中一場ノ祝詞ヲ述ヘ、夕\n       <time when=\"18:00:00\">\n        六時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス\n       <persName corresp=\"#pers_愛子\">\n<forename>\n         愛子\n        </forename>\n</persName>\n       ノ婚話ヲ\n       <persName corresp=\"#pers_穂積陳重\">\n<surname>\n         穂積\n        </surname>\n<forename>\n         陳重\n        </forename>\n</persName>\n       氏ニ托ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10016m-0306\">\n<head>\n<date when=\"1908-11-01\">\n        十一月一日\n       </date>\n       晴　冷\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、風邪気全ク愈ヘス、入浴スルヲ得ス、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ食シ児童等ト談話ス、\n       <time when=\"11:00:00\">\n        午前十一時\n       </time>\n<orgName>\n        高千穂学校\n       </orgName>\n       運動会ニ出席シ、学生ニ一場ノ訓示ヲ述フ、\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n<orgName>\n<orgName>\n         帝国ホテル\n        </orgName>\n</orgName>\n       ニ抵リ午飧シ、後理髪ス、\n       <time when=\"14:00:00\">\n        二時\n       </time>\n<persName corresp=\"#pers_渋沢兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ヨリ来リ会シ、共ニ華族会館ニ抵リ、\n       <persName corresp=\"#pers_鳩山和夫\">\n<surname>\n         鳩山\n        </surname>\n<forename>\n         和夫\n        </forename>\n</persName>\n       氏ノ案内ニ係ル\n       <pb corresp=\"#pageB1546\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/572/full/max/0/default.jpg\" n=\"B1546\" source=\"#pageB1546\"/>\n       婚儀披露会ニ出席ス、食事中一場ノ祝詞ヲ述ヘ、夕\n       <time when=\"18:00:00\">\n        六時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス\n       <persName corresp=\"#pers_明石愛子\">\n<forename>\n         愛子\n        </forename>\n</persName>\n       ノ婚話ヲ\n       <persName corresp=\"#pers_穂積陳重\">\n<surname>\n         穂積\n        </surname>\n<forename>\n         陳重\n        </forename>\n</persName>\n       氏ニ托ス\n      </p>\n</div>",
     "year": "1908",
     "yearAndMonth": "1908-11"
 }

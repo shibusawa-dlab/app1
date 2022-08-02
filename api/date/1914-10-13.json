@@ -1,5 +1,10 @@
 {
-    "agential": [],
+    "agential": [
+        "アルラン"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/アルラン"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1167",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +20,7 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-10",
     "date_lvl2": "1914-10-13",
-    "description": "\n\n\n           十三日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n            国産奨励会総会ニ対スル準備会（農商務省）\n           \n\n\n\n\n             午前十時\n            \n            常設委員会（養育院本院）\n           \n\n\n\n\n             午前十一時\n            \n\n             東京\n            \n            市養育院\n           \n\n\n\n\n             午後六時\n            \n\n             米国\n            \n            人アルラン氏送別会（\n            \n             日本橋\n            \n            クラブ）\n           \n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n            国産奨励会総会ニ対スル準備会（農商務省）\n           \n\n\n\n\n             午前十時\n            \n            常設委員会（養育院本院）\n           \n\n\n\n\n             午前十一時\n            \n\n             東京\n            \n            市養育院\n           \n\n\n\n\n             午後六時\n            \n\n             米国\n            \n            人\n            \n\n              アルラン\n             \n\n            氏送別会（日本橋クラブ）\n           \n\n\n",
     "label": "十三日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20016m-0029",
@@ -25,8 +30,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "東京",
-        "アメリカ合衆国",
-        "日本橋"
+        "アメリカ合衆国"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アメリカ合衆国"
     ],
     "temporal": "1914-10-13",
     "texts": [
@@ -55,7 +63,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            国産奨励会総会ニ対スル準備会（農商務省）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0028\">\n<head>\n<date when=\"1914-10-13\">\n           十三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            国産奨励会総会ニ対スル準備会（農商務省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            常設委員会（養育院本院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            人アルラン氏送別会（\n            <placeName corresp=\"#place_日本橋\">\n             日本橋\n            </placeName>\n            クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0028\">\n<head>\n<date when=\"1914-10-13\">\n           十三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            国産奨励会総会ニ対スル準備会（農商務省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            常設委員会（養育院本院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            人\n            <persName corresp=\"#pers_アルラン\">\n<surname>\n              アルラン\n             </surname>\n</persName>\n            氏送別会（日本橋クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-10"
 }

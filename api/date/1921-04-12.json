@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1359",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-04",
     "date_lvl2": "1921-04-12",
-    "description": "\n\n\n           十二日\n          \n          （火）\n         \n\n\n\n\n             午後時\n            \n            法隆寺ニ於ケル御遠忌ニ出席\n           \n\n\n\n\n             午後五・二十三分\n            \n\n             王寺\n            \n            駅発\n           \n\n\n\n\n             午後六・十三分\n            \n\n             大阪\n            \n            （港町駅《（湊町駅）》）着\n           \n\n\n\n\n             大阪\n            \n\n             泊\n            \n            （自由亭）\n           \n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （火）\n         \n\n\n\n\n             午後時\n            \n            法隆寺ニ於ケル御遠忌ニ出席\n           \n\n\n\n\n             午後五・二十三分\n            \n\n             王寺\n            \n            駅発\n           \n\n\n\n\n             午後六・十三分\n            \n\n             大阪\n            \n            （港町駅《（湊町駅）》）着\n           \n\n\n\n\n             大阪\n            \n            泊（自由亭）\n           \n\n\n",
     "label": "十二日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0095",
@@ -25,8 +26,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "王寺",
-        "大阪",
-        "泊"
+        "大阪"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/王寺",
+        "https://shibusawa-dlab.github.io/lab1/api/place/大阪"
     ],
     "temporal": "1921-04-12",
     "texts": [
@@ -53,7 +57,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0094\">\n<head>\n<date when=\"1921-04-12\">\n           十二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午後時\n            </time>\n            法隆寺ニ於ケル御遠忌ニ出席\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:23:00\">\n             午後五・二十三分\n            </time>\n<placeName corresp=\"#place_王寺\">\n             王寺\n            </placeName>\n            駅発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:13:00\">\n             午後六・十三分\n            </time>\n<placeName corresp=\"#place_大阪\">\n             大阪\n            </placeName>\n            （港町駅《（湊町駅）》）着\n           </p>\n</event>\n<event>\n<p>\n<placeName corresp=\"#place_大阪\">\n             大阪\n            </placeName>\n<placeName corresp=\"#place_泊\">\n             泊\n            </placeName>\n            （自由亭）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0094\">\n<head>\n<date when=\"1921-04-12\">\n           十二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午後時\n            </time>\n            法隆寺ニ於ケル御遠忌ニ出席\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:23:00\">\n             午後五・二十三分\n            </time>\n<placeName corresp=\"#place_王寺\">\n             王寺\n            </placeName>\n            駅発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:13:00\">\n             午後六・十三分\n            </time>\n<placeName corresp=\"#place_大阪\">\n             大阪\n            </placeName>\n            （港町駅《（湊町駅）》）着\n           </p>\n</event>\n<event>\n<p>\n<placeName corresp=\"#place_大阪\">\n             大阪\n            </placeName>\n            泊（自由亭）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-04"
 }

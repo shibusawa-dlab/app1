@@ -1,7 +1,11 @@
 {
     "agential": [
         "瓜生震",
-        "喜作"
+        "渋沢成一郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/瓜生震",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢成一郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/173",
     "category": {
@@ -18,7 +22,7 @@
     "date_lvl0": "1900",
     "date_lvl1": "1900-07",
     "date_lvl2": "1900-07-23",
-    "description": "\n\n\n        七月廿三日\n       \n\n\n       曇、午前数多ノ来客ニ接ス、午後\n       \n        第一銀行\n       \n       ニ出勤ス、\n       \n\n         瓜生\n        \n\n         震\n        \n\n       氏来リ岩越鉄道会社ノ事ヲ談ス、\n       \n        三時\n       \n       白金ナル同姓\n       \n\n         喜作\n        \n\n       ヲ訪ヒ硫黄山噴火ノ状況及仁之助身上ノ事ヲ聞知ス、\n       \n        七時\n       \n\n        深川\n       \n       宅ニ於テ鷗盟会常議員会ヲ開ク、夜\n       \n        深川\n       \n       宅ニ宿ス\n      \n",
+    "description": "\n\n\n        七月廿三日\n       \n\n\n       曇、午前数多ノ来客ニ接ス、午後\n       \n        第一銀行\n       \n       ニ出勤ス、\n       \n\n         瓜生\n        \n\n         震\n        \n\n       氏来リ岩越鉄道会社ノ事ヲ談ス、\n       \n        三時\n       \n\n        白金\n       \n       ナル同姓\n       \n\n         喜作\n        \n\n       ヲ訪ヒ硫黄山噴火ノ状況及仁之助身上ノ事ヲ聞知ス、\n       \n        七時\n       \n\n        深川\n       \n       宅ニ於テ鷗盟会常議員会ヲ開ク、夜\n       \n        深川\n       \n       宅ニ宿ス\n      \n",
     "label": "七月廿三日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10009m-0205",
@@ -27,7 +31,12 @@
     "sort": "DKB10009m-0204",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
+        "白金",
         "深川"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/白金",
+        "https://shibusawa-dlab.github.io/lab1/api/place/深川"
     ],
     "temporal": "1900-07-23",
     "texts": [
@@ -53,11 +62,11 @@
         "DKB10010m-0067"
     ],
     "time": {
-        "15:00:00": "<div>曇、午前数多ノ来客ニ接ス、午後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ出勤ス、\n       <persName corresp=\"#pers_瓜生震\">\n<surname>\n         瓜生\n        </surname>\n<forename>\n         震\n        </forename>\n</persName>\n       氏来リ岩越鉄道会社ノ事ヲ談ス、<time when=\"15:00:00\">\n        三時\n       </time>\n       白金ナル同姓\n       <persName corresp=\"#pers_喜作\">\n<forename>\n         喜作\n        </forename>\n</persName>\n       ヲ訪ヒ硫黄山噴火ノ状況及仁之助身上ノ事ヲ聞知ス、</div>",
+        "15:00:00": "<div>曇、午前数多ノ来客ニ接ス、午後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ出勤ス、\n       <persName corresp=\"#pers_瓜生震\">\n<surname>\n         瓜生\n        </surname>\n<forename>\n         震\n        </forename>\n</persName>\n       氏来リ岩越鉄道会社ノ事ヲ談ス、<time when=\"15:00:00\">\n        三時\n       </time>\n<placeName corresp=\"#place_白金\">\n        白金\n       </placeName>\n       ナル同姓\n       <persName corresp=\"#pers_渋沢成一郎\">\n<forename>\n         喜作\n        </forename>\n</persName>\n       ヲ訪ヒ硫黄山噴火ノ状況及仁之助身上ノ事ヲ聞知ス、</div>",
         "19:00:00": "<div><time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       宅ニ於テ鷗盟会常議員会ヲ開ク、夜\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       宅ニ宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10009m-0204\">\n<head>\n<date when=\"1900-07-23\">\n        七月廿三日\n       </date>\n</head>\n<p>\n       曇、午前数多ノ来客ニ接ス、午後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ出勤ス、\n       <persName corresp=\"#pers_瓜生震\">\n<surname>\n         瓜生\n        </surname>\n<forename>\n         震\n        </forename>\n</persName>\n       氏来リ岩越鉄道会社ノ事ヲ談ス、\n       <time when=\"15:00:00\">\n        三時\n       </time>\n       白金ナル同姓\n       <persName corresp=\"#pers_喜作\">\n<forename>\n         喜作\n        </forename>\n</persName>\n       ヲ訪ヒ硫黄山噴火ノ状況及仁之助身上ノ事ヲ聞知ス、\n       <time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       宅ニ於テ鷗盟会常議員会ヲ開ク、夜\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       宅ニ宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10009m-0204\">\n<head>\n<date when=\"1900-07-23\">\n        七月廿三日\n       </date>\n</head>\n<p>\n       曇、午前数多ノ来客ニ接ス、午後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ出勤ス、\n       <persName corresp=\"#pers_瓜生震\">\n<surname>\n         瓜生\n        </surname>\n<forename>\n         震\n        </forename>\n</persName>\n       氏来リ岩越鉄道会社ノ事ヲ談ス、\n       <time when=\"15:00:00\">\n        三時\n       </time>\n<placeName corresp=\"#place_白金\">\n        白金\n       </placeName>\n       ナル同姓\n       <persName corresp=\"#pers_渋沢成一郎\">\n<forename>\n         喜作\n        </forename>\n</persName>\n       ヲ訪ヒ硫黄山噴火ノ状況及仁之助身上ノ事ヲ聞知ス、\n       <time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       宅ニ於テ鷗盟会常議員会ヲ開ク、夜\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       宅ニ宿ス\n      </p>\n</div>",
     "year": "1900",
     "yearAndMonth": "1900-07"
 }

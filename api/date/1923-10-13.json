@@ -1,6 +1,11 @@
 {
     "agential": [
-        "徳川"
+        "徳川",
+        "コールマン"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/コールマン"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1441",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-10",
     "date_lvl2": "1923-10-13",
-    "description": "\n\n\n           十三日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n\n             東京\n            \n            市養育院常設委員会（\n            \n             巣鴨\n            \n            分院）\n           \n\n\n\n\n             引続\n            \n\n             板橋\n            \n            本院ヘ御出向\n           \n\n\n\n\n             午后一時\n            \n\n\n              徳川\n             \n\n            公爵ヨリ御案内（華族会館）\n           \n\n\n\n\n             午後二時\n            \n\n             東京\n            \n            女学館評議員会（事ム処）\n           \n\n\n\n\n             午後四時\n            \n            コールマン氏帰米ニ付送別茶話会（帝国ホテル）\n           \n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n\n             東京\n            \n            市養育院常設委員会（\n            \n             巣鴨\n            \n            分院）\n           \n\n\n\n\n             引続\n            \n\n             板橋\n            \n            本院ヘ御出向\n           \n\n\n\n\n             午后一時\n            \n\n\n              徳川\n             \n\n            公爵ヨリ御案内（華族会館）\n           \n\n\n\n\n             午後二時\n            \n\n             東京女学館\n            \n            評議員会（事ム処）\n           \n\n\n\n\n             午後四時\n            \n\n\n              コールマン\n             \n\n            氏帰米ニ付送別茶話会（帝国ホテル）\n           \n\n\n",
     "label": "十三日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0262",
@@ -29,6 +34,11 @@
         "東京",
         "巣鴨",
         "板橋"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/巣鴨",
+        "https://shibusawa-dlab.github.io/lab1/api/place/板橋"
     ],
     "temporal": "1923-10-13",
     "texts": [
@@ -57,7 +67,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院常設委員会（\n            <placeName corresp=\"#place_巣鴨\">\n             巣鴨\n            </placeName>\n            分院）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0261\">\n<head>\n<date when=\"1923-10-13\">\n           十三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院常設委員会（\n            <placeName corresp=\"#place_巣鴨\">\n             巣鴨\n            </placeName>\n            分院）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続\n            </time>\n<placeName corresp=\"#place_板橋\">\n             板橋\n            </placeName>\n            本院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公爵ヨリ御案内（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            女学館評議員会（事ム処）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            コールマン氏帰米ニ付送別茶話会（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0261\">\n<head>\n<date when=\"1923-10-13\">\n           十三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院常設委員会（\n            <placeName corresp=\"#place_巣鴨\">\n             巣鴨\n            </placeName>\n            分院）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続\n            </time>\n<placeName corresp=\"#place_板橋\">\n             板橋\n            </placeName>\n            本院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公爵ヨリ御案内（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<orgName>\n             東京女学館\n            </orgName>\n            評議員会（事ム処）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_コールマン\">\n<surname>\n              コールマン\n             </surname>\n</persName>\n            氏帰米ニ付送別茶話会（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-10"
 }

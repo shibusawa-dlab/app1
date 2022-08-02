@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1559",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -25,8 +26,13 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "吉岡",
-        "アスカ山",
+        "飛鳥山邸",
         "日本"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/吉岡",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本"
     ],
     "temporal": "1927-10-14",
     "texts": [
@@ -52,10 +58,10 @@
         "DKB20029m-0219"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            「消費経済社」主幹\n            <placeName corresp=\"#place_吉岡\">\n             吉岡\n            </placeName>\n            忠氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            「消費経済社」主幹\n            <placeName corresp=\"#place_吉岡\">\n             吉岡\n            </placeName>\n            忠氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0261\">\n<head>\n<date when=\"1927-10-14\">\n           十四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            「消費経済社」主幹\n            <placeName corresp=\"#place_吉岡\">\n             吉岡\n            </placeName>\n            忠氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            少年団\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            聯盟ノ件（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:15:00\">\n             午後一・一五時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            総理大臣ヨリ御案内（外相官舎）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0261\">\n<head>\n<date when=\"1927-10-14\">\n           十四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            「消費経済社」主幹\n            <placeName corresp=\"#place_吉岡\">\n             吉岡\n            </placeName>\n            忠氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            少年団\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            聯盟ノ件（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:15:00\">\n             午後一・一五時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            総理大臣ヨリ御案内（外相官舎）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-10"
 }

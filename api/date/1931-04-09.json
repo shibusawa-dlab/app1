@@ -1,8 +1,11 @@
 {
     "agential": [
         "田中栄八郎",
-        "渋沢秀雄",
-        "渋沢"
+        "渋沢秀雄"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田中栄八郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢秀雄"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1622",
     "category": {
@@ -19,7 +22,7 @@
     "date_lvl0": "1931",
     "date_lvl1": "1931-04",
     "date_lvl2": "1931-04-09",
-    "description": "\n\n\n           九日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n\n              田中\n             \n\n              栄八郎\n             \n\n            及\n            \n\n              渋沢\n             \n\n              秀雄\n             \n\n            二氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n             日本\n            \n            女子大学臨時評議員会\n            \n\n              渋沢\n             \n\n            事務所\n           \n\n\n",
+    "description": "\n\n\n           九日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n\n              田中\n             \n\n              栄八郎\n             \n\n            及\n            \n\n              渋沢\n             \n\n              秀雄\n             \n\n            二氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n             日本女子大学\n            \n            臨時評議員会 渋沢事務所\n           \n\n\n",
     "label": "九日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20033m-0047",
@@ -28,8 +31,10 @@
     "sort": "DKB20033m-0045",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
-        "日本"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1931-04-09",
     "texts": [
@@ -58,7 +63,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_田中栄八郎\">\n<surname>\n              田中\n             </surname>\n<forename>\n              栄八郎\n             </forename>\n</persName>\n            及\n            <persName corresp=\"#pers_渋沢秀雄\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              秀雄\n             </forename>\n</persName>\n            二氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0045\">\n<head>\n<date when=\"1931-04-09\">\n           九日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_田中栄八郎\">\n<surname>\n              田中\n             </surname>\n<forename>\n              栄八郎\n             </forename>\n</persName>\n            及\n            <persName corresp=\"#pers_渋沢秀雄\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              秀雄\n             </forename>\n</persName>\n            二氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            女子大学臨時評議員会\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            事務所\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0045\">\n<head>\n<date when=\"1931-04-09\">\n           九日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_田中栄八郎\">\n<surname>\n              田中\n             </surname>\n<forename>\n              栄八郎\n             </forename>\n</persName>\n            及\n            <persName corresp=\"#pers_渋沢秀雄\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              秀雄\n             </forename>\n</persName>\n            二氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             日本女子大学\n            </orgName>\n            臨時評議員会 渋沢事務所\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1931",
     "yearAndMonth": "1931-04"
 }

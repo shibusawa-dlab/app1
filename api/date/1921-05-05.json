@@ -1,8 +1,6 @@
 {
-    "agential": [
-        "五三",
-        "三二"
-    ],
+    "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1361",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,7 +16,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-05",
     "date_lvl2": "1921-05-05",
-    "description": "\n\n\n           五日\n          \n          （木）\n         \n\n\n\n            白河行御予定\n           \n\n\n\n\n             午前七時\n            \n\n             上野\n            \n            駅御発車\n           \n\n\n\n\n\n             午〃一一・\n             \n\n               五三\n              \n\n\n            白河御着\n           \n\n\n\n\n             午後五・\n             \n\n               三二\n              \n\n\n            白河駅御出発\n           \n\n\n\n\n             午前〇半時\n            \n            ○\n            \n             六日\n            \n\n             王子\n            \n            駅着御帰京\n           \n\n\n",
+    "description": "\n\n\n           五日\n          \n          （木）\n         \n\n\n\n            白河行御予定\n           \n\n\n\n\n             午前七時\n            \n\n             上野\n            \n            駅御発車\n           \n\n\n\n\n\n             午〃一一・五三\n            \n            白河御着\n           \n\n\n\n\n             午後五・三二\n            \n            白河駅御出発\n           \n\n\n\n\n             午前〇半時\n            \n            ○\n            \n             六日\n            \n\n             王子\n            \n            駅着御帰京\n           \n\n\n",
     "label": "五日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0118",
@@ -29,6 +27,10 @@
     "spatial": [
         "上野",
         "王子"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野",
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子"
     ],
     "temporal": "1921-05-05",
     "texts": [
@@ -55,7 +57,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0117\">\n<head>\n<date when=\"1921-05-05\">\n           五日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n            白河行御予定\n           </p>\n</event>\n<event>\n<p>\n<time when=\"07:00:00\">\n             午前七時\n            </time>\n<placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            駅御発車\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2522\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1361/full/max/0/default.jpg\" n=\"B2522\" source=\"#pageB2522\"/>\n<time when=\"11:53:00\">\n             午〃一一・\n             <persName corresp=\"#pers_五三\">\n<forename>\n               五三\n              </forename>\n</persName>\n</time>\n            白河御着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:22:00\">\n             午後五・\n             <persName corresp=\"#pers_三二\">\n<forename>\n               三二\n              </forename>\n</persName>\n</time>\n            白河駅御出発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午前〇半時\n            </time>\n            ○\n            <date when=\"1921-05-06\">\n             六日\n            </date>\n<placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅着御帰京\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0117\">\n<head>\n<date when=\"1921-05-05\">\n           五日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n            白河行御予定\n           </p>\n</event>\n<event>\n<p>\n<time when=\"07:00:00\">\n             午前七時\n            </time>\n<placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            駅御発車\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2522\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1361/full/max/0/default.jpg\" n=\"B2522\" source=\"#pageB2522\"/>\n<time when=\"11:53:00\">\n             午〃一一・五三\n            </time>\n            白河御着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:32:00\">\n             午後五・三二\n            </time>\n            白河駅御出発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午前〇半時\n            </time>\n            ○\n            <date when=\"1921-05-06\">\n             六日\n            </date>\n<placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅着御帰京\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-05"
 }

@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1249",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-10",
     "date_lvl2": "1917-10-07",
-    "description": "\n\n\n           七日\n          \n          （日）\n         \n\n\n\n            六十九銀行落成式御出向（\n            \n             長岡\n            \n            市）\n           \n\n\n",
+    "description": "\n\n\n           七日\n          \n          （日）\n         \n\n\n\n\n             六十九銀行\n            \n            落成式御出向（\n            \n             長岡\n            \n            市）\n           \n\n\n",
     "label": "七日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0272",
@@ -25,6 +26,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "長岡"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/長岡"
     ],
     "temporal": "1917-10-07",
     "texts": [
@@ -51,7 +55,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0270\">\n<head>\n<date when=\"1917-10-07\">\n           七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n            六十九銀行落成式御出向（\n            <placeName corresp=\"#place_長岡\">\n             長岡\n            </placeName>\n            市）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0270\">\n<head>\n<date when=\"1917-10-07\">\n           七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<orgName>\n             六十九銀行\n            </orgName>\n            落成式御出向（\n            <placeName corresp=\"#place_長岡\">\n             長岡\n            </placeName>\n            市）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-10"
 }

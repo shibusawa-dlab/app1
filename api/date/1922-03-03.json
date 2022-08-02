@@ -1,7 +1,15 @@
 {
     "agential": [
+        "古城菅堂",
+        "牧野",
         "珍田",
         "明石家"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/古城菅堂",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/牧野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/珍田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/明石家"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1383",
     "category": {
@@ -18,7 +26,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-03",
     "date_lvl2": "1922-03-03",
-    "description": "\n\n\n           三日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n            古城\n            \n             菅\n            \n            堂氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            牧野宮相ヲ御訪問（宮内省）\n           \n\n\n\n\n             正午\n            \n\n\n              珍田\n             \n\n            東宮太夫《（\n            \n\n              珍田\n             \n\n            東宮大夫）》ヲ御訪問（東宮御所）\n           \n\n\n\n\n             午後五時\n            \n\n\n              明石家\n             \n\n            ヘ御出向ノ約\n           \n\n\n",
+    "description": "\n\n\n           三日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n\n\n              古城\n             \n\n              菅堂\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              牧野\n             \n\n            宮相ヲ御訪問（宮内省）\n           \n\n\n\n\n             正午\n            \n\n\n              珍田\n             \n\n            東宮太夫《（\n            \n\n              珍田\n             \n\n            東宮大夫）》ヲ御訪問（東宮御所）\n           \n\n\n\n\n             午後五時\n            \n\n\n              明石家\n             \n\n            ヘ御出向ノ約\n           \n\n\n",
     "label": "三日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0035",
@@ -27,8 +35,10 @@
     "sort": "DKB20024m-0034",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "菅",
         "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1922-03-03",
     "texts": [
@@ -54,10 +64,10 @@
         "DKB20032m-0138"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            古城\n            <placeName corresp=\"#place_菅\">\n             菅\n            </placeName>\n            堂氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_古城菅堂\">\n<surname>\n              古城\n             </surname>\n<forename>\n              菅堂\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0034\">\n<head>\n<date when=\"1922-03-03\">\n           三日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            古城\n            <placeName corresp=\"#place_菅\">\n             菅\n            </placeName>\n            堂氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            牧野宮相ヲ御訪問（宮内省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_珍田\">\n<surname>\n              珍田\n             </surname>\n</persName>\n            東宮太夫《（\n            <persName corresp=\"#pers_珍田\">\n<surname>\n              珍田\n             </surname>\n</persName>\n            東宮大夫）》ヲ御訪問（東宮御所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_明石家\">\n<surname>\n              明石家\n             </surname>\n</persName>\n            ヘ御出向ノ約\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0034\">\n<head>\n<date when=\"1922-03-03\">\n           三日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_古城菅堂\">\n<surname>\n              古城\n             </surname>\n<forename>\n              菅堂\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_牧野\">\n<surname>\n              牧野\n             </surname>\n</persName>\n            宮相ヲ御訪問（宮内省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_珍田\">\n<surname>\n              珍田\n             </surname>\n</persName>\n            東宮太夫《（\n            <persName corresp=\"#pers_珍田\">\n<surname>\n              珍田\n             </surname>\n</persName>\n            東宮大夫）》ヲ御訪問（東宮御所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_明石家\">\n<surname>\n              明石家\n             </surname>\n</persName>\n            ヘ御出向ノ約\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-03"
 }

@@ -1,8 +1,13 @@
 {
     "agential": [
-        "杉浦",
+        "杉浦譲",
         "小花",
         "福地源一郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/杉浦譲",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小花",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/福地源一郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/58",
     "category": {
@@ -19,7 +24,7 @@
     "date_lvl0": "1869",
     "date_lvl1": "1869-01",
     "date_lvl2": "1869-01-20",
-    "description": "\n\n\n        十二月八日\n       \n       曇\n       \n        一月十九日《（二十日）》\n       \n\n\n       払暁\n       \n        鴻巣\n       \n       発途、蕨宿ニ而昼食、夕方明神下着、\n       \n\n         杉浦\n        \n\n       在宿なりしかは別後之事共申談、夜、阿人\n       \n\n         小花\n        \n\n       、阿米来る、\n       \n\n         福地\n        \n\n         源一郎\n        \n\n       来\n      \n",
+    "description": "\n\n\n        十二月八日\n       \n       曇\n       \n        一月十九日《（二十日）》\n       \n\n\n       払暁\n       \n        鴻巣\n       \n       発途、\n       \n        蕨\n       \n       宿ニ而昼食、夕方明神下着、\n       \n\n         杉浦\n        \n\n       在宿なりしかは別後之事共申談、夜、阿人\n       \n\n         小花\n        \n\n       、阿米来る、\n       \n\n         福地\n        \n\n         源一郎\n        \n\n       来\n      \n",
     "label": "十二月八日              曇               一月十九日《（二十日）》",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10002m-0037",
@@ -28,7 +33,12 @@
     "sort": "DKB10002m-0036",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
-        "鴻巣市"
+        "鴻巣市",
+        "蕨"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/鴻巣市",
+        "https://shibusawa-dlab.github.io/lab1/api/place/蕨"
     ],
     "temporal": "1869-01-20",
     "texts": [
@@ -55,7 +65,7 @@
     ],
     "time": {},
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10002m-0036\">\n<head>\n<date type=\"旧暦\" when=\"1869-01-20\">\n        十二月八日\n       </date>\n       曇\n       <date evidence=\"day inferenced\" when=\"1869-01-20\">\n        一月十九日《（二十日）》\n       </date>\n</head>\n<p>\n       払暁\n       <placeName corresp=\"#place_鴻巣市\">\n        鴻巣\n       </placeName>\n       発途、蕨宿ニ而昼食、夕方明神下着、\n       <persName corresp=\"#pers_杉浦\">\n<surname>\n         杉浦\n        </surname>\n</persName>\n       在宿なりしかは別後之事共申談、夜、阿人\n       <persName corresp=\"#pers_小花\">\n<surname>\n         小花\n        </surname>\n</persName>\n       、阿米来る、\n       <persName corresp=\"#pers_福地源一郎\">\n<surname>\n         福地\n        </surname>\n<forename>\n         源一郎\n        </forename>\n</persName>\n       来\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10002m-0036\">\n<head>\n<date type=\"旧暦\" when=\"1869-01-20\">\n        十二月八日\n       </date>\n       曇\n       <date evidence=\"day inferenced\" when=\"1869-01-20\">\n        一月十九日《（二十日）》\n       </date>\n</head>\n<p>\n       払暁\n       <placeName corresp=\"#place_鴻巣市\">\n        鴻巣\n       </placeName>\n       発途、\n       <placeName corresp=\"#place_蕨\">\n        蕨\n       </placeName>\n       宿ニ而昼食、夕方明神下着、\n       <persName corresp=\"#pers_杉浦譲\">\n<surname>\n         杉浦\n        </surname>\n</persName>\n       在宿なりしかは別後之事共申談、夜、阿人\n       <persName corresp=\"#pers_小花\">\n<surname>\n         小花\n        </surname>\n</persName>\n       、阿米来る、\n       <persName corresp=\"#pers_福地源一郎\">\n<surname>\n         福地\n        </surname>\n<forename>\n         源一郎\n        </forename>\n</persName>\n       来\n      </p>\n</div>",
     "year": "1869",
     "yearAndMonth": "1869-01"
 }

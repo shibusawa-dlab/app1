@@ -2,6 +2,9 @@
     "agential": [
         "大隈"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大隈"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1277",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-09",
     "date_lvl2": "1918-09-23",
-    "description": "\n\n\n           廿三日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n            早稲田大学維持委員会（恩賜館）\n           \n\n\n\n            右終つて\n            \n\n              大隈\n             \n\n            侯御訪問の約（同邸）\n           \n\n\n\n\n             午前十一時\n            \n\n             日本\n            \n            女子大学校ヘ御出向ノ約\n           \n\n\n",
+    "description": "\n\n\n           廿三日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n\n             早稲田大学\n            \n            維持委員会（恩賜館）\n           \n\n\n\n            右終つて\n            \n\n              大隈\n             \n\n            侯御訪問の約（同邸）\n           \n\n\n\n\n             午前十一時\n            \n\n             日本女子大学校\n            \n            ヘ御出向ノ約\n           \n\n\n",
     "label": "廿三日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0246",
@@ -25,9 +28,8 @@
     "prev": "DKB20020m-0244",
     "sort": "DKB20020m-0245",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "日本"
-    ],
+    "spatial": [],
+    "spatial_uri": [],
     "temporal": "1918-09-23",
     "texts": [
         "DKB20018m-0052",
@@ -52,10 +54,10 @@
         "DKB20019m-0200"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            早稲田大学維持委員会（恩賜館）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<orgName>\n             早稲田大学\n            </orgName>\n            維持委員会（恩賜館）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0245\">\n<head>\n<date when=\"1918-09-23\">\n           廿三日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            早稲田大学維持委員会（恩賜館）\n           </p>\n</event>\n<event>\n<p>\n            右終つて\n            <persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯御訪問の約（同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            女子大学校ヘ御出向ノ約\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0245\">\n<head>\n<date when=\"1918-09-23\">\n           廿三日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<orgName>\n             早稲田大学\n            </orgName>\n            維持委員会（恩賜館）\n           </p>\n</event>\n<event>\n<p>\n            右終つて\n            <persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯御訪問の約（同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<orgName>\n             日本女子大学校\n            </orgName>\n            ヘ御出向ノ約\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-09"
 }

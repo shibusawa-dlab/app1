@@ -2,6 +2,9 @@
     "agential": [
         "浜野虎吉"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浜野虎吉"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1366",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-06",
     "date_lvl2": "1921-06-08",
-    "description": "\n\n\n           八日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n            警察官吏慰安会（\n            \n             王子\n            \n            劇場）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              浜野\n             \n\n              虎吉\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            国際病院評議員会（銀行クラブ）\n           \n\n\n\n\n             午後二時\n            \n            早稲田大学維持員会（恩賜館）\n           \n\n\n\n\n             午後正六時\n            \n            綿業研究会講演会（\n            \n             日本橋\n            \n            クラブ）\n           \n\n\n\n\n             午後七時\n            \n            東洋大学新設学科披露会（帝国ホテル）\n           \n\n\n",
+    "description": "\n\n\n           八日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n            警察官吏慰安会（\n            \n             王子\n            \n            劇場）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              浜野\n             \n\n              虎吉\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            国際病院評議員会（銀行クラブ）\n           \n\n\n\n\n             午後二時\n            \n            早稲田大学維持員会（恩賜館）\n           \n\n\n\n\n             午後正六時\n            \n            綿業研究会講演会（日本橋クラブ）\n           \n\n\n\n\n             午後七時\n            \n            東洋大学新設学科披露会（帝国ホテル）\n           \n\n\n",
     "label": "八日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0153",
@@ -27,8 +30,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "王子",
-        "日本橋兜町",
-        "日本橋"
+        "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1921-06-08",
     "texts": [
@@ -57,7 +63,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            警察官吏慰安会（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            劇場）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0152\">\n<head>\n<date when=\"1921-06-08\">\n           八日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            警察官吏慰安会（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            劇場）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_浜野虎吉\">\n<surname>\n              浜野\n             </surname>\n<forename>\n              虎吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            国際病院評議員会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            早稲田大学維持員会（恩賜館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後正六時\n            </time>\n            綿業研究会講演会（\n            <placeName corresp=\"#place_日本橋\">\n             日本橋\n            </placeName>\n            クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            東洋大学新設学科披露会（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0152\">\n<head>\n<date when=\"1921-06-08\">\n           八日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            警察官吏慰安会（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            劇場）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_浜野虎吉\">\n<surname>\n              浜野\n             </surname>\n<forename>\n              虎吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            国際病院評議員会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            早稲田大学維持員会（恩賜館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後正六時\n            </time>\n            綿業研究会講演会（日本橋クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            東洋大学新設学科披露会（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-06"
 }

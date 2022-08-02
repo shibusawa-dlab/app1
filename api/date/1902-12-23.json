@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/317",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -15,7 +16,7 @@
     "date_lvl0": "1902",
     "date_lvl1": "1902-12",
     "date_lvl2": "1902-12-23",
-    "description": "\n\n\n        十二月廿三日\n       \n\n\n       晴、\n       \n        午前八時\n       \n       朝飧ヲ畢リ、\n       \n        九時\n       \n\n        東京瓦斯会社\n       \n       ニ抵リテ重役会ヲ開ク、畢テ\n       \n        深川\n       \n       人造肥料会社ニ於テ重役会ヲ開ク、午飧後深川区役所ニ抵リ兵員慰労ノ会ヲ開ク、一演《（場カ）》ノ挨拶ヲ為ス、畢テ大倉商業学校ノ評議員会ニ列ス、\n       \n        午後五時\n       \n       銀行集会所ニ抵リ倶楽部ノ忘年会ニ列ス、夜\n       \n        九時\n       \n\n        浜町\n       \n       宅ニ帰宿ス\n      \n",
+    "description": "\n\n\n        十二月廿三日\n       \n\n\n       晴、\n       \n        午前八時\n       \n       朝飧ヲ畢リ、\n       \n        九時\n       \n\n        東京瓦斯会社\n       \n       ニ抵リテ重役会ヲ開ク、畢テ\n       \n        深川\n       \n\n        人造肥料会社\n       \n       ニ於テ重役会ヲ開ク、午飧後深川区役所ニ抵リ兵員慰労ノ会ヲ開ク、一演《（場カ）》ノ挨拶ヲ為ス、畢テ大倉商業学校ノ評議員会ニ列ス、\n       \n        午後五時\n       \n       銀行集会所ニ抵リ倶楽部ノ忘年会ニ列ス、夜\n       \n        九時\n       \n\n        浜町\n       \n       宅ニ帰宿ス\n      \n",
     "label": "十二月廿三日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10011m-0127",
@@ -26,6 +27,10 @@
     "spatial": [
         "深川",
         "浜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/深川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/浜町"
     ],
     "temporal": "1902-12-23",
     "texts": [
@@ -52,12 +57,12 @@
     ],
     "time": {
         "08:00:00": "<div>晴、<time when=\"08:00:00\">\n        午前八時\n       </time>\n       朝飧ヲ畢リ、</div>",
-        "09:00:00": "<div><time when=\"09:00:00\">\n        九時\n       </time>\n<orgName>\n        東京瓦斯会社\n       </orgName>\n       ニ抵リテ重役会ヲ開ク、畢テ\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       人造肥料会社ニ於テ重役会ヲ開ク、午飧後深川区役所ニ抵リ兵員慰労ノ会ヲ開ク、一演《（場カ）》ノ挨拶ヲ為ス、畢テ大倉商業学校ノ評議員会ニ列ス、</div>",
+        "09:00:00": "<div><time when=\"09:00:00\">\n        九時\n       </time>\n<orgName>\n        東京瓦斯会社\n       </orgName>\n       ニ抵リテ重役会ヲ開ク、畢テ\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n<orgName>\n        人造肥料会社\n       </orgName>\n       ニ於テ重役会ヲ開ク、午飧後深川区役所ニ抵リ兵員慰労ノ会ヲ開ク、一演《（場カ）》ノ挨拶ヲ為ス、畢テ大倉商業学校ノ評議員会ニ列ス、</div>",
         "17:00:00": "<div><time when=\"17:00:00\">\n        午後五時\n       </time>\n       銀行集会所ニ抵リ倶楽部ノ忘年会ニ列ス、夜</div>",
         "21:00:00": "<div><time when=\"21:00:00\">\n        九時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       宅ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-0126\">\n<head>\n<date when=\"1902-12-23\">\n        十二月廿三日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"08:00:00\">\n        午前八時\n       </time>\n       朝飧ヲ畢リ、\n       <time when=\"09:00:00\">\n        九時\n       </time>\n<orgName>\n        東京瓦斯会社\n       </orgName>\n       ニ抵リテ重役会ヲ開ク、畢テ\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       人造肥料会社ニ於テ重役会ヲ開ク、午飧後深川区役所ニ抵リ兵員慰労ノ会ヲ開ク、一演《（場カ）》ノ挨拶ヲ為ス、畢テ大倉商業学校ノ評議員会ニ列ス、\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n       銀行集会所ニ抵リ倶楽部ノ忘年会ニ列ス、夜\n       <time when=\"21:00:00\">\n        九時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       宅ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-0126\">\n<head>\n<date when=\"1902-12-23\">\n        十二月廿三日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"08:00:00\">\n        午前八時\n       </time>\n       朝飧ヲ畢リ、\n       <time when=\"09:00:00\">\n        九時\n       </time>\n<orgName>\n        東京瓦斯会社\n       </orgName>\n       ニ抵リテ重役会ヲ開ク、畢テ\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n<orgName>\n        人造肥料会社\n       </orgName>\n       ニ於テ重役会ヲ開ク、午飧後深川区役所ニ抵リ兵員慰労ノ会ヲ開ク、一演《（場カ）》ノ挨拶ヲ為ス、畢テ大倉商業学校ノ評議員会ニ列ス、\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n       銀行集会所ニ抵リ倶楽部ノ忘年会ニ列ス、夜\n       <time when=\"21:00:00\">\n        九時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       宅ニ帰宿ス\n      </p>\n</div>",
     "year": "1902",
     "yearAndMonth": "1902-12"
 }

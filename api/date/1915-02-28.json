@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1178",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-02",
     "date_lvl2": "1915-02-28",
-    "description": "\n\n\n           廿八日\n          \n          （日）\n         \n\n\n\n\n             午後七時\n            \n            第三向上舎ヘ御出向（麻布）\n           \n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （日）\n         \n\n\n\n\n             午後七時\n            \n            第三向上舎ヘ御出向（\n            \n             麻布\n            \n            ）\n           \n\n\n",
     "label": "廿八日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0058",
@@ -23,7 +24,12 @@
     "prev": "DKB20017m-0056",
     "sort": "DKB20017m-0057",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
+    "spatial": [
+        "麻布"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/麻布"
+    ],
     "temporal": "1915-02-28",
     "texts": [
         "DKB20020m-0084",
@@ -48,10 +54,10 @@
         "DKB20030m-0201"
     ],
     "time": {
-        "19:00:00": "<div><time when=\"19:00:00\">\n             午後七時\n            </time>\n            第三向上舎ヘ御出向（麻布）</div>"
+        "19:00:00": "<div><time when=\"19:00:00\">\n             午後七時\n            </time>\n            第三向上舎ヘ御出向（\n            <placeName corresp=\"#place_麻布\">\n             麻布\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0057\">\n<head>\n<date when=\"1915-02-28\">\n           廿八日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            第三向上舎ヘ御出向（麻布）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0057\">\n<head>\n<date when=\"1915-02-28\">\n           廿八日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            第三向上舎ヘ御出向（\n            <placeName corresp=\"#place_麻布\">\n             麻布\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-02"
 }

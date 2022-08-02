@@ -4,6 +4,11 @@
         "山本唯三郎",
         "日下"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川頼倫",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山本唯三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/日下"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1255",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -19,7 +24,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-12",
     "date_lvl2": "1917-12-20",
-    "description": "\n\n\n           二十日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n\n              徳川\n             \n\n              頼倫\n             \n\n            侯ヲ御訪問（\n            \n             麻布\n            \n\n             飯倉\n            \n            町邸）\n           \n\n\n\n\n             午後五時\n            \n\n\n              山本\n             \n\n              唯三郎\n             \n\n            氏ヨリ御案内（ホテル）\n           \n\n\n\n\n             午後五時\n            \n\n\n              日下\n             \n\n            氏ヨリ御案内（新喜楽）\n           \n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n\n              徳川\n             \n\n              頼倫\n             \n\n            侯ヲ御訪問（\n            \n             麻布\n            \n\n             飯倉町\n            \n            邸）\n           \n\n\n\n\n             午後五時\n            \n\n\n              山本\n             \n\n              唯三郎\n             \n\n            氏ヨリ御案内（ホテル）\n           \n\n\n\n\n             午後五時\n            \n\n\n              日下\n             \n\n            氏ヨリ御案内（新喜楽）\n           \n\n\n",
     "label": "二十日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0329",
@@ -29,7 +34,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "麻布",
-        "飯倉"
+        "飯倉_(東京都港区)"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/麻布",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飯倉_(東京都港区)"
     ],
     "temporal": "1917-12-20",
     "texts": [
@@ -55,10 +64,10 @@
         "DKB20016m-0058"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_徳川頼倫\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              頼倫\n             </forename>\n</persName>\n            侯ヲ御訪問（\n            <placeName corresp=\"#place_麻布\">\n             麻布\n            </placeName>\n<placeName corresp=\"#place_飯倉\">\n             飯倉\n            </placeName>\n            町邸）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_徳川頼倫\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              頼倫\n             </forename>\n</persName>\n            侯ヲ御訪問（\n            <placeName corresp=\"#place_麻布\">\n             麻布\n            </placeName>\n<placeName corresp=\"#place_飯倉_(東京都港区)\">\n             飯倉町\n            </placeName>\n            邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0328\">\n<head>\n<date when=\"1917-12-20\">\n           二十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_徳川頼倫\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              頼倫\n             </forename>\n</persName>\n            侯ヲ御訪問（\n            <placeName corresp=\"#place_麻布\">\n             麻布\n            </placeName>\n<placeName corresp=\"#place_飯倉\">\n             飯倉\n            </placeName>\n            町邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_山本唯三郎\">\n<surname>\n              山本\n             </surname>\n<forename>\n              唯三郎\n             </forename>\n</persName>\n            氏ヨリ御案内（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_日下\">\n<surname>\n              日下\n             </surname>\n</persName>\n            氏ヨリ御案内（新喜楽）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0328\">\n<head>\n<date when=\"1917-12-20\">\n           二十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_徳川頼倫\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              頼倫\n             </forename>\n</persName>\n            侯ヲ御訪問（\n            <placeName corresp=\"#place_麻布\">\n             麻布\n            </placeName>\n<placeName corresp=\"#place_飯倉_(東京都港区)\">\n             飯倉町\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_山本唯三郎\">\n<surname>\n              山本\n             </surname>\n<forename>\n              唯三郎\n             </forename>\n</persName>\n            氏ヨリ御案内（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_日下\">\n<surname>\n              日下\n             </surname>\n</persName>\n            氏ヨリ御案内（新喜楽）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-12"
 }

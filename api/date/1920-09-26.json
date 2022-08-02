@@ -1,6 +1,9 @@
 {
     "agential": [
-        "阿保"
+        "福島"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/福島"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1342",
     "category": {
@@ -17,7 +20,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-09",
     "date_lvl2": "1920-09-26",
-    "description": "\n\n\n           廿六日\n          \n          （日）\n         \n\n\n\n\n             午前九時ヨリ十時\n            \n            頃　自動車ニテ\n            \n\n              阿保\n             \n\n            ヘ御出向\n           \n\n\n\n            御郷里ヘ御出向\n           \n\n\n\n            故\n            \n             福島\n            \n            翁建碑除幕式\n           \n\n\n\n\n             血洗島\n            \n            ニ御一泊\n           \n\n\n",
+    "description": "\n\n\n           廿六日\n          \n          （日）\n         \n\n\n\n\n             午前九時ヨリ十時\n            \n            頃　自動車ニテ\n            \n              阿保\n            \n            ヘ御出向\n           \n\n\n\n            御郷里ヘ御出向\n           \n\n\n\n            故\n            \n\n              福島\n             \n\n            翁建碑除幕式\n           \n\n\n\n\n             血洗島\n            \n            ニ御一泊\n           \n\n\n",
     "label": "廿六日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0247",
@@ -26,8 +29,12 @@
     "sort": "DKB20022m-0246",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "福島",
+        "阿保",
         "血洗島"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/阿保",
+        "https://shibusawa-dlab.github.io/lab1/api/place/血洗島"
     ],
     "temporal": "1920-09-26",
     "texts": [
@@ -54,7 +61,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0246\">\n<head>\n<date when=\"1920-09-26\">\n           廿六日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"09:00:00\" to=\"10:00:00\">\n             午前九時ヨリ十時\n            </time>\n            頃　自動車ニテ\n            <persName corresp=\"#pers_阿保\">\n<surname>\n              阿保\n             </surname>\n</persName>\n            ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n            御郷里ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n            故\n            <placeName corresp=\"#place_福島\">\n             福島\n            </placeName>\n            翁建碑除幕式\n           </p>\n</event>\n<event>\n<p>\n<placeName corresp=\"#place_血洗島\">\n             血洗島\n            </placeName>\n            ニ御一泊\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0246\">\n<head>\n<date when=\"1920-09-26\">\n           廿六日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"09:00:00\" to=\"10:00:00\">\n             午前九時ヨリ十時\n            </time>\n            頃　自動車ニテ\n            <placeName corresp=\"#place_阿保\">\n              阿保\n            </placeName>\n            ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n            御郷里ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n            故\n            <persName corresp=\"#pers_福島\">\n<surname>\n              福島\n             </surname>\n</persName>\n            翁建碑除幕式\n           </p>\n</event>\n<event>\n<p>\n<placeName corresp=\"#place_血洗島\">\n             血洗島\n            </placeName>\n            ニ御一泊\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-09"
 }

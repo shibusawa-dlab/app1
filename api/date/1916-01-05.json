@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1195",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-01",
     "date_lvl2": "1916-01-05",
-    "description": "\n\n\n           五日\n          \n          （水）\n         \n\n\n\n            新年宴会\n           \n\n\n\n\n             午後六時\n            \n            男爵歓迎会\n            \n\n             石川島\n            \n            造船処催（湖月）\n           \n\n\n",
+    "description": "\n\n\n           五日\n          \n          （水）\n         \n\n\n\n            新年宴会\n           \n\n\n\n\n             午後六時\n            \n            男爵歓迎会\n            \n            石川島造船処催（湖月）\n           \n\n\n",
     "label": "五日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0004",
@@ -23,9 +24,8 @@
     "prev": "DKB20018m-0002",
     "sort": "DKB20018m-0003",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "石川島"
-    ],
+    "spatial": [],
+    "spatial_uri": [],
     "temporal": "1916-01-05",
     "texts": [
         "DKB20027m-0005",
@@ -51,7 +51,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0003\">\n<head>\n<date when=\"1916-01-05\">\n           五日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n            新年宴会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            男爵歓迎会\n            <lb/>\n<placeName corresp=\"#place_石川島\">\n             石川島\n            </placeName>\n            造船処催（湖月）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0003\">\n<head>\n<date when=\"1916-01-05\">\n           五日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n            新年宴会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            男爵歓迎会\n            <lb/>\n            石川島造船処催（湖月）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-01"
 }

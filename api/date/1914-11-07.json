@@ -1,8 +1,11 @@
 {
     "agential": [
-        "神田橋",
         "倉知鉄吉",
         "小室翠雲"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/倉知鉄吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小室翠雲"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1169",
     "category": {
@@ -29,7 +32,13 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "東京",
+        "神田橋",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/神田橋",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1914-11-07",
     "texts": [
@@ -58,7 +67,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            軍人後援会（商業会議所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0053\">\n<head>\n<date when=\"1914-11-07\">\n           七日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            軍人後援会（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            大日本蚕糸会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            教育会ニテ御演説ノ約（和協学堂\n            <persName corresp=\"#pers_神田橋\">\n<surname>\n              神田橋\n             </surname>\n</persName>\n            際）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:30:00\" to=\"16:00:00\">\n             午後三半―四時\n            </time>\n            間ニ\n            <persName corresp=\"#pers_倉知鉄吉\">\n<surname>\n              倉知\n             </surname>\n<forename>\n              鉄吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午后五時\n            </time>\n<persName corresp=\"#pers_小室翠雲\">\n<surname>\n              小室\n             </surname>\n<forename>\n              翠雲\n             </forename>\n</persName>\n            会（自笑軒）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0053\">\n<head>\n<date when=\"1914-11-07\">\n           七日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            軍人後援会（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            大日本蚕糸会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            教育会ニテ御演説ノ約（和協学堂\n            <placeName corresp=\"#place_神田橋\">\n<surname>\n              神田橋\n             </surname>\n</placeName>\n            際）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:30:00\" to=\"16:00:00\">\n             午後三半―四時\n            </time>\n            間ニ\n            <persName corresp=\"#pers_倉知鉄吉\">\n<surname>\n              倉知\n             </surname>\n<forename>\n              鉄吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午后五時\n            </time>\n<persName corresp=\"#pers_小室翠雲\">\n<surname>\n              小室\n             </surname>\n<forename>\n              翠雲\n             </forename>\n</persName>\n            会（自笑軒）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-11"
 }

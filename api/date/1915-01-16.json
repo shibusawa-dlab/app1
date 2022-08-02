@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1174",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-01",
     "date_lvl2": "1915-01-16",
-    "description": "\n\n\n           十六日\n          \n          （土）\n         \n\n\n\n\n             午後二時\n            \n            明治神宮奉賛会ノ件（商業会議処）\n           \n\n\n\n\n             午後五時\n            \n            清水組宴会（\n            \n             日本橋\n            \n            クラブ）\n           \n\n\n",
+    "description": "\n\n\n           十六日\n          \n          （土）\n         \n\n\n\n\n             午後二時\n            \n            明治神宮奉賛会ノ件（商業会議処）\n           \n\n\n\n\n             午後五時\n            \n            清水組宴会（日本橋クラブ）\n           \n\n\n",
     "label": "十六日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0015",
@@ -23,9 +24,8 @@
     "prev": "DKB20017m-0013",
     "sort": "DKB20017m-0014",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "日本橋"
-    ],
+    "spatial": [],
+    "spatial_uri": [],
     "temporal": "1915-01-16",
     "texts": [
         "DKB20020m-0187",
@@ -53,7 +53,7 @@
         "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n            明治神宮奉賛会ノ件（商業会議処）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0014\">\n<head>\n<date when=\"1915-01-16\">\n           十六日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            明治神宮奉賛会ノ件（商業会議処）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            清水組宴会（\n            <placeName corresp=\"#place_日本橋\">\n             日本橋\n            </placeName>\n            クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0014\">\n<head>\n<date when=\"1915-01-16\">\n           十六日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            明治神宮奉賛会ノ件（商業会議処）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            清水組宴会（日本橋クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-01"
 }

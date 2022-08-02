@@ -4,6 +4,11 @@
         "栗生武右衛門",
         "佐々木"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/畑次郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/栗生武右衛門",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐々木"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/460",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -31,7 +36,13 @@
         "新橋",
         "日本橋兜町",
         "番町",
-        "王子別荘"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/新橋",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/番町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1907-01-07",
     "texts": [
@@ -62,10 +73,10 @@
         "12:00:00": "<div><time when=\"12:00:00\">\n        十二時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧シ、\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       氏ト要務ヲ談ス</div>",
         "14:00:00": "<div><time when=\"14:00:00\">\n        午後二時\n       </time>\n       再ヒ事務所ニ於テ書類ヲ整理シ、</div>",
         "15:00:00": "<div><time when=\"15:00:00\">\n        午後三時\n       </time>\n       ヨリ\n       <placeName corresp=\"#place_番町\">\n        番町\n       </placeName>\n       ニテ一友人ヲ訪ヒ、</div>",
-        "18:00:00": "<div><time when=\"18:00:00\">\n        午後六時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス、此夜家人集リテ歌カルタ会アリテ歓声喧シ、夜、読書ニ消閑ス</div>"
+        "18:00:00": "<div><time when=\"18:00:00\">\n        午後六時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス、此夜家人集リテ歌カルタ会アリテ歓声喧シ、夜、読書ニ消閑ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10015m-0007\">\n<head>\n<date when=\"1907-01-07\">\n        一月七日\n       </date>\n       晴　軽暖　　　　　　　　　　　　起床\n       <time when=\"06:30:00\">\n        六時三十分\n       </time>\n       就蓐\n       <time when=\"23:30:00\">\n        十一時三十分\n       </time>\n</head>\n<p>\n       起床後直ニ入浴シ、了テ朝飧ヲ為ス、食後旅装ヲ整ヘ、\n       <time when=\"08:05:00\">\n        八時五分\n       </time>\n       発ノ汽車ニテ帰京ス、\n       <persName corresp=\"#pers_畑次郎\">\n<surname>\n         畑\n        </surname>\n<forename>\n         次郎\n        </forename>\n</persName>\n       随行、\n       <time when=\"11:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_新橋\">\n        新橋\n       </placeName>\n       ニ着ス、馬車ニテ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵ル、留守中ノ要務ヲ視ル、\n       <persName corresp=\"#pers_栗生武右衛門\">\n<surname>\n         栗生\n        </surname>\n<forename>\n         武右衛門\n        </forename>\n</persName>\n       氏来リ帝国劇場会社株式ノ事ヲ談ス、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧シ、\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       氏ト要務ヲ談ス\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n       再ヒ事務所ニ於テ書類ヲ整理シ、\n       <time when=\"15:00:00\">\n        午後三時\n       </time>\n       ヨリ\n       <placeName corresp=\"#place_番町\">\n        番町\n       </placeName>\n       ニテ一友人ヲ訪ヒ、\n       <time when=\"18:00:00\">\n        午後六時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス、此夜家人集リテ歌カルタ会アリテ歓声喧シ、夜、読書ニ消閑ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10015m-0007\">\n<head>\n<date when=\"1907-01-07\">\n        一月七日\n       </date>\n       晴　軽暖　　　　　　　　　　　　起床\n       <time when=\"06:30:00\">\n        六時三十分\n       </time>\n       就蓐\n       <time when=\"23:30:00\">\n        十一時三十分\n       </time>\n</head>\n<p>\n       起床後直ニ入浴シ、了テ朝飧ヲ為ス、食後旅装ヲ整ヘ、\n       <time when=\"08:05:00\">\n        八時五分\n       </time>\n       発ノ汽車ニテ帰京ス、\n       <persName corresp=\"#pers_畑次郎\">\n<surname>\n         畑\n        </surname>\n<forename>\n         次郎\n        </forename>\n</persName>\n       随行、\n       <time when=\"11:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_新橋\">\n        新橋\n       </placeName>\n       ニ着ス、馬車ニテ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵ル、留守中ノ要務ヲ視ル、\n       <persName corresp=\"#pers_栗生武右衛門\">\n<surname>\n         栗生\n        </surname>\n<forename>\n         武右衛門\n        </forename>\n</persName>\n       氏来リ帝国劇場会社株式ノ事ヲ談ス、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧シ、\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       氏ト要務ヲ談ス\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n       再ヒ事務所ニ於テ書類ヲ整理シ、\n       <time when=\"15:00:00\">\n        午後三時\n       </time>\n       ヨリ\n       <placeName corresp=\"#place_番町\">\n        番町\n       </placeName>\n       ニテ一友人ヲ訪ヒ、\n       <time when=\"18:00:00\">\n        午後六時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス、此夜家人集リテ歌カルタ会アリテ歓声喧シ、夜、読書ニ消閑ス\n      </p>\n</div>",
     "year": "1907",
     "yearAndMonth": "1907-01"
 }

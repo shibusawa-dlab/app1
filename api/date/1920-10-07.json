@@ -4,6 +4,11 @@
         "添田",
         "小松緑"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/添田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小松緑"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1343",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -28,8 +33,12 @@
     "sort": "DKB20022m-0257",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飯倉",
+        "飯倉_(東京都港区)",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飯倉_(東京都港区)",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1920-10-07",
     "texts": [
@@ -58,7 +67,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            中央開墾会社創立委員会（如水会館）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0257\">\n<head>\n<date when=\"1920-10-07\">\n           七日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            中央開墾会社創立委員会（如水会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            侯ヲ御訪問（\n            <placeName corresp=\"#place_飯倉\">\n             飯倉\n            </placeName>\n            同侯邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            商業会議所催、御陞爵祝賀会（商業会議所内）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            国際聯盟協会理事会（\n            <persName corresp=\"#pers_添田\">\n<surname>\n              添田\n             </surname>\n</persName>\n            氏邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_小松緑\">\n<surname>\n              小松\n             </surname>\n<forename>\n              緑\n             </forename>\n</persName>\n            氏送別会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0257\">\n<head>\n<date when=\"1920-10-07\">\n           七日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            中央開墾会社創立委員会（如水会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            侯ヲ御訪問（\n            <placeName corresp=\"#place_飯倉_(東京都港区)\">\n             飯倉\n            </placeName>\n            同侯邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            商業会議所催、御陞爵祝賀会（商業会議所内）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            国際聯盟協会理事会（\n            <persName corresp=\"#pers_添田\">\n<surname>\n              添田\n             </surname>\n</persName>\n            氏邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_小松緑\">\n<surname>\n              小松\n             </surname>\n<forename>\n              緑\n             </forename>\n</persName>\n            氏送別会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-10"
 }

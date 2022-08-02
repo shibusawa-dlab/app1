@@ -1,5 +1,10 @@
 {
-    "agential": [],
+    "agential": [
+        "国分三亥"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/国分三亥"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1595",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +20,7 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-06",
     "date_lvl2": "1929-06-13",
-    "description": "\n\n\n           十三日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n            二松学舎理事国分三亥氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午時\n            \n\n             東京\n            \n            市養育院ヘ御出向\n           \n\n\n\n\n             午後〇・四〇\n            \n            御出勤\n           \n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n            二松学舎理事\n            \n\n              国分\n             \n\n              三亥\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午時\n            \n\n             東京\n            \n            市養育院ヘ御出向\n           \n\n\n\n\n             午後〇・四〇\n            \n            御出勤\n           \n\n\n",
     "label": "十三日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20031m-0088",
@@ -24,8 +29,12 @@
     "sort": "DKB20031m-0087",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
+        "飛鳥山邸",
         "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1929-06-13",
     "texts": [
@@ -51,10 +60,10 @@
         "DKB20030m-0172"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            二松学舎理事国分三亥氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            二松学舎理事\n            <persName corresp=\"#pers_国分三亥\">\n<surname>\n              国分\n             </surname>\n<forename>\n              三亥\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0087\">\n<head>\n<date when=\"1929-06-13\">\n           十三日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            二松学舎理事国分三亥氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:40:00\">\n             午後〇・四〇\n            </time>\n            御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0087\">\n<head>\n<date when=\"1929-06-13\">\n           十三日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            二松学舎理事\n            <persName corresp=\"#pers_国分三亥\">\n<surname>\n              国分\n             </surname>\n<forename>\n              三亥\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:40:00\">\n             午後〇・四〇\n            </time>\n            御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-06"
 }

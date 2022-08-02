@@ -1,5 +1,10 @@
 {
-    "agential": [],
+    "agential": [
+        "ヴァンダーリップ"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ヴァンダーリップ"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1333",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +20,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-05",
     "date_lvl2": "1920-05-13",
-    "description": "\n\n\n           十三日\n          \n          （木）\n         \n\n\n\n\n             午後〇時半\n            \n            同　宮内大臣主催、御下賜午餐会（浜離宮）\n           \n\n\n\n\n             午後七時\n            \n\n             米国\n            \n            貴賓歓迎会催、ヴアンダリツプ氏一行送別晩会《（餐脱）》（帝国ホテル）\n           \n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （木）\n         \n\n\n\n\n             午後〇時半\n            \n            同　宮内大臣主催、御下賜午餐会（浜離宮）\n           \n\n\n\n\n             午後七時\n            \n\n             米国\n            \n            貴賓歓迎会催、\n            \n\n              ヴアンダリツプ\n             \n\n            氏一行送別晩会《（餐脱）》（帝国ホテル）\n           \n\n\n",
     "label": "十三日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0132",
@@ -25,6 +30,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "アメリカ合衆国"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アメリカ合衆国"
     ],
     "temporal": "1920-05-13",
     "texts": [
@@ -53,7 +61,7 @@
         "12:30:00": "<div><time when=\"12:30:00\">\n             午後〇時半\n            </time>\n            同　宮内大臣主催、御下賜午餐会（浜離宮）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0131\">\n<head>\n<date when=\"1920-05-13\">\n           十三日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇時半\n            </time>\n            同　宮内大臣主催、御下賜午餐会（浜離宮）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            貴賓歓迎会催、ヴアンダリツプ氏一行送別晩会《（餐脱）》（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0131\">\n<head>\n<date when=\"1920-05-13\">\n           十三日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇時半\n            </time>\n            同　宮内大臣主催、御下賜午餐会（浜離宮）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            貴賓歓迎会催、\n            <persName corresp=\"#pers_ヴァンダーリップ\">\n<surname>\n              ヴアンダリツプ\n             </surname>\n</persName>\n            氏一行送別晩会《（餐脱）》（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-05"
 }

@@ -5,6 +5,12 @@
         "井口正之",
         "坂本嘉治馬"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/橋本芳郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/増田明六",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/井口正之",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/坂本嘉治馬"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/711",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -20,7 +26,7 @@
     "date_lvl0": "1911",
     "date_lvl1": "1911-07",
     "date_lvl2": "1911-07-19",
-    "description": "\n\n\n        七月十九日\n       \n       水　晴　暑\n      \n\n\n        午前七時三十分\n       \n       起床、入浴シテ、朝飧ヲ食ス、\n       \n\n         橋本\n        \n\n         芳郎\n        \n\n       、\n       \n\n         増田\n        \n\n         明六\n        \n\n       二氏来リ謝ス、\n       \n\n         井口\n        \n\n         正之\n        \n\n       氏来リ慰安ト題スル趣旨ニ付テ意見ヲ述フ、\n       \n\n         坂本\n        \n\n         嘉治馬\n        \n\n       氏来話ス、後、書類ヲ調査ス、\n       \n        午前十一時半\n       \n\n        銀行倶楽部\n       \n       ニ抵リ午飧ス、後、\n       \n        東京\n       \n       興信所ノ評議員会ニ出席シテ其営業景況ヲ聞合ハス、畢テ事務所ニ於テ来人ニ接シ事務ヲ処理ス、\n       \n        午後六時半\n       \n\n        王子\n       \n       ニ帰邸ス、夜、新聞紙ヲ読マシム\n      \n",
+    "description": "\n\n\n        七月十九日\n       \n       水　晴　暑\n      \n\n\n        午前七時三十分\n       \n       起床、入浴シテ、朝飧ヲ食ス、\n       \n\n         橋本\n        \n\n         芳郎\n        \n\n       、\n       \n\n         増田\n        \n\n         明六\n        \n\n       二氏来リ謝ス、\n       \n\n         井口\n        \n\n         正之\n        \n\n       氏来リ慰安ト題スル趣旨ニ付テ意見ヲ述フ、\n       \n\n         坂本\n        \n\n         嘉治馬\n        \n\n       氏来話ス、後、書類ヲ調査ス、\n       \n        午前十一時半\n       \n\n        銀行倶楽部\n       \n       ニ抵リ午飧ス、後、\n       \n        東京興信所\n       \n       ノ評議員会ニ出席シテ其営業景況ヲ聞合ハス、畢テ事務所ニ於テ来人ニ接シ事務ヲ処理ス、\n       \n        午後六時半\n       \n\n        王子\n       \n       ニ帰邸ス、夜、新聞紙ヲ読マシム\n      \n",
     "label": "七月十九日              水　晴　暑",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10019m-0179",
@@ -29,8 +35,10 @@
     "sort": "DKB10019m-0178",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
-        "東京",
         "王子"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子"
     ],
     "temporal": "1911-07-19",
     "texts": [
@@ -57,11 +65,11 @@
     ],
     "time": {
         "07:30:00": "<div><time when=\"07:30:00\">\n        午前七時三十分\n       </time>\n       起床、入浴シテ、朝飧ヲ食ス、\n       <persName corresp=\"#pers_橋本芳郎\">\n<surname>\n         橋本\n        </surname>\n<forename>\n         芳郎\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_増田明六\">\n<surname>\n         増田\n        </surname>\n<forename>\n         明六\n        </forename>\n</persName>\n       二氏来リ謝ス、\n       <persName corresp=\"#pers_井口正之\">\n<surname>\n         井口\n        </surname>\n<forename>\n         正之\n        </forename>\n</persName>\n       氏来リ慰安ト題スル趣旨ニ付テ意見ヲ述フ、\n       <persName corresp=\"#pers_坂本嘉治馬\">\n<surname>\n         坂本\n        </surname>\n<forename>\n         嘉治馬\n        </forename>\n</persName>\n       氏来話ス、後、書類ヲ調査ス、</div>",
-        "11:30:00": "<div><time when=\"11:30:00\">\n        午前十一時半\n       </time>\n<orgName>\n        銀行倶楽部\n       </orgName>\n       ニ抵リ午飧ス、後、\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n       興信所ノ評議員会ニ出席シテ其営業景況ヲ聞合ハス、畢テ事務所ニ於テ来人ニ接シ事務ヲ処理ス、</div>",
+        "11:30:00": "<div><time when=\"11:30:00\">\n        午前十一時半\n       </time>\n<orgName>\n        銀行倶楽部\n       </orgName>\n       ニ抵リ午飧ス、後、\n       <orgName>\n        東京興信所\n       </orgName>\n       ノ評議員会ニ出席シテ其営業景況ヲ聞合ハス、畢テ事務所ニ於テ来人ニ接シ事務ヲ処理ス、</div>",
         "18:30:00": "<div><time when=\"18:30:00\">\n        午後六時半\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰邸ス、夜、新聞紙ヲ読マシム</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10019m-0178\">\n<head>\n<date when=\"1911-07-19\">\n        七月十九日\n       </date>\n       水　晴　暑\n      </head>\n<p>\n<time when=\"07:30:00\">\n        午前七時三十分\n       </time>\n       起床、入浴シテ、朝飧ヲ食ス、\n       <persName corresp=\"#pers_橋本芳郎\">\n<surname>\n         橋本\n        </surname>\n<forename>\n         芳郎\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_増田明六\">\n<surname>\n         増田\n        </surname>\n<forename>\n         明六\n        </forename>\n</persName>\n       二氏来リ謝ス、\n       <persName corresp=\"#pers_井口正之\">\n<surname>\n         井口\n        </surname>\n<forename>\n         正之\n        </forename>\n</persName>\n       氏来リ慰安ト題スル趣旨ニ付テ意見ヲ述フ、\n       <persName corresp=\"#pers_坂本嘉治馬\">\n<surname>\n         坂本\n        </surname>\n<forename>\n         嘉治馬\n        </forename>\n</persName>\n       氏来話ス、後、書類ヲ調査ス、\n       <time when=\"11:30:00\">\n        午前十一時半\n       </time>\n<orgName>\n        銀行倶楽部\n       </orgName>\n       ニ抵リ午飧ス、後、\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n       興信所ノ評議員会ニ出席シテ其営業景況ヲ聞合ハス、畢テ事務所ニ於テ来人ニ接シ事務ヲ処理ス、\n       <time when=\"18:30:00\">\n        午後六時半\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰邸ス、夜、新聞紙ヲ読マシム\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10019m-0178\">\n<head>\n<date when=\"1911-07-19\">\n        七月十九日\n       </date>\n       水　晴　暑\n      </head>\n<p>\n<time when=\"07:30:00\">\n        午前七時三十分\n       </time>\n       起床、入浴シテ、朝飧ヲ食ス、\n       <persName corresp=\"#pers_橋本芳郎\">\n<surname>\n         橋本\n        </surname>\n<forename>\n         芳郎\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_増田明六\">\n<surname>\n         増田\n        </surname>\n<forename>\n         明六\n        </forename>\n</persName>\n       二氏来リ謝ス、\n       <persName corresp=\"#pers_井口正之\">\n<surname>\n         井口\n        </surname>\n<forename>\n         正之\n        </forename>\n</persName>\n       氏来リ慰安ト題スル趣旨ニ付テ意見ヲ述フ、\n       <persName corresp=\"#pers_坂本嘉治馬\">\n<surname>\n         坂本\n        </surname>\n<forename>\n         嘉治馬\n        </forename>\n</persName>\n       氏来話ス、後、書類ヲ調査ス、\n       <time when=\"11:30:00\">\n        午前十一時半\n       </time>\n<orgName>\n        銀行倶楽部\n       </orgName>\n       ニ抵リ午飧ス、後、\n       <orgName>\n        東京興信所\n       </orgName>\n       ノ評議員会ニ出席シテ其営業景況ヲ聞合ハス、畢テ事務所ニ於テ来人ニ接シ事務ヲ処理ス、\n       <time when=\"18:30:00\">\n        午後六時半\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰邸ス、夜、新聞紙ヲ読マシム\n      </p>\n</div>",
     "year": "1911",
     "yearAndMonth": "1911-07"
 }

@@ -1,6 +1,11 @@
 {
     "agential": [
-        "鈴木穆"
+        "鈴木穆",
+        "大倉"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/鈴木穆",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大倉"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1330",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-04",
     "date_lvl2": "1920-04-09",
-    "description": "\n\n\n           九日\n          \n          （金）\n         \n\n\n\n\n             午前八時\n            \n\n\n              鈴木\n             \n\n              穆\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n             中華\n            \n            学舎ヘ御出向（\n            \n             湯島\n            \n            天神町一ノ一）\n           \n\n\n\n\n             午前十一時\n            \n            帝劇十週年記念祝賀ノ為同社長大倉男爵ヨリ御案内（ホテル）\n           \n\n\n\n\n             午後一時\n            \n            協調会理事会（同会事ム所）\n           \n\n\n\n\n             午後六時\n            \n            陸軍大臣主催、フオール大佐送別会（\n            \n             小石川\n            \n            後楽園）\n           \n\n\n",
+    "description": "\n\n\n           九日\n          \n          （金）\n         \n\n\n\n\n             午前八時\n            \n\n\n              鈴木\n             \n\n              穆\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n             中華\n            \n            学舎ヘ御出向（\n            \n             湯島\n            \n            天神町一ノ一）\n           \n\n\n\n\n             午前十一時\n            \n            帝劇十週年記念祝賀ノ為同社長\n            \n\n              大倉\n             \n\n            男爵ヨリ御案内（ホテル）\n           \n\n\n\n\n             午後一時\n            \n            協調会理事会（同会事ム所）\n           \n\n\n\n\n             午後六時\n            \n            陸軍大臣主催、フオール大佐送別会（\n            \n             小石川\n            \n            後楽園）\n           \n\n\n",
     "label": "九日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0098",
@@ -30,6 +35,12 @@
         "中華",
         "湯島",
         "小石川"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/中華",
+        "https://shibusawa-dlab.github.io/lab1/api/place/湯島",
+        "https://shibusawa-dlab.github.io/lab1/api/place/小石川"
     ],
     "temporal": "1920-04-09",
     "texts": [
@@ -58,7 +69,7 @@
         "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_鈴木穆\">\n<surname>\n              鈴木\n             </surname>\n<forename>\n              穆\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0097\">\n<head>\n<date when=\"1920-04-09\">\n           九日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_鈴木穆\">\n<surname>\n              鈴木\n             </surname>\n<forename>\n              穆\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_中華\">\n             中華\n            </placeName>\n            学舎ヘ御出向（\n            <placeName corresp=\"#place_湯島\">\n             湯島\n            </placeName>\n            天神町一ノ一）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            帝劇十週年記念祝賀ノ為同社長大倉男爵ヨリ御案内（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            協調会理事会（同会事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            陸軍大臣主催、フオール大佐送別会（\n            <placeName corresp=\"#place_小石川\">\n             小石川\n            </placeName>\n            後楽園）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0097\">\n<head>\n<date when=\"1920-04-09\">\n           九日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_鈴木穆\">\n<surname>\n              鈴木\n             </surname>\n<forename>\n              穆\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_中華\">\n             中華\n            </placeName>\n            学舎ヘ御出向（\n            <placeName corresp=\"#place_湯島\">\n             湯島\n            </placeName>\n            天神町一ノ一）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            帝劇十週年記念祝賀ノ為同社長\n            <persName corresp=\"#pers_大倉\">\n<surname>\n              大倉\n             </surname>\n</persName>\n            男爵ヨリ御案内（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            協調会理事会（同会事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            陸軍大臣主催、フオール大佐送別会（\n            <placeName corresp=\"#place_小石川\">\n             小石川\n            </placeName>\n            後楽園）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-04"
 }

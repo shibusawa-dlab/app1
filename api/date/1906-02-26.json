@@ -2,6 +2,9 @@
     "agential": [
         "山口"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山口"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/433",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -29,7 +32,13 @@
         "日本橋兜町",
         "日比谷公園",
         "浜町",
-        "王子別荘"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日比谷公園",
+        "https://shibusawa-dlab.github.io/lab1/api/place/浜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1906-02-26",
     "texts": [
@@ -58,10 +67,10 @@
         "10:00:00": "<div>起床後直ニ朝飧ヲ喫シ、食後新聞紙ヲ一覧ス、<time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ書類ヲ検閲ス、</div>",
         "13:00:00": "<div><time when=\"13:00:00\">\n        午後一時\n       </time>\n       東京市長ヨリ案内ニ応シテ\n       <placeName corresp=\"#place_日比谷公園\">\n        日比谷公園\n       </placeName>\n       ニ抵リ英国皇族歓迎ノ式ニ列ス、此日来観者群集シテ公園ノ内外人ヲ以テ道路ヲ塡ス、式場及食堂ノ設備共頗ル美麗ヲ尽ス、式畢リテ余興トシテ大名行列ノ摸擬アリ、一覧後地学協会ニ抵リ、浦賀船渠会社重役会ニ出席シテ\n       <persName corresp=\"#pers_山口\">\n<surname>\n         山口\n        </surname>\n</persName>\n       所長進退ニ関スル要務ヲ談ス、畢テ\n       <orgName>\n        花月楼\n       </orgName>\n       ニ抵リ郵船会社支店長会合ノ宴会ニ出席ス、酒食後種々ノ余興アリ、夜</div>",
         "22:00:00": "<div><time when=\"22:00:00\">\n        十時\n       </time>\n       過\n       <placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       宅ヲ訪ヒ、</div>",
-        "23:00:00": "<div><time when=\"23:00:00\">\n        十一時\n       </time>\n       過\n       <placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
+        "23:00:00": "<div><time when=\"23:00:00\">\n        十一時\n       </time>\n       過\n       <placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10014m-0057\">\n<head>\n<date when=\"1906-02-26\">\n        二月二十六日\n       </date>\n       半晴　風アリ　　　　　　　　起床\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       就蓐\n       <time when-iso=\"1906-02-27T00:00+0900\">\n        十二時\n       </time>\n</head>\n<p>\n       起床後直ニ朝飧ヲ喫シ、食後新聞紙ヲ一覧ス、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ書類ヲ検閲ス、\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n       東京市長ヨリ案内ニ応シテ\n       <placeName corresp=\"#place_日比谷公園\">\n        日比谷公園\n       </placeName>\n       ニ抵リ英国皇族歓迎ノ式ニ列ス、此日来観者群集シテ公園ノ内外人ヲ以テ道路ヲ塡ス、式場及食堂ノ設備共頗ル美麗ヲ尽ス、式畢リテ余興トシテ大名行列ノ摸擬アリ、一覧後地学協会ニ抵リ、浦賀船渠会社重役会ニ出席シテ\n       <persName corresp=\"#pers_山口\">\n<surname>\n         山口\n        </surname>\n</persName>\n       所長進退ニ関スル要務ヲ談ス、畢テ\n       <orgName>\n        花月楼\n       </orgName>\n       ニ抵リ郵船会社支店長会合ノ宴会ニ出席ス、酒食後種々ノ余興アリ、夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n       過\n       <placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       宅ヲ訪ヒ、\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n       過\n       <placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10014m-0057\">\n<head>\n<date when=\"1906-02-26\">\n        二月二十六日\n       </date>\n       半晴　風アリ　　　　　　　　起床\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       就蓐\n       <time when-iso=\"1906-02-27T00:00+0900\">\n        十二時\n       </time>\n</head>\n<p>\n       起床後直ニ朝飧ヲ喫シ、食後新聞紙ヲ一覧ス、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ書類ヲ検閲ス、\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n       東京市長ヨリ案内ニ応シテ\n       <placeName corresp=\"#place_日比谷公園\">\n        日比谷公園\n       </placeName>\n       ニ抵リ英国皇族歓迎ノ式ニ列ス、此日来観者群集シテ公園ノ内外人ヲ以テ道路ヲ塡ス、式場及食堂ノ設備共頗ル美麗ヲ尽ス、式畢リテ余興トシテ大名行列ノ摸擬アリ、一覧後地学協会ニ抵リ、浦賀船渠会社重役会ニ出席シテ\n       <persName corresp=\"#pers_山口\">\n<surname>\n         山口\n        </surname>\n</persName>\n       所長進退ニ関スル要務ヲ談ス、畢テ\n       <orgName>\n        花月楼\n       </orgName>\n       ニ抵リ郵船会社支店長会合ノ宴会ニ出席ス、酒食後種々ノ余興アリ、夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n       過\n       <placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       宅ヲ訪ヒ、\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n       過\n       <placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1906",
     "yearAndMonth": "1906-02"
 }

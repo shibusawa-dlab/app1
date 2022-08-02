@@ -3,6 +3,10 @@
         "加茂",
         "石田"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/加茂",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/石田"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/661",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -18,7 +22,7 @@
     "date_lvl0": "1910",
     "date_lvl1": "1910-08",
     "date_lvl2": "1910-08-07",
-    "description": "\n\n\n        八月七日\n       \n       日　曇　暑\n      \n\n\n        午前七時\n       \n       起床、昨夜少ク喘息ノ気アリシ為メ睡眠充分ナラス、朝来気色快然ナラス、朝飧後揮毫ヲ試ム、\n       \n        午前九時\n       \n       長岡座ニ抵リ、新築ノ劇場ニ於テ女子教育奨励ノ演説ヲ為ス、来会者千余名、満場余地ナキニ至ル、講演畢リテ若松亭ニ帰リ、午飧後揮毫ニ努ム、又、\n       \n        東京\n       \n       留守宅ニ一書ヲ発ス、種々ノ来人アリ、\n       \n\n         加茂\n        \n\n\n\n         石田\n        \n\n       氏来リ明日同地ニテ経済談ヲ請ハル、\n       \n        午後六時\n       \n       ヨリ六十九銀行、宝田石油会社、\n       \n        長岡\n       \n       銀行等ノ催ニテ旅宿ニ於テ宴会アリ、来会者二十名余、饗応頗ル鄭重ナリ、種々ノ余興アリ、夜\n       \n        十時\n       \n       散会、\n       \n        十一時\n       \n       就寝ス\n      \n",
+    "description": "\n\n\n        八月七日\n       \n       日　曇　暑\n      \n\n\n        午前七時\n       \n       起床、昨夜少ク喘息ノ気アリシ為メ睡眠充分ナラス、朝来気色快然ナラス、朝飧後揮毫ヲ試ム、\n       \n        午前九時\n       \n       長岡座ニ抵リ、新築ノ劇場ニ於テ女子教育奨励ノ演説ヲ為ス、来会者千余名、満場余地ナキニ至ル、講演畢リテ若松亭ニ帰リ、午飧後揮毫ニ努ム、又、\n       \n        東京\n       \n       留守宅ニ一書ヲ発ス、種々ノ来人アリ、\n       \n\n         加茂\n        \n\n\n\n         石田\n        \n\n       氏来リ明日同地ニテ経済談ヲ請ハル、\n       \n        午後六時\n       \n       ヨリ\n        六十九銀行\n       \n       、宝田石油会社、\n       \n        長岡銀行\n       \n       等ノ催ニテ旅宿ニ於テ宴会アリ、来会者二十名余、饗応頗ル鄭重ナリ、種々ノ余興アリ、夜\n       \n        十時\n       \n       散会、\n       \n        十一時\n       \n       就寝ス\n      \n",
     "label": "八月七日              日　曇　暑",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10018m-0179",
@@ -27,8 +31,10 @@
     "sort": "DKB10018m-0178",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
-        "東京",
-        "長岡"
+        "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1910-08-07",
     "texts": [
@@ -56,12 +62,12 @@
     "time": {
         "07:00:00": "<div><time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、昨夜少ク喘息ノ気アリシ為メ睡眠充分ナラス、朝来気色快然ナラス、朝飧後揮毫ヲ試ム、</div>",
         "09:00:00": "<div><time when=\"09:00:00\">\n        午前九時\n       </time>\n       長岡座ニ抵リ、新築ノ劇場ニ於テ女子教育奨励ノ演説ヲ為ス、来会者千余名、満場余地ナキニ至ル、講演畢リテ若松亭ニ帰リ、午飧後揮毫ニ努ム、又、\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n       留守宅ニ一書ヲ発ス、種々ノ来人アリ、\n       <persName corresp=\"#pers_加茂\">\n<surname>\n         加茂\n        </surname>\n</persName>\n<persName corresp=\"#pers_石田\">\n<surname>\n         石田\n        </surname>\n</persName>\n       氏来リ明日同地ニテ経済談ヲ請ハル、</div>",
-        "18:00:00": "<div><time when=\"18:00:00\">\n        午後六時\n       </time>\n       ヨリ六十九銀行、宝田石油会社、\n       <placeName corresp=\"#place_長岡\">\n        長岡\n       </placeName>\n       銀行等ノ催ニテ旅宿ニ於テ宴会アリ、来会者二十名余、饗応頗ル鄭重ナリ、種々ノ余興アリ、夜</div>",
+        "18:00:00": "<div><time when=\"18:00:00\">\n        午後六時\n       </time>\n       ヨリ<orgName>\n        六十九銀行\n       </orgName>\n       、宝田石油会社、\n       <orgName>\n        長岡銀行\n       </orgName>\n       等ノ催ニテ旅宿ニ於テ宴会アリ、来会者二十名余、饗応頗ル鄭重ナリ、種々ノ余興アリ、夜</div>",
         "22:00:00": "<div><time when=\"22:00:00\">\n        十時\n       </time>\n       散会、</div>",
         "23:00:00": "<div><time when=\"23:00:00\">\n        十一時\n       </time>\n       就寝ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10018m-0178\">\n<head>\n<date when=\"1910-08-07\">\n        八月七日\n       </date>\n       日　曇　暑\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、昨夜少ク喘息ノ気アリシ為メ睡眠充分ナラス、朝来気色快然ナラス、朝飧後揮毫ヲ試ム、\n       <time when=\"09:00:00\">\n        午前九時\n       </time>\n       長岡座ニ抵リ、新築ノ劇場ニ於テ女子教育奨励ノ演説ヲ為ス、来会者千余名、満場余地ナキニ至ル、講演畢リテ若松亭ニ帰リ、午飧後揮毫ニ努ム、又、\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n       留守宅ニ一書ヲ発ス、種々ノ来人アリ、\n       <persName corresp=\"#pers_加茂\">\n<surname>\n         加茂\n        </surname>\n</persName>\n<persName corresp=\"#pers_石田\">\n<surname>\n         石田\n        </surname>\n</persName>\n       氏来リ明日同地ニテ経済談ヲ請ハル、\n       <time when=\"18:00:00\">\n        午後六時\n       </time>\n       ヨリ六十九銀行、宝田石油会社、\n       <placeName corresp=\"#place_長岡\">\n        長岡\n       </placeName>\n       銀行等ノ催ニテ旅宿ニ於テ宴会アリ、来会者二十名余、饗応頗ル鄭重ナリ、種々ノ余興アリ、夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n       散会、\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n       就寝ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10018m-0178\">\n<head>\n<date when=\"1910-08-07\">\n        八月七日\n       </date>\n       日　曇　暑\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、昨夜少ク喘息ノ気アリシ為メ睡眠充分ナラス、朝来気色快然ナラス、朝飧後揮毫ヲ試ム、\n       <time when=\"09:00:00\">\n        午前九時\n       </time>\n       長岡座ニ抵リ、新築ノ劇場ニ於テ女子教育奨励ノ演説ヲ為ス、来会者千余名、満場余地ナキニ至ル、講演畢リテ若松亭ニ帰リ、午飧後揮毫ニ努ム、又、\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n       留守宅ニ一書ヲ発ス、種々ノ来人アリ、\n       <persName corresp=\"#pers_加茂\">\n<surname>\n         加茂\n        </surname>\n</persName>\n<persName corresp=\"#pers_石田\">\n<surname>\n         石田\n        </surname>\n</persName>\n       氏来リ明日同地ニテ経済談ヲ請ハル、\n       <time when=\"18:00:00\">\n        午後六時\n       </time>\n       ヨリ<orgName>\n        六十九銀行\n       </orgName>\n       、宝田石油会社、\n       <orgName>\n        長岡銀行\n       </orgName>\n       等ノ催ニテ旅宿ニ於テ宴会アリ、来会者二十名余、饗応頗ル鄭重ナリ、種々ノ余興アリ、夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n       散会、\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n       就寝ス\n      </p>\n</div>",
     "year": "1910",
     "yearAndMonth": "1910-08"
 }

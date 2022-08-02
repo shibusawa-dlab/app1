@@ -4,6 +4,11 @@
         "岡田純夫",
         "原胤昭"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/尾高豊作",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡田純夫",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/原胤昭"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1622",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -28,8 +33,10 @@
     "sort": "DKB20033m-0049",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
         "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1931-04-15",
     "texts": [
@@ -55,10 +62,10 @@
         "DKB20032m-0080"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_尾高豊作\">\n<surname>\n              尾高\n             </surname>\n<forename>\n              豊作\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_岡田純夫\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              純夫\n             </forename>\n</persName>\n            二子来約《（氏）》（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_尾高豊作\">\n<surname>\n              尾高\n             </surname>\n<forename>\n              豊作\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_岡田純夫\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              純夫\n             </forename>\n</persName>\n            二子来約《（氏）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0049\">\n<head>\n<date when=\"1931-04-15\">\n           十五日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_尾高豊作\">\n<surname>\n              尾高\n             </surname>\n<forename>\n              豊作\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_岡田純夫\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              純夫\n             </forename>\n</persName>\n            二子来約《（氏）》（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_原胤昭\">\n<surname>\n              原\n             </surname>\n<forename>\n              胤昭\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0049\">\n<head>\n<date when=\"1931-04-15\">\n           十五日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_尾高豊作\">\n<surname>\n              尾高\n             </surname>\n<forename>\n              豊作\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_岡田純夫\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              純夫\n             </forename>\n</persName>\n            二子来約《（氏）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_原胤昭\">\n<surname>\n              原\n             </surname>\n<forename>\n              胤昭\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1931",
     "yearAndMonth": "1931-04"
 }

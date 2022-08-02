@@ -1,6 +1,11 @@
 {
     "agential": [
-        "松方"
+        "松方",
+        "明石"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松方",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/明石"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1382",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-02",
     "date_lvl2": "1922-02-14",
-    "description": "\n\n\n           十四日\n          \n          （火）\n         \n\n\n\n\n             午後一時十分\n            \n            在\n            \n             鎌倉\n            \n\n\n              松方\n             \n\n            侯ヲ御訪問後\n            \n             大磯\n            \n\n             明石\n            \n            邸ヘ御出向（\n            \n             東京\n            \n            駅）\n           \n\n\n\n\n             午時\n            \n            日華実業協会\n           \n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （火）\n         \n\n\n\n\n             午後一時十分\n            \n            在\n            \n             鎌倉\n            \n\n\n              松方\n             \n\n            侯ヲ御訪問後\n            \n             大磯\n            \n\n\n              明石\n             \n\n            邸ヘ御出向（\n            \n             東京\n            \n            駅）\n           \n\n\n\n\n             午時\n            \n            日華実業協会\n           \n\n\n",
     "label": "十四日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0022",
@@ -28,8 +33,12 @@
     "spatial": [
         "鎌倉",
         "大磯町",
-        "明石",
         "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/鎌倉",
+        "https://shibusawa-dlab.github.io/lab1/api/place/大磯町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1922-02-14",
     "texts": [
@@ -55,10 +64,10 @@
         "DKB20022m-0016"
     ],
     "time": {
-        "13:10:00": "<div><time when=\"13:10:00\">\n             午後一時十分\n            </time>\n            在\n            <placeName corresp=\"#place_鎌倉\">\n             鎌倉\n            </placeName>\n<persName corresp=\"#pers_松方\">\n<surname>\n              松方\n             </surname>\n</persName>\n            侯ヲ御訪問後\n            <placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n<placeName corresp=\"#place_明石\">\n             明石\n            </placeName>\n            邸ヘ御出向（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）</div>"
+        "13:10:00": "<div><time when=\"13:10:00\">\n             午後一時十分\n            </time>\n            在\n            <placeName corresp=\"#place_鎌倉\">\n             鎌倉\n            </placeName>\n<persName corresp=\"#pers_松方\">\n<surname>\n              松方\n             </surname>\n</persName>\n            侯ヲ御訪問後\n            <placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n<persName corresp=\"#pers_明石\">\n<surname>\n              明石\n             </surname>\n</persName>\n            邸ヘ御出向（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0020\">\n<head>\n<date when=\"1922-02-14\">\n           十四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:10:00\">\n             午後一時十分\n            </time>\n            在\n            <placeName corresp=\"#place_鎌倉\">\n             鎌倉\n            </placeName>\n<persName corresp=\"#pers_松方\">\n<surname>\n              松方\n             </surname>\n</persName>\n            侯ヲ御訪問後\n            <placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n<placeName corresp=\"#place_明石\">\n             明石\n            </placeName>\n            邸ヘ御出向（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            日華実業協会\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0020\">\n<head>\n<date when=\"1922-02-14\">\n           十四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:10:00\">\n             午後一時十分\n            </time>\n            在\n            <placeName corresp=\"#place_鎌倉\">\n             鎌倉\n            </placeName>\n<persName corresp=\"#pers_松方\">\n<surname>\n              松方\n             </surname>\n</persName>\n            侯ヲ御訪問後\n            <placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n<persName corresp=\"#pers_明石\">\n<surname>\n              明石\n             </surname>\n</persName>\n            邸ヘ御出向（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            日華実業協会\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-02"
 }

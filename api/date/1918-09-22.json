@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1277",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-09",
     "date_lvl2": "1918-09-22",
-    "description": "\n\n\n           廿二日\n          \n          （日）\n         \n\n\n\n\n             午前八半時\n            \n\n             千葉\n            \n            県\n            \n             旭町\n            \n            ヘ御出向（両国駅発）\n           \n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （日）\n         \n\n\n\n\n             午前八半時\n            \n\n             千葉\n            \n            県\n            \n             旭町\n            \n            ヘ御出向（\n            \n             両国\n            \n            駅発）\n           \n\n\n",
     "label": "廿二日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0245",
@@ -25,7 +26,13 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "千葉",
-        "旭町"
+        "旭町",
+        "両国"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/千葉",
+        "https://shibusawa-dlab.github.io/lab1/api/place/旭町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/両国"
     ],
     "temporal": "1918-09-22",
     "texts": [
@@ -51,10 +58,10 @@
         "DKB20019m-0190"
     ],
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<placeName corresp=\"#place_千葉\">\n             千葉\n            </placeName>\n            県\n            <placeName corresp=\"#place_旭町\">\n             旭町\n            </placeName>\n            ヘ御出向（両国駅発）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<placeName corresp=\"#place_千葉\">\n             千葉\n            </placeName>\n            県\n            <placeName corresp=\"#place_旭町\">\n             旭町\n            </placeName>\n            ヘ御出向（\n            <placeName corresp=\"#place_両国\">\n             両国\n            </placeName>\n            駅発）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0244\">\n<head>\n<date when=\"1918-09-22\">\n           廿二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<placeName corresp=\"#place_千葉\">\n             千葉\n            </placeName>\n            県\n            <placeName corresp=\"#place_旭町\">\n             旭町\n            </placeName>\n            ヘ御出向（両国駅発）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0244\">\n<head>\n<date when=\"1918-09-22\">\n           廿二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<placeName corresp=\"#place_千葉\">\n             千葉\n            </placeName>\n            県\n            <placeName corresp=\"#place_旭町\">\n             旭町\n            </placeName>\n            ヘ御出向（\n            <placeName corresp=\"#place_両国\">\n             両国\n            </placeName>\n            駅発）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-09"
 }

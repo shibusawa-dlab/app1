@@ -1,6 +1,11 @@
 {
     "agential": [
+        "サミユル_ヒル",
         "尾高豊作"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/サミユル_ヒル",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/尾高豊作"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1381",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-02",
     "date_lvl2": "1922-02-04",
-    "description": "\n\n\n           四日\n          \n          （土）\n         \n\n\n\n\n             午後五時\n            \n            道路改良会催、サミユル・ヒル氏招待会（日本工業クラブ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              尾高\n             \n\n              豊作\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n",
+    "description": "\n\n\n           四日\n          \n          （土）\n         \n\n\n\n\n             午後五時\n            \n            道路改良会催、\n            \n\n              サミユル\n             \n             ・\n             \n              ヒル\n             \n\n            氏招待会（日本工業クラブ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              尾高\n             \n\n              豊作\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n",
     "label": "四日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0011",
@@ -26,6 +31,7 @@
     "sort": "DKB20024m-0010",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [],
+    "spatial_uri": [],
     "temporal": "1922-02-04",
     "texts": [
         "DKB20019m-0035",
@@ -50,10 +56,10 @@
         "DKB20020m-0250"
     ],
     "time": {
-        "17:00:00": "<div><time when=\"17:00:00\">\n             午後五時\n            </time>\n            道路改良会催、サミユル・ヒル氏招待会（日本工業クラブ）</div>"
+        "17:00:00": "<div><time when=\"17:00:00\">\n             午後五時\n            </time>\n            道路改良会催、\n            <persName corresp=\"#pers_サミユル_ヒル\">\n<forename>\n              サミユル\n             </forename>\n             ・\n             <surname>\n              ヒル\n             </surname>\n</persName>\n            氏招待会（日本工業クラブ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0010\">\n<head>\n<date when=\"1922-02-04\">\n           四日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            道路改良会催、サミユル・ヒル氏招待会（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_尾高豊作\">\n<surname>\n              尾高\n             </surname>\n<forename>\n              豊作\n             </forename>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0010\">\n<head>\n<date when=\"1922-02-04\">\n           四日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            道路改良会催、\n            <persName corresp=\"#pers_サミユル_ヒル\">\n<forename>\n              サミユル\n             </forename>\n             ・\n             <surname>\n              ヒル\n             </surname>\n</persName>\n            氏招待会（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_尾高豊作\">\n<surname>\n              尾高\n             </surname>\n<forename>\n              豊作\n             </forename>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-02"
 }

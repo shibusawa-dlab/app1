@@ -1,8 +1,17 @@
 {
     "agential": [
+        "古市",
         "平岡",
         "中野武営",
-        "山田英太郎"
+        "山田英太郎",
+        "中島"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/古市",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/平岡",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中野武営",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山田英太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中島"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1171",
     "category": {
@@ -19,7 +28,7 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-12",
     "date_lvl2": "1914-12-07",
-    "description": "\n\n\n           七日\n          \n          （月）\n         \n\n\n\n\n             午前八時\n            \n\n             古市\n            \n            工学博士御訪問\n           \n\n\n\n\n             午前九時\n            \n            明治神宮奉斎会（商業会議処）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              平岡\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n\n              中野\n             \n\n              武営\n             \n\n            氏と会見\n           \n\n\n\n\n             午後二時\n            \n\n\n              山田\n             \n\n              英太郎\n             \n\n            氏等御同伴ニテ瓦斯会社ヘ御出向\n           \n\n\n\n\n             午後五時\n            \n            中島男爵ヨリ御招待（瓢屋）\n           \n\n\n",
+    "description": "\n\n\n           七日\n          \n          （月）\n         \n\n\n\n\n             午前八時\n            \n\n\n              古市\n             \n\n            工学博士御訪問\n           \n\n\n\n\n             午前九時\n            \n            明治神宮奉斎会（商業会議処）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              平岡\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n\n              中野\n             \n\n              武営\n             \n\n            氏と会見\n           \n\n\n\n\n             午後二時\n            \n\n\n              山田\n             \n\n              英太郎\n             \n\n            氏等御同伴ニテ瓦斯会社ヘ御出向\n           \n\n\n\n\n             午後五時\n            \n\n\n              中島\n             \n\n            男爵ヨリ御招待（瓢屋）\n           \n\n\n",
     "label": "七日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20016m-0084",
@@ -28,8 +37,10 @@
     "sort": "DKB20016m-0083",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "古市",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1914-12-07",
     "texts": [
@@ -55,10 +66,10 @@
         "DKB20016m-0097"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_古市\">\n             古市\n            </placeName>\n            工学博士御訪問</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_古市\">\n<surname>\n              古市\n             </surname>\n</persName>\n            工学博士御訪問</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0083\">\n<head>\n<date when=\"1914-12-07\">\n           七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_古市\">\n             古市\n            </placeName>\n            工学博士御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            明治神宮奉斎会（商業会議処）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_平岡\">\n<surname>\n              平岡\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<persName corresp=\"#pers_中野武営\">\n<surname>\n              中野\n             </surname>\n<forename>\n              武営\n             </forename>\n</persName>\n            氏と会見\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_山田英太郎\">\n<surname>\n              山田\n             </surname>\n<forename>\n              英太郎\n             </forename>\n</persName>\n            氏等御同伴ニテ瓦斯会社ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            中島男爵ヨリ御招待（瓢屋）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0083\">\n<head>\n<date when=\"1914-12-07\">\n           七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_古市\">\n<surname>\n              古市\n             </surname>\n</persName>\n            工学博士御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            明治神宮奉斎会（商業会議処）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_平岡\">\n<surname>\n              平岡\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<persName corresp=\"#pers_中野武営\">\n<surname>\n              中野\n             </surname>\n<forename>\n              武営\n             </forename>\n</persName>\n            氏と会見\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_山田英太郎\">\n<surname>\n              山田\n             </surname>\n<forename>\n              英太郎\n             </forename>\n</persName>\n            氏等御同伴ニテ瓦斯会社ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_中島\">\n<surname>\n              中島\n             </surname>\n</persName>\n            男爵ヨリ御招待（瓢屋）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-12"
 }

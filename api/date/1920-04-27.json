@@ -1,7 +1,13 @@
 {
     "agential": [
+        "ヴァンダーリップ",
         "近藤",
         "成瀬正行"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ヴァンダーリップ",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/近藤",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/成瀬正行"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1332",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-04",
     "date_lvl2": "1920-04-27",
-    "description": "\n\n\n           廿七日\n          \n          （火）\n         \n\n\n\n\n             午前九半時\n            \n            ヴアンダリツプ氏等ト協議会（銀行クラブ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              近藤\n             \n\n            男爵催、同氏一行歓迎午餐会（\n            \n             芝\n            \n            紅葉館）\n           \n\n\n\n\n             午後三―午後六時\n            \n            モーリス米大使主催、同氏一行アフタヌーン・レセプシヨン（同大使館）\n           \n\n\n\n\n             午後三―午後五時半\n            \n\n\n              成瀬\n             \n\n              正行\n             \n\n            氏ヨリ御招待（\n            \n             広尾\n            \n            同邸）\n           \n\n\n\n\n             午後七半時\n            \n            三井家催、同氏一行歓迎晩餐会（\n            \n             綱町\n            \n            別邸）\n           \n\n\n",
+    "description": "\n\n\n           廿七日\n          \n          （火）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              ヴアンダリツプ\n             \n\n            氏等ト協議会（銀行クラブ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              近藤\n             \n\n            男爵催、同氏一行歓迎午餐会（\n            \n             芝\n            \n            紅葉館）\n           \n\n\n\n\n             午後三―午後六時\n            \n            モーリス米大使主催、同氏一行アフタヌーン・レセプシヨン（同大使館）\n           \n\n\n\n\n             午後三―午後五時半\n            \n\n\n              成瀬\n             \n\n              正行\n             \n\n            氏ヨリ御招待（\n            \n             広尾\n            \n            同邸）\n           \n\n\n\n\n             午後七半時\n            \n            三井家催、同氏一行歓迎晩餐会（\n            \n             綱町\n            \n            別邸）\n           \n\n\n",
     "label": "廿七日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0116",
@@ -30,6 +36,11 @@
         "芝",
         "広尾",
         "綱町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/芝",
+        "https://shibusawa-dlab.github.io/lab1/api/place/広尾",
+        "https://shibusawa-dlab.github.io/lab1/api/place/綱町"
     ],
     "temporal": "1920-04-27",
     "texts": [
@@ -55,10 +66,10 @@
         "DKB20026m-0159"
     ],
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n            ヴアンダリツプ氏等ト協議会（銀行クラブ）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_ヴァンダーリップ\">\n<surname>\n              ヴアンダリツプ\n             </surname>\n</persName>\n            氏等ト協議会（銀行クラブ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0115\">\n<head>\n<date when=\"1920-04-27\">\n           廿七日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n            ヴアンダリツプ氏等ト協議会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_近藤\">\n<surname>\n              近藤\n             </surname>\n</persName>\n            男爵催、同氏一行歓迎午餐会（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n            紅葉館）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"18:00:00\">\n             午後三―午後六時\n            </time>\n            モーリス米大使主催、同氏一行アフタヌーン・レセプシヨン（同大使館）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"17:30:00\">\n             午後三―午後五時半\n            </time>\n<persName corresp=\"#pers_成瀬正行\">\n<surname>\n              成瀬\n             </surname>\n<forename>\n              正行\n             </forename>\n</persName>\n            氏ヨリ御招待（\n            <placeName corresp=\"#place_広尾\">\n             広尾\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:30:00\">\n             午後七半時\n            </time>\n            三井家催、同氏一行歓迎晩餐会（\n            <placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            別邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0115\">\n<head>\n<date when=\"1920-04-27\">\n           廿七日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_ヴァンダーリップ\">\n<surname>\n              ヴアンダリツプ\n             </surname>\n</persName>\n            氏等ト協議会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_近藤\">\n<surname>\n              近藤\n             </surname>\n</persName>\n            男爵催、同氏一行歓迎午餐会（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n            紅葉館）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"18:00:00\">\n             午後三―午後六時\n            </time>\n            モーリス米大使主催、同氏一行アフタヌーン・レセプシヨン（同大使館）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"17:30:00\">\n             午後三―午後五時半\n            </time>\n<persName corresp=\"#pers_成瀬正行\">\n<surname>\n              成瀬\n             </surname>\n<forename>\n              正行\n             </forename>\n</persName>\n            氏ヨリ御招待（\n            <placeName corresp=\"#place_広尾\">\n             広尾\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:30:00\">\n             午後七半時\n            </time>\n            三井家催、同氏一行歓迎晩餐会（\n            <placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            別邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-04"
 }

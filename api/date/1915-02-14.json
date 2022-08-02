@@ -4,6 +4,11 @@
         "岡",
         "高根"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/新海竹太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高根"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1177",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -19,7 +24,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-02",
     "date_lvl2": "1915-02-14",
-    "description": "\n\n\n           十四日\n          \n          （日）\n         \n\n\n\n\n             午前十時\n            \n\n\n              新海\n             \n\n              竹太郎\n             \n\n            氏ノ依頼ニ依リ\n            \n\n              岡\n             \n\n            氏宅ヘ御出向\n           \n\n\n\n\n             午後五時\n            \n\n\n              高根\n             \n\n            氏ヨリ御披露御案内（築地精養軒）\n           \n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （日）\n         \n\n\n\n\n             午前十時\n            \n\n\n              新海\n             \n\n              竹太郎\n             \n\n            氏ノ依頼ニ依リ\n            \n\n              岡\n             \n\n            氏宅ヘ御出向\n           \n\n\n\n\n             午後五時\n            \n\n\n              高根\n             \n\n            氏ヨリ御披露御案内（\n            \n             築地\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
     "label": "十四日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0044",
@@ -27,7 +32,12 @@
     "prev": "DKB20017m-0042",
     "sort": "DKB20017m-0043",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
+    "spatial": [
+        "築地"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
+    ],
     "temporal": "1915-02-14",
     "texts": [
         "DKB20018m-0026",
@@ -55,7 +65,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_新海竹太郎\">\n<surname>\n              新海\n             </surname>\n<forename>\n              竹太郎\n             </forename>\n</persName>\n            氏ノ依頼ニ依リ\n            <persName corresp=\"#pers_岡\">\n<surname>\n              岡\n             </surname>\n</persName>\n            氏宅ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0043\">\n<head>\n<date when=\"1915-02-14\">\n           十四日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_新海竹太郎\">\n<surname>\n              新海\n             </surname>\n<forename>\n              竹太郎\n             </forename>\n</persName>\n            氏ノ依頼ニ依リ\n            <persName corresp=\"#pers_岡\">\n<surname>\n              岡\n             </surname>\n</persName>\n            氏宅ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_高根\">\n<surname>\n              高根\n             </surname>\n</persName>\n            氏ヨリ御披露御案内（築地精養軒）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0043\">\n<head>\n<date when=\"1915-02-14\">\n           十四日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_新海竹太郎\">\n<surname>\n              新海\n             </surname>\n<forename>\n              竹太郎\n             </forename>\n</persName>\n            氏ノ依頼ニ依リ\n            <persName corresp=\"#pers_岡\">\n<surname>\n              岡\n             </surname>\n</persName>\n            氏宅ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_高根\">\n<surname>\n              高根\n             </surname>\n</persName>\n            氏ヨリ御披露御案内（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-02"
 }

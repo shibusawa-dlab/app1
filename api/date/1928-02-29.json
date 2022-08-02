@@ -1,8 +1,13 @@
 {
     "agential": [
-        "板橋小学校長松本高太郎",
+        "松本高太郎",
         "飯田佐次兵衛",
         "阿部充家"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松本高太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/飯田佐次兵衛",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/阿部充家"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1573",
     "category": {
@@ -19,7 +24,7 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-02",
     "date_lvl2": "1928-02-29",
-    "description": "\n\n\n           廿九日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n\n\n              板橋\n             \n             小学校長\n             \n              松本\n             \n\n              高太郎\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             〃\n            \n\n\n              飯田\n             \n\n              佐次兵衛\n             \n\n            外二人来約《（氏脱）》（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              阿部\n             \n\n              充家\n             \n\n            氏来約《ミツ》（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後二・一〇\n            \n            御出勤\n           \n\n\n",
+    "description": "\n\n\n           廿九日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n            板橋小学校長\n            \n\n              松本\n             \n\n              高太郎\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             〃\n            \n\n\n              飯田\n             \n\n              佐次兵衛\n             \n\n            外二人来約《（氏脱）》（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              阿部\n             \n\n              充家\n             \n\n            氏来約《ミツ》（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後二・一〇\n            \n            御出勤\n           \n\n\n",
     "label": "廿九日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20030m-0062",
@@ -28,7 +33,10 @@
     "sort": "DKB20030m-0060",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1928-02-29",
     "texts": [
@@ -54,10 +62,10 @@
         "DKB20031m-0196"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_板橋小学校長松本高太郎\">\n<surname>\n              板橋\n             </surname>\n             小学校長\n             <surname>\n              松本\n             </surname>\n<forename>\n              高太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            板橋小学校長\n            <persName corresp=\"#pers_松本高太郎\">\n<surname>\n              松本\n             </surname>\n<forename>\n              高太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0060\">\n<head>\n<date when=\"1928-02-29\">\n           廿九日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_板橋小学校長松本高太郎\">\n<surname>\n              板橋\n             </surname>\n             小学校長\n             <surname>\n              松本\n             </surname>\n<forename>\n              高太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             〃\n            </time>\n<persName corresp=\"#pers_飯田佐次兵衛\">\n<surname>\n              飯田\n             </surname>\n<forename>\n              佐次兵衛\n             </forename>\n</persName>\n            外二人来約《（氏脱）》（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_阿部充家\">\n<surname>\n              阿部\n             </surname>\n<forename>\n              充家\n             </forename>\n</persName>\n            氏来約《ミツ》（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:10:00\">\n             午後二・一〇\n            </time>\n            御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0060\">\n<head>\n<date when=\"1928-02-29\">\n           廿九日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            板橋小学校長\n            <persName corresp=\"#pers_松本高太郎\">\n<surname>\n              松本\n             </surname>\n<forename>\n              高太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             〃\n            </time>\n<persName corresp=\"#pers_飯田佐次兵衛\">\n<surname>\n              飯田\n             </surname>\n<forename>\n              佐次兵衛\n             </forename>\n</persName>\n            外二人来約《（氏脱）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_阿部充家\">\n<surname>\n              阿部\n             </surname>\n<forename>\n              充家\n             </forename>\n</persName>\n            氏来約《ミツ》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:10:00\">\n             午後二・一〇\n            </time>\n            御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-02"
 }

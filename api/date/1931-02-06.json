@@ -3,6 +3,10 @@
         "増田太郎",
         "益田太郎冠者"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/増田太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/益田太郎冠者"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1621",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,7 +22,7 @@
     "date_lvl0": "1931",
     "date_lvl1": "1931-02",
     "date_lvl2": "1931-02-06",
-    "description": "\n\n\n           六日\n          \n          （金）\n         \n\n\n\n\n             午後二時\n            \n\n\n              増田\n             \n\n              太郎\n             \n\n            氏来約《（\n            \n\n              益田\n             \n\n              太郎\n             \n\n            氏）》\n            \n             飛鳥山\n            \n            邸\n           \n\n\n",
+    "description": "\n\n\n           六日\n          \n          （金）\n         \n\n\n\n\n             午後二時\n            \n\n\n              増田\n             \n\n              太郎\n             \n\n            氏来約《（\n            \n\n              益田\n             \n\n              太郎\n             \n\n            氏）》\n            \n             飛鳥山邸\n            \n\n\n\n",
     "label": "六日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20033m-0012",
@@ -27,7 +31,10 @@
     "sort": "DKB20033m-0010",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1931-02-06",
     "texts": [
@@ -53,10 +60,10 @@
         "DKB20033m-0077"
     ],
     "time": {
-        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_増田太郎\">\n<surname>\n              増田\n             </surname>\n<forename>\n              太郎\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_益田太郎冠者\">\n<surname>\n              益田\n             </surname>\n<forename>\n              太郎\n             </forename>\n</persName>\n            氏）》\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸</div>"
+        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_増田太郎\">\n<surname>\n              増田\n             </surname>\n<forename>\n              太郎\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_益田太郎冠者\">\n<surname>\n              益田\n             </surname>\n<forename>\n              太郎\n             </forename>\n</persName>\n            氏）》\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName></div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0010\">\n<head>\n<date when=\"1931-02-06\">\n           六日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_増田太郎\">\n<surname>\n              増田\n             </surname>\n<forename>\n              太郎\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_益田太郎冠者\">\n<surname>\n              益田\n             </surname>\n<forename>\n              太郎\n             </forename>\n</persName>\n            氏）》\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0010\">\n<head>\n<date when=\"1931-02-06\">\n           六日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_増田太郎\">\n<surname>\n              増田\n             </surname>\n<forename>\n              太郎\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_益田太郎冠者\">\n<surname>\n              益田\n             </surname>\n<forename>\n              太郎\n             </forename>\n</persName>\n            氏）》\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n</p>\n</event>\n</listEvent>\n</div>",
     "year": "1931",
     "yearAndMonth": "1931-02"
 }

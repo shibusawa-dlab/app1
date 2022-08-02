@@ -1,9 +1,15 @@
 {
     "agential": [
-        "常",
+        "山内察常",
         "ウツド",
-        "敬三",
+        "渋沢敬三",
         "植村澄三郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山内察常",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ウツド",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢敬三",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/植村澄三郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1402",
     "category": {
@@ -20,7 +26,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-09",
     "date_lvl2": "1922-09-07",
-    "description": "\n\n\n           七日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n            斯文会山内察\n            \n\n              常\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n            \n            （孔子号ニ関スル御話ノ件）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              ウツド\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              敬三\n             \n\n            様来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              植村\n             \n\n              澄三郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           七日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n            斯文会\n            \n\n              山内\n             \n\n              察常\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n            \n            （孔子号ニ関スル御話ノ件）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              ウツド\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              敬三\n             \n\n            様来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              植村\n             \n\n              澄三郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "七日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0212",
@@ -31,6 +37,10 @@
     "spatial": [
         "飛鳥山邸",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1922-09-07",
     "texts": [
@@ -56,10 +66,10 @@
         "DKB20020m-0256"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            斯文会山内察\n            <persName corresp=\"#pers_常\">\n<surname>\n              常\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n            <lb/>\n            （孔子号ニ関スル御話ノ件）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            斯文会\n            <persName corresp=\"#pers_山内察常\">\n<surname>\n              山内\n             </surname>\n<forename>\n              察常\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n            <lb/>\n            （孔子号ニ関スル御話ノ件）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0211\">\n<head>\n<date when=\"1922-09-07\">\n           七日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            斯文会山内察\n            <persName corresp=\"#pers_常\">\n<surname>\n              常\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n            <lb/>\n            （孔子号ニ関スル御話ノ件）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_ウツド\">\n<surname>\n              ウツド\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_敬三\">\n<forename>\n              敬三\n             </forename>\n</persName>\n            様来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_植村澄三郎\">\n<surname>\n              植村\n             </surname>\n<forename>\n              澄三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0211\">\n<head>\n<date when=\"1922-09-07\">\n           七日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            斯文会\n            <persName corresp=\"#pers_山内察常\">\n<surname>\n              山内\n             </surname>\n<forename>\n              察常\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n            <lb/>\n            （孔子号ニ関スル御話ノ件）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_ウツド\">\n<surname>\n              ウツド\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_渋沢敬三\">\n<forename>\n              敬三\n             </forename>\n</persName>\n            様来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_植村澄三郎\">\n<surname>\n              植村\n             </surname>\n<forename>\n              澄三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-09"
 }

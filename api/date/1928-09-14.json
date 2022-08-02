@@ -1,6 +1,13 @@
 {
     "agential": [
-        "山田十一郎"
+        "山田十一郎",
+        "郷",
+        "高梨"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山田十一郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/郷",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高梨"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1583",
     "category": {
@@ -17,7 +24,7 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-09",
     "date_lvl2": "1928-09-14",
-    "description": "\n\n\n           十四日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n            慈恵会岡氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             〃〃\n            \n\n\n              山田\n             \n\n              十一郎\n             \n\n            氏来約（〃）\n           \n\n\n\n\n\n             午前十一・二〇\n            \n            御出勤\n           \n\n\n\n\n             午前十一半時\n            \n            郷男爵ト御会見（事務所）\n           \n\n\n\n\n             午後零時\n            \n\n             高梨\n            \n            報効会事務委来約《（幹事）》（事務所）\n           \n\n\n\n\n             午後二時\n            \n\n             吉野\n            \n            神宮奉賛会理事会（南葵文庫別館）\n           \n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n            慈恵会岡氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             〃〃\n            \n\n\n              山田\n             \n\n              十一郎\n             \n\n            氏来約（〃）\n           \n\n\n\n\n\n             午前十一・二〇\n            \n            御出勤\n           \n\n\n\n\n             午前十一半時\n            \n\n\n              郷\n             \n\n            男爵ト御会見（事務所）\n           \n\n\n\n\n             午後零時\n            \n\n\n              高梨\n             \n\n            報効会事務委来約《（幹事）》（事務所）\n           \n\n\n\n\n             午後二時\n            \n\n             吉野\n            \n            神宮奉賛会理事会（南葵文庫別館）\n           \n\n\n",
     "label": "十四日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20030m-0193",
@@ -26,9 +33,12 @@
     "sort": "DKB20030m-0192",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山",
-        "高梨",
+        "飛鳥山邸",
         "吉野"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/吉野"
     ],
     "temporal": "1928-09-14",
     "texts": [
@@ -54,10 +64,10 @@
         "DKB20031m-0196"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            慈恵会岡氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            慈恵会岡氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0192\">\n<head>\n<date when=\"1928-09-14\">\n           十四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            慈恵会岡氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             〃〃\n            </time>\n<persName corresp=\"#pers_山田十一郎\">\n<surname>\n              山田\n             </surname>\n<forename>\n              十一郎\n             </forename>\n</persName>\n            氏来約（〃）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2744\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1583/full/max/0/default.jpg\" n=\"B2744\" source=\"#pageB2744\"/>\n<time when=\"11:20:00\">\n             午前十一・二〇\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            郷男爵ト御会見（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午後零時\n            </time>\n<placeName corresp=\"#place_高梨\">\n             高梨\n            </placeName>\n            報効会事務委来約《（幹事）》（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_吉野\">\n             吉野\n            </placeName>\n            神宮奉賛会理事会（南葵文庫別館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0192\">\n<head>\n<date when=\"1928-09-14\">\n           十四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            慈恵会岡氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             〃〃\n            </time>\n<persName corresp=\"#pers_山田十一郎\">\n<surname>\n              山田\n             </surname>\n<forename>\n              十一郎\n             </forename>\n</persName>\n            氏来約（〃）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2744\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1583/full/max/0/default.jpg\" n=\"B2744\" source=\"#pageB2744\"/>\n<time when=\"11:20:00\">\n             午前十一・二〇\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<persName corresp=\"#pers_郷\">\n<surname>\n              郷\n             </surname>\n</persName>\n            男爵ト御会見（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午後零時\n            </time>\n<persName corresp=\"#pers_高梨\">\n<surname>\n              高梨\n             </surname>\n</persName>\n            報効会事務委来約《（幹事）》（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_吉野\">\n             吉野\n            </placeName>\n            神宮奉賛会理事会（南葵文庫別館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-09"
 }

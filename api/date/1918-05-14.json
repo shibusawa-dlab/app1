@@ -1,6 +1,9 @@
 {
     "agential": [
-        "小島"
+        "小島乗真"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小島乗真"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1268",
     "category": {
@@ -17,7 +20,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-05",
     "date_lvl2": "1918-05-14",
-    "description": "\n\n\n           十四日\n          \n          （火）\n         \n\n\n\n\n             午前八時半\n            \n            邸御出発\n            \n             松山\n            \n            町\n            \n             埼玉\n            \n            育児院ヘ御出向\n            \n            （\n            \n\n              小島\n             \n\n            乗真氏御頼）\n           \n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （火）\n         \n\n\n\n\n             午前八時半\n            \n            邸御出発\n            \n             松山町\n            \n\n             埼玉\n            \n            育児院ヘ御出向\n            \n            （\n            \n\n              小島\n             \n\n              乗真\n             \n\n            氏御頼）\n           \n\n\n",
     "label": "十四日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0129",
@@ -28,6 +31,10 @@
     "spatial": [
         "松山",
         "埼玉"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/松山",
+        "https://shibusawa-dlab.github.io/lab1/api/place/埼玉"
     ],
     "temporal": "1918-05-14",
     "texts": [
@@ -53,10 +60,10 @@
         "DKB20019m-0197"
     ],
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八時半\n            </time>\n            邸御出発\n            <placeName corresp=\"#place_松山\">\n             松山\n            </placeName>\n            町\n            <placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            育児院ヘ御出向\n            <lb/>\n            （\n            <persName corresp=\"#pers_小島\">\n<surname>\n              小島\n             </surname>\n</persName>\n            乗真氏御頼）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八時半\n            </time>\n            邸御出発\n            <placeName corresp=\"#place_松山\">\n             松山町\n            </placeName>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            育児院ヘ御出向\n            <lb/>\n            （\n            <persName corresp=\"#pers_小島乗真\">\n<surname>\n              小島\n             </surname>\n<forename>\n              乗真\n             </forename>\n</persName>\n            氏御頼）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0128\">\n<head>\n<date when=\"1918-05-14\">\n           十四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八時半\n            </time>\n            邸御出発\n            <placeName corresp=\"#place_松山\">\n             松山\n            </placeName>\n            町\n            <placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            育児院ヘ御出向\n            <lb/>\n            （\n            <persName corresp=\"#pers_小島\">\n<surname>\n              小島\n             </surname>\n</persName>\n            乗真氏御頼）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0128\">\n<head>\n<date when=\"1918-05-14\">\n           十四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八時半\n            </time>\n            邸御出発\n            <placeName corresp=\"#place_松山\">\n             松山町\n            </placeName>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            育児院ヘ御出向\n            <lb/>\n            （\n            <persName corresp=\"#pers_小島乗真\">\n<surname>\n              小島\n             </surname>\n<forename>\n              乗真\n             </forename>\n</persName>\n            氏御頼）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-05"
 }

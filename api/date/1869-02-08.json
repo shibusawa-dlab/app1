@@ -1,7 +1,13 @@
 {
     "agential": [
-        "公子",
+        "四郎",
+        "大久保一翁",
         "梅沢"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/四郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大久保一翁",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/梅沢"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/62",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1869",
     "date_lvl1": "1869-02",
     "date_lvl2": "1869-02-08",
-    "description": "\n\n\n        十二月廿七日\n       \n       晴\n      \n\n       朝出殿、復命之儀并御役之儀難有御請申上候旨四郎を以一翁殿へ申立る、\n       \n        公子\n       \n       へ呈書外一封御用便達し方之儀相托す、\n       \n\n         梅沢\n        \n\n       面会、御請申上候旨申談、午後廻勤いた《（す脱カ）》、夕方\n       \n        呉服町\n       \n       五丁目川村屋方へ転宿いたす\n      \n",
+    "description": "\n\n\n        十二月廿七日\n       \n       晴\n      \n\n       朝出殿、復命之儀并御役之儀難有御請申上候旨\n       \n\n         四郎\n        \n\n       を以\n       \n\n         一翁\n        \n\n       殿へ申立る、公子へ呈書外一封御用便達し方之儀相托す、\n       \n\n         梅沢\n        \n\n       面会、御請申上候旨申談、午後廻勤いた《（す脱カ）》、夕方\n       \n        呉服町\n       \n       五丁目川村屋方へ転宿いたす\n      \n",
     "label": "十二月廿七日              晴",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10002m-0058",
@@ -28,6 +34,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "呉服町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/呉服町"
     ],
     "temporal": "1869-02-08",
     "texts": [
@@ -54,7 +63,7 @@
     ],
     "time": {},
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10002m-0057\">\n<head>\n<date type=\"旧暦\" when=\"1869-02-08\">\n        十二月廿七日\n       </date>\n       晴\n      </head>\n<p>\n       朝出殿、復命之儀并御役之儀難有御請申上候旨四郎を以一翁殿へ申立る、\n       <persName corresp=\"#pers_公子\">\n        公子\n       </persName>\n       へ呈書外一封御用便達し方之儀相托す、\n       <persName corresp=\"#pers_梅沢\">\n<surname>\n         梅沢\n        </surname>\n</persName>\n       面会、御請申上候旨申談、午後廻勤いた《（す脱カ）》、夕方\n       <placeName corresp=\"#place_呉服町\">\n        呉服町\n       </placeName>\n       五丁目川村屋方へ転宿いたす\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10002m-0057\">\n<head>\n<date type=\"旧暦\" when=\"1869-02-08\">\n        十二月廿七日\n       </date>\n       晴\n      </head>\n<p>\n       朝出殿、復命之儀并御役之儀難有御請申上候旨\n       <persName corresp=\"#pers_四郎\">\n<forename>\n         四郎\n        </forename>\n</persName>\n       を以\n       <persName corresp=\"#pers_大久保一翁\">\n<forename>\n         一翁\n        </forename>\n</persName>\n       殿へ申立る、公子へ呈書外一封御用便達し方之儀相托す、\n       <persName corresp=\"#pers_梅沢\">\n<surname>\n         梅沢\n        </surname>\n</persName>\n       面会、御請申上候旨申談、午後廻勤いた《（す脱カ）》、夕方\n       <placeName corresp=\"#place_呉服町\">\n        呉服町\n       </placeName>\n       五丁目川村屋方へ転宿いたす\n      </p>\n</div>",
     "year": "1869",
     "yearAndMonth": "1869-02"
 }

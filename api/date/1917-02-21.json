@@ -2,6 +2,9 @@
     "agential": [
         "徳川"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1229",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-02",
     "date_lvl2": "1917-02-21",
-    "description": "\n\n\n           廿一日\n          \n          （水）\n         \n\n\n\n\n             午前中\n            \n            台六天町\n            \n\n              徳川\n             \n\n            様御訪問《（第）》\n           \n\n\n\n\n             午前十時\n            \n            明治神宮奉賛会ノ件（同会）\n           \n\n\n\n\n             午前十一時\n            \n\n             東亜\n            \n            興業大株主会（ホテル）\n           \n\n\n\n\n             午後四時\n            \n            観山会（八百善）\n           \n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （水）\n         \n\n\n\n\n             午前中\n            \n            台六天町\n            \n\n              徳川\n             \n\n            様御訪問《（第）》\n           \n\n\n\n\n             午前十時\n            \n            明治神宮奉賛会ノ件（同会）\n           \n\n\n\n\n             午前十一時\n            \n            東亜興業大株主会（ホテル）\n           \n\n\n\n\n             午後四時\n            \n            観山会（八百善）\n           \n\n\n",
     "label": "廿一日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0054",
@@ -25,9 +28,8 @@
     "prev": "DKB20019m-0052",
     "sort": "DKB20019m-0053",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "東亜"
-    ],
+    "spatial": [],
+    "spatial_uri": [],
     "temporal": "1917-02-21",
     "texts": [
         "DKB20018m-0176",
@@ -53,7 +55,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0053\">\n<head>\n<date when=\"1917-02-21\">\n           廿一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前中\n            </time>\n            台六天町\n            <persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            様御訪問《（第）》\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            明治神宮奉賛会ノ件（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_東亜\">\n             東亜\n            </placeName>\n            興業大株主会（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            観山会（八百善）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0053\">\n<head>\n<date when=\"1917-02-21\">\n           廿一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前中\n            </time>\n            台六天町\n            <persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            様御訪問《（第）》\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            明治神宮奉賛会ノ件（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            東亜興業大株主会（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            観山会（八百善）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-02"
 }

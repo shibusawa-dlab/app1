@@ -1,5 +1,10 @@
 {
-    "agential": [],
+    "agential": [
+        "清水釘吉"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/清水釘吉"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1195",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +20,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-01",
     "date_lvl2": "1916-01-13",
-    "description": "\n\n\n           十三日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n             東京\n            \n            養育院常設委員会（同院）\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午後三時\n            \n\n             清水\n            \n            釘吉氏方結婚式（同氏邸）\n           \n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n             東京\n            \n            養育院常設委員会（同院）\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午後三時\n            \n\n\n              清水\n             \n\n              釘吉\n             \n\n            氏方結婚式（同氏邸）\n           \n\n\n",
     "label": "十三日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0012",
@@ -24,8 +29,10 @@
     "sort": "DKB20018m-0011",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "東京",
-        "清水"
+        "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1916-01-13",
     "texts": [
@@ -54,7 +61,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            養育院常設委員会（同院）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0011\">\n<head>\n<date when=\"1916-01-13\">\n           十三日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            養育院常設委員会（同院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_清水\">\n             清水\n            </placeName>\n            釘吉氏方結婚式（同氏邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0011\">\n<head>\n<date when=\"1916-01-13\">\n           十三日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            養育院常設委員会（同院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_清水釘吉\">\n<surname>\n              清水\n             </surname>\n<forename>\n              釘吉\n             </forename>\n</persName>\n            氏方結婚式（同氏邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-01"
 }

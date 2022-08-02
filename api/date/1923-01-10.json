@@ -1,6 +1,11 @@
 {
     "agential": [
-        "大隈重信"
+        "大隈重信",
+        "中島"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大隈重信",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中島"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1417",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-01",
     "date_lvl2": "1923-01-10",
-    "description": "\n\n\n           十日\n          \n          （水）\n         \n\n\n\n\n             午後二時\n            \n            故\n            \n\n              大隈\n             \n\n              重信\n             \n\n            侯一年祭（\n            \n             早稲田\n            \n            別邸）\n           \n\n\n\n\n             午後五時\n            \n            中島男ヨリ御案内（\n            \n             浜町\n            \n\n             常盤\n            \n            屋）\n           \n\n\n",
+    "description": "\n\n\n           十日\n          \n          （水）\n         \n\n\n\n\n             午後二時\n            \n            故\n            \n\n              大隈\n             \n\n              重信\n             \n\n            侯一年祭（\n            \n             早稲田\n            \n            別邸）\n           \n\n\n\n\n             午後五時\n            \n\n\n              中島\n             \n\n            男ヨリ御案内（\n            \n             浜町\n            \n            常盤屋）\n           \n\n\n",
     "label": "十日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0011",
@@ -27,8 +32,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "早稲田",
-        "浜町",
-        "常盤"
+        "浜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/早稲田",
+        "https://shibusawa-dlab.github.io/lab1/api/place/浜町"
     ],
     "temporal": "1923-01-10",
     "texts": [
@@ -57,7 +65,7 @@
         "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n            故\n            <persName corresp=\"#pers_大隈重信\">\n<surname>\n              大隈\n             </surname>\n<forename>\n              重信\n             </forename>\n</persName>\n            侯一年祭（\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            別邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0010\">\n<head>\n<date when=\"1923-01-10\">\n           十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            故\n            <persName corresp=\"#pers_大隈重信\">\n<surname>\n              大隈\n             </surname>\n<forename>\n              重信\n             </forename>\n</persName>\n            侯一年祭（\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            別邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            中島男ヨリ御案内（\n            <placeName corresp=\"#place_浜町\">\n             浜町\n            </placeName>\n<placeName corresp=\"#place_常盤\">\n             常盤\n            </placeName>\n            屋）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0010\">\n<head>\n<date when=\"1923-01-10\">\n           十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            故\n            <persName corresp=\"#pers_大隈重信\">\n<surname>\n              大隈\n             </surname>\n<forename>\n              重信\n             </forename>\n</persName>\n            侯一年祭（\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            別邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_中島\">\n<surname>\n              中島\n             </surname>\n</persName>\n            男ヨリ御案内（\n            <placeName corresp=\"#place_浜町\">\n             浜町\n            </placeName>\n            常盤屋）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-01"
 }

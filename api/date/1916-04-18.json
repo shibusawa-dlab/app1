@@ -7,6 +7,14 @@
         "鈴木三郎助",
         "三井八郎右衛門"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/倉知鉄吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小倉常吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/諸井",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川慶久",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/鈴木三郎助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/三井八郎右衛門"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1200",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -33,7 +41,12 @@
     "spatial": [
         "飛鳥山邸",
         "日本橋兜町",
-        "仏国"
+        "フランス"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/フランス"
     ],
     "temporal": "1916-04-18",
     "texts": [
@@ -60,7 +73,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0090\">\n<head>\n<date when=\"1916-04-18\">\n           十八日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             早朝\n            </time>\n<persName corresp=\"#pers_倉知鉄吉\">\n<surname>\n              倉知\n             </surname>\n<forename>\n              鉄吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_小倉常吉\">\n<surname>\n              小倉\n             </surname>\n<forename>\n              常吉\n             </forename>\n</persName>\n            様御夫妻同御婿様\n            <persName corresp=\"#pers_諸井\">\n<surname>\n              諸井\n             </surname>\n</persName>\n            様来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n            此ノ間アレバ\n            <persName corresp=\"#pers_徳川慶久\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶久\n             </forename>\n</persName>\n            公ヲ御訪問ノ筈\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇半時\n            </time>\n<placeName corresp=\"#place_仏国\">\n             仏国\n            </placeName>\n            大使館午餐会（同大使館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_鈴木三郎助\">\n<surname>\n              鈴木\n             </surname>\n<forename>\n              三郎助\n             </forename>\n</persName>\n            氏ヨリ結婚披露御案内（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_三井八郎右衛門\">\n<surname>\n              三井\n             </surname>\n<forename>\n              八郎右衛門\n             </forename>\n</persName>\n            男爵ヨリ御案内（三井集会所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0090\">\n<head>\n<date when=\"1916-04-18\">\n           十八日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             早朝\n            </time>\n<persName corresp=\"#pers_倉知鉄吉\">\n<surname>\n              倉知\n             </surname>\n<forename>\n              鉄吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_小倉常吉\">\n<surname>\n              小倉\n             </surname>\n<forename>\n              常吉\n             </forename>\n</persName>\n            様御夫妻同御婿様\n            <persName corresp=\"#pers_諸井\">\n<surname>\n              諸井\n             </surname>\n</persName>\n            様来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n            此ノ間アレバ\n            <persName corresp=\"#pers_徳川慶久\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶久\n             </forename>\n</persName>\n            公ヲ御訪問ノ筈\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇半時\n            </time>\n<placeName corresp=\"#place_フランス\">\n             仏国\n            </placeName>\n            大使館午餐会（同大使館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_鈴木三郎助\">\n<surname>\n              鈴木\n             </surname>\n<forename>\n              三郎助\n             </forename>\n</persName>\n            氏ヨリ結婚披露御案内（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_三井八郎右衛門\">\n<surname>\n              三井\n             </surname>\n<forename>\n              八郎右衛門\n             </forename>\n</persName>\n            男爵ヨリ御案内（三井集会所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-04"
 }

@@ -4,6 +4,11 @@
         "清浦",
         "大岡"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/海老名弾正",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/清浦",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大岡"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1380",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -28,8 +33,12 @@
     "sort": "DKB20023m-0276",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
+        "飛鳥山邸",
         "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1921-10-10",
     "texts": [
@@ -55,10 +64,10 @@
         "DKB20018m-0107"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            穂阪与明氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            穂阪与明氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0276\">\n<head>\n<date when=\"1921-10-10\">\n           十日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            穂阪与明氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_海老名弾正\">\n<surname>\n              海老名\n             </surname>\n<forename>\n              弾正\n             </forename>\n</persName>\n            氏来約（〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_清浦\">\n<surname>\n              清浦\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_大岡\">\n<surname>\n              大岡\n             </surname>\n</persName>\n            氏より御案内（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            日米関係委員会催、実業家送別会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            銀行集会所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0276\">\n<head>\n<date when=\"1921-10-10\">\n           十日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            穂阪与明氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_海老名弾正\">\n<surname>\n              海老名\n             </surname>\n<forename>\n              弾正\n             </forename>\n</persName>\n            氏来約（〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_清浦\">\n<surname>\n              清浦\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_大岡\">\n<surname>\n              大岡\n             </surname>\n</persName>\n            氏より御案内（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            日米関係委員会催、実業家送別会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            銀行集会所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-10"
 }

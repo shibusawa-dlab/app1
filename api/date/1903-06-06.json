@@ -1,9 +1,15 @@
 {
     "agential": [
         "田中",
-        "蜂須賀氏",
+        "蜂須賀",
         "前田青莎",
         "犬塚"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田中",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/蜂須賀",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/前田青莎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/犬塚"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/338",
     "category": {
@@ -31,7 +37,12 @@
     "spatial": [
         "日本橋兜町",
         "深川",
-        "王子別荘"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/深川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1903-06-06",
     "texts": [
@@ -58,15 +69,15 @@
     ],
     "time": {
         "08:00:00": "<div>曇、<time when=\"08:00:00\">\n        午前八時\n       </time>\n       朝飧ヲ畢リ、</div>",
-        "09:00:00": "<div><time when=\"09:00:00\">\n        九時\n       </time>\n<persName corresp=\"#pers_田中\">\n<surname>\n         田中\n        </surname>\n</persName>\n       宮内大臣官舎ヲ訪ヒ喜賓会ノ事ヲ陳上ス、\n       <persName corresp=\"#pers_蜂須賀氏\">\n<surname>\n         蜂須賀\n        </surname>\n</persName>\n       侯爵来会ス、</div>",
+        "09:00:00": "<div><time when=\"09:00:00\">\n        九時\n       </time>\n<persName corresp=\"#pers_田中\">\n<surname>\n         田中\n        </surname>\n</persName>\n       宮内大臣官舎ヲ訪ヒ喜賓会ノ事ヲ陳上ス、\n       <persName corresp=\"#pers_蜂須賀\">\n<surname>\n         蜂須賀\n        </surname>\n</persName>\n       侯爵来会ス、</div>",
         "11:00:00": "<div><time when=\"11:00:00\">\n        午前十一時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接ス</div>",
         "13:00:00": "<div><time when=\"13:00:00\">\n        午後一時\n       </time>\n<persName corresp=\"#pers_前田青莎\">\n<surname>\n         前田\n        </surname>\n<forename>\n         青莎\n        </forename>\n</persName>\n       氏ト共ニ鉄道局ニ抵リ\n       <persName corresp=\"#pers_犬塚\">\n<surname>\n         犬塚\n        </surname>\n</persName>\n       局長ニ面話ス、</div>",
         "15:00:00": "<div><time when=\"15:00:00\">\n        三時\n       </time>\n       慈善会演劇場ニ出席シ、</div>",
         "18:00:00": "<div><time when=\"18:00:00\">\n        六時\n       </time>\n       過キ\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       宅ニ抵リテ夜食ヲナシ来客ニ接ス、夜</div>",
-        "23:00:00": "<div><time when=\"23:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
+        "23:00:00": "<div><time when=\"23:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-0291\">\n<head>\n<date when=\"1903-06-06\">\n        六月六日\n       </date>\n</head>\n<p>\n       曇、\n       <time when=\"08:00:00\">\n        午前八時\n       </time>\n       朝飧ヲ畢リ、\n       <time when=\"09:00:00\">\n        九時\n       </time>\n<persName corresp=\"#pers_田中\">\n<surname>\n         田中\n        </surname>\n</persName>\n       宮内大臣官舎ヲ訪ヒ喜賓会ノ事ヲ陳上ス、\n       <persName corresp=\"#pers_蜂須賀氏\">\n<surname>\n         蜂須賀\n        </surname>\n</persName>\n       侯爵来会ス、\n       <time when=\"11:00:00\">\n        午前十一時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接ス\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n<persName corresp=\"#pers_前田青莎\">\n<surname>\n         前田\n        </surname>\n<forename>\n         青莎\n        </forename>\n</persName>\n       氏ト共ニ鉄道局ニ抵リ\n       <persName corresp=\"#pers_犬塚\">\n<surname>\n         犬塚\n        </surname>\n</persName>\n       局長ニ面話ス、\n       <time when=\"15:00:00\">\n        三時\n       </time>\n       慈善会演劇場ニ出席シ、\n       <time when=\"18:00:00\">\n        六時\n       </time>\n       過キ\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       宅ニ抵リテ夜食ヲナシ来客ニ接ス、夜\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-0291\">\n<head>\n<date when=\"1903-06-06\">\n        六月六日\n       </date>\n</head>\n<p>\n       曇、\n       <time when=\"08:00:00\">\n        午前八時\n       </time>\n       朝飧ヲ畢リ、\n       <time when=\"09:00:00\">\n        九時\n       </time>\n<persName corresp=\"#pers_田中\">\n<surname>\n         田中\n        </surname>\n</persName>\n       宮内大臣官舎ヲ訪ヒ喜賓会ノ事ヲ陳上ス、\n       <persName corresp=\"#pers_蜂須賀\">\n<surname>\n         蜂須賀\n        </surname>\n</persName>\n       侯爵来会ス、\n       <time when=\"11:00:00\">\n        午前十一時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接ス\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n<persName corresp=\"#pers_前田青莎\">\n<surname>\n         前田\n        </surname>\n<forename>\n         青莎\n        </forename>\n</persName>\n       氏ト共ニ鉄道局ニ抵リ\n       <persName corresp=\"#pers_犬塚\">\n<surname>\n         犬塚\n        </surname>\n</persName>\n       局長ニ面話ス、\n       <time when=\"15:00:00\">\n        三時\n       </time>\n       慈善会演劇場ニ出席シ、\n       <time when=\"18:00:00\">\n        六時\n       </time>\n       過キ\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       宅ニ抵リテ夜食ヲナシ来客ニ接ス、夜\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1903",
     "yearAndMonth": "1903-06"
 }

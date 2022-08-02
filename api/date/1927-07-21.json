@@ -2,8 +2,14 @@
     "agential": [
         "長屋基彦",
         "入沢",
-        "簗田",
-        "次郎"
+        "大滝",
+        "簗田〓次郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/長屋基彦",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/入沢",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大滝",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/簗田〓次郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1551",
     "category": {
@@ -20,7 +26,7 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-07",
     "date_lvl2": "1927-07-21",
-    "description": "\n\n\n           廿一日\n          \n          （木）\n         \n\n\n\n\n             午前八半時\n            \n\n             湊川\n            \n            神社宮司\n            \n\n              長屋\n             \n\n              基彦\n             \n\n            氏来約（\n            \n             王子\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              入沢\n             \n\n            、大滝両博士及林学士来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            御出勤\n           \n\n\n\n\n             午後一時\n            \n\n\n              簗田\n             \n\n            〓\n            \n\n              次郎\n             \n\n            氏来約（事務所）\n           \n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （木）\n         \n\n\n\n\n             午前八半時\n            \n\n             湊川\n            \n            神社宮司\n            \n\n              長屋\n             \n\n              基彦\n             \n\n            氏来約（\n            \n             王子\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              入沢\n             \n\n            、\n            \n\n              大滝\n             \n\n            両博士及林学士来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            御出勤\n           \n\n\n\n\n             午後一時\n            \n\n\n              簗田\n             \n\n              〓次郎\n             \n\n            氏来約（事務所）\n           \n\n\n",
     "label": "廿一日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0187",
@@ -32,6 +38,11 @@
         "湊川",
         "王子",
         "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/湊川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1927-07-21",
     "texts": [
@@ -60,7 +71,7 @@
         "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<placeName corresp=\"#place_湊川\">\n             湊川\n            </placeName>\n            神社宮司\n            <persName corresp=\"#pers_長屋基彦\">\n<surname>\n              長屋\n             </surname>\n<forename>\n              基彦\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0186\">\n<head>\n<date when=\"1927-07-21\">\n           廿一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<placeName corresp=\"#place_湊川\">\n             湊川\n            </placeName>\n            神社宮司\n            <persName corresp=\"#pers_長屋基彦\">\n<surname>\n              長屋\n             </surname>\n<forename>\n              基彦\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_入沢\">\n<surname>\n              入沢\n             </surname>\n</persName>\n            、大滝両博士及林学士来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_簗田\">\n<surname>\n              簗田\n             </surname>\n</persName>\n            〓\n            <persName corresp=\"#pers_次郎\">\n<forename>\n              次郎\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0186\">\n<head>\n<date when=\"1927-07-21\">\n           廿一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<placeName corresp=\"#place_湊川\">\n             湊川\n            </placeName>\n            神社宮司\n            <persName corresp=\"#pers_長屋基彦\">\n<surname>\n              長屋\n             </surname>\n<forename>\n              基彦\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_入沢\">\n<surname>\n              入沢\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_大滝\">\n<surname>\n              大滝\n             </surname>\n</persName>\n            両博士及林学士来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_簗田〓次郎\">\n<surname>\n              簗田\n             </surname>\n<forename>\n              〓次郎\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-07"
 }

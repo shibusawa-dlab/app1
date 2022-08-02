@@ -5,6 +5,12 @@
         "高田",
         "井野辺"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/尾高鮮之助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小川健吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/井野辺"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1562",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -29,8 +35,10 @@
     "sort": "DKB20029m-0290",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
-        "アスカ山"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1927-11-11",
     "texts": [
@@ -59,7 +67,7 @@
         "08:30:00": "<div><time when=\"08:30:00\">\n             午八半時\n            </time>\n<persName corresp=\"#pers_尾高鮮之助\">\n<surname>\n              尾高\n             </surname>\n<forename>\n              鮮之助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0290\">\n<head>\n<date when=\"1927-11-11\">\n           十一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午八半時\n            </time>\n<persName corresp=\"#pers_尾高鮮之助\">\n<surname>\n              尾高\n             </surname>\n<forename>\n              鮮之助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_小川健吉\">\n<surname>\n              小川\n             </surname>\n<forename>\n              健吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            航空会社総会（逓信省会議室）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            右ニ引続キ午餐会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:45:00\">\n             午後一・四五\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:20:00\">\n             午後二時二十分\n            </time>\n            放送局ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2723\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1562/full/max/0/default.jpg\" n=\"B2723\" source=\"#pageB2723\"/>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_高田\">\n<surname>\n              高田\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_井野辺\">\n<surname>\n              井野辺\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0290\">\n<head>\n<date when=\"1927-11-11\">\n           十一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午八半時\n            </time>\n<persName corresp=\"#pers_尾高鮮之助\">\n<surname>\n              尾高\n             </surname>\n<forename>\n              鮮之助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_小川健吉\">\n<surname>\n              小川\n             </surname>\n<forename>\n              健吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            航空会社総会（逓信省会議室）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            右ニ引続キ午餐会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:45:00\">\n             午後一・四五\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:20:00\">\n             午後二時二十分\n            </time>\n            放送局ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2723\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1562/full/max/0/default.jpg\" n=\"B2723\" source=\"#pageB2723\"/>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_高田\">\n<surname>\n              高田\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_井野辺\">\n<surname>\n              井野辺\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-11"
 }

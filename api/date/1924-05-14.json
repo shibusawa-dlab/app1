@@ -5,6 +5,12 @@
         "塩沢昌貞",
         "横山徳次郎"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/池田竜一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/宮岡恒次郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/塩沢昌貞",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/横山徳次郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1463",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -29,8 +35,12 @@
     "sort": "DKB20026m-0139",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山",
+        "飛鳥山邸",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1924-05-14",
     "texts": [
@@ -56,10 +66,10 @@
         "DKB20017m-0218"
     ],
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_池田竜一\">\n<surname>\n              池田\n             </surname>\n<forename>\n              竜一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_池田竜一\">\n<surname>\n              池田\n             </surname>\n<forename>\n              竜一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0139\">\n<head>\n<date when=\"1924-05-14\">\n           十四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_池田竜一\">\n<surname>\n              池田\n             </surname>\n<forename>\n              竜一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2624\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1463/full/max/0/default.jpg\" n=\"B2624\" source=\"#pageB2624\"/>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_宮岡恒次郎\">\n<surname>\n              宮岡\n             </surname>\n<forename>\n              恒次郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_塩沢昌貞\">\n<surname>\n              塩沢\n             </surname>\n<forename>\n              昌貞\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"10:30:00\" to=\"11:00:00\">\n             午前十半―十一時\n            </time>\n<persName corresp=\"#pers_横山徳次郎\">\n<surname>\n              横山\n             </surname>\n<forename>\n              徳次郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            商業会議所会頭主催メルラン氏招待会（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            キヤツチプール氏講演会（協調会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:30:00\">\n             午后七半時\n            </time>\n            メルラン氏ヨリ御案内（帝国ホテル）\n            <lb/>\n            燕尾服本綬佩用\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0139\">\n<head>\n<date when=\"1924-05-14\">\n           十四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_池田竜一\">\n<surname>\n              池田\n             </surname>\n<forename>\n              竜一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2624\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1463/full/max/0/default.jpg\" n=\"B2624\" source=\"#pageB2624\"/>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_宮岡恒次郎\">\n<surname>\n              宮岡\n             </surname>\n<forename>\n              恒次郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_塩沢昌貞\">\n<surname>\n              塩沢\n             </surname>\n<forename>\n              昌貞\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"10:30:00\" to=\"11:00:00\">\n             午前十半―十一時\n            </time>\n<persName corresp=\"#pers_横山徳次郎\">\n<surname>\n              横山\n             </surname>\n<forename>\n              徳次郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            商業会議所会頭主催メルラン氏招待会（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            キヤツチプール氏講演会（協調会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:30:00\">\n             午后七半時\n            </time>\n            メルラン氏ヨリ御案内（帝国ホテル）\n            <lb/>\n            燕尾服本綬佩用\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-05"
 }

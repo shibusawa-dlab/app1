@@ -2,6 +2,9 @@
     "agential": [
         "伊達"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/伊達"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1185",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-06",
     "date_lvl2": "1915-06-09",
-    "description": "\n\n\n           九日\n          \n          （水）\n         \n\n\n\n\n             午後六時\n            \n\n\n              伊達\n             \n\n            侯ヨリ御案内（白金同侯邸）\n           \n\n\n",
+    "description": "\n\n\n           九日\n          \n          （水）\n         \n\n\n\n\n             午後六時\n            \n\n\n              伊達\n             \n\n            侯ヨリ御案内（\n            \n             白金\n            \n            同侯邸）\n           \n\n\n",
     "label": "九日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0151",
@@ -25,7 +28,12 @@
     "prev": "DKB20017m-0149",
     "sort": "DKB20017m-0150",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
+    "spatial": [
+        "白金"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/白金"
+    ],
     "temporal": "1915-06-09",
     "texts": [
         "DKB20018m-0063",
@@ -50,10 +58,10 @@
         "DKB20027m-0207"
     ],
     "time": {
-        "18:00:00": "<div><time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_伊達\">\n<surname>\n              伊達\n             </surname>\n</persName>\n            侯ヨリ御案内（白金同侯邸）</div>"
+        "18:00:00": "<div><time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_伊達\">\n<surname>\n              伊達\n             </surname>\n</persName>\n            侯ヨリ御案内（\n            <placeName corresp=\"#place_白金\">\n             白金\n            </placeName>\n            同侯邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0150\">\n<head>\n<date when=\"1915-06-09\">\n           九日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_伊達\">\n<surname>\n              伊達\n             </surname>\n</persName>\n            侯ヨリ御案内（白金同侯邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0150\">\n<head>\n<date when=\"1915-06-09\">\n           九日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_伊達\">\n<surname>\n              伊達\n             </surname>\n</persName>\n            侯ヨリ御案内（\n            <placeName corresp=\"#place_白金\">\n             白金\n            </placeName>\n            同侯邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-06"
 }

@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/30",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -24,11 +25,18 @@
     "sort": "DKB10001m-0007",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
-        "quimpel《(Quimperカ)》",
-        "lorient《(Lorient)》",
-        "Nantes",
+        "カンペール",
+        "ロリアン",
+        "ナント",
         "パリ",
-        "仏国"
+        "フランス"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/カンペール",
+        "https://shibusawa-dlab.github.io/lab1/api/place/ロリアン",
+        "https://shibusawa-dlab.github.io/lab1/api/place/ナント",
+        "https://shibusawa-dlab.github.io/lab1/api/place/パリ",
+        "https://shibusawa-dlab.github.io/lab1/api/place/フランス"
     ],
     "temporal": "1868-08-08",
     "texts": [
@@ -55,12 +63,12 @@
     ],
     "time": {
         "07:30:00": "<div>朝第<time when=\"07:30:00\">\n        七時半\n       </time>\n       旅宿御発し、第</div>",
-        "11:00:00": "<div><time when=\"11:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_quimpel《(Quimperカ)》\">\n        quimpel《(Quimperカ)》\n       </placeName>\n       着、C'est une assez belle ville ou il y a, a Cote de cette ville, une grande figuer《(Figuier)》 qui a couvert la terre《(de)》6000 metres《(sic)》 de cares《(carres)》 par son ombre,第</div>",
-        "13:30:00": "<div><time when=\"13:30:00\">\n        一時半\n       </time>\n<lb/>\n<placeName corresp=\"#place_lorient《(Lorient)》\">\n        lorient《(Lorient)》\n       </placeName>\n       午餐、第</div>",
-        "19:00:00": "<div><time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_Nantes\">\n        Nantes\n       </placeName>\n       着、Hotel de France御投宿、当地は\n       <placeName corresp=\"#place_パリ\">\n        巴里\n       </placeName>\n       より\n       <placeName corresp=\"#place_仏国\">\n        仏国\n       </placeName>\n       西南地方江運輸する沿道ニ而頗る繁華の地也、人口拾壱万六千、市街の広さ五里周囲ありといふ、［　　　　］《（原本欠字）》といふ河市中を流れ海江注く、海運も尤便利なり、御旅館は市中の央ニ而尤壮大且美麗なりla loire〓la rade《(la Loire)》</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_カンペール\">\n        quimpel《(Quimperカ)》\n       </placeName>\n       着、C'est une assez belle ville ou il y a, a Cote de cette ville, une grande figuer《(Figuier)》 qui a couvert la terre《(de)》6000 metres《(sic)》 de cares《(carres)》 par son ombre,第</div>",
+        "13:30:00": "<div><time when=\"13:30:00\">\n        一時半\n       </time>\n<lb/>\n<placeName corresp=\"#place_ロリアン\">\n        lorient《(Lorient)》\n       </placeName>\n       午餐、第</div>",
+        "19:00:00": "<div><time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_ナント\">\n        Nantes\n       </placeName>\n       着、Hotel de France御投宿、当地は\n       <placeName corresp=\"#place_パリ\">\n        巴里\n       </placeName>\n       より\n       <placeName corresp=\"#place_フランス\">\n        仏国\n       </placeName>\n       西南地方江運輸する沿道ニ而頗る繁華の地也、人口拾壱万六千、市街の広さ五里周囲ありといふ、［　　　　］《（原本欠字）》といふ河市中を流れ海江注く、海運も尤便利なり、御旅館は市中の央ニ而尤壮大且美麗なりla loire〓la rade《(la Loire)》</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10001m-0007\">\n<head>\n<date when=\"1868-08-08\">\n        八月八日\n       </date>\n       晴　土\n       <date type=\"旧暦\" when=\"1868-08-08\">\n        六月廿日\n       </date>\n</head>\n<p>\n       朝第\n       <time when=\"07:30:00\">\n        七時半\n       </time>\n       旅宿御発し、第\n       <time when=\"11:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_quimpel《(Quimperカ)》\">\n        quimpel《(Quimperカ)》\n       </placeName>\n       着、C'est une assez belle ville ou il y a, a Cote de cette ville, une grande figuer《(Figuier)》 qui a couvert la terre《(de)》6000 metres《(sic)》 de cares《(carres)》 par son ombre,第\n       <time when=\"13:30:00\">\n        一時半\n       </time>\n<lb/>\n<placeName corresp=\"#place_lorient《(Lorient)》\">\n        lorient《(Lorient)》\n       </placeName>\n       午餐、第\n       <time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_Nantes\">\n        Nantes\n       </placeName>\n       着、Hotel de France御投宿、当地は\n       <placeName corresp=\"#place_パリ\">\n        巴里\n       </placeName>\n       より\n       <placeName corresp=\"#place_仏国\">\n        仏国\n       </placeName>\n       西南地方江運輸する沿道ニ而頗る繁華の地也、人口拾壱万六千、市街の広さ五里周囲ありといふ、［　　　　］《（原本欠字）》といふ河市中を流れ海江注く、海運も尤便利なり、御旅館は市中の央ニ而尤壮大且美麗なりla loire〓la rade《(la Loire)》\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10001m-0007\">\n<head>\n<date when=\"1868-08-08\">\n        八月八日\n       </date>\n       晴　土\n       <date type=\"旧暦\" when=\"1868-08-08\">\n        六月廿日\n       </date>\n</head>\n<p>\n       朝第\n       <time when=\"07:30:00\">\n        七時半\n       </time>\n       旅宿御発し、第\n       <time when=\"11:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_カンペール\">\n        quimpel《(Quimperカ)》\n       </placeName>\n       着、C'est une assez belle ville ou il y a, a Cote de cette ville, une grande figuer《(Figuier)》 qui a couvert la terre《(de)》6000 metres《(sic)》 de cares《(carres)》 par son ombre,第\n       <time when=\"13:30:00\">\n        一時半\n       </time>\n<lb/>\n<placeName corresp=\"#place_ロリアン\">\n        lorient《(Lorient)》\n       </placeName>\n       午餐、第\n       <time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_ナント\">\n        Nantes\n       </placeName>\n       着、Hotel de France御投宿、当地は\n       <placeName corresp=\"#place_パリ\">\n        巴里\n       </placeName>\n       より\n       <placeName corresp=\"#place_フランス\">\n        仏国\n       </placeName>\n       西南地方江運輸する沿道ニ而頗る繁華の地也、人口拾壱万六千、市街の広さ五里周囲ありといふ、［　　　　］《（原本欠字）》といふ河市中を流れ海江注く、海運も尤便利なり、御旅館は市中の央ニ而尤壮大且美麗なりla loire〓la rade《(la Loire)》\n      </p>\n</div>",
     "year": "1868",
     "yearAndMonth": "1868-08"
 }

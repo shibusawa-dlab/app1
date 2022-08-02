@@ -3,6 +3,10 @@
         "山本栄男",
         "山田英太郎"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山本栄男",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山田英太郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1563",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,7 +22,7 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-11",
     "date_lvl2": "1927-11-17",
-    "description": "\n\n\n           十七日\n          \n          （木）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              山本\n             \n\n              栄男\n             \n\n            氏来約\n           \n\n\n\n\n             午前十・五〇\n            \n            御出勤\n           \n\n\n\n\n             午前十一時\n            \n\n\n              山田\n             \n\n              英太郎\n             \n\n            氏来約（\n            \n             永楽町\n            \n            事務所）\n           \n\n\n\n\n             午後四時\n            \n\n             埼玉\n            \n            学生誘掖会理事会（同会）\n           \n\n\n\n\n             午後五時\n            \n\n             埼玉\n            \n            学生誘掖会維持員会評議員会（同会）\n           \n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （木）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              山本\n             \n\n              栄男\n             \n\n            氏来約\n           \n\n\n\n\n             午前十・五〇\n            \n            御出勤\n           \n\n\n\n\n             午前十一時\n            \n\n\n              山田\n             \n\n              英太郎\n             \n\n            氏来約（\n            \n             永楽町\n            \n            事務所）\n           \n\n\n\n\n             午後四時\n            \n\n             埼玉学生誘掖会\n            \n            理事会（同会）\n           \n\n\n\n\n             午後五時\n            \n\n             埼玉学生誘掖会\n            \n            維持員会評議員会（同会）\n           \n\n\n",
     "label": "十七日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0297",
@@ -27,8 +31,10 @@
     "sort": "DKB20029m-0296",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "永楽町",
-        "埼玉"
+        "永楽町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/永楽町"
     ],
     "temporal": "1927-11-17",
     "texts": [
@@ -57,7 +63,7 @@
         "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_山本栄男\">\n<surname>\n              山本\n             </surname>\n<forename>\n              栄男\n             </forename>\n</persName>\n            氏来約</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0296\">\n<head>\n<date when=\"1927-11-17\">\n           十七日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_山本栄男\">\n<surname>\n              山本\n             </surname>\n<forename>\n              栄男\n             </forename>\n</persName>\n            氏来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:50:00\">\n             午前十・五〇\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_山田英太郎\">\n<surname>\n              山田\n             </surname>\n<forename>\n              英太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_永楽町\">\n             永楽町\n            </placeName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会維持員会評議員会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0296\">\n<head>\n<date when=\"1927-11-17\">\n           十七日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_山本栄男\">\n<surname>\n              山本\n             </surname>\n<forename>\n              栄男\n             </forename>\n</persName>\n            氏来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:50:00\">\n             午前十・五〇\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_山田英太郎\">\n<surname>\n              山田\n             </surname>\n<forename>\n              英太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_永楽町\">\n             永楽町\n            </placeName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<orgName>\n             埼玉学生誘掖会\n            </orgName>\n            理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<orgName>\n             埼玉学生誘掖会\n            </orgName>\n            維持員会評議員会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-11"
 }

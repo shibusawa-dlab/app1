@@ -2,6 +2,9 @@
     "agential": [
         "阪谷"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/阪谷"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1386",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-03",
     "date_lvl2": "1922-03-28",
-    "description": "\n\n\n           廿八日\n          \n          （火）\n         \n\n\n\n\n             午後五時\n            \n            八基村在郷軍人分会員来邸（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            北\n            \n             豊島\n            \n            郡立商工学校卒業式（同校）\n           \n\n\n\n\n             午後一時五十分\n            \n            までに\n            \n\n              阪谷\n             \n\n            、八十島両家結婚式（\n            \n             日比谷\n            \n            大神宮）\n           \n\n\n\n\n             午時\n            \n            日華実業協会\n           \n\n\n\n\n             午後五時\n            \n\n\n              阪谷\n             \n\n            、八十島両家結婚披露（帝国ホテル）\n           \n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （火）\n         \n\n\n\n\n             午後五時\n            \n            八基村在郷軍人分会員来邸（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n             北豊島郡\n            \n            立商工学校卒業式（同校）\n           \n\n\n\n\n             午後一時五十分\n            \n            までに\n            \n\n              阪谷\n             \n\n            、八十島両家結婚式（\n            \n             日比谷\n            \n            大神宮）\n           \n\n\n\n\n             午時\n            \n            日華実業協会\n           \n\n\n\n\n             午後五時\n            \n\n\n              阪谷\n             \n\n            、八十島両家結婚披露（帝国ホテル）\n           \n\n\n",
     "label": "廿八日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0060",
@@ -27,8 +30,13 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸",
-        "豊島",
+        "北豊島郡",
         "日比谷"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/北豊島郡",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日比谷"
     ],
     "temporal": "1922-03-28",
     "texts": [
@@ -57,7 +65,7 @@
         "17:00:00": "<div><time when=\"17:00:00\">\n             午後五時\n            </time>\n            八基村在郷軍人分会員来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0059\">\n<head>\n<date when=\"1922-03-28\">\n           廿八日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            八基村在郷軍人分会員来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            北\n            <placeName corresp=\"#place_豊島\">\n             豊島\n            </placeName>\n            郡立商工学校卒業式（同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:50:00\">\n             午後一時五十分\n            </time>\n            までに\n            <persName corresp=\"#pers_阪谷\">\n<surname>\n              阪谷\n             </surname>\n</persName>\n            、八十島両家結婚式（\n            <placeName corresp=\"#place_日比谷\">\n             日比谷\n            </placeName>\n            大神宮）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            日華実業協会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_阪谷\">\n<surname>\n              阪谷\n             </surname>\n</persName>\n            、八十島両家結婚披露（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0059\">\n<head>\n<date when=\"1922-03-28\">\n           廿八日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            八基村在郷軍人分会員来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_北豊島郡\">\n             北豊島郡\n            </placeName>\n            立商工学校卒業式（同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:50:00\">\n             午後一時五十分\n            </time>\n            までに\n            <persName corresp=\"#pers_阪谷\">\n<surname>\n              阪谷\n             </surname>\n</persName>\n            、八十島両家結婚式（\n            <placeName corresp=\"#place_日比谷\">\n             日比谷\n            </placeName>\n            大神宮）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            日華実業協会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_阪谷\">\n<surname>\n              阪谷\n             </surname>\n</persName>\n            、八十島両家結婚披露（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-03"
 }

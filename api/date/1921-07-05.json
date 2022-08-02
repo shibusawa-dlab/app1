@@ -2,8 +2,12 @@
     "agential": [
         "藤山",
         "和田",
-        "伊東米治郎",
-        "田中"
+        "伊東米治郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/藤山",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/和田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/伊東米治郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1369",
     "category": {
@@ -20,7 +24,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-07",
     "date_lvl2": "1921-07-05",
-    "description": "\n\n\n           五日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n\n\n              藤山\n             \n\n            、\n            \n\n              和田\n             \n\n            両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            日華実業協会ニ関シ\n            \n             日本\n            \n            赤十字社社員招待会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            ビゲロー氏ト御会見ノ約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n\n\n              伊東\n             \n\n              米治郎\n             \n\n            氏ヨリ御案内（\n            \n             木挽町\n            \n\n\n              田中\n             \n\n            屋）\n           \n\n\n",
+    "description": "\n\n\n           五日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n\n\n              藤山\n             \n\n            、\n            \n\n              和田\n             \n\n            両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            日華実業協会ニ関シ\n            \n             日本\n            \n            赤十字社社員招待会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            ビゲロー氏ト御会見ノ約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n\n\n              伊東\n             \n\n              米治郎\n             \n\n            氏ヨリ御案内（\n            \n             木挽町\n            \n            田中屋）\n           \n\n\n",
     "label": "五日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0180",
@@ -33,6 +37,12 @@
         "日本",
         "飛鳥山邸",
         "木挽町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/木挽町"
     ],
     "temporal": "1921-07-05",
     "texts": [
@@ -61,7 +71,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_藤山\">\n<surname>\n              藤山\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_和田\">\n<surname>\n              和田\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0179\">\n<head>\n<date when=\"1921-07-05\">\n           五日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_藤山\">\n<surname>\n              藤山\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_和田\">\n<surname>\n              和田\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華実業協会ニ関シ\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            赤十字社社員招待会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            ビゲロー氏ト御会見ノ約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_伊東米治郎\">\n<surname>\n              伊東\n             </surname>\n<forename>\n              米治郎\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <placeName corresp=\"#place_木挽町\">\n             木挽町\n            </placeName>\n<persName corresp=\"#pers_田中\">\n<surname>\n              田中\n             </surname>\n</persName>\n            屋）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0179\">\n<head>\n<date when=\"1921-07-05\">\n           五日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_藤山\">\n<surname>\n              藤山\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_和田\">\n<surname>\n              和田\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華実業協会ニ関シ\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            赤十字社社員招待会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            ビゲロー氏ト御会見ノ約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_伊東米治郎\">\n<surname>\n              伊東\n             </surname>\n<forename>\n              米治郎\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <placeName corresp=\"#place_木挽町\">\n             木挽町\n            </placeName>\n            田中屋）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-07"
 }

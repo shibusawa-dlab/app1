@@ -1,7 +1,13 @@
 {
     "agential": [
+        "田尻",
         "森村",
         "桜井鉄太郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田尻",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/森村",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/桜井鉄太郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1265",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-04",
     "date_lvl2": "1918-04-13",
-    "description": "\n\n\n           十三日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n\n             田尻\n            \n            市長、\n            \n\n              森村\n             \n\n            男二氏ト御会見（\n            \n             東京\n            \n            市役所）\n           \n\n\n\n\n             正午\n            \n\n\n              桜井\n             \n\n              鉄太郎\n             \n\n            氏ヨリ御案内（ホテル）\n           \n\n\n\n\n             午後三時\n            \n            商工奨励館ノ件（\n            \n             東京\n            \n            府庁）\n           \n\n\n\n\n             午後三―午後六時\n            \n            音楽会　ホテル\n           \n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n\n\n              田尻\n             \n\n            市長、\n            \n\n              森村\n             \n\n            男二氏ト御会見（\n            \n             東京\n            \n            市役所）\n           \n\n\n\n\n             正午\n            \n\n\n              桜井\n             \n\n              鉄太郎\n             \n\n            氏ヨリ御案内（ホテル）\n           \n\n\n\n\n             午後三時\n            \n            商工奨励館ノ件（\n            \n             東京\n            \n            府庁）\n           \n\n\n\n\n             午後三―午後六時\n            \n            音楽会　ホテル\n           \n\n\n",
     "label": "十三日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0098",
@@ -27,8 +33,10 @@
     "sort": "DKB20020m-0097",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "田尻",
         "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1918-04-13",
     "texts": [
@@ -54,10 +62,10 @@
         "DKB20031m-0058"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_田尻\">\n             田尻\n            </placeName>\n            市長、\n            <persName corresp=\"#pers_森村\">\n<surname>\n              森村\n             </surname>\n</persName>\n            男二氏ト御会見（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市役所）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_田尻\">\n<surname>\n              田尻\n             </surname>\n</persName>\n            市長、\n            <persName corresp=\"#pers_森村\">\n<surname>\n              森村\n             </surname>\n</persName>\n            男二氏ト御会見（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市役所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0097\">\n<head>\n<date when=\"1918-04-13\">\n           十三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_田尻\">\n             田尻\n            </placeName>\n            市長、\n            <persName corresp=\"#pers_森村\">\n<surname>\n              森村\n             </surname>\n</persName>\n            男二氏ト御会見（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市役所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_桜井鉄太郎\">\n<surname>\n              桜井\n             </surname>\n<forename>\n              鉄太郎\n             </forename>\n</persName>\n            氏ヨリ御案内（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            商工奨励館ノ件（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            府庁）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"18:00:00\">\n             午後三―午後六時\n            </time>\n            音楽会　ホテル\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0097\">\n<head>\n<date when=\"1918-04-13\">\n           十三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_田尻\">\n<surname>\n              田尻\n             </surname>\n</persName>\n            市長、\n            <persName corresp=\"#pers_森村\">\n<surname>\n              森村\n             </surname>\n</persName>\n            男二氏ト御会見（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市役所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_桜井鉄太郎\">\n<surname>\n              桜井\n             </surname>\n<forename>\n              鉄太郎\n             </forename>\n</persName>\n            氏ヨリ御案内（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            商工奨励館ノ件（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            府庁）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"18:00:00\">\n             午後三―午後六時\n            </time>\n            音楽会　ホテル\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-04"
 }

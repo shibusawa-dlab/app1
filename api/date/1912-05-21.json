@@ -1,13 +1,23 @@
 {
     "agential": [
         "佐々木",
-        "兼子",
+        "渋沢兼子",
         "日下",
         "大倉",
         "徳川",
         "徳川家達",
-        "慶久",
+        "徳川慶久",
         "豊崎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐々木",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢兼子",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/日下",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大倉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川家達",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川慶久",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/豊崎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/766",
     "category": {
@@ -34,6 +44,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "向島"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/向島"
     ],
     "temporal": "1912-05-21",
     "texts": [
@@ -62,12 +75,12 @@
         "07:00:00": "<div><time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、入浴シテ朝飧ヲ食ス、後、武蔵武士ノ原稿ヲ一読ス、</div>",
         "10:00:00": "<div><time when=\"10:00:00\">\n        午前十時\n       </time>\n       事務所ニ抵リ来人ニ接シ且書類ヲ撿閲ス、又、書状ヲ裁ス、</div>",
         "12:00:00": "<div><time when=\"12:00:00\">\n        十二時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ抵リテ午飧ス、後、\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       氏ト行務ヲ談ス、</div>",
-        "15:00:00": "<div><time when=\"15:00:00\">\n        午後三時\n       </time>\n<persName corresp=\"#pers_兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       ト共ニ\n       <placeName corresp=\"#place_向島\">\n        向島\n       </placeName>\n       ナル\n       <persName corresp=\"#pers_日下\">\n<surname>\n         日下\n        </surname>\n</persName>\n       氏ノ家ヲ訪ヘ、新婦ト会話ス、後、\n       <persName corresp=\"#pers_日下\">\n<surname>\n         日下\n        </surname>\n</persName>\n       氏帰宅セラレ種々ノ談話ヲ為ス、</div>",
-        "16:30:00": "<div><time when=\"16:30:00\">\n        四時半\n       </time>\n<persName corresp=\"#pers_大倉\">\n<surname>\n         大倉\n        </surname>\n</persName>\n       氏別荘ヲ訪フ、\n       <persName corresp=\"#pers_徳川\">\n<surname>\n         徳川\n        </surname>\n</persName>\n       老公及\n       <persName corresp=\"#pers_徳川家達\">\n<forename>\n         家達\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_慶久\">\n<forename>\n         慶久\n        </forename>\n</persName>\n       二公、其夫人、\n       <persName corresp=\"#pers_豊崎\">\n<surname>\n         豊崎\n        </surname>\n</persName>\n       氏等招宴セラル、謡曲又ハ芸妓ノ踊等種々ノ余興アリ、老公、公爵共ニ謡曲アリ、一同歓ヲ尽シテ夜</div>",
+        "15:00:00": "<div><time when=\"15:00:00\">\n        午後三時\n       </time>\n<persName corresp=\"#pers_渋沢兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       ト共ニ\n       <placeName corresp=\"#place_向島\">\n        向島\n       </placeName>\n       ナル\n       <persName corresp=\"#pers_日下\">\n<surname>\n         日下\n        </surname>\n</persName>\n       氏ノ家ヲ訪ヘ、新婦ト会話ス、後、\n       <persName corresp=\"#pers_日下\">\n<surname>\n         日下\n        </surname>\n</persName>\n       氏帰宅セラレ種々ノ談話ヲ為ス、</div>",
+        "16:30:00": "<div><time when=\"16:30:00\">\n        四時半\n       </time>\n<persName corresp=\"#pers_大倉\">\n<surname>\n         大倉\n        </surname>\n</persName>\n       氏別荘ヲ訪フ、\n       <persName corresp=\"#pers_徳川\">\n<surname>\n         徳川\n        </surname>\n</persName>\n       老公及\n       <persName corresp=\"#pers_徳川家達\">\n<forename>\n         家達\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_徳川慶久\">\n<forename>\n         慶久\n        </forename>\n</persName>\n       二公、其夫人、\n       <persName corresp=\"#pers_豊崎\">\n<surname>\n         豊崎\n        </surname>\n</persName>\n       氏等招宴セラル、謡曲又ハ芸妓ノ踊等種々ノ余興アリ、老公、公爵共ニ謡曲アリ、一同歓ヲ尽シテ夜</div>",
         "22:00:00": "<div><time when=\"22:00:00\">\n        十時\n       </time>\n       過散会、帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10020m-0120\">\n<head>\n<date when=\"1912-05-21\">\n        五月二十一日\n       </date>\n       火　雨　軽寒\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、入浴シテ朝飧ヲ食ス、後、武蔵武士ノ原稿ヲ一読ス、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n       事務所ニ抵リ来人ニ接シ且書類ヲ撿閲ス、又、書状ヲ裁ス、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ抵リテ午飧ス、後、\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       氏ト行務ヲ談ス、\n       <time when=\"15:00:00\">\n        午後三時\n       </time>\n<persName corresp=\"#pers_兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       ト共ニ\n       <placeName corresp=\"#place_向島\">\n        向島\n       </placeName>\n       ナル\n       <persName corresp=\"#pers_日下\">\n<surname>\n         日下\n        </surname>\n</persName>\n       氏ノ家ヲ訪ヘ、新婦ト会話ス、後、\n       <persName corresp=\"#pers_日下\">\n<surname>\n         日下\n        </surname>\n</persName>\n       氏帰宅セラレ種々ノ談話ヲ為ス、\n       <time when=\"16:30:00\">\n        四時半\n       </time>\n<persName corresp=\"#pers_大倉\">\n<surname>\n         大倉\n        </surname>\n</persName>\n       氏別荘ヲ訪フ、\n       <persName corresp=\"#pers_徳川\">\n<surname>\n         徳川\n        </surname>\n</persName>\n       老公及\n       <persName corresp=\"#pers_徳川家達\">\n<forename>\n         家達\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_慶久\">\n<forename>\n         慶久\n        </forename>\n</persName>\n       二公、其夫人、\n       <persName corresp=\"#pers_豊崎\">\n<surname>\n         豊崎\n        </surname>\n</persName>\n       氏等招宴セラル、謡曲又ハ芸妓ノ踊等種々ノ余興アリ、老公、公爵共ニ謡曲アリ、一同歓ヲ尽シテ夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n       過散会、帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10020m-0120\">\n<head>\n<date when=\"1912-05-21\">\n        五月二十一日\n       </date>\n       火　雨　軽寒\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、入浴シテ朝飧ヲ食ス、後、武蔵武士ノ原稿ヲ一読ス、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n       事務所ニ抵リ来人ニ接シ且書類ヲ撿閲ス、又、書状ヲ裁ス、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ抵リテ午飧ス、後、\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       氏ト行務ヲ談ス、\n       <time when=\"15:00:00\">\n        午後三時\n       </time>\n<persName corresp=\"#pers_渋沢兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       ト共ニ\n       <placeName corresp=\"#place_向島\">\n        向島\n       </placeName>\n       ナル\n       <persName corresp=\"#pers_日下\">\n<surname>\n         日下\n        </surname>\n</persName>\n       氏ノ家ヲ訪ヘ、新婦ト会話ス、後、\n       <persName corresp=\"#pers_日下\">\n<surname>\n         日下\n        </surname>\n</persName>\n       氏帰宅セラレ種々ノ談話ヲ為ス、\n       <time when=\"16:30:00\">\n        四時半\n       </time>\n<persName corresp=\"#pers_大倉\">\n<surname>\n         大倉\n        </surname>\n</persName>\n       氏別荘ヲ訪フ、\n       <persName corresp=\"#pers_徳川\">\n<surname>\n         徳川\n        </surname>\n</persName>\n       老公及\n       <persName corresp=\"#pers_徳川家達\">\n<forename>\n         家達\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_徳川慶久\">\n<forename>\n         慶久\n        </forename>\n</persName>\n       二公、其夫人、\n       <persName corresp=\"#pers_豊崎\">\n<surname>\n         豊崎\n        </surname>\n</persName>\n       氏等招宴セラル、謡曲又ハ芸妓ノ踊等種々ノ余興アリ、老公、公爵共ニ謡曲アリ、一同歓ヲ尽シテ夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n       過散会、帰宿ス\n      </p>\n</div>",
     "year": "1912",
     "yearAndMonth": "1912-05"
 }

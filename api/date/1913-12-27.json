@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1164",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1913",
     "date_lvl1": "1913-12",
     "date_lvl2": "1913-12-27",
-    "description": "\n\n\n           廿七日\n          \n          （土）\n         \n\n\n\n\n             午前十時半\n            \n            宮中ヘ御参内、大礼服御着用\n           \n\n\n\n\n             午前十一時\n            \n            沖商会総会（偕楽園）\n           \n\n\n\n\n             午前十一時半\n            \n\n             中国\n            \n            興業会社相談会（同社事務所）\n           \n\n\n\n\n             午後八時\n            \n            墨国特派大使より案内（ホテル）ハ断り相成る事\n           \n\n\n",
+    "description": "\n\n\n           廿七日\n          \n          （土）\n         \n\n\n\n\n             午前十時半\n            \n            宮中ヘ御参内、大礼服御着用\n           \n\n\n\n\n             午前十一時\n            \n            沖商会総会（偕楽園）\n           \n\n\n\n\n             午前十一時半\n            \n\n             中国\n            \n            興業会社相談会（同社事務所）\n           \n\n\n\n\n             午後八時\n            \n\n             墨国\n            \n            特派大使より案内（ホテル）ハ断り相成る事\n           \n\n\n",
     "label": "廿七日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20015m-0012",
@@ -24,7 +25,12 @@
     "sort": "DKB20015m-0011",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "中国"
+        "中国",
+        "メキシコ"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/中国",
+        "https://shibusawa-dlab.github.io/lab1/api/place/メキシコ"
     ],
     "temporal": "1913-12-27",
     "texts": [
@@ -53,7 +59,7 @@
         "10:30:00": "<div><time when=\"10:30:00\">\n             午前十時半\n            </time>\n            宮中ヘ御参内、大礼服御着用</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20015m-0011\">\n<head>\n<date when=\"1913-12-27\">\n           廿七日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十時半\n            </time>\n            宮中ヘ御参内、大礼服御着用\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            沖商会総会（偕楽園）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n<placeName corresp=\"#place_中国\">\n             中国\n            </placeName>\n            興業会社相談会（同社事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"20:00:00\">\n             午後八時\n            </time>\n            墨国特派大使より案内（ホテル）ハ断り相成る事\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20015m-0011\">\n<head>\n<date when=\"1913-12-27\">\n           廿七日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十時半\n            </time>\n            宮中ヘ御参内、大礼服御着用\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            沖商会総会（偕楽園）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n<placeName corresp=\"#place_中国\">\n             中国\n            </placeName>\n            興業会社相談会（同社事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"20:00:00\">\n             午後八時\n            </time>\n<placeName corresp=\"#place_メキシコ\">\n             墨国\n            </placeName>\n            特派大使より案内（ホテル）ハ断り相成る事\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1913",
     "yearAndMonth": "1913-12"
 }

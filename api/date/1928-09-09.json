@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1583",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-09",
     "date_lvl2": "1928-09-09",
-    "description": "\n\n\n           九日\n          \n          （日）\n         \n\n\n\n\n             午前十時\n            \n            総長米寿祝賀放魚会（旧\n            \n             馬場先\n            \n            門濠）\n           \n\n\n\n\n             引続キ\n            \n            茶話会（\n            \n             東京\n            \n            会館）\n           \n\n\n",
+    "description": "\n\n\n           九日\n          \n          （日）\n         \n\n\n\n\n             午前十時\n            \n            総長米寿祝賀放魚会（旧\n            \n             馬場先\n            \n            門濠）\n           \n\n\n\n\n             引続キ\n            \n            茶話会（東京会館）\n           \n\n\n",
     "label": "九日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20030m-0188",
@@ -24,8 +25,10 @@
     "sort": "DKB20030m-0187",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "馬場先",
-        "東京"
+        "馬場先"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/馬場先"
     ],
     "temporal": "1928-09-09",
     "texts": [
@@ -54,7 +57,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            総長米寿祝賀放魚会（旧\n            <placeName corresp=\"#place_馬場先\">\n             馬場先\n            </placeName>\n            門濠）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0187\">\n<head>\n<date when=\"1928-09-09\">\n           九日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            総長米寿祝賀放魚会（旧\n            <placeName corresp=\"#place_馬場先\">\n             馬場先\n            </placeName>\n            門濠）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続キ\n            </time>\n            茶話会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            会館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0187\">\n<head>\n<date when=\"1928-09-09\">\n           九日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            総長米寿祝賀放魚会（旧\n            <placeName corresp=\"#place_馬場先\">\n             馬場先\n            </placeName>\n            門濠）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続キ\n            </time>\n            茶話会（東京会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-09"
 }

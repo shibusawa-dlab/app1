@@ -1,9 +1,13 @@
 {
     "agential": [
-        "鮮",
-        "于",
+        "鮮于〓",
         "美濃部",
         "渋沢元治"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/鮮于〓",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/美濃部",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢元治"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1387",
     "category": {
@@ -20,7 +24,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-04",
     "date_lvl2": "1922-04-09",
-    "description": "\n\n\n           九日\n          \n          （日）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              鮮\n             \n\n\n\n              于\n             \n\n            〓、\n            \n\n              美濃部\n             \n\n            両氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n             北海道\n            \n            庁長官ヨリ御案内（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n\n\n             午後七・二〇\n            \n\n\n              渋沢\n             \n\n              元治\n             \n\n            氏御帰朝（\n            \n             東京\n            \n            駅）\n           \n\n\n",
+    "description": "\n\n\n           九日\n          \n          （日）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              鮮于\n             \n\n              〓\n             \n\n            、\n            \n\n              美濃部\n             \n\n            両氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n             北海道\n            \n            庁長官ヨリ御案内（\n            \n             上野\n            \n\n             精養軒\n            \n            ）\n           \n\n\n\n\n             午後七・二〇\n            \n\n\n              渋沢\n             \n\n              元治\n             \n\n            氏御帰朝（\n            \n             東京\n            \n            駅）\n           \n\n\n",
     "label": "九日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0073",
@@ -31,8 +35,14 @@
     "spatial": [
         "飛鳥山邸",
         "北海道",
-        "上野精養軒",
+        "上野",
         "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/北海道",
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1922-04-09",
     "texts": [
@@ -58,10 +68,10 @@
         "DKB20019m-0114"
     ],
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_鮮\">\n<surname>\n              鮮\n             </surname>\n</persName>\n<persName corresp=\"#pers_于\">\n<surname>\n              于\n             </surname>\n</persName>\n            〓、\n            <persName corresp=\"#pers_美濃部\">\n<surname>\n              美濃部\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_鮮于〓\">\n<surname>\n              鮮于\n             </surname>\n<forename>\n              〓\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_美濃部\">\n<surname>\n              美濃部\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0072\">\n<head>\n<date when=\"1922-04-09\">\n           九日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_鮮\">\n<surname>\n              鮮\n             </surname>\n</persName>\n<persName corresp=\"#pers_于\">\n<surname>\n              于\n             </surname>\n</persName>\n            〓、\n            <persName corresp=\"#pers_美濃部\">\n<surname>\n              美濃部\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_北海道\">\n             北海道\n            </placeName>\n            庁長官ヨリ御案内（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:20:00\">\n             午後七・二〇\n            </time>\n<persName corresp=\"#pers_渋沢元治\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              元治\n             </forename>\n</persName>\n            氏御帰朝（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0072\">\n<head>\n<date when=\"1922-04-09\">\n           九日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_鮮于〓\">\n<surname>\n              鮮于\n             </surname>\n<forename>\n              〓\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_美濃部\">\n<surname>\n              美濃部\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_北海道\">\n             北海道\n            </placeName>\n            庁長官ヨリ御案内（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:20:00\">\n             午後七・二〇\n            </time>\n<persName corresp=\"#pers_渋沢元治\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              元治\n             </forename>\n</persName>\n            氏御帰朝（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-04"
 }

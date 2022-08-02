@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/321",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -15,7 +16,7 @@
     "date_lvl0": "1903",
     "date_lvl1": "1903-02",
     "date_lvl2": "1903-02-11",
-    "description": "\n\n\n        二月十一日\n       \n\n\n\n\n       晴、腹部ノ故障漸ク愈ルヲ以テ\n       \n        午後一時\n       \n       埼玉学友会ノ為\n       \n        神田錦輝館\n       \n       ニ抵リ例会ヲ開キ、一場ノ演説ヲ為ス、畢テ\n       \n        午後五時\n       \n\n        王子別荘\n       \n       ニ帰宿ス\n      \n",
+    "description": "\n\n\n        二月十一日\n       \n\n\n\n\n       晴、腹部ノ故障漸ク愈ルヲ以テ\n       \n        午後一時\n       \n       埼玉学友会ノ為\n       \n\n         神田\n        \n        錦輝館\n       \n       ニ抵リ例会ヲ開キ、一場ノ演説ヲ為ス、畢テ\n       \n        午後五時\n       \n\n        王子別荘\n       \n       ニ帰宿ス\n      \n",
     "label": "二月十一日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10011m-0177",
@@ -24,7 +25,12 @@
     "sort": "DKB10011m-0176",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
-        "王子別荘"
+        "神田",
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/神田",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1903-02-11",
     "texts": [
@@ -50,11 +56,11 @@
         "DKB10009m-0115"
     ],
     "time": {
-        "13:00:00": "<div><pb corresp=\"#pageB1296\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/322/full/max/0/default.jpg\" n=\"B1296\" source=\"#pageB1296\"/>\n<lb/>\n       晴、腹部ノ故障漸ク愈ルヲ以テ<time when=\"13:00:00\">\n        午後一時\n       </time>\n       埼玉学友会ノ為\n       <orgName>\n        神田錦輝館\n       </orgName>\n       ニ抵リ例会ヲ開キ、一場ノ演説ヲ為ス、畢テ</div>",
-        "17:00:00": "<div><time when=\"17:00:00\">\n        午後五時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
+        "13:00:00": "<div><pb corresp=\"#pageB1296\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/322/full/max/0/default.jpg\" n=\"B1296\" source=\"#pageB1296\"/>\n<lb/>\n       晴、腹部ノ故障漸ク愈ルヲ以テ<time when=\"13:00:00\">\n        午後一時\n       </time>\n       埼玉学友会ノ為\n       <orgName>\n<placeName corresp=\"#place_神田\">\n         神田\n        </placeName>\n        錦輝館\n       </orgName>\n       ニ抵リ例会ヲ開キ、一場ノ演説ヲ為ス、畢テ</div>",
+        "17:00:00": "<div><time when=\"17:00:00\">\n        午後五時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-0176\">\n<head>\n<date when=\"1903-02-11\">\n        二月十一日\n       </date>\n</head>\n<p>\n<pb corresp=\"#pageB1296\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/322/full/max/0/default.jpg\" n=\"B1296\" source=\"#pageB1296\"/>\n<lb/>\n       晴、腹部ノ故障漸ク愈ルヲ以テ\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n       埼玉学友会ノ為\n       <orgName>\n        神田錦輝館\n       </orgName>\n       ニ抵リ例会ヲ開キ、一場ノ演説ヲ為ス、畢テ\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-0176\">\n<head>\n<date when=\"1903-02-11\">\n        二月十一日\n       </date>\n</head>\n<p>\n<pb corresp=\"#pageB1296\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/322/full/max/0/default.jpg\" n=\"B1296\" source=\"#pageB1296\"/>\n<lb/>\n       晴、腹部ノ故障漸ク愈ルヲ以テ\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n       埼玉学友会ノ為\n       <orgName>\n<placeName corresp=\"#place_神田\">\n         神田\n        </placeName>\n        錦輝館\n       </orgName>\n       ニ抵リ例会ヲ開キ、一場ノ演説ヲ為ス、畢テ\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1903",
     "yearAndMonth": "1903-02"
 }

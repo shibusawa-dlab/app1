@@ -1,7 +1,11 @@
 {
     "agential": [
-        "一位公",
+        "徳川慶喜",
         "浅野総一郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川慶喜",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野総一郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/317",
     "category": {
@@ -18,7 +22,7 @@
     "date_lvl0": "1902",
     "date_lvl1": "1902-12",
     "date_lvl2": "1902-12-30",
-    "description": "\n\n\n        十二月三十日\n       \n\n\n       晴、\n       \n        午前八時\n       \n       朝飧ヲ畢リ、\n       \n        小石川\n       \n       大六天《（\n       \n        第六天\n       \n       ）》ニ抵リ\n       \n        一位公\n       \n       ヲ訪ヒ、\n       \n        十時\n       \n\n        兜町\n       \n       事務所ニ抵リ英米及\n       \n        朝鮮\n       \n       等ヘノ出状ヲ整理ス、夜\n       \n        七時\n       \n\n        深川\n       \n       宅ニ帰宿\n       \n       ス、\n       \n\n         浅野\n        \n\n         総一郎\n        \n\n       氏来リ鉱山部ノ事ヲ談ス\n      \n",
+    "description": "\n\n\n        十二月三十日\n       \n\n\n       晴、\n       \n        午前八時\n       \n       朝飧ヲ畢リ、\n       \n        小石川\n       \n\n        大六天《（第六天 ）》\n       \n      ニ抵リ\n       \n        一位公\n       \n       ヲ訪ヒ、\n       \n        十時\n       \n\n        兜町\n       \n       事務所ニ抵リ英米及\n       \n        朝鮮\n       \n       等ヘノ出状ヲ整理ス、夜\n       \n        七時\n       \n\n        深川\n       \n       宅ニ帰宿\n       \n       ス、\n       \n\n         浅野\n        \n\n         総一郎\n        \n\n       氏来リ鉱山部ノ事ヲ談ス\n      \n",
     "label": "十二月三十日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10011m-0134",
@@ -28,10 +32,17 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "小石川",
-        "第六天",
+        "第六天町",
         "日本橋兜町",
         "朝鮮",
         "深川"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/小石川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/第六天町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/朝鮮",
+        "https://shibusawa-dlab.github.io/lab1/api/place/深川"
     ],
     "temporal": "1902-12-30",
     "texts": [
@@ -57,12 +68,12 @@
         "DKB10011m-0293"
     ],
     "time": {
-        "08:00:00": "<div>晴、<time when=\"08:00:00\">\n        午前八時\n       </time>\n       朝飧ヲ畢リ、\n       <placeName corresp=\"#place_小石川\">\n        小石川\n       </placeName>\n       大六天《（\n       <placeName corresp=\"#place_第六天\">\n        第六天\n       </placeName>\n       ）》ニ抵リ\n       <persName corresp=\"#pers_一位公\">\n        一位公\n       </persName>\n       ヲ訪ヒ、</div>",
+        "08:00:00": "<div>晴、<time when=\"08:00:00\">\n        午前八時\n       </time>\n       朝飧ヲ畢リ、\n       <placeName corresp=\"#place_小石川\">\n        小石川\n       </placeName>\n<placeName corresp=\"#place_第六天町\">\n        大六天《（第六天 ）》\n       </placeName>\n      ニ抵リ\n       <persName corresp=\"#pers_徳川慶喜\">\n        一位公\n       </persName>\n       ヲ訪ヒ、</div>",
         "10:00:00": "<div><time when=\"10:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ英米及\n       <placeName corresp=\"#place_朝鮮\">\n        朝鮮\n       </placeName>\n       等ヘノ出状ヲ整理ス、夜</div>",
         "19:00:00": "<div><time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       宅ニ帰宿\n       <pb corresp=\"#pageB1292\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/318/full/max/0/default.jpg\" n=\"B1292\" source=\"#pageB1292\"/>\n       ス、\n       <persName corresp=\"#pers_浅野総一郎\">\n<surname>\n         浅野\n        </surname>\n<forename>\n         総一郎\n        </forename>\n</persName>\n       氏来リ鉱山部ノ事ヲ談ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-0133\">\n<head>\n<date when=\"1902-12-30\">\n        十二月三十日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"08:00:00\">\n        午前八時\n       </time>\n       朝飧ヲ畢リ、\n       <placeName corresp=\"#place_小石川\">\n        小石川\n       </placeName>\n       大六天《（\n       <placeName corresp=\"#place_第六天\">\n        第六天\n       </placeName>\n       ）》ニ抵リ\n       <persName corresp=\"#pers_一位公\">\n        一位公\n       </persName>\n       ヲ訪ヒ、\n       <time when=\"10:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ英米及\n       <placeName corresp=\"#place_朝鮮\">\n        朝鮮\n       </placeName>\n       等ヘノ出状ヲ整理ス、夜\n       <time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       宅ニ帰宿\n       <pb corresp=\"#pageB1292\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/318/full/max/0/default.jpg\" n=\"B1292\" source=\"#pageB1292\"/>\n       ス、\n       <persName corresp=\"#pers_浅野総一郎\">\n<surname>\n         浅野\n        </surname>\n<forename>\n         総一郎\n        </forename>\n</persName>\n       氏来リ鉱山部ノ事ヲ談ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-0133\">\n<head>\n<date when=\"1902-12-30\">\n        十二月三十日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"08:00:00\">\n        午前八時\n       </time>\n       朝飧ヲ畢リ、\n       <placeName corresp=\"#place_小石川\">\n        小石川\n       </placeName>\n<placeName corresp=\"#place_第六天町\">\n        大六天《（第六天 ）》\n       </placeName>\n      ニ抵リ\n       <persName corresp=\"#pers_徳川慶喜\">\n        一位公\n       </persName>\n       ヲ訪ヒ、\n       <time when=\"10:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ英米及\n       <placeName corresp=\"#place_朝鮮\">\n        朝鮮\n       </placeName>\n       等ヘノ出状ヲ整理ス、夜\n       <time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       宅ニ帰宿\n       <pb corresp=\"#pageB1292\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/318/full/max/0/default.jpg\" n=\"B1292\" source=\"#pageB1292\"/>\n       ス、\n       <persName corresp=\"#pers_浅野総一郎\">\n<surname>\n         浅野\n        </surname>\n<forename>\n         総一郎\n        </forename>\n</persName>\n       氏来リ鉱山部ノ事ヲ談ス\n      </p>\n</div>",
     "year": "1902",
     "yearAndMonth": "1902-12"
 }

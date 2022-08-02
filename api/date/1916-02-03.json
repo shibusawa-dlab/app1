@@ -1,6 +1,11 @@
 {
     "agential": [
-        "浅野総一郎"
+        "浅野総一郎",
+        "マーチン"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野総一郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/マーチン"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1197",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-02",
     "date_lvl2": "1916-02-03",
-    "description": "\n\n\n           三日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n            神宮奉賛会理事会　同会\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午後四時\n            \n            行員ノ為メ御講演（\n            \n             日本\n            \n            勧業銀行）\n           \n\n\n\n\n\n             午後六時\n            \n\n\n              浅野\n             \n\n              総一郎\n             \n\n            氏ヨリ御案内（マーチン氏トモ）\n           \n\n\n",
+    "description": "\n\n\n           三日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n            神宮奉賛会理事会　同会\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午後四時\n            \n            行員ノ為メ御講演（日本勧業銀行）\n           \n\n\n\n\n\n             午後六時\n            \n\n\n              浅野\n             \n\n              総一郎\n             \n\n            氏ヨリ御案内（\n            \n\n              マーチン\n             \n\n            氏トモ）\n           \n\n\n",
     "label": "三日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0033",
@@ -25,9 +30,8 @@
     "prev": "DKB20018m-0031",
     "sort": "DKB20018m-0032",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "日本"
-    ],
+    "spatial": [],
+    "spatial_uri": [],
     "temporal": "1916-02-03",
     "texts": [
         "DKB20015m-0002",
@@ -55,7 +59,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            神宮奉賛会理事会　同会</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0032\">\n<head>\n<date when=\"1916-02-03\">\n           三日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            神宮奉賛会理事会　同会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            行員ノ為メ御講演（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            勧業銀行）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2358\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1197/full/max/0/default.jpg\" n=\"B2358\" source=\"#pageB2358\"/>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏ヨリ御案内（マーチン氏トモ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0032\">\n<head>\n<date when=\"1916-02-03\">\n           三日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            神宮奉賛会理事会　同会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            行員ノ為メ御講演（日本勧業銀行）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2358\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1197/full/max/0/default.jpg\" n=\"B2358\" source=\"#pageB2358\"/>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <persName corresp=\"#pers_マーチン\">\n<surname>\n              マーチン\n             </surname>\n</persName>\n            氏トモ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-02"
 }

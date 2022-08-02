@@ -1,5 +1,12 @@
 {
-    "agential": [],
+    "agential": [
+        "ヴァンダーリップ",
+        "大倉"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ヴァンダーリップ",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大倉"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1332",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +22,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-04",
     "date_lvl2": "1920-04-29",
-    "description": "\n\n\n           廿九日\n          \n          （木）\n         \n\n\n\n\n             午前九半時\n            \n            ヴアンダリツプ氏等ト協議会（銀行クラブ）\n           \n\n\n\n\n             午前十時\n            \n            中日実業会社相談役会（同社）\n           \n\n\n\n\n             正午\n            \n            大倉男催、ヴアンダリツプ氏一行歓迎午餐会（\n            \n             葵町\n            \n            同邸）集古館参観\n           \n\n\n\n\n             午後二時四十五分\n            \n\n             赤坂\n            \n            離宮拝観ノ為集古館ヘ参集\n           \n\n\n\n\n             午後三時\n            \n            国際聯盟協会理事会（ツキジ精養軒）\n           \n\n\n",
+    "description": "\n\n\n           廿九日\n          \n          （木）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              ヴアンダリツプ\n             \n\n            氏等ト協議会（銀行クラブ）\n           \n\n\n\n\n             午前十時\n            \n            中日実業会社相談役会（同社）\n           \n\n\n\n\n             正午\n            \n\n\n              大倉\n             \n\n            男催、\n            \n\n              ヴアンダリツプ\n             \n\n            氏一行歓迎午餐会（\n            \n             葵町\n            \n            同邸）集古館参観\n           \n\n\n\n\n             午後二時四十五分\n            \n\n             赤坂\n            \n            離宮拝観ノ為集古館ヘ参集\n           \n\n\n\n\n             午後三時\n            \n            国際聯盟協会理事会（\n            \n             ツキジ\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
     "label": "廿九日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0118",
@@ -25,7 +32,13 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "葵町",
-        "赤坂"
+        "赤坂_(東京都港区)",
+        "築地"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/葵町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/赤坂_(東京都港区)",
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
     ],
     "temporal": "1920-04-29",
     "texts": [
@@ -51,10 +64,10 @@
         "DKB20024m-0282"
     ],
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n            ヴアンダリツプ氏等ト協議会（銀行クラブ）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_ヴァンダーリップ\">\n<surname>\n              ヴアンダリツプ\n             </surname>\n</persName>\n            氏等ト協議会（銀行クラブ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0117\">\n<head>\n<date when=\"1920-04-29\">\n           廿九日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n            ヴアンダリツプ氏等ト協議会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            中日実業会社相談役会（同社）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            大倉男催、ヴアンダリツプ氏一行歓迎午餐会（\n            <placeName corresp=\"#place_葵町\">\n             葵町\n            </placeName>\n            同邸）集古館参観\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:45:00\">\n             午後二時四十五分\n            </time>\n<placeName corresp=\"#place_赤坂\">\n             赤坂\n            </placeName>\n            離宮拝観ノ為集古館ヘ参集\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            国際聯盟協会理事会（ツキジ精養軒）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0117\">\n<head>\n<date when=\"1920-04-29\">\n           廿九日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_ヴァンダーリップ\">\n<surname>\n              ヴアンダリツプ\n             </surname>\n</persName>\n            氏等ト協議会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            中日実業会社相談役会（同社）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_大倉\">\n<surname>\n              大倉\n             </surname>\n</persName>\n            男催、\n            <persName corresp=\"#pers_ヴァンダーリップ\">\n<surname>\n              ヴアンダリツプ\n             </surname>\n</persName>\n            氏一行歓迎午餐会（\n            <placeName corresp=\"#place_葵町\">\n             葵町\n            </placeName>\n            同邸）集古館参観\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:45:00\">\n             午後二時四十五分\n            </time>\n<placeName corresp=\"#place_赤坂_(東京都港区)\">\n             赤坂\n            </placeName>\n            離宮拝観ノ為集古館ヘ参集\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            国際聯盟協会理事会（\n            <placeName corresp=\"#place_築地\">\n             ツキジ\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-04"
 }

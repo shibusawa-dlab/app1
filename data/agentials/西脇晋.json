@@ -34,13 +34,19 @@
             "color": "lightgrey",
             "from": "高田",
             "to": "井野辺",
-            "value": 40
+            "value": 35
+        },
+        {
+            "color": "lightgrey",
+            "from": "高田",
+            "to": "井の辺",
+            "value": 16
         },
         {
             "color": "lightgrey",
             "from": "浅野",
             "to": "大倉",
-            "value": 29
+            "value": 30
         },
         {
             "color": "lightgrey",
@@ -64,6 +70,12 @@
             "color": "lightgrey",
             "from": "浅野",
             "to": "安田",
+            "value": 11
+        },
+        {
+            "color": "lightgrey",
+            "from": "浅野",
+            "to": "渋沢篤二",
             "value": 10
         },
         {
@@ -76,7 +88,7 @@
             "color": "lightgrey",
             "from": "浅野",
             "to": "大川",
-            "value": 14
+            "value": 17
         },
         {
             "color": "lightgrey",
@@ -87,7 +99,7 @@
         {
             "color": "lightgrey",
             "from": "浅野",
-            "to": "兼子",
+            "to": "渋沢兼子",
             "value": 11
         },
         {
@@ -124,7 +136,25 @@
             "color": "lightgrey",
             "from": "大川",
             "to": "佐々木",
-            "value": 10
+            "value": 14
+        },
+        {
+            "color": "lightgrey",
+            "from": "大川",
+            "to": "大倉",
+            "value": 15
+        },
+        {
+            "color": "lightgrey",
+            "from": "大川",
+            "to": "田中",
+            "value": 13
+        },
+        {
+            "color": "lightgrey",
+            "from": "大川",
+            "to": "白石",
+            "value": 12
         }
     ],
     "nodes": [
@@ -155,7 +185,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 63,
+            "count": 74,
             "id": "高田",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "高田",
@@ -166,7 +196,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 213,
+            "count": 228,
             "id": "浅野",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "浅野",
@@ -177,7 +207,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 24,
+            "count": 71,
             "id": "大川",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "大川",
@@ -188,10 +218,11 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 11,
-            "id": "兼子",
+            "count": 10,
+            "description": "\n     渋沢 篤二（澁澤 篤二、しぶさわ とくじ、1872年11月16日〈明治5年10月16日〉 - 1932年〈昭和7年〉10月6日）は、日本の実業家。澁澤倉庫取締役会長。族籍は東京府華族。\n    ",
+            "id": "渋沢篤二",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "兼子",
+            "label": "渋沢篤二",
             "shape": "image"
         },
         {
@@ -210,6 +241,17 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 11,
+            "id": "渋沢兼子",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "渋沢兼子",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
             "count": 15,
             "id": "井上",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
@@ -221,43 +263,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 13,
+            "count": 25,
             "id": "白石",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "白石",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 10,
-            "id": "大隈",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "大隈",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 10,
-            "id": "桜井",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "桜井",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 35,
-            "id": "佐々木",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "佐々木",
             "shape": "image"
         },
         {
@@ -278,9 +287,9 @@
                 "border": "lightgreen"
             },
             "count": 10,
-            "id": "近藤",
+            "id": "大隈",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "近藤",
+            "label": "大隈",
             "shape": "image"
         },
         {
@@ -299,10 +308,54 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 39,
+            "id": "佐々木",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "佐々木",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "id": "桜井",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "桜井",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "id": "近藤",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "近藤",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
             "count": 12,
             "id": "桂",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "桂",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 13,
+            "id": "田中",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "田中",
             "shape": "image"
         },
         {
@@ -321,7 +374,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 29,
+            "count": 45,
             "id": "大倉",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "大倉",
@@ -343,7 +396,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 40,
+            "count": 35,
             "id": "井野辺",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "井野辺",
@@ -354,10 +407,21 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 10,
+            "count": 11,
             "id": "安田",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "安田",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 16,
+            "id": "井の辺",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "井の辺",
             "shape": "image"
         },
         {

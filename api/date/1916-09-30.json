@@ -1,7 +1,9 @@
 {
     "agential": [
-        "渡辺",
-        "次郎"
+        "渡辺専次郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渡辺専次郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1216",
     "category": {
@@ -18,7 +20,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-09",
     "date_lvl2": "1916-09-30",
-    "description": "\n\n\n           三十日\n          \n          （土）\n         \n\n\n\n\n             午後二半時\n            \n            故\n            \n\n              渡辺\n             \n\n            専\n            \n\n              次郎\n             \n\n            氏葬送\n           \n\n\n\n\n             午後五時\n            \n            日米関係委員会（帝国ホテル）\n           \n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （土）\n         \n\n\n\n\n             午後二半時\n            \n            故\n            \n\n              渡辺\n             \n\n              専次郎\n             \n\n            氏葬送\n           \n\n\n\n\n             午後五時\n            \n            日米関係委員会（帝国ホテル）\n           \n\n\n",
     "label": "三十日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0256",
@@ -27,6 +29,7 @@
     "sort": "DKB20018m-0254",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [],
+    "spatial_uri": [],
     "temporal": "1916-09-30",
     "texts": [
         "DKB20018m-0181",
@@ -51,10 +54,10 @@
         "DKB20025m-0184"
     ],
     "time": {
-        "14:30:00": "<div><time when=\"14:30:00\">\n             午後二半時\n            </time>\n            故\n            <persName corresp=\"#pers_渡辺\">\n<surname>\n              渡辺\n             </surname>\n</persName>\n            専\n            <persName corresp=\"#pers_次郎\">\n<forename>\n              次郎\n             </forename>\n</persName>\n            氏葬送</div>"
+        "14:30:00": "<div><time when=\"14:30:00\">\n             午後二半時\n            </time>\n            故\n            <persName corresp=\"#pers_渡辺専次郎\">\n<surname>\n              渡辺\n             </surname>\n<forename>\n              専次郎\n             </forename>\n</persName>\n            氏葬送</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0254\">\n<head>\n<date when=\"1916-09-30\">\n           三十日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            故\n            <persName corresp=\"#pers_渡辺\">\n<surname>\n              渡辺\n             </surname>\n</persName>\n            専\n            <persName corresp=\"#pers_次郎\">\n<forename>\n              次郎\n             </forename>\n</persName>\n            氏葬送\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            日米関係委員会（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0254\">\n<head>\n<date when=\"1916-09-30\">\n           三十日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            故\n            <persName corresp=\"#pers_渡辺専次郎\">\n<surname>\n              渡辺\n             </surname>\n<forename>\n              専次郎\n             </forename>\n</persName>\n            氏葬送\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            日米関係委員会（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-09"
 }

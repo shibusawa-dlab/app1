@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1485",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-01",
     "date_lvl2": "1925-01-25",
-    "description": "\n\n\n           廿五日\n          \n          （日）\n         \n\n\n\n\n             午後四時四十五分\n            \n            湯ケ原ヨリ御引上ゲ（\n            \n             東京\n            \n            駅御着）\n           \n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （日）\n         \n\n\n\n\n             午後四時四十五分\n            \n\n             湯ケ原\n            \n            ヨリ御引上ゲ（\n            \n             東京\n            \n            駅御着）\n           \n\n\n",
     "label": "廿五日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20027m-0010",
@@ -24,7 +25,12 @@
     "sort": "DKB20027m-0009",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "湯河原町",
         "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/湯河原町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1925-01-25",
     "texts": [
@@ -50,10 +56,10 @@
         "DKB20019m-0215"
     ],
     "time": {
-        "16:45:00": "<div><time when=\"16:45:00\">\n             午後四時四十五分\n            </time>\n            湯ケ原ヨリ御引上ゲ（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅御着）</div>"
+        "16:45:00": "<div><time when=\"16:45:00\">\n             午後四時四十五分\n            </time>\n<placeName corresp=\"#place_湯河原町\">\n             湯ケ原\n            </placeName>\n            ヨリ御引上ゲ（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅御着）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0009\">\n<head>\n<date when=\"1925-01-25\">\n           廿五日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"16:45:00\">\n             午後四時四十五分\n            </time>\n            湯ケ原ヨリ御引上ゲ（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅御着）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0009\">\n<head>\n<date when=\"1925-01-25\">\n           廿五日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"16:45:00\">\n             午後四時四十五分\n            </time>\n<placeName corresp=\"#place_湯河原町\">\n             湯ケ原\n            </placeName>\n            ヨリ御引上ゲ（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅御着）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-01"
 }

@@ -4,6 +4,11 @@
         "阿部泰蔵",
         "石塚英蔵"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高木正年",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/阿部泰蔵",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/石塚英蔵"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1221",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -19,7 +24,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-12",
     "date_lvl2": "1916-12-02",
-    "description": "\n\n\n           二日\n          \n          （土）\n         \n\n\n\n\n             午後〇時半\n            \n\n\n              高木\n             \n\n              正年\n             \n\n            来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n            断\n            \n             午後一半時\n            \n\n\n              阿部\n             \n\n              泰蔵\n             \n\n            氏表彰会（\n            \n             日本橋\n            \n            クラブ）\n           \n\n\n\n            断\n            \n             午後五時半\n            \n\n\n              石塚\n             \n\n              英蔵\n             \n\n            氏ヨリ御案内（華族会館）\n           \n\n\n",
+    "description": "\n\n\n           二日\n          \n          （土）\n         \n\n\n\n\n             午後〇時半\n            \n\n\n              高木\n             \n\n              正年\n             \n\n            来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n            断\n            \n             午後一半時\n            \n\n\n              阿部\n             \n\n              泰蔵\n             \n\n            氏表彰会（日本橋クラブ）\n           \n\n\n\n            断\n            \n             午後五時半\n            \n\n\n              石塚\n             \n\n              英蔵\n             \n\n            氏ヨリ御案内（華族会館）\n           \n\n\n",
     "label": "二日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0320",
@@ -28,8 +33,10 @@
     "sort": "DKB20018m-0319",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "日本橋兜町",
-        "日本橋"
+        "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1916-12-02",
     "texts": [
@@ -58,7 +65,7 @@
         "12:30:00": "<div><time when=\"12:30:00\">\n             午後〇時半\n            </time>\n<persName corresp=\"#pers_高木正年\">\n<surname>\n              高木\n             </surname>\n<forename>\n              正年\n             </forename>\n</persName>\n            来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0319\">\n<head>\n<date when=\"1916-12-02\">\n           二日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇時半\n            </time>\n<persName corresp=\"#pers_高木正年\">\n<surname>\n              高木\n             </surname>\n<forename>\n              正年\n             </forename>\n</persName>\n            来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n            断\n            <time when=\"13:30:00\">\n             午後一半時\n            </time>\n<persName corresp=\"#pers_阿部泰蔵\">\n<surname>\n              阿部\n             </surname>\n<forename>\n              泰蔵\n             </forename>\n</persName>\n            氏表彰会（\n            <placeName corresp=\"#place_日本橋\">\n             日本橋\n            </placeName>\n            クラブ）\n           </p>\n</event>\n<event>\n<p>\n            断\n            <time when=\"17:30:00\">\n             午後五時半\n            </time>\n<persName corresp=\"#pers_石塚英蔵\">\n<surname>\n              石塚\n             </surname>\n<forename>\n              英蔵\n             </forename>\n</persName>\n            氏ヨリ御案内（華族会館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0319\">\n<head>\n<date when=\"1916-12-02\">\n           二日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇時半\n            </time>\n<persName corresp=\"#pers_高木正年\">\n<surname>\n              高木\n             </surname>\n<forename>\n              正年\n             </forename>\n</persName>\n            来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n            断\n            <time when=\"13:30:00\">\n             午後一半時\n            </time>\n<persName corresp=\"#pers_阿部泰蔵\">\n<surname>\n              阿部\n             </surname>\n<forename>\n              泰蔵\n             </forename>\n</persName>\n            氏表彰会（日本橋クラブ）\n           </p>\n</event>\n<event>\n<p>\n            断\n            <time when=\"17:30:00\">\n             午後五時半\n            </time>\n<persName corresp=\"#pers_石塚英蔵\">\n<surname>\n              石塚\n             </surname>\n<forename>\n              英蔵\n             </forename>\n</persName>\n            氏ヨリ御案内（華族会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-12"
 }

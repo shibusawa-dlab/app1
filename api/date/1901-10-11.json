@@ -6,6 +6,13 @@
         "岸宇吉",
         "佐々木勇之助"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/前島",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/谷敬三",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/堀井",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岸宇吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐々木勇之助"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/238",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -32,7 +39,12 @@
     "spatial": [
         "水戸",
         "日本橋兜町",
-        "王子別荘"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/水戸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1901-10-11",
     "texts": [
@@ -60,10 +72,10 @@
     "time": {
         "10:00:00": "<div>晴、朝来下痢強ク明日\n       <placeName corresp=\"#place_水戸\">\n        水戸\n       </placeName>\n       行ノ約ヲ履行スル能ハサルニ付書状ヲ京釜鉄道会社ノ人ニ送付シ、且\n       <persName corresp=\"#pers_前島\">\n<surname>\n         前島\n        </surname>\n</persName>\n       氏ヘ照会シテ同氏ノ啓行ヲ依頼ス、\n       <persName corresp=\"#pers_谷敬三\">\n<surname>\n         谷\n        </surname>\n<forename>\n         敬三\n        </forename>\n</persName>\n       氏ヘ一書ヲ送ル、<time when=\"10:00:00\">\n        十時\n       </time>\n<persName corresp=\"#pers_堀井\">\n<surname>\n         堀井\n        </surname>\n</persName>\n       医師来診、</div>",
         "16:00:00": "<div><time when=\"16:00:00\">\n        四時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ\n       <persName corresp=\"#pers_岸宇吉\">\n<surname>\n         岸\n        </surname>\n<forename>\n         宇吉\n        </forename>\n</persName>\n       氏ニ会話ス、\n       <persName corresp=\"#pers_佐々木勇之助\">\n<surname>\n         佐々木\n        </surname>\n<forename>\n         勇之助\n        </forename>\n</persName>\n       氏モ来会ス、</div>",
-        "18:00:00": "<div><time when=\"18:00:00\">\n        六時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
+        "18:00:00": "<div><time when=\"18:00:00\">\n        六時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10010m-0159\">\n<head>\n<date when=\"1901-10-11\">\n        十月十一日\n       </date>\n</head>\n<p>\n       晴、朝来下痢強ク明日\n       <placeName corresp=\"#place_水戸\">\n        水戸\n       </placeName>\n       行ノ約ヲ履行スル能ハサルニ付書状ヲ京釜鉄道会社ノ人ニ送付シ、且\n       <persName corresp=\"#pers_前島\">\n<surname>\n         前島\n        </surname>\n</persName>\n       氏ヘ照会シテ同氏ノ啓行ヲ依頼ス、\n       <persName corresp=\"#pers_谷敬三\">\n<surname>\n         谷\n        </surname>\n<forename>\n         敬三\n        </forename>\n</persName>\n       氏ヘ一書ヲ送ル、\n       <time when=\"10:00:00\">\n        十時\n       </time>\n<persName corresp=\"#pers_堀井\">\n<surname>\n         堀井\n        </surname>\n</persName>\n       医師来診、\n       <time when=\"16:00:00\">\n        四時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ\n       <persName corresp=\"#pers_岸宇吉\">\n<surname>\n         岸\n        </surname>\n<forename>\n         宇吉\n        </forename>\n</persName>\n       氏ニ会話ス、\n       <persName corresp=\"#pers_佐々木勇之助\">\n<surname>\n         佐々木\n        </surname>\n<forename>\n         勇之助\n        </forename>\n</persName>\n       氏モ来会ス、\n       <time when=\"18:00:00\">\n        六時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10010m-0159\">\n<head>\n<date when=\"1901-10-11\">\n        十月十一日\n       </date>\n</head>\n<p>\n       晴、朝来下痢強ク明日\n       <placeName corresp=\"#place_水戸\">\n        水戸\n       </placeName>\n       行ノ約ヲ履行スル能ハサルニ付書状ヲ京釜鉄道会社ノ人ニ送付シ、且\n       <persName corresp=\"#pers_前島\">\n<surname>\n         前島\n        </surname>\n</persName>\n       氏ヘ照会シテ同氏ノ啓行ヲ依頼ス、\n       <persName corresp=\"#pers_谷敬三\">\n<surname>\n         谷\n        </surname>\n<forename>\n         敬三\n        </forename>\n</persName>\n       氏ヘ一書ヲ送ル、\n       <time when=\"10:00:00\">\n        十時\n       </time>\n<persName corresp=\"#pers_堀井\">\n<surname>\n         堀井\n        </surname>\n</persName>\n       医師来診、\n       <time when=\"16:00:00\">\n        四時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ\n       <persName corresp=\"#pers_岸宇吉\">\n<surname>\n         岸\n        </surname>\n<forename>\n         宇吉\n        </forename>\n</persName>\n       氏ニ会話ス、\n       <persName corresp=\"#pers_佐々木勇之助\">\n<surname>\n         佐々木\n        </surname>\n<forename>\n         勇之助\n        </forename>\n</persName>\n       氏モ来会ス、\n       <time when=\"18:00:00\">\n        六時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1901",
     "yearAndMonth": "1901-10"
 }

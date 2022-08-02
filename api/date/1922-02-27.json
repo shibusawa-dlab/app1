@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1383",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -24,8 +25,12 @@
     "sort": "DKB20024m-0030",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "シヤトル",
+        "シアトル",
         "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/シアトル",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1922-02-27",
     "texts": [
@@ -52,7 +57,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0030\">\n<head>\n<date when=\"1922-02-27\">\n           廿七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n            引続引籠\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_シヤトル\">\n             シヤトル\n            </placeName>\n            観光団歓迎会（如水会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            協調会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            日本工業クラブ\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商業会議所催、総長御帰朝歓迎会（日本工業クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0030\">\n<head>\n<date when=\"1922-02-27\">\n           廿七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n            引続引籠\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_シアトル\">\n             シヤトル\n            </placeName>\n            観光団歓迎会（如水会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            協調会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            日本工業クラブ\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商業会議所催、総長御帰朝歓迎会（日本工業クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-02"
 }

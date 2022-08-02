@@ -4,6 +4,11 @@
         "書上",
         "須永伝蔵"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/本山",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/書上",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/須永伝蔵"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/85",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -19,7 +24,7 @@
     "date_lvl0": "1886",
     "date_lvl1": "1886-05",
     "date_lvl2": "1886-05-26",
-    "description": "\n\n\n        明治十九年五月廿六日\n       \n\n\n\n        午前六時\n       \n       深川邸ヲ発シ、\n       \n        新橋\n       \n       駐車場ニ到リ\n       \n        六時四十五分\n       \n       発ノ汽車ニ搭ス、送別ノ人十数人汽車場ニ来ル、\n       \n        七時半\n       \n\n        神奈川\n       \n       着、\n       \n\n         本山\n        \n\n       、\n       \n\n         書上\n        \n\n       等\n       \n        横浜\n       \n       ヨリ来テ送別ス、\n       \n        八時\n       \n\n        神奈川\n       \n       ヲ発シ、馬車ヲ僦フテ\n       \n        神奈川\n       \n       《（マヽ）》ヲ発シ\n       \n        十一時半\n       \n\n        大磯\n       \n       ニテ午餐シ、\n       \n        二時\n       \n\n        小田原\n       \n       ニ抵リ、三枚橋ニテ山轎ヲ僦ヒ、\n       \n        午後七時\n       \n\n        仙石原\n       \n       着、万屋ニ投宿ス、此日\n       \n\n         須永\n        \n\n         伝蔵\n        \n\n       来リテ牧場ノ近況ヲ話ス\n      \n",
+    "description": "\n\n\n        明治十九年五月廿六日\n       \n\n\n\n        午前六時\n       \n\n        深川邸\n       \n       ヲ発シ、\n       \n        新橋\n       \n       駐車場ニ到リ\n       \n        六時四十五分\n       \n       発ノ汽車ニ搭ス、送別ノ人十数人汽車場ニ来ル、\n       \n        七時半\n       \n\n        神奈川\n       \n       着、\n       \n\n         本山\n        \n\n       、\n       \n\n         書上\n        \n\n       等\n       \n        横浜\n       \n       ヨリ来テ送別ス、\n       \n        八時\n       \n\n        神奈川\n       \n       ヲ発シ、馬車ヲ僦フテ\n       \n        神奈川\n       \n       《（マヽ）》ヲ発シ\n       \n        十一時半\n       \n\n        大磯\n       \n       ニテ午餐シ、\n       \n        二時\n       \n\n        小田原\n       \n       ニ抵リ、三枚橋ニテ山轎ヲ僦ヒ、\n       \n        午後七時\n       \n\n        仙石原\n       \n       着、万屋ニ投宿ス、此日\n       \n\n         須永\n        \n\n         伝蔵\n        \n\n       来リテ牧場ノ近況ヲ話ス\n      \n",
     "label": "明治十九年五月廿六日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10006m-0002",
@@ -27,12 +32,22 @@
     "sort": "DKB10006m-0001",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
+        "深川邸",
         "新橋",
         "神奈川",
         "横浜",
         "大磯町",
         "小田原",
         "仙石原"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/深川邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/新橋",
+        "https://shibusawa-dlab.github.io/lab1/api/place/神奈川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/横浜",
+        "https://shibusawa-dlab.github.io/lab1/api/place/大磯町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/小田原",
+        "https://shibusawa-dlab.github.io/lab1/api/place/仙石原"
     ],
     "temporal": "1886-05-26",
     "texts": [
@@ -58,7 +73,7 @@
         "DKB10010m-0112"
     ],
     "time": {
-        "06:00:00": "<div><time when=\"06:00:00\">\n        午前六時\n       </time>\n       深川邸ヲ発シ、\n       <placeName corresp=\"#place_新橋\">\n        新橋\n       </placeName>\n       駐車場ニ到リ</div>",
+        "06:00:00": "<div><time when=\"06:00:00\">\n        午前六時\n       </time>\n<placeName corresp=\"#place_深川邸\">\n        深川邸\n       </placeName>\n       ヲ発シ、\n       <placeName corresp=\"#place_新橋\">\n        新橋\n       </placeName>\n       駐車場ニ到リ</div>",
         "06:45:00": "<div><time when=\"06:45:00\">\n        六時四十五分\n       </time>\n       発ノ汽車ニ搭ス、送別ノ人十数人汽車場ニ来ル、</div>",
         "07:30:00": "<div><time when=\"07:30:00\">\n        七時半\n       </time>\n<placeName corresp=\"#place_神奈川\">\n        神奈川\n       </placeName>\n       着、\n       <persName corresp=\"#pers_本山\">\n<surname>\n         本山\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_書上\">\n<surname>\n         書上\n        </surname>\n</persName>\n       等\n       <placeName corresp=\"#place_横浜\">\n        横浜\n       </placeName>\n       ヨリ来テ送別ス、</div>",
         "08:00:00": "<div><time when=\"08:00:00\">\n        八時\n       </time>\n<placeName corresp=\"#place_神奈川\">\n        神奈川\n       </placeName>\n       ヲ発シ、馬車ヲ僦フテ\n       <placeName corresp=\"#place_神奈川\">\n        神奈川\n       </placeName>\n       《（マヽ）》ヲ発シ</div>",
@@ -67,7 +82,7 @@
         "19:00:00": "<div><time when=\"19:00:00\">\n        午後七時\n       </time>\n<placeName corresp=\"#place_仙石原\">\n        仙石原\n       </placeName>\n       着、万屋ニ投宿ス、此日\n       <persName corresp=\"#pers_須永伝蔵\">\n<surname>\n         須永\n        </surname>\n<forename>\n         伝蔵\n        </forename>\n</persName>\n       来リテ牧場ノ近況ヲ話ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10006m-0001\">\n<head>\n<date when=\"1886-05-26\">\n        明治十九年五月廿六日\n       </date>\n</head>\n<p>\n<time when=\"06:00:00\">\n        午前六時\n       </time>\n       深川邸ヲ発シ、\n       <placeName corresp=\"#place_新橋\">\n        新橋\n       </placeName>\n       駐車場ニ到リ\n       <time when=\"06:45:00\">\n        六時四十五分\n       </time>\n       発ノ汽車ニ搭ス、送別ノ人十数人汽車場ニ来ル、\n       <time when=\"07:30:00\">\n        七時半\n       </time>\n<placeName corresp=\"#place_神奈川\">\n        神奈川\n       </placeName>\n       着、\n       <persName corresp=\"#pers_本山\">\n<surname>\n         本山\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_書上\">\n<surname>\n         書上\n        </surname>\n</persName>\n       等\n       <placeName corresp=\"#place_横浜\">\n        横浜\n       </placeName>\n       ヨリ来テ送別ス、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n<placeName corresp=\"#place_神奈川\">\n        神奈川\n       </placeName>\n       ヲ発シ、馬車ヲ僦フテ\n       <placeName corresp=\"#place_神奈川\">\n        神奈川\n       </placeName>\n       《（マヽ）》ヲ発シ\n       <time when=\"11:30:00\">\n        十一時半\n       </time>\n<placeName corresp=\"#place_大磯町\">\n        大磯\n       </placeName>\n       ニテ午餐シ、\n       <time when=\"14:00:00\">\n        二時\n       </time>\n<placeName corresp=\"#place_小田原\">\n        小田原\n       </placeName>\n       ニ抵リ、三枚橋ニテ山轎ヲ僦ヒ、\n       <time when=\"19:00:00\">\n        午後七時\n       </time>\n<placeName corresp=\"#place_仙石原\">\n        仙石原\n       </placeName>\n       着、万屋ニ投宿ス、此日\n       <persName corresp=\"#pers_須永伝蔵\">\n<surname>\n         須永\n        </surname>\n<forename>\n         伝蔵\n        </forename>\n</persName>\n       来リテ牧場ノ近況ヲ話ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10006m-0001\">\n<head>\n<date when=\"1886-05-26\">\n        明治十九年五月廿六日\n       </date>\n</head>\n<p>\n<time when=\"06:00:00\">\n        午前六時\n       </time>\n<placeName corresp=\"#place_深川邸\">\n        深川邸\n       </placeName>\n       ヲ発シ、\n       <placeName corresp=\"#place_新橋\">\n        新橋\n       </placeName>\n       駐車場ニ到リ\n       <time when=\"06:45:00\">\n        六時四十五分\n       </time>\n       発ノ汽車ニ搭ス、送別ノ人十数人汽車場ニ来ル、\n       <time when=\"07:30:00\">\n        七時半\n       </time>\n<placeName corresp=\"#place_神奈川\">\n        神奈川\n       </placeName>\n       着、\n       <persName corresp=\"#pers_本山\">\n<surname>\n         本山\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_書上\">\n<surname>\n         書上\n        </surname>\n</persName>\n       等\n       <placeName corresp=\"#place_横浜\">\n        横浜\n       </placeName>\n       ヨリ来テ送別ス、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n<placeName corresp=\"#place_神奈川\">\n        神奈川\n       </placeName>\n       ヲ発シ、馬車ヲ僦フテ\n       <placeName corresp=\"#place_神奈川\">\n        神奈川\n       </placeName>\n       《（マヽ）》ヲ発シ\n       <time when=\"11:30:00\">\n        十一時半\n       </time>\n<placeName corresp=\"#place_大磯町\">\n        大磯\n       </placeName>\n       ニテ午餐シ、\n       <time when=\"14:00:00\">\n        二時\n       </time>\n<placeName corresp=\"#place_小田原\">\n        小田原\n       </placeName>\n       ニ抵リ、三枚橋ニテ山轎ヲ僦ヒ、\n       <time when=\"19:00:00\">\n        午後七時\n       </time>\n<placeName corresp=\"#place_仙石原\">\n        仙石原\n       </placeName>\n       着、万屋ニ投宿ス、此日\n       <persName corresp=\"#pers_須永伝蔵\">\n<surname>\n         須永\n        </surname>\n<forename>\n         伝蔵\n        </forename>\n</persName>\n       来リテ牧場ノ近況ヲ話ス\n      </p>\n</div>",
     "year": "1886",
     "yearAndMonth": "1886-05"
 }

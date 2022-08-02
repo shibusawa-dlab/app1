@@ -1,5 +1,10 @@
 {
-    "agential": [],
+    "agential": [
+        "ヴァンダーリップ"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ヴァンダーリップ"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1332",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +20,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-04",
     "date_lvl2": "1920-04-25",
-    "description": "\n\n\n           廿五日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n            斯文会第一回孔子会（\n            \n             湯島\n            \n            聖堂）\n           \n\n\n\n\n             午前十半時\n            \n            ウアンダーリツプ氏ト御会見（\n            \n             綱町\n            \n            邸）\n           \n\n\n\n\n             午後七時\n            \n\n             米国\n            \n            貴賓歓迎会催、ヴアンダリツプ氏一行歓迎会（華族会館）（令夫人共、燕尾服）\n           \n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n            斯文会第一回孔子会（\n            \n             湯島\n            \n            聖堂）\n           \n\n\n\n\n             午前十半時\n            \n\n\n              ウアンダーリツプ\n             \n\n            氏ト御会見（\n            \n             綱町\n            \n            邸）\n           \n\n\n\n\n             午後七時\n            \n\n             米国\n            \n            貴賓歓迎会催、\n            \n\n              ヴアンダリツプ\n             \n\n            氏一行歓迎会（華族会館）（令夫人共、燕尾服）\n           \n\n\n",
     "label": "廿五日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0114",
@@ -27,6 +32,11 @@
         "湯島",
         "綱町",
         "アメリカ合衆国"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/湯島",
+        "https://shibusawa-dlab.github.io/lab1/api/place/綱町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アメリカ合衆国"
     ],
     "temporal": "1920-04-25",
     "texts": [
@@ -55,7 +65,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            斯文会第一回孔子会（\n            <placeName corresp=\"#place_湯島\">\n             湯島\n            </placeName>\n            聖堂）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0113\">\n<head>\n<date when=\"1920-04-25\">\n           廿五日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            斯文会第一回孔子会（\n            <placeName corresp=\"#place_湯島\">\n             湯島\n            </placeName>\n            聖堂）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n            ウアンダーリツプ氏ト御会見（\n            <placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            貴賓歓迎会催、ヴアンダリツプ氏一行歓迎会（華族会館）（令夫人共、燕尾服）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0113\">\n<head>\n<date when=\"1920-04-25\">\n           廿五日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            斯文会第一回孔子会（\n            <placeName corresp=\"#place_湯島\">\n             湯島\n            </placeName>\n            聖堂）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n<persName corresp=\"#pers_ヴァンダーリップ\">\n<surname>\n              ウアンダーリツプ\n             </surname>\n</persName>\n            氏ト御会見（\n            <placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            貴賓歓迎会催、\n            <persName corresp=\"#pers_ヴァンダーリップ\">\n<surname>\n              ヴアンダリツプ\n             </surname>\n</persName>\n            氏一行歓迎会（華族会館）（令夫人共、燕尾服）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-04"
 }

@@ -1,5 +1,10 @@
 {
-    "agential": [],
+    "agential": [
+        "一木"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/一木"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1525",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +20,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-10",
     "date_lvl2": "1926-10-03",
-    "description": "\n\n\n           三日\n          \n          （日）\n         \n\n\n\n\n             午前十時\n            \n            一木宮相を御訪問（一番町官邸）\n           \n\n\n",
+    "description": "\n\n\n           三日\n          \n          （日）\n         \n\n\n\n\n             午前十時\n            \n\n\n              一木\n             \n\n            宮相を御訪問（一番町官邸）\n           \n\n\n",
     "label": "三日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0257",
@@ -24,6 +29,7 @@
     "sort": "DKB20028m-0256",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [],
+    "spatial_uri": [],
     "temporal": "1926-10-03",
     "texts": [
         "DKB20027m-0133",
@@ -48,10 +54,10 @@
         "DKB20028m-0199"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            一木宮相を御訪問（一番町官邸）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_一木\">\n<surname>\n              一木\n             </surname>\n</persName>\n            宮相を御訪問（一番町官邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0256\">\n<head>\n<date when=\"1926-10-03\">\n           三日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            一木宮相を御訪問（一番町官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0256\">\n<head>\n<date when=\"1926-10-03\">\n           三日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_一木\">\n<surname>\n              一木\n             </surname>\n</persName>\n            宮相を御訪問（一番町官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-10"
 }

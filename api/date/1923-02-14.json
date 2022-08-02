@@ -2,6 +2,9 @@
     "agential": [
         "中村"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中村"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1419",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-02",
     "date_lvl2": "1923-02-14",
-    "description": "\n\n\n           十四日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n\n\n              中村\n             \n\n            安得氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            十勝開墾会社総会（\n            \n             兜町\n            \n            本社）\n           \n\n\n\n\n             午後二時\n            \n            中日実業会社ヘ御出向\n           \n\n\n\n\n             午後三半時\n            \n\n             東京\n            \n            慈恵会理事会（同会）\n           \n\n\n\n\n             引続\n            \n            評議会《（員脱カ）》\n           \n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n\n\n              中村\n             \n\n            安得氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n             十勝開墾会社\n            \n            総会（\n            \n             兜町\n            \n            本社）\n           \n\n\n\n\n             午後二時\n            \n            中日実業会社ヘ御出向\n           \n\n\n\n\n             午後三半時\n            \n\n             東京\n            \n            慈恵会理事会（同会）\n           \n\n\n\n\n             引続\n            \n            評議会《（員脱カ）》\n           \n\n\n",
     "label": "十四日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0038",
@@ -28,6 +31,10 @@
     "spatial": [
         "日本橋兜町",
         "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1923-02-14",
     "texts": [
@@ -56,7 +63,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            安得氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0037\">\n<head>\n<date when=\"1923-02-14\">\n           十四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            安得氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            十勝開墾会社総会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            本社）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            中日実業会社ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続\n            </time>\n            評議会《（員脱カ）》\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0037\">\n<head>\n<date when=\"1923-02-14\">\n           十四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            安得氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             十勝開墾会社\n            </orgName>\n            総会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            本社）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            中日実業会社ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続\n            </time>\n            評議会《（員脱カ）》\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-02"
 }

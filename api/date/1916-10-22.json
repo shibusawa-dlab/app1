@@ -2,6 +2,9 @@
     "agential": [
         "徳川"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1217",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-10",
     "date_lvl2": "1916-10-22",
-    "description": "\n\n\n           廿二日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n\n             高千穂\n            \n            高等商業学校ヘ御出向（堀ノ内ノ方）\n           \n\n\n\n\n             午前十一時\n            \n            弐本榎除幕式\n           \n\n\n\n\n             午後六時\n            \n\n\n              徳川\n             \n\n            公ヨリ御案内（\n            \n             第六天\n            \n            同邸）\n           \n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n\n             高千穂高等商業学校\n            \n            ヘ御出向（堀ノ内ノ方）\n           \n\n\n\n\n             午前十一時\n            \n            弐本榎除幕式\n           \n\n\n\n\n             午後六時\n            \n\n\n              徳川\n             \n\n            公ヨリ御案内（\n            \n             第六天\n            \n            同邸）\n           \n\n\n",
     "label": "廿二日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0278",
@@ -26,8 +29,10 @@
     "sort": "DKB20018m-0277",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "高千穂",
-        "第六天"
+        "第六天町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/第六天町"
     ],
     "temporal": "1916-10-22",
     "texts": [
@@ -53,10 +58,10 @@
         "DKB20031m-0253"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_高千穂\">\n             高千穂\n            </placeName>\n            高等商業学校ヘ御出向（堀ノ内ノ方）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<orgName>\n             高千穂高等商業学校\n            </orgName>\n            ヘ御出向（堀ノ内ノ方）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0277\">\n<head>\n<date when=\"1916-10-22\">\n           廿二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_高千穂\">\n             高千穂\n            </placeName>\n            高等商業学校ヘ御出向（堀ノ内ノ方）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            弐本榎除幕式\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公ヨリ御案内（\n            <placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n            同邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0277\">\n<head>\n<date when=\"1916-10-22\">\n           廿二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<orgName>\n             高千穂高等商業学校\n            </orgName>\n            ヘ御出向（堀ノ内ノ方）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            弐本榎除幕式\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公ヨリ御案内（\n            <placeName corresp=\"#place_第六天町\">\n             第六天\n            </placeName>\n            同邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-10"
 }

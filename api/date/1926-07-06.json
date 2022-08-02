@@ -5,6 +5,12 @@
         "岩垂邦彦",
         "鈴木紋次郎"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/斎藤惣一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/平野喜太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岩垂邦彦",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/鈴木紋次郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1517",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -29,8 +35,10 @@
     "sort": "DKB20028m-0187",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山",
-        "アスカ山邸"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1926-07-06",
     "texts": [
@@ -56,10 +64,10 @@
         "DKB20029m-0325"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_斎藤惣一\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              惣一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_斎藤惣一\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              惣一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0187\">\n<head>\n<date when=\"1926-07-06\">\n           六日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_斎藤惣一\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              惣一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_平野喜太郎\">\n<surname>\n              平野\n             </surname>\n<forename>\n              喜太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華実業協会幹事会（同会事ム所）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2678\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1517/full/max/0/default.jpg\" n=\"B2678\" source=\"#pageB2678\"/>\n<time when=\"15:40:00\">\n             午後三・四〇\n            </time>\n            事務所御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午后四時\n            </time>\n            中央社会事業協会理事会（同協会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_岩垂邦彦\">\n<surname>\n              岩垂\n             </surname>\n<forename>\n              邦彦\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_鈴木紋次郎\">\n<surname>\n              鈴木\n             </surname>\n<forename>\n              紋次郎\n             </forename>\n</persName>\n            両家結婚披露（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0187\">\n<head>\n<date when=\"1926-07-06\">\n           六日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_斎藤惣一\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              惣一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_平野喜太郎\">\n<surname>\n              平野\n             </surname>\n<forename>\n              喜太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華実業協会幹事会（同会事ム所）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2678\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1517/full/max/0/default.jpg\" n=\"B2678\" source=\"#pageB2678\"/>\n<time when=\"15:40:00\">\n             午後三・四〇\n            </time>\n            事務所御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午后四時\n            </time>\n            中央社会事業協会理事会（同協会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_岩垂邦彦\">\n<surname>\n              岩垂\n             </surname>\n<forename>\n              邦彦\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_鈴木紋次郎\">\n<surname>\n              鈴木\n             </surname>\n<forename>\n              紋次郎\n             </forename>\n</persName>\n            両家結婚披露（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-07"
 }

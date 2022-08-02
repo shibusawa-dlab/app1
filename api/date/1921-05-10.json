@@ -1,8 +1,13 @@
 {
     "agential": [
+        "郷",
         "高梨慶三郎",
-        "山科礼蔵",
-        "香雪"
+        "山科礼蔵"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/郷",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高梨慶三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山科礼蔵"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1362",
     "category": {
@@ -19,7 +24,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-05",
     "date_lvl2": "1921-05-10",
-    "description": "\n\n\n           十日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n            郷男爵来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            デミテリー・デグリゴリエフ氏来約（同所）\n           \n\n\n\n\n             午後一時\n            \n\n\n              高梨\n             \n\n              慶三郎\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後四時\n            \n\n\n              山科\n             \n\n              礼蔵\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後四半時\n            \n            偕楽会（トキワヤ）\n           \n\n\n\n\n             午後六半時\n            \n            聖徳太子奉賛会ノ件地方官招待会（\n            \n\n              香雪\n             \n\n            軒）\n           \n\n\n",
+    "description": "\n\n\n           十日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n\n\n              郷\n             \n\n            男爵来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            デミテリー・デグリゴリエフ氏来約（同所）\n           \n\n\n\n\n             午後一時\n            \n\n\n              高梨\n             \n\n              慶三郎\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後四時\n            \n\n\n              山科\n             \n\n              礼蔵\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後四半時\n            \n            偕楽会（トキワヤ）\n           \n\n\n\n\n             午後六半時\n            \n            聖徳太子奉賛会ノ件地方官招待会（香雪軒）\n           \n\n\n",
     "label": "十日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0124",
@@ -29,6 +34,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1921-05-10",
     "texts": [
@@ -54,10 +62,10 @@
         "DKB20021m-0208"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            郷男爵来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_郷\">\n<surname>\n              郷\n             </surname>\n</persName>\n            男爵来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0122\">\n<head>\n<date when=\"1921-05-10\">\n           十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            郷男爵来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            デミテリー・デグリゴリエフ氏来約（同所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_高梨慶三郎\">\n<surname>\n              高梨\n             </surname>\n<forename>\n              慶三郎\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_山科礼蔵\">\n<surname>\n              山科\n             </surname>\n<forename>\n              礼蔵\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            偕楽会（トキワヤ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:30:00\">\n             午後六半時\n            </time>\n            聖徳太子奉賛会ノ件地方官招待会（\n            <persName corresp=\"#pers_香雪\">\n<forename>\n              香雪\n             </forename>\n</persName>\n            軒）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0122\">\n<head>\n<date when=\"1921-05-10\">\n           十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_郷\">\n<surname>\n              郷\n             </surname>\n</persName>\n            男爵来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            デミテリー・デグリゴリエフ氏来約（同所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_高梨慶三郎\">\n<surname>\n              高梨\n             </surname>\n<forename>\n              慶三郎\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_山科礼蔵\">\n<surname>\n              山科\n             </surname>\n<forename>\n              礼蔵\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            偕楽会（トキワヤ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:30:00\">\n             午後六半時\n            </time>\n            聖徳太子奉賛会ノ件地方官招待会（香雪軒）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-05"
 }

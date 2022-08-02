@@ -6,6 +6,13 @@
         "小高鉄太郎",
         "本橋□之助"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/畑弥右衛門",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小松信太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/斎藤金造",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小高鉄太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/本橋□之助"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1528",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -21,7 +28,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-10",
     "date_lvl2": "1926-10-29",
-    "description": "\n\n\n           廿九日\n          \n          （金）\n         \n\n\n\n\n             午前八時\n            \n\n\n              畑\n             \n\n              弥右衛門\n             \n\n            、\n            \n\n              小松\n             \n\n              信太郎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n\n              斎藤\n             \n\n              金造\n             \n\n            、\n            \n\n              小高\n             \n\n              鉄太郎\n             \n\n            、\n            \n\n              本橋\n             \n\n              □之助\n             \n\n            三氏来約《（不明）》　実業補習学校ノ件\n            \n             アスカ山\n            \n\n\n\n\n\n             午零時半\n            \n\n             米国\n            \n            大使ヨリ御案内\n            \n             麴町\n            \n            下六番町五十二\n            \n             米国\n            \n            大使館\n           \n\n\n\n\n             午後二半時\n            \n\n             仏国\n            \n            大使館ニ御立寄\n           \n\n\n\n\n             午後三時\n            \n            御出勤\n           \n\n\n\n\n             午後四時\n            \n\n             埼玉\n            \n            学生誘掖会ヘ御出向\n           \n\n\n\n\n             午後五時\n            \n            御同族会（事務所）\n           \n\n\n",
+    "description": "\n\n\n           廿九日\n          \n          （金）\n         \n\n\n\n\n             午前八時\n            \n\n\n              畑\n             \n\n              弥右衛門\n             \n\n            、\n            \n\n              小松\n             \n\n              信太郎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n\n              斎藤\n             \n\n              金造\n             \n\n            、\n            \n\n              小高\n             \n\n              鉄太郎\n             \n\n            、\n            \n\n              本橋\n             \n\n              □之助\n             \n\n            三氏来約《（不明）》　実業補習学校ノ件\n            \n             アスカ山\n            \n\n\n\n\n\n             午零時半\n            \n\n             米国\n            \n            大使ヨリ御案内\n            \n             麴町\n            \n            下六番町五十二\n            \n             米国\n            \n            大使館\n           \n\n\n\n\n             午後二半時\n            \n\n             仏国\n            \n            大使館ニ御立寄\n           \n\n\n\n\n             午後三時\n            \n            御出勤\n           \n\n\n\n\n             午後四時\n            \n\n             埼玉学生誘掖会\n            \n            ヘ御出向\n           \n\n\n\n\n             午後五時\n            \n            御同族会（事務所）\n           \n\n\n",
     "label": "廿九日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0283",
@@ -30,12 +37,16 @@
     "sort": "DKB20028m-0282",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
-        "アスカ山",
+        "飛鳥山邸",
         "アメリカ合衆国",
         "麹町",
-        "仏国",
-        "埼玉"
+        "フランス"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アメリカ合衆国",
+        "https://shibusawa-dlab.github.io/lab1/api/place/麹町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/フランス"
     ],
     "temporal": "1926-10-29",
     "texts": [
@@ -61,10 +72,10 @@
         "DKB20032m-0061"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_畑弥右衛門\">\n<surname>\n              畑\n             </surname>\n<forename>\n              弥右衛門\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_小松信太郎\">\n<surname>\n              小松\n             </surname>\n<forename>\n              信太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_畑弥右衛門\">\n<surname>\n              畑\n             </surname>\n<forename>\n              弥右衛門\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_小松信太郎\">\n<surname>\n              小松\n             </surname>\n<forename>\n              信太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0282\">\n<head>\n<date when=\"1926-10-29\">\n           廿九日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_畑弥右衛門\">\n<surname>\n              畑\n             </surname>\n<forename>\n              弥右衛門\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_小松信太郎\">\n<surname>\n              小松\n             </surname>\n<forename>\n              信太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<persName corresp=\"#pers_斎藤金造\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              金造\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_小高鉄太郎\">\n<surname>\n              小高\n             </surname>\n<forename>\n              鉄太郎\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_本橋□之助\">\n<surname>\n              本橋\n             </surname>\n<forename>\n              □之助\n             </forename>\n</persName>\n            三氏来約《（不明）》　実業補習学校ノ件\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午零時半\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            大使ヨリ御案内\n            <placeName corresp=\"#place_麹町\">\n             麴町\n            </placeName>\n            下六番町五十二\n            <placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            大使館\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<placeName corresp=\"#place_仏国\">\n             仏国\n            </placeName>\n            大使館ニ御立寄\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0282\">\n<head>\n<date when=\"1926-10-29\">\n           廿九日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_畑弥右衛門\">\n<surname>\n              畑\n             </surname>\n<forename>\n              弥右衛門\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_小松信太郎\">\n<surname>\n              小松\n             </surname>\n<forename>\n              信太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<persName corresp=\"#pers_斎藤金造\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              金造\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_小高鉄太郎\">\n<surname>\n              小高\n             </surname>\n<forename>\n              鉄太郎\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_本橋□之助\">\n<surname>\n              本橋\n             </surname>\n<forename>\n              □之助\n             </forename>\n</persName>\n            三氏来約《（不明）》　実業補習学校ノ件\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午零時半\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            大使ヨリ御案内\n            <placeName corresp=\"#place_麹町\">\n             麴町\n            </placeName>\n            下六番町五十二\n            <placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            大使館\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<placeName corresp=\"#place_フランス\">\n             仏国\n            </placeName>\n            大使館ニ御立寄\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<orgName>\n             埼玉学生誘掖会\n            </orgName>\n            ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-10"
 }

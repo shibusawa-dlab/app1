@@ -1,8 +1,15 @@
 {
     "agential": [
+        "益田",
         "安川雄之助",
         "白岩竜平",
         "秋山吉五郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/益田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/安川雄之助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/白岩竜平",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/秋山吉五郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1575",
     "category": {
@@ -19,7 +26,7 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-03",
     "date_lvl2": "1928-03-14",
-    "description": "\n\n\n           十四日\n          \n          （水）\n         \n\n\n\n\n             午後一時\n            \n            早稲田大学維持員会（早大恩賜館）\n           \n\n\n\n\n             午後二時\n            \n\n             益田\n            \n            男爵、\n            \n\n              安川\n             \n\n              雄之助\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後二・一〇\n            \n            御出勤\n           \n\n\n\n\n             午後三時\n            \n\n\n              白岩\n             \n\n              竜平\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後四時\n            \n\n\n              秋山\n             \n\n              吉五郎\n             \n\n            緋鯉《（氏脱）》ノ件（〃）\n           \n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （水）\n         \n\n\n\n\n             午後一時\n            \n            早稲田大学維持員会（早大恩賜館）\n           \n\n\n\n\n             午後二時\n            \n\n\n              益田\n             \n\n            男爵、\n            \n\n              安川\n             \n\n              雄之助\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後二・一〇\n            \n            御出勤\n           \n\n\n\n\n             午後三時\n            \n\n\n              白岩\n             \n\n              竜平\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後四時\n            \n\n\n              秋山\n             \n\n              吉五郎\n             \n\n            緋鯉《（氏脱）》ノ件（〃）\n           \n\n\n",
     "label": "十四日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20030m-0076",
@@ -27,9 +34,8 @@
     "prev": "DKB20030m-0074",
     "sort": "DKB20030m-0075",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "益田"
-    ],
+    "spatial": [],
+    "spatial_uri": [],
     "temporal": "1928-03-14",
     "texts": [
         "DKB20031m-0128",
@@ -57,7 +63,7 @@
         "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n            早稲田大学維持員会（早大恩賜館）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0075\">\n<head>\n<date when=\"1928-03-14\">\n           十四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            早稲田大学維持員会（早大恩賜館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_益田\">\n             益田\n            </placeName>\n            男爵、\n            <persName corresp=\"#pers_安川雄之助\">\n<surname>\n              安川\n             </surname>\n<forename>\n              雄之助\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:10:00\">\n             午後二・一〇\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_白岩竜平\">\n<surname>\n              白岩\n             </surname>\n<forename>\n              竜平\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_秋山吉五郎\">\n<surname>\n              秋山\n             </surname>\n<forename>\n              吉五郎\n             </forename>\n</persName>\n            緋鯉《（氏脱）》ノ件（〃）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0075\">\n<head>\n<date when=\"1928-03-14\">\n           十四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            早稲田大学維持員会（早大恩賜館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_益田\">\n<surname>\n              益田\n             </surname>\n</persName>\n            男爵、\n            <persName corresp=\"#pers_安川雄之助\">\n<surname>\n              安川\n             </surname>\n<forename>\n              雄之助\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:10:00\">\n             午後二・一〇\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_白岩竜平\">\n<surname>\n              白岩\n             </surname>\n<forename>\n              竜平\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_秋山吉五郎\">\n<surname>\n              秋山\n             </surname>\n<forename>\n              吉五郎\n             </forename>\n</persName>\n            緋鯉《（氏脱）》ノ件（〃）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-03"
 }

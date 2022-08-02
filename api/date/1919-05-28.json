@@ -1,8 +1,15 @@
 {
     "agential": [
         "山田昌邦",
+        "田尻",
         "永井",
         "湯前武彦"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山田昌邦",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田尻",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/永井",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/湯前武彦"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1299",
     "category": {
@@ -19,7 +26,7 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-05",
     "date_lvl2": "1919-05-28",
-    "description": "\n\n\n           廿八日\n          \n          （水）\n         \n\n\n\n\n             午前八時\n            \n\n\n              山田\n             \n\n              昌邦\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n             田尻\n            \n            市長、\n            \n\n              永井\n             \n\n            助役ヲ御訪問（市役所）\n           \n\n\n\n\n             午二―午三時\n            \n\n\n              湯前\n             \n\n              武彦\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （水）\n         \n\n\n\n\n             午前八時\n            \n\n\n              山田\n             \n\n              昌邦\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              田尻\n             \n\n            市長、\n            \n\n              永井\n             \n\n            助役ヲ御訪問（市役所）\n           \n\n\n\n\n             午二―午三時\n            \n\n\n              湯前\n             \n\n              武彦\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "廿八日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0123",
@@ -28,9 +35,12 @@
     "sort": "DKB20021m-0122",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
-        "田尻",
+        "飛鳥山邸",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1919-05-28",
     "texts": [
@@ -56,10 +66,10 @@
         "DKB20025m-0199"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_山田昌邦\">\n<surname>\n              山田\n             </surname>\n<forename>\n              昌邦\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_山田昌邦\">\n<surname>\n              山田\n             </surname>\n<forename>\n              昌邦\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0122\">\n<head>\n<date when=\"1919-05-28\">\n           廿八日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_山田昌邦\">\n<surname>\n              山田\n             </surname>\n<forename>\n              昌邦\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_田尻\">\n             田尻\n            </placeName>\n            市長、\n            <persName corresp=\"#pers_永井\">\n<surname>\n              永井\n             </surname>\n</persName>\n            助役ヲ御訪問（市役所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午二―午三時\n            </time>\n<persName corresp=\"#pers_湯前武彦\">\n<surname>\n              湯前\n             </surname>\n<forename>\n              武彦\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0122\">\n<head>\n<date when=\"1919-05-28\">\n           廿八日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_山田昌邦\">\n<surname>\n              山田\n             </surname>\n<forename>\n              昌邦\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_田尻\">\n<surname>\n              田尻\n             </surname>\n</persName>\n            市長、\n            <persName corresp=\"#pers_永井\">\n<surname>\n              永井\n             </surname>\n</persName>\n            助役ヲ御訪問（市役所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午二―午三時\n            </time>\n<persName corresp=\"#pers_湯前武彦\">\n<surname>\n              湯前\n             </surname>\n<forename>\n              武彦\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-05"
 }

@@ -2,6 +2,9 @@
     "agential": [
         "徳川慶久"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川慶久"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1270",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -26,8 +29,10 @@
     "sort": "DKB20020m-0147",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "大六天",
-        "第六天"
+        "第六天町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/第六天町"
     ],
     "temporal": "1918-06-02",
     "texts": [
@@ -53,10 +58,10 @@
         "DKB20022m-0154"
     ],
     "time": {
-        "15:00:00": "<div><time when=\"15:00:00\">\n             午后三時\n            </time>\n<persName corresp=\"#pers_徳川慶久\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶久\n             </forename>\n</persName>\n            公より御案内（\n            <placeName corresp=\"#place_大六天\">\n             大六天\n            </placeName>\n            同邸）《（\n            <placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n            ）》</div>"
+        "15:00:00": "<div><time when=\"15:00:00\">\n             午后三時\n            </time>\n<persName corresp=\"#pers_徳川慶久\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶久\n             </forename>\n</persName>\n            公より御案内（\n            <placeName corresp=\"#place_第六天町\">\n             大六天\n            </placeName>\n            同邸）《（\n            <placeName corresp=\"#place_第六天町\">\n             第六天\n            </placeName>\n            ）》</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0147\">\n<head>\n<date when=\"1918-06-02\">\n           二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n<persName corresp=\"#pers_徳川慶久\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶久\n             </forename>\n</persName>\n            公より御案内（\n            <placeName corresp=\"#place_大六天\">\n             大六天\n            </placeName>\n            同邸）《（\n            <placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n            ）》\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0147\">\n<head>\n<date when=\"1918-06-02\">\n           二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n<persName corresp=\"#pers_徳川慶久\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶久\n             </forename>\n</persName>\n            公より御案内（\n            <placeName corresp=\"#place_第六天町\">\n             大六天\n            </placeName>\n            同邸）《（\n            <placeName corresp=\"#place_第六天町\">\n             第六天\n            </placeName>\n            ）》\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-06"
 }

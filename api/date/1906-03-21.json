@@ -5,6 +5,12 @@
         "徳川",
         "益田"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松井吉太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小山茂三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/益田"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/438",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -33,7 +39,14 @@
         "品川",
         "日本橋兜町",
         "浜町",
-        "王子別荘"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/小石川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/品川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/浜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1906-03-21",
     "texts": [
@@ -62,10 +75,10 @@
         "08:00:00": "<div>起床後、\n       <persName corresp=\"#pers_松井吉太郎\">\n<surname>\n         松井\n        </surname>\n<forename>\n         吉太郎\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_小山茂三郎\">\n<surname>\n         小山\n        </surname>\n<forename>\n         茂三郎\n        </forename>\n</persName>\n       氏等ノ来訪ニ接ス、<time when=\"08:00:00\">\n        八時\n       </time>\n       過朝飧ヲ為ス、</div>",
         "10:00:00": "<div><time when=\"10:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_小石川\">\n        小石川\n       </placeName>\n       ニ\n       <persName corresp=\"#pers_徳川\">\n<surname>\n         徳川\n        </surname>\n</persName>\n       公爵ヲ訪ヒ、相伴フテ\n       <placeName corresp=\"#place_品川\">\n        品川\n       </placeName>\n       御殿山ノ\n       <persName corresp=\"#pers_益田\">\n<surname>\n         益田\n        </surname>\n</persName>\n       氏邸ニ開催スル大師会ニ抵ル、大師ノ遺墨及種々ノ名書画ヲ展覧ス、一席ヨリ九席ニ至ル、室内庭園共ニ雅趣ヲ尽ス、一覧中無為庵ニテ午飧ス、</div>",
         "15:00:00": "<div><time when=\"15:00:00\">\n        午後三時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ数通ノ書状ヲ裁ス、\n       <placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       ニ一知人ヲ訪ヒ、</div>",
-        "18:00:00": "<div><time when=\"18:00:00\">\n        午後六時\n       </time>\n       過\n       <placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
+        "18:00:00": "<div><time when=\"18:00:00\">\n        午後六時\n       </time>\n       過\n       <placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10014m-0080\">\n<head>\n<date when=\"1906-03-21\">\n        三月二十一日\n       </date>\n       半晴　軽暖　　　　　　　　　起床\n       <time when=\"07:30:00\">\n        七時三十分\n       </time>\n       就蓐\n       <time when-iso=\"1906-03-22T00:30+0900\">\n        十二時三十分\n       </time>\n</head>\n<p>\n       起床後、\n       <persName corresp=\"#pers_松井吉太郎\">\n<surname>\n         松井\n        </surname>\n<forename>\n         吉太郎\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_小山茂三郎\">\n<surname>\n         小山\n        </surname>\n<forename>\n         茂三郎\n        </forename>\n</persName>\n       氏等ノ来訪ニ接ス、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       過朝飧ヲ為ス、\n       <time when=\"10:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_小石川\">\n        小石川\n       </placeName>\n       ニ\n       <persName corresp=\"#pers_徳川\">\n<surname>\n         徳川\n        </surname>\n</persName>\n       公爵ヲ訪ヒ、相伴フテ\n       <placeName corresp=\"#place_品川\">\n        品川\n       </placeName>\n       御殿山ノ\n       <persName corresp=\"#pers_益田\">\n<surname>\n         益田\n        </surname>\n</persName>\n       氏邸ニ開催スル大師会ニ抵ル、大師ノ遺墨及種々ノ名書画ヲ展覧ス、一席ヨリ九席ニ至ル、室内庭園共ニ雅趣ヲ尽ス、一覧中無為庵ニテ午飧ス、\n       <time when=\"15:00:00\">\n        午後三時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ数通ノ書状ヲ裁ス、\n       <placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       ニ一知人ヲ訪ヒ、\n       <time when=\"18:00:00\">\n        午後六時\n       </time>\n       過\n       <placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10014m-0080\">\n<head>\n<date when=\"1906-03-21\">\n        三月二十一日\n       </date>\n       半晴　軽暖　　　　　　　　　起床\n       <time when=\"07:30:00\">\n        七時三十分\n       </time>\n       就蓐\n       <time when-iso=\"1906-03-22T00:30+0900\">\n        十二時三十分\n       </time>\n</head>\n<p>\n       起床後、\n       <persName corresp=\"#pers_松井吉太郎\">\n<surname>\n         松井\n        </surname>\n<forename>\n         吉太郎\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_小山茂三郎\">\n<surname>\n         小山\n        </surname>\n<forename>\n         茂三郎\n        </forename>\n</persName>\n       氏等ノ来訪ニ接ス、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       過朝飧ヲ為ス、\n       <time when=\"10:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_小石川\">\n        小石川\n       </placeName>\n       ニ\n       <persName corresp=\"#pers_徳川\">\n<surname>\n         徳川\n        </surname>\n</persName>\n       公爵ヲ訪ヒ、相伴フテ\n       <placeName corresp=\"#place_品川\">\n        品川\n       </placeName>\n       御殿山ノ\n       <persName corresp=\"#pers_益田\">\n<surname>\n         益田\n        </surname>\n</persName>\n       氏邸ニ開催スル大師会ニ抵ル、大師ノ遺墨及種々ノ名書画ヲ展覧ス、一席ヨリ九席ニ至ル、室内庭園共ニ雅趣ヲ尽ス、一覧中無為庵ニテ午飧ス、\n       <time when=\"15:00:00\">\n        午後三時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ数通ノ書状ヲ裁ス、\n       <placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       ニ一知人ヲ訪ヒ、\n       <time when=\"18:00:00\">\n        午後六時\n       </time>\n       過\n       <placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1906",
     "yearAndMonth": "1906-03"
 }

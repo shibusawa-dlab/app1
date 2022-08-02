@@ -1,6 +1,11 @@
 {
     "agential": [
-        "田中穂積"
+        "田中穂積",
+        "三島中洲"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田中穂積",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/三島中洲"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1302",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-06",
     "date_lvl2": "1919-06-29",
-    "description": "\n\n\n           廿九日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n\n\n              田中\n             \n\n              穂積\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二―午後三時\n            \n            故\n            \n             中洲\n            \n            先生五十日追悼会（一番町同御住宅）\n           \n\n\n\n\n             午後四時\n            \n            早稲田大学より御案内（ホテル）\n           \n\n\n",
+    "description": "\n\n\n           廿九日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n\n\n              田中\n             \n\n              穂積\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二―午後三時\n            \n            故\n            \n\n              中洲\n             \n\n            先生五十日追悼会（一番町同御住宅）\n           \n\n\n\n\n             午後四時\n            \n\n             早稲田大学\n            \n            より御案内（ホテル）\n           \n\n\n",
     "label": "廿九日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0155",
@@ -26,8 +31,10 @@
     "sort": "DKB20021m-0154",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
-        "中洲"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1919-06-29",
     "texts": [
@@ -56,7 +63,7 @@
         "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_田中穂積\">\n<surname>\n              田中\n             </surname>\n<forename>\n              穂積\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0154\">\n<head>\n<date when=\"1919-06-29\">\n           廿九日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_田中穂積\">\n<surname>\n              田中\n             </surname>\n<forename>\n              穂積\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―午後三時\n            </time>\n            故\n            <placeName corresp=\"#place_中洲\">\n             中洲\n            </placeName>\n            先生五十日追悼会（一番町同御住宅）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            早稲田大学より御案内（ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0154\">\n<head>\n<date when=\"1919-06-29\">\n           廿九日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_田中穂積\">\n<surname>\n              田中\n             </surname>\n<forename>\n              穂積\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―午後三時\n            </time>\n            故\n            <persName corresp=\"#pers_三島中洲\">\n<forename>\n              中洲\n             </forename>\n</persName>\n            先生五十日追悼会（一番町同御住宅）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<orgName>\n             早稲田大学\n            </orgName>\n            より御案内（ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-06"
 }

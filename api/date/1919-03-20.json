@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1296",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-03",
     "date_lvl2": "1919-03-20",
-    "description": "\n\n\n           二十日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n            高千穂学校卒業式（\n            \n             大久保\n            \n            ノ方）\n           \n\n\n\n            御病気《（朱書）》ニ付断\n           \n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n             高千穂学校\n            \n            卒業式（\n            \n             大久保\n            \n            ノ方）\n           \n\n\n\n            御病気《（朱書）》ニ付断\n           \n\n\n",
     "label": "二十日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0082",
@@ -25,6 +26,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "大久保"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/大久保"
     ],
     "temporal": "1919-03-20",
     "texts": [
@@ -50,10 +54,10 @@
         "DKB20033m-0033"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            高千穂学校卒業式（\n            <placeName corresp=\"#place_大久保\">\n             大久保\n            </placeName>\n            ノ方）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             高千穂学校\n            </orgName>\n            卒業式（\n            <placeName corresp=\"#place_大久保\">\n             大久保\n            </placeName>\n            ノ方）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0080\">\n<head>\n<date when=\"1919-03-20\">\n           二十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            高千穂学校卒業式（\n            <placeName corresp=\"#place_大久保\">\n             大久保\n            </placeName>\n            ノ方）\n           </p>\n</event>\n<event>\n<p>\n            御病気《（朱書）》ニ付断\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0080\">\n<head>\n<date when=\"1919-03-20\">\n           二十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             高千穂学校\n            </orgName>\n            卒業式（\n            <placeName corresp=\"#place_大久保\">\n             大久保\n            </placeName>\n            ノ方）\n           </p>\n</event>\n<event>\n<p>\n            御病気《（朱書）》ニ付断\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-03"
 }

@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1423",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-03",
     "date_lvl2": "1923-03-21",
-    "description": "\n\n\n           廿一日\n          \n          （水）\n         \n\n\n\n\n             正午\n            \n            チヤンバレン氏招待午餐会（\n            \n             東京\n            \n            会館）\n           \n\n\n\n\n             午後三時\n            \n            二松学舎評議員会（同会）\n           \n\n\n\n\n             午後四半時\n            \n            帰一協会委員会（如水会館）\n           \n\n\n\n\n             午後五半時\n            \n            帰一協会例会（如水会館）\n           \n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （水）\n         \n\n\n\n\n             正午\n            \n            チヤンバレン氏招待午餐会（東京会館）\n           \n\n\n\n\n             午後三時\n            \n            二松学舎評議員会（同会）\n           \n\n\n\n\n             午後四半時\n            \n            帰一協会委員会（如水会館）\n           \n\n\n\n\n             午後五半時\n            \n            帰一協会例会（如水会館）\n           \n\n\n",
     "label": "廿一日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0074",
@@ -23,9 +24,8 @@
     "prev": "DKB20025m-0072",
     "sort": "DKB20025m-0073",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "東京"
-    ],
+    "spatial": [],
+    "spatial_uri": [],
     "temporal": "1923-03-21",
     "texts": [
         "DKB20023m-0077",
@@ -50,10 +50,10 @@
         "DKB20023m-0173"
     ],
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            チヤンバレン氏招待午餐会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            会館）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            チヤンバレン氏招待午餐会（東京会館）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0073\">\n<head>\n<date when=\"1923-03-21\">\n           廿一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            チヤンバレン氏招待午餐会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            二松学舎評議員会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            帰一協会委員会（如水会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            帰一協会例会（如水会館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0073\">\n<head>\n<date when=\"1923-03-21\">\n           廿一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            チヤンバレン氏招待午餐会（東京会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            二松学舎評議員会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            帰一協会委員会（如水会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            帰一協会例会（如水会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-03"
 }

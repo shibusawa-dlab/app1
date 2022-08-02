@@ -4,6 +4,11 @@
         "平田",
         "桂"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/植村",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/平田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/桂"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1166",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -19,7 +24,7 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-10",
     "date_lvl2": "1914-10-08",
-    "description": "\n\n\n           八日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午前十一時\n            \n\n\n              植村\n             \n\n            、\n            \n\n              平田\n             \n\n            両氏来ル約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n\n              桂\n             \n\n            公爵記念事業計画ニ関スル件（華族会館）\n           \n\n\n\n\n             午後三時\n            \n            臨時調査会（商業会議所）\n           \n\n\n\n\n             午後四時\n            \n            観山会（\n            \n             日本橋\n            \n            クラブ）\n           \n\n\n",
+    "description": "\n\n\n           八日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午前十一時\n            \n\n\n              植村\n             \n\n            、\n            \n\n              平田\n             \n\n            両氏来ル約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n\n              桂\n             \n\n            公爵記念事業計画ニ関スル件（華族会館）\n           \n\n\n\n\n             午後三時\n            \n            臨時調査会（商業会議所）\n           \n\n\n\n\n             午後四時\n            \n            観山会（日本橋クラブ）\n           \n\n\n",
     "label": "八日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20016m-0024",
@@ -28,8 +33,10 @@
     "sort": "DKB20016m-0023",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "日本橋兜町",
-        "日本橋"
+        "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1914-10-08",
     "texts": [
@@ -58,7 +65,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             第一銀行\n            </orgName></div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0023\">\n<head>\n<date when=\"1914-10-08\">\n           八日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_植村\">\n<surname>\n              植村\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_平田\">\n<surname>\n              平田\n             </surname>\n</persName>\n            両氏来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_桂\">\n<surname>\n              桂\n             </surname>\n</persName>\n            公爵記念事業計画ニ関スル件（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            臨時調査会（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            観山会（\n            <placeName corresp=\"#place_日本橋\">\n             日本橋\n            </placeName>\n            クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0023\">\n<head>\n<date when=\"1914-10-08\">\n           八日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_植村\">\n<surname>\n              植村\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_平田\">\n<surname>\n              平田\n             </surname>\n</persName>\n            両氏来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_桂\">\n<surname>\n              桂\n             </surname>\n</persName>\n            公爵記念事業計画ニ関スル件（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            臨時調査会（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            観山会（日本橋クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-10"
 }

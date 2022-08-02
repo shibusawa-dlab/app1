@@ -1,7 +1,11 @@
 {
     "agential": [
         "萩原源太郎",
-        "敬三"
+        "渋沢敬三"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/萩原源太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢敬三"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/893",
     "category": {
@@ -18,7 +22,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-08",
     "date_lvl2": "1915-08-16",
-    "description": "\n\n\n          八月十六日\n         \n         月\n        \n\n         曇又雨、涼味昨ニ比シテ多キヲ覚フ、\n         \n          午前六時\n         \n         起床、入浴シテ後、筆記ノ校正ヲ為ス、\n         \n          八時\n         \n         朝飧シ、後、揮毫ニ勉ム、午飧ノ後モ継続シテ薄暮ニ至リテ止ム、額面題字又ハ軸物等ニテ四十枚余ヲ揮灑ス、夕方ヨリ又少シク筆記ノ修正ヲ試ム、\n         \n          東京\n         \n\n\n           萩原\n          \n\n           源太郎\n          \n\n         氏ヨリ来書アリ、日光旅行中ナル\n         \n\n           敬三\n          \n\n         ヨリ一書来リテ行中ノ無事ヲ報告ス、夜飧後、又、家人ト遊戯ス、\n         \n          十一時半\n         \n         就寝\n        \n",
+    "description": "\n\n\n          八月十六日\n         \n         月\n        \n\n         曇又雨、涼味昨ニ比シテ多キヲ覚フ、\n         \n          午前六時\n         \n         起床、入浴シテ後、筆記ノ校正ヲ為ス、\n         \n          八時\n         \n         朝飧シ、後、揮毫ニ勉ム、午飧ノ後モ継続シテ薄暮ニ至リテ止ム、額面題字又ハ軸物等ニテ四十枚余ヲ揮灑ス、夕方ヨリ又少シク筆記ノ修正ヲ試ム、\n         \n          東京\n         \n\n\n           萩原\n          \n\n           源太郎\n          \n\n         氏ヨリ来書アリ、\n         \n          日光\n         \n         旅行中ナル\n         \n\n           敬三\n          \n\n         ヨリ一書来リテ行中ノ無事ヲ報告ス、夜飧後、又、家人ト遊戯ス、\n         \n          十一時半\n         \n         就寝\n        \n",
     "label": "八月十六日                  月",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20001m-0229",
@@ -27,7 +31,12 @@
     "sort": "DKB20001m-0228",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "東京"
+        "東京",
+        "日光"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日光"
     ],
     "temporal": "1915-08-16",
     "texts": [
@@ -54,11 +63,11 @@
     ],
     "time": {
         "06:00:00": "<div>曇又雨、涼味昨ニ比シテ多キヲ覚フ、<time when=\"06:00:00\">\n          午前六時\n         </time>\n         起床、入浴シテ後、筆記ノ校正ヲ為ス、</div>",
-        "08:00:00": "<div><time when=\"08:00:00\">\n          八時\n         </time>\n         朝飧シ、後、揮毫ニ勉ム、午飧ノ後モ継続シテ薄暮ニ至リテ止ム、額面題字又ハ軸物等ニテ四十枚余ヲ揮灑ス、夕方ヨリ又少シク筆記ノ修正ヲ試ム、\n         <placeName corresp=\"#place_東京\">\n          東京\n         </placeName>\n<persName corresp=\"#pers_萩原源太郎\">\n<surname>\n           萩原\n          </surname>\n<forename>\n           源太郎\n          </forename>\n</persName>\n         氏ヨリ来書アリ、日光旅行中ナル\n         <persName corresp=\"#pers_敬三\">\n<forename>\n           敬三\n          </forename>\n</persName>\n         ヨリ一書来リテ行中ノ無事ヲ報告ス、夜飧後、又、家人ト遊戯ス、</div>",
+        "08:00:00": "<div><time when=\"08:00:00\">\n          八時\n         </time>\n         朝飧シ、後、揮毫ニ勉ム、午飧ノ後モ継続シテ薄暮ニ至リテ止ム、額面題字又ハ軸物等ニテ四十枚余ヲ揮灑ス、夕方ヨリ又少シク筆記ノ修正ヲ試ム、\n         <placeName corresp=\"#place_東京\">\n          東京\n         </placeName>\n<persName corresp=\"#pers_萩原源太郎\">\n<surname>\n           萩原\n          </surname>\n<forename>\n           源太郎\n          </forename>\n</persName>\n         氏ヨリ来書アリ、\n         <placeName corresp=\"#place_日光\">\n          日光\n         </placeName>\n         旅行中ナル\n         <persName corresp=\"#pers_渋沢敬三\">\n<forename>\n           敬三\n          </forename>\n</persName>\n         ヨリ一書来リテ行中ノ無事ヲ報告ス、夜飧後、又、家人ト遊戯ス、</div>",
         "23:30:00": "<div><time when=\"23:30:00\">\n          十一時半\n         </time>\n         就寝</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB20001m-0228\">\n<head>\n<date when=\"1915-08-16\">\n          八月十六日\n         </date>\n         月\n        </head>\n<p>\n         曇又雨、涼味昨ニ比シテ多キヲ覚フ、\n         <time when=\"06:00:00\">\n          午前六時\n         </time>\n         起床、入浴シテ後、筆記ノ校正ヲ為ス、\n         <time when=\"08:00:00\">\n          八時\n         </time>\n         朝飧シ、後、揮毫ニ勉ム、午飧ノ後モ継続シテ薄暮ニ至リテ止ム、額面題字又ハ軸物等ニテ四十枚余ヲ揮灑ス、夕方ヨリ又少シク筆記ノ修正ヲ試ム、\n         <placeName corresp=\"#place_東京\">\n          東京\n         </placeName>\n<persName corresp=\"#pers_萩原源太郎\">\n<surname>\n           萩原\n          </surname>\n<forename>\n           源太郎\n          </forename>\n</persName>\n         氏ヨリ来書アリ、日光旅行中ナル\n         <persName corresp=\"#pers_敬三\">\n<forename>\n           敬三\n          </forename>\n</persName>\n         ヨリ一書来リテ行中ノ無事ヲ報告ス、夜飧後、又、家人ト遊戯ス、\n         <time when=\"23:30:00\">\n          十一時半\n         </time>\n         就寝\n        </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB20001m-0228\">\n<head>\n<date when=\"1915-08-16\">\n          八月十六日\n         </date>\n         月\n        </head>\n<p>\n         曇又雨、涼味昨ニ比シテ多キヲ覚フ、\n         <time when=\"06:00:00\">\n          午前六時\n         </time>\n         起床、入浴シテ後、筆記ノ校正ヲ為ス、\n         <time when=\"08:00:00\">\n          八時\n         </time>\n         朝飧シ、後、揮毫ニ勉ム、午飧ノ後モ継続シテ薄暮ニ至リテ止ム、額面題字又ハ軸物等ニテ四十枚余ヲ揮灑ス、夕方ヨリ又少シク筆記ノ修正ヲ試ム、\n         <placeName corresp=\"#place_東京\">\n          東京\n         </placeName>\n<persName corresp=\"#pers_萩原源太郎\">\n<surname>\n           萩原\n          </surname>\n<forename>\n           源太郎\n          </forename>\n</persName>\n         氏ヨリ来書アリ、\n         <placeName corresp=\"#place_日光\">\n          日光\n         </placeName>\n         旅行中ナル\n         <persName corresp=\"#pers_渋沢敬三\">\n<forename>\n           敬三\n          </forename>\n</persName>\n         ヨリ一書来リテ行中ノ無事ヲ報告ス、夜飧後、又、家人ト遊戯ス、\n         <time when=\"23:30:00\">\n          十一時半\n         </time>\n         就寝\n        </p>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-08"
 }

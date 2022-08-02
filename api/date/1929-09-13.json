@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1600",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -26,7 +27,12 @@
     "spatial": [
         "吉野",
         "麻布",
-        "飯倉"
+        "飯倉_(東京都港区)"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/吉野",
+        "https://shibusawa-dlab.github.io/lab1/api/place/麻布",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飯倉_(東京都港区)"
     ],
     "temporal": "1929-09-13",
     "texts": [
@@ -52,10 +58,10 @@
         "DKB20031m-0010"
     ],
     "time": {
-        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_吉野\">\n             吉野\n            </placeName>\n            神宮奉賛会理事会（\n            <placeName corresp=\"#place_麻布\">\n             麻布\n            </placeName>\n<placeName corresp=\"#place_飯倉\">\n             飯倉\n            </placeName>\n            南葵文庫別館）</div>"
+        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_吉野\">\n             吉野\n            </placeName>\n            神宮奉賛会理事会（\n            <placeName corresp=\"#place_麻布\">\n             麻布\n            </placeName>\n<placeName corresp=\"#place_飯倉_(東京都港区)\">\n             飯倉\n            </placeName>\n            南葵文庫別館）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0161\">\n<head>\n<date when=\"1929-09-13\">\n           十三日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_吉野\">\n             吉野\n            </placeName>\n            神宮奉賛会理事会（\n            <placeName corresp=\"#place_麻布\">\n             麻布\n            </placeName>\n<placeName corresp=\"#place_飯倉\">\n             飯倉\n            </placeName>\n            南葵文庫別館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0161\">\n<head>\n<date when=\"1929-09-13\">\n           十三日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_吉野\">\n             吉野\n            </placeName>\n            神宮奉賛会理事会（\n            <placeName corresp=\"#place_麻布\">\n             麻布\n            </placeName>\n<placeName corresp=\"#place_飯倉_(東京都港区)\">\n             飯倉\n            </placeName>\n            南葵文庫別館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-09"
 }

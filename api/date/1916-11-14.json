@@ -1,7 +1,6 @@
 {
-    "agential": [
-        "渋沢"
-    ],
+    "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1219",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +16,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-11",
     "date_lvl2": "1916-11-14",
-    "description": "\n\n\n           十四日\n          \n          （火）\n         \n\n\n\n\n             午前八・十二時\n            \n\n             王子\n            \n            駅発、前\n            \n             十時十九分\n            \n\n             深谷\n            \n            着\n           \n\n\n\n\n             午前十一時\n            \n            岡部ニ於ケル除幕式\n           \n\n\n\n\n             午後三・二十四\n            \n\n             深谷\n            \n            駅発\n           \n\n\n\n\n             午後五・四十分\n            \n            上の駅着\n           \n\n\n\n\n             午後五時\n            \n\n\n              渋沢\n             \n\n            商店ヨリ御案内（トキワヤ）\n           \n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （火）\n         \n\n\n\n\n             午前八・十二時\n            \n\n             王子\n            \n            駅発、前\n            \n             十時十九分\n            \n\n             深谷\n            \n            着\n           \n\n\n\n\n             午前十一時\n            \n\n             岡部\n            \n            ニ於ケル除幕式\n           \n\n\n\n\n             午後三・二十四\n            \n\n             深谷\n            \n            駅発\n           \n\n\n\n\n             午後五・四十分\n            \n\n             上の\n            \n            駅着\n           \n\n\n\n\n             午後五時\n            \n            渋沢商店ヨリ御案内（トキワヤ）\n           \n\n\n",
     "label": "十四日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0301",
@@ -27,7 +26,15 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "王子",
-        "深谷"
+        "深谷",
+        "岡部",
+        "上野"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子",
+        "https://shibusawa-dlab.github.io/lab1/api/place/深谷",
+        "https://shibusawa-dlab.github.io/lab1/api/place/岡部",
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
     ],
     "temporal": "1916-11-14",
     "texts": [
@@ -57,7 +64,7 @@
         "10:19:00": "<div><time when=\"10:19:00\">\n             十時十九分\n            </time>\n<placeName corresp=\"#place_深谷\">\n             深谷\n            </placeName>\n            着</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0300\">\n<head>\n<date when=\"1916-11-14\">\n           十四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:12:00\">\n             午前八・十二時\n            </time>\n<placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅発、前\n            <time when=\"10:19:00\">\n             十時十九分\n            </time>\n<placeName corresp=\"#place_深谷\">\n             深谷\n            </placeName>\n            着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            岡部ニ於ケル除幕式\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:24:00\">\n             午後三・二十四\n            </time>\n<placeName corresp=\"#place_深谷\">\n             深谷\n            </placeName>\n            駅発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:45:00\">\n             午後五・四十分\n            </time>\n            上の駅着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            商店ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0300\">\n<head>\n<date when=\"1916-11-14\">\n           十四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:12:00\">\n             午前八・十二時\n            </time>\n<placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅発、前\n            <time when=\"10:19:00\">\n             十時十九分\n            </time>\n<placeName corresp=\"#place_深谷\">\n             深谷\n            </placeName>\n            着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_岡部\">\n             岡部\n            </placeName>\n            ニ於ケル除幕式\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:24:00\">\n             午後三・二十四\n            </time>\n<placeName corresp=\"#place_深谷\">\n             深谷\n            </placeName>\n            駅発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:45:00\">\n             午後五・四十分\n            </time>\n<placeName corresp=\"#place_上野\">\n             上の\n            </placeName>\n            駅着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            渋沢商店ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-11"
 }

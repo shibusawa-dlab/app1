@@ -2,6 +2,9 @@
     "agential": [
         "和田豊治"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/和田豊治"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1383",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-03",
     "date_lvl2": "1922-03-01",
-    "description": "\n\n\n           一日\n          \n          （水）\n         \n\n\n\n\n             午後三時\n            \n            救世軍\n            \n             御徒町\n            \n            病院開院式（\n            \n             御徒町\n            \n            同院）\n           \n\n\n\n\n             午後五時\n            \n\n\n              和田\n             \n\n              豊治\n             \n\n            君議員勅選祝賀会（\n            \n             日本橋\n            \n            クラブ）\n           \n\n\n",
+    "description": "\n\n\n           一日\n          \n          （水）\n         \n\n\n\n\n             午後三時\n            \n            救世軍\n            \n             御徒町\n            \n            病院開院式（\n            \n             御徒町\n            \n            同院）\n           \n\n\n\n\n             午後五時\n            \n\n\n              和田\n             \n\n              豊治\n             \n\n            君議員勅選祝賀会（日本橋クラブ）\n           \n\n\n",
     "label": "一日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0033",
@@ -26,8 +29,10 @@
     "sort": "DKB20024m-0032",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "御徒町",
-        "日本橋"
+        "御徒町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/御徒町"
     ],
     "temporal": "1922-03-01",
     "texts": [
@@ -56,7 +61,7 @@
         "15:00:00": "<div><time when=\"15:00:00\">\n             午後三時\n            </time>\n            救世軍\n            <placeName corresp=\"#place_御徒町\">\n             御徒町\n            </placeName>\n            病院開院式（\n            <placeName corresp=\"#place_御徒町\">\n             御徒町\n            </placeName>\n            同院）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0032\">\n<head>\n<date when=\"1922-03-01\">\n           一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            救世軍\n            <placeName corresp=\"#place_御徒町\">\n             御徒町\n            </placeName>\n            病院開院式（\n            <placeName corresp=\"#place_御徒町\">\n             御徒町\n            </placeName>\n            同院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_和田豊治\">\n<surname>\n              和田\n             </surname>\n<forename>\n              豊治\n             </forename>\n</persName>\n            君議員勅選祝賀会（\n            <placeName corresp=\"#place_日本橋\">\n             日本橋\n            </placeName>\n            クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0032\">\n<head>\n<date when=\"1922-03-01\">\n           一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            救世軍\n            <placeName corresp=\"#place_御徒町\">\n             御徒町\n            </placeName>\n            病院開院式（\n            <placeName corresp=\"#place_御徒町\">\n             御徒町\n            </placeName>\n            同院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_和田豊治\">\n<surname>\n              和田\n             </surname>\n<forename>\n              豊治\n             </forename>\n</persName>\n            君議員勅選祝賀会（日本橋クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-03"
 }

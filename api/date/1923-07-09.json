@@ -1,9 +1,19 @@
 {
     "agential": [
+        "宮川一貫",
         "山川義太郎",
         "木田",
+        "島田",
         "内田",
-        "高木亮"
+        "高木亮範"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/宮川一貫",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山川義太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/木田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/島田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/内田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高木亮範"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1435",
     "category": {
@@ -20,7 +30,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-07",
     "date_lvl2": "1923-07-09",
-    "description": "\n\n\n           九日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n\n             宮川\n            \n            一貫氏来約（左同）\n           \n\n\n\n\n             午前九時\n            \n\n\n              山川\n             \n\n              義太郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n            早稲田大学定時維持員会（同恩賜館）\n           \n\n\n\n\n             午後二時\n            \n            協調会理事会（同会館）\n            \n            外務省\n            \n\n              木田\n             \n\n            、島田両氏ヨリ\n            \n             露国\n            \n            事情聴取\n           \n\n\n\n\n             午後四時\n            \n\n             東京\n            \n            商業会議所ヘ御出向\n           \n\n\n\n\n             午後四半時\n            \n\n\n              内田\n             \n\n            外相ヲ御訪問ノ約（外務省）\n           \n\n\n\n\n             午後五半時\n            \n\n\n              高木\n             \n\n              亮\n             \n\n            範氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           九日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n\n\n              宮川\n             \n\n              一貫\n             \n\n            氏来約（左同）\n           \n\n\n\n\n             午前九時\n            \n\n\n              山川\n             \n\n              義太郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n            早稲田大学定時維持員会（同恩賜館）\n           \n\n\n\n\n             午後二時\n            \n            協調会理事会（同会館）\n            \n            外務省\n            \n\n              木田\n             \n\n            、\n            \n\n              島田\n             \n\n            両氏ヨリ\n            \n             露国\n            \n            事情聴取\n           \n\n\n\n\n             午後四時\n            \n\n             東京\n            \n            商業会議所ヘ御出向\n           \n\n\n\n\n             午後四半時\n            \n\n\n              内田\n             \n\n            外相ヲ御訪問ノ約（外務省）\n           \n\n\n\n\n             午後五半時\n            \n\n\n              高木\n             \n\n              亮範\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "九日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0187",
@@ -29,11 +39,16 @@
     "sort": "DKB20025m-0186",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "宮川",
         "飛鳥山邸",
         "ロシア",
         "東京",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/ロシア",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1923-07-09",
     "texts": [
@@ -59,10 +74,10 @@
         "DKB20026m-0127"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_宮川\">\n             宮川\n            </placeName>\n            一貫氏来約（左同）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_宮川一貫\">\n<surname>\n              宮川\n             </surname>\n<forename>\n              一貫\n             </forename>\n</persName>\n            氏来約（左同）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0186\">\n<head>\n<date when=\"1923-07-09\">\n           九日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_宮川\">\n             宮川\n            </placeName>\n            一貫氏来約（左同）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_山川義太郎\">\n<surname>\n              山川\n             </surname>\n<forename>\n              義太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            早稲田大学定時維持員会（同恩賜館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            協調会理事会（同会館）\n            <lb/>\n            外務省\n            <persName corresp=\"#pers_木田\">\n<surname>\n              木田\n             </surname>\n</persName>\n            、島田両氏ヨリ\n            <placeName corresp=\"#place_ロシア\">\n             露国\n            </placeName>\n            事情聴取\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商業会議所ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n<persName corresp=\"#pers_内田\">\n<surname>\n              内田\n             </surname>\n</persName>\n            外相ヲ御訪問ノ約（外務省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_高木亮\">\n<surname>\n              高木\n             </surname>\n<forename>\n              亮\n             </forename>\n</persName>\n            範氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0186\">\n<head>\n<date when=\"1923-07-09\">\n           九日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_宮川一貫\">\n<surname>\n              宮川\n             </surname>\n<forename>\n              一貫\n             </forename>\n</persName>\n            氏来約（左同）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_山川義太郎\">\n<surname>\n              山川\n             </surname>\n<forename>\n              義太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            早稲田大学定時維持員会（同恩賜館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            協調会理事会（同会館）\n            <lb/>\n            外務省\n            <persName corresp=\"#pers_木田\">\n<surname>\n              木田\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_島田\">\n<surname>\n              島田\n             </surname>\n</persName>\n            両氏ヨリ\n            <placeName corresp=\"#place_ロシア\">\n             露国\n            </placeName>\n            事情聴取\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商業会議所ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n<persName corresp=\"#pers_内田\">\n<surname>\n              内田\n             </surname>\n</persName>\n            外相ヲ御訪問ノ約（外務省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_高木亮範\">\n<surname>\n              高木\n             </surname>\n<forename>\n              亮範\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-07"
 }

@@ -5,6 +5,12 @@
         "松村",
         "福島"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大倉喜八郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/新原",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松村",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/福島"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/388",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -30,7 +36,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "日本橋兜町",
-        "王子別荘"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1905-04-14",
     "texts": [
@@ -61,10 +71,10 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ書類ヲ調査ス、</div>",
         "12:00:00": "<div><time when=\"12:00:00\">\n        正午\n       </time>\n       葵町\n       <persName corresp=\"#pers_大倉喜八郎\">\n<surname>\n         大倉\n        </surname>\n<forename>\n         喜八郎\n        </forename>\n</persName>\n       氏邸ニ抵リ特派大使一行ノ招宴ニ陪席ス、美術館ヲ一覧シ午飧ヲ畢リ、</div>",
         "16:00:00": "<div><time when=\"16:00:00\">\n        四時\n       </time>\n       再ヒ事務所ニ抵リ事務ヲ処理ス、午後\n       <persName corresp=\"#pers_新原\">\n<surname>\n         新原\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_松村\">\n<surname>\n         松村\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_福島\">\n<surname>\n         福島\n        </surname>\n</persName>\n       等ノ諸氏来ル、耕牧舎ノ事ヲ談ス、</div>",
-        "18:00:00": "<div><time when=\"18:00:00\">\n        六時\n       </time>\n       過\n       <placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
+        "18:00:00": "<div><time when=\"18:00:00\">\n        六時\n       </time>\n       過\n       <placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10013m-0104\">\n<head>\n<date when=\"1905-04-14\">\n        四月十四日\n       </date>\n       金　曇　風ナシ\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、室内運動ヲ為シ、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ畢ル\n       <lb/>\n       食後各新聞紙ヲ閲シ、\n       <time when=\"10:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ書類ヲ調査ス、\n       <time when=\"12:00:00\">\n        正午\n       </time>\n       葵町\n       <persName corresp=\"#pers_大倉喜八郎\">\n<surname>\n         大倉\n        </surname>\n<forename>\n         喜八郎\n        </forename>\n</persName>\n       氏邸ニ抵リ特派大使一行ノ招宴ニ陪席ス、美術館ヲ一覧シ午飧ヲ畢リ、\n       <time when=\"16:00:00\">\n        四時\n       </time>\n       再ヒ事務所ニ抵リ事務ヲ処理ス、午後\n       <persName corresp=\"#pers_新原\">\n<surname>\n         新原\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_松村\">\n<surname>\n         松村\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_福島\">\n<surname>\n         福島\n        </surname>\n</persName>\n       等ノ諸氏来ル、耕牧舎ノ事ヲ談ス、\n       <time when=\"18:00:00\">\n        六時\n       </time>\n       過\n       <placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10013m-0104\">\n<head>\n<date when=\"1905-04-14\">\n        四月十四日\n       </date>\n       金　曇　風ナシ\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、室内運動ヲ為シ、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ畢ル\n       <lb/>\n       食後各新聞紙ヲ閲シ、\n       <time when=\"10:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ書類ヲ調査ス、\n       <time when=\"12:00:00\">\n        正午\n       </time>\n       葵町\n       <persName corresp=\"#pers_大倉喜八郎\">\n<surname>\n         大倉\n        </surname>\n<forename>\n         喜八郎\n        </forename>\n</persName>\n       氏邸ニ抵リ特派大使一行ノ招宴ニ陪席ス、美術館ヲ一覧シ午飧ヲ畢リ、\n       <time when=\"16:00:00\">\n        四時\n       </time>\n       再ヒ事務所ニ抵リ事務ヲ処理ス、午後\n       <persName corresp=\"#pers_新原\">\n<surname>\n         新原\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_松村\">\n<surname>\n         松村\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_福島\">\n<surname>\n         福島\n        </surname>\n</persName>\n       等ノ諸氏来ル、耕牧舎ノ事ヲ談ス、\n       <time when=\"18:00:00\">\n        六時\n       </time>\n       過\n       <placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1905",
     "yearAndMonth": "1905-04"
 }

@@ -6,6 +6,13 @@
         "渡辺勝三郎",
         "穂積陳重"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/白石喜太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡田純夫",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/林弥一郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渡辺勝三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/穂積陳重"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1540",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -30,11 +37,14 @@
     "sort": "DKB20029m-0081",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "あすか山",
-        "アスカ山邸",
         "飛鳥山邸",
         "アメリカ合衆国",
         "日本"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アメリカ合衆国",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本"
     ],
     "temporal": "1927-04-08",
     "texts": [
@@ -60,10 +70,10 @@
         "DKB20027m-0035"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_白石喜太郎\">\n<surname>\n              白石\n             </surname>\n<forename>\n              喜太郎\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_岡田純夫\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              純夫\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_あすか山\">\n             あすか山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_白石喜太郎\">\n<surname>\n              白石\n             </surname>\n<forename>\n              喜太郎\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_岡田純夫\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              純夫\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             あすか山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0081\">\n<head>\n<date when=\"1927-04-08\">\n           八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_白石喜太郎\">\n<surname>\n              白石\n             </surname>\n<forename>\n              喜太郎\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_岡田純夫\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              純夫\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_あすか山\">\n             あすか山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_林弥一郎\">\n<surname>\n              林\n             </surname>\n<forename>\n              弥一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_渡辺勝三郎\">\n<surname>\n              渡辺\n             </surname>\n<forename>\n              勝三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"11:00:00\">\n             午前十―十一時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            大使館ヲ御訪問（同官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            生\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            人学生母国観光団歓迎会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n            故\n            <persName corresp=\"#pers_穂積陳重\">\n<surname>\n              穂積\n             </surname>\n<forename>\n              陳重\n             </forename>\n</persName>\n            殿祭典御出向（同邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0081\">\n<head>\n<date when=\"1927-04-08\">\n           八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_白石喜太郎\">\n<surname>\n              白石\n             </surname>\n<forename>\n              喜太郎\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_岡田純夫\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              純夫\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             あすか山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_林弥一郎\">\n<surname>\n              林\n             </surname>\n<forename>\n              弥一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_渡辺勝三郎\">\n<surname>\n              渡辺\n             </surname>\n<forename>\n              勝三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"11:00:00\">\n             午前十―十一時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            大使館ヲ御訪問（同官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            生\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            人学生母国観光団歓迎会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n            故\n            <persName corresp=\"#pers_穂積陳重\">\n<surname>\n              穂積\n             </surname>\n<forename>\n              陳重\n             </forename>\n</persName>\n            殿祭典御出向（同邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-04"
 }

@@ -1,7 +1,9 @@
 {
     "agential": [
-        "浅野ソ一郎",
         "浅野総一郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野総一郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1608",
     "category": {
@@ -18,7 +20,7 @@
     "date_lvl0": "1930",
     "date_lvl1": "1930-04",
     "date_lvl2": "1930-04-27",
-    "description": "\n\n\n           廿七日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n\n\n              浅野\n             \n\n              ソ一郎\n             \n\n            氏来約《（\n            \n\n              浅野\n             \n\n              総一郎\n             \n\n            氏）》（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            竜門社会員総会（曖依村荘）\n           \n\n\n",
+    "description": "\n\n\n           廿七日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n\n\n              浅野\n             \n\n              ソ一郎\n             \n\n            氏来約《（\n            \n\n              浅野\n             \n\n              総一郎\n             \n\n            氏）》（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n             竜門社\n            \n            会員総会（曖依村荘）\n           \n\n\n",
     "label": "廿七日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20032m-0031",
@@ -27,7 +29,10 @@
     "sort": "DKB20032m-0030",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1930-04-27",
     "texts": [
@@ -53,10 +58,10 @@
         "DKB20032m-0141"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_浅野ソ一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              ソ一郎\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏）》（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              ソ一郎\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0030\">\n<head>\n<date when=\"1930-04-27\">\n           廿七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_浅野ソ一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              ソ一郎\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏）》（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            竜門社会員総会（曖依村荘）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0030\">\n<head>\n<date when=\"1930-04-27\">\n           廿七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              ソ一郎\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<orgName>\n             竜門社\n            </orgName>\n            会員総会（曖依村荘）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1930",
     "yearAndMonth": "1930-04"
 }

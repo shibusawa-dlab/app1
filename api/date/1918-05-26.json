@@ -2,6 +2,9 @@
     "agential": [
         "徳川"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1269",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-05",
     "date_lvl2": "1918-05-26",
-    "description": "\n\n\n           廿六日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n            養育院ヘ御出向（同院）\n           \n\n\n\n\n             午後五時\n            \n\n             埼玉\n            \n            学生誘掖会舎友会（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n\n\n              徳川\n             \n\n            公ヨリ御案内（銀行クラブ）\n           \n\n\n",
+    "description": "\n\n\n           廿六日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n            養育院ヘ御出向（同院）\n           \n\n\n\n\n             午後五時\n            \n\n             埼玉学生誘掖会\n            \n            舎友会（\n            \n             上野\n            \n\n             精養軒\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n\n\n              徳川\n             \n\n            公ヨリ御案内（銀行クラブ）\n           \n\n\n",
     "label": "廿六日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0141",
@@ -26,8 +29,10 @@
     "sort": "DKB20020m-0140",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "埼玉",
-        "上野精養軒"
+        "上野"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
     ],
     "temporal": "1918-05-26",
     "texts": [
@@ -56,7 +61,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            養育院ヘ御出向（同院）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0140\">\n<head>\n<date when=\"1918-05-26\">\n           廿六日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            養育院ヘ御出向（同院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会舎友会（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公ヨリ御案内（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0140\">\n<head>\n<date when=\"1918-05-26\">\n           廿六日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            養育院ヘ御出向（同院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<orgName>\n             埼玉学生誘掖会\n            </orgName>\n            舎友会（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公ヨリ御案内（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-05"
 }

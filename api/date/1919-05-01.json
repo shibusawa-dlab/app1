@@ -2,7 +2,14 @@
     "agential": [
         "佐々木勇之助",
         "中島久万吉",
-        "植村澄三郎"
+        "植村澄三郎",
+        "明石"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐々木勇之助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中島久万吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/植村澄三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/明石"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1297",
     "category": {
@@ -19,7 +26,7 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-05",
     "date_lvl2": "1919-05-01",
-    "description": "\n\n\n           一日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n\n\n              佐々木\n             \n\n              勇之助\n             \n\n            氏ヲ御訪問（同氏邸）\n           \n\n\n\n\n             午前十時\n            \n\n\n              中島\n             \n\n              久万吉\n             \n\n            男\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午前十一時\n            \n\n\n              植村\n             \n\n              澄三郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一時五十分\n            \n\n             大磯\n            \n\n             明石\n            \n            別邸ヘ御出向（\n            \n             東京\n            \n            駅発）\n           \n\n\n\n\n             午後三時五十五分\n            \n\n             大磯\n            \n            駅着\n           \n\n\n",
+    "description": "\n\n\n           一日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n\n\n              佐々木\n             \n\n              勇之助\n             \n\n            氏ヲ御訪問（同氏邸）\n           \n\n\n\n\n             午前十時\n            \n\n\n              中島\n             \n\n              久万吉\n             \n\n            男\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午前十一時\n            \n\n\n              植村\n             \n\n              澄三郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一時五十分\n            \n\n             大磯\n            \n\n\n              明石\n             \n\n            別邸ヘ御出向（\n            \n             東京\n            \n            駅発）\n           \n\n\n\n\n             午後三時五十五分\n            \n\n             大磯\n            \n            駅着\n           \n\n\n",
     "label": "一日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0103",
@@ -30,8 +37,12 @@
     "spatial": [
         "日本橋兜町",
         "大磯町",
-        "明石",
         "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/大磯町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1919-05-01",
     "texts": [
@@ -60,7 +71,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_佐々木勇之助\">\n<surname>\n              佐々木\n             </surname>\n<forename>\n              勇之助\n             </forename>\n</persName>\n            氏ヲ御訪問（同氏邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0101\">\n<head>\n<date when=\"1919-05-01\">\n           一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_佐々木勇之助\">\n<surname>\n              佐々木\n             </surname>\n<forename>\n              勇之助\n             </forename>\n</persName>\n            氏ヲ御訪問（同氏邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_中島久万吉\">\n<surname>\n              中島\n             </surname>\n<forename>\n              久万吉\n             </forename>\n</persName>\n            男\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_植村澄三郎\">\n<surname>\n              植村\n             </surname>\n<forename>\n              澄三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:50:00\">\n             午後一時五十分\n            </time>\n<placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n<placeName corresp=\"#place_明石\">\n             明石\n            </placeName>\n            別邸ヘ御出向（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:55:00\">\n             午後三時五十五分\n            </time>\n<placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            駅着\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0101\">\n<head>\n<date when=\"1919-05-01\">\n           一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_佐々木勇之助\">\n<surname>\n              佐々木\n             </surname>\n<forename>\n              勇之助\n             </forename>\n</persName>\n            氏ヲ御訪問（同氏邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_中島久万吉\">\n<surname>\n              中島\n             </surname>\n<forename>\n              久万吉\n             </forename>\n</persName>\n            男\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_植村澄三郎\">\n<surname>\n              植村\n             </surname>\n<forename>\n              澄三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:50:00\">\n             午後一時五十分\n            </time>\n<placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n<persName corresp=\"#pers_明石\">\n<surname>\n              明石\n             </surname>\n</persName>\n            別邸ヘ御出向（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:55:00\">\n             午後三時五十五分\n            </time>\n<placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            駅着\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-05"
 }

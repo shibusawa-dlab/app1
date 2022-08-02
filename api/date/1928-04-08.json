@@ -1,7 +1,13 @@
 {
     "agential": [
         "遠藤吉平",
-        "村松春水"
+        "村松春水",
+        "大倉"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/遠藤吉平",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/村松春水",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大倉"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1578",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-04",
     "date_lvl2": "1928-04-08",
-    "description": "\n\n\n           八日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n\n\n              遠藤\n             \n\n              吉平\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n\n              村松\n             \n\n              春水\n             \n\n            氏来約\n            \n             飛鳥山\n            \n            邸\n           \n\n\n\n\n             午前十一時\n            \n            感涙会（大倉男\n            \n             向島\n            \n            別荘）\n           \n\n\n\n\n             正午\n            \n\n             綱町\n            \n            邸ヘ御出向\n           \n\n\n",
+    "description": "\n\n\n           八日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n\n\n              遠藤\n             \n\n              吉平\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n\n              村松\n             \n\n              春水\n             \n\n            氏来約\n            \n             飛鳥山邸\n            \n\n\n\n\n\n             午前十一時\n            \n            感涙会（\n            \n\n              大倉\n             \n\n            男\n            \n             向島\n            \n            別荘）\n           \n\n\n\n\n             正午\n            \n\n             綱町\n            \n            邸ヘ御出向\n           \n\n\n",
     "label": "八日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20030m-0102",
@@ -28,9 +34,13 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸",
-        "飛鳥山公園",
         "向島",
         "綱町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/向島",
+        "https://shibusawa-dlab.github.io/lab1/api/place/綱町"
     ],
     "temporal": "1928-04-08",
     "texts": [
@@ -59,7 +69,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_遠藤吉平\">\n<surname>\n              遠藤\n             </surname>\n<forename>\n              吉平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0101\">\n<head>\n<date when=\"1928-04-08\">\n           八日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_遠藤吉平\">\n<surname>\n              遠藤\n             </surname>\n<forename>\n              吉平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_村松春水\">\n<surname>\n              村松\n             </surname>\n<forename>\n              春水\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            感涙会（大倉男\n            <placeName corresp=\"#place_向島\">\n             向島\n            </placeName>\n            別荘）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            邸ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0101\">\n<head>\n<date when=\"1928-04-08\">\n           八日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_遠藤吉平\">\n<surname>\n              遠藤\n             </surname>\n<forename>\n              吉平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_村松春水\">\n<surname>\n              村松\n             </surname>\n<forename>\n              春水\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            感涙会（\n            <persName corresp=\"#pers_大倉\">\n<surname>\n              大倉\n             </surname>\n</persName>\n            男\n            <placeName corresp=\"#place_向島\">\n             向島\n            </placeName>\n            別荘）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            邸ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-04"
 }

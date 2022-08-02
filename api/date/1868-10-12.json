@@ -1,9 +1,15 @@
 {
     "agential": [
-        "平八郎",
-        "涌之助",
+        "菊池平八郎",
+        "小出涌之助",
         "コロネル",
         "栗本貞次郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/菊池平八郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小出涌之助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/コロネル",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/栗本貞次郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/32",
     "category": {
@@ -30,7 +36,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "ホワンブロン",
-        "ビヤリイト"
+        "ビアリッツ"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/ホワンブロン",
+        "https://shibusawa-dlab.github.io/lab1/api/place/ビアリッツ"
     ],
     "temporal": "1868-10-12",
     "texts": [
@@ -56,10 +66,10 @@
         "DKB10001m-0021"
     ],
     "time": {
-        "17:00:00": "<div>午後\n       <placeName corresp=\"#place_ホワンブロン\">\n        ホワンブロン\n       </placeName>\n       御遊歩、\n       <persName corresp=\"#pers_平八郎\">\n<forename>\n         平八郎\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_涌之助\">\n<forename>\n         涌之助\n        </forename>\n</persName>\n       御供、夕<time when=\"17:00:00\">\n        五時\n       </time>\n       御帰館、仏帝帰巴延引ニ付為問合\n       <persName corresp=\"#pers_コロネル\">\n<surname>\n         コロネル\n        </surname>\n</persName>\n       外国局江御遣し、外国局より早々\n       <placeName corresp=\"#place_ビヤリイト\">\n        ビヤリイト\n       </placeName>\n       帝滞留所江問合、挨拶可有之旨申答候由ニ而罷帰る、\n       <persName corresp=\"#pers_栗本貞次郎\">\n<surname>\n         栗本\n        </surname>\n<forename>\n         貞次郎\n        </forename>\n</persName>\n       罷出る</div>"
+        "17:00:00": "<div>午後\n       <placeName corresp=\"#place_ホワンブロン\">\n        ホワンブロン\n       </placeName>\n       御遊歩、\n       <persName corresp=\"#pers_菊池平八郎\">\n<forename>\n         平八郎\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_小出涌之助\">\n<forename>\n         涌之助\n        </forename>\n</persName>\n       御供、夕<time when=\"17:00:00\">\n        五時\n       </time>\n       御帰館、仏帝帰巴延引ニ付為問合\n       <persName corresp=\"#pers_コロネル\">\n<surname>\n         コロネル\n        </surname>\n</persName>\n       外国局江御遣し、外国局より早々\n       <placeName corresp=\"#place_ビアリッツ\">\n        ビヤリイト\n       </placeName>\n       帝滞留所江問合、挨拶可有之旨申答候由ニ而罷帰る、\n       <persName corresp=\"#pers_栗本貞次郎\">\n<surname>\n         栗本\n        </surname>\n<forename>\n         貞次郎\n        </forename>\n</persName>\n       罷出る</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10001m-0018\">\n<head>\n<date type=\"旧暦\" when=\"1868-10-12\">\n        八月廿七日\n       </date>\n       月　晴\n       <date when=\"1868-10-12\">\n        十月十二日\n       </date>\n</head>\n<p>\n       午後\n       <placeName corresp=\"#place_ホワンブロン\">\n        ホワンブロン\n       </placeName>\n       御遊歩、\n       <persName corresp=\"#pers_平八郎\">\n<forename>\n         平八郎\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_涌之助\">\n<forename>\n         涌之助\n        </forename>\n</persName>\n       御供、夕\n       <time when=\"17:00:00\">\n        五時\n       </time>\n       御帰館、仏帝帰巴延引ニ付為問合\n       <persName corresp=\"#pers_コロネル\">\n<surname>\n         コロネル\n        </surname>\n</persName>\n       外国局江御遣し、外国局より早々\n       <placeName corresp=\"#place_ビヤリイト\">\n        ビヤリイト\n       </placeName>\n       帝滞留所江問合、挨拶可有之旨申答候由ニ而罷帰る、\n       <persName corresp=\"#pers_栗本貞次郎\">\n<surname>\n         栗本\n        </surname>\n<forename>\n         貞次郎\n        </forename>\n</persName>\n       罷出る\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10001m-0018\">\n<head>\n<date type=\"旧暦\" when=\"1868-10-12\">\n        八月廿七日\n       </date>\n       月　晴\n       <date when=\"1868-10-12\">\n        十月十二日\n       </date>\n</head>\n<p>\n       午後\n       <placeName corresp=\"#place_ホワンブロン\">\n        ホワンブロン\n       </placeName>\n       御遊歩、\n       <persName corresp=\"#pers_菊池平八郎\">\n<forename>\n         平八郎\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_小出涌之助\">\n<forename>\n         涌之助\n        </forename>\n</persName>\n       御供、夕\n       <time when=\"17:00:00\">\n        五時\n       </time>\n       御帰館、仏帝帰巴延引ニ付為問合\n       <persName corresp=\"#pers_コロネル\">\n<surname>\n         コロネル\n        </surname>\n</persName>\n       外国局江御遣し、外国局より早々\n       <placeName corresp=\"#place_ビアリッツ\">\n        ビヤリイト\n       </placeName>\n       帝滞留所江問合、挨拶可有之旨申答候由ニ而罷帰る、\n       <persName corresp=\"#pers_栗本貞次郎\">\n<surname>\n         栗本\n        </surname>\n<forename>\n         貞次郎\n        </forename>\n</persName>\n       罷出る\n      </p>\n</div>",
     "year": "1868",
     "yearAndMonth": "1868-10"
 }

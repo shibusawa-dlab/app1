@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1622",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1931",
     "date_lvl1": "1931-04",
     "date_lvl2": "1931-04-22",
-    "description": "\n\n\n           廿二日\n          \n          （水）\n         \n\n\n\n\n             午後一時半\n            \n\n             東京\n            \n            女学館理事会\n           \n\n\n\n\n             午後二時\n            \n            〃評議員会\n           \n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （水）\n         \n\n\n\n\n             午後一時半\n            \n\n             東京女学館\n            \n            理事会\n           \n\n\n\n\n             午後二時\n            \n            〃評議員会\n           \n\n\n",
     "label": "廿二日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20033m-0054",
@@ -23,9 +24,8 @@
     "prev": "DKB20033m-0051",
     "sort": "DKB20033m-0053",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "東京"
-    ],
+    "spatial": [],
+    "spatial_uri": [],
     "temporal": "1931-04-22",
     "texts": [
         "DKB20033m-0038",
@@ -50,10 +50,10 @@
         "DKB20033m-0040"
     ],
     "time": {
-        "13:30:00": "<div><time when=\"13:30:00\">\n             午後一時半\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            女学館理事会</div>"
+        "13:30:00": "<div><time when=\"13:30:00\">\n             午後一時半\n            </time>\n<orgName>\n             東京女学館\n            </orgName>\n            理事会</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0053\">\n<head>\n<date when=\"1931-04-22\">\n           廿二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一時半\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            女学館理事会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            〃評議員会\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0053\">\n<head>\n<date when=\"1931-04-22\">\n           廿二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一時半\n            </time>\n<orgName>\n             東京女学館\n            </orgName>\n            理事会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            〃評議員会\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1931",
     "yearAndMonth": "1931-04"
 }

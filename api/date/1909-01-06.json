@@ -6,6 +6,13 @@
         "カン",
         "佐々木"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/東敬治",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/土岐",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/益田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/カン",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐々木"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/583",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -21,7 +28,7 @@
     "date_lvl0": "1909",
     "date_lvl1": "1909-01",
     "date_lvl2": "1909-01-06",
-    "description": "\n\n\n        一月六日\n       \n       晴　寒\n      \n\n\n        午前七時\n       \n       起床、直ニ入浴シ、畢テ頭髪ヲ理シ、\n       \n        八時\n       \n       朝飧ヲ食ス、食後\n       \n\n         東\n        \n\n         敬治\n        \n\n       氏ノ来訪ニ接ス、又、\n       \n\n         土岐\n        \n\n       〓氏来リ、\n       \n        仙台\n       \n\n        七十七銀行\n       \n       ノ事ヲ談ス、\n       \n        午前十時\n       \n       外務省ニ抵リ、伊国震災義捐金ノ事ヲ協議ス、畢テ\n       \n\n         帝国ホテル\n        \n\n       ニ抵リ、\n       \n\n         益田\n        \n\n       氏ト共ニ仏人\n       \n\n         カン\n        \n\n       氏ニ面話ス、午飧ヲ共ニシテ後\n       \n        第一銀行\n       \n       ニ抵リ、\n       \n\n         佐々木\n        \n\n       氏ト談話ス、又、事務所ニ於テ種々ノ来客ニ接ス、\n       \n        六時\n       \n\n        浜町\n       \n       宅ニ於テ夜飧シ、夜\n       \n        十時\n       \n\n        王子\n       \n       ニ帰宿ス\n      \n",
+    "description": "\n\n\n        一月六日\n       \n       晴　寒\n      \n\n\n        午前七時\n       \n       起床、直ニ入浴シ、畢テ頭髪ヲ理シ、\n       \n        八時\n       \n       朝飧ヲ食ス、食後\n       \n\n         東\n        \n\n         敬治\n        \n\n       氏ノ来訪ニ接ス、又、\n       \n\n         土岐\n        \n\n       〓氏来リ、\n       \n        仙台\n       \n\n        七十七銀行\n       \n       ノ事ヲ談ス、\n       \n        午前十時\n       \n       外務省ニ抵リ、\n       \n        伊国\n       \n       震災義捐金ノ事ヲ協議ス、畢テ\n       \n\n         帝国ホテル\n        \n\n       ニ抵リ、\n       \n\n         益田\n        \n\n       氏ト共ニ仏人\n       \n\n         カン\n        \n\n       氏ニ面話ス、午飧ヲ共ニシテ後\n       \n        第一銀行\n       \n       ニ抵リ、\n       \n\n         佐々木\n        \n\n       氏ト談話ス、又、事務所ニ於テ種々ノ来客ニ接ス、\n       \n        六時\n       \n\n        浜町\n       \n       宅ニ於テ夜飧シ、夜\n       \n        十時\n       \n\n        王子\n       \n       ニ帰宿ス\n      \n",
     "label": "一月六日              晴　寒",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10017m-0007",
@@ -31,8 +38,15 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "仙台",
+        "イタリア",
         "浜町",
         "王子"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/仙台",
+        "https://shibusawa-dlab.github.io/lab1/api/place/イタリア",
+        "https://shibusawa-dlab.github.io/lab1/api/place/浜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子"
     ],
     "temporal": "1909-01-06",
     "texts": [
@@ -60,12 +74,12 @@
     "time": {
         "07:00:00": "<div><time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、直ニ入浴シ、畢テ頭髪ヲ理シ、</div>",
         "08:00:00": "<div><time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ食ス、食後\n       <persName corresp=\"#pers_東敬治\">\n<surname>\n         東\n        </surname>\n<forename>\n         敬治\n        </forename>\n</persName>\n       氏ノ来訪ニ接ス、又、\n       <persName corresp=\"#pers_土岐\">\n<surname>\n         土岐\n        </surname>\n</persName>\n       〓氏来リ、\n       <placeName corresp=\"#place_仙台\">\n        仙台\n       </placeName>\n<orgName>\n        七十七銀行\n       </orgName>\n       ノ事ヲ談ス、</div>",
-        "10:00:00": "<div><time when=\"10:00:00\">\n        午前十時\n       </time>\n       外務省ニ抵リ、伊国震災義捐金ノ事ヲ協議ス、畢テ\n       <orgName>\n<orgName>\n         帝国ホテル\n        </orgName>\n</orgName>\n       ニ抵リ、\n       <persName corresp=\"#pers_益田\">\n<surname>\n         益田\n        </surname>\n</persName>\n       氏ト共ニ仏人\n       <persName corresp=\"#pers_カン\">\n<surname>\n         カン\n        </surname>\n</persName>\n       氏ニ面話ス、午飧ヲ共ニシテ後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ抵リ、\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       氏ト談話ス、又、事務所ニ於テ種々ノ来客ニ接ス、</div>",
+        "10:00:00": "<div><time when=\"10:00:00\">\n        午前十時\n       </time>\n       外務省ニ抵リ、\n       <placeName corresp=\"#place_イタリア\">\n        伊国\n       </placeName>\n       震災義捐金ノ事ヲ協議ス、畢テ\n       <orgName>\n<orgName>\n         帝国ホテル\n        </orgName>\n</orgName>\n       ニ抵リ、\n       <persName corresp=\"#pers_益田\">\n<surname>\n         益田\n        </surname>\n</persName>\n       氏ト共ニ仏人\n       <persName corresp=\"#pers_カン\">\n<surname>\n         カン\n        </surname>\n</persName>\n       氏ニ面話ス、午飧ヲ共ニシテ後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ抵リ、\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       氏ト談話ス、又、事務所ニ於テ種々ノ来客ニ接ス、</div>",
         "18:00:00": "<div><time when=\"18:00:00\">\n        六時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       宅ニ於テ夜飧シ、夜</div>",
         "22:00:00": "<div><time when=\"22:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10017m-0006\">\n<head>\n<date when=\"1909-01-06\">\n        一月六日\n       </date>\n       晴　寒\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、直ニ入浴シ、畢テ頭髪ヲ理シ、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ食ス、食後\n       <persName corresp=\"#pers_東敬治\">\n<surname>\n         東\n        </surname>\n<forename>\n         敬治\n        </forename>\n</persName>\n       氏ノ来訪ニ接ス、又、\n       <persName corresp=\"#pers_土岐\">\n<surname>\n         土岐\n        </surname>\n</persName>\n       〓氏来リ、\n       <placeName corresp=\"#place_仙台\">\n        仙台\n       </placeName>\n<orgName>\n        七十七銀行\n       </orgName>\n       ノ事ヲ談ス、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n       外務省ニ抵リ、伊国震災義捐金ノ事ヲ協議ス、畢テ\n       <orgName>\n<orgName>\n         帝国ホテル\n        </orgName>\n</orgName>\n       ニ抵リ、\n       <persName corresp=\"#pers_益田\">\n<surname>\n         益田\n        </surname>\n</persName>\n       氏ト共ニ仏人\n       <persName corresp=\"#pers_カン\">\n<surname>\n         カン\n        </surname>\n</persName>\n       氏ニ面話ス、午飧ヲ共ニシテ後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ抵リ、\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       氏ト談話ス、又、事務所ニ於テ種々ノ来客ニ接ス、\n       <time when=\"18:00:00\">\n        六時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       宅ニ於テ夜飧シ、夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10017m-0006\">\n<head>\n<date when=\"1909-01-06\">\n        一月六日\n       </date>\n       晴　寒\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、直ニ入浴シ、畢テ頭髪ヲ理シ、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ食ス、食後\n       <persName corresp=\"#pers_東敬治\">\n<surname>\n         東\n        </surname>\n<forename>\n         敬治\n        </forename>\n</persName>\n       氏ノ来訪ニ接ス、又、\n       <persName corresp=\"#pers_土岐\">\n<surname>\n         土岐\n        </surname>\n</persName>\n       〓氏来リ、\n       <placeName corresp=\"#place_仙台\">\n        仙台\n       </placeName>\n<orgName>\n        七十七銀行\n       </orgName>\n       ノ事ヲ談ス、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n       外務省ニ抵リ、\n       <placeName corresp=\"#place_イタリア\">\n        伊国\n       </placeName>\n       震災義捐金ノ事ヲ協議ス、畢テ\n       <orgName>\n<orgName>\n         帝国ホテル\n        </orgName>\n</orgName>\n       ニ抵リ、\n       <persName corresp=\"#pers_益田\">\n<surname>\n         益田\n        </surname>\n</persName>\n       氏ト共ニ仏人\n       <persName corresp=\"#pers_カン\">\n<surname>\n         カン\n        </surname>\n</persName>\n       氏ニ面話ス、午飧ヲ共ニシテ後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ抵リ、\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       氏ト談話ス、又、事務所ニ於テ種々ノ来客ニ接ス、\n       <time when=\"18:00:00\">\n        六時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       宅ニ於テ夜飧シ、夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1909",
     "yearAndMonth": "1909-01"
 }

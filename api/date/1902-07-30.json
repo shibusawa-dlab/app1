@@ -3,6 +3,10 @@
         "清水泰吉",
         "渡辺専次郎"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/清水泰吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渡辺専次郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/284",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -18,7 +22,7 @@
     "date_lvl0": "1902",
     "date_lvl1": "1902-07",
     "date_lvl2": "1902-07-30",
-    "description": "\n\n\n        七月三十日\n       \n\n\n       晴、\n       \n        午前九時半\n       \n\n        倫敦\n       \n       ノ旅宿ヲ発シ、\n       \n        ユーストン\n       \n       停車場ニ抵リ\n       \n        英国\n       \n       北部行ノ汽車ニ搭ス、汽車中ニテ午飧シ\n       \n        午後二時半\n       \n       リバフール港ニ着ス、一行中\n       \n\n         清水\n        \n\n         泰吉\n        \n\n       ハ事務調査ノ為\n       \n        倫敦\n       \n       ニ止リ三井物産会社\n       \n\n         渡辺\n        \n\n         専次郎\n        \n\n       氏同行ス、リバフール着ノ後穀物取引所及一般商業者集会所ヲ一覧ス、畢テ電気鉄道ニ搭シテ繫船所及倉庫ノ概況ヲ一覧ス、又穀物ノ倉庫ヲ一覧ス、此倉庫ニ入荷スルハ都テ俵装セサル小麦大豆ノ類ニシテ其取扱方極テ壮大ノ仕掛ナリ、畢テ又電気鉄道ニテ市街ニ抵リ工業学校ヲ一覧ス、\n       \n        午後七時\n       \n       発ノ汽車ニテリバプールヲ発シテ、\n       \n        八時\n       \n       過マンチスター着、クエンス・ホテルニ投宿ス\n      \n",
+    "description": "\n\n\n        七月三十日\n       \n\n\n       晴、\n       \n        午前九時半\n       \n\n        倫敦\n       \n       ノ旅宿ヲ発シ、\n       \n        ユーストン\n       \n       停車場ニ抵リ\n       \n        英国\n       \n       北部行ノ汽車ニ搭ス、汽車中ニテ午飧シ\n       \n        午後二時半\n       \n       リバフール港ニ着ス、一行中\n       \n\n         清水\n        \n\n         泰吉\n        \n\n       ハ事務調査ノ為\n       \n        倫敦\n       \n       ニ止リ三井物産会社\n       \n\n         渡辺\n        \n\n         専次郎\n        \n\n       氏同行ス、リバフール着ノ後穀物取引所及一般商業者集会所ヲ一覧ス、畢テ電気鉄道ニ搭シテ繫船所及倉庫ノ概況ヲ一覧ス、又穀物ノ倉庫ヲ一覧ス、此倉庫ニ入荷スルハ都テ俵装セサル小麦大豆ノ類ニシテ其取扱方極テ壮大ノ仕掛ナリ、畢テ又電気鉄道ニテ市街ニ抵リ工業学校ヲ一覧ス、\n       \n        午後七時\n       \n       発ノ汽車ニテ\n       \n        リバプール\n       \n       ヲ発シテ、\n       \n        八時\n       \n       過\n       \n        マンチスター\n       \n       着、クエンス・ホテルニ投宿ス\n      \n",
     "label": "七月三十日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10010m-0390",
@@ -29,7 +33,16 @@
     "spatial": [
         "ロンドン",
         "ユーストン",
-        "イギリス"
+        "イギリス",
+        "リヴァプール",
+        "マンチェスター"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/ロンドン",
+        "https://shibusawa-dlab.github.io/lab1/api/place/ユーストン",
+        "https://shibusawa-dlab.github.io/lab1/api/place/イギリス",
+        "https://shibusawa-dlab.github.io/lab1/api/place/リヴァプール",
+        "https://shibusawa-dlab.github.io/lab1/api/place/マンチェスター"
     ],
     "temporal": "1902-07-30",
     "texts": [
@@ -57,11 +70,11 @@
     "time": {
         "09:30:00": "<div>晴、<time when=\"09:30:00\">\n        午前九時半\n       </time>\n<placeName corresp=\"#place_ロンドン\">\n        倫敦\n       </placeName>\n       ノ旅宿ヲ発シ、\n       <placeName corresp=\"#place_ユーストン\">\n        ユーストン\n       </placeName>\n       停車場ニ抵リ\n       <placeName corresp=\"#place_イギリス\">\n        英国\n       </placeName>\n       北部行ノ汽車ニ搭ス、汽車中ニテ午飧シ</div>",
         "14:30:00": "<div><time when=\"14:30:00\">\n        午後二時半\n       </time>\n       リバフール港ニ着ス、一行中\n       <persName corresp=\"#pers_清水泰吉\">\n<surname>\n         清水\n        </surname>\n<forename>\n         泰吉\n        </forename>\n</persName>\n       ハ事務調査ノ為\n       <placeName corresp=\"#place_ロンドン\">\n        倫敦\n       </placeName>\n       ニ止リ三井物産会社\n       <persName corresp=\"#pers_渡辺専次郎\">\n<surname>\n         渡辺\n        </surname>\n<forename>\n         専次郎\n        </forename>\n</persName>\n       氏同行ス、リバフール着ノ後穀物取引所及一般商業者集会所ヲ一覧ス、畢テ電気鉄道ニ搭シテ繫船所及倉庫ノ概況ヲ一覧ス、又穀物ノ倉庫ヲ一覧ス、此倉庫ニ入荷スルハ都テ俵装セサル小麦大豆ノ類ニシテ其取扱方極テ壮大ノ仕掛ナリ、畢テ又電気鉄道ニテ市街ニ抵リ工業学校ヲ一覧ス、</div>",
-        "19:00:00": "<div><time when=\"19:00:00\">\n        午後七時\n       </time>\n       発ノ汽車ニテリバプールヲ発シテ、</div>",
-        "20:00:00": "<div><time when=\"20:00:00\">\n        八時\n       </time>\n       過マンチスター着、クエンス・ホテルニ投宿ス</div>"
+        "19:00:00": "<div><time when=\"19:00:00\">\n        午後七時\n       </time>\n       発ノ汽車ニテ\n       <placeName corresp=\"#place_リヴァプール\">\n        リバプール\n       </placeName>\n       ヲ発シテ、</div>",
+        "20:00:00": "<div><time when=\"20:00:00\">\n        八時\n       </time>\n       過\n       <placeName corresp=\"#place_マンチェスター\">\n        マンチスター\n       </placeName>\n       着、クエンス・ホテルニ投宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10010m-0389\">\n<head>\n<date when=\"1902-07-30\">\n        七月三十日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"09:30:00\">\n        午前九時半\n       </time>\n<placeName corresp=\"#place_ロンドン\">\n        倫敦\n       </placeName>\n       ノ旅宿ヲ発シ、\n       <placeName corresp=\"#place_ユーストン\">\n        ユーストン\n       </placeName>\n       停車場ニ抵リ\n       <placeName corresp=\"#place_イギリス\">\n        英国\n       </placeName>\n       北部行ノ汽車ニ搭ス、汽車中ニテ午飧シ\n       <time when=\"14:30:00\">\n        午後二時半\n       </time>\n       リバフール港ニ着ス、一行中\n       <persName corresp=\"#pers_清水泰吉\">\n<surname>\n         清水\n        </surname>\n<forename>\n         泰吉\n        </forename>\n</persName>\n       ハ事務調査ノ為\n       <placeName corresp=\"#place_ロンドン\">\n        倫敦\n       </placeName>\n       ニ止リ三井物産会社\n       <persName corresp=\"#pers_渡辺専次郎\">\n<surname>\n         渡辺\n        </surname>\n<forename>\n         専次郎\n        </forename>\n</persName>\n       氏同行ス、リバフール着ノ後穀物取引所及一般商業者集会所ヲ一覧ス、畢テ電気鉄道ニ搭シテ繫船所及倉庫ノ概況ヲ一覧ス、又穀物ノ倉庫ヲ一覧ス、此倉庫ニ入荷スルハ都テ俵装セサル小麦大豆ノ類ニシテ其取扱方極テ壮大ノ仕掛ナリ、畢テ又電気鉄道ニテ市街ニ抵リ工業学校ヲ一覧ス、\n       <time when=\"19:00:00\">\n        午後七時\n       </time>\n       発ノ汽車ニテリバプールヲ発シテ、\n       <time when=\"20:00:00\">\n        八時\n       </time>\n       過マンチスター着、クエンス・ホテルニ投宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10010m-0389\">\n<head>\n<date when=\"1902-07-30\">\n        七月三十日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"09:30:00\">\n        午前九時半\n       </time>\n<placeName corresp=\"#place_ロンドン\">\n        倫敦\n       </placeName>\n       ノ旅宿ヲ発シ、\n       <placeName corresp=\"#place_ユーストン\">\n        ユーストン\n       </placeName>\n       停車場ニ抵リ\n       <placeName corresp=\"#place_イギリス\">\n        英国\n       </placeName>\n       北部行ノ汽車ニ搭ス、汽車中ニテ午飧シ\n       <time when=\"14:30:00\">\n        午後二時半\n       </time>\n       リバフール港ニ着ス、一行中\n       <persName corresp=\"#pers_清水泰吉\">\n<surname>\n         清水\n        </surname>\n<forename>\n         泰吉\n        </forename>\n</persName>\n       ハ事務調査ノ為\n       <placeName corresp=\"#place_ロンドン\">\n        倫敦\n       </placeName>\n       ニ止リ三井物産会社\n       <persName corresp=\"#pers_渡辺専次郎\">\n<surname>\n         渡辺\n        </surname>\n<forename>\n         専次郎\n        </forename>\n</persName>\n       氏同行ス、リバフール着ノ後穀物取引所及一般商業者集会所ヲ一覧ス、畢テ電気鉄道ニ搭シテ繫船所及倉庫ノ概況ヲ一覧ス、又穀物ノ倉庫ヲ一覧ス、此倉庫ニ入荷スルハ都テ俵装セサル小麦大豆ノ類ニシテ其取扱方極テ壮大ノ仕掛ナリ、畢テ又電気鉄道ニテ市街ニ抵リ工業学校ヲ一覧ス、\n       <time when=\"19:00:00\">\n        午後七時\n       </time>\n       発ノ汽車ニテ\n       <placeName corresp=\"#place_リヴァプール\">\n        リバプール\n       </placeName>\n       ヲ発シテ、\n       <time when=\"20:00:00\">\n        八時\n       </time>\n       過\n       <placeName corresp=\"#place_マンチェスター\">\n        マンチスター\n       </placeName>\n       着、クエンス・ホテルニ投宿ス\n      </p>\n</div>",
     "year": "1902",
     "yearAndMonth": "1902-07"
 }

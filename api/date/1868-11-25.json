@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/41",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -24,8 +25,12 @@
     "sort": "DKB10001m-0062",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
-        "香",
+        "香港",
         "安南"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/香港",
+        "https://shibusawa-dlab.github.io/lab1/api/place/安南"
     ],
     "temporal": "1868-11-25",
     "texts": [
@@ -52,7 +57,7 @@
     ],
     "time": {},
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10001m-0062\">\n<head>\n<date type=\"旧暦\" when=\"1868-11-25\">\n        十月十二日\n       </date>\n       晴大風　水　　緯十一度五　経百〇六度弐十　　速百六十里\n       <placeName corresp=\"#place_香\">\n        香\n       </placeName>\n       迄七百五十五里\n       <lb/>\n<date when=\"1868-11-25\">\n        十一月廿五日\n       </date>\n</head>\n<p>\n       昨夜より勁風怒濤〓行頗苦艱を極む、終日\n       <placeName corresp=\"#place_安南\">\n        安南\n       </placeName>\n       地方を左に見る、時々驟雨来る、追々暑気減して御国八月末頃の候を覚ゆ\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10001m-0062\">\n<head>\n<date type=\"旧暦\" when=\"1868-11-25\">\n        十月十二日\n       </date>\n       晴大風　水　　緯十一度五　経百〇六度弐十　　速百六十里\n       <placeName corresp=\"#place_香港\">\n        香\n       </placeName>\n       迄七百五十五里\n       <lb/>\n<date when=\"1868-11-25\">\n        十一月廿五日\n       </date>\n</head>\n<p>\n       昨夜より勁風怒濤〓行頗苦艱を極む、終日\n       <placeName corresp=\"#place_安南\">\n        安南\n       </placeName>\n       地方を左に見る、時々驟雨来る、追々暑気減して御国八月末頃の候を覚ゆ\n      </p>\n</div>",
     "year": "1868",
     "yearAndMonth": "1868-11"
 }

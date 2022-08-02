@@ -1,5 +1,12 @@
 {
-    "agential": [],
+    "agential": [
+        "浅野良三",
+        "ボールス"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野良三",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ボールス"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1595",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +22,7 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-06",
     "date_lvl2": "1929-06-10",
-    "description": "\n\n\n           十日\n          \n          （月）\n         \n\n\n\n\n             正午\n            \n            御出勤\n           \n\n\n\n\n             午〇時十分\n            \n            浅の良三氏来約\n           \n\n\n\n\n             午後一時\n            \n            ボールス氏来約（事務所）\n           \n\n\n\n\n             午後二時\n            \n            陽明会講義会《（学脱）》（事務所）\n           \n\n\n",
+    "description": "\n\n\n           十日\n          \n          （月）\n         \n\n\n\n\n             正午\n            \n            御出勤\n           \n\n\n\n\n             午〇時十分\n            \n\n\n              浅の\n             \n\n              良三\n             \n\n            氏来約\n           \n\n\n\n\n             午後一時\n            \n\n\n              ボールス\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後二時\n            \n            陽明会講義会《（学脱）》（事務所）\n           \n\n\n",
     "label": "十日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20031m-0085",
@@ -24,6 +31,7 @@
     "sort": "DKB20031m-0084",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [],
+    "spatial_uri": [],
     "temporal": "1929-06-10",
     "texts": [
         "DKB20030m-0242",
@@ -51,7 +59,7 @@
         "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0084\">\n<head>\n<date when=\"1929-06-10\">\n           十日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:10:00\">\n             午〇時十分\n            </time>\n            浅の良三氏来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            ボールス氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            陽明会講義会《（学脱）》（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0084\">\n<head>\n<date when=\"1929-06-10\">\n           十日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:10:00\">\n             午〇時十分\n            </time>\n<persName corresp=\"#pers_浅野良三\">\n<surname>\n              浅の\n             </surname>\n<forename>\n              良三\n             </forename>\n</persName>\n            氏来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_ボールス\">\n<surname>\n              ボールス\n             </surname>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            陽明会講義会《（学脱）》（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-06"
 }

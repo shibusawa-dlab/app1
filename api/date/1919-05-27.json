@@ -1,5 +1,10 @@
 {
-    "agential": [],
+    "agential": [
+        "草野"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/草野"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1299",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +20,7 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-05",
     "date_lvl2": "1919-05-27",
-    "description": "\n\n\n           廿七日\n          \n          （火）\n         \n\n\n\n\n             午前九時十分\n            \n\n             八王子\n            \n            市所在\n            \n             埼玉\n            \n            県人会ヘ御出向ノ約（新宿駅草野氏来賓）\n           \n\n\n\n\n             午後一時\n            \n            高千穂学校記念会\n           \n\n\n",
+    "description": "\n\n\n           廿七日\n          \n          （火）\n         \n\n\n\n\n             午前九時十分\n            \n\n             八王子\n            \n            市所在\n            \n             埼玉\n            \n            県人会ヘ御出向ノ約（新宿駅\n            \n\n              草野\n             \n\n            氏来賓）\n           \n\n\n\n\n             午後一時\n            \n\n             高千穂学校\n            \n            記念会\n           \n\n\n",
     "label": "廿七日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0122",
@@ -26,6 +31,10 @@
     "spatial": [
         "八王子",
         "埼玉"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/八王子",
+        "https://shibusawa-dlab.github.io/lab1/api/place/埼玉"
     ],
     "temporal": "1919-05-27",
     "texts": [
@@ -51,10 +60,10 @@
         "DKB20023m-0062"
     ],
     "time": {
-        "09:10:00": "<div><time when=\"09:10:00\">\n             午前九時十分\n            </time>\n<placeName corresp=\"#place_八王子\">\n             八王子\n            </placeName>\n            市所在\n            <placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県人会ヘ御出向ノ約（新宿駅草野氏来賓）</div>"
+        "09:10:00": "<div><time when=\"09:10:00\">\n             午前九時十分\n            </time>\n<placeName corresp=\"#place_八王子\">\n             八王子\n            </placeName>\n            市所在\n            <placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県人会ヘ御出向ノ約（新宿駅\n            <persName corresp=\"#pers_草野\">\n<surname>\n              草野\n             </surname>\n</persName>\n            氏来賓）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0121\">\n<head>\n<date when=\"1919-05-27\">\n           廿七日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:10:00\">\n             午前九時十分\n            </time>\n<placeName corresp=\"#place_八王子\">\n             八王子\n            </placeName>\n            市所在\n            <placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県人会ヘ御出向ノ約（新宿駅草野氏来賓）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            高千穂学校記念会\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0121\">\n<head>\n<date when=\"1919-05-27\">\n           廿七日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:10:00\">\n             午前九時十分\n            </time>\n<placeName corresp=\"#place_八王子\">\n             八王子\n            </placeName>\n            市所在\n            <placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県人会ヘ御出向ノ約（新宿駅\n            <persName corresp=\"#pers_草野\">\n<surname>\n              草野\n             </surname>\n</persName>\n            氏来賓）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             高千穂学校\n            </orgName>\n            記念会\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-05"
 }

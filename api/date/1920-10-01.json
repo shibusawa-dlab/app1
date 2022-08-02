@@ -1,6 +1,11 @@
 {
     "agential": [
-        "白岩"
+        "白岩",
+        "ブラオン"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/白岩",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ブラオン"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1343",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-10",
     "date_lvl2": "1920-10-01",
-    "description": "\n\n\n           一日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n            アリオン中佐来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              白岩\n             \n\n            氏\n            \n             兜町\n            \n            来約\n           \n\n\n\n\n             正午\n            \n            国際聯盟協会ノ件（華族会館）\n           \n\n\n\n\n             午後六時\n            \n            ブラオン氏等ト御会合（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           一日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n            アリオン中佐来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              白岩\n             \n\n            氏\n            \n             兜町\n            \n            来約\n           \n\n\n\n\n             正午\n            \n            国際聯盟協会ノ件（華族会館）\n           \n\n\n\n\n             午後六時\n            \n\n\n              ブラオン\n             \n\n            氏等ト御会合（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "一日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0252",
@@ -27,6 +32,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1920-10-01",
     "texts": [
@@ -55,7 +63,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            アリオン中佐来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0251\">\n<head>\n<date when=\"1920-10-01\">\n           一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            アリオン中佐来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_白岩\">\n<surname>\n              白岩\n             </surname>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            国際聯盟協会ノ件（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            ブラオン氏等ト御会合（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0251\">\n<head>\n<date when=\"1920-10-01\">\n           一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            アリオン中佐来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_白岩\">\n<surname>\n              白岩\n             </surname>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            国際聯盟協会ノ件（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_ブラオン\">\n<surname>\n              ブラオン\n             </surname>\n</persName>\n            氏等ト御会合（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-10"
 }

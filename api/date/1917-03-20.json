@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1232",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-03",
     "date_lvl2": "1917-03-20",
-    "description": "\n\n\n           二十日\n          \n          （火）\n         \n\n\n\n            高千穂学校卒業証書授与式　○旅行中《（原註）》\n           \n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （火）\n         \n\n\n\n\n             高千穂学校\n            \n            卒業証書授与式　○旅行中《（原註）》\n           \n\n\n",
     "label": "二十日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0078",
@@ -24,6 +25,7 @@
     "sort": "DKB20019m-0076",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [],
+    "spatial_uri": [],
     "temporal": "1917-03-20",
     "texts": [
         "DKB20018m-0265",
@@ -49,7 +51,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0076\">\n<head>\n<date when=\"1917-03-20\">\n           二十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n            高千穂学校卒業証書授与式　○旅行中《（原註）》\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0076\">\n<head>\n<date when=\"1917-03-20\">\n           二十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<orgName>\n             高千穂学校\n            </orgName>\n            卒業証書授与式　○旅行中《（原註）》\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-03"
 }

@@ -1,10 +1,17 @@
 {
     "agential": [
         "渡辺得男",
-        "勝美",
+        "黒板勝美",
         "高木陸郎",
         "深井",
         "山本直良"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渡辺得男",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/黒板勝美",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高木陸郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/深井",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山本直良"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1543",
     "category": {
@@ -21,7 +28,7 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-05",
     "date_lvl2": "1927-05-04",
-    "description": "\n\n\n           四日\n          \n          （水）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              渡辺\n             \n\n              得男\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n            黒板\n            \n\n              勝美\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後一・二〇時\n            \n            御出勤\n           \n\n\n\n\n             午後二時\n            \n\n\n              高木\n             \n\n              陸郎\n             \n\n            氏来約（\n            \n             永楽町\n            \n            事務所）\n           \n\n\n\n\n             午後二時\n            \n\n             日本\n            \n            銀行\n            \n\n              深井\n             \n\n            氏ト会見（\n            \n             永楽町\n            \n            事務所）\n           \n\n\n\n\n             午后三時\n            \n\n\n              山本\n             \n\n              直良\n             \n\n            氏ト御会見（\n            \n             永楽町\n            \n            事務所）\n           \n\n\n",
+    "description": "\n\n\n           四日\n          \n          （水）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              渡辺\n             \n\n              得男\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n\n              黒板\n             \n\n              勝美\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後一・二〇時\n            \n            御出勤\n           \n\n\n\n\n             午後二時\n            \n\n\n              高木\n             \n\n              陸郎\n             \n\n            氏来約（\n            \n             永楽町\n            \n            事務所）\n           \n\n\n\n\n             午後二時\n            \n\n             日本銀行\n            \n\n\n              深井\n             \n\n            氏ト会見（\n            \n             永楽町\n            \n            事務所）\n           \n\n\n\n\n             午后三時\n            \n\n\n              山本\n             \n\n              直良\n             \n\n            氏ト御会見（\n            \n             永楽町\n            \n            事務所）\n           \n\n\n",
     "label": "四日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0109",
@@ -30,9 +37,12 @@
     "sort": "DKB20029m-0108",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
-        "永楽町",
-        "日本"
+        "飛鳥山邸",
+        "永楽町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/永楽町"
     ],
     "temporal": "1927-05-04",
     "texts": [
@@ -58,10 +68,10 @@
         "DKB20031m-0181"
     ],
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_渡辺得男\">\n<surname>\n              渡辺\n             </surname>\n<forename>\n              得男\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_渡辺得男\">\n<surname>\n              渡辺\n             </surname>\n<forename>\n              得男\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0108\">\n<head>\n<date when=\"1927-05-04\">\n           四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_渡辺得男\">\n<surname>\n              渡辺\n             </surname>\n<forename>\n              得男\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n            黒板\n            <persName corresp=\"#pers_勝美\">\n<forename>\n              勝美\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:20:00\">\n             午後一・二〇時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_高木陸郎\">\n<surname>\n              高木\n             </surname>\n<forename>\n              陸郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_永楽町\">\n             永楽町\n            </placeName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            銀行\n            <persName corresp=\"#pers_深井\">\n<surname>\n              深井\n             </surname>\n</persName>\n            氏ト会見（\n            <placeName corresp=\"#place_永楽町\">\n             永楽町\n            </placeName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n<persName corresp=\"#pers_山本直良\">\n<surname>\n              山本\n             </surname>\n<forename>\n              直良\n             </forename>\n</persName>\n            氏ト御会見（\n            <placeName corresp=\"#place_永楽町\">\n             永楽町\n            </placeName>\n            事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0108\">\n<head>\n<date when=\"1927-05-04\">\n           四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_渡辺得男\">\n<surname>\n              渡辺\n             </surname>\n<forename>\n              得男\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<persName corresp=\"#pers_黒板勝美\">\n<surname>\n              黒板\n             </surname>\n<forename>\n              勝美\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:20:00\">\n             午後一・二〇時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_高木陸郎\">\n<surname>\n              高木\n             </surname>\n<forename>\n              陸郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_永楽町\">\n             永楽町\n            </placeName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<orgName>\n             日本銀行\n            </orgName>\n<persName corresp=\"#pers_深井\">\n<surname>\n              深井\n             </surname>\n</persName>\n            氏ト会見（\n            <placeName corresp=\"#place_永楽町\">\n             永楽町\n            </placeName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n<persName corresp=\"#pers_山本直良\">\n<surname>\n              山本\n             </surname>\n<forename>\n              直良\n             </forename>\n</persName>\n            氏ト御会見（\n            <placeName corresp=\"#place_永楽町\">\n             永楽町\n            </placeName>\n            事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-05"
 }

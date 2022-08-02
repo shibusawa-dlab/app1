@@ -2,6 +2,9 @@
     "agential": [
         "大迫"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大迫"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/119",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -17,7 +20,7 @@
     "date_lvl0": "1899",
     "date_lvl1": "1899-06",
     "date_lvl2": "1899-06-30",
-    "description": "\n\n\n        六月三十日\n       \n\n\n       雨、\n       \n        午前九時\n       \n       参謀本部ニ於テ大生大佐ニ面会シ京坂鉄道ニ関スル事由ヲ陳フ、更ニ\n       \n\n         大迫\n        \n\n       次長ニ面シテ同シク京坂鉄道ノ事ヲ請願ス、畢テ\n       \n        芝\n       \n       離宮ニ抵リ独乙皇弟ノ御安着ヲ祝シ、\n       \n        午前十一時\n       \n       海軍省ニ於テ大臣ニ面会シテ浦賀船渠ノ事ニ関シテ詳細事情ヲ陳述シ、\n       \n        十二時\n       \n       過帝国ホテ\n       \n       ルニ午餐シ、午後商業会議所新築移転ヲ一覧ス、\n       \n        二時\n       \n       日本鉄道会社ノ重役会ニ列シ、\n       \n        午後六時\n       \n       帰宿ス\n      \n",
+    "description": "\n\n\n        六月三十日\n       \n\n\n       雨、\n       \n        午前九時\n       \n       参謀本部ニ於テ大生大佐ニ面会シ京坂鉄道ニ関スル事由ヲ陳フ、更ニ\n       \n\n         大迫\n        \n\n       次長ニ面シテ同シク京坂鉄道ノ事ヲ請願ス、畢テ\n       \n        芝\n       \n       離宮ニ抵リ\n       \n        独乙\n       \n       皇弟ノ御安着ヲ祝シ、\n       \n        午前十一時\n       \n       海軍省ニ於テ大臣ニ面会シテ浦賀船渠ノ事ニ関シテ詳細事情ヲ陳述シ、\n       \n        十二時\n       \n       過帝国ホテ\n       \n       ルニ午餐シ、午後商業会議所新築移転ヲ一覧ス、\n       \n        二時\n       \n       日本鉄道会社ノ重役会ニ列シ、\n       \n        午後六時\n       \n       帰宿ス\n      \n",
     "label": "六月三十日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10008m-0182",
@@ -26,7 +29,12 @@
     "sort": "DKB10008m-0181",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
-        "芝"
+        "芝",
+        "ドイツ"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/芝",
+        "https://shibusawa-dlab.github.io/lab1/api/place/ドイツ"
     ],
     "temporal": "1899-06-30",
     "texts": [
@@ -52,14 +60,14 @@
         "DKB10010m-0054"
     ],
     "time": {
-        "09:00:00": "<div>雨、<time when=\"09:00:00\">\n        午前九時\n       </time>\n       参謀本部ニ於テ大生大佐ニ面会シ京坂鉄道ニ関スル事由ヲ陳フ、更ニ\n       <persName corresp=\"#pers_大迫\">\n<surname>\n         大迫\n        </surname>\n</persName>\n       次長ニ面シテ同シク京坂鉄道ノ事ヲ請願ス、畢テ\n       <placeName corresp=\"#place_芝\">\n        芝\n       </placeName>\n       離宮ニ抵リ独乙皇弟ノ御安着ヲ祝シ、</div>",
+        "09:00:00": "<div>雨、<time when=\"09:00:00\">\n        午前九時\n       </time>\n       参謀本部ニ於テ大生大佐ニ面会シ京坂鉄道ニ関スル事由ヲ陳フ、更ニ\n       <persName corresp=\"#pers_大迫\">\n<surname>\n         大迫\n        </surname>\n</persName>\n       次長ニ面シテ同シク京坂鉄道ノ事ヲ請願ス、畢テ\n       <placeName corresp=\"#place_芝\">\n        芝\n       </placeName>\n       離宮ニ抵リ\n       <placeName corresp=\"#place_ドイツ\">\n        独乙\n       </placeName>\n       皇弟ノ御安着ヲ祝シ、</div>",
         "11:00:00": "<div><time when=\"11:00:00\">\n        午前十一時\n       </time>\n       海軍省ニ於テ大臣ニ面会シテ浦賀船渠ノ事ニ関シテ詳細事情ヲ陳述シ、</div>",
         "12:00:00": "<div><time when=\"12:00:00\">\n        十二時\n       </time>\n       過帝国ホテ\n       <pb corresp=\"#pageB1094\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/120/full/max/0/default.jpg\" n=\"B1094\" source=\"#pageB1094\"/>\n       ルニ午餐シ、午後商業会議所新築移転ヲ一覧ス、</div>",
         "14:00:00": "<div><time when=\"14:00:00\">\n        二時\n       </time>\n       日本鉄道会社ノ重役会ニ列シ、</div>",
         "18:00:00": "<div><time when=\"18:00:00\">\n        午後六時\n       </time>\n       帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-0181\">\n<head>\n<date when=\"1899-06-30\">\n        六月三十日\n       </date>\n</head>\n<p>\n       雨、\n       <time when=\"09:00:00\">\n        午前九時\n       </time>\n       参謀本部ニ於テ大生大佐ニ面会シ京坂鉄道ニ関スル事由ヲ陳フ、更ニ\n       <persName corresp=\"#pers_大迫\">\n<surname>\n         大迫\n        </surname>\n</persName>\n       次長ニ面シテ同シク京坂鉄道ノ事ヲ請願ス、畢テ\n       <placeName corresp=\"#place_芝\">\n        芝\n       </placeName>\n       離宮ニ抵リ独乙皇弟ノ御安着ヲ祝シ、\n       <time when=\"11:00:00\">\n        午前十一時\n       </time>\n       海軍省ニ於テ大臣ニ面会シテ浦賀船渠ノ事ニ関シテ詳細事情ヲ陳述シ、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n       過帝国ホテ\n       <pb corresp=\"#pageB1094\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/120/full/max/0/default.jpg\" n=\"B1094\" source=\"#pageB1094\"/>\n       ルニ午餐シ、午後商業会議所新築移転ヲ一覧ス、\n       <time when=\"14:00:00\">\n        二時\n       </time>\n       日本鉄道会社ノ重役会ニ列シ、\n       <time when=\"18:00:00\">\n        午後六時\n       </time>\n       帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-0181\">\n<head>\n<date when=\"1899-06-30\">\n        六月三十日\n       </date>\n</head>\n<p>\n       雨、\n       <time when=\"09:00:00\">\n        午前九時\n       </time>\n       参謀本部ニ於テ大生大佐ニ面会シ京坂鉄道ニ関スル事由ヲ陳フ、更ニ\n       <persName corresp=\"#pers_大迫\">\n<surname>\n         大迫\n        </surname>\n</persName>\n       次長ニ面シテ同シク京坂鉄道ノ事ヲ請願ス、畢テ\n       <placeName corresp=\"#place_芝\">\n        芝\n       </placeName>\n       離宮ニ抵リ\n       <placeName corresp=\"#place_ドイツ\">\n        独乙\n       </placeName>\n       皇弟ノ御安着ヲ祝シ、\n       <time when=\"11:00:00\">\n        午前十一時\n       </time>\n       海軍省ニ於テ大臣ニ面会シテ浦賀船渠ノ事ニ関シテ詳細事情ヲ陳述シ、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n       過帝国ホテ\n       <pb corresp=\"#pageB1094\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/120/full/max/0/default.jpg\" n=\"B1094\" source=\"#pageB1094\"/>\n       ルニ午餐シ、午後商業会議所新築移転ヲ一覧ス、\n       <time when=\"14:00:00\">\n        二時\n       </time>\n       日本鉄道会社ノ重役会ニ列シ、\n       <time when=\"18:00:00\">\n        午後六時\n       </time>\n       帰宿ス\n      </p>\n</div>",
     "year": "1899",
     "yearAndMonth": "1899-06"
 }

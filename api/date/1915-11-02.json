@@ -1,7 +1,11 @@
 {
     "agential": [
-        "米倉",
-        "有田"
+        "有田",
+        "米倉"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/有田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/米倉"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/909",
     "category": {
@@ -18,7 +22,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-11",
     "date_lvl2": "1915-11-02",
-    "description": "\n\n\n          十一月二日\n         \n         火\n        \n\n         曇、\n         \n          午前七時\n         \n         起床、入浴シテ、朝飧ヲホテル食堂ニ於テス、\n         \n          午前九時\n         \n         春洋丸ニ帰ル、\n         \n          有田\n         \n         領事、\n         \n\n           米倉\n          \n\n         氏等十数名送別ノ為メ船ニ来ル、\n         \n\n           有田\n          \n\n         氏其他ノ地方有力者ヲ会シテ神宮奉賛会ノ挙ヲ説明シ、其賛同ト献金勧募ノ事ヲ依頼ス、書類数種ヲ領事ニ交付ス、\n         \n          午前十時\n         \n         開帆、風強クシテ船ノ動揺甚タシ、終日甲板上ニ於テ散歩シ、又、喫煙室ニ在テ談話ス、夜飧後、遊戯ニ閑ヲ消ス、夜\n         \n          十二時\n         \n         就寝ス\n        \n",
+    "description": "\n\n\n          十一月二日\n         \n         火\n        \n\n         曇、\n         \n          午前七時\n         \n         起床、入浴シテ、朝飧ヲホテル食堂ニ於テス、\n         \n          午前九時\n         \n         春洋丸ニ帰ル、\n         \n\n           有田\n          \n\n         領事、\n         \n\n           米倉\n          \n\n         氏等十数名送別ノ為メ船ニ来ル、\n         \n\n           有田\n          \n\n         氏其他ノ地方有力者ヲ会シテ神宮奉賛会ノ挙ヲ説明シ、其賛同ト献金勧募ノ事ヲ依頼ス、書類数種ヲ領事ニ交付ス、\n         \n          午前十時\n         \n         開帆、風強クシテ船ノ動揺甚タシ、終日甲板上ニ於テ散歩シ、又、喫煙室ニ在テ談話ス、夜飧後、遊戯ニ閑ヲ消ス、夜\n         \n          十二時\n         \n         就寝ス\n        \n",
     "label": "十一月二日                  火",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20001m-0302",
@@ -26,9 +30,8 @@
     "prev": "DKB20001m-0300",
     "sort": "DKB20001m-0301",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "有田"
-    ],
+    "spatial": [],
+    "spatial_uri": [],
     "temporal": "1915-11-02",
     "texts": [
         "DKB20001m-0298",
@@ -54,12 +57,12 @@
     ],
     "time": {
         "07:00:00": "<div>曇、<time when=\"07:00:00\">\n          午前七時\n         </time>\n         起床、入浴シテ、朝飧ヲホテル食堂ニ於テス、</div>",
-        "09:00:00": "<div><time when=\"09:00:00\">\n          午前九時\n         </time>\n         春洋丸ニ帰ル、\n         <placeName corresp=\"#place_有田\">\n          有田\n         </placeName>\n         領事、\n         <persName corresp=\"#pers_米倉\">\n<surname>\n           米倉\n          </surname>\n</persName>\n         氏等十数名送別ノ為メ船ニ来ル、\n         <persName corresp=\"#pers_有田\">\n<surname>\n           有田\n          </surname>\n</persName>\n         氏其他ノ地方有力者ヲ会シテ神宮奉賛会ノ挙ヲ説明シ、其賛同ト献金勧募ノ事ヲ依頼ス、書類数種ヲ領事ニ交付ス、</div>",
+        "09:00:00": "<div><time when=\"09:00:00\">\n          午前九時\n         </time>\n         春洋丸ニ帰ル、\n         <persName corresp=\"#pers_有田\">\n<surname>\n           有田\n          </surname>\n</persName>\n         領事、\n         <persName corresp=\"#pers_米倉\">\n<surname>\n           米倉\n          </surname>\n</persName>\n         氏等十数名送別ノ為メ船ニ来ル、\n         <persName corresp=\"#pers_有田\">\n<surname>\n           有田\n          </surname>\n</persName>\n         氏其他ノ地方有力者ヲ会シテ神宮奉賛会ノ挙ヲ説明シ、其賛同ト献金勧募ノ事ヲ依頼ス、書類数種ヲ領事ニ交付ス、</div>",
         "10:00:00": "<div><time when=\"10:00:00\">\n          午前十時\n         </time>\n         開帆、風強クシテ船ノ動揺甚タシ、終日甲板上ニ於テ散歩シ、又、喫煙室ニ在テ談話ス、夜飧後、遊戯ニ閑ヲ消ス、夜</div>",
         "24:00:00": "<div><time when-iso=\"1915-11-03T00:00+0900\">\n          十二時\n         </time>\n         就寝ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB20001m-0301\">\n<head>\n<date when=\"1915-11-02\">\n          十一月二日\n         </date>\n         火\n        </head>\n<p>\n         曇、\n         <time when=\"07:00:00\">\n          午前七時\n         </time>\n         起床、入浴シテ、朝飧ヲホテル食堂ニ於テス、\n         <time when=\"09:00:00\">\n          午前九時\n         </time>\n         春洋丸ニ帰ル、\n         <placeName corresp=\"#place_有田\">\n          有田\n         </placeName>\n         領事、\n         <persName corresp=\"#pers_米倉\">\n<surname>\n           米倉\n          </surname>\n</persName>\n         氏等十数名送別ノ為メ船ニ来ル、\n         <persName corresp=\"#pers_有田\">\n<surname>\n           有田\n          </surname>\n</persName>\n         氏其他ノ地方有力者ヲ会シテ神宮奉賛会ノ挙ヲ説明シ、其賛同ト献金勧募ノ事ヲ依頼ス、書類数種ヲ領事ニ交付ス、\n         <time when=\"10:00:00\">\n          午前十時\n         </time>\n         開帆、風強クシテ船ノ動揺甚タシ、終日甲板上ニ於テ散歩シ、又、喫煙室ニ在テ談話ス、夜飧後、遊戯ニ閑ヲ消ス、夜\n         <time when-iso=\"1915-11-03T00:00+0900\">\n          十二時\n         </time>\n         就寝ス\n        </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB20001m-0301\">\n<head>\n<date when=\"1915-11-02\">\n          十一月二日\n         </date>\n         火\n        </head>\n<p>\n         曇、\n         <time when=\"07:00:00\">\n          午前七時\n         </time>\n         起床、入浴シテ、朝飧ヲホテル食堂ニ於テス、\n         <time when=\"09:00:00\">\n          午前九時\n         </time>\n         春洋丸ニ帰ル、\n         <persName corresp=\"#pers_有田\">\n<surname>\n           有田\n          </surname>\n</persName>\n         領事、\n         <persName corresp=\"#pers_米倉\">\n<surname>\n           米倉\n          </surname>\n</persName>\n         氏等十数名送別ノ為メ船ニ来ル、\n         <persName corresp=\"#pers_有田\">\n<surname>\n           有田\n          </surname>\n</persName>\n         氏其他ノ地方有力者ヲ会シテ神宮奉賛会ノ挙ヲ説明シ、其賛同ト献金勧募ノ事ヲ依頼ス、書類数種ヲ領事ニ交付ス、\n         <time when=\"10:00:00\">\n          午前十時\n         </time>\n         開帆、風強クシテ船ノ動揺甚タシ、終日甲板上ニ於テ散歩シ、又、喫煙室ニ在テ談話ス、夜飧後、遊戯ニ閑ヲ消ス、夜\n         <time when-iso=\"1915-11-03T00:00+0900\">\n          十二時\n         </time>\n         就寝ス\n        </p>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-11"
 }

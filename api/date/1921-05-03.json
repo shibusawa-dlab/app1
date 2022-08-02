@@ -3,6 +3,10 @@
         "荒井熊治",
         "佐々木"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/荒井熊治",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐々木"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1361",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,7 +22,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-05",
     "date_lvl2": "1921-05-03",
-    "description": "\n\n\n           三日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n\n             滝野川\n            \n            町在郷軍人総会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後〇半時\n            \n            ビシツプ・マツキス氏より御招待（\n            \n             東京\n            \n            クラブ）（スタージ氏招待ノ為メ）\n           \n\n\n\n\n             午後二時\n            \n            婦人平和協会発会式（如水会館）\n           \n\n\n\n\n             午後四半時\n            \n\n\n              荒井\n             \n\n              熊治\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後四―午後五時\n            \n\n\n              佐々木\n             \n\n            頭取ヲ御訪問ノ約（第一銀行）\n           \n\n\n",
+    "description": "\n\n\n           三日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n\n             滝野川\n            \n            町在郷軍人総会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後〇半時\n            \n            ビシツプ・マツキス氏より御招待（東京クラブ）（スタージ氏招待ノ為メ）\n           \n\n\n\n\n             午後二時\n            \n            婦人平和協会発会式（如水会館）\n           \n\n\n\n\n             午後四半時\n            \n\n\n              荒井\n             \n\n              熊治\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後四―午後五時\n            \n\n\n              佐々木\n             \n\n            頭取ヲ御訪問ノ約（\n            \n             第一銀行\n            \n            ）\n           \n\n\n",
     "label": "三日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0116",
@@ -29,8 +33,12 @@
     "spatial": [
         "滝野川",
         "飛鳥山邸",
-        "東京",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/滝野川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1921-05-03",
     "texts": [
@@ -59,7 +67,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_滝野川\">\n             滝野川\n            </placeName>\n            町在郷軍人総会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0115\">\n<head>\n<date when=\"1921-05-03\">\n           三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_滝野川\">\n             滝野川\n            </placeName>\n            町在郷軍人総会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇半時\n            </time>\n            ビシツプ・マツキス氏より御招待（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            クラブ）（スタージ氏招待ノ為メ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            婦人平和協会発会式（如水会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n<persName corresp=\"#pers_荒井熊治\">\n<surname>\n              荒井\n             </surname>\n<forename>\n              熊治\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time from=\"16:00:00\" to=\"17:00:00\">\n             午後四―午後五時\n            </time>\n<persName corresp=\"#pers_佐々木\">\n<surname>\n              佐々木\n             </surname>\n</persName>\n            頭取ヲ御訪問ノ約（第一銀行）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0115\">\n<head>\n<date when=\"1921-05-03\">\n           三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_滝野川\">\n             滝野川\n            </placeName>\n            町在郷軍人総会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇半時\n            </time>\n            ビシツプ・マツキス氏より御招待（東京クラブ）（スタージ氏招待ノ為メ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            婦人平和協会発会式（如水会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n<persName corresp=\"#pers_荒井熊治\">\n<surname>\n              荒井\n             </surname>\n<forename>\n              熊治\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time from=\"16:00:00\" to=\"17:00:00\">\n             午後四―午後五時\n            </time>\n<persName corresp=\"#pers_佐々木\">\n<surname>\n              佐々木\n             </surname>\n</persName>\n            頭取ヲ御訪問ノ約（\n            <orgName>\n             第一銀行\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-05"
 }

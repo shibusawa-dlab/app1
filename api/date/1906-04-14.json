@@ -1,9 +1,15 @@
 {
     "agential": [
         "徳川",
-        "兼子",
-        "愛子",
-        "元治"
+        "渋沢兼子",
+        "明石愛子",
+        "渋沢元治"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢兼子",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/明石愛子",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢元治"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/442",
     "category": {
@@ -31,6 +37,10 @@
     "spatial": [
         "深川",
         "王子"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/深川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子"
     ],
     "temporal": "1906-04-14",
     "texts": [
@@ -60,11 +70,11 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n        午前九時\n       </time>\n       青山練兵場ニ抵リ近衛師団ノ弔魂祭ニ参列ス、</div>",
         "10:30:00": "<div><time when=\"10:30:00\">\n        十時半\n       </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n         徳川\n        </surname>\n</persName>\n       公爵邸ヲ訪ヒ、不在面会ヲ得ス、</div>",
         "12:00:00": "<div><time when=\"12:00:00\">\n        十二時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ抵リテ午飧ス、食後事務所ニ抵リ、</div>",
-        "14:00:00": "<div><time when=\"14:00:00\">\n        午後二時\n       </time>\n<persName corresp=\"#pers_兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_愛子\">\n<forename>\n         愛子\n        </forename>\n</persName>\n       ト共ニ\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       宅ニ抵リ、\n       <persName corresp=\"#pers_元治\">\n<forename>\n         元治\n        </forename>\n</persName>\n       結婚ノ式ニ参列ス、</div>",
+        "14:00:00": "<div><time when=\"14:00:00\">\n        午後二時\n       </time>\n<persName corresp=\"#pers_渋沢兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_明石愛子\">\n<forename>\n         愛子\n        </forename>\n</persName>\n       ト共ニ\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       宅ニ抵リ、\n       <persName corresp=\"#pers_渋沢元治\">\n<forename>\n         元治\n        </forename>\n</persName>\n       結婚ノ式ニ参列ス、</div>",
         "23:00:00": "<div><time when=\"23:00:00\">\n        午後十一時\n       </time>\n       頃総テ結了シテ\n       <placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10014m-0103\">\n<head>\n<date when=\"1906-04-14\">\n        四月十四日\n       </date>\n       晴　軽暖　　　　　　　　　　　起床\n       <time when=\"07:00:00\">\n        七時\n       </time>\n       就蓐\n       <time when-iso=\"1906-04-15T00:00+0900\">\n        十二時\n       </time>\n</head>\n<p>\n       起床後庭園ヲ散歩ス、\n       <time when=\"07:30:00\">\n        七時半\n       </time>\n       朝飧ヲ畢リ、\n       <time when=\"09:00:00\">\n        午前九時\n       </time>\n       青山練兵場ニ抵リ近衛師団ノ弔魂祭ニ参列ス、\n       <time when=\"10:30:00\">\n        十時半\n       </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n         徳川\n        </surname>\n</persName>\n       公爵邸ヲ訪ヒ、不在面会ヲ得ス、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ抵リテ午飧ス、食後事務所ニ抵リ、\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n<persName corresp=\"#pers_兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_愛子\">\n<forename>\n         愛子\n        </forename>\n</persName>\n       ト共ニ\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       宅ニ抵リ、\n       <persName corresp=\"#pers_元治\">\n<forename>\n         元治\n        </forename>\n</persName>\n       結婚ノ式ニ参列ス、\n       <time when=\"23:00:00\">\n        午後十一時\n       </time>\n       頃総テ結了シテ\n       <placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10014m-0103\">\n<head>\n<date when=\"1906-04-14\">\n        四月十四日\n       </date>\n       晴　軽暖　　　　　　　　　　　起床\n       <time when=\"07:00:00\">\n        七時\n       </time>\n       就蓐\n       <time when-iso=\"1906-04-15T00:00+0900\">\n        十二時\n       </time>\n</head>\n<p>\n       起床後庭園ヲ散歩ス、\n       <time when=\"07:30:00\">\n        七時半\n       </time>\n       朝飧ヲ畢リ、\n       <time when=\"09:00:00\">\n        午前九時\n       </time>\n       青山練兵場ニ抵リ近衛師団ノ弔魂祭ニ参列ス、\n       <time when=\"10:30:00\">\n        十時半\n       </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n         徳川\n        </surname>\n</persName>\n       公爵邸ヲ訪ヒ、不在面会ヲ得ス、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ抵リテ午飧ス、食後事務所ニ抵リ、\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n<persName corresp=\"#pers_渋沢兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_明石愛子\">\n<forename>\n         愛子\n        </forename>\n</persName>\n       ト共ニ\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       宅ニ抵リ、\n       <persName corresp=\"#pers_渋沢元治\">\n<forename>\n         元治\n        </forename>\n</persName>\n       結婚ノ式ニ参列ス、\n       <time when=\"23:00:00\">\n        午後十一時\n       </time>\n       頃総テ結了シテ\n       <placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1906",
     "yearAndMonth": "1906-04"
 }

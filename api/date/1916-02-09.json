@@ -2,6 +2,9 @@
     "agential": [
         "浅野総一郎"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野総一郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1198",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-02",
     "date_lvl2": "1916-02-09",
-    "description": "\n\n\n           九日\n          \n          （水）\n         \n\n\n\n\n             午後五時半\n            \n            断済\n            \n             飛鳥山\n            \n            邸ヨリ\n            \n\n\n              浅野\n             \n\n              総一郎\n             \n\n            氏ヨリ御案内（\n            \n             田町\n            \n            同氏邸）\n           \n\n\n",
+    "description": "\n\n\n           九日\n          \n          （水）\n         \n\n\n\n\n             午後五時半\n            \n            断済\n            \n             飛鳥山邸\n            \n            ヨリ\n            \n\n\n              浅野\n             \n\n              総一郎\n             \n\n            氏ヨリ御案内（\n            \n             田町\n            \n            同氏邸）\n           \n\n\n",
     "label": "九日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0039",
@@ -26,8 +29,12 @@
     "sort": "DKB20018m-0038",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
-        "田町"
+        "飛鳥山邸",
+        "田町_(東京都港区)"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/田町_(東京都港区)"
     ],
     "temporal": "1916-02-09",
     "texts": [
@@ -53,10 +60,10 @@
         "DKB20019m-0197"
     ],
     "time": {
-        "17:30:00": "<div><time when=\"17:30:00\">\n             午後五時半\n            </time>\n            断済\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸ヨリ\n            <lb/>\n<persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <placeName corresp=\"#place_田町\">\n             田町\n            </placeName>\n            同氏邸）</div>"
+        "17:30:00": "<div><time when=\"17:30:00\">\n             午後五時半\n            </time>\n            断済\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ヨリ\n            <lb/>\n<persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <placeName corresp=\"#place_田町_(東京都港区)\">\n             田町\n            </placeName>\n            同氏邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0038\">\n<head>\n<date when=\"1916-02-09\">\n           九日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五時半\n            </time>\n            断済\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸ヨリ\n            <lb/>\n<persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <placeName corresp=\"#place_田町\">\n             田町\n            </placeName>\n            同氏邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0038\">\n<head>\n<date when=\"1916-02-09\">\n           九日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五時半\n            </time>\n            断済\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ヨリ\n            <lb/>\n<persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <placeName corresp=\"#place_田町_(東京都港区)\">\n             田町\n            </placeName>\n            同氏邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-02"
 }

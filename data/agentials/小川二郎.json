@@ -4,7 +4,7 @@
             "color": "lightgrey",
             "from": "浅野",
             "to": "大倉",
-            "value": 29
+            "value": 30
         },
         {
             "color": "lightgrey",
@@ -28,6 +28,12 @@
             "color": "lightgrey",
             "from": "浅野",
             "to": "安田",
+            "value": 11
+        },
+        {
+            "color": "lightgrey",
+            "from": "浅野",
+            "to": "渋沢篤二",
             "value": 10
         },
         {
@@ -40,7 +46,7 @@
             "color": "lightgrey",
             "from": "浅野",
             "to": "大川",
-            "value": 14
+            "value": 17
         },
         {
             "color": "lightgrey",
@@ -51,7 +57,7 @@
         {
             "color": "lightgrey",
             "from": "浅野",
-            "to": "兼子",
+            "to": "渋沢兼子",
             "value": 11
         },
         {
@@ -87,8 +93,8 @@
         {
             "color": "lightgrey",
             "from": "堀越",
-            "to": "兼子",
-            "value": 16
+            "to": "渋沢兼子",
+            "value": 14
         },
         {
             "color": "lightgrey",
@@ -99,20 +105,14 @@
         {
             "color": "lightgrey",
             "from": "堀越",
-            "to": "中野",
-            "value": 10
-        },
-        {
-            "color": "lightgrey",
-            "from": "堀越",
             "to": "頭本",
-            "value": 14
+            "value": 13
         },
         {
             "color": "lightgrey",
             "from": "植村",
             "to": "大倉",
-            "value": 10
+            "value": 17
         }
     ],
     "nodes": [
@@ -121,7 +121,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 213,
+            "count": 228,
             "id": "浅野",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "浅野",
@@ -132,7 +132,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 52,
+            "count": 39,
             "id": "堀越",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "堀越",
@@ -143,7 +143,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 10,
+            "count": 17,
             "id": "植村",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "植村",
@@ -154,10 +154,21 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 27,
-            "id": "兼子",
+            "count": 47,
+            "id": "大倉",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "兼子",
+            "label": "大倉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 25,
+            "id": "渋沢兼子",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "渋沢兼子",
             "shape": "image"
         },
         {
@@ -180,17 +191,6 @@
             "id": "佐々木",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "佐々木",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 39,
-            "id": "大倉",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "大倉",
             "shape": "image"
         },
         {
@@ -231,7 +231,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 10,
+            "count": 11,
             "id": "安田",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "安田",
@@ -265,7 +265,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 14,
+            "count": 17,
             "id": "大川",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "大川",
@@ -287,10 +287,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 12,
-            "id": "桂",
+            "count": 13,
+            "id": "頭本",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "桂",
+            "label": "頭本",
             "shape": "image"
         },
         {
@@ -298,10 +298,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 10,
-            "id": "近藤",
+            "count": 12,
+            "id": "桂",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "近藤",
+            "label": "桂",
             "shape": "image"
         },
         {
@@ -321,9 +321,10 @@
                 "border": "lightgreen"
             },
             "count": 10,
-            "id": "中野",
+            "description": "\n     渋沢 篤二（澁澤 篤二、しぶさわ とくじ、1872年11月16日〈明治5年10月16日〉 - 1932年〈昭和7年〉10月6日）は、日本の実業家。澁澤倉庫取締役会長。族籍は東京府華族。\n    ",
+            "id": "渋沢篤二",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "中野",
+            "label": "渋沢篤二",
             "shape": "image"
         },
         {
@@ -331,10 +332,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 14,
-            "id": "頭本",
+            "count": 10,
+            "id": "近藤",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "頭本",
+            "label": "近藤",
             "shape": "image"
         }
     ]

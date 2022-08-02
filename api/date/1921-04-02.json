@@ -3,6 +3,10 @@
         "徳川",
         "藤山雷太"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/藤山雷太"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1357",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,7 +22,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-04",
     "date_lvl2": "1921-04-02",
-    "description": "\n\n\n           二日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n\n\n              徳川\n             \n\n            家顧問会（\n            \n             第六天\n            \n            同邸）\n           \n\n\n\n\n\n             午前十一時\n            \n\n\n              藤山\n             \n\n              雷太\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            国際聯盟協会理事会（築地精養軒）\n           \n\n\n\n\n             〃四時\n            \n            同評議員会（〃〃）\n           \n\n\n\n\n             午後六時\n            \n            帝国飛行協会主催、日米飛行懇話会（築地精養軒）\n           \n\n\n",
+    "description": "\n\n\n           二日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n\n\n              徳川\n             \n\n            家顧問会（\n            \n             第六天\n            \n            同邸）\n           \n\n\n\n\n\n             午前十一時\n            \n\n\n              藤山\n             \n\n              雷太\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            国際聯盟協会理事会（\n            \n             築地\n            \n\n             精養軒\n            \n            ）\n           \n\n\n\n\n             〃四時\n            \n            同評議員会（〃〃）\n           \n\n\n\n\n             午後六時\n            \n            帝国飛行協会主催、日米飛行懇話会（\n            \n             築地\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
     "label": "二日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0085",
@@ -27,8 +31,14 @@
     "sort": "DKB20023m-0084",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "第六天",
-        "日本橋兜町"
+        "第六天町",
+        "日本橋兜町",
+        "築地"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/第六天町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
     ],
     "temporal": "1921-04-02",
     "texts": [
@@ -54,10 +64,10 @@
         "DKB20016m-0095"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家顧問会（\n            <placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n            同邸）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家顧問会（\n            <placeName corresp=\"#place_第六天町\">\n             第六天\n            </placeName>\n            同邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0084\">\n<head>\n<date when=\"1921-04-02\">\n           二日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家顧問会（\n            <placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2518\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1357/full/max/0/default.jpg\" n=\"B2518\" source=\"#pageB2518\"/>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_藤山雷太\">\n<surname>\n              藤山\n             </surname>\n<forename>\n              雷太\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            国際聯盟協会理事会（築地精養軒）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             〃四時\n            </time>\n            同評議員会（〃〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            帝国飛行協会主催、日米飛行懇話会（築地精養軒）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0084\">\n<head>\n<date when=\"1921-04-02\">\n           二日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家顧問会（\n            <placeName corresp=\"#place_第六天町\">\n             第六天\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2518\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1357/full/max/0/default.jpg\" n=\"B2518\" source=\"#pageB2518\"/>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_藤山雷太\">\n<surname>\n              藤山\n             </surname>\n<forename>\n              雷太\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            国際聯盟協会理事会（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             〃四時\n            </time>\n            同評議員会（〃〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            帝国飛行協会主催、日米飛行懇話会（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-04"
 }

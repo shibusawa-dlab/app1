@@ -3,6 +3,10 @@
         "岩崎久弥",
         "藤山雷太"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岩崎久弥",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/藤山雷太"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1415",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,7 +22,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-12",
     "date_lvl2": "1922-12-21",
-    "description": "\n\n\n           廿一日\n          \n          （木）\n         \n\n\n\n\n             午前八半時\n            \n            協調会庶務課長来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              岩崎\n             \n\n              久弥\n             \n\n            氏ト御会談約（\n            \n             丸ノ内\n            \n            同事務所）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              藤山\n             \n\n              雷太\n             \n\n            氏ヨリ\n            \n             東京\n            \n            会館開館式ニ御案内（\n            \n             東京\n            \n            会館）\n           \n\n\n\n\n             午後二時\n            \n            協調会ヘ御出向\n           \n\n\n\n\n             午後三時\n            \n            明治神宮造営局評議員会（内務省会議室）\n           \n\n\n\n\n             午後四時\n            \n            同族会社重役会（本社）\n           \n\n\n\n\n             午後七半時\n            \n\n             英国\n            \n            大使ヨリ御案内（同大使館）燕尾服、略章\n           \n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （木）\n         \n\n\n\n\n             午前八半時\n            \n            協調会庶務課長来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              岩崎\n             \n\n              久弥\n             \n\n            氏ト御会談約（\n            \n             丸ノ内\n            \n            同事務所）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              藤山\n             \n\n              雷太\n             \n\n            氏ヨリ東京会館開館式ニ御案内（東京会館）\n           \n\n\n\n\n             午後二時\n            \n            協調会ヘ御出向\n           \n\n\n\n\n             午後三時\n            \n            明治神宮造営局評議員会（内務省会議室）\n           \n\n\n\n\n             午後四時\n            \n            同族会社重役会（本社）\n           \n\n\n\n\n             午後七半時\n            \n\n             英国\n            \n            大使ヨリ御案内（同大使館）燕尾服、略章\n           \n\n\n",
     "label": "廿一日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0320",
@@ -29,8 +33,12 @@
     "spatial": [
         "飛鳥山邸",
         "丸ノ内",
-        "東京",
         "イギリス"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/丸ノ内",
+        "https://shibusawa-dlab.github.io/lab1/api/place/イギリス"
     ],
     "temporal": "1922-12-21",
     "texts": [
@@ -59,7 +67,7 @@
         "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n            協調会庶務課長来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0319\">\n<head>\n<date when=\"1922-12-21\">\n           廿一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            協調会庶務課長来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_岩崎久弥\">\n<surname>\n              岩崎\n             </surname>\n<forename>\n              久弥\n             </forename>\n</persName>\n            氏ト御会談約（\n            <placeName corresp=\"#place_丸ノ内\">\n             丸ノ内\n            </placeName>\n            同事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_藤山雷太\">\n<surname>\n              藤山\n             </surname>\n<forename>\n              雷太\n             </forename>\n</persName>\n            氏ヨリ\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            会館開館式ニ御案内（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            協調会ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            明治神宮造営局評議員会（内務省会議室）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            同族会社重役会（本社）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:30:00\">\n             午後七半時\n            </time>\n<placeName corresp=\"#place_イギリス\">\n             英国\n            </placeName>\n            大使ヨリ御案内（同大使館）燕尾服、略章\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0319\">\n<head>\n<date when=\"1922-12-21\">\n           廿一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            協調会庶務課長来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_岩崎久弥\">\n<surname>\n              岩崎\n             </surname>\n<forename>\n              久弥\n             </forename>\n</persName>\n            氏ト御会談約（\n            <placeName corresp=\"#place_丸ノ内\">\n             丸ノ内\n            </placeName>\n            同事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_藤山雷太\">\n<surname>\n              藤山\n             </surname>\n<forename>\n              雷太\n             </forename>\n</persName>\n            氏ヨリ東京会館開館式ニ御案内（東京会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            協調会ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            明治神宮造営局評議員会（内務省会議室）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            同族会社重役会（本社）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:30:00\">\n             午後七半時\n            </time>\n<placeName corresp=\"#place_イギリス\">\n             英国\n            </placeName>\n            大使ヨリ御案内（同大使館）燕尾服、略章\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-12"
 }

@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/29",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -15,7 +16,7 @@
     "date_lvl0": "1868",
     "date_lvl1": "1868-08",
     "date_lvl2": "1868-08-07",
-    "description": "\n\n\n        八月七日\n       \n       朝雨夕晴\n       \n        六月十九日\n       \n       金\n      \n\n       午後第\n       \n        二時半\n       \n       港口御越、舟を雇へ海中を乗廻し、\n       \n        ブリタニー\n       \n       といふ大軍艦の碇泊せる辺を乗廻し、港口御一覧、本港は入口甚隘く、僅壱里不足之《（衍）》ニ而両縁之山特角し、恰も人の造作せることし、港内の丸く湾になりて尤深しといふ周囲凡九里程ありといふ、仏人曰、\n       \n        シヤルブー\n        ル\n       \n       は《（エ）》人功もて成せる地にて尤堅牢なれとも、\n       \n        ブレスト\n       \n       は天造の要領之地なりと、所以《（マヽ）》に諸事宏壮を極メしは\n       \n        ブレスト\n       \n       の方其勝るを覚ゆ\n       \n       第\n       \n        六時半\n       \n       御帰館、明日当地御出立之積、理装いたす\n      \n",
+    "description": "\n\n\n        八月七日\n       \n       朝雨夕晴\n       \n        六月十九日\n       \n       金\n      \n\n       午後第\n       \n        二時半\n       \n       港口御越、舟を雇へ海中を乗廻し、\n       \n        ブリタニー\n       \n       といふ大軍艦の碇泊せる辺を乗廻し、港口御一覧、本港は入口甚隘く、僅壱里不足之《（衍）》ニ而両縁之山特角し、恰も人の造作せることし、港内の丸く湾になりて尤深しといふ周囲凡九里程ありといふ、仏人曰、\n       \n        シヤルブー\n        \n        ル\n       \n       は《（エ）》人功もて成せる地にて尤堅牢なれとも、\n       \n        ブレスト\n       \n       は天造の要領之地なりと、所以《（マヽ）》に諸事宏壮を極メしは\n       \n        ブレスト\n       \n       の方其勝るを覚ゆ\n       \n       第\n       \n        六時半\n       \n       御帰館、明日当地御出立之積、理装いたす\n      \n",
     "label": "八月七日              朝雨夕晴               六月十九日              金",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10001m-0007",
@@ -25,8 +26,13 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "ブリタニー",
-        "シヤルブール",
-        "ブレスト"
+        "シェルブール＝オクトヴィル",
+        "ブレスト_(フランス)"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/ブリタニー",
+        "https://shibusawa-dlab.github.io/lab1/api/place/シェルブール＝オクトヴィル",
+        "https://shibusawa-dlab.github.io/lab1/api/place/ブレスト_(フランス)"
     ],
     "temporal": "1868-08-07",
     "texts": [
@@ -52,11 +58,11 @@
         "DKB10001m-0082"
     ],
     "time": {
-        "14:30:00": "<div>午後第<time when=\"14:30:00\">\n        二時半\n       </time>\n       港口御越、舟を雇へ海中を乗廻し、\n       <placeName corresp=\"#place_ブリタニー\">\n        ブリタニー\n       </placeName>\n       といふ大軍艦の碇泊せる辺を乗廻し、港口御一覧、本港は入口甚隘く、僅壱里不足之《（衍）》ニ而両縁之山特角し、恰も人の造作せることし、港内の丸く湾になりて尤深しといふ周囲凡九里程ありといふ、仏人曰、\n       <placeName corresp=\"#place_シヤルブール\">\n        シヤルブー\n        ル\n       </placeName>\n       は《（エ）》人功もて成せる地にて尤堅牢なれとも、\n       <placeName corresp=\"#place_ブレスト\">\n        ブレスト\n       </placeName>\n       は天造の要領之地なりと、所以《（マヽ）》に諸事宏壮を極メしは\n       <placeName corresp=\"#place_ブレスト\">\n        ブレスト\n       </placeName>\n       の方其勝るを覚ゆ\n       <lb/>\n       第</div>",
+        "14:30:00": "<div>午後第<time when=\"14:30:00\">\n        二時半\n       </time>\n       港口御越、舟を雇へ海中を乗廻し、\n       <placeName corresp=\"#place_ブリタニー\">\n        ブリタニー\n       </placeName>\n       といふ大軍艦の碇泊せる辺を乗廻し、港口御一覧、本港は入口甚隘く、僅壱里不足之《（衍）》ニ而両縁之山特角し、恰も人の造作せることし、港内の丸く湾になりて尤深しといふ周囲凡九里程ありといふ、仏人曰、\n       <placeName corresp=\"#place_シェルブール＝オクトヴィル\">\n        シヤルブー\n        <pb corresp=\"#pageB1004\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/30/full/max/0/default.jpg\" n=\"B1004\" source=\"#pageB1004\"/>\n        ル\n       </placeName>\n       は《（エ）》人功もて成せる地にて尤堅牢なれとも、\n       <placeName corresp=\"#place_ブレスト_(フランス)\">\n        ブレスト\n       </placeName>\n       は天造の要領之地なりと、所以《（マヽ）》に諸事宏壮を極メしは\n       <placeName corresp=\"#place_ブレスト_(フランス)\">\n        ブレスト\n       </placeName>\n       の方其勝るを覚ゆ\n       <lb/>\n       第</div>",
         "18:30:00": "<div><time when=\"18:30:00\">\n        六時半\n       </time>\n       御帰館、明日当地御出立之積、理装いたす</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10001m-0006\">\n<head>\n<date when=\"1868-08-07\">\n        八月七日\n       </date>\n       朝雨夕晴\n       <date type=\"旧暦\" when=\"1868-08-07\">\n        六月十九日\n       </date>\n       金\n      </head>\n<p>\n       午後第\n       <time when=\"14:30:00\">\n        二時半\n       </time>\n       港口御越、舟を雇へ海中を乗廻し、\n       <placeName corresp=\"#place_ブリタニー\">\n        ブリタニー\n       </placeName>\n       といふ大軍艦の碇泊せる辺を乗廻し、港口御一覧、本港は入口甚隘く、僅壱里不足之《（衍）》ニ而両縁之山特角し、恰も人の造作せることし、港内の丸く湾になりて尤深しといふ周囲凡九里程ありといふ、仏人曰、\n       <placeName corresp=\"#place_シヤルブール\">\n        シヤルブー\n        ル\n       </placeName>\n       は《（エ）》人功もて成せる地にて尤堅牢なれとも、\n       <placeName corresp=\"#place_ブレスト\">\n        ブレスト\n       </placeName>\n       は天造の要領之地なりと、所以《（マヽ）》に諸事宏壮を極メしは\n       <placeName corresp=\"#place_ブレスト\">\n        ブレスト\n       </placeName>\n       の方其勝るを覚ゆ\n       <lb/>\n       第\n       <time when=\"18:30:00\">\n        六時半\n       </time>\n       御帰館、明日当地御出立之積、理装いたす\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10001m-0006\">\n<head>\n<date when=\"1868-08-07\">\n        八月七日\n       </date>\n       朝雨夕晴\n       <date type=\"旧暦\" when=\"1868-08-07\">\n        六月十九日\n       </date>\n       金\n      </head>\n<p>\n       午後第\n       <time when=\"14:30:00\">\n        二時半\n       </time>\n       港口御越、舟を雇へ海中を乗廻し、\n       <placeName corresp=\"#place_ブリタニー\">\n        ブリタニー\n       </placeName>\n       といふ大軍艦の碇泊せる辺を乗廻し、港口御一覧、本港は入口甚隘く、僅壱里不足之《（衍）》ニ而両縁之山特角し、恰も人の造作せることし、港内の丸く湾になりて尤深しといふ周囲凡九里程ありといふ、仏人曰、\n       <placeName corresp=\"#place_シェルブール＝オクトヴィル\">\n        シヤルブー\n        <pb corresp=\"#pageB1004\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/30/full/max/0/default.jpg\" n=\"B1004\" source=\"#pageB1004\"/>\n        ル\n       </placeName>\n       は《（エ）》人功もて成せる地にて尤堅牢なれとも、\n       <placeName corresp=\"#place_ブレスト_(フランス)\">\n        ブレスト\n       </placeName>\n       は天造の要領之地なりと、所以《（マヽ）》に諸事宏壮を極メしは\n       <placeName corresp=\"#place_ブレスト_(フランス)\">\n        ブレスト\n       </placeName>\n       の方其勝るを覚ゆ\n       <lb/>\n       第\n       <time when=\"18:30:00\">\n        六時半\n       </time>\n       御帰館、明日当地御出立之積、理装いたす\n      </p>\n</div>",
     "year": "1868",
     "yearAndMonth": "1868-08"
 }

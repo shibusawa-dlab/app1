@@ -1,9 +1,15 @@
 {
     "agential": [
         "穂積",
-        "浅田中将",
-        "井口少将",
+        "浅田",
+        "井口",
         "伊藤"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/穂積",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/井口",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/伊藤"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/418",
     "category": {
@@ -20,7 +26,7 @@
     "date_lvl0": "1905",
     "date_lvl1": "1905-12",
     "date_lvl2": "1905-12-10",
-    "description": "\n\n\n        十二月十日\n       \n       日　半晴　風ナシ\n      \n\n\n        午前七時半\n       \n       起床、例ニヨリ冷水摩擦ヲ為ス、\n       \n        八時\n       \n       朝飧ヲ畢リ、\n       \n        午前九時半\n       \n       牛込\n       \n\n         穂積\n        \n\n       邸ヲ訪ヒ、更ニ学生誘掖会寄宿舎ニ抵リ歓迎会ニ列ス、\n       \n\n         浅田\n        \n        中将\n       \n       外諸将校来会ス、式ニ臨ミテ祝辞ヲ朗読ス、式畢テ一同午飧シ、更ニ\n       \n\n         穂積\n        \n\n       氏ヲ訪ヒ、\n       \n        午後一時\n       \n       陸軍参謀本部ニ抵リ、歓迎会ノ手続ニ関シ\n       \n\n         井口\n        \n        少将\n       \n       ト談話ス、\n       \n        二時\n       \n       東京市役所ニ抵リ歓迎会ノ準備ヲ協議シ、\n       \n        三時\n       \n       事務所ニ抵リテ\n       \n\n         伊藤\n        \n\n       侯爵歓迎ノ事ニ関シ書状ヲ発シ、且\n       \n        十六日\n       \n       瓢屋ニ於ケル宴会ノ事ヲ指揮シ、\n       \n        四時\n       \n\n        上野\n       \n\n        精養軒\n       \n       ニ抵リ\n       \n\n         浅田\n        \n        中将\n       \n       招待ノ宴会ニ出席シ食卓上一場ノ演説ヲ為シ、畢テ夜\n       \n        八時半\n       \n\n        王子別荘\n       \n       ニ帰宿ス\n      \n",
+    "description": "\n\n\n        十二月十日\n       \n       日　半晴　風ナシ\n      \n\n\n        午前七時半\n       \n       起床、例ニヨリ冷水摩擦ヲ為ス、\n       \n        八時\n       \n       朝飧ヲ畢リ、\n       \n        午前九時半\n       \n       牛込\n       \n\n         穂積\n        \n\n       邸ヲ訪ヒ、更ニ学生誘掖会寄宿舎ニ抵リ歓迎会ニ列ス、\n       \n\n         浅田\n        \n\n       中将外諸将校来会ス、式ニ臨ミテ祝辞ヲ朗読ス、式畢テ一同午飧シ、更ニ\n       \n\n         穂積\n        \n\n       氏ヲ訪ヒ、\n       \n        午後一時\n       \n       陸軍参謀本部ニ抵リ、歓迎会ノ手続ニ関シ\n       \n\n         井口\n        \n\n       少将ト談話ス、\n       \n        二時\n       \n       東京市役所ニ抵リ歓迎会ノ準備ヲ協議シ、\n       \n        三時\n       \n       事務所ニ抵リテ\n       \n\n         伊藤\n        \n\n       侯爵歓迎ノ事ニ関シ書状ヲ発シ、且\n       \n        十六日\n       \n       瓢屋ニ於ケル宴会ノ事ヲ指揮シ、\n       \n        四時\n       \n\n        上野\n       \n\n        精養軒\n       \n       ニ抵リ\n       \n\n         浅田\n        \n\n       中将招待ノ宴会ニ出席シ食卓上一場ノ演説ヲ為シ、畢テ夜\n       \n        八時半\n       \n\n        王子別荘\n       \n       ニ帰宿ス\n      \n",
     "label": "十二月十日              日　半晴　風ナシ",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10013m-0302",
@@ -30,7 +36,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "上野",
-        "王子別荘"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1905-12-10",
     "texts": [
@@ -58,15 +68,15 @@
     "time": {
         "07:30:00": "<div><time when=\"07:30:00\">\n        午前七時半\n       </time>\n       起床、例ニヨリ冷水摩擦ヲ為ス、</div>",
         "08:00:00": "<div><time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ畢リ、</div>",
-        "09:30:00": "<div><time when=\"09:30:00\">\n        午前九時半\n       </time>\n       牛込\n       <persName corresp=\"#pers_穂積\">\n<surname>\n         穂積\n        </surname>\n</persName>\n       邸ヲ訪ヒ、更ニ学生誘掖会寄宿舎ニ抵リ歓迎会ニ列ス、\n       <persName corresp=\"#pers_浅田中将\">\n<surname>\n         浅田\n        </surname>\n        中将\n       </persName>\n       外諸将校来会ス、式ニ臨ミテ祝辞ヲ朗読ス、式畢テ一同午飧シ、更ニ\n       <persName corresp=\"#pers_穂積\">\n<surname>\n         穂積\n        </surname>\n</persName>\n       氏ヲ訪ヒ、</div>",
-        "13:00:00": "<div><time when=\"13:00:00\">\n        午後一時\n       </time>\n       陸軍参謀本部ニ抵リ、歓迎会ノ手続ニ関シ\n       <persName corresp=\"#pers_井口少将\">\n<surname>\n         井口\n        </surname>\n        少将\n       </persName>\n       ト談話ス、</div>",
+        "09:30:00": "<div><time when=\"09:30:00\">\n        午前九時半\n       </time>\n       牛込\n       <persName corresp=\"#pers_穂積\">\n<surname>\n         穂積\n        </surname>\n</persName>\n       邸ヲ訪ヒ、更ニ学生誘掖会寄宿舎ニ抵リ歓迎会ニ列ス、\n       <persName corresp=\"#pers_浅田\">\n<surname>\n         浅田\n        </surname>\n</persName>\n       中将外諸将校来会ス、式ニ臨ミテ祝辞ヲ朗読ス、式畢テ一同午飧シ、更ニ\n       <persName corresp=\"#pers_穂積\">\n<surname>\n         穂積\n        </surname>\n</persName>\n       氏ヲ訪ヒ、</div>",
+        "13:00:00": "<div><time when=\"13:00:00\">\n        午後一時\n       </time>\n       陸軍参謀本部ニ抵リ、歓迎会ノ手続ニ関シ\n       <persName corresp=\"#pers_井口\">\n<surname>\n         井口\n        </surname>\n</persName>\n       少将ト談話ス、</div>",
         "14:00:00": "<div><time when=\"14:00:00\">\n        二時\n       </time>\n       東京市役所ニ抵リ歓迎会ノ準備ヲ協議シ、</div>",
         "15:00:00": "<div><time when=\"15:00:00\">\n        三時\n       </time>\n       事務所ニ抵リテ\n       <persName corresp=\"#pers_伊藤\">\n<surname>\n         伊藤\n        </surname>\n</persName>\n       侯爵歓迎ノ事ニ関シ書状ヲ発シ、且\n       <date evidence=\"year inferenced, month\" when=\"1905-12-16\">\n        十六日\n       </date>\n       瓢屋ニ於ケル宴会ノ事ヲ指揮シ、</div>",
-        "16:00:00": "<div><time when=\"16:00:00\">\n        四時\n       </time>\n<placeName corresp=\"#place_上野\">\n        上野\n       </placeName>\n<orgName>\n        精養軒\n       </orgName>\n       ニ抵リ\n       <persName corresp=\"#pers_浅田中将\">\n<surname>\n         浅田\n        </surname>\n        中将\n       </persName>\n       招待ノ宴会ニ出席シ食卓上一場ノ演説ヲ為シ、畢テ夜</div>",
-        "20:30:00": "<div><time when=\"20:30:00\">\n        八時半\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
+        "16:00:00": "<div><time when=\"16:00:00\">\n        四時\n       </time>\n<placeName corresp=\"#place_上野\">\n        上野\n       </placeName>\n<orgName>\n        精養軒\n       </orgName>\n       ニ抵リ\n       <persName corresp=\"#pers_浅田\">\n<surname>\n         浅田\n        </surname>\n</persName>\n       中将招待ノ宴会ニ出席シ食卓上一場ノ演説ヲ為シ、畢テ夜</div>",
+        "20:30:00": "<div><time when=\"20:30:00\">\n        八時半\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10013m-0301\">\n<head>\n<date when=\"1905-12-10\">\n        十二月十日\n       </date>\n       日　半晴　風ナシ\n      </head>\n<p>\n<time when=\"07:30:00\">\n        午前七時半\n       </time>\n       起床、例ニヨリ冷水摩擦ヲ為ス、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ畢リ、\n       <time when=\"09:30:00\">\n        午前九時半\n       </time>\n       牛込\n       <persName corresp=\"#pers_穂積\">\n<surname>\n         穂積\n        </surname>\n</persName>\n       邸ヲ訪ヒ、更ニ学生誘掖会寄宿舎ニ抵リ歓迎会ニ列ス、\n       <persName corresp=\"#pers_浅田中将\">\n<surname>\n         浅田\n        </surname>\n        中将\n       </persName>\n       外諸将校来会ス、式ニ臨ミテ祝辞ヲ朗読ス、式畢テ一同午飧シ、更ニ\n       <persName corresp=\"#pers_穂積\">\n<surname>\n         穂積\n        </surname>\n</persName>\n       氏ヲ訪ヒ、\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n       陸軍参謀本部ニ抵リ、歓迎会ノ手続ニ関シ\n       <persName corresp=\"#pers_井口少将\">\n<surname>\n         井口\n        </surname>\n        少将\n       </persName>\n       ト談話ス、\n       <time when=\"14:00:00\">\n        二時\n       </time>\n       東京市役所ニ抵リ歓迎会ノ準備ヲ協議シ、\n       <time when=\"15:00:00\">\n        三時\n       </time>\n       事務所ニ抵リテ\n       <persName corresp=\"#pers_伊藤\">\n<surname>\n         伊藤\n        </surname>\n</persName>\n       侯爵歓迎ノ事ニ関シ書状ヲ発シ、且\n       <date evidence=\"year inferenced, month\" when=\"1905-12-16\">\n        十六日\n       </date>\n       瓢屋ニ於ケル宴会ノ事ヲ指揮シ、\n       <time when=\"16:00:00\">\n        四時\n       </time>\n<placeName corresp=\"#place_上野\">\n        上野\n       </placeName>\n<orgName>\n        精養軒\n       </orgName>\n       ニ抵リ\n       <persName corresp=\"#pers_浅田中将\">\n<surname>\n         浅田\n        </surname>\n        中将\n       </persName>\n       招待ノ宴会ニ出席シ食卓上一場ノ演説ヲ為シ、畢テ夜\n       <time when=\"20:30:00\">\n        八時半\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10013m-0301\">\n<head>\n<date when=\"1905-12-10\">\n        十二月十日\n       </date>\n       日　半晴　風ナシ\n      </head>\n<p>\n<time when=\"07:30:00\">\n        午前七時半\n       </time>\n       起床、例ニヨリ冷水摩擦ヲ為ス、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ畢リ、\n       <time when=\"09:30:00\">\n        午前九時半\n       </time>\n       牛込\n       <persName corresp=\"#pers_穂積\">\n<surname>\n         穂積\n        </surname>\n</persName>\n       邸ヲ訪ヒ、更ニ学生誘掖会寄宿舎ニ抵リ歓迎会ニ列ス、\n       <persName corresp=\"#pers_浅田\">\n<surname>\n         浅田\n        </surname>\n</persName>\n       中将外諸将校来会ス、式ニ臨ミテ祝辞ヲ朗読ス、式畢テ一同午飧シ、更ニ\n       <persName corresp=\"#pers_穂積\">\n<surname>\n         穂積\n        </surname>\n</persName>\n       氏ヲ訪ヒ、\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n       陸軍参謀本部ニ抵リ、歓迎会ノ手続ニ関シ\n       <persName corresp=\"#pers_井口\">\n<surname>\n         井口\n        </surname>\n</persName>\n       少将ト談話ス、\n       <time when=\"14:00:00\">\n        二時\n       </time>\n       東京市役所ニ抵リ歓迎会ノ準備ヲ協議シ、\n       <time when=\"15:00:00\">\n        三時\n       </time>\n       事務所ニ抵リテ\n       <persName corresp=\"#pers_伊藤\">\n<surname>\n         伊藤\n        </surname>\n</persName>\n       侯爵歓迎ノ事ニ関シ書状ヲ発シ、且\n       <date evidence=\"year inferenced, month\" when=\"1905-12-16\">\n        十六日\n       </date>\n       瓢屋ニ於ケル宴会ノ事ヲ指揮シ、\n       <time when=\"16:00:00\">\n        四時\n       </time>\n<placeName corresp=\"#place_上野\">\n        上野\n       </placeName>\n<orgName>\n        精養軒\n       </orgName>\n       ニ抵リ\n       <persName corresp=\"#pers_浅田\">\n<surname>\n         浅田\n        </surname>\n</persName>\n       中将招待ノ宴会ニ出席シ食卓上一場ノ演説ヲ為シ、畢テ夜\n       <time when=\"20:30:00\">\n        八時半\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1905",
     "yearAndMonth": "1905-12"
 }

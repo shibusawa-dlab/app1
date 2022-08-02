@@ -1,9 +1,17 @@
 {
     "agential": [
+        "山縣有朋",
         "二橋",
         "日下",
         "佐治",
         "山本"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山縣有朋",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/二橋",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/日下",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐治",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山本"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/158",
     "category": {
@@ -20,7 +28,7 @@
     "date_lvl0": "1900",
     "date_lvl1": "1900-04",
     "date_lvl2": "1900-04-20",
-    "description": "\n\n\n        四月廿日\n       \n\n\n       晴、\n       \n        午前九時\n       \n       目白椿山荘ニ抵リ山県総理ヲ訪フ、京釜鉄道会社ニ関スル要件及経済上ノ事ヲ談話ス、畢テ下谷ナル岩越鉄道会社ニ抵リ重役会ニ列ス、\n       \n\n         二橋\n        \n\n       、\n       \n\n         日下\n        \n\n       、\n       \n\n         佐治\n        \n\n       、\n       \n\n         山本\n        \n\n       及監査役諸氏来会ス、会社将来ノ事業興廃ニ関スル要件ヲ熟議ス、各位ノ意見統一スルヲ得サルヲ以テ更ニ後会ヲ約シテ散会ス、\n       \n        午後二時\n       \n       東京市役所ニ抵リ御慶事奉祝会常議会ニ列シ要件数項ヲ協議ス、夜\n       \n        兜町\n       \n       宅ニ帰宿ス\n      \n",
+    "description": "\n\n\n        四月廿日\n       \n\n\n       晴、\n       \n        午前九時\n       \n\n        目白\n       \n       椿山荘ニ抵リ\n       \n\n         山県\n        \n\n       総理ヲ訪フ、京釜鉄道会社ニ関スル要件及経済上ノ事ヲ談話ス、畢テ\n       \n        下谷\n       \n       ナル岩越鉄道会社ニ抵リ重役会ニ列ス、\n       \n\n         二橋\n        \n\n       、\n       \n\n         日下\n        \n\n       、\n       \n\n         佐治\n        \n\n       、\n       \n\n         山本\n        \n\n       及監査役諸氏来会ス、会社将来ノ事業興廃ニ関スル要件ヲ熟議ス、各位ノ意見統一スルヲ得サルヲ以テ更ニ後会ヲ約シテ散会ス、\n       \n        午後二時\n       \n       東京市役所ニ抵リ御慶事奉祝会常議会ニ列シ要件数項ヲ協議ス、夜\n       \n        兜町\n       \n       宅ニ帰宿ス\n      \n",
     "label": "四月廿日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10009m-0111",
@@ -29,7 +37,14 @@
     "sort": "DKB10009m-0110",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
+        "目白",
+        "下谷",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/目白",
+        "https://shibusawa-dlab.github.io/lab1/api/place/下谷",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1900-04-20",
     "texts": [
@@ -55,11 +70,11 @@
         "DKB10009m-0292"
     ],
     "time": {
-        "09:00:00": "<div>晴、<time when=\"09:00:00\">\n        午前九時\n       </time>\n       目白椿山荘ニ抵リ山県総理ヲ訪フ、京釜鉄道会社ニ関スル要件及経済上ノ事ヲ談話ス、畢テ下谷ナル岩越鉄道会社ニ抵リ重役会ニ列ス、\n       <persName corresp=\"#pers_二橋\">\n<surname>\n         二橋\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_日下\">\n<surname>\n         日下\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_佐治\">\n<surname>\n         佐治\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_山本\">\n<surname>\n         山本\n        </surname>\n</persName>\n       及監査役諸氏来会ス、会社将来ノ事業興廃ニ関スル要件ヲ熟議ス、各位ノ意見統一スルヲ得サルヲ以テ更ニ後会ヲ約シテ散会ス、</div>",
+        "09:00:00": "<div>晴、<time when=\"09:00:00\">\n        午前九時\n       </time>\n<placeName corresp=\"#place_目白\">\n        目白\n       </placeName>\n       椿山荘ニ抵リ\n       <persName corresp=\"#pers_山縣有朋\">\n<surname>\n         山県\n        </surname>\n</persName>\n       総理ヲ訪フ、京釜鉄道会社ニ関スル要件及経済上ノ事ヲ談話ス、畢テ\n       <placeName corresp=\"#place_下谷\">\n        下谷\n       </placeName>\n       ナル岩越鉄道会社ニ抵リ重役会ニ列ス、\n       <persName corresp=\"#pers_二橋\">\n<surname>\n         二橋\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_日下\">\n<surname>\n         日下\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_佐治\">\n<surname>\n         佐治\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_山本\">\n<surname>\n         山本\n        </surname>\n</persName>\n       及監査役諸氏来会ス、会社将来ノ事業興廃ニ関スル要件ヲ熟議ス、各位ノ意見統一スルヲ得サルヲ以テ更ニ後会ヲ約シテ散会ス、</div>",
         "14:00:00": "<div><time when=\"14:00:00\">\n        午後二時\n       </time>\n       東京市役所ニ抵リ御慶事奉祝会常議会ニ列シ要件数項ヲ協議ス、夜\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       宅ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10009m-0110\">\n<head>\n<date when=\"1900-04-20\">\n        四月廿日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"09:00:00\">\n        午前九時\n       </time>\n       目白椿山荘ニ抵リ山県総理ヲ訪フ、京釜鉄道会社ニ関スル要件及経済上ノ事ヲ談話ス、畢テ下谷ナル岩越鉄道会社ニ抵リ重役会ニ列ス、\n       <persName corresp=\"#pers_二橋\">\n<surname>\n         二橋\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_日下\">\n<surname>\n         日下\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_佐治\">\n<surname>\n         佐治\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_山本\">\n<surname>\n         山本\n        </surname>\n</persName>\n       及監査役諸氏来会ス、会社将来ノ事業興廃ニ関スル要件ヲ熟議ス、各位ノ意見統一スルヲ得サルヲ以テ更ニ後会ヲ約シテ散会ス、\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n       東京市役所ニ抵リ御慶事奉祝会常議会ニ列シ要件数項ヲ協議ス、夜\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       宅ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10009m-0110\">\n<head>\n<date when=\"1900-04-20\">\n        四月廿日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"09:00:00\">\n        午前九時\n       </time>\n<placeName corresp=\"#place_目白\">\n        目白\n       </placeName>\n       椿山荘ニ抵リ\n       <persName corresp=\"#pers_山縣有朋\">\n<surname>\n         山県\n        </surname>\n</persName>\n       総理ヲ訪フ、京釜鉄道会社ニ関スル要件及経済上ノ事ヲ談話ス、畢テ\n       <placeName corresp=\"#place_下谷\">\n        下谷\n       </placeName>\n       ナル岩越鉄道会社ニ抵リ重役会ニ列ス、\n       <persName corresp=\"#pers_二橋\">\n<surname>\n         二橋\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_日下\">\n<surname>\n         日下\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_佐治\">\n<surname>\n         佐治\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_山本\">\n<surname>\n         山本\n        </surname>\n</persName>\n       及監査役諸氏来会ス、会社将来ノ事業興廃ニ関スル要件ヲ熟議ス、各位ノ意見統一スルヲ得サルヲ以テ更ニ後会ヲ約シテ散会ス、\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n       東京市役所ニ抵リ御慶事奉祝会常議会ニ列シ要件数項ヲ協議ス、夜\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       宅ニ帰宿ス\n      </p>\n</div>",
     "year": "1900",
     "yearAndMonth": "1900-04"
 }

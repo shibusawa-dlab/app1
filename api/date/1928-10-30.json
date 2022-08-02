@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1587",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-10",
     "date_lvl2": "1928-10-30",
-    "description": "\n\n\n           三十日\n          \n          （火）\n         \n\n\n\n\n             午時\n            \n\n             東京\n            \n            女学館創立四十年祝賀会并ニ校舎落成祝賀会\n           \n\n\n\n\n             午後五時\n            \n            御同族会（事務所）\n           \n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （火）\n         \n\n\n\n\n             午時\n            \n\n             東京女学館\n            \n            創立四十年祝賀会并ニ校舎落成祝賀会\n           \n\n\n\n\n             午後五時\n            \n            御同族会（事務所）\n           \n\n\n",
     "label": "三十日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20030m-0236",
@@ -23,9 +24,8 @@
     "prev": "DKB20030m-0231",
     "sort": "DKB20030m-0233",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "東京"
-    ],
+    "spatial": [],
+    "spatial_uri": [],
     "temporal": "1928-10-30",
     "texts": [
         "DKB20031m-0147",
@@ -50,10 +50,10 @@
         "DKB20026m-0329"
     ],
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            女学館創立四十年祝賀会并ニ校舎落成祝賀会</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<orgName>\n             東京女学館\n            </orgName>\n            創立四十年祝賀会并ニ校舎落成祝賀会</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0233\">\n<head>\n<date when=\"1928-10-30\">\n           三十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            女学館創立四十年祝賀会并ニ校舎落成祝賀会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0233\">\n<head>\n<date when=\"1928-10-30\">\n           三十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<orgName>\n             東京女学館\n            </orgName>\n            創立四十年祝賀会并ニ校舎落成祝賀会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-10"
 }

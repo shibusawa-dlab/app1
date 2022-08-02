@@ -1,5 +1,10 @@
 {
-    "agential": [],
+    "agential": [
+        "山川健次郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山川健次郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1184",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +20,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-05",
     "date_lvl2": "1915-05-25",
-    "description": "\n\n\n           廿五日\n          \n          （火）\n         \n\n\n\n\n             午前十一時\n            \n            山川大学総長来約（\n            \n             兜町\n            \n            邸）\n           \n\n\n\n\n             午後五時\n            \n            教育調査会ノ件（日本クラブ）\n           \n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （火）\n         \n\n\n\n\n             午前十一時\n            \n\n\n              山川\n             \n\n            大学総長来約（\n            \n             兜町\n            \n            邸）\n           \n\n\n\n\n             午後五時\n            \n            教育調査会ノ件（日本クラブ）\n           \n\n\n",
     "label": "廿五日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0137",
@@ -25,6 +30,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1915-05-25",
     "texts": [
@@ -50,10 +58,10 @@
         "DKB20022m-0023"
     ],
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            山川大学総長来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            邸）</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_山川健次郎\">\n<surname>\n              山川\n             </surname>\n</persName>\n            大学総長来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0135\">\n<head>\n<date when=\"1915-05-25\">\n           廿五日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            山川大学総長来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            教育調査会ノ件（日本クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0135\">\n<head>\n<date when=\"1915-05-25\">\n           廿五日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_山川健次郎\">\n<surname>\n              山川\n             </surname>\n</persName>\n            大学総長来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            教育調査会ノ件（日本クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-05"
 }

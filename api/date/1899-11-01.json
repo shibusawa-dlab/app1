@@ -1,10 +1,17 @@
 {
     "agential": [
         "大山",
-        "有栖川故大将",
+        "有栖川宮",
         "伊藤",
         "有賀長雄",
         "早川千吉郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大山",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/有栖川宮",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/伊藤",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/有賀長雄",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/早川千吉郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/135",
     "category": {
@@ -21,7 +28,7 @@
     "date_lvl0": "1899",
     "date_lvl1": "1899-11",
     "date_lvl2": "1899-11-01",
-    "description": "\n\n\n        十一月一日\n       \n\n\n       雨、朝来人ニ接シ、午後銀行ニ出勤シテ事務ヲ視ル、\n       \n        一時\n       \n       参謀本部ニ抵リ\n       \n\n         大山\n        \n\n       大将ニ面会シテ\n       \n\n         有栖川\n        \n        故大将\n       \n       ノ銅像ノ事ヲ話ス、更ニ大生大佐ニ面会シテ京坂鉄道線路ニ係ル大坂鎮台ノ土地衛戍病院輜重兵営ノ事ヲ談話ス、\n       \n        午後三時\n       \n\n        霊南坂\n       \n\n\n         伊藤\n        \n\n       侯爵ヲ訪フテ日清銀行ノ事ヲ内話ス\n       \n        日本郵船会社\n       \n       重役会ニ列ス、\n       \n        六時\n       \n\n        築地\n       \n       香雪軒ニ於テ催ス処ノ経新倶楽部ニ参席ス、\n       \n\n         有賀\n        \n\n         長雄\n        \n\n       氏平和会議ニ関スル見聞ノ要領ヲ演説ス、\n       \n\n         早川\n        \n\n         千吉郎\n        \n\n       氏\n       \n        英国\n       \n       ニテ募集セシ壱千万磅公債ノ募集手続ヲ演説ス、何レモ実況ヲ叙述セラレテ頗ル聴衆ヲ喜ハシメタリ、夜\n       \n        十時\n       \n\n        浜町\n       \n       ニ帰宿ス\n      \n",
+    "description": "\n\n\n        十一月一日\n       \n\n\n       雨、朝来人ニ接シ、午後銀行ニ出勤シテ事務ヲ視ル、\n       \n        一時\n       \n       参謀本部ニ抵リ\n       \n\n         大山\n        \n\n       大将ニ面会シテ\n       \n\n         有栖川\n        \n\n       故大将ノ銅像ノ事ヲ話ス、更ニ大生大佐ニ面会シテ京坂鉄道線路ニ係ル大坂鎮台ノ土地衛戍病院輜重兵営ノ事ヲ談話ス、\n       \n        午後三時\n       \n\n        霊南坂\n       \n\n\n         伊藤\n        \n\n       侯爵ヲ訪フテ日清銀行ノ事ヲ内話ス\n       \n        日本郵船会社\n       \n       重役会ニ列ス、\n       \n        六時\n       \n\n        築地\n       \n       香雪軒ニ於テ催ス処ノ経新倶楽部ニ参席ス、\n       \n\n         有賀\n        \n\n         長雄\n        \n\n       氏平和会議ニ関スル見聞ノ要領ヲ演説ス、\n       \n\n         早川\n        \n\n         千吉郎\n        \n\n       氏\n       \n        英国\n       \n       ニテ募集セシ壱千万磅公債ノ募集手続ヲ演説ス、何レモ実況ヲ叙述セラレテ頗ル聴衆ヲ喜ハシメタリ、夜\n       \n        十時\n       \n\n        浜町\n       \n       ニ帰宿ス\n      \n",
     "label": "十一月一日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10008m-0307",
@@ -34,6 +41,12 @@
         "築地",
         "イギリス",
         "浜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/霊南坂",
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地",
+        "https://shibusawa-dlab.github.io/lab1/api/place/イギリス",
+        "https://shibusawa-dlab.github.io/lab1/api/place/浜町"
     ],
     "temporal": "1899-11-01",
     "texts": [
@@ -59,13 +72,13 @@
         "DKB10008m-0271"
     ],
     "time": {
-        "13:00:00": "<div>雨、朝来人ニ接シ、午後銀行ニ出勤シテ事務ヲ視ル、<time when=\"13:00:00\">\n        一時\n       </time>\n       参謀本部ニ抵リ\n       <persName corresp=\"#pers_大山\">\n<surname>\n         大山\n        </surname>\n</persName>\n       大将ニ面会シテ\n       <persName corresp=\"#pers_有栖川故大将\">\n<surname>\n         有栖川\n        </surname>\n        故大将\n       </persName>\n       ノ銅像ノ事ヲ話ス、更ニ大生大佐ニ面会シテ京坂鉄道線路ニ係ル大坂鎮台ノ土地衛戍病院輜重兵営ノ事ヲ談話ス、</div>",
+        "13:00:00": "<div>雨、朝来人ニ接シ、午後銀行ニ出勤シテ事務ヲ視ル、<time when=\"13:00:00\">\n        一時\n       </time>\n       参謀本部ニ抵リ\n       <persName corresp=\"#pers_大山\">\n<surname>\n         大山\n        </surname>\n</persName>\n       大将ニ面会シテ\n       <persName corresp=\"#pers_有栖川宮\">\n<surname>\n         有栖川\n        </surname>\n</persName>\n       故大将ノ銅像ノ事ヲ話ス、更ニ大生大佐ニ面会シテ京坂鉄道線路ニ係ル大坂鎮台ノ土地衛戍病院輜重兵営ノ事ヲ談話ス、</div>",
         "15:00:00": "<div><time when=\"15:00:00\">\n        午後三時\n       </time>\n<placeName corresp=\"#place_霊南坂\">\n        霊南坂\n       </placeName>\n<persName corresp=\"#pers_伊藤\">\n<surname>\n         伊藤\n        </surname>\n</persName>\n       侯爵ヲ訪フテ日清銀行ノ事ヲ内話ス\n       <orgName>\n        日本郵船会社\n       </orgName>\n       重役会ニ列ス、</div>",
         "18:00:00": "<div><time when=\"18:00:00\">\n        六時\n       </time>\n<placeName corresp=\"#place_築地\">\n        築地\n       </placeName>\n       香雪軒ニ於テ催ス処ノ経新倶楽部ニ参席ス、\n       <persName corresp=\"#pers_有賀長雄\">\n<surname>\n         有賀\n        </surname>\n<forename>\n         長雄\n        </forename>\n</persName>\n       氏平和会議ニ関スル見聞ノ要領ヲ演説ス、\n       <persName corresp=\"#pers_早川千吉郎\">\n<surname>\n         早川\n        </surname>\n<forename>\n         千吉郎\n        </forename>\n</persName>\n       氏\n       <placeName corresp=\"#place_イギリス\">\n        英国\n       </placeName>\n       ニテ募集セシ壱千万磅公債ノ募集手続ヲ演説ス、何レモ実況ヲ叙述セラレテ頗ル聴衆ヲ喜ハシメタリ、夜</div>",
         "22:00:00": "<div><time when=\"22:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-0306\">\n<head>\n<date when=\"1899-11-01\">\n        十一月一日\n       </date>\n</head>\n<p>\n       雨、朝来人ニ接シ、午後銀行ニ出勤シテ事務ヲ視ル、\n       <time when=\"13:00:00\">\n        一時\n       </time>\n       参謀本部ニ抵リ\n       <persName corresp=\"#pers_大山\">\n<surname>\n         大山\n        </surname>\n</persName>\n       大将ニ面会シテ\n       <persName corresp=\"#pers_有栖川故大将\">\n<surname>\n         有栖川\n        </surname>\n        故大将\n       </persName>\n       ノ銅像ノ事ヲ話ス、更ニ大生大佐ニ面会シテ京坂鉄道線路ニ係ル大坂鎮台ノ土地衛戍病院輜重兵営ノ事ヲ談話ス、\n       <time when=\"15:00:00\">\n        午後三時\n       </time>\n<placeName corresp=\"#place_霊南坂\">\n        霊南坂\n       </placeName>\n<persName corresp=\"#pers_伊藤\">\n<surname>\n         伊藤\n        </surname>\n</persName>\n       侯爵ヲ訪フテ日清銀行ノ事ヲ内話ス\n       <orgName>\n        日本郵船会社\n       </orgName>\n       重役会ニ列ス、\n       <time when=\"18:00:00\">\n        六時\n       </time>\n<placeName corresp=\"#place_築地\">\n        築地\n       </placeName>\n       香雪軒ニ於テ催ス処ノ経新倶楽部ニ参席ス、\n       <persName corresp=\"#pers_有賀長雄\">\n<surname>\n         有賀\n        </surname>\n<forename>\n         長雄\n        </forename>\n</persName>\n       氏平和会議ニ関スル見聞ノ要領ヲ演説ス、\n       <persName corresp=\"#pers_早川千吉郎\">\n<surname>\n         早川\n        </surname>\n<forename>\n         千吉郎\n        </forename>\n</persName>\n       氏\n       <placeName corresp=\"#place_イギリス\">\n        英国\n       </placeName>\n       ニテ募集セシ壱千万磅公債ノ募集手続ヲ演説ス、何レモ実況ヲ叙述セラレテ頗ル聴衆ヲ喜ハシメタリ、夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-0306\">\n<head>\n<date when=\"1899-11-01\">\n        十一月一日\n       </date>\n</head>\n<p>\n       雨、朝来人ニ接シ、午後銀行ニ出勤シテ事務ヲ視ル、\n       <time when=\"13:00:00\">\n        一時\n       </time>\n       参謀本部ニ抵リ\n       <persName corresp=\"#pers_大山\">\n<surname>\n         大山\n        </surname>\n</persName>\n       大将ニ面会シテ\n       <persName corresp=\"#pers_有栖川宮\">\n<surname>\n         有栖川\n        </surname>\n</persName>\n       故大将ノ銅像ノ事ヲ話ス、更ニ大生大佐ニ面会シテ京坂鉄道線路ニ係ル大坂鎮台ノ土地衛戍病院輜重兵営ノ事ヲ談話ス、\n       <time when=\"15:00:00\">\n        午後三時\n       </time>\n<placeName corresp=\"#place_霊南坂\">\n        霊南坂\n       </placeName>\n<persName corresp=\"#pers_伊藤\">\n<surname>\n         伊藤\n        </surname>\n</persName>\n       侯爵ヲ訪フテ日清銀行ノ事ヲ内話ス\n       <orgName>\n        日本郵船会社\n       </orgName>\n       重役会ニ列ス、\n       <time when=\"18:00:00\">\n        六時\n       </time>\n<placeName corresp=\"#place_築地\">\n        築地\n       </placeName>\n       香雪軒ニ於テ催ス処ノ経新倶楽部ニ参席ス、\n       <persName corresp=\"#pers_有賀長雄\">\n<surname>\n         有賀\n        </surname>\n<forename>\n         長雄\n        </forename>\n</persName>\n       氏平和会議ニ関スル見聞ノ要領ヲ演説ス、\n       <persName corresp=\"#pers_早川千吉郎\">\n<surname>\n         早川\n        </surname>\n<forename>\n         千吉郎\n        </forename>\n</persName>\n       氏\n       <placeName corresp=\"#place_イギリス\">\n        英国\n       </placeName>\n       ニテ募集セシ壱千万磅公債ノ募集手続ヲ演説ス、何レモ実況ヲ叙述セラレテ頗ル聴衆ヲ喜ハシメタリ、夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1899",
     "yearAndMonth": "1899-11"
 }

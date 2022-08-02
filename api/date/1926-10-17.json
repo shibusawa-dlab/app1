@@ -1,6 +1,9 @@
 {
     "agential": [
-        "紹"
+        "金紹城"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/金紹城"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1527",
     "category": {
@@ -17,7 +20,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-10",
     "date_lvl2": "1926-10-17",
-    "description": "\n\n\n           十七日\n          \n          （日）\n         \n\n\n\n\n             午後二時\n            \n            金\n            \n\n              紹\n             \n\n            城氏追悼会（\n            \n             東京\n            \n            美術学校講堂）\n           \n\n\n\n\n             午後二半時\n            \n            救世軍講演会（青山会館）\n           \n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （日）\n         \n\n\n\n\n             午後二時\n            \n\n\n              金\n             \n\n              紹城\n             \n\n            氏追悼会（\n            \n             東京\n            \n            美術学校講堂）\n           \n\n\n\n\n             午後二半時\n            \n            救世軍講演会（青山会館）\n           \n\n\n",
     "label": "十七日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0271",
@@ -27,6 +30,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1926-10-17",
     "texts": [
@@ -52,10 +58,10 @@
         "DKB20024m-0003"
     ],
     "time": {
-        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n            金\n            <persName corresp=\"#pers_紹\">\n<forename>\n              紹\n             </forename>\n</persName>\n            城氏追悼会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            美術学校講堂）</div>"
+        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_金紹城\">\n<surname>\n              金\n             </surname>\n<forename>\n              紹城\n             </forename>\n</persName>\n            氏追悼会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            美術学校講堂）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0270\">\n<head>\n<date when=\"1926-10-17\">\n           十七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            金\n            <persName corresp=\"#pers_紹\">\n<forename>\n              紹\n             </forename>\n</persName>\n            城氏追悼会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            美術学校講堂）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            救世軍講演会（青山会館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0270\">\n<head>\n<date when=\"1926-10-17\">\n           十七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_金紹城\">\n<surname>\n              金\n             </surname>\n<forename>\n              紹城\n             </forename>\n</persName>\n            氏追悼会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            美術学校講堂）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            救世軍講演会（青山会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-10"
 }

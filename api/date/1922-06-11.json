@@ -1,7 +1,13 @@
 {
     "agential": [
+        "正親町",
         "尾高豊作",
         "福島宜三"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/正親町",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/尾高豊作",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/福島宜三"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1394",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-06",
     "date_lvl2": "1922-06-11",
-    "description": "\n\n\n           十一日\n          \n          （日）\n         \n\n\n\n\n             午前九半時\n            \n\n             正親町\n            \n            伯御訪問（\n            \n             高輪\n            \n            御所）\n           \n\n\n\n\n\n             午前十時\n            \n\n\n              尾高\n             \n\n              豊作\n             \n\n            、\n            \n\n              福島\n             \n\n              宜三\n             \n\n            両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （日）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              正親町\n             \n\n            伯御訪問（\n            \n             高輪\n            \n            御所）\n           \n\n\n\n\n\n             午前十時\n            \n\n\n              尾高\n             \n\n              豊作\n             \n\n            、\n            \n\n              福島\n             \n\n              宜三\n             \n\n            両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "十一日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0138",
@@ -27,9 +33,12 @@
     "sort": "DKB20024m-0137",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "正親町",
         "高輪",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/高輪",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1922-06-11",
     "texts": [
@@ -55,10 +64,10 @@
         "DKB20024m-0253"
     ],
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<placeName corresp=\"#place_正親町\">\n             正親町\n            </placeName>\n            伯御訪問（\n            <placeName corresp=\"#place_高輪\">\n             高輪\n            </placeName>\n            御所）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_正親町\">\n<surname>\n              正親町\n             </surname>\n</persName>\n            伯御訪問（\n            <placeName corresp=\"#place_高輪\">\n             高輪\n            </placeName>\n            御所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0137\">\n<head>\n<date when=\"1922-06-11\">\n           十一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<placeName corresp=\"#place_正親町\">\n             正親町\n            </placeName>\n            伯御訪問（\n            <placeName corresp=\"#place_高輪\">\n             高輪\n            </placeName>\n            御所）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2555\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1394/full/max/0/default.jpg\" n=\"B2555\" source=\"#pageB2555\"/>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_尾高豊作\">\n<surname>\n              尾高\n             </surname>\n<forename>\n              豊作\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_福島宜三\">\n<surname>\n              福島\n             </surname>\n<forename>\n              宜三\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0137\">\n<head>\n<date when=\"1922-06-11\">\n           十一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_正親町\">\n<surname>\n              正親町\n             </surname>\n</persName>\n            伯御訪問（\n            <placeName corresp=\"#place_高輪\">\n             高輪\n            </placeName>\n            御所）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2555\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1394/full/max/0/default.jpg\" n=\"B2555\" source=\"#pageB2555\"/>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_尾高豊作\">\n<surname>\n              尾高\n             </surname>\n<forename>\n              豊作\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_福島宜三\">\n<surname>\n              福島\n             </surname>\n<forename>\n              宜三\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-06"
 }

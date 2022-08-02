@@ -1,6 +1,13 @@
 {
     "agential": [
-        "久野久_(ピアニスト)"
+        "久野久_(ピアニスト)",
+        "小倉",
+        "安田"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/久野久_(ピアニスト)",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小倉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/安田"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1221",
     "category": {
@@ -17,7 +24,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-12",
     "date_lvl2": "1916-12-03",
-    "description": "\n\n\n           三日\n          \n          （日）\n         \n\n\n\n\n             午後二時\n            \n\n\n              久野\n             \n\n              久子\n             \n\n            音楽会（\n            \n             上野\n            \n            音楽学校）\n           \n\n\n\n\n             午後四時半\n            \n\n             小倉\n            \n\n             安田\n            \n            両家結婚披露（帝国ホテル）\n           \n\n\n\n            断\n            \n             午後四時\n            \n            発明協会ヨリ御案内（築地精養軒）\n           \n\n\n",
+    "description": "\n\n\n           三日\n          \n          （日）\n         \n\n\n\n\n             午後二時\n            \n\n\n              久野\n             \n\n              久子\n             \n\n            音楽会（\n            \n             上野\n            \n            音楽学校）\n           \n\n\n\n\n             午後四時半\n            \n\n\n              小倉\n             \n\n\n\n              安田\n             \n\n            両家結婚披露（帝国ホテル）\n           \n\n\n\n            断\n            \n             午後四時\n            \n            発明協会ヨリ御案内（\n            \n             築地\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
     "label": "三日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0321",
@@ -27,8 +34,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "上野",
-        "小倉",
-        "安田"
+        "築地"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野",
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
     ],
     "temporal": "1916-12-03",
     "texts": [
@@ -57,7 +67,7 @@
         "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_久野久_(ピアニスト)\">\n<surname>\n              久野\n             </surname>\n<forename>\n              久子\n             </forename>\n</persName>\n            音楽会（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            音楽学校）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0320\">\n<head>\n<date when=\"1916-12-03\">\n           三日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_久野久_(ピアニスト)\">\n<surname>\n              久野\n             </surname>\n<forename>\n              久子\n             </forename>\n</persName>\n            音楽会（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            音楽学校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四時半\n            </time>\n<placeName corresp=\"#place_小倉\">\n             小倉\n            </placeName>\n<placeName corresp=\"#place_安田\">\n             安田\n            </placeName>\n            両家結婚披露（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n            断\n            <time when=\"16:00:00\">\n             午後四時\n            </time>\n            発明協会ヨリ御案内（築地精養軒）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0320\">\n<head>\n<date when=\"1916-12-03\">\n           三日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_久野久_(ピアニスト)\">\n<surname>\n              久野\n             </surname>\n<forename>\n              久子\n             </forename>\n</persName>\n            音楽会（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            音楽学校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四時半\n            </time>\n<persName corresp=\"#pers_小倉\">\n<surname>\n              小倉\n             </surname>\n</persName>\n<persName corresp=\"#pers_安田\">\n<surname>\n              安田\n             </surname>\n</persName>\n            両家結婚披露（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n            断\n            <time when=\"16:00:00\">\n             午後四時\n            </time>\n            発明協会ヨリ御案内（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-12"
 }

@@ -1,8 +1,15 @@
 {
     "agential": [
         "小崎弘道",
-        "斎藤",
+        "ウィリアム_アキスリング",
+        "斎藤惣一",
         "西村道彦"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小崎弘道",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ウィリアム_アキスリング",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/斎藤惣一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/西村道彦"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1457",
     "category": {
@@ -19,7 +26,7 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-03",
     "date_lvl2": "1924-03-20",
-    "description": "\n\n\n           二十日\n          \n          （木）\n         \n\n\n\n\n             午前八半\n            \n\n\n              小崎\n             \n\n              弘道\n             \n\n            、アキスリング、\n            \n\n              斎藤\n             \n\n            惣一三氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              西村\n             \n\n              道彦\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            高千穂学校卒業式（\n            \n             大久保\n            \n            同校）\n           \n\n\n\n\n             午後四半―五時\n            \n\n             若宮\n            \n            逓信次官来約（事務所）\n           \n\n\n\n\n             午凡後五時\n            \n\n             綱町\n            \n            邸ヘ御出向\n           \n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （木）\n         \n\n\n\n\n             午前八半\n            \n\n\n              小崎\n             \n\n              弘道\n             \n\n            、\n            \n\n              アキスリング\n             \n\n            、\n            \n\n              斎藤\n             \n\n              惣一\n             \n\n            三氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              西村\n             \n\n              道彦\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n             高千穂学校\n            \n            卒業式（\n            \n             大久保\n            \n            同校）\n           \n\n\n\n\n             午後四半―五時\n            \n\n             若宮\n            \n            逓信次官来約（事務所）\n           \n\n\n\n\n             午凡後五時\n            \n\n             綱町\n            \n            邸ヘ御出向\n           \n\n\n",
     "label": "二十日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0083",
@@ -28,10 +35,16 @@
     "sort": "DKB20026m-0082",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山",
+        "飛鳥山邸",
         "大久保",
         "若宮",
         "綱町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/大久保",
+        "https://shibusawa-dlab.github.io/lab1/api/place/若宮",
+        "https://shibusawa-dlab.github.io/lab1/api/place/綱町"
     ],
     "temporal": "1924-03-20",
     "texts": [
@@ -57,10 +70,10 @@
         "DKB20032m-0136"
     ],
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半\n            </time>\n<persName corresp=\"#pers_小崎弘道\">\n<surname>\n              小崎\n             </surname>\n<forename>\n              弘道\n             </forename>\n</persName>\n            、アキスリング、\n            <persName corresp=\"#pers_斎藤\">\n<surname>\n              斎藤\n             </surname>\n</persName>\n            惣一三氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半\n            </time>\n<persName corresp=\"#pers_小崎弘道\">\n<surname>\n              小崎\n             </surname>\n<forename>\n              弘道\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_ウィリアム_アキスリング\">\n<surname>\n              アキスリング\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_斎藤惣一\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              惣一\n             </forename>\n</persName>\n            三氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0082\">\n<head>\n<date when=\"1924-03-20\">\n           二十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半\n            </time>\n<persName corresp=\"#pers_小崎弘道\">\n<surname>\n              小崎\n             </surname>\n<forename>\n              弘道\n             </forename>\n</persName>\n            、アキスリング、\n            <persName corresp=\"#pers_斎藤\">\n<surname>\n              斎藤\n             </surname>\n</persName>\n            惣一三氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_西村道彦\">\n<surname>\n              西村\n             </surname>\n<forename>\n              道彦\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            高千穂学校卒業式（\n            <placeName corresp=\"#place_大久保\">\n             大久保\n            </placeName>\n            同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半―五時\n            </time>\n<placeName corresp=\"#place_若宮\">\n             若宮\n            </placeName>\n            逓信次官来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午凡後五時\n            </time>\n<placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            邸ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0082\">\n<head>\n<date when=\"1924-03-20\">\n           二十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半\n            </time>\n<persName corresp=\"#pers_小崎弘道\">\n<surname>\n              小崎\n             </surname>\n<forename>\n              弘道\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_ウィリアム_アキスリング\">\n<surname>\n              アキスリング\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_斎藤惣一\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              惣一\n             </forename>\n</persName>\n            三氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_西村道彦\">\n<surname>\n              西村\n             </surname>\n<forename>\n              道彦\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             高千穂学校\n            </orgName>\n            卒業式（\n            <placeName corresp=\"#place_大久保\">\n             大久保\n            </placeName>\n            同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半―五時\n            </time>\n<placeName corresp=\"#place_若宮\">\n             若宮\n            </placeName>\n            逓信次官来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午凡後五時\n            </time>\n<placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            邸ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-03"
 }

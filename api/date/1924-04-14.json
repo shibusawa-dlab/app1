@@ -4,6 +4,11 @@
         "清浦",
         "前田"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/五十嵐与七",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/清浦",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/前田"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1460",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -28,7 +33,10 @@
     "sort": "DKB20026m-0108",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1924-04-14",
     "texts": [
@@ -54,10 +62,10 @@
         "DKB20024m-0116"
     ],
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_五十嵐与七\">\n<surname>\n              五十嵐\n             </surname>\n<forename>\n              与七\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_五十嵐与七\">\n<surname>\n              五十嵐\n             </surname>\n<forename>\n              与七\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0108\">\n<head>\n<date when=\"1924-04-14\">\n           十四日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_五十嵐与七\">\n<surname>\n              五十嵐\n             </surname>\n<forename>\n              与七\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"12:00:00\" to=\"13:00:00\">\n             午十二―一時\n            </time>\n<persName corresp=\"#pers_清浦\">\n<surname>\n              清浦\n             </surname>\n</persName>\n            首相ヲ御訪問（同官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_前田\">\n<surname>\n              前田\n             </surname>\n</persName>\n            農商務大臣ヲ御訪問《（問）》（同官舎）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"16:00:00\" to=\"17:00:00\">\n             午〃四―五時\n            </time>\n            中外商業新報社催復興絵画展覧会ヘ御出向（同本社）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0108\">\n<head>\n<date when=\"1924-04-14\">\n           十四日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_五十嵐与七\">\n<surname>\n              五十嵐\n             </surname>\n<forename>\n              与七\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"12:00:00\" to=\"13:00:00\">\n             午十二―一時\n            </time>\n<persName corresp=\"#pers_清浦\">\n<surname>\n              清浦\n             </surname>\n</persName>\n            首相ヲ御訪問（同官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_前田\">\n<surname>\n              前田\n             </surname>\n</persName>\n            農商務大臣ヲ御訪問《（問）》（同官舎）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"16:00:00\" to=\"17:00:00\">\n             午〃四―五時\n            </time>\n            中外商業新報社催復興絵画展覧会ヘ御出向（同本社）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-04"
 }

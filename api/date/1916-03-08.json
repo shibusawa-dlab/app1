@@ -1,7 +1,13 @@
 {
     "agential": [
+        "セビン",
         "桜井",
         "柳生"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/セビン",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/桜井",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/柳生"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1199",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-03",
     "date_lvl2": "1916-03-08",
-    "description": "\n\n\n           八日\n          \n          （水）\n         \n\n\n\n\n             午後〇時半\n            \n\n             露国\n            \n            大使館セビン氏ヨリ御案内\n            \n            （\n            \n             麴町\n            \n            区一番町十三番地同氏邸）\n           \n\n\n\n\n             午後五半時\n            \n\n             台湾\n            \n            銀行\n            \n\n              桜井\n             \n\n\n\n              柳生\n             \n\n            両氏ヨリ御案内（常盤屋）\n           \n\n\n",
+    "description": "\n\n\n           八日\n          \n          （水）\n         \n\n\n\n\n             午後〇時半\n            \n\n             露国\n            \n            大使館\n            \n\n              セビン\n             \n\n            氏ヨリ御案内\n            \n            （\n            \n             麴町\n            \n            区一番町十三番地同氏邸）\n           \n\n\n\n\n             午後五半時\n            \n\n             台湾銀行\n            \n\n\n              桜井\n             \n\n\n\n              柳生\n             \n\n            両氏ヨリ御案内（常盤屋）\n           \n\n\n",
     "label": "八日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0066",
@@ -28,8 +34,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "ロシア",
-        "麹町",
-        "台湾"
+        "麹町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/ロシア",
+        "https://shibusawa-dlab.github.io/lab1/api/place/麹町"
     ],
     "temporal": "1916-03-08",
     "texts": [
@@ -55,10 +64,10 @@
         "DKB20017m-0060"
     ],
     "time": {
-        "12:30:00": "<div><time when=\"12:30:00\">\n             午後〇時半\n            </time>\n<placeName corresp=\"#place_ロシア\">\n             露国\n            </placeName>\n            大使館セビン氏ヨリ御案内\n            <lb/>\n            （\n            <placeName corresp=\"#place_麹町\">\n             麴町\n            </placeName>\n            区一番町十三番地同氏邸）</div>"
+        "12:30:00": "<div><time when=\"12:30:00\">\n             午後〇時半\n            </time>\n<placeName corresp=\"#place_ロシア\">\n             露国\n            </placeName>\n            大使館\n            <persName corresp=\"#pers_セビン\">\n<surname>\n              セビン\n             </surname>\n</persName>\n            氏ヨリ御案内\n            <lb/>\n            （\n            <placeName corresp=\"#place_麹町\">\n             麴町\n            </placeName>\n            区一番町十三番地同氏邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0065\">\n<head>\n<date when=\"1916-03-08\">\n           八日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇時半\n            </time>\n<placeName corresp=\"#place_ロシア\">\n             露国\n            </placeName>\n            大使館セビン氏ヨリ御案内\n            <lb/>\n            （\n            <placeName corresp=\"#place_麹町\">\n             麴町\n            </placeName>\n            区一番町十三番地同氏邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<placeName corresp=\"#place_台湾\">\n             台湾\n            </placeName>\n            銀行\n            <persName corresp=\"#pers_桜井\">\n<surname>\n              桜井\n             </surname>\n</persName>\n<persName corresp=\"#pers_柳生\">\n<surname>\n              柳生\n             </surname>\n</persName>\n            両氏ヨリ御案内（常盤屋）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0065\">\n<head>\n<date when=\"1916-03-08\">\n           八日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇時半\n            </time>\n<placeName corresp=\"#place_ロシア\">\n             露国\n            </placeName>\n            大使館\n            <persName corresp=\"#pers_セビン\">\n<surname>\n              セビン\n             </surname>\n</persName>\n            氏ヨリ御案内\n            <lb/>\n            （\n            <placeName corresp=\"#place_麹町\">\n             麴町\n            </placeName>\n            区一番町十三番地同氏邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<orgName>\n             台湾銀行\n            </orgName>\n<persName corresp=\"#pers_桜井\">\n<surname>\n              桜井\n             </surname>\n</persName>\n<persName corresp=\"#pers_柳生\">\n<surname>\n              柳生\n             </surname>\n</persName>\n            両氏ヨリ御案内（常盤屋）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-03"
 }

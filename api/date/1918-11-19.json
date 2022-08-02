@@ -2,7 +2,14 @@
     "agential": [
         "小松原英太郎",
         "田中",
-        "阪井徳太郎"
+        "阪井徳太郎",
+        "ウード"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小松原英太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田中",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/阪井徳太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ウード"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1282",
     "category": {
@@ -19,7 +26,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-11",
     "date_lvl2": "1918-11-19",
-    "description": "\n\n\n           十九日\n          \n          （火）\n         \n\n\n\n\n             午后二―午后三時\n            \n\n\n              小松原\n             \n\n              英太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            ヘンリー・ピー・バウイー氏\n            \n             兜町\n            \n            ニ来約（\n            \n\n              田中\n             \n\n            氏通訳）\n           \n\n\n\n\n             午後六半時\n            \n\n\n              阪井\n             \n\n              徳太郎\n             \n\n            氏主催、ウード氏招待会（ホテル）（略服）\n           \n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （火）\n         \n\n\n\n\n             午后二―午后三時\n            \n\n\n              小松原\n             \n\n              英太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            ヘンリー・ピー・バウイー氏\n            \n             兜町\n            \n            ニ来約（\n            \n\n              田中\n             \n\n            氏通訳）\n           \n\n\n\n\n             午後六半時\n            \n\n\n              阪井\n             \n\n              徳太郎\n             \n\n            氏主催、\n            \n\n              ウード\n             \n\n            氏招待会（ホテル）（略服）\n           \n\n\n",
     "label": "十九日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0303",
@@ -29,6 +36,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1918-11-19",
     "texts": [
@@ -55,7 +65,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0302\">\n<head>\n<date when=\"1918-11-19\">\n           十九日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午后二―午后三時\n            </time>\n<persName corresp=\"#pers_小松原英太郎\">\n<surname>\n              小松原\n             </surname>\n<forename>\n              英太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            ヘンリー・ピー・バウイー氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約（\n            <persName corresp=\"#pers_田中\">\n<surname>\n              田中\n             </surname>\n</persName>\n            氏通訳）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:30:00\">\n             午後六半時\n            </time>\n<persName corresp=\"#pers_阪井徳太郎\">\n<surname>\n              阪井\n             </surname>\n<forename>\n              徳太郎\n             </forename>\n</persName>\n            氏主催、ウード氏招待会（ホテル）（略服）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0302\">\n<head>\n<date when=\"1918-11-19\">\n           十九日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午后二―午后三時\n            </time>\n<persName corresp=\"#pers_小松原英太郎\">\n<surname>\n              小松原\n             </surname>\n<forename>\n              英太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            ヘンリー・ピー・バウイー氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約（\n            <persName corresp=\"#pers_田中\">\n<surname>\n              田中\n             </surname>\n</persName>\n            氏通訳）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:30:00\">\n             午後六半時\n            </time>\n<persName corresp=\"#pers_阪井徳太郎\">\n<surname>\n              阪井\n             </surname>\n<forename>\n              徳太郎\n             </forename>\n</persName>\n            氏主催、\n            <persName corresp=\"#pers_ウード\">\n<surname>\n              ウード\n             </surname>\n</persName>\n            氏招待会（ホテル）（略服）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-11"
 }

@@ -1,7 +1,6 @@
 {
-    "agential": [
-        "渋沢"
-    ],
+    "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1608",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +16,7 @@
     "date_lvl0": "1930",
     "date_lvl1": "1930-05",
     "date_lvl2": "1930-05-02",
-    "description": "\n\n\n           二日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午前十一時\n            \n\n             米国\n            \n            大使館御訪問（同大使館）\n           \n\n\n\n\n             午後〇・十\n            \n            再ビ事務所ニ御出勤\n           \n\n\n\n\n             午後一時\n            \n\n             東京\n            \n            女学館評議員会（\n            \n\n              渋沢\n             \n\n            事務所）\n           \n\n\n",
+    "description": "\n\n\n           二日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午前十一時\n            \n\n             米国\n            \n            大使館御訪問（同大使館）\n           \n\n\n\n\n             午後〇・十\n            \n            再ビ事務所ニ御出勤\n           \n\n\n\n\n             午後一時\n            \n\n             東京女学館\n            \n            評議員会（渋沢事務所）\n           \n\n\n",
     "label": "二日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20032m-0037",
@@ -26,8 +25,10 @@
     "sort": "DKB20032m-0036",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アメリカ合衆国",
-        "東京"
+        "アメリカ合衆国"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アメリカ合衆国"
     ],
     "temporal": "1930-05-02",
     "texts": [
@@ -56,7 +57,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            事務所ニ御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0036\">\n<head>\n<date when=\"1930-05-02\">\n           二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            大使館御訪問（同大使館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:10:00\">\n             午後〇・十\n            </time>\n            再ビ事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            女学館評議員会（\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0036\">\n<head>\n<date when=\"1930-05-02\">\n           二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            大使館御訪問（同大使館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:10:00\">\n             午後〇・十\n            </time>\n            再ビ事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             東京女学館\n            </orgName>\n            評議員会（渋沢事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1930",
     "yearAndMonth": "1930-05"
 }

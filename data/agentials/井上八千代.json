@@ -9,6 +9,12 @@
         {
             "color": "lightgrey",
             "from": "田中",
+            "to": "大倉",
+            "value": 17
+        },
+        {
+            "color": "lightgrey",
+            "from": "田中",
             "to": "益田",
             "value": 13
         },
@@ -27,8 +33,14 @@
         {
             "color": "lightgrey",
             "from": "田中",
-            "to": "兼子",
+            "to": "渋沢兼子",
             "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "田中",
+            "to": "大川",
+            "value": 13
         },
         {
             "color": "lightgrey",
@@ -39,7 +51,7 @@
         {
             "color": "lightgrey",
             "from": "明石",
-            "to": "兼子",
+            "to": "渋沢兼子",
             "value": 20
         },
         {
@@ -57,8 +69,14 @@
         {
             "color": "lightgrey",
             "from": "明石",
-            "to": "正雄",
-            "value": 15
+            "to": "渋沢正雄",
+            "value": 16
+        },
+        {
+            "color": "lightgrey",
+            "from": "明石",
+            "to": "渋沢篤二",
+            "value": 10
         },
         {
             "color": "lightgrey",
@@ -69,20 +87,26 @@
         {
             "color": "lightgrey",
             "from": "明石",
-            "to": "愛子",
+            "to": "渋沢武之助",
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "明石",
+            "to": "明石愛子",
             "value": 10
         },
         {
             "color": "lightgrey",
             "from": "明石照男",
-            "to": "兼子",
+            "to": "渋沢兼子",
             "value": 13
         },
         {
             "color": "lightgrey",
             "from": "明石照男",
-            "to": "正雄",
-            "value": 13
+            "to": "渋沢正雄",
+            "value": 16
         }
     ],
     "nodes": [
@@ -91,7 +115,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 81,
+            "count": 111,
             "id": "田中",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "田中",
@@ -102,7 +126,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 79,
+            "count": 100,
             "id": "明石",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "明石",
@@ -113,7 +137,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 26,
+            "count": 29,
             "description": "\n     明石 照男（あかし てるお、1881年3月30日 - 1956年9月29日）は、岡山県和気郡英保村（現・備前市吉永町）出身の実業家、銀行家。\n    ",
             "id": "明石照男",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Teruo_Akashi.jpg/200px-Teruo_Akashi.jpg",
@@ -159,9 +183,9 @@
                 "border": "lightgreen"
             },
             "count": 43,
-            "id": "兼子",
+            "id": "渋沢兼子",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "兼子",
+            "label": "渋沢兼子",
             "shape": "image"
         },
         {
@@ -170,9 +194,9 @@
                 "border": "lightgreen"
             },
             "count": 10,
-            "id": "愛子",
+            "id": "明石愛子",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "愛子",
+            "label": "明石愛子",
             "shape": "image"
         },
         {
@@ -213,10 +237,57 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 28,
-            "id": "正雄",
+            "count": 10,
+            "description": "\n     渋沢 篤二（澁澤 篤二、しぶさわ とくじ、1872年11月16日〈明治5年10月16日〉 - 1932年〈昭和7年〉10月6日）は、日本の実業家。澁澤倉庫取締役会長。族籍は東京府華族。\n    ",
+            "id": "渋沢篤二",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "正雄",
+            "label": "渋沢篤二",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "description": "\n     渋沢 武之助（しぶさわ たけのすけ、1886年〈明治19年〉12月26日 - 1946年〈昭和21年〉6月4日）は、日本の実業家。子爵・渋沢栄一の二男。族籍は東京府平民。\n    ",
+            "id": "渋沢武之助",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "渋沢武之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 17,
+            "id": "大倉",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "大倉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 13,
+            "id": "大川",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "大川",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 32,
+            "description": "\n     渋沢 正雄（しぶさわ まさお、1888年〈明治21年〉11月1日 - 1942年〈昭和17年〉9月10日）は、日本の実業家。子爵・渋沢栄一の三男。日満鉄鋼販売、石川島自動車製作所、富士製鋼各社長。東京石川島造船所専務取締役。日本製鐵常務取締役兼八幡製鐵所長。族籍は東京府平民。\n    ",
+            "id": "渋沢正雄",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "渋沢正雄",
             "shape": "image"
         }
     ]

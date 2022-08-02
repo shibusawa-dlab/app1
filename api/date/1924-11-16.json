@@ -3,6 +3,10 @@
         "明石",
         "藤瀬"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/明石",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/藤瀬"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1482",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,7 +22,7 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-11",
     "date_lvl2": "1924-11-16",
-    "description": "\n\n\n           十六日\n          \n          （日）\n         \n\n\n\n\n             午後三―四時\n            \n\n\n              明石\n             \n\n            邸ヘ御出向\n           \n\n\n\n\n             午後三―四半時\n            \n\n\n              藤瀬\n             \n\n            、林両家結婚披露（帝国ホテル）\n           \n\n\n\n\n           （欄外）\n           \n\n\n              転記済\n              \n               十九日\n              \n              夕仁恵院殿三十五日御法要晩餐会（\n              \n               上野精養軒\n              \n              ）\n             \n\n\n\n\n               廿二日\n              \n\n               後二\n              \n              国際聯盟協会\n              \n               神奈川\n              \n              県支部発会式（\n              \n               横浜\n              \n              市公会堂）\n             \n\n\n\n\n",
+    "description": "\n\n\n           十六日\n          \n          （日）\n         \n\n\n\n\n             午後三―四時\n            \n\n\n              明石\n             \n\n            邸ヘ御出向\n           \n\n\n\n\n             午後三―四半時\n            \n\n\n              藤瀬\n             \n\n            、林両家結婚披露（帝国ホテル）\n           \n\n\n\n\n           （欄外）\n           \n\n\n              転記済\n              \n               十九日\n              \n              夕仁恵院殿三十五日御法要晩餐会（\n              \n               上野\n              \n\n               精養軒\n              \n              ）\n             \n\n\n\n\n               廿二日\n              \n\n               後二\n              \n              国際聯盟協会\n              \n               神奈川\n              \n              県支部発会式（\n              \n               横浜\n              \n              市公会堂）\n             \n\n\n\n\n",
     "label": "十六日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0318",
@@ -27,9 +31,14 @@
     "sort": "DKB20026m-0316",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "上野精養軒",
+        "上野",
         "神奈川",
         "横浜"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野",
+        "https://shibusawa-dlab.github.io/lab1/api/place/神奈川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/横浜"
     ],
     "temporal": "1924-11-16",
     "texts": [
@@ -56,7 +65,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0316\">\n<head>\n<date when=\"1924-11-16\">\n           十六日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―四時\n            </time>\n<persName corresp=\"#pers_明石\">\n<surname>\n              明石\n             </surname>\n</persName>\n            邸ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:30:00\">\n             午後三―四半時\n            </time>\n<persName corresp=\"#pers_藤瀬\">\n<surname>\n              藤瀬\n             </surname>\n</persName>\n            、林両家結婚披露（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n<div type=\"欄外\" xml:id=\"DKB20026m-0317\">\n<note>\n           （欄外）\n           <listEvent>\n<event>\n<p>\n              転記済\n              <date when=\"1924-11-19\">\n               十九日\n              </date>\n              夕仁恵院殿三十五日御法要晩餐会（\n              <placeName corresp=\"#place_上野精養軒\">\n               上野精養軒\n              </placeName>\n              ）\n             </p>\n</event>\n<event>\n<p>\n<date when=\"1924-11-22\">\n               廿二日\n              </date>\n<time when=\"14:00:00\">\n               後二\n              </time>\n              国際聯盟協会\n              <placeName corresp=\"#place_神奈川\">\n               神奈川\n              </placeName>\n              県支部発会式（\n              <placeName corresp=\"#place_横浜\">\n               横浜\n              </placeName>\n              市公会堂）\n             </p>\n</event>\n</listEvent>\n</note>\n</div>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0316\">\n<head>\n<date when=\"1924-11-16\">\n           十六日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―四時\n            </time>\n<persName corresp=\"#pers_明石\">\n<surname>\n              明石\n             </surname>\n</persName>\n            邸ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:30:00\">\n             午後三―四半時\n            </time>\n<persName corresp=\"#pers_藤瀬\">\n<surname>\n              藤瀬\n             </surname>\n</persName>\n            、林両家結婚披露（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n<div type=\"欄外\" xml:id=\"DKB20026m-0317\">\n<note>\n           （欄外）\n           <listEvent>\n<event>\n<p>\n              転記済\n              <date when=\"1924-11-19\">\n               十九日\n              </date>\n              夕仁恵院殿三十五日御法要晩餐会（\n              <placeName corresp=\"#place_上野\">\n               上野\n              </placeName>\n<orgName>\n               精養軒\n              </orgName>\n              ）\n             </p>\n</event>\n<event>\n<p>\n<date when=\"1924-11-22\">\n               廿二日\n              </date>\n<time when=\"14:00:00\">\n               後二\n              </time>\n              国際聯盟協会\n              <placeName corresp=\"#place_神奈川\">\n               神奈川\n              </placeName>\n              県支部発会式（\n              <placeName corresp=\"#place_横浜\">\n               横浜\n              </placeName>\n              市公会堂）\n             </p>\n</event>\n</listEvent>\n</note>\n</div>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-11"
 }

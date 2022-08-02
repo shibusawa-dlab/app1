@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/646",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -15,7 +16,7 @@
     "date_lvl0": "1910",
     "date_lvl1": "1910-05",
     "date_lvl2": "1910-05-06",
-    "description": "\n\n\n        五月六日\n       \n       金　晴　暖\n      \n\n\n        午前七時\n       \n       起床、入浴シ、畢テ朝飧ヲ食ス、後、来客ニ接ス、\n       \n        午前十時\n       \n       事務所ニ抵リ、来人ニ接シ又事務ヲ処理ス、\n       \n        正午\n       \n\n        第一銀行\n       \n       ニ抵リテ午飧ス、\n       \n        午後二時\n       \n\n        日本銀行\n       \n       ニ抵リ、\n       \n        東京\n       \n       ノ公債下受銀行相談会ヲ開キ、公債ニ関スル協議ヲ為ス、議論多ク協定セス、来ル\n       \n        九日\n       \n       ヲ期シ\n       \n        大阪\n       \n       同業者ヲ会同シテ議定スヘキ事ヲ約シテ散会ス、\n       \n        午後六時\n       \n\n        浜町\n       \n       常盤屋ニ抵リ、\n       \n        台湾\n       \n       銀行ヨリノ饗宴ニ出席ス、畢テ\n       \n        浜町\n       \n       宅ヲ訪ヒ、夜\n       \n        十一時\n       \n\n        王子\n       \n       ニ帰宿ス\n      \n",
+    "description": "\n\n\n        五月六日\n       \n       金　晴　暖\n      \n\n\n        午前七時\n       \n       起床、入浴シ、畢テ朝飧ヲ食ス、後、来客ニ接ス、\n       \n        午前十時\n       \n       事務所ニ抵リ、来人ニ接シ又事務ヲ処理ス、\n       \n        正午\n       \n\n        第一銀行\n       \n       ニ抵リテ午飧ス、\n       \n        午後二時\n       \n\n        日本銀行\n       \n       ニ抵リ、\n       \n        東京\n       \n       ノ公債下受銀行相談会ヲ開キ、公債ニ関スル協議ヲ為ス、議論多ク協定セス、来ル\n       \n        九日\n       \n       ヲ期シ\n       \n        大阪\n       \n       同業者ヲ会同シテ議定スヘキ事ヲ約シテ散会ス、\n       \n        午後六時\n       \n\n        浜町\n       \n       常盤屋ニ抵リ、\n       \n        台湾銀行\n       \n       ヨリノ饗宴ニ出席ス、畢テ\n       \n        浜町\n       \n       宅ヲ訪ヒ、夜\n       \n        十一時\n       \n\n        王子\n       \n       ニ帰宿ス\n      \n",
     "label": "五月六日              金　晴　暖",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10018m-0100",
@@ -27,8 +28,13 @@
         "東京",
         "大阪",
         "浜町",
-        "台湾",
         "王子"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/大阪",
+        "https://shibusawa-dlab.github.io/lab1/api/place/浜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子"
     ],
     "temporal": "1910-05-06",
     "texts": [
@@ -58,11 +64,11 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n        午前十時\n       </time>\n       事務所ニ抵リ、来人ニ接シ又事務ヲ処理ス、</div>",
         "12:00:00": "<div><time when=\"12:00:00\">\n        正午\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ抵リテ午飧ス、</div>",
         "14:00:00": "<div><time when=\"14:00:00\">\n        午後二時\n       </time>\n<orgName>\n        日本銀行\n       </orgName>\n       ニ抵リ、\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n       ノ公債下受銀行相談会ヲ開キ、公債ニ関スル協議ヲ為ス、議論多ク協定セス、来ル\n       <date when=\"1910-05-09\">\n        九日\n       </date>\n       ヲ期シ\n       <placeName corresp=\"#place_大阪\">\n        大阪\n       </placeName>\n       同業者ヲ会同シテ議定スヘキ事ヲ約シテ散会ス、</div>",
-        "18:00:00": "<div><time when=\"18:00:00\">\n        午後六時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       常盤屋ニ抵リ、\n       <placeName corresp=\"#place_台湾\">\n        台湾\n       </placeName>\n       銀行ヨリノ饗宴ニ出席ス、畢テ\n       <placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       宅ヲ訪ヒ、夜</div>",
+        "18:00:00": "<div><time when=\"18:00:00\">\n        午後六時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       常盤屋ニ抵リ、\n       <orgName>\n        台湾銀行\n       </orgName>\n       ヨリノ饗宴ニ出席ス、畢テ\n       <placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       宅ヲ訪ヒ、夜</div>",
         "23:00:00": "<div><time when=\"23:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10018m-0099\">\n<head>\n<date when=\"1910-05-06\">\n        五月六日\n       </date>\n       金　晴　暖\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、入浴シ、畢テ朝飧ヲ食ス、後、来客ニ接ス、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n       事務所ニ抵リ、来人ニ接シ又事務ヲ処理ス、\n       <time when=\"12:00:00\">\n        正午\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ抵リテ午飧ス、\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n<orgName>\n        日本銀行\n       </orgName>\n       ニ抵リ、\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n       ノ公債下受銀行相談会ヲ開キ、公債ニ関スル協議ヲ為ス、議論多ク協定セス、来ル\n       <date when=\"1910-05-09\">\n        九日\n       </date>\n       ヲ期シ\n       <placeName corresp=\"#place_大阪\">\n        大阪\n       </placeName>\n       同業者ヲ会同シテ議定スヘキ事ヲ約シテ散会ス、\n       <time when=\"18:00:00\">\n        午後六時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       常盤屋ニ抵リ、\n       <placeName corresp=\"#place_台湾\">\n        台湾\n       </placeName>\n       銀行ヨリノ饗宴ニ出席ス、畢テ\n       <placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       宅ヲ訪ヒ、夜\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10018m-0099\">\n<head>\n<date when=\"1910-05-06\">\n        五月六日\n       </date>\n       金　晴　暖\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、入浴シ、畢テ朝飧ヲ食ス、後、来客ニ接ス、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n       事務所ニ抵リ、来人ニ接シ又事務ヲ処理ス、\n       <time when=\"12:00:00\">\n        正午\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ抵リテ午飧ス、\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n<orgName>\n        日本銀行\n       </orgName>\n       ニ抵リ、\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n       ノ公債下受銀行相談会ヲ開キ、公債ニ関スル協議ヲ為ス、議論多ク協定セス、来ル\n       <date when=\"1910-05-09\">\n        九日\n       </date>\n       ヲ期シ\n       <placeName corresp=\"#place_大阪\">\n        大阪\n       </placeName>\n       同業者ヲ会同シテ議定スヘキ事ヲ約シテ散会ス、\n       <time when=\"18:00:00\">\n        午後六時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       常盤屋ニ抵リ、\n       <orgName>\n        台湾銀行\n       </orgName>\n       ヨリノ饗宴ニ出席ス、畢テ\n       <placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       宅ヲ訪ヒ、夜\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1910",
     "yearAndMonth": "1910-05"
 }

@@ -3,6 +3,10 @@
         "星野",
         "堀越"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/星野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/堀越"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1188",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,7 +22,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-07",
     "date_lvl2": "1915-07-19",
-    "description": "\n\n\n           十九日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n            土地会社ノ件ニ付\n            \n\n              星野\n             \n\n            氏等ト御会合（商業会議処）\n           \n\n\n\n\n             午十時半\n            \n\n             東京\n            \n            市長御訪問約（市役所）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              堀越\n             \n\n            商会総会（帝国ホテル）\n           \n\n\n\n\n             午後六時\n            \n\n             東京\n            \n            市吏員主催、新旧市長迎送会（築地精養軒）\n            \n            （之ハ電話ニテ此催アル事ヲ御耳ニ入ルヽトノミニテ案内状ナシ）\n           \n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n            土地会社ノ件ニ付\n            \n\n              星野\n             \n\n            氏等ト御会合（商業会議処）\n           \n\n\n\n\n             午十時半\n            \n\n             東京\n            \n            市長御訪問約（市役所）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              堀越\n             \n\n            商会総会（帝国ホテル）\n           \n\n\n\n\n             午後六時\n            \n\n             東京\n            \n            市吏員主催、新旧市長迎送会（\n            \n             築地\n            \n\n             精養軒\n            \n            ）\n            \n            （之ハ電話ニテ此催アル事ヲ御耳ニ入ルヽトノミニテ案内状ナシ）\n           \n\n\n",
     "label": "十九日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0192",
@@ -27,7 +31,12 @@
     "sort": "DKB20017m-0190",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "東京"
+        "東京",
+        "築地"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
     ],
     "temporal": "1915-07-19",
     "texts": [
@@ -56,7 +65,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            土地会社ノ件ニ付\n            <persName corresp=\"#pers_星野\">\n<surname>\n              星野\n             </surname>\n</persName>\n            氏等ト御会合（商業会議処）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0190\">\n<head>\n<date when=\"1915-07-19\">\n           十九日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            土地会社ノ件ニ付\n            <persName corresp=\"#pers_星野\">\n<surname>\n              星野\n             </surname>\n</persName>\n            氏等ト御会合（商業会議処）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午十時半\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市長御訪問約（市役所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_堀越\">\n<surname>\n              堀越\n             </surname>\n</persName>\n            商会総会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市吏員主催、新旧市長迎送会（築地精養軒）\n            <lb/>\n            （之ハ電話ニテ此催アル事ヲ御耳ニ入ルヽトノミニテ案内状ナシ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0190\">\n<head>\n<date when=\"1915-07-19\">\n           十九日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            土地会社ノ件ニ付\n            <persName corresp=\"#pers_星野\">\n<surname>\n              星野\n             </surname>\n</persName>\n            氏等ト御会合（商業会議処）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午十時半\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市長御訪問約（市役所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_堀越\">\n<surname>\n              堀越\n             </surname>\n</persName>\n            商会総会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市吏員主催、新旧市長迎送会（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n            <lb/>\n            （之ハ電話ニテ此催アル事ヲ御耳ニ入ルヽトノミニテ案内状ナシ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-07"
 }

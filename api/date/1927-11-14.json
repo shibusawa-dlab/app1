@@ -1,6 +1,11 @@
 {
     "agential": [
-        "畑良太郎"
+        "畑良太郎",
+        "渋沢栄一"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/畑良太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢栄一"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1563",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-11",
     "date_lvl2": "1927-11-14",
-    "description": "\n\n\n           十四日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n\n\n              畑\n             \n\n              良太郎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n            早稲田大学定時維持員会（同校）\n           \n\n\n\n\n             午後三時\n            \n            青渊先生寿像除幕式（\n            \n             一ツ橋\n            \n            商科大学）\n           \n\n\n\n\n             午後五時\n            \n            如水会催家族会、引続キ晩餐会（如水会館）\n           \n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n\n\n              畑\n             \n\n              良太郎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n            早稲田大学定時維持員会（同校）\n           \n\n\n\n\n             午後三時\n            \n\n\n              青渊\n             \n\n            先生寿像除幕式（\n            \n             一ツ橋\n            \n            商科大学）\n           \n\n\n\n\n             午後五時\n            \n            如水会催家族会、引続キ晩餐会（如水会館）\n           \n\n\n",
     "label": "十四日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0294",
@@ -26,8 +31,12 @@
     "sort": "DKB20029m-0293",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
+        "飛鳥山邸",
         "一ツ橋"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/一ツ橋"
     ],
     "temporal": "1927-11-14",
     "texts": [
@@ -53,10 +62,10 @@
         "DKB20033m-0103"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_畑良太郎\">\n<surname>\n              畑\n             </surname>\n<forename>\n              良太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_畑良太郎\">\n<surname>\n              畑\n             </surname>\n<forename>\n              良太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0293\">\n<head>\n<date when=\"1927-11-14\">\n           十四日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_畑良太郎\">\n<surname>\n              畑\n             </surname>\n<forename>\n              良太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            早稲田大学定時維持員会（同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            青渊先生寿像除幕式（\n            <placeName corresp=\"#place_一ツ橋\">\n             一ツ橋\n            </placeName>\n            商科大学）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            如水会催家族会、引続キ晩餐会（如水会館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0293\">\n<head>\n<date when=\"1927-11-14\">\n           十四日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_畑良太郎\">\n<surname>\n              畑\n             </surname>\n<forename>\n              良太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            早稲田大学定時維持員会（同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_渋沢栄一\">\n<forename>\n              青渊\n             </forename>\n</persName>\n            先生寿像除幕式（\n            <placeName corresp=\"#place_一ツ橋\">\n             一ツ橋\n            </placeName>\n            商科大学）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            如水会催家族会、引続キ晩餐会（如水会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-11"
 }

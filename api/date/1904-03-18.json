@@ -6,6 +6,13 @@
         "諸井恒平",
         "六郎"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中村秋香",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/八十島",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/須永伝蔵",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/諸井恒平",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/六郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/360",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -21,7 +28,7 @@
     "date_lvl0": "1904",
     "date_lvl1": "1904-03",
     "date_lvl2": "1904-03-18",
-    "description": "\n\n\n        三月十八日\n       \n\n\n       朝雪降ル、\n       \n        午前八時\n       \n       起床、室内運動ヲ試ム、朝飧後新聞紙ヲ閲ス、\n       \n\n         中\n         村\n        \n\n         秋香\n        \n\n       氏ヨリ書状及詠草来ル、\n       \n        東京\n       \n\n\n         八十島\n        \n\n       ヨリ書状来ル、\n       \n        十時\n       \n\n\n         須永\n        \n\n         伝蔵\n        \n\n       来訪ス、\n       \n\n         諸井\n        \n\n         恒平\n        \n\n       来リ\n       \n\n         六郎\n        \n\n       縁談ノ事ヲ商議ス、午後家訓ヲ浄写ス\n      \n",
+    "description": "\n\n\n        三月十八日\n       \n\n\n       朝雪降ル、\n       \n        午前八時\n       \n       起床、室内運動ヲ試ム、朝飧後新聞紙ヲ閲ス、\n       \n\n         中\n         \n         村\n        \n\n         秋香\n        \n\n       氏ヨリ書状及詠草来ル、\n       \n        東京\n       \n\n\n         八十島\n        \n\n       ヨリ書状来ル、\n       \n        十時\n       \n\n\n         須永\n        \n\n         伝蔵\n        \n\n       来訪ス、\n       \n\n         諸井\n        \n\n         恒平\n        \n\n       来リ\n       \n\n         六郎\n        \n\n       縁談ノ事ヲ商議ス、午後家訓ヲ浄写ス\n      \n",
     "label": "三月十八日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10012m-0040",
@@ -31,6 +38,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1904-03-18",
     "texts": [
@@ -56,11 +66,11 @@
         "DKB10012m-0048"
     ],
     "time": {
-        "08:00:00": "<div>朝雪降ル、<time when=\"08:00:00\">\n        午前八時\n       </time>\n       起床、室内運動ヲ試ム、朝飧後新聞紙ヲ閲ス、\n       <persName corresp=\"#pers_中村秋香\">\n<surname>\n         中\n         村\n        </surname>\n<forename>\n         秋香\n        </forename>\n</persName>\n       氏ヨリ書状及詠草来ル、\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n<persName corresp=\"#pers_八十島\">\n<surname>\n         八十島\n        </surname>\n</persName>\n       ヨリ書状来ル、</div>",
+        "08:00:00": "<div>朝雪降ル、<time when=\"08:00:00\">\n        午前八時\n       </time>\n       起床、室内運動ヲ試ム、朝飧後新聞紙ヲ閲ス、\n       <persName corresp=\"#pers_中村秋香\">\n<surname>\n         中\n         <pb corresp=\"#pageB1335\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/361/full/max/0/default.jpg\" n=\"B1335\" source=\"#pageB1335\"/>\n         村\n        </surname>\n<forename>\n         秋香\n        </forename>\n</persName>\n       氏ヨリ書状及詠草来ル、\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n<persName corresp=\"#pers_八十島\">\n<surname>\n         八十島\n        </surname>\n</persName>\n       ヨリ書状来ル、</div>",
         "10:00:00": "<div><time when=\"10:00:00\">\n        十時\n       </time>\n<persName corresp=\"#pers_須永伝蔵\">\n<surname>\n         須永\n        </surname>\n<forename>\n         伝蔵\n        </forename>\n</persName>\n       来訪ス、\n       <persName corresp=\"#pers_諸井恒平\">\n<surname>\n         諸井\n        </surname>\n<forename>\n         恒平\n        </forename>\n</persName>\n       来リ\n       <persName corresp=\"#pers_六郎\">\n<forename>\n         六郎\n        </forename>\n</persName>\n       縁談ノ事ヲ商議ス、午後家訓ヲ浄写ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10012m-0039\">\n<head>\n<date when=\"1904-03-18\">\n        三月十八日\n       </date>\n</head>\n<p>\n       朝雪降ル、\n       <time when=\"08:00:00\">\n        午前八時\n       </time>\n       起床、室内運動ヲ試ム、朝飧後新聞紙ヲ閲ス、\n       <persName corresp=\"#pers_中村秋香\">\n<surname>\n         中\n         村\n        </surname>\n<forename>\n         秋香\n        </forename>\n</persName>\n       氏ヨリ書状及詠草来ル、\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n<persName corresp=\"#pers_八十島\">\n<surname>\n         八十島\n        </surname>\n</persName>\n       ヨリ書状来ル、\n       <time when=\"10:00:00\">\n        十時\n       </time>\n<persName corresp=\"#pers_須永伝蔵\">\n<surname>\n         須永\n        </surname>\n<forename>\n         伝蔵\n        </forename>\n</persName>\n       来訪ス、\n       <persName corresp=\"#pers_諸井恒平\">\n<surname>\n         諸井\n        </surname>\n<forename>\n         恒平\n        </forename>\n</persName>\n       来リ\n       <persName corresp=\"#pers_六郎\">\n<forename>\n         六郎\n        </forename>\n</persName>\n       縁談ノ事ヲ商議ス、午後家訓ヲ浄写ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10012m-0039\">\n<head>\n<date when=\"1904-03-18\">\n        三月十八日\n       </date>\n</head>\n<p>\n       朝雪降ル、\n       <time when=\"08:00:00\">\n        午前八時\n       </time>\n       起床、室内運動ヲ試ム、朝飧後新聞紙ヲ閲ス、\n       <persName corresp=\"#pers_中村秋香\">\n<surname>\n         中\n         <pb corresp=\"#pageB1335\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/361/full/max/0/default.jpg\" n=\"B1335\" source=\"#pageB1335\"/>\n         村\n        </surname>\n<forename>\n         秋香\n        </forename>\n</persName>\n       氏ヨリ書状及詠草来ル、\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n<persName corresp=\"#pers_八十島\">\n<surname>\n         八十島\n        </surname>\n</persName>\n       ヨリ書状来ル、\n       <time when=\"10:00:00\">\n        十時\n       </time>\n<persName corresp=\"#pers_須永伝蔵\">\n<surname>\n         須永\n        </surname>\n<forename>\n         伝蔵\n        </forename>\n</persName>\n       来訪ス、\n       <persName corresp=\"#pers_諸井恒平\">\n<surname>\n         諸井\n        </surname>\n<forename>\n         恒平\n        </forename>\n</persName>\n       来リ\n       <persName corresp=\"#pers_六郎\">\n<forename>\n         六郎\n        </forename>\n</persName>\n       縁談ノ事ヲ商議ス、午後家訓ヲ浄写ス\n      </p>\n</div>",
     "year": "1904",
     "yearAndMonth": "1904-03"
 }

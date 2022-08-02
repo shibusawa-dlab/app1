@@ -2,6 +2,9 @@
     "agential": [
         "東郷"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/東郷"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/417",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -27,7 +30,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "築地",
-        "王子別荘"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1905-12-02",
     "texts": [
@@ -58,10 +65,10 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n        午前十時\n       </time>\n       東京市役所ニ抵リ陸軍凱旋ノ歓迎ニ関シ種々ノ協議ヲ為シ、発企人ノ総会ヲ開ク、畢テ午飧ヲ為シ、</div>",
         "14:00:00": "<div><time when=\"14:00:00\">\n        午後二時\n       </time>\n<placeName corresp=\"#place_築地\">\n        築地\n       </placeName>\n       水交社ニ抵リ\n       <persName corresp=\"#pers_東郷\">\n<surname>\n         東郷\n        </surname>\n</persName>\n       海軍大将ノ園遊会ニ列ス、先ツ水兵ノ相撲アリ、次ニ仮装舞踏会アリ、終ニ庭前ノ池ニテ水雷ヲ発シ、又ハ炮台破壊《（砲）》ノ状ヲ為シ、其他種々ノ海軍戦争ノ状ヲ示シ、</div>",
         "16:00:00": "<div><time when=\"16:00:00\">\n        四時\n       </time>\n       食堂ニ入リテ立食ス、来会スル者官吏、軍人、実業家等無慮六七百人許リナリ、</div>",
-        "18:00:00": "<div><time when=\"18:00:00\">\n        午後六時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
+        "18:00:00": "<div><time when=\"18:00:00\">\n        午後六時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10013m-0293\">\n<head>\n<date when=\"1905-12-02\">\n        十二月二日\n       </date>\n       土　晴　風ナシ\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、書類ヲ調査シ\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       入浴、畢テ朝飧ヲ喫シ、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n       東京市役所ニ抵リ陸軍凱旋ノ歓迎ニ関シ種々ノ協議ヲ為シ、発企人ノ総会ヲ開ク、畢テ午飧ヲ為シ、\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n<placeName corresp=\"#place_築地\">\n        築地\n       </placeName>\n       水交社ニ抵リ\n       <persName corresp=\"#pers_東郷\">\n<surname>\n         東郷\n        </surname>\n</persName>\n       海軍大将ノ園遊会ニ列ス、先ツ水兵ノ相撲アリ、次ニ仮装舞踏会アリ、終ニ庭前ノ池ニテ水雷ヲ発シ、又ハ炮台破壊《（砲）》ノ状ヲ為シ、其他種々ノ海軍戦争ノ状ヲ示シ、\n       <time when=\"16:00:00\">\n        四時\n       </time>\n       食堂ニ入リテ立食ス、来会スル者官吏、軍人、実業家等無慮六七百人許リナリ、\n       <time when=\"18:00:00\">\n        午後六時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10013m-0293\">\n<head>\n<date when=\"1905-12-02\">\n        十二月二日\n       </date>\n       土　晴　風ナシ\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、書類ヲ調査シ\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       入浴、畢テ朝飧ヲ喫シ、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n       東京市役所ニ抵リ陸軍凱旋ノ歓迎ニ関シ種々ノ協議ヲ為シ、発企人ノ総会ヲ開ク、畢テ午飧ヲ為シ、\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n<placeName corresp=\"#place_築地\">\n        築地\n       </placeName>\n       水交社ニ抵リ\n       <persName corresp=\"#pers_東郷\">\n<surname>\n         東郷\n        </surname>\n</persName>\n       海軍大将ノ園遊会ニ列ス、先ツ水兵ノ相撲アリ、次ニ仮装舞踏会アリ、終ニ庭前ノ池ニテ水雷ヲ発シ、又ハ炮台破壊《（砲）》ノ状ヲ為シ、其他種々ノ海軍戦争ノ状ヲ示シ、\n       <time when=\"16:00:00\">\n        四時\n       </time>\n       食堂ニ入リテ立食ス、来会スル者官吏、軍人、実業家等無慮六七百人許リナリ、\n       <time when=\"18:00:00\">\n        午後六時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1905",
     "yearAndMonth": "1905-12"
 }

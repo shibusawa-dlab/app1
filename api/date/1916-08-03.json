@@ -1,7 +1,13 @@
 {
     "agential": [
         "根本清六",
-        "萩野"
+        "萩野",
+        "草野馨"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/根本清六",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/萩野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/草野馨"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1212",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-08",
     "date_lvl2": "1916-08-03",
-    "description": "\n\n\n           三日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n            時局調査会委員会（商業会議所）中の氏ニ\n            \n\n              根本\n             \n\n              清六\n             \n\n            氏ノ件御話しの筈\n           \n\n\n\n\n             午前十一正午\n            \n\n\n              萩野\n             \n\n            文学博士ト御会見ノ約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午後二時\n            \n            草野馨氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           三日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n            時局調査会委員会（商業会議所）中の氏ニ\n            \n\n              根本\n             \n\n              清六\n             \n\n            氏ノ件御話しの筈\n           \n\n\n\n\n             午前十一正午\n            \n\n\n              萩野\n             \n\n            文学博士ト御会見ノ約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午後二時\n            \n\n\n              草野\n             \n\n              馨\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n",
     "label": "三日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0201",
@@ -28,7 +34,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町",
-        "飛鳥山公園"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1916-08-03",
     "texts": [
@@ -57,7 +67,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            時局調査会委員会（商業会議所）中の氏ニ\n            <persName corresp=\"#pers_根本清六\">\n<surname>\n              根本\n             </surname>\n<forename>\n              清六\n             </forename>\n</persName>\n            氏ノ件御話しの筈</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0200\">\n<head>\n<date when=\"1916-08-03\">\n           三日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            時局調査会委員会（商業会議所）中の氏ニ\n            <persName corresp=\"#pers_根本清六\">\n<surname>\n              根本\n             </surname>\n<forename>\n              清六\n             </forename>\n</persName>\n            氏ノ件御話しの筈\n           </p>\n</event>\n<event>\n<p>\n<time from=\"11:00:00\" to=\"12:00:00\">\n             午前十一正午\n            </time>\n<persName corresp=\"#pers_萩野\">\n<surname>\n              萩野\n             </surname>\n</persName>\n            文学博士ト御会見ノ約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            草野馨氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0200\">\n<head>\n<date when=\"1916-08-03\">\n           三日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            時局調査会委員会（商業会議所）中の氏ニ\n            <persName corresp=\"#pers_根本清六\">\n<surname>\n              根本\n             </surname>\n<forename>\n              清六\n             </forename>\n</persName>\n            氏ノ件御話しの筈\n           </p>\n</event>\n<event>\n<p>\n<time from=\"11:00:00\" to=\"12:00:00\">\n             午前十一正午\n            </time>\n<persName corresp=\"#pers_萩野\">\n<surname>\n              萩野\n             </surname>\n</persName>\n            文学博士ト御会見ノ約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_草野馨\">\n<surname>\n              草野\n             </surname>\n<forename>\n              馨\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-08"
 }

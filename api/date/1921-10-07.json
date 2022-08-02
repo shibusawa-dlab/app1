@@ -1,7 +1,13 @@
 {
     "agential": [
         "嘉納治五郎",
-        "中村"
+        "中村",
+        "大川"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/嘉納治五郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中村",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大川"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1379",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-10",
     "date_lvl2": "1921-10-07",
-    "description": "\n\n\n           七日\n          \n          （金）\n         \n\n\n\n\n             午前十一時\n            \n            理化学研究所理事会（工業クラブ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              嘉納\n             \n\n              治五郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二―三時\n            \n\n\n              中村\n             \n\n            杏堂氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            聖徳太子奉賛会（同会事ム所）\n           \n\n\n\n\n             午後六時\n            \n            大川氏ヨリ御招待（常盤屋）\n           \n\n\n",
+    "description": "\n\n\n           七日\n          \n          （金）\n         \n\n\n\n\n             午前十一時\n            \n            理化学研究所理事会（工業クラブ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              嘉納\n             \n\n              治五郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二―三時\n            \n\n\n              中村\n             \n\n            杏堂氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            聖徳太子奉賛会（同会事ム所）\n           \n\n\n\n\n             午後六時\n            \n\n\n              大川\n             \n\n            氏ヨリ御招待（常盤屋）\n           \n\n\n",
     "label": "七日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0274",
@@ -28,6 +34,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1921-10-07",
     "texts": [
@@ -56,7 +65,7 @@
         "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            理化学研究所理事会（工業クラブ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0273\">\n<head>\n<date when=\"1921-10-07\">\n           七日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            理化学研究所理事会（工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_嘉納治五郎\">\n<surname>\n              嘉納\n             </surname>\n<forename>\n              治五郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―三時\n            </time>\n<persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            杏堂氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            聖徳太子奉賛会（同会事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            大川氏ヨリ御招待（常盤屋）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0273\">\n<head>\n<date when=\"1921-10-07\">\n           七日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            理化学研究所理事会（工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_嘉納治五郎\">\n<surname>\n              嘉納\n             </surname>\n<forename>\n              治五郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―三時\n            </time>\n<persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            杏堂氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            聖徳太子奉賛会（同会事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_大川\">\n<surname>\n              大川\n             </surname>\n</persName>\n            氏ヨリ御招待（常盤屋）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-10"
 }

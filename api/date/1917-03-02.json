@@ -1,6 +1,11 @@
 {
     "agential": [
+        "小池張造",
         "西郷"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小池張造",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/西郷"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1230",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-03",
     "date_lvl2": "1917-03-02",
-    "description": "\n\n\n           二日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n            商業会議所特別委員会\n           \n\n\n\n\n             午前十一半時\n            \n            小池張造氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              西郷\n             \n\n            （元\n            \n             京都\n            \n            市長）来約（〃）\n           \n\n\n",
+    "description": "\n\n\n           二日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n            商業会議所特別委員会\n           \n\n\n\n\n             午前十一半時\n            \n\n\n              小池\n             \n\n              張造\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              西郷\n             \n\n            （元\n            \n             京都\n            \n            市長）来約（〃）\n           \n\n\n",
     "label": "二日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0063",
@@ -28,6 +33,10 @@
     "spatial": [
         "日本橋兜町",
         "京都"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/京都"
     ],
     "temporal": "1917-03-02",
     "texts": [
@@ -56,7 +65,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            商業会議所特別委員会</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0062\">\n<head>\n<date when=\"1917-03-02\">\n           二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            商業会議所特別委員会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            小池張造氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_西郷\">\n<surname>\n              西郷\n             </surname>\n</persName>\n            （元\n            <placeName corresp=\"#place_京都\">\n             京都\n            </placeName>\n            市長）来約（〃）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0062\">\n<head>\n<date when=\"1917-03-02\">\n           二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            商業会議所特別委員会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<persName corresp=\"#pers_小池張造\">\n<surname>\n              小池\n             </surname>\n<forename>\n              張造\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_西郷\">\n<surname>\n              西郷\n             </surname>\n</persName>\n            （元\n            <placeName corresp=\"#place_京都\">\n             京都\n            </placeName>\n            市長）来約（〃）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-03"
 }

@@ -4,6 +4,11 @@
         "田澤義鋪",
         "伊東米治郎"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小橋一太",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田澤義鋪",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/伊東米治郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1426",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -19,7 +24,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-04",
     "date_lvl2": "1923-04-09",
-    "description": "\n\n\n           九日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n\n             滝野川\n            \n            学園理事会（同団）\n           \n\n\n\n\n             午後一時\n            \n\n\n              小橋\n             \n\n              一太\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            早稲田大学定時維持員会（同大学恩賜館）\n           \n\n\n\n\n             午後四半時\n            \n\n\n              田沢\n             \n\n              義鋪\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n\n\n              伊東\n             \n\n              米治郎\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n",
+    "description": "\n\n\n           九日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n\n             滝野川学園\n            \n            理事会（同団）\n           \n\n\n\n\n             午後一時\n            \n\n\n              小橋\n             \n\n              一太\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            早稲田大学定時維持員会（同大学恩賜館）\n           \n\n\n\n\n             午後四半時\n            \n\n\n              田沢\n             \n\n              義鋪\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n\n\n              伊東\n             \n\n              米治郎\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n",
     "label": "九日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0094",
@@ -28,8 +33,10 @@
     "sort": "DKB20025m-0093",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "滝野川",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1923-04-09",
     "texts": [
@@ -55,10 +62,10 @@
         "DKB20025m-0296"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_滝野川\">\n             滝野川\n            </placeName>\n            学園理事会（同団）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             滝野川学園\n            </orgName>\n            理事会（同団）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0093\">\n<head>\n<date when=\"1923-04-09\">\n           九日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_滝野川\">\n             滝野川\n            </placeName>\n            学園理事会（同団）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_小橋一太\">\n<surname>\n              小橋\n             </surname>\n<forename>\n              一太\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            早稲田大学定時維持員会（同大学恩賜館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n<persName corresp=\"#pers_田澤義鋪\">\n<surname>\n              田沢\n             </surname>\n<forename>\n              義鋪\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_伊東米治郎\">\n<surname>\n              伊東\n             </surname>\n<forename>\n              米治郎\n             </forename>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0093\">\n<head>\n<date when=\"1923-04-09\">\n           九日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             滝野川学園\n            </orgName>\n            理事会（同団）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_小橋一太\">\n<surname>\n              小橋\n             </surname>\n<forename>\n              一太\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            早稲田大学定時維持員会（同大学恩賜館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n<persName corresp=\"#pers_田澤義鋪\">\n<surname>\n              田沢\n             </surname>\n<forename>\n              義鋪\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_伊東米治郎\">\n<surname>\n              伊東\n             </surname>\n<forename>\n              米治郎\n             </forename>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-04"
 }

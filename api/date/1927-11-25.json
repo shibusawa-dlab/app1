@@ -4,6 +4,11 @@
         "小林",
         "簗田"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/前田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小林",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/簗田"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1564",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -19,7 +24,7 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-11",
     "date_lvl2": "1927-11-25",
-    "description": "\n\n\n           廿五日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n            昭和公論記者\n            \n             神田\n            \n            東行来約《（氏脱）》（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n             朝鮮\n            \n            仏教団\n            \n\n              前田\n             \n\n            、\n            \n\n              小林\n             \n\n            二氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            理化学興業会社創立総会（工業クラブ）\n           \n\n\n\n\n             午前十一半\n            \n\n\n              簗田\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午前十一・四〇\n            \n            御出勤\n           \n\n\n\n\n             午後五時\n            \n            頃　　竜門社秋季総集会（帝国ホテル）\n           \n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n            昭和公論記者\n            \n             神田\n            \n            東行来約《（氏脱）》（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n             朝鮮\n            \n            仏教団\n            \n\n              前田\n             \n\n            、\n            \n\n              小林\n             \n\n            二氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            理化学興業会社創立総会（工業クラブ）\n           \n\n\n\n\n             午前十一半\n            \n\n\n              簗田\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午前十一・四〇\n            \n            御出勤\n           \n\n\n\n\n             午後五時\n            \n            頃　　\n            \n             竜門社\n            \n            秋季総集会（帝国ホテル）\n           \n\n\n",
     "label": "廿五日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0305",
@@ -29,9 +34,13 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "神田",
-        "アスカ山",
-        "朝鮮",
-        "飛鳥山公園"
+        "飛鳥山邸",
+        "朝鮮"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/神田",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/朝鮮"
     ],
     "temporal": "1927-11-25",
     "texts": [
@@ -57,10 +66,10 @@
         "DKB20030m-0196"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            昭和公論記者\n            <placeName corresp=\"#place_神田\">\n             神田\n            </placeName>\n            東行来約《（氏脱）》（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            昭和公論記者\n            <placeName corresp=\"#place_神田\">\n             神田\n            </placeName>\n            東行来約《（氏脱）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0304\">\n<head>\n<date when=\"1927-11-25\">\n           廿五日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            昭和公論記者\n            <placeName corresp=\"#place_神田\">\n             神田\n            </placeName>\n            東行来約《（氏脱）》（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<placeName corresp=\"#place_朝鮮\">\n             朝鮮\n            </placeName>\n            仏教団\n            <persName corresp=\"#pers_前田\">\n<surname>\n              前田\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_小林\">\n<surname>\n              小林\n             </surname>\n</persName>\n            二氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            理化学興業会社創立総会（工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半\n            </time>\n<persName corresp=\"#pers_簗田\">\n<surname>\n              簗田\n             </surname>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:40:00\">\n             午前十一・四〇\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            頃　　竜門社秋季総集会（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0304\">\n<head>\n<date when=\"1927-11-25\">\n           廿五日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            昭和公論記者\n            <placeName corresp=\"#place_神田\">\n             神田\n            </placeName>\n            東行来約《（氏脱）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<placeName corresp=\"#place_朝鮮\">\n             朝鮮\n            </placeName>\n            仏教団\n            <persName corresp=\"#pers_前田\">\n<surname>\n              前田\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_小林\">\n<surname>\n              小林\n             </surname>\n</persName>\n            二氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            理化学興業会社創立総会（工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半\n            </time>\n<persName corresp=\"#pers_簗田\">\n<surname>\n              簗田\n             </surname>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:40:00\">\n             午前十一・四〇\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            頃　　\n            <orgName>\n             竜門社\n            </orgName>\n            秋季総集会（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-11"
 }

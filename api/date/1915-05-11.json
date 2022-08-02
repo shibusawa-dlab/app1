@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1183",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-05",
     "date_lvl2": "1915-05-11",
-    "description": "\n\n\n           十一日\n          \n          （火）\n         \n\n\n\n\n             午後二半時\n            \n            中央慈善協会懇談会（\n            \n             滝野川\n            \n            学園）\n           \n\n\n\n\n             午後五半時\n            \n            論語会（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （火）\n         \n\n\n\n\n             午後二半時\n            \n            中央慈善協会懇談会（\n            \n             滝野川学園\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n            論語会（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n",
     "label": "十一日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0122",
@@ -24,8 +25,10 @@
     "sort": "DKB20017m-0121",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "滝野川",
-        "飛鳥山公園"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1915-05-11",
     "texts": [
@@ -51,10 +54,10 @@
         "DKB20028m-0262"
     ],
     "time": {
-        "14:30:00": "<div><time when=\"14:30:00\">\n             午後二半時\n            </time>\n            中央慈善協会懇談会（\n            <placeName corresp=\"#place_滝野川\">\n             滝野川\n            </placeName>\n            学園）</div>"
+        "14:30:00": "<div><time when=\"14:30:00\">\n             午後二半時\n            </time>\n            中央慈善協会懇談会（\n            <orgName>\n             滝野川学園\n            </orgName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0121\">\n<head>\n<date when=\"1915-05-11\">\n           十一日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            中央慈善協会懇談会（\n            <placeName corresp=\"#place_滝野川\">\n             滝野川\n            </placeName>\n            学園）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            論語会（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0121\">\n<head>\n<date when=\"1915-05-11\">\n           十一日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            中央慈善協会懇談会（\n            <orgName>\n             滝野川学園\n            </orgName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            論語会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-05"
 }

@@ -4,6 +4,11 @@
         "久米金弥",
         "三島"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/久米金弥",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/三島"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1201",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -19,7 +24,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-04",
     "date_lvl2": "1916-04-24",
-    "description": "\n\n\n           廿四日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n            済生会病院ヘ御出向（\n            \n             芝\n            \n\n             赤羽\n            \n            橋同院）\n           \n\n\n\n\n             午前十時\n            \n\n\n              大野\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n            \n             午後一時―二時\n            \n            ニ改\n           \n\n\n\n\n             午前十時\n            \n            外務大臣ヲ御訪問\n           \n\n\n\n\n             午前十一時\n            \n            宮内大臣ヲ御訪問（宮内省）\n           \n\n\n\n\n             午後一時\n            \n\n\n              久米\n             \n\n              金弥\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午時\n            \n\n             午三時\n            \n\n\n              三島\n             \n\n            子爵ヨリ御案内（\n            \n             日本\n            \n            銀行舎宅）\n           \n\n\n\n\n             午後六時半\n            \n            ヨリ　晩餐会　略服\n           \n\n\n\n\n             午後三時\n            \n            農商務大臣ヲ御訪問（\n            \n             富士見町\n            \n            官邸）\n           \n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n            済生会病院ヘ御出向（\n            \n             芝\n            \n\n             赤羽橋\n            \n            同院）\n           \n\n\n\n\n             午前十時\n            \n\n\n              大野\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n            \n             午後一時―二時\n            \n            ニ改\n           \n\n\n\n\n             午前十時\n            \n            外務大臣ヲ御訪問\n           \n\n\n\n\n             午前十一時\n            \n            宮内大臣ヲ御訪問（宮内省）\n           \n\n\n\n\n             午後一時\n            \n\n\n              久米\n             \n\n              金弥\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午時\n            \n\n             午三時\n            \n\n\n              三島\n             \n\n            子爵ヨリ御案内（\n            \n             日本銀行\n            \n            舎宅）\n           \n\n\n\n\n             午後六時半\n            \n            ヨリ　晩餐会　略服\n           \n\n\n\n\n             午後三時\n            \n            農商務大臣ヲ御訪問（\n            \n             富士見町\n            \n            官邸）\n           \n\n\n",
     "label": "廿四日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0097",
@@ -29,10 +34,15 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "芝",
-        "赤羽",
+        "赤羽橋",
         "日本橋兜町",
-        "日本",
         "富士見町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/芝",
+        "https://shibusawa-dlab.github.io/lab1/api/place/赤羽橋",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/富士見町"
     ],
     "temporal": "1916-04-24",
     "texts": [
@@ -58,10 +68,10 @@
         "DKB20018m-0158"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            済生会病院ヘ御出向（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n<placeName corresp=\"#place_赤羽\">\n             赤羽\n            </placeName>\n            橋同院）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            済生会病院ヘ御出向（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n<placeName corresp=\"#place_赤羽橋\">\n             赤羽橋\n            </placeName>\n            同院）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0096\">\n<head>\n<date when=\"1916-04-24\">\n           廿四日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            済生会病院ヘ御出向（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n<placeName corresp=\"#place_赤羽\">\n             赤羽\n            </placeName>\n            橋同院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_大野\">\n<surname>\n              大野\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n            <time from=\"13:00:00\" to=\"14:00:00\">\n             午後一時―二時\n            </time>\n            ニ改\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            外務大臣ヲ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            宮内大臣ヲ御訪問（宮内省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_久米金弥\">\n<surname>\n              久米\n             </surname>\n<forename>\n              金弥\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<time when=\"15:00:00\">\n             午三時\n            </time>\n<persName corresp=\"#pers_三島\">\n<surname>\n              三島\n             </surname>\n</persName>\n            子爵ヨリ御案内（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            銀行舎宅）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:30:00\">\n             午後六時半\n            </time>\n            ヨリ　晩餐会　略服\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            農商務大臣ヲ御訪問（\n            <placeName corresp=\"#place_富士見町\">\n             富士見町\n            </placeName>\n            官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0096\">\n<head>\n<date when=\"1916-04-24\">\n           廿四日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            済生会病院ヘ御出向（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n<placeName corresp=\"#place_赤羽橋\">\n             赤羽橋\n            </placeName>\n            同院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_大野\">\n<surname>\n              大野\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n            <time from=\"13:00:00\" to=\"14:00:00\">\n             午後一時―二時\n            </time>\n            ニ改\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            外務大臣ヲ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            宮内大臣ヲ御訪問（宮内省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_久米金弥\">\n<surname>\n              久米\n             </surname>\n<forename>\n              金弥\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<time when=\"15:00:00\">\n             午三時\n            </time>\n<persName corresp=\"#pers_三島\">\n<surname>\n              三島\n             </surname>\n</persName>\n            子爵ヨリ御案内（\n            <orgName>\n             日本銀行\n            </orgName>\n            舎宅）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:30:00\">\n             午後六時半\n            </time>\n            ヨリ　晩餐会　略服\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            農商務大臣ヲ御訪問（\n            <placeName corresp=\"#place_富士見町\">\n             富士見町\n            </placeName>\n            官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-04"
 }

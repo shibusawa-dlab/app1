@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1508",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-04",
     "date_lvl2": "1926-04-20",
-    "description": "\n\n\n           二十日\n          \n          （火）\n         \n\n\n\n\n             午前十・五〇\n            \n            事ム所ニ御出勤\n           \n\n\n\n\n             午前十一時\n            \n            英人アルフレツト・ステツド氏来約（事務所）\n           \n\n\n\n\n             正午\n            \n            国際聯盟協会理事会（銀行クラブ）\n           \n\n\n\n\n             午後二時\n            \n\n             日本\n            \n            女子大学記念日（同大学）\n           \n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （火）\n         \n\n\n\n\n             午前十・五〇\n            \n            事ム所ニ御出勤\n           \n\n\n\n\n             午前十一時\n            \n            英人アルフレツト・ステツド氏来約（事務所）\n           \n\n\n\n\n             正午\n            \n            国際聯盟協会理事会（銀行クラブ）\n           \n\n\n\n\n             午後二時\n            \n\n             日本女子大学\n            \n            記念日（同大学）\n           \n\n\n",
     "label": "二十日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0110",
@@ -23,9 +24,8 @@
     "prev": "DKB20028m-0108",
     "sort": "DKB20028m-0109",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "日本"
-    ],
+    "spatial": [],
+    "spatial_uri": [],
     "temporal": "1926-04-20",
     "texts": [
         "DKB20031m-0225",
@@ -53,7 +53,7 @@
         "10:50:00": "<div><time when=\"10:50:00\">\n             午前十・五〇\n            </time>\n            事ム所ニ御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0109\">\n<head>\n<date when=\"1926-04-20\">\n           二十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:50:00\">\n             午前十・五〇\n            </time>\n            事ム所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            英人アルフレツト・ステツド氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            国際聯盟協会理事会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            女子大学記念日（同大学）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0109\">\n<head>\n<date when=\"1926-04-20\">\n           二十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:50:00\">\n             午前十・五〇\n            </time>\n            事ム所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            英人アルフレツト・ステツド氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            国際聯盟協会理事会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<orgName>\n             日本女子大学\n            </orgName>\n            記念日（同大学）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-04"
 }

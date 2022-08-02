@@ -3,11 +3,21 @@
         "浜中義左衛門",
         "栗本",
         "浜中",
-        "杉浦",
+        "杉浦譲",
         "田辺",
         "卯三郎",
         "河津",
         "酒井"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浜中義左衛門",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/栗本",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浜中",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/杉浦譲",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田辺",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/卯三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/河津",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/酒井"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/57",
     "category": {
@@ -24,7 +34,7 @@
     "date_lvl0": "1869",
     "date_lvl1": "1869-01",
     "date_lvl2": "1869-01-10",
-    "description": "\n\n\n        十一月廿八日\n       \n       晴\n       \n        一月十日\n       \n\n\n       朝、\n       \n\n         浜中\n        \n\n         義左衛門\n        \n\n       来、同行ニ而\n       \n        大塚\n       \n       、\n       \n\n         栗本\n        \n\n       を訪ふ、明日同人出殿諸事可申談旨相約す、午飯等相調へ、\n       \n\n         浜中\n        \n\n       と別れ、駕を命し両国吉田屋に至る\n       \n\n\n         杉浦\n        \n\n       面会、同行ニ而\n       \n        番場町\n       \n\n\n         田辺\n        \n\n       を訪ひ、\n       \n\n         卯三郎\n        \n\n       邂逅、四人打連て、\n       \n\n         河津\n        \n\n       伊豆の住居せる元\n       \n\n         酒井\n        \n\n       左衛門尉別業を尋問、庭園を一覧、夜に入\n       \n\n         河津\n        \n\n       の娘に洋服試験の挙を遂\n       \n       夜半過より\n       \n        深川\n       \n       に至り一泊\n      \n",
+    "description": "\n\n\n        十一月廿八日\n       \n       晴\n       \n        一月十日\n       \n\n\n       朝、\n       \n\n         浜中\n        \n\n         義左衛門\n        \n\n       来、同行ニ而\n       \n        大塚\n       \n       、\n       \n\n         栗本\n        \n\n       を訪ふ、明日同人出殿諸事可申談旨相約す、午飯等相調へ、\n       \n\n         浜中\n        \n\n       と別れ、駕を命し\n       \n        両国\n       \n       吉田屋に至る\n       \n\n\n         杉浦\n        \n\n       面会、同行ニ而\n       \n        番場町\n       \n\n\n         田辺\n        \n\n       を訪ひ、\n       \n\n         卯三郎\n        \n\n       邂逅、四人打連て、\n       \n\n         河津\n        \n\n       伊豆の住居せる元\n       \n\n         酒井\n        \n\n       左衛門尉別業を尋問、庭園を一覧、夜に入\n       \n\n         河津\n        \n\n       の娘に洋服試験の挙を遂\n       \n       夜半過より\n       \n        深川\n       \n       に至り一泊\n      \n",
     "label": "十一月廿八日              晴               一月十日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10002m-0027",
@@ -34,8 +44,15 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "大塚",
+        "両国",
         "番場町",
         "深川"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/大塚",
+        "https://shibusawa-dlab.github.io/lab1/api/place/両国",
+        "https://shibusawa-dlab.github.io/lab1/api/place/番場町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/深川"
     ],
     "temporal": "1869-01-10",
     "texts": [
@@ -62,7 +79,7 @@
     ],
     "time": {},
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10002m-0026\">\n<head>\n<date type=\"旧暦\" when=\"1869-01-10\">\n        十一月廿八日\n       </date>\n       晴\n       <date when=\"1868-01-10\">\n        一月十日\n       </date>\n</head>\n<p>\n       朝、\n       <persName corresp=\"#pers_浜中義左衛門\">\n<surname>\n         浜中\n        </surname>\n<forename>\n         義左衛門\n        </forename>\n</persName>\n       来、同行ニ而\n       <placeName corresp=\"#place_大塚\">\n        大塚\n       </placeName>\n       、\n       <persName corresp=\"#pers_栗本\">\n<surname>\n         栗本\n        </surname>\n</persName>\n       を訪ふ、明日同人出殿諸事可申談旨相約す、午飯等相調へ、\n       <persName corresp=\"#pers_浜中\">\n<surname>\n         浜中\n        </surname>\n</persName>\n       と別れ、駕を命し両国吉田屋に至る\n       <lb/>\n<persName corresp=\"#pers_杉浦\">\n<surname>\n         杉浦\n        </surname>\n</persName>\n       面会、同行ニ而\n       <placeName corresp=\"#place_番場町\">\n        番場町\n       </placeName>\n<persName corresp=\"#pers_田辺\">\n<surname>\n         田辺\n        </surname>\n</persName>\n       を訪ひ、\n       <persName corresp=\"#pers_卯三郎\">\n<forename>\n         卯三郎\n        </forename>\n</persName>\n       邂逅、四人打連て、\n       <persName corresp=\"#pers_河津\">\n<surname>\n         河津\n        </surname>\n</persName>\n       伊豆の住居せる元\n       <persName corresp=\"#pers_酒井\">\n<surname>\n         酒井\n        </surname>\n</persName>\n       左衛門尉別業を尋問、庭園を一覧、夜に入\n       <persName corresp=\"#pers_河津\">\n<surname>\n         河津\n        </surname>\n</persName>\n       の娘に洋服試験の挙を遂\n       <lb/>\n       夜半過より\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       に至り一泊\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10002m-0026\">\n<head>\n<date type=\"旧暦\" when=\"1869-01-10\">\n        十一月廿八日\n       </date>\n       晴\n       <date when=\"1868-01-10\">\n        一月十日\n       </date>\n</head>\n<p>\n       朝、\n       <persName corresp=\"#pers_浜中義左衛門\">\n<surname>\n         浜中\n        </surname>\n<forename>\n         義左衛門\n        </forename>\n</persName>\n       来、同行ニ而\n       <placeName corresp=\"#place_大塚\">\n        大塚\n       </placeName>\n       、\n       <persName corresp=\"#pers_栗本\">\n<surname>\n         栗本\n        </surname>\n</persName>\n       を訪ふ、明日同人出殿諸事可申談旨相約す、午飯等相調へ、\n       <persName corresp=\"#pers_浜中\">\n<surname>\n         浜中\n        </surname>\n</persName>\n       と別れ、駕を命し\n       <placeName corresp=\"#place_両国\">\n        両国\n       </placeName>\n       吉田屋に至る\n       <lb/>\n<persName corresp=\"#pers_杉浦譲\">\n<surname>\n         杉浦\n        </surname>\n</persName>\n       面会、同行ニ而\n       <placeName corresp=\"#place_番場町\">\n        番場町\n       </placeName>\n<persName corresp=\"#pers_田辺\">\n<surname>\n         田辺\n        </surname>\n</persName>\n       を訪ひ、\n       <persName corresp=\"#pers_卯三郎\">\n<forename>\n         卯三郎\n        </forename>\n</persName>\n       邂逅、四人打連て、\n       <persName corresp=\"#pers_河津\">\n<surname>\n         河津\n        </surname>\n</persName>\n       伊豆の住居せる元\n       <persName corresp=\"#pers_酒井\">\n<surname>\n         酒井\n        </surname>\n</persName>\n       左衛門尉別業を尋問、庭園を一覧、夜に入\n       <persName corresp=\"#pers_河津\">\n<surname>\n         河津\n        </surname>\n</persName>\n       の娘に洋服試験の挙を遂\n       <lb/>\n       夜半過より\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       に至り一泊\n      </p>\n</div>",
     "year": "1869",
     "yearAndMonth": "1869-01"
 }

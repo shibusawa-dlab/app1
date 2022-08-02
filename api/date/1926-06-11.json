@@ -1,6 +1,13 @@
 {
     "agential": [
-        "小貫修一郎"
+        "小貫修一郎",
+        "日高丙子郎",
+        "大江天也"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小貫修一郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/日高丙子郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大江天也"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1514",
     "category": {
@@ -17,7 +24,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-06",
     "date_lvl2": "1926-06-11",
-    "description": "\n\n\n           十一日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n\n\n              小貫\n             \n\n              修一郎\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             同\n            \n\n             日高\n            \n            丙子郎来訪《（氏脱）》　〃\n           \n\n\n\n\n             午十一時\n            \n            修養団講演委員会（日本工業クラブ）\n           \n\n\n\n\n             正午\n            \n            日華実業協幹事会《（会脱・日華実業協会）》（同会事ム所）\n           \n\n\n\n\n\n             午後二・二〇\n            \n            御出勤\n           \n\n\n\n\n             午後四―五時\n            \n            故大江天也氏法要（日本工業クラブ）\n           \n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n\n\n              小貫\n             \n\n              修一郎\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             同\n            \n\n\n              日高\n             \n\n              丙子郎\n             \n\n            来訪《（氏脱）》　〃\n           \n\n\n\n\n             午十一時\n            \n            修養団講演委員会（日本工業クラブ）\n           \n\n\n\n\n             正午\n            \n            日華実業協幹事会《（会脱・日華実業協会）》（同会事ム所）\n           \n\n\n\n\n\n             午後二・二〇\n            \n            御出勤\n           \n\n\n\n\n             午後四―五時\n            \n            故\n            \n\n              大江\n             \n\n              天也\n             \n\n            氏法要（日本工業クラブ）\n           \n\n\n",
     "label": "十一日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0163",
@@ -26,8 +33,10 @@
     "sort": "DKB20028m-0162",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山",
-        "日高"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1926-06-11",
     "texts": [
@@ -53,10 +62,10 @@
         "DKB20030m-0077"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_小貫修一郎\">\n<surname>\n              小貫\n             </surname>\n<forename>\n              修一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_小貫修一郎\">\n<surname>\n              小貫\n             </surname>\n<forename>\n              修一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0162\">\n<head>\n<date when=\"1926-06-11\">\n           十一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_小貫修一郎\">\n<surname>\n              小貫\n             </surname>\n<forename>\n              修一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             同\n            </time>\n<placeName corresp=\"#place_日高\">\n             日高\n            </placeName>\n            丙子郎来訪《（氏脱）》　〃\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午十一時\n            </time>\n            修養団講演委員会（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華実業協幹事会《（会脱・日華実業協会）》（同会事ム所）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2675\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1514/full/max/0/default.jpg\" n=\"B2675\" source=\"#pageB2675\"/>\n<time when=\"14:20:00\">\n             午後二・二〇\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time from=\"16:00:00\" to=\"17:00:00\">\n             午後四―五時\n            </time>\n            故大江天也氏法要（日本工業クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0162\">\n<head>\n<date when=\"1926-06-11\">\n           十一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_小貫修一郎\">\n<surname>\n              小貫\n             </surname>\n<forename>\n              修一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             同\n            </time>\n<persName corresp=\"#pers_日高丙子郎\">\n<surname>\n              日高\n             </surname>\n<forename>\n              丙子郎\n             </forename>\n</persName>\n            来訪《（氏脱）》　〃\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午十一時\n            </time>\n            修養団講演委員会（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華実業協幹事会《（会脱・日華実業協会）》（同会事ム所）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2675\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1514/full/max/0/default.jpg\" n=\"B2675\" source=\"#pageB2675\"/>\n<time when=\"14:20:00\">\n             午後二・二〇\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time from=\"16:00:00\" to=\"17:00:00\">\n             午後四―五時\n            </time>\n            故\n            <persName corresp=\"#pers_大江天也\">\n<surname>\n              大江\n             </surname>\n<forename>\n              天也\n             </forename>\n</persName>\n            氏法要（日本工業クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-06"
 }

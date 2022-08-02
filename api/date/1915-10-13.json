@@ -3,6 +3,10 @@
         "桜井",
         "高松"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/桜井",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高松"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1193",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,7 +22,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-10",
     "date_lvl2": "1915-10-13",
-    "description": "\n\n\n           十三日\n          \n          （水）\n         \n\n\n\n\n             午前八時\n            \n\n\n              桜井\n             \n\n            、\n            \n\n              高松\n             \n\n            両博士来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            養育院ヘ御出向\n           \n\n\n\n\n             午後一時\n            \n            農商務省ヘ御出向\n           \n\n\n\n\n             午後四時\n            \n\n             仏国\n            \n            大使来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            帰一協会特別委員会（上ノ精養軒）\n           \n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （水）\n         \n\n\n\n\n             午前八時\n            \n\n\n              桜井\n             \n\n            、\n            \n\n              高松\n             \n\n            両博士来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            養育院ヘ御出向\n           \n\n\n\n\n             午後一時\n            \n            農商務省ヘ御出向\n           \n\n\n\n\n             午後四時\n            \n\n             仏国\n            \n            大使来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            帰一協会特別委員会（\n            \n             上ノ\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
     "label": "十三日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0258",
@@ -28,8 +32,15 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸",
-        "仏国",
-        "日本橋兜町"
+        "フランス",
+        "日本橋兜町",
+        "上野"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/フランス",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
     ],
     "temporal": "1915-10-13",
     "texts": [
@@ -58,7 +69,7 @@
         "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_桜井\">\n<surname>\n              桜井\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_高松\">\n<surname>\n              高松\n             </surname>\n</persName>\n            両博士来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0257\">\n<head>\n<date when=\"1915-10-13\">\n           十三日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_桜井\">\n<surname>\n              桜井\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_高松\">\n<surname>\n              高松\n             </surname>\n</persName>\n            両博士来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            養育院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            農商務省ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_仏国\">\n             仏国\n            </placeName>\n            大使来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            帰一協会特別委員会（上ノ精養軒）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0257\">\n<head>\n<date when=\"1915-10-13\">\n           十三日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_桜井\">\n<surname>\n              桜井\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_高松\">\n<surname>\n              高松\n             </surname>\n</persName>\n            両博士来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            養育院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            農商務省ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_フランス\">\n             仏国\n            </placeName>\n            大使来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            帰一協会特別委員会（\n            <placeName corresp=\"#place_上野\">\n             上ノ\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-10"
 }

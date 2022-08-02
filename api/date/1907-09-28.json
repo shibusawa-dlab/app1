@@ -1,11 +1,19 @@
 {
     "agential": [
-        "市郎",
+        "渋沢市郎",
         "吉岡",
         "穂積",
         "阪谷",
-        "篤二",
-        "兼子"
+        "渋沢篤二",
+        "渋沢兼子"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢市郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/吉岡",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/穂積",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/阪谷",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢篤二",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢兼子"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/499",
     "category": {
@@ -36,6 +44,12 @@
         "日本橋兜町",
         "王子"
     ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/深谷",
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子"
+    ],
     "temporal": "1907-09-28",
     "texts": [
         "DKB10014m-0084",
@@ -60,12 +74,12 @@
         "DKB10018m-0124"
     ],
     "time": {
-        "05:00:00": "<div><time when=\"05:00:00\">\n        五時\n       </time>\n       過\n       <placeName corresp=\"#place_上野\">\n        上野\n       </placeName>\n       ニ達シ、直ニ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リテ同族会ヲ開ク、\n       <persName corresp=\"#pers_阪谷\">\n<surname>\n         阪谷\n        </surname>\n</persName>\n       夫妻、\n       <persName corresp=\"#pers_篤二\">\n<forename>\n         篤二\n        </forename>\n</persName>\n       夫妻、\n       <persName corresp=\"#pers_兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       モ来会ス、共ニ夜飧ヲ為シ、会議畢テ夜</div>",
-        "15:00:00": "<div>起床後来訪ノ郷友ト談話シ、朝飧後\n       <persName corresp=\"#pers_市郎\">\n<forename>\n         市郎\n        </forename>\n</persName>\n       ノ家人ト共ニ諏訪神社ニ詣シ修繕ニ関スル注意ヲ与ヘ、帰路\n       <persName corresp=\"#pers_吉岡\">\n<surname>\n         吉岡\n        </surname>\n</persName>\n       氏ノ墳墓ニ詣ス、<time when=\"15:00:00\">\n        午後三時\n       </time>\n       過\n       <persName corresp=\"#pers_穂積\">\n<surname>\n         穂積\n        </surname>\n</persName>\n       母子ト共ニ\n       <placeName corresp=\"#place_深谷\">\n        深谷\n       </placeName>\n       発ノ汽車ニ搭シ、</div>",
+        "05:00:00": "<div><time when=\"05:00:00\">\n        五時\n       </time>\n       過\n       <placeName corresp=\"#place_上野\">\n        上野\n       </placeName>\n       ニ達シ、直ニ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リテ同族会ヲ開ク、\n       <persName corresp=\"#pers_阪谷\">\n<surname>\n         阪谷\n        </surname>\n</persName>\n       夫妻、\n       <persName corresp=\"#pers_渋沢篤二\">\n<forename>\n         篤二\n        </forename>\n</persName>\n       夫妻、\n       <persName corresp=\"#pers_渋沢兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       モ来会ス、共ニ夜飧ヲ為シ、会議畢テ夜</div>",
+        "15:00:00": "<div>起床後来訪ノ郷友ト談話シ、朝飧後\n       <persName corresp=\"#pers_渋沢市郎\">\n<forename>\n         市郎\n        </forename>\n</persName>\n       ノ家人ト共ニ諏訪神社ニ詣シ修繕ニ関スル注意ヲ与ヘ、帰路\n       <persName corresp=\"#pers_吉岡\">\n<surname>\n         吉岡\n        </surname>\n</persName>\n       氏ノ墳墓ニ詣ス、<time when=\"15:00:00\">\n        午後三時\n       </time>\n       過\n       <persName corresp=\"#pers_穂積\">\n<surname>\n         穂積\n        </surname>\n</persName>\n       母子ト共ニ\n       <placeName corresp=\"#place_深谷\">\n        深谷\n       </placeName>\n       発ノ汽車ニ搭シ、</div>",
         "22:00:00": "<div><time when=\"22:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10015m-0247\">\n<head>\n<date when=\"1907-09-28\">\n        九月二十八日\n       </date>\n       曇　冷　　　　　　　　　　　起床\n       <time when=\"09:00:00\">\n        九時\n       </time>\n       就蓐\n       <time when=\"23:30:00\">\n        十一時三十分\n       </time>\n</head>\n<p>\n       起床後来訪ノ郷友ト談話シ、朝飧後\n       <persName corresp=\"#pers_市郎\">\n<forename>\n         市郎\n        </forename>\n</persName>\n       ノ家人ト共ニ諏訪神社ニ詣シ修繕ニ関スル注意ヲ与ヘ、帰路\n       <persName corresp=\"#pers_吉岡\">\n<surname>\n         吉岡\n        </surname>\n</persName>\n       氏ノ墳墓ニ詣ス、\n       <time when=\"15:00:00\">\n        午後三時\n       </time>\n       過\n       <persName corresp=\"#pers_穂積\">\n<surname>\n         穂積\n        </surname>\n</persName>\n       母子ト共ニ\n       <placeName corresp=\"#place_深谷\">\n        深谷\n       </placeName>\n       発ノ汽車ニ搭シ、\n       <time when=\"05:00:00\">\n        五時\n       </time>\n       過\n       <placeName corresp=\"#place_上野\">\n        上野\n       </placeName>\n       ニ達シ、直ニ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リテ同族会ヲ開ク、\n       <persName corresp=\"#pers_阪谷\">\n<surname>\n         阪谷\n        </surname>\n</persName>\n       夫妻、\n       <persName corresp=\"#pers_篤二\">\n<forename>\n         篤二\n        </forename>\n</persName>\n       夫妻、\n       <persName corresp=\"#pers_兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       モ来会ス、共ニ夜飧ヲ為シ、会議畢テ夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10015m-0247\">\n<head>\n<date when=\"1907-09-28\">\n        九月二十八日\n       </date>\n       曇　冷　　　　　　　　　　　起床\n       <time when=\"09:00:00\">\n        九時\n       </time>\n       就蓐\n       <time when=\"23:30:00\">\n        十一時三十分\n       </time>\n</head>\n<p>\n       起床後来訪ノ郷友ト談話シ、朝飧後\n       <persName corresp=\"#pers_渋沢市郎\">\n<forename>\n         市郎\n        </forename>\n</persName>\n       ノ家人ト共ニ諏訪神社ニ詣シ修繕ニ関スル注意ヲ与ヘ、帰路\n       <persName corresp=\"#pers_吉岡\">\n<surname>\n         吉岡\n        </surname>\n</persName>\n       氏ノ墳墓ニ詣ス、\n       <time when=\"15:00:00\">\n        午後三時\n       </time>\n       過\n       <persName corresp=\"#pers_穂積\">\n<surname>\n         穂積\n        </surname>\n</persName>\n       母子ト共ニ\n       <placeName corresp=\"#place_深谷\">\n        深谷\n       </placeName>\n       発ノ汽車ニ搭シ、\n       <time when=\"05:00:00\">\n        五時\n       </time>\n       過\n       <placeName corresp=\"#place_上野\">\n        上野\n       </placeName>\n       ニ達シ、直ニ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リテ同族会ヲ開ク、\n       <persName corresp=\"#pers_阪谷\">\n<surname>\n         阪谷\n        </surname>\n</persName>\n       夫妻、\n       <persName corresp=\"#pers_渋沢篤二\">\n<forename>\n         篤二\n        </forename>\n</persName>\n       夫妻、\n       <persName corresp=\"#pers_渋沢兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       モ来会ス、共ニ夜飧ヲ為シ、会議畢テ夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1907",
     "yearAndMonth": "1907-09"
 }

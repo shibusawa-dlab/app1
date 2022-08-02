@@ -3,6 +3,10 @@
         "高瀬元義",
         "麻生正蔵"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高瀬元義",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/麻生正蔵"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1319",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,7 +22,7 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-12",
     "date_lvl2": "1919-12-10",
-    "description": "\n\n\n           十日\n          \n          （水）\n         \n\n\n\n\n             午前八時\n            \n\n             東亜\n            \n            商工新報社主幹\n            \n\n              高瀬\n             \n\n              元義\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前八時\n            \n\n\n              麻生\n             \n\n              正蔵\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n            川上勇氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十二時\n            \n            《（午後）》　海陸仲仕代表者来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n\n             朝鮮\n            \n            銀行創立十年祝賀（ホテル）\n           \n\n\n",
+    "description": "\n\n\n           十日\n          \n          （水）\n         \n\n\n\n\n             午前八時\n            \n            東亜商工新報社主幹\n            \n\n              高瀬\n             \n\n              元義\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前八時\n            \n\n\n              麻生\n             \n\n              正蔵\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n            川上勇氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十二時\n            \n            《（午後）》　海陸仲仕代表者来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n\n             朝鮮銀行\n            \n            創立十年祝賀（ホテル）\n           \n\n\n",
     "label": "十日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0318",
@@ -27,10 +31,10 @@
     "sort": "DKB20021m-0317",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "東亜",
-        "アスカ山",
-        "飛鳥山邸",
-        "朝鮮"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1919-12-10",
     "texts": [
@@ -56,10 +60,10 @@
         "DKB20029m-0053"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_東亜\">\n             東亜\n            </placeName>\n            商工新報社主幹\n            <persName corresp=\"#pers_高瀬元義\">\n<surname>\n              高瀬\n             </surname>\n<forename>\n              元義\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            東亜商工新報社主幹\n            <persName corresp=\"#pers_高瀬元義\">\n<surname>\n              高瀬\n             </surname>\n<forename>\n              元義\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0317\">\n<head>\n<date when=\"1919-12-10\">\n           十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_東亜\">\n             東亜\n            </placeName>\n            商工新報社主幹\n            <persName corresp=\"#pers_高瀬元義\">\n<surname>\n              高瀬\n             </surname>\n<forename>\n              元義\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_麻生正蔵\">\n<surname>\n              麻生\n             </surname>\n<forename>\n              正蔵\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            川上勇氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午前十二時\n            </time>\n            《（午後）》　海陸仲仕代表者来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<placeName corresp=\"#place_朝鮮\">\n             朝鮮\n            </placeName>\n            銀行創立十年祝賀（ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0317\">\n<head>\n<date when=\"1919-12-10\">\n           十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            東亜商工新報社主幹\n            <persName corresp=\"#pers_高瀬元義\">\n<surname>\n              高瀬\n             </surname>\n<forename>\n              元義\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_麻生正蔵\">\n<surname>\n              麻生\n             </surname>\n<forename>\n              正蔵\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            川上勇氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午前十二時\n            </time>\n            《（午後）》　海陸仲仕代表者来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<orgName>\n             朝鮮銀行\n            </orgName>\n            創立十年祝賀（ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-12"
 }

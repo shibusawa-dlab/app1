@@ -1,8 +1,15 @@
 {
     "agential": [
         "田中",
+        "二神",
         "松村",
         "ワナメーカー"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田中",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/二神",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松村",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ワナメーカー"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1417",
     "category": {
@@ -19,7 +26,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-01",
     "date_lvl2": "1923-01-12",
-    "description": "\n\n\n           十二日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n\n\n              田中\n             \n\n            、二神、\n            \n\n              松村\n             \n\n            三氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            故\n            \n\n              ワナメーカー\n             \n\n            氏追悼会（\n            \n             神田\n            \n            青年会館）\n           \n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n\n\n              田中\n             \n\n            、\n            \n\n              二神\n             \n\n            、\n            \n\n              松村\n             \n\n            三氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            故\n            \n\n              ワナメーカー\n             \n\n            氏追悼会（\n            \n             神田\n            \n            青年会館）\n           \n\n\n",
     "label": "十二日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0013",
@@ -30,6 +37,10 @@
     "spatial": [
         "日本橋兜町",
         "神田"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/神田"
     ],
     "temporal": "1923-01-12",
     "texts": [
@@ -55,10 +66,10 @@
         "DKB20021m-0159"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_田中\">\n<surname>\n              田中\n             </surname>\n</persName>\n            、二神、\n            <persName corresp=\"#pers_松村\">\n<surname>\n              松村\n             </surname>\n</persName>\n            三氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_田中\">\n<surname>\n              田中\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_二神\">\n<surname>\n              二神\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_松村\">\n<surname>\n              松村\n             </surname>\n</persName>\n            三氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0012\">\n<head>\n<date when=\"1923-01-12\">\n           十二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_田中\">\n<surname>\n              田中\n             </surname>\n</persName>\n            、二神、\n            <persName corresp=\"#pers_松村\">\n<surname>\n              松村\n             </surname>\n</persName>\n            三氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            故\n            <persName corresp=\"#pers_ワナメーカー\">\n<surname>\n              ワナメーカー\n             </surname>\n</persName>\n            氏追悼会（\n            <placeName corresp=\"#place_神田\">\n             神田\n            </placeName>\n            青年会館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0012\">\n<head>\n<date when=\"1923-01-12\">\n           十二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_田中\">\n<surname>\n              田中\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_二神\">\n<surname>\n              二神\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_松村\">\n<surname>\n              松村\n             </surname>\n</persName>\n            三氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            故\n            <persName corresp=\"#pers_ワナメーカー\">\n<surname>\n              ワナメーカー\n             </surname>\n</persName>\n            氏追悼会（\n            <placeName corresp=\"#place_神田\">\n             神田\n            </placeName>\n            青年会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-01"
 }
