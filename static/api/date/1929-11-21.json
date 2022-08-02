@@ -2,7 +2,14 @@
     "agential": [
         "吉田英治",
         "徳川",
-        "トイスラー"
+        "トイスラー",
+        "ウイルソン"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/吉田英治",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/トイスラー",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ウイルソン"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1605",
     "category": {
@@ -19,7 +26,7 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-11",
     "date_lvl2": "1929-11-21",
-    "description": "\n\n\n           廿一日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n\n             東京\n            \n            朝日新聞記者\n            \n\n              吉田\n             \n\n              英治\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後〇半時\n            \n\n             第六天\n            \n\n\n              徳川\n             \n\n            家ヘ御出向\n           \n\n\n\n\n             午後零時四十分\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午後四半時\n            \n\n\n              トイスラー\n             \n\n            夫妻催ウイルソン夫人送別茶話会（聖路加病院）\n           \n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n\n             東京\n            \n            朝日新聞記者\n            \n\n              吉田\n             \n\n              英治\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後〇半時\n            \n\n             第六天\n            \n\n\n              徳川\n             \n\n            家ヘ御出向\n           \n\n\n\n\n             午後零時四十分\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午後四半時\n            \n\n\n              トイスラー\n             \n\n            夫妻催\n            \n\n              ウイルソン\n             \n\n            夫人送別茶話会（聖路加病院）\n           \n\n\n",
     "label": "廿一日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20031m-0227",
@@ -29,8 +36,13 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "東京",
-        "飛鳥山公園",
-        "第六天"
+        "飛鳥山邸",
+        "第六天町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/第六天町"
     ],
     "temporal": "1929-11-21",
     "texts": [
@@ -56,10 +68,10 @@
         "DKB20030m-0070"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            朝日新聞記者\n            <persName corresp=\"#pers_吉田英治\">\n<surname>\n              吉田\n             </surname>\n<forename>\n              英治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            朝日新聞記者\n            <persName corresp=\"#pers_吉田英治\">\n<surname>\n              吉田\n             </surname>\n<forename>\n              英治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0226\">\n<head>\n<date when=\"1929-11-21\">\n           廿一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            朝日新聞記者\n            <persName corresp=\"#pers_吉田英治\">\n<surname>\n              吉田\n             </surname>\n<forename>\n              英治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇半時\n            </time>\n<placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:40:00\">\n             午後零時四十分\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n<persName corresp=\"#pers_トイスラー\">\n<surname>\n              トイスラー\n             </surname>\n</persName>\n            夫妻催ウイルソン夫人送別茶話会（聖路加病院）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0226\">\n<head>\n<date when=\"1929-11-21\">\n           廿一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            朝日新聞記者\n            <persName corresp=\"#pers_吉田英治\">\n<surname>\n              吉田\n             </surname>\n<forename>\n              英治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇半時\n            </time>\n<placeName corresp=\"#place_第六天町\">\n             第六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:40:00\">\n             午後零時四十分\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n<persName corresp=\"#pers_トイスラー\">\n<surname>\n              トイスラー\n             </surname>\n</persName>\n            夫妻催\n            <persName corresp=\"#pers_ウイルソン\">\n<surname>\n              ウイルソン\n             </surname>\n</persName>\n            夫人送別茶話会（聖路加病院）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-11"
 }

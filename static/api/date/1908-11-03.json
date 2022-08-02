@@ -3,6 +3,10 @@
         "吉岡新五郎",
         "竹田政智"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/吉岡新五郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/竹田政智"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/572",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -18,7 +22,7 @@
     "date_lvl0": "1908",
     "date_lvl1": "1908-11",
     "date_lvl2": "1908-11-03",
-    "description": "\n\n\n        十一月三日\n       \n       晴　冷\n      \n\n\n        午前七時\n       \n       起床、頃日来風邪未タ快方セス、故ニ入浴ヲ癈《（廃）》ス、\n       \n        八時半\n       \n       朝飧ヲ食ス、後、新聞紙ヲ一覧シ、数多ノ書状ヲ裁シテ発送セシム、午飧後、二三ノ来人ニ接ス、\n       \n\n         吉岡\n        \n\n         新五郎\n        \n\n       来リ人造肥料会社ノ事ヲ談ス、\n       \n        大坂\n       \n       地方同業会社ノ処分ニ関シ詳細ノ意見ヲ示ス、専務取締役ノ行為ニ付テモ種々ノ談話アリ、\n       \n\n         竹田\n        \n\n         政智\n        \n\n       来話ス\n      \n",
+    "description": "\n\n\n        十一月三日\n       \n       晴　冷\n      \n\n\n        午前七時\n       \n       起床、頃日来風邪未タ快方セス、故ニ入浴ヲ癈《（廃）》ス、\n       \n        八時半\n       \n       朝飧ヲ食ス、後、新聞紙ヲ一覧シ、数多ノ書状ヲ裁シテ発送セシム、午飧後、二三ノ来人ニ接ス、\n       \n\n         吉岡\n        \n\n         新五郎\n        \n\n       来リ\n       \n        人造肥料会社\n       \n       ノ事ヲ談ス、\n       \n        大坂\n       \n       地方同業会社ノ処分ニ関シ詳細ノ意見ヲ示ス、専務取締役ノ行為ニ付テモ種々ノ談話アリ、\n       \n\n         竹田\n        \n\n         政智\n        \n\n       来話ス\n      \n",
     "label": "十一月三日              晴　冷",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10016m-0309",
@@ -28,6 +32,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "大阪"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/大阪"
     ],
     "temporal": "1908-11-03",
     "texts": [
@@ -54,10 +61,10 @@
     ],
     "time": {
         "07:00:00": "<div><time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、頃日来風邪未タ快方セス、故ニ入浴ヲ癈《（廃）》ス、</div>",
-        "08:30:00": "<div><time when=\"08:30:00\">\n        八時半\n       </time>\n       朝飧ヲ食ス、後、新聞紙ヲ一覧シ、数多ノ書状ヲ裁シテ発送セシム、午飧後、二三ノ来人ニ接ス、\n       <persName corresp=\"#pers_吉岡新五郎\">\n<surname>\n         吉岡\n        </surname>\n<forename>\n         新五郎\n        </forename>\n</persName>\n       来リ人造肥料会社ノ事ヲ談ス、\n       <placeName corresp=\"#place_大阪\">\n        大坂\n       </placeName>\n       地方同業会社ノ処分ニ関シ詳細ノ意見ヲ示ス、専務取締役ノ行為ニ付テモ種々ノ談話アリ、\n       <persName corresp=\"#pers_竹田政智\">\n<surname>\n         竹田\n        </surname>\n<forename>\n         政智\n        </forename>\n</persName>\n       来話ス</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n        八時半\n       </time>\n       朝飧ヲ食ス、後、新聞紙ヲ一覧シ、数多ノ書状ヲ裁シテ発送セシム、午飧後、二三ノ来人ニ接ス、\n       <persName corresp=\"#pers_吉岡新五郎\">\n<surname>\n         吉岡\n        </surname>\n<forename>\n         新五郎\n        </forename>\n</persName>\n       来リ\n       <orgName>\n        人造肥料会社\n       </orgName>\n       ノ事ヲ談ス、\n       <placeName corresp=\"#place_大阪\">\n        大坂\n       </placeName>\n       地方同業会社ノ処分ニ関シ詳細ノ意見ヲ示ス、専務取締役ノ行為ニ付テモ種々ノ談話アリ、\n       <persName corresp=\"#pers_竹田政智\">\n<surname>\n         竹田\n        </surname>\n<forename>\n         政智\n        </forename>\n</persName>\n       来話ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10016m-0308\">\n<head>\n<date when=\"1908-11-03\">\n        十一月三日\n       </date>\n       晴　冷\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、頃日来風邪未タ快方セス、故ニ入浴ヲ癈《（廃）》ス、\n       <time when=\"08:30:00\">\n        八時半\n       </time>\n       朝飧ヲ食ス、後、新聞紙ヲ一覧シ、数多ノ書状ヲ裁シテ発送セシム、午飧後、二三ノ来人ニ接ス、\n       <persName corresp=\"#pers_吉岡新五郎\">\n<surname>\n         吉岡\n        </surname>\n<forename>\n         新五郎\n        </forename>\n</persName>\n       来リ人造肥料会社ノ事ヲ談ス、\n       <placeName corresp=\"#place_大阪\">\n        大坂\n       </placeName>\n       地方同業会社ノ処分ニ関シ詳細ノ意見ヲ示ス、専務取締役ノ行為ニ付テモ種々ノ談話アリ、\n       <persName corresp=\"#pers_竹田政智\">\n<surname>\n         竹田\n        </surname>\n<forename>\n         政智\n        </forename>\n</persName>\n       来話ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10016m-0308\">\n<head>\n<date when=\"1908-11-03\">\n        十一月三日\n       </date>\n       晴　冷\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、頃日来風邪未タ快方セス、故ニ入浴ヲ癈《（廃）》ス、\n       <time when=\"08:30:00\">\n        八時半\n       </time>\n       朝飧ヲ食ス、後、新聞紙ヲ一覧シ、数多ノ書状ヲ裁シテ発送セシム、午飧後、二三ノ来人ニ接ス、\n       <persName corresp=\"#pers_吉岡新五郎\">\n<surname>\n         吉岡\n        </surname>\n<forename>\n         新五郎\n        </forename>\n</persName>\n       来リ\n       <orgName>\n        人造肥料会社\n       </orgName>\n       ノ事ヲ談ス、\n       <placeName corresp=\"#place_大阪\">\n        大坂\n       </placeName>\n       地方同業会社ノ処分ニ関シ詳細ノ意見ヲ示ス、専務取締役ノ行為ニ付テモ種々ノ談話アリ、\n       <persName corresp=\"#pers_竹田政智\">\n<surname>\n         竹田\n        </surname>\n<forename>\n         政智\n        </forename>\n</persName>\n       来話ス\n      </p>\n</div>",
     "year": "1908",
     "yearAndMonth": "1908-11"
 }

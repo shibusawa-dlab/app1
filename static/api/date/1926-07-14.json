@@ -1,6 +1,11 @@
 {
     "agential": [
+        "ジヨーンス",
         "トイスラー"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ジヨーンス",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/トイスラー"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1519",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-07",
     "date_lvl2": "1926-07-14",
-    "description": "\n\n\n           十四日\n          \n          （水）\n         \n\n\n\n\n             午前十・四〇\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午前十一時\n            \n            日米関係委員会催ジヨーンス氏招待午餐会（銀行クラブ）\n           \n\n\n\n            引続\n            \n             午後二時\n            \n\n\n              トイスラー\n             \n\n            氏ト御会見（銀行クラブ）\n           \n\n\n\n\n             午後二・一〇\n            \n            再ビ御出勤\n           \n\n\n\n\n             午后四時\n            \n            田園都市会社御案内（歌舞伎座）\n           \n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （水）\n         \n\n\n\n\n             午前十・四〇\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午前十一時\n            \n            日米関係委員会催\n            \n\n              ジヨーンス\n             \n\n            氏招待午餐会（銀行クラブ）\n           \n\n\n\n            引続\n            \n             午後二時\n            \n\n\n              トイスラー\n             \n\n            氏ト御会見（銀行クラブ）\n           \n\n\n\n\n             午後二・一〇\n            \n            再ビ御出勤\n           \n\n\n\n\n             午后四時\n            \n            田園都市会社御案内（歌舞伎座）\n           \n\n\n",
     "label": "十四日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0196",
@@ -26,6 +31,7 @@
     "sort": "DKB20028m-0195",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [],
+    "spatial_uri": [],
     "temporal": "1926-07-14",
     "texts": [
         "DKB20029m-0120",
@@ -53,7 +59,7 @@
         "10:40:00": "<div><time when=\"10:40:00\">\n             午前十・四〇\n            </time>\n            事務所ニ御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0195\">\n<head>\n<date when=\"1926-07-14\">\n           十四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:40:00\">\n             午前十・四〇\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            日米関係委員会催ジヨーンス氏招待午餐会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n            引続\n            <time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_トイスラー\">\n<surname>\n              トイスラー\n             </surname>\n</persName>\n            氏ト御会見（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:10:00\">\n             午後二・一〇\n            </time>\n            再ビ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午后四時\n            </time>\n            田園都市会社御案内（歌舞伎座）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0195\">\n<head>\n<date when=\"1926-07-14\">\n           十四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:40:00\">\n             午前十・四〇\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            日米関係委員会催\n            <persName corresp=\"#pers_ジヨーンス\">\n<surname>\n              ジヨーンス\n             </surname>\n</persName>\n            氏招待午餐会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n            引続\n            <time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_トイスラー\">\n<surname>\n              トイスラー\n             </surname>\n</persName>\n            氏ト御会見（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:10:00\">\n             午後二・一〇\n            </time>\n            再ビ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午后四時\n            </time>\n            田園都市会社御案内（歌舞伎座）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-07"
 }

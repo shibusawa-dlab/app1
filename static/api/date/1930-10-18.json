@@ -2,6 +2,9 @@
     "agential": [
         "関屋"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/関屋"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1618",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1930",
     "date_lvl1": "1930-10",
     "date_lvl2": "1930-10-18",
-    "description": "\n\n\n           十八日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n\n             日本\n            \n            女子大学校評議員会（同校家政館）\n           \n\n\n\n\n             午後〇半時\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午後一―二時\n            \n\n\n              関屋\n             \n\n            宮内次官ト御会見（事務所）\n           \n\n\n",
+    "description": "\n\n\n           十八日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n\n             日本女子大学校\n            \n            評議員会（同校家政館）\n           \n\n\n\n\n             午後〇半時\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午後一―二時\n            \n\n\n              関屋\n             \n\n            宮内次官ト御会見（事務所）\n           \n\n\n",
     "label": "十八日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20032m-0176",
@@ -25,9 +28,8 @@
     "prev": "DKB20032m-0173",
     "sort": "DKB20032m-0174",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "日本"
-    ],
+    "spatial": [],
+    "spatial_uri": [],
     "temporal": "1930-10-18",
     "texts": [
         "DKB20031m-0128",
@@ -52,10 +54,10 @@
         "DKB20031m-0215"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            女子大学校評議員会（同校家政館）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             日本女子大学校\n            </orgName>\n            評議員会（同校家政館）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0174\">\n<head>\n<date when=\"1930-10-18\">\n           十八日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            女子大学校評議員会（同校家政館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇半時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"14:00:00\">\n             午後一―二時\n            </time>\n<persName corresp=\"#pers_関屋\">\n<surname>\n              関屋\n             </surname>\n</persName>\n            宮内次官ト御会見（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0174\">\n<head>\n<date when=\"1930-10-18\">\n           十八日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             日本女子大学校\n            </orgName>\n            評議員会（同校家政館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇半時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"14:00:00\">\n             午後一―二時\n            </time>\n<persName corresp=\"#pers_関屋\">\n<surname>\n              関屋\n             </surname>\n</persName>\n            宮内次官ト御会見（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1930",
     "yearAndMonth": "1930-10"
 }

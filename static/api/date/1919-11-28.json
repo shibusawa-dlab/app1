@@ -1,8 +1,13 @@
 {
     "agential": [
         "有吉",
-        "桜痴",
+        "福地源一郎",
         "本田仙太郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/有吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/福地源一郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/本田仙太郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1317",
     "category": {
@@ -19,7 +24,7 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-11",
     "date_lvl2": "1919-11-28",
-    "description": "\n\n\n           廿八日\n          \n          （金）\n         \n\n\n\n\n             正午\n            \n\n\n              有吉\n             \n\n            知事ト御会見ノ約（協調会事務所）\n           \n\n\n\n\n             午後一時\n            \n\n             やまと\n            \n            新聞社主催、\n            \n\n              桜痴\n             \n\n            居士碑除幕式（浅草公園）\n           \n\n\n\n\n             午後四時\n            \n\n\n              本田\n             \n\n              仙太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n             加州\n            \n            銀行ヨリ御招待（トキワヤ）\n           \n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （金）\n         \n\n\n\n\n             正午\n            \n\n\n              有吉\n             \n\n            知事ト御会見ノ約（協調会事務所）\n           \n\n\n\n\n             午後一時\n            \n            やまと新聞社主催、\n            \n\n              桜痴\n             \n\n            居士碑除幕式（浅草公園）\n           \n\n\n\n\n             午後四時\n            \n\n\n              本田\n             \n\n              仙太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            加州銀行ヨリ御招待（トキワヤ）\n           \n\n\n",
     "label": "廿八日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0305",
@@ -28,9 +33,10 @@
     "sort": "DKB20021m-0304",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "やまと",
-        "日本橋兜町",
-        "加州"
+        "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1919-11-28",
     "texts": [
@@ -59,7 +65,7 @@
         "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_有吉\">\n<surname>\n              有吉\n             </surname>\n</persName>\n            知事ト御会見ノ約（協調会事務所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0304\">\n<head>\n<date when=\"1919-11-28\">\n           廿八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_有吉\">\n<surname>\n              有吉\n             </surname>\n</persName>\n            知事ト御会見ノ約（協調会事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_やまと\">\n             やまと\n            </placeName>\n            新聞社主催、\n            <persName corresp=\"#pers_桜痴\">\n<forename>\n              桜痴\n             </forename>\n</persName>\n            居士碑除幕式（浅草公園）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_本田仙太郎\">\n<surname>\n              本田\n             </surname>\n<forename>\n              仙太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_加州\">\n             加州\n            </placeName>\n            銀行ヨリ御招待（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0304\">\n<head>\n<date when=\"1919-11-28\">\n           廿八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_有吉\">\n<surname>\n              有吉\n             </surname>\n</persName>\n            知事ト御会見ノ約（協調会事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            やまと新聞社主催、\n            <persName corresp=\"#pers_福地源一郎\">\n<forename>\n              桜痴\n             </forename>\n</persName>\n            居士碑除幕式（浅草公園）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_本田仙太郎\">\n<surname>\n              本田\n             </surname>\n<forename>\n              仙太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            加州銀行ヨリ御招待（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-11"
 }

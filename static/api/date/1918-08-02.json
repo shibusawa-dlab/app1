@@ -4,6 +4,11 @@
         "美濃部",
         "倉知"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/平沼騏一郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/美濃部",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/倉知"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1274",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -19,7 +24,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-08",
     "date_lvl2": "1918-08-02",
-    "description": "\n\n\n           二日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n            早稲田大学ノ件（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              平沼\n             \n\n              騏一郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n\n              美濃部\n             \n\n            、\n            \n\n              倉知\n             \n\n            両氏ト\n            \n             兜町\n            \n            ニ御会見\n           \n\n\n",
+    "description": "\n\n\n           二日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n\n             早稲田大学\n            \n            ノ件（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              平沼\n             \n\n              騏一郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n\n              美濃部\n             \n\n            、\n            \n\n              倉知\n             \n\n            両氏ト\n            \n             兜町\n            \n            ニ御会見\n           \n\n\n",
     "label": "二日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0209",
@@ -29,6 +34,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1918-08-02",
     "texts": [
@@ -54,10 +62,10 @@
         "DKB20025m-0147"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            早稲田大学ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<orgName>\n             早稲田大学\n            </orgName>\n            ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0208\">\n<head>\n<date when=\"1918-08-02\">\n           二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            早稲田大学ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_平沼騏一郎\">\n<surname>\n              平沼\n             </surname>\n<forename>\n              騏一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_美濃部\">\n<surname>\n              美濃部\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_倉知\">\n<surname>\n              倉知\n             </surname>\n</persName>\n            両氏ト\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ御会見\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0208\">\n<head>\n<date when=\"1918-08-02\">\n           二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<orgName>\n             早稲田大学\n            </orgName>\n            ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_平沼騏一郎\">\n<surname>\n              平沼\n             </surname>\n<forename>\n              騏一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_美濃部\">\n<surname>\n              美濃部\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_倉知\">\n<surname>\n              倉知\n             </surname>\n</persName>\n            両氏ト\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ御会見\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-08"
 }

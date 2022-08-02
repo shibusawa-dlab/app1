@@ -3,6 +3,10 @@
         "佐々木",
         "竹田政智"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐々木",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/竹田政智"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/447",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -18,7 +22,7 @@
     "date_lvl0": "1906",
     "date_lvl1": "1906-05",
     "date_lvl2": "1906-05-25",
-    "description": "\n\n\n        五月二十五日\n       \n       晴　風アリ　　　　　　　　　起床\n       \n        六時\n       \n       就蓐\n       \n        十二時\n       \n\n\n       起床後身体摩擦ヲ為シ、畢テ庭園ヲ散歩ス、\n       \n        七時\n       \n       朝飧ヲ喫シ、食後新聞紙ヲ一覧ス、\n       \n        十時\n       \n\n        兜町\n       \n       事務所ニ抵リ来人ニ接シ書類ヲ整理ス、\n       \n        十二時\n       \n\n        第一銀行\n       \n       ニ於テ午飧ス、食後\n       \n\n         佐々木\n        \n\n       氏ト要務ヲ談シ、\n       \n        午後二時\n       \n       銀行集会所ニ抵リ石狩石炭会社創業総会ニ出席シ、坐長ノ席ニ就テ議事ヲ整理ス、畢テ日本鉄道会社ノ祝賀会ニ出席ス、立食畢テ、\n       \n        六時\n       \n\n        王子別荘\n       \n       ニ帰宿ス、\n       \n\n         竹田\n        \n\n         政智\n        \n\n       氏来リ、人造肥料会社ノ事ヲ談ス\n      \n",
+    "description": "\n\n\n        五月二十五日\n       \n       晴　風アリ　　　　　　　　　起床\n       \n        六時\n       \n       就蓐\n       \n        十二時\n       \n\n\n       起床後身体摩擦ヲ為シ、畢テ庭園ヲ散歩ス、\n       \n        七時\n       \n       朝飧ヲ喫シ、食後新聞紙ヲ一覧ス、\n       \n        十時\n       \n\n        兜町\n       \n       事務所ニ抵リ来人ニ接シ書類ヲ整理ス、\n       \n        十二時\n       \n\n        第一銀行\n       \n       ニ於テ午飧ス、食後\n       \n\n         佐々木\n        \n\n       氏ト要務ヲ談シ、\n       \n        午後二時\n       \n       銀行集会所ニ抵リ石狩石炭会社創業総会ニ出席シ、坐長ノ席ニ就テ議事ヲ整理ス、畢テ日本鉄道会社ノ祝賀会ニ出席ス、立食畢テ、\n       \n        六時\n       \n\n        王子別荘\n       \n       ニ帰宿ス、\n       \n\n         竹田\n        \n\n         政智\n        \n\n       氏来リ、\n       \n        人造肥料会社\n       \n       ノ事ヲ談ス\n      \n",
     "label": "五月二十五日              晴　風アリ　　　　　　　　　起床               六時              就蓐               十二時",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10014m-0139",
@@ -28,7 +32,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "日本橋兜町",
-        "王子別荘"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1906-05-25",
     "texts": [
@@ -58,10 +66,10 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接シ書類ヲ整理ス、</div>",
         "12:00:00": "<div><time when=\"12:00:00\">\n        十二時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧ス、食後\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       氏ト要務ヲ談シ、</div>",
         "14:00:00": "<div><time when=\"14:00:00\">\n        午後二時\n       </time>\n       銀行集会所ニ抵リ石狩石炭会社創業総会ニ出席シ、坐長ノ席ニ就テ議事ヲ整理ス、畢テ日本鉄道会社ノ祝賀会ニ出席ス、立食畢テ、</div>",
-        "18:00:00": "<div><time when=\"18:00:00\">\n        六時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス、\n       <persName corresp=\"#pers_竹田政智\">\n<surname>\n         竹田\n        </surname>\n<forename>\n         政智\n        </forename>\n</persName>\n       氏来リ、人造肥料会社ノ事ヲ談ス</div>"
+        "18:00:00": "<div><time when=\"18:00:00\">\n        六時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス、\n       <persName corresp=\"#pers_竹田政智\">\n<surname>\n         竹田\n        </surname>\n<forename>\n         政智\n        </forename>\n</persName>\n       氏来リ、\n       <orgName>\n        人造肥料会社\n       </orgName>\n       ノ事ヲ談ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10014m-0138\">\n<head>\n<date when=\"1906-05-25\">\n        五月二十五日\n       </date>\n       晴　風アリ　　　　　　　　　起床\n       <time when=\"06:00:00\">\n        六時\n       </time>\n       就蓐\n       <time when-iso=\"1906-05-26T00:00+0900\">\n        十二時\n       </time>\n</head>\n<p>\n       起床後身体摩擦ヲ為シ、畢テ庭園ヲ散歩ス、\n       <time when=\"07:00:00\">\n        七時\n       </time>\n       朝飧ヲ喫シ、食後新聞紙ヲ一覧ス、\n       <time when=\"10:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接シ書類ヲ整理ス、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧ス、食後\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       氏ト要務ヲ談シ、\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n       銀行集会所ニ抵リ石狩石炭会社創業総会ニ出席シ、坐長ノ席ニ就テ議事ヲ整理ス、畢テ日本鉄道会社ノ祝賀会ニ出席ス、立食畢テ、\n       <time when=\"18:00:00\">\n        六時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス、\n       <persName corresp=\"#pers_竹田政智\">\n<surname>\n         竹田\n        </surname>\n<forename>\n         政智\n        </forename>\n</persName>\n       氏来リ、人造肥料会社ノ事ヲ談ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10014m-0138\">\n<head>\n<date when=\"1906-05-25\">\n        五月二十五日\n       </date>\n       晴　風アリ　　　　　　　　　起床\n       <time when=\"06:00:00\">\n        六時\n       </time>\n       就蓐\n       <time when-iso=\"1906-05-26T00:00+0900\">\n        十二時\n       </time>\n</head>\n<p>\n       起床後身体摩擦ヲ為シ、畢テ庭園ヲ散歩ス、\n       <time when=\"07:00:00\">\n        七時\n       </time>\n       朝飧ヲ喫シ、食後新聞紙ヲ一覧ス、\n       <time when=\"10:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接シ書類ヲ整理ス、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧ス、食後\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       氏ト要務ヲ談シ、\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n       銀行集会所ニ抵リ石狩石炭会社創業総会ニ出席シ、坐長ノ席ニ就テ議事ヲ整理ス、畢テ日本鉄道会社ノ祝賀会ニ出席ス、立食畢テ、\n       <time when=\"18:00:00\">\n        六時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス、\n       <persName corresp=\"#pers_竹田政智\">\n<surname>\n         竹田\n        </surname>\n<forename>\n         政智\n        </forename>\n</persName>\n       氏来リ、\n       <orgName>\n        人造肥料会社\n       </orgName>\n       ノ事ヲ談ス\n      </p>\n</div>",
     "year": "1906",
     "yearAndMonth": "1906-05"
 }

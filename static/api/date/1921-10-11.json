@@ -2,8 +2,16 @@
     "agential": [
         "神田鐳蔵",
         "渡辺甚吉",
+        "ジヨーンス",
         "指田義雄",
         "原"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/神田鐳蔵",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渡辺甚吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ジヨーンス",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/指田義雄",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/原"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1380",
     "category": {
@@ -20,7 +28,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-10",
     "date_lvl2": "1921-10-11",
-    "description": "\n\n\n           十一日\n          \n          （火）\n         \n\n\n\n\n             午前十一半時\n            \n\n\n              神田\n             \n\n              鐳蔵\n             \n\n            氏ヨリ御案内（日本工業クラブ）\n           \n\n\n\n\n             正午\n            \n            日本クラブ催送別会（同クラブ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              渡辺\n             \n\n              甚吉\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            ジヨーンス氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三―四時\n            \n\n\n              指田\n             \n\n              義雄\n             \n\n            氏来約（〃）\n           \n\n\n\n\n             午後正五時\n            \n\n\n              原\n             \n\n            首相ヲ御訪問（官邸）\n           \n\n\n\n\n             午後六時\n            \n\n\n              原\n             \n\n            首相催送別会（首相官邸）\n           \n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （火）\n         \n\n\n\n\n             午前十一半時\n            \n\n\n              神田\n             \n\n              鐳蔵\n             \n\n            氏ヨリ御案内（日本工業クラブ）\n           \n\n\n\n\n             正午\n            \n            日本クラブ催送別会（同クラブ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              渡辺\n             \n\n              甚吉\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n\n             ジヨーンス\n            \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三―四時\n            \n\n\n              指田\n             \n\n              義雄\n             \n\n            氏来約（〃）\n           \n\n\n\n\n             午後正五時\n            \n\n\n              原\n             \n\n            首相ヲ御訪問（官邸）\n           \n\n\n\n\n             午後六時\n            \n\n\n              原\n             \n\n            首相催送別会（首相官邸）\n           \n\n\n",
     "label": "十一日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0278",
@@ -30,6 +38,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1921-10-11",
     "texts": [
@@ -58,7 +69,7 @@
         "11:30:00": "<div><time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<persName corresp=\"#pers_神田鐳蔵\">\n<surname>\n              神田\n             </surname>\n<forename>\n              鐳蔵\n             </forename>\n</persName>\n            氏ヨリ御案内（日本工業クラブ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0277\">\n<head>\n<date when=\"1921-10-11\">\n           十一日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<persName corresp=\"#pers_神田鐳蔵\">\n<surname>\n              神田\n             </surname>\n<forename>\n              鐳蔵\n             </forename>\n</persName>\n            氏ヨリ御案内（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日本クラブ催送別会（同クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_渡辺甚吉\">\n<surname>\n              渡辺\n             </surname>\n<forename>\n              甚吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            ジヨーンス氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―四時\n            </time>\n<persName corresp=\"#pers_指田義雄\">\n<surname>\n              指田\n             </surname>\n<forename>\n              義雄\n             </forename>\n</persName>\n            氏来約（〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後正五時\n            </time>\n<persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            首相ヲ御訪問（官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            首相催送別会（首相官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0277\">\n<head>\n<date when=\"1921-10-11\">\n           十一日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<persName corresp=\"#pers_神田鐳蔵\">\n<surname>\n              神田\n             </surname>\n<forename>\n              鐳蔵\n             </forename>\n</persName>\n            氏ヨリ御案内（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日本クラブ催送別会（同クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_渡辺甚吉\">\n<surname>\n              渡辺\n             </surname>\n<forename>\n              甚吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_ジヨーンス\">\n<surname>\n             ジヨーンス\n            </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―四時\n            </time>\n<persName corresp=\"#pers_指田義雄\">\n<surname>\n              指田\n             </surname>\n<forename>\n              義雄\n             </forename>\n</persName>\n            氏来約（〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後正五時\n            </time>\n<persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            首相ヲ御訪問（官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            首相催送別会（首相官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-10"
 }

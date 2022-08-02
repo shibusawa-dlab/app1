@@ -1,7 +1,15 @@
 {
     "agential": [
         "波多野",
-        "坂本三郎"
+        "坂本三郎",
+        "ブラドレー",
+        "ラファエル"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/波多野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/坂本三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ブラドレー",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ラファエル"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1226",
     "category": {
@@ -18,7 +26,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-01",
     "date_lvl2": "1917-01-25",
-    "description": "\n\n\n           廿五日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n\n\n              波多野\n             \n\n            烏峰来約《（氏脱）》（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前八時\n            \n\n\n              坂本\n             \n\n              三郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            ブラドレー氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午前十一時\n            \n            ラファエル氏　同上\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n            総会（銀行集会所）\n           \n\n\n\n\n             午後五時\n            \n            清水組宴会（\n            \n             日本橋\n            \n            クラブ）\n           \n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n\n\n              波多野\n             \n\n            烏峰来約《（氏脱）》（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前八時\n            \n\n\n              坂本\n             \n\n              三郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              ブラドレー\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午前十一時\n            \n\n\n              ラファエル\n             \n\n            氏　同上\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n            総会（銀行集会所）\n           \n\n\n\n\n             午後五時\n            \n            清水組宴会（日本橋クラブ）\n           \n\n\n",
     "label": "廿五日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0026",
@@ -28,8 +36,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸",
-        "日本橋兜町",
-        "日本橋"
+        "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1917-01-25",
     "texts": [
@@ -58,7 +69,7 @@
         "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_波多野\">\n<surname>\n              波多野\n             </surname>\n</persName>\n            烏峰来約《（氏脱）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0025\">\n<head>\n<date when=\"1917-01-25\">\n           廿五日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_波多野\">\n<surname>\n              波多野\n             </surname>\n</persName>\n            烏峰来約《（氏脱）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_坂本三郎\">\n<surname>\n              坂本\n             </surname>\n<forename>\n              三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            ブラドレー氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            ラファエル氏　同上\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n            総会（銀行集会所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            清水組宴会（\n            <placeName corresp=\"#place_日本橋\">\n             日本橋\n            </placeName>\n            クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0025\">\n<head>\n<date when=\"1917-01-25\">\n           廿五日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_波多野\">\n<surname>\n              波多野\n             </surname>\n</persName>\n            烏峰来約《（氏脱）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_坂本三郎\">\n<surname>\n              坂本\n             </surname>\n<forename>\n              三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_ブラドレー\">\n<surname>\n              ブラドレー\n             </surname>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_ラファエル\">\n<surname>\n              ラファエル\n             </surname>\n</persName>\n            氏　同上\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n            総会（銀行集会所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            清水組宴会（日本橋クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-01"
 }

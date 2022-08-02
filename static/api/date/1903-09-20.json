@@ -2,7 +2,14 @@
     "agential": [
         "谷敬三",
         "清水釘吉",
+        "清水一雄",
         "北垣国道"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/谷敬三",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/清水釘吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/清水一雄",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/北垣国道"
     ],
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -18,7 +25,7 @@
     "date_lvl0": "1903",
     "date_lvl1": "1903-09",
     "date_lvl2": "1903-09-20",
-    "description": "\n\n\n        九月二十日\n       \n\n\n       雨、\n       \n        午前七時\n       \n       起床、朝飧ヲ畢リ\n       \n        九時\n       \n\n        本所\n       \n       報恩寺ニ抵《（リ脱カ）》\n       \n\n         谷\n        \n\n         敬三\n        \n\n       ノ葬儀ニ列ス、畢テ\n       \n        十一時\n       \n\n        王子別荘\n       \n       ニ帰宿ス、\n       \n\n         清水\n        \n\n         釘吉\n        \n\n       、同一雄来ル、\n       \n\n         北垣\n        \n\n         国道\n        \n\n       氏来話ス\n      \n",
+    "description": "\n\n\n\n        九月二十日\n       \n\n\n       雨、\n       \n        午前七時\n       \n       起床、朝飧ヲ畢リ\n       \n        九時\n       \n\n        本所\n       \n       報恩寺ニ抵《（リ脱カ）》\n       \n\n         谷\n        \n\n         敬三\n        \n\n       ノ葬儀ニ列ス、畢テ\n       \n        十一時\n       \n\n        王子別荘\n       \n       ニ帰宿ス、\n       \n\n         清水\n        \n\n         釘吉\n        \n\n       、同\n       \n\n         一雄\n        \n\n       来ル、\n       \n\n         北垣\n        \n\n         国道\n        \n\n       氏来話ス\n      \n",
     "label": "九月二十日",
     "next": "DKB10011m-0378",
     "objectID": "DKB10011m-0377",
@@ -27,7 +34,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "本所",
-        "王子別荘"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/本所",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1903-09-20",
     "texts": [
@@ -55,10 +66,10 @@
     "time": {
         "07:00:00": "<div>雨、<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、朝飧ヲ畢リ</div>",
         "09:00:00": "<div><time when=\"09:00:00\">\n        九時\n       </time>\n<placeName corresp=\"#place_本所\">\n        本所\n       </placeName>\n       報恩寺ニ抵《（リ脱カ）》\n       <persName corresp=\"#pers_谷敬三\">\n<surname>\n         谷\n        </surname>\n<forename>\n         敬三\n        </forename>\n</persName>\n       ノ葬儀ニ列ス、畢テ</div>",
-        "11:00:00": "<div><time when=\"11:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス、\n       <persName corresp=\"#pers_清水釘吉\">\n<surname>\n         清水\n        </surname>\n<forename>\n         釘吉\n        </forename>\n</persName>\n       、同一雄来ル、\n       <persName corresp=\"#pers_北垣国道\">\n<surname>\n         北垣\n        </surname>\n<forename>\n         国道\n        </forename>\n</persName>\n       氏来話ス</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス、\n       <persName corresp=\"#pers_清水釘吉\">\n<surname>\n         清水\n        </surname>\n<forename>\n         釘吉\n        </forename>\n</persName>\n       、同\n       <persName corresp=\"#pers_清水一雄\">\n<forename>\n         一雄\n        </forename>\n</persName>\n       来ル、\n       <persName corresp=\"#pers_北垣国道\">\n<surname>\n         北垣\n        </surname>\n<forename>\n         国道\n        </forename>\n</persName>\n       氏来話ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-0377\">\n<head>\n<date when=\"1903-09-20\">\n        九月二十日\n       </date>\n</head>\n<p>\n       雨、\n       <time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、朝飧ヲ畢リ\n       <time when=\"09:00:00\">\n        九時\n       </time>\n<placeName corresp=\"#place_本所\">\n        本所\n       </placeName>\n       報恩寺ニ抵《（リ脱カ）》\n       <persName corresp=\"#pers_谷敬三\">\n<surname>\n         谷\n        </surname>\n<forename>\n         敬三\n        </forename>\n</persName>\n       ノ葬儀ニ列ス、畢テ\n       <time when=\"11:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス、\n       <persName corresp=\"#pers_清水釘吉\">\n<surname>\n         清水\n        </surname>\n<forename>\n         釘吉\n        </forename>\n</persName>\n       、同一雄来ル、\n       <persName corresp=\"#pers_北垣国道\">\n<surname>\n         北垣\n        </surname>\n<forename>\n         国道\n        </forename>\n</persName>\n       氏来話ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-0377\">\n<head>\n<pb corresp=\"#pageB1324\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/350/full/max/0/default.jpg\" n=\"B1324\" source=\"#pageB1324\"/>\n<date when=\"1903-09-20\">\n        九月二十日\n       </date>\n</head>\n<p>\n       雨、\n       <time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、朝飧ヲ畢リ\n       <time when=\"09:00:00\">\n        九時\n       </time>\n<placeName corresp=\"#place_本所\">\n        本所\n       </placeName>\n       報恩寺ニ抵《（リ脱カ）》\n       <persName corresp=\"#pers_谷敬三\">\n<surname>\n         谷\n        </surname>\n<forename>\n         敬三\n        </forename>\n</persName>\n       ノ葬儀ニ列ス、畢テ\n       <time when=\"11:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス、\n       <persName corresp=\"#pers_清水釘吉\">\n<surname>\n         清水\n        </surname>\n<forename>\n         釘吉\n        </forename>\n</persName>\n       、同\n       <persName corresp=\"#pers_清水一雄\">\n<forename>\n         一雄\n        </forename>\n</persName>\n       来ル、\n       <persName corresp=\"#pers_北垣国道\">\n<surname>\n         北垣\n        </surname>\n<forename>\n         国道\n        </forename>\n</persName>\n       氏来話ス\n      </p>\n</div>",
     "year": "1903",
     "yearAndMonth": "1903-09"
 }

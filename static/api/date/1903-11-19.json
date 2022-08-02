@@ -1,7 +1,13 @@
 {
     "agential": [
+        "センクス",
         "曾禰",
         "小村"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/センクス",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/曾禰",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小村"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/358",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1903",
     "date_lvl1": "1903-11",
     "date_lvl2": "1903-11-19",
-    "description": "\n\n\n        十一月十九日\n       \n\n\n       曇、\n       \n        午前七時\n       \n       起床朝飧ヲ畢リ、\n       \n        九時\n       \n\n        日本銀行\n       \n       ニ抵リ幣制会議ニ出席ス\n       \n        十二時\n       \n\n        兜町\n       \n       事務所ニ抵リ来人ニ接シ、午飧後\n       \n        第一銀行\n       \n       ニ抵リ重役会ニ出席ス、畢テ三井集会所ニ抵リ米国人センクス氏招待会ニ出席ス、\n       \n\n         曾禰\n        \n\n       大蔵、\n       \n\n         小村\n        \n\n       外務ノ二大臣モ来会ス、食後種々ノ余興アリ、夜\n       \n        十時\n       \n       宴散シテ\n       \n        王子別荘\n       \n       ニ帰ル\n      \n",
+    "description": "\n\n\n        十一月十九日\n       \n\n\n       曇、\n       \n        午前七時\n       \n       起床朝飧ヲ畢リ、\n       \n        九時\n       \n\n        日本銀行\n       \n       ニ抵リ幣制会議ニ出席ス\n       \n        十二時\n       \n\n        兜町\n       \n       事務所ニ抵リ来人ニ接シ、午飧後\n       \n        第一銀行\n       \n       ニ抵リ重役会ニ出席ス、畢テ三井集会所ニ抵リ米国人\n       \n\n         センクス\n        \n\n       氏招待会ニ出席ス、\n       \n\n         曾禰\n        \n\n       大蔵、\n       \n\n         小村\n        \n\n       外務ノ二大臣モ来会ス、食後種々ノ余興アリ、夜\n       \n        十時\n       \n       宴散シテ\n       \n        王子別荘\n       \n       ニ帰ル\n      \n",
     "label": "十一月十九日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10012m-0018",
@@ -28,7 +34,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "日本橋兜町",
-        "王子別荘"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1903-11-19",
     "texts": [
@@ -56,11 +66,11 @@
     "time": {
         "07:00:00": "<div>曇、<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床朝飧ヲ畢リ、</div>",
         "09:00:00": "<div><time when=\"09:00:00\">\n        九時\n       </time>\n<orgName>\n        日本銀行\n       </orgName>\n       ニ抵リ幣制会議ニ出席ス</div>",
-        "12:00:00": "<div><time when=\"12:00:00\">\n        十二時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接シ、午飧後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ抵リ重役会ニ出席ス、畢テ三井集会所ニ抵リ米国人センクス氏招待会ニ出席ス、\n       <persName corresp=\"#pers_曾禰\">\n<surname>\n         曾禰\n        </surname>\n</persName>\n       大蔵、\n       <persName corresp=\"#pers_小村\">\n<surname>\n         小村\n        </surname>\n</persName>\n       外務ノ二大臣モ来会ス、食後種々ノ余興アリ、夜</div>",
-        "22:00:00": "<div><time when=\"22:00:00\">\n        十時\n       </time>\n       宴散シテ\n       <placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰ル</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n        十二時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接シ、午飧後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ抵リ重役会ニ出席ス、畢テ三井集会所ニ抵リ米国人\n       <persName corresp=\"#pers_センクス\">\n<surname>\n         センクス\n        </surname>\n</persName>\n       氏招待会ニ出席ス、\n       <persName corresp=\"#pers_曾禰\">\n<surname>\n         曾禰\n        </surname>\n</persName>\n       大蔵、\n       <persName corresp=\"#pers_小村\">\n<surname>\n         小村\n        </surname>\n</persName>\n       外務ノ二大臣モ来会ス、食後種々ノ余興アリ、夜</div>",
+        "22:00:00": "<div><time when=\"22:00:00\">\n        十時\n       </time>\n       宴散シテ\n       <placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰ル</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10012m-0017\">\n<head>\n<date when=\"1903-11-19\">\n        十一月十九日\n       </date>\n</head>\n<p>\n       曇、\n       <time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床朝飧ヲ畢リ、\n       <time when=\"09:00:00\">\n        九時\n       </time>\n<orgName>\n        日本銀行\n       </orgName>\n       ニ抵リ幣制会議ニ出席ス\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接シ、午飧後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ抵リ重役会ニ出席ス、畢テ三井集会所ニ抵リ米国人センクス氏招待会ニ出席ス、\n       <persName corresp=\"#pers_曾禰\">\n<surname>\n         曾禰\n        </surname>\n</persName>\n       大蔵、\n       <persName corresp=\"#pers_小村\">\n<surname>\n         小村\n        </surname>\n</persName>\n       外務ノ二大臣モ来会ス、食後種々ノ余興アリ、夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n       宴散シテ\n       <placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰ル\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10012m-0017\">\n<head>\n<date when=\"1903-11-19\">\n        十一月十九日\n       </date>\n</head>\n<p>\n       曇、\n       <time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床朝飧ヲ畢リ、\n       <time when=\"09:00:00\">\n        九時\n       </time>\n<orgName>\n        日本銀行\n       </orgName>\n       ニ抵リ幣制会議ニ出席ス\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接シ、午飧後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ抵リ重役会ニ出席ス、畢テ三井集会所ニ抵リ米国人\n       <persName corresp=\"#pers_センクス\">\n<surname>\n         センクス\n        </surname>\n</persName>\n       氏招待会ニ出席ス、\n       <persName corresp=\"#pers_曾禰\">\n<surname>\n         曾禰\n        </surname>\n</persName>\n       大蔵、\n       <persName corresp=\"#pers_小村\">\n<surname>\n         小村\n        </surname>\n</persName>\n       外務ノ二大臣モ来会ス、食後種々ノ余興アリ、夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n       宴散シテ\n       <placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰ル\n      </p>\n</div>",
     "year": "1903",
     "yearAndMonth": "1903-11"
 }

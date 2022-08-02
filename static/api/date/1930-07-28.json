@@ -1,7 +1,13 @@
 {
     "agential": [
         "沢田謙",
-        "岡田純夫"
+        "岡田純夫",
+        "国分三亥"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/沢田謙",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡田純夫",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/国分三亥"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1615",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1930",
     "date_lvl1": "1930-07",
     "date_lvl2": "1930-07-28",
-    "description": "\n\n\n           廿八日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n\n\n              沢田\n             \n\n              謙\n             \n\n            、\n            \n\n              岡田\n             \n\n              純夫\n             \n\n            両氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後一半時\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午後二時\n            \n            頃　　国分三亥氏来約（事務所）\n           \n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n\n\n              沢田\n             \n\n              謙\n             \n\n            、\n            \n\n              岡田\n             \n\n              純夫\n             \n\n            両氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後一半時\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午後二時\n            \n            頃　　\n            \n\n              国分\n             \n\n              三亥\n             \n\n            氏来約（事務所）\n           \n\n\n",
     "label": "廿八日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20032m-0123",
@@ -28,6 +34,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1930-07-28",
     "texts": [
@@ -56,7 +65,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_沢田謙\">\n<surname>\n              沢田\n             </surname>\n<forename>\n              謙\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_岡田純夫\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              純夫\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0122\">\n<head>\n<date when=\"1930-07-28\">\n           廿八日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_沢田謙\">\n<surname>\n              沢田\n             </surname>\n<forename>\n              謙\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_岡田純夫\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              純夫\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            頃　　国分三亥氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0122\">\n<head>\n<date when=\"1930-07-28\">\n           廿八日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_沢田謙\">\n<surname>\n              沢田\n             </surname>\n<forename>\n              謙\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_岡田純夫\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              純夫\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            頃　　\n            <persName corresp=\"#pers_国分三亥\">\n<surname>\n              国分\n             </surname>\n<forename>\n              三亥\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1930",
     "yearAndMonth": "1930-07"
 }

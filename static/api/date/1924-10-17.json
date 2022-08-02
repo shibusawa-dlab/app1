@@ -1,7 +1,11 @@
 {
     "agential": [
         "堀川勝造",
-        "鴻銘"
+        "辜鴻銘"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/堀川勝造",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/辜鴻銘"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1478",
     "category": {
@@ -18,7 +22,7 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-10",
     "date_lvl2": "1924-10-17",
-    "description": "\n\n\n           十七日\n          \n          （金）\n         \n\n\n\n            神嘗祭\n           \n\n\n\n\n             午前八時\n            \n\n             東京\n            \n            毎夕記者\n            \n\n              堀川\n             \n\n              勝造\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n            大東文化協会催辜\n            \n\n              鴻\n             \n\n              銘\n             \n\n            氏講演会（\n            \n             麴町\n            \n            区\n            \n             富士見町\n            \n            六ノ十六同会）\n           \n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （金）\n         \n\n\n\n            神嘗祭\n           \n\n\n\n\n             午前八時\n            \n\n             東京\n            \n            毎夕記者\n            \n\n              堀川\n             \n\n              勝造\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n            大東文化協会催\n            \n\n              辜\n             \n\n              鴻銘\n             \n\n            氏講演会（\n            \n             麴町\n            \n            区\n            \n             富士見町\n            \n            六ノ十六同会）\n           \n\n\n",
     "label": "十七日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0286",
@@ -28,9 +32,15 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "東京",
-        "アスカ山",
+        "飛鳥山邸",
         "麹町",
         "富士見町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/麹町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/富士見町"
     ],
     "temporal": "1924-10-17",
     "texts": [
@@ -57,7 +67,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0285\">\n<head>\n<date when=\"1924-10-17\">\n           十七日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n            神嘗祭\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            毎夕記者\n            <persName corresp=\"#pers_堀川勝造\">\n<surname>\n              堀川\n             </surname>\n<forename>\n              勝造\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            大東文化協会催辜\n            <persName corresp=\"#pers_鴻銘\">\n<surname>\n              鴻\n             </surname>\n<forename>\n              銘\n             </forename>\n</persName>\n            氏講演会（\n            <placeName corresp=\"#place_麹町\">\n             麴町\n            </placeName>\n            区\n            <placeName corresp=\"#place_富士見町\">\n             富士見町\n            </placeName>\n            六ノ十六同会）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0285\">\n<head>\n<date when=\"1924-10-17\">\n           十七日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n            神嘗祭\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            毎夕記者\n            <persName corresp=\"#pers_堀川勝造\">\n<surname>\n              堀川\n             </surname>\n<forename>\n              勝造\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            大東文化協会催\n            <persName corresp=\"#pers_辜鴻銘\">\n<surname>\n              辜\n             </surname>\n<forename>\n              鴻銘\n             </forename>\n</persName>\n            氏講演会（\n            <placeName corresp=\"#place_麹町\">\n             麴町\n            </placeName>\n            区\n            <placeName corresp=\"#place_富士見町\">\n             富士見町\n            </placeName>\n            六ノ十六同会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-10"
 }

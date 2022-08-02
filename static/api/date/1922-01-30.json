@@ -1,7 +1,6 @@
 {
-    "agential": [
-        "チニ"
-    ],
+    "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1381",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +16,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-01",
     "date_lvl2": "1922-01-30",
-    "description": "\n\n\n           三十日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n            頃\n            \n             横浜\n            \n            四号岸壁上陸\n           \n\n\n\n\n             直\n             \n\n               チニ\n              \n\n\n\n             第一銀行\n            \n            支店ニテ午餐\n           \n\n\n\n\n             午後一時四十四分\n            \n\n             横浜\n            \n            駅発汽車\n           \n\n\n\n\n             午後二時三十五分\n            \n\n             東京\n            \n            駅着\n           \n\n\n\n\n             直\n             \n\n               チニ\n              \n\n\n            事務所ニテ祝杯ヲ挙グ\n           \n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n            頃\n            \n             横浜\n            \n            四号岸壁上陸\n           \n\n\n\n\n             直チニ\n            \n\n             第一銀行\n            \n            支店ニテ午餐\n           \n\n\n\n\n             午後一時四十四分\n            \n\n             横浜\n            \n            駅発汽車\n           \n\n\n\n\n             午後二時三十五分\n            \n\n             東京\n            \n            駅着\n           \n\n\n\n\n             直チニ\n            \n            事務所ニテ祝杯ヲ挙グ\n           \n\n\n",
     "label": "三十日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0006",
@@ -28,6 +27,10 @@
     "spatial": [
         "横浜",
         "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/横浜",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1922-01-30",
     "texts": [
@@ -56,7 +59,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            頃\n            <placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            四号岸壁上陸</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0005\">\n<head>\n<date when=\"1922-01-30\">\n           三十日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            頃\n            <placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            四号岸壁上陸\n           </p>\n</event>\n<event>\n<p>\n<time>\n             直\n             <persName corresp=\"#pers_チニ\">\n<forename>\n               チニ\n              </forename>\n</persName>\n</time>\n<orgName>\n             第一銀行\n            </orgName>\n            支店ニテ午餐\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:44:00\">\n             午後一時四十四分\n            </time>\n<placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            駅発汽車\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:35:00\">\n             午後二時三十五分\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅着\n           </p>\n</event>\n<event>\n<p>\n<time>\n             直\n             <persName corresp=\"#pers_チニ\">\n<forename>\n               チニ\n              </forename>\n</persName>\n</time>\n            事務所ニテ祝杯ヲ挙グ\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0005\">\n<head>\n<date when=\"1922-01-30\">\n           三十日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            頃\n            <placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            四号岸壁上陸\n           </p>\n</event>\n<event>\n<p>\n<time>\n             直チニ\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n            支店ニテ午餐\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:44:00\">\n             午後一時四十四分\n            </time>\n<placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            駅発汽車\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:35:00\">\n             午後二時三十五分\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅着\n           </p>\n</event>\n<event>\n<p>\n<time>\n             直チニ\n            </time>\n            事務所ニテ祝杯ヲ挙グ\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-01"
 }

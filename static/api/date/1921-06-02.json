@@ -1,7 +1,13 @@
 {
     "agential": [
         "朝日平吾",
-        "羽生操"
+        "羽生操",
+        "川崎巳之太郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/朝日平吾",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/羽生操",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/川崎巳之太郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1365",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-06",
     "date_lvl2": "1921-06-02",
-    "description": "\n\n\n           二日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n\n\n              朝日\n             \n\n              平吾\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前八半時\n            \n\n\n              羽生\n             \n\n              操\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n             樺太\n            \n            炭田ノ件（日本工業クラブ）\n           \n\n\n\n\n             午後二時\n            \n            帝国飛行協会賞品授与式（水交社）\n           \n\n\n\n\n             午後三半時\n            \n            ヤコブキウツチ氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後四時\n            \n\n             川崎\n            \n            巳之太郎氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n",
+    "description": "\n\n\n           二日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n\n\n              朝日\n             \n\n              平吾\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前八半時\n            \n\n\n              羽生\n             \n\n              操\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n             樺太\n            \n            炭田ノ件（日本工業クラブ）\n           \n\n\n\n\n             午後二時\n            \n            帝国飛行協会賞品授与式（水交社）\n           \n\n\n\n\n             午後三半時\n            \n            ヤコブキウツチ氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後四時\n            \n\n\n              川崎\n             \n\n              巳之太郎\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n",
     "label": "二日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0147",
@@ -27,10 +33,14 @@
     "sort": "DKB20023m-0146",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
+        "飛鳥山邸",
         "樺太",
-        "日本橋兜町",
-        "川崎"
+        "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/樺太",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1921-06-02",
     "texts": [
@@ -56,10 +66,10 @@
         "DKB20024m-0075"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_朝日平吾\">\n<surname>\n              朝日\n             </surname>\n<forename>\n              平吾\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_朝日平吾\">\n<surname>\n              朝日\n             </surname>\n<forename>\n              平吾\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0146\">\n<head>\n<date when=\"1921-06-02\">\n           二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_朝日平吾\">\n<surname>\n              朝日\n             </surname>\n<forename>\n              平吾\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_羽生操\">\n<surname>\n              羽生\n             </surname>\n<forename>\n              操\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_樺太\">\n             樺太\n            </placeName>\n            炭田ノ件（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            帝国飛行協会賞品授与式（水交社）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n            ヤコブキウツチ氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_川崎\">\n             川崎\n            </placeName>\n            巳之太郎氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0146\">\n<head>\n<date when=\"1921-06-02\">\n           二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_朝日平吾\">\n<surname>\n              朝日\n             </surname>\n<forename>\n              平吾\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_羽生操\">\n<surname>\n              羽生\n             </surname>\n<forename>\n              操\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_樺太\">\n             樺太\n            </placeName>\n            炭田ノ件（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            帝国飛行協会賞品授与式（水交社）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n            ヤコブキウツチ氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_川崎巳之太郎\">\n<surname>\n              川崎\n             </surname>\n<forename>\n              巳之太郎\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-06"
 }

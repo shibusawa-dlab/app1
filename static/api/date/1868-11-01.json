@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/37",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -24,9 +25,14 @@
     "sort": "DKB10001m-0038",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
-        "亜丁",
-        "亜剌比亜",
+        "アデン",
+        "アラビア",
         "モツカア"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/アデン",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アラビア",
+        "https://shibusawa-dlab.github.io/lab1/api/place/モツカア"
     ],
     "temporal": "1868-11-01",
     "texts": [
@@ -52,10 +58,10 @@
         "DKB10001m-0034"
     ],
     "time": {
-        "15:00:00": "<div>朝より逆風〓行甚あしし、午後蒸気船の東より来るを見る、時々船の右に小島を見る、風故暑気ハ稍凌よきを覚ゆ、第<time when=\"15:00:00\">\n        三時\n       </time>\n       頃\n       <placeName corresp=\"#place_亜剌比亜\">\n        亜剌比亜\n       </placeName>\n       洲の地方を左に見る、一箇の市街白壁の海岸に映するを見る、\n       <placeName corresp=\"#place_モツカア\">\n        モツカア\n       </placeName>\n       といふ市街なり、カツフヘイの名所なりといふ、市街もいと繁華なるへく見ゆ、追々風穏かに〓行随意なり、時々両沿の島嶼を見る\n       <lb/>\n       夜に入ては清風涼しく、甲板上の夕涼尤清絶なり</div>"
+        "15:00:00": "<div>朝より逆風〓行甚あしし、午後蒸気船の東より来るを見る、時々船の右に小島を見る、風故暑気ハ稍凌よきを覚ゆ、第<time when=\"15:00:00\">\n        三時\n       </time>\n       頃\n       <placeName corresp=\"#place_アラビア\">\n        亜剌比亜\n       </placeName>\n       洲の地方を左に見る、一箇の市街白壁の海岸に映するを見る、\n       <placeName corresp=\"#place_モツカア\">\n        モツカア\n       </placeName>\n       といふ市街なり、カツフヘイの名所なりといふ、市街もいと繁華なるへく見ゆ、追々風穏かに〓行随意なり、時々両沿の島嶼を見る\n       <lb/>\n       夜に入ては清風涼しく、甲板上の夕涼尤清絶なり</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10001m-0038\">\n<head>\n<date type=\"旧暦\" when=\"1868-11-01\">\n        九月十七日\n       </date>\n       晴風　日　　北緯十三度四十六　東経四十度三十一　速百八十九里\n       <placeName corresp=\"#place_亜丁\">\n        亜丁\n       </placeName>\n       迄百八十里\n       <lb/>\n<date when=\"1868-11-01\">\n        十一月一日\n       </date>\n</head>\n<p>\n       朝より逆風〓行甚あしし、午後蒸気船の東より来るを見る、時々船の右に小島を見る、風故暑気ハ稍凌よきを覚ゆ、第\n       <time when=\"15:00:00\">\n        三時\n       </time>\n       頃\n       <placeName corresp=\"#place_亜剌比亜\">\n        亜剌比亜\n       </placeName>\n       洲の地方を左に見る、一箇の市街白壁の海岸に映するを見る、\n       <placeName corresp=\"#place_モツカア\">\n        モツカア\n       </placeName>\n       といふ市街なり、カツフヘイの名所なりといふ、市街もいと繁華なるへく見ゆ、追々風穏かに〓行随意なり、時々両沿の島嶼を見る\n       <lb/>\n       夜に入ては清風涼しく、甲板上の夕涼尤清絶なり\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10001m-0038\">\n<head>\n<date type=\"旧暦\" when=\"1868-11-01\">\n        九月十七日\n       </date>\n       晴風　日　　北緯十三度四十六　東経四十度三十一　速百八十九里\n       <placeName corresp=\"#place_アデン\">\n        亜丁\n       </placeName>\n       迄百八十里\n       <lb/>\n<date when=\"1868-11-01\">\n        十一月一日\n       </date>\n</head>\n<p>\n       朝より逆風〓行甚あしし、午後蒸気船の東より来るを見る、時々船の右に小島を見る、風故暑気ハ稍凌よきを覚ゆ、第\n       <time when=\"15:00:00\">\n        三時\n       </time>\n       頃\n       <placeName corresp=\"#place_アラビア\">\n        亜剌比亜\n       </placeName>\n       洲の地方を左に見る、一箇の市街白壁の海岸に映するを見る、\n       <placeName corresp=\"#place_モツカア\">\n        モツカア\n       </placeName>\n       といふ市街なり、カツフヘイの名所なりといふ、市街もいと繁華なるへく見ゆ、追々風穏かに〓行随意なり、時々両沿の島嶼を見る\n       <lb/>\n       夜に入ては清風涼しく、甲板上の夕涼尤清絶なり\n      </p>\n</div>",
     "year": "1868",
     "yearAndMonth": "1868-11"
 }

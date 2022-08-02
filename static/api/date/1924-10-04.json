@@ -1,7 +1,15 @@
 {
     "agential": [
+        "江口定条",
         "油谷恭一",
+        "スコツト",
         "小畑"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/江口定条",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/油谷恭一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/スコツト",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小畑"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1476",
     "category": {
@@ -18,7 +26,7 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-10",
     "date_lvl2": "1924-10-04",
-    "description": "\n\n\n           四日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n            江口定条氏来約（〃）\n           \n\n\n\n\n\n             午後一時\n            \n            宝妻寿作、\n            \n\n              油谷\n             \n\n              恭一\n             \n\n            両氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            スコツト氏来約（\n            \n             飛鳥山\n            \n            ）交渉中、\n            \n\n              小畑\n             \n\n            氏同道\n           \n\n\n",
+    "description": "\n\n\n           四日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n\n\n              江口\n             \n\n              定条\n             \n\n            氏来約（〃）\n           \n\n\n\n\n\n             午後一時\n            \n            宝妻寿作、\n            \n\n              油谷\n             \n\n              恭一\n             \n\n            両氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              スコツト\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）交渉中、\n            \n\n              小畑\n             \n\n            氏同道\n           \n\n\n",
     "label": "四日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0273",
@@ -27,7 +35,10 @@
     "sort": "DKB20026m-0272",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1924-10-04",
     "texts": [
@@ -53,10 +64,10 @@
         "DKB20030m-0164"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            江口定条氏来約（〃）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_江口定条\">\n<surname>\n              江口\n             </surname>\n<forename>\n              定条\n             </forename>\n</persName>\n            氏来約（〃）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0272\">\n<head>\n<date when=\"1924-10-04\">\n           四日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            江口定条氏来約（〃）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2637\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1476/full/max/0/default.jpg\" n=\"B2637\" source=\"#pageB2637\"/>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            宝妻寿作、\n            <persName corresp=\"#pers_油谷恭一\">\n<surname>\n              油谷\n             </surname>\n<forename>\n              恭一\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            スコツト氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）交渉中、\n            <persName corresp=\"#pers_小畑\">\n<surname>\n              小畑\n             </surname>\n</persName>\n            氏同道\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0272\">\n<head>\n<date when=\"1924-10-04\">\n           四日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_江口定条\">\n<surname>\n              江口\n             </surname>\n<forename>\n              定条\n             </forename>\n</persName>\n            氏来約（〃）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2637\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1476/full/max/0/default.jpg\" n=\"B2637\" source=\"#pageB2637\"/>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            宝妻寿作、\n            <persName corresp=\"#pers_油谷恭一\">\n<surname>\n              油谷\n             </surname>\n<forename>\n              恭一\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_スコツト\">\n<surname>\n              スコツト\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）交渉中、\n            <persName corresp=\"#pers_小畑\">\n<surname>\n              小畑\n             </surname>\n</persName>\n            氏同道\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-10"
 }

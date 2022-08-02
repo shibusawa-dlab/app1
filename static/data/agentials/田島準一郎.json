@@ -4,7 +4,7 @@
             "color": "lightgrey",
             "from": "井野辺",
             "to": "高田",
-            "value": 40
+            "value": 35
         },
         {
             "color": "lightgrey",
@@ -17,6 +17,12 @@
             "from": "高田",
             "to": "安達",
             "value": 13
+        },
+        {
+            "color": "lightgrey",
+            "from": "高田",
+            "to": "井の辺",
+            "value": 16
         }
     ],
     "nodes": [
@@ -25,7 +31,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 40,
+            "count": 35,
             "id": "井野辺",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "井野辺",
@@ -36,7 +42,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 63,
+            "count": 74,
             "id": "高田",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "高田",
@@ -62,6 +68,17 @@
             "id": "安達",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "安達",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 16,
+            "id": "井の辺",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "井の辺",
             "shape": "image"
         }
     ]

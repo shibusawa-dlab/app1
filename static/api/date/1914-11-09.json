@@ -4,6 +4,11 @@
         "中村",
         "倉光"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/成田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中村",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/倉光"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1169",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -29,8 +34,13 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "王子",
-        "第六天",
+        "第六天町",
         "曙町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子",
+        "https://shibusawa-dlab.github.io/lab1/api/place/第六天町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/曙町"
     ],
     "temporal": "1914-11-09",
     "texts": [
@@ -59,7 +69,7 @@
         "07:30:00": "<div><time when=\"07:30:00\">\n             午前七時半\n            </time>\n<persName corresp=\"#pers_成田\">\n<surname>\n              成田\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_倉光\">\n<surname>\n              倉光\n             </surname>\n</persName>\n            来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0055\">\n<head>\n<date when=\"1914-11-09\">\n           九日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"07:30:00\">\n             午前七時半\n            </time>\n<persName corresp=\"#pers_成田\">\n<surname>\n              成田\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_倉光\">\n<surname>\n              倉光\n             </surname>\n</persName>\n            来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九時半\n            </time>\n<placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n            様ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午〇\n            </time>\n            半時　　　国際病院ノ件（首相官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一時半\n            </time>\n            維新史料編纂会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五時半\n            </time>\n            論語会（\n            <placeName corresp=\"#place_曙町\">\n             曙町\n            </placeName>\n            寮）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0055\">\n<head>\n<date when=\"1914-11-09\">\n           九日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"07:30:00\">\n             午前七時半\n            </time>\n<persName corresp=\"#pers_成田\">\n<surname>\n              成田\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_倉光\">\n<surname>\n              倉光\n             </surname>\n</persName>\n            来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九時半\n            </time>\n<placeName corresp=\"#place_第六天町\">\n             第六天\n            </placeName>\n            様ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午〇\n            </time>\n            半時　　　国際病院ノ件（首相官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一時半\n            </time>\n            維新史料編纂会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五時半\n            </time>\n            論語会（\n            <placeName corresp=\"#place_曙町\">\n             曙町\n            </placeName>\n            寮）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-11"
 }

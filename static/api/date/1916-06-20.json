@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1207",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -24,8 +25,12 @@
     "sort": "DKB20018m-0155",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "仏国",
+        "フランス",
         "深川"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/フランス",
+        "https://shibusawa-dlab.github.io/lab1/api/place/深川"
     ],
     "temporal": "1916-06-20",
     "texts": [
@@ -51,10 +56,10 @@
         "DKB20030m-0203"
     ],
     "time": {
-        "12:30:00": "<div><time when=\"12:30:00\">\n             午後〇半時\n            </time>\n<placeName corresp=\"#place_仏国\">\n             仏国\n            </placeName>\n            大使館午餐会（同大使館）</div>"
+        "12:30:00": "<div><time when=\"12:30:00\">\n             午後〇半時\n            </time>\n<placeName corresp=\"#place_フランス\">\n             仏国\n            </placeName>\n            大使館午餐会（同大使館）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0155\">\n<head>\n<date when=\"1916-06-20\">\n           廿日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇半時\n            </time>\n<placeName corresp=\"#place_仏国\">\n             仏国\n            </placeName>\n            大使館午餐会（同大使館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            歌舞伎座ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:30:00\">\n             午後七半時\n            </time>\n            友愛会大講演会（\n            <placeName corresp=\"#place_深川\">\n             深川\n            </placeName>\n            猿江小学校）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0155\">\n<head>\n<date when=\"1916-06-20\">\n           廿日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇半時\n            </time>\n<placeName corresp=\"#place_フランス\">\n             仏国\n            </placeName>\n            大使館午餐会（同大使館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            歌舞伎座ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:30:00\">\n             午後七半時\n            </time>\n            友愛会大講演会（\n            <placeName corresp=\"#place_深川\">\n             深川\n            </placeName>\n            猿江小学校）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-06"
 }

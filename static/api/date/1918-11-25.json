@@ -7,6 +7,14 @@
         "浅野",
         "金子"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/菊池晋二",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ライフスナイダー",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ウード",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/白石",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/金子"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1283",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -22,7 +30,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-11",
     "date_lvl2": "1918-11-25",
-    "description": "\n\n\n           廿五日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n            帝国飛行協会実行委員会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一―十二時\n            \n\n\n              菊池\n             \n\n              晋二\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後〇半時\n            \n\n             ライフスナイダー\n            \n            氏ヨリ御招待、\n            \n\n              ウード\n             \n\n            博士招待午餐会（\n            \n             東京\n            \n            クラブ）\n           \n\n\n\n\n             午後二半時\n            \n\n\n              白石\n             \n\n            、\n            \n\n              浅野\n             \n\n            、\n            \n\n              金子\n             \n\n            三氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後七時\n            \n            休戦条約成立聯合祝賀会（帝国ホテル）\n            \n            （燕尾服）\n           \n\n\n\n\n             午後四時\n            \n            御同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n            帝国飛行協会実行委員会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一―十二時\n            \n\n\n              菊池\n             \n\n              晋二\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後〇半時\n            \n\n             ライフスナイダー\n            \n            氏ヨリ御招待、\n            \n\n              ウード\n             \n\n            博士招待午餐会（東京クラブ）\n           \n\n\n\n\n             午後二半時\n            \n\n\n              白石\n             \n\n            、\n            \n\n              浅野\n             \n\n            、\n            \n\n              金子\n             \n\n            三氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後七時\n            \n            休戦条約成立聯合祝賀会（帝国ホテル）\n            \n            （燕尾服）\n           \n\n\n\n\n             午後四時\n            \n            御同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "廿五日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0309",
@@ -31,8 +39,10 @@
     "sort": "DKB20020m-0308",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "日本橋兜町",
-        "東京"
+        "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1918-11-25",
     "texts": [
@@ -61,7 +71,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            帝国飛行協会実行委員会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0308\">\n<head>\n<date when=\"1918-11-25\">\n           廿五日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            帝国飛行協会実行委員会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"11:00:00\" to=\"12:00:00\">\n             午前十一―十二時\n            </time>\n<persName corresp=\"#pers_菊池晋二\">\n<surname>\n              菊池\n             </surname>\n<forename>\n              晋二\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇半時\n            </time>\n<persName corresp=\"#pers_ライフスナイダー\">\n             ライフスナイダー\n            </persName>\n            氏ヨリ御招待、\n            <persName corresp=\"#pers_ウード\">\n<surname>\n              ウード\n             </surname>\n</persName>\n            博士招待午餐会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<persName corresp=\"#pers_白石\">\n<forename>\n              白石\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_浅野\">\n<surname>\n              浅野\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_金子\">\n<surname>\n              金子\n             </surname>\n</persName>\n            三氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            休戦条約成立聯合祝賀会（帝国ホテル）\n            <lb/>\n            （燕尾服）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0308\">\n<head>\n<date when=\"1918-11-25\">\n           廿五日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            帝国飛行協会実行委員会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"11:00:00\" to=\"12:00:00\">\n             午前十一―十二時\n            </time>\n<persName corresp=\"#pers_菊池晋二\">\n<surname>\n              菊池\n             </surname>\n<forename>\n              晋二\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇半時\n            </time>\n<persName corresp=\"#pers_ライフスナイダー\">\n             ライフスナイダー\n            </persName>\n            氏ヨリ御招待、\n            <persName corresp=\"#pers_ウード\">\n<surname>\n              ウード\n             </surname>\n</persName>\n            博士招待午餐会（東京クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<persName corresp=\"#pers_白石\">\n<forename>\n              白石\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_浅野\">\n<surname>\n              浅野\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_金子\">\n<surname>\n              金子\n             </surname>\n</persName>\n            三氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            休戦条約成立聯合祝賀会（帝国ホテル）\n            <lb/>\n            （燕尾服）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-11"
 }

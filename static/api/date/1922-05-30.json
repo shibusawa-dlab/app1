@@ -1,5 +1,10 @@
 {
-    "agential": [],
+    "agential": [
+        "エリオツト"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/エリオツト"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1393",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +20,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-05",
     "date_lvl2": "1922-05-30",
-    "description": "\n\n\n           三十日\n          \n          （火）\n         \n\n\n\n\n             正午\n            \n            エリオツト大使并英米訪問実業団一行招待会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n            御同族会（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （火）\n         \n\n\n\n\n             正午\n            \n\n\n              エリオツト\n             \n\n            大使并英米訪問実業団一行招待会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n            御同族会（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n",
     "label": "三十日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0125",
@@ -24,8 +29,10 @@
     "sort": "DKB20024m-0124",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
-        "アスカ山邸"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1922-05-30",
     "texts": [
@@ -51,10 +58,10 @@
         "DKB20021m-0153"
     ],
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            エリオツト大使并英米訪問実業団一行招待会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_エリオツト\">\n<surname>\n              エリオツト\n             </surname>\n</persName>\n            大使并英米訪問実業団一行招待会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0124\">\n<head>\n<date when=\"1922-05-30\">\n           三十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            エリオツト大使并英米訪問実業団一行招待会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0124\">\n<head>\n<date when=\"1922-05-30\">\n           三十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_エリオツト\">\n<surname>\n              エリオツト\n             </surname>\n</persName>\n            大使并英米訪問実業団一行招待会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-05"
 }

@@ -2,8 +2,12 @@
     "agential": [
         "徳川慶久",
         "浅野総一郎",
-        "鶴見祐輔",
-        "田中"
+        "鶴見祐輔"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川慶久",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野総一郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/鶴見祐輔"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1367",
     "category": {
@@ -20,7 +24,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-06",
     "date_lvl2": "1921-06-20",
-    "description": "\n\n\n           二十日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n\n\n              徳川\n             \n\n              慶久\n             \n\n            公ヲ御訪問（同邸）\n           \n\n\n\n\n             午後一時\n            \n\n             鍋島\n            \n            侯邸ヘ御出向\n           \n\n\n\n\n             午後三時\n            \n            協調会理事会（同会）\n           \n\n\n\n\n             午後四半時\n            \n\n\n              浅野\n             \n\n              総一郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n            銀行倶楽部常例晩餐会（同クラブ）\n            \n            （\n            \n\n              鶴見\n             \n\n              祐輔\n             \n\n            氏招待）\n           \n\n\n\n\n             午後六時\n            \n            大\n            \n             日本\n            \n            人造肥料ヨリ御案内（ツキジ二丁目金\n            \n\n              田中\n             \n\n            ）\n           \n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n\n\n              徳川\n             \n\n              慶久\n             \n\n            公ヲ御訪問（同邸）\n           \n\n\n\n\n             午後一時\n            \n\n             鍋島\n            \n            侯邸ヘ御出向\n           \n\n\n\n\n             午後三時\n            \n            協調会理事会（同会）\n           \n\n\n\n\n             午後四半時\n            \n\n\n              浅野\n             \n\n              総一郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n            銀行倶楽部常例晩餐会（同クラブ）\n            \n            （\n            \n\n              鶴見\n             \n\n              祐輔\n             \n\n            氏招待）\n           \n\n\n\n\n             午後六時\n            \n            大\n            \n             日本\n            \n            人造肥料ヨリ御案内（\n            \n             ツキジ\n            \n            二丁目金田中）\n           \n\n\n",
     "label": "二十日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0165",
@@ -31,7 +35,14 @@
     "spatial": [
         "鍋島",
         "日本橋兜町",
-        "日本"
+        "日本",
+        "築地"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/鍋島",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本",
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
     ],
     "temporal": "1921-06-20",
     "texts": [
@@ -60,7 +71,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_徳川慶久\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶久\n             </forename>\n</persName>\n            公ヲ御訪問（同邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0164\">\n<head>\n<date when=\"1921-06-20\">\n           二十日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_徳川慶久\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶久\n             </forename>\n</persName>\n            公ヲ御訪問（同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_鍋島\">\n             鍋島\n            </placeName>\n            侯邸ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            協調会理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n<persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            銀行倶楽部常例晩餐会（同クラブ）\n            <lb/>\n            （\n            <persName corresp=\"#pers_鶴見祐輔\">\n<surname>\n              鶴見\n             </surname>\n<forename>\n              祐輔\n             </forename>\n</persName>\n            氏招待）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            大\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            人造肥料ヨリ御案内（ツキジ二丁目金\n            <persName corresp=\"#pers_田中\">\n<surname>\n              田中\n             </surname>\n</persName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0164\">\n<head>\n<date when=\"1921-06-20\">\n           二十日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_徳川慶久\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶久\n             </forename>\n</persName>\n            公ヲ御訪問（同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_鍋島\">\n             鍋島\n            </placeName>\n            侯邸ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            協調会理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n<persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            銀行倶楽部常例晩餐会（同クラブ）\n            <lb/>\n            （\n            <persName corresp=\"#pers_鶴見祐輔\">\n<surname>\n              鶴見\n             </surname>\n<forename>\n              祐輔\n             </forename>\n</persName>\n            氏招待）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            大\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            人造肥料ヨリ御案内（\n            <placeName corresp=\"#place_築地\">\n             ツキジ\n            </placeName>\n            二丁目金田中）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-06"
 }

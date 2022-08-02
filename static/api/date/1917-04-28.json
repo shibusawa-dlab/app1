@@ -1,8 +1,15 @@
 {
     "agential": [
         "松本洪",
+        "ベリー",
         "三島中洲",
         "原"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松本洪",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ベリー",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/三島中洲",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/原"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1235",
     "category": {
@@ -19,7 +26,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-04",
     "date_lvl2": "1917-04-28",
-    "description": "\n\n\n           廿八日\n          \n          （土）\n         \n\n\n\n\n             午前八―九時\n            \n\n\n              松本\n             \n\n              洪\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            女子大学ヘ御出向（\n            \n             コロネル\n            \n            大学ベリー氏来会ノ約）\n           \n\n\n\n\n             午後四時\n            \n\n\n              三島\n             \n\n              毅\n             \n\n            氏米寿祝宴（\n            \n             大井\n            \n            絵\n            \n\n              原\n             \n\n            別荘）\n           \n\n\n\n\n             午後四半時\n            \n            帰一協会評議員会（中央亭）\n           \n\n\n\n\n             午後五半時\n            \n            帰一協会例会（中央亭）\n           \n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （土）\n         \n\n\n\n\n             午前八―九時\n            \n\n\n              松本\n             \n\n              洪\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            女子大学ヘ御出向（コロネル大学\n            \n\n              ベリー\n             \n\n            氏来会ノ約）\n           \n\n\n\n\n             午後四時\n            \n\n\n              三島\n             \n\n              毅\n             \n\n            氏米寿祝宴（\n            \n             大井\n            \n            絵\n            \n\n              原\n             \n\n            別荘）\n           \n\n\n\n\n             午後四半時\n            \n            帰一協会評議員会（中央亭）\n           \n\n\n\n\n             午後五半時\n            \n            帰一協会例会（中央亭）\n           \n\n\n",
     "label": "廿八日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0118",
@@ -29,8 +36,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸",
-        "コロネル",
         "大井"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/大井"
     ],
     "temporal": "1917-04-28",
     "texts": [
@@ -57,7 +67,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0117\">\n<head>\n<date when=\"1917-04-28\">\n           廿八日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"09:00:00\">\n             午前八―九時\n            </time>\n<persName corresp=\"#pers_松本洪\">\n<surname>\n              松本\n             </surname>\n<forename>\n              洪\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            女子大学ヘ御出向（\n            <placeName corresp=\"#place_コロネル\">\n             コロネル\n            </placeName>\n            大学ベリー氏来会ノ約）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_三島中洲\">\n<surname>\n              三島\n             </surname>\n<forename>\n              毅\n             </forename>\n</persName>\n            氏米寿祝宴（\n            <placeName corresp=\"#place_大井\">\n             大井\n            </placeName>\n            絵\n            <persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            別荘）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            帰一協会評議員会（中央亭）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            帰一協会例会（中央亭）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0117\">\n<head>\n<date when=\"1917-04-28\">\n           廿八日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"09:00:00\">\n             午前八―九時\n            </time>\n<persName corresp=\"#pers_松本洪\">\n<surname>\n              松本\n             </surname>\n<forename>\n              洪\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            女子大学ヘ御出向（コロネル大学\n            <persName corresp=\"#pers_ベリー\">\n<surname>\n              ベリー\n             </surname>\n</persName>\n            氏来会ノ約）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_三島中洲\">\n<surname>\n              三島\n             </surname>\n<forename>\n              毅\n             </forename>\n</persName>\n            氏米寿祝宴（\n            <placeName corresp=\"#place_大井\">\n             大井\n            </placeName>\n            絵\n            <persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            別荘）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            帰一協会評議員会（中央亭）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            帰一協会例会（中央亭）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-04"
 }

@@ -1,8 +1,19 @@
 {
     "agential": [
+        "国井泉",
         "上田稔",
         "河野広中",
-        "藤山"
+        "郷",
+        "藤山",
+        "高山"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/国井泉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/上田稔",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/河野広中",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/郷",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/藤山",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高山"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1420",
     "category": {
@@ -19,7 +30,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-02",
     "date_lvl2": "1923-02-20",
-    "description": "\n\n\n           二十日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n            国井泉氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             朝ノ内\n            \n\n\n              上田\n             \n\n              稔\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              河野\n             \n\n              広中\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            日本クラブ午餐会（同クラブ）\n           \n\n\n\n\n             午後三時\n            \n\n             東京\n            \n            慈恵会評議員会（同会）\n           \n\n\n\n\n             午後六時\n            \n            郷、\n            \n\n              藤山\n             \n\n            、高山三氏より御案内（\n            \n             木挽町\n            \n\n             田中\n            \n            家）\n           \n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n\n\n              国井\n             \n\n              泉\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             朝ノ内\n            \n\n\n              上田\n             \n\n              稔\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              河野\n             \n\n              広中\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            日本クラブ午餐会（同クラブ）\n           \n\n\n\n\n             午後三時\n            \n\n             東京\n            \n            慈恵会評議員会（同会）\n           \n\n\n\n\n             午後六時\n            \n\n\n              郷\n             \n\n            、\n            \n\n              藤山\n             \n\n            、\n            \n\n              高山\n             \n\n            三氏より御案内（\n            \n             木挽町\n            \n            田中家）\n           \n\n\n",
     "label": "二十日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0044",
@@ -30,8 +41,12 @@
     "spatial": [
         "飛鳥山邸",
         "東京",
-        "木挽町",
-        "田中"
+        "木挽町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/木挽町"
     ],
     "temporal": "1923-02-20",
     "texts": [
@@ -57,10 +72,10 @@
         "DKB20023m-0041"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            国井泉氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_国井泉\">\n<surname>\n              国井\n             </surname>\n<forename>\n              泉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0043\">\n<head>\n<date when=\"1923-02-20\">\n           二十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            国井泉氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             朝ノ内\n            </time>\n<persName corresp=\"#pers_上田稔\">\n<surname>\n              上田\n             </surname>\n<forename>\n              稔\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_河野広中\">\n<surname>\n              河野\n             </surname>\n<forename>\n              広中\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日本クラブ午餐会（同クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会評議員会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            郷、\n            <persName corresp=\"#pers_藤山\">\n<surname>\n              藤山\n             </surname>\n</persName>\n            、高山三氏より御案内（\n            <placeName corresp=\"#place_木挽町\">\n             木挽町\n            </placeName>\n<placeName corresp=\"#place_田中\">\n             田中\n            </placeName>\n            家）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0043\">\n<head>\n<date when=\"1923-02-20\">\n           二十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_国井泉\">\n<surname>\n              国井\n             </surname>\n<forename>\n              泉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             朝ノ内\n            </time>\n<persName corresp=\"#pers_上田稔\">\n<surname>\n              上田\n             </surname>\n<forename>\n              稔\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_河野広中\">\n<surname>\n              河野\n             </surname>\n<forename>\n              広中\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日本クラブ午餐会（同クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会評議員会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_郷\">\n<surname>\n              郷\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_藤山\">\n<surname>\n              藤山\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_高山\">\n<surname>\n              高山\n             </surname>\n</persName>\n            三氏より御案内（\n            <placeName corresp=\"#place_木挽町\">\n             木挽町\n            </placeName>\n            田中家）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-02"
 }

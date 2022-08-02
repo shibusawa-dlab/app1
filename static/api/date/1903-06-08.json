@@ -6,6 +6,13 @@
         "尾崎",
         "日下"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/平岡",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/早川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/竹内",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/尾崎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/日下"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/338",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -31,7 +38,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "日本橋兜町",
-        "王子別荘"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1903-06-08",
     "texts": [
@@ -60,10 +71,10 @@
         "08:00:00": "<div>晴、<time when=\"08:00:00\">\n        午前八時\n       </time>\n       朝飧ヲ畢リ書類ヲ整理シ、</div>",
         "14:00:00": "<div><time when=\"14:00:00\">\n        午後二時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ宮城県書記官\n       <persName corresp=\"#pers_平岡\">\n<surname>\n         平岡\n        </surname>\n</persName>\n       氏及\n       <persName corresp=\"#pers_早川\">\n<surname>\n         早川\n        </surname>\n</persName>\n       市長ニ面会シ\n       <orgName>\n        七十七銀行\n       </orgName>\n       ノ事ヲ談ス、</div>",
         "16:00:00": "<div><time when=\"16:00:00\">\n        四時\n       </time>\n<persName corresp=\"#pers_竹内\">\n<surname>\n         竹内\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_尾崎\">\n<surname>\n         尾崎\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_日下\">\n<surname>\n         日下\n        </surname>\n</persName>\n       ノ三氏ト京釜鉄道会社社債ノ事ヲ協議ス、夜</div>",
-        "19:00:00": "<div><time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
+        "19:00:00": "<div><time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-0293\">\n<head>\n<date when=\"1903-06-08\">\n        六月八日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"08:00:00\">\n        午前八時\n       </time>\n       朝飧ヲ畢リ書類ヲ整理シ、\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ宮城県書記官\n       <persName corresp=\"#pers_平岡\">\n<surname>\n         平岡\n        </surname>\n</persName>\n       氏及\n       <persName corresp=\"#pers_早川\">\n<surname>\n         早川\n        </surname>\n</persName>\n       市長ニ面会シ\n       <orgName>\n        七十七銀行\n       </orgName>\n       ノ事ヲ談ス、\n       <time when=\"16:00:00\">\n        四時\n       </time>\n<persName corresp=\"#pers_竹内\">\n<surname>\n         竹内\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_尾崎\">\n<surname>\n         尾崎\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_日下\">\n<surname>\n         日下\n        </surname>\n</persName>\n       ノ三氏ト京釜鉄道会社社債ノ事ヲ協議ス、夜\n       <time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-0293\">\n<head>\n<date when=\"1903-06-08\">\n        六月八日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"08:00:00\">\n        午前八時\n       </time>\n       朝飧ヲ畢リ書類ヲ整理シ、\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ宮城県書記官\n       <persName corresp=\"#pers_平岡\">\n<surname>\n         平岡\n        </surname>\n</persName>\n       氏及\n       <persName corresp=\"#pers_早川\">\n<surname>\n         早川\n        </surname>\n</persName>\n       市長ニ面会シ\n       <orgName>\n        七十七銀行\n       </orgName>\n       ノ事ヲ談ス、\n       <time when=\"16:00:00\">\n        四時\n       </time>\n<persName corresp=\"#pers_竹内\">\n<surname>\n         竹内\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_尾崎\">\n<surname>\n         尾崎\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_日下\">\n<surname>\n         日下\n        </surname>\n</persName>\n       ノ三氏ト京釜鉄道会社社債ノ事ヲ協議ス、夜\n       <time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1903",
     "yearAndMonth": "1903-06"
 }

@@ -1,6 +1,11 @@
 {
     "agential": [
-        "山崎"
+        "山崎",
+        "大川"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山崎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大川"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1177",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-02",
     "date_lvl2": "1915-02-19",
-    "description": "\n\n\n           十九日\n          \n          （金）\n         \n\n\n\n\n             午前八時\n            \n            ジヤパンマガジン社員\n            \n\n              山崎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            教育調査会\n           \n\n\n\n\n             午後五時\n            \n            大川氏ヨリ御案内（常盤屋）\n           \n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （金）\n         \n\n\n\n\n             午前八時\n            \n            ジヤパンマガジン社員\n            \n\n              山崎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            教育調査会\n           \n\n\n\n\n             午後五時\n            \n\n\n              大川\n             \n\n            氏ヨリ御案内（常盤屋）\n           \n\n\n",
     "label": "十九日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0049",
@@ -26,7 +31,10 @@
     "sort": "DKB20017m-0048",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1915-02-19",
     "texts": [
@@ -52,10 +60,10 @@
         "DKB20021m-0154"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            ジヤパンマガジン社員\n            <persName corresp=\"#pers_山崎\">\n<surname>\n              山崎\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            ジヤパンマガジン社員\n            <persName corresp=\"#pers_山崎\">\n<surname>\n              山崎\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0048\">\n<head>\n<date when=\"1915-02-19\">\n           十九日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            ジヤパンマガジン社員\n            <persName corresp=\"#pers_山崎\">\n<surname>\n              山崎\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            教育調査会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            大川氏ヨリ御案内（常盤屋）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0048\">\n<head>\n<date when=\"1915-02-19\">\n           十九日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            ジヤパンマガジン社員\n            <persName corresp=\"#pers_山崎\">\n<surname>\n              山崎\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            教育調査会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_大川\">\n<surname>\n              大川\n             </surname>\n</persName>\n            氏ヨリ御案内（常盤屋）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-02"
 }

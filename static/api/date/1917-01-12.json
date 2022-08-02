@@ -4,6 +4,11 @@
         "義良",
         "内田嘉吉"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田代亮介",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/義良",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/内田嘉吉"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1225",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -19,7 +24,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-01",
     "date_lvl2": "1917-01-12",
-    "description": "\n\n\n           十二日\n          \n          （金）\n         \n\n\n\n\n             朝\n            \n\n\n              田代\n             \n\n              亮介\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             〃\n            \n            博文館生活雑誌部一氏\n            \n\n              義良\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              内田\n             \n\n              嘉吉\n             \n\n            氏ヨリ御案内（築地ヒサゴヤ）\n           \n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （金）\n         \n\n\n\n\n             朝\n            \n\n\n              田代\n             \n\n              亮介\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             〃\n            \n            博文館生活雑誌部一氏\n            \n\n              義良\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              内田\n             \n\n              嘉吉\n             \n\n            氏ヨリ御案内（\n            \n             築地\n            \n            ヒサゴヤ）\n           \n\n\n",
     "label": "十二日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0013",
@@ -28,7 +33,12 @@
     "sort": "DKB20019m-0012",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
+        "飛鳥山邸",
+        "築地"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
     ],
     "temporal": "1917-01-12",
     "texts": [
@@ -55,7 +65,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0012\">\n<head>\n<date when=\"1917-01-12\">\n           十二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             朝\n            </time>\n<persName corresp=\"#pers_田代亮介\">\n<surname>\n              田代\n             </surname>\n<forename>\n              亮介\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             〃\n            </time>\n            博文館生活雑誌部一氏\n            <persName corresp=\"#pers_義良\">\n<surname>\n              義良\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_内田嘉吉\">\n<surname>\n              内田\n             </surname>\n<forename>\n              嘉吉\n             </forename>\n</persName>\n            氏ヨリ御案内（築地ヒサゴヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0012\">\n<head>\n<date when=\"1917-01-12\">\n           十二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             朝\n            </time>\n<persName corresp=\"#pers_田代亮介\">\n<surname>\n              田代\n             </surname>\n<forename>\n              亮介\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             〃\n            </time>\n            博文館生活雑誌部一氏\n            <persName corresp=\"#pers_義良\">\n<surname>\n              義良\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_内田嘉吉\">\n<surname>\n              内田\n             </surname>\n<forename>\n              嘉吉\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n            ヒサゴヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-01"
 }

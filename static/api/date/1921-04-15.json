@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1359",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-04",
     "date_lvl2": "1921-04-15",
-    "description": "\n\n\n           十五日\n          \n          （金）\n         \n\n\n\n\n             京都\n            \n            滞在（\n            \n             玉川\n            \n            楼）\n           \n\n\n\n\n             夕\n            \n\n             京都\n            \n            経済会ノ為講演\n           \n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （金）\n         \n\n\n\n\n             京都\n            \n            滞在（玉川楼）\n           \n\n\n\n\n             夕\n            \n\n             京都\n            \n            経済会ノ為講演\n           \n\n\n",
     "label": "十五日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0098",
@@ -24,8 +25,10 @@
     "sort": "DKB20023m-0097",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "京都",
-        "玉川"
+        "京都"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/京都"
     ],
     "temporal": "1921-04-15",
     "texts": [
@@ -52,7 +55,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0097\">\n<head>\n<date when=\"1921-04-15\">\n           十五日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<placeName corresp=\"#place_京都\">\n             京都\n            </placeName>\n            滞在（\n            <placeName corresp=\"#place_玉川\">\n             玉川\n            </placeName>\n            楼）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             夕\n            </time>\n<placeName corresp=\"#place_京都\">\n             京都\n            </placeName>\n            経済会ノ為講演\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0097\">\n<head>\n<date when=\"1921-04-15\">\n           十五日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<placeName corresp=\"#place_京都\">\n             京都\n            </placeName>\n            滞在（玉川楼）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             夕\n            </time>\n<placeName corresp=\"#place_京都\">\n             京都\n            </placeName>\n            経済会ノ為講演\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-04"
 }

@@ -6,6 +6,13 @@
         "大川平三郎",
         "田中栄八郎"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/陳",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/鈴木",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渡辺",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大川平三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田中栄八郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1565",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -21,7 +28,7 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-11",
     "date_lvl2": "1927-11-30",
-    "description": "\n\n\n           三十日\n          \n          （水）\n         \n\n\n\n\n             午前九半時\n            \n            雑誌「アカツキ」記者（文部省）来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後\n            \n\n\n              陳\n             \n\n            氏来訪\n           \n\n\n\n\n             午後二時\n            \n            御出勤\n           \n\n\n\n\n             午後二時\n            \n\n             朝鮮\n            \n            銀行\n            \n\n              鈴木\n             \n\n            、東洋拓殖\n            \n\n              渡辺\n             \n\n            二氏ト御会見　事務所\n           \n\n\n\n\n             午後三時半\n            \n\n\n              大川\n             \n\n              平三郎\n             \n\n            、\n            \n\n              田中\n             \n\n              栄八郎\n             \n\n            両氏来約（事務所）\n           \n\n\n\n\n             午後五時\n            \n            日米関係委員会催ブレークリー氏招待会《（ブレークスリー）》（銀行クラブ）\n           \n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （水）\n         \n\n\n\n\n             午前九半時\n            \n            雑誌「アカツキ」記者（文部省）来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後\n            \n\n\n              陳\n             \n\n            氏来訪\n           \n\n\n\n\n             午後二時\n            \n            御出勤\n           \n\n\n\n\n             午後二時\n            \n\n             朝鮮銀行\n            \n\n\n              鈴木\n             \n\n            、東洋拓殖\n            \n\n              渡辺\n             \n\n            二氏ト御会見　事務所\n           \n\n\n\n\n             午後三時半\n            \n\n\n              大川\n             \n\n              平三郎\n             \n\n            、\n            \n\n              田中\n             \n\n              栄八郎\n             \n\n            両氏来約（事務所）\n           \n\n\n\n\n             午後五時\n            \n            日米関係委員会催ブレークリー氏招待会《（ブレークスリー）》（銀行クラブ）\n           \n\n\n",
     "label": "三十日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0310",
@@ -30,8 +37,10 @@
     "sort": "DKB20029m-0309",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
-        "朝鮮"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1927-11-30",
     "texts": [
@@ -60,7 +69,7 @@
         "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n            雑誌「アカツキ」記者（文部省）来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0309\">\n<head>\n<date when=\"1927-11-30\">\n           三十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n            雑誌「アカツキ」記者（文部省）来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             午後\n            </time>\n<persName corresp=\"#pers_陳\">\n<surname>\n              陳\n             </surname>\n</persName>\n            氏来訪\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_朝鮮\">\n             朝鮮\n            </placeName>\n            銀行\n            <persName corresp=\"#pers_鈴木\">\n<surname>\n              鈴木\n             </surname>\n</persName>\n            、東洋拓殖\n            <persName corresp=\"#pers_渡辺\">\n<surname>\n              渡辺\n             </surname>\n</persName>\n            二氏ト御会見　事務所\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三時半\n            </time>\n<persName corresp=\"#pers_大川平三郎\">\n<surname>\n              大川\n             </surname>\n<forename>\n              平三郎\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_田中栄八郎\">\n<surname>\n              田中\n             </surname>\n<forename>\n              栄八郎\n             </forename>\n</persName>\n            両氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            日米関係委員会催ブレークリー氏招待会《（ブレークスリー）》（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0309\">\n<head>\n<date when=\"1927-11-30\">\n           三十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n            雑誌「アカツキ」記者（文部省）来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             午後\n            </time>\n<persName corresp=\"#pers_陳\">\n<surname>\n              陳\n             </surname>\n</persName>\n            氏来訪\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<orgName>\n             朝鮮銀行\n            </orgName>\n<persName corresp=\"#pers_鈴木\">\n<surname>\n              鈴木\n             </surname>\n</persName>\n            、東洋拓殖\n            <persName corresp=\"#pers_渡辺\">\n<surname>\n              渡辺\n             </surname>\n</persName>\n            二氏ト御会見　事務所\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三時半\n            </time>\n<persName corresp=\"#pers_大川平三郎\">\n<surname>\n              大川\n             </surname>\n<forename>\n              平三郎\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_田中栄八郎\">\n<surname>\n              田中\n             </surname>\n<forename>\n              栄八郎\n             </forename>\n</persName>\n            両氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            日米関係委員会催ブレークリー氏招待会《（ブレークスリー）》（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-11"
 }

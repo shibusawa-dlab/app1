@@ -1,6 +1,9 @@
 {
     "agential": [
-        "丸木彰"
+        "丸木彰造"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/丸木彰造"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1552",
     "category": {
@@ -17,7 +20,7 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-08",
     "date_lvl2": "1927-08-11",
-    "description": "\n\n\n           十一日\n          \n          （木）\n         \n\n\n\n\n             午後一・一五時\n            \n            御出勤\n           \n\n\n\n\n             午後二時\n            \n\n\n              丸木\n             \n\n              彰\n             \n\n            造氏来約（事務所）\n           \n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （木）\n         \n\n\n\n\n             午後一・一五時\n            \n            御出勤\n           \n\n\n\n\n             午後二時\n            \n\n\n              丸木\n             \n\n              彰造\n             \n\n            氏来約（事務所）\n           \n\n\n",
     "label": "十一日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0209",
@@ -26,6 +29,7 @@
     "sort": "DKB20029m-0208",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [],
+    "spatial_uri": [],
     "temporal": "1927-08-11",
     "texts": [
         "DKB20031m-0181",
@@ -53,7 +57,7 @@
         "13:15:00": "<div><time when=\"13:15:00\">\n             午後一・一五時\n            </time>\n            御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0208\">\n<head>\n<date when=\"1927-08-11\">\n           十一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:15:00\">\n             午後一・一五時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_丸木彰\">\n<surname>\n              丸木\n             </surname>\n<forename>\n              彰\n             </forename>\n</persName>\n            造氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0208\">\n<head>\n<date when=\"1927-08-11\">\n           十一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:15:00\">\n             午後一・一五時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_丸木彰造\">\n<surname>\n              丸木\n             </surname>\n<forename>\n              彰造\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-08"
 }

@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1427",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-04",
     "date_lvl2": "1923-04-23",
-    "description": "\n\n\n           廿三日\n          \n          （月）\n         \n\n\n\n            同\n           \n\n\n\n\n             夕\n            \n            竜門社評議員会\n           \n\n\n",
+    "description": "\n\n\n           廿三日\n          \n          （月）\n         \n\n\n\n            同\n           \n\n\n\n\n             夕\n            \n\n             竜門社\n            \n            評議員会\n           \n\n\n",
     "label": "廿三日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0109",
@@ -24,6 +25,7 @@
     "sort": "DKB20025m-0108",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [],
+    "spatial_uri": [],
     "temporal": "1923-04-23",
     "texts": [
         "DKB20022m-0164",
@@ -49,7 +51,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0108\">\n<head>\n<date when=\"1923-04-23\">\n           廿三日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n            同\n           </p>\n</event>\n<event>\n<p>\n<time>\n             夕\n            </time>\n            竜門社評議員会\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0108\">\n<head>\n<date when=\"1923-04-23\">\n           廿三日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n            同\n           </p>\n</event>\n<event>\n<p>\n<time>\n             夕\n            </time>\n<orgName>\n             竜門社\n            </orgName>\n            評議員会\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-04"
 }

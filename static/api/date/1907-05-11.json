@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/477",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -15,7 +16,7 @@
     "date_lvl0": "1907",
     "date_lvl1": "1907-05",
     "date_lvl2": "1907-05-11",
-    "description": "\n\n\n        五月十一日\n       \n       晴　軽寒　　　　　　　　　　　起床\n       \n        七時\n       \n\n\n       起床後入浴、畢テ\n       \n        中央新聞\n       \n       記者ニ面話シ、二十年間ノ経済景況ヲ談話ス、尋テ二三ノ来人ニ接シ、更ニ数通ノ書状ヲ裁シ且書類ヲ調査シ日記ヲ編成ス\n       \n\n        午後一時\n       \n       高千穂学校ニ抵リ、中学校舎落成式ニ列シ一場ノ演説ヲ為ス畢テ\n       \n        三時\n       \n\n        兜町\n       \n       事務所ニ抵リ書類ヲ調査ス、\n       \n        午後六時\n       \n\n        芝\n       \n       三縁亭ニ抵リ、\n       \n        高等商業学校\n       \n       出身者ノ設立セル同窓会ノ懇親会ニ出席シ、食卓上一場ノ演説ヲ為ス、畢テ種々ノ談話ヲ試ミ、夜\n       \n        十一時\n       \n       帰宿ス\n       \n\n        午後三時\n       \n\n        兜町\n       \n       事務所ニ於テ浦賀船渠会社重役会ヲ開キ、同会社ノ将来ニ関シ種々ノ協議ヲ為ス\n      \n",
+    "description": "\n\n\n        五月十一日\n       \n       晴　軽寒　　　　　　　　　　　起床\n       \n        七時\n       \n\n\n       起床後入浴、畢テ\n       \n        中央新聞\n       \n       記者ニ面話シ、二十年間ノ経済景況ヲ談話ス、尋テ二三ノ来人ニ接シ、更ニ数通ノ書状ヲ裁シ且書類ヲ調査シ日記ヲ編成ス\n       \n\n        午後一時\n       \n\n        高千穂学校\n       \n       ニ抵リ、中学校舎落成式ニ列シ一場ノ演説ヲ為ス畢テ\n       \n        三時\n       \n\n        兜町\n       \n       事務所ニ抵リ書類ヲ調査ス、\n       \n        午後六時\n       \n\n        芝\n       \n       三縁亭ニ抵リ、\n       \n        高等商業学校\n       \n       出身者ノ設立セル同窓会ノ懇親会ニ出席シ、食卓上一場ノ演説ヲ為ス、畢テ種々ノ談話ヲ試ミ、夜\n       \n        十一時\n       \n       帰宿ス\n       \n\n        午後三時\n       \n\n        兜町\n       \n       事務所ニ於テ浦賀船渠会社重役会ヲ開キ、同会社ノ将来ニ関シ種々ノ協議ヲ為ス\n      \n",
     "label": "五月十一日              晴　軽寒　　　　　　　　　　　起床               七時",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10015m-0114",
@@ -26,6 +27,10 @@
     "spatial": [
         "日本橋兜町",
         "芝"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/芝"
     ],
     "temporal": "1907-05-11",
     "texts": [
@@ -51,13 +56,13 @@
         "DKB10017m-0134"
     ],
     "time": {
-        "13:00:00": "<div>起床後入浴、畢テ\n       <orgName>\n        中央新聞\n       </orgName>\n       記者ニ面話シ、二十年間ノ経済景況ヲ談話ス、尋テ二三ノ来人ニ接シ、更ニ数通ノ書状ヲ裁シ且書類ヲ調査シ日記ヲ編成ス\n       <lb/><time when=\"13:00:00\">\n        午後一時\n       </time>\n       高千穂学校ニ抵リ、中学校舎落成式ニ列シ一場ノ演説ヲ為ス畢テ</div>",
+        "13:00:00": "<div>起床後入浴、畢テ\n       <orgName>\n        中央新聞\n       </orgName>\n       記者ニ面話シ、二十年間ノ経済景況ヲ談話ス、尋テ二三ノ来人ニ接シ、更ニ数通ノ書状ヲ裁シ且書類ヲ調査シ日記ヲ編成ス\n       <lb/><time when=\"13:00:00\">\n        午後一時\n       </time>\n<orgName>\n        高千穂学校\n       </orgName>\n       ニ抵リ、中学校舎落成式ニ列シ一場ノ演説ヲ為ス畢テ</div>",
         "15:00:00": "<div><time when=\"15:00:00\">\n        午後三時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ於テ浦賀船渠会社重役会ヲ開キ、同会社ノ将来ニ関シ種々ノ協議ヲ為ス</div>",
         "18:00:00": "<div><time when=\"18:00:00\">\n        午後六時\n       </time>\n<placeName corresp=\"#place_芝\">\n        芝\n       </placeName>\n       三縁亭ニ抵リ、\n       <orgName>\n        高等商業学校\n       </orgName>\n       出身者ノ設立セル同窓会ノ懇親会ニ出席シ、食卓上一場ノ演説ヲ為ス、畢テ種々ノ談話ヲ試ミ、夜</div>",
         "23:00:00": "<div><time when=\"23:00:00\">\n        十一時\n       </time>\n       帰宿ス\n       <lb/></div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10015m-0113\">\n<head>\n<date when=\"1907-05-11\">\n        五月十一日\n       </date>\n       晴　軽寒　　　　　　　　　　　起床\n       <time when=\"07:00:00\">\n        七時\n       </time>\n</head>\n<p>\n       起床後入浴、畢テ\n       <orgName>\n        中央新聞\n       </orgName>\n       記者ニ面話シ、二十年間ノ経済景況ヲ談話ス、尋テ二三ノ来人ニ接シ、更ニ数通ノ書状ヲ裁シ且書類ヲ調査シ日記ヲ編成ス\n       <lb/>\n<time when=\"13:00:00\">\n        午後一時\n       </time>\n       高千穂学校ニ抵リ、中学校舎落成式ニ列シ一場ノ演説ヲ為ス畢テ\n       <time when=\"15:00:00\">\n        三時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ書類ヲ調査ス、\n       <time when=\"18:00:00\">\n        午後六時\n       </time>\n<placeName corresp=\"#place_芝\">\n        芝\n       </placeName>\n       三縁亭ニ抵リ、\n       <orgName>\n        高等商業学校\n       </orgName>\n       出身者ノ設立セル同窓会ノ懇親会ニ出席シ、食卓上一場ノ演説ヲ為ス、畢テ種々ノ談話ヲ試ミ、夜\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n       帰宿ス\n       <lb/>\n<time when=\"15:00:00\">\n        午後三時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ於テ浦賀船渠会社重役会ヲ開キ、同会社ノ将来ニ関シ種々ノ協議ヲ為ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10015m-0113\">\n<head>\n<date when=\"1907-05-11\">\n        五月十一日\n       </date>\n       晴　軽寒　　　　　　　　　　　起床\n       <time when=\"07:00:00\">\n        七時\n       </time>\n</head>\n<p>\n       起床後入浴、畢テ\n       <orgName>\n        中央新聞\n       </orgName>\n       記者ニ面話シ、二十年間ノ経済景況ヲ談話ス、尋テ二三ノ来人ニ接シ、更ニ数通ノ書状ヲ裁シ且書類ヲ調査シ日記ヲ編成ス\n       <lb/>\n<time when=\"13:00:00\">\n        午後一時\n       </time>\n<orgName>\n        高千穂学校\n       </orgName>\n       ニ抵リ、中学校舎落成式ニ列シ一場ノ演説ヲ為ス畢テ\n       <time when=\"15:00:00\">\n        三時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ書類ヲ調査ス、\n       <time when=\"18:00:00\">\n        午後六時\n       </time>\n<placeName corresp=\"#place_芝\">\n        芝\n       </placeName>\n       三縁亭ニ抵リ、\n       <orgName>\n        高等商業学校\n       </orgName>\n       出身者ノ設立セル同窓会ノ懇親会ニ出席シ、食卓上一場ノ演説ヲ為ス、畢テ種々ノ談話ヲ試ミ、夜\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n       帰宿ス\n       <lb/>\n<time when=\"15:00:00\">\n        午後三時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ於テ浦賀船渠会社重役会ヲ開キ、同会社ノ将来ニ関シ種々ノ協議ヲ為ス\n      </p>\n</div>",
     "year": "1907",
     "yearAndMonth": "1907-05"
 }

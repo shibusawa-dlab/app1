@@ -28,7 +28,7 @@
             "color": "lightgrey",
             "from": "大隈",
             "to": "伊藤",
-            "value": 10
+            "value": 12
         },
         {
             "color": "lightgrey",
@@ -45,14 +45,26 @@
         {
             "color": "lightgrey",
             "from": "大隈",
+            "to": "久保田",
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "大隈",
             "to": "成瀬",
             "value": 18
         },
         {
             "color": "lightgrey",
             "from": "大隈",
-            "to": "兼子",
+            "to": "渋沢兼子",
             "value": 15
+        },
+        {
+            "color": "lightgrey",
+            "from": "大隈",
+            "to": "大倉",
+            "value": 11
         },
         {
             "color": "lightgrey",
@@ -117,6 +129,12 @@
         {
             "color": "lightgrey",
             "from": "浅野総一郎",
+            "to": "八十島",
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "浅野総一郎",
             "to": "伊藤",
             "value": 11
         },
@@ -130,7 +148,13 @@
             "color": "lightgrey",
             "from": "浅野総一郎",
             "to": "佐々木",
-            "value": 31
+            "value": 32
+        },
+        {
+            "color": "lightgrey",
+            "from": "浅野総一郎",
+            "to": "大倉",
+            "value": 15
         },
         {
             "color": "lightgrey",
@@ -147,8 +171,8 @@
         {
             "color": "lightgrey",
             "from": "浅野総一郎",
-            "to": "篤二",
-            "value": 11
+            "to": "渋沢篤二",
+            "value": 12
         },
         {
             "color": "lightgrey",
@@ -170,51 +194,57 @@
         },
         {
             "color": "lightgrey",
-            "from": "武之助",
-            "to": "正雄",
-            "value": 26
+            "from": "渋沢武之助",
+            "to": "横山徳次郎",
+            "value": 28
         },
         {
             "color": "lightgrey",
-            "from": "武之助",
-            "to": "秀雄",
+            "from": "渋沢武之助",
+            "to": "渋沢正雄",
+            "value": 48
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢武之助",
+            "to": "渋沢秀雄",
+            "value": 25
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢武之助",
+            "to": "渋沢篤二",
+            "value": 20
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢武之助",
+            "to": "井上",
+            "value": 12
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢武之助",
+            "to": "佐々木",
             "value": 15
         },
         {
             "color": "lightgrey",
-            "from": "武之助",
-            "to": "横山徳次郎",
-            "value": 18
+            "from": "渋沢武之助",
+            "to": "渋沢兼子",
+            "value": 20
         },
         {
             "color": "lightgrey",
-            "from": "武之助",
-            "to": "篤二",
-            "value": 17
-        },
-        {
-            "color": "lightgrey",
-            "from": "武之助",
-            "to": "井上",
+            "from": "渋沢武之助",
+            "to": "明石",
             "value": 10
-        },
-        {
-            "color": "lightgrey",
-            "from": "武之助",
-            "to": "佐々木",
-            "value": 13
-        },
-        {
-            "color": "lightgrey",
-            "from": "武之助",
-            "to": "兼子",
-            "value": 17
         },
         {
             "color": "lightgrey",
             "from": "植村",
             "to": "大倉",
-            "value": 10
+            "value": 17
         }
     ],
     "nodes": [
@@ -235,7 +265,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 185,
+            "count": 208,
             "id": "大隈",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "大隈",
@@ -246,7 +276,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 207,
+            "count": 234,
             "description": "\n     浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。\n    ",
             "id": "浅野総一郎",
             "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Asano_souichiro.jpg",
@@ -258,10 +288,11 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 116,
-            "id": "武之助",
+            "count": 178,
+            "description": "\n     渋沢 武之助（しぶさわ たけのすけ、1886年〈明治19年〉12月26日 - 1946年〈昭和21年〉6月4日）は、日本の実業家。子爵・渋沢栄一の二男。族籍は東京府平民。\n    ",
+            "id": "渋沢武之助",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "武之助",
+            "label": "渋沢武之助",
             "shape": "image"
         },
         {
@@ -269,7 +300,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 10,
+            "count": 17,
             "id": "植村",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "植村",
@@ -291,7 +322,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 63,
+            "count": 65,
             "id": "井上",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "井上",
@@ -324,10 +355,21 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 32,
-            "id": "兼子",
+            "count": 35,
+            "id": "渋沢兼子",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "兼子",
+            "label": "渋沢兼子",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "id": "明石",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "明石",
             "shape": "image"
         },
         {
@@ -347,10 +389,11 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 28,
-            "id": "篤二",
+            "count": 32,
+            "description": "\n     渋沢 篤二（澁澤 篤二、しぶさわ とくじ、1872年11月16日〈明治5年10月16日〉 - 1932年〈昭和7年〉10月6日）は、日本の実業家。澁澤倉庫取締役会長。族籍は東京府華族。\n    ",
+            "id": "渋沢篤二",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "篤二",
+            "label": "渋沢篤二",
             "shape": "image"
         },
         {
@@ -369,7 +412,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 64,
+            "count": 67,
             "id": "佐々木",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "佐々木",
@@ -391,7 +434,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 10,
+            "count": 43,
             "id": "大倉",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "大倉",
@@ -402,10 +445,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 26,
-            "id": "正雄",
+            "count": 10,
+            "id": "八十島",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "正雄",
+            "label": "八十島",
             "shape": "image"
         },
         {
@@ -413,10 +456,23 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 15,
-            "id": "秀雄",
+            "count": 48,
+            "description": "\n     渋沢 正雄（しぶさわ まさお、1888年〈明治21年〉11月1日 - 1942年〈昭和17年〉9月10日）は、日本の実業家。子爵・渋沢栄一の三男。日満鉄鋼販売、石川島自動車製作所、富士製鋼各社長。東京石川島造船所専務取締役。日本製鐵常務取締役兼八幡製鐵所長。族籍は東京府平民。\n    ",
+            "id": "渋沢正雄",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "秀雄",
+            "label": "渋沢正雄",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 25,
+            "description": "\n     渋沢 秀雄（しぶさわ ひでお、1892年10月5日 - 1984年2月15日）は、東京市出身の実業家・文化人。\n    ",
+            "id": "渋沢秀雄",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "渋沢秀雄",
             "shape": "image"
         },
         {
@@ -480,7 +536,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 18,
+            "count": 28,
             "id": "横山徳次郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "横山徳次郎",
@@ -513,7 +569,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 21,
+            "count": 23,
             "id": "伊藤",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "伊藤",
@@ -539,6 +595,17 @@
             "id": "高田",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "高田",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "id": "久保田",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "久保田",
             "shape": "image"
         }
     ]

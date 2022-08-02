@@ -1,8 +1,17 @@
 {
     "agential": [
+        "益田孝",
         "横山富次郎",
         "秋元信吉",
-        "尾高"
+        "尾高",
+        "古城"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/益田孝",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/横山富次郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/秋元信吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/尾高",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/古城"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1177",
     "category": {
@@ -19,7 +28,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-02",
     "date_lvl2": "1915-02-20",
-    "description": "\n\n\n           二十日\n          \n          （土）\n         \n\n\n\n\n             午後二時\n            \n\n             益田\n            \n            孝氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              横山\n             \n\n              富次郎\n             \n\n            氏　同上\n           \n\n\n\n\n             〃\n            \n\n\n              秋元\n             \n\n              信吉\n             \n\n            氏　同上\n           \n\n\n\n\n             〃\n            \n\n\n              尾高\n             \n\n            、古城両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （土）\n         \n\n\n\n\n             午後二時\n            \n\n\n              益田\n             \n\n              孝\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              横山\n             \n\n              富次郎\n             \n\n            氏　同上\n           \n\n\n\n\n             〃\n            \n\n\n              秋元\n             \n\n              信吉\n             \n\n            氏　同上\n           \n\n\n\n\n             〃\n            \n\n\n              尾高\n             \n\n            、\n            \n\n              古城\n             \n\n            両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "二十日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0051",
@@ -28,8 +37,10 @@
     "sort": "DKB20017m-0049",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "益田",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1915-02-20",
     "texts": [
@@ -55,10 +66,10 @@
         "DKB20018m-0243"
     ],
     "time": {
-        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_益田\">\n             益田\n            </placeName>\n            孝氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
+        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_益田孝\">\n<surname>\n              益田\n             </surname>\n<forename>\n              孝\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0049\">\n<head>\n<date when=\"1915-02-20\">\n           二十日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_益田\">\n             益田\n            </placeName>\n            孝氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_横山富次郎\">\n<surname>\n              横山\n             </surname>\n<forename>\n              富次郎\n             </forename>\n</persName>\n            氏　同上\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             〃\n            </time>\n<persName corresp=\"#pers_秋元信吉\">\n<surname>\n              秋元\n             </surname>\n<forename>\n              信吉\n             </forename>\n</persName>\n            氏　同上\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             〃\n            </time>\n<persName corresp=\"#pers_尾高\">\n<surname>\n              尾高\n             </surname>\n</persName>\n            、古城両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0049\">\n<head>\n<date when=\"1915-02-20\">\n           二十日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_益田孝\">\n<surname>\n              益田\n             </surname>\n<forename>\n              孝\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_横山富次郎\">\n<surname>\n              横山\n             </surname>\n<forename>\n              富次郎\n             </forename>\n</persName>\n            氏　同上\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             〃\n            </time>\n<persName corresp=\"#pers_秋元信吉\">\n<surname>\n              秋元\n             </surname>\n<forename>\n              信吉\n             </forename>\n</persName>\n            氏　同上\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             〃\n            </time>\n<persName corresp=\"#pers_尾高\">\n<surname>\n              尾高\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_古城\">\n<surname>\n              古城\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-02"
 }

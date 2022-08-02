@@ -6,6 +6,13 @@
         "永井",
         "後藤文夫"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/添田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/床次",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/永井",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/後藤文夫"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1472",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -30,7 +37,10 @@
     "sort": "DKB20026m-0214",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1924-07-27",
     "texts": [
@@ -56,10 +66,10 @@
         "DKB20018m-0305"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            雑誌「人と人」の記者来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            雑誌「人と人」の記者来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0214\">\n<head>\n<date when=\"1924-07-27\">\n           廿七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            雑誌「人と人」の記者来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公、\n            <persName corresp=\"#pers_添田\">\n<surname>\n              添田\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_床次\">\n<surname>\n              床次\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_永井\">\n<surname>\n              永井\n             </surname>\n</persName>\n            四氏来約（協調会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_後藤文夫\">\n<surname>\n              後藤\n             </surname>\n<forename>\n              文夫\n             </forename>\n</persName>\n            氏来約（協調会）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             午後\n            </time>\n            修道学院ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0214\">\n<head>\n<date when=\"1924-07-27\">\n           廿七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            雑誌「人と人」の記者来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公、\n            <persName corresp=\"#pers_添田\">\n<surname>\n              添田\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_床次\">\n<surname>\n              床次\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_永井\">\n<surname>\n              永井\n             </surname>\n</persName>\n            四氏来約（協調会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_後藤文夫\">\n<surname>\n              後藤\n             </surname>\n<forename>\n              文夫\n             </forename>\n</persName>\n            氏来約（協調会）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             午後\n            </time>\n            修道学院ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-07"
 }

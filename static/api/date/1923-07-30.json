@@ -3,6 +3,10 @@
         "杉山直治郎",
         "山口正剛"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/杉山直治郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山口正剛"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1437",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,7 +22,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-07",
     "date_lvl2": "1923-07-30",
-    "description": "\n\n\n           三十日\n          \n          （月）\n         \n\n\n\n            明治天皇祭\n           \n\n\n\n\n             午前八時\n            \n\n\n              杉山\n             \n\n              直治郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              山口\n             \n\n              正剛\n             \n\n            氏ノ件ニ付\n            \n             上野精養軒\n            \n            ニ御出向\n           \n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （月）\n         \n\n\n\n            明治天皇祭\n           \n\n\n\n\n             午前八時\n            \n\n\n              杉山\n             \n\n              直治郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              山口\n             \n\n              正剛\n             \n\n            氏ノ件ニ付\n            \n             上野\n            \n\n             精養軒\n            \n            ニ御出向\n           \n\n\n",
     "label": "三十日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0210",
@@ -28,7 +32,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸",
-        "上野精養軒"
+        "上野"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
     ],
     "temporal": "1923-07-30",
     "texts": [
@@ -55,7 +63,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0207\">\n<head>\n<date when=\"1923-07-30\">\n           三十日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n            明治天皇祭\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_杉山直治郎\">\n<surname>\n              杉山\n             </surname>\n<forename>\n              直治郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_山口正剛\">\n<surname>\n              山口\n             </surname>\n<forename>\n              正剛\n             </forename>\n</persName>\n            氏ノ件ニ付\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ニ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0207\">\n<head>\n<date when=\"1923-07-30\">\n           三十日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n            明治天皇祭\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_杉山直治郎\">\n<surname>\n              杉山\n             </surname>\n<forename>\n              直治郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_山口正剛\">\n<surname>\n              山口\n             </surname>\n<forename>\n              正剛\n             </forename>\n</persName>\n            氏ノ件ニ付\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ニ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-07"
 }

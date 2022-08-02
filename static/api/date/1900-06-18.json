@@ -2,6 +2,9 @@
     "agential": [
         "竹内"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/竹内"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/168",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -17,7 +20,7 @@
     "date_lvl0": "1900",
     "date_lvl1": "1900-06",
     "date_lvl2": "1900-06-18",
-    "description": "\n\n\n        六月十八日\n       \n\n\n       晴、此日風邪気ナルヲ以テ外出スル能ハス、依テ書ヲ以テ\n       \n        兜町\n       \n       ニ申遣\n       \n       ス、諸方ノ来書ヲ調査シ、演説筆記ノ字句ヲ修正ス、夕方飯倉ナル\n       \n\n         竹内\n        \n\n       氏ニ於テ韓国公使ノ招宴アリシモ病ヲ以テ出席ヲ謝絶ス\n      \n",
+    "description": "\n\n\n        六月十八日\n       \n\n\n       晴、此日風邪気ナルヲ以テ外出スル能ハス、依テ書ヲ以テ\n       \n        兜町\n       \n       ニ申遣\n       \n       ス、諸方ノ来書ヲ調査シ、演説筆記ノ字句ヲ修正ス、夕方\n       \n        飯倉\n       \n       ナル\n       \n\n         竹内\n        \n\n       氏ニ於テ韓国公使ノ招宴アリシモ病ヲ以テ出席ヲ謝絶ス\n      \n",
     "label": "六月十八日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10009m-0170",
@@ -26,7 +29,12 @@
     "sort": "DKB10009m-0169",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
-        "日本橋兜町"
+        "日本橋兜町",
+        "飯倉"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飯倉"
     ],
     "temporal": "1900-06-18",
     "texts": [
@@ -53,7 +61,7 @@
     ],
     "time": {},
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10009m-0169\">\n<head>\n<date when=\"1900-06-18\">\n        六月十八日\n       </date>\n</head>\n<p>\n       晴、此日風邪気ナルヲ以テ外出スル能ハス、依テ書ヲ以テ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       ニ申遣\n       <pb corresp=\"#pageB1143\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/169/full/max/0/default.jpg\" n=\"B1143\" source=\"#pageB1143\"/>\n       ス、諸方ノ来書ヲ調査シ、演説筆記ノ字句ヲ修正ス、夕方飯倉ナル\n       <persName corresp=\"#pers_竹内\">\n<surname>\n         竹内\n        </surname>\n</persName>\n       氏ニ於テ韓国公使ノ招宴アリシモ病ヲ以テ出席ヲ謝絶ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10009m-0169\">\n<head>\n<date when=\"1900-06-18\">\n        六月十八日\n       </date>\n</head>\n<p>\n       晴、此日風邪気ナルヲ以テ外出スル能ハス、依テ書ヲ以テ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       ニ申遣\n       <pb corresp=\"#pageB1143\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/169/full/max/0/default.jpg\" n=\"B1143\" source=\"#pageB1143\"/>\n       ス、諸方ノ来書ヲ調査シ、演説筆記ノ字句ヲ修正ス、夕方\n       <placeName corresp=\"#place_飯倉\">\n        飯倉\n       </placeName>\n       ナル\n       <persName corresp=\"#pers_竹内\">\n<surname>\n         竹内\n        </surname>\n</persName>\n       氏ニ於テ韓国公使ノ招宴アリシモ病ヲ以テ出席ヲ謝絶ス\n      </p>\n</div>",
     "year": "1900",
     "yearAndMonth": "1900-06"
 }

@@ -1,6 +1,11 @@
 {
     "agential": [
+        "ブラオン",
         "尾高次郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ブラオン",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/尾高次郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/192",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1900",
     "date_lvl1": "1900-11",
     "date_lvl2": "1900-11-20",
-    "description": "\n\n\n        十一月二十日\n       \n\n\n       晴、午前二三ノ来人ニ接ス、午後支那領事来訪ス、\n       \n        二時\n       \n       過ブラオン氏来ル、過日来ノ協議ニ関シ意見書ノ草案ヲ携帯シ其要旨ヲ述ヘラル、依テ其大体ニ就テ当方ノ意向ヲ示シ更ニ一会ヲ約シテ去ル、\n       \n        午後五時\n       \n\n\n         尾高\n        \n\n         次郎\n        \n\n       ヲ其家ニ訪ヒ此夜同人ノ招宴ヲ享ク、夜同氏ノ家ニ一泊ス\n      \n",
+    "description": "\n\n\n        十一月二十日\n       \n\n\n       晴、午前二三ノ来人ニ接ス、午後支那領事来訪ス、\n       \n        二時\n       \n       過\n       \n\n         ブラオン\n        \n\n       氏来ル、過日来ノ協議ニ関シ意見書ノ草案ヲ携帯シ其要旨ヲ述ヘラル、依テ其大体ニ就テ当方ノ意向ヲ示シ更ニ一会ヲ約シテ去ル、\n       \n        午後五時\n       \n\n\n         尾高\n        \n\n         次郎\n        \n\n       ヲ其家ニ訪ヒ此夜同人ノ招宴ヲ享ク、夜同氏ノ家ニ一泊ス\n      \n",
     "label": "十一月二十日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10009m-0325",
@@ -26,6 +31,7 @@
     "sort": "DKB10009m-0324",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [],
+    "spatial_uri": [],
     "temporal": "1900-11-20",
     "texts": [
         "DKB10009m-0292",
@@ -50,11 +56,11 @@
         "DKB10011m-0111"
     ],
     "time": {
-        "14:00:00": "<div>晴、午前二三ノ来人ニ接ス、午後支那領事来訪ス、<time when=\"14:00:00\">\n        二時\n       </time>\n       過ブラオン氏来ル、過日来ノ協議ニ関シ意見書ノ草案ヲ携帯シ其要旨ヲ述ヘラル、依テ其大体ニ就テ当方ノ意向ヲ示シ更ニ一会ヲ約シテ去ル、</div>",
+        "14:00:00": "<div>晴、午前二三ノ来人ニ接ス、午後支那領事来訪ス、<time when=\"14:00:00\">\n        二時\n       </time>\n       過\n       <persName corresp=\"#pers_ブラオン\">\n<surname>\n         ブラオン\n        </surname>\n</persName>\n       氏来ル、過日来ノ協議ニ関シ意見書ノ草案ヲ携帯シ其要旨ヲ述ヘラル、依テ其大体ニ就テ当方ノ意向ヲ示シ更ニ一会ヲ約シテ去ル、</div>",
         "17:00:00": "<div><time when=\"17:00:00\">\n        午後五時\n       </time>\n<persName corresp=\"#pers_尾高次郎\">\n<surname>\n         尾高\n        </surname>\n<forename>\n         次郎\n        </forename>\n</persName>\n       ヲ其家ニ訪ヒ此夜同人ノ招宴ヲ享ク、夜同氏ノ家ニ一泊ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10009m-0324\">\n<head>\n<date when=\"1900-11-20\">\n        十一月二十日\n       </date>\n</head>\n<p>\n       晴、午前二三ノ来人ニ接ス、午後支那領事来訪ス、\n       <time when=\"14:00:00\">\n        二時\n       </time>\n       過ブラオン氏来ル、過日来ノ協議ニ関シ意見書ノ草案ヲ携帯シ其要旨ヲ述ヘラル、依テ其大体ニ就テ当方ノ意向ヲ示シ更ニ一会ヲ約シテ去ル、\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n<persName corresp=\"#pers_尾高次郎\">\n<surname>\n         尾高\n        </surname>\n<forename>\n         次郎\n        </forename>\n</persName>\n       ヲ其家ニ訪ヒ此夜同人ノ招宴ヲ享ク、夜同氏ノ家ニ一泊ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10009m-0324\">\n<head>\n<date when=\"1900-11-20\">\n        十一月二十日\n       </date>\n</head>\n<p>\n       晴、午前二三ノ来人ニ接ス、午後支那領事来訪ス、\n       <time when=\"14:00:00\">\n        二時\n       </time>\n       過\n       <persName corresp=\"#pers_ブラオン\">\n<surname>\n         ブラオン\n        </surname>\n</persName>\n       氏来ル、過日来ノ協議ニ関シ意見書ノ草案ヲ携帯シ其要旨ヲ述ヘラル、依テ其大体ニ就テ当方ノ意向ヲ示シ更ニ一会ヲ約シテ去ル、\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n<persName corresp=\"#pers_尾高次郎\">\n<surname>\n         尾高\n        </surname>\n<forename>\n         次郎\n        </forename>\n</persName>\n       ヲ其家ニ訪ヒ此夜同人ノ招宴ヲ享ク、夜同氏ノ家ニ一泊ス\n      </p>\n</div>",
     "year": "1900",
     "yearAndMonth": "1900-11"
 }

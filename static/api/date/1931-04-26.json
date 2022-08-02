@@ -1,6 +1,11 @@
 {
     "agential": [
-        "川崎甲子男"
+        "川崎甲子男",
+        "河合"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/川崎甲子男",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/河合"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1623",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1931",
     "date_lvl1": "1931-04",
     "date_lvl2": "1931-04-26",
-    "description": "\n\n\n           廿六日\n          \n          （日）\n         \n\n\n\n\n             午前十半時\n            \n\n\n              川崎\n             \n\n              甲子男\n             \n\n            、河合両氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           廿六日\n          \n          （日）\n         \n\n\n\n\n             午前十半時\n            \n\n\n              川崎\n             \n\n              甲子男\n             \n\n            、\n            \n\n              河合\n             \n\n            両氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "label": "廿六日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20033m-0059",
@@ -27,6 +32,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1931-04-26",
     "texts": [
@@ -52,10 +60,10 @@
         "DKB20032m-0145"
     ],
     "time": {
-        "10:30:00": "<div><time when=\"10:30:00\">\n             午前十半時\n            </time>\n<persName corresp=\"#pers_川崎甲子男\">\n<surname>\n              川崎\n             </surname>\n<forename>\n              甲子男\n             </forename>\n</persName>\n            、河合両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
+        "10:30:00": "<div><time when=\"10:30:00\">\n             午前十半時\n            </time>\n<persName corresp=\"#pers_川崎甲子男\">\n<surname>\n              川崎\n             </surname>\n<forename>\n              甲子男\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_河合\">\n<surname>\n              河合\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0057\">\n<head>\n<date when=\"1931-04-26\">\n           廿六日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n<persName corresp=\"#pers_川崎甲子男\">\n<surname>\n              川崎\n             </surname>\n<forename>\n              甲子男\n             </forename>\n</persName>\n            、河合両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0057\">\n<head>\n<date when=\"1931-04-26\">\n           廿六日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n<persName corresp=\"#pers_川崎甲子男\">\n<surname>\n              川崎\n             </surname>\n<forename>\n              甲子男\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_河合\">\n<surname>\n              河合\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1931",
     "yearAndMonth": "1931-04"
 }

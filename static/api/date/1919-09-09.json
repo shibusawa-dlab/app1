@@ -1,11 +1,23 @@
 {
     "agential": [
+        "レーゲル",
         "和田豊治",
         "桜井真成",
         "高根義人",
+        "益田孝",
         "門野",
         "バートン",
         "須田利信"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/レーゲル",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/和田豊治",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/桜井真成",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高根義人",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/益田孝",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/門野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/バートン",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/須田利信"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1309",
     "category": {
@@ -22,7 +34,7 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-09",
     "date_lvl2": "1919-09-09",
-    "description": "\n\n\n           九日\n          \n          （火）\n         \n\n\n\n\n             正午\n            \n            レーゲル博士招待会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              和田\n             \n\n              豊治\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三―午後四時\n            \n\n\n              桜井\n             \n\n              真成\n             \n\n            氏（\n            \n             兜町\n            \n            ニ来約）\n           \n\n\n\n\n             午後三時\n            \n\n\n              高根\n             \n\n              義人\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三半時\n            \n\n             益田\n            \n            孝男来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            大倉組\n            \n\n              門野\n             \n\n            氏来約（同所）\n           \n\n\n\n\n             午後七時\n            \n            （\n            \n\n              バートン\n             \n\n            氏歓迎会）\n            \n\n              須田\n             \n\n              利信\n             \n\n            氏ヨリ御案内（銀行クラブ）燕尾服（勲章ハ御随意）\n           \n\n\n",
+    "description": "\n\n\n           九日\n          \n          （火）\n         \n\n\n\n\n             正午\n            \n\n\n              レーゲル\n             \n\n            博士招待会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              和田\n             \n\n              豊治\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三―午後四時\n            \n\n\n              桜井\n             \n\n              真成\n             \n\n            氏（\n            \n             兜町\n            \n            ニ来約）\n           \n\n\n\n\n             午後三時\n            \n\n\n              高根\n             \n\n              義人\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三半時\n            \n\n\n              益田\n             \n\n              孝\n             \n\n            男来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n             大倉組\n            \n\n\n              門野\n             \n\n            氏来約（同所）\n           \n\n\n\n\n             午後七時\n            \n            （\n            \n\n              バートン\n             \n\n            氏歓迎会）\n            \n\n              須田\n             \n\n              利信\n             \n\n            氏ヨリ御案内（銀行クラブ）燕尾服（勲章ハ御随意）\n           \n\n\n",
     "label": "九日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0223",
@@ -31,8 +43,10 @@
     "sort": "DKB20021m-0222",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "日本橋兜町",
-        "益田"
+        "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1919-09-09",
     "texts": [
@@ -58,10 +72,10 @@
         "DKB20023m-0176"
     ],
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            レーゲル博士招待会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_レーゲル\">\n<surname>\n              レーゲル\n             </surname>\n</persName>\n            博士招待会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0222\">\n<head>\n<date when=\"1919-09-09\">\n           九日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            レーゲル博士招待会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_和田豊治\">\n<surname>\n              和田\n             </surname>\n<forename>\n              豊治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―午後四時\n            </time>\n<persName corresp=\"#pers_桜井真成\">\n<surname>\n              桜井\n             </surname>\n<forename>\n              真成\n             </forename>\n</persName>\n            氏（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_高根義人\">\n<surname>\n              高根\n             </surname>\n<forename>\n              義人\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n<placeName corresp=\"#place_益田\">\n             益田\n            </placeName>\n            孝男来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            大倉組\n            <persName corresp=\"#pers_門野\">\n<surname>\n              門野\n             </surname>\n</persName>\n            氏来約（同所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            （\n            <persName corresp=\"#pers_バートン\">\n<surname>\n              バートン\n             </surname>\n</persName>\n            氏歓迎会）\n            <persName corresp=\"#pers_須田利信\">\n<surname>\n              須田\n             </surname>\n<forename>\n              利信\n             </forename>\n</persName>\n            氏ヨリ御案内（銀行クラブ）燕尾服（勲章ハ御随意）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0222\">\n<head>\n<date when=\"1919-09-09\">\n           九日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_レーゲル\">\n<surname>\n              レーゲル\n             </surname>\n</persName>\n            博士招待会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_和田豊治\">\n<surname>\n              和田\n             </surname>\n<forename>\n              豊治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―午後四時\n            </time>\n<persName corresp=\"#pers_桜井真成\">\n<surname>\n              桜井\n             </surname>\n<forename>\n              真成\n             </forename>\n</persName>\n            氏（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_高根義人\">\n<surname>\n              高根\n             </surname>\n<forename>\n              義人\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n<persName corresp=\"#pers_益田孝\">\n<surname>\n              益田\n             </surname>\n<forename>\n              孝\n             </forename>\n</persName>\n            男来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<orgName>\n             大倉組\n            </orgName>\n<persName corresp=\"#pers_門野\">\n<surname>\n              門野\n             </surname>\n</persName>\n            氏来約（同所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            （\n            <persName corresp=\"#pers_バートン\">\n<surname>\n              バートン\n             </surname>\n</persName>\n            氏歓迎会）\n            <persName corresp=\"#pers_須田利信\">\n<surname>\n              須田\n             </surname>\n<forename>\n              利信\n             </forename>\n</persName>\n            氏ヨリ御案内（銀行クラブ）燕尾服（勲章ハ御随意）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-09"
 }

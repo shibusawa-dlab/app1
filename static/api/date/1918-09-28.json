@@ -2,6 +2,9 @@
     "agential": [
         "藤山雷太"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/藤山雷太"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1277",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-09",
     "date_lvl2": "1918-09-28",
-    "description": "\n\n\n           廿八日\n          \n          （土）\n         \n\n\n\n\n             午時\n            \n\n             血洗島\n            \n            ヨリ御帰京\n           \n\n\n\n\n             午後三時\n            \n\n\n              藤山\n             \n\n              雷太\n             \n\n            氏ヨリ御案内（\n            \n             木挽町\n            \n\n             田中\n            \n            家）\n           \n\n\n\n\n             午後五時\n            \n            御同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （土）\n         \n\n\n\n\n             午時\n            \n\n             血洗島\n            \n            ヨリ御帰京\n           \n\n\n\n\n             午後三時\n            \n\n\n              藤山\n             \n\n              雷太\n             \n\n            氏ヨリ御案内（\n            \n             木挽町\n            \n            田中家）\n           \n\n\n\n\n             午後五時\n            \n            御同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "廿八日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0251",
@@ -28,8 +31,12 @@
     "spatial": [
         "血洗島",
         "木挽町",
-        "田中",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/血洗島",
+        "https://shibusawa-dlab.github.io/lab1/api/place/木挽町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1918-09-28",
     "texts": [
@@ -58,7 +65,7 @@
         "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_血洗島\">\n             血洗島\n            </placeName>\n            ヨリ御帰京</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0250\">\n<head>\n<date when=\"1918-09-28\">\n           廿八日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_血洗島\">\n             血洗島\n            </placeName>\n            ヨリ御帰京\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_藤山雷太\">\n<surname>\n              藤山\n             </surname>\n<forename>\n              雷太\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <placeName corresp=\"#place_木挽町\">\n             木挽町\n            </placeName>\n<placeName corresp=\"#place_田中\">\n             田中\n            </placeName>\n            家）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0250\">\n<head>\n<date when=\"1918-09-28\">\n           廿八日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_血洗島\">\n             血洗島\n            </placeName>\n            ヨリ御帰京\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_藤山雷太\">\n<surname>\n              藤山\n             </surname>\n<forename>\n              雷太\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <placeName corresp=\"#place_木挽町\">\n             木挽町\n            </placeName>\n            田中家）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-09"
 }

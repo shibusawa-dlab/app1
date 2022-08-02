@@ -1,6 +1,11 @@
 {
     "agential": [
-        "徳川"
+        "徳川",
+        "高木"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高木"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/487",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1907",
     "date_lvl1": "1907-07",
     "date_lvl2": "1907-07-22",
-    "description": "\n\n\n        七月二十二日\n       \n       半晴　冷　　　　　　　　　　起床\n       \n        七時\n       \n       就蓐\n       \n        十一時三十分\n       \n\n\n       起床後入浴、畢テ日記ヲ編成ス、\n       \n        八時\n       \n       朝飧ヲ食シ、食後来人ニ接ス、\n       \n        午前十時\n       \n\n        兜町\n       \n       事務所ニ抵リ来人ニ接シ事務ヲ処理ス、\n       \n        正午\n       \n\n        第一銀行\n       \n       ニ於テ午飧ス、食後要件ヲ談ス\n       \n\n        午後四時\n       \n       有栖川宮邸ニ抵リ、慈恵会理事ノ任命アリ、畢テ\n       \n\n         徳川\n        \n\n       、高木二氏ト要務ヲ談ス、帰途事務所ニ抵リ事務ヲ処理シ、夜\n       \n        七時\n       \n\n        王子\n       \n       ニ帰宿ス\n      \n",
+    "description": "\n\n\n        七月二十二日\n       \n       半晴　冷　　　　　　　　　　起床\n       \n        七時\n       \n       就蓐\n       \n        十一時三十分\n       \n\n\n       起床後入浴、畢テ日記ヲ編成ス、\n       \n        八時\n       \n       朝飧ヲ食シ、食後来人ニ接ス、\n       \n        午前十時\n       \n\n        兜町\n       \n       事務所ニ抵リ来人ニ接シ事務ヲ処理ス、\n       \n        正午\n       \n\n        第一銀行\n       \n       ニ於テ午飧ス、食後要件ヲ談ス\n       \n\n        午後四時\n       \n       有栖川宮邸ニ抵リ、慈恵会理事ノ任命アリ、畢テ\n       \n\n         徳川\n        \n\n       、\n       \n\n         高木\n        \n\n       二氏ト要務ヲ談ス、帰途事務所ニ抵リ事務ヲ処理シ、夜\n       \n        七時\n       \n\n        王子\n       \n       ニ帰宿ス\n      \n",
     "label": "七月二十二日              半晴　冷　　　　　　　　　　起床               七時              就蓐               十一時三十分",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10015m-0180",
@@ -28,6 +33,10 @@
     "spatial": [
         "日本橋兜町",
         "王子"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子"
     ],
     "temporal": "1907-07-22",
     "texts": [
@@ -56,11 +65,11 @@
         "08:00:00": "<div>起床後入浴、畢テ日記ヲ編成ス、<time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ食シ、食後来人ニ接ス、</div>",
         "10:00:00": "<div><time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接シ事務ヲ処理ス、</div>",
         "12:00:00": "<div><time when=\"12:00:00\">\n        正午\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧ス、食後要件ヲ談ス\n       <lb/></div>",
-        "16:00:00": "<div><time when=\"16:00:00\">\n        午後四時\n       </time>\n       有栖川宮邸ニ抵リ、慈恵会理事ノ任命アリ、畢テ\n       <persName corresp=\"#pers_徳川\">\n<surname>\n         徳川\n        </surname>\n</persName>\n       、高木二氏ト要務ヲ談ス、帰途事務所ニ抵リ事務ヲ処理シ、夜</div>",
+        "16:00:00": "<div><time when=\"16:00:00\">\n        午後四時\n       </time>\n       有栖川宮邸ニ抵リ、慈恵会理事ノ任命アリ、畢テ\n       <persName corresp=\"#pers_徳川\">\n<surname>\n         徳川\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_高木\">\n<surname>\n         高木\n        </surname>\n</persName>\n       二氏ト要務ヲ談ス、帰途事務所ニ抵リ事務ヲ処理シ、夜</div>",
         "19:00:00": "<div><time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10015m-0179\">\n<head>\n<date when=\"1907-07-22\">\n        七月二十二日\n       </date>\n       半晴　冷　　　　　　　　　　起床\n       <time when=\"07:00:00\">\n        七時\n       </time>\n       就蓐\n       <time when=\"23:30:00\">\n        十一時三十分\n       </time>\n</head>\n<p>\n       起床後入浴、畢テ日記ヲ編成ス、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ食シ、食後来人ニ接ス、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接シ事務ヲ処理ス、\n       <time when=\"12:00:00\">\n        正午\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧ス、食後要件ヲ談ス\n       <lb/>\n<time when=\"16:00:00\">\n        午後四時\n       </time>\n       有栖川宮邸ニ抵リ、慈恵会理事ノ任命アリ、畢テ\n       <persName corresp=\"#pers_徳川\">\n<surname>\n         徳川\n        </surname>\n</persName>\n       、高木二氏ト要務ヲ談ス、帰途事務所ニ抵リ事務ヲ処理シ、夜\n       <time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10015m-0179\">\n<head>\n<date when=\"1907-07-22\">\n        七月二十二日\n       </date>\n       半晴　冷　　　　　　　　　　起床\n       <time when=\"07:00:00\">\n        七時\n       </time>\n       就蓐\n       <time when=\"23:30:00\">\n        十一時三十分\n       </time>\n</head>\n<p>\n       起床後入浴、畢テ日記ヲ編成ス、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ食シ、食後来人ニ接ス、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接シ事務ヲ処理ス、\n       <time when=\"12:00:00\">\n        正午\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧ス、食後要件ヲ談ス\n       <lb/>\n<time when=\"16:00:00\">\n        午後四時\n       </time>\n       有栖川宮邸ニ抵リ、慈恵会理事ノ任命アリ、畢テ\n       <persName corresp=\"#pers_徳川\">\n<surname>\n         徳川\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_高木\">\n<surname>\n         高木\n        </surname>\n</persName>\n       二氏ト要務ヲ談ス、帰途事務所ニ抵リ事務ヲ処理シ、夜\n       <time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1907",
     "yearAndMonth": "1907-07"
 }

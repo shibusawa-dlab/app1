@@ -3,6 +3,10 @@
         "藤山雷太",
         "徳川"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/藤山雷太",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1278",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,7 +22,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-10",
     "date_lvl2": "1918-10-07",
-    "description": "\n\n\n           七日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n            帝国飛行協会ノ件（\n            \n             銀坐\n            \n            二、大倉組事務所）\n           \n\n\n\n\n             正午\n            \n\n\n              藤山\n             \n\n              雷太\n             \n\n            氏ヨリ御案内（会議処）\n           \n\n\n\n\n             午後一―四時\n            \n            道ノ会講演会御出席（慶応義塾）\n           \n\n\n\n\n             午後三時\n            \n\n\n              徳川\n             \n\n            公爵御訪問（華族会館）\n           \n\n\n\n\n             午後五時\n            \n            竜門社評議員会（築地精養軒）\n           \n\n\n",
+    "description": "\n\n\n           七日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n            帝国飛行協会ノ件（\n            \n             銀坐\n            \n            二、\n            \n             大倉組\n            \n            事務所）\n           \n\n\n\n\n             正午\n            \n\n\n              藤山\n             \n\n              雷太\n             \n\n            氏ヨリ御案内（会議処）\n           \n\n\n\n\n             午後一―四時\n            \n            道ノ会講演会御出席（慶応義塾）\n           \n\n\n\n\n             午後三時\n            \n\n\n              徳川\n             \n\n            公爵御訪問（華族会館）\n           \n\n\n\n\n             午後五時\n            \n\n             竜門社\n            \n            評議員会（\n            \n             築地\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
     "label": "七日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0260",
@@ -27,7 +31,12 @@
     "sort": "DKB20020m-0259",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "銀坐"
+        "銀座",
+        "築地"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/銀座",
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
     ],
     "temporal": "1918-10-07",
     "texts": [
@@ -53,10 +62,10 @@
         "DKB20019m-0079"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            帝国飛行協会ノ件（\n            <placeName corresp=\"#place_銀坐\">\n             銀坐\n            </placeName>\n            二、大倉組事務所）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            帝国飛行協会ノ件（\n            <placeName corresp=\"#place_銀座\">\n             銀坐\n            </placeName>\n            二、\n            <orgName>\n             大倉組\n            </orgName>\n            事務所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0259\">\n<head>\n<date when=\"1918-10-07\">\n           七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            帝国飛行協会ノ件（\n            <placeName corresp=\"#place_銀坐\">\n             銀坐\n            </placeName>\n            二、大倉組事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_藤山雷太\">\n<surname>\n              藤山\n             </surname>\n<forename>\n              雷太\n             </forename>\n</persName>\n            氏ヨリ御案内（会議処）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"16:00:00\">\n             午後一―四時\n            </time>\n            道ノ会講演会御出席（慶応義塾）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公爵御訪問（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            竜門社評議員会（築地精養軒）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0259\">\n<head>\n<date when=\"1918-10-07\">\n           七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            帝国飛行協会ノ件（\n            <placeName corresp=\"#place_銀座\">\n             銀坐\n            </placeName>\n            二、\n            <orgName>\n             大倉組\n            </orgName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_藤山雷太\">\n<surname>\n              藤山\n             </surname>\n<forename>\n              雷太\n             </forename>\n</persName>\n            氏ヨリ御案内（会議処）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"16:00:00\">\n             午後一―四時\n            </time>\n            道ノ会講演会御出席（慶応義塾）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公爵御訪問（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<orgName>\n             竜門社\n            </orgName>\n            評議員会（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-10"
 }

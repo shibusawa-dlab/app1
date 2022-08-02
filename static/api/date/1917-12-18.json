@@ -1,6 +1,11 @@
 {
     "agential": [
+        "植木",
         "尾高豊作"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/植木",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/尾高豊作"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1255",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-12",
     "date_lvl2": "1917-12-18",
-    "description": "\n\n\n           十八日\n          \n          （火）\n         \n\n\n\n\n             午前九半時\n            \n\n             植木\n            \n\n             深川\n            \n            区長来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            田園都市ノ件（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n\n\n              尾高\n             \n\n              豊作\n             \n\n            氏送別会ノ件（ツキジ精養軒）\n           \n\n\n",
+    "description": "\n\n\n           十八日\n          \n          （火）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              植木\n             \n\n\n             深川\n            \n            区長来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            田園都市ノ件（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n\n\n              尾高\n             \n\n              豊作\n             \n\n            氏送別会ノ件（\n            \n             ツキジ\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
     "label": "十八日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0327",
@@ -26,9 +31,14 @@
     "sort": "DKB20019m-0326",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "植木",
         "深川",
-        "日本橋兜町"
+        "日本橋兜町",
+        "築地"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/深川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
     ],
     "temporal": "1917-12-18",
     "texts": [
@@ -54,10 +64,10 @@
         "DKB20022m-0239"
     ],
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<placeName corresp=\"#place_植木\">\n             植木\n            </placeName>\n<placeName corresp=\"#place_深川\">\n             深川\n            </placeName>\n            区長来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_植木\">\n<surname>\n              植木\n             </surname>\n</persName>\n<placeName corresp=\"#place_深川\">\n             深川\n            </placeName>\n            区長来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0326\">\n<head>\n<date when=\"1917-12-18\">\n           十八日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<placeName corresp=\"#place_植木\">\n             植木\n            </placeName>\n<placeName corresp=\"#place_深川\">\n             深川\n            </placeName>\n            区長来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            田園都市ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_尾高豊作\">\n<surname>\n              尾高\n             </surname>\n<forename>\n              豊作\n             </forename>\n</persName>\n            氏送別会ノ件（ツキジ精養軒）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0326\">\n<head>\n<date when=\"1917-12-18\">\n           十八日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_植木\">\n<surname>\n              植木\n             </surname>\n</persName>\n<placeName corresp=\"#place_深川\">\n             深川\n            </placeName>\n            区長来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            田園都市ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_尾高豊作\">\n<surname>\n              尾高\n             </surname>\n<forename>\n              豊作\n             </forename>\n</persName>\n            氏送別会ノ件（\n            <placeName corresp=\"#place_築地\">\n             ツキジ\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-12"
 }

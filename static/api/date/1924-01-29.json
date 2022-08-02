@@ -1,6 +1,11 @@
 {
     "agential": [
+        "二神駿吉",
         "副島"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/二神駿吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/副島"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1451",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-01",
     "date_lvl2": "1924-01-29",
-    "description": "\n\n\n           廿九日\n          \n          （火）\n         \n\n\n\n\n             午後二時\n            \n            早大臨時維持員会（同大学恩賜館）\n           \n\n\n\n\n             午後四―五時\n            \n            二神駿吉氏来約（事務所）\n           \n\n\n\n\n             午後四―五時\n            \n            日印協会\n            \n\n              副島\n             \n\n            氏来約（事ム所）\n           \n\n\n\n\n             午後六時\n            \n            国際聯盟協会研究会（同会事ム所）\n           \n\n\n",
+    "description": "\n\n\n           廿九日\n          \n          （火）\n         \n\n\n\n\n             午後二時\n            \n            早大臨時維持員会（同大学恩賜館）\n           \n\n\n\n\n             午後四―五時\n            \n\n\n              二神\n             \n\n              駿吉\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後四―五時\n            \n            日印協会\n            \n\n              副島\n             \n\n            氏来約（事ム所）\n           \n\n\n\n\n             午後六時\n            \n            国際聯盟協会研究会（同会事ム所）\n           \n\n\n",
     "label": "廿九日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0030",
@@ -26,6 +31,7 @@
     "sort": "DKB20026m-0029",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [],
+    "spatial_uri": [],
     "temporal": "1924-01-29",
     "texts": [
         "DKB20025m-0161",
@@ -53,7 +59,7 @@
         "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n            早大臨時維持員会（同大学恩賜館）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0029\">\n<head>\n<date when=\"1924-01-29\">\n           廿九日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            早大臨時維持員会（同大学恩賜館）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"16:00:00\" to=\"17:00:00\">\n             午後四―五時\n            </time>\n            二神駿吉氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"16:00:00\" to=\"17:00:00\">\n             午後四―五時\n            </time>\n            日印協会\n            <persName corresp=\"#pers_副島\">\n<surname>\n              副島\n             </surname>\n</persName>\n            氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            国際聯盟協会研究会（同会事ム所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0029\">\n<head>\n<date when=\"1924-01-29\">\n           廿九日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            早大臨時維持員会（同大学恩賜館）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"16:00:00\" to=\"17:00:00\">\n             午後四―五時\n            </time>\n<persName corresp=\"#pers_二神駿吉\">\n<surname>\n              二神\n             </surname>\n<forename>\n              駿吉\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"16:00:00\" to=\"17:00:00\">\n             午後四―五時\n            </time>\n            日印協会\n            <persName corresp=\"#pers_副島\">\n<surname>\n              副島\n             </surname>\n</persName>\n            氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            国際聯盟協会研究会（同会事ム所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-01"
 }

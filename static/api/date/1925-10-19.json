@@ -1,5 +1,10 @@
 {
-    "agential": [],
+    "agential": [
+        "大川"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大川"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1495",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +20,7 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-10",
     "date_lvl2": "1925-10-19",
-    "description": "\n\n\n           十九日\n          \n          （月）\n         \n\n\n\n\n             正午\n            \n            大川邸ヘ御出向\n           \n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （月）\n         \n\n\n\n\n             正午\n            \n\n\n              大川\n             \n\n            邸ヘ御出向\n           \n\n\n",
     "label": "十九日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20027m-0177",
@@ -24,6 +29,7 @@
     "sort": "DKB20027m-0176",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [],
+    "spatial_uri": [],
     "temporal": "1925-10-19",
     "texts": [
         "DKB20030m-0008",
@@ -48,10 +54,10 @@
         "DKB20029m-0134"
     ],
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            大川邸ヘ御出向</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_大川\">\n<surname>\n              大川\n             </surname>\n</persName>\n            邸ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0176\">\n<head>\n<date when=\"1925-10-19\">\n           十九日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            大川邸ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0176\">\n<head>\n<date when=\"1925-10-19\">\n           十九日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_大川\">\n<surname>\n              大川\n             </surname>\n</persName>\n            邸ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-10"
 }

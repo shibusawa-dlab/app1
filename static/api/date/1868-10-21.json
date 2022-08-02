@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/35",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -15,7 +16,7 @@
     "date_lvl0": "1868",
     "date_lvl1": "1868-10",
     "date_lvl2": "1868-10-21",
-    "description": "\n\n\n        九月六日\n       \n       曇　水　速 一時十二里\n       \n        十月廿一日\n       \n\n\n       朝より風強く〓行速かなり、夜\n       \n        九時半\n       \n\n        メシーナ\n       \n       着、暫時投錨休息いたす馬港より此に至る六百八十八里、五十時間ニ而到着せり、船行の順にして速なる可知也、\n       \n        メシーナ\n       \n       ニ而御上陸、海岸の市街御遊歩、一同御供いたす、夜\n       \n        十一時半\n       \n       同所発釘《（〓）》\n      \n",
+    "description": "\n\n\n        九月六日\n       \n       曇　水　速 一時十二里\n       \n        十月廿一日\n       \n\n\n       朝より風強く〓行速かなり、夜\n       \n        九時半\n       \n\n        メシーナ\n       \n       着、暫時投錨休息いたす\n       \n        馬港\n       \n       より此に至る六百八十八里、五十時間ニ而到着せり、船行の順にして速なる可知也、\n       \n        メシーナ\n       \n       ニ而御上陸、海岸の市街御遊歩、一同御供いたす、夜\n       \n        十一時半\n       \n       同所発釘《（〓）》\n      \n",
     "label": "九月六日              曇　水　速 一時十二里               十月廿一日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10001m-0028",
@@ -24,7 +25,12 @@
     "sort": "DKB10001m-0027",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
-        "メシーナ"
+        "メッシーナ",
+        "マルセイユ"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/メッシーナ",
+        "https://shibusawa-dlab.github.io/lab1/api/place/マルセイユ"
     ],
     "temporal": "1868-10-21",
     "texts": [
@@ -50,11 +56,11 @@
         "DKB10001m-0043"
     ],
     "time": {
-        "21:30:00": "<div>朝より風強く〓行速かなり、夜<time when=\"21:30:00\">\n        九時半\n       </time>\n<placeName corresp=\"#place_メシーナ\">\n        メシーナ\n       </placeName>\n       着、暫時投錨休息いたす馬港より此に至る六百八十八里、五十時間ニ而到着せり、船行の順にして速なる可知也、\n       <placeName corresp=\"#place_メシーナ\">\n        メシーナ\n       </placeName>\n       ニ而御上陸、海岸の市街御遊歩、一同御供いたす、夜</div>",
+        "21:30:00": "<div>朝より風強く〓行速かなり、夜<time when=\"21:30:00\">\n        九時半\n       </time>\n<placeName corresp=\"#place_メッシーナ\">\n        メシーナ\n       </placeName>\n       着、暫時投錨休息いたす\n       <placeName corresp=\"#place_マルセイユ\">\n        馬港\n       </placeName>\n       より此に至る六百八十八里、五十時間ニ而到着せり、船行の順にして速なる可知也、\n       <placeName corresp=\"#place_メッシーナ\">\n        メシーナ\n       </placeName>\n       ニ而御上陸、海岸の市街御遊歩、一同御供いたす、夜</div>",
         "23:30:00": "<div><time when=\"23:30:00\">\n        十一時半\n       </time>\n       同所発釘《（〓）》</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10001m-0027\">\n<head>\n<date type=\"旧暦\" when=\"1868-10-21\">\n        九月六日\n       </date>\n       曇　水　速 一時十二里\n       <date when=\"1868-10-21\">\n        十月廿一日\n       </date>\n</head>\n<p>\n       朝より風強く〓行速かなり、夜\n       <time when=\"21:30:00\">\n        九時半\n       </time>\n<placeName corresp=\"#place_メシーナ\">\n        メシーナ\n       </placeName>\n       着、暫時投錨休息いたす馬港より此に至る六百八十八里、五十時間ニ而到着せり、船行の順にして速なる可知也、\n       <placeName corresp=\"#place_メシーナ\">\n        メシーナ\n       </placeName>\n       ニ而御上陸、海岸の市街御遊歩、一同御供いたす、夜\n       <time when=\"23:30:00\">\n        十一時半\n       </time>\n       同所発釘《（〓）》\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10001m-0027\">\n<head>\n<date type=\"旧暦\" when=\"1868-10-21\">\n        九月六日\n       </date>\n       曇　水　速 一時十二里\n       <date when=\"1868-10-21\">\n        十月廿一日\n       </date>\n</head>\n<p>\n       朝より風強く〓行速かなり、夜\n       <time when=\"21:30:00\">\n        九時半\n       </time>\n<placeName corresp=\"#place_メッシーナ\">\n        メシーナ\n       </placeName>\n       着、暫時投錨休息いたす\n       <placeName corresp=\"#place_マルセイユ\">\n        馬港\n       </placeName>\n       より此に至る六百八十八里、五十時間ニ而到着せり、船行の順にして速なる可知也、\n       <placeName corresp=\"#place_メッシーナ\">\n        メシーナ\n       </placeName>\n       ニ而御上陸、海岸の市街御遊歩、一同御供いたす、夜\n       <time when=\"23:30:00\">\n        十一時半\n       </time>\n       同所発釘《（〓）》\n      </p>\n</div>",
     "year": "1868",
     "yearAndMonth": "1868-10"
 }

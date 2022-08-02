@@ -1,12 +1,21 @@
 {
     "agential": [
-        "堀越",
+        "堀越善重郎",
         "グリツグス",
         "田中",
-        "頭本",
-        "土居",
-        "中橋",
-        "松方"
+        "頭本元貞",
+        "土居通夫",
+        "中橋徳五郎",
+        "松方幸次郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/堀越善重郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/グリツグス",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田中",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/頭本元貞",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/土居通夫",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中橋徳五郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松方幸次郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/620",
     "category": {
@@ -35,6 +44,10 @@
         "タコマ",
         "アメリカ合衆国"
     ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/タコマ",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アメリカ合衆国"
+    ],
     "temporal": "1909-09-08",
     "texts": [
         "DKB10017m-0195",
@@ -60,15 +73,15 @@
     ],
     "time": {
         "06:30:00": "<div><time when=\"06:30:00\">\n        午前六時半\n       </time>\n       起床、入浴シ畢テ支度ヲ整ヒ事務所ニ抵ル、</div>",
-        "08:00:00": "<div><time when=\"08:00:00\">\n        八時\n       </time>\n<persName corresp=\"#pers_堀越\">\n<surname>\n         堀越\n        </surname>\n</persName>\n       夫妻其他ト共ニ朝飧シ、後、事務所ニ於テ当務ヲ協議ス、</div>",
+        "08:00:00": "<div><time when=\"08:00:00\">\n        八時\n       </time>\n<persName corresp=\"#pers_堀越善重郎\">\n<surname>\n         堀越\n        </surname>\n</persName>\n       夫妻其他ト共ニ朝飧シ、後、事務所ニ於テ当務ヲ協議ス、</div>",
         "10:30:00": "<div><time when=\"10:30:00\">\n        十時半\n       </time>\n       一行中ノ十数名ト製材工場ヲ一覧ス、株式組織ニシテ、当地商業会議所会頭\n       <persName corresp=\"#pers_グリツグス\">\n<surname>\n         グリツグス\n        </surname>\n</persName>\n       其社長ナリト云フ、規模宏大ナリ、利益モ饒多ナリト、土地ノ面積弐百エーカー余ニシテ数ケ所ノ貯木池アリ、動力ハ蒸気ニテ弐千五百馬力ヲ有スト云フ、大小種々ノ製材自由ナリ、畢テ再ヒ自働車ニテ木製水道管製造工場ヲ視ル、規模小ナレトモ工場ハ整頓セリ、製出ノ木管外部ハテールヲ塗ルモ、内ハ原質ノ儘ニテ五十年余保存スト\n       <pb corresp=\"#pageB1595\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/621/full/max/0/default.jpg\" n=\"B1595\" source=\"#pageB1595\"/>\n       云フ、一覧畢リテホテルニ帰リ休足ス、</div>",
-        "13:30:00": "<div><time when=\"13:30:00\">\n        午後一時半\n       </time>\n       市内ノ商業倶楽部ニ案内セラレテ午飧会アリ、食卓上主人側ノ挨拶ニ応シテ一場ノ食卓演説ヲ為ス、後、\n       <persName corresp=\"#pers_田中\">\n<surname>\n         田中\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_頭本\">\n<surname>\n         頭本\n        </surname>\n</persName>\n       二氏ト共ニ市長及倶楽部ノ副会長ノ自働車案内ニテ市街及公園其他ヲ遊覧ス、</div>",
+        "13:30:00": "<div><time when=\"13:30:00\">\n        午後一時半\n       </time>\n       市内ノ商業倶楽部ニ案内セラレテ午飧会アリ、食卓上主人側ノ挨拶ニ応シテ一場ノ食卓演説ヲ為ス、後、\n       <persName corresp=\"#pers_田中\">\n<surname>\n         田中\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_頭本元貞\">\n<surname>\n         頭本\n        </surname>\n</persName>\n       二氏ト共ニ市長及倶楽部ノ副会長ノ自働車案内ニテ市街及公園其他ヲ遊覧ス、</div>",
         "17:00:00": "<div><time when=\"17:00:00\">\n        午後五時\n       </time>\n       帰宿、</div>",
-        "19:00:00": "<div><time when=\"19:00:00\">\n        七時\n       </time>\n       ホテル・\n       <placeName corresp=\"#place_タコマ\">\n        タコマ\n       </placeName>\n       ニ於テ当地商業会議所ノ催ニ係ル宴会アリ、会頭グリツグス司会者トナリテ食卓上挨拶アリ、依テ答辞演説ヲ為ス、後、\n       <persName corresp=\"#pers_土居\">\n<surname>\n         土居\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_中橋\">\n<surname>\n         中橋\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_松方\">\n<surname>\n         松方\n        </surname>\n</persName>\n       等ノ演説アリテ\n       <placeName corresp=\"#place_アメリカ合衆国\">\n        米国\n       </placeName>\n       人ヨリ二人ノ演説アリ、</div>",
+        "19:00:00": "<div><time when=\"19:00:00\">\n        七時\n       </time>\n       ホテル・\n       <placeName corresp=\"#place_タコマ\">\n        タコマ\n       </placeName>\n       ニ於テ当地商業会議所ノ催ニ係ル宴会アリ、会頭グリツグス司会者トナリテ食卓上挨拶アリ、依テ答辞演説ヲ為ス、後、\n       <persName corresp=\"#pers_土居通夫\">\n<surname>\n         土居\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_中橋徳五郎\">\n<surname>\n         中橋\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_松方幸次郎\">\n<surname>\n         松方\n        </surname>\n</persName>\n       等ノ演説アリテ\n       <placeName corresp=\"#place_アメリカ合衆国\">\n        米国\n       </placeName>\n       人ヨリ二人ノ演説アリ、</div>",
         "24:00:00": "<div><time when-iso=\"1909-09-09T00:00+0900\">\n        十二時\n       </time>\n       散会、直ニ汽車ニ乗込、タコマヲ発ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10017m-0196\">\n<head>\n<date when=\"1909-09-08\">\n        九月八日\n       </date>\n       半晴　冷\n      </head>\n<p>\n<time when=\"06:30:00\">\n        午前六時半\n       </time>\n       起床、入浴シ畢テ支度ヲ整ヒ事務所ニ抵ル、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n<persName corresp=\"#pers_堀越\">\n<surname>\n         堀越\n        </surname>\n</persName>\n       夫妻其他ト共ニ朝飧シ、後、事務所ニ於テ当務ヲ協議ス、\n       <time when=\"10:30:00\">\n        十時半\n       </time>\n       一行中ノ十数名ト製材工場ヲ一覧ス、株式組織ニシテ、当地商業会議所会頭\n       <persName corresp=\"#pers_グリツグス\">\n<surname>\n         グリツグス\n        </surname>\n</persName>\n       其社長ナリト云フ、規模宏大ナリ、利益モ饒多ナリト、土地ノ面積弐百エーカー余ニシテ数ケ所ノ貯木池アリ、動力ハ蒸気ニテ弐千五百馬力ヲ有スト云フ、大小種々ノ製材自由ナリ、畢テ再ヒ自働車ニテ木製水道管製造工場ヲ視ル、規模小ナレトモ工場ハ整頓セリ、製出ノ木管外部ハテールヲ塗ルモ、内ハ原質ノ儘ニテ五十年余保存スト\n       <pb corresp=\"#pageB1595\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/621/full/max/0/default.jpg\" n=\"B1595\" source=\"#pageB1595\"/>\n       云フ、一覧畢リテホテルニ帰リ休足ス、\n       <time when=\"13:30:00\">\n        午後一時半\n       </time>\n       市内ノ商業倶楽部ニ案内セラレテ午飧会アリ、食卓上主人側ノ挨拶ニ応シテ一場ノ食卓演説ヲ為ス、後、\n       <persName corresp=\"#pers_田中\">\n<surname>\n         田中\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_頭本\">\n<surname>\n         頭本\n        </surname>\n</persName>\n       二氏ト共ニ市長及倶楽部ノ副会長ノ自働車案内ニテ市街及公園其他ヲ遊覧ス、\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n       帰宿、\n       <time when=\"19:00:00\">\n        七時\n       </time>\n       ホテル・\n       <placeName corresp=\"#place_タコマ\">\n        タコマ\n       </placeName>\n       ニ於テ当地商業会議所ノ催ニ係ル宴会アリ、会頭グリツグス司会者トナリテ食卓上挨拶アリ、依テ答辞演説ヲ為ス、後、\n       <persName corresp=\"#pers_土居\">\n<surname>\n         土居\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_中橋\">\n<surname>\n         中橋\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_松方\">\n<surname>\n         松方\n        </surname>\n</persName>\n       等ノ演説アリテ\n       <placeName corresp=\"#place_アメリカ合衆国\">\n        米国\n       </placeName>\n       人ヨリ二人ノ演説アリ、\n       <time when-iso=\"1909-09-09T00:00+0900\">\n        十二時\n       </time>\n       散会、直ニ汽車ニ乗込、タコマヲ発ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10017m-0196\">\n<head>\n<date when=\"1909-09-08\">\n        九月八日\n       </date>\n       半晴　冷\n      </head>\n<p>\n<time when=\"06:30:00\">\n        午前六時半\n       </time>\n       起床、入浴シ畢テ支度ヲ整ヒ事務所ニ抵ル、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n<persName corresp=\"#pers_堀越善重郎\">\n<surname>\n         堀越\n        </surname>\n</persName>\n       夫妻其他ト共ニ朝飧シ、後、事務所ニ於テ当務ヲ協議ス、\n       <time when=\"10:30:00\">\n        十時半\n       </time>\n       一行中ノ十数名ト製材工場ヲ一覧ス、株式組織ニシテ、当地商業会議所会頭\n       <persName corresp=\"#pers_グリツグス\">\n<surname>\n         グリツグス\n        </surname>\n</persName>\n       其社長ナリト云フ、規模宏大ナリ、利益モ饒多ナリト、土地ノ面積弐百エーカー余ニシテ数ケ所ノ貯木池アリ、動力ハ蒸気ニテ弐千五百馬力ヲ有スト云フ、大小種々ノ製材自由ナリ、畢テ再ヒ自働車ニテ木製水道管製造工場ヲ視ル、規模小ナレトモ工場ハ整頓セリ、製出ノ木管外部ハテールヲ塗ルモ、内ハ原質ノ儘ニテ五十年余保存スト\n       <pb corresp=\"#pageB1595\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/621/full/max/0/default.jpg\" n=\"B1595\" source=\"#pageB1595\"/>\n       云フ、一覧畢リテホテルニ帰リ休足ス、\n       <time when=\"13:30:00\">\n        午後一時半\n       </time>\n       市内ノ商業倶楽部ニ案内セラレテ午飧会アリ、食卓上主人側ノ挨拶ニ応シテ一場ノ食卓演説ヲ為ス、後、\n       <persName corresp=\"#pers_田中\">\n<surname>\n         田中\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_頭本元貞\">\n<surname>\n         頭本\n        </surname>\n</persName>\n       二氏ト共ニ市長及倶楽部ノ副会長ノ自働車案内ニテ市街及公園其他ヲ遊覧ス、\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n       帰宿、\n       <time when=\"19:00:00\">\n        七時\n       </time>\n       ホテル・\n       <placeName corresp=\"#place_タコマ\">\n        タコマ\n       </placeName>\n       ニ於テ当地商業会議所ノ催ニ係ル宴会アリ、会頭グリツグス司会者トナリテ食卓上挨拶アリ、依テ答辞演説ヲ為ス、後、\n       <persName corresp=\"#pers_土居通夫\">\n<surname>\n         土居\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_中橋徳五郎\">\n<surname>\n         中橋\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_松方幸次郎\">\n<surname>\n         松方\n        </surname>\n</persName>\n       等ノ演説アリテ\n       <placeName corresp=\"#place_アメリカ合衆国\">\n        米国\n       </placeName>\n       人ヨリ二人ノ演説アリ、\n       <time when-iso=\"1909-09-09T00:00+0900\">\n        十二時\n       </time>\n       散会、直ニ汽車ニ乗込、タコマヲ発ス\n      </p>\n</div>",
     "year": "1909",
     "yearAndMonth": "1909-09"
 }

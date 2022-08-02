@@ -1,12 +1,21 @@
 {
     "agential": [
         "吉岡新五郎",
-        "元治",
+        "渋沢元治",
         "八十島",
         "穂積陳重",
-        "篤二",
+        "渋沢篤二",
         "佐々木勇之助",
         "山田喜之助"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/吉岡新五郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢元治",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/八十島",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/穂積陳重",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢篤二",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐々木勇之助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山田喜之助"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/145",
     "category": {
@@ -39,6 +48,14 @@
         "東京",
         "日本橋兜町"
     ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/大阪",
+        "https://shibusawa-dlab.github.io/lab1/api/place/神戸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/西京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/大韓民国",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
+    ],
     "temporal": "1900-01-04",
     "texts": [
         "DKB10008m-0169",
@@ -64,12 +81,12 @@
     ],
     "time": {
         "07:30:00": "<div>晴、<time when=\"07:30:00\">\n        午前七時半\n       </time>\n<persName corresp=\"#pers_吉岡新五郎\">\n<surname>\n         吉岡\n        </surname>\n<forename>\n         新五郎\n        </forename>\n</persName>\n       今日</div>",
-        "08:00:00": "<div><time when=\"08:00:00\">\n        八時\n       </time>\n       ノ汽車ニテ帰京スルニヨリ、昨夜書裁セシ\n       <placeName corresp=\"#place_大阪\">\n        大坂\n       </placeName>\n       、\n       <placeName corresp=\"#place_神戸\">\n        神戸\n       </placeName>\n       、\n       <placeName corresp=\"#place_西京\">\n        西京\n       </placeName>\n       及\n       <placeName corresp=\"#place_大韓民国\">\n        韓国\n       </placeName>\n       行ノ書状ヲ托シテ\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n       ニ於テ発送セシムル事トス、又来ル\n       <date when=\"1900-01-06\">\n        六日\n       </date>\n       ノ招宴ニ関シテ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       宅ヘ雑事ノ伝言ヲ為サシム、午後\n       <persName corresp=\"#pers_元治\">\n<forename>\n         元治\n        </forename>\n</persName>\n       来ル、\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n       留守宅\n       <persName corresp=\"#pers_八十島\">\n<surname>\n         八十島\n        </surname>\n</persName>\n       ヨリノ書状ヲ持参ス、諸方ヨリノ来状数通ヲ添ヘ来ル、中ニ\n       <persName corresp=\"#pers_穂積陳重\">\n<surname>\n         穂積\n        </surname>\n<forename>\n         陳重\n        </forename>\n</persName>\n       、男\n       <persName corresp=\"#pers_篤二\">\n<forename>\n         篤二\n        </forename>\n</persName>\n       ヨリ送来ノモノアリ夕、\n       <persName corresp=\"#pers_佐々木勇之助\">\n<surname>\n         佐々木\n        </surname>\n<forename>\n         勇之助\n        </forename>\n</persName>\n       氏より電報アリ、明\n       <date when=\"1900-01-05\">\n        五日\n       </date></div>",
+        "08:00:00": "<div><time when=\"08:00:00\">\n        八時\n       </time>\n       ノ汽車ニテ帰京スルニヨリ、昨夜書裁セシ\n       <placeName corresp=\"#place_大阪\">\n        大坂\n       </placeName>\n       、\n       <placeName corresp=\"#place_神戸\">\n        神戸\n       </placeName>\n       、\n       <placeName corresp=\"#place_西京\">\n        西京\n       </placeName>\n       及\n       <placeName corresp=\"#place_大韓民国\">\n        韓国\n       </placeName>\n       行ノ書状ヲ托シテ\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n       ニ於テ発送セシムル事トス、又来ル\n       <date when=\"1900-01-06\">\n        六日\n       </date>\n       ノ招宴ニ関シテ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       宅ヘ雑事ノ伝言ヲ為サシム、午後\n       <persName corresp=\"#pers_渋沢元治\">\n<forename>\n         元治\n        </forename>\n</persName>\n       来ル、\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n       留守宅\n       <persName corresp=\"#pers_八十島\">\n<surname>\n         八十島\n        </surname>\n</persName>\n       ヨリノ書状ヲ持参ス、諸方ヨリノ来状数通ヲ添ヘ来ル、中ニ\n       <persName corresp=\"#pers_穂積陳重\">\n<surname>\n         穂積\n        </surname>\n<forename>\n         陳重\n        </forename>\n</persName>\n       、男\n       <persName corresp=\"#pers_渋沢篤二\">\n<forename>\n         篤二\n        </forename>\n</persName>\n       ヨリ送来ノモノアリ夕、\n       <persName corresp=\"#pers_佐々木勇之助\">\n<surname>\n         佐々木\n        </surname>\n<forename>\n         勇之助\n        </forename>\n</persName>\n       氏より電報アリ、明\n       <date when=\"1900-01-05\">\n        五日\n       </date></div>",
         "16:00:00": "<div><time when=\"16:00:00\">\n        午後四時\n       </time>\n       迄ニ帰京セラレタキ旨通知アリ\n       <lb/>\n       此日モ数十葉ノ揮毫ヲ為ス、朝ハ有楽会規程ノ草案ヲ起稿ス、夜</div>",
         "24:00:00": "<div><time when-iso=\"1900-01-05T00:00+0900\">\n        十二時\n       </time>\n       寝ニ就ク\n       <lb/>\n       午後\n       <persName corresp=\"#pers_山田喜之助\">\n<surname>\n         山田\n        </surname>\n<forename>\n         喜之助\n        </forename>\n</persName>\n       氏来ル、蓋シ隣房ニ来寓スルヲ以テ訪問セラレシナリ</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10009m-0004\">\n<head>\n<date when=\"1900-01-04\">\n        一月四日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"07:30:00\">\n        午前七時半\n       </time>\n<persName corresp=\"#pers_吉岡新五郎\">\n<surname>\n         吉岡\n        </surname>\n<forename>\n         新五郎\n        </forename>\n</persName>\n       今日\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       ノ汽車ニテ帰京スルニヨリ、昨夜書裁セシ\n       <placeName corresp=\"#place_大阪\">\n        大坂\n       </placeName>\n       、\n       <placeName corresp=\"#place_神戸\">\n        神戸\n       </placeName>\n       、\n       <placeName corresp=\"#place_西京\">\n        西京\n       </placeName>\n       及\n       <placeName corresp=\"#place_大韓民国\">\n        韓国\n       </placeName>\n       行ノ書状ヲ托シテ\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n       ニ於テ発送セシムル事トス、又来ル\n       <date when=\"1900-01-06\">\n        六日\n       </date>\n       ノ招宴ニ関シテ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       宅ヘ雑事ノ伝言ヲ為サシム、午後\n       <persName corresp=\"#pers_元治\">\n<forename>\n         元治\n        </forename>\n</persName>\n       来ル、\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n       留守宅\n       <persName corresp=\"#pers_八十島\">\n<surname>\n         八十島\n        </surname>\n</persName>\n       ヨリノ書状ヲ持参ス、諸方ヨリノ来状数通ヲ添ヘ来ル、中ニ\n       <persName corresp=\"#pers_穂積陳重\">\n<surname>\n         穂積\n        </surname>\n<forename>\n         陳重\n        </forename>\n</persName>\n       、男\n       <persName corresp=\"#pers_篤二\">\n<forename>\n         篤二\n        </forename>\n</persName>\n       ヨリ送来ノモノアリ夕、\n       <persName corresp=\"#pers_佐々木勇之助\">\n<surname>\n         佐々木\n        </surname>\n<forename>\n         勇之助\n        </forename>\n</persName>\n       氏より電報アリ、明\n       <date when=\"1900-01-05\">\n        五日\n       </date>\n<time when=\"16:00:00\">\n        午後四時\n       </time>\n       迄ニ帰京セラレタキ旨通知アリ\n       <lb/>\n       此日モ数十葉ノ揮毫ヲ為ス、朝ハ有楽会規程ノ草案ヲ起稿ス、夜\n       <time when-iso=\"1900-01-05T00:00+0900\">\n        十二時\n       </time>\n       寝ニ就ク\n       <lb/>\n       午後\n       <persName corresp=\"#pers_山田喜之助\">\n<surname>\n         山田\n        </surname>\n<forename>\n         喜之助\n        </forename>\n</persName>\n       氏来ル、蓋シ隣房ニ来寓スルヲ以テ訪問セラレシナリ\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10009m-0004\">\n<head>\n<date when=\"1900-01-04\">\n        一月四日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"07:30:00\">\n        午前七時半\n       </time>\n<persName corresp=\"#pers_吉岡新五郎\">\n<surname>\n         吉岡\n        </surname>\n<forename>\n         新五郎\n        </forename>\n</persName>\n       今日\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       ノ汽車ニテ帰京スルニヨリ、昨夜書裁セシ\n       <placeName corresp=\"#place_大阪\">\n        大坂\n       </placeName>\n       、\n       <placeName corresp=\"#place_神戸\">\n        神戸\n       </placeName>\n       、\n       <placeName corresp=\"#place_西京\">\n        西京\n       </placeName>\n       及\n       <placeName corresp=\"#place_大韓民国\">\n        韓国\n       </placeName>\n       行ノ書状ヲ托シテ\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n       ニ於テ発送セシムル事トス、又来ル\n       <date when=\"1900-01-06\">\n        六日\n       </date>\n       ノ招宴ニ関シテ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       宅ヘ雑事ノ伝言ヲ為サシム、午後\n       <persName corresp=\"#pers_渋沢元治\">\n<forename>\n         元治\n        </forename>\n</persName>\n       来ル、\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n       留守宅\n       <persName corresp=\"#pers_八十島\">\n<surname>\n         八十島\n        </surname>\n</persName>\n       ヨリノ書状ヲ持参ス、諸方ヨリノ来状数通ヲ添ヘ来ル、中ニ\n       <persName corresp=\"#pers_穂積陳重\">\n<surname>\n         穂積\n        </surname>\n<forename>\n         陳重\n        </forename>\n</persName>\n       、男\n       <persName corresp=\"#pers_渋沢篤二\">\n<forename>\n         篤二\n        </forename>\n</persName>\n       ヨリ送来ノモノアリ夕、\n       <persName corresp=\"#pers_佐々木勇之助\">\n<surname>\n         佐々木\n        </surname>\n<forename>\n         勇之助\n        </forename>\n</persName>\n       氏より電報アリ、明\n       <date when=\"1900-01-05\">\n        五日\n       </date>\n<time when=\"16:00:00\">\n        午後四時\n       </time>\n       迄ニ帰京セラレタキ旨通知アリ\n       <lb/>\n       此日モ数十葉ノ揮毫ヲ為ス、朝ハ有楽会規程ノ草案ヲ起稿ス、夜\n       <time when-iso=\"1900-01-05T00:00+0900\">\n        十二時\n       </time>\n       寝ニ就ク\n       <lb/>\n       午後\n       <persName corresp=\"#pers_山田喜之助\">\n<surname>\n         山田\n        </surname>\n<forename>\n         喜之助\n        </forename>\n</persName>\n       氏来ル、蓋シ隣房ニ来寓スルヲ以テ訪問セラレシナリ\n      </p>\n</div>",
     "year": "1900",
     "yearAndMonth": "1900-01"
 }

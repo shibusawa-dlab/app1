@@ -4,6 +4,11 @@
         "諸井恒平",
         "指田"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/今西兼二",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/諸井恒平",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/指田"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1510",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -19,7 +24,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-05",
     "date_lvl2": "1926-05-04",
-    "description": "\n\n\n           四日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n\n\n              今西\n             \n\n              兼二\n             \n\n            氏来約（\n            \n             王子\n            \n            ）\n           \n\n\n\n\n\n              諸井\n             \n\n              恒平\n             \n\n            氏来約（\n            \n             王子\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            事ム所ニ御出勤\n           \n\n\n\n\n             午後二半時\n            \n\n\n              指田\n             \n\n            氏邸茶話会（青山\n            \n             原宿\n            \n            同邸）\n           \n\n\n\n\n             午后五半時\n            \n\n             養徳\n            \n            院殿七周忌、\n            \n             上野精養軒\n            \n            ヘ御出席\n           \n\n\n",
+    "description": "\n\n\n           四日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n\n\n              今西\n             \n\n              兼二\n             \n\n            氏来約（\n            \n             王子\n            \n            ）\n           \n\n\n\n\n\n              諸井\n             \n\n              恒平\n             \n\n            氏来約（\n            \n             王子\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            事ム所ニ御出勤\n           \n\n\n\n\n             午後二半時\n            \n\n\n              指田\n             \n\n            氏邸茶話会（青山\n            \n             原宿\n            \n            同邸）\n           \n\n\n\n\n             午后五半時\n            \n            養徳院殿七周忌、\n            \n             上野\n            \n\n             精養軒\n            \n            ヘ御出席\n           \n\n\n",
     "label": "四日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0125",
@@ -30,8 +35,12 @@
     "spatial": [
         "王子",
         "原宿",
-        "養徳",
-        "上野精養軒"
+        "上野"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子",
+        "https://shibusawa-dlab.github.io/lab1/api/place/原宿",
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
     ],
     "temporal": "1926-05-04",
     "texts": [
@@ -60,7 +69,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_今西兼二\">\n<surname>\n              今西\n             </surname>\n<forename>\n              兼二\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0124\">\n<head>\n<date when=\"1926-05-04\">\n           四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_今西兼二\">\n<surname>\n              今西\n             </surname>\n<forename>\n              兼二\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<persName corresp=\"#pers_諸井恒平\">\n<surname>\n              諸井\n             </surname>\n<forename>\n              恒平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            事ム所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<persName corresp=\"#pers_指田\">\n<surname>\n              指田\n             </surname>\n</persName>\n            氏邸茶話会（青山\n            <placeName corresp=\"#place_原宿\">\n             原宿\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午后五半時\n            </time>\n<placeName corresp=\"#place_養徳\">\n             養徳\n            </placeName>\n            院殿七周忌、\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ヘ御出席\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0124\">\n<head>\n<date when=\"1926-05-04\">\n           四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_今西兼二\">\n<surname>\n              今西\n             </surname>\n<forename>\n              兼二\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<persName corresp=\"#pers_諸井恒平\">\n<surname>\n              諸井\n             </surname>\n<forename>\n              恒平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            事ム所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<persName corresp=\"#pers_指田\">\n<surname>\n              指田\n             </surname>\n</persName>\n            氏邸茶話会（青山\n            <placeName corresp=\"#place_原宿\">\n             原宿\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午后五半時\n            </time>\n            養徳院殿七周忌、\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ヘ御出席\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-05"
 }

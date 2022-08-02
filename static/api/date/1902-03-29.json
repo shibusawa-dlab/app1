@@ -5,6 +5,12 @@
         "山本",
         "小松宮"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浦田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/安達",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山本",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小松宮"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/254",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -32,7 +38,13 @@
         "飯田町",
         "井ノ頭",
         "日本橋兜町",
-        "王子別荘"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飯田町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/井ノ頭",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1902-03-29",
     "texts": [
@@ -60,10 +72,10 @@
     "time": {
         "07:00:00": "<div>晴、<time when=\"07:00:00\">\n        午前七時\n       </time>\n<placeName corresp=\"#place_飯田町\">\n        飯田町\n       </placeName>\n       汽車ニテ\n       <placeName corresp=\"#place_井ノ頭\">\n        井ノ頭\n       </placeName>\n       御料地ヲ一覧ス、\n       <persName corresp=\"#pers_浦田\">\n<surname>\n         浦田\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_安達\">\n<surname>\n         安達\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_山本\">\n<surname>\n         山本\n        </surname>\n</persName>\n       其他諸氏同伴ス、</div>",
         "13:00:00": "<div><time when=\"13:00:00\">\n        午後一時\n       </time>\n       帰京、直ニ華族会館ニ抵リ海事協会評議員会ニ列ス、畢テ\n       <persName corresp=\"#pers_小松宮\">\n        小松宮\n       </persName>\n       殿下ノ園遊会ニ参列シ、</div>",
-        "16:00:00": "<div><time when=\"16:00:00\">\n        四時\n       </time>\n       過\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵ル、数多ノ来人ニ接シ且書類ヲ整理ス、午後\n       <orgName>\n        第一銀行\n       </orgName>\n       新築ヲ一覧ス夕方\n       <placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
+        "16:00:00": "<div><time when=\"16:00:00\">\n        四時\n       </time>\n       過\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵ル、数多ノ来人ニ接シ且書類ヲ整理ス、午後\n       <orgName>\n        第一銀行\n       </orgName>\n       新築ヲ一覧ス夕方\n       <placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10010m-0265\">\n<head>\n<date when=\"1902-03-29\">\n        三月廿九日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"07:00:00\">\n        午前七時\n       </time>\n<placeName corresp=\"#place_飯田町\">\n        飯田町\n       </placeName>\n       汽車ニテ\n       <placeName corresp=\"#place_井ノ頭\">\n        井ノ頭\n       </placeName>\n       御料地ヲ一覧ス、\n       <persName corresp=\"#pers_浦田\">\n<surname>\n         浦田\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_安達\">\n<surname>\n         安達\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_山本\">\n<surname>\n         山本\n        </surname>\n</persName>\n       其他諸氏同伴ス、\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n       帰京、直ニ華族会館ニ抵リ海事協会評議員会ニ列ス、畢テ\n       <persName corresp=\"#pers_小松宮\">\n        小松宮\n       </persName>\n       殿下ノ園遊会ニ参列シ、\n       <time when=\"16:00:00\">\n        四時\n       </time>\n       過\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵ル、数多ノ来人ニ接シ且書類ヲ整理ス、午後\n       <orgName>\n        第一銀行\n       </orgName>\n       新築ヲ一覧ス夕方\n       <placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10010m-0265\">\n<head>\n<date when=\"1902-03-29\">\n        三月廿九日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"07:00:00\">\n        午前七時\n       </time>\n<placeName corresp=\"#place_飯田町\">\n        飯田町\n       </placeName>\n       汽車ニテ\n       <placeName corresp=\"#place_井ノ頭\">\n        井ノ頭\n       </placeName>\n       御料地ヲ一覧ス、\n       <persName corresp=\"#pers_浦田\">\n<surname>\n         浦田\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_安達\">\n<surname>\n         安達\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_山本\">\n<surname>\n         山本\n        </surname>\n</persName>\n       其他諸氏同伴ス、\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n       帰京、直ニ華族会館ニ抵リ海事協会評議員会ニ列ス、畢テ\n       <persName corresp=\"#pers_小松宮\">\n        小松宮\n       </persName>\n       殿下ノ園遊会ニ参列シ、\n       <time when=\"16:00:00\">\n        四時\n       </time>\n       過\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵ル、数多ノ来人ニ接シ且書類ヲ整理ス、午後\n       <orgName>\n        第一銀行\n       </orgName>\n       新築ヲ一覧ス夕方\n       <placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1902",
     "yearAndMonth": "1902-03"
 }

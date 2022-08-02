@@ -1,7 +1,9 @@
 {
     "agential": [
-        "伊藤登喜造",
-        "澄"
+        "伊藤登喜造"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/伊藤登喜造"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1402",
     "category": {
@@ -18,7 +20,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-09",
     "date_lvl2": "1922-09-08",
-    "description": "\n\n\n           八日\n          \n          （金）\n         \n\n\n\n\n             午前八―九時\n            \n\n\n              伊藤\n             \n\n              登喜造\n             \n\n            氏御葬儀告別式（\n            \n             溜池\n            \n\n\n              澄\n             \n\n            泉寺）\n           \n\n\n\n\n             午後四時\n            \n            エデー氏招待茶会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n            帰一協会催エデイ博士招待会（如水会館）\n           \n\n\n",
+    "description": "\n\n\n           八日\n          \n          （金）\n         \n\n\n\n\n             午前八―九時\n            \n\n\n              伊藤\n             \n\n              登喜造\n             \n\n            氏御葬儀告別式（\n            \n             溜池\n            \n            澄泉寺）\n           \n\n\n\n\n             午後四時\n            \n            エデー氏招待茶会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n            帰一協会催エデイ博士招待会（如水会館）\n           \n\n\n",
     "label": "八日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0213",
@@ -29,6 +31,10 @@
     "spatial": [
         "溜池",
         "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/溜池",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1922-09-08",
     "texts": [
@@ -55,7 +61,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0212\">\n<head>\n<date when=\"1922-09-08\">\n           八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"09:00:00\">\n             午前八―九時\n            </time>\n<persName corresp=\"#pers_伊藤登喜造\">\n<surname>\n              伊藤\n             </surname>\n<forename>\n              登喜造\n             </forename>\n</persName>\n            氏御葬儀告別式（\n            <placeName corresp=\"#place_溜池\">\n             溜池\n            </placeName>\n<persName corresp=\"#pers_澄\">\n<forename>\n              澄\n             </forename>\n</persName>\n            泉寺）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            エデー氏招待茶会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            帰一協会催エデイ博士招待会（如水会館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0212\">\n<head>\n<date when=\"1922-09-08\">\n           八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"09:00:00\">\n             午前八―九時\n            </time>\n<persName corresp=\"#pers_伊藤登喜造\">\n<surname>\n              伊藤\n             </surname>\n<forename>\n              登喜造\n             </forename>\n</persName>\n            氏御葬儀告別式（\n            <placeName corresp=\"#place_溜池\">\n             溜池\n            </placeName>\n            澄泉寺）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            エデー氏招待茶会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            帰一協会催エデイ博士招待会（如水会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-09"
 }

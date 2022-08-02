@@ -1,8 +1,17 @@
 {
     "agential": [
+        "大森",
+        "平井",
         "倉知鉄吉",
         "高木舜",
         "川澄明敏"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大森",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/平井",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/倉知鉄吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高木舜",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/川澄明敏"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1226",
     "category": {
@@ -19,7 +28,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-01",
     "date_lvl2": "1917-01-23",
-    "description": "\n\n\n           廿三日\n          \n          （火）\n         \n\n\n\n\n             午前中\n            \n\n             大森\n            \n            男爵御訪問（皇后宮職）\n           \n\n\n\n\n             午前十時\n            \n\n             日本\n            \n            女子大学校ヘ御出向\n           \n\n\n\n\n             午後一時\n            \n\n             平井\n            \n            博士来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二―午後三時\n            \n\n             長岡\n            \n            中将来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三―午後四時\n            \n\n\n              倉知\n             \n\n              鉄吉\n             \n\n            氏来ル（〃）\n           \n\n\n\n\n             午後三半時\n            \n\n\n              高木\n             \n\n              舜\n             \n\n            三氏同（同）\n           \n\n\n\n\n             午後四時\n            \n\n\n              川澄\n             \n\n              明敏\n             \n\n            氏（日曜学校）来（〃）\n           \n\n\n",
+    "description": "\n\n\n           廿三日\n          \n          （火）\n         \n\n\n\n\n             午前中\n            \n\n\n              大森\n             \n\n            男爵御訪問（皇后宮職）\n           \n\n\n\n\n             午前十時\n            \n\n             日本女子大学校\n            \n            ヘ御出向\n           \n\n\n\n\n             午後一時\n            \n\n\n              平井\n             \n\n            博士来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二―午後三時\n            \n\n             長岡\n            \n            中将来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三―午後四時\n            \n\n\n              倉知\n             \n\n              鉄吉\n             \n\n            氏来ル（〃）\n           \n\n\n\n\n             午後三半時\n            \n\n\n              高木\n             \n\n              舜\n             \n\n            三氏同（同）\n           \n\n\n\n\n             午後四時\n            \n\n\n              川澄\n             \n\n              明敏\n             \n\n            氏（日曜学校）来（〃）\n           \n\n\n",
     "label": "廿三日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0024",
@@ -28,11 +37,12 @@
     "sort": "DKB20019m-0023",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "大森",
-        "日本",
-        "平井",
         "日本橋兜町",
         "長岡"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/長岡"
     ],
     "temporal": "1917-01-23",
     "texts": [
@@ -59,7 +69,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0023\">\n<head>\n<date when=\"1917-01-23\">\n           廿三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前中\n            </time>\n<placeName corresp=\"#place_大森\">\n             大森\n            </placeName>\n            男爵御訪問（皇后宮職）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            女子大学校ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_平井\">\n             平井\n            </placeName>\n            博士来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―午後三時\n            </time>\n<placeName corresp=\"#place_長岡\">\n             長岡\n            </placeName>\n            中将来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―午後四時\n            </time>\n<persName corresp=\"#pers_倉知鉄吉\">\n<surname>\n              倉知\n             </surname>\n<forename>\n              鉄吉\n             </forename>\n</persName>\n            氏来ル（〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n<persName corresp=\"#pers_高木舜\">\n<surname>\n              高木\n             </surname>\n<forename>\n              舜\n             </forename>\n</persName>\n            三氏同（同）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_川澄明敏\">\n<surname>\n              川澄\n             </surname>\n<forename>\n              明敏\n             </forename>\n</persName>\n            氏（日曜学校）来（〃）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0023\">\n<head>\n<date when=\"1917-01-23\">\n           廿三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前中\n            </time>\n<persName corresp=\"#pers_大森\">\n<surname>\n              大森\n             </surname>\n</persName>\n            男爵御訪問（皇后宮職）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             日本女子大学校\n            </orgName>\n            ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_平井\">\n<surname>\n              平井\n             </surname>\n</persName>\n            博士来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―午後三時\n            </time>\n<placeName corresp=\"#place_長岡\">\n             長岡\n            </placeName>\n            中将来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―午後四時\n            </time>\n<persName corresp=\"#pers_倉知鉄吉\">\n<surname>\n              倉知\n             </surname>\n<forename>\n              鉄吉\n             </forename>\n</persName>\n            氏来ル（〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n<persName corresp=\"#pers_高木舜\">\n<surname>\n              高木\n             </surname>\n<forename>\n              舜\n             </forename>\n</persName>\n            三氏同（同）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_川澄明敏\">\n<surname>\n              川澄\n             </surname>\n<forename>\n              明敏\n             </forename>\n</persName>\n            氏（日曜学校）来（〃）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-01"
 }

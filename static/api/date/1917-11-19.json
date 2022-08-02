@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1252",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-11",
     "date_lvl2": "1917-11-19",
-    "description": "\n\n\n           十九日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n            理化学研究所理事会（同所）\n           \n\n\n\n\n             午後七時\n            \n\n             霊南坂\n            \n            教会実業家大会\n           \n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n            理化学研究所理事会（同所）\n           \n\n\n\n\n             午後七時\n            \n            霊南坂教会実業家大会\n           \n\n\n",
     "label": "十九日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0300",
@@ -23,9 +24,8 @@
     "prev": "DKB20019m-0298",
     "sort": "DKB20019m-0299",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "霊南坂"
-    ],
+    "spatial": [],
+    "spatial_uri": [],
     "temporal": "1917-11-19",
     "texts": [
         "DKB20023m-0014",
@@ -53,7 +53,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            理化学研究所理事会（同所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0299\">\n<head>\n<date when=\"1917-11-19\">\n           十九日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            理化学研究所理事会（同所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n<placeName corresp=\"#place_霊南坂\">\n             霊南坂\n            </placeName>\n            教会実業家大会\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0299\">\n<head>\n<date when=\"1917-11-19\">\n           十九日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            理化学研究所理事会（同所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            霊南坂教会実業家大会\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-11"
 }

@@ -4,6 +4,11 @@
         "黒岩周六",
         "中野武営"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/長越寿三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/黒岩周六",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中野武営"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1219",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -19,7 +24,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-11",
     "date_lvl2": "1916-11-09",
-    "description": "\n\n\n           九日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n            信明社\n            \n\n              長越\n             \n\n              寿三郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n\n              黒岩\n             \n\n              周六\n             \n\n            氏来約（第一銀行）\n           \n\n\n\n\n             午後五時\n            \n\n\n              中野\n             \n\n              武営\n             \n\n            氏ヨリ御案内（\n            \n             東京\n            \n            商業会議所）\n           \n\n\n",
+    "description": "\n\n\n           九日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n            信明社\n            \n\n              長越\n             \n\n              寿三郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n\n              黒岩\n             \n\n              周六\n             \n\n            氏来約（\n            \n             第一銀行\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              中野\n             \n\n              武営\n             \n\n            氏ヨリ御案内（東京商業会議所）\n           \n\n\n",
     "label": "九日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0296",
@@ -28,8 +33,10 @@
     "sort": "DKB20018m-0295",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
-        "東京"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1916-11-09",
     "texts": [
@@ -58,7 +65,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            信明社\n            <persName corresp=\"#pers_長越寿三郎\">\n<surname>\n              長越\n             </surname>\n<forename>\n              寿三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0295\">\n<head>\n<date when=\"1916-11-09\">\n           九日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            信明社\n            <persName corresp=\"#pers_長越寿三郎\">\n<surname>\n              長越\n             </surname>\n<forename>\n              寿三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_黒岩周六\">\n<surname>\n              黒岩\n             </surname>\n<forename>\n              周六\n             </forename>\n</persName>\n            氏来約（第一銀行）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_中野武営\">\n<surname>\n              中野\n             </surname>\n<forename>\n              武営\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商業会議所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0295\">\n<head>\n<date when=\"1916-11-09\">\n           九日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            信明社\n            <persName corresp=\"#pers_長越寿三郎\">\n<surname>\n              長越\n             </surname>\n<forename>\n              寿三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_黒岩周六\">\n<surname>\n              黒岩\n             </surname>\n<forename>\n              周六\n             </forename>\n</persName>\n            氏来約（\n            <orgName>\n             第一銀行\n            </orgName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_中野武営\">\n<surname>\n              中野\n             </surname>\n<forename>\n              武営\n             </forename>\n</persName>\n            氏ヨリ御案内（東京商業会議所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-11"
 }

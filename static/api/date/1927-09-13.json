@@ -1,10 +1,15 @@
 {
     "agential": [
         "乃木",
-        "脇",
         "安藤義喬",
         "安東義喬",
         "藤山"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/乃木",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/安藤義喬",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/安東義喬",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/藤山"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1555",
     "category": {
@@ -21,7 +26,7 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-09",
     "date_lvl2": "1927-09-13",
-    "description": "\n\n\n           十三日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n\n\n              乃木\n             \n\n            神社大祭（同神社\n            \n\n              脇\n             \n\n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              安藤\n             \n\n              義喬\n             \n\n            氏来約《（\n            \n\n              安東\n             \n\n              義喬\n             \n\n            氏）》（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午時\n            \n\n             東京\n            \n            市養育院ヘ御出向\n           \n\n\n\n\n             午后一時\n            \n\n\n              藤山\n             \n\n            工業図書館開館式\n            \n             芝\n            \n\n             白金台\n            \n            町同邸\n           \n\n\n\n\n             午後三・四〇時\n            \n            御出勤\n           \n\n\n\n\n             午後四時\n            \n            雨夜譚会（事務所）\n           \n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n\n\n              乃木\n             \n\n            神社大祭（同神社脇）\n           \n\n\n\n\n             午前九時\n            \n\n\n              安藤\n             \n\n              義喬\n             \n\n            氏来約《（\n            \n\n              安東\n             \n\n              義喬\n             \n\n            氏）》（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午時\n            \n\n             東京\n            \n            市養育院ヘ御出向\n           \n\n\n\n\n             午后一時\n            \n\n\n              藤山\n             \n\n            工業図書館開館式\n            \n             芝\n            \n\n             白金台\n            \n            町同邸\n           \n\n\n\n\n             午後三・四〇時\n            \n            御出勤\n           \n\n\n\n\n             午後四時\n            \n            雨夜譚会（事務所）\n           \n\n\n",
     "label": "十三日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0230",
@@ -30,10 +35,16 @@
     "sort": "DKB20029m-0229",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
+        "飛鳥山邸",
         "東京",
         "芝",
         "白金台"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/芝",
+        "https://shibusawa-dlab.github.io/lab1/api/place/白金台"
     ],
     "temporal": "1927-09-13",
     "texts": [
@@ -59,10 +70,10 @@
         "DKB20032m-0136"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_乃木\">\n<surname>\n              乃木\n             </surname>\n</persName>\n            神社大祭（同神社\n            <persName corresp=\"#pers_脇\">\n<surname>\n              脇\n             </surname>\n</persName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_乃木\">\n<surname>\n              乃木\n             </surname>\n</persName>\n            神社大祭（同神社脇）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0229\">\n<head>\n<date when=\"1927-09-13\">\n           十三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_乃木\">\n<surname>\n              乃木\n             </surname>\n</persName>\n            神社大祭（同神社\n            <persName corresp=\"#pers_脇\">\n<surname>\n              脇\n             </surname>\n</persName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_安藤義喬\">\n<surname>\n              安藤\n             </surname>\n<forename>\n              義喬\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_安東義喬\">\n<surname>\n              安東\n             </surname>\n<forename>\n              義喬\n             </forename>\n</persName>\n            氏）》（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n<persName corresp=\"#pers_藤山\">\n<surname>\n              藤山\n             </surname>\n</persName>\n            工業図書館開館式\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n<placeName corresp=\"#place_白金台\">\n             白金台\n            </placeName>\n            町同邸\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:40:00\">\n             午後三・四〇時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            雨夜譚会（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0229\">\n<head>\n<date when=\"1927-09-13\">\n           十三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_乃木\">\n<surname>\n              乃木\n             </surname>\n</persName>\n            神社大祭（同神社脇）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_安藤義喬\">\n<surname>\n              安藤\n             </surname>\n<forename>\n              義喬\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_安東義喬\">\n<surname>\n              安東\n             </surname>\n<forename>\n              義喬\n             </forename>\n</persName>\n            氏）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n<persName corresp=\"#pers_藤山\">\n<surname>\n              藤山\n             </surname>\n</persName>\n            工業図書館開館式\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n<placeName corresp=\"#place_白金台\">\n             白金台\n            </placeName>\n            町同邸\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:40:00\">\n             午後三・四〇時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            雨夜譚会（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-09"
 }

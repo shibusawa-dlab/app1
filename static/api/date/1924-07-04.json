@@ -1,7 +1,13 @@
 {
     "agential": [
+        "團琢磨",
         "児玉謙次",
-        "忠雄"
+        "蘆川忠雄"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/團琢磨",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/児玉謙次",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/蘆川忠雄"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1470",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-07",
     "date_lvl2": "1924-07-04",
-    "description": "\n\n\n           四日\n          \n          （金）\n         \n\n\n\n\n             午後一時\n            \n            団琢磨氏来約（事務所）\n           \n\n\n\n\n             午後二時\n            \n\n\n              児玉\n             \n\n              謙次\n             \n\n            氏来約（事ム所）\n           \n\n\n\n\n             午後三時\n            \n            蘆川\n            \n\n              忠雄\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後六時\n            \n            日米関係委員会（\n            \n             日本\n            \n            倶楽部）\n           \n\n\n",
+    "description": "\n\n\n           四日\n          \n          （金）\n         \n\n\n\n\n             午後一時\n            \n\n\n              団\n             \n\n              琢磨\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後二時\n            \n\n\n              児玉\n             \n\n              謙次\n             \n\n            氏来約（事ム所）\n           \n\n\n\n\n             午後三時\n            \n\n\n              蘆川\n             \n\n              忠雄\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後六時\n            \n            日米関係委員会（\n            \n             日本\n            \n            倶楽部）\n           \n\n\n",
     "label": "四日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0192",
@@ -28,6 +34,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本"
     ],
     "temporal": "1924-07-04",
     "texts": [
@@ -53,10 +62,10 @@
         "DKB20019m-0079"
     ],
     "time": {
-        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n            団琢磨氏来約（事務所）</div>"
+        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_團琢磨\">\n<surname>\n              団\n             </surname>\n<forename>\n              琢磨\n             </forename>\n</persName>\n            氏来約（事務所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0191\">\n<head>\n<date when=\"1924-07-04\">\n           四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            団琢磨氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_児玉謙次\">\n<surname>\n              児玉\n             </surname>\n<forename>\n              謙次\n             </forename>\n</persName>\n            氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            蘆川\n            <persName corresp=\"#pers_忠雄\">\n<forename>\n              忠雄\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            日米関係委員会（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            倶楽部）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0191\">\n<head>\n<date when=\"1924-07-04\">\n           四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_團琢磨\">\n<surname>\n              団\n             </surname>\n<forename>\n              琢磨\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_児玉謙次\">\n<surname>\n              児玉\n             </surname>\n<forename>\n              謙次\n             </forename>\n</persName>\n            氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_蘆川忠雄\">\n<surname>\n              蘆川\n             </surname>\n<forename>\n              忠雄\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            日米関係委員会（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            倶楽部）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-07"
 }

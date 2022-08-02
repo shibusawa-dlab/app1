@@ -4,6 +4,11 @@
         "岡本",
         "徳川"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/島岡",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡本",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1287",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -28,7 +33,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸",
-        "第六天"
+        "第六天町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/第六天町"
     ],
     "temporal": "1918-12-31",
     "texts": [
@@ -57,7 +66,7 @@
         "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_島岡\">\n<surname>\n              島岡\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_岡本\">\n<surname>\n              岡本\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0344\">\n<head>\n<date when=\"1918-12-31\">\n           卅一日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_島岡\">\n<surname>\n              島岡\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_岡本\">\n<surname>\n              岡本\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0344\">\n<head>\n<date when=\"1918-12-31\">\n           卅一日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_島岡\">\n<surname>\n              島岡\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_岡本\">\n<surname>\n              岡本\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_第六天町\">\n             第六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-12"
 }

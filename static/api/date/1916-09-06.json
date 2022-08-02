@@ -1,6 +1,11 @@
 {
     "agential": [
-        "三井八郎右衛門"
+        "三井八郎右衛門",
+        "エルバート_ヘンリー_ゲーリー"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/三井八郎右衛門",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/エルバート_ヘンリー_ゲーリー"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1214",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-09",
     "date_lvl2": "1916-09-06",
-    "description": "\n\n\n           六日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n            米価調節調査会御出向（農商務省）\n           \n\n\n\n\n             午前十一時\n            \n            日仏銀行相談会（同銀行）\n           \n\n\n\n\n             正午\n            \n\n\n              三井\n             \n\n              八郎右衛門\n             \n\n            男ヨリ御案内（\n            \n             三田\n            \n\n             綱町\n            \n            三井別邸）令夫人共\n           \n\n\n\n\n             午後六時\n            \n            ヂヤツジ・エルバート、エツチ・ゲーリー氏歓迎会（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           六日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n            米価調節調査会御出向（農商務省）\n           \n\n\n\n\n             午前十一時\n            \n            日仏銀行相談会（同銀行）\n           \n\n\n\n\n             正午\n            \n\n\n              三井\n             \n\n              八郎右衛門\n             \n\n            男ヨリ御案内（\n            \n             三田\n            \n\n             綱町\n            \n            三井別邸）令夫人共\n           \n\n\n\n\n             午後六時\n            \n            ヂヤツジ・\n            \n\n              エルバート、エツチ\n             \n             ・\n             \n              ゲーリー\n             \n\n            氏歓迎会（\n            \n             上野\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
     "label": "六日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0231",
@@ -28,7 +33,12 @@
     "spatial": [
         "三田",
         "綱町",
-        "上野精養軒"
+        "上野"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/三田",
+        "https://shibusawa-dlab.github.io/lab1/api/place/綱町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
     ],
     "temporal": "1916-09-06",
     "texts": [
@@ -57,7 +67,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            米価調節調査会御出向（農商務省）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0230\">\n<head>\n<date when=\"1916-09-06\">\n           六日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            米価調節調査会御出向（農商務省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            日仏銀行相談会（同銀行）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_三井八郎右衛門\">\n<surname>\n              三井\n             </surname>\n<forename>\n              八郎右衛門\n             </forename>\n</persName>\n            男ヨリ御案内（\n            <placeName corresp=\"#place_三田\">\n             三田\n            </placeName>\n<placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            三井別邸）令夫人共\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            ヂヤツジ・エルバート、エツチ・ゲーリー氏歓迎会（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0230\">\n<head>\n<date when=\"1916-09-06\">\n           六日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            米価調節調査会御出向（農商務省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            日仏銀行相談会（同銀行）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_三井八郎右衛門\">\n<surname>\n              三井\n             </surname>\n<forename>\n              八郎右衛門\n             </forename>\n</persName>\n            男ヨリ御案内（\n            <placeName corresp=\"#place_三田\">\n             三田\n            </placeName>\n<placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            三井別邸）令夫人共\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            ヂヤツジ・\n            <persName corresp=\"#pers_エルバート_ヘンリー_ゲーリー\">\n<forename>\n              エルバート、エツチ\n             </forename>\n             ・\n             <surname>\n              ゲーリー\n             </surname>\n</persName>\n            氏歓迎会（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-09"
 }

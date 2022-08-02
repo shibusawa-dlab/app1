@@ -2,6 +2,9 @@
     "agential": [
         "石野"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/石野"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1167",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-10",
     "date_lvl2": "1914-10-16",
-    "description": "\n\n\n           十六日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n\n             東亜\n            \n            興業臨時総会（同社）\n           \n\n\n\n\n             午前十一―十二時\n            \n\n             福岡\n            \n            県\n            \n\n              石野\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n             東京\n            \n            瓦斯無名会ノ件（華族会館）\n           \n\n\n",
+    "description": "\n\n\n           十六日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n            東亜興業臨時総会（同社）\n           \n\n\n\n\n             午前十一―十二時\n            \n\n             福岡\n            \n            県\n            \n\n              石野\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            東京瓦斯無名会ノ件（華族会館）\n           \n\n\n",
     "label": "十六日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20016m-0032",
@@ -26,10 +29,12 @@
     "sort": "DKB20016m-0031",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "東亜",
         "福岡",
-        "日本橋兜町",
-        "東京"
+        "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/福岡",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1914-10-16",
     "texts": [
@@ -55,10 +60,10 @@
         "DKB20021m-0158"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_東亜\">\n             東亜\n            </placeName>\n            興業臨時総会（同社）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            東亜興業臨時総会（同社）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0031\">\n<head>\n<date when=\"1914-10-16\">\n           十六日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_東亜\">\n             東亜\n            </placeName>\n            興業臨時総会（同社）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"11:00:00\" to=\"12:00:00\">\n             午前十一―十二時\n            </time>\n<placeName corresp=\"#place_福岡\">\n             福岡\n            </placeName>\n            県\n            <persName corresp=\"#pers_石野\">\n<surname>\n              石野\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            瓦斯無名会ノ件（華族会館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0031\">\n<head>\n<date when=\"1914-10-16\">\n           十六日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            東亜興業臨時総会（同社）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"11:00:00\" to=\"12:00:00\">\n             午前十一―十二時\n            </time>\n<placeName corresp=\"#place_福岡\">\n             福岡\n            </placeName>\n            県\n            <persName corresp=\"#pers_石野\">\n<surname>\n              石野\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            東京瓦斯無名会ノ件（華族会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-10"
 }

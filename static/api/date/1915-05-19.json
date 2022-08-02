@@ -3,6 +3,10 @@
         "木下英太郎",
         "横山章"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/木下英太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/横山章"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1183",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,7 +22,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-05",
     "date_lvl2": "1915-05-19",
-    "description": "\n\n\n           十九日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n            女子大学ヘ御出向\n           \n\n\n\n\n             午前十一時\n            \n\n\n              木下\n             \n\n              英太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一半時\n            \n            慈恵会総会（同会）\n           \n\n\n\n\n             午後五時\n            \n\n\n              横山\n             \n\n              章\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n\n\n             午時\n            \n            帰一協会例会（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n            女子大学ヘ御出向\n           \n\n\n\n\n             午前十一時\n            \n\n\n              木下\n             \n\n              英太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一半時\n            \n            慈恵会総会（同会）\n           \n\n\n\n\n             午後五時\n            \n\n\n              横山\n             \n\n              章\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n\n\n             午時\n            \n            帰一協会例会（\n            \n             上野\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
     "label": "十九日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0130",
@@ -28,7 +32,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町",
-        "上野精養軒"
+        "上野"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
     ],
     "temporal": "1915-05-19",
     "texts": [
@@ -57,7 +65,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            女子大学ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0129\">\n<head>\n<date when=\"1915-05-19\">\n           十九日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            女子大学ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_木下英太郎\">\n<surname>\n              木下\n             </surname>\n<forename>\n              英太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n            慈恵会総会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_横山章\">\n<surname>\n              横山\n             </surname>\n<forename>\n              章\n             </forename>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            帰一協会例会（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0129\">\n<head>\n<date when=\"1915-05-19\">\n           十九日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            女子大学ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_木下英太郎\">\n<surname>\n              木下\n             </surname>\n<forename>\n              英太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n            慈恵会総会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_横山章\">\n<surname>\n              横山\n             </surname>\n<forename>\n              章\n             </forename>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            帰一協会例会（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-05"
 }

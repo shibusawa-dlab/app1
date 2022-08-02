@@ -8,6 +8,15 @@
         "大岡",
         "添田"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢治太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/斎藤",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高橋",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/清浦",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大岡",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/添田"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1304",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -32,7 +41,10 @@
     "sort": "DKB20021m-0170",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1919-07-15",
     "texts": [
@@ -58,10 +70,10 @@
         "DKB20021m-0318"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_渋沢治太郎\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              治太郎\n             </forename>\n</persName>\n            氏、\n            <persName corresp=\"#pers_斎藤\">\n<surname>\n              斎藤\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_渋沢治太郎\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              治太郎\n             </forename>\n</persName>\n            氏、\n            <persName corresp=\"#pers_斎藤\">\n<surname>\n              斎藤\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0170\">\n<head>\n<date when=\"1919-07-15\">\n           十五日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_渋沢治太郎\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              治太郎\n             </forename>\n</persName>\n            氏、\n            <persName corresp=\"#pers_斎藤\">\n<surname>\n              斎藤\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_高橋\">\n<surname>\n              高橋\n             </surname>\n</persName>\n            蔵相御訪問ノ約（首相官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n<persName corresp=\"#pers_清浦\">\n<surname>\n              清浦\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_大岡\">\n<surname>\n              大岡\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_添田\">\n<surname>\n              添田\n             </surname>\n</persName>\n            諸氏ト御会合ノ約（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            帰一協会（海上ビルデング中央亭）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0170\">\n<head>\n<date when=\"1919-07-15\">\n           十五日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_渋沢治太郎\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              治太郎\n             </forename>\n</persName>\n            氏、\n            <persName corresp=\"#pers_斎藤\">\n<surname>\n              斎藤\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_高橋\">\n<surname>\n              高橋\n             </surname>\n</persName>\n            蔵相御訪問ノ約（首相官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n<persName corresp=\"#pers_清浦\">\n<surname>\n              清浦\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_大岡\">\n<surname>\n              大岡\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_添田\">\n<surname>\n              添田\n             </surname>\n</persName>\n            諸氏ト御会合ノ約（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            帰一協会（海上ビルデング中央亭）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-07"
 }

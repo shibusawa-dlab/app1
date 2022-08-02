@@ -2,6 +2,9 @@
     "agential": [
         "秦"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/秦"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1212",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -26,9 +29,14 @@
     "sort": "DKB20018m-0203",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
+        "飛鳥山邸",
         "目黒",
         "祐天寺"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/目黒",
+        "https://shibusawa-dlab.github.io/lab1/api/place/祐天寺"
     ],
     "temporal": "1916-08-06",
     "texts": [
@@ -54,10 +62,10 @@
         "DKB20018m-0007"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_秦\">\n<surname>\n              秦\n             </surname>\n</persName>\n            （日本魂記者）氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_秦\">\n<surname>\n              秦\n             </surname>\n</persName>\n            （日本魂記者）氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0203\">\n<head>\n<date when=\"1916-08-06\">\n           六日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_秦\">\n<surname>\n              秦\n             </surname>\n</persName>\n            （日本魂記者）氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            女子大学ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_目黒\">\n             目黒\n            </placeName>\n<placeName corresp=\"#place_祐天寺\">\n             祐天寺\n            </placeName>\n            ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0203\">\n<head>\n<date when=\"1916-08-06\">\n           六日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_秦\">\n<surname>\n              秦\n             </surname>\n</persName>\n            （日本魂記者）氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            女子大学ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_目黒\">\n             目黒\n            </placeName>\n<placeName corresp=\"#place_祐天寺\">\n             祐天寺\n            </placeName>\n            ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-08"
 }

@@ -3,6 +3,10 @@
         "佐々木勇之助",
         "永田"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐々木勇之助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/永田"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1431",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,7 +22,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-06",
     "date_lvl2": "1923-06-06",
-    "description": "\n\n\n           六日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n\n\n              佐々木\n             \n\n              勇之助\n             \n\n            氏ト御会談約（第一銀行）\n           \n\n\n\n\n             午前十一半時\n            \n            特殊部落ノ件（華族会館）\n           \n\n\n\n\n             午後二時\n            \n\n             東京\n            \n            市長\n            \n\n              永田\n             \n\n            氏ヲ御訪問（銀行クラブ）\n           \n\n\n",
+    "description": "\n\n\n           六日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n\n\n              佐々木\n             \n\n              勇之助\n             \n\n            氏ト御会談約（\n            \n             第一銀行\n            \n            ）\n           \n\n\n\n\n             午前十一半時\n            \n            特殊部落ノ件（華族会館）\n           \n\n\n\n\n             午後二時\n            \n\n             東京\n            \n            市長\n            \n\n              永田\n             \n\n            氏ヲ御訪問（銀行クラブ）\n           \n\n\n",
     "label": "六日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0153",
@@ -28,6 +32,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1923-06-06",
     "texts": [
@@ -53,10 +60,10 @@
         "DKB20031m-0092"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_佐々木勇之助\">\n<surname>\n              佐々木\n             </surname>\n<forename>\n              勇之助\n             </forename>\n</persName>\n            氏ト御会談約（第一銀行）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_佐々木勇之助\">\n<surname>\n              佐々木\n             </surname>\n<forename>\n              勇之助\n             </forename>\n</persName>\n            氏ト御会談約（\n            <orgName>\n             第一銀行\n            </orgName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0152\">\n<head>\n<date when=\"1923-06-06\">\n           六日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_佐々木勇之助\">\n<surname>\n              佐々木\n             </surname>\n<forename>\n              勇之助\n             </forename>\n</persName>\n            氏ト御会談約（第一銀行）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            特殊部落ノ件（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市長\n            <persName corresp=\"#pers_永田\">\n<surname>\n              永田\n             </surname>\n</persName>\n            氏ヲ御訪問（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0152\">\n<head>\n<date when=\"1923-06-06\">\n           六日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_佐々木勇之助\">\n<surname>\n              佐々木\n             </surname>\n<forename>\n              勇之助\n             </forename>\n</persName>\n            氏ト御会談約（\n            <orgName>\n             第一銀行\n            </orgName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            特殊部落ノ件（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市長\n            <persName corresp=\"#pers_永田\">\n<surname>\n              永田\n             </surname>\n</persName>\n            氏ヲ御訪問（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-06"
 }

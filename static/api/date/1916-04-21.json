@@ -5,6 +5,12 @@
         "小倉",
         "団"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/加茂正雄",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川家達",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小倉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/団"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1201",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +26,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-04",
     "date_lvl2": "1916-04-21",
-    "description": "\n\n\n           廿一日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n            池ノ端\n            \n             仲町\n            \n            宮内写真館ヘ御出向\n           \n\n\n\n\n             午前十一時半\n            \n\n\n              加茂\n             \n\n              正雄\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n\n              徳川\n             \n\n              家達\n             \n\n            公ヨリ御案内（議長官舎）\n           \n\n\n\n\n             午後三時半\n            \n\n\n              小倉\n             \n\n            、\n            \n\n              団\n             \n\n            両家結婚式（\n            \n             日比谷\n            \n            大神宮）\n           \n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n\n             池ノ端\n            \n\n             仲町\n            \n            宮内写真館ヘ御出向\n           \n\n\n\n\n             午前十一時半\n            \n\n\n              加茂\n             \n\n              正雄\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n\n              徳川\n             \n\n              家達\n             \n\n            公ヨリ御案内（議長官舎）\n           \n\n\n\n\n             午後三時半\n            \n\n\n              小倉\n             \n\n            、\n            \n\n              団\n             \n\n            両家結婚式（\n            \n             日比谷\n            \n            大神宮）\n           \n\n\n",
     "label": "廿一日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0094",
@@ -29,9 +35,16 @@
     "sort": "DKB20018m-0093",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "池之端",
         "仲町",
         "日本橋兜町",
         "日比谷"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/池之端",
+        "https://shibusawa-dlab.github.io/lab1/api/place/仲町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日比谷"
     ],
     "temporal": "1916-04-21",
     "texts": [
@@ -57,10 +70,10 @@
         "DKB20016m-0045"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            池ノ端\n            <placeName corresp=\"#place_仲町\">\n             仲町\n            </placeName>\n            宮内写真館ヘ御出向</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_池之端\">\n             池ノ端\n            </placeName>\n<placeName corresp=\"#place_仲町\">\n             仲町\n            </placeName>\n            宮内写真館ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0093\">\n<head>\n<date when=\"1916-04-21\">\n           廿一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            池ノ端\n            <placeName corresp=\"#place_仲町\">\n             仲町\n            </placeName>\n            宮内写真館ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n<persName corresp=\"#pers_加茂正雄\">\n<surname>\n              加茂\n             </surname>\n<forename>\n              正雄\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_徳川家達\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              家達\n             </forename>\n</persName>\n            公ヨリ御案内（議長官舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三時半\n            </time>\n<persName corresp=\"#pers_小倉\">\n<surname>\n              小倉\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_団\">\n<surname>\n              団\n             </surname>\n</persName>\n            両家結婚式（\n            <placeName corresp=\"#place_日比谷\">\n             日比谷\n            </placeName>\n            大神宮）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0093\">\n<head>\n<date when=\"1916-04-21\">\n           廿一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_池之端\">\n             池ノ端\n            </placeName>\n<placeName corresp=\"#place_仲町\">\n             仲町\n            </placeName>\n            宮内写真館ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n<persName corresp=\"#pers_加茂正雄\">\n<surname>\n              加茂\n             </surname>\n<forename>\n              正雄\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_徳川家達\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              家達\n             </forename>\n</persName>\n            公ヨリ御案内（議長官舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三時半\n            </time>\n<persName corresp=\"#pers_小倉\">\n<surname>\n              小倉\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_団\">\n<surname>\n              団\n             </surname>\n</persName>\n            両家結婚式（\n            <placeName corresp=\"#place_日比谷\">\n             日比谷\n            </placeName>\n            大神宮）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-04"
 }

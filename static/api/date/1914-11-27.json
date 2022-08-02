@@ -2,6 +2,9 @@
     "agential": [
         "三島"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/三島"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1170",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-11",
     "date_lvl2": "1914-11-27",
-    "description": "\n\n\n           廿七日\n          \n          （金）\n         \n\n\n\n\n             午前八時\n            \n            頃\n            \n             村山\n            \n            癩病院ヘ御出向\n           \n\n\n\n\n             正午\n            \n\n\n              三島\n             \n\n            総裁ヨリ御招待（\n            \n             日本\n            \n            銀行）\n           \n\n\n\n\n             午後二時\n            \n            教育調査会\n           \n\n\n\n\n             午後五時\n            \n            御同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           廿七日\n          \n          （金）\n         \n\n\n\n\n             午前八時\n            \n            頃\n            \n             村山\n            \n            癩病院ヘ御出向\n           \n\n\n\n\n             正午\n            \n\n\n              三島\n             \n\n            総裁ヨリ御招待（\n            \n             日本銀行\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            教育調査会\n           \n\n\n\n\n             午後五時\n            \n            御同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "廿七日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20016m-0074",
@@ -27,8 +30,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "村山",
-        "日本",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/村山",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1914-11-27",
     "texts": [
@@ -57,7 +63,7 @@
         "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            頃\n            <placeName corresp=\"#place_村山\">\n             村山\n            </placeName>\n            癩病院ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0073\">\n<head>\n<date when=\"1914-11-27\">\n           廿七日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            頃\n            <placeName corresp=\"#place_村山\">\n             村山\n            </placeName>\n            癩病院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_三島\">\n<surname>\n              三島\n             </surname>\n</persName>\n            総裁ヨリ御招待（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            銀行）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            教育調査会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0073\">\n<head>\n<date when=\"1914-11-27\">\n           廿七日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            頃\n            <placeName corresp=\"#place_村山\">\n             村山\n            </placeName>\n            癩病院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_三島\">\n<surname>\n              三島\n             </surname>\n</persName>\n            総裁ヨリ御招待（\n            <orgName>\n             日本銀行\n            </orgName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            教育調査会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-11"
 }

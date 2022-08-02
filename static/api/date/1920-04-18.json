@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1331",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-04",
     "date_lvl2": "1920-04-18",
-    "description": "\n\n\n           十八日\n          \n          （日）\n         \n\n\n\n\n             午前十時\n            \n            竜門社春季総集会（\n            \n             飛鳥山邸\n            \n            ）\n            \n            夫人トモ\n           \n\n\n\n\n             午後三時\n            \n\n             東京\n            \n            鉄工組合表彰会（築地工芸学校）\n           \n\n\n",
+    "description": "\n\n\n           十八日\n          \n          （日）\n         \n\n\n\n\n             午前十時\n            \n\n             竜門社\n            \n            春季総集会（\n            \n             飛鳥山邸\n            \n            ）\n            \n            夫人トモ\n           \n\n\n\n\n             午後三時\n            \n\n             東京\n            \n            鉄工組合表彰会（\n            \n             築地\n            \n            工芸学校）\n           \n\n\n",
     "label": "十八日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0107",
@@ -25,7 +26,13 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸",
-        "東京"
+        "東京",
+        "築地"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
     ],
     "temporal": "1920-04-18",
     "texts": [
@@ -51,10 +58,10 @@
         "DKB20019m-0336"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            竜門社春季総集会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n            <lb/>\n            夫人トモ</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             竜門社\n            </orgName>\n            春季総集会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n            <lb/>\n            夫人トモ</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0106\">\n<head>\n<date when=\"1920-04-18\">\n           十八日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            竜門社春季総集会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n            <lb/>\n            夫人トモ\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            鉄工組合表彰会（築地工芸学校）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0106\">\n<head>\n<date when=\"1920-04-18\">\n           十八日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             竜門社\n            </orgName>\n            春季総集会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n            <lb/>\n            夫人トモ\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            鉄工組合表彰会（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n            工芸学校）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-04"
 }

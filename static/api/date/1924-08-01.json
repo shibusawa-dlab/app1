@@ -4,6 +4,11 @@
         "金野貞治",
         "山浦"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田尻稲次郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/金野貞治",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山浦"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1473",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -29,8 +34,13 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "田島",
-        "アスカ山",
+        "飛鳥山邸",
         "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/田島",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1924-08-01",
     "texts": [
@@ -59,7 +69,7 @@
         "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_田島\">\n             田島\n            </placeName>\n            助役来約（事務所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0220\">\n<head>\n<date when=\"1924-08-01\">\n           一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_田島\">\n             田島\n            </placeName>\n            助役来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            故\n            <persName corresp=\"#pers_田尻稲次郎\">\n<surname>\n              田尻\n             </surname>\n<forename>\n              稲次郎\n             </forename>\n</persName>\n            氏追悼会（偕行社）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午后六時\n            </time>\n<persName corresp=\"#pers_金野貞治\">\n<surname>\n              金野\n             </surname>\n<forename>\n              貞治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"20:00:00\">\n             午後八時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            日日新聞記者\n            <persName corresp=\"#pers_山浦\">\n<surname>\n              山浦\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0220\">\n<head>\n<date when=\"1924-08-01\">\n           一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_田島\">\n             田島\n            </placeName>\n            助役来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            故\n            <persName corresp=\"#pers_田尻稲次郎\">\n<surname>\n              田尻\n             </surname>\n<forename>\n              稲次郎\n             </forename>\n</persName>\n            氏追悼会（偕行社）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午后六時\n            </time>\n<persName corresp=\"#pers_金野貞治\">\n<surname>\n              金野\n             </surname>\n<forename>\n              貞治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"20:00:00\">\n             午後八時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            日日新聞記者\n            <persName corresp=\"#pers_山浦\">\n<surname>\n              山浦\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-08"
 }

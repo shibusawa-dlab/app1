@@ -5,6 +5,12 @@
         "井上",
         "新渡戸"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/阪谷",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/添田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/井上",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/新渡戸"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1483",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -29,7 +35,10 @@
     "sort": "DKB20026m-0341",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1924-12-11",
     "texts": [
@@ -56,7 +65,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0341\">\n<head>\n<date when=\"1924-12-11\">\n           十一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<persName corresp=\"#pers_阪谷\">\n<surname>\n              阪谷\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_添田\">\n<surname>\n              添田\n             </surname>\n</persName>\n            両博士、\n            <persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            氏来邸（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午后五時\n            </time>\n            国際聯盟催\n            <persName corresp=\"#pers_新渡戸\">\n<surname>\n              新渡戸\n             </surname>\n</persName>\n            博士歓迎会\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0341\">\n<head>\n<date when=\"1924-12-11\">\n           十一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<persName corresp=\"#pers_阪谷\">\n<surname>\n              阪谷\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_添田\">\n<surname>\n              添田\n             </surname>\n</persName>\n            両博士、\n            <persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            氏来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午后五時\n            </time>\n            国際聯盟催\n            <persName corresp=\"#pers_新渡戸\">\n<surname>\n              新渡戸\n             </surname>\n</persName>\n            博士歓迎会\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-12"
 }

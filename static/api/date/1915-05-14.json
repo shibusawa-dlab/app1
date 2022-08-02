@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1183",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-05",
     "date_lvl2": "1915-05-14",
-    "description": "\n\n\n           十四日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n            女子大学ヘ御出向ノ約\n           \n\n\n\n\n             正午\n            \n\n             東京\n            \n            興信所評議員会（銀行クラブ）\n           \n\n\n\n\n             午後五半時\n            \n            明治聖徳記念学会（九段階行社）《（偕行社）》\n           \n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n            女子大学ヘ御出向ノ約\n           \n\n\n\n\n             正午\n            \n\n             東京興信所\n            \n            評議員会（銀行クラブ）\n           \n\n\n\n\n             午後五半時\n            \n            明治聖徳記念学会（九段階行社）《（偕行社）》\n           \n\n\n",
     "label": "十四日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0125",
@@ -23,9 +24,8 @@
     "prev": "DKB20017m-0123",
     "sort": "DKB20017m-0124",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "東京"
-    ],
+    "spatial": [],
+    "spatial_uri": [],
     "temporal": "1915-05-14",
     "texts": [
         "DKB20017m-0159",
@@ -53,7 +53,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            女子大学ヘ御出向ノ約</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0124\">\n<head>\n<date when=\"1915-05-14\">\n           十四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            女子大学ヘ御出向ノ約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            興信所評議員会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            明治聖徳記念学会（九段階行社）《（偕行社）》\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0124\">\n<head>\n<date when=\"1915-05-14\">\n           十四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            女子大学ヘ御出向ノ約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<orgName>\n             東京興信所\n            </orgName>\n            評議員会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            明治聖徳記念学会（九段階行社）《（偕行社）》\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-05"
 }

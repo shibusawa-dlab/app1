@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/303",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -25,8 +26,13 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "ホルトセード",
-        "蘇士運河",
-        "埃及国"
+        "スエズ運河",
+        "エジプト"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/ホルトセード",
+        "https://shibusawa-dlab.github.io/lab1/api/place/スエズ運河",
+        "https://shibusawa-dlab.github.io/lab1/api/place/エジプト"
     ],
     "temporal": "1902-09-24",
     "texts": [
@@ -53,10 +59,10 @@
     ],
     "time": {
         "07:00:00": "<div>晴、<time when=\"07:00:00\">\n        午前七時\n       </time>\n       船\n       <placeName corresp=\"#place_ホルトセード\">\n        ホルトセード\n       </placeName>\n       ニ着ス、同地ニ在ル\n       <orgName>\n        日本郵船会社\n       </orgName>\n       代理店ノ支配人船中ニ来リテ安着ヲ祝ス、直ニ行李ヲ整頓シテ上陸ス、本船ハ港内ニ入ルモ桟橋ナキヲ以テ代理店ヨリ出セル艀船ニテ上陸ス、埠頭ニ於テ荷物ノ検査ヲ受ケ市街ヲ散歩シテ一大旅舎ホテル・ヱキスチエンヂニ投宿ス、</div>",
-        "08:30:00": "<div><time when=\"08:30:00\">\n        午前八時半\n       </time>\n       旅舎ニテ朝飧ヲ為シ、\n       <orgName>\n        日本郵船会社\n       </orgName>\n       神奈川丸ノ来着ヲ問ヘ合ハスモ未タ着船セザル由ナレハ、暫時旅舎ニ於テ其着帆ヲ待ツ事ト定メ、一行ハ此航海中ノ旅装ヲ整フル為メ衣服其他ヲ購入ス\n       <lb/>\n<placeName corresp=\"#place_ホルトセード\">\n        ホルトセード\n       </placeName>\n       ハ\n       <placeName corresp=\"#place_蘇士運河\">\n        蘇士運河\n       </placeName>\n       工事落成ノ際ニ於テ新タニ開キタル市街ニシテ\n       <placeName corresp=\"#place_埃及国\">\n        埃及国\n       </placeName>\n       ニ属スル一港湾ナリ、土地磽确気候炎熱ナレハ草木少シ、只欧人ノ家屋又ハ市街ノ中央ニハ培養上種々ノ樹木ヲ見ルノミ、此日神奈川丸着船ナキヲ以テ終日旅舎ニ在テ書状ヲ裁シ又ハ読書ニ消閑ス、\n       <pb corresp=\"#pageB1278\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/304/full/max/0/default.jpg\" n=\"B1278\" source=\"#pageB1278\"/>\n       此夜旅舎ニ一泊ス</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n        午前八時半\n       </time>\n       旅舎ニテ朝飧ヲ為シ、\n       <orgName>\n        日本郵船会社\n       </orgName>\n       神奈川丸ノ来着ヲ問ヘ合ハスモ未タ着船セザル由ナレハ、暫時旅舎ニ於テ其着帆ヲ待ツ事ト定メ、一行ハ此航海中ノ旅装ヲ整フル為メ衣服其他ヲ購入ス\n       <lb/>\n<placeName corresp=\"#place_ホルトセード\">\n        ホルトセード\n       </placeName>\n       ハ\n       <placeName corresp=\"#place_スエズ運河\">\n        蘇士運河\n       </placeName>\n       工事落成ノ際ニ於テ新タニ開キタル市街ニシテ\n       <placeName corresp=\"#place_エジプト\">\n        埃及国\n       </placeName>\n       ニ属スル一港湾ナリ、土地磽确気候炎熱ナレハ草木少シ、只欧人ノ家屋又ハ市街ノ中央ニハ培養上種々ノ樹木ヲ見ルノミ、此日神奈川丸着船ナキヲ以テ終日旅舎ニ在テ書状ヲ裁シ又ハ読書ニ消閑ス、\n       <pb corresp=\"#pageB1278\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/304/full/max/0/default.jpg\" n=\"B1278\" source=\"#pageB1278\"/>\n       此夜旅舎ニ一泊ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-0036\">\n<head>\n<date when=\"1902-09-24\">\n        九月廿四日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"07:00:00\">\n        午前七時\n       </time>\n       船\n       <placeName corresp=\"#place_ホルトセード\">\n        ホルトセード\n       </placeName>\n       ニ着ス、同地ニ在ル\n       <orgName>\n        日本郵船会社\n       </orgName>\n       代理店ノ支配人船中ニ来リテ安着ヲ祝ス、直ニ行李ヲ整頓シテ上陸ス、本船ハ港内ニ入ルモ桟橋ナキヲ以テ代理店ヨリ出セル艀船ニテ上陸ス、埠頭ニ於テ荷物ノ検査ヲ受ケ市街ヲ散歩シテ一大旅舎ホテル・ヱキスチエンヂニ投宿ス、\n       <time when=\"08:30:00\">\n        午前八時半\n       </time>\n       旅舎ニテ朝飧ヲ為シ、\n       <orgName>\n        日本郵船会社\n       </orgName>\n       神奈川丸ノ来着ヲ問ヘ合ハスモ未タ着船セザル由ナレハ、暫時旅舎ニ於テ其着帆ヲ待ツ事ト定メ、一行ハ此航海中ノ旅装ヲ整フル為メ衣服其他ヲ購入ス\n       <lb/>\n<placeName corresp=\"#place_ホルトセード\">\n        ホルトセード\n       </placeName>\n       ハ\n       <placeName corresp=\"#place_蘇士運河\">\n        蘇士運河\n       </placeName>\n       工事落成ノ際ニ於テ新タニ開キタル市街ニシテ\n       <placeName corresp=\"#place_埃及国\">\n        埃及国\n       </placeName>\n       ニ属スル一港湾ナリ、土地磽确気候炎熱ナレハ草木少シ、只欧人ノ家屋又ハ市街ノ中央ニハ培養上種々ノ樹木ヲ見ルノミ、此日神奈川丸着船ナキヲ以テ終日旅舎ニ在テ書状ヲ裁シ又ハ読書ニ消閑ス、\n       <pb corresp=\"#pageB1278\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/304/full/max/0/default.jpg\" n=\"B1278\" source=\"#pageB1278\"/>\n       此夜旅舎ニ一泊ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-0036\">\n<head>\n<date when=\"1902-09-24\">\n        九月廿四日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"07:00:00\">\n        午前七時\n       </time>\n       船\n       <placeName corresp=\"#place_ホルトセード\">\n        ホルトセード\n       </placeName>\n       ニ着ス、同地ニ在ル\n       <orgName>\n        日本郵船会社\n       </orgName>\n       代理店ノ支配人船中ニ来リテ安着ヲ祝ス、直ニ行李ヲ整頓シテ上陸ス、本船ハ港内ニ入ルモ桟橋ナキヲ以テ代理店ヨリ出セル艀船ニテ上陸ス、埠頭ニ於テ荷物ノ検査ヲ受ケ市街ヲ散歩シテ一大旅舎ホテル・ヱキスチエンヂニ投宿ス、\n       <time when=\"08:30:00\">\n        午前八時半\n       </time>\n       旅舎ニテ朝飧ヲ為シ、\n       <orgName>\n        日本郵船会社\n       </orgName>\n       神奈川丸ノ来着ヲ問ヘ合ハスモ未タ着船セザル由ナレハ、暫時旅舎ニ於テ其着帆ヲ待ツ事ト定メ、一行ハ此航海中ノ旅装ヲ整フル為メ衣服其他ヲ購入ス\n       <lb/>\n<placeName corresp=\"#place_ホルトセード\">\n        ホルトセード\n       </placeName>\n       ハ\n       <placeName corresp=\"#place_スエズ運河\">\n        蘇士運河\n       </placeName>\n       工事落成ノ際ニ於テ新タニ開キタル市街ニシテ\n       <placeName corresp=\"#place_エジプト\">\n        埃及国\n       </placeName>\n       ニ属スル一港湾ナリ、土地磽确気候炎熱ナレハ草木少シ、只欧人ノ家屋又ハ市街ノ中央ニハ培養上種々ノ樹木ヲ見ルノミ、此日神奈川丸着船ナキヲ以テ終日旅舎ニ在テ書状ヲ裁シ又ハ読書ニ消閑ス、\n       <pb corresp=\"#pageB1278\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/304/full/max/0/default.jpg\" n=\"B1278\" source=\"#pageB1278\"/>\n       此夜旅舎ニ一泊ス\n      </p>\n</div>",
     "year": "1902",
     "yearAndMonth": "1902-09"
 }

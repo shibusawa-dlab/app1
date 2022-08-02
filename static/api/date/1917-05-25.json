@@ -2,6 +2,9 @@
     "agential": [
         "細田謙三"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/細田謙三"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1237",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-05",
     "date_lvl2": "1917-05-25",
-    "description": "\n\n\n           廿五日\n          \n          （金）\n         \n\n\n\n\n             午前七時半\n            \n\n\n              細田\n             \n\n              謙三\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n             東亜\n            \n            蚕糸会創立総会（築地精養軒）\n           \n\n\n\n\n             午後五時半\n            \n            帰一協会例会（中央亭）\n           \n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （金）\n         \n\n\n\n\n             午前七時半\n            \n\n\n              細田\n             \n\n              謙三\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            東亜蚕糸会創立総会（\n            \n             築地\n            \n\n             精養軒\n            \n            ）\n           \n\n\n\n\n             午後五時半\n            \n            帰一協会例会（中央亭）\n           \n\n\n",
     "label": "廿五日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0145",
@@ -27,7 +30,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸",
-        "東亜"
+        "築地"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
     ],
     "temporal": "1917-05-25",
     "texts": [
@@ -56,7 +63,7 @@
         "07:30:00": "<div><time when=\"07:30:00\">\n             午前七時半\n            </time>\n<persName corresp=\"#pers_細田謙三\">\n<surname>\n              細田\n             </surname>\n<forename>\n              謙三\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0144\">\n<head>\n<date when=\"1917-05-25\">\n           廿五日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"07:30:00\">\n             午前七時半\n            </time>\n<persName corresp=\"#pers_細田謙三\">\n<surname>\n              細田\n             </surname>\n<forename>\n              謙三\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_東亜\">\n             東亜\n            </placeName>\n            蚕糸会創立総会（築地精養軒）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五時半\n            </time>\n            帰一協会例会（中央亭）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0144\">\n<head>\n<date when=\"1917-05-25\">\n           廿五日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"07:30:00\">\n             午前七時半\n            </time>\n<persName corresp=\"#pers_細田謙三\">\n<surname>\n              細田\n             </surname>\n<forename>\n              謙三\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            東亜蚕糸会創立総会（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五時半\n            </time>\n            帰一協会例会（中央亭）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-05"
 }

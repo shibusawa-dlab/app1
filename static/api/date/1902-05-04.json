@@ -4,6 +4,11 @@
         "岸精一",
         "桂"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松平隼太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岸精一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/桂"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/262",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -29,7 +34,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "日本橋兜町",
-        "王子別荘"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1902-05-04",
     "texts": [
@@ -59,10 +68,10 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵ル、\n       <persName corresp=\"#pers_岸精一\">\n<surname>\n         岸\n        </surname>\n<forename>\n         精一\n        </forename>\n</persName>\n       氏来リ、昨夜、\n       <persName corresp=\"#pers_桂\">\n<surname>\n         桂\n        </surname>\n</persName>\n       総理大臣邸ニテ受取リタル法律案ノ事ヲ談シ且其翻訳ヲ托ス、畢テ書類ヲ整理シ、</div>",
         "13:00:00": "<div><time when=\"13:00:00\">\n        午後一時\n       </time>\n<orgName>\n        東京商業会議所\n       </orgName>\n       ニ於テ\n       <orgName>\n        石川島造船所\n       </orgName>\n       株主臨時総会ニ出席ス浦賀船渠会社ト合併ノ事ヲ決議ス</div>",
         "17:00:00": "<div><time when=\"17:00:00\">\n        午後五時\n       </time>\n<orgName>\n        亀清楼\n       </orgName>\n       ニ抵リ深川区有志者ノ催フセル送別会ニ出席シ一場ノ謝詞ヲ述フ、夜</div>",
-        "21:00:00": "<div><time when=\"21:00:00\">\n        九時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n       <lb/></div>"
+        "21:00:00": "<div><time when=\"21:00:00\">\n        九時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n       <lb/></div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10010m-0301\">\n<head>\n<date when=\"1902-05-04\">\n        五月四日\n       </date>\n</head>\n<p>\n       曇、\n       <time when=\"08:00:00\">\n        午前八時\n       </time>\n       朝飧ヲ畢リ日記ヲ調査ス、\n       <persName corresp=\"#pers_松平隼太郎\">\n<surname>\n         松平\n        </surname>\n<forename>\n         隼太郎\n        </forename>\n</persName>\n       来ル、法律案ノ謄写ヲ命ス、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵ル、\n       <persName corresp=\"#pers_岸精一\">\n<surname>\n         岸\n        </surname>\n<forename>\n         精一\n        </forename>\n</persName>\n       氏来リ、昨夜、\n       <persName corresp=\"#pers_桂\">\n<surname>\n         桂\n        </surname>\n</persName>\n       総理大臣邸ニテ受取リタル法律案ノ事ヲ談シ且其翻訳ヲ托ス、畢テ書類ヲ整理シ、\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n<orgName>\n        亀清楼\n       </orgName>\n       ニ抵リ深川区有志者ノ催フセル送別会ニ出席シ一場ノ謝詞ヲ述フ、夜\n       <time when=\"21:00:00\">\n        九時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n       <lb/>\n<time when=\"13:00:00\">\n        午後一時\n       </time>\n<orgName>\n        東京商業会議所\n       </orgName>\n       ニ於テ\n       <orgName>\n        石川島造船所\n       </orgName>\n       株主臨時総会ニ出席ス浦賀船渠会社ト合併ノ事ヲ決議ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10010m-0301\">\n<head>\n<date when=\"1902-05-04\">\n        五月四日\n       </date>\n</head>\n<p>\n       曇、\n       <time when=\"08:00:00\">\n        午前八時\n       </time>\n       朝飧ヲ畢リ日記ヲ調査ス、\n       <persName corresp=\"#pers_松平隼太郎\">\n<surname>\n         松平\n        </surname>\n<forename>\n         隼太郎\n        </forename>\n</persName>\n       来ル、法律案ノ謄写ヲ命ス、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵ル、\n       <persName corresp=\"#pers_岸精一\">\n<surname>\n         岸\n        </surname>\n<forename>\n         精一\n        </forename>\n</persName>\n       氏来リ、昨夜、\n       <persName corresp=\"#pers_桂\">\n<surname>\n         桂\n        </surname>\n</persName>\n       総理大臣邸ニテ受取リタル法律案ノ事ヲ談シ且其翻訳ヲ托ス、畢テ書類ヲ整理シ、\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n<orgName>\n        亀清楼\n       </orgName>\n       ニ抵リ深川区有志者ノ催フセル送別会ニ出席シ一場ノ謝詞ヲ述フ、夜\n       <time when=\"21:00:00\">\n        九時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n       <lb/>\n<time when=\"13:00:00\">\n        午後一時\n       </time>\n<orgName>\n        東京商業会議所\n       </orgName>\n       ニ於テ\n       <orgName>\n        石川島造船所\n       </orgName>\n       株主臨時総会ニ出席ス浦賀船渠会社ト合併ノ事ヲ決議ス\n      </p>\n</div>",
     "year": "1902",
     "yearAndMonth": "1902-05"
 }

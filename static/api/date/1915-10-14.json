@@ -1,6 +1,13 @@
 {
     "agential": [
-        "吉池慶正"
+        "吉池慶正",
+        "ライ",
+        "ロー"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/吉池慶正",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ライ",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ロー"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1193",
     "category": {
@@ -17,7 +24,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-10",
     "date_lvl2": "1915-10-14",
-    "description": "\n\n\n           十四日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n\n\n              吉池\n             \n\n              慶正\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n            明治神宮奉賛会常務理事会（\n            \n             虎の門\n            \n            同会事務処）\n           \n\n\n\n\n             正午\n            \n            大\n            \n             日本\n            \n            平和協会ヨリ御案内（帝国ホテル）\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午後三時\n            \n            ライ氏来約（\n            \n             兜町\n            \n            ）ロー氏来約（\n            \n             兜町\n            \n\n             三時半\n            \n            ）\n           \n\n\n\n\n             午后四時\n            \n\n             埼玉\n            \n            誘掖会評議員会維持員会記念茶話会《（学生脱）》（同会、晩餐アリ）\n           \n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n\n\n              吉池\n             \n\n              慶正\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n            明治神宮奉賛会常務理事会（\n            \n             虎の門\n            \n            同会事務処）\n           \n\n\n\n\n             正午\n            \n\n             大日本平和協会\n            \n            ヨリ御案内（帝国ホテル）\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午後三時\n            \n\n\n              ライ\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n            \n\n              ロー\n             \n\n            氏来約（\n            \n             兜町\n            \n\n             三時半\n            \n            ）\n           \n\n\n\n\n             午后四時\n            \n\n             埼玉\n            \n            誘掖会評議員会維持員会記念茶話会《（学生脱）》（同会、晩餐アリ）\n           \n\n\n",
     "label": "十四日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0259",
@@ -26,11 +33,16 @@
     "sort": "DKB20017m-0258",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
+        "飛鳥山邸",
         "虎の門",
-        "日本",
         "日本橋兜町",
         "埼玉"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/虎の門",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/埼玉"
     ],
     "temporal": "1915-10-14",
     "texts": [
@@ -56,10 +68,10 @@
         "DKB20017m-0123"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0258\">\n<head>\n<date when=\"1915-10-14\">\n           十四日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            明治神宮奉賛会常務理事会（\n            <placeName corresp=\"#place_虎の門\">\n             虎の門\n            </placeName>\n            同会事務処）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            大\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            平和協会ヨリ御案内（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            ライ氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）ロー氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n<time when=\"15:30:00\">\n             三時半\n            </time>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午后四時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            誘掖会評議員会維持員会記念茶話会《（学生脱）》（同会、晩餐アリ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0258\">\n<head>\n<date when=\"1915-10-14\">\n           十四日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            明治神宮奉賛会常務理事会（\n            <placeName corresp=\"#place_虎の門\">\n             虎の門\n            </placeName>\n            同会事務処）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<orgName>\n             大日本平和協会\n            </orgName>\n            ヨリ御案内（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_ライ\">\n<surname>\n              ライ\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n            <persName corresp=\"#pers_ロー\">\n<surname>\n              ロー\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n<time when=\"15:30:00\">\n             三時半\n            </time>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午后四時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            誘掖会評議員会維持員会記念茶話会《（学生脱）》（同会、晩餐アリ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-10"
 }

@@ -1,8 +1,11 @@
 {
     "agential": [
         "近藤",
-        "鮮",
-        "于"
+        "鮮于〓"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/近藤",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/鮮于〓"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1386",
     "category": {
@@ -19,7 +22,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-03",
     "date_lvl2": "1922-03-25",
-    "description": "\n\n\n           廿五日\n          \n          （土）\n         \n\n\n\n\n             午前八半時\n            \n            海外植民学校卒業生来約（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n            サンデイゴ\n            \n\n              近藤\n             \n\n            政治氏来約（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午前十ヨリ半時\n            \n\n\n              鮮\n             \n\n\n\n              于\n             \n\n            〓来約《（氏脱）》（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n             仏国\n            \n            大使ヲ御訪問（仏大使館）\n           \n\n\n\n\n             午後一時\n            \n\n             英国\n            \n            大使午餐会（同大使館）\n           \n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （土）\n         \n\n\n\n\n             午前八半時\n            \n            海外植民学校卒業生来約（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n            サンデイゴ\n            \n\n              近藤\n             \n\n            政治氏来約（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午前十ヨリ半時\n            \n\n\n              鮮于\n             \n\n              〓\n             \n\n            来約《（氏脱）》（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n             仏国\n            \n            大使ヲ御訪問（仏大使館）\n           \n\n\n\n\n             午後一時\n            \n\n             英国\n            \n            大使午餐会（同大使館）\n           \n\n\n",
     "label": "廿五日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0057",
@@ -28,10 +31,16 @@
     "sort": "DKB20024m-0056",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山邸",
+        "飛鳥山邸",
         "日本橋兜町",
-        "仏国",
+        "フランス",
         "イギリス"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/フランス",
+        "https://shibusawa-dlab.github.io/lab1/api/place/イギリス"
     ],
     "temporal": "1922-03-25",
     "texts": [
@@ -57,10 +66,10 @@
         "DKB20022m-0147"
     ],
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n            海外植民学校卒業生来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n            海外植民学校卒業生来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0056\">\n<head>\n<date when=\"1922-03-25\">\n           廿五日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            海外植民学校卒業生来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n            サンデイゴ\n            <persName corresp=\"#pers_近藤\">\n<surname>\n              近藤\n             </surname>\n</persName>\n            政治氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"10:30:00\">\n             午前十ヨリ半時\n            </time>\n<persName corresp=\"#pers_鮮\">\n<surname>\n              鮮\n             </surname>\n</persName>\n<persName corresp=\"#pers_于\">\n<surname>\n              于\n             </surname>\n</persName>\n            〓来約《（氏脱）》（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_仏国\">\n             仏国\n            </placeName>\n            大使ヲ御訪問（仏大使館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_イギリス\">\n             英国\n            </placeName>\n            大使午餐会（同大使館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0056\">\n<head>\n<date when=\"1922-03-25\">\n           廿五日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            海外植民学校卒業生来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n            サンデイゴ\n            <persName corresp=\"#pers_近藤\">\n<surname>\n              近藤\n             </surname>\n</persName>\n            政治氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"10:30:00\">\n             午前十ヨリ半時\n            </time>\n<persName corresp=\"#pers_鮮于〓\">\n<surname>\n              鮮于\n             </surname>\n<forename>\n              〓\n             </forename>\n</persName>\n            来約《（氏脱）》（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_フランス\">\n             仏国\n            </placeName>\n            大使ヲ御訪問（仏大使館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_イギリス\">\n             英国\n            </placeName>\n            大使午餐会（同大使館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-03"
 }

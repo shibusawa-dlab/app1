@@ -4,7 +4,16 @@
         "森田",
         "平田",
         "佐々木",
-        "山中譲三"
+        "山中譲三",
+        "戸田宇八"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大澤善助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/森田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/平田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐々木",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山中譲三",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/戸田宇八"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/679",
     "category": {
@@ -21,7 +30,7 @@
     "date_lvl0": "1911",
     "date_lvl1": "1911-01",
     "date_lvl2": "1911-01-11",
-    "description": "\n\n\n        一月十一日\n       \n       水　曇　寒\n      \n\n\n        午前八時\n       \n       起床、入浴シテ後朝飧ヲ食ス、昨夜ノ雨朝来雪トナリシカ多ク降ラスシテ歇ム、食後新聞紙ヲ読ム、\n       \n        午前十時\n       \n\n        兜町\n       \n       事務所ニ抵リ、事務ヲ処理シ、又、書類ヲ整頓ス、\n       \n        京都\n       \n\n\n         大沢\n        \n\n         善助\n        \n\n       氏ノ代理者\n       \n\n         森田\n        \n\n       某来リ、磷礦ノ事ニ関スル談話アリ、依テ人造肥料会社\n       \n\n         平田\n        \n\n       氏ニ紹介ス、午飧後\n       \n        第一銀行\n       \n       ニ抵リ\n       \n\n         佐々木\n        \n\n       氏ト行務ヲ談ス、\n       \n\n         山中\n        \n\n         譲三\n        \n\n       氏来リ交換所ノ事ヲ談ス、\n       \n        戸田\n       \n       宇八氏来リテ集会所ノ事ニ関シ談話ス、\n       \n        午後四時\n       \n       ヨリ他方ノ知人ヲ訪ヘ、\n       \n        六時\n       \n       王子ニ帰宅ス、夜飧後新聞紙及諸雑誌類ヲ読ム、夜\n       \n        十一時\n       \n       就寝\n      \n",
+    "description": "\n\n\n        一月十一日\n       \n       水　曇　寒\n      \n\n\n        午前八時\n       \n       起床、入浴シテ後朝飧ヲ食ス、昨夜ノ雨朝来雪トナリシカ多ク降ラスシテ歇ム、食後新聞紙ヲ読ム、\n       \n        午前十時\n       \n\n        兜町\n       \n       事務所ニ抵リ、事務ヲ処理シ、又、書類ヲ整頓ス、\n       \n        京都\n       \n\n\n         大沢\n        \n\n         善助\n        \n\n       氏ノ代理者\n       \n\n         森田\n        \n\n       某来リ、磷礦ノ事ニ関スル談話アリ、依テ\n       \n        人造肥料会社\n       \n\n\n         平田\n        \n\n       氏ニ紹介ス、午飧後\n       \n        第一銀行\n       \n       ニ抵リ\n       \n\n         佐々木\n        \n\n       氏ト行務ヲ談ス、\n       \n\n         山中\n        \n\n         譲三\n        \n\n       氏来リ交換所ノ事ヲ談ス、\n       \n\n         戸田\n        \n\n         宇八\n        \n\n       氏来リテ集会所ノ事ニ関シ談話ス、\n       \n        午後四時\n       \n       ヨリ他方ノ知人ヲ訪ヘ、\n       \n        六時\n       \n       王子ニ帰宅ス、夜飧後新聞紙及諸雑誌類ヲ読ム、夜\n       \n        十一時\n       \n       就寝\n      \n",
     "label": "一月十一日              水　曇　寒",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10019m-0012",
@@ -31,8 +40,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "日本橋兜町",
-        "京都",
-        "戸田"
+        "京都"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/京都"
     ],
     "temporal": "1911-01-11",
     "texts": [
@@ -59,13 +71,13 @@
     ],
     "time": {
         "08:00:00": "<div><time when=\"08:00:00\">\n        午前八時\n       </time>\n       起床、入浴シテ後朝飧ヲ食ス、昨夜ノ雨朝来雪トナリシカ多ク降ラスシテ歇ム、食後新聞紙ヲ読ム、</div>",
-        "10:00:00": "<div><time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ、事務ヲ処理シ、又、書類ヲ整頓ス、\n       <placeName corresp=\"#place_京都\">\n        京都\n       </placeName>\n<persName corresp=\"#pers_大澤善助\">\n<surname>\n         大沢\n        </surname>\n<forename>\n         善助\n        </forename>\n</persName>\n       氏ノ代理者\n       <persName corresp=\"#pers_森田\">\n<surname>\n         森田\n        </surname>\n</persName>\n       某来リ、磷礦ノ事ニ関スル談話アリ、依テ人造肥料会社\n       <persName corresp=\"#pers_平田\">\n<surname>\n         平田\n        </surname>\n</persName>\n       氏ニ紹介ス、午飧後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ抵リ\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       氏ト行務ヲ談ス、\n       <persName corresp=\"#pers_山中譲三\">\n<surname>\n         山中\n        </surname>\n<forename>\n         譲三\n        </forename>\n</persName>\n       氏来リ交換所ノ事ヲ談ス、\n       <placeName corresp=\"#place_戸田\">\n        戸田\n       </placeName>\n       宇八氏来リテ集会所ノ事ニ関シ談話ス、</div>",
+        "10:00:00": "<div><time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ、事務ヲ処理シ、又、書類ヲ整頓ス、\n       <placeName corresp=\"#place_京都\">\n        京都\n       </placeName>\n<persName corresp=\"#pers_大澤善助\">\n<surname>\n         大沢\n        </surname>\n<forename>\n         善助\n        </forename>\n</persName>\n       氏ノ代理者\n       <persName corresp=\"#pers_森田\">\n<surname>\n         森田\n        </surname>\n</persName>\n       某来リ、磷礦ノ事ニ関スル談話アリ、依テ\n       <orgName>\n        人造肥料会社\n       </orgName>\n<persName corresp=\"#pers_平田\">\n<surname>\n         平田\n        </surname>\n</persName>\n       氏ニ紹介ス、午飧後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ抵リ\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       氏ト行務ヲ談ス、\n       <persName corresp=\"#pers_山中譲三\">\n<surname>\n         山中\n        </surname>\n<forename>\n         譲三\n        </forename>\n</persName>\n       氏来リ交換所ノ事ヲ談ス、\n       <persName corresp=\"#pers_戸田宇八\">\n<surname>\n         戸田\n        </surname>\n<forename>\n         宇八\n        </forename>\n</persName>\n       氏来リテ集会所ノ事ニ関シ談話ス、</div>",
         "16:00:00": "<div><time when=\"16:00:00\">\n        午後四時\n       </time>\n       ヨリ他方ノ知人ヲ訪ヘ、</div>",
         "18:00:00": "<div><time when=\"18:00:00\">\n        六時\n       </time>\n       王子ニ帰宅ス、夜飧後新聞紙及諸雑誌類ヲ読ム、夜</div>",
         "23:00:00": "<div><time when=\"23:00:00\">\n        十一時\n       </time>\n       就寝</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10019m-0011\">\n<head>\n<date when=\"1911-01-11\">\n        一月十一日\n       </date>\n       水　曇　寒\n      </head>\n<p>\n<time when=\"08:00:00\">\n        午前八時\n       </time>\n       起床、入浴シテ後朝飧ヲ食ス、昨夜ノ雨朝来雪トナリシカ多ク降ラスシテ歇ム、食後新聞紙ヲ読ム、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ、事務ヲ処理シ、又、書類ヲ整頓ス、\n       <placeName corresp=\"#place_京都\">\n        京都\n       </placeName>\n<persName corresp=\"#pers_大澤善助\">\n<surname>\n         大沢\n        </surname>\n<forename>\n         善助\n        </forename>\n</persName>\n       氏ノ代理者\n       <persName corresp=\"#pers_森田\">\n<surname>\n         森田\n        </surname>\n</persName>\n       某来リ、磷礦ノ事ニ関スル談話アリ、依テ人造肥料会社\n       <persName corresp=\"#pers_平田\">\n<surname>\n         平田\n        </surname>\n</persName>\n       氏ニ紹介ス、午飧後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ抵リ\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       氏ト行務ヲ談ス、\n       <persName corresp=\"#pers_山中譲三\">\n<surname>\n         山中\n        </surname>\n<forename>\n         譲三\n        </forename>\n</persName>\n       氏来リ交換所ノ事ヲ談ス、\n       <placeName corresp=\"#place_戸田\">\n        戸田\n       </placeName>\n       宇八氏来リテ集会所ノ事ニ関シ談話ス、\n       <time when=\"16:00:00\">\n        午後四時\n       </time>\n       ヨリ他方ノ知人ヲ訪ヘ、\n       <time when=\"18:00:00\">\n        六時\n       </time>\n       王子ニ帰宅ス、夜飧後新聞紙及諸雑誌類ヲ読ム、夜\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n       就寝\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10019m-0011\">\n<head>\n<date when=\"1911-01-11\">\n        一月十一日\n       </date>\n       水　曇　寒\n      </head>\n<p>\n<time when=\"08:00:00\">\n        午前八時\n       </time>\n       起床、入浴シテ後朝飧ヲ食ス、昨夜ノ雨朝来雪トナリシカ多ク降ラスシテ歇ム、食後新聞紙ヲ読ム、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ、事務ヲ処理シ、又、書類ヲ整頓ス、\n       <placeName corresp=\"#place_京都\">\n        京都\n       </placeName>\n<persName corresp=\"#pers_大澤善助\">\n<surname>\n         大沢\n        </surname>\n<forename>\n         善助\n        </forename>\n</persName>\n       氏ノ代理者\n       <persName corresp=\"#pers_森田\">\n<surname>\n         森田\n        </surname>\n</persName>\n       某来リ、磷礦ノ事ニ関スル談話アリ、依テ\n       <orgName>\n        人造肥料会社\n       </orgName>\n<persName corresp=\"#pers_平田\">\n<surname>\n         平田\n        </surname>\n</persName>\n       氏ニ紹介ス、午飧後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ抵リ\n       <persName corresp=\"#pers_佐々木\">\n<surname>\n         佐々木\n        </surname>\n</persName>\n       氏ト行務ヲ談ス、\n       <persName corresp=\"#pers_山中譲三\">\n<surname>\n         山中\n        </surname>\n<forename>\n         譲三\n        </forename>\n</persName>\n       氏来リ交換所ノ事ヲ談ス、\n       <persName corresp=\"#pers_戸田宇八\">\n<surname>\n         戸田\n        </surname>\n<forename>\n         宇八\n        </forename>\n</persName>\n       氏来リテ集会所ノ事ニ関シ談話ス、\n       <time when=\"16:00:00\">\n        午後四時\n       </time>\n       ヨリ他方ノ知人ヲ訪ヘ、\n       <time when=\"18:00:00\">\n        六時\n       </time>\n       王子ニ帰宅ス、夜飧後新聞紙及諸雑誌類ヲ読ム、夜\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n       就寝\n      </p>\n</div>",
     "year": "1911",
     "yearAndMonth": "1911-01"
 }

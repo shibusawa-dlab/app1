@@ -2,8 +2,14 @@
     "agential": [
         "林正道",
         "瓜生喜三郎",
-        "浅野泰治",
+        "浅野泰治郎",
         "トイスラー"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/林正道",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/瓜生喜三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野泰治郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/トイスラー"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1575",
     "category": {
@@ -20,7 +26,7 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-03",
     "date_lvl2": "1928-03-15",
-    "description": "\n\n\n           十五日\n          \n          （木）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              林\n             \n\n              正道\n             \n\n            学士来診（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十一半時\n            \n            日華実業協会理事会　同会\n           \n\n\n\n\n             午後一時半\n            \n\n\n              瓜生\n             \n\n              喜三郎\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n\n              浅野\n             \n\n              泰治\n             \n\n            郎氏来約（　〃　）\n           \n\n\n\n\n             午後一・五〇\n            \n            御出勤\n           \n\n\n\n\n             午後三時\n            \n\n\n              トイスラー\n             \n\n            氏ヲ御訪問（築地聖路加病院）\n           \n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （木）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              林\n             \n\n              正道\n             \n\n            学士来診（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十一半時\n            \n            日華実業協会理事会　同会\n           \n\n\n\n\n             午後一時半\n            \n\n\n              瓜生\n             \n\n              喜三郎\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n\n              浅野\n             \n\n              泰治郎\n             \n\n            氏来約（　〃　）\n           \n\n\n\n\n             午後一・五〇\n            \n            御出勤\n           \n\n\n\n\n             午後三時\n            \n\n\n              トイスラー\n             \n\n            氏ヲ御訪問（\n            \n             築地\n            \n            聖路加病院）\n           \n\n\n",
     "label": "十五日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20030m-0077",
@@ -29,7 +35,12 @@
     "sort": "DKB20030m-0076",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園"
+        "飛鳥山邸",
+        "築地"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
     ],
     "temporal": "1928-03-15",
     "texts": [
@@ -55,10 +66,10 @@
         "DKB20029m-0328"
     ],
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_林正道\">\n<surname>\n              林\n             </surname>\n<forename>\n              正道\n             </forename>\n</persName>\n            学士来診（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_林正道\">\n<surname>\n              林\n             </surname>\n<forename>\n              正道\n             </forename>\n</persName>\n            学士来診（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0076\">\n<head>\n<date when=\"1928-03-15\">\n           十五日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_林正道\">\n<surname>\n              林\n             </surname>\n<forename>\n              正道\n             </forename>\n</persName>\n            学士来診（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            日華実業協会理事会　同会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一時半\n            </time>\n<persName corresp=\"#pers_瓜生喜三郎\">\n<surname>\n              瓜生\n             </surname>\n<forename>\n              喜三郎\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<persName corresp=\"#pers_浅野泰治\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              泰治\n             </forename>\n</persName>\n            郎氏来約（　〃　）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:50:00\">\n             午後一・五〇\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_トイスラー\">\n<surname>\n              トイスラー\n             </surname>\n</persName>\n            氏ヲ御訪問（築地聖路加病院）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0076\">\n<head>\n<date when=\"1928-03-15\">\n           十五日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_林正道\">\n<surname>\n              林\n             </surname>\n<forename>\n              正道\n             </forename>\n</persName>\n            学士来診（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            日華実業協会理事会　同会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一時半\n            </time>\n<persName corresp=\"#pers_瓜生喜三郎\">\n<surname>\n              瓜生\n             </surname>\n<forename>\n              喜三郎\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<persName corresp=\"#pers_浅野泰治郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              泰治郎\n             </forename>\n</persName>\n            氏来約（　〃　）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:50:00\">\n             午後一・五〇\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_トイスラー\">\n<surname>\n              トイスラー\n             </surname>\n</persName>\n            氏ヲ御訪問（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n            聖路加病院）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-03"
 }

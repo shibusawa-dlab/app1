@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1380",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -24,9 +25,15 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "滝野川",
-        "飛鳥山公園",
+        "飛鳥山邸",
         "東京",
         "横浜"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/滝野川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/横浜"
     ],
     "temporal": "1921-10-13",
     "texts": [
@@ -52,10 +59,10 @@
         "DKB20020m-0046"
     ],
     "time": {
-        "07:00:00": "<div><time when=\"07:00:00\">\n             午前七時\n            </time>\n<placeName corresp=\"#place_滝野川\">\n             滝野川\n            </placeName>\n            自治協会ノ件（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "07:00:00": "<div><time when=\"07:00:00\">\n             午前七時\n            </time>\n<placeName corresp=\"#place_滝野川\">\n             滝野川\n            </placeName>\n            自治協会ノ件（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0279\">\n<head>\n<date when=\"1921-10-13\">\n           十三日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"07:00:00\">\n             午前七時\n            </time>\n<placeName corresp=\"#place_滝野川\">\n             滝野川\n            </placeName>\n            自治協会ノ件（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:15:00\">\n             午前九時十五分\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発、\n            <time when=\"10:10:00\">\n             午前十時十分\n            </time>\n<placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            岸壁着乗船\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            春洋丸\n            <placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            解纜出帆渡米\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0279\">\n<head>\n<date when=\"1921-10-13\">\n           十三日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"07:00:00\">\n             午前七時\n            </time>\n<placeName corresp=\"#place_滝野川\">\n             滝野川\n            </placeName>\n            自治協会ノ件（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:15:00\">\n             午前九時十五分\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発、\n            <time when=\"10:10:00\">\n             午前十時十分\n            </time>\n<placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            岸壁着乗船\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            春洋丸\n            <placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            解纜出帆渡米\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-10"
 }

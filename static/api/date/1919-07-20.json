@@ -3,6 +3,10 @@
         "徳川",
         "板垣"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/板垣"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1305",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,7 +22,7 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-07",
     "date_lvl2": "1919-07-20",
-    "description": "\n\n\n           二十日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n\n             第六天\n            \n\n\n              徳川\n             \n\n            邸ヘ御出向\n           \n\n\n\n\n             午前十時\n            \n            故\n            \n\n              板垣\n             \n\n            伯葬儀（\n            \n             芝\n            \n            青松寺）\n           \n\n\n\n\n             午後六時\n            \n\n             埼玉\n            \n            県新旧知事送迎会（上のセイヨウケン）\n           \n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n\n             第六天\n            \n\n\n              徳川\n             \n\n            邸ヘ御出向\n           \n\n\n\n\n             午前十時\n            \n            故\n            \n\n              板垣\n             \n\n            伯葬儀（\n            \n             芝\n            \n            青松寺）\n           \n\n\n\n\n             午後六時\n            \n\n             埼玉\n            \n            県新旧知事送迎会（\n            \n             上の\n            \n            セイヨウケン）\n           \n\n\n",
     "label": "二十日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0176",
@@ -27,9 +31,16 @@
     "sort": "DKB20021m-0175",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "第六天",
+        "第六天町",
         "芝",
-        "埼玉"
+        "埼玉",
+        "上野"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/第六天町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/芝",
+        "https://shibusawa-dlab.github.io/lab1/api/place/埼玉",
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
     ],
     "temporal": "1919-07-20",
     "texts": [
@@ -55,10 +66,10 @@
         "DKB20018m-0203"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            邸ヘ御出向</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_第六天町\">\n             第六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            邸ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0175\">\n<head>\n<date when=\"1919-07-20\">\n           二十日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            邸ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            故\n            <persName corresp=\"#pers_板垣\">\n<surname>\n              板垣\n             </surname>\n</persName>\n            伯葬儀（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n            青松寺）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県新旧知事送迎会（上のセイヨウケン）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0175\">\n<head>\n<date when=\"1919-07-20\">\n           二十日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_第六天町\">\n             第六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            邸ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            故\n            <persName corresp=\"#pers_板垣\">\n<surname>\n              板垣\n             </surname>\n</persName>\n            伯葬儀（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n            青松寺）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県新旧知事送迎会（\n            <placeName corresp=\"#place_上野\">\n             上の\n            </placeName>\n            セイヨウケン）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-07"
 }

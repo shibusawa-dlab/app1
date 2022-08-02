@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1396",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-06",
     "date_lvl2": "1922-06-28",
-    "description": "\n\n\n           廿八日\n          \n          （水）\n         \n\n\n\n\n             午前十一時半\n            \n            博覧会協賛会常任常議員会（迎賓館）\n           \n\n\n\n\n             午後四時\n            \n            社会事業協会評議員会（警察講習所）\n           \n\n\n\n\n             午後六時\n            \n            全国商業会議所聯合会主催諸大臣招待会（築地精養軒）\n           \n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （水）\n         \n\n\n\n\n             午前十一時半\n            \n            博覧会協賛会常任常議員会（迎賓館）\n           \n\n\n\n\n             午後四時\n            \n            社会事業協会評議員会（警察講習所）\n           \n\n\n\n\n             午後六時\n            \n            全国商業会議所聯合会主催諸大臣招待会（\n            \n             築地\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
     "label": "廿八日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0155",
@@ -23,7 +24,12 @@
     "prev": "DKB20024m-0153",
     "sort": "DKB20024m-0154",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
+    "spatial": [
+        "築地"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
+    ],
     "temporal": "1922-06-28",
     "texts": [
         "DKB20025m-0244",
@@ -51,7 +57,7 @@
         "11:30:00": "<div><time when=\"11:30:00\">\n             午前十一時半\n            </time>\n            博覧会協賛会常任常議員会（迎賓館）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0154\">\n<head>\n<date when=\"1922-06-28\">\n           廿八日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n            博覧会協賛会常任常議員会（迎賓館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            社会事業協会評議員会（警察講習所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            全国商業会議所聯合会主催諸大臣招待会（築地精養軒）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0154\">\n<head>\n<date when=\"1922-06-28\">\n           廿八日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n            博覧会協賛会常任常議員会（迎賓館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            社会事業協会評議員会（警察講習所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            全国商業会議所聯合会主催諸大臣招待会（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-06"
 }

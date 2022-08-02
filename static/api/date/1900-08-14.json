@@ -2,9 +2,16 @@
     "agential": [
         "萩原源太郎",
         "安達憲忠",
-        "元治",
+        "渋沢元治",
         "前田青莎",
         "浅野総一郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/萩原源太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/安達憲忠",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢元治",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/前田青莎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野総一郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/176",
     "category": {
@@ -33,6 +40,10 @@
         "東京",
         "大津"
     ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/大津"
+    ],
     "temporal": "1900-08-14",
     "texts": [
         "DKB10009m-0228",
@@ -57,10 +68,10 @@
         "DKB10008m-0078"
     ],
     "time": {
-        "06:00:00": "<div>晴、<time when=\"06:00:00\">\n        午前六時\n       </time>\n       海水ニ浴ス、朝餐後\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n<persName corresp=\"#pers_萩原源太郎\">\n<surname>\n         萩原\n        </surname>\n<forename>\n         源太郎\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_安達憲忠\">\n<surname>\n         安達\n        </surname>\n<forename>\n         憲忠\n        </forename>\n</persName>\n       二氏ヘ書状ヲ発ス、\n       <persName corresp=\"#pers_元治\">\n<forename>\n         元治\n        </forename>\n</persName>\n<placeName corresp=\"#place_大津\">\n        大津\n       </placeName>\n       ヨリノ来書ニ回答ス、\n       <persName corresp=\"#pers_前田青莎\">\n<surname>\n         前田\n        </surname>\n<forename>\n         青莎\n        </forename>\n</persName>\n       氏来ル、岩越鉄道会社ノ事ヲ談ス、\n       <persName corresp=\"#pers_浅野総一郎\">\n<surname>\n         浅野\n        </surname>\n<forename>\n         総一郎\n        </forename>\n</persName>\n       氏来訪ス、家法ヲ浄写シ、且読書遊戯ニ終日ヲ消閑ス</div>"
+        "06:00:00": "<div>晴、<time when=\"06:00:00\">\n        午前六時\n       </time>\n       海水ニ浴ス、朝餐後\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n<persName corresp=\"#pers_萩原源太郎\">\n<surname>\n         萩原\n        </surname>\n<forename>\n         源太郎\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_安達憲忠\">\n<surname>\n         安達\n        </surname>\n<forename>\n         憲忠\n        </forename>\n</persName>\n       二氏ヘ書状ヲ発ス、\n       <persName corresp=\"#pers_渋沢元治\">\n<forename>\n         元治\n        </forename>\n</persName>\n<placeName corresp=\"#place_大津\">\n        大津\n       </placeName>\n       ヨリノ来書ニ回答ス、\n       <persName corresp=\"#pers_前田青莎\">\n<surname>\n         前田\n        </surname>\n<forename>\n         青莎\n        </forename>\n</persName>\n       氏来ル、岩越鉄道会社ノ事ヲ談ス、\n       <persName corresp=\"#pers_浅野総一郎\">\n<surname>\n         浅野\n        </surname>\n<forename>\n         総一郎\n        </forename>\n</persName>\n       氏来訪ス、家法ヲ浄写シ、且読書遊戯ニ終日ヲ消閑ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10009m-0226\">\n<head>\n<date when=\"1900-08-14\">\n        八月十四日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"06:00:00\">\n        午前六時\n       </time>\n       海水ニ浴ス、朝餐後\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n<persName corresp=\"#pers_萩原源太郎\">\n<surname>\n         萩原\n        </surname>\n<forename>\n         源太郎\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_安達憲忠\">\n<surname>\n         安達\n        </surname>\n<forename>\n         憲忠\n        </forename>\n</persName>\n       二氏ヘ書状ヲ発ス、\n       <persName corresp=\"#pers_元治\">\n<forename>\n         元治\n        </forename>\n</persName>\n<placeName corresp=\"#place_大津\">\n        大津\n       </placeName>\n       ヨリノ来書ニ回答ス、\n       <persName corresp=\"#pers_前田青莎\">\n<surname>\n         前田\n        </surname>\n<forename>\n         青莎\n        </forename>\n</persName>\n       氏来ル、岩越鉄道会社ノ事ヲ談ス、\n       <persName corresp=\"#pers_浅野総一郎\">\n<surname>\n         浅野\n        </surname>\n<forename>\n         総一郎\n        </forename>\n</persName>\n       氏来訪ス、家法ヲ浄写シ、且読書遊戯ニ終日ヲ消閑ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10009m-0226\">\n<head>\n<date when=\"1900-08-14\">\n        八月十四日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"06:00:00\">\n        午前六時\n       </time>\n       海水ニ浴ス、朝餐後\n       <placeName corresp=\"#place_東京\">\n        東京\n       </placeName>\n<persName corresp=\"#pers_萩原源太郎\">\n<surname>\n         萩原\n        </surname>\n<forename>\n         源太郎\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_安達憲忠\">\n<surname>\n         安達\n        </surname>\n<forename>\n         憲忠\n        </forename>\n</persName>\n       二氏ヘ書状ヲ発ス、\n       <persName corresp=\"#pers_渋沢元治\">\n<forename>\n         元治\n        </forename>\n</persName>\n<placeName corresp=\"#place_大津\">\n        大津\n       </placeName>\n       ヨリノ来書ニ回答ス、\n       <persName corresp=\"#pers_前田青莎\">\n<surname>\n         前田\n        </surname>\n<forename>\n         青莎\n        </forename>\n</persName>\n       氏来ル、岩越鉄道会社ノ事ヲ談ス、\n       <persName corresp=\"#pers_浅野総一郎\">\n<surname>\n         浅野\n        </surname>\n<forename>\n         総一郎\n        </forename>\n</persName>\n       氏来訪ス、家法ヲ浄写シ、且読書遊戯ニ終日ヲ消閑ス\n      </p>\n</div>",
     "year": "1900",
     "yearAndMonth": "1900-08"
 }

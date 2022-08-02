@@ -1,7 +1,13 @@
 {
     "agential": [
         "松本",
+        "海塚",
         "熊谷"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松本",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/海塚",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/熊谷"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/195",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1900",
     "date_lvl1": "1900-12",
     "date_lvl2": "1900-12-03",
-    "description": "\n\n\n        十二月三日\n       \n\n\n       曇、\n       \n        午前四時\n       \n\n        徳山\n       \n       着、\n       \n        五時四十分\n       \n       同地発ノ汽車ニ搭シテ\n       \n        広島\n       \n       ニ向フ、\n       \n        六時半\n       \n       汽車中ニテ朝餐ス、\n       \n        八時\n       \n\n        宮島\n       \n       着、同地ニテ下車シ厳島神社ヲ参拝ス、\n       \n        午後一時十八分\n       \n\n        宮島\n       \n       発ノ汽車ニテ\n       \n        二時\n       \n       過\n       \n        広島\n       \n       着、吉川旅舎ニ投宿ス、\n       \n\n         松本\n        \n\n       、海塚及十数名来リ迎フ、此日大坂\n       \n\n         熊谷\n        \n\n       氏、西京中川氏ヘ書状ヲ発ス、\n       \n        午後五時\n       \n       広島商業会議所会員及地方有志者ノ招宴ニ応シテ他ノ酒楼ニ於テ招宴ヲ享ク、席上会スル者五十人許ナリ、一場ノ演説ヲ為ス（\n       \n        韓国\n       \n       視察談）、畢テ旅宿ニ帰ル、夜\n       \n        十一時\n       \n       寝ニ就ク、此夜少シク風邪ノ気味ニテ熱気アルヲ覚フ\n      \n",
+    "description": "\n\n\n        十二月三日\n       \n\n\n       曇、\n       \n        午前四時\n       \n\n        徳山\n       \n       着、\n       \n        五時四十分\n       \n       同地発ノ汽車ニ搭シテ\n       \n        広島\n       \n       ニ向フ、\n       \n        六時半\n       \n       汽車中ニテ朝餐ス、\n       \n        八時\n       \n\n        宮島\n       \n       着、同地ニテ下車シ厳島神社ヲ参拝ス、\n       \n        午後一時十八分\n       \n\n        宮島\n       \n       発ノ汽車ニテ\n       \n        二時\n       \n       過\n       \n        広島\n       \n       着、吉川旅舎ニ投宿ス、\n       \n\n         松本\n        \n\n       、\n       \n\n         海塚\n        \n\n       及十数名来リ迎フ、此日大坂\n       \n\n         熊谷\n        \n\n       氏、西京中川氏ヘ書状ヲ発ス、\n       \n        午後五時\n       \n       広島商業会議所会員及地方有志者ノ招宴ニ応シテ他ノ酒楼ニ於テ招宴ヲ享ク、席上会スル者五十人許ナリ、一場ノ演説ヲ為ス（\n       \n        韓国\n       \n       視察談）、畢テ旅宿ニ帰ル、夜\n       \n        十一時\n       \n       寝ニ就ク、此夜少シク風邪ノ気味ニテ熱気アルヲ覚フ\n      \n",
     "label": "十二月三日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10009m-0338",
@@ -31,6 +37,12 @@
         "広島",
         "宮島",
         "大韓民国"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/徳山",
+        "https://shibusawa-dlab.github.io/lab1/api/place/広島",
+        "https://shibusawa-dlab.github.io/lab1/api/place/宮島",
+        "https://shibusawa-dlab.github.io/lab1/api/place/大韓民国"
     ],
     "temporal": "1900-12-03",
     "texts": [
@@ -61,12 +73,12 @@
         "06:30:00": "<div><time when=\"06:30:00\">\n        六時半\n       </time>\n       汽車中ニテ朝餐ス、</div>",
         "08:00:00": "<div><time when=\"08:00:00\">\n        八時\n       </time>\n<placeName corresp=\"#place_宮島\">\n        宮島\n       </placeName>\n       着、同地ニテ下車シ厳島神社ヲ参拝ス、</div>",
         "13:18:00": "<div><time when=\"13:18:00\">\n        午後一時十八分\n       </time>\n<placeName corresp=\"#place_宮島\">\n        宮島\n       </placeName>\n       発ノ汽車ニテ</div>",
-        "14:00:00": "<div><time when=\"14:00:00\">\n        二時\n       </time>\n       過\n       <placeName corresp=\"#place_広島\">\n        広島\n       </placeName>\n       着、吉川旅舎ニ投宿ス、\n       <persName corresp=\"#pers_松本\">\n<surname>\n         松本\n        </surname>\n</persName>\n       、海塚及十数名来リ迎フ、此日大坂\n       <persName corresp=\"#pers_熊谷\">\n<surname>\n         熊谷\n        </surname>\n</persName>\n       氏、西京中川氏ヘ書状ヲ発ス、</div>",
+        "14:00:00": "<div><time when=\"14:00:00\">\n        二時\n       </time>\n       過\n       <placeName corresp=\"#place_広島\">\n        広島\n       </placeName>\n       着、吉川旅舎ニ投宿ス、\n       <persName corresp=\"#pers_松本\">\n<surname>\n         松本\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_海塚\">\n<surname>\n         海塚\n        </surname>\n</persName>\n       及十数名来リ迎フ、此日大坂\n       <persName corresp=\"#pers_熊谷\">\n<surname>\n         熊谷\n        </surname>\n</persName>\n       氏、西京中川氏ヘ書状ヲ発ス、</div>",
         "17:00:00": "<div><time when=\"17:00:00\">\n        午後五時\n       </time>\n       広島商業会議所会員及地方有志者ノ招宴ニ応シテ他ノ酒楼ニ於テ招宴ヲ享ク、席上会スル者五十人許ナリ、一場ノ演説ヲ為ス（\n       <placeName corresp=\"#place_大韓民国\">\n        韓国\n       </placeName>\n       視察談）、畢テ旅宿ニ帰ル、夜</div>",
         "23:00:00": "<div><time when=\"23:00:00\">\n        十一時\n       </time>\n       寝ニ就ク、此夜少シク風邪ノ気味ニテ熱気アルヲ覚フ</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10009m-0337\">\n<head>\n<date when=\"1900-12-03\">\n        十二月三日\n       </date>\n</head>\n<p>\n       曇、\n       <time when=\"04:00:00\">\n        午前四時\n       </time>\n<placeName corresp=\"#place_徳山\">\n        徳山\n       </placeName>\n       着、\n       <time when=\"05:40:00\">\n        五時四十分\n       </time>\n       同地発ノ汽車ニ搭シテ\n       <placeName corresp=\"#place_広島\">\n        広島\n       </placeName>\n       ニ向フ、\n       <time when=\"06:30:00\">\n        六時半\n       </time>\n       汽車中ニテ朝餐ス、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n<placeName corresp=\"#place_宮島\">\n        宮島\n       </placeName>\n       着、同地ニテ下車シ厳島神社ヲ参拝ス、\n       <time when=\"13:18:00\">\n        午後一時十八分\n       </time>\n<placeName corresp=\"#place_宮島\">\n        宮島\n       </placeName>\n       発ノ汽車ニテ\n       <time when=\"14:00:00\">\n        二時\n       </time>\n       過\n       <placeName corresp=\"#place_広島\">\n        広島\n       </placeName>\n       着、吉川旅舎ニ投宿ス、\n       <persName corresp=\"#pers_松本\">\n<surname>\n         松本\n        </surname>\n</persName>\n       、海塚及十数名来リ迎フ、此日大坂\n       <persName corresp=\"#pers_熊谷\">\n<surname>\n         熊谷\n        </surname>\n</persName>\n       氏、西京中川氏ヘ書状ヲ発ス、\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n       広島商業会議所会員及地方有志者ノ招宴ニ応シテ他ノ酒楼ニ於テ招宴ヲ享ク、席上会スル者五十人許ナリ、一場ノ演説ヲ為ス（\n       <placeName corresp=\"#place_大韓民国\">\n        韓国\n       </placeName>\n       視察談）、畢テ旅宿ニ帰ル、夜\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n       寝ニ就ク、此夜少シク風邪ノ気味ニテ熱気アルヲ覚フ\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10009m-0337\">\n<head>\n<date when=\"1900-12-03\">\n        十二月三日\n       </date>\n</head>\n<p>\n       曇、\n       <time when=\"04:00:00\">\n        午前四時\n       </time>\n<placeName corresp=\"#place_徳山\">\n        徳山\n       </placeName>\n       着、\n       <time when=\"05:40:00\">\n        五時四十分\n       </time>\n       同地発ノ汽車ニ搭シテ\n       <placeName corresp=\"#place_広島\">\n        広島\n       </placeName>\n       ニ向フ、\n       <time when=\"06:30:00\">\n        六時半\n       </time>\n       汽車中ニテ朝餐ス、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n<placeName corresp=\"#place_宮島\">\n        宮島\n       </placeName>\n       着、同地ニテ下車シ厳島神社ヲ参拝ス、\n       <time when=\"13:18:00\">\n        午後一時十八分\n       </time>\n<placeName corresp=\"#place_宮島\">\n        宮島\n       </placeName>\n       発ノ汽車ニテ\n       <time when=\"14:00:00\">\n        二時\n       </time>\n       過\n       <placeName corresp=\"#place_広島\">\n        広島\n       </placeName>\n       着、吉川旅舎ニ投宿ス、\n       <persName corresp=\"#pers_松本\">\n<surname>\n         松本\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_海塚\">\n<surname>\n         海塚\n        </surname>\n</persName>\n       及十数名来リ迎フ、此日大坂\n       <persName corresp=\"#pers_熊谷\">\n<surname>\n         熊谷\n        </surname>\n</persName>\n       氏、西京中川氏ヘ書状ヲ発ス、\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n       広島商業会議所会員及地方有志者ノ招宴ニ応シテ他ノ酒楼ニ於テ招宴ヲ享ク、席上会スル者五十人許ナリ、一場ノ演説ヲ為ス（\n       <placeName corresp=\"#place_大韓民国\">\n        韓国\n       </placeName>\n       視察談）、畢テ旅宿ニ帰ル、夜\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n       寝ニ就ク、此夜少シク風邪ノ気味ニテ熱気アルヲ覚フ\n      </p>\n</div>",
     "year": "1900",
     "yearAndMonth": "1900-12"
 }

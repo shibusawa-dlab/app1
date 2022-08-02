@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/277",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -24,7 +25,10 @@
     "sort": "DKB10010m-0361",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
-        "紐育府"
+        "ニューヨーク"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/ニューヨーク"
     ],
     "temporal": "1902-07-02",
     "texts": [
@@ -52,10 +56,10 @@
     "time": {
         "07:00:00": "<div>晴、<time when=\"07:00:00\">\n        午前七時\n       </time>\n       ヨリ旅装ヲ整ヒ、告別ノ為ニ来会スル各人ニ接待シ、</div>",
         "10:00:00": "<div><time when=\"10:00:00\">\n        十時\n       </time>\n       旅宿ヲ発シ、海岸ニ抵リマゼスチツク号ニ乗組ム、此汽船ハ\n       <orgName>\n        ホワイト・スター会社\n       </orgName>\n       ノ客船ニシテ噸数壱万〇百噸《蒸気ノ馬力》ナリト云フ、船室及食堂書籍室其他各部ノ設備装置極テ高尚ナリ、</div>",
-        "12:00:00": "<div><time when=\"12:00:00\">\n        正午\n       </time>\n       出帆シテ\n       <placeName corresp=\"#place_紐育府\">\n        紐育府\n       </placeName>\n       ヲ煙霧ノ中ニ残シテ大西洋ニ出ツ、此日天気快晴風ナク船聊モ動揺セス、一行共ニ快ヲ呼フ、蓋シ十数日\n       <placeName corresp=\"#place_紐育府\">\n        紐育府\n       </placeName>\n       車馬熱閙ノ地ニ在テ、種々ノ調査又ハ訪問饗宴等実ニ寸暇ナカリシガ、今日此清浄安寧ノ旅行ヲ為スニ至リテ殊ニ心神ヲ安静スルヲ得タリ、夜ニ入ルモ船ノ動揺ナク一同相集テ快談セリ</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n        正午\n       </time>\n       出帆シテ\n       <placeName corresp=\"#place_ニューヨーク\">\n        紐育府\n       </placeName>\n       ヲ煙霧ノ中ニ残シテ大西洋ニ出ツ、此日天気快晴風ナク船聊モ動揺セス、一行共ニ快ヲ呼フ、蓋シ十数日\n       <placeName corresp=\"#place_ニューヨーク\">\n        紐育府\n       </placeName>\n       車馬熱閙ノ地ニ在テ、種々ノ調査又ハ訪問饗宴等実ニ寸暇ナカリシガ、今日此清浄安寧ノ旅行ヲ為スニ至リテ殊ニ心神ヲ安静スルヲ得タリ、夜ニ入ルモ船ノ動揺ナク一同相集テ快談セリ</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10010m-0361\">\n<head>\n<date when=\"1902-07-02\">\n        七月二日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"07:00:00\">\n        午前七時\n       </time>\n       ヨリ旅装ヲ整ヒ、告別ノ為ニ来会スル各人ニ接待シ、\n       <time when=\"10:00:00\">\n        十時\n       </time>\n       旅宿ヲ発シ、海岸ニ抵リマゼスチツク号ニ乗組ム、此汽船ハ\n       <orgName>\n        ホワイト・スター会社\n       </orgName>\n       ノ客船ニシテ噸数壱万〇百噸《蒸気ノ馬力》ナリト云フ、船室及食堂書籍室其他各部ノ設備装置極テ高尚ナリ、\n       <time when=\"12:00:00\">\n        正午\n       </time>\n       出帆シテ\n       <placeName corresp=\"#place_紐育府\">\n        紐育府\n       </placeName>\n       ヲ煙霧ノ中ニ残シテ大西洋ニ出ツ、此日天気快晴風ナク船聊モ動揺セス、一行共ニ快ヲ呼フ、蓋シ十数日\n       <placeName corresp=\"#place_紐育府\">\n        紐育府\n       </placeName>\n       車馬熱閙ノ地ニ在テ、種々ノ調査又ハ訪問饗宴等実ニ寸暇ナカリシガ、今日此清浄安寧ノ旅行ヲ為スニ至リテ殊ニ心神ヲ安静スルヲ得タリ、夜ニ入ルモ船ノ動揺ナク一同相集テ快談セリ\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10010m-0361\">\n<head>\n<date when=\"1902-07-02\">\n        七月二日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"07:00:00\">\n        午前七時\n       </time>\n       ヨリ旅装ヲ整ヒ、告別ノ為ニ来会スル各人ニ接待シ、\n       <time when=\"10:00:00\">\n        十時\n       </time>\n       旅宿ヲ発シ、海岸ニ抵リマゼスチツク号ニ乗組ム、此汽船ハ\n       <orgName>\n        ホワイト・スター会社\n       </orgName>\n       ノ客船ニシテ噸数壱万〇百噸《蒸気ノ馬力》ナリト云フ、船室及食堂書籍室其他各部ノ設備装置極テ高尚ナリ、\n       <time when=\"12:00:00\">\n        正午\n       </time>\n       出帆シテ\n       <placeName corresp=\"#place_ニューヨーク\">\n        紐育府\n       </placeName>\n       ヲ煙霧ノ中ニ残シテ大西洋ニ出ツ、此日天気快晴風ナク船聊モ動揺セス、一行共ニ快ヲ呼フ、蓋シ十数日\n       <placeName corresp=\"#place_ニューヨーク\">\n        紐育府\n       </placeName>\n       車馬熱閙ノ地ニ在テ、種々ノ調査又ハ訪問饗宴等実ニ寸暇ナカリシガ、今日此清浄安寧ノ旅行ヲ為スニ至リテ殊ニ心神ヲ安静スルヲ得タリ、夜ニ入ルモ船ノ動揺ナク一同相集テ快談セリ\n      </p>\n</div>",
     "year": "1902",
     "yearAndMonth": "1902-07"
 }

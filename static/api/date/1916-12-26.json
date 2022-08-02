@@ -1,8 +1,15 @@
 {
     "agential": [
-        "観山",
+        "下村観山",
         "平岡熙",
-        "中野武営"
+        "中野武営",
+        "勝田主計"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/下村観山",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/平岡熙",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中野武営",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/勝田主計"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1222",
     "category": {
@@ -19,7 +26,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-12",
     "date_lvl2": "1916-12-26",
-    "description": "\n\n\n           廿六日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n\n\n              観山\n             \n\n            等ヲ\n            \n             飛鳥山\n            \n            ニ御案内（雨天ナレバナシ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              平岡\n             \n\n              熙\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三―午後四時\n            \n\n\n              中野\n             \n\n              武営\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n\n             勝田\n            \n            蔵相ヨリ御招待（ホテル）\n           \n\n\n",
+    "description": "\n\n\n           廿六日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n\n\n              観山\n             \n\n            等ヲ\n            \n             飛鳥山\n            \n            ニ御案内（雨天ナレバナシ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              平岡\n             \n\n              熙\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三―午後四時\n            \n\n\n              中野\n             \n\n              武営\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n\n\n              勝田\n             \n\n            蔵相ヨリ御招待（ホテル）\n           \n\n\n",
     "label": "廿六日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0336",
@@ -28,9 +35,12 @@
     "sort": "DKB20018m-0335",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
-        "日本橋兜町",
-        "勝田"
+        "飛鳥山邸",
+        "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1916-12-26",
     "texts": [
@@ -56,10 +66,10 @@
         "DKB20021m-0178"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_観山\">\n<forename>\n              観山\n             </forename>\n</persName>\n            等ヲ\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ニ御案内（雨天ナレバナシ）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_下村観山\">\n<forename>\n              観山\n             </forename>\n</persName>\n            等ヲ\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ニ御案内（雨天ナレバナシ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0335\">\n<head>\n<date when=\"1916-12-26\">\n           廿六日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_観山\">\n<forename>\n              観山\n             </forename>\n</persName>\n            等ヲ\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ニ御案内（雨天ナレバナシ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_平岡熙\">\n<surname>\n              平岡\n             </surname>\n<forename>\n              熙\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―午後四時\n            </time>\n<persName corresp=\"#pers_中野武営\">\n<surname>\n              中野\n             </surname>\n<forename>\n              武営\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<placeName corresp=\"#place_勝田\">\n             勝田\n            </placeName>\n            蔵相ヨリ御招待（ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0335\">\n<head>\n<date when=\"1916-12-26\">\n           廿六日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_下村観山\">\n<forename>\n              観山\n             </forename>\n</persName>\n            等ヲ\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ニ御案内（雨天ナレバナシ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_平岡熙\">\n<surname>\n              平岡\n             </surname>\n<forename>\n              熙\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―午後四時\n            </time>\n<persName corresp=\"#pers_中野武営\">\n<surname>\n              中野\n             </surname>\n<forename>\n              武営\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_勝田主計\">\n<surname>\n              勝田\n             </surname>\n</persName>\n            蔵相ヨリ御招待（ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-12"
 }

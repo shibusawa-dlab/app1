@@ -4,6 +4,11 @@
         "渋沢義一",
         "戴電賢"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中村",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢義一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/戴電賢"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1179",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -19,7 +24,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-03",
     "date_lvl2": "1915-03-16",
-    "description": "\n\n\n           十六日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n            新\n            \n             日本\n            \n            社\n            \n\n              中村\n             \n\n            氏来約（\n            \n             王子\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n\n              渋沢\n             \n\n              義一\n             \n\n            氏と御会見（\n            \n             東京\n            \n            クラブ）\n           \n\n\n\n\n             午前九時四十五分\n            \n            マデニ\n            \n             東京\n            \n            クラブヘ御出向\n           \n\n\n\n\n             午後三時\n            \n\n\n              戴\n             \n\n              電賢\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            帰一協会幹事会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           十六日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n            新日本社\n            \n\n              中村\n             \n\n            氏来約（\n            \n             王子\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n\n              渋沢\n             \n\n              義一\n             \n\n            氏と御会見（東京クラブ）\n           \n\n\n\n\n             午前九時四十五分\n            \n            マデニ東京クラブヘ御出向\n           \n\n\n\n\n             午後三時\n            \n\n\n              戴\n             \n\n              電賢\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            帰一協会幹事会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "十六日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0074",
@@ -28,10 +33,12 @@
     "sort": "DKB20017m-0073",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "日本",
         "王子",
-        "東京",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1915-03-16",
     "texts": [
@@ -57,10 +64,10 @@
         "DKB20025m-0198"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            新\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            社\n            <persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            新日本社\n            <persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0073\">\n<head>\n<date when=\"1915-03-16\">\n           十六日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            新\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            社\n            <persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_渋沢義一\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏と御会見（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:45:00\">\n             午前九時四十五分\n            </time>\n            マデニ\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            クラブヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_戴電賢\">\n<surname>\n              戴\n             </surname>\n<forename>\n              電賢\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            帰一協会幹事会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0073\">\n<head>\n<date when=\"1915-03-16\">\n           十六日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            新日本社\n            <persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_渋沢義一\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏と御会見（東京クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:45:00\">\n             午前九時四十五分\n            </time>\n            マデニ東京クラブヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_戴電賢\">\n<surname>\n              戴\n             </surname>\n<forename>\n              電賢\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            帰一協会幹事会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-03"
 }

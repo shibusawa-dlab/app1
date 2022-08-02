@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/39",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -24,8 +25,12 @@
     "sort": "DKB10001m-0054",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
-        "新",
+        "シンガポール",
         "シユマトラ"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/シンガポール",
+        "https://shibusawa-dlab.github.io/lab1/api/place/シユマトラ"
     ],
     "temporal": "1868-11-17",
     "texts": [
@@ -52,7 +57,7 @@
     ],
     "time": {},
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10001m-0054\">\n<head>\n<date type=\"旧暦\" when=\"1868-11-17\">\n        十月四日\n       </date>\n       晴　火　　北緯五度四十五　東経九十四度十八　　速弐百四十五里\n       <placeName corresp=\"#place_新\">\n        新\n       </placeName>\n       迄五百三十七里\n       <lb/>\n<date when=\"1868-11-17\">\n        十一月十七日\n       </date>\n</head>\n<p>\n<lb/>\n       昨夜より\n       <placeName corresp=\"#place_シユマトラ\">\n        シユマトラ\n       </placeName>\n       の海峡を〓行すれは〓行殊に穏かなり、されど風少しく殆炎熱を覚ゆ、午後より\n       <placeName corresp=\"#place_シユマトラ\">\n        シユマトラ\n       </placeName>\n       海岸のに《（衍）》添ふて〓行す、時々海辺の樹木及人家抔を認む、夕方より風南に替り、炎熱の苦を忘る、夜に入り電雨来《（雷）》る\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10001m-0054\">\n<head>\n<date type=\"旧暦\" when=\"1868-11-17\">\n        十月四日\n       </date>\n       晴　火　　北緯五度四十五　東経九十四度十八　　速弐百四十五里\n       <placeName corresp=\"#place_シンガポール\">\n        新\n       </placeName>\n       迄五百三十七里\n       <lb/>\n<date when=\"1868-11-17\">\n        十一月十七日\n       </date>\n</head>\n<p>\n<lb/>\n       昨夜より\n       <placeName corresp=\"#place_シユマトラ\">\n        シユマトラ\n       </placeName>\n       の海峡を〓行すれは〓行殊に穏かなり、されど風少しく殆炎熱を覚ゆ、午後より\n       <placeName corresp=\"#place_シユマトラ\">\n        シユマトラ\n       </placeName>\n       海岸のに《（衍）》添ふて〓行す、時々海辺の樹木及人家抔を認む、夕方より風南に替り、炎熱の苦を忘る、夜に入り電雨来《（雷）》る\n      </p>\n</div>",
     "year": "1868",
     "yearAndMonth": "1868-11"
 }

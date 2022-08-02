@@ -5,6 +5,12 @@
         "益田孝",
         "明石照男"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/井上",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/カーン",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/益田孝",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/明石照男"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/582",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -30,7 +36,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "麻布",
-        "仏国"
+        "フランス"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/麻布",
+        "https://shibusawa-dlab.github.io/lab1/api/place/フランス"
     ],
     "temporal": "1909-01-05",
     "texts": [
@@ -57,14 +67,14 @@
     ],
     "time": {
         "08:00:00": "<div><time when=\"08:00:00\">\n        午前八時\n       </time>\n       起床入浴シ、後、朝飧ヲ食ス、食後、来人ニ接ス、</div>",
-        "10:30:00": "<div><time when=\"10:30:00\">\n        午前十時半\n       </time>\n<placeName corresp=\"#place_麻布\">\n        麻布\n       </placeName>\n<persName corresp=\"#pers_井上\">\n<surname>\n         井上\n        </surname>\n</persName>\n       侯邸ヲ訪ヒ、\n       <placeName corresp=\"#place_仏国\">\n        仏国\n       </placeName>\n       人\n       <persName corresp=\"#pers_カーン\">\n<surname>\n         カーン\n        </surname>\n</persName>\n       氏ノ事ニ関シ種々ノ談話ヲ為ス</div>",
+        "10:30:00": "<div><time when=\"10:30:00\">\n        午前十時半\n       </time>\n<placeName corresp=\"#place_麻布\">\n        麻布\n       </placeName>\n<persName corresp=\"#pers_井上\">\n<surname>\n         井上\n        </surname>\n</persName>\n       侯邸ヲ訪ヒ、\n       <placeName corresp=\"#place_フランス\">\n        仏国\n       </placeName>\n       人\n       <persName corresp=\"#pers_カーン\">\n<surname>\n         カーン\n        </surname>\n</persName>\n       氏ノ事ニ関シ種々ノ談話ヲ為ス</div>",
         "12:00:00": "<div><time when=\"12:00:00\">\n        十二時\n       </time>\n<persName corresp=\"#pers_益田孝\">\n<surname>\n         益田\n        </surname>\n<forename>\n         孝\n        </forename>\n</persName>\n       氏モ来会ス、協議ノ後侯爵邸ニテ午飧シ、</div>",
         "15:00:00": "<div><time when=\"15:00:00\">\n        午後三時\n       </time>\n       帰宿\n       <pb corresp=\"#pageB1557\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/583/full/max/0/default.jpg\" n=\"B1557\" source=\"#pageB1557\"/>\n       ス、</div>",
         "16:00:00": "<div><time when=\"16:00:00\">\n        四時\n       </time>\n       ヨリ\n       <persName corresp=\"#pers_明石照男\">\n<surname>\n         明石\n        </surname>\n<forename>\n         照男\n        </forename>\n</persName>\n       氏来ル、氏ト親睦ヲ厚フスル為メ、同族皆来会シ、共ニ夜飧シ、食後色々ノ談話ヲ為ス、夜</div>",
         "22:00:00": "<div><time when=\"22:00:00\">\n        十時\n       </time>\n       散会ス、後、新聞紙又ハ雑誌類ヲ読マシム</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10017m-0005\">\n<head>\n<date when=\"1909-01-05\">\n        一月五日\n       </date>\n       曇　寒\n      </head>\n<p>\n<time when=\"08:00:00\">\n        午前八時\n       </time>\n       起床入浴シ、後、朝飧ヲ食ス、食後、来人ニ接ス、\n       <time when=\"10:30:00\">\n        午前十時半\n       </time>\n<placeName corresp=\"#place_麻布\">\n        麻布\n       </placeName>\n<persName corresp=\"#pers_井上\">\n<surname>\n         井上\n        </surname>\n</persName>\n       侯邸ヲ訪ヒ、\n       <placeName corresp=\"#place_仏国\">\n        仏国\n       </placeName>\n       人\n       <persName corresp=\"#pers_カーン\">\n<surname>\n         カーン\n        </surname>\n</persName>\n       氏ノ事ニ関シ種々ノ談話ヲ為ス\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n<persName corresp=\"#pers_益田孝\">\n<surname>\n         益田\n        </surname>\n<forename>\n         孝\n        </forename>\n</persName>\n       氏モ来会ス、協議ノ後侯爵邸ニテ午飧シ、\n       <time when=\"15:00:00\">\n        午後三時\n       </time>\n       帰宿\n       <pb corresp=\"#pageB1557\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/583/full/max/0/default.jpg\" n=\"B1557\" source=\"#pageB1557\"/>\n       ス、\n       <time when=\"16:00:00\">\n        四時\n       </time>\n       ヨリ\n       <persName corresp=\"#pers_明石照男\">\n<surname>\n         明石\n        </surname>\n<forename>\n         照男\n        </forename>\n</persName>\n       氏来ル、氏ト親睦ヲ厚フスル為メ、同族皆来会シ、共ニ夜飧シ、食後色々ノ談話ヲ為ス、夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n       散会ス、後、新聞紙又ハ雑誌類ヲ読マシム\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10017m-0005\">\n<head>\n<date when=\"1909-01-05\">\n        一月五日\n       </date>\n       曇　寒\n      </head>\n<p>\n<time when=\"08:00:00\">\n        午前八時\n       </time>\n       起床入浴シ、後、朝飧ヲ食ス、食後、来人ニ接ス、\n       <time when=\"10:30:00\">\n        午前十時半\n       </time>\n<placeName corresp=\"#place_麻布\">\n        麻布\n       </placeName>\n<persName corresp=\"#pers_井上\">\n<surname>\n         井上\n        </surname>\n</persName>\n       侯邸ヲ訪ヒ、\n       <placeName corresp=\"#place_フランス\">\n        仏国\n       </placeName>\n       人\n       <persName corresp=\"#pers_カーン\">\n<surname>\n         カーン\n        </surname>\n</persName>\n       氏ノ事ニ関シ種々ノ談話ヲ為ス\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n<persName corresp=\"#pers_益田孝\">\n<surname>\n         益田\n        </surname>\n<forename>\n         孝\n        </forename>\n</persName>\n       氏モ来会ス、協議ノ後侯爵邸ニテ午飧シ、\n       <time when=\"15:00:00\">\n        午後三時\n       </time>\n       帰宿\n       <pb corresp=\"#pageB1557\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/583/full/max/0/default.jpg\" n=\"B1557\" source=\"#pageB1557\"/>\n       ス、\n       <time when=\"16:00:00\">\n        四時\n       </time>\n       ヨリ\n       <persName corresp=\"#pers_明石照男\">\n<surname>\n         明石\n        </surname>\n<forename>\n         照男\n        </forename>\n</persName>\n       氏来ル、氏ト親睦ヲ厚フスル為メ、同族皆来会シ、共ニ夜飧シ、食後色々ノ談話ヲ為ス、夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n       散会ス、後、新聞紙又ハ雑誌類ヲ読マシム\n      </p>\n</div>",
     "year": "1909",
     "yearAndMonth": "1909-01"
 }

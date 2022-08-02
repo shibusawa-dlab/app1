@@ -1,7 +1,13 @@
 {
     "agential": [
         "岩崎",
-        "大倉"
+        "大倉",
+        "塘"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岩崎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大倉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/塘"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/696",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1911",
     "date_lvl1": "1911-04",
     "date_lvl2": "1911-04-30",
-    "description": "\n\n\n        四月三十日\n       \n       日　雨　軽寒\n      \n\n\n        午前七時\n       \n       起床、半身浴ヲ為ス、後、数多ノ来人ニ接ス、\n       \n        埼玉\n       \n       学生委員新聞記者等来訪ス、\n       \n        午前十一時\n       \n\n        茅町\n       \n\n\n         岩崎\n        \n\n       氏ヲ訪ヘ\n       \n        汽車製造会社\n       \n       ノ事ヲ談話ス、\n       \n        十二時\n       \n       過\n       \n        浜町\n       \n       ニ抵リ午飧ス、\n       \n        二時半\n       \n\n\n         大倉\n        \n\n       氏ヲ葵町ニ訪ヒ、\n       \n        汽車製造会社\n       \n       ノ事、施薬救療ニ関スル寄附金ノ事ヲ談ス、\n       \n        午後四時\n       \n       過帰宿ス、新聞紙雑誌類ヲ読ム、晩飧後、\n       \n        女子大学\n       \n       ノ塘氏\n       \n        大坂\n       \n       行ニ添書スル為メ書状六七通ヲ認メ、夜\n       \n        十二時\n       \n       就寝\n      \n",
+    "description": "\n\n\n        四月三十日\n       \n       日　雨　軽寒\n      \n\n\n        午前七時\n       \n       起床、半身浴ヲ為ス、後、数多ノ来人ニ接ス、\n       \n        埼玉\n       \n       学生委員新聞記者等来訪ス、\n       \n        午前十一時\n       \n\n        茅町\n       \n\n\n         岩崎\n        \n\n       氏ヲ訪ヘ\n       \n        汽車製造会社\n       \n       ノ事ヲ談話ス、\n       \n        十二時\n       \n       過\n       \n        浜町\n       \n       ニ抵リ午飧ス、\n       \n        二時半\n       \n\n\n         大倉\n        \n\n       氏ヲ葵町ニ訪ヒ、\n       \n        汽車製造会社\n       \n       ノ事、施薬救療ニ関スル寄附金ノ事ヲ談ス、\n       \n        午後四時\n       \n       過帰宿ス、新聞紙雑誌類ヲ読ム、晩飧後、\n       \n        女子大学\n       \n       ノ\n       \n\n         塘\n        \n\n       氏\n       \n        大坂\n       \n       行ニ添書スル為メ書状六七通ヲ認メ、夜\n       \n        十二時\n       \n       就寝\n      \n",
     "label": "四月三十日              日　雨　軽寒",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10019m-0110",
@@ -31,6 +37,12 @@
         "茅町",
         "浜町",
         "大阪"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/埼玉",
+        "https://shibusawa-dlab.github.io/lab1/api/place/茅町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/浜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/大阪"
     ],
     "temporal": "1911-04-30",
     "texts": [
@@ -60,11 +72,11 @@
         "11:00:00": "<div><time when=\"11:00:00\">\n        午前十一時\n       </time>\n<placeName corresp=\"#place_茅町\">\n        茅町\n       </placeName>\n<persName corresp=\"#pers_岩崎\">\n<surname>\n         岩崎\n        </surname>\n</persName>\n       氏ヲ訪ヘ\n       <orgName>\n        汽車製造会社\n       </orgName>\n       ノ事ヲ談話ス、</div>",
         "12:00:00": "<div><time when=\"12:00:00\">\n        十二時\n       </time>\n       過\n       <placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       ニ抵リ午飧ス、</div>",
         "14:30:00": "<div><time when=\"14:30:00\">\n        二時半\n       </time>\n<persName corresp=\"#pers_大倉\">\n<surname>\n         大倉\n        </surname>\n</persName>\n       氏ヲ葵町ニ訪ヒ、\n       <orgName>\n        汽車製造会社\n       </orgName>\n       ノ事、施薬救療ニ関スル寄附金ノ事ヲ談ス、</div>",
-        "16:00:00": "<div><time when=\"16:00:00\">\n        午後四時\n       </time>\n       過帰宿ス、新聞紙雑誌類ヲ読ム、晩飧後、\n       <orgName>\n        女子大学\n       </orgName>\n       ノ塘氏\n       <placeName corresp=\"#place_大阪\">\n        大坂\n       </placeName>\n       行ニ添書スル為メ書状六七通ヲ認メ、夜</div>",
+        "16:00:00": "<div><time when=\"16:00:00\">\n        午後四時\n       </time>\n       過帰宿ス、新聞紙雑誌類ヲ読ム、晩飧後、\n       <orgName>\n        女子大学\n       </orgName>\n       ノ\n       <persName corresp=\"#pers_塘\">\n<surname>\n         塘\n        </surname>\n</persName>\n       氏\n       <placeName corresp=\"#place_大阪\">\n        大坂\n       </placeName>\n       行ニ添書スル為メ書状六七通ヲ認メ、夜</div>",
         "24:00:00": "<div><time when-iso=\"1911-05-01T00:00+0900\">\n        十二時\n       </time>\n       就寝</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10019m-0109\">\n<head>\n<date when=\"1911-04-30\">\n        四月三十日\n       </date>\n       日　雨　軽寒\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、半身浴ヲ為ス、後、数多ノ来人ニ接ス、\n       <placeName corresp=\"#place_埼玉\">\n        埼玉\n       </placeName>\n       学生委員新聞記者等来訪ス、\n       <time when=\"11:00:00\">\n        午前十一時\n       </time>\n<placeName corresp=\"#place_茅町\">\n        茅町\n       </placeName>\n<persName corresp=\"#pers_岩崎\">\n<surname>\n         岩崎\n        </surname>\n</persName>\n       氏ヲ訪ヘ\n       <orgName>\n        汽車製造会社\n       </orgName>\n       ノ事ヲ談話ス、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n       過\n       <placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       ニ抵リ午飧ス、\n       <time when=\"14:30:00\">\n        二時半\n       </time>\n<persName corresp=\"#pers_大倉\">\n<surname>\n         大倉\n        </surname>\n</persName>\n       氏ヲ葵町ニ訪ヒ、\n       <orgName>\n        汽車製造会社\n       </orgName>\n       ノ事、施薬救療ニ関スル寄附金ノ事ヲ談ス、\n       <time when=\"16:00:00\">\n        午後四時\n       </time>\n       過帰宿ス、新聞紙雑誌類ヲ読ム、晩飧後、\n       <orgName>\n        女子大学\n       </orgName>\n       ノ塘氏\n       <placeName corresp=\"#place_大阪\">\n        大坂\n       </placeName>\n       行ニ添書スル為メ書状六七通ヲ認メ、夜\n       <time when-iso=\"1911-05-01T00:00+0900\">\n        十二時\n       </time>\n       就寝\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10019m-0109\">\n<head>\n<date when=\"1911-04-30\">\n        四月三十日\n       </date>\n       日　雨　軽寒\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、半身浴ヲ為ス、後、数多ノ来人ニ接ス、\n       <placeName corresp=\"#place_埼玉\">\n        埼玉\n       </placeName>\n       学生委員新聞記者等来訪ス、\n       <time when=\"11:00:00\">\n        午前十一時\n       </time>\n<placeName corresp=\"#place_茅町\">\n        茅町\n       </placeName>\n<persName corresp=\"#pers_岩崎\">\n<surname>\n         岩崎\n        </surname>\n</persName>\n       氏ヲ訪ヘ\n       <orgName>\n        汽車製造会社\n       </orgName>\n       ノ事ヲ談話ス、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n       過\n       <placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       ニ抵リ午飧ス、\n       <time when=\"14:30:00\">\n        二時半\n       </time>\n<persName corresp=\"#pers_大倉\">\n<surname>\n         大倉\n        </surname>\n</persName>\n       氏ヲ葵町ニ訪ヒ、\n       <orgName>\n        汽車製造会社\n       </orgName>\n       ノ事、施薬救療ニ関スル寄附金ノ事ヲ談ス、\n       <time when=\"16:00:00\">\n        午後四時\n       </time>\n       過帰宿ス、新聞紙雑誌類ヲ読ム、晩飧後、\n       <orgName>\n        女子大学\n       </orgName>\n       ノ\n       <persName corresp=\"#pers_塘\">\n<surname>\n         塘\n        </surname>\n</persName>\n       氏\n       <placeName corresp=\"#place_大阪\">\n        大坂\n       </placeName>\n       行ニ添書スル為メ書状六七通ヲ認メ、夜\n       <time when-iso=\"1911-05-01T00:00+0900\">\n        十二時\n       </time>\n       就寝\n      </p>\n</div>",
     "year": "1911",
     "yearAndMonth": "1911-04"
 }

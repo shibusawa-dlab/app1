@@ -3,6 +3,10 @@
         "越寿三郎",
         "今井五介"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/越寿三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/今井五介"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1460",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,7 +22,7 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-04",
     "date_lvl2": "1924-04-11",
-    "description": "\n\n\n           十一日\n          \n          （金）\n         \n\n\n\n\n             午前八時\n            \n\n\n              越\n             \n\n              寿三郎\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前八半時\n            \n\n\n              今井\n             \n\n              五介\n             \n\n            氏外来約（〃）\n           \n\n\n\n\n             午後一時\n            \n            聖徳太子千三百三年御忌法要（\n            \n             東京\n            \n            美術学校講堂）\n           \n\n\n\n\n             午後四時\n            \n            国際聯盟協会理事会（協調会館内同会）\n           \n\n\n\n\n             午後五時\n            \n            聖徳太子奉賛会ヨリ御案内（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （金）\n         \n\n\n\n\n             午前八時\n            \n\n\n              越\n             \n\n              寿三郎\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前八半時\n            \n\n\n              今井\n             \n\n              五介\n             \n\n            氏外来約（〃）\n           \n\n\n\n\n             午後一時\n            \n            聖徳太子千三百三年御忌法要（\n            \n             東京\n            \n            美術学校講堂）\n           \n\n\n\n\n             午後四時\n            \n            国際聯盟協会理事会（協調会館内同会）\n           \n\n\n\n\n             午後五時\n            \n            聖徳太子奉賛会ヨリ御案内（\n            \n             上野\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
     "label": "十一日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0106",
@@ -27,9 +31,14 @@
     "sort": "DKB20026m-0105",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山",
+        "飛鳥山邸",
         "東京",
-        "上野精養軒"
+        "上野"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
     ],
     "temporal": "1924-04-11",
     "texts": [
@@ -55,10 +64,10 @@
         "DKB20026m-0263"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_越寿三郎\">\n<surname>\n              越\n             </surname>\n<forename>\n              寿三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_越寿三郎\">\n<surname>\n              越\n             </surname>\n<forename>\n              寿三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0105\">\n<head>\n<date when=\"1924-04-11\">\n           十一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_越寿三郎\">\n<surname>\n              越\n             </surname>\n<forename>\n              寿三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_今井五介\">\n<surname>\n              今井\n             </surname>\n<forename>\n              五介\n             </forename>\n</persName>\n            氏外来約（〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            聖徳太子千三百三年御忌法要（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            美術学校講堂）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            国際聯盟協会理事会（協調会館内同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            聖徳太子奉賛会ヨリ御案内（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0105\">\n<head>\n<date when=\"1924-04-11\">\n           十一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_越寿三郎\">\n<surname>\n              越\n             </surname>\n<forename>\n              寿三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_今井五介\">\n<surname>\n              今井\n             </surname>\n<forename>\n              五介\n             </forename>\n</persName>\n            氏外来約（〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            聖徳太子千三百三年御忌法要（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            美術学校講堂）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            国際聯盟協会理事会（協調会館内同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            聖徳太子奉賛会ヨリ御案内（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-04"
 }

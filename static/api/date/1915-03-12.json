@@ -1,7 +1,13 @@
 {
     "agential": [
+        "ブライス",
         "松本忠次郎",
         "近藤廉平"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ブライス",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松本忠次郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/近藤廉平"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1179",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-03",
     "date_lvl2": "1915-03-12",
-    "description": "\n\n\n           十二日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n            ブライス氏招待午餐会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              松本\n             \n\n              忠次郎\n             \n\n            氏来約（商業会議所）\n           \n\n\n\n\n             午後三時\n            \n            日米通商銀行の件（商業会議所）\n           \n\n\n\n\n             午後五半時\n            \n\n\n              近藤\n             \n\n              廉平\n             \n\n            男ヨリ御案内（瓢屋）\n           \n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n\n\n              ブライス\n             \n\n            氏招待午餐会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              松本\n             \n\n              忠次郎\n             \n\n            氏来約（商業会議所）\n           \n\n\n\n\n             午後三時\n            \n            日米通商銀行の件（商業会議所）\n           \n\n\n\n\n             午後五半時\n            \n\n\n              近藤\n             \n\n              廉平\n             \n\n            男ヨリ御案内（瓢屋）\n           \n\n\n",
     "label": "十二日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0070",
@@ -28,6 +34,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1915-03-12",
     "texts": [
@@ -53,10 +62,10 @@
         "DKB20028m-0153"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            ブライス氏招待午餐会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_ブライス\">\n<surname>\n              ブライス\n             </surname>\n</persName>\n            氏招待午餐会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0069\">\n<head>\n<date when=\"1915-03-12\">\n           十二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            ブライス氏招待午餐会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_松本忠次郎\">\n<surname>\n              松本\n             </surname>\n<forename>\n              忠次郎\n             </forename>\n</persName>\n            氏来約（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            日米通商銀行の件（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_近藤廉平\">\n<surname>\n              近藤\n             </surname>\n<forename>\n              廉平\n             </forename>\n</persName>\n            男ヨリ御案内（瓢屋）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0069\">\n<head>\n<date when=\"1915-03-12\">\n           十二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_ブライス\">\n<surname>\n              ブライス\n             </surname>\n</persName>\n            氏招待午餐会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_松本忠次郎\">\n<surname>\n              松本\n             </surname>\n<forename>\n              忠次郎\n             </forename>\n</persName>\n            氏来約（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            日米通商銀行の件（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_近藤廉平\">\n<surname>\n              近藤\n             </surname>\n<forename>\n              廉平\n             </forename>\n</persName>\n            男ヨリ御案内（瓢屋）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-03"
 }

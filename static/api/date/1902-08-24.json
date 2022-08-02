@@ -5,6 +5,12 @@
         "木島",
         "コロネル_タイス"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/加藤",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/諸井",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/木島",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/コロネル_タイス"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/294",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -29,11 +35,16 @@
     "sort": "DKB10011m-0005",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
-        "独乙",
-        "独乙国",
+        "ドイツ",
         "コロン",
         "ライン河",
         "ヱツセン"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/ドイツ",
+        "https://shibusawa-dlab.github.io/lab1/api/place/コロン",
+        "https://shibusawa-dlab.github.io/lab1/api/place/ライン河",
+        "https://shibusawa-dlab.github.io/lab1/api/place/ヱツセン"
     ],
     "temporal": "1902-08-24",
     "texts": [
@@ -59,12 +70,12 @@
         "DKB10006m-0004"
     ],
     "time": {
-        "09:50:00": "<div>雨、此日ハ当地ヲ発シ\n       <placeName corresp=\"#place_独乙\">\n        独乙\n       </placeName>\n       ニ赴ク筈ナリシニヨリ朝来旅装ヲ理シ<time when=\"09:50:00\">\n        午前九時五十分\n       </time>\n       ノ発車ニ搭ス、\n       <persName corresp=\"#pers_加藤\">\n<surname>\n         加藤\n        </surname>\n</persName>\n       公使、\n       <persName corresp=\"#pers_諸井\">\n<surname>\n         諸井\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_木島\">\n<surname>\n         木島\n        </surname>\n</persName>\n       其他ノ本邦人及\n       <persName corresp=\"#pers_コロネル_タイス\">\n<forename>\n         コロネル\n        </forename>\n        ・\n        <surname>\n         タイス\n        </surname>\n</persName>\n       父子等送リテ停車場ニ抵ル、発車後鉄路山間ニ入リ、又ハ広野ニ出テ、</div>",
-        "16:00:00": "<div><time when=\"16:00:00\">\n        午後四時\n       </time>\n       頃\n       <placeName corresp=\"#place_独乙国\">\n        独乙国\n       </placeName>\n<placeName corresp=\"#place_コロン\">\n        コロン\n       </placeName>\n       市ヲ経テ\n       <placeName corresp=\"#place_ライン河\">\n        ライン河\n       </placeName>\n       ヲ躋ル、</div>",
+        "09:50:00": "<div>雨、此日ハ当地ヲ発シ\n       <placeName corresp=\"#place_ドイツ\">\n        独乙\n       </placeName>\n       ニ赴ク筈ナリシニヨリ朝来旅装ヲ理シ<time when=\"09:50:00\">\n        午前九時五十分\n       </time>\n       ノ発車ニ搭ス、\n       <persName corresp=\"#pers_加藤\">\n<surname>\n         加藤\n        </surname>\n</persName>\n       公使、\n       <persName corresp=\"#pers_諸井\">\n<surname>\n         諸井\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_木島\">\n<surname>\n         木島\n        </surname>\n</persName>\n       其他ノ本邦人及\n       <persName corresp=\"#pers_コロネル_タイス\">\n<forename>\n         コロネル\n        </forename>\n        ・\n        <surname>\n         タイス\n        </surname>\n</persName>\n       父子等送リテ停車場ニ抵ル、発車後鉄路山間ニ入リ、又ハ広野ニ出テ、</div>",
+        "16:00:00": "<div><time when=\"16:00:00\">\n        午後四時\n       </time>\n       頃\n       <placeName corresp=\"#place_ドイツ\">\n        独乙国\n       </placeName>\n<placeName corresp=\"#place_コロン\">\n        コロン\n       </placeName>\n       市ヲ経テ\n       <placeName corresp=\"#place_ライン河\">\n        ライン河\n       </placeName>\n       ヲ躋ル、</div>",
         "18:00:00": "<div><time when=\"18:00:00\">\n        六時\n       </time>\n       過\n       <placeName corresp=\"#place_ヱツセン\">\n        ヱツセン\n       </placeName>\n       市ニ着シ、旅館ヱツセンナルホフニ投宿ス、此夜停車場ニクルツプ鉄工場ヨリハウスト云《（ト脱カ）》フ人ヲ以テ余ノ一行ヲ迎ヒ種々ノ周旋ヲ為ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-0005\">\n<head>\n<date when=\"1902-08-24\">\n        八月廿四日\n       </date>\n</head>\n<p>\n       雨、此日ハ当地ヲ発シ\n       <placeName corresp=\"#place_独乙\">\n        独乙\n       </placeName>\n       ニ赴ク筈ナリシニヨリ朝来旅装ヲ理シ\n       <time when=\"09:50:00\">\n        午前九時五十分\n       </time>\n       ノ発車ニ搭ス、\n       <persName corresp=\"#pers_加藤\">\n<surname>\n         加藤\n        </surname>\n</persName>\n       公使、\n       <persName corresp=\"#pers_諸井\">\n<surname>\n         諸井\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_木島\">\n<surname>\n         木島\n        </surname>\n</persName>\n       其他ノ本邦人及\n       <persName corresp=\"#pers_コロネル_タイス\">\n<forename>\n         コロネル\n        </forename>\n        ・\n        <surname>\n         タイス\n        </surname>\n</persName>\n       父子等送リテ停車場ニ抵ル、発車後鉄路山間ニ入リ、又ハ広野ニ出テ、\n       <time when=\"16:00:00\">\n        午後四時\n       </time>\n       頃\n       <placeName corresp=\"#place_独乙国\">\n        独乙国\n       </placeName>\n<placeName corresp=\"#place_コロン\">\n        コロン\n       </placeName>\n       市ヲ経テ\n       <placeName corresp=\"#place_ライン河\">\n        ライン河\n       </placeName>\n       ヲ躋ル、\n       <time when=\"18:00:00\">\n        六時\n       </time>\n       過\n       <placeName corresp=\"#place_ヱツセン\">\n        ヱツセン\n       </placeName>\n       市ニ着シ、旅館ヱツセンナルホフニ投宿ス、此夜停車場ニクルツプ鉄工場ヨリハウスト云《（ト脱カ）》フ人ヲ以テ余ノ一行ヲ迎ヒ種々ノ周旋ヲ為ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-0005\">\n<head>\n<date when=\"1902-08-24\">\n        八月廿四日\n       </date>\n</head>\n<p>\n       雨、此日ハ当地ヲ発シ\n       <placeName corresp=\"#place_ドイツ\">\n        独乙\n       </placeName>\n       ニ赴ク筈ナリシニヨリ朝来旅装ヲ理シ\n       <time when=\"09:50:00\">\n        午前九時五十分\n       </time>\n       ノ発車ニ搭ス、\n       <persName corresp=\"#pers_加藤\">\n<surname>\n         加藤\n        </surname>\n</persName>\n       公使、\n       <persName corresp=\"#pers_諸井\">\n<surname>\n         諸井\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_木島\">\n<surname>\n         木島\n        </surname>\n</persName>\n       其他ノ本邦人及\n       <persName corresp=\"#pers_コロネル_タイス\">\n<forename>\n         コロネル\n        </forename>\n        ・\n        <surname>\n         タイス\n        </surname>\n</persName>\n       父子等送リテ停車場ニ抵ル、発車後鉄路山間ニ入リ、又ハ広野ニ出テ、\n       <time when=\"16:00:00\">\n        午後四時\n       </time>\n       頃\n       <placeName corresp=\"#place_ドイツ\">\n        独乙国\n       </placeName>\n<placeName corresp=\"#place_コロン\">\n        コロン\n       </placeName>\n       市ヲ経テ\n       <placeName corresp=\"#place_ライン河\">\n        ライン河\n       </placeName>\n       ヲ躋ル、\n       <time when=\"18:00:00\">\n        六時\n       </time>\n       過\n       <placeName corresp=\"#place_ヱツセン\">\n        ヱツセン\n       </placeName>\n       市ニ着シ、旅館ヱツセンナルホフニ投宿ス、此夜停車場ニクルツプ鉄工場ヨリハウスト云《（ト脱カ）》フ人ヲ以テ余ノ一行ヲ迎ヒ種々ノ周旋ヲ為ス\n      </p>\n</div>",
     "year": "1902",
     "yearAndMonth": "1902-08"
 }

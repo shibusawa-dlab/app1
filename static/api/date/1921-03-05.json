@@ -1,7 +1,13 @@
 {
     "agential": [
         "原",
-        "井上準之助"
+        "井上準之助",
+        "道家"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/原",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/井上準之助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/道家"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1355",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-03",
     "date_lvl2": "1921-03-05",
-    "description": "\n\n\n           五日\n          \n          （土）\n         \n\n\n\n\n             午前十―十一時\n            \n\n\n              原\n             \n\n            首相ヲ御訪問ノ約（貴族院）\n           \n\n\n\n\n             午前十一―十二時\n            \n\n\n              井上\n             \n\n              準之助\n             \n\n            氏ヲ御訪問ノ約（\n            \n             日本\n            \n            銀行）\n           \n\n\n\n\n             午後一時\n            \n            アト・サンテル氏ト\n            \n             日本\n            \n            講道館高段柔道家数氏の試合に御出向（九段招魂社内相撲場）\n           \n\n\n",
+    "description": "\n\n\n           五日\n          \n          （土）\n         \n\n\n\n\n             午前十―十一時\n            \n\n\n              原\n             \n\n            首相ヲ御訪問ノ約（貴族院）\n           \n\n\n\n\n             午前十一―十二時\n            \n\n\n              井上\n             \n\n              準之助\n             \n\n            氏ヲ御訪問ノ約（\n            \n             日本銀行\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n            アト・サンテル氏ト\n            \n             日本\n            \n            講道館高段柔\n            \n\n              道家\n             \n\n            数氏の試合に御出向（九段招魂社内相撲場）\n           \n\n\n",
     "label": "五日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0060",
@@ -28,6 +34,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本"
     ],
     "temporal": "1921-03-05",
     "texts": [
@@ -54,7 +63,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0059\">\n<head>\n<date when=\"1921-03-05\">\n           五日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"11:00:00\">\n             午前十―十一時\n            </time>\n<persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            首相ヲ御訪問ノ約（貴族院）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"11:00:00\">\n             午前十一―十二時\n            </time>\n<persName corresp=\"#pers_井上準之助\">\n<surname>\n              井上\n             </surname>\n<forename>\n              準之助\n             </forename>\n</persName>\n            氏ヲ御訪問ノ約（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            銀行）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            アト・サンテル氏ト\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            講道館高段柔道家数氏の試合に御出向（九段招魂社内相撲場）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0059\">\n<head>\n<date when=\"1921-03-05\">\n           五日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"11:00:00\">\n             午前十―十一時\n            </time>\n<persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            首相ヲ御訪問ノ約（貴族院）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"11:00:00\">\n             午前十一―十二時\n            </time>\n<persName corresp=\"#pers_井上準之助\">\n<surname>\n              井上\n             </surname>\n<forename>\n              準之助\n             </forename>\n</persName>\n            氏ヲ御訪問ノ約（\n            <orgName>\n             日本銀行\n            </orgName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            アト・サンテル氏ト\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            講道館高段柔\n            <persName corresp=\"#pers_道家\">\n<surname>\n              道家\n             </surname>\n</persName>\n            数氏の試合に御出向（九段招魂社内相撲場）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-03"
 }

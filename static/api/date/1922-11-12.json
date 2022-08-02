@@ -1,7 +1,11 @@
 {
     "agential": [
         "渋沢秀雄",
-        "田中太郎"
+        "田中太郎_(社会事業家)"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢秀雄",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田中太郎_(社会事業家)"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1410",
     "category": {
@@ -27,9 +31,12 @@
     "sort": "DKB20024m-0280",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
-        "滝野川",
-        "飛鳥山邸"
+        "飛鳥山邸",
+        "滝野川"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/滝野川"
     ],
     "temporal": "1922-11-12",
     "texts": [
@@ -55,10 +62,10 @@
         "DKB20029m-0333"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_渋沢秀雄\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              秀雄\n             </forename>\n</persName>\n            様来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_渋沢秀雄\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              秀雄\n             </forename>\n</persName>\n            様来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0280\">\n<head>\n<date when=\"1922-11-12\">\n           十二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_渋沢秀雄\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              秀雄\n             </forename>\n</persName>\n            様来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_田中太郎\">\n<surname>\n              田中\n             </surname>\n<forename>\n              太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_滝野川\">\n             滝野川\n            </placeName>\n            在住者園遊会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"14:00:00\">\n             午後一―二時\n            </time>\n            生国神社祭典（九段）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            国際聯盟協会催、平和成立記念講演会（青年会館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0280\">\n<head>\n<date when=\"1922-11-12\">\n           十二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_渋沢秀雄\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              秀雄\n             </forename>\n</persName>\n            様来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_田中太郎_(社会事業家)\">\n<surname>\n              田中\n             </surname>\n<forename>\n              太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_滝野川\">\n             滝野川\n            </placeName>\n            在住者園遊会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"14:00:00\">\n             午後一―二時\n            </time>\n            生国神社祭典（九段）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            国際聯盟協会催、平和成立記念講演会（青年会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-11"
 }

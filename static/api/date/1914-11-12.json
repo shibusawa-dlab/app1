@@ -3,6 +3,10 @@
         "佐々木勇之助",
         "中野"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐々木勇之助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中野"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1169",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,7 +22,7 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-11",
     "date_lvl2": "1914-11-12",
-    "description": "\n\n\n           十二日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n\n\n              佐々木\n             \n\n              勇之助\n             \n\n            氏ヲ御訪問（同氏邸）\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午後二時\n            \n\n\n              中野\n             \n\n            氏同伴農商務大臣ト御会見（農商務省）\n           \n\n\n\n\n             午後五時\n            \n            国際奨励会ヨリ御案内（築地精養軒）\n           \n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n\n\n              佐々木\n             \n\n              勇之助\n             \n\n            氏ヲ御訪問（同氏邸）\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午後二時\n            \n\n\n              中野\n             \n\n            氏同伴農商務大臣ト御会見（農商務省）\n           \n\n\n\n\n             午後五時\n            \n            国際奨励会ヨリ御案内（\n            \n             築地\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
     "label": "十二日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20016m-0059",
@@ -26,7 +30,12 @@
     "prev": "DKB20016m-0057",
     "sort": "DKB20016m-0058",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
+    "spatial": [
+        "築地"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
+    ],
     "temporal": "1914-11-12",
     "texts": [
         "DKB20020m-0068",
@@ -54,7 +63,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_佐々木勇之助\">\n<surname>\n              佐々木\n             </surname>\n<forename>\n              勇之助\n             </forename>\n</persName>\n            氏ヲ御訪問（同氏邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0058\">\n<head>\n<date when=\"1914-11-12\">\n           十二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_佐々木勇之助\">\n<surname>\n              佐々木\n             </surname>\n<forename>\n              勇之助\n             </forename>\n</persName>\n            氏ヲ御訪問（同氏邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_中野\">\n<surname>\n              中野\n             </surname>\n</persName>\n            氏同伴農商務大臣ト御会見（農商務省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            国際奨励会ヨリ御案内（築地精養軒）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0058\">\n<head>\n<date when=\"1914-11-12\">\n           十二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_佐々木勇之助\">\n<surname>\n              佐々木\n             </surname>\n<forename>\n              勇之助\n             </forename>\n</persName>\n            氏ヲ御訪問（同氏邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_中野\">\n<surname>\n              中野\n             </surname>\n</persName>\n            氏同伴農商務大臣ト御会見（農商務省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            国際奨励会ヨリ御案内（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-11"
 }

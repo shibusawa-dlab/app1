@@ -4,6 +4,11 @@
         "尾崎",
         "松尾臣善"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/石渡邦之",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/尾崎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松尾臣善"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/519",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -19,7 +24,7 @@
     "date_lvl0": "1908",
     "date_lvl1": "1908-02",
     "date_lvl2": "1908-02-10",
-    "description": "\n\n\n        二月十日\n       \n       晴　寒\n      \n\n\n        午前七時\n       \n       起床、直ニ入浴シ、畢テ朝飧ヲ食ス、食後日記ヲ編成ス、\n       \n        午前十時\n       \n\n        深川\n       \n       八幡社内ニ抵リ、出征軍人戦死者紀念碑ノ除幕式ニ列ス、会スル者数百人、祭典壮厳ナリ、畢テ\n       \n        兜町\n       \n       事務所ニ抵リ、\n       \n        帝国商業銀行\n       \n       重役候補者ニ会見シ、爾来ノ経過ヲ述ヘテ同意ヲ乞フ、畢テ\n       \n        第一銀行\n       \n       ニ於テ午飧シ、食後来人ニ接シ、再ヒ事務所ニ抵リ\n       \n\n         石渡\n        \n\n         邦之\n        \n\n       丞氏ノ来訪ニ接ス、東京市役所ニ抵リ\n       \n\n         尾崎\n        \n\n       市長ト養育院ノ事ヲ談ス、\n       \n        日本銀行\n       \n       ニ抵リ、\n       \n\n         松尾\n        \n\n         臣善\n        \n\n       氏ト\n       \n        帝商銀行\n       \n       後任者ノ事ヲ談ス、\n       \n        午後五時\n       \n\n        浜町\n       \n       常盤屋ニ抵リ\n       \n        長岡\n       \n       銀行ノ招宴ニ出席ス、帰途一友人ヲ訪ヒ、夜\n       \n        十一時\n       \n\n        王子\n       \n       ニ帰宿ス\n      \n",
+    "description": "\n\n\n        二月十日\n       \n       晴　寒\n      \n\n\n        午前七時\n       \n       起床、直ニ入浴シ、畢テ朝飧ヲ食ス、食後日記ヲ編成ス、\n       \n        午前十時\n       \n\n        深川\n       \n       八幡社内ニ抵リ、出征軍人戦死者紀念碑ノ除幕式ニ列ス、会スル者数百人、祭典壮厳ナリ、畢テ\n       \n        兜町\n       \n       事務所ニ抵リ、\n       \n        帝国商業銀行\n       \n       重役候補者ニ会見シ、爾来ノ経過ヲ述ヘテ同意ヲ乞フ、畢テ\n       \n        第一銀行\n       \n       ニ於テ午飧シ、食後来人ニ接シ、再ヒ事務所ニ抵リ\n       \n\n         石渡\n        \n\n         邦之\n        \n\n       丞氏ノ来訪ニ接ス、東京市役所ニ抵リ\n       \n\n         尾崎\n        \n\n       市長ト養育院ノ事ヲ談ス、\n       \n        日本銀行\n       \n       ニ抵リ、\n       \n\n         松尾\n        \n\n         臣善\n        \n\n       氏ト\n       \n        帝商銀行\n       \n       後任者ノ事ヲ談ス、\n       \n        午後五時\n       \n\n        浜町\n       \n       常盤屋ニ抵リ\n       \n        長岡銀行\n       \n       ノ招宴ニ出席ス、帰途一友人ヲ訪ヒ、夜\n       \n        十一時\n       \n\n        王子\n       \n       ニ帰宿ス\n      \n",
     "label": "二月十日              晴　寒",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10016m-0042",
@@ -31,8 +36,13 @@
         "深川",
         "日本橋兜町",
         "浜町",
-        "長岡",
         "王子"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/深川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/浜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子"
     ],
     "temporal": "1908-02-10",
     "texts": [
@@ -60,11 +70,11 @@
     "time": {
         "07:00:00": "<div><time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、直ニ入浴シ、畢テ朝飧ヲ食ス、食後日記ヲ編成ス、</div>",
         "10:00:00": "<div><time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       八幡社内ニ抵リ、出征軍人戦死者紀念碑ノ除幕式ニ列ス、会スル者数百人、祭典壮厳ナリ、畢テ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ、\n       <orgName>\n        帝国商業銀行\n       </orgName>\n       重役候補者ニ会見シ、爾来ノ経過ヲ述ヘテ同意ヲ乞フ、畢テ\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧シ、食後来人ニ接シ、再ヒ事務所ニ抵リ\n       <persName corresp=\"#pers_石渡邦之\">\n<surname>\n         石渡\n        </surname>\n<forename>\n         邦之\n        </forename>\n</persName>\n       丞氏ノ来訪ニ接ス、東京市役所ニ抵リ\n       <persName corresp=\"#pers_尾崎\">\n<surname>\n         尾崎\n        </surname>\n</persName>\n       市長ト養育院ノ事ヲ談ス、\n       <orgName>\n        日本銀行\n       </orgName>\n       ニ抵リ、\n       <persName corresp=\"#pers_松尾臣善\">\n<surname>\n         松尾\n        </surname>\n<forename>\n         臣善\n        </forename>\n</persName>\n       氏ト\n       <orgName>\n        帝商銀行\n       </orgName>\n       後任者ノ事ヲ談ス、</div>",
-        "17:00:00": "<div><time when=\"17:00:00\">\n        午後五時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       常盤屋ニ抵リ\n       <placeName corresp=\"#place_長岡\">\n        長岡\n       </placeName>\n       銀行ノ招宴ニ出席ス、帰途一友人ヲ訪ヒ、夜</div>",
+        "17:00:00": "<div><time when=\"17:00:00\">\n        午後五時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       常盤屋ニ抵リ\n       <orgName>\n        長岡銀行\n       </orgName>\n       ノ招宴ニ出席ス、帰途一友人ヲ訪ヒ、夜</div>",
         "23:00:00": "<div><time when=\"23:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10016m-0041\">\n<head>\n<date when=\"1908-02-10\">\n        二月十日\n       </date>\n       晴　寒\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、直ニ入浴シ、畢テ朝飧ヲ食ス、食後日記ヲ編成ス、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       八幡社内ニ抵リ、出征軍人戦死者紀念碑ノ除幕式ニ列ス、会スル者数百人、祭典壮厳ナリ、畢テ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ、\n       <orgName>\n        帝国商業銀行\n       </orgName>\n       重役候補者ニ会見シ、爾来ノ経過ヲ述ヘテ同意ヲ乞フ、畢テ\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧シ、食後来人ニ接シ、再ヒ事務所ニ抵リ\n       <persName corresp=\"#pers_石渡邦之\">\n<surname>\n         石渡\n        </surname>\n<forename>\n         邦之\n        </forename>\n</persName>\n       丞氏ノ来訪ニ接ス、東京市役所ニ抵リ\n       <persName corresp=\"#pers_尾崎\">\n<surname>\n         尾崎\n        </surname>\n</persName>\n       市長ト養育院ノ事ヲ談ス、\n       <orgName>\n        日本銀行\n       </orgName>\n       ニ抵リ、\n       <persName corresp=\"#pers_松尾臣善\">\n<surname>\n         松尾\n        </surname>\n<forename>\n         臣善\n        </forename>\n</persName>\n       氏ト\n       <orgName>\n        帝商銀行\n       </orgName>\n       後任者ノ事ヲ談ス、\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       常盤屋ニ抵リ\n       <placeName corresp=\"#place_長岡\">\n        長岡\n       </placeName>\n       銀行ノ招宴ニ出席ス、帰途一友人ヲ訪ヒ、夜\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10016m-0041\">\n<head>\n<date when=\"1908-02-10\">\n        二月十日\n       </date>\n       晴　寒\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、直ニ入浴シ、畢テ朝飧ヲ食ス、食後日記ヲ編成ス、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n       八幡社内ニ抵リ、出征軍人戦死者紀念碑ノ除幕式ニ列ス、会スル者数百人、祭典壮厳ナリ、畢テ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ、\n       <orgName>\n        帝国商業銀行\n       </orgName>\n       重役候補者ニ会見シ、爾来ノ経過ヲ述ヘテ同意ヲ乞フ、畢テ\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧シ、食後来人ニ接シ、再ヒ事務所ニ抵リ\n       <persName corresp=\"#pers_石渡邦之\">\n<surname>\n         石渡\n        </surname>\n<forename>\n         邦之\n        </forename>\n</persName>\n       丞氏ノ来訪ニ接ス、東京市役所ニ抵リ\n       <persName corresp=\"#pers_尾崎\">\n<surname>\n         尾崎\n        </surname>\n</persName>\n       市長ト養育院ノ事ヲ談ス、\n       <orgName>\n        日本銀行\n       </orgName>\n       ニ抵リ、\n       <persName corresp=\"#pers_松尾臣善\">\n<surname>\n         松尾\n        </surname>\n<forename>\n         臣善\n        </forename>\n</persName>\n       氏ト\n       <orgName>\n        帝商銀行\n       </orgName>\n       後任者ノ事ヲ談ス、\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       常盤屋ニ抵リ\n       <orgName>\n        長岡銀行\n       </orgName>\n       ノ招宴ニ出席ス、帰途一友人ヲ訪ヒ、夜\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1908",
     "yearAndMonth": "1908-02"
 }

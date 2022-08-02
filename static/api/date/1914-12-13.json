@@ -5,6 +5,12 @@
         "高木静馬",
         "清子"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐竹",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡本善二",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高木静馬",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/清子"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1172",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +26,7 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-12",
     "date_lvl2": "1914-12-13",
-    "description": "\n\n\n           十三日\n          \n          （日）\n         \n\n\n\n\n             午前九時半\n            \n            養育院\n           \n\n\n\n\n             午前十一時\n            \n\n\n              佐竹\n             \n\n            氏ト\n            \n             大塚\n            \n            養育院ニテ御会見\n           \n\n\n\n\n             午後一時\n            \n            成蹊実業学校ヲ参観（\n            \n             池袋\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n\n              岡本\n             \n\n              善二\n             \n\n            氏\n            \n\n              高木\n             \n\n              静馬\n             \n\n            長女\n            \n\n              清子\n             \n\n            ト結婚披露（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （日）\n         \n\n\n\n\n             午前九時半\n            \n            養育院\n           \n\n\n\n\n             午前十一時\n            \n\n\n              佐竹\n             \n\n            氏ト\n            \n             大塚\n            \n            養育院ニテ御会見\n           \n\n\n\n\n             午後一時\n            \n            成蹊実業学校ヲ参観（\n            \n             池袋\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n\n              岡本\n             \n\n              善二\n             \n\n            氏\n            \n\n              高木\n             \n\n              静馬\n             \n\n            長女\n            \n\n              清子\n             \n\n            ト結婚披露（\n            \n             上野\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
     "label": "十三日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20016m-0090",
@@ -31,7 +37,12 @@
     "spatial": [
         "大塚",
         "池袋",
-        "上野精養軒"
+        "上野"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/大塚",
+        "https://shibusawa-dlab.github.io/lab1/api/place/池袋",
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
     ],
     "temporal": "1914-12-13",
     "texts": [
@@ -60,7 +71,7 @@
         "09:30:00": "<div><time when=\"09:30:00\">\n             午前九時半\n            </time>\n            養育院</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0089\">\n<head>\n<date when=\"1914-12-13\">\n           十三日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九時半\n            </time>\n            養育院\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_佐竹\">\n<surname>\n              佐竹\n             </surname>\n</persName>\n            氏ト\n            <placeName corresp=\"#place_大塚\">\n             大塚\n            </placeName>\n            養育院ニテ御会見\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            成蹊実業学校ヲ参観（\n            <placeName corresp=\"#place_池袋\">\n             池袋\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_岡本善二\">\n<surname>\n              岡本\n             </surname>\n<forename>\n              善二\n             </forename>\n</persName>\n            氏\n            <persName corresp=\"#pers_高木静馬\">\n<surname>\n              高木\n             </surname>\n<forename>\n              静馬\n             </forename>\n</persName>\n            長女\n            <persName corresp=\"#pers_清子\">\n<forename>\n              清子\n             </forename>\n</persName>\n            ト結婚披露（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0089\">\n<head>\n<date when=\"1914-12-13\">\n           十三日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九時半\n            </time>\n            養育院\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_佐竹\">\n<surname>\n              佐竹\n             </surname>\n</persName>\n            氏ト\n            <placeName corresp=\"#place_大塚\">\n             大塚\n            </placeName>\n            養育院ニテ御会見\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            成蹊実業学校ヲ参観（\n            <placeName corresp=\"#place_池袋\">\n             池袋\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_岡本善二\">\n<surname>\n              岡本\n             </surname>\n<forename>\n              善二\n             </forename>\n</persName>\n            氏\n            <persName corresp=\"#pers_高木静馬\">\n<surname>\n              高木\n             </surname>\n<forename>\n              静馬\n             </forename>\n</persName>\n            長女\n            <persName corresp=\"#pers_清子\">\n<forename>\n              清子\n             </forename>\n</persName>\n            ト結婚披露（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-12"
 }

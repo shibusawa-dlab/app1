@@ -2,7 +2,14 @@
     "agential": [
         "徳川",
         "大隈",
-        "アレキサンダー"
+        "アレキサンダー",
+        "ラモンド"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大隈",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/アレキサンダー",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ラモンド"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1327",
     "category": {
@@ -19,7 +26,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-03",
     "date_lvl2": "1920-03-19",
-    "description": "\n\n\n           十九日\n          \n          （金）\n         \n\n\n\n\n             午前九半時\n            \n            日米関係委員会協議会（銀行クラブ）\n           \n\n\n\n\n             午後一時\n            \n\n\n              徳川\n             \n\n            家顧問会（同邸）\n           \n\n\n\n\n\n             午後三時\n            \n\n\n              大隈\n             \n\n            侯催、\n            \n\n              アレキサンダー\n             \n\n            氏一行招待茶話会（同邸）（燕尾服）\n           \n\n\n\n\n             午後七時\n            \n            日米協会主催、ラモンド氏招待会（銀行クラブ）\n           \n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （金）\n         \n\n\n\n\n             午前九半時\n            \n            日米関係委員会協議会（銀行クラブ）\n           \n\n\n\n\n             午後一時\n            \n\n\n              徳川\n             \n\n            家顧問会（同邸）\n           \n\n\n\n\n\n             午後三時\n            \n\n\n              大隈\n             \n\n            侯催、\n            \n\n              アレキサンダー\n             \n\n            氏一行招待茶話会（同邸）（燕尾服）\n           \n\n\n\n\n             午後七時\n            \n            日米協会主催、\n            \n\n              ラモンド\n             \n\n            氏招待会（銀行クラブ）\n           \n\n\n",
     "label": "十九日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0077",
@@ -28,6 +35,7 @@
     "sort": "DKB20022m-0076",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [],
+    "spatial_uri": [],
     "temporal": "1920-03-19",
     "texts": [
         "DKB20022m-0079",
@@ -55,7 +63,7 @@
         "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n            日米関係委員会協議会（銀行クラブ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0076\">\n<head>\n<date when=\"1920-03-19\">\n           十九日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n            日米関係委員会協議会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家顧問会（同邸）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2488\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1327/full/max/0/default.jpg\" n=\"B2488\" source=\"#pageB2488\"/>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯催、\n            <persName corresp=\"#pers_アレキサンダー\">\n<surname>\n              アレキサンダー\n             </surname>\n</persName>\n            氏一行招待茶話会（同邸）（燕尾服）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            日米協会主催、ラモンド氏招待会（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0076\">\n<head>\n<date when=\"1920-03-19\">\n           十九日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n            日米関係委員会協議会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家顧問会（同邸）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2488\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1327/full/max/0/default.jpg\" n=\"B2488\" source=\"#pageB2488\"/>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯催、\n            <persName corresp=\"#pers_アレキサンダー\">\n<surname>\n              アレキサンダー\n             </surname>\n</persName>\n            氏一行招待茶話会（同邸）（燕尾服）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            日米協会主催、\n            <persName corresp=\"#pers_ラモンド\">\n<surname>\n              ラモンド\n             </surname>\n</persName>\n            氏招待会（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-03"
 }

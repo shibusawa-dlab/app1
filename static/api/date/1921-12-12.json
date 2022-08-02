@@ -2,6 +2,9 @@
     "agential": [
         "鈴木"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/鈴木"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1064",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -26,12 +29,20 @@
     "sort": "DKB20006m-0154",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "華盛頓",
+        "ワシントン",
         "ニユー_オレヤンス",
-        "加州",
+        "カリフォルニア州",
         "ロサンゼルス",
         "東京",
         "アメリカ合衆国"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/ワシントン",
+        "https://shibusawa-dlab.github.io/lab1/api/place/ニユー_オレヤンス",
+        "https://shibusawa-dlab.github.io/lab1/api/place/カリフォルニア州",
+        "https://shibusawa-dlab.github.io/lab1/api/place/ロサンゼルス",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アメリカ合衆国"
     ],
     "temporal": "1921-12-12",
     "texts": [
@@ -57,11 +68,11 @@
         "DKB20003m-0054"
     ],
     "time": {
-        "07:30:00": "<div><time when=\"07:30:00\">\n          午前七時半\n         </time>\n         汽車中ニテ起床、洗面シテ、朝飧ス、昨夜ヨリ鉄路南進シタルニヨリ、気候漸ク温暖ヲ増シ、復、膚ヲ刺スノ寒風ナシ、\n         <placeName corresp=\"#place_華盛頓\">\n          華盛頓\n         </placeName>\n         ヨリ\n         <placeName corresp=\"#place_ニユー_オレヤンス\">\n          ニユー・オレヤンス\n         </placeName>\n         ヲ経テ\n         <placeName corresp=\"#place_加州\">\n          加州\n         </placeName>\n<placeName corresp=\"#place_ロサンゼルス\">\n          ロスアンゼルス\n         </placeName>\n         ニ達スル線路ハ、今回始メテ経過スル生路ナレハ、沿道ノ村落市街又ハ山川田野ノ風光全ク目ニ新タナルヲ覚フ、車中ニテ午飧シ、又、晩飧シ、時ニ相会シテ談話シ、又、\n         <placeName corresp=\"#place_東京\">\n          東京\n         </placeName>\n         ヨリ送リ来レル各種ノ新聞紙ヲ一覧シテ、終日安静ニ旅況ヲ慰ムルヲ得タリ、夜</div>",
-        "23:00:00": "<div><time when=\"23:00:00\">\n          十一時\n         </time>\n         過就寝\n         <lb/>\n         （欄外）\n         <lb/>\n         ［車中ニテ\n         <placeName corresp=\"#place_加州\">\n          加州\n         </placeName>\n         移民発展史、及、\n         <persName corresp=\"#pers_鈴木\">\n<surname>\n           鈴木\n          </surname>\n</persName>\n         氏著ノ一世界人ヨリ見タル\n         <placeName corresp=\"#place_アメリカ合衆国\">\n          米国\n         </placeName>\n         ノ正義人道ヲ一覧ス</div>"
+        "07:30:00": "<div><time when=\"07:30:00\">\n          午前七時半\n         </time>\n         汽車中ニテ起床、洗面シテ、朝飧ス、昨夜ヨリ鉄路南進シタルニヨリ、気候漸ク温暖ヲ増シ、復、膚ヲ刺スノ寒風ナシ、\n         <placeName corresp=\"#place_ワシントン\">\n          華盛頓\n         </placeName>\n         ヨリ\n         <placeName corresp=\"#place_ニユー_オレヤンス\">\n          ニユー・オレヤンス\n         </placeName>\n         ヲ経テ\n         <placeName corresp=\"#place_カリフォルニア州\">\n          加州\n         </placeName>\n<placeName corresp=\"#place_ロサンゼルス\">\n          ロスアンゼルス\n         </placeName>\n         ニ達スル線路ハ、今回始メテ経過スル生路ナレハ、沿道ノ村落市街又ハ山川田野ノ風光全ク目ニ新タナルヲ覚フ、車中ニテ午飧シ、又、晩飧シ、時ニ相会シテ談話シ、又、\n         <placeName corresp=\"#place_東京\">\n          東京\n         </placeName>\n         ヨリ送リ来レル各種ノ新聞紙ヲ一覧シテ、終日安静ニ旅況ヲ慰ムルヲ得タリ、夜</div>",
+        "23:00:00": "<div><time when=\"23:00:00\">\n          十一時\n         </time>\n         過就寝\n         <lb/>\n         （欄外）\n         <lb/>\n         ［車中ニテ\n         <placeName corresp=\"#place_カリフォルニア州\">\n          加州\n         </placeName>\n         移民発展史、及、\n         <persName corresp=\"#pers_鈴木\">\n<surname>\n           鈴木\n          </surname>\n</persName>\n         氏著ノ一世界人ヨリ見タル\n         <placeName corresp=\"#place_アメリカ合衆国\">\n          米国\n         </placeName>\n         ノ正義人道ヲ一覧ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB20006m-0154\">\n<head>\n<date when=\"1921-12-12\">\n          十二月十二日\n         </date>\n         月　曇　軽暖\n        </head>\n<p>\n<time when=\"07:30:00\">\n          午前七時半\n         </time>\n         汽車中ニテ起床、洗面シテ、朝飧ス、昨夜ヨリ鉄路南進シタルニヨリ、気候漸ク温暖ヲ増シ、復、膚ヲ刺スノ寒風ナシ、\n         <placeName corresp=\"#place_華盛頓\">\n          華盛頓\n         </placeName>\n         ヨリ\n         <placeName corresp=\"#place_ニユー_オレヤンス\">\n          ニユー・オレヤンス\n         </placeName>\n         ヲ経テ\n         <placeName corresp=\"#place_加州\">\n          加州\n         </placeName>\n<placeName corresp=\"#place_ロサンゼルス\">\n          ロスアンゼルス\n         </placeName>\n         ニ達スル線路ハ、今回始メテ経過スル生路ナレハ、沿道ノ村落市街又ハ山川田野ノ風光全ク目ニ新タナルヲ覚フ、車中ニテ午飧シ、又、晩飧シ、時ニ相会シテ談話シ、又、\n         <placeName corresp=\"#place_東京\">\n          東京\n         </placeName>\n         ヨリ送リ来レル各種ノ新聞紙ヲ一覧シテ、終日安静ニ旅況ヲ慰ムルヲ得タリ、夜\n         <time when=\"23:00:00\">\n          十一時\n         </time>\n         過就寝\n         <lb/>\n         （欄外）\n         <lb/>\n         ［車中ニテ\n         <placeName corresp=\"#place_加州\">\n          加州\n         </placeName>\n         移民発展史、及、\n         <persName corresp=\"#pers_鈴木\">\n<surname>\n           鈴木\n          </surname>\n</persName>\n         氏著ノ一世界人ヨリ見タル\n         <placeName corresp=\"#place_アメリカ合衆国\">\n          米国\n         </placeName>\n         ノ正義人道ヲ一覧ス\n        </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB20006m-0154\">\n<head>\n<date when=\"1921-12-12\">\n          十二月十二日\n         </date>\n         月　曇　軽暖\n        </head>\n<p>\n<time when=\"07:30:00\">\n          午前七時半\n         </time>\n         汽車中ニテ起床、洗面シテ、朝飧ス、昨夜ヨリ鉄路南進シタルニヨリ、気候漸ク温暖ヲ増シ、復、膚ヲ刺スノ寒風ナシ、\n         <placeName corresp=\"#place_ワシントン\">\n          華盛頓\n         </placeName>\n         ヨリ\n         <placeName corresp=\"#place_ニユー_オレヤンス\">\n          ニユー・オレヤンス\n         </placeName>\n         ヲ経テ\n         <placeName corresp=\"#place_カリフォルニア州\">\n          加州\n         </placeName>\n<placeName corresp=\"#place_ロサンゼルス\">\n          ロスアンゼルス\n         </placeName>\n         ニ達スル線路ハ、今回始メテ経過スル生路ナレハ、沿道ノ村落市街又ハ山川田野ノ風光全ク目ニ新タナルヲ覚フ、車中ニテ午飧シ、又、晩飧シ、時ニ相会シテ談話シ、又、\n         <placeName corresp=\"#place_東京\">\n          東京\n         </placeName>\n         ヨリ送リ来レル各種ノ新聞紙ヲ一覧シテ、終日安静ニ旅況ヲ慰ムルヲ得タリ、夜\n         <time when=\"23:00:00\">\n          十一時\n         </time>\n         過就寝\n         <lb/>\n         （欄外）\n         <lb/>\n         ［車中ニテ\n         <placeName corresp=\"#place_カリフォルニア州\">\n          加州\n         </placeName>\n         移民発展史、及、\n         <persName corresp=\"#pers_鈴木\">\n<surname>\n           鈴木\n          </surname>\n</persName>\n         氏著ノ一世界人ヨリ見タル\n         <placeName corresp=\"#place_アメリカ合衆国\">\n          米国\n         </placeName>\n         ノ正義人道ヲ一覧ス\n        </p>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-12"
 }

@@ -2,6 +2,9 @@
     "agential": [
         "徳川"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1200",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -26,7 +29,10 @@
     "sort": "DKB20018m-0075",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "第六天"
+        "第六天町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/第六天町"
     ],
     "temporal": "1916-03-23",
     "texts": [
@@ -52,10 +58,10 @@
         "DKB20015m-0002"
     ],
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            様ヘ御出向</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_第六天町\">\n             第六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            様ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0075\">\n<head>\n<date when=\"1916-03-23\">\n           廿三日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            様ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0075\">\n<head>\n<date when=\"1916-03-23\">\n           廿三日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_第六天町\">\n             第六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            様ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-03"
 }

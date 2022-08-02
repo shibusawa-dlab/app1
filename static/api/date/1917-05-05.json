@@ -3,6 +3,10 @@
         "寺尾亨",
         "中野武営"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/寺尾亨",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中野武営"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1236",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,7 +22,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-05",
     "date_lvl2": "1917-05-05",
-    "description": "\n\n\n           五日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n            慰問会ノ件ニテ衆議院図書館ヘ御出向ノ約\n           \n\n\n\n\n             午後一時\n            \n\n\n              寺尾\n             \n\n              亨\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一―十二時\n            \n            総理大臣御訪問（同官舎）\n           \n\n\n\n\n             午後一―午後二時\n            \n\n\n              中野\n             \n\n              武営\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n             日本\n            \n            石油会社創立卅年祝賀会（両国国技館）\n           \n\n\n",
+    "description": "\n\n\n           五日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n            慰問会ノ件ニテ衆議院図書館ヘ御出向ノ約\n           \n\n\n\n\n             午後一時\n            \n\n\n              寺尾\n             \n\n              亨\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一―十二時\n            \n            総理大臣御訪問（同官舎）\n           \n\n\n\n\n             午後一―午後二時\n            \n\n\n              中野\n             \n\n              武営\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n             日本\n            \n            石油会社創立卅年祝賀会（\n            \n             両国\n            \n            国技館）\n           \n\n\n",
     "label": "五日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0125",
@@ -28,7 +32,13 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町",
-        "日本"
+        "日本",
+        "両国"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本",
+        "https://shibusawa-dlab.github.io/lab1/api/place/両国"
     ],
     "temporal": "1917-05-05",
     "texts": [
@@ -57,7 +67,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            慰問会ノ件ニテ衆議院図書館ヘ御出向ノ約</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0124\">\n<head>\n<date when=\"1917-05-05\">\n           五日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            慰問会ノ件ニテ衆議院図書館ヘ御出向ノ約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_寺尾亨\">\n<surname>\n              寺尾\n             </surname>\n<forename>\n              亨\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"11:00:00\" to=\"12:00:00\">\n             午前十一―十二時\n            </time>\n            総理大臣御訪問（同官舎）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"14:00:00\">\n             午後一―午後二時\n            </time>\n<persName corresp=\"#pers_中野武営\">\n<surname>\n              中野\n             </surname>\n<forename>\n              武営\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            石油会社創立卅年祝賀会（両国国技館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0124\">\n<head>\n<date when=\"1917-05-05\">\n           五日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            慰問会ノ件ニテ衆議院図書館ヘ御出向ノ約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_寺尾亨\">\n<surname>\n              寺尾\n             </surname>\n<forename>\n              亨\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"11:00:00\" to=\"12:00:00\">\n             午前十一―十二時\n            </time>\n            総理大臣御訪問（同官舎）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"14:00:00\">\n             午後一―午後二時\n            </time>\n<persName corresp=\"#pers_中野武営\">\n<surname>\n              中野\n             </surname>\n<forename>\n              武営\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            石油会社創立卅年祝賀会（\n            <placeName corresp=\"#place_両国\">\n             両国\n            </placeName>\n            国技館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-05"
 }

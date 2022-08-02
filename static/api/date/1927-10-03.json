@@ -1,9 +1,15 @@
 {
     "agential": [
         "堀進二",
-        "南崎兼",
+        "南崎兼左衛門",
         "添田敬一郎",
         "中村"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/堀進二",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/南崎兼左衛門",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/添田敬一郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中村"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1557",
     "category": {
@@ -20,7 +26,7 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-10",
     "date_lvl2": "1927-10-03",
-    "description": "\n\n\n           三日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n\n\n              堀\n             \n\n              進二\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n\n              南崎\n             \n\n              兼\n             \n\n            左衛門氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十一・四五時\n            \n            御出勤\n           \n\n\n\n\n             午〇時半\n            \n\n\n              添田\n             \n\n              敬一郎\n             \n\n            氏来約（事ム所）\n           \n\n\n\n\n             午后一時\n            \n            協調会\n            \n\n              中村\n             \n\n            氏来約\n            \n             永楽町\n            \n            事務所\n           \n\n\n\n\n             午后二時\n            \n            協調会理事会　同会\n           \n\n\n",
+    "description": "\n\n\n           三日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n\n\n              堀\n             \n\n              進二\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n\n              南崎\n             \n\n              兼左衛門\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十一・四五時\n            \n            御出勤\n           \n\n\n\n\n             午〇時半\n            \n\n\n              添田\n             \n\n              敬一郎\n             \n\n            氏来約（事ム所）\n           \n\n\n\n\n             午后一時\n            \n            協調会\n            \n\n              中村\n             \n\n            氏来約\n            \n             永楽町\n            \n            事務所\n           \n\n\n\n\n             午后二時\n            \n            協調会理事会　同会\n           \n\n\n",
     "label": "三日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0251",
@@ -29,8 +35,12 @@
     "sort": "DKB20029m-0250",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山",
+        "飛鳥山邸",
         "永楽町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/永楽町"
     ],
     "temporal": "1927-10-03",
     "texts": [
@@ -56,10 +66,10 @@
         "DKB20032m-0119"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_堀進二\">\n<surname>\n              堀\n             </surname>\n<forename>\n              進二\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_堀進二\">\n<surname>\n              堀\n             </surname>\n<forename>\n              進二\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0250\">\n<head>\n<date when=\"1927-10-03\">\n           三日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_堀進二\">\n<surname>\n              堀\n             </surname>\n<forename>\n              進二\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<persName corresp=\"#pers_南崎兼\">\n<surname>\n              南崎\n             </surname>\n<forename>\n              兼\n             </forename>\n</persName>\n            左衛門氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:45:00\">\n             午前十一・四五時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午〇時半\n            </time>\n<persName corresp=\"#pers_添田敬一郎\">\n<surname>\n              添田\n             </surname>\n<forename>\n              敬一郎\n             </forename>\n</persName>\n            氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n            協調会\n            <persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_永楽町\">\n             永楽町\n            </placeName>\n            事務所\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n            協調会理事会　同会\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0250\">\n<head>\n<date when=\"1927-10-03\">\n           三日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_堀進二\">\n<surname>\n              堀\n             </surname>\n<forename>\n              進二\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<persName corresp=\"#pers_南崎兼左衛門\">\n<surname>\n              南崎\n             </surname>\n<forename>\n              兼左衛門\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:45:00\">\n             午前十一・四五時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午〇時半\n            </time>\n<persName corresp=\"#pers_添田敬一郎\">\n<surname>\n              添田\n             </surname>\n<forename>\n              敬一郎\n             </forename>\n</persName>\n            氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n            協調会\n            <persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_永楽町\">\n             永楽町\n            </placeName>\n            事務所\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n            協調会理事会　同会\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-10"
 }

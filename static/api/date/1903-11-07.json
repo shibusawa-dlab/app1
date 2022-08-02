@@ -6,6 +6,13 @@
         "瓜生震",
         "荒木民三郎"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/八十島親徳",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/萩原源太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/清浦",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/瓜生震",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/荒木民三郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/357",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -31,7 +38,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "イギリス",
-        "王子別荘"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/イギリス",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1903-11-07",
     "texts": [
@@ -61,10 +72,10 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n        十時\n       </time>\n<persName corresp=\"#pers_瓜生震\">\n<surname>\n         瓜生\n        </surname>\n<forename>\n         震\n        </forename>\n</persName>\n       氏来ル、京仁鉄道会社解散処分ノ事ヲ協議ス、\n       <persName corresp=\"#pers_荒木民三郎\">\n<surname>\n         荒木\n        </surname>\n<forename>\n         民三郎\n        </forename>\n</persName>\n       氏来ル、足尾鉱山行ノ事ヲ告ク、</div>",
         "12:00:00": "<div><time when=\"12:00:00\">\n        十二時\n       </time>\n       午飧ヲ為シ、霊岸寺《（巌）》ニ抵リ深川教育会総会ニ出席ス、一場ノ演説ヲ為ス、</div>",
         "15:00:00": "<div><time when=\"15:00:00\">\n        三時\n       </time>\n<placeName corresp=\"#place_イギリス\">\n        英国\n       </placeName>\n       公使館ニ於テ催ス処ノ園遊会ニ出席ス、</div>",
-        "17:00:00": "<div><time when=\"17:00:00\">\n        午後五時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
+        "17:00:00": "<div><time when=\"17:00:00\">\n        午後五時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10012m-0005\">\n<head>\n<date when=\"1903-11-07\">\n        十一月七日\n       </date>\n</head>\n<p>\n       曇、\n       <time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、朝飧ヲ畢リ書類ヲ検閲ス、\n       <persName corresp=\"#pers_八十島親徳\">\n<surname>\n         八十島\n        </surname>\n<forename>\n         親徳\n        </forename>\n</persName>\n       来リ富岡八幡社ノ事ニ関スル会則ノ修正ヲ托ス、\n       <persName corresp=\"#pers_萩原源太郎\">\n<surname>\n         萩原\n        </surname>\n<forename>\n         源太郎\n        </forename>\n</persName>\n       来ル、商業会議所ノ要務ヲ談ス、且昨日\n       <persName corresp=\"#pers_清浦\">\n<surname>\n         清浦\n        </surname>\n</persName>\n       農商務大臣ト会話ノ事ヲ伝フ、献納美術館建築ノ費途増募ノ事ニ付東京市掛員来話ス、\n       <time when=\"10:00:00\">\n        十時\n       </time>\n<persName corresp=\"#pers_瓜生震\">\n<surname>\n         瓜生\n        </surname>\n<forename>\n         震\n        </forename>\n</persName>\n       氏来ル、京仁鉄道会社解散処分ノ事ヲ協議ス、\n       <persName corresp=\"#pers_荒木民三郎\">\n<surname>\n         荒木\n        </surname>\n<forename>\n         民三郎\n        </forename>\n</persName>\n       氏来ル、足尾鉱山行ノ事ヲ告ク、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n       午飧ヲ為シ、霊岸寺《（巌）》ニ抵リ深川教育会総会ニ出席ス、一場ノ演説ヲ為ス、\n       <time when=\"15:00:00\">\n        三時\n       </time>\n<placeName corresp=\"#place_イギリス\">\n        英国\n       </placeName>\n       公使館ニ於テ催ス処ノ園遊会ニ出席ス、\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10012m-0005\">\n<head>\n<date when=\"1903-11-07\">\n        十一月七日\n       </date>\n</head>\n<p>\n       曇、\n       <time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、朝飧ヲ畢リ書類ヲ検閲ス、\n       <persName corresp=\"#pers_八十島親徳\">\n<surname>\n         八十島\n        </surname>\n<forename>\n         親徳\n        </forename>\n</persName>\n       来リ富岡八幡社ノ事ニ関スル会則ノ修正ヲ托ス、\n       <persName corresp=\"#pers_萩原源太郎\">\n<surname>\n         萩原\n        </surname>\n<forename>\n         源太郎\n        </forename>\n</persName>\n       来ル、商業会議所ノ要務ヲ談ス、且昨日\n       <persName corresp=\"#pers_清浦\">\n<surname>\n         清浦\n        </surname>\n</persName>\n       農商務大臣ト会話ノ事ヲ伝フ、献納美術館建築ノ費途増募ノ事ニ付東京市掛員来話ス、\n       <time when=\"10:00:00\">\n        十時\n       </time>\n<persName corresp=\"#pers_瓜生震\">\n<surname>\n         瓜生\n        </surname>\n<forename>\n         震\n        </forename>\n</persName>\n       氏来ル、京仁鉄道会社解散処分ノ事ヲ協議ス、\n       <persName corresp=\"#pers_荒木民三郎\">\n<surname>\n         荒木\n        </surname>\n<forename>\n         民三郎\n        </forename>\n</persName>\n       氏来ル、足尾鉱山行ノ事ヲ告ク、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n       午飧ヲ為シ、霊岸寺《（巌）》ニ抵リ深川教育会総会ニ出席ス、一場ノ演説ヲ為ス、\n       <time when=\"15:00:00\">\n        三時\n       </time>\n<placeName corresp=\"#place_イギリス\">\n        英国\n       </placeName>\n       公使館ニ於テ催ス処ノ園遊会ニ出席ス、\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1903",
     "yearAndMonth": "1903-11"
 }

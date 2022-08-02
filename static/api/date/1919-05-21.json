@@ -2,7 +2,14 @@
     "agential": [
         "西田敬止",
         "山田昌邦",
-        "岡田忠彦"
+        "岡田忠彦",
+        "明石"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/西田敬止",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山田昌邦",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡田忠彦",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/明石"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1298",
     "category": {
@@ -19,7 +26,7 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-05",
     "date_lvl2": "1919-05-21",
-    "description": "\n\n\n           廿一日\n          \n          （水）\n         \n\n\n\n\n             午時\n            \n\n\n              西田\n             \n\n              敬止\n             \n\n            氏、\n            \n\n              山田\n             \n\n              昌邦\n             \n\n            氏、\n            \n\n              岡田\n             \n\n              忠彦\n             \n\n            氏来訪（\n            \n             大磯\n            \n\n             明石\n            \n            邸）\n           \n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （水）\n         \n\n\n\n\n             午時\n            \n\n\n              西田\n             \n\n              敬止\n             \n\n            氏、\n            \n\n              山田\n             \n\n              昌邦\n             \n\n            氏、\n            \n\n              岡田\n             \n\n              忠彦\n             \n\n            氏来訪（\n            \n             大磯\n            \n\n\n              明石\n             \n\n            邸）\n           \n\n\n",
     "label": "廿一日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0116",
@@ -28,8 +35,10 @@
     "sort": "DKB20021m-0115",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "大磯町",
-        "明石"
+        "大磯町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/大磯町"
     ],
     "temporal": "1919-05-21",
     "texts": [
@@ -55,10 +64,10 @@
         "DKB20025m-0051"
     ],
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_西田敬止\">\n<surname>\n              西田\n             </surname>\n<forename>\n              敬止\n             </forename>\n</persName>\n            氏、\n            <persName corresp=\"#pers_山田昌邦\">\n<surname>\n              山田\n             </surname>\n<forename>\n              昌邦\n             </forename>\n</persName>\n            氏、\n            <persName corresp=\"#pers_岡田忠彦\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              忠彦\n             </forename>\n</persName>\n            氏来訪（\n            <placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n<placeName corresp=\"#place_明石\">\n             明石\n            </placeName>\n            邸）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_西田敬止\">\n<surname>\n              西田\n             </surname>\n<forename>\n              敬止\n             </forename>\n</persName>\n            氏、\n            <persName corresp=\"#pers_山田昌邦\">\n<surname>\n              山田\n             </surname>\n<forename>\n              昌邦\n             </forename>\n</persName>\n            氏、\n            <persName corresp=\"#pers_岡田忠彦\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              忠彦\n             </forename>\n</persName>\n            氏来訪（\n            <placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n<persName corresp=\"#pers_明石\">\n<surname>\n              明石\n             </surname>\n</persName>\n            邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0115\">\n<head>\n<date when=\"1919-05-21\">\n           廿一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_西田敬止\">\n<surname>\n              西田\n             </surname>\n<forename>\n              敬止\n             </forename>\n</persName>\n            氏、\n            <persName corresp=\"#pers_山田昌邦\">\n<surname>\n              山田\n             </surname>\n<forename>\n              昌邦\n             </forename>\n</persName>\n            氏、\n            <persName corresp=\"#pers_岡田忠彦\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              忠彦\n             </forename>\n</persName>\n            氏来訪（\n            <placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n<placeName corresp=\"#place_明石\">\n             明石\n            </placeName>\n            邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0115\">\n<head>\n<date when=\"1919-05-21\">\n           廿一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_西田敬止\">\n<surname>\n              西田\n             </surname>\n<forename>\n              敬止\n             </forename>\n</persName>\n            氏、\n            <persName corresp=\"#pers_山田昌邦\">\n<surname>\n              山田\n             </surname>\n<forename>\n              昌邦\n             </forename>\n</persName>\n            氏、\n            <persName corresp=\"#pers_岡田忠彦\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              忠彦\n             </forename>\n</persName>\n            氏来訪（\n            <placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n<persName corresp=\"#pers_明石\">\n<surname>\n              明石\n             </surname>\n</persName>\n            邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-05"
 }

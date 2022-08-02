@@ -1,7 +1,11 @@
 {
     "agential": [
-        "慶喜",
+        "徳川慶喜",
         "福原"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川慶喜",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/福原"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1170",
     "category": {
@@ -18,7 +22,7 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-11",
     "date_lvl2": "1914-11-22",
-    "description": "\n\n\n           廿二日\n          \n          （日）\n         \n\n\n\n\n             午前十時\n            \n            故\n            \n\n              慶喜\n             \n\n            公御一週年祭\n           \n\n\n\n\n             午前十時\n            \n            御邸祭\n           \n\n\n\n\n             午后一時半\n            \n            御墓所祭\n           \n\n\n\n\n             上野精養軒\n            \n            ニテ午餐\n           \n\n\n\n\n             午〇時半\n            \n            剣士試合ノ件（\n            \n             埼玉\n            \n            学生誘掖会）\n           \n\n\n\n\n             午后五時\n            \n\n\n              福原\n             \n\n            氏御里開ノ宴御招カレ（保険協会）\n           \n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （日）\n         \n\n\n\n\n             午前十時\n            \n            故\n            \n\n              慶喜\n             \n\n            公御一週年祭\n           \n\n\n\n\n             午前十時\n            \n            御邸祭\n           \n\n\n\n\n             午后一時半\n            \n            御墓所祭\n           \n\n\n\n\n             上野\n            \n\n             精養軒\n            \n            ニテ午餐\n           \n\n\n\n\n             午〇時半\n            \n            剣士試合ノ件（\n            \n             埼玉学生誘掖会\n            \n            ）\n           \n\n\n\n\n             午后五時\n            \n\n\n              福原\n             \n\n            氏御里開ノ宴御招カレ（保険協会）\n           \n\n\n",
     "label": "廿二日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20016m-0069",
@@ -27,8 +31,10 @@
     "sort": "DKB20016m-0068",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "上野精養軒",
-        "埼玉"
+        "上野"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
     ],
     "temporal": "1914-11-22",
     "texts": [
@@ -54,10 +60,10 @@
         "DKB20028m-0122"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            故\n            <persName corresp=\"#pers_慶喜\">\n<forename>\n              慶喜\n             </forename>\n</persName>\n            公御一週年祭</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            故\n            <persName corresp=\"#pers_徳川慶喜\">\n<forename>\n              慶喜\n             </forename>\n</persName>\n            公御一週年祭</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0068\">\n<head>\n<date when=\"1914-11-22\">\n           廿二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            故\n            <persName corresp=\"#pers_慶喜\">\n<forename>\n              慶喜\n             </forename>\n</persName>\n            公御一週年祭\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            御邸祭\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午后一時半\n            </time>\n            御墓所祭\n           </p>\n</event>\n<event>\n<p>\n<placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ニテ午餐\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午〇時半\n            </time>\n            剣士試合ノ件（\n            <placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午后五時\n            </time>\n<persName corresp=\"#pers_福原\">\n<surname>\n              福原\n             </surname>\n</persName>\n            氏御里開ノ宴御招カレ（保険協会）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0068\">\n<head>\n<date when=\"1914-11-22\">\n           廿二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            故\n            <persName corresp=\"#pers_徳川慶喜\">\n<forename>\n              慶喜\n             </forename>\n</persName>\n            公御一週年祭\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            御邸祭\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午后一時半\n            </time>\n            御墓所祭\n           </p>\n</event>\n<event>\n<p>\n<placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ニテ午餐\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午〇時半\n            </time>\n            剣士試合ノ件（\n            <orgName>\n             埼玉学生誘掖会\n            </orgName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午后五時\n            </time>\n<persName corresp=\"#pers_福原\">\n<surname>\n              福原\n             </surname>\n</persName>\n            氏御里開ノ宴御招カレ（保険協会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-11"
 }

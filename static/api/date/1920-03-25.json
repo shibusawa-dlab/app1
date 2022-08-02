@@ -1,12 +1,21 @@
 {
     "agential": [
         "井上",
-        "緒明圭",
+        "緒明圭造",
         "松永安彦",
         "松岡均平",
         "大隈常信",
         "大隈信常",
         "田中源太郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/井上",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/緒明圭造",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松永安彦",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松岡均平",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大隈常信",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大隈信常",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田中源太郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1328",
     "category": {
@@ -23,7 +32,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-03",
     "date_lvl2": "1920-03-25",
-    "description": "\n\n\n           廿五日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n            故\n            \n\n              井上\n             \n\n            侯母堂告別式（宮村町邸）\n           \n\n\n\n\n             正午\n            \n            同族会社重役会（本社）\n           \n\n\n\n\n             午後四半時\n            \n\n\n              緒明\n             \n\n              圭\n             \n\n            造氏来約\n           \n\n\n\n\n             午後五時\n            \n\n\n              松永\n             \n\n              安彦\n             \n\n            氏　同上\n           \n\n\n\n\n             午後五時\n            \n\n\n              松岡\n             \n\n              均平\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時半\n            \n\n\n              大隈\n             \n\n              常信\n             \n\n            氏\n            \n             兜町\n            \n            《（\n            \n\n              大隈\n             \n\n              信常\n             \n\n            氏）》ニ来約\n           \n\n\n\n\n             午後五時半\n            \n\n\n              田中\n             \n\n              源太郎\n             \n\n            氏ヨリ御招待（常盤屋）\n           \n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n            故\n            \n\n              井上\n             \n\n            侯母堂告別式（\n            \n             宮村町\n            \n            邸）\n           \n\n\n\n\n             正午\n            \n            同族会社重役会（本社）\n           \n\n\n\n\n             午後四半時\n            \n\n\n              緒明\n             \n\n              圭造\n             \n\n            氏来約\n           \n\n\n\n\n             午後五時\n            \n\n\n              松永\n             \n\n              安彦\n             \n\n            氏　同上\n           \n\n\n\n\n             午後五時\n            \n\n\n              松岡\n             \n\n              均平\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時半\n            \n\n\n              大隈\n             \n\n              常信\n             \n\n            氏\n            \n             兜町\n            \n            《（\n            \n\n              大隈\n             \n\n              信常\n             \n\n            氏）》ニ来約\n           \n\n\n\n\n             午後五時半\n            \n\n\n              田中\n             \n\n              源太郎\n             \n\n            氏ヨリ御招待（常盤屋）\n           \n\n\n",
     "label": "廿五日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0083",
@@ -32,7 +41,12 @@
     "sort": "DKB20022m-0082",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "宮村町",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/宮村町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1920-03-25",
     "texts": [
@@ -58,10 +72,10 @@
         "DKB20025m-0045"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            故\n            <persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            侯母堂告別式（宮村町邸）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            故\n            <persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            侯母堂告別式（\n            <placeName corresp=\"#place_宮村町\">\n             宮村町\n            </placeName>\n            邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0082\">\n<head>\n<date when=\"1920-03-25\">\n           廿五日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            故\n            <persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            侯母堂告別式（宮村町邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            同族会社重役会（本社）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n<persName corresp=\"#pers_緒明圭\">\n<surname>\n              緒明\n             </surname>\n<forename>\n              圭\n             </forename>\n</persName>\n            造氏来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_松永安彦\">\n<surname>\n              松永\n             </surname>\n<forename>\n              安彦\n             </forename>\n</persName>\n            氏　同上\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_松岡均平\">\n<surname>\n              松岡\n             </surname>\n<forename>\n              均平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五時半\n            </time>\n<persName corresp=\"#pers_大隈常信\">\n<surname>\n              大隈\n             </surname>\n<forename>\n              常信\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            《（\n            <persName corresp=\"#pers_大隈信常\">\n<surname>\n              大隈\n             </surname>\n<forename>\n              信常\n             </forename>\n</persName>\n            氏）》ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五時半\n            </time>\n<persName corresp=\"#pers_田中源太郎\">\n<surname>\n              田中\n             </surname>\n<forename>\n              源太郎\n             </forename>\n</persName>\n            氏ヨリ御招待（常盤屋）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0082\">\n<head>\n<date when=\"1920-03-25\">\n           廿五日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            故\n            <persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            侯母堂告別式（\n            <placeName corresp=\"#place_宮村町\">\n             宮村町\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            同族会社重役会（本社）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n<persName corresp=\"#pers_緒明圭造\">\n<surname>\n              緒明\n             </surname>\n<forename>\n              圭造\n             </forename>\n</persName>\n            氏来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_松永安彦\">\n<surname>\n              松永\n             </surname>\n<forename>\n              安彦\n             </forename>\n</persName>\n            氏　同上\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_松岡均平\">\n<surname>\n              松岡\n             </surname>\n<forename>\n              均平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五時半\n            </time>\n<persName corresp=\"#pers_大隈常信\">\n<surname>\n              大隈\n             </surname>\n<forename>\n              常信\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            《（\n            <persName corresp=\"#pers_大隈信常\">\n<surname>\n              大隈\n             </surname>\n<forename>\n              信常\n             </forename>\n</persName>\n            氏）》ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五時半\n            </time>\n<persName corresp=\"#pers_田中源太郎\">\n<surname>\n              田中\n             </surname>\n<forename>\n              源太郎\n             </forename>\n</persName>\n            氏ヨリ御招待（常盤屋）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-03"
 }

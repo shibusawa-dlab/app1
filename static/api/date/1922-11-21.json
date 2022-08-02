@@ -3,6 +3,10 @@
         "小倉彦四郎",
         "佐藤安之助"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小倉彦四郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐藤安之助"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1411",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -29,7 +33,12 @@
     "spatial": [
         "日本橋兜町",
         "佐原市",
-        "赤坂"
+        "赤坂_(東京都港区)"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/佐原市",
+        "https://shibusawa-dlab.github.io/lab1/api/place/赤坂_(東京都港区)"
     ],
     "temporal": "1922-11-21",
     "texts": [
@@ -58,7 +67,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_小倉彦四郎\">\n<surname>\n              小倉\n             </surname>\n<forename>\n              彦四郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0289\">\n<head>\n<date when=\"1922-11-21\">\n           廿一日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_小倉彦四郎\">\n<surname>\n              小倉\n             </surname>\n<forename>\n              彦四郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"11:00:00\">\n             午前十―十一時\n            </time>\n            陸軍少将\n            <persName corresp=\"#pers_佐藤安之助\">\n<surname>\n              佐藤\n             </surname>\n<forename>\n              安之助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_佐原市\">\n             佐原\n            </placeName>\n            町ヘ御出向、婦女新聞社ノ為メ御講演\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n            観菊会（\n            <placeName corresp=\"#place_赤坂\">\n             赤坂\n            </placeName>\n            離宮）\n            <lb/>\n            シルクハツトノ事\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            銀行倶楽部月例晩餐会（同クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0289\">\n<head>\n<date when=\"1922-11-21\">\n           廿一日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_小倉彦四郎\">\n<surname>\n              小倉\n             </surname>\n<forename>\n              彦四郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"11:00:00\">\n             午前十―十一時\n            </time>\n            陸軍少将\n            <persName corresp=\"#pers_佐藤安之助\">\n<surname>\n              佐藤\n             </surname>\n<forename>\n              安之助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_佐原市\">\n             佐原\n            </placeName>\n            町ヘ御出向、婦女新聞社ノ為メ御講演\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n            観菊会（\n            <placeName corresp=\"#place_赤坂_(東京都港区)\">\n             赤坂\n            </placeName>\n            離宮）\n            <lb/>\n            シルクハツトノ事\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            銀行倶楽部月例晩餐会（同クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-11"
 }

@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1169",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-11",
     "date_lvl2": "1914-11-08",
-    "description": "\n\n\n           八日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n            三二\n            \n             上武\n            \n            鉄道開通式ヘ御出向\n           \n\n\n\n\n             午後八時\n            \n            一五\n            \n             王子\n            \n            着御帰邸\n           \n\n\n",
+    "description": "\n\n\n           八日\n          \n          （日）\n         \n\n\n\n\n             午前八時三二\n            \n\n             上武鉄道\n            \n            開通式ヘ御出向\n           \n\n\n\n\n             午後八時\n            \n            一五\n            \n             王子\n            \n            着御帰邸\n           \n\n\n",
     "label": "八日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20016m-0055",
@@ -24,8 +25,10 @@
     "sort": "DKB20016m-0054",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "上武",
         "王子"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子"
     ],
     "temporal": "1914-11-08",
     "texts": [
@@ -51,10 +54,10 @@
         "DKB20019m-0138"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            三二\n            <placeName corresp=\"#place_上武\">\n             上武\n            </placeName>\n            鉄道開通式ヘ御出向</div>"
+        "08:32:00": "<div><time when=\"08:32:00\">\n             午前八時三二\n            </time>\n<orgName>\n             上武鉄道\n            </orgName>\n            開通式ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0054\">\n<head>\n<date when=\"1914-11-08\">\n           八日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            三二\n            <placeName corresp=\"#place_上武\">\n             上武\n            </placeName>\n            鉄道開通式ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"20:00:00\">\n             午後八時\n            </time>\n            一五\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            着御帰邸\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0054\">\n<head>\n<date when=\"1914-11-08\">\n           八日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:32:00\">\n             午前八時三二\n            </time>\n<orgName>\n             上武鉄道\n            </orgName>\n            開通式ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"20:00:00\">\n             午後八時\n            </time>\n            一五\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            着御帰邸\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-11"
 }

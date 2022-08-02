@@ -1,8 +1,17 @@
 {
     "agential": [
+        "大木",
+        "野村霊堂",
         "伊藤修",
         "大熊",
         "広"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大木",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/野村霊堂",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/伊藤修",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大熊",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/広"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1513",
     "category": {
@@ -19,7 +28,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-05",
     "date_lvl2": "1926-05-30",
-    "description": "\n\n\n           三十日\n          \n          （日）\n         \n\n\n\n\n             午前八半時\n            \n            大木追悼会件ニ付\n            \n             野村\n            \n            霊堂氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前八半時\n            \n            時事新報記者\n            \n\n              伊藤\n             \n\n              修\n             \n\n            氏来約（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              大熊\n             \n\n            、\n            \n\n              広\n             \n\n            両氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n             東京\n            \n            市養育院職員慰労会（同院\n            \n             巣鴨\n            \n            分院）\n           \n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （日）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              大木\n             \n\n            追悼会件ニ付\n            \n\n              野村\n             \n\n              霊堂\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前八半時\n            \n            時事新報記者\n            \n\n              伊藤\n             \n\n              修\n             \n\n            氏来約（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              大熊\n             \n\n            、\n            \n\n              広\n             \n\n            両氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n             東京\n            \n            市養育院職員慰労会（同院\n            \n             巣鴨\n            \n            分院）\n           \n\n\n",
     "label": "三十日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0151",
@@ -28,12 +37,14 @@
     "sort": "DKB20028m-0150",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "野村",
-        "アスカ山",
-        "アスカ山邸",
         "飛鳥山邸",
         "東京",
         "巣鴨"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/巣鴨"
     ],
     "temporal": "1926-05-30",
     "texts": [
@@ -59,10 +70,10 @@
         "DKB20018m-0028"
     ],
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n            大木追悼会件ニ付\n            <placeName corresp=\"#place_野村\">\n             野村\n            </placeName>\n            霊堂氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_大木\">\n<surname>\n              大木\n             </surname>\n</persName>\n            追悼会件ニ付\n            <persName corresp=\"#pers_野村霊堂\">\n<surname>\n              野村\n             </surname>\n<forename>\n              霊堂\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0150\">\n<head>\n<date when=\"1926-05-30\">\n           三十日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            大木追悼会件ニ付\n            <placeName corresp=\"#place_野村\">\n             野村\n            </placeName>\n            霊堂氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            時事新報記者\n            <persName corresp=\"#pers_伊藤修\">\n<surname>\n              伊藤\n             </surname>\n<forename>\n              修\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_大熊\">\n<surname>\n              大熊\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_広\">\n<surname>\n              広\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院職員慰労会（同院\n            <placeName corresp=\"#place_巣鴨\">\n             巣鴨\n            </placeName>\n            分院）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0150\">\n<head>\n<date when=\"1926-05-30\">\n           三十日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_大木\">\n<surname>\n              大木\n             </surname>\n</persName>\n            追悼会件ニ付\n            <persName corresp=\"#pers_野村霊堂\">\n<surname>\n              野村\n             </surname>\n<forename>\n              霊堂\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            時事新報記者\n            <persName corresp=\"#pers_伊藤修\">\n<surname>\n              伊藤\n             </surname>\n<forename>\n              修\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_大熊\">\n<surname>\n              大熊\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_広\">\n<surname>\n              広\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院職員慰労会（同院\n            <placeName corresp=\"#place_巣鴨\">\n             巣鴨\n            </placeName>\n            分院）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-05"
 }

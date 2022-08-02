@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1608",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1930",
     "date_lvl1": "1930-04",
     "date_lvl2": "1930-04-20",
-    "description": "\n\n\n           二十日\n          \n          （日）\n         \n\n\n\n\n             午後二時\n            \n\n             日本\n            \n            女子大学校創立記念式（同校）\n           \n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （日）\n         \n\n\n\n\n             午後二時\n            \n\n             日本女子大学校\n            \n            創立記念式（同校）\n           \n\n\n",
     "label": "二十日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20032m-0024",
@@ -23,9 +24,8 @@
     "prev": "DKB20032m-0022",
     "sort": "DKB20032m-0023",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "日本"
-    ],
+    "spatial": [],
+    "spatial_uri": [],
     "temporal": "1930-04-20",
     "texts": [
         "DKB20027m-0139",
@@ -50,10 +50,10 @@
         "DKB20020m-0183"
     ],
     "time": {
-        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            女子大学校創立記念式（同校）</div>"
+        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n<orgName>\n             日本女子大学校\n            </orgName>\n            創立記念式（同校）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0023\">\n<head>\n<date when=\"1930-04-20\">\n           二十日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            女子大学校創立記念式（同校）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0023\">\n<head>\n<date when=\"1930-04-20\">\n           二十日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<orgName>\n             日本女子大学校\n            </orgName>\n            創立記念式（同校）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1930",
     "yearAndMonth": "1930-04"
 }

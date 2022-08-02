@@ -4,6 +4,11 @@
         "内田",
         "吉田"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐久間三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/内田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/吉田"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1441",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -28,8 +33,12 @@
     "sort": "DKB20025m-0269",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
+        "飛鳥山邸",
         "八重洲"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/八重洲"
     ],
     "temporal": "1923-10-20",
     "texts": [
@@ -55,10 +64,10 @@
         "DKB20027m-0181"
     ],
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n            婦女界社\n            <persName corresp=\"#pers_佐久間三郎\">\n<surname>\n              佐久間\n             </surname>\n<forename>\n              三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n            婦女界社\n            <persName corresp=\"#pers_佐久間三郎\">\n<surname>\n              佐久間\n             </surname>\n<forename>\n              三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0269\">\n<head>\n<date when=\"1923-10-20\">\n           二十日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            婦女界社\n            <persName corresp=\"#pers_佐久間三郎\">\n<surname>\n              佐久間\n             </surname>\n<forename>\n              三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            国際聯盟協会理事会《（原註）》　○流会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            同会催\n            <persName corresp=\"#pers_内田\">\n<surname>\n              内田\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_吉田\">\n<surname>\n              吉田\n             </surname>\n</persName>\n            両氏歓迎茶話会（\n            <placeName corresp=\"#place_八重洲\">\n             八重洲\n            </placeName>\n            町中央亭）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2602\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1441/full/max/0/default.jpg\" n=\"B2602\" source=\"#pageB2602\"/>\n<time from=\"15:30:00\" to=\"16:00:00\">\n             午後三半―四時\n            </time>\n            大蔵大臣ヲ御訪問（大蔵省）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0269\">\n<head>\n<date when=\"1923-10-20\">\n           二十日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            婦女界社\n            <persName corresp=\"#pers_佐久間三郎\">\n<surname>\n              佐久間\n             </surname>\n<forename>\n              三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            国際聯盟協会理事会《（原註）》　○流会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            同会催\n            <persName corresp=\"#pers_内田\">\n<surname>\n              内田\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_吉田\">\n<surname>\n              吉田\n             </surname>\n</persName>\n            両氏歓迎茶話会（\n            <placeName corresp=\"#place_八重洲\">\n             八重洲\n            </placeName>\n            町中央亭）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2602\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1441/full/max/0/default.jpg\" n=\"B2602\" source=\"#pageB2602\"/>\n<time from=\"15:30:00\" to=\"16:00:00\">\n             午後三半―四時\n            </time>\n            大蔵大臣ヲ御訪問（大蔵省）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-10"
 }

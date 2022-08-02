@@ -1,6 +1,11 @@
 {
     "agential": [
-        "後藤新平"
+        "後藤新平",
+        "黒川"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/後藤新平",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/黒川"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1476",
     "category": {
@@ -26,8 +31,10 @@
     "sort": "DKB20026m-0269",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "黒川",
         "支那"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/支那"
     ],
     "temporal": "1924-10-01",
     "texts": [
@@ -56,7 +63,7 @@
         "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_後藤新平\">\n<surname>\n              後藤\n             </surname>\n<forename>\n              新平\n             </forename>\n</persName>\n            氏ヲ御訪問（同子邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0269\">\n<head>\n<date when=\"1924-10-01\">\n           一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_後藤新平\">\n<surname>\n              後藤\n             </surname>\n<forename>\n              新平\n             </forename>\n</persName>\n            氏ヲ御訪問（同子邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_黒川\">\n             黒川\n            </placeName>\n            郵船会社副社長来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            問題ニ関スル研究会（協調会館内国際聯盟協会）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0269\">\n<head>\n<date when=\"1924-10-01\">\n           一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_後藤新平\">\n<surname>\n              後藤\n             </surname>\n<forename>\n              新平\n             </forename>\n</persName>\n            氏ヲ御訪問（同子邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_黒川\">\n             黒川\n            </persName>\n            郵船会社副社長来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            問題ニ関スル研究会（協調会館内国際聯盟協会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-10"
 }

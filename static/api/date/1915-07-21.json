@@ -2,6 +2,9 @@
     "agential": [
         "江原素六"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/江原素六"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1188",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-07",
     "date_lvl2": "1915-07-21",
-    "description": "\n\n\n           廿一日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n\n             岩崎\n            \n            男爵ヲ\n            \n             茅町\n            \n            邸ニ御訪問\n           \n\n\n\n\n             午前十時\n            \n\n             ブラジル\n            \n            拓殖会社会議（\n            \n             ブラジル\n            \n            拓殖会社）（是ハ電話ノ通知、追テ議案ヲ具ヘ改メテ通知スト）\n           \n\n\n\n\n             正午\n            \n            銀行集会処総会（同所）\n           \n\n\n\n\n             午後二時半\n            \n\n\n              江原\n             \n\n              素六\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n             日本\n            \n            倶楽部委員会（同クラブ）\n           \n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n\n             岩崎\n            \n            男爵ヲ\n            \n             茅町\n            \n            邸ニ御訪問\n           \n\n\n\n\n             午前十時\n            \n\n             ブラジル\n            \n            拓殖会社会議（\n            \n             ブラジル\n            \n            拓殖会社）（是ハ電話ノ通知、追テ議案ヲ具ヘ改メテ通知スト）\n           \n\n\n\n\n             正午\n            \n            銀行集会処総会（同所）\n           \n\n\n\n\n             午後二時半\n            \n\n\n              江原\n             \n\n              素六\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            日本倶楽部委員会（同クラブ）\n           \n\n\n",
     "label": "廿一日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0193",
@@ -29,8 +32,13 @@
         "岩崎",
         "茅町",
         "ブラジル",
-        "日本橋兜町",
-        "日本"
+        "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/岩崎",
+        "https://shibusawa-dlab.github.io/lab1/api/place/茅町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/ブラジル",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1915-07-21",
     "texts": [
@@ -59,7 +67,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_岩崎\">\n             岩崎\n            </placeName>\n            男爵ヲ\n            <placeName corresp=\"#place_茅町\">\n             茅町\n            </placeName>\n            邸ニ御訪問</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0192\">\n<head>\n<date when=\"1915-07-21\">\n           廿一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_岩崎\">\n             岩崎\n            </placeName>\n            男爵ヲ\n            <placeName corresp=\"#place_茅町\">\n             茅町\n            </placeName>\n            邸ニ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_ブラジル\">\n             ブラジル\n            </placeName>\n            拓殖会社会議（\n            <placeName corresp=\"#place_ブラジル\">\n             ブラジル\n            </placeName>\n            拓殖会社）（是ハ電話ノ通知、追テ議案ヲ具ヘ改メテ通知スト）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            銀行集会処総会（同所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二時半\n            </time>\n<persName corresp=\"#pers_江原素六\">\n<surname>\n              江原\n             </surname>\n<forename>\n              素六\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            倶楽部委員会（同クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0192\">\n<head>\n<date when=\"1915-07-21\">\n           廿一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_岩崎\">\n             岩崎\n            </placeName>\n            男爵ヲ\n            <placeName corresp=\"#place_茅町\">\n             茅町\n            </placeName>\n            邸ニ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_ブラジル\">\n             ブラジル\n            </placeName>\n            拓殖会社会議（\n            <placeName corresp=\"#place_ブラジル\">\n             ブラジル\n            </placeName>\n            拓殖会社）（是ハ電話ノ通知、追テ議案ヲ具ヘ改メテ通知スト）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            銀行集会処総会（同所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二時半\n            </time>\n<persName corresp=\"#pers_江原素六\">\n<surname>\n              江原\n             </surname>\n<forename>\n              素六\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            日本倶楽部委員会（同クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-07"
 }

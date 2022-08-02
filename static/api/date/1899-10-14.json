@@ -1,9 +1,17 @@
 {
     "agential": [
         "西村捨三",
+        "進経太",
         "荒木民三郎",
-        "兼子",
+        "渋沢兼子",
         "皆川"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/西村捨三",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/進経太",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/荒木民三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢兼子",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/皆川"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/132",
     "category": {
@@ -20,7 +28,7 @@
     "date_lvl0": "1899",
     "date_lvl1": "1899-10",
     "date_lvl2": "1899-10-14",
-    "description": "\n\n\n        十月十四日\n       \n\n\n       朝\n       \n        七時五十分\n       \n\n        新橋\n       \n       発ノ汽車ニテ\n       \n        石川島造船所\n       \n       浦賀分工場ニ抵リ第五犬島丸進水ノ式ニ列ス、\n       \n        午前十一時\n       \n\n        浦賀\n       \n       ニ着ス、\n       \n\n         西村\n        \n\n         捨三\n        \n\n       夫妻、進経太\n       \n\n         荒木\n        \n\n         民三郎\n        \n\n       諸氏同車ス、分工場ニ於ル進水ノ準備十分ナラスシテ大ニ遅刻セリ、且盤木ニ故隙《（障）》アルヲ以テ船水際ニ在テ進水セス、一同大ニ失望ス、\n       \n        午後一時\n       \n       過、食卓場ニ来客ヲ誘フテ立食ス、\n       \n        午後五時\n       \n\n        浦賀\n       \n       ヲ発シ\n       \n        横須賀\n       \n       発ノ汽車ニテ大船ニ抵リ、汽車ヲ転シ\n       \n        七時\n       \n       過\n       \n        大磯\n       \n       長生館ニ投宿ス、蓋シ\n       \n\n         兼子\n        \n\n       病ニ由テ此家ニ療養シ在ルヲ以テナリ、\n       \n\n         皆川\n        \n\n       夫人モ同宿セラレシニヨリ種々ノ談話ニ欝寥ヲ散シタリ\n      \n",
+    "description": "\n\n\n        十月十四日\n       \n\n\n       朝\n       \n        七時五十分\n       \n\n        新橋\n       \n       発ノ汽車ニテ\n       \n        石川島造船所\n       \n       浦賀分工場ニ抵リ第五犬島丸進水ノ式ニ列ス、\n       \n        午前十一時\n       \n\n        浦賀\n       \n       ニ着ス、\n       \n\n         西村\n        \n\n         捨三\n        \n\n       夫妻、\n       \n\n         進\n        \n\n         経太\n        \n\n\n\n         荒木\n        \n\n         民三郎\n        \n\n       諸氏同車ス、分工場ニ於ル進水ノ準備十分ナラスシテ大ニ遅刻セリ、且盤木ニ故隙《（障）》アルヲ以テ船水際ニ在テ進水セス、一同大ニ失望ス、\n       \n        午後一時\n       \n       過、食卓場ニ来客ヲ誘フテ立食ス、\n       \n        午後五時\n       \n\n        浦賀\n       \n       ヲ発シ\n       \n        横須賀\n       \n       発ノ汽車ニテ大船ニ抵リ、汽車ヲ転シ\n       \n        七時\n       \n       過\n       \n        大磯\n       \n       長生館ニ投宿ス、蓋シ\n       \n\n         兼子\n        \n\n       病ニ由テ此家ニ療養シ在ルヲ以テナリ、\n       \n\n         皆川\n        \n\n       夫人モ同宿セラレシニヨリ種々ノ談話ニ欝寥ヲ散シタリ\n      \n",
     "label": "十月十四日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10008m-0289",
@@ -33,6 +41,12 @@
         "浦賀",
         "横須賀",
         "大磯町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/新橋",
+        "https://shibusawa-dlab.github.io/lab1/api/place/浦賀",
+        "https://shibusawa-dlab.github.io/lab1/api/place/横須賀",
+        "https://shibusawa-dlab.github.io/lab1/api/place/大磯町"
     ],
     "temporal": "1899-10-14",
     "texts": [
@@ -59,13 +73,13 @@
     ],
     "time": {
         "07:50:00": "<div>朝<time when=\"07:50:00\">\n        七時五十分\n       </time>\n<placeName corresp=\"#place_新橋\">\n        新橋\n       </placeName>\n       発ノ汽車ニテ\n       <orgName>\n        石川島造船所\n       </orgName>\n       浦賀分工場ニ抵リ第五犬島丸進水ノ式ニ列ス、</div>",
-        "11:00:00": "<div><time when=\"11:00:00\">\n        午前十一時\n       </time>\n<placeName corresp=\"#place_浦賀\">\n        浦賀\n       </placeName>\n       ニ着ス、\n       <persName corresp=\"#pers_西村捨三\">\n<surname>\n         西村\n        </surname>\n<forename>\n         捨三\n        </forename>\n</persName>\n       夫妻、進経太\n       <persName corresp=\"#pers_荒木民三郎\">\n<surname>\n         荒木\n        </surname>\n<forename>\n         民三郎\n        </forename>\n</persName>\n       諸氏同車ス、分工場ニ於ル進水ノ準備十分ナラスシテ大ニ遅刻セリ、且盤木ニ故隙《（障）》アルヲ以テ船水際ニ在テ進水セス、一同大ニ失望ス、</div>",
+        "11:00:00": "<div><time when=\"11:00:00\">\n        午前十一時\n       </time>\n<placeName corresp=\"#place_浦賀\">\n        浦賀\n       </placeName>\n       ニ着ス、\n       <persName corresp=\"#pers_西村捨三\">\n<surname>\n         西村\n        </surname>\n<forename>\n         捨三\n        </forename>\n</persName>\n       夫妻、\n       <persName corresp=\"#pers_進経太\">\n<surname>\n         進\n        </surname>\n<forename>\n         経太\n        </forename>\n</persName>\n<persName corresp=\"#pers_荒木民三郎\">\n<surname>\n         荒木\n        </surname>\n<forename>\n         民三郎\n        </forename>\n</persName>\n       諸氏同車ス、分工場ニ於ル進水ノ準備十分ナラスシテ大ニ遅刻セリ、且盤木ニ故隙《（障）》アルヲ以テ船水際ニ在テ進水セス、一同大ニ失望ス、</div>",
         "13:00:00": "<div><time when=\"13:00:00\">\n        午後一時\n       </time>\n       過、食卓場ニ来客ヲ誘フテ立食ス、</div>",
         "17:00:00": "<div><time when=\"17:00:00\">\n        午後五時\n       </time>\n<placeName corresp=\"#place_浦賀\">\n        浦賀\n       </placeName>\n       ヲ発シ\n       <placeName corresp=\"#place_横須賀\">\n        横須賀\n       </placeName>\n       発ノ汽車ニテ大船ニ抵リ、汽車ヲ転シ</div>",
-        "19:00:00": "<div><time when=\"19:00:00\">\n        七時\n       </time>\n       過\n       <placeName corresp=\"#place_大磯町\">\n        大磯\n       </placeName>\n       長生館ニ投宿ス、蓋シ\n       <persName corresp=\"#pers_兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       病ニ由テ此家ニ療養シ在ルヲ以テナリ、\n       <persName corresp=\"#pers_皆川\">\n<surname>\n         皆川\n        </surname>\n</persName>\n       夫人モ同宿セラレシニヨリ種々ノ談話ニ欝寥ヲ散シタリ</div>"
+        "19:00:00": "<div><time when=\"19:00:00\">\n        七時\n       </time>\n       過\n       <placeName corresp=\"#place_大磯町\">\n        大磯\n       </placeName>\n       長生館ニ投宿ス、蓋シ\n       <persName corresp=\"#pers_渋沢兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       病ニ由テ此家ニ療養シ在ルヲ以テナリ、\n       <persName corresp=\"#pers_皆川\">\n<surname>\n         皆川\n        </surname>\n</persName>\n       夫人モ同宿セラレシニヨリ種々ノ談話ニ欝寥ヲ散シタリ</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-0288\">\n<head>\n<date when=\"1899-10-14\">\n        十月十四日\n       </date>\n</head>\n<p>\n       朝\n       <time when=\"07:50:00\">\n        七時五十分\n       </time>\n<placeName corresp=\"#place_新橋\">\n        新橋\n       </placeName>\n       発ノ汽車ニテ\n       <orgName>\n        石川島造船所\n       </orgName>\n       浦賀分工場ニ抵リ第五犬島丸進水ノ式ニ列ス、\n       <time when=\"11:00:00\">\n        午前十一時\n       </time>\n<placeName corresp=\"#place_浦賀\">\n        浦賀\n       </placeName>\n       ニ着ス、\n       <persName corresp=\"#pers_西村捨三\">\n<surname>\n         西村\n        </surname>\n<forename>\n         捨三\n        </forename>\n</persName>\n       夫妻、進経太\n       <persName corresp=\"#pers_荒木民三郎\">\n<surname>\n         荒木\n        </surname>\n<forename>\n         民三郎\n        </forename>\n</persName>\n       諸氏同車ス、分工場ニ於ル進水ノ準備十分ナラスシテ大ニ遅刻セリ、且盤木ニ故隙《（障）》アルヲ以テ船水際ニ在テ進水セス、一同大ニ失望ス、\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n       過、食卓場ニ来客ヲ誘フテ立食ス、\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n<placeName corresp=\"#place_浦賀\">\n        浦賀\n       </placeName>\n       ヲ発シ\n       <placeName corresp=\"#place_横須賀\">\n        横須賀\n       </placeName>\n       発ノ汽車ニテ大船ニ抵リ、汽車ヲ転シ\n       <time when=\"19:00:00\">\n        七時\n       </time>\n       過\n       <placeName corresp=\"#place_大磯町\">\n        大磯\n       </placeName>\n       長生館ニ投宿ス、蓋シ\n       <persName corresp=\"#pers_兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       病ニ由テ此家ニ療養シ在ルヲ以テナリ、\n       <persName corresp=\"#pers_皆川\">\n<surname>\n         皆川\n        </surname>\n</persName>\n       夫人モ同宿セラレシニヨリ種々ノ談話ニ欝寥ヲ散シタリ\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-0288\">\n<head>\n<date when=\"1899-10-14\">\n        十月十四日\n       </date>\n</head>\n<p>\n       朝\n       <time when=\"07:50:00\">\n        七時五十分\n       </time>\n<placeName corresp=\"#place_新橋\">\n        新橋\n       </placeName>\n       発ノ汽車ニテ\n       <orgName>\n        石川島造船所\n       </orgName>\n       浦賀分工場ニ抵リ第五犬島丸進水ノ式ニ列ス、\n       <time when=\"11:00:00\">\n        午前十一時\n       </time>\n<placeName corresp=\"#place_浦賀\">\n        浦賀\n       </placeName>\n       ニ着ス、\n       <persName corresp=\"#pers_西村捨三\">\n<surname>\n         西村\n        </surname>\n<forename>\n         捨三\n        </forename>\n</persName>\n       夫妻、\n       <persName corresp=\"#pers_進経太\">\n<surname>\n         進\n        </surname>\n<forename>\n         経太\n        </forename>\n</persName>\n<persName corresp=\"#pers_荒木民三郎\">\n<surname>\n         荒木\n        </surname>\n<forename>\n         民三郎\n        </forename>\n</persName>\n       諸氏同車ス、分工場ニ於ル進水ノ準備十分ナラスシテ大ニ遅刻セリ、且盤木ニ故隙《（障）》アルヲ以テ船水際ニ在テ進水セス、一同大ニ失望ス、\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n       過、食卓場ニ来客ヲ誘フテ立食ス、\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n<placeName corresp=\"#place_浦賀\">\n        浦賀\n       </placeName>\n       ヲ発シ\n       <placeName corresp=\"#place_横須賀\">\n        横須賀\n       </placeName>\n       発ノ汽車ニテ大船ニ抵リ、汽車ヲ転シ\n       <time when=\"19:00:00\">\n        七時\n       </time>\n       過\n       <placeName corresp=\"#place_大磯町\">\n        大磯\n       </placeName>\n       長生館ニ投宿ス、蓋シ\n       <persName corresp=\"#pers_渋沢兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       病ニ由テ此家ニ療養シ在ルヲ以テナリ、\n       <persName corresp=\"#pers_皆川\">\n<surname>\n         皆川\n        </surname>\n</persName>\n       夫人モ同宿セラレシニヨリ種々ノ談話ニ欝寥ヲ散シタリ\n      </p>\n</div>",
     "year": "1899",
     "yearAndMonth": "1899-10"
 }

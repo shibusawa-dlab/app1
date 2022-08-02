@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1548",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-06",
     "date_lvl2": "1927-06-16",
-    "description": "\n\n\n           十六日\n          \n          （木）\n         \n\n\n\n\n             午前九・四五時\n            \n            両国駅御発\n           \n\n\n\n\n             東京\n            \n            市養育院\n            \n             安房\n            \n            分院ニ御出向\n           \n\n\n",
+    "description": "\n\n\n           十六日\n          \n          （木）\n         \n\n\n\n\n             午前九・四五時\n            \n\n             両国\n            \n            駅御発\n           \n\n\n\n\n             東京\n            \n            市養育院\n            \n             安房\n            \n            分院ニ御出向\n           \n\n\n",
     "label": "十六日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0152",
@@ -24,8 +25,14 @@
     "sort": "DKB20029m-0151",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "両国",
         "東京",
         "安房国"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/両国",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/安房国"
     ],
     "temporal": "1927-06-16",
     "texts": [
@@ -51,10 +58,10 @@
         "DKB20029m-0165"
     ],
     "time": {
-        "09:45:00": "<div><time when=\"09:45:00\">\n             午前九・四五時\n            </time>\n            両国駅御発</div>"
+        "09:45:00": "<div><time when=\"09:45:00\">\n             午前九・四五時\n            </time>\n<placeName corresp=\"#place_両国\">\n             両国\n            </placeName>\n            駅御発</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0151\">\n<head>\n<date when=\"1927-06-16\">\n           十六日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:45:00\">\n             午前九・四五時\n            </time>\n            両国駅御発\n           </p>\n</event>\n<event>\n<p>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院\n            <placeName corresp=\"#place_安房国\">\n             安房\n            </placeName>\n            分院ニ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0151\">\n<head>\n<date when=\"1927-06-16\">\n           十六日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:45:00\">\n             午前九・四五時\n            </time>\n<placeName corresp=\"#place_両国\">\n             両国\n            </placeName>\n            駅御発\n           </p>\n</event>\n<event>\n<p>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院\n            <placeName corresp=\"#place_安房国\">\n             安房\n            </placeName>\n            分院ニ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-06"
 }

@@ -5,6 +5,12 @@
         "斎藤実",
         "有馬頼寧"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/池田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/繁田武平",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/斎藤実",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/有馬頼寧"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1529",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +26,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-11",
     "date_lvl2": "1926-11-08",
-    "description": "\n\n\n           八日\n          \n          （月）\n         \n\n\n\n\n             午前八時\n            \n            印刷局長\n            \n\n              池田\n             \n\n            氏来約（\n            \n             アスカ山邸\n            \n            ）\n            \n\n              繁田\n             \n\n              武平\n             \n\n            氏来約\n            \n             アスカ山\n            \n\n\n\n\n\n\n             午前十時\n            \n            北\n            \n             豊島\n            \n            郡教育会役員会（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午后一時\n            \n            北\n            \n             豊島\n            \n            郡教育会総会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午后六時\n            \n\n\n              斎藤\n             \n\n              実\n             \n\n            氏令息ト\n            \n\n              有馬\n             \n\n              頼寧\n             \n\n            氏長女ト結婚披露（帝国ホテル）\n           \n\n\n",
+    "description": "\n\n\n           八日\n          \n          （月）\n         \n\n\n\n\n             午前八時\n            \n            印刷局長\n            \n\n              池田\n             \n\n            氏来約（\n            \n             アスカ山邸\n            \n            ）\n            \n\n              繁田\n             \n\n              武平\n             \n\n            氏来約\n            \n             アスカ山\n            \n\n\n\n\n\n\n             午前十時\n            \n\n             北豊島郡\n            \n            教育会役員会（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午后一時\n            \n\n             北豊島郡\n            \n            教育会総会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午后六時\n            \n\n\n              斎藤\n             \n\n              実\n             \n\n            氏令息ト\n            \n\n              有馬\n             \n\n              頼寧\n             \n\n            氏長女ト結婚披露（帝国ホテル）\n           \n\n\n",
     "label": "八日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0293",
@@ -29,10 +35,12 @@
     "sort": "DKB20028m-0292",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山邸",
-        "アスカ山",
-        "豊島",
-        "飛鳥山邸"
+        "飛鳥山邸",
+        "北豊島郡"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/北豊島郡"
     ],
     "temporal": "1926-11-08",
     "texts": [
@@ -58,10 +66,10 @@
         "DKB20033m-0173"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            印刷局長\n            <persName corresp=\"#pers_池田\">\n<surname>\n              池田\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n            <persName corresp=\"#pers_繁田武平\">\n<surname>\n              繁田\n             </surname>\n<forename>\n              武平\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName></div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            印刷局長\n            <persName corresp=\"#pers_池田\">\n<surname>\n              池田\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n            <persName corresp=\"#pers_繁田武平\">\n<surname>\n              繁田\n             </surname>\n<forename>\n              武平\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName></div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0292\">\n<head>\n<date when=\"1926-11-08\">\n           八日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            印刷局長\n            <persName corresp=\"#pers_池田\">\n<surname>\n              池田\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n            <persName corresp=\"#pers_繁田武平\">\n<surname>\n              繁田\n             </surname>\n<forename>\n              武平\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2690\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1529/full/max/0/default.jpg\" n=\"B2690\" source=\"#pageB2690\"/>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            北\n            <placeName corresp=\"#place_豊島\">\n             豊島\n            </placeName>\n            郡教育会役員会（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n            北\n            <placeName corresp=\"#place_豊島\">\n             豊島\n            </placeName>\n            郡教育会総会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午后六時\n            </time>\n<persName corresp=\"#pers_斎藤実\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              実\n             </forename>\n</persName>\n            氏令息ト\n            <persName corresp=\"#pers_有馬頼寧\">\n<surname>\n              有馬\n             </surname>\n<forename>\n              頼寧\n             </forename>\n</persName>\n            氏長女ト結婚披露（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0292\">\n<head>\n<date when=\"1926-11-08\">\n           八日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            印刷局長\n            <persName corresp=\"#pers_池田\">\n<surname>\n              池田\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n            <persName corresp=\"#pers_繁田武平\">\n<surname>\n              繁田\n             </surname>\n<forename>\n              武平\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2690\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1529/full/max/0/default.jpg\" n=\"B2690\" source=\"#pageB2690\"/>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_北豊島郡\">\n             北豊島郡\n            </placeName>\n            教育会役員会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n<placeName corresp=\"#place_北豊島郡\">\n             北豊島郡\n            </placeName>\n            教育会総会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午后六時\n            </time>\n<persName corresp=\"#pers_斎藤実\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              実\n             </forename>\n</persName>\n            氏令息ト\n            <persName corresp=\"#pers_有馬頼寧\">\n<surname>\n              有馬\n             </surname>\n<forename>\n              頼寧\n             </forename>\n</persName>\n            氏長女ト結婚披露（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-11"
 }

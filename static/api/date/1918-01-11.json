@@ -1,7 +1,13 @@
 {
     "agential": [
+        "清水釘吉",
         "西野恵之助",
         "鈴木"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/清水釘吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/西野恵之助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/鈴木"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1257",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-01",
     "date_lvl2": "1918-01-11",
-    "description": "\n\n\n           十一日\n          \n          （金）\n         \n\n\n\n\n             午八―午九時\n            \n\n             清水\n            \n            釘吉氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              西野\n             \n\n              恵之助\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n             第一銀行\n            \n\n\n              鈴木\n             \n\n            氏招待会（銀行集会所）\n           \n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （金）\n         \n\n\n\n\n             午八―午九時\n            \n\n\n              清水\n             \n\n              釘吉\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              西野\n             \n\n              恵之助\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n             第一銀行\n            \n\n\n              鈴木\n             \n\n            氏招待会（銀行集会所）\n           \n\n\n",
     "label": "十一日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0009",
@@ -27,9 +33,12 @@
     "sort": "DKB20020m-0008",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "清水",
         "飛鳥山邸",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1918-01-11",
     "texts": [
@@ -56,7 +65,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0008\">\n<head>\n<date when=\"1918-01-11\">\n           十一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"20:00:00\" to=\"21:00:00\">\n             午八―午九時\n            </time>\n<placeName corresp=\"#place_清水\">\n             清水\n            </placeName>\n            釘吉氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_西野恵之助\">\n<surname>\n              西野\n             </surname>\n<forename>\n              恵之助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n<persName corresp=\"#pers_鈴木\">\n<surname>\n              鈴木\n             </surname>\n</persName>\n            氏招待会（銀行集会所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0008\">\n<head>\n<date when=\"1918-01-11\">\n           十一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"20:00:00\" to=\"21:00:00\">\n             午八―午九時\n            </time>\n<persName corresp=\"#pers_清水釘吉\">\n<surname>\n              清水\n             </surname>\n<forename>\n              釘吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_西野恵之助\">\n<surname>\n              西野\n             </surname>\n<forename>\n              恵之助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n<persName corresp=\"#pers_鈴木\">\n<surname>\n              鈴木\n             </surname>\n</persName>\n            氏招待会（銀行集会所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-01"
 }

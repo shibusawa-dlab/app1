@@ -1,7 +1,13 @@
 {
     "agential": [
+        "ゲーリー",
         "川田鉄弥",
         "堀越文左衛門"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ゲーリー",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/川田鉄弥",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/堀越文左衛門"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1168",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-11",
     "date_lvl2": "1914-11-03",
-    "description": "\n\n\n           三日\n          \n          （火）\n         \n\n\n\n\n             正午\n            \n            神社奉祀調査会（内務大臣官邸）\n           \n\n\n\n\n             午後二時半\n            \n            ゲーリー氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時半\n            \n\n\n              川田\n             \n\n              鉄弥\n             \n\n            、\n            \n\n              堀越\n             \n\n              文左衛門\n             \n\n            両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n             松波\n            \n            博士及泉至剛氏両家結婚式（築地精養軒）\n           \n\n\n",
+    "description": "\n\n\n           三日\n          \n          （火）\n         \n\n\n\n\n             正午\n            \n            神社奉祀調査会（内務大臣官邸）\n           \n\n\n\n\n             午後二時半\n            \n\n\n              ゲーリー\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時半\n            \n\n\n              川田\n             \n\n              鉄弥\n             \n\n            、\n            \n\n              堀越\n             \n\n              文左衛門\n             \n\n            両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n             松波\n            \n            博士及泉至剛氏両家結婚式（\n            \n             築地\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
     "label": "三日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20016m-0050",
@@ -28,7 +34,13 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町",
-        "松波"
+        "松波",
+        "築地"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/松波",
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
     ],
     "temporal": "1914-11-03",
     "texts": [
@@ -57,7 +69,7 @@
         "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            神社奉祀調査会（内務大臣官邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0049\">\n<head>\n<date when=\"1914-11-03\">\n           三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            神社奉祀調査会（内務大臣官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二時半\n            </time>\n            ゲーリー氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三時半\n            </time>\n<persName corresp=\"#pers_川田鉄弥\">\n<surname>\n              川田\n             </surname>\n<forename>\n              鉄弥\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_堀越文左衛門\">\n<surname>\n              堀越\n             </surname>\n<forename>\n              文左衛門\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_松波\">\n             松波\n            </placeName>\n            博士及泉至剛氏両家結婚式（築地精養軒）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0049\">\n<head>\n<date when=\"1914-11-03\">\n           三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            神社奉祀調査会（内務大臣官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二時半\n            </time>\n<persName corresp=\"#pers_ゲーリー\">\n<surname>\n              ゲーリー\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三時半\n            </time>\n<persName corresp=\"#pers_川田鉄弥\">\n<surname>\n              川田\n             </surname>\n<forename>\n              鉄弥\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_堀越文左衛門\">\n<surname>\n              堀越\n             </surname>\n<forename>\n              文左衛門\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_松波\">\n             松波\n            </placeName>\n            博士及泉至剛氏両家結婚式（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-11"
 }

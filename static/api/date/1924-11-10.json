@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1481",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-11",
     "date_lvl2": "1924-11-10",
-    "description": "\n\n\n           十日\n          \n          （月）\n         \n\n\n\n\n             午後二・四〇\n            \n            御帰京（両国駅着）\n           \n\n\n",
+    "description": "\n\n\n           十日\n          \n          （月）\n         \n\n\n\n\n             午後二・四〇\n            \n            御帰京（\n            \n             両国\n            \n            駅着）\n           \n\n\n",
     "label": "十日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0311",
@@ -23,7 +24,12 @@
     "prev": "DKB20026m-0309",
     "sort": "DKB20026m-0310",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
+    "spatial": [
+        "両国"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/両国"
+    ],
     "temporal": "1924-11-10",
     "texts": [
         "DKB20031m-0091",
@@ -48,10 +54,10 @@
         "DKB20031m-0136"
     ],
     "time": {
-        "14:40:00": "<div><time when=\"14:40:00\">\n             午後二・四〇\n            </time>\n            御帰京（両国駅着）</div>"
+        "14:40:00": "<div><time when=\"14:40:00\">\n             午後二・四〇\n            </time>\n            御帰京（\n            <placeName corresp=\"#place_両国\">\n             両国\n            </placeName>\n            駅着）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0310\">\n<head>\n<date when=\"1924-11-10\">\n           十日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:40:00\">\n             午後二・四〇\n            </time>\n            御帰京（両国駅着）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0310\">\n<head>\n<date when=\"1924-11-10\">\n           十日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:40:00\">\n             午後二・四〇\n            </time>\n            御帰京（\n            <placeName corresp=\"#place_両国\">\n             両国\n            </placeName>\n            駅着）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-11"
 }

@@ -1,5 +1,10 @@
 {
-    "agential": [],
+    "agential": [
+        "大木"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大木"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1503",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +20,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-02",
     "date_lvl2": "1926-02-19",
-    "description": "\n\n\n           十九日\n          \n          （金）\n         \n\n\n\n\n             午前十一時\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午時\n            \n\n             綱町\n            \n            邸ニ御出向\n           \n\n\n\n\n             午後一―三時\n            \n            故大木伯爵告別式（青山斎場）\n           \n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （金）\n         \n\n\n\n\n             午前十一時\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午時\n            \n\n             綱町\n            \n            邸ニ御出向\n           \n\n\n\n\n             午後一―三時\n            \n            故\n            \n\n              大木\n             \n\n            伯爵告別式（青山斎場）\n           \n\n\n",
     "label": "十九日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0049",
@@ -25,6 +30,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "綱町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/綱町"
     ],
     "temporal": "1926-02-19",
     "texts": [
@@ -53,7 +61,7 @@
         "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            事務所ニ御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0048\">\n<head>\n<date when=\"1926-02-19\">\n           十九日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            邸ニ御出向\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"15:00:00\">\n             午後一―三時\n            </time>\n            故大木伯爵告別式（青山斎場）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0048\">\n<head>\n<date when=\"1926-02-19\">\n           十九日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            邸ニ御出向\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"15:00:00\">\n             午後一―三時\n            </time>\n            故\n            <persName corresp=\"#pers_大木\">\n<surname>\n              大木\n             </surname>\n</persName>\n            伯爵告別式（青山斎場）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-02"
 }

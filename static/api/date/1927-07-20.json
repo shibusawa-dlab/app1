@@ -1,5 +1,12 @@
 {
-    "agential": [],
+    "agential": [
+        "古市",
+        "望月"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/古市",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/望月"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1551",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +22,7 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-07",
     "date_lvl2": "1927-07-20",
-    "description": "\n\n\n           二十日\n          \n          （水）\n         \n\n\n\n\n             午前八時\n            \n            古仁所氏来訪（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n             埼玉\n            \n            商工聯合会員諸氏来訪（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            理化学興業会社ノ件（工業クラブ）\n           \n\n\n\n\n             午後二時\n            \n            御出勤\n           \n\n\n\n\n             午後二時\n            \n\n             古市\n            \n            男爵来訪（事務所）\n           \n\n\n\n\n             午後二過時\n            \n\n             望月\n            \n            逓相来約（事務所）\n           \n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （水）\n         \n\n\n\n\n             午前八時\n            \n            古仁所氏来訪（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n             埼玉\n            \n            商工聯合会員諸氏来訪（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            理化学興業会社ノ件（工業クラブ）\n           \n\n\n\n\n             午後二時\n            \n            御出勤\n           \n\n\n\n\n             午後二時\n            \n\n\n              古市\n             \n\n            男爵来訪（事務所）\n           \n\n\n\n\n             午後二過時\n            \n\n\n              望月\n             \n\n            逓相来約（事務所）\n           \n\n\n",
     "label": "二十日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0186",
@@ -25,9 +32,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸",
-        "埼玉",
-        "古市",
-        "望月"
+        "埼玉"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/埼玉"
     ],
     "temporal": "1927-07-20",
     "texts": [
@@ -56,7 +65,7 @@
         "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            古仁所氏来訪（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0185\">\n<head>\n<date when=\"1927-07-20\">\n           二十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            古仁所氏来訪（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            商工聯合会員諸氏来訪（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            理化学興業会社ノ件（工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_古市\">\n             古市\n            </placeName>\n            男爵来訪（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二過時\n            </time>\n<placeName corresp=\"#place_望月\">\n             望月\n            </placeName>\n            逓相来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0185\">\n<head>\n<date when=\"1927-07-20\">\n           二十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            古仁所氏来訪（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            商工聯合会員諸氏来訪（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            理化学興業会社ノ件（工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_古市\">\n<surname>\n              古市\n             </surname>\n</persName>\n            男爵来訪（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二過時\n            </time>\n<persName corresp=\"#pers_望月\">\n<surname>\n              望月\n             </surname>\n</persName>\n            逓相来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-07"
 }

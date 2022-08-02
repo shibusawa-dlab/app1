@@ -1,7 +1,13 @@
 {
     "agential": [
         "伏見宮",
-        "植村"
+        "植村",
+        "大倉"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/伏見宮",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/植村",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大倉"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1264",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-04",
     "date_lvl2": "1918-04-10",
-    "description": "\n\n\n           十日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n            早稲田大学維持委員会（恩賜館）\n           \n\n\n\n\n             午前十一時\n            \n\n             支那\n            \n            留学生同情会之件\n           \n\n\n\n\n             午後三時\n            \n\n\n              伏見宮\n             \n\n            殿下ヨリ御案内（同邸ニテ園遊\n            \n            会）\n           \n\n\n\n\n             午後五時\n            \n            十日会（トキワヤ）\n           \n\n\n\n\n             午後五半時\n            \n\n\n              植村\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n\n\n             午後六時\n            \n            大倉男爵ヨリ御案内（\n            \n             向島\n            \n            別邸）\n           \n\n\n",
+    "description": "\n\n\n           十日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n\n             早稲田大学\n            \n            維持委員会（恩賜館）\n           \n\n\n\n\n             午前十一時\n            \n\n             支那\n            \n            留学生同情会之件\n           \n\n\n\n\n             午後三時\n            \n\n\n              伏見宮\n             \n\n            殿下ヨリ御案内（同邸ニテ園遊\n            \n            会）\n           \n\n\n\n\n             午後五時\n            \n            十日会（トキワヤ）\n           \n\n\n\n\n             午後五半時\n            \n\n\n              植村\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n\n\n             午後六時\n            \n\n\n              大倉\n             \n\n            男爵ヨリ御案内（\n            \n             向島\n            \n            別邸）\n           \n\n\n",
     "label": "十日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0095",
@@ -29,6 +35,10 @@
     "spatial": [
         "支那",
         "向島"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/支那",
+        "https://shibusawa-dlab.github.io/lab1/api/place/向島"
     ],
     "temporal": "1918-04-10",
     "texts": [
@@ -54,10 +64,10 @@
         "DKB20020m-0181"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            早稲田大学維持委員会（恩賜館）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<orgName>\n             早稲田大学\n            </orgName>\n            維持委員会（恩賜館）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0094\">\n<head>\n<date when=\"1918-04-10\">\n           十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            早稲田大学維持委員会（恩賜館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            留学生同情会之件\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_伏見宮\">\n<surname>\n              伏見宮\n             </surname>\n</persName>\n            殿下ヨリ御案内（同邸ニテ園遊\n            <pb corresp=\"#pageB2425\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1264/full/max/0/default.jpg\" n=\"B2425\" source=\"#pageB2425\"/>\n            会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            十日会（トキワヤ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_植村\">\n<surname>\n              植村\n             </surname>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            大倉男爵ヨリ御案内（\n            <placeName corresp=\"#place_向島\">\n             向島\n            </placeName>\n            別邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0094\">\n<head>\n<date when=\"1918-04-10\">\n           十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<orgName>\n             早稲田大学\n            </orgName>\n            維持委員会（恩賜館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            留学生同情会之件\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_伏見宮\">\n<surname>\n              伏見宮\n             </surname>\n</persName>\n            殿下ヨリ御案内（同邸ニテ園遊\n            <pb corresp=\"#pageB2425\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1264/full/max/0/default.jpg\" n=\"B2425\" source=\"#pageB2425\"/>\n            会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            十日会（トキワヤ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_植村\">\n<surname>\n              植村\n             </surname>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_大倉\">\n<surname>\n              大倉\n             </surname>\n</persName>\n            男爵ヨリ御案内（\n            <placeName corresp=\"#place_向島\">\n             向島\n            </placeName>\n            別邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-04"
 }

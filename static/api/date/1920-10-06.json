@@ -2,6 +2,9 @@
     "agential": [
         "中村"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中村"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1343",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-10",
     "date_lvl2": "1920-10-06",
-    "description": "\n\n\n           六日\n          \n          （水）\n         \n\n\n\n\n             午前八時半\n            \n\n\n              中村\n             \n\n            杏堂氏\n            \n             飛鳥山\n            \n            邸来約\n           \n\n\n\n\n             午前十時\n            \n            東洋生命保険会社謝恩式及園遊会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午時\n            \n            世界日曜学校大会催、同大会参列者招待会\n           \n\n\n",
+    "description": "\n\n\n           六日\n          \n          （水）\n         \n\n\n\n\n             午前八時半\n            \n\n\n              中村\n             \n\n            杏堂氏\n            \n             飛鳥山邸\n            \n            来約\n           \n\n\n\n\n             午前十時\n            \n            東洋生命保険会社謝恩式及園遊会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午時\n            \n            世界日曜学校大会催、同大会参列者招待会\n           \n\n\n",
     "label": "六日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0257",
@@ -26,8 +29,10 @@
     "sort": "DKB20022m-0256",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
         "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1920-10-06",
     "texts": [
@@ -53,10 +58,10 @@
         "DKB20027m-0196"
     ],
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八時半\n            </time>\n<persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            杏堂氏\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸来約</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八時半\n            </time>\n<persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            杏堂氏\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            来約</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0256\">\n<head>\n<date when=\"1920-10-06\">\n           六日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八時半\n            </time>\n<persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            杏堂氏\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            東洋生命保険会社謝恩式及園遊会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            世界日曜学校大会催、同大会参列者招待会\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0256\">\n<head>\n<date when=\"1920-10-06\">\n           六日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八時半\n            </time>\n<persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            杏堂氏\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            東洋生命保険会社謝恩式及園遊会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            世界日曜学校大会催、同大会参列者招待会\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-10"
 }

@@ -2,8 +2,14 @@
     "agential": [
         "品川義助",
         "品川義介",
-        "岡田",
+        "岡田満",
         "望月忠政"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/品川義助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/品川義介",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡田満",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/望月忠政"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1504",
     "category": {
@@ -20,7 +26,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-03",
     "date_lvl2": "1926-03-12",
-    "description": "\n\n\n           十二日\n          \n          （金）\n         \n\n\n\n\n             午前時\n            \n\n\n              品川\n             \n\n              義助\n             \n\n            来約《（\n            \n\n              品川\n             \n\n              義介\n             \n\n            ）》《（氏脱）》\n            \n             アスカ山\n            \n\n\n\n\n\n             午前十時\n            \n\n\n              岡田\n             \n\n            満歯科医来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午時\n            \n\n\n              望月\n             \n\n              忠政\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後〇時十分\n            \n            事ム所ニ御出勤\n           \n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （金）\n         \n\n\n\n\n             午前時\n            \n\n\n              品川\n             \n\n              義助\n             \n\n            来約《（\n            \n\n              品川\n             \n\n              義介\n             \n\n            ）》《（氏脱）》\n            \n             アスカ山\n            \n\n\n\n\n\n             午前十時\n            \n\n\n              岡田\n             \n\n              満\n             \n\n            歯科医来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午時\n            \n\n\n              望月\n             \n\n              忠政\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後〇時十分\n            \n            事ム所ニ御出勤\n           \n\n\n",
     "label": "十二日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0071",
@@ -29,7 +35,10 @@
     "sort": "DKB20028m-0070",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1926-03-12",
     "texts": [
@@ -56,7 +65,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0070\">\n<head>\n<date when=\"1926-03-12\">\n           十二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前時\n            </time>\n<persName corresp=\"#pers_品川義助\">\n<surname>\n              品川\n             </surname>\n<forename>\n              義助\n             </forename>\n</persName>\n            来約《（\n            <persName corresp=\"#pers_品川義介\">\n<surname>\n              品川\n             </surname>\n<forename>\n              義介\n             </forename>\n</persName>\n            ）》《（氏脱）》\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_岡田\">\n<surname>\n              岡田\n             </surname>\n</persName>\n            満歯科医来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_望月忠政\">\n<surname>\n              望月\n             </surname>\n<forename>\n              忠政\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:10:00\">\n             午後〇時十分\n            </time>\n            事ム所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0070\">\n<head>\n<date when=\"1926-03-12\">\n           十二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前時\n            </time>\n<persName corresp=\"#pers_品川義助\">\n<surname>\n              品川\n             </surname>\n<forename>\n              義助\n             </forename>\n</persName>\n            来約《（\n            <persName corresp=\"#pers_品川義介\">\n<surname>\n              品川\n             </surname>\n<forename>\n              義介\n             </forename>\n</persName>\n            ）》《（氏脱）》\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_岡田満\">\n<surname>\n              岡田\n             </surname>\n<forename>\n              満\n             </forename>\n</persName>\n            歯科医来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_望月忠政\">\n<surname>\n              望月\n             </surname>\n<forename>\n              忠政\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:10:00\">\n             午後〇時十分\n            </time>\n            事ム所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-03"
 }

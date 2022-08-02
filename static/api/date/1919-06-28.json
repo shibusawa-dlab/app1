@@ -1,5 +1,10 @@
 {
-    "agential": [],
+    "agential": [
+        "鄭文軒"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/鄭文軒"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1302",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +20,7 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-06",
     "date_lvl2": "1919-06-28",
-    "description": "\n\n\n           廿八日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n            増上寺ヘ御出向\n           \n\n\n\n\n             正午\n            \n\n             鄭\n            \n            文軒氏招待会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            御同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n            増上寺ヘ御出向\n           \n\n\n\n\n             正午\n            \n\n\n              鄭\n             \n\n              文軒\n             \n\n            氏招待会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            御同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "廿八日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0154",
@@ -24,9 +29,12 @@
     "sort": "DKB20021m-0153",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "鄭",
         "飛鳥山邸",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1919-06-28",
     "texts": [
@@ -55,7 +63,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            増上寺ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0153\">\n<head>\n<date when=\"1919-06-28\">\n           廿八日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            増上寺ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_鄭\">\n             鄭\n            </placeName>\n            文軒氏招待会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0153\">\n<head>\n<date when=\"1919-06-28\">\n           廿八日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            増上寺ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_鄭文軒\">\n<surname>\n              鄭\n             </surname>\n<forename>\n              文軒\n             </forename>\n</persName>\n            氏招待会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-06"
 }

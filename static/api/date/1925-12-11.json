@@ -2,6 +2,9 @@
     "agential": [
         "徳川"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1498",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-12",
     "date_lvl2": "1925-12-11",
-    "description": "\n\n\n           十一日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n\n\n              徳川\n             \n\n            家顧問会（\n            \n             第六天町\n            \n            同公爵邸）\n           \n\n\n\n\n             午后二時\n            \n            同族会社臨時重役会（カブト町事務所）\n           \n\n\n\n\n             午后二半時\n            \n            事ム所ニ御出勤\n           \n\n\n\n\n             午后三時\n            \n            聖徳太子奉賛会評議員会（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n\n\n              徳川\n             \n\n            家顧問会（\n            \n             第六天町\n            \n            同公爵邸）\n           \n\n\n\n\n             午后二時\n            \n            同族会社臨時重役会（カブト町事務所）\n           \n\n\n\n\n             午后二半時\n            \n            事ム所ニ御出勤\n           \n\n\n\n\n             午后三時\n            \n            聖徳太子奉賛会評議員会（\n            \n             上野\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
     "label": "十一日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20027m-0229",
@@ -27,7 +30,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "第六天町",
-        "上野精養軒"
+        "上野"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/第六天町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
     ],
     "temporal": "1925-12-11",
     "texts": [
@@ -56,7 +63,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家顧問会（\n            <placeName corresp=\"#place_第六天町\">\n             第六天町\n            </placeName>\n            同公爵邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0228\">\n<head>\n<date when=\"1925-12-11\">\n           十一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家顧問会（\n            <placeName corresp=\"#place_第六天町\">\n             第六天町\n            </placeName>\n            同公爵邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n            同族会社臨時重役会（カブト町事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午后二半時\n            </time>\n            事ム所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n            聖徳太子奉賛会評議員会（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0228\">\n<head>\n<date when=\"1925-12-11\">\n           十一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家顧問会（\n            <placeName corresp=\"#place_第六天町\">\n             第六天町\n            </placeName>\n            同公爵邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午后二時\n            </time>\n            同族会社臨時重役会（カブト町事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午后二半時\n            </time>\n            事ム所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n            聖徳太子奉賛会評議員会（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-12"
 }

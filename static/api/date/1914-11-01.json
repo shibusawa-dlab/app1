@@ -3,6 +3,10 @@
         "西沢",
         "田村"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/西沢",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田村"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1168",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -28,7 +32,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "支那",
-        "飛鳥山公園"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/支那",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1914-11-01",
     "texts": [
@@ -54,10 +62,10 @@
         "DKB20027m-0178"
     ],
     "time": {
-        "16:00:00": "<div><time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n<persName corresp=\"#pers_西沢\">\n<surname>\n              西沢\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_田村\">\n<surname>\n              田村\n             </surname>\n</persName>\n            氏等招待（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "16:00:00": "<div><time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n<persName corresp=\"#pers_西沢\">\n<surname>\n              西沢\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_田村\">\n<surname>\n              田村\n             </surname>\n</persName>\n            氏等招待（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0047\">\n<head>\n<date when=\"1914-11-01\">\n           一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n<persName corresp=\"#pers_西沢\">\n<surname>\n              西沢\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_田村\">\n<surname>\n              田村\n             </surname>\n</persName>\n            氏等招待（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0047\">\n<head>\n<date when=\"1914-11-01\">\n           一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n<persName corresp=\"#pers_西沢\">\n<surname>\n              西沢\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_田村\">\n<surname>\n              田村\n             </surname>\n</persName>\n            氏等招待（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-11"
 }

@@ -5,6 +5,12 @@
         "塙清次郎",
         "大倉喜八郎"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/藤井卯三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/赤羽隆次",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/塙清次郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大倉喜八郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1308",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +26,7 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-08",
     "date_lvl2": "1919-08-31",
-    "description": "\n\n\n           卅一日\n          \n          （日）\n         \n\n\n\n            天長節\n           \n\n\n\n\n             午前八時\n            \n\n\n              藤井\n             \n\n              卯三郎\n             \n\n            氏\n            \n             飛鳥山\n            \n            邸ニ来約\n           \n\n\n\n\n             〃〃\n            \n\n\n              赤羽\n             \n\n              隆次\n             \n\n            氏　同上\n           \n\n\n\n\n             〃〃\n            \n\n\n              塙\n             \n\n              清次郎\n             \n\n            氏　同上\n           \n\n\n\n\n             午前中\n            \n\n\n              大倉\n             \n\n              喜八郎\n             \n\n            氏を御訪問（\n            \n             葵町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           卅一日\n          \n          （日）\n         \n\n\n\n            天長節\n           \n\n\n\n\n             午前八時\n            \n\n\n              藤井\n             \n\n              卯三郎\n             \n\n            氏\n            \n             飛鳥山邸\n            \n            ニ来約\n           \n\n\n\n\n             〃〃\n            \n\n\n              赤羽\n             \n\n              隆次\n             \n\n            氏　同上\n           \n\n\n\n\n             〃〃\n            \n\n\n              塙\n             \n\n              清次郎\n             \n\n            氏　同上\n           \n\n\n\n\n             午前中\n            \n\n\n              大倉\n             \n\n              喜八郎\n             \n\n            氏を御訪問（\n            \n             葵町\n            \n            ）\n           \n\n\n",
     "label": "卅一日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0214",
@@ -29,8 +35,12 @@
     "sort": "DKB20021m-0213",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
+        "飛鳥山邸",
         "葵町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/葵町"
     ],
     "temporal": "1919-08-31",
     "texts": [
@@ -57,7 +67,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0213\">\n<head>\n<date when=\"1919-08-31\">\n           卅一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n            天長節\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_藤井卯三郎\">\n<surname>\n              藤井\n             </surname>\n<forename>\n              卯三郎\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             〃〃\n            </time>\n<persName corresp=\"#pers_赤羽隆次\">\n<surname>\n              赤羽\n             </surname>\n<forename>\n              隆次\n             </forename>\n</persName>\n            氏　同上\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             〃〃\n            </time>\n<persName corresp=\"#pers_塙清次郎\">\n<surname>\n              塙\n             </surname>\n<forename>\n              清次郎\n             </forename>\n</persName>\n            氏　同上\n           </p>\n</event>\n<event>\n<p>\n<time>\n             午前中\n            </time>\n<persName corresp=\"#pers_大倉喜八郎\">\n<surname>\n              大倉\n             </surname>\n<forename>\n              喜八郎\n             </forename>\n</persName>\n            氏を御訪問（\n            <placeName corresp=\"#place_葵町\">\n             葵町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0213\">\n<head>\n<date when=\"1919-08-31\">\n           卅一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n            天長節\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_藤井卯三郎\">\n<surname>\n              藤井\n             </surname>\n<forename>\n              卯三郎\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             〃〃\n            </time>\n<persName corresp=\"#pers_赤羽隆次\">\n<surname>\n              赤羽\n             </surname>\n<forename>\n              隆次\n             </forename>\n</persName>\n            氏　同上\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             〃〃\n            </time>\n<persName corresp=\"#pers_塙清次郎\">\n<surname>\n              塙\n             </surname>\n<forename>\n              清次郎\n             </forename>\n</persName>\n            氏　同上\n           </p>\n</event>\n<event>\n<p>\n<time>\n             午前中\n            </time>\n<persName corresp=\"#pers_大倉喜八郎\">\n<surname>\n              大倉\n             </surname>\n<forename>\n              喜八郎\n             </forename>\n</persName>\n            氏を御訪問（\n            <placeName corresp=\"#place_葵町\">\n             葵町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-08"
 }

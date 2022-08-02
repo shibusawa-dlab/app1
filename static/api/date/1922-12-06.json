@@ -1,6 +1,11 @@
 {
     "agential": [
+        "高島",
         "矢野恒太"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高島",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/矢野恒太"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1413",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-12",
     "date_lvl2": "1922-12-06",
-    "description": "\n\n\n           六日\n          \n          （水）\n         \n\n\n\n\n             午前十一時\n            \n            故\n            \n             高島\n            \n            先生紀功碑竣工式（北\n            \n             豊島\n            \n            郡\n            \n             赤塚\n            \n\n             村松\n            \n            月院）\n           \n\n\n\n\n             正午\n            \n            日華実業協会幹部会（同会）\n           \n\n\n\n\n             午後二時\n            \n            総理大臣ヲ御訪問ノ約（首相官舎）\n           \n\n\n\n\n             午後五時\n            \n\n\n              矢野\n             \n\n              恒太\n             \n\n            氏ヨリ御案内（溜地錦水）\n           \n\n\n",
+    "description": "\n\n\n           六日\n          \n          （水）\n         \n\n\n\n\n             午前十一時\n            \n            故\n            \n\n              高島\n             \n\n            先生紀功碑竣工式（\n            \n             北豊島郡\n            \n\n             赤塚村\n            \n            松月院）\n           \n\n\n\n\n             正午\n            \n            日華実業協会幹部会（同会）\n           \n\n\n\n\n             午後二時\n            \n            総理大臣ヲ御訪問ノ約（首相官舎）\n           \n\n\n\n\n             午後五時\n            \n\n\n              矢野\n             \n\n              恒太\n             \n\n            氏ヨリ御案内（溜地錦水）\n           \n\n\n",
     "label": "六日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0305",
@@ -26,10 +31,12 @@
     "sort": "DKB20024m-0304",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "高島",
-        "豊島",
-        "赤塚",
-        "村松"
+        "北豊島郡",
+        "赤塚村"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/北豊島郡",
+        "https://shibusawa-dlab.github.io/lab1/api/place/赤塚村"
     ],
     "temporal": "1922-12-06",
     "texts": [
@@ -55,10 +62,10 @@
         "DKB20025m-0026"
     ],
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            故\n            <placeName corresp=\"#place_高島\">\n             高島\n            </placeName>\n            先生紀功碑竣工式（北\n            <placeName corresp=\"#place_豊島\">\n             豊島\n            </placeName>\n            郡\n            <placeName corresp=\"#place_赤塚\">\n             赤塚\n            </placeName>\n<placeName corresp=\"#place_村松\">\n             村松\n            </placeName>\n            月院）</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            故\n            <persName corresp=\"#pers_高島\">\n<surname>\n              高島\n             </surname>\n</persName>\n            先生紀功碑竣工式（\n            <placeName corresp=\"#place_北豊島郡\">\n             北豊島郡\n            </placeName>\n<placeName corresp=\"#place_赤塚村\">\n             赤塚村\n            </placeName>\n            松月院）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0304\">\n<head>\n<date when=\"1922-12-06\">\n           六日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            故\n            <placeName corresp=\"#place_高島\">\n             高島\n            </placeName>\n            先生紀功碑竣工式（北\n            <placeName corresp=\"#place_豊島\">\n             豊島\n            </placeName>\n            郡\n            <placeName corresp=\"#place_赤塚\">\n             赤塚\n            </placeName>\n<placeName corresp=\"#place_村松\">\n             村松\n            </placeName>\n            月院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華実業協会幹部会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            総理大臣ヲ御訪問ノ約（首相官舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_矢野恒太\">\n<surname>\n              矢野\n             </surname>\n<forename>\n              恒太\n             </forename>\n</persName>\n            氏ヨリ御案内（溜地錦水）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0304\">\n<head>\n<date when=\"1922-12-06\">\n           六日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            故\n            <persName corresp=\"#pers_高島\">\n<surname>\n              高島\n             </surname>\n</persName>\n            先生紀功碑竣工式（\n            <placeName corresp=\"#place_北豊島郡\">\n             北豊島郡\n            </placeName>\n<placeName corresp=\"#place_赤塚村\">\n             赤塚村\n            </placeName>\n            松月院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華実業協会幹部会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            総理大臣ヲ御訪問ノ約（首相官舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_矢野恒太\">\n<surname>\n              矢野\n             </surname>\n<forename>\n              恒太\n             </forename>\n</persName>\n            氏ヨリ御案内（溜地錦水）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-12"
 }

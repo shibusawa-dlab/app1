@@ -2,6 +2,9 @@
     "agential": [
         "倉知鉄吉"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/倉知鉄吉"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1228",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-02",
     "date_lvl2": "1917-02-09",
-    "description": "\n\n\n           九日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n            十勝開墾会社総会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              倉知\n             \n\n              鉄吉\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            慰問会ノ件ニ付新聞社広告主任会合（ホテル）\n           \n\n\n",
+    "description": "\n\n\n           九日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n\n             十勝開墾会社\n            \n            総会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              倉知\n             \n\n              鉄吉\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            慰問会ノ件ニ付新聞社広告主任会合（ホテル）\n           \n\n\n",
     "label": "九日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0042",
@@ -27,6 +30,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1917-02-09",
     "texts": [
@@ -52,10 +58,10 @@
         "DKB20019m-0195"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            十勝開墾会社総会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             十勝開墾会社\n            </orgName>\n            総会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0041\">\n<head>\n<date when=\"1917-02-09\">\n           九日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            十勝開墾会社総会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_倉知鉄吉\">\n<surname>\n              倉知\n             </surname>\n<forename>\n              鉄吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            慰問会ノ件ニ付新聞社広告主任会合（ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0041\">\n<head>\n<date when=\"1917-02-09\">\n           九日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             十勝開墾会社\n            </orgName>\n            総会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_倉知鉄吉\">\n<surname>\n              倉知\n             </surname>\n<forename>\n              鉄吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            慰問会ノ件ニ付新聞社広告主任会合（ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-02"
 }

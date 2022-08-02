@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1195",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-01",
     "date_lvl2": "1916-01-11",
-    "description": "\n\n\n           十一日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n\n             東京\n            \n            経済雑誌記者来約\n            \n             飛鳥山\n            \n            邸\n           \n\n\n\n\n             午前十時\n            \n            大倉商業学校始業式（同校）\n           \n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n            東京経済雑誌記者来約\n            \n             飛鳥山邸\n            \n\n\n\n\n\n             午前十時\n            \n            大倉商業学校始業式（同校）\n           \n\n\n",
     "label": "十一日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0010",
@@ -24,8 +25,10 @@
     "sort": "DKB20018m-0009",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "東京",
-        "飛鳥山公園"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1916-01-11",
     "texts": [
@@ -51,10 +54,10 @@
         "DKB20033m-0104"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            経済雑誌記者来約\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            東京経済雑誌記者来約\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName></div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0009\">\n<head>\n<date when=\"1916-01-11\">\n           十一日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            経済雑誌記者来約\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            大倉商業学校始業式（同校）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0009\">\n<head>\n<date when=\"1916-01-11\">\n           十一日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            東京経済雑誌記者来約\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            大倉商業学校始業式（同校）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-01"
 }

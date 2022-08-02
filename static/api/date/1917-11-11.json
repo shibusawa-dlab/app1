@@ -2,6 +2,9 @@
     "agential": [
         "三上"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/三上"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1251",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-11",
     "date_lvl2": "1917-11-11",
-    "description": "\n\n\n           十一日\n          \n          （日）\n         \n\n\n\n\n             午後一半時\n            \n            北\n            \n             豊島\n            \n            郡将校会員来邸（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              三上\n             \n\n            博士在職廿五年祝賀会（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （日）\n         \n\n\n\n\n             午後一半時\n            \n\n             北豊島郡\n            \n            将校会員来邸（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              三上\n             \n\n            博士在職廿五年祝賀会（\n            \n             上野\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
     "label": "十一日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0292",
@@ -26,9 +29,14 @@
     "sort": "DKB20019m-0291",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "豊島",
+        "北豊島郡",
         "飛鳥山邸",
-        "上野精養軒"
+        "上野"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/北豊島郡",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
     ],
     "temporal": "1917-11-11",
     "texts": [
@@ -54,10 +62,10 @@
         "DKB20031m-0254"
     ],
     "time": {
-        "13:30:00": "<div><time when=\"13:30:00\">\n             午後一半時\n            </time>\n            北\n            <placeName corresp=\"#place_豊島\">\n             豊島\n            </placeName>\n            郡将校会員来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
+        "13:30:00": "<div><time when=\"13:30:00\">\n             午後一半時\n            </time>\n<placeName corresp=\"#place_北豊島郡\">\n             北豊島郡\n            </placeName>\n            将校会員来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0291\">\n<head>\n<date when=\"1917-11-11\">\n           十一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n            北\n            <placeName corresp=\"#place_豊島\">\n             豊島\n            </placeName>\n            郡将校会員来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_三上\">\n<surname>\n              三上\n             </surname>\n</persName>\n            博士在職廿五年祝賀会（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0291\">\n<head>\n<date when=\"1917-11-11\">\n           十一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n<placeName corresp=\"#place_北豊島郡\">\n             北豊島郡\n            </placeName>\n            将校会員来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_三上\">\n<surname>\n              三上\n             </surname>\n</persName>\n            博士在職廿五年祝賀会（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-11"
 }

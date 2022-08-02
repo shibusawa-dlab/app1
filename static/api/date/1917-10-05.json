@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1249",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-10",
     "date_lvl2": "1917-10-05",
-    "description": "\n\n\n           五日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n            早稲大学維持員会（同大学）\n           \n\n\n\n\n             午前十一時\n            \n            田園都市ノ件（\n            \n             日本橋\n            \n            クラブ）\n           \n\n\n\n\n             正午\n            \n            住友銀行新築披露ノ件\n           \n\n\n",
+    "description": "\n\n\n           五日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n            早稲大学維持員会（同大学）\n           \n\n\n\n\n             午前十一時\n            \n            田園都市ノ件（日本橋クラブ）\n           \n\n\n\n\n             正午\n            \n            住友銀行新築披露ノ件\n           \n\n\n",
     "label": "五日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0269",
@@ -23,9 +24,8 @@
     "prev": "DKB20019m-0264",
     "sort": "DKB20019m-0268",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "日本橋"
-    ],
+    "spatial": [],
+    "spatial_uri": [],
     "temporal": "1917-10-05",
     "texts": [
         "DKB20022m-0027",
@@ -53,7 +53,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            早稲大学維持員会（同大学）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0268\">\n<head>\n<date when=\"1917-10-05\">\n           五日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            早稲大学維持員会（同大学）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            田園都市ノ件（\n            <placeName corresp=\"#place_日本橋\">\n             日本橋\n            </placeName>\n            クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            住友銀行新築披露ノ件\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0268\">\n<head>\n<date when=\"1917-10-05\">\n           五日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            早稲大学維持員会（同大学）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            田園都市ノ件（日本橋クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            住友銀行新築披露ノ件\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-10"
 }

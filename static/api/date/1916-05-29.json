@@ -2,6 +2,9 @@
     "agential": [
         "大野正"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大野正"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1205",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-05",
     "date_lvl2": "1916-05-29",
-    "description": "\n\n\n           廿九日\n          \n          （月）\n         \n\n\n\n\n             午後三・一五時\n            \n\n             水戸\n            \n            市ヨリ御帰京（上の駅着）\n           \n\n\n\n\n             午後四時\n            \n\n\n              大野\n             \n\n              正\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後五時\n            \n            御同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           廿九日\n          \n          （月）\n         \n\n\n\n\n             午後三・一五時\n            \n\n             水戸\n            \n            市ヨリ御帰京（\n            \n             上の\n            \n            駅着）\n           \n\n\n\n\n             午後四時\n            \n\n\n              大野\n             \n\n              正\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後五時\n            \n            御同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "廿九日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0133",
@@ -27,7 +30,13 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "水戸",
+        "上野",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/水戸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1916-05-29",
     "texts": [
@@ -53,10 +62,10 @@
         "DKB20020m-0051"
     ],
     "time": {
-        "17:15:00": "<div><time when=\"17:15:00\">\n             午後三・一五時\n            </time>\n<placeName corresp=\"#place_水戸\">\n             水戸\n            </placeName>\n            市ヨリ御帰京（上の駅着）</div>"
+        "17:15:00": "<div><time when=\"17:15:00\">\n             午後三・一五時\n            </time>\n<placeName corresp=\"#place_水戸\">\n             水戸\n            </placeName>\n            市ヨリ御帰京（\n            <placeName corresp=\"#place_上野\">\n             上の\n            </placeName>\n            駅着）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0132\">\n<head>\n<date when=\"1916-05-29\">\n           廿九日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"17:15:00\">\n             午後三・一五時\n            </time>\n<placeName corresp=\"#place_水戸\">\n             水戸\n            </placeName>\n            市ヨリ御帰京（上の駅着）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_大野正\">\n<surname>\n              大野\n             </surname>\n<forename>\n              正\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0132\">\n<head>\n<date when=\"1916-05-29\">\n           廿九日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"17:15:00\">\n             午後三・一五時\n            </time>\n<placeName corresp=\"#place_水戸\">\n             水戸\n            </placeName>\n            市ヨリ御帰京（\n            <placeName corresp=\"#place_上野\">\n             上の\n            </placeName>\n            駅着）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_大野正\">\n<surname>\n              大野\n             </surname>\n<forename>\n              正\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-05"
 }

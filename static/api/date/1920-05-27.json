@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1334",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-05",
     "date_lvl2": "1920-05-27",
-    "description": "\n\n\n           廿七日\n          \n          （木）\n         \n\n\n\n            御引籠リ\n           \n\n\n\n\n             午後一時\n            \n            創立紀念会（\n            \n             大久保\n            \n            、高千穂学校）\n           \n\n\n",
+    "description": "\n\n\n           廿七日\n          \n          （木）\n         \n\n\n\n            御引籠リ\n           \n\n\n\n\n             午後一時\n            \n            創立紀念会（\n            \n             大久保\n            \n            、\n            \n             高千穂学校\n            \n            ）\n           \n\n\n",
     "label": "廿七日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0146",
@@ -25,6 +26,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "大久保"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/大久保"
     ],
     "temporal": "1920-05-27",
     "texts": [
@@ -51,7 +55,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0145\">\n<head>\n<date when=\"1920-05-27\">\n           廿七日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n            御引籠リ\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            創立紀念会（\n            <placeName corresp=\"#place_大久保\">\n             大久保\n            </placeName>\n            、高千穂学校）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0145\">\n<head>\n<date when=\"1920-05-27\">\n           廿七日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n            御引籠リ\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            創立紀念会（\n            <placeName corresp=\"#place_大久保\">\n             大久保\n            </placeName>\n            、\n            <orgName>\n             高千穂学校\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-05"
 }

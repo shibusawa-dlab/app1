@@ -1,6 +1,17 @@
 {
     "agential": [
-        "森村"
+        "平沼",
+        "森村",
+        "二木",
+        "宮田",
+        "スコツト"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/平沼",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/森村",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/二木",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/宮田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/スコツト"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1471",
     "category": {
@@ -17,7 +28,7 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-07",
     "date_lvl2": "1924-07-21",
-    "description": "\n\n\n           廿一日\n          \n          （月）\n         \n\n\n\n\n             午前八時\n            \n            修養団々長\n            \n             平沼\n            \n            博士、\n            \n\n              森村\n             \n\n            顧問、二木博士、\n            \n             宮田\n            \n            常務理事来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n\n             午前十一時\n            \n            ライジングサン会社スコツト氏来約（事務所）\n           \n\n\n\n\n             正午\n            \n            日華実業協会幹事会（同会）\n           \n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （月）\n         \n\n\n\n\n             午前八時\n            \n            修養団々長\n            \n\n              平沼\n             \n\n            博士、\n            \n\n              森村\n             \n\n            顧問、\n            \n\n              二木\n             \n\n            博士、\n            \n\n              宮田\n             \n\n            常務理事来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n\n             午前十一時\n            \n            ライジングサン会社\n            \n\n              スコツト\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             正午\n            \n            日華実業協会幹事会（同会）\n           \n\n\n",
     "label": "廿一日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0209",
@@ -26,9 +37,10 @@
     "sort": "DKB20026m-0208",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "平沼",
-        "宮田",
-        "アスカ山"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1924-07-21",
     "texts": [
@@ -54,10 +66,10 @@
         "DKB20029m-0286"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            修養団々長\n            <placeName corresp=\"#place_平沼\">\n             平沼\n            </placeName>\n            博士、\n            <persName corresp=\"#pers_森村\">\n<surname>\n              森村\n             </surname>\n</persName>\n            顧問、二木博士、\n            <placeName corresp=\"#place_宮田\">\n             宮田\n            </placeName>\n            常務理事来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            修養団々長\n            <persName corresp=\"#pers_平沼\">\n<surname>\n              平沼\n             </surname>\n</persName>\n            博士、\n            <persName corresp=\"#pers_森村\">\n<surname>\n              森村\n             </surname>\n</persName>\n            顧問、\n            <persName corresp=\"#pers_二木\">\n<surname>\n              二木\n             </surname>\n</persName>\n            博士、\n            <persName corresp=\"#pers_宮田\">\n<surname>\n              宮田\n             </surname>\n</persName>\n            常務理事来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0208\">\n<head>\n<date when=\"1924-07-21\">\n           廿一日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            修養団々長\n            <placeName corresp=\"#place_平沼\">\n             平沼\n            </placeName>\n            博士、\n            <persName corresp=\"#pers_森村\">\n<surname>\n              森村\n             </surname>\n</persName>\n            顧問、二木博士、\n            <placeName corresp=\"#place_宮田\">\n             宮田\n            </placeName>\n            常務理事来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2632\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1471/full/max/0/default.jpg\" n=\"B2632\" source=\"#pageB2632\"/>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            ライジングサン会社スコツト氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華実業協会幹事会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0208\">\n<head>\n<date when=\"1924-07-21\">\n           廿一日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            修養団々長\n            <persName corresp=\"#pers_平沼\">\n<surname>\n              平沼\n             </surname>\n</persName>\n            博士、\n            <persName corresp=\"#pers_森村\">\n<surname>\n              森村\n             </surname>\n</persName>\n            顧問、\n            <persName corresp=\"#pers_二木\">\n<surname>\n              二木\n             </surname>\n</persName>\n            博士、\n            <persName corresp=\"#pers_宮田\">\n<surname>\n              宮田\n             </surname>\n</persName>\n            常務理事来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2632\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1471/full/max/0/default.jpg\" n=\"B2632\" source=\"#pageB2632\"/>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            ライジングサン会社\n            <persName corresp=\"#pers_スコツト\">\n<surname>\n              スコツト\n             </surname>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華実業協会幹事会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-07"
 }

@@ -1,8 +1,15 @@
 {
     "agential": [
         "堀井",
+        "山川健次郎",
         "桜井",
         "大槻"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/堀井",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山川健次郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/桜井",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大槻"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1244",
     "category": {
@@ -19,7 +26,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-08",
     "date_lvl2": "1917-08-30",
-    "description": "\n\n\n           三十日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n\n              堀井\n             \n\n            医師方ヘ御立寄\n           \n\n\n\n\n             正午\n            \n            頃　　　　山川帝大総長来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n\n              桜井\n             \n\n            博士来約（〃）\n           \n\n\n\n\n\n             午後二時\n            \n\n\n              大槻\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            御同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n\n              堀井\n             \n\n            医師方ヘ御立寄\n           \n\n\n\n\n             正午\n            \n            頃　　　　\n            \n\n              山川\n             \n\n            帝大総長来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n\n              桜井\n             \n\n            博士来約（〃）\n           \n\n\n\n\n\n             午後二時\n            \n\n\n              大槻\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            御同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "三十日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0228",
@@ -29,6 +36,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1917-08-30",
     "texts": [
@@ -57,7 +67,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_堀井\">\n<surname>\n              堀井\n             </surname>\n</persName>\n            医師方ヘ御立寄</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0227\">\n<head>\n<date when=\"1917-08-30\">\n           三十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_堀井\">\n<surname>\n              堀井\n             </surname>\n</persName>\n            医師方ヘ御立寄\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            頃　　　　山川帝大総長来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_桜井\">\n<surname>\n              桜井\n             </surname>\n</persName>\n            博士来約（〃）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2405\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1244/full/max/0/default.jpg\" n=\"B2405\" source=\"#pageB2405\"/>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_大槻\">\n<surname>\n              大槻\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0227\">\n<head>\n<date when=\"1917-08-30\">\n           三十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_堀井\">\n<surname>\n              堀井\n             </surname>\n</persName>\n            医師方ヘ御立寄\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            頃　　　　\n            <persName corresp=\"#pers_山川健次郎\">\n<surname>\n              山川\n             </surname>\n</persName>\n            帝大総長来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_桜井\">\n<surname>\n              桜井\n             </surname>\n</persName>\n            博士来約（〃）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2405\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1244/full/max/0/default.jpg\" n=\"B2405\" source=\"#pageB2405\"/>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_大槻\">\n<surname>\n              大槻\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-08"
 }

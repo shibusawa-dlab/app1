@@ -1,6 +1,11 @@
 {
     "agential": [
+        "シドニー_ギューリック",
         "高木陸郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/シドニー_ギューリック",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/高木陸郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1419",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-02",
     "date_lvl2": "1923-02-10",
-    "description": "\n\n\n           十日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n            ギユウリツク博士来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              高木\n             \n\n              陸郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            日米関係委員会ギユウリツク博士送別会（銀行クラブ）御顔出シノミ\n           \n\n\n\n\n             午後四時\n            \n            修養団ノ件（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           十日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n\n\n              ギユウリツク\n             \n\n            博士来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              高木\n             \n\n              陸郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            日米関係委員会\n            \n\n              ギユウリツク\n             \n\n            博士送別会（銀行クラブ）御顔出シノミ\n           \n\n\n\n\n             午後四時\n            \n            修養団ノ件（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "十日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0034",
@@ -27,6 +32,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1923-02-10",
     "texts": [
@@ -52,10 +60,10 @@
         "DKB20020m-0055"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            ギユウリツク博士来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_シドニー_ギューリック\">\n<surname>\n              ギユウリツク\n             </surname>\n</persName>\n            博士来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0033\">\n<head>\n<date when=\"1923-02-10\">\n           十日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            ギユウリツク博士来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_高木陸郎\">\n<surname>\n              高木\n             </surname>\n<forename>\n              陸郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            日米関係委員会ギユウリツク博士送別会（銀行クラブ）御顔出シノミ\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            修養団ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0033\">\n<head>\n<date when=\"1923-02-10\">\n           十日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_シドニー_ギューリック\">\n<surname>\n              ギユウリツク\n             </surname>\n</persName>\n            博士来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_高木陸郎\">\n<surname>\n              高木\n             </surname>\n<forename>\n              陸郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            日米関係委員会\n            <persName corresp=\"#pers_シドニー_ギューリック\">\n<surname>\n              ギユウリツク\n             </surname>\n</persName>\n            博士送別会（銀行クラブ）御顔出シノミ\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            修養団ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-02"
 }

@@ -1,5 +1,10 @@
 {
-    "agential": [],
+    "agential": [
+        "渋沢敬三"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢敬三"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1220",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +20,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-01",
     "date_lvl2": "1916-01-20",
-    "description": "\n\n\n           二十日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n            経済調査会特別委員会（農商務省）\n           \n\n\n\n\n             午前十時\n            \n            田園都市ノ件（商業会議所）\n           \n\n\n\n\n             午十二―午一時\n            \n            敬三様御来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            観菊御宴（\n            \n             赤坂\n            \n            離宮）\n           \n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n            経済調査会特別委員会（農商務省）\n           \n\n\n\n\n             午前十時\n            \n            田園都市ノ件（商業会議所）\n           \n\n\n\n\n             午十二―午一時\n            \n\n\n              敬三\n             \n\n            様御来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            観菊御宴（\n            \n             赤坂\n            \n            離宮）\n           \n\n\n",
     "label": "二十日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0307",
@@ -25,7 +30,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町",
-        "赤坂"
+        "赤坂_(東京都港区)"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/赤坂_(東京都港区)"
     ],
     "temporal": "1916-01-20",
     "texts": [
@@ -54,7 +63,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            経済調査会特別委員会（農商務省）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0306\">\n<head>\n<date when=\"1916-01-20\">\n           二十日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            経済調査会特別委員会（農商務省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            田園都市ノ件（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"12:00:00\" to=\"13:00:00\">\n             午十二―午一時\n            </time>\n            敬三様御来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            観菊御宴（\n            <placeName corresp=\"#place_赤坂\">\n             赤坂\n            </placeName>\n            離宮）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0306\">\n<head>\n<date when=\"1916-01-20\">\n           二十日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            経済調査会特別委員会（農商務省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            田園都市ノ件（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"12:00:00\" to=\"13:00:00\">\n             午十二―午一時\n            </time>\n<persName corresp=\"#pers_渋沢敬三\">\n<forename>\n              敬三\n             </forename>\n</persName>\n            様御来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            観菊御宴（\n            <placeName corresp=\"#place_赤坂_(東京都港区)\">\n             赤坂\n            </placeName>\n            離宮）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-01"
 }

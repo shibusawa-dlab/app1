@@ -1,7 +1,9 @@
 {
     "agential": [
-        "神田乃武",
-        "大隈"
+        "神田乃武"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/神田乃武"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1483",
     "category": {
@@ -18,7 +20,7 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-12",
     "date_lvl2": "1924-12-07",
-    "description": "\n\n\n           七日\n          \n          （日）\n         \n\n\n\n\n\n              神田\n             \n\n              乃武\n             \n\n            追悼会\n           \n\n\n\n\n             午後一時\n            \n            大\n            \n             日本\n            \n            文明協会催明治文化発祥記念会（\n            \n\n              大隈\n             \n\n            会館）\n           \n\n\n",
+    "description": "\n\n\n           七日\n          \n          （日）\n         \n\n\n\n\n\n              神田\n             \n\n              乃武\n             \n\n            追悼会\n           \n\n\n\n\n             午後一時\n            \n            大\n            \n             日本\n            \n            文明協会催明治文化発祥記念会（大隈会館）\n           \n\n\n",
     "label": "七日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0339",
@@ -28,6 +30,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本"
     ],
     "temporal": "1924-12-07",
     "texts": [
@@ -54,7 +59,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0337\">\n<head>\n<date when=\"1924-12-07\">\n           七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<persName corresp=\"#pers_神田乃武\">\n<surname>\n              神田\n             </surname>\n<forename>\n              乃武\n             </forename>\n</persName>\n            追悼会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            大\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            文明協会催明治文化発祥記念会（\n            <persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            会館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0337\">\n<head>\n<date when=\"1924-12-07\">\n           七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<persName corresp=\"#pers_神田乃武\">\n<surname>\n              神田\n             </surname>\n<forename>\n              乃武\n             </forename>\n</persName>\n            追悼会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            大\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            文明協会催明治文化発祥記念会（大隈会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-12"
 }

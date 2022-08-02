@@ -1,7 +1,13 @@
 {
     "agential": [
         "望月小太郎",
+        "山川健次郎",
         "藤山"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/望月小太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山川健次郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/藤山"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1185",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-06",
     "date_lvl2": "1915-06-21",
-    "description": "\n\n\n           廿一日\n          \n          （月）\n         \n\n\n\n\n             午後一時\n            \n\n\n              望月\n             \n\n              小太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n             石川島\n            \n            造船所ノ件ニ付会合（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            山川帝大総長来訪（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            明治神宮奉賛会ノ件（商業会議所）\n           \n\n\n\n\n             午後四時\n            \n\n\n              藤山\n             \n\n            氏来約（商業会議処）\n           \n\n\n\n\n\n             午後六時\n            \n            大蔵大臣ヨリ御案内（同大臣官邸）\n           \n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （月）\n         \n\n\n\n\n             午後一時\n            \n\n\n              望月\n             \n\n              小太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            石川島造船所ノ件ニ付会合（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              山川\n             \n\n            帝大総長来訪（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            明治神宮奉賛会ノ件（商業会議所）\n           \n\n\n\n\n             午後四時\n            \n\n\n              藤山\n             \n\n            氏来約（商業会議処）\n           \n\n\n\n\n\n             午後六時\n            \n            大蔵大臣ヨリ御案内（同大臣官邸）\n           \n\n\n",
     "label": "廿一日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0163",
@@ -27,8 +33,10 @@
     "sort": "DKB20017m-0162",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "日本橋兜町",
-        "石川島"
+        "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1915-06-21",
     "texts": [
@@ -57,7 +65,7 @@
         "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_望月小太郎\">\n<surname>\n              望月\n             </surname>\n<forename>\n              小太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0162\">\n<head>\n<date when=\"1915-06-21\">\n           廿一日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_望月小太郎\">\n<surname>\n              望月\n             </surname>\n<forename>\n              小太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_石川島\">\n             石川島\n            </placeName>\n            造船所ノ件ニ付会合（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            山川帝大総長来訪（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            明治神宮奉賛会ノ件（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_藤山\">\n<surname>\n              藤山\n             </surname>\n</persName>\n            氏来約（商業会議処）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2346\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1185/full/max/0/default.jpg\" n=\"B2346\" source=\"#pageB2346\"/>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            大蔵大臣ヨリ御案内（同大臣官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0162\">\n<head>\n<date when=\"1915-06-21\">\n           廿一日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_望月小太郎\">\n<surname>\n              望月\n             </surname>\n<forename>\n              小太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            石川島造船所ノ件ニ付会合（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_山川健次郎\">\n<surname>\n              山川\n             </surname>\n</persName>\n            帝大総長来訪（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            明治神宮奉賛会ノ件（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_藤山\">\n<surname>\n              藤山\n             </surname>\n</persName>\n            氏来約（商業会議処）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2346\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1185/full/max/0/default.jpg\" n=\"B2346\" source=\"#pageB2346\"/>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            大蔵大臣ヨリ御案内（同大臣官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-06"
 }

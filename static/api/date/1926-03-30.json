@@ -3,6 +3,10 @@
         "角田隆郎",
         "西野恵之助"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/角田隆郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/西野恵之助"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1506",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,7 +22,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-03",
     "date_lvl2": "1926-03-30",
-    "description": "\n\n\n           三十日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n\n             東京\n            \n            女学館卒業式（同館）\n           \n\n\n\n\n             正午\n            \n            日華実業協会幹事会（同会）\n           \n\n\n\n\n             正午\n            \n\n\n              角田\n             \n\n              隆郎\n             \n\n\n             支那\n            \n            視察談《（氏脱）》（日華実業協会）\n           \n\n\n\n\n             午後一半時\n            \n            東照宮三百年祭記念会評議員会（華族会館）\n           \n\n\n\n\n             午後三時\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午後三時\n            \n\n\n              西野\n             \n\n              恵之助\n             \n\n            氏来約（事務所）\n           \n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n\n             東京女学館\n            \n            卒業式（同館）\n           \n\n\n\n\n             正午\n            \n            日華実業協会幹事会（同会）\n           \n\n\n\n\n             正午\n            \n\n\n              角田\n             \n\n              隆郎\n             \n\n\n             支那\n            \n            視察談《（氏脱）》（日華実業協会）\n           \n\n\n\n\n             午後一半時\n            \n            東照宮三百年祭記念会評議員会（華族会館）\n           \n\n\n\n\n             午後三時\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午後三時\n            \n\n\n              西野\n             \n\n              恵之助\n             \n\n            氏来約（事務所）\n           \n\n\n",
     "label": "三十日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0089",
@@ -27,8 +31,10 @@
     "sort": "DKB20028m-0088",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "東京",
         "支那"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/支那"
     ],
     "temporal": "1926-03-30",
     "texts": [
@@ -54,10 +60,10 @@
         "DKB20026m-0028"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            女学館卒業式（同館）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             東京女学館\n            </orgName>\n            卒業式（同館）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0088\">\n<head>\n<date when=\"1926-03-30\">\n           三十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            女学館卒業式（同館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華実業協会幹事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_角田隆郎\">\n<surname>\n              角田\n             </surname>\n<forename>\n              隆郎\n             </forename>\n</persName>\n<placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            視察談《（氏脱）》（日華実業協会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n            東照宮三百年祭記念会評議員会（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_西野恵之助\">\n<surname>\n              西野\n             </surname>\n<forename>\n              恵之助\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0088\">\n<head>\n<date when=\"1926-03-30\">\n           三十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             東京女学館\n            </orgName>\n            卒業式（同館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華実業協会幹事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_角田隆郎\">\n<surname>\n              角田\n             </surname>\n<forename>\n              隆郎\n             </forename>\n</persName>\n<placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            視察談《（氏脱）》（日華実業協会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n            東照宮三百年祭記念会評議員会（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_西野恵之助\">\n<surname>\n              西野\n             </surname>\n<forename>\n              恵之助\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-03"
 }

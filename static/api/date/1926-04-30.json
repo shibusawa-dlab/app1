@@ -1,7 +1,13 @@
 {
     "agential": [
         "原泰一",
-        "久邇宮"
+        "久邇宮邦彦王",
+        "大倉"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/原泰一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/久邇宮邦彦王",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大倉"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1509",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-04",
     "date_lvl2": "1926-04-30",
-    "description": "\n\n\n           三十日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n\n\n              原\n             \n\n              泰一\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            聖徳太子奉讚会総裁\n            \n\n              久邇宮\n             \n\n            殿下台臨ニ付美術展覧（\n            \n             東京\n            \n            美術館）\n           \n\n\n\n\n\n             午后三時\n            \n            内鮮懇話会\n           \n\n\n\n\n             午後四・二〇\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午后七時\n            \n            大倉男帝国劇場引退披露（同所）\n           \n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n\n\n              原\n             \n\n              泰一\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            聖徳太子奉讚会総裁\n            \n\n              久邇宮\n             \n\n            殿下台臨ニ付美術展覧（\n            \n             東京\n            \n            美術館）\n           \n\n\n\n\n\n             午后三時\n            \n            内鮮懇話会\n           \n\n\n\n\n             午後四・二〇\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午后七時\n            \n\n\n              大倉\n             \n\n            男帝国劇場引退披露（同所）\n           \n\n\n",
     "label": "三十日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0121",
@@ -27,8 +33,12 @@
     "sort": "DKB20028m-0119",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山",
+        "飛鳥山邸",
         "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1926-04-30",
     "texts": [
@@ -54,10 +64,10 @@
         "DKB20028m-0194"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_原泰一\">\n<surname>\n              原\n             </surname>\n<forename>\n              泰一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_原泰一\">\n<surname>\n              原\n             </surname>\n<forename>\n              泰一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0119\">\n<head>\n<date when=\"1926-04-30\">\n           三十日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_原泰一\">\n<surname>\n              原\n             </surname>\n<forename>\n              泰一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            聖徳太子奉讚会総裁\n            <persName corresp=\"#pers_久邇宮\">\n<surname>\n              久邇宮\n             </surname>\n</persName>\n            殿下台臨ニ付美術展覧（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            美術館）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2670\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1509/full/max/0/default.jpg\" n=\"B2670\" source=\"#pageB2670\"/>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n            内鮮懇話会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:20:00\">\n             午後四・二〇\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午后七時\n            </time>\n            大倉男帝国劇場引退披露（同所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0119\">\n<head>\n<date when=\"1926-04-30\">\n           三十日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_原泰一\">\n<surname>\n              原\n             </surname>\n<forename>\n              泰一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            聖徳太子奉讚会総裁\n            <persName corresp=\"#pers_久邇宮邦彦王\">\n<surname>\n              久邇宮\n             </surname>\n</persName>\n            殿下台臨ニ付美術展覧（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            美術館）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2670\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1509/full/max/0/default.jpg\" n=\"B2670\" source=\"#pageB2670\"/>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n            内鮮懇話会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:20:00\">\n             午後四・二〇\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午后七時\n            </time>\n<persName corresp=\"#pers_大倉\">\n<surname>\n              大倉\n             </surname>\n</persName>\n            男帝国劇場引退披露（同所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-04"
 }

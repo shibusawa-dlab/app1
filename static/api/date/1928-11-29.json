@@ -1,6 +1,11 @@
 {
     "agential": [
-        "佑"
+        "小竹即一",
+        "馬淵冷佑"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小竹即一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/馬淵冷佑"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1588",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-11",
     "date_lvl2": "1928-11-29",
-    "description": "\n\n\n           廿九日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n            頃\n            \n             小竹\n            \n            即一氏代理来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後一半時\n            \n            御出勤\n           \n\n\n\n\n             午後一―二時\n            \n\n             馬淵\n            \n            冷\n            \n\n              佑\n             \n\n            氏ト御会見ノ約（事務所）\n           \n\n\n",
+    "description": "\n\n\n           廿九日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n            頃\n            \n\n              小竹\n             \n\n              即一\n             \n\n            氏代理来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後一半時\n            \n            御出勤\n           \n\n\n\n\n             午後一―二時\n            \n\n\n              馬淵\n             \n\n              冷佑\n             \n\n            氏ト御会見ノ約（事務所）\n           \n\n\n",
     "label": "廿九日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20030m-0260",
@@ -26,9 +31,10 @@
     "sort": "DKB20030m-0259",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "小竹",
-        "飛鳥山邸",
-        "馬淵"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1928-11-29",
     "texts": [
@@ -54,10 +60,10 @@
         "DKB20029m-0301"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            頃\n            <placeName corresp=\"#place_小竹\">\n             小竹\n            </placeName>\n            即一氏代理来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            頃\n            <persName corresp=\"#pers_小竹即一\">\n<surname>\n              小竹\n             </surname>\n<forename>\n              即一\n             </forename>\n</persName>\n            氏代理来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0259\">\n<head>\n<date when=\"1928-11-29\">\n           廿九日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            頃\n            <placeName corresp=\"#place_小竹\">\n             小竹\n            </placeName>\n            即一氏代理来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"14:00:00\">\n             午後一―二時\n            </time>\n<placeName corresp=\"#place_馬淵\">\n             馬淵\n            </placeName>\n            冷\n            <persName corresp=\"#pers_佑\">\n<forename>\n              佑\n             </forename>\n</persName>\n            氏ト御会見ノ約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0259\">\n<head>\n<date when=\"1928-11-29\">\n           廿九日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            頃\n            <persName corresp=\"#pers_小竹即一\">\n<surname>\n              小竹\n             </surname>\n<forename>\n              即一\n             </forename>\n</persName>\n            氏代理来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"14:00:00\">\n             午後一―二時\n            </time>\n<persName corresp=\"#pers_馬淵冷佑\">\n<surname>\n              馬淵\n             </surname>\n<forename>\n              冷佑\n             </forename>\n</persName>\n            氏ト御会見ノ約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-11"
 }

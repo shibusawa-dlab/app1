@@ -1,6 +1,11 @@
 {
     "agential": [
+        "郷",
         "阪谷"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/郷",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/阪谷"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1170",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-11",
     "date_lvl2": "1914-11-24",
-    "description": "\n\n\n           廿四日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n            郷男爵等ト国産奨励会ノ件ニ付\n            \n             上野\n            \n            ニ於テ御会見\n           \n\n\n\n\n             午前十一時\n            \n            瓦斯会社ノ件ニ付御会合（上の精養軒）\n           \n\n\n\n\n             午後二時\n            \n            教育調査会\n           \n\n\n\n\n             午後六時\n            \n\n\n              阪谷\n             \n\n            男ヨリ御案内（富士見軒）\n           \n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n\n\n              郷\n             \n\n            男爵等ト国産奨励会ノ件ニ付\n            \n             上野\n            \n            ニ於テ御会見\n           \n\n\n\n\n             午前十一時\n            \n            瓦斯会社ノ件ニ付御会合（\n            \n             上の\n            \n\n             精養軒\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            教育調査会\n           \n\n\n\n\n             午後六時\n            \n\n\n              阪谷\n             \n\n            男ヨリ御案内（富士見軒）\n           \n\n\n",
     "label": "廿四日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20016m-0071",
@@ -27,6 +32,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "上野"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
     ],
     "temporal": "1914-11-24",
     "texts": [
@@ -52,10 +60,10 @@
         "DKB20017m-0062"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            郷男爵等ト国産奨励会ノ件ニ付\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            ニ於テ御会見</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_郷\">\n<surname>\n              郷\n             </surname>\n</persName>\n            男爵等ト国産奨励会ノ件ニ付\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            ニ於テ御会見</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0070\">\n<head>\n<date when=\"1914-11-24\">\n           廿四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            郷男爵等ト国産奨励会ノ件ニ付\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            ニ於テ御会見\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            瓦斯会社ノ件ニ付御会合（上の精養軒）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            教育調査会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_阪谷\">\n<surname>\n              阪谷\n             </surname>\n</persName>\n            男ヨリ御案内（富士見軒）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0070\">\n<head>\n<date when=\"1914-11-24\">\n           廿四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_郷\">\n<surname>\n              郷\n             </surname>\n</persName>\n            男爵等ト国産奨励会ノ件ニ付\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            ニ於テ御会見\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            瓦斯会社ノ件ニ付御会合（\n            <placeName corresp=\"#place_上野\">\n             上の\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            教育調査会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_阪谷\">\n<surname>\n              阪谷\n             </surname>\n</persName>\n            男ヨリ御案内（富士見軒）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-11"
 }

@@ -1,8 +1,11 @@
 {
     "agential": [
-        "神田雷蔵",
         "神田鐳蔵",
         "馬場郁太郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/神田鐳蔵",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/馬場郁太郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/396",
     "category": {
@@ -28,7 +31,10 @@
     "sort": "DKB10013m-0156",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
-        "王子別荘"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1905-06-05",
     "texts": [
@@ -54,14 +60,14 @@
         "DKB10013m-0145"
     ],
     "time": {
-        "06:00:00": "<div><time when=\"06:00:00\">\n        午前六時\n       </time>\n       起床、庭園ヲ散歩ス、\n       <persName corresp=\"#pers_神田雷蔵\">\n<surname>\n         神田\n        </surname>\n<forename>\n         雷蔵\n        </forename>\n</persName>\n       《（\n       <persName corresp=\"#pers_神田鐳蔵\">\n<surname>\n         神田\n        </surname>\n<forename>\n         鐳蔵\n        </forename>\n</persName>\n       ）》来リ国庫債券売買ノ事ヲ談ス意見書ノ草案ヲ示サル、</div>",
+        "06:00:00": "<div><time when=\"06:00:00\">\n        午前六時\n       </time>\n       起床、庭園ヲ散歩ス、\n       <persName corresp=\"#pers_神田鐳蔵\">\n<surname>\n         神田\n        </surname>\n<forename>\n         雷蔵\n        </forename>\n</persName>\n       《（\n       <persName corresp=\"#pers_神田鐳蔵\">\n<surname>\n         神田\n        </surname>\n<forename>\n         鐳蔵\n        </forename>\n</persName>\n       ）》来リ国庫債券売買ノ事ヲ談ス意見書ノ草案ヲ示サル、</div>",
         "10:00:00": "<div><time when=\"10:00:00\">\n        午前十時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ出勤シ韓国興業会社重役会ニ列ス、畢テ\n       <persName corresp=\"#pers_馬場郁太郎\">\n<surname>\n         馬場\n        </surname>\n<forename>\n         郁太郎\n        </forename>\n</persName>\n       ニ面会ス、</div>",
         "14:00:00": "<div><time when=\"14:00:00\">\n        午後二時\n       </time>\n<orgName>\n        東京商業会議所\n       </orgName>\n       ニ抵リ各組合総代人ノ集会ニ参列シテ一場ノ演説ヲ為ス\n       <lb/></div>",
         "17:00:00": "<div><time when=\"17:00:00\">\n        午後五時\n       </time>\n<orgName>\n        高等商業学校\n       </orgName>\n       ニ抵リ商議員集会ニ出席ス、</div>",
-        "19:00:00": "<div><time when=\"19:00:00\">\n        午後七時\n       </time>\n       過\n       <placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
+        "19:00:00": "<div><time when=\"19:00:00\">\n        午後七時\n       </time>\n       過\n       <placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10013m-0156\">\n<head>\n<date when=\"1905-06-05\">\n        六月五日\n       </date>\n       月　曇　風ナシ\n      </head>\n<p>\n<time when=\"06:00:00\">\n        午前六時\n       </time>\n       起床、庭園ヲ散歩ス、\n       <persName corresp=\"#pers_神田雷蔵\">\n<surname>\n         神田\n        </surname>\n<forename>\n         雷蔵\n        </forename>\n</persName>\n       《（\n       <persName corresp=\"#pers_神田鐳蔵\">\n<surname>\n         神田\n        </surname>\n<forename>\n         鐳蔵\n        </forename>\n</persName>\n       ）》来リ国庫債券売買ノ事ヲ談ス意見書ノ草案ヲ示サル、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ出勤シ韓国興業会社重役会ニ列ス、畢テ\n       <persName corresp=\"#pers_馬場郁太郎\">\n<surname>\n         馬場\n        </surname>\n<forename>\n         郁太郎\n        </forename>\n</persName>\n       ニ面会ス、\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n<orgName>\n        東京商業会議所\n       </orgName>\n       ニ抵リ各組合総代人ノ集会ニ参列シテ一場ノ演説ヲ為ス\n       <lb/>\n<time when=\"17:00:00\">\n        午後五時\n       </time>\n<orgName>\n        高等商業学校\n       </orgName>\n       ニ抵リ商議員集会ニ出席ス、\n       <time when=\"19:00:00\">\n        午後七時\n       </time>\n       過\n       <placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10013m-0156\">\n<head>\n<date when=\"1905-06-05\">\n        六月五日\n       </date>\n       月　曇　風ナシ\n      </head>\n<p>\n<time when=\"06:00:00\">\n        午前六時\n       </time>\n       起床、庭園ヲ散歩ス、\n       <persName corresp=\"#pers_神田鐳蔵\">\n<surname>\n         神田\n        </surname>\n<forename>\n         雷蔵\n        </forename>\n</persName>\n       《（\n       <persName corresp=\"#pers_神田鐳蔵\">\n<surname>\n         神田\n        </surname>\n<forename>\n         鐳蔵\n        </forename>\n</persName>\n       ）》来リ国庫債券売買ノ事ヲ談ス意見書ノ草案ヲ示サル、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ出勤シ韓国興業会社重役会ニ列ス、畢テ\n       <persName corresp=\"#pers_馬場郁太郎\">\n<surname>\n         馬場\n        </surname>\n<forename>\n         郁太郎\n        </forename>\n</persName>\n       ニ面会ス、\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n<orgName>\n        東京商業会議所\n       </orgName>\n       ニ抵リ各組合総代人ノ集会ニ参列シテ一場ノ演説ヲ為ス\n       <lb/>\n<time when=\"17:00:00\">\n        午後五時\n       </time>\n<orgName>\n        高等商業学校\n       </orgName>\n       ニ抵リ商議員集会ニ出席ス、\n       <time when=\"19:00:00\">\n        午後七時\n       </time>\n       過\n       <placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1905",
     "yearAndMonth": "1905-06"
 }

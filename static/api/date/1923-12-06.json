@@ -5,6 +5,12 @@
         "安田柾",
         "浅野総一郎"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/伊東米治郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/安田柾",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野総一郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1445",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -30,7 +36,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "第六天町",
-        "田町"
+        "田町_(東京都港区)"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/第六天町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/田町_(東京都港区)"
     ],
     "temporal": "1923-12-06",
     "texts": [
@@ -59,7 +69,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家顧問会（\n            <placeName corresp=\"#place_第六天町\">\n             第六天町\n            </placeName>\n            同邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0317\">\n<head>\n<date when=\"1923-12-06\">\n           六日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家顧問会（\n            <placeName corresp=\"#place_第六天町\">\n             第六天町\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_伊東米治郎\">\n<surname>\n              伊東\n             </surname>\n<forename>\n              米治郎\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_安田柾\">\n<surname>\n              安田\n             </surname>\n<forename>\n              柾\n             </forename>\n</persName>\n            両氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <placeName corresp=\"#place_田町\">\n             田町\n            </placeName>\n            同邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0317\">\n<head>\n<date when=\"1923-12-06\">\n           六日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家顧問会（\n            <placeName corresp=\"#place_第六天町\">\n             第六天町\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_伊東米治郎\">\n<surname>\n              伊東\n             </surname>\n<forename>\n              米治郎\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_安田柾\">\n<surname>\n              安田\n             </surname>\n<forename>\n              柾\n             </forename>\n</persName>\n            両氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <placeName corresp=\"#place_田町_(東京都港区)\">\n             田町\n            </placeName>\n            同邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-12"
 }

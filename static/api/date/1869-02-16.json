@@ -1,5 +1,10 @@
 {
-    "agential": [],
+    "agential": [
+        "大久保一翁"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大久保一翁"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/62",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -15,7 +20,7 @@
     "date_lvl0": "1869",
     "date_lvl1": "1869-02",
     "date_lvl2": "1869-02-16",
-    "description": "\n\n\n        （一月）六日\n       \n       晴\n      \n\n       商法見込書持参御殿ニ而一翁殿へ上ル、見込之儀申立る\n       \n       仏行調物いたす\n      \n",
+    "description": "\n\n\n        （一月）六日\n       \n       晴\n      \n\n       商法見込書持参御殿ニ而\n       \n\n         一翁\n        \n\n       殿へ上ル、見込之儀申立る\n       \n       仏行調物いたす\n      \n",
     "label": "（一月）六日              晴",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10002m-0066",
@@ -24,6 +29,7 @@
     "sort": "DKB10002m-0065",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [],
+    "spatial_uri": [],
     "temporal": "1869-02-16",
     "texts": [
         "DKB10002m-0069",
@@ -49,7 +55,7 @@
     ],
     "time": {},
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10002m-0065\">\n<head>\n<date evidence=\"month inferenced\" type=\"旧暦\" when=\"1869-02-16\">\n        （一月）六日\n       </date>\n       晴\n      </head>\n<p>\n       商法見込書持参御殿ニ而一翁殿へ上ル、見込之儀申立る\n       <lb/>\n       仏行調物いたす\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10002m-0065\">\n<head>\n<date evidence=\"month inferenced\" type=\"旧暦\" when=\"1869-02-16\">\n        （一月）六日\n       </date>\n       晴\n      </head>\n<p>\n       商法見込書持参御殿ニ而\n       <persName corresp=\"#pers_大久保一翁\">\n<forename>\n         一翁\n        </forename>\n</persName>\n       殿へ上ル、見込之儀申立る\n       <lb/>\n       仏行調物いたす\n      </p>\n</div>",
     "year": "1869",
     "yearAndMonth": "1869-02"
 }

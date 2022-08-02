@@ -1,9 +1,13 @@
 {
     "agential": [
         "光田",
-        "原二",
-        "渋沢",
+        "原",
         "関屋"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/光田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/原",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/関屋"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1617",
     "category": {
@@ -20,7 +24,7 @@
     "date_lvl0": "1930",
     "date_lvl1": "1930-10",
     "date_lvl2": "1930-10-11",
-    "description": "\n\n\n           十一日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n\n\n              光田\n             \n\n            、\n            \n\n              原二\n             \n\n            氏ト御会見（\n            \n\n              渋沢\n             \n\n            事務所）\n           \n\n\n\n\n             午前九・一五\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午前十時\n            \n            癩病ノ件ニ付赤木衛生局長外六人会合（\n            \n\n              渋沢\n             \n\n            事務所）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              関屋\n             \n\n            宮内次官来約（\n            \n\n              渋沢\n             \n\n            事務所）\n           \n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n\n\n              光田\n             \n\n            、\n            \n\n              原\n             \n\n            二氏ト御会見（渋沢事務所）\n           \n\n\n\n\n             午前九・一五\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午前十時\n            \n            癩病ノ件ニ付赤木衛生局長外六人会合（渋沢事務所）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              関屋\n             \n\n            宮内次官来約（渋沢事務所）\n           \n\n\n",
     "label": "十一日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20032m-0168",
@@ -29,6 +33,7 @@
     "sort": "DKB20032m-0167",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [],
+    "spatial_uri": [],
     "temporal": "1930-10-11",
     "texts": [
         "DKB20029m-0210",
@@ -53,10 +58,10 @@
         "DKB20033m-0135"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_光田\">\n<surname>\n              光田\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_原二\">\n<forename>\n              原二\n             </forename>\n</persName>\n            氏ト御会見（\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            事務所）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_光田\">\n<surname>\n              光田\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            二氏ト御会見（渋沢事務所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0167\">\n<head>\n<date when=\"1930-10-11\">\n           十一日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_光田\">\n<surname>\n              光田\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_原二\">\n<forename>\n              原二\n             </forename>\n</persName>\n            氏ト御会見（\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:15:00\">\n             午前九・一五\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            癩病ノ件ニ付赤木衛生局長外六人会合（\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_関屋\">\n<surname>\n              関屋\n             </surname>\n</persName>\n            宮内次官来約（\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0167\">\n<head>\n<date when=\"1930-10-11\">\n           十一日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_光田\">\n<surname>\n              光田\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            二氏ト御会見（渋沢事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:15:00\">\n             午前九・一五\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            癩病ノ件ニ付赤木衛生局長外六人会合（渋沢事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_関屋\">\n<surname>\n              関屋\n             </surname>\n</persName>\n            宮内次官来約（渋沢事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1930",
     "yearAndMonth": "1930-10"
 }

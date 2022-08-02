@@ -3,6 +3,10 @@
         "池田義久",
         "宮下丑太郎"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/池田義久",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/宮下丑太郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1340",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -28,8 +32,13 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "横浜",
-        "アスカ山",
+        "飛鳥山邸",
         "芝"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/横浜",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/芝"
     ],
     "temporal": "1920-09-07",
     "texts": [
@@ -55,10 +64,10 @@
         "DKB20026m-0220"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            仲仕同盟会理事長\n            <persName corresp=\"#pers_池田義久\">\n<surname>\n              池田\n             </surname>\n<forename>\n              義久\n             </forename>\n</persName>\n            氏外一人来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            仲仕同盟会理事長\n            <persName corresp=\"#pers_池田義久\">\n<surname>\n              池田\n             </surname>\n<forename>\n              義久\n             </forename>\n</persName>\n            氏外一人来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0227\">\n<head>\n<date when=\"1920-09-07\">\n           七日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            仲仕同盟会理事長\n            <persName corresp=\"#pers_池田義久\">\n<surname>\n              池田\n             </surname>\n<forename>\n              義久\n             </forename>\n</persName>\n            氏外一人来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            雑誌「現代」記者\n            <persName corresp=\"#pers_宮下丑太郎\">\n<surname>\n              宮下\n             </surname>\n<forename>\n              丑太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            中央開墾会社創立委員会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            日華学会理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            旧渡米実業団催、オスボーン氏招待歓迎会（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n            紅葉館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0227\">\n<head>\n<date when=\"1920-09-07\">\n           七日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            仲仕同盟会理事長\n            <persName corresp=\"#pers_池田義久\">\n<surname>\n              池田\n             </surname>\n<forename>\n              義久\n             </forename>\n</persName>\n            氏外一人来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            雑誌「現代」記者\n            <persName corresp=\"#pers_宮下丑太郎\">\n<surname>\n              宮下\n             </surname>\n<forename>\n              丑太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            中央開墾会社創立委員会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            日華学会理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            旧渡米実業団催、オスボーン氏招待歓迎会（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n            紅葉館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-09"
 }

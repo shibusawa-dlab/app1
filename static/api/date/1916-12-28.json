@@ -1,9 +1,15 @@
 {
     "agential": [
         "浅野",
-        "田中太郎",
+        "田中太郎_(社会事業家)",
         "堀越",
         "植木民彦"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田中太郎_(社会事業家)",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/堀越",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/植木民彦"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1222",
     "category": {
@@ -29,8 +35,12 @@
     "sort": "DKB20018m-0337",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "田町",
+        "田町_(東京都港区)",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/田町_(東京都港区)",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1916-12-28",
     "texts": [
@@ -56,10 +66,10 @@
         "DKB20021m-0098"
     ],
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_浅野\">\n<surname>\n              浅野\n             </surname>\n</persName>\n            氏ヨリ御招待（\n            <placeName corresp=\"#place_田町\">\n             田町\n            </placeName>\n            同邸）\n            <lb/>\n            夫人共</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_浅野\">\n<surname>\n              浅野\n             </surname>\n</persName>\n            氏ヨリ御招待（\n            <placeName corresp=\"#place_田町_(東京都港区)\">\n             田町\n            </placeName>\n            同邸）\n            <lb/>\n            夫人共</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0337\">\n<head>\n<date when=\"1916-12-28\">\n           廿八日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_浅野\">\n<surname>\n              浅野\n             </surname>\n</persName>\n            氏ヨリ御招待（\n            <placeName corresp=\"#place_田町\">\n             田町\n            </placeName>\n            同邸）\n            <lb/>\n            夫人共\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_田中太郎\">\n<surname>\n              田中\n             </surname>\n<forename>\n              太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2383\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1222/full/max/0/default.jpg\" n=\"B2383\" source=\"#pageB2383\"/>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_堀越\">\n<surname>\n              堀越\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_植木民彦\">\n<surname>\n              植木\n             </surname>\n<forename>\n              民彦\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0337\">\n<head>\n<date when=\"1916-12-28\">\n           廿八日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_浅野\">\n<surname>\n              浅野\n             </surname>\n</persName>\n            氏ヨリ御招待（\n            <placeName corresp=\"#place_田町_(東京都港区)\">\n             田町\n            </placeName>\n            同邸）\n            <lb/>\n            夫人共\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_田中太郎_(社会事業家)\">\n<surname>\n              田中\n             </surname>\n<forename>\n              太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2383\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1222/full/max/0/default.jpg\" n=\"B2383\" source=\"#pageB2383\"/>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_堀越\">\n<surname>\n              堀越\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_植木民彦\">\n<surname>\n              植木\n             </surname>\n<forename>\n              民彦\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-12"
 }

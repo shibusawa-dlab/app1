@@ -1,7 +1,11 @@
 {
     "agential": [
         "小林美登利",
-        "竹田政"
+        "竹田政智"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小林美登利",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/竹田政智"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1595",
     "category": {
@@ -18,7 +22,7 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-06",
     "date_lvl2": "1929-06-09",
-    "description": "\n\n\n           九日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n\n\n              小林\n             \n\n              美登利\n             \n\n            氏来約\n            \n             飛鳥山\n            \n\n\n\n\n\n             午零半時\n            \n\n             谷中\n            \n            斎場ヘ御出向（故\n            \n\n              竹田\n             \n\n              政\n             \n\n            智氏告別式）\n           \n\n\n",
+    "description": "\n\n\n           九日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n\n\n              小林\n             \n\n              美登利\n             \n\n            氏来約\n            \n             飛鳥山\n            \n\n\n\n\n\n             午零半時\n            \n\n             谷中\n            \n            斎場ヘ御出向（故\n            \n\n              竹田\n             \n\n              政智\n             \n\n            氏告別式）\n           \n\n\n",
     "label": "九日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20031m-0084",
@@ -27,8 +31,12 @@
     "sort": "DKB20031m-0083",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
+        "飛鳥山邸",
         "谷中"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/谷中"
     ],
     "temporal": "1929-06-09",
     "texts": [
@@ -54,10 +62,10 @@
         "DKB20032m-0103"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_小林美登利\">\n<surname>\n              小林\n             </surname>\n<forename>\n              美登利\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName></div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_小林美登利\">\n<surname>\n              小林\n             </surname>\n<forename>\n              美登利\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName></div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0083\">\n<head>\n<date when=\"1929-06-09\">\n           九日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_小林美登利\">\n<surname>\n              小林\n             </surname>\n<forename>\n              美登利\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午零半時\n            </time>\n<placeName corresp=\"#place_谷中\">\n             谷中\n            </placeName>\n            斎場ヘ御出向（故\n            <persName corresp=\"#pers_竹田政\">\n<surname>\n              竹田\n             </surname>\n<forename>\n              政\n             </forename>\n</persName>\n            智氏告別式）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0083\">\n<head>\n<date when=\"1929-06-09\">\n           九日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_小林美登利\">\n<surname>\n              小林\n             </surname>\n<forename>\n              美登利\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午零半時\n            </time>\n<placeName corresp=\"#place_谷中\">\n             谷中\n            </placeName>\n            斎場ヘ御出向（故\n            <persName corresp=\"#pers_竹田政智\">\n<surname>\n              竹田\n             </surname>\n<forename>\n              政智\n             </forename>\n</persName>\n            氏告別式）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-06"
 }

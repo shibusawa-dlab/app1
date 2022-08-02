@@ -1,5 +1,10 @@
 {
-    "agential": [],
+    "agential": [
+        "カシン"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/カシン"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1325",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +20,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-02",
     "date_lvl2": "1920-02-21",
-    "description": "\n\n\n           廿一日\n          \n          （土）\n         \n\n\n\n\n             午前十一時四十五分\n            \n\n             大磯\n            \n            より御帰京\n            \n             東京\n            \n            駅着\n           \n\n\n\n\n             正午\n            \n            中央開墾会社創立委員会（ホテル）\n           \n\n\n\n\n             午後三時\n            \n\n             露国\n            \n            人カシン氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （土）\n         \n\n\n\n\n             午前十一時四十五分\n            \n\n             大磯\n            \n            より御帰京\n            \n             東京\n            \n            駅着\n           \n\n\n\n\n             正午\n            \n            中央開墾会社創立委員会（ホテル）\n           \n\n\n\n\n             午後三時\n            \n\n             露国\n            \n            人\n            \n\n              カシン\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "廿一日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0049",
@@ -28,6 +33,12 @@
         "東京",
         "ロシア",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/大磯町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/ロシア",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1920-02-21",
     "texts": [
@@ -56,7 +67,7 @@
         "11:45:00": "<div><time when=\"11:45:00\">\n             午前十一時四十五分\n            </time>\n<placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            より御帰京\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅着</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0048\">\n<head>\n<date when=\"1920-02-21\">\n           廿一日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:45:00\">\n             午前十一時四十五分\n            </time>\n<placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            より御帰京\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            中央開墾会社創立委員会（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_ロシア\">\n             露国\n            </placeName>\n            人カシン氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0048\">\n<head>\n<date when=\"1920-02-21\">\n           廿一日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:45:00\">\n             午前十一時四十五分\n            </time>\n<placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            より御帰京\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            中央開墾会社創立委員会（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_ロシア\">\n             露国\n            </placeName>\n            人\n            <persName corresp=\"#pers_カシン\">\n<surname>\n              カシン\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-02"
 }

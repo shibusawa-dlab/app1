@@ -3,6 +3,10 @@
         "三島",
         "目賀田"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/三島",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/目賀田"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1261",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,7 +22,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-03",
     "date_lvl2": "1918-03-13",
-    "description": "\n\n\n           十三日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n            養育院分院ヘ御出向、引ツヾキ本院ヘ御出向\n           \n\n\n\n\n             午後二時\n            \n            慈恵会理事会（同会）\n           \n\n\n\n\n             午後四時\n            \n\n\n              三島\n             \n\n            子爵ヨリ御案内、\n            \n\n              目賀田\n             \n\n            男爵一行招待会（\n            \n             日本\n            \n            銀行社宅）\n           \n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n            養育院分院ヘ御出向、引ツヾキ本院ヘ御出向\n           \n\n\n\n\n             午後二時\n            \n            慈恵会理事会（同会）\n           \n\n\n\n\n             午後四時\n            \n\n\n              三島\n             \n\n            子爵ヨリ御案内、\n            \n\n              目賀田\n             \n\n            男爵一行招待会（\n            \n             日本銀行\n            \n            社宅）\n           \n\n\n",
     "label": "十三日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0067",
@@ -26,9 +30,8 @@
     "prev": "DKB20020m-0065",
     "sort": "DKB20020m-0066",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "日本"
-    ],
+    "spatial": [],
+    "spatial_uri": [],
     "temporal": "1918-03-13",
     "texts": [
         "DKB20022m-0101",
@@ -56,7 +59,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            養育院分院ヘ御出向、引ツヾキ本院ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0066\">\n<head>\n<date when=\"1918-03-13\">\n           十三日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            養育院分院ヘ御出向、引ツヾキ本院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            慈恵会理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_三島\">\n<surname>\n              三島\n             </surname>\n</persName>\n            子爵ヨリ御案内、\n            <persName corresp=\"#pers_目賀田\">\n<surname>\n              目賀田\n             </surname>\n</persName>\n            男爵一行招待会（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            銀行社宅）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0066\">\n<head>\n<date when=\"1918-03-13\">\n           十三日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            養育院分院ヘ御出向、引ツヾキ本院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            慈恵会理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_三島\">\n<surname>\n              三島\n             </surname>\n</persName>\n            子爵ヨリ御案内、\n            <persName corresp=\"#pers_目賀田\">\n<surname>\n              目賀田\n             </surname>\n</persName>\n            男爵一行招待会（\n            <orgName>\n             日本銀行\n            </orgName>\n            社宅）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-03"
 }

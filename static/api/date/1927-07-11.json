@@ -1,6 +1,9 @@
 {
     "agential": [
-        "芳徳"
+        "二荒芳徳"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/二荒芳徳"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1550",
     "category": {
@@ -17,7 +20,7 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-07",
     "date_lvl2": "1927-07-11",
-    "description": "\n\n\n           十一日\n          \n          （月）\n         \n\n\n\n\n             午前十・十五時\n            \n            御出勤\n           \n\n\n\n\n             午前十一時\n            \n\n             二荒\n            \n\n\n              芳徳\n             \n\n            伯来約（事務所）\n           \n\n\n\n\n             午后一時\n            \n            勤倹奨励婦人団体委員会会催《（開）》ニ付協議会（内務大臣官邸）\n           \n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （月）\n         \n\n\n\n\n             午前十・十五時\n            \n            御出勤\n           \n\n\n\n\n             午前十一時\n            \n\n\n              二荒\n             \n\n              芳徳\n             \n\n            伯来約（事務所）\n           \n\n\n\n\n             午后一時\n            \n            勤倹奨励婦人団体委員会会催《（開）》ニ付協議会（内務大臣官邸）\n           \n\n\n",
     "label": "十一日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0177",
@@ -25,9 +28,8 @@
     "prev": "DKB20029m-0174",
     "sort": "DKB20029m-0176",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "二荒"
-    ],
+    "spatial": [],
+    "spatial_uri": [],
     "temporal": "1927-07-11",
     "texts": [
         "DKB20028m-0011",
@@ -55,7 +57,7 @@
         "10:15:00": "<div><time when=\"10:15:00\">\n             午前十・十五時\n            </time>\n            御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0176\">\n<head>\n<date when=\"1927-07-11\">\n           十一日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:15:00\">\n             午前十・十五時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_二荒\">\n             二荒\n            </placeName>\n<persName corresp=\"#pers_芳徳\">\n<forename>\n              芳徳\n             </forename>\n</persName>\n            伯来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n            勤倹奨励婦人団体委員会会催《（開）》ニ付協議会（内務大臣官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0176\">\n<head>\n<date when=\"1927-07-11\">\n           十一日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:15:00\">\n             午前十・十五時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_二荒芳徳\">\n<surname>\n              二荒\n             </surname>\n<forename>\n              芳徳\n             </forename>\n</persName>\n            伯来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n            勤倹奨励婦人団体委員会会催《（開）》ニ付協議会（内務大臣官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-07"
 }

@@ -10,6 +10,17 @@
         "岩下清周",
         "永野護"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/原泰一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/白石",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/有馬頼寧",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/内田嘉吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中島久万吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岸吉松",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岩下清周",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/永野護"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1525",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -35,8 +46,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸",
-        "飛鳥山公園",
         "永楽町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/永楽町"
     ],
     "temporal": "1926-10-04",
     "texts": [
@@ -65,7 +79,7 @@
         "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_原泰一\">\n<surname>\n              原\n             </surname>\n<forename>\n              泰一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0257\">\n<head>\n<date when=\"1926-10-04\">\n           四日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_原泰一\">\n<surname>\n              原\n             </surname>\n<forename>\n              泰一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_白石\">\n<forename>\n              白石\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_岡田\">\n<surname>\n              岡田\n             </surname>\n</persName>\n            両氏来約（〃〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_有馬頼寧\">\n<surname>\n              有馬\n             </surname>\n<forename>\n              頼寧\n             </forename>\n</persName>\n            伯来約\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"13:20:00\">\n             午後一・二〇\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            グツドマン夫人来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:40:00\">\n             午後二・四〇\n            </time>\n<persName corresp=\"#pers_内田嘉吉\">\n<surname>\n              内田\n             </surname>\n<forename>\n              嘉吉\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_中島久万吉\">\n<surname>\n              中島\n             </surname>\n<forename>\n              久万吉\n             </forename>\n</persName>\n            両氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_岸吉松\">\n<surname>\n              岸\n             </surname>\n<forename>\n              吉松\n             </forename>\n</persName>\n            氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_岩下清周\">\n<surname>\n              岩下\n             </surname>\n<forename>\n              清周\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_永野護\">\n<surname>\n              永野\n             </surname>\n<forename>\n              護\n             </forename>\n</persName>\n            二氏来約（\n            <placeName corresp=\"#place_永楽町\">\n             永楽町\n            </placeName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午后六時\n            </time>\n            逓信大臣招待（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0257\">\n<head>\n<date when=\"1926-10-04\">\n           四日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_原泰一\">\n<surname>\n              原\n             </surname>\n<forename>\n              泰一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_白石\">\n<forename>\n              白石\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_岡田\">\n<surname>\n              岡田\n             </surname>\n</persName>\n            両氏来約（〃〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_有馬頼寧\">\n<surname>\n              有馬\n             </surname>\n<forename>\n              頼寧\n             </forename>\n</persName>\n            伯来約\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"13:20:00\">\n             午後一・二〇\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            グツドマン夫人来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:40:00\">\n             午後二・四〇\n            </time>\n<persName corresp=\"#pers_内田嘉吉\">\n<surname>\n              内田\n             </surname>\n<forename>\n              嘉吉\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_中島久万吉\">\n<surname>\n              中島\n             </surname>\n<forename>\n              久万吉\n             </forename>\n</persName>\n            両氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_岸吉松\">\n<surname>\n              岸\n             </surname>\n<forename>\n              吉松\n             </forename>\n</persName>\n            氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_岩下清周\">\n<surname>\n              岩下\n             </surname>\n<forename>\n              清周\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_永野護\">\n<surname>\n              永野\n             </surname>\n<forename>\n              護\n             </forename>\n</persName>\n            二氏来約（\n            <placeName corresp=\"#place_永楽町\">\n             永楽町\n            </placeName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午后六時\n            </time>\n            逓信大臣招待（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-10"
 }

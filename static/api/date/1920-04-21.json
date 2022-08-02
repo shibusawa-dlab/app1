@@ -1,7 +1,9 @@
 {
     "agential": [
-        "徳川",
-        "永楽"
+        "徳川"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1331",
     "category": {
@@ -18,7 +20,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-04",
     "date_lvl2": "1920-04-21",
-    "description": "\n\n\n           廿一日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n\n\n              徳川\n             \n\n            公ヲ御訪問（\n            \n             第六天\n            \n            邸）\n           \n\n\n\n\n             正午\n            \n            道路改良会理事会（\n            \n\n              永楽\n             \n\n            クラブ）\n           \n\n\n\n\n             午後四時\n            \n\n             第一銀行\n            \n            支店長招待会（帝劇）\n           \n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n\n\n              徳川\n             \n\n            公ヲ御訪問（\n            \n             第六天\n            \n            邸）\n           \n\n\n\n\n             正午\n            \n            道路改良会理事会（永楽クラブ）\n           \n\n\n\n\n             午後四時\n            \n\n             第一銀行\n            \n            支店長招待会（帝劇）\n           \n\n\n",
     "label": "廿一日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0110",
@@ -27,7 +29,10 @@
     "sort": "DKB20022m-0109",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "第六天"
+        "第六天町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/第六天町"
     ],
     "temporal": "1920-04-21",
     "texts": [
@@ -53,10 +58,10 @@
         "DKB20025m-0122"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公ヲ御訪問（\n            <placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n            邸）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公ヲ御訪問（\n            <placeName corresp=\"#place_第六天町\">\n             第六天\n            </placeName>\n            邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0109\">\n<head>\n<date when=\"1920-04-21\">\n           廿一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公ヲ御訪問（\n            <placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            道路改良会理事会（\n            <persName corresp=\"#pers_永楽\">\n<surname>\n              永楽\n             </surname>\n</persName>\n            クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n            支店長招待会（帝劇）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0109\">\n<head>\n<date when=\"1920-04-21\">\n           廿一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公ヲ御訪問（\n            <placeName corresp=\"#place_第六天町\">\n             第六天\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            道路改良会理事会（永楽クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n            支店長招待会（帝劇）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-04"
 }

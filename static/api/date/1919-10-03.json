@@ -1,6 +1,11 @@
 {
     "agential": [
+        "牧野",
         "徳川"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/牧野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1311",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-10",
     "date_lvl2": "1919-10-03",
-    "description": "\n\n\n           三日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n\n             巣鴨\n            \n            病院開院式（\n            \n             荏原\n            \n            郡\n            \n             松沢村\n            \n            同病院）\n           \n\n\n\n\n             引続\n            \n            牧野男爵御訪問ノハヅ（同氏邸）\n           \n\n\n\n\n             午後一時四十五分\n            \n\n\n              徳川\n             \n\n            公爵ヲ御訪問ノ約（華族会館）\n           \n\n\n",
+    "description": "\n\n\n           三日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n\n             巣鴨\n            \n            病院開院式（\n            \n             荏原\n            \n            郡\n            \n             松沢村\n            \n            同病院）\n           \n\n\n\n\n             引続\n            \n\n\n              牧野\n             \n\n            男爵御訪問ノハヅ（同氏邸）\n           \n\n\n\n\n             午後一時四十五分\n            \n\n\n              徳川\n             \n\n            公爵ヲ御訪問ノ約（華族会館）\n           \n\n\n",
     "label": "三日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0248",
@@ -29,6 +34,11 @@
         "巣鴨",
         "荏原",
         "松沢村"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/巣鴨",
+        "https://shibusawa-dlab.github.io/lab1/api/place/荏原",
+        "https://shibusawa-dlab.github.io/lab1/api/place/松沢村"
     ],
     "temporal": "1919-10-03",
     "texts": [
@@ -57,7 +67,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_巣鴨\">\n             巣鴨\n            </placeName>\n            病院開院式（\n            <placeName corresp=\"#place_荏原\">\n             荏原\n            </placeName>\n            郡\n            <placeName corresp=\"#place_松沢村\">\n             松沢村\n            </placeName>\n            同病院）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0247\">\n<head>\n<date when=\"1919-10-03\">\n           三日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_巣鴨\">\n             巣鴨\n            </placeName>\n            病院開院式（\n            <placeName corresp=\"#place_荏原\">\n             荏原\n            </placeName>\n            郡\n            <placeName corresp=\"#place_松沢村\">\n             松沢村\n            </placeName>\n            同病院）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続\n            </time>\n            牧野男爵御訪問ノハヅ（同氏邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:45:00\">\n             午後一時四十五分\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公爵ヲ御訪問ノ約（華族会館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0247\">\n<head>\n<date when=\"1919-10-03\">\n           三日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_巣鴨\">\n             巣鴨\n            </placeName>\n            病院開院式（\n            <placeName corresp=\"#place_荏原\">\n             荏原\n            </placeName>\n            郡\n            <placeName corresp=\"#place_松沢村\">\n             松沢村\n            </placeName>\n            同病院）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続\n            </time>\n<persName corresp=\"#pers_牧野\">\n<surname>\n              牧野\n             </surname>\n</persName>\n            男爵御訪問ノハヅ（同氏邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:45:00\">\n             午後一時四十五分\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公爵ヲ御訪問ノ約（華族会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-10"
 }

@@ -7,6 +7,14 @@
         "佐野",
         "井上"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岩崎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/井上金治郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/林忠正",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/西尾",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/井上"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/298",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -32,15 +40,25 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "ビクトリヤ",
-        "ドーバー",
+        "ドーバー_(イギリス)",
         "ドハー",
-        "仏国",
+        "フランス",
         "カレー港",
-        "ドバ",
-        "カレー",
+        "カレー_(フランス)",
         "パリ",
         "巴里府",
         "ガールジユノール"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/ビクトリヤ",
+        "https://shibusawa-dlab.github.io/lab1/api/place/ドーバー_(イギリス)",
+        "https://shibusawa-dlab.github.io/lab1/api/place/ドハー",
+        "https://shibusawa-dlab.github.io/lab1/api/place/フランス",
+        "https://shibusawa-dlab.github.io/lab1/api/place/カレー港",
+        "https://shibusawa-dlab.github.io/lab1/api/place/カレー_(フランス)",
+        "https://shibusawa-dlab.github.io/lab1/api/place/パリ",
+        "https://shibusawa-dlab.github.io/lab1/api/place/巴里府",
+        "https://shibusawa-dlab.github.io/lab1/api/place/ガールジユノール"
     ],
     "temporal": "1902-09-07",
     "texts": [
@@ -67,13 +85,13 @@
     ],
     "time": {
         "09:00:00": "<div>晴、<time when=\"09:00:00\">\n        午前九時\n       </time>\n       旅装ヲ理シ、\n       <persName corresp=\"#pers_岩崎\">\n<surname>\n         岩崎\n        </surname>\n</persName>\n       男爵ニ面会シテ告別ヲ為シ、送別ノ為メニ来訪スル諸人ト談話シ、</div>",
-        "10:00:00": "<div><time when=\"10:00:00\">\n        十時\n       </time>\n       旅宿ヲ発シ、\n       <placeName corresp=\"#place_ビクトリヤ\">\n        ビクトリヤ\n       </placeName>\n       停車場ニ於テ\n       <placeName corresp=\"#place_ドーバー\">\n        ドーバー\n       </placeName>\n       行ノ汽車ニ搭シ</div>",
+        "10:00:00": "<div><time when=\"10:00:00\">\n        十時\n       </time>\n       旅宿ヲ発シ、\n       <placeName corresp=\"#place_ビクトリヤ\">\n        ビクトリヤ\n       </placeName>\n       停車場ニ於テ\n       <placeName corresp=\"#place_ドーバー_(イギリス)\">\n        ドーバー\n       </placeName>\n       行ノ汽車ニ搭シ</div>",
         "13:00:00": "<div><time when=\"13:00:00\">\n        午後一時\n       </time>\n<placeName corresp=\"#place_ドハー\">\n        ドハー\n       </placeName>\n       着、直ニ汽船ニテ英仏海峡\n       <pb corresp=\"#pageB1273\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/299/full/max/0/default.jpg\" n=\"B1273\" source=\"#pageB1273\"/>\n       ヲ超ヘ</div>",
-        "14:30:00": "<div><time when=\"14:30:00\">\n        二時半\n       </time>\n<placeName corresp=\"#place_仏国\">\n        仏国\n       </placeName>\n<placeName corresp=\"#place_カレー港\">\n        カレー港\n       </placeName>\n       ニ着ス、此日ハ風ナクシテ有名ノ\n       <placeName corresp=\"#place_ドバ\">\n        ドバ\n       </placeName>\n<placeName corresp=\"#place_カレー\">\n        カレー\n       </placeName>\n       海峡モ船極テ平穏ナリキ、\n       <placeName corresp=\"#place_カレー\">\n        カレー\n       </placeName>\n       到着ノ際\n       <persName corresp=\"#pers_井上金治郎\">\n<surname>\n         井上\n        </surname>\n<forename>\n         金治郎\n        </forename>\n</persName>\n       夫妻来リ迎フ直ニ同車ニテ\n       <placeName corresp=\"#place_パリ\">\n        巴里\n       </placeName>\n       行ノ汽車ニ搭シ、</div>",
+        "14:30:00": "<div><time when=\"14:30:00\">\n        二時半\n       </time>\n<placeName corresp=\"#place_フランス\">\n        仏国\n       </placeName>\n<placeName corresp=\"#place_カレー港\">\n        カレー港\n       </placeName>\n       ニ着ス、此日ハ風ナクシテ有名ノ\n       <placeName corresp=\"#place_ドーバー_(イギリス)\">\n        ドバ\n       </placeName>\n<placeName corresp=\"#place_カレー_(フランス)\">\n        カレー\n       </placeName>\n       海峡モ船極テ平穏ナリキ、\n       <placeName corresp=\"#place_カレー_(フランス)\">\n        カレー\n       </placeName>\n       到着ノ際\n       <persName corresp=\"#pers_井上金治郎\">\n<surname>\n         井上\n        </surname>\n<forename>\n         金治郎\n        </forename>\n</persName>\n       夫妻来リ迎フ直ニ同車ニテ\n       <placeName corresp=\"#place_パリ\">\n        巴里\n       </placeName>\n       行ノ汽車ニ搭シ、</div>",
         "18:50:00": "<div><time when=\"18:50:00\">\n        午後六時五十分\n       </time>\n<placeName corresp=\"#place_巴里府\">\n        巴里府\n       </placeName>\n<placeName corresp=\"#place_ガールジユノール\">\n        ガールジユノール\n       </placeName>\n       ニ着ス、停車場ニハ\n       <persName corresp=\"#pers_林忠正\">\n<surname>\n         林\n        </surname>\n<forename>\n         忠正\n        </forename>\n</persName>\n       氏兄弟、\n       <persName corresp=\"#pers_西尾\">\n<surname>\n         西尾\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_佐野\">\n<surname>\n         佐野\n        </surname>\n</persName>\n       ノ諸氏来リ迎フ相伴フテガランド・ホテルニ投宿ス、夜、林、\n       <persName corresp=\"#pers_井上\">\n<surname>\n         井上\n        </surname>\n</persName>\n       氏等ト滞留中諸方歴覧及訪問スヘキ人々ヘノ紹介手続ヲ協議ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-0019\">\n<head>\n<date when=\"1902-09-07\">\n        九月七日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"09:00:00\">\n        午前九時\n       </time>\n       旅装ヲ理シ、\n       <persName corresp=\"#pers_岩崎\">\n<surname>\n         岩崎\n        </surname>\n</persName>\n       男爵ニ面会シテ告別ヲ為シ、送別ノ為メニ来訪スル諸人ト談話シ、\n       <time when=\"10:00:00\">\n        十時\n       </time>\n       旅宿ヲ発シ、\n       <placeName corresp=\"#place_ビクトリヤ\">\n        ビクトリヤ\n       </placeName>\n       停車場ニ於テ\n       <placeName corresp=\"#place_ドーバー\">\n        ドーバー\n       </placeName>\n       行ノ汽車ニ搭シ\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n<placeName corresp=\"#place_ドハー\">\n        ドハー\n       </placeName>\n       着、直ニ汽船ニテ英仏海峡\n       <pb corresp=\"#pageB1273\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/299/full/max/0/default.jpg\" n=\"B1273\" source=\"#pageB1273\"/>\n       ヲ超ヘ\n       <time when=\"14:30:00\">\n        二時半\n       </time>\n<placeName corresp=\"#place_仏国\">\n        仏国\n       </placeName>\n<placeName corresp=\"#place_カレー港\">\n        カレー港\n       </placeName>\n       ニ着ス、此日ハ風ナクシテ有名ノ\n       <placeName corresp=\"#place_ドバ\">\n        ドバ\n       </placeName>\n<placeName corresp=\"#place_カレー\">\n        カレー\n       </placeName>\n       海峡モ船極テ平穏ナリキ、\n       <placeName corresp=\"#place_カレー\">\n        カレー\n       </placeName>\n       到着ノ際\n       <persName corresp=\"#pers_井上金治郎\">\n<surname>\n         井上\n        </surname>\n<forename>\n         金治郎\n        </forename>\n</persName>\n       夫妻来リ迎フ直ニ同車ニテ\n       <placeName corresp=\"#place_パリ\">\n        巴里\n       </placeName>\n       行ノ汽車ニ搭シ、\n       <time when=\"18:50:00\">\n        午後六時五十分\n       </time>\n<placeName corresp=\"#place_巴里府\">\n        巴里府\n       </placeName>\n<placeName corresp=\"#place_ガールジユノール\">\n        ガールジユノール\n       </placeName>\n       ニ着ス、停車場ニハ\n       <persName corresp=\"#pers_林忠正\">\n<surname>\n         林\n        </surname>\n<forename>\n         忠正\n        </forename>\n</persName>\n       氏兄弟、\n       <persName corresp=\"#pers_西尾\">\n<surname>\n         西尾\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_佐野\">\n<surname>\n         佐野\n        </surname>\n</persName>\n       ノ諸氏来リ迎フ相伴フテガランド・ホテルニ投宿ス、夜、林、\n       <persName corresp=\"#pers_井上\">\n<surname>\n         井上\n        </surname>\n</persName>\n       氏等ト滞留中諸方歴覧及訪問スヘキ人々ヘノ紹介手続ヲ協議ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-0019\">\n<head>\n<date when=\"1902-09-07\">\n        九月七日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"09:00:00\">\n        午前九時\n       </time>\n       旅装ヲ理シ、\n       <persName corresp=\"#pers_岩崎\">\n<surname>\n         岩崎\n        </surname>\n</persName>\n       男爵ニ面会シテ告別ヲ為シ、送別ノ為メニ来訪スル諸人ト談話シ、\n       <time when=\"10:00:00\">\n        十時\n       </time>\n       旅宿ヲ発シ、\n       <placeName corresp=\"#place_ビクトリヤ\">\n        ビクトリヤ\n       </placeName>\n       停車場ニ於テ\n       <placeName corresp=\"#place_ドーバー_(イギリス)\">\n        ドーバー\n       </placeName>\n       行ノ汽車ニ搭シ\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n<placeName corresp=\"#place_ドハー\">\n        ドハー\n       </placeName>\n       着、直ニ汽船ニテ英仏海峡\n       <pb corresp=\"#pageB1273\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/299/full/max/0/default.jpg\" n=\"B1273\" source=\"#pageB1273\"/>\n       ヲ超ヘ\n       <time when=\"14:30:00\">\n        二時半\n       </time>\n<placeName corresp=\"#place_フランス\">\n        仏国\n       </placeName>\n<placeName corresp=\"#place_カレー港\">\n        カレー港\n       </placeName>\n       ニ着ス、此日ハ風ナクシテ有名ノ\n       <placeName corresp=\"#place_ドーバー_(イギリス)\">\n        ドバ\n       </placeName>\n<placeName corresp=\"#place_カレー_(フランス)\">\n        カレー\n       </placeName>\n       海峡モ船極テ平穏ナリキ、\n       <placeName corresp=\"#place_カレー_(フランス)\">\n        カレー\n       </placeName>\n       到着ノ際\n       <persName corresp=\"#pers_井上金治郎\">\n<surname>\n         井上\n        </surname>\n<forename>\n         金治郎\n        </forename>\n</persName>\n       夫妻来リ迎フ直ニ同車ニテ\n       <placeName corresp=\"#place_パリ\">\n        巴里\n       </placeName>\n       行ノ汽車ニ搭シ、\n       <time when=\"18:50:00\">\n        午後六時五十分\n       </time>\n<placeName corresp=\"#place_巴里府\">\n        巴里府\n       </placeName>\n<placeName corresp=\"#place_ガールジユノール\">\n        ガールジユノール\n       </placeName>\n       ニ着ス、停車場ニハ\n       <persName corresp=\"#pers_林忠正\">\n<surname>\n         林\n        </surname>\n<forename>\n         忠正\n        </forename>\n</persName>\n       氏兄弟、\n       <persName corresp=\"#pers_西尾\">\n<surname>\n         西尾\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_佐野\">\n<surname>\n         佐野\n        </surname>\n</persName>\n       ノ諸氏来リ迎フ相伴フテガランド・ホテルニ投宿ス、夜、林、\n       <persName corresp=\"#pers_井上\">\n<surname>\n         井上\n        </surname>\n</persName>\n       氏等ト滞留中諸方歴覧及訪問スヘキ人々ヘノ紹介手続ヲ協議ス\n      </p>\n</div>",
     "year": "1902",
     "yearAndMonth": "1902-09"
 }

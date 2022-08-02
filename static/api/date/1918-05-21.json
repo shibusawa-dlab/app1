@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1268",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-05",
     "date_lvl2": "1918-05-21",
-    "description": "\n\n\n           廿一日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n            早稲田大学校規改正委員会（同校）\n           \n\n\n\n\n\n             午時\n            \n            歌舞伎坐御見物\n           \n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n\n             早稲田大学\n            \n            校規改正委員会（同校）\n           \n\n\n\n\n\n             午時\n            \n            歌舞伎坐御見物\n           \n\n\n",
     "label": "廿一日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0136",
@@ -24,6 +25,7 @@
     "sort": "DKB20020m-0135",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [],
+    "spatial_uri": [],
     "temporal": "1918-05-21",
     "texts": [
         "DKB20019m-0085",
@@ -48,10 +50,10 @@
         "DKB20017m-0002"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            早稲田大学校規改正委員会（同校）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<orgName>\n             早稲田大学\n            </orgName>\n            校規改正委員会（同校）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0135\">\n<head>\n<date when=\"1918-05-21\">\n           廿一日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            早稲田大学校規改正委員会（同校）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2429\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1268/full/max/0/default.jpg\" n=\"B2429\" source=\"#pageB2429\"/>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            歌舞伎坐御見物\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0135\">\n<head>\n<date when=\"1918-05-21\">\n           廿一日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<orgName>\n             早稲田大学\n            </orgName>\n            校規改正委員会（同校）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2429\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1268/full/max/0/default.jpg\" n=\"B2429\" source=\"#pageB2429\"/>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            歌舞伎坐御見物\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-05"
 }

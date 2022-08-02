@@ -2,6 +2,9 @@
     "agential": [
         "林"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/林"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1257",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-01",
     "date_lvl2": "1918-01-15",
-    "description": "\n\n\n           十五日\n          \n          （火）\n         \n\n\n\n\n             正午\n            \n            第一銀行\n            \n\n              林\n             \n\n            公使送別会（銀行集会所）\n           \n\n\n\n\n             午後三―午後四時\n            \n\n             飯能\n            \n            銀行\n            \n             千住\n            \n            支店開店披露会御招待（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            中央慈善協会評議員会并ニ講演会（\n            \n             東京\n            \n            府庁）\n           \n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （火）\n         \n\n\n\n\n             正午\n            \n            第一銀行\n            \n\n              林\n             \n\n            公使送別会（銀行集会所）\n           \n\n\n\n\n             午後三―午後四時\n            \n\n             飯能銀行\n            \n\n             千住\n            \n            支店開店披露会御招待（\n            \n             上野\n            \n\n             精養軒\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            中央慈善協会評議員会并ニ講演会（\n            \n             東京\n            \n            府庁）\n           \n\n\n",
     "label": "十五日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0013",
@@ -26,10 +29,14 @@
     "sort": "DKB20020m-0012",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飯能",
         "千住",
-        "上野精養軒",
+        "上野",
         "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/千住",
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1918-01-15",
     "texts": [
@@ -58,7 +65,7 @@
         "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            第一銀行\n            <persName corresp=\"#pers_林\">\n<surname>\n              林\n             </surname>\n</persName>\n            公使送別会（銀行集会所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0012\">\n<head>\n<date when=\"1918-01-15\">\n           十五日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            第一銀行\n            <persName corresp=\"#pers_林\">\n<surname>\n              林\n             </surname>\n</persName>\n            公使送別会（銀行集会所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―午後四時\n            </time>\n<placeName corresp=\"#place_飯能\">\n             飯能\n            </placeName>\n            銀行\n            <placeName corresp=\"#place_千住\">\n             千住\n            </placeName>\n            支店開店披露会御招待（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            中央慈善協会評議員会并ニ講演会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            府庁）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0012\">\n<head>\n<date when=\"1918-01-15\">\n           十五日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            第一銀行\n            <persName corresp=\"#pers_林\">\n<surname>\n              林\n             </surname>\n</persName>\n            公使送別会（銀行集会所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―午後四時\n            </time>\n<orgName>\n             飯能銀行\n            </orgName>\n<placeName corresp=\"#place_千住\">\n             千住\n            </placeName>\n            支店開店披露会御招待（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            中央慈善協会評議員会并ニ講演会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            府庁）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-01"
 }

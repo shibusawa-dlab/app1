@@ -1,6 +1,9 @@
 {
     "agential": [
-        "塩入"
+        "塩入良善"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/塩入良善"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1604",
     "category": {
@@ -17,7 +20,7 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-11",
     "date_lvl2": "1929-11-13",
-    "description": "\n\n\n           十三日\n          \n          （水）\n         \n\n\n\n\n             午時\n            \n\n             長楽\n            \n            寺\n            \n\n              塩入\n             \n\n            良善来約《（氏脱）》（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            救世軍\n            \n             米国\n            \n            総司令官ブース女史歓迎茶会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （水）\n         \n\n\n\n\n             午時\n            \n            長楽寺\n            \n\n              塩入\n             \n\n              良善\n             \n\n            来約《（氏脱）》（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            救世軍\n            \n             米国\n            \n            総司令官ブース女史歓迎茶会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "label": "十三日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20031m-0221",
@@ -26,10 +29,12 @@
     "sort": "DKB20031m-0220",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "長楽",
-        "飛鳥山公園",
-        "アメリカ合衆国",
-        "飛鳥山邸"
+        "飛鳥山邸",
+        "アメリカ合衆国"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アメリカ合衆国"
     ],
     "temporal": "1929-11-13",
     "texts": [
@@ -55,10 +60,10 @@
         "DKB20033m-0049"
     ],
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_長楽\">\n             長楽\n            </placeName>\n            寺\n            <persName corresp=\"#pers_塩入\">\n<surname>\n              塩入\n             </surname>\n</persName>\n            良善来約《（氏脱）》（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n            長楽寺\n            <persName corresp=\"#pers_塩入良善\">\n<surname>\n              塩入\n             </surname>\n<forename>\n              良善\n             </forename>\n</persName>\n            来約《（氏脱）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0220\">\n<head>\n<date when=\"1929-11-13\">\n           十三日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_長楽\">\n             長楽\n            </placeName>\n            寺\n            <persName corresp=\"#pers_塩入\">\n<surname>\n              塩入\n             </surname>\n</persName>\n            良善来約《（氏脱）》（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            救世軍\n            <placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            総司令官ブース女史歓迎茶会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0220\">\n<head>\n<date when=\"1929-11-13\">\n           十三日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            長楽寺\n            <persName corresp=\"#pers_塩入良善\">\n<surname>\n              塩入\n             </surname>\n<forename>\n              良善\n             </forename>\n</persName>\n            来約《（氏脱）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            救世軍\n            <placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            総司令官ブース女史歓迎茶会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-11"
 }

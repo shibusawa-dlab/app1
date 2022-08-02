@@ -1,9 +1,13 @@
 {
     "agential": [
-        "チニ",
         "原敬",
         "原",
         "服部金太郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/原敬",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/原",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/服部金太郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1172",
     "category": {
@@ -20,7 +24,7 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-12",
     "date_lvl2": "1914-12-20",
-    "description": "\n\n\n           二十日\n          \n          （日）\n         \n\n\n\n\n             朝《（朱書）》ノウ\n             \n\n               チニ\n              \n\n\n\n\n              原\n             \n\n              敬\n             \n\n            氏ニ電話ニテ都合ヲキク約束アリ\n           \n\n\n\n\n             午前十時\n            \n            マデニ\n            \n             大六天町\n            \n            様顧問会《（第）》\n           \n\n\n\n\n\n             午後三時\n            \n            頃迄ニ\n            \n\n              原\n             \n\n            氏ヲ御訪問ノ約（但シ時間ガオクレレバ明日ニノバス）\n           \n\n\n\n\n             午後五時\n            \n\n\n              服部\n             \n\n              金太郎\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （日）\n         \n\n\n\n\n             朝《（朱書）》\n            \n            ノウチニ\n            \n\n              原\n             \n\n              敬\n             \n\n            氏ニ電話ニテ都合ヲキク約束アリ\n           \n\n\n\n\n             午前十時\n            \n            マデニ\n            \n             大六天町\n            \n            様顧問会《（第）》\n           \n\n\n\n\n\n             午後三時\n            \n            頃迄ニ\n            \n\n              原\n             \n\n            氏ヲ御訪問ノ約（但シ時間ガオクレレバ明日ニノバス）\n           \n\n\n\n\n             午後五時\n            \n\n\n              服部\n             \n\n              金太郎\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n",
     "label": "二十日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20016m-0097",
@@ -29,7 +33,10 @@
     "sort": "DKB20016m-0096",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "大六天町"
+        "第六天町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/第六天町"
     ],
     "temporal": "1914-12-20",
     "texts": [
@@ -56,7 +63,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0096\">\n<head>\n<date when=\"1914-12-20\">\n           二十日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             朝《（朱書）》ノウ\n             <persName corresp=\"#pers_チニ\">\n<forename>\n               チニ\n              </forename>\n</persName>\n</time>\n<persName corresp=\"#pers_原敬\">\n<surname>\n              原\n             </surname>\n<forename>\n              敬\n             </forename>\n</persName>\n            氏ニ電話ニテ都合ヲキク約束アリ\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            マデニ\n            <placeName corresp=\"#place_大六天町\">\n             大六天町\n            </placeName>\n            様顧問会《（第）》\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2333\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1172/full/max/0/default.jpg\" n=\"B2333\" source=\"#pageB2333\"/>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            頃迄ニ\n            <persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            氏ヲ御訪問ノ約（但シ時間ガオクレレバ明日ニノバス）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_服部金太郎\">\n<surname>\n              服部\n             </surname>\n<forename>\n              金太郎\n             </forename>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0096\">\n<head>\n<date when=\"1914-12-20\">\n           二十日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             朝《（朱書）》\n            </time>\n            ノウチニ\n            <persName corresp=\"#pers_原敬\">\n<surname>\n              原\n             </surname>\n<forename>\n              敬\n             </forename>\n</persName>\n            氏ニ電話ニテ都合ヲキク約束アリ\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            マデニ\n            <placeName corresp=\"#place_第六天町\">\n             大六天町\n            </placeName>\n            様顧問会《（第）》\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2333\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1172/full/max/0/default.jpg\" n=\"B2333\" source=\"#pageB2333\"/>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            頃迄ニ\n            <persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            氏ヲ御訪問ノ約（但シ時間ガオクレレバ明日ニノバス）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_服部金太郎\">\n<surname>\n              服部\n             </surname>\n<forename>\n              金太郎\n             </forename>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-12"
 }

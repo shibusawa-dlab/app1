@@ -3,6 +3,10 @@
         "斎藤茂三郎",
         "藤山雷太"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/斎藤茂三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/藤山雷太"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1450",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -27,9 +31,14 @@
     "sort": "DKB20026m-0018",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山",
+        "飛鳥山邸",
         "日本",
         "四谷_(曖昧さ回避)"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本",
+        "https://shibusawa-dlab.github.io/lab1/api/place/四谷_(曖昧さ回避)"
     ],
     "temporal": "1924-01-18",
     "texts": [
@@ -55,10 +64,10 @@
         "DKB20017m-0236"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_斎藤茂三郎\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              茂三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_斎藤茂三郎\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              茂三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0018\">\n<head>\n<date when=\"1924-01-18\">\n           十八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_斎藤茂三郎\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              茂三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            結核予防協会評議員会（\n            <placeName corresp=\"#place_四谷_(曖昧さ回避)\">\n             四ツ谷\n            </placeName>\n            慶応大学病院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_藤山雷太\">\n<surname>\n              藤山\n             </surname>\n<forename>\n              雷太\n             </forename>\n</persName>\n            氏ヨリ御案内（紅葉館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0018\">\n<head>\n<date when=\"1924-01-18\">\n           十八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_斎藤茂三郎\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              茂三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            結核予防協会評議員会（\n            <placeName corresp=\"#place_四谷_(曖昧さ回避)\">\n             四ツ谷\n            </placeName>\n            慶応大学病院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_藤山雷太\">\n<surname>\n              藤山\n             </surname>\n<forename>\n              雷太\n             </forename>\n</persName>\n            氏ヨリ御案内（紅葉館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-01"
 }

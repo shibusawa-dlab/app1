@@ -1,6 +1,11 @@
 {
     "agential": [
-        "佐藤"
+        "佐藤",
+        "梁士詒"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/佐藤",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/梁士詒"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1253",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-12",
     "date_lvl2": "1917-12-02",
-    "description": "\n\n\n           二日\n          \n          （日）\n         \n\n\n\n\n             午前時\n            \n            新\n            \n             日本\n            \n            記者\n            \n\n              佐藤\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n\n             午後二時\n            \n\n             日本\n            \n            弘道会所沢支部発会式ニ於テ御講演（小学校）\n           \n\n\n\n\n             午後六時\n            \n            中日実業会社ヨリ御案内、梁士詒氏招待会（\n            \n             木挽町\n            \n            山口）\n           \n\n\n",
+    "description": "\n\n\n           二日\n          \n          （日）\n         \n\n\n\n\n             午前時\n            \n            新\n            \n             日本\n            \n            記者\n            \n\n              佐藤\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n\n             午後二時\n            \n\n             日本\n            \n            弘道会所沢支部発会式ニ於テ御講演（小学校）\n           \n\n\n\n\n             午後六時\n            \n            中日実業会社ヨリ御案内、\n            \n\n              梁\n             \n\n              士詒\n             \n\n            氏招待会（\n            \n             木挽町\n            \n            山口）\n           \n\n\n",
     "label": "二日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0313",
@@ -29,6 +34,11 @@
         "日本",
         "飛鳥山邸",
         "木挽町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/木挽町"
     ],
     "temporal": "1917-12-02",
     "texts": [
@@ -55,7 +65,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0312\">\n<head>\n<date when=\"1917-12-02\">\n           二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前時\n            </time>\n            新\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            記者\n            <persName corresp=\"#pers_佐藤\">\n<surname>\n              佐藤\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2414\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1253/full/max/0/default.jpg\" n=\"B2414\" source=\"#pageB2414\"/>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            弘道会所沢支部発会式ニ於テ御講演（小学校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            中日実業会社ヨリ御案内、梁士詒氏招待会（\n            <placeName corresp=\"#place_木挽町\">\n             木挽町\n            </placeName>\n            山口）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0312\">\n<head>\n<date when=\"1917-12-02\">\n           二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前時\n            </time>\n            新\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            記者\n            <persName corresp=\"#pers_佐藤\">\n<surname>\n              佐藤\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2414\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1253/full/max/0/default.jpg\" n=\"B2414\" source=\"#pageB2414\"/>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            弘道会所沢支部発会式ニ於テ御講演（小学校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            中日実業会社ヨリ御案内、\n            <persName corresp=\"#pers_梁士詒\">\n<surname>\n              梁\n             </surname>\n<forename>\n              士詒\n             </forename>\n</persName>\n            氏招待会（\n            <placeName corresp=\"#place_木挽町\">\n             木挽町\n            </placeName>\n            山口）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-12"
 }

@@ -1,6 +1,13 @@
 {
     "agential": [
+        "中村",
+        "清水釘吉",
         "団"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中村",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/清水釘吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/団"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1495",
     "category": {
@@ -17,7 +24,7 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-10",
     "date_lvl2": "1925-10-22",
-    "description": "\n\n\n           廿二日\n          \n          （木）\n         \n\n\n\n\n             午前十一時\n            \n\n             中村\n            \n\n             東京\n            \n            市長ト御会見（\n            \n             東京\n            \n            市役所）\n           \n\n\n\n\n             午前十一時\n            \n\n             清水\n            \n            釘吉氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            三井合名会社に\n            \n\n              団\n             \n\n            氏を御訪問（同会社）\n           \n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （木）\n         \n\n\n\n\n             午前十一時\n            \n\n\n              中村\n             \n\n\n             東京\n            \n            市長ト御会見（\n            \n             東京\n            \n            市役所）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              清水\n             \n\n              釘吉\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            三井合名会社に\n            \n\n              団\n             \n\n            氏を御訪問（同会社）\n           \n\n\n",
     "label": "廿二日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20027m-0180",
@@ -26,10 +33,12 @@
     "sort": "DKB20027m-0179",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "中村",
         "東京",
-        "清水",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1925-10-22",
     "texts": [
@@ -55,10 +64,10 @@
         "DKB20030m-0259"
     ],
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_中村\">\n             中村\n            </placeName>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市長ト御会見（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市役所）</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市長ト御会見（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市役所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0179\">\n<head>\n<date when=\"1925-10-22\">\n           廿二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_中村\">\n             中村\n            </placeName>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市長ト御会見（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市役所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_清水\">\n             清水\n            </placeName>\n            釘吉氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            三井合名会社に\n            <persName corresp=\"#pers_団\">\n<surname>\n              団\n             </surname>\n</persName>\n            氏を御訪問（同会社）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0179\">\n<head>\n<date when=\"1925-10-22\">\n           廿二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市長ト御会見（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市役所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_清水釘吉\">\n<surname>\n              清水\n             </surname>\n<forename>\n              釘吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            三井合名会社に\n            <persName corresp=\"#pers_団\">\n<surname>\n              団\n             </surname>\n</persName>\n            氏を御訪問（同会社）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-10"
 }

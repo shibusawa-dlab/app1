@@ -1,7 +1,11 @@
 {
     "agential": [
-        "篤二",
+        "渋沢篤二",
         "穂積"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢篤二",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/穂積"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/122",
     "category": {
@@ -18,7 +22,7 @@
     "date_lvl0": "1899",
     "date_lvl1": "1899-07",
     "date_lvl2": "1899-07-20",
-    "description": "\n\n\n        七月二十日\n       \n\n\n       晴、午前\n       \n        深川\n       \n\n        釜屋堀\n       \n       人造肥料会社株主総会ニ出席ス、畢テ銀行ニ出勤シテ重役会ヲ開キ要件ヲ議決ス、\n       \n        午後五時\n       \n       三井物産会社ノ招宴ニヨリテ\n       \n        柳橋\n       \n       升田屋ニ抵ル、夜\n       \n        十時\n       \n       深川邸ニ帰宿ス、此日米国ヨリ電報アリテ、\n       \n\n         篤二\n        \n\n       、\n       \n\n         穂積\n        \n\n       二人ハ昨日晩香坡安着ノ事ヲ報シ来ル\n      \n",
+    "description": "\n\n\n        七月二十日\n       \n\n\n       晴、午前\n       \n        深川\n       \n\n        釜屋堀\n       \n\n        人造肥料会社\n       \n       株主総会ニ出席ス、畢テ銀行ニ出勤シテ重役会ヲ開キ要件ヲ議決ス、\n       \n        午後五時\n       \n       三井物産会社ノ招宴ニヨリテ\n       \n        柳橋\n       \n       升田屋ニ抵ル、夜\n       \n        十時\n       \n\n        深川邸\n       \n       ニ帰宿ス、此日米国ヨリ電報アリテ、\n       \n\n         篤二\n        \n\n       、\n       \n\n         穂積\n        \n\n       二人ハ昨日晩香坡安着ノ事ヲ報シ来ル\n      \n",
     "label": "七月二十日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10008m-0202",
@@ -29,7 +33,14 @@
     "spatial": [
         "深川",
         "釜屋堀",
-        "柳橋"
+        "柳橋",
+        "深川邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/深川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/釜屋堀",
+        "https://shibusawa-dlab.github.io/lab1/api/place/柳橋",
+        "https://shibusawa-dlab.github.io/lab1/api/place/深川邸"
     ],
     "temporal": "1899-07-20",
     "texts": [
@@ -55,11 +66,11 @@
         "DKB10011m-0121"
     ],
     "time": {
-        "17:00:00": "<div>晴、午前\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n<placeName corresp=\"#place_釜屋堀\">\n        釜屋堀\n       </placeName>\n       人造肥料会社株主総会ニ出席ス、畢テ銀行ニ出勤シテ重役会ヲ開キ要件ヲ議決ス、<time when=\"17:00:00\">\n        午後五時\n       </time>\n       三井物産会社ノ招宴ニヨリテ\n       <placeName corresp=\"#place_柳橋\">\n        柳橋\n       </placeName>\n       升田屋ニ抵ル、夜</div>",
-        "22:00:00": "<div><time when=\"22:00:00\">\n        十時\n       </time>\n       深川邸ニ帰宿ス、此日米国ヨリ電報アリテ、\n       <persName corresp=\"#pers_篤二\">\n<forename>\n         篤二\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_穂積\">\n<surname>\n         穂積\n        </surname>\n</persName>\n       二人ハ昨日晩香坡安着ノ事ヲ報シ来ル</div>"
+        "17:00:00": "<div>晴、午前\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n<placeName corresp=\"#place_釜屋堀\">\n        釜屋堀\n       </placeName>\n<orgName>\n        人造肥料会社\n       </orgName>\n       株主総会ニ出席ス、畢テ銀行ニ出勤シテ重役会ヲ開キ要件ヲ議決ス、<time when=\"17:00:00\">\n        午後五時\n       </time>\n       三井物産会社ノ招宴ニヨリテ\n       <placeName corresp=\"#place_柳橋\">\n        柳橋\n       </placeName>\n       升田屋ニ抵ル、夜</div>",
+        "22:00:00": "<div><time when=\"22:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_深川邸\">\n        深川邸\n       </placeName>\n       ニ帰宿ス、此日米国ヨリ電報アリテ、\n       <persName corresp=\"#pers_渋沢篤二\">\n<forename>\n         篤二\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_穂積\">\n<surname>\n         穂積\n        </surname>\n</persName>\n       二人ハ昨日晩香坡安着ノ事ヲ報シ来ル</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-0201\">\n<head>\n<date when=\"1899-07-20\">\n        七月二十日\n       </date>\n</head>\n<p>\n       晴、午前\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n<placeName corresp=\"#place_釜屋堀\">\n        釜屋堀\n       </placeName>\n       人造肥料会社株主総会ニ出席ス、畢テ銀行ニ出勤シテ重役会ヲ開キ要件ヲ議決ス、\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n       三井物産会社ノ招宴ニヨリテ\n       <placeName corresp=\"#place_柳橋\">\n        柳橋\n       </placeName>\n       升田屋ニ抵ル、夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n       深川邸ニ帰宿ス、此日米国ヨリ電報アリテ、\n       <persName corresp=\"#pers_篤二\">\n<forename>\n         篤二\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_穂積\">\n<surname>\n         穂積\n        </surname>\n</persName>\n       二人ハ昨日晩香坡安着ノ事ヲ報シ来ル\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-0201\">\n<head>\n<date when=\"1899-07-20\">\n        七月二十日\n       </date>\n</head>\n<p>\n       晴、午前\n       <placeName corresp=\"#place_深川\">\n        深川\n       </placeName>\n<placeName corresp=\"#place_釜屋堀\">\n        釜屋堀\n       </placeName>\n<orgName>\n        人造肥料会社\n       </orgName>\n       株主総会ニ出席ス、畢テ銀行ニ出勤シテ重役会ヲ開キ要件ヲ議決ス、\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n       三井物産会社ノ招宴ニヨリテ\n       <placeName corresp=\"#place_柳橋\">\n        柳橋\n       </placeName>\n       升田屋ニ抵ル、夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_深川邸\">\n        深川邸\n       </placeName>\n       ニ帰宿ス、此日米国ヨリ電報アリテ、\n       <persName corresp=\"#pers_渋沢篤二\">\n<forename>\n         篤二\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_穂積\">\n<surname>\n         穂積\n        </surname>\n</persName>\n       二人ハ昨日晩香坡安着ノ事ヲ報シ来ル\n      </p>\n</div>",
     "year": "1899",
     "yearAndMonth": "1899-07"
 }

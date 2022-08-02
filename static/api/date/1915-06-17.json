@@ -2,6 +2,9 @@
     "agential": [
         "鈴木文治"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/鈴木文治"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1185",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-06",
     "date_lvl2": "1915-06-17",
-    "description": "\n\n\n           十七日\n          \n          （木）\n         \n\n\n\n\n             午後〇時半\n            \n\n             仏国\n            \n            大使ヨリ御案内（同大使館）\n           \n\n\n\n\n             午後五時\n            \n            日印協会々合（築地精養軒）\n           \n\n\n\n\n             午後六時\n            \n\n\n              鈴木\n             \n\n              文治\n             \n\n            氏送別会（\n            \n             兜町\n            \n            邸）\n           \n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （木）\n         \n\n\n\n\n             午後〇時半\n            \n\n             仏国\n            \n            大使ヨリ御案内（同大使館）\n           \n\n\n\n\n             午後五時\n            \n            日印協会々合（\n            \n             築地\n            \n\n             精養軒\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n\n\n              鈴木\n             \n\n              文治\n             \n\n            氏送別会（\n            \n             兜町\n            \n            邸）\n           \n\n\n",
     "label": "十七日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0159",
@@ -26,8 +29,14 @@
     "sort": "DKB20017m-0158",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "仏国",
+        "フランス",
+        "築地",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/フランス",
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1915-06-17",
     "texts": [
@@ -53,10 +62,10 @@
         "DKB20029m-0207"
     ],
     "time": {
-        "12:30:00": "<div><time when=\"12:30:00\">\n             午後〇時半\n            </time>\n<placeName corresp=\"#place_仏国\">\n             仏国\n            </placeName>\n            大使ヨリ御案内（同大使館）</div>"
+        "12:30:00": "<div><time when=\"12:30:00\">\n             午後〇時半\n            </time>\n<placeName corresp=\"#place_フランス\">\n             仏国\n            </placeName>\n            大使ヨリ御案内（同大使館）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0158\">\n<head>\n<date when=\"1915-06-17\">\n           十七日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇時半\n            </time>\n<placeName corresp=\"#place_仏国\">\n             仏国\n            </placeName>\n            大使ヨリ御案内（同大使館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            日印協会々合（築地精養軒）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_鈴木文治\">\n<surname>\n              鈴木\n             </surname>\n<forename>\n              文治\n             </forename>\n</persName>\n            氏送別会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0158\">\n<head>\n<date when=\"1915-06-17\">\n           十七日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇時半\n            </time>\n<placeName corresp=\"#place_フランス\">\n             仏国\n            </placeName>\n            大使ヨリ御案内（同大使館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            日印協会々合（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_鈴木文治\">\n<surname>\n              鈴木\n             </surname>\n<forename>\n              文治\n             </forename>\n</persName>\n            氏送別会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-06"
 }

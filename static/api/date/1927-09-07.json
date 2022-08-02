@@ -1,10 +1,17 @@
 {
     "agential": [
-        "良よし子",
+        "粒良よし子",
         "川村豊三",
         "守屋",
         "奥山清治",
         "浅野良三"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/粒良よし子",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/川村豊三",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/守屋",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/奥山清治",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野良三"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1554",
     "category": {
@@ -21,7 +28,7 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-09",
     "date_lvl2": "1927-09-07",
-    "description": "\n\n\n           七日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n            粒\n            \n\n              良\n             \n\n              よし子\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n            頃\n            \n\n              川村\n             \n\n              豊三\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九\n            \n            過時\n            \n\n              守屋\n             \n\n            東氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一半時\n            \n            御出勤\n           \n\n\n\n\n             午後一―二時\n            \n\n\n              奥山\n             \n\n              清治\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後二時\n            \n\n\n              浅野\n             \n\n              良三\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後三時\n            \n            中央社会事業協会理事会（同会）\n           \n\n\n",
+    "description": "\n\n\n           七日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n\n\n              粒良\n             \n\n              よし子\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n            頃\n            \n\n              川村\n             \n\n              豊三\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九\n            \n            過時\n            \n\n              守屋\n             \n\n            東氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一半時\n            \n            御出勤\n           \n\n\n\n\n             午後一―二時\n            \n\n\n              奥山\n             \n\n              清治\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後二時\n            \n\n\n              浅野\n             \n\n              良三\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後三時\n            \n            中央社会事業協会理事会（同会）\n           \n\n\n",
     "label": "七日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0224",
@@ -31,6 +38,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1927-09-07",
     "texts": [
@@ -56,10 +66,10 @@
         "DKB20032m-0135"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            粒\n            <persName corresp=\"#pers_良よし子\">\n<surname>\n              良\n             </surname>\n<forename>\n              よし子\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_粒良よし子\">\n<surname>\n              粒良\n             </surname>\n<forename>\n              よし子\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0223\">\n<head>\n<date when=\"1927-09-07\">\n           七日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            粒\n            <persName corresp=\"#pers_良よし子\">\n<surname>\n              良\n             </surname>\n<forename>\n              よし子\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            頃\n            <persName corresp=\"#pers_川村豊三\">\n<surname>\n              川村\n             </surname>\n<forename>\n              豊三\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九\n            </time>\n            過時\n            <persName corresp=\"#pers_守屋\">\n<forename>\n              守屋\n             </forename>\n</persName>\n            東氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"14:00:00\">\n             午後一―二時\n            </time>\n<persName corresp=\"#pers_奥山清治\">\n<surname>\n              奥山\n             </surname>\n<forename>\n              清治\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_浅野良三\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              良三\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            中央社会事業協会理事会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0223\">\n<head>\n<date when=\"1927-09-07\">\n           七日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_粒良よし子\">\n<surname>\n              粒良\n             </surname>\n<forename>\n              よし子\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            頃\n            <persName corresp=\"#pers_川村豊三\">\n<surname>\n              川村\n             </surname>\n<forename>\n              豊三\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九\n            </time>\n            過時\n            <persName corresp=\"#pers_守屋\">\n<forename>\n              守屋\n             </forename>\n</persName>\n            東氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"14:00:00\">\n             午後一―二時\n            </time>\n<persName corresp=\"#pers_奥山清治\">\n<surname>\n              奥山\n             </surname>\n<forename>\n              清治\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_浅野良三\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              良三\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            中央社会事業協会理事会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-09"
 }

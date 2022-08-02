@@ -2,8 +2,14 @@
     "agential": [
         "木暮祐雄",
         "島田",
-        "武之助",
+        "渋沢武之助",
         "明石"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/木暮祐雄",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/島田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢武之助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/明石"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/716",
     "category": {
@@ -34,6 +40,12 @@
         "浦和",
         "王子"
     ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/高崎",
+        "https://shibusawa-dlab.github.io/lab1/api/place/熊谷",
+        "https://shibusawa-dlab.github.io/lab1/api/place/浦和",
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子"
+    ],
     "temporal": "1911-08-16",
     "texts": [
         "DKB10016m-0282",
@@ -61,11 +73,11 @@
         "06:00:00": "<div><time when=\"06:00:00\">\n        午前六時\n       </time>\n       起床、入浴シテ、読書シ、</div>",
         "08:00:00": "<div><time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ食ス、今日帰京ノ筈ナルニ付旅装ヲ理メテ後、新聞紙又ハ雑書ヲ読ム、朝ヨリ雲霧濛々トシテ咫尺ヲ弁セス、時々驟雨疾風来ル、</div>",
         "12:00:00": "<div><time when=\"12:00:00\">\n        十二時\n       </time>\n       木暮ノ家ヲ発シ停車場ニテ電車ニ搭ス、\n       <persName corresp=\"#pers_木暮祐雄\">\n<surname>\n         木暮\n        </surname>\n<forename>\n         祐雄\n        </forename>\n</persName>\n<placeName corresp=\"#place_高崎\">\n        高崎\n       </placeName>\n       マテ送別ス、車中雨歇ミ風静カニシテ\n       <placeName corresp=\"#place_高崎\">\n        高崎\n       </placeName>\n       ニ到レハ天気稍静ナリ、汽車中勉テ雑誌類ヲ読ム、\n       <placeName corresp=\"#place_熊谷\">\n        熊谷\n       </placeName>\n       駅ヨリ\n       <persName corresp=\"#pers_島田\">\n<surname>\n         島田\n        </surname>\n</persName>\n       埼玉県知事同車ス、\n       <placeName corresp=\"#place_浦和\">\n        浦和\n       </placeName>\n       ニテ分ル、</div>",
-        "17:30:00": "<div><time when=\"17:30:00\">\n        午後五時半\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       着、停車場ニハ\n       <persName corresp=\"#pers_武之助\">\n<forename>\n         武之助\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_明石\">\n<surname>\n         明石\n        </surname>\n</persName>\n       其他大勢来リ迎フ、家ニ還テ却テ客中ノ苦ヲ覚ヘ、家居ノ安楽ヲ知ルノ想アリ、</div>",
+        "17:30:00": "<div><time when=\"17:30:00\">\n        午後五時半\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       着、停車場ニハ\n       <persName corresp=\"#pers_渋沢武之助\">\n<forename>\n         武之助\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_明石\">\n<surname>\n         明石\n        </surname>\n</persName>\n       其他大勢来リ迎フ、家ニ還テ却テ客中ノ苦ヲ覚ヘ、家居ノ安楽ヲ知ルノ想アリ、</div>",
         "18:30:00": "<div><time when=\"18:30:00\">\n        六時半\n       </time>\n       夜飧後、新聞紙類ヲ読マシム</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10019m-0206\">\n<head>\n<date when=\"1911-08-16\">\n        八月十六日\n       </date>\n       水　朝雨夕半晴　冷\n      </head>\n<p>\n<time when=\"06:00:00\">\n        午前六時\n       </time>\n       起床、入浴シテ、読書シ、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ食ス、今日帰京ノ筈ナルニ付旅装ヲ理メテ後、新聞紙又ハ雑書ヲ読ム、朝ヨリ雲霧濛々トシテ咫尺ヲ弁セス、時々驟雨疾風来ル、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n       木暮ノ家ヲ発シ停車場ニテ電車ニ搭ス、\n       <persName corresp=\"#pers_木暮祐雄\">\n<surname>\n         木暮\n        </surname>\n<forename>\n         祐雄\n        </forename>\n</persName>\n<placeName corresp=\"#place_高崎\">\n        高崎\n       </placeName>\n       マテ送別ス、車中雨歇ミ風静カニシテ\n       <placeName corresp=\"#place_高崎\">\n        高崎\n       </placeName>\n       ニ到レハ天気稍静ナリ、汽車中勉テ雑誌類ヲ読ム、\n       <placeName corresp=\"#place_熊谷\">\n        熊谷\n       </placeName>\n       駅ヨリ\n       <persName corresp=\"#pers_島田\">\n<surname>\n         島田\n        </surname>\n</persName>\n       埼玉県知事同車ス、\n       <placeName corresp=\"#place_浦和\">\n        浦和\n       </placeName>\n       ニテ分ル、\n       <time when=\"17:30:00\">\n        午後五時半\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       着、停車場ニハ\n       <persName corresp=\"#pers_武之助\">\n<forename>\n         武之助\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_明石\">\n<surname>\n         明石\n        </surname>\n</persName>\n       其他大勢来リ迎フ、家ニ還テ却テ客中ノ苦ヲ覚ヘ、家居ノ安楽ヲ知ルノ想アリ、\n       <time when=\"18:30:00\">\n        六時半\n       </time>\n       夜飧後、新聞紙類ヲ読マシム\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10019m-0206\">\n<head>\n<date when=\"1911-08-16\">\n        八月十六日\n       </date>\n       水　朝雨夕半晴　冷\n      </head>\n<p>\n<time when=\"06:00:00\">\n        午前六時\n       </time>\n       起床、入浴シテ、読書シ、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ食ス、今日帰京ノ筈ナルニ付旅装ヲ理メテ後、新聞紙又ハ雑書ヲ読ム、朝ヨリ雲霧濛々トシテ咫尺ヲ弁セス、時々驟雨疾風来ル、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n       木暮ノ家ヲ発シ停車場ニテ電車ニ搭ス、\n       <persName corresp=\"#pers_木暮祐雄\">\n<surname>\n         木暮\n        </surname>\n<forename>\n         祐雄\n        </forename>\n</persName>\n<placeName corresp=\"#place_高崎\">\n        高崎\n       </placeName>\n       マテ送別ス、車中雨歇ミ風静カニシテ\n       <placeName corresp=\"#place_高崎\">\n        高崎\n       </placeName>\n       ニ到レハ天気稍静ナリ、汽車中勉テ雑誌類ヲ読ム、\n       <placeName corresp=\"#place_熊谷\">\n        熊谷\n       </placeName>\n       駅ヨリ\n       <persName corresp=\"#pers_島田\">\n<surname>\n         島田\n        </surname>\n</persName>\n       埼玉県知事同車ス、\n       <placeName corresp=\"#place_浦和\">\n        浦和\n       </placeName>\n       ニテ分ル、\n       <time when=\"17:30:00\">\n        午後五時半\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       着、停車場ニハ\n       <persName corresp=\"#pers_渋沢武之助\">\n<forename>\n         武之助\n        </forename>\n</persName>\n       、\n       <persName corresp=\"#pers_明石\">\n<surname>\n         明石\n        </surname>\n</persName>\n       其他大勢来リ迎フ、家ニ還テ却テ客中ノ苦ヲ覚ヘ、家居ノ安楽ヲ知ルノ想アリ、\n       <time when=\"18:30:00\">\n        六時半\n       </time>\n       夜飧後、新聞紙類ヲ読マシム\n      </p>\n</div>",
     "year": "1911",
     "yearAndMonth": "1911-08"
 }

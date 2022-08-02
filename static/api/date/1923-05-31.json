@@ -1,6 +1,9 @@
 {
     "agential": [
-        "元貞"
+        "頭本元貞"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/頭本元貞"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1430",
     "category": {
@@ -17,7 +20,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-05",
     "date_lvl2": "1923-05-31",
-    "description": "\n\n\n           卅一日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n            頭本\n            \n\n              元貞\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一半時\n            \n            国際聯盟協会ノ件（内務省地方長官会議室）\n           \n\n\n",
+    "description": "\n\n\n           卅一日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n\n              頭本\n             \n\n              元貞\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一半時\n            \n            国際聯盟協会ノ件（内務省地方長官会議室）\n           \n\n\n",
     "label": "卅一日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0147",
@@ -27,6 +30,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1923-05-31",
     "texts": [
@@ -52,10 +58,10 @@
         "DKB20023m-0169"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            頭本\n            <persName corresp=\"#pers_元貞\">\n<forename>\n              元貞\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_頭本元貞\">\n<surname>\n              頭本\n             </surname>\n<forename>\n              元貞\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0145\">\n<head>\n<date when=\"1923-05-31\">\n           卅一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            頭本\n            <persName corresp=\"#pers_元貞\">\n<forename>\n              元貞\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n            国際聯盟協会ノ件（内務省地方長官会議室）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0145\">\n<head>\n<date when=\"1923-05-31\">\n           卅一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_頭本元貞\">\n<surname>\n              頭本\n             </surname>\n<forename>\n              元貞\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n            国際聯盟協会ノ件（内務省地方長官会議室）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-05"
 }

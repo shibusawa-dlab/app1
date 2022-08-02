@@ -1,8 +1,11 @@
 {
     "agential": [
-        "上寺興勝",
         "服部金太郎",
         "乃木"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/服部金太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/乃木"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1358",
     "category": {
@@ -19,7 +22,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-04",
     "date_lvl2": "1921-04-05",
-    "description": "\n\n\n           五日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n            増\n            \n\n              上寺\n             \n\n              興勝\n             \n\n            会ノ件（同寺）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              服部\n             \n\n              金太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            ハーバート・ウエルチ氏招待会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            中央\n            \n\n              乃木\n             \n\n            会役員会（日本クラブ）\n           \n\n\n\n\n             午後五時\n            \n            観山会例会（梅川亭）\n           \n\n\n\n\n             午後七時\n            \n            婦人矯風会\n            \n             矢島\n            \n            会頭米寿祝賀会（築地精養軒）\n           \n\n\n",
+    "description": "\n\n\n           五日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n            増上寺興勝会ノ件（同寺）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              服部\n             \n\n              金太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            ハーバート・ウエルチ氏招待会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            中央\n            \n\n              乃木\n             \n\n            会役員会（日本クラブ）\n           \n\n\n\n\n             午後五時\n            \n            観山会例会（梅川亭）\n           \n\n\n\n\n             午後七時\n            \n            婦人矯風会\n            \n             矢島\n            \n            会頭米寿祝賀会（\n            \n             築地\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
     "label": "五日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0088",
@@ -29,7 +32,13 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町",
-        "矢島"
+        "矢島",
+        "築地"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/矢島",
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
     ],
     "temporal": "1921-04-05",
     "texts": [
@@ -55,10 +64,10 @@
         "DKB20019m-0144"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            増\n            <persName corresp=\"#pers_上寺興勝\">\n<surname>\n              上寺\n             </surname>\n<forename>\n              興勝\n             </forename>\n</persName>\n            会ノ件（同寺）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            増上寺興勝会ノ件（同寺）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0087\">\n<head>\n<date when=\"1921-04-05\">\n           五日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            増\n            <persName corresp=\"#pers_上寺興勝\">\n<surname>\n              上寺\n             </surname>\n<forename>\n              興勝\n             </forename>\n</persName>\n            会ノ件（同寺）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_服部金太郎\">\n<surname>\n              服部\n             </surname>\n<forename>\n              金太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            ハーバート・ウエルチ氏招待会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            中央\n            <persName corresp=\"#pers_乃木\">\n<surname>\n              乃木\n             </surname>\n</persName>\n            会役員会（日本クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            観山会例会（梅川亭）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            婦人矯風会\n            <placeName corresp=\"#place_矢島\">\n             矢島\n            </placeName>\n            会頭米寿祝賀会（築地精養軒）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0087\">\n<head>\n<date when=\"1921-04-05\">\n           五日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            増上寺興勝会ノ件（同寺）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_服部金太郎\">\n<surname>\n              服部\n             </surname>\n<forename>\n              金太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            ハーバート・ウエルチ氏招待会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            中央\n            <persName corresp=\"#pers_乃木\">\n<surname>\n              乃木\n             </surname>\n</persName>\n            会役員会（日本クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            観山会例会（梅川亭）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            婦人矯風会\n            <placeName corresp=\"#place_矢島\">\n             矢島\n            </placeName>\n            会頭米寿祝賀会（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-04"
 }

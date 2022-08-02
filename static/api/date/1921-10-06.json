@@ -1,7 +1,15 @@
 {
     "agential": [
         "吉池慶正",
-        "徳川"
+        "牧野",
+        "徳川",
+        "肥後八治"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/吉池慶正",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/牧野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/肥後八治"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1379",
     "category": {
@@ -18,7 +26,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-10",
     "date_lvl2": "1921-10-06",
-    "description": "\n\n\n           六日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n\n\n              吉池\n             \n\n              慶正\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n            牧野宮相ヲ御訪問（官邸）\n           \n\n\n\n\n             午前十時\n            \n            協調会特別委員会（同会）\n           \n\n\n\n\n             正午\n            \n            日米海底電線会社ノ件（日本工業クラブ）\n           \n\n\n\n\n             午後二半時\n            \n            国際聯盟協会理事会兼\n            \n\n              徳川\n             \n\n            公送別会（銀行クラブ）\n           \n\n\n\n\n             午後四時\n            \n            岡警視総監ヲ御訪問（官邸）\n           \n\n\n\n\n             午後五時\n            \n\n             肥\n            \n            後八治氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n            同盟銀行主催送別会（銀行クラブ）\n           \n\n\n",
+    "description": "\n\n\n           六日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n\n\n              吉池\n             \n\n              慶正\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n\n              牧野\n             \n\n            宮相ヲ御訪問（官邸）\n           \n\n\n\n\n             午前十時\n            \n            協調会特別委員会（同会）\n           \n\n\n\n\n             正午\n            \n            日米海底電線会社ノ件（日本工業クラブ）\n           \n\n\n\n\n             午後二半時\n            \n            国際聯盟協会理事会兼\n            \n\n              徳川\n             \n\n            公送別会（銀行クラブ）\n           \n\n\n\n\n             午後四時\n            \n            岡警視総監ヲ御訪問（官邸）\n           \n\n\n\n\n             午後五時\n            \n\n\n              肥後\n             \n\n              八治\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n            同盟銀行主催送別会（銀行クラブ）\n           \n\n\n",
     "label": "六日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0273",
@@ -27,9 +35,12 @@
     "sort": "DKB20023m-0272",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山",
-        "肥",
+        "飛鳥山邸",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1921-10-06",
     "texts": [
@@ -55,10 +66,10 @@
         "DKB20022m-0035"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0272\">\n<head>\n<date when=\"1921-10-06\">\n           六日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n            牧野宮相ヲ御訪問（官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            協調会特別委員会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日米海底電線会社ノ件（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            国際聯盟協会理事会兼\n            <persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公送別会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            岡警視総監ヲ御訪問（官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_肥\">\n             肥\n            </placeName>\n            後八治氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            同盟銀行主催送別会（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0272\">\n<head>\n<date when=\"1921-10-06\">\n           六日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_牧野\">\n<surname>\n              牧野\n             </surname>\n</persName>\n            宮相ヲ御訪問（官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            協調会特別委員会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日米海底電線会社ノ件（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            国際聯盟協会理事会兼\n            <persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公送別会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            岡警視総監ヲ御訪問（官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_肥後八治\">\n<surname>\n              肥後\n             </surname>\n<forename>\n              八治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            同盟銀行主催送別会（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-10"
 }

@@ -5,6 +5,12 @@
         "中野",
         "柿沼"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大隈",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/柿沼"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1207",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -30,8 +36,13 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "早稲田",
-        "大六天",
+        "第六天町",
         "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/早稲田",
+        "https://shibusawa-dlab.github.io/lab1/api/place/第六天町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1916-06-21",
     "texts": [
@@ -60,7 +71,7 @@
         "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            伯ヲ\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            邸ニ御訪問</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0156\">\n<head>\n<date when=\"1916-06-21\">\n           廿一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            伯ヲ\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            邸ニ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n<placeName corresp=\"#place_大六天\">\n             大六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公《（第）》ヲ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            興信処評議員会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            セメント製造試験御見分（\n            <persName corresp=\"#pers_中野\">\n<surname>\n              中野\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_柿沼\">\n<surname>\n              柿沼\n             </surname>\n</persName>\n            氏ト共ニ）（工科大学事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0156\">\n<head>\n<date when=\"1916-06-21\">\n           廿一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            伯ヲ\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            邸ニ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n<placeName corresp=\"#place_第六天町\">\n             大六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公《（第）》ヲ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            興信処評議員会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            セメント製造試験御見分（\n            <persName corresp=\"#pers_中野\">\n<surname>\n              中野\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_柿沼\">\n<surname>\n              柿沼\n             </surname>\n</persName>\n            氏ト共ニ）（工科大学事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-06"
 }

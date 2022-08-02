@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1621",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1931",
     "date_lvl1": "1931-03",
     "date_lvl2": "1931-03-11",
-    "description": "\n\n\n           十一日\n          \n          （水）\n         \n\n\n\n\n             午前十一半\n            \n            帝国ホテル取締役会（同ホテル）\n           \n\n\n\n\n\n             午後一時\n            \n            三井高修氏来約（事務所）\n           \n\n\n\n\n             午後六時\n            \n\n             上野精養軒\n            \n            晩餐会御出向\n           \n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （水）\n         \n\n\n\n\n             午前十一半\n            \n            帝国ホテル取締役会（同ホテル）\n           \n\n\n\n\n\n             午後一時\n            \n            三井高修氏来約（事務所）\n           \n\n\n\n\n             午後六時\n            \n\n             上野\n            \n\n             精養軒\n            \n            晩餐会御出向\n           \n\n\n",
     "label": "十一日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20033m-0029",
@@ -24,7 +25,10 @@
     "sort": "DKB20033m-0027",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "上野精養軒"
+        "上野"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
     ],
     "temporal": "1931-03-11",
     "texts": [
@@ -53,7 +57,7 @@
         "11:30:00": "<div><time when=\"11:30:00\">\n             午前十一半\n            </time>\n            帝国ホテル取締役会（同ホテル）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0027\">\n<head>\n<date when=\"1931-03-11\">\n           十一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半\n            </time>\n            帝国ホテル取締役会（同ホテル）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2782\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1621/full/max/0/default.jpg\" n=\"B2782\" source=\"#pageB2782\"/>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            三井高修氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            晩餐会御出向\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0027\">\n<head>\n<date when=\"1931-03-11\">\n           十一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半\n            </time>\n            帝国ホテル取締役会（同ホテル）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2782\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1621/full/max/0/default.jpg\" n=\"B2782\" source=\"#pageB2782\"/>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            三井高修氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            晩餐会御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1931",
     "yearAndMonth": "1931-03"
 }

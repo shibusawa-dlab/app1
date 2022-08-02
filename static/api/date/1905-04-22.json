@@ -2,6 +2,9 @@
     "agential": [
         "中野"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中野"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/389",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -28,7 +31,12 @@
     "spatial": [
         "上野",
         "日本橋兜町",
-        "王子別荘"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1905-04-22",
     "texts": [
@@ -60,10 +68,10 @@
         "11:00:00": "<div><time when=\"11:00:00\">\n        十一時\n       </time>\n       過\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リテ事務ヲ処理ス、</div>",
         "12:00:00": "<div><time when=\"12:00:00\">\n        十二時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧シ、</div>",
         "14:00:00": "<div><time when=\"14:00:00\">\n        二時\n       </time>\n       銀行集会所ニ抵リ、国庫債券応募ノ事ヲ各銀行ト協議ス、畢テ\n       <orgName>\n        東京商業会議所\n       </orgName>\n       ニ抵リ、\n       <persName corresp=\"#pers_中野\">\n<surname>\n         中野\n        </surname>\n</persName>\n       会頭其他ノ人々ト会話シ共ニ晩飧ヲ為シ種々ノ談話ヲ為ス、</div>",
-        "21:00:00": "<div><time when=\"21:00:00\">\n        午後九時\n       </time>\n       過\n       <placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
+        "21:00:00": "<div><time when=\"21:00:00\">\n        午後九時\n       </time>\n       過\n       <placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10013m-0112\">\n<head>\n<date when=\"1905-04-22\">\n        四月二十二日\n       </date>\n       土　晴夕雷　風寒シ\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、庭中ヲ運動シ、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ畢ル、食後新聞紙ヲ一覧シ\n       <time when=\"10:30:00\">\n        十時三十分\n       </time>\n       ノ汽車ニテ\n       <placeName corresp=\"#place_上野\">\n        上野\n       </placeName>\n       ニ抵リ\n       <time when=\"11:00:00\">\n        十一時\n       </time>\n       過\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リテ事務ヲ処理ス、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧シ、\n       <time when=\"14:00:00\">\n        二時\n       </time>\n       銀行集会所ニ抵リ、国庫債券応募ノ事ヲ各銀行ト協議ス、畢テ\n       <orgName>\n        東京商業会議所\n       </orgName>\n       ニ抵リ、\n       <persName corresp=\"#pers_中野\">\n<surname>\n         中野\n        </surname>\n</persName>\n       会頭其他ノ人々ト会話シ共ニ晩飧ヲ為シ種々ノ談話ヲ為ス、\n       <time when=\"21:00:00\">\n        午後九時\n       </time>\n       過\n       <placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10013m-0112\">\n<head>\n<date when=\"1905-04-22\">\n        四月二十二日\n       </date>\n       土　晴夕雷　風寒シ\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、庭中ヲ運動シ、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ畢ル、食後新聞紙ヲ一覧シ\n       <time when=\"10:30:00\">\n        十時三十分\n       </time>\n       ノ汽車ニテ\n       <placeName corresp=\"#place_上野\">\n        上野\n       </placeName>\n       ニ抵リ\n       <time when=\"11:00:00\">\n        十一時\n       </time>\n       過\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リテ事務ヲ処理ス、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧シ、\n       <time when=\"14:00:00\">\n        二時\n       </time>\n       銀行集会所ニ抵リ、国庫債券応募ノ事ヲ各銀行ト協議ス、畢テ\n       <orgName>\n        東京商業会議所\n       </orgName>\n       ニ抵リ、\n       <persName corresp=\"#pers_中野\">\n<surname>\n         中野\n        </surname>\n</persName>\n       会頭其他ノ人々ト会話シ共ニ晩飧ヲ為シ種々ノ談話ヲ為ス、\n       <time when=\"21:00:00\">\n        午後九時\n       </time>\n       過\n       <placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1905",
     "yearAndMonth": "1905-04"
 }

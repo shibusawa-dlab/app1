@@ -1,7 +1,15 @@
 {
     "agential": [
         "田",
+        "フライシヤー",
+        "ローゼンクルツ",
         "馬越恭平"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/フライシヤー",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ローゼンクルツ",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/馬越恭平"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1230",
     "category": {
@@ -18,7 +26,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-03",
     "date_lvl2": "1917-03-06",
-    "description": "\n\n\n           六日\n          \n          （火）\n         \n\n\n\n\n             午前九半時\n            \n            首相ヲ御訪問（首相官邸）\n           \n\n\n\n\n             午前十時\n            \n\n\n              田\n             \n\n            逓相ヲ御訪問（同上）\n           \n\n\n\n\n             午後二時\n            \n            フライシヤー、ローゼンクルツ両氏来\n            \n            約（\n            \n             兜町\n            \n            ）（通訳ツレ来ル）\n           \n\n\n\n\n             午後六時\n            \n\n\n              馬越\n             \n\n              恭平\n             \n\n            氏ヨリ御案内（八百善）\n           \n\n\n",
+    "description": "\n\n\n           六日\n          \n          （火）\n         \n\n\n\n\n             午前九半時\n            \n            首相ヲ御訪問（首相官邸）\n           \n\n\n\n\n             午前十時\n            \n\n\n              田\n             \n\n            逓相ヲ御訪問（同上）\n           \n\n\n\n\n             午後二時\n            \n\n\n              フライシヤー\n             \n\n            、\n            \n\n              ローゼンクルツ\n             \n\n            両氏来\n            \n            約（\n            \n             兜町\n            \n            ）（通訳ツレ来ル）\n           \n\n\n\n\n             午後六時\n            \n\n\n              馬越\n             \n\n              恭平\n             \n\n            氏ヨリ御案内（八百善）\n           \n\n\n",
     "label": "六日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0067",
@@ -28,6 +36,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1917-03-06",
     "texts": [
@@ -56,7 +67,7 @@
         "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n            首相ヲ御訪問（首相官邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0066\">\n<head>\n<date when=\"1917-03-06\">\n           六日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n            首相ヲ御訪問（首相官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_田\">\n<surname>\n              田\n             </surname>\n</persName>\n            逓相ヲ御訪問（同上）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            フライシヤー、ローゼンクルツ両氏来\n            <pb corresp=\"#pageB2391\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1230/full/max/0/default.jpg\" n=\"B2391\" source=\"#pageB2391\"/>\n            約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）（通訳ツレ来ル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_馬越恭平\">\n<surname>\n              馬越\n             </surname>\n<forename>\n              恭平\n             </forename>\n</persName>\n            氏ヨリ御案内（八百善）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0066\">\n<head>\n<date when=\"1917-03-06\">\n           六日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n            首相ヲ御訪問（首相官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_田\">\n<surname>\n              田\n             </surname>\n</persName>\n            逓相ヲ御訪問（同上）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_フライシヤー\">\n<surname>\n              フライシヤー\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_ローゼンクルツ\">\n<surname>\n              ローゼンクルツ\n             </surname>\n</persName>\n            両氏来\n            <pb corresp=\"#pageB2391\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1230/full/max/0/default.jpg\" n=\"B2391\" source=\"#pageB2391\"/>\n            約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）（通訳ツレ来ル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_馬越恭平\">\n<surname>\n              馬越\n             </surname>\n<forename>\n              恭平\n             </forename>\n</persName>\n            氏ヨリ御案内（八百善）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-03"
 }

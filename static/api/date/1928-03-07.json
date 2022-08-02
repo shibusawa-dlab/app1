@@ -1,6 +1,11 @@
 {
     "agential": [
-        "原泰一"
+        "原泰一",
+        "ジヨウジ_コールマン"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/原泰一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ジヨウジ_コールマン"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1574",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-03",
     "date_lvl2": "1928-03-07",
-    "description": "\n\n\n           七日\n          \n          （水）\n         \n\n\n\n\n             午前十一時\n            \n            日仏会館理事会（同会館）\n           \n\n\n\n\n             同\n            \n\n\n              原\n             \n\n              泰一\n             \n\n            氏来約　同館\n           \n\n\n\n\n             午後二時\n            \n\n             吉野\n            \n            神宮奉讚会理事会（同会―\n            \n             飯倉\n            \n            南葵文庫別館）\n           \n\n\n\n\n             午後三時\n            \n            ジヨウジ・コールマン氏招待会（銀行クラブ）\n           \n\n\n",
+    "description": "\n\n\n           七日\n          \n          （水）\n         \n\n\n\n\n             午前十一時\n            \n            日仏会館理事会（同会館）\n           \n\n\n\n\n             同\n            \n\n\n              原\n             \n\n              泰一\n             \n\n            氏来約　同館\n           \n\n\n\n\n             午後二時\n            \n\n             吉野\n            \n            神宮奉讚会理事会（同会―\n            \n             飯倉\n            \n            南葵文庫別館）\n           \n\n\n\n\n             午後三時\n            \n\n\n              ジヨウジ\n             \n             ・\n             \n              コールマン\n             \n\n            氏招待会（銀行クラブ）\n           \n\n\n",
     "label": "七日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20030m-0069",
@@ -27,7 +32,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "吉野",
-        "飯倉"
+        "飯倉_(東京都港区)"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/吉野",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飯倉_(東京都港区)"
     ],
     "temporal": "1928-03-07",
     "texts": [
@@ -56,7 +65,7 @@
         "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            日仏会館理事会（同会館）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0068\">\n<head>\n<date when=\"1928-03-07\">\n           七日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            日仏会館理事会（同会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             同\n            </time>\n<persName corresp=\"#pers_原泰一\">\n<surname>\n              原\n             </surname>\n<forename>\n              泰一\n             </forename>\n</persName>\n            氏来約　同館\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_吉野\">\n             吉野\n            </placeName>\n            神宮奉讚会理事会（同会―\n            <placeName corresp=\"#place_飯倉\">\n             飯倉\n            </placeName>\n            南葵文庫別館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            ジヨウジ・コールマン氏招待会（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0068\">\n<head>\n<date when=\"1928-03-07\">\n           七日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            日仏会館理事会（同会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             同\n            </time>\n<persName corresp=\"#pers_原泰一\">\n<surname>\n              原\n             </surname>\n<forename>\n              泰一\n             </forename>\n</persName>\n            氏来約　同館\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_吉野\">\n             吉野\n            </placeName>\n            神宮奉讚会理事会（同会―\n            <placeName corresp=\"#place_飯倉_(東京都港区)\">\n             飯倉\n            </placeName>\n            南葵文庫別館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_ジヨウジ_コールマン\">\n<forename>\n              ジヨウジ\n             </forename>\n             ・\n             <surname>\n              コールマン\n             </surname>\n</persName>\n            氏招待会（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-03"
 }

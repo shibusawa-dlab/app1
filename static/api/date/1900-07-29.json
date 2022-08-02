@@ -3,6 +3,10 @@
         "三井高保",
         "八郎右衛門"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/三井高保",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/八郎右衛門"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/174",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -28,8 +32,13 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "番町",
-        "王子別荘",
+        "飛鳥山邸",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/番町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1900-07-29",
     "texts": [
@@ -56,12 +65,12 @@
     ],
     "time": {
         "10:00:00": "<div>曇、<time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_番町\">\n        番町\n       </placeName>\n<persName corresp=\"#pers_三井高保\">\n<surname>\n         三井\n        </surname>\n<forename>\n         高保\n        </forename>\n</persName>\n       氏ヲ訪ヒ転シテ同姓\n       <persName corresp=\"#pers_八郎右衛門\">\n<forename>\n         八郎右衛門\n        </forename>\n</persName>\n       氏ヲ訪フ、</div>",
-        "11:00:00": "<div><time when=\"11:00:00\">\n        十一時\n       </time>\n       過\n       <placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ抵ル、此日ハ別荘ノ新築ヲ一覧シ、且茶席ニ於テ同族ノ茶事ヲ催ス、畢テ新築ノ家屋ニ抵リ、同族会ヲ開キ要務ヲ議決ス、</div>",
+        "11:00:00": "<div><time when=\"11:00:00\">\n        十一時\n       </time>\n       過\n       <placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ抵ル、此日ハ別荘ノ新築ヲ一覧シ、且茶席ニ於テ同族ノ茶事ヲ催ス、畢テ新築ノ家屋ニ抵リ、同族会ヲ開キ要務ヲ議決ス、</div>",
         "19:00:00": "<div><time when=\"19:00:00\">\n        午後七時\n       </time>\n       散会、夜</div>",
         "20:00:00": "<div><time when=\"20:00:00\">\n        八時\n       </time>\n       過\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10009m-0210\">\n<head>\n<date when=\"1900-07-29\">\n        七月二十九日\n       </date>\n</head>\n<p>\n       曇、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_番町\">\n        番町\n       </placeName>\n<persName corresp=\"#pers_三井高保\">\n<surname>\n         三井\n        </surname>\n<forename>\n         高保\n        </forename>\n</persName>\n       氏ヲ訪ヒ転シテ同姓\n       <persName corresp=\"#pers_八郎右衛門\">\n<forename>\n         八郎右衛門\n        </forename>\n</persName>\n       氏ヲ訪フ、\n       <time when=\"11:00:00\">\n        十一時\n       </time>\n       過\n       <placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ抵ル、此日ハ別荘ノ新築ヲ一覧シ、且茶席ニ於テ同族ノ茶事ヲ催ス、畢テ新築ノ家屋ニ抵リ、同族会ヲ開キ要務ヲ議決ス、\n       <time when=\"19:00:00\">\n        午後七時\n       </time>\n       散会、夜\n       <time when=\"20:00:00\">\n        八時\n       </time>\n       過\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10009m-0210\">\n<head>\n<date when=\"1900-07-29\">\n        七月二十九日\n       </date>\n</head>\n<p>\n       曇、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_番町\">\n        番町\n       </placeName>\n<persName corresp=\"#pers_三井高保\">\n<surname>\n         三井\n        </surname>\n<forename>\n         高保\n        </forename>\n</persName>\n       氏ヲ訪ヒ転シテ同姓\n       <persName corresp=\"#pers_八郎右衛門\">\n<forename>\n         八郎右衛門\n        </forename>\n</persName>\n       氏ヲ訪フ、\n       <time when=\"11:00:00\">\n        十一時\n       </time>\n       過\n       <placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ抵ル、此日ハ別荘ノ新築ヲ一覧シ、且茶席ニ於テ同族ノ茶事ヲ催ス、畢テ新築ノ家屋ニ抵リ、同族会ヲ開キ要務ヲ議決ス、\n       <time when=\"19:00:00\">\n        午後七時\n       </time>\n       散会、夜\n       <time when=\"20:00:00\">\n        八時\n       </time>\n       過\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1900",
     "yearAndMonth": "1900-07"
 }

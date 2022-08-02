@@ -1,8 +1,15 @@
 {
     "agential": [
         "倉知",
+        "岡部",
         "井上準之助",
         "内藤久寛"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/倉知",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡部",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/井上準之助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/内藤久寛"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1326",
     "category": {
@@ -19,7 +26,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-03",
     "date_lvl2": "1920-03-06",
-    "description": "\n\n\n           六日\n          \n          （土）\n         \n\n\n\n\n             午前八時\n            \n\n\n              倉知\n             \n\n            、岡部氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              井上\n             \n\n              準之助\n             \n\n            氏来約（同邸）\n           \n\n\n\n\n             午後二時\n            \n            コフマン氏\n            \n             兜町\n            \n            来約\n           \n\n\n\n\n             午後二―午後三時\n            \n\n\n              内藤\n             \n\n              久寛\n             \n\n            氏　同上\n           \n\n\n\n\n             午後八時\n            \n\n             米国\n            \n            大使ヨリ御案内（同大使館）\n            \n            令夫人共　燕尾服\n           \n\n\n",
+    "description": "\n\n\n           六日\n          \n          （土）\n         \n\n\n\n\n             午前八時\n            \n\n\n              倉知\n             \n\n            、\n            \n\n              岡部\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              井上\n             \n\n              準之助\n             \n\n            氏来約（同邸）\n           \n\n\n\n\n             午後二時\n            \n            コフマン氏\n            \n             兜町\n            \n            来約\n           \n\n\n\n\n             午後二―午後三時\n            \n\n\n              内藤\n             \n\n              久寛\n             \n\n            氏　同上\n           \n\n\n\n\n             午後八時\n            \n\n             米国\n            \n            大使ヨリ御案内（同大使館）\n            \n            令夫人共　燕尾服\n           \n\n\n",
     "label": "六日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0063",
@@ -31,6 +38,11 @@
         "飛鳥山邸",
         "日本橋兜町",
         "アメリカ合衆国"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/アメリカ合衆国"
     ],
     "temporal": "1920-03-06",
     "texts": [
@@ -56,10 +68,10 @@
         "DKB20021m-0132"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_倉知\">\n<surname>\n              倉知\n             </surname>\n</persName>\n            、岡部氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_倉知\">\n<surname>\n              倉知\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_岡部\">\n<surname>\n              岡部\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0062\">\n<head>\n<date when=\"1920-03-06\">\n           六日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_倉知\">\n<surname>\n              倉知\n             </surname>\n</persName>\n            、岡部氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_井上準之助\">\n<surname>\n              井上\n             </surname>\n<forename>\n              準之助\n             </forename>\n</persName>\n            氏来約（同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            コフマン氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            来約\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―午後三時\n            </time>\n<persName corresp=\"#pers_内藤久寛\">\n<surname>\n              内藤\n             </surname>\n<forename>\n              久寛\n             </forename>\n</persName>\n            氏　同上\n           </p>\n</event>\n<event>\n<p>\n<time when=\"20:00:00\">\n             午後八時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            大使ヨリ御案内（同大使館）\n            <lb/>\n            令夫人共　燕尾服\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0062\">\n<head>\n<date when=\"1920-03-06\">\n           六日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_倉知\">\n<surname>\n              倉知\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_岡部\">\n<surname>\n              岡部\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_井上準之助\">\n<surname>\n              井上\n             </surname>\n<forename>\n              準之助\n             </forename>\n</persName>\n            氏来約（同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            コフマン氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            来約\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―午後三時\n            </time>\n<persName corresp=\"#pers_内藤久寛\">\n<surname>\n              内藤\n             </surname>\n<forename>\n              久寛\n             </forename>\n</persName>\n            氏　同上\n           </p>\n</event>\n<event>\n<p>\n<time when=\"20:00:00\">\n             午後八時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            大使ヨリ御案内（同大使館）\n            <lb/>\n            令夫人共　燕尾服\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-03"
 }

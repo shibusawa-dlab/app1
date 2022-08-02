@@ -4,6 +4,11 @@
         "石川巌",
         "岩村"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小松",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/石川巌",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岩村"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/87",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -19,7 +24,7 @@
     "date_lvl0": "1886",
     "date_lvl1": "1886-06",
     "date_lvl2": "1886-06-09",
-    "description": "\n\n\n        （六月）九日\n       \n\n\n       晴、\n       \n        午前五時\n       \n       大聖寺ヲ発シ、\n       \n\n         小松\n        \n\n       、松任等ノ諸駅ヲ経、手取川ヲ航シ金沢ニ達ス、駅頭\n       \n\n         石川\n        \n\n         巌\n        \n\n       、及北陸銀行諸子、\n       \n        高岡\n       \n       、\n       \n        伏木\n       \n       ノ諸估来リ迎ス、\n       \n        午後二時\n       \n       相伴テ\n       \n        金沢\n       \n       ニ抵リ、此花亭ニ投宿ス、食後公園ニ至リ博物場ヲ一覧シ、更ニ尾山神社ヲ詣シ、市街ヲ遊覧シ、又製糸所ヲ一覧ス、夜、\n       \n\n         岩村\n        \n\n       県令ト\n       \n\n         石川\n        \n\n         巌\n        \n\n       ノ寓居ニ会シテ北陸銀行ノ事ヲ議ス、\n       \n        十一時\n       \n       高岡人等ノ請ニ応シ、鶯谷酒楼ニ飲ス\n      \n",
+    "description": "\n\n\n        （六月）九日\n       \n\n\n       晴、\n       \n        午前五時\n       \n       大聖寺ヲ発シ、\n       \n\n         小松\n        \n\n       、\n       \n        松任\n       \n       等ノ諸駅ヲ経、手取川ヲ航シ\n       \n        金沢\n       \n       ニ達ス、駅頭\n       \n\n         石川\n        \n\n         巌\n        \n\n       、及\n       \n        北陸銀行\n       \n       諸子、\n       \n        高岡\n       \n       、\n       \n        伏木\n       \n       ノ諸估来リ迎ス、\n       \n        午後二時\n       \n       相伴テ\n       \n        金沢\n       \n       ニ抵リ、此花亭ニ投宿ス、食後公園ニ至リ博物場ヲ一覧シ、更ニ尾山神社ヲ詣シ、市街ヲ遊覧シ、又製糸所ヲ一覧ス、夜、\n       \n\n         岩村\n        \n\n       県令ト\n       \n\n         石川\n        \n\n         巌\n        \n\n       ノ寓居ニ会シテ\n       \n        北陸銀行\n       \n       ノ事ヲ議ス、\n       \n        十一時\n       \n       高岡人等ノ請ニ応シ、鶯谷酒楼ニ飲ス\n      \n",
     "label": "（六月）九日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10006m-0016",
@@ -28,9 +33,18 @@
     "sort": "DKB10006m-0015",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
+        "松任",
+        "金沢",
         "高岡",
         "伏木",
         "金沢市"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/松任",
+        "https://shibusawa-dlab.github.io/lab1/api/place/金沢",
+        "https://shibusawa-dlab.github.io/lab1/api/place/高岡",
+        "https://shibusawa-dlab.github.io/lab1/api/place/伏木",
+        "https://shibusawa-dlab.github.io/lab1/api/place/金沢市"
     ],
     "temporal": "1886-06-09",
     "texts": [
@@ -56,12 +70,12 @@
         "DKB10009m-0088"
     ],
     "time": {
-        "05:00:00": "<div>晴、<time when=\"05:00:00\">\n        午前五時\n       </time>\n       大聖寺ヲ発シ、\n       <persName corresp=\"#pers_小松\">\n<surname>\n         小松\n        </surname>\n</persName>\n       、松任等ノ諸駅ヲ経、手取川ヲ航シ金沢ニ達ス、駅頭\n       <persName corresp=\"#pers_石川巌\">\n<surname>\n         石川\n        </surname>\n<forename>\n         巌\n        </forename>\n</persName>\n       、及北陸銀行諸子、\n       <placeName corresp=\"#place_高岡\">\n        高岡\n       </placeName>\n       、\n       <placeName corresp=\"#place_伏木\">\n        伏木\n       </placeName>\n       ノ諸估来リ迎ス、</div>",
-        "14:00:00": "<div><time when=\"14:00:00\">\n        午後二時\n       </time>\n       相伴テ\n       <placeName corresp=\"#place_金沢市\">\n        金沢\n       </placeName>\n       ニ抵リ、此花亭ニ投宿ス、食後公園ニ至リ博物場ヲ一覧シ、更ニ尾山神社ヲ詣シ、市街ヲ遊覧シ、又製糸所ヲ一覧ス、夜、\n       <persName corresp=\"#pers_岩村\">\n<surname>\n         岩村\n        </surname>\n</persName>\n       県令ト\n       <persName corresp=\"#pers_石川巌\">\n<surname>\n         石川\n        </surname>\n<forename>\n         巌\n        </forename>\n</persName>\n       ノ寓居ニ会シテ北陸銀行ノ事ヲ議ス、</div>",
+        "05:00:00": "<div>晴、<time when=\"05:00:00\">\n        午前五時\n       </time>\n       大聖寺ヲ発シ、\n       <persName corresp=\"#pers_小松\">\n<surname>\n         小松\n        </surname>\n</persName>\n       、\n       <placeName corresp=\"#place_松任\">\n        松任\n       </placeName>\n       等ノ諸駅ヲ経、手取川ヲ航シ\n       <placeName corresp=\"#place_金沢\">\n        金沢\n       </placeName>\n       ニ達ス、駅頭\n       <persName corresp=\"#pers_石川巌\">\n<surname>\n         石川\n        </surname>\n<forename>\n         巌\n        </forename>\n</persName>\n       、及\n       <orgName>\n        北陸銀行\n       </orgName>\n       諸子、\n       <placeName corresp=\"#place_高岡\">\n        高岡\n       </placeName>\n       、\n       <placeName corresp=\"#place_伏木\">\n        伏木\n       </placeName>\n       ノ諸估来リ迎ス、</div>",
+        "14:00:00": "<div><time when=\"14:00:00\">\n        午後二時\n       </time>\n       相伴テ\n       <placeName corresp=\"#place_金沢市\">\n        金沢\n       </placeName>\n       ニ抵リ、此花亭ニ投宿ス、食後公園ニ至リ博物場ヲ一覧シ、更ニ尾山神社ヲ詣シ、市街ヲ遊覧シ、又製糸所ヲ一覧ス、夜、\n       <persName corresp=\"#pers_岩村\">\n<surname>\n         岩村\n        </surname>\n</persName>\n       県令ト\n       <persName corresp=\"#pers_石川巌\">\n<surname>\n         石川\n        </surname>\n<forename>\n         巌\n        </forename>\n</persName>\n       ノ寓居ニ会シテ\n       <orgName>\n        北陸銀行\n       </orgName>\n       ノ事ヲ議ス、</div>",
         "23:00:00": "<div><time when=\"23:00:00\">\n        十一時\n       </time>\n       高岡人等ノ請ニ応シ、鶯谷酒楼ニ飲ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10006m-0015\">\n<head>\n<date evidence=\"month inferenced\" when=\"1886-06-09\">\n        （六月）九日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"05:00:00\">\n        午前五時\n       </time>\n       大聖寺ヲ発シ、\n       <persName corresp=\"#pers_小松\">\n<surname>\n         小松\n        </surname>\n</persName>\n       、松任等ノ諸駅ヲ経、手取川ヲ航シ金沢ニ達ス、駅頭\n       <persName corresp=\"#pers_石川巌\">\n<surname>\n         石川\n        </surname>\n<forename>\n         巌\n        </forename>\n</persName>\n       、及北陸銀行諸子、\n       <placeName corresp=\"#place_高岡\">\n        高岡\n       </placeName>\n       、\n       <placeName corresp=\"#place_伏木\">\n        伏木\n       </placeName>\n       ノ諸估来リ迎ス、\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n       相伴テ\n       <placeName corresp=\"#place_金沢市\">\n        金沢\n       </placeName>\n       ニ抵リ、此花亭ニ投宿ス、食後公園ニ至リ博物場ヲ一覧シ、更ニ尾山神社ヲ詣シ、市街ヲ遊覧シ、又製糸所ヲ一覧ス、夜、\n       <persName corresp=\"#pers_岩村\">\n<surname>\n         岩村\n        </surname>\n</persName>\n       県令ト\n       <persName corresp=\"#pers_石川巌\">\n<surname>\n         石川\n        </surname>\n<forename>\n         巌\n        </forename>\n</persName>\n       ノ寓居ニ会シテ北陸銀行ノ事ヲ議ス、\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n       高岡人等ノ請ニ応シ、鶯谷酒楼ニ飲ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10006m-0015\">\n<head>\n<date evidence=\"month inferenced\" when=\"1886-06-09\">\n        （六月）九日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"05:00:00\">\n        午前五時\n       </time>\n       大聖寺ヲ発シ、\n       <persName corresp=\"#pers_小松\">\n<surname>\n         小松\n        </surname>\n</persName>\n       、\n       <placeName corresp=\"#place_松任\">\n        松任\n       </placeName>\n       等ノ諸駅ヲ経、手取川ヲ航シ\n       <placeName corresp=\"#place_金沢\">\n        金沢\n       </placeName>\n       ニ達ス、駅頭\n       <persName corresp=\"#pers_石川巌\">\n<surname>\n         石川\n        </surname>\n<forename>\n         巌\n        </forename>\n</persName>\n       、及\n       <orgName>\n        北陸銀行\n       </orgName>\n       諸子、\n       <placeName corresp=\"#place_高岡\">\n        高岡\n       </placeName>\n       、\n       <placeName corresp=\"#place_伏木\">\n        伏木\n       </placeName>\n       ノ諸估来リ迎ス、\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n       相伴テ\n       <placeName corresp=\"#place_金沢市\">\n        金沢\n       </placeName>\n       ニ抵リ、此花亭ニ投宿ス、食後公園ニ至リ博物場ヲ一覧シ、更ニ尾山神社ヲ詣シ、市街ヲ遊覧シ、又製糸所ヲ一覧ス、夜、\n       <persName corresp=\"#pers_岩村\">\n<surname>\n         岩村\n        </surname>\n</persName>\n       県令ト\n       <persName corresp=\"#pers_石川巌\">\n<surname>\n         石川\n        </surname>\n<forename>\n         巌\n        </forename>\n</persName>\n       ノ寓居ニ会シテ\n       <orgName>\n        北陸銀行\n       </orgName>\n       ノ事ヲ議ス、\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n       高岡人等ノ請ニ応シ、鶯谷酒楼ニ飲ス\n      </p>\n</div>",
     "year": "1886",
     "yearAndMonth": "1886-06"
 }

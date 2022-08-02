@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1384",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-03",
     "date_lvl2": "1922-03-11",
-    "description": "\n\n\n           十一日\n          \n          （土）\n         \n\n\n\n\n             午後一時\n            \n            立教中学校卒業式（築地同校）\n           \n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （土）\n         \n\n\n\n\n             午後一時\n            \n            立教中学校卒業式（\n            \n             築地\n            \n            同校）\n           \n\n\n",
     "label": "十一日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0043",
@@ -23,7 +24,12 @@
     "prev": "DKB20024m-0041",
     "sort": "DKB20024m-0042",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
+    "spatial": [
+        "築地"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
+    ],
     "temporal": "1922-03-11",
     "texts": [
         "DKB20019m-0161",
@@ -48,10 +54,10 @@
         "DKB20018m-0073"
     ],
     "time": {
-        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n            立教中学校卒業式（築地同校）</div>"
+        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n            立教中学校卒業式（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n            同校）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0042\">\n<head>\n<date when=\"1922-03-11\">\n           十一日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            立教中学校卒業式（築地同校）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0042\">\n<head>\n<date when=\"1922-03-11\">\n           十一日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            立教中学校卒業式（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n            同校）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-03"
 }

@@ -1,6 +1,9 @@
 {
     "agential": [
-        "兼子"
+        "渋沢兼子"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢兼子"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/423",
     "category": {
@@ -29,6 +32,11 @@
         "新橋",
         "国府津"
     ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/新橋",
+        "https://shibusawa-dlab.github.io/lab1/api/place/国府津"
+    ],
     "temporal": "1906-01-01",
     "texts": [
         "DKB10016m-0001",
@@ -55,13 +63,13 @@
     "time": {
         "07:00:00": "<div><time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、家人ノ新年祝賀ヲ受ケ、</div>",
         "08:00:00": "<div><time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ畢リ、</div>",
-        "09:30:00": "<div><time when=\"09:30:00\">\n        九時半\n       </time>\n<persName corresp=\"#pers_兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       ト共ニ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ親戚及事務員等ノ祝賀ヲ受ク、</div>",
+        "09:30:00": "<div><time when=\"09:30:00\">\n        九時半\n       </time>\n<persName corresp=\"#pers_渋沢兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       ト共ニ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ親戚及事務員等ノ祝賀ヲ受ク、</div>",
         "10:30:00": "<div><time when=\"10:30:00\">\n        十時半\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ行員一同ノ祝賀ヲ受ケ祝盃ヲ挙ク、畢テ再ヒ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リテ午飧ヲ為ス、食後馬車ニテ\n       <placeName corresp=\"#place_新橋\">\n        新橋\n       </placeName>\n       ニ抵リ</div>",
         "12:30:00": "<div><time when=\"12:30:00\">\n        十二時三十分\n       </time>\n       発ノ汽車ニ搭ス、\n       <placeName corresp=\"#place_国府津\">\n        国府津\n       </placeName>\n       ニ寒ヲ避クル為メナリ、汽車中多数ノ友人ニ邂逅ス、頗ル雑沓ヲ極ム、</div>",
         "16:00:00": "<div><time when=\"16:00:00\">\n        午後四時\n       </time>\n       国府津館ニ到着ス\n       <lb/>\n       夜、随鷗集ヲ読ム</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10014m-0001\">\n<head>\n<date when=\"1906-01-01\">\n        一月一日\n       </date>\n       曇　風　　　　　　　　　　　　　起床\n       <time when=\"07:00:00\">\n        七時\n       </time>\n       就蓐\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n</head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、家人ノ新年祝賀ヲ受ケ、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ畢リ、\n       <time when=\"09:30:00\">\n        九時半\n       </time>\n<persName corresp=\"#pers_兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       ト共ニ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ親戚及事務員等ノ祝賀ヲ受ク、\n       <time when=\"10:30:00\">\n        十時半\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ行員一同ノ祝賀ヲ受ケ祝盃ヲ挙ク、畢テ再ヒ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リテ午飧ヲ為ス、食後馬車ニテ\n       <placeName corresp=\"#place_新橋\">\n        新橋\n       </placeName>\n       ニ抵リ\n       <time when=\"12:30:00\">\n        十二時三十分\n       </time>\n       発ノ汽車ニ搭ス、\n       <placeName corresp=\"#place_国府津\">\n        国府津\n       </placeName>\n       ニ寒ヲ避クル為メナリ、汽車中多数ノ友人ニ邂逅ス、頗ル雑沓ヲ極ム、\n       <time when=\"16:00:00\">\n        午後四時\n       </time>\n       国府津館ニ到着ス\n       <lb/>\n       夜、随鷗集ヲ読ム\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10014m-0001\">\n<head>\n<date when=\"1906-01-01\">\n        一月一日\n       </date>\n       曇　風　　　　　　　　　　　　　起床\n       <time when=\"07:00:00\">\n        七時\n       </time>\n       就蓐\n       <time when=\"23:00:00\">\n        十一時\n       </time>\n</head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、家人ノ新年祝賀ヲ受ケ、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       朝飧ヲ畢リ、\n       <time when=\"09:30:00\">\n        九時半\n       </time>\n<persName corresp=\"#pers_渋沢兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       ト共ニ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ親戚及事務員等ノ祝賀ヲ受ク、\n       <time when=\"10:30:00\">\n        十時半\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ行員一同ノ祝賀ヲ受ケ祝盃ヲ挙ク、畢テ再ヒ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リテ午飧ヲ為ス、食後馬車ニテ\n       <placeName corresp=\"#place_新橋\">\n        新橋\n       </placeName>\n       ニ抵リ\n       <time when=\"12:30:00\">\n        十二時三十分\n       </time>\n       発ノ汽車ニ搭ス、\n       <placeName corresp=\"#place_国府津\">\n        国府津\n       </placeName>\n       ニ寒ヲ避クル為メナリ、汽車中多数ノ友人ニ邂逅ス、頗ル雑沓ヲ極ム、\n       <time when=\"16:00:00\">\n        午後四時\n       </time>\n       国府津館ニ到着ス\n       <lb/>\n       夜、随鷗集ヲ読ム\n      </p>\n</div>",
     "year": "1906",
     "yearAndMonth": "1906-01"
 }

@@ -3,7 +3,15 @@
         "青柳有美",
         "古河虎之助",
         "嘉納治五郎",
-        "川上正保"
+        "川上正保",
+        "アート_スミス"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/青柳有美",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/古河虎之助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/嘉納治五郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/川上正保",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/アート_スミス"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1200",
     "category": {
@@ -20,7 +28,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-04",
     "date_lvl2": "1916-04-20",
-    "description": "\n\n\n           二十日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n\n\n              青柳\n             \n\n              有美\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              古河\n             \n\n              虎之助\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              嘉納\n             \n\n              治五郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n\n\n\n\n\n\n             午後一時\n            \n\n\n              川上\n             \n\n              正保\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            女子大学校創立十五年記念式（同校）\n           \n\n\n\n\n             午後四時\n            \n            アート・スミス氏歓迎会（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n\n\n              青柳\n             \n\n              有美\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              古河\n             \n\n              虎之助\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              嘉納\n             \n\n              治五郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n\n\n\n\n\n\n             午後一時\n            \n\n\n              川上\n             \n\n              正保\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            女子大学校創立十五年記念式（同校）\n           \n\n\n\n\n             午後四時\n            \n\n\n              アート\n             \n             ・\n             \n              スミス\n             \n\n            氏歓迎会（\n            \n             上野\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
     "label": "二十日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0093",
@@ -29,9 +37,14 @@
     "sort": "DKB20018m-0092",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
+        "飛鳥山邸",
         "日本橋兜町",
-        "上野精養軒"
+        "上野"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
     ],
     "temporal": "1916-04-20",
     "texts": [
@@ -57,10 +70,10 @@
         "DKB20030m-0263"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_青柳有美\">\n<surname>\n              青柳\n             </surname>\n<forename>\n              有美\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_青柳有美\">\n<surname>\n              青柳\n             </surname>\n<forename>\n              有美\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0092\">\n<head>\n<date when=\"1916-04-20\">\n           二十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_青柳有美\">\n<surname>\n              青柳\n             </surname>\n<forename>\n              有美\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_古河虎之助\">\n<surname>\n              古河\n             </surname>\n<forename>\n              虎之助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_嘉納治五郎\">\n<surname>\n              嘉納\n             </surname>\n<forename>\n              治五郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2361\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1200/full/max/0/default.jpg\" n=\"B2361\" source=\"#pageB2361\"/>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_川上正保\">\n<surname>\n              川上\n             </surname>\n<forename>\n              正保\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            女子大学校創立十五年記念式（同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            アート・スミス氏歓迎会（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0092\">\n<head>\n<date when=\"1916-04-20\">\n           二十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_青柳有美\">\n<surname>\n              青柳\n             </surname>\n<forename>\n              有美\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_古河虎之助\">\n<surname>\n              古河\n             </surname>\n<forename>\n              虎之助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_嘉納治五郎\">\n<surname>\n              嘉納\n             </surname>\n<forename>\n              治五郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2361\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1200/full/max/0/default.jpg\" n=\"B2361\" source=\"#pageB2361\"/>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_川上正保\">\n<surname>\n              川上\n             </surname>\n<forename>\n              正保\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            女子大学校創立十五年記念式（同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_アート_スミス\">\n<forename>\n              アート\n             </forename>\n             ・\n             <surname>\n              スミス\n             </surname>\n</persName>\n            氏歓迎会（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-04"
 }

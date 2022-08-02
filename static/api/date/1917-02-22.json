@@ -1,5 +1,10 @@
 {
-    "agential": [],
+    "agential": [
+        "勝田主計"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/勝田主計"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1229",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +20,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-02",
     "date_lvl2": "1917-02-22",
-    "description": "\n\n\n           廿二日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n             日本\n            \n            女子大学校評議員会（同校）\n           \n\n\n\n\n             正午\n            \n\n             勝田\n            \n            大蔵大臣ヨリ御案内（\n            \n             永田町\n            \n            官邸）\n           \n\n\n\n\n             午後四時\n            \n            日米人懇談会（華族会館）\n           \n\n\n\n\n             午後四半時\n            \n            製絨会社三十年祝賀会（帝劇）\n           \n\n\n\n\n             午後五時\n            \n            中井商店ヨリ御案内（八百善）\n           \n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n             日本\n            \n\n             女子大学校\n            \n            評議員会（同校）\n           \n\n\n\n\n             正午\n            \n\n\n              勝田\n             \n\n            大蔵大臣ヨリ御案内（\n            \n             永田町\n            \n            官邸）\n           \n\n\n\n\n             午後四時\n            \n            日米人懇談会（華族会館）\n           \n\n\n\n\n             午後四半時\n            \n            製絨会社三十年祝賀会（帝劇）\n           \n\n\n\n\n             午後五時\n            \n            中井商店ヨリ御案内（八百善）\n           \n\n\n",
     "label": "廿二日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0055",
@@ -25,8 +30,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本",
-        "勝田",
         "永田町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本",
+        "https://shibusawa-dlab.github.io/lab1/api/place/永田町"
     ],
     "temporal": "1917-02-22",
     "texts": [
@@ -52,10 +60,10 @@
         "DKB20018m-0021"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            女子大学校評議員会（同校）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n<orgName>\n             女子大学校\n            </orgName>\n            評議員会（同校）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0054\">\n<head>\n<date when=\"1917-02-22\">\n           廿二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            女子大学校評議員会（同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_勝田\">\n             勝田\n            </placeName>\n            大蔵大臣ヨリ御案内（\n            <placeName corresp=\"#place_永田町\">\n             永田町\n            </placeName>\n            官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            日米人懇談会（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            製絨会社三十年祝賀会（帝劇）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            中井商店ヨリ御案内（八百善）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0054\">\n<head>\n<date when=\"1917-02-22\">\n           廿二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n<orgName>\n             女子大学校\n            </orgName>\n            評議員会（同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_勝田主計\">\n<surname>\n              勝田\n             </surname>\n</persName>\n            大蔵大臣ヨリ御案内（\n            <placeName corresp=\"#place_永田町\">\n             永田町\n            </placeName>\n            官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            日米人懇談会（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            製絨会社三十年祝賀会（帝劇）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            中井商店ヨリ御案内（八百善）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-02"
 }

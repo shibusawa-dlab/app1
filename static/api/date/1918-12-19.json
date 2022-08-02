@@ -1,6 +1,11 @@
 {
     "agential": [
+        "長尾半平",
         "徳川"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/長尾半平",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1286",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-12",
     "date_lvl2": "1918-12-19",
-    "description": "\n\n\n           十九日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n            女子美術学校ヘ御出向ノ約（\n            \n             菊坂\n            \n            町八九―九一）\n           \n\n\n\n\n             正午\n            \n            大倉集古館評議員会（帝国ホテル）\n           \n\n\n\n\n             午後三時\n            \n            長尾半平氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            聖徳太子奉賛会評議員会（\n            \n             飯倉\n            \n            町\n            \n\n              徳川\n             \n\n            侯邸）\n           \n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n            女子美術学校ヘ御出向ノ約（\n            \n             菊坂\n            \n            町八九―九一）\n           \n\n\n\n\n             正午\n            \n            大倉集古館評議員会（帝国ホテル）\n           \n\n\n\n\n             午後三時\n            \n\n\n              長尾\n             \n\n              半平\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            聖徳太子奉賛会評議員会（\n            \n             飯倉町\n            \n\n\n              徳川\n             \n\n            侯邸）\n           \n\n\n",
     "label": "十九日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0333",
@@ -28,7 +33,12 @@
     "spatial": [
         "言問通り",
         "日本橋兜町",
-        "飯倉"
+        "飯倉_(東京都港区)"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/言問通り",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飯倉_(東京都港区)"
     ],
     "temporal": "1918-12-19",
     "texts": [
@@ -57,7 +67,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            女子美術学校ヘ御出向ノ約（\n            <placeName corresp=\"#place_言問通り\">\n             菊坂\n            </placeName>\n            町八九―九一）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0332\">\n<head>\n<date when=\"1918-12-19\">\n           十九日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            女子美術学校ヘ御出向ノ約（\n            <placeName corresp=\"#place_言問通り\">\n             菊坂\n            </placeName>\n            町八九―九一）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            大倉集古館評議員会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            長尾半平氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            聖徳太子奉賛会評議員会（\n            <placeName corresp=\"#place_飯倉\">\n             飯倉\n            </placeName>\n            町\n            <persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            侯邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0332\">\n<head>\n<date when=\"1918-12-19\">\n           十九日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            女子美術学校ヘ御出向ノ約（\n            <placeName corresp=\"#place_言問通り\">\n             菊坂\n            </placeName>\n            町八九―九一）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            大倉集古館評議員会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_長尾半平\">\n<surname>\n              長尾\n             </surname>\n<forename>\n              半平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            聖徳太子奉賛会評議員会（\n            <placeName corresp=\"#place_飯倉_(東京都港区)\">\n             飯倉町\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            侯邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-12"
 }

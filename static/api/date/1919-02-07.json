@@ -2,10 +2,18 @@
     "agential": [
         "青柳有美",
         "添田壽一",
-        "速水",
+        "速水柳平",
         "藤村",
         "吉池慶正",
         "添田"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/青柳有美",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/添田壽一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/速水柳平",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/藤村",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/吉池慶正",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/添田"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1292",
     "category": {
@@ -22,7 +30,7 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-02",
     "date_lvl2": "1919-02-07",
-    "description": "\n\n\n           七日\n          \n          （金）\n         \n\n\n\n\n             午前八時\n            \n\n\n              青柳\n             \n\n              有美\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            飛行協会実行委員会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n             東京\n            \n            商業会議所催、\n            \n\n              添田\n             \n\n              寿一\n             \n\n            氏送別会（商業会議所）\n           \n\n\n\n\n             午後三―午後四時\n            \n\n\n              速水\n             \n\n            柳平氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後三時\n            \n\n\n              藤村\n             \n\n            男爵及\n            \n\n              吉池\n             \n\n              慶正\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              添田\n             \n\n            氏御送別会（銀行クラブ）\n           \n\n\n",
+    "description": "\n\n\n           七日\n          \n          （金）\n         \n\n\n\n\n             午前八時\n            \n\n\n              青柳\n             \n\n              有美\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            飛行協会実行委員会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n             東京\n            \n            商業会議所催、\n            \n\n              添田\n             \n\n              寿一\n             \n\n            氏送別会（商業会議所）\n           \n\n\n\n\n             午後三―午後四時\n            \n\n\n              速水\n             \n\n              柳平\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後三時\n            \n\n\n              藤村\n             \n\n            男爵及\n            \n\n              吉池\n             \n\n              慶正\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              添田\n             \n\n            氏御送別会（銀行クラブ）\n           \n\n\n",
     "label": "七日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0040",
@@ -31,9 +39,14 @@
     "sort": "DKB20021m-0039",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山",
+        "飛鳥山邸",
         "日本橋兜町",
         "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1919-02-07",
     "texts": [
@@ -59,10 +72,10 @@
         "DKB20020m-0214"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_青柳有美\">\n<surname>\n              青柳\n             </surname>\n<forename>\n              有美\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_青柳有美\">\n<surname>\n              青柳\n             </surname>\n<forename>\n              有美\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0039\">\n<head>\n<date when=\"1919-02-07\">\n           七日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_青柳有美\">\n<surname>\n              青柳\n             </surname>\n<forename>\n              有美\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            飛行協会実行委員会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商業会議所催、\n            <persName corresp=\"#pers_添田壽一\">\n<surname>\n              添田\n             </surname>\n<forename>\n              寿一\n             </forename>\n</persName>\n            氏送別会（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―午後四時\n            </time>\n<persName corresp=\"#pers_速水\">\n<surname>\n              速水\n             </surname>\n</persName>\n            柳平氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_藤村\">\n<forename>\n              藤村\n             </forename>\n</persName>\n            男爵及\n            <persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_添田\">\n<surname>\n              添田\n             </surname>\n</persName>\n            氏御送別会（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0039\">\n<head>\n<date when=\"1919-02-07\">\n           七日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_青柳有美\">\n<surname>\n              青柳\n             </surname>\n<forename>\n              有美\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            飛行協会実行委員会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商業会議所催、\n            <persName corresp=\"#pers_添田壽一\">\n<surname>\n              添田\n             </surname>\n<forename>\n              寿一\n             </forename>\n</persName>\n            氏送別会（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―午後四時\n            </time>\n<persName corresp=\"#pers_速水柳平\">\n<surname>\n              速水\n             </surname>\n<forename>\n              柳平\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_藤村\">\n<forename>\n              藤村\n             </forename>\n</persName>\n            男爵及\n            <persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_添田\">\n<surname>\n              添田\n             </surname>\n</persName>\n            氏御送別会（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-02"
 }

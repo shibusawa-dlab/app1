@@ -4,6 +4,11 @@
         "児島",
         "広岡"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大隈",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/児島",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/広岡"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/247",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -19,7 +24,7 @@
     "date_lvl0": "1902",
     "date_lvl1": "1902-02",
     "date_lvl2": "1902-02-03",
-    "description": "\n\n\n        二月三日\n       \n\n\n       曇、\n       \n        午前九時\n       \n       朝飧ヲ畢リ書類ヲ整理シ、\n       \n        午後一時\n       \n\n        小石川\n       \n\n        女子大学\n       \n       ニ抵リ\n       \n\n         大隈\n        \n\n       、\n       \n\n         児島\n        \n\n       、\n       \n\n         広岡\n        \n\n       、三井諸氏ト学校新築ノ件其他ノ要務ヲ議ス、畢テ銀行集会所ニ抵リ、東京興信所発起会員ノ集会ニ列ス、諸議案ヲ決議シテ後、\n       \n        七時\n       \n\n        築地\n       \n       瓢屋ニ抵リ友人ノ宴会ニ列ス、夜\n       \n        十時\n       \n       過\n       \n        王子別荘\n       \n       ニ帰宿ス\n      \n",
+    "description": "\n\n\n        二月三日\n       \n\n\n       曇、\n       \n        午前九時\n       \n       朝飧ヲ畢リ書類ヲ整理シ、\n       \n        午後一時\n       \n\n        小石川\n       \n\n        女子大学\n       \n       ニ抵リ\n       \n\n         大隈\n        \n\n       、\n       \n\n         児島\n        \n\n       、\n       \n\n         広岡\n        \n\n       、三井諸氏ト学校新築ノ件其他ノ要務ヲ議ス、畢テ銀行集会所ニ抵リ、\n       \n        東京興信所\n       \n       発起会員ノ集会ニ列ス、諸議案ヲ決議シテ後、\n       \n        七時\n       \n\n        築地\n       \n       瓢屋ニ抵リ友人ノ宴会ニ列ス、夜\n       \n        十時\n       \n       過\n       \n        王子別荘\n       \n       ニ帰宿ス\n      \n",
     "label": "二月三日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10010m-0212",
@@ -30,7 +35,12 @@
     "spatial": [
         "小石川",
         "築地",
-        "王子別荘"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/小石川",
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1902-02-03",
     "texts": [
@@ -57,12 +67,12 @@
     ],
     "time": {
         "09:00:00": "<div>曇、<time when=\"09:00:00\">\n        午前九時\n       </time>\n       朝飧ヲ畢リ書類ヲ整理シ、</div>",
-        "13:00:00": "<div><time when=\"13:00:00\">\n        午後一時\n       </time>\n<placeName corresp=\"#place_小石川\">\n        小石川\n       </placeName>\n<orgName>\n        女子大学\n       </orgName>\n       ニ抵リ\n       <persName corresp=\"#pers_大隈\">\n<surname>\n         大隈\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_児島\">\n<surname>\n         児島\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_広岡\">\n<surname>\n         広岡\n        </surname>\n</persName>\n       、三井諸氏ト学校新築ノ件其他ノ要務ヲ議ス、畢テ銀行集会所ニ抵リ、東京興信所発起会員ノ集会ニ列ス、諸議案ヲ決議シテ後、</div>",
+        "13:00:00": "<div><time when=\"13:00:00\">\n        午後一時\n       </time>\n<placeName corresp=\"#place_小石川\">\n        小石川\n       </placeName>\n<orgName>\n        女子大学\n       </orgName>\n       ニ抵リ\n       <persName corresp=\"#pers_大隈\">\n<surname>\n         大隈\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_児島\">\n<surname>\n         児島\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_広岡\">\n<surname>\n         広岡\n        </surname>\n</persName>\n       、三井諸氏ト学校新築ノ件其他ノ要務ヲ議ス、畢テ銀行集会所ニ抵リ、\n       <orgName>\n        東京興信所\n       </orgName>\n       発起会員ノ集会ニ列ス、諸議案ヲ決議シテ後、</div>",
         "19:00:00": "<div><time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_築地\">\n        築地\n       </placeName>\n       瓢屋ニ抵リ友人ノ宴会ニ列ス、夜</div>",
-        "22:00:00": "<div><time when=\"22:00:00\">\n        十時\n       </time>\n       過\n       <placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
+        "22:00:00": "<div><time when=\"22:00:00\">\n        十時\n       </time>\n       過\n       <placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10010m-0211\">\n<head>\n<date when=\"1902-02-03\">\n        二月三日\n       </date>\n</head>\n<p>\n       曇、\n       <time when=\"09:00:00\">\n        午前九時\n       </time>\n       朝飧ヲ畢リ書類ヲ整理シ、\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n<placeName corresp=\"#place_小石川\">\n        小石川\n       </placeName>\n<orgName>\n        女子大学\n       </orgName>\n       ニ抵リ\n       <persName corresp=\"#pers_大隈\">\n<surname>\n         大隈\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_児島\">\n<surname>\n         児島\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_広岡\">\n<surname>\n         広岡\n        </surname>\n</persName>\n       、三井諸氏ト学校新築ノ件其他ノ要務ヲ議ス、畢テ銀行集会所ニ抵リ、東京興信所発起会員ノ集会ニ列ス、諸議案ヲ決議シテ後、\n       <time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_築地\">\n        築地\n       </placeName>\n       瓢屋ニ抵リ友人ノ宴会ニ列ス、夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n       過\n       <placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10010m-0211\">\n<head>\n<date when=\"1902-02-03\">\n        二月三日\n       </date>\n</head>\n<p>\n       曇、\n       <time when=\"09:00:00\">\n        午前九時\n       </time>\n       朝飧ヲ畢リ書類ヲ整理シ、\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n<placeName corresp=\"#place_小石川\">\n        小石川\n       </placeName>\n<orgName>\n        女子大学\n       </orgName>\n       ニ抵リ\n       <persName corresp=\"#pers_大隈\">\n<surname>\n         大隈\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_児島\">\n<surname>\n         児島\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_広岡\">\n<surname>\n         広岡\n        </surname>\n</persName>\n       、三井諸氏ト学校新築ノ件其他ノ要務ヲ議ス、畢テ銀行集会所ニ抵リ、\n       <orgName>\n        東京興信所\n       </orgName>\n       発起会員ノ集会ニ列ス、諸議案ヲ決議シテ後、\n       <time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_築地\">\n        築地\n       </placeName>\n       瓢屋ニ抵リ友人ノ宴会ニ列ス、夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n       過\n       <placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1902",
     "yearAndMonth": "1902-02"
 }

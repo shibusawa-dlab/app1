@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1432",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-06",
     "date_lvl2": "1923-06-16",
-    "description": "\n\n\n           十六日\n          \n          （土）\n         \n\n\n\n\n             午前九・三五\n            \n            養育院\n            \n             船形\n            \n            分院ヘ御出向（両国駅発）\n           \n\n\n\n\n             午後二時\n            \n            養育院\n            \n             船形\n            \n            分院開院記念日（同院）\n           \n\n\n",
+    "description": "\n\n\n           十六日\n          \n          （土）\n         \n\n\n\n\n             午前九・三五\n            \n            養育院\n            \n             船形\n            \n            分院ヘ御出向（\n            \n             両国\n            \n            駅発）\n           \n\n\n\n\n             午後二時\n            \n            養育院\n            \n             船形\n            \n            分院開院記念日（同院）\n           \n\n\n",
     "label": "十六日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0163",
@@ -24,7 +25,12 @@
     "sort": "DKB20025m-0162",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "船形"
+        "船形",
+        "両国"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/船形",
+        "https://shibusawa-dlab.github.io/lab1/api/place/両国"
     ],
     "temporal": "1923-06-16",
     "texts": [
@@ -50,10 +56,10 @@
         "DKB20020m-0149"
     ],
     "time": {
-        "09:35:00": "<div><time when=\"09:35:00\">\n             午前九・三五\n            </time>\n            養育院\n            <placeName corresp=\"#place_船形\">\n             船形\n            </placeName>\n            分院ヘ御出向（両国駅発）</div>"
+        "09:35:00": "<div><time when=\"09:35:00\">\n             午前九・三五\n            </time>\n            養育院\n            <placeName corresp=\"#place_船形\">\n             船形\n            </placeName>\n            分院ヘ御出向（\n            <placeName corresp=\"#place_両国\">\n             両国\n            </placeName>\n            駅発）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0162\">\n<head>\n<date when=\"1923-06-16\">\n           十六日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:35:00\">\n             午前九・三五\n            </time>\n            養育院\n            <placeName corresp=\"#place_船形\">\n             船形\n            </placeName>\n            分院ヘ御出向（両国駅発）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            養育院\n            <placeName corresp=\"#place_船形\">\n             船形\n            </placeName>\n            分院開院記念日（同院）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0162\">\n<head>\n<date when=\"1923-06-16\">\n           十六日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:35:00\">\n             午前九・三五\n            </time>\n            養育院\n            <placeName corresp=\"#place_船形\">\n             船形\n            </placeName>\n            分院ヘ御出向（\n            <placeName corresp=\"#place_両国\">\n             両国\n            </placeName>\n            駅発）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            養育院\n            <placeName corresp=\"#place_船形\">\n             船形\n            </placeName>\n            分院開院記念日（同院）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-06"
 }

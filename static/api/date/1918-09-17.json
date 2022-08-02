@@ -3,7 +3,15 @@
         "大川平三郎",
         "増田義一",
         "中野武営",
-        "清野長太郎"
+        "清野長太郎",
+        "寺島天園"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大川平三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/増田義一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中野武営",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/清野長太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/寺島天園"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1276",
     "category": {
@@ -20,7 +28,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-09",
     "date_lvl2": "1918-09-17",
-    "description": "\n\n\n           十七日\n          \n          （火）\n         \n\n\n\n\n             午前八時半\n            \n\n\n              大川\n             \n\n              平三郎\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              増田\n             \n\n              義一\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時半\n            \n\n\n              中野\n             \n\n              武営\n             \n\n            氏来約（〃）\n           \n\n\n\n\n             午後二―午後三時\n            \n\n\n              清野\n             \n\n              長太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n             寺島\n            \n            天園氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後五時\n            \n            中央慈善協会協議会（中央亭\n            \n             八重洲\n            \n            町）\n           \n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （火）\n         \n\n\n\n\n             午前八時半\n            \n\n\n              大川\n             \n\n              平三郎\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              増田\n             \n\n              義一\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時半\n            \n\n\n              中野\n             \n\n              武営\n             \n\n            氏来約（〃）\n           \n\n\n\n\n             午後二―午後三時\n            \n\n\n              清野\n             \n\n              長太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n\n              寺島\n             \n\n              天園\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後五時\n            \n            中央慈善協会協議会（中央亭\n            \n             八重洲\n            \n            町）\n           \n\n\n",
     "label": "十七日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0240",
@@ -29,10 +37,14 @@
     "sort": "DKB20020m-0239",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山",
+        "飛鳥山邸",
         "日本橋兜町",
-        "寺島",
         "八重洲"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/八重洲"
     ],
     "temporal": "1918-09-17",
     "texts": [
@@ -58,10 +70,10 @@
         "DKB20017m-0032"
     ],
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八時半\n            </time>\n<persName corresp=\"#pers_大川平三郎\">\n<surname>\n              大川\n             </surname>\n<forename>\n              平三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八時半\n            </time>\n<persName corresp=\"#pers_大川平三郎\">\n<surname>\n              大川\n             </surname>\n<forename>\n              平三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0239\">\n<head>\n<date when=\"1918-09-17\">\n           十七日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八時半\n            </time>\n<persName corresp=\"#pers_大川平三郎\">\n<surname>\n              大川\n             </surname>\n<forename>\n              平三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_増田義一\">\n<surname>\n              増田\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二時半\n            </time>\n<persName corresp=\"#pers_中野武営\">\n<surname>\n              中野\n             </surname>\n<forename>\n              武営\n             </forename>\n</persName>\n            氏来約（〃）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―午後三時\n            </time>\n<persName corresp=\"#pers_清野長太郎\">\n<surname>\n              清野\n             </surname>\n<forename>\n              長太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_寺島\">\n             寺島\n            </placeName>\n            天園氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            中央慈善協会協議会（中央亭\n            <placeName corresp=\"#place_八重洲\">\n             八重洲\n            </placeName>\n            町）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0239\">\n<head>\n<date when=\"1918-09-17\">\n           十七日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八時半\n            </time>\n<persName corresp=\"#pers_大川平三郎\">\n<surname>\n              大川\n             </surname>\n<forename>\n              平三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_増田義一\">\n<surname>\n              増田\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二時半\n            </time>\n<persName corresp=\"#pers_中野武営\">\n<surname>\n              中野\n             </surname>\n<forename>\n              武営\n             </forename>\n</persName>\n            氏来約（〃）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―午後三時\n            </time>\n<persName corresp=\"#pers_清野長太郎\">\n<surname>\n              清野\n             </surname>\n<forename>\n              長太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_寺島天園\">\n<surname>\n              寺島\n             </surname>\n<forename>\n              天園\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            中央慈善協会協議会（中央亭\n            <placeName corresp=\"#place_八重洲\">\n             八重洲\n            </placeName>\n            町）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-09"
 }

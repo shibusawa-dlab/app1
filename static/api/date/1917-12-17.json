@@ -1,7 +1,13 @@
 {
     "agential": [
         "望月小太郎",
+        "山川健次郎",
         "石井"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/望月小太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山川健次郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/石井"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1255",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-12",
     "date_lvl2": "1917-12-17",
-    "description": "\n\n\n           十七日\n          \n          （月）\n         \n\n\n\n\n             午前八時\n            \n\n\n              望月\n             \n\n              小太郎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            理化学研究所ノ件（同事務処）\n           \n\n\n\n\n             午前十一時\n            \n            山川帝大総長ヲ御訪問（帝大）\n           \n\n\n\n\n             午後二時\n            \n            ワナメーカー商会代表者と御会見（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後七時\n            \n\n\n              石井\n             \n\n            大使歓迎会（ホテル）\n            \n            略綬、燕尾服\n           \n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （月）\n         \n\n\n\n\n             午前八時\n            \n\n\n              望月\n             \n\n              小太郎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            理化学研究所ノ件（同事務処）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              山川\n             \n\n            帝大総長ヲ御訪問（帝大）\n           \n\n\n\n\n             午後二時\n            \n            ワナメーカー商会代表者と御会見（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後七時\n            \n\n\n              石井\n             \n\n            大使歓迎会（ホテル）\n            \n            略綬、燕尾服\n           \n\n\n",
     "label": "十七日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0326",
@@ -27,8 +33,12 @@
     "sort": "DKB20019m-0325",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
+        "飛鳥山邸",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1917-12-17",
     "texts": [
@@ -54,10 +64,10 @@
         "DKB20020m-0204"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_望月小太郎\">\n<surname>\n              望月\n             </surname>\n<forename>\n              小太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_望月小太郎\">\n<surname>\n              望月\n             </surname>\n<forename>\n              小太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0325\">\n<head>\n<date when=\"1917-12-17\">\n           十七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_望月小太郎\">\n<surname>\n              望月\n             </surname>\n<forename>\n              小太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            理化学研究所ノ件（同事務処）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            山川帝大総長ヲ御訪問（帝大）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            ワナメーカー商会代表者と御会見（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n<persName corresp=\"#pers_石井\">\n<surname>\n              石井\n             </surname>\n</persName>\n            大使歓迎会（ホテル）\n            <lb/>\n            略綬、燕尾服\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0325\">\n<head>\n<date when=\"1917-12-17\">\n           十七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_望月小太郎\">\n<surname>\n              望月\n             </surname>\n<forename>\n              小太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            理化学研究所ノ件（同事務処）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_山川健次郎\">\n<surname>\n              山川\n             </surname>\n</persName>\n            帝大総長ヲ御訪問（帝大）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            ワナメーカー商会代表者と御会見（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n<persName corresp=\"#pers_石井\">\n<surname>\n              石井\n             </surname>\n</persName>\n            大使歓迎会（ホテル）\n            <lb/>\n            略綬、燕尾服\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-12"
 }

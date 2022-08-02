@@ -1,7 +1,13 @@
 {
     "agential": [
         "谷山初七郎",
+        "青木節一",
         "江崎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/谷山初七郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/青木節一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/江崎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1512",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-05",
     "date_lvl2": "1926-05-19",
-    "description": "\n\n\n           十九日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n\n\n              谷山\n             \n\n              初七郎\n             \n\n            氏来約（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午前九半―十時\n            \n            青山節一氏来約（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              江崎\n             \n\n            里か子来約《（氏脱）》（\n            \n             アスカ山\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n\n\n              谷山\n             \n\n              初七郎\n             \n\n            氏来約（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午前九半―十時\n            \n\n\n              青木\n             \n\n              節一\n             \n\n            氏来約（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              江崎\n             \n\n            里か子来約《（氏脱）》（\n            \n             アスカ山\n            \n            ）\n           \n\n\n",
     "label": "十九日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0140",
@@ -27,8 +33,10 @@
     "sort": "DKB20028m-0139",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山邸",
-        "アスカ山"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1926-05-19",
     "texts": [
@@ -54,10 +62,10 @@
         "DKB20033m-0164"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_谷山初七郎\">\n<surname>\n              谷山\n             </surname>\n<forename>\n              初七郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_谷山初七郎\">\n<surname>\n              谷山\n             </surname>\n<forename>\n              初七郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0139\">\n<head>\n<date when=\"1926-05-19\">\n           十九日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_谷山初七郎\">\n<surname>\n              谷山\n             </surname>\n<forename>\n              初七郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"09:30:00\" to=\"10:00:00\">\n             午前九半―十時\n            </time>\n            青山節一氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_江崎\">\n<surname>\n              江崎\n             </surname>\n</persName>\n            里か子来約《（氏脱）》（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0139\">\n<head>\n<date when=\"1926-05-19\">\n           十九日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_谷山初七郎\">\n<surname>\n              谷山\n             </surname>\n<forename>\n              初七郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"09:30:00\" to=\"10:00:00\">\n             午前九半―十時\n            </time>\n<persName corresp=\"#pers_青木節一\">\n<surname>\n              青木\n             </surname>\n<forename>\n              節一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_江崎\">\n<surname>\n              江崎\n             </surname>\n</persName>\n            里か子来約《（氏脱）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-05"
 }

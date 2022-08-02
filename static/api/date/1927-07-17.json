@@ -1,9 +1,17 @@
 {
     "agential": [
         "小野秀雄",
-        "勝美",
+        "黒板勝美",
         "小原國芳",
+        "市川",
         "大倉喜八郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小野秀雄",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/黒板勝美",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小原國芳",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/市川",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大倉喜八郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1551",
     "category": {
@@ -20,7 +28,7 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-07",
     "date_lvl2": "1927-07-17",
-    "description": "\n\n\n           十七日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n\n\n              小野\n             \n\n              秀雄\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n            黒板\n            \n\n              勝美\n             \n\n            博士来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九\n            \n            過時\n            \n             成城\n            \n            小学校主事\n            \n\n              小原\n             \n\n              国芳\n             \n\n            、\n            \n             市川\n            \n            夫人来約\n           \n\n\n\n\n             午前十一時\n            \n\n\n              大倉\n             \n\n              喜八郎\n             \n\n            氏邸ヲ御訪問\n           \n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n\n\n              小野\n             \n\n              秀雄\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              黒板\n             \n\n              勝美\n             \n\n            博士来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九\n            \n            過時\n            \n             成城\n            \n            小学校主事\n            \n\n              小原\n             \n\n              国芳\n             \n\n            、\n            \n\n              市川\n             \n\n            夫人来約\n           \n\n\n\n\n             午前十一時\n            \n\n\n              大倉\n             \n\n              喜八郎\n             \n\n            氏邸ヲ御訪問\n           \n\n\n",
     "label": "十七日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0183",
@@ -29,10 +37,12 @@
     "sort": "DKB20029m-0182",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山",
         "飛鳥山邸",
-        "成城",
-        "市川"
+        "成城"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/成城"
     ],
     "temporal": "1927-07-17",
     "texts": [
@@ -58,10 +68,10 @@
         "DKB20031m-0142"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_小野秀雄\">\n<surname>\n              小野\n             </surname>\n<forename>\n              秀雄\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_小野秀雄\">\n<surname>\n              小野\n             </surname>\n<forename>\n              秀雄\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0182\">\n<head>\n<date when=\"1927-07-17\">\n           十七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_小野秀雄\">\n<surname>\n              小野\n             </surname>\n<forename>\n              秀雄\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            黒板\n            <persName corresp=\"#pers_勝美\">\n<forename>\n              勝美\n             </forename>\n</persName>\n            博士来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九\n            </time>\n            過時\n            <placeName corresp=\"#place_成城\">\n             成城\n            </placeName>\n            小学校主事\n            <persName corresp=\"#pers_小原國芳\">\n<surname>\n              小原\n             </surname>\n<forename>\n              国芳\n             </forename>\n</persName>\n            、\n            <placeName corresp=\"#place_市川\">\n             市川\n            </placeName>\n            夫人来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_大倉喜八郎\">\n<surname>\n              大倉\n             </surname>\n<forename>\n              喜八郎\n             </forename>\n</persName>\n            氏邸ヲ御訪問\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0182\">\n<head>\n<date when=\"1927-07-17\">\n           十七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_小野秀雄\">\n<surname>\n              小野\n             </surname>\n<forename>\n              秀雄\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_黒板勝美\">\n<surname>\n              黒板\n             </surname>\n<forename>\n              勝美\n             </forename>\n</persName>\n            博士来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九\n            </time>\n            過時\n            <placeName corresp=\"#place_成城\">\n             成城\n            </placeName>\n            小学校主事\n            <persName corresp=\"#pers_小原國芳\">\n<surname>\n              小原\n             </surname>\n<forename>\n              国芳\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_市川\">\n<surname>\n              市川\n             </surname>\n</persName>\n            夫人来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_大倉喜八郎\">\n<surname>\n              大倉\n             </surname>\n<forename>\n              喜八郎\n             </forename>\n</persName>\n            氏邸ヲ御訪問\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-07"
 }

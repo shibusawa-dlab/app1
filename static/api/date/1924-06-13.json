@@ -1,8 +1,15 @@
 {
     "agential": [
+        "ラビンドラナート_タゴール",
         "村井吉兵衛",
         "徳川頼輪",
         "徳川頼倫"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ラビンドラナート_タゴール",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/村井吉兵衛",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川頼輪",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川頼倫"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1467",
     "category": {
@@ -19,7 +26,7 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-06",
     "date_lvl2": "1924-06-13",
-    "description": "\n\n\n           十三日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n            タゴール氏ト御会見（\n            \n             東京\n            \n            市養育院本院）\n           \n\n\n\n\n             午前九時\n            \n            タゴール氏ヲ養育院ニ御案内（\n            \n             板橋\n            \n            本院ニテ御待合セ）\n           \n\n\n\n\n             午后一時\n            \n\n\n              村井\n             \n\n              吉兵衛\n             \n\n            氏御訪問（\n            \n             永田町\n            \n            同邸）\n           \n\n\n\n\n             午后三時\n            \n            華族会館ヘ御出向（\n            \n\n              徳川\n             \n\n              頼輪\n             \n\n            侯等《（\n            \n\n              徳川\n             \n\n              頼倫\n             \n\n            ）》ト御会合）\n           \n\n\n\n\n             午後五時\n            \n            タゴール氏招待観劇会（演技座）\n           \n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n\n\n              タゴール\n             \n\n            氏ト御会見（\n            \n             東京\n            \n            市養育院本院）\n           \n\n\n\n\n             午前九時\n            \n\n\n              タゴール\n             \n\n            氏ヲ養育院ニ御案内（\n            \n             板橋\n            \n            本院ニテ御待合セ）\n           \n\n\n\n\n             午后一時\n            \n\n\n              村井\n             \n\n              吉兵衛\n             \n\n            氏御訪問（\n            \n             永田町\n            \n            同邸）\n           \n\n\n\n\n             午后三時\n            \n            華族会館ヘ御出向（\n            \n\n              徳川\n             \n\n              頼輪\n             \n\n            侯等《（\n            \n\n              徳川\n             \n\n              頼倫\n             \n\n            ）》ト御会合）\n           \n\n\n\n\n             午後五時\n            \n\n\n              タゴール\n             \n\n            氏招待観劇会（演技座）\n           \n\n\n",
     "label": "十三日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0170",
@@ -31,6 +38,11 @@
         "東京",
         "板橋",
         "永田町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/板橋",
+        "https://shibusawa-dlab.github.io/lab1/api/place/永田町"
     ],
     "temporal": "1924-06-13",
     "texts": [
@@ -56,10 +68,10 @@
         "DKB20031m-0188"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            タゴール氏ト御会見（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院本院）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_ラビンドラナート_タゴール\">\n<surname>\n              タゴール\n             </surname>\n</persName>\n            氏ト御会見（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院本院）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0169\">\n<head>\n<date when=\"1924-06-13\">\n           十三日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            タゴール氏ト御会見（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院本院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            タゴール氏ヲ養育院ニ御案内（\n            <placeName corresp=\"#place_板橋\">\n             板橋\n            </placeName>\n            本院ニテ御待合セ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n<persName corresp=\"#pers_村井吉兵衛\">\n<surname>\n              村井\n             </surname>\n<forename>\n              吉兵衛\n             </forename>\n</persName>\n            氏御訪問（\n            <placeName corresp=\"#place_永田町\">\n             永田町\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n            華族会館ヘ御出向（\n            <persName corresp=\"#pers_徳川頼輪\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              頼輪\n             </forename>\n</persName>\n            侯等《（\n            <persName corresp=\"#pers_徳川頼倫\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              頼倫\n             </forename>\n</persName>\n            ）》ト御会合）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            タゴール氏招待観劇会（演技座）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0169\">\n<head>\n<date when=\"1924-06-13\">\n           十三日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_ラビンドラナート_タゴール\">\n<surname>\n              タゴール\n             </surname>\n</persName>\n            氏ト御会見（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院本院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_ラビンドラナート_タゴール\">\n<surname>\n              タゴール\n             </surname>\n</persName>\n            氏ヲ養育院ニ御案内（\n            <placeName corresp=\"#place_板橋\">\n             板橋\n            </placeName>\n            本院ニテ御待合セ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n<persName corresp=\"#pers_村井吉兵衛\">\n<surname>\n              村井\n             </surname>\n<forename>\n              吉兵衛\n             </forename>\n</persName>\n            氏御訪問（\n            <placeName corresp=\"#place_永田町\">\n             永田町\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n            華族会館ヘ御出向（\n            <persName corresp=\"#pers_徳川頼輪\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              頼輪\n             </forename>\n</persName>\n            侯等《（\n            <persName corresp=\"#pers_徳川頼倫\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              頼倫\n             </forename>\n</persName>\n            ）》ト御会合）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_ラビンドラナート_タゴール\">\n<surname>\n              タゴール\n             </surname>\n</persName>\n            氏招待観劇会（演技座）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-06"
 }

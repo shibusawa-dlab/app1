@@ -5,6 +5,12 @@
         "守屋",
         "福島行信"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山下亀三郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/丸山",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/守屋",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/福島行信"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1512",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -29,7 +35,10 @@
     "sort": "DKB20028m-0140",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1926-05-20",
     "texts": [
@@ -55,10 +64,10 @@
         "DKB20033m-0031"
     ],
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_山下亀三郎\">\n<surname>\n              山下\n             </surname>\n<forename>\n              亀三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_山下亀三郎\">\n<surname>\n              山下\n             </surname>\n<forename>\n              亀三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0140\">\n<head>\n<date when=\"1926-05-20\">\n           二十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_山下亀三郎\">\n<surname>\n              山下\n             </surname>\n<forename>\n              亀三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_丸山\">\n<surname>\n              丸山\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_守屋\">\n<forename>\n              守屋\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"09:30:00\" to=\"10:00:00\">\n             午前九半―十時\n            </time>\n<persName corresp=\"#pers_福島行信\">\n<surname>\n              福島\n             </surname>\n<forename>\n              行信\n             </forename>\n</persName>\n            氏来約（〃）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0140\">\n<head>\n<date when=\"1926-05-20\">\n           二十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_山下亀三郎\">\n<surname>\n              山下\n             </surname>\n<forename>\n              亀三郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_丸山\">\n<surname>\n              丸山\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_守屋\">\n<forename>\n              守屋\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"09:30:00\" to=\"10:00:00\">\n             午前九半―十時\n            </time>\n<persName corresp=\"#pers_福島行信\">\n<surname>\n              福島\n             </surname>\n<forename>\n              行信\n             </forename>\n</persName>\n            氏来約（〃）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-05"
 }

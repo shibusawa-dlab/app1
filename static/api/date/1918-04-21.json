@@ -2,7 +2,14 @@
     "agential": [
         "姉崎",
         "大隈",
+        "タタ",
         "瀬木博尚"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/姉崎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大隈",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/タタ",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/瀬木博尚"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1266",
     "category": {
@@ -19,7 +26,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-04",
     "date_lvl2": "1918-04-21",
-    "description": "\n\n\n           廿一日\n          \n          （日）\n         \n\n\n\n\n             午前十時五十五分\n            \n\n             大磯\n            \n            より御帰京\n            \n             東京\n            \n            駅着\n           \n\n\n\n\n             午前十一時半\n            \n\n\n              姉崎\n             \n\n            博士来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              大隈\n             \n\n            侯ヨリ御招待（\n            \n             早稲田\n            \n            同侯邸）\n            \n            （タタ氏夫妻歓迎）\n           \n\n\n\n\n             午後四半時\n            \n            内外通報社創立二十年紀念祝賀会（ホテル）（\n            \n\n              瀬木\n             \n\n              博尚\n             \n\n            氏ヨリ案内）\n           \n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （日）\n         \n\n\n\n\n             午前十時五十五分\n            \n\n             大磯\n            \n            より御帰京\n            \n             東京\n            \n            駅着\n           \n\n\n\n\n             午前十一時半\n            \n\n\n              姉崎\n             \n\n            博士来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              大隈\n             \n\n            侯ヨリ御招待（\n            \n             早稲田\n            \n            同侯邸）\n            \n            （\n            \n\n              タタ\n             \n\n            氏夫妻歓迎）\n           \n\n\n\n\n             午後四半時\n            \n            内外通報社創立二十年紀念祝賀会（ホテル）（\n            \n\n              瀬木\n             \n\n              博尚\n             \n\n            氏ヨリ案内）\n           \n\n\n",
     "label": "廿一日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0106",
@@ -32,6 +39,12 @@
         "東京",
         "日本橋兜町",
         "早稲田"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/大磯町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/早稲田"
     ],
     "temporal": "1918-04-21",
     "texts": [
@@ -60,7 +73,7 @@
         "10:55:00": "<div><time when=\"10:55:00\">\n             午前十時五十五分\n            </time>\n<placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            より御帰京\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅着</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0105\">\n<head>\n<date when=\"1918-04-21\">\n           廿一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:55:00\">\n             午前十時五十五分\n            </time>\n<placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            より御帰京\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n<persName corresp=\"#pers_姉崎\">\n<surname>\n              姉崎\n             </surname>\n</persName>\n            博士来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯ヨリ御招待（\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            同侯邸）\n            <lb/>\n            （タタ氏夫妻歓迎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            内外通報社創立二十年紀念祝賀会（ホテル）（\n            <persName corresp=\"#pers_瀬木博尚\">\n<surname>\n              瀬木\n             </surname>\n<forename>\n              博尚\n             </forename>\n</persName>\n            氏ヨリ案内）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0105\">\n<head>\n<date when=\"1918-04-21\">\n           廿一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:55:00\">\n             午前十時五十五分\n            </time>\n<placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            より御帰京\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n<persName corresp=\"#pers_姉崎\">\n<surname>\n              姉崎\n             </surname>\n</persName>\n            博士来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯ヨリ御招待（\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            同侯邸）\n            <lb/>\n            （\n            <persName corresp=\"#pers_タタ\">\n<surname>\n              タタ\n             </surname>\n</persName>\n            氏夫妻歓迎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            内外通報社創立二十年紀念祝賀会（ホテル）（\n            <persName corresp=\"#pers_瀬木博尚\">\n<surname>\n              瀬木\n             </surname>\n<forename>\n              博尚\n             </forename>\n</persName>\n            氏ヨリ案内）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-04"
 }

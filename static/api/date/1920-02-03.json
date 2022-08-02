@@ -1,6 +1,11 @@
 {
     "agential": [
-        "井上"
+        "井上",
+        "ビルス"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/井上",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ビルス"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1323",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-02",
     "date_lvl2": "1920-02-03",
-    "description": "\n\n\n           三日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n\n\n              井上\n             \n\n            日銀総裁ヲ御訪問（\n            \n             日本\n            \n            銀行）\n           \n\n\n\n\n             午前十一時\n            \n            ビルス氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            協調会理事会（華族会館）\n           \n\n\n",
+    "description": "\n\n\n           三日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n\n\n              井上\n             \n\n            日銀総裁ヲ御訪問（\n            \n             日本銀行\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              ビルス\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            協調会理事会（華族会館）\n           \n\n\n",
     "label": "三日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0033",
@@ -26,8 +31,10 @@
     "sort": "DKB20022m-0032",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "日本",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1920-02-03",
     "texts": [
@@ -53,10 +60,10 @@
         "DKB20029m-0177"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            日銀総裁ヲ御訪問（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            銀行）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            日銀総裁ヲ御訪問（\n            <orgName>\n             日本銀行\n            </orgName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0032\">\n<head>\n<date when=\"1920-02-03\">\n           三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            日銀総裁ヲ御訪問（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            銀行）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            ビルス氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            協調会理事会（華族会館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0032\">\n<head>\n<date when=\"1920-02-03\">\n           三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            日銀総裁ヲ御訪問（\n            <orgName>\n             日本銀行\n            </orgName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_ビルス\">\n<surname>\n              ビルス\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            協調会理事会（華族会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-02"
 }

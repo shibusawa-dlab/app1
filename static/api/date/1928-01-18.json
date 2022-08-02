@@ -1,11 +1,21 @@
 {
     "agential": [
         "中野",
+        "清水釘吉",
         "井上",
         "星野錫",
         "岩崎",
         "三井",
         "大倉喜七郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/中野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/清水釘吉",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/井上",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/星野錫",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岩崎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/三井",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大倉喜七郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1570",
     "category": {
@@ -22,7 +32,7 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-01",
     "date_lvl2": "1928-01-18",
-    "description": "\n\n\n           十八日\n          \n          （水）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              中野\n             \n\n            等氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n             清水\n            \n            釘吉氏来約（〃〃）\n           \n\n\n\n\n             正午\n            \n            故\n            \n\n              井上\n             \n\n            侯爵伝記編纂ノ件（銀行クラブ）\n           \n\n\n\n\n             午後二・三五\n            \n            御出勤\n           \n\n\n\n\n             午後二時\n            \n            頃\n            \n\n              星野\n             \n\n              錫\n             \n\n            氏同道、\n            \n\n              岩崎\n             \n\n            、\n            \n\n              三井\n             \n\n            両家ニ御出向\n           \n\n\n\n            引ツヅキ\n            \n\n              大倉\n             \n\n              喜七郎\n             \n\n            男ヲ御訪問\n           \n\n\n",
+    "description": "\n\n\n           十八日\n          \n          （水）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              中野\n             \n\n            等氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              清水\n             \n\n              釘吉\n             \n\n            氏来約（〃〃）\n           \n\n\n\n\n             正午\n            \n            故\n            \n\n              井上\n             \n\n            侯爵伝記編纂ノ件（銀行クラブ）\n           \n\n\n\n\n             午後二・三五\n            \n            御出勤\n           \n\n\n\n\n             午後二時\n            \n            頃\n            \n\n              星野\n             \n\n              錫\n             \n\n            氏同道、\n            \n\n              岩崎\n             \n\n            、\n            \n\n              三井\n             \n\n            両家ニ御出向\n           \n\n\n\n            引ツヅキ\n            \n\n              大倉\n             \n\n              喜七郎\n             \n\n            男ヲ御訪問\n           \n\n\n",
     "label": "十八日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20030m-0019",
@@ -31,8 +41,10 @@
     "sort": "DKB20030m-0018",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
-        "清水"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1928-01-18",
     "texts": [
@@ -61,7 +73,7 @@
         "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_中野\">\n<surname>\n              中野\n             </surname>\n</persName>\n            等氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0018\">\n<head>\n<date when=\"1928-01-18\">\n           十八日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_中野\">\n<surname>\n              中野\n             </surname>\n</persName>\n            等氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_清水\">\n             清水\n            </placeName>\n            釘吉氏来約（〃〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            故\n            <persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            侯爵伝記編纂ノ件（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:35:00\">\n             午後二・三五\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            頃\n            <persName corresp=\"#pers_星野錫\">\n<surname>\n              星野\n             </surname>\n<forename>\n              錫\n             </forename>\n</persName>\n            氏同道、\n            <persName corresp=\"#pers_岩崎\">\n<surname>\n              岩崎\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_三井\">\n<surname>\n              三井\n             </surname>\n</persName>\n            両家ニ御出向\n           </p>\n</event>\n<event>\n<p>\n            引ツヅキ\n            <persName corresp=\"#pers_大倉喜七郎\">\n<surname>\n              大倉\n             </surname>\n<forename>\n              喜七郎\n             </forename>\n</persName>\n            男ヲ御訪問\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0018\">\n<head>\n<date when=\"1928-01-18\">\n           十八日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_中野\">\n<surname>\n              中野\n             </surname>\n</persName>\n            等氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_清水釘吉\">\n<surname>\n              清水\n             </surname>\n<forename>\n              釘吉\n             </forename>\n</persName>\n            氏来約（〃〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            故\n            <persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            侯爵伝記編纂ノ件（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:35:00\">\n             午後二・三五\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            頃\n            <persName corresp=\"#pers_星野錫\">\n<surname>\n              星野\n             </surname>\n<forename>\n              錫\n             </forename>\n</persName>\n            氏同道、\n            <persName corresp=\"#pers_岩崎\">\n<surname>\n              岩崎\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_三井\">\n<surname>\n              三井\n             </surname>\n</persName>\n            両家ニ御出向\n           </p>\n</event>\n<event>\n<p>\n            引ツヅキ\n            <persName corresp=\"#pers_大倉喜七郎\">\n<surname>\n              大倉\n             </surname>\n<forename>\n              喜七郎\n             </forename>\n</persName>\n            男ヲ御訪問\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-01"
 }

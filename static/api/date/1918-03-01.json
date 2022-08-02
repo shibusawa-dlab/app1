@@ -3,6 +3,10 @@
         "塚本松之助",
         "目賀田"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/塚本松之助",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/目賀田"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1260",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -28,9 +32,15 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "サンフランシスコ",
-        "飛鳥山公園",
+        "飛鳥山邸",
         "東北地方",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/サンフランシスコ",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東北地方",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1918-03-01",
     "texts": [
@@ -56,10 +66,10 @@
         "DKB20017m-0058"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_サンフランシスコ\">\n             桑港\n            </placeName>\n<persName corresp=\"#pers_塚本松之助\">\n<surname>\n              塚本\n             </surname>\n<forename>\n              松之助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_サンフランシスコ\">\n             桑港\n            </placeName>\n<persName corresp=\"#pers_塚本松之助\">\n<surname>\n              塚本\n             </surname>\n<forename>\n              松之助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0054\">\n<head>\n<date when=\"1918-03-01\">\n           一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_サンフランシスコ\">\n             桑港\n            </placeName>\n<persName corresp=\"#pers_塚本松之助\">\n<surname>\n              塚本\n             </surname>\n<forename>\n              松之助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:30:00\" to=\"16:00:00\">\n             午後三半―四時\n            </time>\n<placeName corresp=\"#place_東北地方\">\n             東北\n            </placeName>\n            学院ニード氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            日露協会主催、\n            <persName corresp=\"#pers_目賀田\">\n<surname>\n              目賀田\n             </surname>\n</persName>\n            男爵歓迎会（ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0054\">\n<head>\n<date when=\"1918-03-01\">\n           一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_サンフランシスコ\">\n             桑港\n            </placeName>\n<persName corresp=\"#pers_塚本松之助\">\n<surname>\n              塚本\n             </surname>\n<forename>\n              松之助\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:30:00\" to=\"16:00:00\">\n             午後三半―四時\n            </time>\n<placeName corresp=\"#place_東北地方\">\n             東北\n            </placeName>\n            学院ニード氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            日露協会主催、\n            <persName corresp=\"#pers_目賀田\">\n<surname>\n              目賀田\n             </surname>\n</persName>\n            男爵歓迎会（ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-03"
 }

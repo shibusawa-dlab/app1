@@ -1,5 +1,6 @@
 {
     "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1189",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +16,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-07",
     "date_lvl2": "1915-07-29",
-    "description": "\n\n\n           廿九日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n\n             江戸\n            \n            紀念博覧会開会式（同会場）\n            \n            （案内書ハ不日送ルト電話アリ）案内書\n            \n             廿七日\n            \n            着\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午後四時\n            \n            明治神宮ノ件（華族会館商業会議所）\n           \n\n\n",
+    "description": "\n\n\n           廿九日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n            江戸紀念博覧会開会式（同会場）\n            \n            （案内書ハ不日送ルト電話アリ）案内書\n            \n             廿七日\n            \n            着\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午後四時\n            \n            明治神宮ノ件（華族会館商業会議所）\n           \n\n\n",
     "label": "廿九日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0201",
@@ -23,9 +24,8 @@
     "prev": "DKB20017m-0199",
     "sort": "DKB20017m-0200",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "江戸"
-    ],
+    "spatial": [],
+    "spatial_uri": [],
     "temporal": "1915-07-29",
     "texts": [
         "DKB20018m-0231",
@@ -50,10 +50,10 @@
         "DKB20017m-0019"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_江戸\">\n             江戸\n            </placeName>\n            紀念博覧会開会式（同会場）\n            <lb/>\n            （案内書ハ不日送ルト電話アリ）案内書\n            <date when=\"1915-07-27\">\n             廿七日\n            </date>\n            着</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            江戸紀念博覧会開会式（同会場）\n            <lb/>\n            （案内書ハ不日送ルト電話アリ）案内書\n            <date when=\"1915-07-27\">\n             廿七日\n            </date>\n            着</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0200\">\n<head>\n<date when=\"1915-07-29\">\n           廿九日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_江戸\">\n             江戸\n            </placeName>\n            紀念博覧会開会式（同会場）\n            <lb/>\n            （案内書ハ不日送ルト電話アリ）案内書\n            <date when=\"1915-07-27\">\n             廿七日\n            </date>\n            着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            明治神宮ノ件（華族会館商業会議所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0200\">\n<head>\n<date when=\"1915-07-29\">\n           廿九日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            江戸紀念博覧会開会式（同会場）\n            <lb/>\n            （案内書ハ不日送ルト電話アリ）案内書\n            <date when=\"1915-07-27\">\n             廿七日\n            </date>\n            着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            明治神宮ノ件（華族会館商業会議所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-07"
 }

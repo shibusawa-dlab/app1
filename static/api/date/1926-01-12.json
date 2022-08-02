@@ -2,7 +2,14 @@
     "agential": [
         "木島孝蔵",
         "難波理一郎",
-        "市原求"
+        "市原求",
+        "團琢磨"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/木島孝蔵",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/難波理一郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/市原求",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/團琢磨"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1500",
     "category": {
@@ -19,7 +26,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-01",
     "date_lvl2": "1926-01-12",
-    "description": "\n\n\n           十二日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n\n\n              木島\n             \n\n              孝蔵\n             \n\n            氏来約（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n\n              難波\n             \n\n              理一郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二・四五\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午後三時\n            \n\n\n              市原\n             \n\n              求\n             \n\n            氏より御案内（歌舞伎座）\n           \n\n\n\n\n             午後三半時\n            \n            団琢磨氏ヲ御訪問（三井信託会社）\n           \n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n\n\n              木島\n             \n\n              孝蔵\n             \n\n            氏来約（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n\n              難波\n             \n\n              理一郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二・四五\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午後三時\n            \n\n\n              市原\n             \n\n              求\n             \n\n            氏より御案内（歌舞伎座）\n           \n\n\n\n\n             午後三半時\n            \n\n\n              団\n             \n\n              琢磨\n             \n\n            氏ヲ御訪問（三井信託会社）\n           \n\n\n",
     "label": "十二日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0013",
@@ -28,8 +35,10 @@
     "sort": "DKB20028m-0012",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山邸",
         "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1926-01-12",
     "texts": [
@@ -55,10 +64,10 @@
         "DKB20031m-0256"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_木島孝蔵\">\n<surname>\n              木島\n             </surname>\n<forename>\n              孝蔵\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_木島孝蔵\">\n<surname>\n              木島\n             </surname>\n<forename>\n              孝蔵\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0012\">\n<head>\n<date when=\"1926-01-12\">\n           十二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_木島孝蔵\">\n<surname>\n              木島\n             </surname>\n<forename>\n              孝蔵\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_難波理一郎\">\n<surname>\n              難波\n             </surname>\n<forename>\n              理一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:45:00\">\n             午後二・四五\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_市原求\">\n<surname>\n              市原\n             </surname>\n<forename>\n              求\n             </forename>\n</persName>\n            氏より御案内（歌舞伎座）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n            団琢磨氏ヲ御訪問（三井信託会社）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0012\">\n<head>\n<date when=\"1926-01-12\">\n           十二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_木島孝蔵\">\n<surname>\n              木島\n             </surname>\n<forename>\n              孝蔵\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_難波理一郎\">\n<surname>\n              難波\n             </surname>\n<forename>\n              理一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:45:00\">\n             午後二・四五\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_市原求\">\n<surname>\n              市原\n             </surname>\n<forename>\n              求\n             </forename>\n</persName>\n            氏より御案内（歌舞伎座）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n<persName corresp=\"#pers_團琢磨\">\n<surname>\n              団\n             </surname>\n<forename>\n              琢磨\n             </forename>\n</persName>\n            氏ヲ御訪問（三井信託会社）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-01"
 }

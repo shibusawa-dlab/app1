@@ -5,6 +5,12 @@
         "谷口留五郎",
         "穂積重威"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢義一",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/服部金太郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/谷口留五郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/穂積重威"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1312",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +26,7 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-10",
     "date_lvl2": "1919-10-09",
-    "description": "\n\n\n           九日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n\n              渋沢\n             \n\n              義一\n             \n\n            氏\n            \n             飛鳥山\n            \n            邸ニ来約\n           \n\n\n\n\n             午後四時\n            \n\n\n              服部\n             \n\n              金太郎\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後四時\n            \n\n\n              谷口\n             \n\n              留五郎\n             \n\n            氏　同上\n           \n\n\n\n\n             午後五時\n            \n\n\n              穂積\n             \n\n              重威\n             \n\n            氏結婚披露（ホテル）\n           \n\n\n",
+    "description": "\n\n\n           九日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n\n              渋沢\n             \n\n              義一\n             \n\n            氏\n            \n             飛鳥山邸\n            \n            ニ来約\n           \n\n\n\n\n             午後四時\n            \n\n\n              服部\n             \n\n              金太郎\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後四時\n            \n\n\n              谷口\n             \n\n              留五郎\n             \n\n            氏　同上\n           \n\n\n\n\n             午後五時\n            \n\n\n              穂積\n             \n\n              重威\n             \n\n            氏結婚披露（ホテル）\n           \n\n\n",
     "label": "九日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0254",
@@ -29,8 +35,12 @@
     "sort": "DKB20021m-0253",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山公園",
+        "飛鳥山邸",
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1919-10-09",
     "texts": [
@@ -56,10 +66,10 @@
         "DKB20027m-0131"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_渋沢義一\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸ニ来約</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_渋沢義一\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ニ来約</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0253\">\n<head>\n<date when=\"1919-10-09\">\n           九日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_渋沢義一\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_服部金太郎\">\n<surname>\n              服部\n             </surname>\n<forename>\n              金太郎\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_谷口留五郎\">\n<surname>\n              谷口\n             </surname>\n<forename>\n              留五郎\n             </forename>\n</persName>\n            氏　同上\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_穂積重威\">\n<surname>\n              穂積\n             </surname>\n<forename>\n              重威\n             </forename>\n</persName>\n            氏結婚披露（ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0253\">\n<head>\n<date when=\"1919-10-09\">\n           九日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_渋沢義一\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_服部金太郎\">\n<surname>\n              服部\n             </surname>\n<forename>\n              金太郎\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_谷口留五郎\">\n<surname>\n              谷口\n             </surname>\n<forename>\n              留五郎\n             </forename>\n</persName>\n            氏　同上\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_穂積重威\">\n<surname>\n              穂積\n             </surname>\n<forename>\n              重威\n             </forename>\n</persName>\n            氏結婚披露（ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-10"
 }

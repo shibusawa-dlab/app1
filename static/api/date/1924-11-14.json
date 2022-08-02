@@ -2,6 +2,9 @@
     "agential": [
         "越寿三郎"
     ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/越寿三郎"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1482",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -17,7 +20,7 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-11",
     "date_lvl2": "1924-11-14",
-    "description": "\n\n\n           十四日\n          \n          （金）\n         \n\n\n\n\n             午前八時\n            \n\n\n              越\n             \n\n              寿三郎\n             \n\n            《（氏脱）》（\n            \n             アスカ山\n            \n            邸来約）\n           \n\n\n\n\n             午前十時\n            \n\n             浅草\n            \n            寺観音会発会式（同大伝法院）《（マヽ）》\n           \n\n\n\n\n             正午\n            \n\n             朝鮮\n            \n            仏教大会ノ件（銀行クラブ）\n           \n\n\n\n\n             午后四時\n            \n            聖路加病院高等看護学校卒業式《（婦脱カ）》（築地同病院内同校）\n           \n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （金）\n         \n\n\n\n\n             午前八時\n            \n\n\n              越\n             \n\n              寿三郎\n             \n\n            《（氏脱）》（\n            \n             アスカ山\n            \n            邸来約）\n           \n\n\n\n\n             午前十時\n            \n\n             浅草\n            \n            寺観音会発会式（同大伝法院）《（マヽ）》\n           \n\n\n\n\n             正午\n            \n\n             朝鮮\n            \n            仏教大会ノ件（銀行クラブ）\n           \n\n\n\n\n             午后四時\n            \n            聖路加病院高等看護学校卒業式《（婦脱カ）》（\n            \n             築地\n            \n            同病院内同校）\n           \n\n\n",
     "label": "十四日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0315",
@@ -26,9 +29,16 @@
     "sort": "DKB20026m-0314",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "アスカ山",
+        "飛鳥山邸",
         "浅草",
-        "朝鮮"
+        "朝鮮",
+        "築地"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
+        "https://shibusawa-dlab.github.io/lab1/api/place/浅草",
+        "https://shibusawa-dlab.github.io/lab1/api/place/朝鮮",
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
     ],
     "temporal": "1924-11-14",
     "texts": [
@@ -54,10 +64,10 @@
         "DKB20025m-0007"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_越寿三郎\">\n<surname>\n              越\n             </surname>\n<forename>\n              寿三郎\n             </forename>\n</persName>\n            《（氏脱）》（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            邸来約）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_越寿三郎\">\n<surname>\n              越\n             </surname>\n<forename>\n              寿三郎\n             </forename>\n</persName>\n            《（氏脱）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            邸来約）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0314\">\n<head>\n<date when=\"1924-11-14\">\n           十四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_越寿三郎\">\n<surname>\n              越\n             </surname>\n<forename>\n              寿三郎\n             </forename>\n</persName>\n            《（氏脱）》（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            邸来約）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_浅草\">\n             浅草\n            </placeName>\n            寺観音会発会式（同大伝法院）《（マヽ）》\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_朝鮮\">\n             朝鮮\n            </placeName>\n            仏教大会ノ件（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午后四時\n            </time>\n            聖路加病院高等看護学校卒業式《（婦脱カ）》（築地同病院内同校）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0314\">\n<head>\n<date when=\"1924-11-14\">\n           十四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_越寿三郎\">\n<surname>\n              越\n             </surname>\n<forename>\n              寿三郎\n             </forename>\n</persName>\n            《（氏脱）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            邸来約）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_浅草\">\n             浅草\n            </placeName>\n            寺観音会発会式（同大伝法院）《（マヽ）》\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_朝鮮\">\n             朝鮮\n            </placeName>\n            仏教大会ノ件（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午后四時\n            </time>\n            聖路加病院高等看護学校卒業式《（婦脱カ）》（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n            同病院内同校）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-11"
 }

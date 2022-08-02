@@ -1,8 +1,6 @@
 {
-    "agential": [
-        "山田",
-        "戸田"
-    ],
+    "agential": [],
+    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1267",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -18,7 +16,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-05",
     "date_lvl2": "1918-05-06",
-    "description": "\n\n\n           六日\n          \n          （月）\n         \n\n\n\n\n             午前八時二十一分\n            \n\n             名古屋\n            \n            駅発\n           \n\n\n\n\n             午前十一時四十六分\n            \n\n             伊賀\n            \n\n             上野\n            \n            駅着\n           \n\n\n\n            於\n            \n             上野\n            \n            ニ御講演\n           \n\n\n\n\n             午後四・五三時\n            \n\n             伊賀\n            \n\n             上野\n            \n            駅発\n           \n\n\n\n\n             午後八・〇四時\n            \n\n\n              山田\n             \n\n            着\n            \n\n              山田\n             \n\n\n\n              戸田\n             \n\n            屋旅館泊\n           \n\n\n",
+    "description": "\n\n\n           六日\n          \n          （月）\n         \n\n\n\n\n             午前八時二十一分\n            \n\n             名古屋\n            \n            駅発\n           \n\n\n\n\n             午前十一時四十六分\n            \n\n             伊賀上野\n            \n            駅着\n           \n\n\n\n            於\n            \n             上野\n            \n            ニ御講演\n           \n\n\n\n\n             午後四・五三時\n            \n\n             伊賀上野\n            \n            駅発\n           \n\n\n\n\n             午後八・〇四時\n            \n\n             山田\n            \n            着\n            \n             山田\n            \n            戸田屋旅館泊\n           \n\n\n",
     "label": "六日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0121",
@@ -28,8 +26,15 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "名古屋",
-        "伊賀",
-        "上野"
+        "伊賀上野",
+        "上野",
+        "山田"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/名古屋",
+        "https://shibusawa-dlab.github.io/lab1/api/place/伊賀上野",
+        "https://shibusawa-dlab.github.io/lab1/api/place/上野",
+        "https://shibusawa-dlab.github.io/lab1/api/place/山田"
     ],
     "temporal": "1918-05-06",
     "texts": [
@@ -58,7 +63,7 @@
         "08:21:00": "<div><time when=\"08:21:00\">\n             午前八時二十一分\n            </time>\n<placeName corresp=\"#place_名古屋\">\n             名古屋\n            </placeName>\n            駅発</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0120\">\n<head>\n<date when=\"1918-05-06\">\n           六日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:21:00\">\n             午前八時二十一分\n            </time>\n<placeName corresp=\"#place_名古屋\">\n             名古屋\n            </placeName>\n            駅発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:46:00\">\n             午前十一時四十六分\n            </time>\n<placeName corresp=\"#place_伊賀\">\n             伊賀\n            </placeName>\n<placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            駅着\n           </p>\n</event>\n<event>\n<p>\n            於\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            ニ御講演\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:53:00\">\n             午後四・五三時\n            </time>\n<placeName corresp=\"#place_伊賀\">\n             伊賀\n            </placeName>\n<placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            駅発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"20:04:00\">\n             午後八・〇四時\n            </time>\n<persName corresp=\"#pers_山田\">\n<surname>\n              山田\n             </surname>\n</persName>\n            着\n            <persName corresp=\"#pers_山田\">\n<surname>\n              山田\n             </surname>\n</persName>\n<persName corresp=\"#pers_戸田\">\n<surname>\n              戸田\n             </surname>\n</persName>\n            屋旅館泊\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0120\">\n<head>\n<date when=\"1918-05-06\">\n           六日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:21:00\">\n             午前八時二十一分\n            </time>\n<placeName corresp=\"#place_名古屋\">\n             名古屋\n            </placeName>\n            駅発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:46:00\">\n             午前十一時四十六分\n            </time>\n<placeName corresp=\"#place_伊賀上野\">\n             伊賀上野\n            </placeName>\n            駅着\n           </p>\n</event>\n<event>\n<p>\n            於\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            ニ御講演\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:53:00\">\n             午後四・五三時\n            </time>\n<placeName corresp=\"#place_伊賀上野\">\n             伊賀上野\n            </placeName>\n            駅発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"20:04:00\">\n             午後八・〇四時\n            </time>\n<placeName corresp=\"#place_山田\">\n             山田\n            </placeName>\n            着\n            <placeName corresp=\"#place_山田\">\n             山田\n            </placeName>\n            戸田屋旅館泊\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-05"
 }

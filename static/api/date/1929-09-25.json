@@ -1,11 +1,19 @@
 {
     "agential": [
-        "岡太",
-        "渋沢",
+        "岡太仲",
         "浅野良三",
+        "團琢磨",
         "奥山",
         "鹿野",
         "串田万蔵"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡太仲",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野良三",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/團琢磨",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/奥山",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/鹿野",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/串田万蔵"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1601",
     "category": {
@@ -22,7 +30,7 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-09",
     "date_lvl2": "1929-09-25",
-    "description": "\n\n\n           廿五日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n\n\n              岡太\n             \n\n            仲氏来約（\n            \n             王子\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n             東京\n            \n            慈恵会募集委員会（\n            \n\n              渋沢\n             \n\n            事務所）\n           \n\n\n\n\n             午後二時\n            \n\n\n              浅野\n             \n\n              良三\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後二\n            \n            頃　　　団琢磨男来約（事務所）\n           \n\n\n\n\n             午後二時半\n            \n\n\n              奥山\n             \n\n            、\n            \n\n              鹿野\n             \n\n            両氏来約（事務所）\n           \n\n\n\n\n             午後三\n            \n            頃\n            \n\n              串田\n             \n\n              万蔵\n             \n\n            氏来約（事務所）\n           \n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n\n\n              岡\n             \n\n              太仲\n             \n\n            氏来約（\n            \n             王子\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n             東京\n            \n            慈恵会募集委員会（渋沢事務所）\n           \n\n\n\n\n             午後二時\n            \n\n\n              浅野\n             \n\n              良三\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後二\n            \n            頃　　　\n            \n\n              団\n             \n\n              琢磨\n             \n\n            男来約（事務所）\n           \n\n\n\n\n             午後二時半\n            \n\n\n              奥山\n             \n\n            、\n            \n\n              鹿野\n             \n\n            両氏来約（事務所）\n           \n\n\n\n\n             午後三\n            \n            頃\n            \n\n              串田\n             \n\n              万蔵\n             \n\n            氏来約（事務所）\n           \n\n\n",
     "label": "廿五日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20031m-0174",
@@ -33,6 +41,10 @@
     "spatial": [
         "王子",
         "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/王子",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1929-09-25",
     "texts": [
@@ -58,10 +70,10 @@
         "DKB20028m-0068"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_岡太\">\n<forename>\n              岡太\n             </forename>\n</persName>\n            仲氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_岡太仲\">\n<surname>\n              岡\n             </surname>\n<forename>\n              太仲\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0173\">\n<head>\n<date when=\"1929-09-25\">\n           廿五日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_岡太\">\n<forename>\n              岡太\n             </forename>\n</persName>\n            仲氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会募集委員会（\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_浅野良三\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              良三\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二\n            </time>\n            頃　　　団琢磨男来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二時半\n            </time>\n<persName corresp=\"#pers_奥山\">\n<surname>\n              奥山\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_鹿野\">\n<surname>\n              鹿野\n             </surname>\n</persName>\n            両氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三\n            </time>\n            頃\n            <persName corresp=\"#pers_串田万蔵\">\n<surname>\n              串田\n             </surname>\n<forename>\n              万蔵\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0173\">\n<head>\n<date when=\"1929-09-25\">\n           廿五日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_岡太仲\">\n<surname>\n              岡\n             </surname>\n<forename>\n              太仲\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会募集委員会（渋沢事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_浅野良三\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              良三\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二\n            </time>\n            頃　　　\n            <persName corresp=\"#pers_團琢磨\">\n<surname>\n              団\n             </surname>\n<forename>\n              琢磨\n             </forename>\n</persName>\n            男来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二時半\n            </time>\n<persName corresp=\"#pers_奥山\">\n<surname>\n              奥山\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_鹿野\">\n<surname>\n              鹿野\n             </surname>\n</persName>\n            両氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三\n            </time>\n            頃\n            <persName corresp=\"#pers_串田万蔵\">\n<surname>\n              串田\n             </surname>\n<forename>\n              万蔵\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-09"
 }

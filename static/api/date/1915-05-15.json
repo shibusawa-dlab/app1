@@ -1,8 +1,15 @@
 {
     "agential": [
+        "マイルス",
         "倉知",
         "平岡",
         "徳川"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/マイルス",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/倉知",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/平岡",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1183",
     "category": {
@@ -19,7 +26,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-05",
     "date_lvl2": "1915-05-15",
-    "description": "\n\n\n           十五日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n            明治神宮奉賛会創立順備委員会《（準）》（商業会議所）\n           \n\n\n\n\n             午前十一時半\n            \n            マイルス氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一半時\n            \n\n\n              倉知\n             \n\n            、\n            \n\n              平岡\n             \n\n            両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二半時\n            \n\n             千駄ケ谷\n            \n\n\n              徳川\n             \n\n            公ヨリ御案内（同公自邸）\n           \n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n            明治神宮奉賛会創立順備委員会《（準）》（商業会議所）\n           \n\n\n\n\n             午前十一時半\n            \n\n\n              マイルス\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一半時\n            \n\n\n              倉知\n             \n\n            、\n            \n\n              平岡\n             \n\n            両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二半時\n            \n\n             千駄ケ谷\n            \n\n\n              徳川\n             \n\n            公ヨリ御案内（同公自邸）\n           \n\n\n",
     "label": "十五日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0126",
@@ -30,6 +37,10 @@
     "spatial": [
         "日本橋兜町",
         "千駄ヶ谷"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/千駄ヶ谷"
     ],
     "temporal": "1915-05-15",
     "texts": [
@@ -58,7 +69,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            明治神宮奉賛会創立順備委員会《（準）》（商業会議所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0125\">\n<head>\n<date when=\"1915-05-15\">\n           十五日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            明治神宮奉賛会創立順備委員会《（準）》（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n            マイルス氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n<persName corresp=\"#pers_倉知\">\n<surname>\n              倉知\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_平岡\">\n<surname>\n              平岡\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<placeName corresp=\"#place_千駄ヶ谷\">\n             千駄ケ谷\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公ヨリ御案内（同公自邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0125\">\n<head>\n<date when=\"1915-05-15\">\n           十五日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            明治神宮奉賛会創立順備委員会《（準）》（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n<persName corresp=\"#pers_マイルス\">\n<surname>\n              マイルス\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n<persName corresp=\"#pers_倉知\">\n<surname>\n              倉知\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_平岡\">\n<surname>\n              平岡\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<placeName corresp=\"#place_千駄ヶ谷\">\n             千駄ケ谷\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公ヨリ御案内（同公自邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-05"
 }

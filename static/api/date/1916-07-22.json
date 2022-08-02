@@ -1,9 +1,17 @@
 {
     "agential": [
+        "ケネヂー",
         "樺山",
         "岡喜七郎",
-        "堀越善重",
+        "堀越善重郎",
         "大野正"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ケネヂー",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/樺山",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/岡喜七郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/堀越善重郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/大野正"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1210",
     "category": {
@@ -20,7 +28,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-07",
     "date_lvl2": "1916-07-22",
-    "description": "\n\n\n           廿二日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n            ケネヂー氏、\n            \n\n              樺山\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              岡\n             \n\n              喜七郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             〃\n            \n\n\n              堀越\n             \n\n              善重\n             \n\n            郎氏　同上\n           \n\n\n\n\n             〃\n            \n\n\n              大野\n             \n\n              正\n             \n\n            氏　　　同上\n           \n\n\n\n\n             午後一時半\n            \n            米価調節調査会特別委員会（農商務省会議室）\n           \n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n\n\n              ケネヂー\n             \n\n            氏、\n            \n\n              樺山\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              岡\n             \n\n              喜七郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             〃\n            \n\n\n              堀越\n             \n\n              善重郎\n             \n\n            氏　同上\n           \n\n\n\n\n             〃\n            \n\n\n              大野\n             \n\n              正\n             \n\n            氏　　　同上\n           \n\n\n\n\n             午後一時半\n            \n            米価調節調査会特別委員会（農商務省会議室）\n           \n\n\n",
     "label": "廿二日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0190",
@@ -30,6 +38,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1916-07-22",
     "texts": [
@@ -55,10 +66,10 @@
         "DKB20017m-0196"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            ケネヂー氏、\n            <persName corresp=\"#pers_樺山\">\n<surname>\n              樺山\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_ケネヂー\">\n<surname>\n              ケネヂー\n             </surname>\n</persName>\n            氏、\n            <persName corresp=\"#pers_樺山\">\n<surname>\n              樺山\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0188\">\n<head>\n<date when=\"1916-07-22\">\n           廿二日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            ケネヂー氏、\n            <persName corresp=\"#pers_樺山\">\n<surname>\n              樺山\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_岡喜七郎\">\n<surname>\n              岡\n             </surname>\n<forename>\n              喜七郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             〃\n            </time>\n<persName corresp=\"#pers_堀越善重\">\n<surname>\n              堀越\n             </surname>\n<forename>\n              善重\n             </forename>\n</persName>\n            郎氏　同上\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             〃\n            </time>\n<persName corresp=\"#pers_大野正\">\n<surname>\n              大野\n             </surname>\n<forename>\n              正\n             </forename>\n</persName>\n            氏　　　同上\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一時半\n            </time>\n            米価調節調査会特別委員会（農商務省会議室）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0188\">\n<head>\n<date when=\"1916-07-22\">\n           廿二日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_ケネヂー\">\n<surname>\n              ケネヂー\n             </surname>\n</persName>\n            氏、\n            <persName corresp=\"#pers_樺山\">\n<surname>\n              樺山\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_岡喜七郎\">\n<surname>\n              岡\n             </surname>\n<forename>\n              喜七郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             〃\n            </time>\n<persName corresp=\"#pers_堀越善重郎\">\n<surname>\n              堀越\n             </surname>\n<forename>\n              善重郎\n             </forename>\n</persName>\n            氏　同上\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             〃\n            </time>\n<persName corresp=\"#pers_大野正\">\n<surname>\n              大野\n             </surname>\n<forename>\n              正\n             </forename>\n</persName>\n            氏　　　同上\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一時半\n            </time>\n            米価調節調査会特別委員会（農商務省会議室）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-07"
 }

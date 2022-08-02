@@ -2,7 +2,14 @@
     "agential": [
         "武田",
         "小森七郎",
+        "ジヨンソン",
         "斎藤惣一"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/武田",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/小森七郎",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/ジヨンソン",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/斎藤惣一"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1578",
     "category": {
@@ -19,7 +26,7 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-04",
     "date_lvl2": "1928-04-10",
-    "description": "\n\n\n           十日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n            太平洋問題調査会の\n            \n\n              武田\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n\n              小森\n             \n\n              七郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            ジヨンソン氏、\n            \n\n              斎藤\n             \n\n              惣一\n             \n\n            氏来約（事務所）\n           \n\n\n",
+    "description": "\n\n\n           十日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n            太平洋問題調査会の\n            \n\n              武田\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n\n              小森\n             \n\n              七郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              ジヨンソン\n             \n\n            氏、\n            \n\n              斎藤\n             \n\n              惣一\n             \n\n            氏来約（事務所）\n           \n\n\n",
     "label": "十日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20030m-0104",
@@ -29,6 +36,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1928-04-10",
     "texts": [
@@ -57,7 +67,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            太平洋問題調査会の\n            <persName corresp=\"#pers_武田\">\n<surname>\n              武田\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0103\">\n<head>\n<date when=\"1928-04-10\">\n           十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            太平洋問題調査会の\n            <persName corresp=\"#pers_武田\">\n<surname>\n              武田\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_小森七郎\">\n<surname>\n              小森\n             </surname>\n<forename>\n              七郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            ジヨンソン氏、\n            <persName corresp=\"#pers_斎藤惣一\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              惣一\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0103\">\n<head>\n<date when=\"1928-04-10\">\n           十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            太平洋問題調査会の\n            <persName corresp=\"#pers_武田\">\n<surname>\n              武田\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_小森七郎\">\n<surname>\n              小森\n             </surname>\n<forename>\n              七郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_ジヨンソン\">\n<surname>\n              ジヨンソン\n             </surname>\n</persName>\n            氏、\n            <persName corresp=\"#pers_斎藤惣一\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              惣一\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-04"
 }

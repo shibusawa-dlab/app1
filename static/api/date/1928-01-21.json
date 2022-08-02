@@ -1,6 +1,11 @@
 {
     "agential": [
-        "加賀"
+        "加賀",
+        "市来"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/加賀",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/市来"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1570",
     "category": {
@@ -17,7 +22,7 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-01",
     "date_lvl2": "1928-01-21",
-    "description": "\n\n\n           廿一日\n          \n          （土）\n         \n\n\n\n\n             午時\n            \n\n             新潟\n            \n            新聞記者\n            \n\n              加賀\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十一半時\n            \n\n             市来\n            \n            市長市役所ニ御訪問\n           \n\n\n\n\n             午後〇半時\n            \n            御出勤\n           \n\n\n\n\n             午後二時\n            \n            国際聯盟協会講演会（同会）\n           \n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （土）\n         \n\n\n\n\n             午時\n            \n\n             新潟\n            \n            新聞記者\n            \n\n              加賀\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十一半時\n            \n\n\n              市来\n             \n\n            市長市役所ニ御訪問\n           \n\n\n\n\n             午後〇半時\n            \n            御出勤\n           \n\n\n\n\n             午後二時\n            \n            国際聯盟協会講演会（同会）\n           \n\n\n",
     "label": "廿一日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20030m-0023",
@@ -27,8 +32,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "新潟",
-        "アスカ山",
-        "市来"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/新潟",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1928-01-21",
     "texts": [
@@ -54,10 +62,10 @@
         "DKB20029m-0040"
     ],
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_新潟\">\n             新潟\n            </placeName>\n            新聞記者\n            <persName corresp=\"#pers_加賀\">\n<surname>\n              加賀\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_新潟\">\n             新潟\n            </placeName>\n            新聞記者\n            <persName corresp=\"#pers_加賀\">\n<surname>\n              加賀\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0021\">\n<head>\n<date when=\"1928-01-21\">\n           廿一日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_新潟\">\n             新潟\n            </placeName>\n            新聞記者\n            <persName corresp=\"#pers_加賀\">\n<surname>\n              加賀\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<placeName corresp=\"#place_市来\">\n             市来\n            </placeName>\n            市長市役所ニ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇半時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            国際聯盟協会講演会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0021\">\n<head>\n<date when=\"1928-01-21\">\n           廿一日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_新潟\">\n             新潟\n            </placeName>\n            新聞記者\n            <persName corresp=\"#pers_加賀\">\n<surname>\n              加賀\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<persName corresp=\"#pers_市来\">\n<surname>\n              市来\n             </surname>\n</persName>\n            市長市役所ニ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇半時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            国際聯盟協会講演会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-01"
 }

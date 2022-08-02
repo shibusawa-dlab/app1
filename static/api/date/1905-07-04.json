@@ -1,8 +1,13 @@
 {
     "agential": [
-        "犬塚某",
+        "犬塚",
         "竹内綱",
         "伊藤伝七"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/犬塚",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/竹内綱",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/伊藤伝七"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/399",
     "category": {
@@ -19,7 +24,7 @@
     "date_lvl0": "1905",
     "date_lvl1": "1905-07",
     "date_lvl2": "1905-07-04",
-    "description": "\n\n\n        七月四日\n       \n       火　晴　暑強シ\n      \n\n\n        午前六時\n       \n       起床、直ニ庭内ヲ散歩シ、入浴後朝飧ヲ畢ル、食後各新聞紙ヲ一覧ス、\n       \n\n         犬塚\n        \n        某\n       \n       来話ス、\n       \n        午前十時\n       \n\n        兜町\n       \n       事務所ニ抵リ来人ニ接ス、\n       \n        正午\n       \n\n        第一銀行\n       \n       ニ於テ午飧シ、食後要務ヲ処理ス、\n       \n        午後三時\n       \n       頃\n       \n        兜町\n       \n       ニ於テ来人ニ接ス、\n       \n\n         竹内\n        \n\n         綱\n        \n\n       氏来リ\n       \n        韓国\n       \n       京釜鉄道ニ関スル要務ヲ談ス、夕方水天狗附近《（宮）》ノ知人ヲ訪ヒ、\n       \n        午後七時\n       \n\n        王子別荘\n       \n       ニ帰宿ス\n       \n\n\n         伊藤\n        \n\n         伝七\n        \n\n       氏来リ三重紡績会社ノ事ヲ談話ス\n      \n",
+    "description": "\n\n\n        七月四日\n       \n       火　晴　暑強シ\n      \n\n\n        午前六時\n       \n       起床、直ニ庭内ヲ散歩シ、入浴後朝飧ヲ畢ル、食後各新聞紙ヲ一覧ス、\n       \n\n         犬塚\n        \n\n       某来話ス、\n       \n        午前十時\n       \n\n        兜町\n       \n       事務所ニ抵リ来人ニ接ス、\n       \n        正午\n       \n\n        第一銀行\n       \n       ニ於テ午飧シ、食後要務ヲ処理ス、\n       \n        午後三時\n       \n       頃\n       \n        兜町\n       \n       ニ於テ来人ニ接ス、\n       \n\n         竹内\n        \n\n         綱\n        \n\n       氏来リ\n       \n        韓国\n       \n       京釜鉄道ニ関スル要務ヲ談ス、夕方水天狗附近《（宮）》ノ知人ヲ訪ヒ、\n       \n        午後七時\n       \n\n        王子別荘\n       \n       ニ帰宿ス\n       \n\n\n         伊藤\n        \n\n         伝七\n        \n\n       氏来リ三重紡績会社ノ事ヲ談話ス\n      \n",
     "label": "七月四日              火　晴　暑強シ",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10013m-0179",
@@ -30,7 +35,12 @@
     "spatial": [
         "日本橋兜町",
         "大韓民国",
-        "王子別荘"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
+        "https://shibusawa-dlab.github.io/lab1/api/place/大韓民国",
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1905-07-04",
     "texts": [
@@ -56,14 +66,14 @@
         "DKB10013m-0153"
     ],
     "time": {
-        "06:00:00": "<div><time when=\"06:00:00\">\n        午前六時\n       </time>\n       起床、直ニ庭内ヲ散歩シ、入浴後朝飧ヲ畢ル、食後各新聞紙ヲ一覧ス、\n       <persName corresp=\"#pers_犬塚某\">\n<surname>\n         犬塚\n        </surname>\n        某\n       </persName>\n       来話ス、</div>",
+        "06:00:00": "<div><time when=\"06:00:00\">\n        午前六時\n       </time>\n       起床、直ニ庭内ヲ散歩シ、入浴後朝飧ヲ畢ル、食後各新聞紙ヲ一覧ス、\n       <persName corresp=\"#pers_犬塚\">\n<surname>\n         犬塚\n        </surname>\n</persName>\n       某来話ス、</div>",
         "10:00:00": "<div><time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接ス、</div>",
         "12:00:00": "<div><time when=\"12:00:00\">\n        正午\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧シ、食後要務ヲ処理ス、</div>",
         "15:00:00": "<div><time when=\"15:00:00\">\n        午後三時\n       </time>\n       頃\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       ニ於テ来人ニ接ス、\n       <persName corresp=\"#pers_竹内綱\">\n<surname>\n         竹内\n        </surname>\n<forename>\n         綱\n        </forename>\n</persName>\n       氏来リ\n       <placeName corresp=\"#place_大韓民国\">\n        韓国\n       </placeName>\n       京釜鉄道ニ関スル要務ヲ談ス、夕方水天狗附近《（宮）》ノ知人ヲ訪ヒ、</div>",
-        "19:00:00": "<div><time when=\"19:00:00\">\n        午後七時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n       <lb/>\n<persName corresp=\"#pers_伊藤伝七\">\n<surname>\n         伊藤\n        </surname>\n<forename>\n         伝七\n        </forename>\n</persName>\n       氏来リ三重紡績会社ノ事ヲ談話ス</div>"
+        "19:00:00": "<div><time when=\"19:00:00\">\n        午後七時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n       <lb/>\n<persName corresp=\"#pers_伊藤伝七\">\n<surname>\n         伊藤\n        </surname>\n<forename>\n         伝七\n        </forename>\n</persName>\n       氏来リ三重紡績会社ノ事ヲ談話ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10013m-0178\">\n<head>\n<date when=\"1905-07-04\">\n        七月四日\n       </date>\n       火　晴　暑強シ\n      </head>\n<p>\n<time when=\"06:00:00\">\n        午前六時\n       </time>\n       起床、直ニ庭内ヲ散歩シ、入浴後朝飧ヲ畢ル、食後各新聞紙ヲ一覧ス、\n       <persName corresp=\"#pers_犬塚某\">\n<surname>\n         犬塚\n        </surname>\n        某\n       </persName>\n       来話ス、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接ス、\n       <time when=\"12:00:00\">\n        正午\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧シ、食後要務ヲ処理ス、\n       <time when=\"15:00:00\">\n        午後三時\n       </time>\n       頃\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       ニ於テ来人ニ接ス、\n       <persName corresp=\"#pers_竹内綱\">\n<surname>\n         竹内\n        </surname>\n<forename>\n         綱\n        </forename>\n</persName>\n       氏来リ\n       <placeName corresp=\"#place_大韓民国\">\n        韓国\n       </placeName>\n       京釜鉄道ニ関スル要務ヲ談ス、夕方水天狗附近《（宮）》ノ知人ヲ訪ヒ、\n       <time when=\"19:00:00\">\n        午後七時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n       <lb/>\n<persName corresp=\"#pers_伊藤伝七\">\n<surname>\n         伊藤\n        </surname>\n<forename>\n         伝七\n        </forename>\n</persName>\n       氏来リ三重紡績会社ノ事ヲ談話ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10013m-0178\">\n<head>\n<date when=\"1905-07-04\">\n        七月四日\n       </date>\n       火　晴　暑強シ\n      </head>\n<p>\n<time when=\"06:00:00\">\n        午前六時\n       </time>\n       起床、直ニ庭内ヲ散歩シ、入浴後朝飧ヲ畢ル、食後各新聞紙ヲ一覧ス、\n       <persName corresp=\"#pers_犬塚\">\n<surname>\n         犬塚\n        </surname>\n</persName>\n       某来話ス、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ来人ニ接ス、\n       <time when=\"12:00:00\">\n        正午\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧シ、食後要務ヲ処理ス、\n       <time when=\"15:00:00\">\n        午後三時\n       </time>\n       頃\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       ニ於テ来人ニ接ス、\n       <persName corresp=\"#pers_竹内綱\">\n<surname>\n         竹内\n        </surname>\n<forename>\n         綱\n        </forename>\n</persName>\n       氏来リ\n       <placeName corresp=\"#place_大韓民国\">\n        韓国\n       </placeName>\n       京釜鉄道ニ関スル要務ヲ談ス、夕方水天狗附近《（宮）》ノ知人ヲ訪ヒ、\n       <time when=\"19:00:00\">\n        午後七時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n       <lb/>\n<persName corresp=\"#pers_伊藤伝七\">\n<surname>\n         伊藤\n        </surname>\n<forename>\n         伝七\n        </forename>\n</persName>\n       氏来リ三重紡績会社ノ事ヲ談話ス\n      </p>\n</div>",
     "year": "1905",
     "yearAndMonth": "1905-07"
 }

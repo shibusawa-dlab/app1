@@ -1,7 +1,13 @@
 {
     "agential": [
-        "松田雪",
+        "三宅雪嶺",
+        "松田雪堂",
         "浅野総一郎"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/三宅雪嶺",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/松田雪堂",
+        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野総一郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1540",
     "category": {
@@ -18,7 +24,7 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-04",
     "date_lvl2": "1927-04-12",
-    "description": "\n\n\n           十二日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n\n             三宅\n            \n            雪嶺并令夫人、\n            \n\n              松田\n             \n\n              雪\n             \n\n            堂二氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n\n             午〇時半\n            \n            時\n            \n\n              浅野\n             \n\n              総一郎\n             \n\n            邸御弔問\n           \n\n\n\n\n             午後一半時\n            \n            外務次官ヲ御訪問（外務省）\n           \n\n\n\n\n             午後一・五〇時\n            \n            御出勤\n           \n\n\n\n\n             午後三・四〇時\n            \n            三菱本社御出向\n           \n\n\n\n\n             午後五時\n            \n            雨夜譚会\n           \n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n\n\n              三宅\n             \n\n              雪嶺\n             \n\n            并令夫人、\n            \n\n              松田\n             \n\n              雪堂\n             \n\n            二氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n\n             午〇時半\n            \n            時\n            \n\n              浅野\n             \n\n              総一郎\n             \n\n            邸御弔問\n           \n\n\n\n\n             午後一半時\n            \n            外務次官ヲ御訪問（外務省）\n           \n\n\n\n\n             午後一・五〇時\n            \n            御出勤\n           \n\n\n\n\n             午後三・四〇時\n            \n            三菱本社御出向\n           \n\n\n\n\n             午後五時\n            \n            雨夜譚会\n           \n\n\n",
     "label": "十二日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0086",
@@ -27,8 +33,10 @@
     "sort": "DKB20029m-0085",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "三宅",
-        "飛鳥山公園"
+        "飛鳥山邸"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1927-04-12",
     "texts": [
@@ -54,10 +62,10 @@
         "DKB20033m-0059"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_三宅\">\n             三宅\n            </placeName>\n            雪嶺并令夫人、\n            <persName corresp=\"#pers_松田雪\">\n<surname>\n              松田\n             </surname>\n<forename>\n              雪\n             </forename>\n</persName>\n            堂二氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_三宅雪嶺\">\n<surname>\n              三宅\n             </surname>\n<forename>\n              雪嶺\n             </forename>\n</persName>\n            并令夫人、\n            <persName corresp=\"#pers_松田雪堂\">\n<surname>\n              松田\n             </surname>\n<forename>\n              雪堂\n             </forename>\n</persName>\n            二氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0085\">\n<head>\n<date when=\"1927-04-12\">\n           十二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_三宅\">\n             三宅\n            </placeName>\n            雪嶺并令夫人、\n            <persName corresp=\"#pers_松田雪\">\n<surname>\n              松田\n             </surname>\n<forename>\n              雪\n             </forename>\n</persName>\n            堂二氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2701\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1540/full/max/0/default.jpg\" n=\"B2701\" source=\"#pageB2701\"/>\n<time when=\"12:30:00\">\n             午〇時半\n            </time>\n            時\n            <persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            邸御弔問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n            外務次官ヲ御訪問（外務省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:50:00\">\n             午後一・五〇時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:40:00\">\n             午後三・四〇時\n            </time>\n            三菱本社御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            雨夜譚会\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0085\">\n<head>\n<date when=\"1927-04-12\">\n           十二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_三宅雪嶺\">\n<surname>\n              三宅\n             </surname>\n<forename>\n              雪嶺\n             </forename>\n</persName>\n            并令夫人、\n            <persName corresp=\"#pers_松田雪堂\">\n<surname>\n              松田\n             </surname>\n<forename>\n              雪堂\n             </forename>\n</persName>\n            二氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2701\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1540/full/max/0/default.jpg\" n=\"B2701\" source=\"#pageB2701\"/>\n<time when=\"12:30:00\">\n             午〇時半\n            </time>\n            時\n            <persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            邸御弔問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n            外務次官ヲ御訪問（外務省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:50:00\">\n             午後一・五〇時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:40:00\">\n             午後三・四〇時\n            </time>\n            三菱本社御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            雨夜譚会\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-04"
 }

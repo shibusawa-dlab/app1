@@ -1,5 +1,10 @@
 {
-    "agential": [],
+    "agential": [
+        "山縣有朋"
+    ],
+    "agential_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/chname/山縣有朋"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/571",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -15,7 +20,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-03",
     "date_lvl2": "1922-03-19",
-    "description": "\n\n\n           十九日\n          \n          （日）\n         \n\n\n\n\n             午前十時\n            \n            故山県公爵追悼会（築地本願寺）\n           \n\n\n\n\n             引続\n            \n\n             東京\n            \n            平和博覧会ヘ御出向\n           \n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （日）\n         \n\n\n\n\n             午前十時\n            \n            故\n            \n\n              山県\n             \n\n            公爵追悼会（\n            \n             築地\n            \n            本願寺）\n           \n\n\n\n\n             引続\n            \n\n             東京\n            \n            平和博覧会ヘ御出向\n           \n\n\n",
     "label": "十九日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0051",
@@ -24,7 +29,12 @@
     "sort": "DKB20024m-0050",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "築地",
         "東京"
+    ],
+    "spatial_uri": [
+        "https://shibusawa-dlab.github.io/lab1/api/place/築地",
+        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1922-03-19",
     "texts": [
@@ -50,10 +60,10 @@
         "DKB20029m-0055"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            故山県公爵追悼会（築地本願寺）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            故\n            <persName corresp=\"#pers_山縣有朋\">\n<surname>\n              山県\n             </surname>\n</persName>\n            公爵追悼会（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n            本願寺）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0050\">\n<head>\n<date when=\"1922-03-19\">\n           十九日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            故山県公爵追悼会（築地本願寺）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            平和博覧会ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0050\">\n<head>\n<date when=\"1922-03-19\">\n           十九日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            故\n            <persName corresp=\"#pers_山縣有朋\">\n<surname>\n              山県\n             </surname>\n</persName>\n            公爵追悼会（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n            本願寺）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            平和博覧会ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-03"
 }
