@@ -1,15 +1,8 @@
 {
     "agential": [
         "中野武営",
-        "平井",
         "本野",
         "林"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/中野武営",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/平井",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/本野",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/林"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1227",
     "category": {
@@ -26,7 +19,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-02",
     "date_lvl2": "1917-02-02",
-    "description": "\n\n\n           二日\n          \n          （金）\n         \n\n\n\n\n             午十一時\n            \n\n\n              中野\n             \n\n              武営\n             \n\n            氏御訪問（同氏邸）\n           \n\n\n\n\n             正午\n            \n\n\n              平井\n             \n\n            工学博士招待会（銀行クラブ）\n           \n\n\n\n\n             午後二時\n            \n            慰問会ノ件（衆議院）\n           \n\n\n\n\n             午後三―午後四時\n            \n\n\n              本野\n             \n\n            外務大臣御訪問（同大臣官邸）\n           \n\n\n\n\n             午後五時\n            \n\n\n              林\n             \n\n            博士招待\n            \n             竜門社\n            \n            評議員会（帝国ホテル）\n           \n\n\n",
+    "description": "\n\n\n           二日\n          \n          （金）\n         \n\n\n\n\n             午十一時\n            \n\n\n              中野\n             \n\n              武営\n             \n\n            氏御訪問（同氏邸）\n           \n\n\n\n\n             正午\n            \n\n             平井\n            \n            工学博士招待会（銀行クラブ）\n           \n\n\n\n\n             午後二時\n            \n            慰問会ノ件（衆議院）\n           \n\n\n\n\n             午後三―午後四時\n            \n\n\n              本野\n             \n\n            外務大臣御訪問（同大臣官邸）\n           \n\n\n\n\n             午後五時\n            \n\n\n              林\n             \n\n            博士招待竜門社評議員会（帝国ホテル）\n           \n\n\n",
     "label": "二日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0034",
@@ -34,8 +27,9 @@
     "prev": "DKB20019m-0032",
     "sort": "DKB20019m-0033",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
-    "spatial_uri": [],
+    "spatial": [
+        "平井"
+    ],
     "temporal": "1917-02-02",
     "texts": [
         "DKB20020m-0068",
@@ -63,7 +57,7 @@
         "11:00:00": "<div><time when=\"11:00:00\">\n             午十一時\n            </time>\n<persName corresp=\"#pers_中野武営\">\n<surname>\n              中野\n             </surname>\n<forename>\n              武営\n             </forename>\n</persName>\n            氏御訪問（同氏邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0033\">\n<head>\n<date when=\"1917-02-02\">\n           二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午十一時\n            </time>\n<persName corresp=\"#pers_中野武営\">\n<surname>\n              中野\n             </surname>\n<forename>\n              武営\n             </forename>\n</persName>\n            氏御訪問（同氏邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_平井\">\n<surname>\n              平井\n             </surname>\n</persName>\n            工学博士招待会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            慰問会ノ件（衆議院）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―午後四時\n            </time>\n<persName corresp=\"#pers_本野\">\n<surname>\n              本野\n             </surname>\n</persName>\n            外務大臣御訪問（同大臣官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_林\">\n<surname>\n              林\n             </surname>\n</persName>\n            博士招待\n            <orgName>\n             竜門社\n            </orgName>\n            評議員会（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0033\">\n<head>\n<date when=\"1917-02-02\">\n           二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午十一時\n            </time>\n<persName corresp=\"#pers_中野武営\">\n<surname>\n              中野\n             </surname>\n<forename>\n              武営\n             </forename>\n</persName>\n            氏御訪問（同氏邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_平井\">\n             平井\n            </placeName>\n            工学博士招待会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            慰問会ノ件（衆議院）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―午後四時\n            </time>\n<persName corresp=\"#pers_本野\">\n<surname>\n              本野\n             </surname>\n</persName>\n            外務大臣御訪問（同大臣官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_林\">\n<surname>\n              林\n             </surname>\n</persName>\n            博士招待竜門社評議員会（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-02"
 }

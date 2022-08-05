@@ -4,11 +4,6 @@
         "高橋是清",
         "渋沢"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/金野貞治",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/高橋是清",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1486",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -33,14 +28,10 @@
     "sort": "DKB20027m-0015",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
-        "赤坂_(東京都港区)",
-        "表町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/赤坂_(東京都港区)",
-        "https://shibusawa-dlab.github.io/lab1/api/place/表町"
+        "アスカ山邸",
+        "赤坂",
+        "表町",
+        "飛鳥山邸"
     ],
     "temporal": "1925-01-31",
     "texts": [
@@ -66,10 +57,10 @@
         "DKB20031m-0196"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_金野貞治\">\n<surname>\n              金野\n             </surname>\n<forename>\n              貞治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_金野貞治\">\n<surname>\n              金野\n             </surname>\n<forename>\n              貞治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0015\">\n<head>\n<date when=\"1925-01-31\">\n           卅一日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_金野貞治\">\n<surname>\n              金野\n             </surname>\n<forename>\n              貞治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_高橋是清\">\n<surname>\n              高橋\n             </surname>\n<forename>\n              是清\n             </forename>\n</persName>\n            氏ト御会見ノ約（同邸）\n            <placeName corresp=\"#place_赤坂_(東京都港区)\">\n             赤坂\n            </placeName>\n<placeName corresp=\"#place_表町\">\n             表町\n            </placeName>\n            三ノ一〇\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            同族会社総会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0015\">\n<head>\n<date when=\"1925-01-31\">\n           卅一日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_金野貞治\">\n<surname>\n              金野\n             </surname>\n<forename>\n              貞治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_高橋是清\">\n<surname>\n              高橋\n             </surname>\n<forename>\n              是清\n             </forename>\n</persName>\n            氏ト御会見ノ約（同邸）\n            <placeName corresp=\"#place_赤坂\">\n             赤坂\n            </placeName>\n<placeName corresp=\"#place_表町\">\n             表町\n            </placeName>\n            三ノ一〇\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            同族会社総会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-01"
 }

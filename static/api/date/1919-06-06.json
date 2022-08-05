@@ -4,11 +4,6 @@
         "赤司繁太郎",
         "小橋"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/笠井重治",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/赤司繁太郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/小橋"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1300",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -34,13 +29,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸",
+        "飛鳥山公園",
         "埼玉",
         "浦和"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/埼玉",
-        "https://shibusawa-dlab.github.io/lab1/api/place/浦和"
     ],
     "temporal": "1919-06-06",
     "texts": [
@@ -69,7 +60,7 @@
         "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_笠井重治\">\n<surname>\n              笠井\n             </surname>\n<forename>\n              重治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0131\">\n<head>\n<date when=\"1919-06-06\">\n           六日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_笠井重治\">\n<surname>\n              笠井\n             </surname>\n<forename>\n              重治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_赤司繁太郎\">\n<surname>\n              赤司\n             </surname>\n<forename>\n              繁太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一時半\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県\n            <placeName corresp=\"#place_浦和\">\n             浦和\n            </placeName>\n            町ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_小橋\">\n<surname>\n              小橋\n             </surname>\n</persName>\n            次官ヲ内務省ニ御訪問\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0131\">\n<head>\n<date when=\"1919-06-06\">\n           六日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_笠井重治\">\n<surname>\n              笠井\n             </surname>\n<forename>\n              重治\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_赤司繁太郎\">\n<surname>\n              赤司\n             </surname>\n<forename>\n              繁太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一時半\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県\n            <placeName corresp=\"#place_浦和\">\n             浦和\n            </placeName>\n            町ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_小橋\">\n<surname>\n              小橋\n             </surname>\n</persName>\n            次官ヲ内務省ニ御訪問\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-06"
 }

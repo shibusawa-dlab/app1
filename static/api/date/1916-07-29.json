@@ -4,11 +4,6 @@
         "成瀬",
         "湯浅竹之助"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/赤川",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/成瀬",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/湯浅竹之助"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1211",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -33,14 +28,9 @@
     "sort": "DKB20018m-0195",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
+        "飛鳥山公園",
         "日本橋兜町",
         "ロシア"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/ロシア"
     ],
     "temporal": "1916-07-29",
     "texts": [
@@ -66,10 +56,10 @@
         "DKB20020m-0109"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            国民新聞記者\n            <persName corresp=\"#pers_赤川\">\n<surname>\n              赤川\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            国民新聞記者\n            <persName corresp=\"#pers_赤川\">\n<surname>\n              赤川\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0195\">\n<head>\n<date when=\"1916-07-29\">\n           廿九日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            国民新聞記者\n            <persName corresp=\"#pers_赤川\">\n<surname>\n              赤川\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            女子大学\n            <persName corresp=\"#pers_成瀬\">\n<surname>\n              成瀬\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_ロシア\">\n             露国\n            </placeName>\n            大使来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_湯浅竹之助\">\n<surname>\n              湯浅\n             </surname>\n<forename>\n              竹之助\n             </forename>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0195\">\n<head>\n<date when=\"1916-07-29\">\n           廿九日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            国民新聞記者\n            <persName corresp=\"#pers_赤川\">\n<surname>\n              赤川\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            女子大学\n            <persName corresp=\"#pers_成瀬\">\n<surname>\n              成瀬\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_ロシア\">\n             露国\n            </placeName>\n            大使来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_湯浅竹之助\">\n<surname>\n              湯浅\n             </surname>\n<forename>\n              竹之助\n             </forename>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-07"
 }

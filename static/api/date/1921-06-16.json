@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1367",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +15,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-06",
     "date_lvl2": "1921-06-16",
-    "description": "\n\n\n           十六日\n          \n          （木）\n         \n\n\n\n\n             午前八・三〇\n            \n\n             両国\n            \n            駅発　養育院\n            \n             船形\n            \n            分院ヘ御出向ノ約　船形ニテ一泊\n           \n\n\n",
+    "description": "\n\n\n           十六日\n          \n          （木）\n         \n\n\n\n\n             午前八・三〇\n            \n            両国駅発　養育院\n            \n             船形\n            \n            分院ヘ御出向ノ約　船形ニテ一泊\n           \n\n\n",
     "label": "十六日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0161",
@@ -25,12 +24,7 @@
     "sort": "DKB20023m-0160",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "両国",
         "船形"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/両国",
-        "https://shibusawa-dlab.github.io/lab1/api/place/船形"
     ],
     "temporal": "1921-06-16",
     "texts": [
@@ -56,10 +50,10 @@
         "DKB20019m-0190"
     ],
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八・三〇\n            </time>\n<placeName corresp=\"#place_両国\">\n             両国\n            </placeName>\n            駅発　養育院\n            <placeName corresp=\"#place_船形\">\n             船形\n            </placeName>\n            分院ヘ御出向ノ約　船形ニテ一泊</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八・三〇\n            </time>\n            両国駅発　養育院\n            <placeName corresp=\"#place_船形\">\n             船形\n            </placeName>\n            分院ヘ御出向ノ約　船形ニテ一泊</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0160\">\n<head>\n<date when=\"1921-06-16\">\n           十六日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八・三〇\n            </time>\n<placeName corresp=\"#place_両国\">\n             両国\n            </placeName>\n            駅発　養育院\n            <placeName corresp=\"#place_船形\">\n             船形\n            </placeName>\n            分院ヘ御出向ノ約　船形ニテ一泊\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0160\">\n<head>\n<date when=\"1921-06-16\">\n           十六日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八・三〇\n            </time>\n            両国駅発　養育院\n            <placeName corresp=\"#place_船形\">\n             船形\n            </placeName>\n            分院ヘ御出向ノ約　船形ニテ一泊\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-06"
 }

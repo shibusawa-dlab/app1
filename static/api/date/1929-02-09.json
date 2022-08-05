@@ -3,10 +3,6 @@
         "広瀬",
         "簗田"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/広瀬",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/簗田"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1591",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -31,12 +27,9 @@
     "sort": "DKB20031m-0025",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
-        "東京"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
+        "アスカ山邸",
+        "東京",
+        "アスカ山"
     ],
     "temporal": "1929-02-09",
     "texts": [
@@ -62,10 +55,10 @@
         "DKB20028m-0139"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            緒方中将来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            緒方中将来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0025\">\n<head>\n<date when=\"1929-02-09\">\n           九日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            緒方中将来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            社会局長\n            <persName corresp=\"#pers_広瀬\">\n<surname>\n              広瀬\n             </surname>\n</persName>\n            氏及方面委員同道来約《（市脱）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2752\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1591/full/max/0/default.jpg\" n=\"B2752\" source=\"#pageB2752\"/>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n            中外商業新報社長\n            <persName corresp=\"#pers_簗田\">\n<surname>\n              簗田\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0025\">\n<head>\n<date when=\"1929-02-09\">\n           九日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            緒方中将来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            社会局長\n            <persName corresp=\"#pers_広瀬\">\n<surname>\n              広瀬\n             </surname>\n</persName>\n            氏及方面委員同道来約《（市脱）》（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2752\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1591/full/max/0/default.jpg\" n=\"B2752\" source=\"#pageB2752\"/>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n            中外商業新報社長\n            <persName corresp=\"#pers_簗田\">\n<surname>\n              簗田\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-02"
 }

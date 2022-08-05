@@ -5,12 +5,6 @@
         "渋沢正雄",
         "穂積歌子"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/麻生正蔵",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/福山寿久",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢正雄",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/穂積歌子"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1575",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -35,14 +29,9 @@
     "sort": "DKB20030m-0080",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
+        "飛鳥山公園",
         "朝鮮",
         "永楽町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/朝鮮",
-        "https://shibusawa-dlab.github.io/lab1/api/place/永楽町"
     ],
     "temporal": "1928-03-19",
     "texts": [
@@ -68,10 +57,10 @@
         "DKB20030m-0256"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_麻生正蔵\">\n<surname>\n              麻生\n             </surname>\n<forename>\n              正蔵\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_麻生正蔵\">\n<surname>\n              麻生\n             </surname>\n<forename>\n              正蔵\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0080\">\n<head>\n<date when=\"1928-03-19\">\n           十九日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_麻生正蔵\">\n<surname>\n              麻生\n             </surname>\n<forename>\n              正蔵\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九時半\n            </time>\n<placeName corresp=\"#place_朝鮮\">\n             朝鮮\n            </placeName>\n            総督府外務局長草間氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            日々新聞\n            <persName corresp=\"#pers_福山寿久\">\n<surname>\n              福山\n             </surname>\n<forename>\n              寿久\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            癩療養所ノ件（中央社会事業協会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n<persName corresp=\"#pers_渋沢正雄\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              正雄\n             </forename>\n</persName>\n            其他来約《（氏脱）》（\n            <placeName corresp=\"#place_永楽町\">\n             永楽町\n            </placeName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:50:00\">\n             午後四・五〇\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_穂積歌子\">\n<surname>\n              穂積\n             </surname>\n<forename>\n              歌子\n             </forename>\n</persName>\n            未亡人来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0080\">\n<head>\n<date when=\"1928-03-19\">\n           十九日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_麻生正蔵\">\n<surname>\n              麻生\n             </surname>\n<forename>\n              正蔵\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九時半\n            </time>\n<placeName corresp=\"#place_朝鮮\">\n             朝鮮\n            </placeName>\n            総督府外務局長草間氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            日々新聞\n            <persName corresp=\"#pers_福山寿久\">\n<surname>\n              福山\n             </surname>\n<forename>\n              寿久\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            癩療養所ノ件（中央社会事業協会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n<persName corresp=\"#pers_渋沢正雄\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              正雄\n             </forename>\n</persName>\n            其他来約《（氏脱）》（\n            <placeName corresp=\"#place_永楽町\">\n             永楽町\n            </placeName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:50:00\">\n             午後四・五〇\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_穂積歌子\">\n<surname>\n              穂積\n             </surname>\n<forename>\n              歌子\n             </forename>\n</persName>\n            未亡人来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-03"
 }

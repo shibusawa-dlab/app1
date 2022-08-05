@@ -4,11 +4,6 @@
         "浅野",
         "渋沢篤二"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/後藤登喜男",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢篤二"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1381",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -33,14 +28,10 @@
     "sort": "DKB20024m-0011",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
+        "アスカ山邸",
         "西ヶ原",
-        "田町_(東京都港区)"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/西ヶ原",
-        "https://shibusawa-dlab.github.io/lab1/api/place/田町_(東京都港区)"
+        "田町",
+        "飛鳥山邸"
     ],
     "temporal": "1922-02-05",
     "texts": [
@@ -66,10 +57,10 @@
         "DKB20022m-0070"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_後藤登喜男\">\n<surname>\n              後藤\n             </surname>\n<forename>\n              登喜男\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_後藤登喜男\">\n<surname>\n              後藤\n             </surname>\n<forename>\n              登喜男\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0011\">\n<head>\n<date when=\"1922-02-05\">\n           五日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_後藤登喜男\">\n<surname>\n              後藤\n             </surname>\n<forename>\n              登喜男\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_西ヶ原\">\n             西ケ原\n            </placeName>\n            青年会催、御帰朝祝賀会（七社\n            <pb corresp=\"#pageB2542\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1381/full/max/0/default.jpg\" n=\"B2542\" source=\"#pageB2542\"/>\n            神社々務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_浅野\">\n<surname>\n              浅野\n             </surname>\n</persName>\n            氏ヨリ招待（\n            <placeName corresp=\"#place_田町_(東京都港区)\">\n             田町\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            首相、外相ニ御面会ノ約（首相官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_渋沢篤二\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              篤二\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0011\">\n<head>\n<date when=\"1922-02-05\">\n           五日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_後藤登喜男\">\n<surname>\n              後藤\n             </surname>\n<forename>\n              登喜男\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_西ヶ原\">\n             西ケ原\n            </placeName>\n            青年会催、御帰朝祝賀会（七社\n            <pb corresp=\"#pageB2542\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1381/full/max/0/default.jpg\" n=\"B2542\" source=\"#pageB2542\"/>\n            神社々務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_浅野\">\n<surname>\n              浅野\n             </surname>\n</persName>\n            氏ヨリ招待（\n            <placeName corresp=\"#place_田町\">\n             田町\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            首相、外相ニ御面会ノ約（首相官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_渋沢篤二\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              篤二\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-02"
 }

@@ -1,11 +1,7 @@
 {
     "agential": [
-        "緒明圭造",
+        "緒明圭",
         "服部金太郎"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/緒明圭造",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/服部金太郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1259",
     "category": {
@@ -22,7 +18,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-02",
     "date_lvl2": "1918-02-06",
-    "description": "\n\n\n           六日\n          \n          （水）\n         \n\n\n\n\n             正午\n            \n            共同精米会社発起人会（ホテル）\n           \n\n\n\n\n             午後二時\n            \n\n\n              緒明\n             \n\n              圭造\n             \n\n            、\n            \n\n              服部\n             \n\n              金太郎\n             \n\n            両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            東亜興業ヨリ御案内（トキワヤ）\n           \n\n\n",
+    "description": "\n\n\n           六日\n          \n          （水）\n         \n\n\n\n\n             正午\n            \n            共同精米会社発起人会（ホテル）\n           \n\n\n\n\n             午後二時\n            \n\n\n              緒明\n             \n\n              圭\n             \n\n            造、\n            \n\n              服部\n             \n\n              金太郎\n             \n\n            両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n             東亜\n            \n            興業ヨリ御案内（トキワヤ）\n           \n\n\n",
     "label": "六日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0036",
@@ -31,10 +27,8 @@
     "sort": "DKB20020m-0035",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
+        "日本橋兜町",
+        "東亜"
     ],
     "temporal": "1918-02-06",
     "texts": [
@@ -63,7 +57,7 @@
         "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            共同精米会社発起人会（ホテル）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0035\">\n<head>\n<date when=\"1918-02-06\">\n           六日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            共同精米会社発起人会（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_緒明圭造\">\n<surname>\n              緒明\n             </surname>\n<forename>\n              圭造\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_服部金太郎\">\n<surname>\n              服部\n             </surname>\n<forename>\n              金太郎\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            東亜興業ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0035\">\n<head>\n<date when=\"1918-02-06\">\n           六日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            共同精米会社発起人会（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_緒明圭\">\n<surname>\n              緒明\n             </surname>\n<forename>\n              圭\n             </forename>\n</persName>\n            造、\n            <persName corresp=\"#pers_服部金太郎\">\n<surname>\n              服部\n             </surname>\n<forename>\n              金太郎\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_東亜\">\n             東亜\n            </placeName>\n            興業ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-02"
 }

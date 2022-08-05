@@ -1,6 +1,7 @@
 {
-    "agential": [],
-    "agential_uri": [],
+    "agential": [
+        "愛知"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1382",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +17,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-02",
     "date_lvl2": "1922-02-21",
-    "description": "\n\n\n           廿一日\n          \n          （火）\n         \n\n\n\n\n             午前九半時\n            \n\n             愛知\n            \n            、\n            \n             岐阜\n            \n            地方地主諸氏ト御会見（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午時\n            \n            日華実業協会\n           \n\n\n\n\n             午後一時\n            \n\n             大磯\n            \n            ヘ御出向（\n            \n             東京\n            \n            駅発）\n           \n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （火）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              愛知\n             \n\n            、\n            \n             岐阜\n            \n            地方地主諸氏ト御会見（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午時\n            \n            日華実業協会\n           \n\n\n\n\n             午後一時\n            \n\n             大磯\n            \n            ヘ御出向（\n            \n             東京\n            \n            駅発）\n           \n\n\n",
     "label": "廿一日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0026",
@@ -25,18 +26,10 @@
     "sort": "DKB20024m-0024",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "愛知",
         "岐阜",
         "日本橋兜町",
         "大磯町",
         "東京"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/愛知",
-        "https://shibusawa-dlab.github.io/lab1/api/place/岐阜",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/大磯町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1922-02-21",
     "texts": [
@@ -62,10 +55,10 @@
         "DKB20029m-0246"
     ],
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<placeName corresp=\"#place_愛知\">\n             愛知\n            </placeName>\n            、\n            <placeName corresp=\"#place_岐阜\">\n             岐阜\n            </placeName>\n            地方地主諸氏ト御会見（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_愛知\">\n<forename>\n              愛知\n             </forename>\n</persName>\n            、\n            <placeName corresp=\"#place_岐阜\">\n             岐阜\n            </placeName>\n            地方地主諸氏ト御会見（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0024\">\n<head>\n<date when=\"1922-02-21\">\n           廿一日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<placeName corresp=\"#place_愛知\">\n             愛知\n            </placeName>\n            、\n            <placeName corresp=\"#place_岐阜\">\n             岐阜\n            </placeName>\n            地方地主諸氏ト御会見（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            日華実業協会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            ヘ御出向（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0024\">\n<head>\n<date when=\"1922-02-21\">\n           廿一日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_愛知\">\n<forename>\n              愛知\n             </forename>\n</persName>\n            、\n            <placeName corresp=\"#place_岐阜\">\n             岐阜\n            </placeName>\n            地方地主諸氏ト御会見（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            日華実業協会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            ヘ御出向（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-02"
 }

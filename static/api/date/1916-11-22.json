@@ -1,13 +1,7 @@
 {
     "agential": [
         "乃木",
-        "徳川興山",
-        "大倉"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/乃木",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川興山",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/大倉"
+        "徳川"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1220",
     "category": {
@@ -24,7 +18,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-11",
     "date_lvl2": "1916-11-22",
-    "description": "\n\n\n           廿二日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n            経済調査会特別委員会（大蔵省）\n           \n\n\n\n\n             午前九時\n            \n            故\n            \n\n              乃木\n             \n\n            大将追位祭典（旧同邸）\n           \n\n\n\n\n             午前十時\n            \n            故\n            \n\n              徳川\n             \n\n              興山\n             \n\n            公三週年御祭典（御邸）\n           \n\n\n\n\n             正午\n            \n            同上午餐（\n            \n             上野\n            \n\n             精養軒\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            御墓所祭\n           \n\n\n\n\n             午後五時\n            \n            大倉商業学校協議員会（\n            \n\n              大倉\n             \n\n            男邸）\n           \n\n\n\n\n             午後五時\n            \n            論語会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n            経済調査会特別委員会（大蔵省）\n           \n\n\n\n\n             午前九時\n            \n            故\n            \n\n              乃木\n             \n\n            大将追位祭典（旧同邸）\n           \n\n\n\n\n             午前十時\n            \n            故\n            \n\n              徳川\n             \n\n            興山公三週年御祭典（御邸）\n           \n\n\n\n\n             正午\n            \n            同上午餐（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            御墓所祭\n           \n\n\n\n\n             午後五時\n            \n            大倉商業学校協議員会（大倉男邸）\n           \n\n\n\n\n             午後五時\n            \n            論語会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "廿二日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0309",
@@ -33,12 +27,8 @@
     "sort": "DKB20018m-0308",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "上野",
+        "上野精養軒",
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/上野",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1916-11-22",
     "texts": [
@@ -67,7 +57,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            経済調査会特別委員会（大蔵省）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0308\">\n<head>\n<date when=\"1916-11-22\">\n           廿二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            経済調査会特別委員会（大蔵省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            故\n            <persName corresp=\"#pers_乃木\">\n<surname>\n              乃木\n             </surname>\n</persName>\n            大将追位祭典（旧同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            故\n            <persName corresp=\"#pers_徳川興山\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              興山\n             </forename>\n</persName>\n            公三週年御祭典（御邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            同上午餐（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            御墓所祭\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            大倉商業学校協議員会（\n            <persName corresp=\"#pers_大倉\">\n<surname>\n              大倉\n             </surname>\n</persName>\n            男邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            論語会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0308\">\n<head>\n<date when=\"1916-11-22\">\n           廿二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            経済調査会特別委員会（大蔵省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            故\n            <persName corresp=\"#pers_乃木\">\n<surname>\n              乃木\n             </surname>\n</persName>\n            大将追位祭典（旧同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            故\n            <persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            興山公三週年御祭典（御邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            同上午餐（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            御墓所祭\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            大倉商業学校協議員会（大倉男邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            論語会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-11"
 }

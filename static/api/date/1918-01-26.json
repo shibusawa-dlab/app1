@@ -2,9 +2,6 @@
     "agential": [
         "渋沢元治"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢元治"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1258",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +17,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-01",
     "date_lvl2": "1918-01-26",
-    "description": "\n\n\n           廿六日\n          \n          （土）\n         \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n            総会（銀行集会所）\n           \n\n\n\n\n             午後五半時\n            \n            帰一協会例会（中央亭）\n           \n\n\n\n\n             午後五時\n            \n\n             埼玉学生誘掖会\n            \n            主催\n           \n\n\n\n\n             午後六時\n            \n\n\n              渋沢\n             \n\n              元治\n             \n\n            氏送別会茶話会（同会）\n           \n\n\n",
+    "description": "\n\n\n           廿六日\n          \n          （土）\n         \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n            総会（銀行集会所）\n           \n\n\n\n\n             午後五半時\n            \n            帰一協会例会（中央亭）\n           \n\n\n\n\n             午後五時\n            \n\n             埼玉\n            \n            学生誘掖会主催\n           \n\n\n\n\n             午後六時\n            \n\n\n              渋沢\n             \n\n              元治\n             \n\n            氏送別会茶話会（同会）\n           \n\n\n",
     "label": "廿六日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0025",
@@ -28,8 +25,9 @@
     "prev": "DKB20020m-0022",
     "sort": "DKB20020m-0023",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
-    "spatial_uri": [],
+    "spatial": [
+        "埼玉"
+    ],
     "temporal": "1918-01-26",
     "texts": [
         "DKB20022m-0030",
@@ -57,7 +55,7 @@
         "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n            総会（銀行集会所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0023\">\n<head>\n<date when=\"1918-01-26\">\n           廿六日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n            総会（銀行集会所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            帰一協会例会（中央亭）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<orgName>\n             埼玉学生誘掖会\n            </orgName>\n            主催\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_渋沢元治\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              元治\n             </forename>\n</persName>\n            氏送別会茶話会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0023\">\n<head>\n<date when=\"1918-01-26\">\n           廿六日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n            総会（銀行集会所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            帰一協会例会（中央亭）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会主催\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_渋沢元治\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              元治\n             </forename>\n</persName>\n            氏送別会茶話会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-01"
 }

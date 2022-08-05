@@ -3,15 +3,8 @@
         "武部",
         "諸井恒平",
         "簗田",
-        "井野辺茂雄",
-        "高田利吉"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/武部",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/諸井恒平",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/簗田",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/井野辺茂雄",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/高田利吉"
+        "井野辺",
+        "高田"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1514",
     "category": {
@@ -37,10 +30,8 @@
     "sort": "DKB20028m-0158",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "アスカ山",
         "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1926-06-07",
     "texts": [
@@ -66,10 +57,10 @@
         "DKB20029m-0290"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_武部\">\n<surname>\n              武部\n             </surname>\n</persName>\n            文部省実業学務局長（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_武部\">\n<surname>\n              武部\n             </surname>\n</persName>\n            文部省実業学務局長（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0158\">\n<head>\n<date when=\"1926-06-07\">\n           七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_武部\">\n<surname>\n              武部\n             </surname>\n</persName>\n            文部省実業学務局長（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_諸井恒平\">\n<surname>\n              諸井\n             </surname>\n<forename>\n              恒平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n            午\n            <time when=\"09:00:00\">\n             午九時\n            </time>\n<persName corresp=\"#pers_簗田\">\n<surname>\n              簗田\n             </surname>\n</persName>\n            中外商業新報社長来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            聖堂復興期成会之件（貴族院議長官舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            御出勤（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二時半\n            </time>\n            再ビ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             夕五時\n            </time>\n            頃\n            <persName corresp=\"#pers_井野辺茂雄\">\n<surname>\n              井野辺\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_高田利吉\">\n<surname>\n              高田\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0158\">\n<head>\n<date when=\"1926-06-07\">\n           七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_武部\">\n<surname>\n              武部\n             </surname>\n</persName>\n            文部省実業学務局長（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_諸井恒平\">\n<surname>\n              諸井\n             </surname>\n<forename>\n              恒平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n            午\n            <time when=\"09:00:00\">\n             午九時\n            </time>\n<persName corresp=\"#pers_簗田\">\n<surname>\n              簗田\n             </surname>\n</persName>\n            中外商業新報社長来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            聖堂復興期成会之件（貴族院議長官舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            御出勤（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二時半\n            </time>\n            再ビ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             夕五時\n            </time>\n            頃\n            <persName corresp=\"#pers_井野辺\">\n<surname>\n              井野辺\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_高田\">\n<surname>\n              高田\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-06"
 }

@@ -1,6 +1,7 @@
 {
-    "agential": [],
-    "agential_uri": [],
+    "agential": [
+        "義助"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1258",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +17,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-01",
     "date_lvl2": "1918-01-23",
-    "description": "\n\n\n           廿三日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n\n             天津\n            \n            風水害義助会（商業会ギ所）\n           \n\n\n",
+    "description": "\n\n\n           廿三日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n\n             天津\n            \n            風水害\n            \n\n              義助\n             \n\n            会（商業会ギ所）\n           \n\n\n",
     "label": "廿三日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0022",
@@ -26,9 +27,6 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "天津市"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/天津市"
     ],
     "temporal": "1918-01-23",
     "texts": [
@@ -54,10 +52,10 @@
         "DKB20033m-0079"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_天津市\">\n             天津\n            </placeName>\n            風水害義助会（商業会ギ所）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_天津市\">\n             天津\n            </placeName>\n            風水害\n            <persName corresp=\"#pers_義助\">\n<forename>\n              義助\n             </forename>\n</persName>\n            会（商業会ギ所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0020\">\n<head>\n<date when=\"1918-01-23\">\n           廿三日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_天津市\">\n             天津\n            </placeName>\n            風水害義助会（商業会ギ所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0020\">\n<head>\n<date when=\"1918-01-23\">\n           廿三日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_天津市\">\n             天津\n            </placeName>\n            風水害\n            <persName corresp=\"#pers_義助\">\n<forename>\n              義助\n             </forename>\n</persName>\n            会（商業会ギ所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-01"
 }

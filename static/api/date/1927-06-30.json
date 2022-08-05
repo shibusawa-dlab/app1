@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1549",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -25,12 +24,8 @@
     "sort": "DKB20029m-0165",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
+        "飛鳥山公園",
         "目黒"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/目黒"
     ],
     "temporal": "1927-06-30",
     "texts": [
@@ -56,10 +51,10 @@
         "DKB20023m-0064"
     ],
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八・三〇時\n            </time>\n            田園都市会社御出向\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            発</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八・三〇時\n            </time>\n            田園都市会社御出向\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            発</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0165\">\n<head>\n<date when=\"1927-06-30\">\n           三十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八・三〇時\n            </time>\n            田園都市会社御出向\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:20:00\">\n             午前九・二〇時\n            </time>\n<placeName corresp=\"#place_目黒\">\n             目黒\n            </placeName>\n            駅着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:40:00\">\n             午前九・四〇時\n            </time>\n            洗足駅着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:50:00\">\n             午前一〇・五〇時\n            </time>\n            調布駅着\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0165\">\n<head>\n<date when=\"1927-06-30\">\n           三十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八・三〇時\n            </time>\n            田園都市会社御出向\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:20:00\">\n             午前九・二〇時\n            </time>\n<placeName corresp=\"#place_目黒\">\n             目黒\n            </placeName>\n            駅着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:40:00\">\n             午前九・四〇時\n            </time>\n            洗足駅着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:50:00\">\n             午前一〇・五〇時\n            </time>\n            調布駅着\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-06"
 }

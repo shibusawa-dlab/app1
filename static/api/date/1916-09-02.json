@@ -2,9 +2,6 @@
     "agential": [
         "酒井"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/酒井"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1214",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +17,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-09",
     "date_lvl2": "1916-09-02",
-    "description": "\n\n\n           二日\n          \n          （土）\n         \n\n\n\n\n             午前十一時\n            \n            ブラジル拓植会社\n            \n\n              酒井\n             \n\n            子爵来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n            中央慈善協会協議会（中央亭）\n           \n\n\n",
+    "description": "\n\n\n           二日\n          \n          （土）\n         \n\n\n\n\n             午前十一時\n            \n\n             ブラジル\n            \n            拓植会社\n            \n\n              酒井\n             \n\n            子爵来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n            中央慈善協会協議会（中央亭）\n           \n\n\n",
     "label": "二日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0228",
@@ -29,10 +26,8 @@
     "sort": "DKB20018m-0226",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "ブラジル",
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1916-09-02",
     "texts": [
@@ -58,10 +53,10 @@
         "DKB20019m-0239"
     ],
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            ブラジル拓植会社\n            <persName corresp=\"#pers_酒井\">\n<surname>\n              酒井\n             </surname>\n</persName>\n            子爵来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_ブラジル\">\n             ブラジル\n            </placeName>\n            拓植会社\n            <persName corresp=\"#pers_酒井\">\n<surname>\n              酒井\n             </surname>\n</persName>\n            子爵来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0226\">\n<head>\n<date when=\"1916-09-02\">\n           二日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            ブラジル拓植会社\n            <persName corresp=\"#pers_酒井\">\n<surname>\n              酒井\n             </surname>\n</persName>\n            子爵来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            中央慈善協会協議会（中央亭）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0226\">\n<head>\n<date when=\"1916-09-02\">\n           二日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_ブラジル\">\n             ブラジル\n            </placeName>\n            拓植会社\n            <persName corresp=\"#pers_酒井\">\n<surname>\n              酒井\n             </surname>\n</persName>\n            子爵来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            中央慈善協会協議会（中央亭）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-09"
 }

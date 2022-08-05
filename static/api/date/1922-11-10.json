@@ -1,11 +1,6 @@
 {
     "agential": [
-        "大熊真",
         "高峰"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/大熊真",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/高峰"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1410",
     "category": {
@@ -22,7 +17,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-11",
     "date_lvl2": "1922-11-10",
-    "description": "\n\n\n           十日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n            ピーアス氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n             東北\n            \n            学院ノ件（銀行クラブ）\n           \n\n\n\n\n             午後二半時\n            \n            日華実業協会幹事会（同会）\n           \n\n\n\n\n             午後四時\n            \n\n\n              大熊\n             \n\n              真\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              高峰\n             \n\n            博士記念事業会（帝国ホテル）\n           \n\n\n",
+    "description": "\n\n\n           十日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n            ピーアス氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n             東北\n            \n            学院ノ件（銀行クラブ）\n           \n\n\n\n\n             午後二半時\n            \n            日華実業協会幹事会（同会）\n           \n\n\n\n\n             午後四時\n            \n\n             大熊\n            \n            真氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              高峰\n             \n\n            博士記念事業会（帝国ホテル）\n           \n\n\n",
     "label": "十日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0279",
@@ -32,11 +27,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町",
-        "東北地方"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東北地方"
+        "東北地方",
+        "大熊"
     ],
     "temporal": "1922-11-10",
     "texts": [
@@ -65,7 +57,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            ピーアス氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0278\">\n<head>\n<date when=\"1922-11-10\">\n           十日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            ピーアス氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_東北地方\">\n             東北\n            </placeName>\n            学院ノ件（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            日華実業協会幹事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_大熊真\">\n<surname>\n              大熊\n             </surname>\n<forename>\n              真\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_高峰\">\n<surname>\n              高峰\n             </surname>\n</persName>\n            博士記念事業会（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0278\">\n<head>\n<date when=\"1922-11-10\">\n           十日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            ピーアス氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_東北地方\">\n             東北\n            </placeName>\n            学院ノ件（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            日華実業協会幹事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_大熊\">\n             大熊\n            </placeName>\n            真氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_高峰\">\n<surname>\n              高峰\n             </surname>\n</persName>\n            博士記念事業会（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-11"
 }

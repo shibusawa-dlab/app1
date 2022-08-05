@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1216",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +15,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-09",
     "date_lvl2": "1916-09-27",
-    "description": "\n\n\n           廿七日\n          \n          （水）\n         \n\n\n\n\n             午　時\n            \n            諏訪神社奉告祭\n           \n\n\n",
+    "description": "\n\n\n           廿七日\n          \n          （水）\n         \n\n\n\n\n             午　時\n            \n\n             諏訪\n            \n            神社奉告祭\n           \n\n\n",
     "label": "廿七日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0252",
@@ -24,8 +23,9 @@
     "prev": "DKB20018m-0250",
     "sort": "DKB20018m-0251",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
-    "spatial_uri": [],
+    "spatial": [
+        "諏訪"
+    ],
     "temporal": "1916-09-27",
     "texts": [
         "DKB20021m-0201",
@@ -51,7 +51,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0251\">\n<head>\n<date when=\"1916-09-27\">\n           廿七日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午　時\n            </time>\n            諏訪神社奉告祭\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0251\">\n<head>\n<date when=\"1916-09-27\">\n           廿七日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午　時\n            </time>\n<placeName corresp=\"#place_諏訪\">\n             諏訪\n            </placeName>\n            神社奉告祭\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-09"
 }

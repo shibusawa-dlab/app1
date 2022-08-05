@@ -4,11 +4,6 @@
         "安東義喬",
         "佐々木"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/安藤義喬",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/安東義喬",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/佐々木"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1590",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -24,7 +19,7 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-12",
     "date_lvl2": "1928-12-24",
-    "description": "\n\n\n           廿四日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n\n\n              安藤\n             \n\n              義喬\n             \n\n            氏来約《（\n            \n\n              安東\n             \n\n              義喬\n             \n\n            ）》（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n             東京女学館\n            \n            生徒及職員来邸（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n             第一銀行\n            \n\n\n              佐々木\n             \n\n            頭取ヲ同行ニ御訪問ノ約\n           \n\n\n\n\n             午後一時\n            \n            四十　御出勤\n           \n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n\n\n              安藤\n             \n\n              義喬\n             \n\n            氏来約《（\n            \n\n              安東\n             \n\n              義喬\n             \n\n            ）》（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n             東京\n            \n            女学館生徒及職員来邸（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n             第一銀行\n            \n\n\n              佐々木\n             \n\n            頭取ヲ同行ニ御訪問ノ約\n           \n\n\n\n\n             午後一時\n            \n            四十　御出勤\n           \n\n\n",
     "label": "廿四日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20030m-0285",
@@ -33,10 +28,8 @@
     "sort": "DKB20030m-0284",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山公園",
+        "東京"
     ],
     "temporal": "1928-12-24",
     "texts": [
@@ -62,10 +55,10 @@
         "DKB20030m-0007"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_安藤義喬\">\n<surname>\n              安藤\n             </surname>\n<forename>\n              義喬\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_安東義喬\">\n<surname>\n              安東\n             </surname>\n<forename>\n              義喬\n             </forename>\n</persName>\n            ）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_安藤義喬\">\n<surname>\n              安藤\n             </surname>\n<forename>\n              義喬\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_安東義喬\">\n<surname>\n              安東\n             </surname>\n<forename>\n              義喬\n             </forename>\n</persName>\n            ）》（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0284\">\n<head>\n<date when=\"1928-12-24\">\n           廿四日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_安藤義喬\">\n<surname>\n              安藤\n             </surname>\n<forename>\n              義喬\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_安東義喬\">\n<surname>\n              安東\n             </surname>\n<forename>\n              義喬\n             </forename>\n</persName>\n            ）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             東京女学館\n            </orgName>\n            生徒及職員来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n<persName corresp=\"#pers_佐々木\">\n<surname>\n              佐々木\n             </surname>\n</persName>\n            頭取ヲ同行ニ御訪問ノ約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            四十　御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0284\">\n<head>\n<date when=\"1928-12-24\">\n           廿四日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_安藤義喬\">\n<surname>\n              安藤\n             </surname>\n<forename>\n              義喬\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_安東義喬\">\n<surname>\n              安東\n             </surname>\n<forename>\n              義喬\n             </forename>\n</persName>\n            ）》（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            女学館生徒及職員来邸（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n<persName corresp=\"#pers_佐々木\">\n<surname>\n              佐々木\n             </surname>\n</persName>\n            頭取ヲ同行ニ御訪問ノ約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            四十　御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-12"
 }

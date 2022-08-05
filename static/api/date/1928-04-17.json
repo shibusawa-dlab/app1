@@ -1,6 +1,7 @@
 {
-    "agential": [],
-    "agential_uri": [],
+    "agential": [
+        "三二"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1579",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +17,7 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-04",
     "date_lvl2": "1928-04-17",
-    "description": "\n\n\n           十七日\n          \n          （火）\n         \n\n\n\n            御旅行、\n            \n             小見川\n            \n            ヘ\n           \n\n\n\n\n             午後四・三二\n            \n            御帰京、\n            \n             両国\n            \n            駅着\n           \n\n\n\n\n             午後四・五五\n            \n            御出勤\n           \n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （火）\n         \n\n\n\n            御旅行、\n            \n             小見川\n            \n            ヘ\n           \n\n\n\n\n             午後四・\n             \n\n               三二\n              \n\n\n            御帰京、両国駅着\n           \n\n\n\n\n             午後四・五五\n            \n            御出勤\n           \n\n\n",
     "label": "十七日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20030m-0111",
@@ -25,12 +26,7 @@
     "sort": "DKB20030m-0110",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "小見川",
-        "両国"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/小見川",
-        "https://shibusawa-dlab.github.io/lab1/api/place/両国"
+        "小見川"
     ],
     "temporal": "1928-04-17",
     "texts": [
@@ -57,7 +53,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0110\">\n<head>\n<date when=\"1928-04-17\">\n           十七日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n            御旅行、\n            <placeName corresp=\"#place_小見川\">\n             小見川\n            </placeName>\n            ヘ\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:32:00\">\n             午後四・三二\n            </time>\n            御帰京、\n            <placeName corresp=\"#place_両国\">\n             両国\n            </placeName>\n            駅着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:55:00\">\n             午後四・五五\n            </time>\n            御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0110\">\n<head>\n<date when=\"1928-04-17\">\n           十七日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n            御旅行、\n            <placeName corresp=\"#place_小見川\">\n             小見川\n            </placeName>\n            ヘ\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:22:00\">\n             午後四・\n             <persName corresp=\"#pers_三二\">\n<forename>\n               三二\n              </forename>\n</persName>\n</time>\n            御帰京、両国駅着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:55:00\">\n             午後四・五五\n            </time>\n            御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-04"
 }

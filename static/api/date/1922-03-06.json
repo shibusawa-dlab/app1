@@ -1,13 +1,6 @@
 {
     "agential": [
-        "胡",
-        "ウオル_タタ",
         "倉知鉄吉"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/胡",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/ウオル_タタ",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/倉知鉄吉"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1384",
     "category": {
@@ -24,7 +17,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-03",
     "date_lvl2": "1922-03-06",
-    "description": "\n\n\n           六日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n\n胡\n\n\n             支那\n            \n            公使来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十半時\n            \n\n\n              ウオル\n             \n             ・\n             \n              タタ\n             \n\n            女史来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              倉知\n             \n\n              鉄吉\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            日華学会ヨリ御案内（工業クラブ）\n           \n\n\n\n\n             午時\n            \n            協調会\n           \n\n\n\n\n             午後六時\n            \n            清水組より御案内　常盤屋\n           \n\n\n",
+    "description": "\n\n\n           六日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n\n             胡\n            \n\n             支那\n            \n            公使来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十半時\n            \n            ウオル・タタ女史来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              倉知\n             \n\n              鉄吉\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            日華学会ヨリ御案内（工業クラブ）\n           \n\n\n\n\n             午時\n            \n            協調会\n           \n\n\n\n\n             午後六時\n            \n            清水組より御案内　常盤屋\n           \n\n\n",
     "label": "六日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0038",
@@ -33,12 +26,9 @@
     "sort": "DKB20024m-0037",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "胡",
         "支那",
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/支那",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1922-03-06",
     "texts": [
@@ -64,10 +54,10 @@
         "DKB20020m-0028"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_胡\">\n<surname>胡</surname>\n</persName>\n<placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            公使来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_胡\">\n             胡\n            </placeName>\n<placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            公使来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0037\">\n<head>\n<date when=\"1922-03-06\">\n           六日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_胡\">\n<surname>胡</surname>\n</persName>\n<placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            公使来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n<persName corresp=\"#pers_ウオル_タタ\">\n<forename>\n              ウオル\n             </forename>\n             ・\n             <surname>\n              タタ\n             </surname>\n</persName>\n            女史来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_倉知鉄吉\">\n<surname>\n              倉知\n             </surname>\n<forename>\n              鉄吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華学会ヨリ御案内（工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            協調会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            清水組より御案内　常盤屋\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0037\">\n<head>\n<date when=\"1922-03-06\">\n           六日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_胡\">\n             胡\n            </placeName>\n<placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            公使来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n            ウオル・タタ女史来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_倉知鉄吉\">\n<surname>\n              倉知\n             </surname>\n<forename>\n              鉄吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華学会ヨリ御案内（工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            協調会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            清水組より御案内　常盤屋\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-03"
 }

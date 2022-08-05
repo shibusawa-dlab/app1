@@ -1,9 +1,7 @@
 {
     "agential": [
-        "宇野木忠"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/宇野木忠"
+        "宇野木忠",
+        "渋沢"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1622",
     "category": {
@@ -20,7 +18,7 @@
     "date_lvl0": "1931",
     "date_lvl1": "1931-03",
     "date_lvl2": "1931-03-26",
-    "description": "\n\n\n           廿六日\n          \n          （木）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              宇野木\n             \n\n              忠\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n             東京女学館\n            \n            理事会（渋沢事務所）\n           \n\n\n",
+    "description": "\n\n\n           廿六日\n          \n          （木）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              宇野木\n             \n\n              忠\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n             東京\n            \n            女学館理事会（\n            \n\n              渋沢\n             \n\n            事務所）\n           \n\n\n",
     "label": "廿六日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20033m-0038",
@@ -29,10 +27,8 @@
     "sort": "DKB20033m-0036",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山邸",
+        "東京"
     ],
     "temporal": "1931-03-26",
     "texts": [
@@ -61,7 +57,7 @@
         "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_宇野木忠\">\n<surname>\n              宇野木\n             </surname>\n<forename>\n              忠\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0036\">\n<head>\n<date when=\"1931-03-26\">\n           廿六日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_宇野木忠\">\n<surname>\n              宇野木\n             </surname>\n<forename>\n              忠\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<orgName>\n             東京女学館\n            </orgName>\n            理事会（渋沢事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0036\">\n<head>\n<date when=\"1931-03-26\">\n           廿六日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_宇野木忠\">\n<surname>\n              宇野木\n             </surname>\n<forename>\n              忠\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            女学館理事会（\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1931",
     "yearAndMonth": "1931-03"
 }

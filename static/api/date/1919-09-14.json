@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1309",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -26,11 +25,7 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "フィリツピン",
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/フィリツピン",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山公園"
     ],
     "temporal": "1919-09-14",
     "texts": [
@@ -56,10 +51,10 @@
         "DKB20025m-0279"
     ],
     "time": {
-        "15:00:00": "<div><time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_フィリツピン\">\n             フィリツピン\n            </placeName>\n            下院議長一行招待茶話会\n            <lb/>\n            （\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）（約十四人）</div>"
+        "15:00:00": "<div><time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_フィリツピン\">\n             フィリツピン\n            </placeName>\n            下院議長一行招待茶話会\n            <lb/>\n            （\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）（約十四人）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0227\">\n<head>\n<date when=\"1919-09-14\">\n           十四日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_フィリツピン\">\n             フィリツピン\n            </placeName>\n            下院議長一行招待茶話会\n            <lb/>\n            （\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）（約十四人）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0227\">\n<head>\n<date when=\"1919-09-14\">\n           十四日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_フィリツピン\">\n             フィリツピン\n            </placeName>\n            下院議長一行招待茶話会\n            <lb/>\n            （\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）（約十四人）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-09"
 }

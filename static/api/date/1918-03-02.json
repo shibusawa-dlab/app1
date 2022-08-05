@@ -1,11 +1,6 @@
 {
     "agential": [
-        "ベリー",
         "吉池慶正"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/ベリー",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/吉池慶正"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1260",
     "category": {
@@ -22,7 +17,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-03",
     "date_lvl2": "1918-03-02",
-    "description": "\n\n\n           二日\n          \n          （土）\n         \n\n\n\n\n             午前十一時\n            \n\n\n              ベリー\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一半時\n            \n\n\n              吉池\n             \n\n              慶正\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           二日\n          \n          （土）\n         \n\n\n\n\n             午前十一時\n            \n            ベリー氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十一半時\n            \n\n\n              吉池\n             \n\n              慶正\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "二日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0056",
@@ -32,9 +27,6 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1918-03-02",
     "texts": [
@@ -60,10 +52,10 @@
         "DKB20021m-0059"
     ],
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_ベリー\">\n<surname>\n              ベリー\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            ベリー氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0055\">\n<head>\n<date when=\"1918-03-02\">\n           二日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_ベリー\">\n<surname>\n              ベリー\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0055\">\n<head>\n<date when=\"1918-03-02\">\n           二日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            ベリー氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-03"
 }

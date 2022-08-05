@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1324",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +15,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-02",
     "date_lvl2": "1920-02-11",
-    "description": "\n\n\n           十一日\n          \n          （水）\n         \n\n\n\n            紀元節\n           \n\n\n\n\n             午後一時\n            \n            頃\n            \n             埼玉\n            \n            学友会々合（\n            \n             埼玉学生誘掖会\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            修養団記念日（同所）\n           \n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （水）\n         \n\n\n\n            紀元節\n           \n\n\n\n\n             午後一時\n            \n            頃\n            \n             埼玉\n            \n            学友会々合（\n            \n             埼玉\n            \n            学生誘掖会）\n           \n\n\n\n\n             午後二時\n            \n            修養団記念日（同所）\n           \n\n\n",
     "label": "十一日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0041",
@@ -26,9 +25,6 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "埼玉"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/埼玉"
     ],
     "temporal": "1920-02-11",
     "texts": [
@@ -55,7 +51,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0040\">\n<head>\n<date when=\"1920-02-11\">\n           十一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n            紀元節\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            頃\n            <placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学友会々合（\n            <orgName>\n             埼玉学生誘掖会\n            </orgName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            修養団記念日（同所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0040\">\n<head>\n<date when=\"1920-02-11\">\n           十一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n            紀元節\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            頃\n            <placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学友会々合（\n            <placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            修養団記念日（同所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-02"
 }

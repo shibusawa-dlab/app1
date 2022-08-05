@@ -3,10 +3,6 @@
         "岩崎久弥",
         "浅野総一郎"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/岩崎久弥",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野総一郎"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1207",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -32,11 +28,7 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "茅町",
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/茅町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山公園"
     ],
     "temporal": "1916-06-15",
     "texts": [
@@ -65,7 +57,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_岩崎久弥\">\n<surname>\n              岩崎\n             </surname>\n<forename>\n              久弥\n             </forename>\n</persName>\n            男ヲ御訪問ノ約（\n            <placeName corresp=\"#place_茅町\">\n             茅町\n            </placeName>\n            同邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0150\">\n<head>\n<date when=\"1916-06-15\">\n           十五日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_岩崎久弥\">\n<surname>\n              岩崎\n             </surname>\n<forename>\n              久弥\n             </forename>\n</persName>\n            男ヲ御訪問ノ約（\n            <placeName corresp=\"#place_茅町\">\n             茅町\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            広軌鉄道ノ件（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏一家ヲ御招待（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0150\">\n<head>\n<date when=\"1916-06-15\">\n           十五日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_岩崎久弥\">\n<surname>\n              岩崎\n             </surname>\n<forename>\n              久弥\n             </forename>\n</persName>\n            男ヲ御訪問ノ約（\n            <placeName corresp=\"#place_茅町\">\n             茅町\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            広軌鉄道ノ件（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏一家ヲ御招待（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-06"
 }

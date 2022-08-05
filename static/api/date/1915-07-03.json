@@ -1,17 +1,9 @@
 {
     "agential": [
         "大隈",
-        "横堀",
         "尾崎敬義",
         "海老名弾正",
         "野崎廣太"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/大隈",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/横堀",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/尾崎敬義",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/海老名弾正",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/野崎廣太"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1186",
     "category": {
@@ -28,7 +20,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-07",
     "date_lvl2": "1915-07-03",
-    "description": "\n\n\n           三日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n            前\n            \n\n              大隈\n             \n\n            伯\n            \n             早稲田\n            \n            邸ヘ御出向\n           \n\n\n\n\n             午前十時\n            \n\n\n              横堀\n             \n\n            博士、\n            \n\n              尾崎\n             \n\n              敬義\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午后三―四時\n            \n\n\n              海老名\n             \n\n              弾正\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              野崎\n             \n\n              広太\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n",
+    "description": "\n\n\n           三日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n            前\n            \n\n              大隈\n             \n\n            伯\n            \n             早稲田\n            \n            邸ヘ御出向\n           \n\n\n\n\n             午前十時\n            \n\n             横堀\n            \n            博士、\n            \n\n              尾崎\n             \n\n              敬義\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午后三―四時\n            \n\n\n              海老名\n             \n\n              弾正\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              野崎\n             \n\n              広太\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n",
     "label": "三日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0175",
@@ -38,11 +30,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "早稲田",
+        "横堀",
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/早稲田",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1915-07-03",
     "texts": [
@@ -71,7 +60,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            前\n            <persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            伯\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            邸ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0174\">\n<head>\n<date when=\"1915-07-03\">\n           三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            前\n            <persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            伯\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            邸ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_横堀\">\n<surname>\n              横堀\n             </surname>\n</persName>\n            博士、\n            <persName corresp=\"#pers_尾崎敬義\">\n<surname>\n              尾崎\n             </surname>\n<forename>\n              敬義\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午后三―四時\n            </time>\n<persName corresp=\"#pers_海老名弾正\">\n<surname>\n              海老名\n             </surname>\n<forename>\n              弾正\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_野崎廣太\">\n<surname>\n              野崎\n             </surname>\n<forename>\n              広太\n             </forename>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0174\">\n<head>\n<date when=\"1915-07-03\">\n           三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            前\n            <persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            伯\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            邸ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_横堀\">\n             横堀\n            </placeName>\n            博士、\n            <persName corresp=\"#pers_尾崎敬義\">\n<surname>\n              尾崎\n             </surname>\n<forename>\n              敬義\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午后三―四時\n            </time>\n<persName corresp=\"#pers_海老名弾正\">\n<surname>\n              海老名\n             </surname>\n<forename>\n              弾正\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_野崎廣太\">\n<surname>\n              野崎\n             </surname>\n<forename>\n              広太\n             </forename>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-07"
 }

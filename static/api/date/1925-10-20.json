@@ -1,11 +1,8 @@
 {
     "agential": [
+        "大隈",
         "尾高鮮之助",
         "湯原愛子"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/尾高鮮之助",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/湯原愛子"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1495",
     "category": {
@@ -22,7 +19,7 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-10",
     "date_lvl2": "1925-10-20",
-    "description": "\n\n\n           二十日\n          \n          （火）\n         \n\n\n\n\n             午前九半時\n            \n\n             日本\n            \n            無線電信株式会社創立委員総会（日本工業クラブ）\n           \n\n\n\n\n             正午\n            \n\n             早稲田大学\n            \n            図書館開館式（大隈会館）\n           \n\n\n\n            午餐アリ\n           \n\n\n\n\n             午後二時\n            \n\n\n              尾高\n             \n\n              鮮之助\n             \n\n            、\n            \n\n              湯原\n             \n\n              愛子\n             \n\n            両氏結婚式（\n            \n             日比谷\n            \n            大神宮）\n           \n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （火）\n         \n\n\n\n\n             午前九半時\n            \n\n             日本\n            \n            無線電信株式会社創立委員総会（日本工業クラブ）\n           \n\n\n\n\n             正午\n            \n            早稲田大学図書館開館式（\n            \n\n              大隈\n             \n\n            会館）\n           \n\n\n\n            午餐アリ\n           \n\n\n\n\n             午後二時\n            \n\n\n              尾高\n             \n\n              鮮之助\n             \n\n            、\n            \n\n              湯原\n             \n\n              愛子\n             \n\n            両氏結婚式（\n            \n             日比谷\n            \n            大神宮）\n           \n\n\n",
     "label": "二十日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20027m-0178",
@@ -33,10 +30,6 @@
     "spatial": [
         "日本",
         "日比谷"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日比谷"
     ],
     "temporal": "1925-10-20",
     "texts": [
@@ -65,7 +58,7 @@
         "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            無線電信株式会社創立委員総会（日本工業クラブ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0177\">\n<head>\n<date when=\"1925-10-20\">\n           二十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            無線電信株式会社創立委員総会（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<orgName>\n             早稲田大学\n            </orgName>\n            図書館開館式（大隈会館）\n           </p>\n</event>\n<event>\n<p>\n            午餐アリ\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_尾高鮮之助\">\n<surname>\n              尾高\n             </surname>\n<forename>\n              鮮之助\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_湯原愛子\">\n<surname>\n              湯原\n             </surname>\n<forename>\n              愛子\n             </forename>\n</persName>\n            両氏結婚式（\n            <placeName corresp=\"#place_日比谷\">\n             日比谷\n            </placeName>\n            大神宮）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0177\">\n<head>\n<date when=\"1925-10-20\">\n           二十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            無線電信株式会社創立委員総会（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            早稲田大学図書館開館式（\n            <persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            会館）\n           </p>\n</event>\n<event>\n<p>\n            午餐アリ\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_尾高鮮之助\">\n<surname>\n              尾高\n             </surname>\n<forename>\n              鮮之助\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_湯原愛子\">\n<surname>\n              湯原\n             </surname>\n<forename>\n              愛子\n             </forename>\n</persName>\n            両氏結婚式（\n            <placeName corresp=\"#place_日比谷\">\n             日比谷\n            </placeName>\n            大神宮）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-10"
 }

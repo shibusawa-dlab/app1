@@ -5,12 +5,6 @@
         "金子",
         "添田敬一郎"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/本田静六",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/本多静六",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/金子",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/添田敬一郎"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1381",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -35,18 +29,11 @@
     "sort": "DKB20024m-0008",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
+        "アスカ山",
         "日本橋兜町",
         "東京",
         "京浜",
-        "フランス"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
-        "https://shibusawa-dlab.github.io/lab1/api/place/京浜",
-        "https://shibusawa-dlab.github.io/lab1/api/place/フランス"
+        "仏国"
     ],
     "temporal": "1922-02-02",
     "texts": [
@@ -73,7 +60,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0008\">\n<head>\n<date when=\"1922-02-02\">\n           二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"09:00:00\">\n             午前八―九時\n            </time>\n<persName corresp=\"#pers_本田静六\">\n<surname>\n              本田\n             </surname>\n<forename>\n              静六\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_本多静六\">\n<surname>\n              本多\n             </surname>\n<forename>\n              静六\n             </forename>\n</persName>\n            氏）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            日華実業協会評議員会（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_金子\">\n<surname>\n              金子\n             </surname>\n</persName>\n            子爵来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_添田敬一郎\">\n<surname>\n              添田\n             </surname>\n<forename>\n              敬一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:30:00\">\n             午後六半時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商業会議所及\n            <placeName corresp=\"#place_京浜\">\n             京浜\n            </placeName>\n            実業家主催、ジヨツフル元帥歓迎会（帝国ホテル）\n            <lb/>\n            （燕尾服、勲章ハ略章ト\n            <placeName corresp=\"#place_フランス\">\n             仏国\n            </placeName>\n            勲章）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0008\">\n<head>\n<date when=\"1922-02-02\">\n           二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"09:00:00\">\n             午前八―九時\n            </time>\n<persName corresp=\"#pers_本田静六\">\n<surname>\n              本田\n             </surname>\n<forename>\n              静六\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_本多静六\">\n<surname>\n              本多\n             </surname>\n<forename>\n              静六\n             </forename>\n</persName>\n            氏）》（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            日華実業協会評議員会（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_金子\">\n<surname>\n              金子\n             </surname>\n</persName>\n            子爵来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_添田敬一郎\">\n<surname>\n              添田\n             </surname>\n<forename>\n              敬一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:30:00\">\n             午後六半時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商業会議所及\n            <placeName corresp=\"#place_京浜\">\n             京浜\n            </placeName>\n            実業家主催、ジヨツフル元帥歓迎会（帝国ホテル）\n            <lb/>\n            （燕尾服、勲章ハ略章ト\n            <placeName corresp=\"#place_仏国\">\n             仏国\n            </placeName>\n            勲章）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-02"
 }

@@ -2,9 +2,6 @@
     "agential": [
         "伏見宮"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/伏見宮"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1193",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +17,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-10",
     "date_lvl2": "1915-10-12",
-    "description": "\n\n\n           十二日\n          \n          （火）\n         \n\n\n\n\n             午后一時\n            \n            明治神宮奉賛会総裁\n            \n\n              伏見宮\n             \n\n            殿下ヨリ御案内（新宿御苑）\n           \n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （火）\n         \n\n\n\n\n             午后一時\n            \n            明治神宮奉賛会総裁\n            \n\n              伏見宮\n             \n\n            殿下ヨリ御案内（\n            \n             新宿\n            \n            御苑）\n           \n\n\n",
     "label": "十二日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0257",
@@ -28,8 +25,9 @@
     "prev": "DKB20017m-0255",
     "sort": "DKB20017m-0256",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
-    "spatial_uri": [],
+    "spatial": [
+        "新宿"
+    ],
     "temporal": "1915-10-12",
     "texts": [
         "DKB20017m-0155",
@@ -54,10 +52,10 @@
         "DKB20016m-0048"
     ],
     "time": {
-        "13:00:00": "<div><time when=\"13:00:00\">\n             午后一時\n            </time>\n            明治神宮奉賛会総裁\n            <persName corresp=\"#pers_伏見宮\">\n<surname>\n              伏見宮\n             </surname>\n</persName>\n            殿下ヨリ御案内（新宿御苑）</div>"
+        "13:00:00": "<div><time when=\"13:00:00\">\n             午后一時\n            </time>\n            明治神宮奉賛会総裁\n            <persName corresp=\"#pers_伏見宮\">\n<surname>\n              伏見宮\n             </surname>\n</persName>\n            殿下ヨリ御案内（\n            <placeName corresp=\"#place_新宿\">\n             新宿\n            </placeName>\n            御苑）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0256\">\n<head>\n<date when=\"1915-10-12\">\n           十二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n            明治神宮奉賛会総裁\n            <persName corresp=\"#pers_伏見宮\">\n<surname>\n              伏見宮\n             </surname>\n</persName>\n            殿下ヨリ御案内（新宿御苑）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0256\">\n<head>\n<date when=\"1915-10-12\">\n           十二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n            明治神宮奉賛会総裁\n            <persName corresp=\"#pers_伏見宮\">\n<surname>\n              伏見宮\n             </surname>\n</persName>\n            殿下ヨリ御案内（\n            <placeName corresp=\"#place_新宿\">\n             新宿\n            </placeName>\n            御苑）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-10"
 }

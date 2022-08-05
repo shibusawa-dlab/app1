@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/625",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -25,13 +24,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "ダンキルク",
-        "フィラデルフィア",
+        "ヒルトルヒヤ",
         "バツハロー"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/ダンキルク",
-        "https://shibusawa-dlab.github.io/lab1/api/place/フィラデルフィア",
-        "https://shibusawa-dlab.github.io/lab1/api/place/バツハロー"
     ],
     "temporal": "1909-10-05",
     "texts": [
@@ -59,11 +53,11 @@
     "time": {
         "07:30:00": "<div><time when=\"07:30:00\">\n        午前七時半\n       </time>\n       起床、汽車中ニテ支度ヲ整ヒ、</div>",
         "08:00:00": "<div><time when=\"08:00:00\">\n        八時\n       </time>\n       過朝飧ヲ食ス、</div>",
-        "09:00:00": "<div><time when=\"09:00:00\">\n        九時\n       </time>\n       車ヲ下リテ\n       <placeName corresp=\"#place_ダンキルク\">\n        ダンキルク\n       </placeName>\n       市ノ汽鑵車製造所ヲ一覧ス、\n       <placeName corresp=\"#place_フィラデルフィア\">\n        ヒルトルヒヤ\n       </placeName>\n       市ニアルホードビン製造所ニ比スレハ稍小ナルモ、規模モ大ニシテ諸事整頓セリ、一日ノ製造高弐台ナルモ近ク加倍スヘシト云フ、畢リテ室内温暖器ノ製造所ヲ見ル、鋳形ニ用フル砂ノ配合肝要ナリト云フ、夫ヨリ\n       <pb corresp=\"#pageB1600\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/626/full/max/0/default.jpg\" n=\"B1600\" source=\"#pageB1600\"/>\n       自働車ニテ数哩ヲ行キ一村落ニ抵ル、葡萄ノ名産アリト云フ、葡萄園ニテ小憩シ、葡萄酒醸造所ヲ一覧ス、畢リテ汽車ニ帰リ午飧シ、汽車\n       <placeName corresp=\"#place_バツハロー\">\n        バツハロー\n       </placeName>\n       ニ抵リテ又車ヲ下リ、当市ヨリ来レル歓迎委員ノ案内ニテ病院及小児病院ヲ見ル、市ノ有志者ノ寄附行為ニ成ル財団法人ナリト云フ、一覧後公園ヲ経過シ、後、案内セシ［　　］《（○欠字。）》ノ家ニテ休足シ</div>",
+        "09:00:00": "<div><time when=\"09:00:00\">\n        九時\n       </time>\n       車ヲ下リテ\n       <placeName corresp=\"#place_ダンキルク\">\n        ダンキルク\n       </placeName>\n       市ノ汽鑵車製造所ヲ一覧ス、\n       <placeName corresp=\"#place_ヒルトルヒヤ\">\n        ヒルトルヒヤ\n       </placeName>\n       市ニアルホードビン製造所ニ比スレハ稍小ナルモ、規模モ大ニシテ諸事整頓セリ、一日ノ製造高弐台ナルモ近ク加倍スヘシト云フ、畢リテ室内温暖器ノ製造所ヲ見ル、鋳形ニ用フル砂ノ配合肝要ナリト云フ、夫ヨリ\n       <pb corresp=\"#pageB1600\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/626/full/max/0/default.jpg\" n=\"B1600\" source=\"#pageB1600\"/>\n       自働車ニテ数哩ヲ行キ一村落ニ抵ル、葡萄ノ名産アリト云フ、葡萄園ニテ小憩シ、葡萄酒醸造所ヲ一覧ス、畢リテ汽車ニ帰リ午飧シ、汽車\n       <placeName corresp=\"#place_バツハロー\">\n        バツハロー\n       </placeName>\n       ニ抵リテ又車ヲ下リ、当市ヨリ来レル歓迎委員ノ案内ニテ病院及小児病院ヲ見ル、市ノ有志者ノ寄附行為ニ成ル財団法人ナリト云フ、一覧後公園ヲ経過シ、後、案内セシ［　　］《（○欠字。）》ノ家ニテ休足シ</div>",
         "17:30:00": "<div><time when=\"17:30:00\">\n        五時半\n       </time>\n       ホテル［　　　　　　］《（○欠字。イロクイン）》ニ投宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10017m-0219\">\n<head>\n<date when=\"1909-10-05\">\n        十月五日\n       </date>\n       晴　冷\n      </head>\n<p>\n<time when=\"07:30:00\">\n        午前七時半\n       </time>\n       起床、汽車中ニテ支度ヲ整ヒ、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       過朝飧ヲ食ス、\n       <time when=\"09:00:00\">\n        九時\n       </time>\n       車ヲ下リテ\n       <placeName corresp=\"#place_ダンキルク\">\n        ダンキルク\n       </placeName>\n       市ノ汽鑵車製造所ヲ一覧ス、\n       <placeName corresp=\"#place_フィラデルフィア\">\n        ヒルトルヒヤ\n       </placeName>\n       市ニアルホードビン製造所ニ比スレハ稍小ナルモ、規模モ大ニシテ諸事整頓セリ、一日ノ製造高弐台ナルモ近ク加倍スヘシト云フ、畢リテ室内温暖器ノ製造所ヲ見ル、鋳形ニ用フル砂ノ配合肝要ナリト云フ、夫ヨリ\n       <pb corresp=\"#pageB1600\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/626/full/max/0/default.jpg\" n=\"B1600\" source=\"#pageB1600\"/>\n       自働車ニテ数哩ヲ行キ一村落ニ抵ル、葡萄ノ名産アリト云フ、葡萄園ニテ小憩シ、葡萄酒醸造所ヲ一覧ス、畢リテ汽車ニ帰リ午飧シ、汽車\n       <placeName corresp=\"#place_バツハロー\">\n        バツハロー\n       </placeName>\n       ニ抵リテ又車ヲ下リ、当市ヨリ来レル歓迎委員ノ案内ニテ病院及小児病院ヲ見ル、市ノ有志者ノ寄附行為ニ成ル財団法人ナリト云フ、一覧後公園ヲ経過シ、後、案内セシ［　　］《（○欠字。）》ノ家ニテ休足シ\n       <time when=\"17:30:00\">\n        五時半\n       </time>\n       ホテル［　　　　　　］《（○欠字。イロクイン）》ニ投宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10017m-0219\">\n<head>\n<date when=\"1909-10-05\">\n        十月五日\n       </date>\n       晴　冷\n      </head>\n<p>\n<time when=\"07:30:00\">\n        午前七時半\n       </time>\n       起床、汽車中ニテ支度ヲ整ヒ、\n       <time when=\"08:00:00\">\n        八時\n       </time>\n       過朝飧ヲ食ス、\n       <time when=\"09:00:00\">\n        九時\n       </time>\n       車ヲ下リテ\n       <placeName corresp=\"#place_ダンキルク\">\n        ダンキルク\n       </placeName>\n       市ノ汽鑵車製造所ヲ一覧ス、\n       <placeName corresp=\"#place_ヒルトルヒヤ\">\n        ヒルトルヒヤ\n       </placeName>\n       市ニアルホードビン製造所ニ比スレハ稍小ナルモ、規模モ大ニシテ諸事整頓セリ、一日ノ製造高弐台ナルモ近ク加倍スヘシト云フ、畢リテ室内温暖器ノ製造所ヲ見ル、鋳形ニ用フル砂ノ配合肝要ナリト云フ、夫ヨリ\n       <pb corresp=\"#pageB1600\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/626/full/max/0/default.jpg\" n=\"B1600\" source=\"#pageB1600\"/>\n       自働車ニテ数哩ヲ行キ一村落ニ抵ル、葡萄ノ名産アリト云フ、葡萄園ニテ小憩シ、葡萄酒醸造所ヲ一覧ス、畢リテ汽車ニ帰リ午飧シ、汽車\n       <placeName corresp=\"#place_バツハロー\">\n        バツハロー\n       </placeName>\n       ニ抵リテ又車ヲ下リ、当市ヨリ来レル歓迎委員ノ案内ニテ病院及小児病院ヲ見ル、市ノ有志者ノ寄附行為ニ成ル財団法人ナリト云フ、一覧後公園ヲ経過シ、後、案内セシ［　　］《（○欠字。）》ノ家ニテ休足シ\n       <time when=\"17:30:00\">\n        五時半\n       </time>\n       ホテル［　　　　　　］《（○欠字。イロクイン）》ニ投宿ス\n      </p>\n</div>",
     "year": "1909",
     "yearAndMonth": "1909-10"
 }

@@ -1,6 +1,7 @@
 {
-    "agential": [],
-    "agential_uri": [],
+    "agential": [
+        "ヨル"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1270",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +17,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-06",
     "date_lvl2": "1918-06-11",
-    "description": "\n\n\n           十一日\n          \n          （火）\n         \n\n\n\n\n             午時\n            \n\n             福井\n            \n            駅発　御帰京\n           \n\n\n\n            但\n            \n             北陸\n            \n            線ニヨル時ハ\n            \n             直江津\n            \n            ニ一泊、若シ\n            \n             東海道\n            \n            線ニヨル時ハ\n            \n             名古屋\n            \n            ニ一泊ノ事\n           \n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （火）\n         \n\n\n\n\n             午時\n            \n\n             福井\n            \n            駅発　御帰京\n           \n\n\n\n            但\n            \n             北陸\n            \n            線ニ\n            \n\n              ヨル\n             \n\n            時ハ\n            \n             直江津\n            \n            ニ一泊、若シ\n            \n             東海道\n            \n            線ニ\n            \n\n              ヨル\n             \n\n            時ハ\n            \n             名古屋\n            \n            ニ一泊ノ事\n           \n\n\n",
     "label": "十一日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0157",
@@ -30,13 +31,6 @@
         "直江津市",
         "東海道",
         "名古屋"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/福井",
-        "https://shibusawa-dlab.github.io/lab1/api/place/北陸地方",
-        "https://shibusawa-dlab.github.io/lab1/api/place/直江津市",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東海道",
-        "https://shibusawa-dlab.github.io/lab1/api/place/名古屋"
     ],
     "temporal": "1918-06-11",
     "texts": [
@@ -65,7 +59,7 @@
         "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_福井\">\n             福井\n            </placeName>\n            駅発　御帰京</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0156\">\n<head>\n<date when=\"1918-06-11\">\n           十一日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_福井\">\n             福井\n            </placeName>\n            駅発　御帰京\n           </p>\n</event>\n<event>\n<p>\n            但\n            <placeName corresp=\"#place_北陸地方\">\n             北陸\n            </placeName>\n            線ニヨル時ハ\n            <placeName corresp=\"#place_直江津市\">\n             直江津\n            </placeName>\n            ニ一泊、若シ\n            <placeName corresp=\"#place_東海道\">\n             東海道\n            </placeName>\n            線ニヨル時ハ\n            <placeName corresp=\"#place_名古屋\">\n             名古屋\n            </placeName>\n            ニ一泊ノ事\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0156\">\n<head>\n<date when=\"1918-06-11\">\n           十一日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_福井\">\n             福井\n            </placeName>\n            駅発　御帰京\n           </p>\n</event>\n<event>\n<p>\n            但\n            <placeName corresp=\"#place_北陸地方\">\n             北陸\n            </placeName>\n            線ニ\n            <persName corresp=\"#pers_ヨル\">\n<forename>\n              ヨル\n             </forename>\n</persName>\n            時ハ\n            <placeName corresp=\"#place_直江津市\">\n             直江津\n            </placeName>\n            ニ一泊、若シ\n            <placeName corresp=\"#place_東海道\">\n             東海道\n            </placeName>\n            線ニ\n            <persName corresp=\"#pers_ヨル\">\n<forename>\n              ヨル\n             </forename>\n</persName>\n            時ハ\n            <placeName corresp=\"#place_名古屋\">\n             名古屋\n            </placeName>\n            ニ一泊ノ事\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-06"
 }

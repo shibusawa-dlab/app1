@@ -1,17 +1,9 @@
 {
     "agential": [
-        "久麻俊泰",
-        "中島",
+        "俊泰",
         "林",
         "三島",
         "新堀"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/久麻俊泰",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/中島",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/林",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/三島",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/新堀"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1210",
     "category": {
@@ -28,7 +20,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-07",
     "date_lvl2": "1916-07-19",
-    "description": "\n\n\n           十九日\n          \n          （水）\n         \n\n\n\n\n             午後一時\n            \n\n\n              久麻\n             \n\n              俊泰\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              中島\n             \n\n            男爵来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n            帰一協会大会（中央亭）\n           \n\n\n\n\n             午後六時\n            \n\n\n              林\n             \n\n            公使招待会（略服）\n            \n\n              三島\n             \n\n            子爵ヨリ御案内（北\n            \n\n              新堀\n             \n\n\n             日本銀行\n            \n            舎宅）\n           \n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （水）\n         \n\n\n\n\n             午後一時\n            \n            久麻\n            \n\n              俊泰\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            中島男爵来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n            帰一協会大会（中央亭）\n           \n\n\n\n\n             午後六時\n            \n\n\n              林\n             \n\n            公使招待会（略服）\n            \n\n              三島\n             \n\n            子爵ヨリ御案内（北\n            \n\n              新堀\n             \n\n\n             日本\n            \n            銀行舎宅）\n           \n\n\n",
     "label": "十九日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0186",
@@ -37,10 +29,8 @@
     "sort": "DKB20018m-0185",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
+        "日本橋兜町",
+        "日本"
     ],
     "temporal": "1916-07-19",
     "texts": [
@@ -66,10 +56,10 @@
         "DKB20016m-0024"
     ],
     "time": {
-        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_久麻俊泰\">\n<surname>\n              久麻\n             </surname>\n<forename>\n              俊泰\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
+        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n            久麻\n            <persName corresp=\"#pers_俊泰\">\n<forename>\n              俊泰\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0185\">\n<head>\n<date when=\"1916-07-19\">\n           十九日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_久麻俊泰\">\n<surname>\n              久麻\n             </surname>\n<forename>\n              俊泰\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_中島\">\n<surname>\n              中島\n             </surname>\n</persName>\n            男爵来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            帰一協会大会（中央亭）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_林\">\n<surname>\n              林\n             </surname>\n</persName>\n            公使招待会（略服）\n            <persName corresp=\"#pers_三島\">\n<surname>\n              三島\n             </surname>\n</persName>\n            子爵ヨリ御案内（北\n            <persName corresp=\"#pers_新堀\">\n<surname>\n              新堀\n             </surname>\n</persName>\n<orgName>\n             日本銀行\n            </orgName>\n            舎宅）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0185\">\n<head>\n<date when=\"1916-07-19\">\n           十九日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            久麻\n            <persName corresp=\"#pers_俊泰\">\n<forename>\n              俊泰\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            中島男爵来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            帰一協会大会（中央亭）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_林\">\n<surname>\n              林\n             </surname>\n</persName>\n            公使招待会（略服）\n            <persName corresp=\"#pers_三島\">\n<surname>\n              三島\n             </surname>\n</persName>\n            子爵ヨリ御案内（北\n            <persName corresp=\"#pers_新堀\">\n<surname>\n              新堀\n             </surname>\n</persName>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            銀行舎宅）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-07"
 }

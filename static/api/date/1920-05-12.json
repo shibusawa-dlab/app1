@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1333",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +15,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-05",
     "date_lvl2": "1920-05-12",
-    "description": "\n\n\n           十二日\n          \n          （水）\n         \n\n\n\n\n             午前十一時\n            \n            同　帝劇女優十年祝賀会（帝国ホテル）\n           \n\n\n\n\n             午後六時\n            \n\n             埼玉学生誘掖会\n            \n            舎友会懇親会\n           \n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （水）\n         \n\n\n\n\n             午前十一時\n            \n            同　帝劇女優十年祝賀会（帝国ホテル）\n           \n\n\n\n\n             午後六時\n            \n\n             埼玉\n            \n            学生誘掖会舎友会懇親会\n           \n\n\n",
     "label": "十二日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0131",
@@ -24,8 +23,9 @@
     "prev": "DKB20022m-0129",
     "sort": "DKB20022m-0130",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
-    "spatial_uri": [],
+    "spatial": [
+        "埼玉"
+    ],
     "temporal": "1920-05-12",
     "texts": [
         "DKB20020m-0040",
@@ -53,7 +53,7 @@
         "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            同　帝劇女優十年祝賀会（帝国ホテル）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0130\">\n<head>\n<date when=\"1920-05-12\">\n           十二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            同　帝劇女優十年祝賀会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<orgName>\n             埼玉学生誘掖会\n            </orgName>\n            舎友会懇親会\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0130\">\n<head>\n<date when=\"1920-05-12\">\n           十二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            同　帝劇女優十年祝賀会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会舎友会懇親会\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-05"
 }

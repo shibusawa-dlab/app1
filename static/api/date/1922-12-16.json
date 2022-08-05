@@ -1,9 +1,6 @@
 {
     "agential": [
-        "桐島像一"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/桐島像一"
+        "桐島"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1414",
     "category": {
@@ -20,7 +17,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-12",
     "date_lvl2": "1922-12-16",
-    "description": "\n\n\n           十六日\n          \n          （土）\n         \n\n\n\n\n             午前十一半時\n            \n            皇后宮職ヘ御出向\n           \n\n\n\n\n             午後二半時\n            \n            社会政策講習所卒業式（商工奨励館）\n           \n\n\n\n\n             午後五時\n            \n\n\n              桐島\n             \n\n              像一\n             \n\n            氏より御案内（\n            \n             築地\n            \n            瓢屋）\n           \n\n\n\n\n             午後六時\n            \n            孟子会\n           \n\n\n",
+    "description": "\n\n\n           十六日\n          \n          （土）\n         \n\n\n\n\n             午前十一半時\n            \n            皇后宮職ヘ御出向\n           \n\n\n\n\n             午後二半時\n            \n            社会政策講習所卒業式（商工奨励館）\n           \n\n\n\n\n             午後五時\n            \n\n\n              桐島\n             \n\n            像一氏より御案内（築地瓢屋）\n           \n\n\n\n\n             午後六時\n            \n            孟子会\n           \n\n\n",
     "label": "十六日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0315",
@@ -28,12 +25,7 @@
     "prev": "DKB20024m-0313",
     "sort": "DKB20024m-0314",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "築地"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
-    ],
+    "spatial": [],
     "temporal": "1922-12-16",
     "texts": [
         "DKB20017m-0118",
@@ -61,7 +53,7 @@
         "11:30:00": "<div><time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            皇后宮職ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0314\">\n<head>\n<date when=\"1922-12-16\">\n           十六日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            皇后宮職ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            社会政策講習所卒業式（商工奨励館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_桐島像一\">\n<surname>\n              桐島\n             </surname>\n<forename>\n              像一\n             </forename>\n</persName>\n            氏より御案内（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n            瓢屋）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            孟子会\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0314\">\n<head>\n<date when=\"1922-12-16\">\n           十六日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            皇后宮職ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            社会政策講習所卒業式（商工奨励館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_桐島\">\n<surname>\n              桐島\n             </surname>\n</persName>\n            像一氏より御案内（築地瓢屋）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            孟子会\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-12"
 }

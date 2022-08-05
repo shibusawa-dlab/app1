@@ -1,13 +1,6 @@
 {
     "agential": [
-        "大井台司",
-        "小笠原",
         "寺田"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/大井台司",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/小笠原",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/寺田"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1286",
     "category": {
@@ -24,7 +17,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-12",
     "date_lvl2": "1918-12-20",
-    "description": "\n\n\n           二十日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n            理化学研究所理事会（同所）\n           \n\n\n\n\n             午後一時\n            \n\n\n              大井\n             \n\n              台司\n             \n\n            来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午后一時\n            \n\n             小笠原\n            \n            伯来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時ヨリ三時\n            \n\n\n              寺田\n             \n\n            書記官長御訪問（衆議院）\n           \n\n\n\n\n             午後三時\n            \n            臨時教育会議員ト御会見（海上ビルデイング中央亭）\n           \n\n\n\n\n             午後四半時\n            \n            帰一協会例会（\n            \n             東京\n            \n            海上ビルデイング中央亭）\n           \n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n            理化学研究所理事会（同所）\n           \n\n\n\n\n             午後一時\n            \n\n             大井\n            \n            台司来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午后一時\n            \n\n             小笠原\n            \n            伯来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時ヨリ三時\n            \n\n\n              寺田\n             \n\n            書記官長御訪問（衆議院）\n           \n\n\n\n\n             午後三時\n            \n            臨時教育会議員ト御会見（海上ビルデイング中央亭）\n           \n\n\n\n\n             午後四半時\n            \n            帰一協会例会（\n            \n             東京\n            \n            海上ビルデイング中央亭）\n           \n\n\n",
     "label": "二十日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0334",
@@ -33,12 +26,10 @@
     "sort": "DKB20020m-0333",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "大井",
         "日本橋兜町",
+        "小笠原",
         "東京"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1918-12-20",
     "texts": [
@@ -67,7 +58,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            理化学研究所理事会（同所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0333\">\n<head>\n<date when=\"1918-12-20\">\n           二十日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            理化学研究所理事会（同所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_大井台司\">\n<surname>\n              大井\n             </surname>\n<forename>\n              台司\n             </forename>\n</persName>\n            来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n<persName corresp=\"#pers_小笠原\">\n             小笠原\n            </persName>\n            伯来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二時ヨリ三時\n            </time>\n<persName corresp=\"#pers_寺田\">\n<surname>\n              寺田\n             </surname>\n</persName>\n            書記官長御訪問（衆議院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            臨時教育会議員ト御会見（海上ビルデイング中央亭）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            帰一協会例会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            海上ビルデイング中央亭）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0333\">\n<head>\n<date when=\"1918-12-20\">\n           二十日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            理化学研究所理事会（同所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_大井\">\n             大井\n            </placeName>\n            台司来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n<placeName corresp=\"#place_小笠原\">\n             小笠原\n            </placeName>\n            伯来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二時ヨリ三時\n            </time>\n<persName corresp=\"#pers_寺田\">\n<surname>\n              寺田\n             </surname>\n</persName>\n            書記官長御訪問（衆議院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            臨時教育会議員ト御会見（海上ビルデイング中央亭）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            帰一協会例会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            海上ビルデイング中央亭）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-12"
 }

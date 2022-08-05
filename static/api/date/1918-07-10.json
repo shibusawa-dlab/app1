@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1273",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +15,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-07",
     "date_lvl2": "1918-07-10",
-    "description": "\n\n\n           十日\n          \n          （水）\n         \n\n\n\n\n             午後六時\n            \n            東亜興業会社宴会（ヒサゴヤ）\n           \n\n\n",
+    "description": "\n\n\n           十日\n          \n          （水）\n         \n\n\n\n\n             午後六時\n            \n\n             東亜\n            \n            興業会社宴会（ヒサゴヤ）\n           \n\n\n",
     "label": "十日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0186",
@@ -24,8 +23,9 @@
     "prev": "DKB20020m-0184",
     "sort": "DKB20020m-0185",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
-    "spatial_uri": [],
+    "spatial": [
+        "東亜"
+    ],
     "temporal": "1918-07-10",
     "texts": [
         "DKB20022m-0134",
@@ -50,10 +50,10 @@
         "DKB20018m-0086"
     ],
     "time": {
-        "18:00:00": "<div><time when=\"18:00:00\">\n             午後六時\n            </time>\n            東亜興業会社宴会（ヒサゴヤ）</div>"
+        "18:00:00": "<div><time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_東亜\">\n             東亜\n            </placeName>\n            興業会社宴会（ヒサゴヤ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0185\">\n<head>\n<date when=\"1918-07-10\">\n           十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            東亜興業会社宴会（ヒサゴヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0185\">\n<head>\n<date when=\"1918-07-10\">\n           十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_東亜\">\n             東亜\n            </placeName>\n            興業会社宴会（ヒサゴヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-07"
 }

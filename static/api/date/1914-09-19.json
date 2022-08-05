@@ -2,9 +2,6 @@
     "agential": [
         "三島"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/三島"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1165",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +17,7 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-09",
     "date_lvl2": "1914-09-19",
-    "description": "\n\n\n           十九日\n          \n          （土）\n         \n\n\n\n\n             午後五時半\n            \n\n\n              三島\n             \n\n            日銀総裁ヨリ招待（\n            \n             日本銀行\n            \n            舎宅）\n           \n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （土）\n         \n\n\n\n\n             午後五時半\n            \n\n\n              三島\n             \n\n            日銀総裁ヨリ招待（\n            \n             日本\n            \n            銀行舎宅）\n           \n\n\n",
     "label": "十九日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20016m-0004",
@@ -28,8 +25,9 @@
     "prev": "DKB20016m-0002",
     "sort": "DKB20016m-0003",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
-    "spatial_uri": [],
+    "spatial": [
+        "日本"
+    ],
     "temporal": "1914-09-19",
     "texts": [
         "DKB20020m-0298",
@@ -54,10 +52,10 @@
         "DKB20017m-0244"
     ],
     "time": {
-        "17:30:00": "<div><time when=\"17:30:00\">\n             午後五時半\n            </time>\n<persName corresp=\"#pers_三島\">\n<surname>\n              三島\n             </surname>\n</persName>\n            日銀総裁ヨリ招待（\n            <orgName>\n             日本銀行\n            </orgName>\n            舎宅）</div>"
+        "17:30:00": "<div><time when=\"17:30:00\">\n             午後五時半\n            </time>\n<persName corresp=\"#pers_三島\">\n<surname>\n              三島\n             </surname>\n</persName>\n            日銀総裁ヨリ招待（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            銀行舎宅）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0003\">\n<head>\n<date when=\"1914-09-19\">\n           十九日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五時半\n            </time>\n<persName corresp=\"#pers_三島\">\n<surname>\n              三島\n             </surname>\n</persName>\n            日銀総裁ヨリ招待（\n            <orgName>\n             日本銀行\n            </orgName>\n            舎宅）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0003\">\n<head>\n<date when=\"1914-09-19\">\n           十九日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五時半\n            </time>\n<persName corresp=\"#pers_三島\">\n<surname>\n              三島\n             </surname>\n</persName>\n            日銀総裁ヨリ招待（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            銀行舎宅）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-09"
 }

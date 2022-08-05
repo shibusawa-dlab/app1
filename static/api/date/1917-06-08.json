@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1239",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +15,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-06",
     "date_lvl2": "1917-06-08",
-    "description": "\n\n\n           八日\n          \n          （金）\n         \n\n\n\n\n             午前七・〇五時\n            \n\n             両国\n            \n            停車場発船形ニ向ハル、養育院\n            \n             安房\n            \n            分院ヘ御出向\n           \n\n\n",
+    "description": "\n\n\n           八日\n          \n          （金）\n         \n\n\n\n\n             午前七・〇五時\n            \n            両国停車場発船形ニ向ハル、養育院\n            \n             安房\n            \n            分院ヘ御出向\n           \n\n\n",
     "label": "八日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0161",
@@ -25,12 +24,7 @@
     "sort": "DKB20019m-0159",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "両国",
         "安房国"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/両国",
-        "https://shibusawa-dlab.github.io/lab1/api/place/安房国"
     ],
     "temporal": "1917-06-08",
     "texts": [
@@ -56,10 +50,10 @@
         "DKB20017m-0064"
     ],
     "time": {
-        "07:05:00": "<div><time when=\"07:05:00\">\n             午前七・〇五時\n            </time>\n<placeName corresp=\"#place_両国\">\n             両国\n            </placeName>\n            停車場発船形ニ向ハル、養育院\n            <placeName corresp=\"#place_安房国\">\n             安房\n            </placeName>\n            分院ヘ御出向</div>"
+        "07:05:00": "<div><time when=\"07:05:00\">\n             午前七・〇五時\n            </time>\n            両国停車場発船形ニ向ハル、養育院\n            <placeName corresp=\"#place_安房国\">\n             安房\n            </placeName>\n            分院ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0159\">\n<head>\n<date when=\"1917-06-08\">\n           八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"07:05:00\">\n             午前七・〇五時\n            </time>\n<placeName corresp=\"#place_両国\">\n             両国\n            </placeName>\n            停車場発船形ニ向ハル、養育院\n            <placeName corresp=\"#place_安房国\">\n             安房\n            </placeName>\n            分院ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0159\">\n<head>\n<date when=\"1917-06-08\">\n           八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"07:05:00\">\n             午前七・〇五時\n            </time>\n            両国停車場発船形ニ向ハル、養育院\n            <placeName corresp=\"#place_安房国\">\n             安房\n            </placeName>\n            分院ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-06"
 }

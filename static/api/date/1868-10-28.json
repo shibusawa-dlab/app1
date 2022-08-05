@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/37",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -25,14 +24,10 @@
     "sort": "DKB10001m-0034",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
-        "スエズ",
-        "アデン",
-        "アラビア"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/スエズ",
-        "https://shibusawa-dlab.github.io/lab1/api/place/アデン",
-        "https://shibusawa-dlab.github.io/lab1/api/place/アラビア"
+        "蘇",
+        "亜",
+        "亜丁",
+        "亜剌比亜"
     ],
     "temporal": "1868-10-28",
     "texts": [
@@ -58,12 +53,12 @@
         "DKB10001m-0042"
     ],
     "time": {
-        "06:00:00": "<div>千三百十八里\n       <placeName corresp=\"#place_スエズ\">\n        蘇\n       </placeName>\n       より\n       <placeName corresp=\"#place_アデン\">\n        亜\n       </placeName>\n       迄\n       <placeName corresp=\"#place_アデン\">\n        亜丁\n       </placeName>\n       迄千〇六十八里\n       <lb/>\n       朝<time when=\"06:00:00\">\n        六時\n       </time>\n       器械を繕ふとて暫時〓行をとゝむ、第</div>",
+        "06:00:00": "<div>千三百十八里\n       <placeName corresp=\"#place_蘇\">\n        蘇\n       </placeName>\n       より\n       <placeName corresp=\"#place_亜\">\n        亜\n       </placeName>\n       迄\n       <placeName corresp=\"#place_亜丁\">\n        亜丁\n       </placeName>\n       迄千〇六十八里\n       <lb/>\n       朝<time when=\"06:00:00\">\n        六時\n       </time>\n       器械を繕ふとて暫時〓行をとゝむ、第</div>",
         "12:00:00": "<div><time when=\"12:00:00\">\n        十二時\n       </time>\n       頃海中に二箇の小嶼を見る、其貌砲台のことし、水を出ること僅ににして《（衍カ）》四囲岩石にて其頂平坦にして土沙多し、土地極熱なれは草木はなし\n       <lb/>\n       夜に入て風涼しく聊苦熱を忘る\n       <lb/>\n       第</div>",
-        "22:00:00": "<div><time when=\"22:00:00\">\n        十時\n       </time>\n       船の左に灯台を見る、\n       <placeName corresp=\"#place_アラビア\">\n        亜剌比亜\n       </placeName>\n       中の小嶼にある港口の標灯なるよし\n       <lb/>\n       夜同舟の客中の荷人数多乗組しか舞躍相催し、舟中頗る雑沓なり</div>"
+        "22:00:00": "<div><time when=\"22:00:00\">\n        十時\n       </time>\n       船の左に灯台を見る、\n       <placeName corresp=\"#place_亜剌比亜\">\n        亜剌比亜\n       </placeName>\n       中の小嶼にある港口の標灯なるよし\n       <lb/>\n       夜同舟の客中の荷人数多乗組しか舞躍相催し、舟中頗る雑沓なり</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10001m-0034\">\n<head>\n<date type=\"旧暦\" when=\"1868-10-28\">\n        九月十三日\n       </date>\n       晴　水　　速二百四十里　　北緯弐十五度　東経三十弐度弐十九\n       <date when=\"1868-10-28\">\n        十月廿八日\n       </date>\n</head>\n<p>\n       千三百十八里\n       <placeName corresp=\"#place_スエズ\">\n        蘇\n       </placeName>\n       より\n       <placeName corresp=\"#place_アデン\">\n        亜\n       </placeName>\n       迄\n       <placeName corresp=\"#place_アデン\">\n        亜丁\n       </placeName>\n       迄千〇六十八里\n       <lb/>\n       朝\n       <time when=\"06:00:00\">\n        六時\n       </time>\n       器械を繕ふとて暫時〓行をとゝむ、第\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n       頃海中に二箇の小嶼を見る、其貌砲台のことし、水を出ること僅ににして《（衍カ）》四囲岩石にて其頂平坦にして土沙多し、土地極熱なれは草木はなし\n       <lb/>\n       夜に入て風涼しく聊苦熱を忘る\n       <lb/>\n       第\n       <time when=\"22:00:00\">\n        十時\n       </time>\n       船の左に灯台を見る、\n       <placeName corresp=\"#place_アラビア\">\n        亜剌比亜\n       </placeName>\n       中の小嶼にある港口の標灯なるよし\n       <lb/>\n       夜同舟の客中の荷人数多乗組しか舞躍相催し、舟中頗る雑沓なり\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10001m-0034\">\n<head>\n<date type=\"旧暦\" when=\"1868-10-28\">\n        九月十三日\n       </date>\n       晴　水　　速二百四十里　　北緯弐十五度　東経三十弐度弐十九\n       <date when=\"1868-10-28\">\n        十月廿八日\n       </date>\n</head>\n<p>\n       千三百十八里\n       <placeName corresp=\"#place_蘇\">\n        蘇\n       </placeName>\n       より\n       <placeName corresp=\"#place_亜\">\n        亜\n       </placeName>\n       迄\n       <placeName corresp=\"#place_亜丁\">\n        亜丁\n       </placeName>\n       迄千〇六十八里\n       <lb/>\n       朝\n       <time when=\"06:00:00\">\n        六時\n       </time>\n       器械を繕ふとて暫時〓行をとゝむ、第\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n       頃海中に二箇の小嶼を見る、其貌砲台のことし、水を出ること僅ににして《（衍カ）》四囲岩石にて其頂平坦にして土沙多し、土地極熱なれは草木はなし\n       <lb/>\n       夜に入て風涼しく聊苦熱を忘る\n       <lb/>\n       第\n       <time when=\"22:00:00\">\n        十時\n       </time>\n       船の左に灯台を見る、\n       <placeName corresp=\"#place_亜剌比亜\">\n        亜剌比亜\n       </placeName>\n       中の小嶼にある港口の標灯なるよし\n       <lb/>\n       夜同舟の客中の荷人数多乗組しか舞躍相催し、舟中頗る雑沓なり\n      </p>\n</div>",
     "year": "1868",
     "yearAndMonth": "1868-10"
 }

@@ -7,14 +7,6 @@
         "金子",
         "池田"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/大隈",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/北脇",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/金子",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/池田"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/615",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -40,19 +32,11 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "小石川",
-        "第六天町",
+        "大六天《（第）》",
         "千駄ヶ谷",
         "高輪",
-        "田町_(東京都港区)",
+        "田町",
         "本郷"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/小石川",
-        "https://shibusawa-dlab.github.io/lab1/api/place/第六天町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/千駄ヶ谷",
-        "https://shibusawa-dlab.github.io/lab1/api/place/高輪",
-        "https://shibusawa-dlab.github.io/lab1/api/place/田町_(東京都港区)",
-        "https://shibusawa-dlab.github.io/lab1/api/place/本郷"
     ],
     "temporal": "1909-08-15",
     "texts": [
@@ -78,13 +62,13 @@
         "DKB10016m-0163"
     ],
     "time": {
-        "06:00:00": "<div><time when=\"06:00:00\">\n        午前六時\n       </time>\n       起床、入浴シ、畢テ朝飧ヲ食ス、後、来人ニ接シ、又、書類ヲ調査ス、午飧畢テ\n       <placeName corresp=\"#place_小石川\">\n        小石川\n       </placeName>\n<placeName corresp=\"#place_第六天町\">\n        大六天《（第）》\n       </placeName>\n       ニ抵リ、\n       <persName corresp=\"#pers_徳川\">\n<surname>\n         徳川\n        </surname>\n</persName>\n       公爵ニ謁シ渡米ノ告別ヲ為ス、又、早稲田ニ\n       <persName corresp=\"#pers_大隈\">\n<surname>\n         大隈\n        </surname>\n</persName>\n       伯ヲ訪ヒ告別シ、且種々ノ談話ヲ為ス、又\n       <placeName corresp=\"#place_千駄ヶ谷\">\n        千駄ケ谷\n       </placeName>\n       ニ\n       <persName corresp=\"#pers_徳川\">\n<surname>\n         徳川\n        </surname>\n</persName>\n       公爵ヲ訪ヒ告別シ、\n       <placeName corresp=\"#place_高輪\">\n        高輪\n       </placeName>\n       ニ\n       <persName corresp=\"#pers_北脇\">\n<surname>\n         北脇\n        </surname>\n</persName>\n       ヲ訪フ、</div>",
-        "17:00:00": "<div><time when=\"17:00:00\">\n        午後五時\n       </time>\n       ヨリ\n       <placeName corresp=\"#place_田町_(東京都港区)\">\n        田町\n       </placeName>\n<persName corresp=\"#pers_浅野\">\n<surname>\n         浅野\n        </surname>\n</persName>\n       氏ニ抵リ、工業協会、貿易協会二団体ヨリノ送別会ニ出席ス食卓上ニ\n       <persName corresp=\"#pers_金子\">\n<surname>\n         金子\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_池田\">\n<surname>\n         池田\n        </surname>\n</persName>\n       氏等ノ演説アリ、依テ其答辞ヲ為シ、夜</div>",
+        "06:00:00": "<div><time when=\"06:00:00\">\n        午前六時\n       </time>\n       起床、入浴シ、畢テ朝飧ヲ食ス、後、来人ニ接シ、又、書類ヲ調査ス、午飧畢テ\n       <placeName corresp=\"#place_小石川\">\n        小石川\n       </placeName>\n<placeName corresp=\"#place_大六天《（第）》\">\n        大六天《（第）》\n       </placeName>\n       ニ抵リ、\n       <persName corresp=\"#pers_徳川\">\n<surname>\n         徳川\n        </surname>\n</persName>\n       公爵ニ謁シ渡米ノ告別ヲ為ス、又、早稲田ニ\n       <persName corresp=\"#pers_大隈\">\n<surname>\n         大隈\n        </surname>\n</persName>\n       伯ヲ訪ヒ告別シ、且種々ノ談話ヲ為ス、又\n       <placeName corresp=\"#place_千駄ヶ谷\">\n        千駄ケ谷\n       </placeName>\n       ニ\n       <persName corresp=\"#pers_徳川\">\n<surname>\n         徳川\n        </surname>\n</persName>\n       公爵ヲ訪ヒ告別シ、\n       <placeName corresp=\"#place_高輪\">\n        高輪\n       </placeName>\n       ニ\n       <persName corresp=\"#pers_北脇\">\n<surname>\n         北脇\n        </surname>\n</persName>\n       ヲ訪フ、</div>",
+        "17:00:00": "<div><time when=\"17:00:00\">\n        午後五時\n       </time>\n       ヨリ\n       <placeName corresp=\"#place_田町\">\n        田町\n       </placeName>\n<persName corresp=\"#pers_浅野\">\n<surname>\n         浅野\n        </surname>\n</persName>\n       氏ニ抵リ、工業協会、貿易協会二団体ヨリノ送別会ニ出席ス食卓上ニ\n       <persName corresp=\"#pers_金子\">\n<surname>\n         金子\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_池田\">\n<surname>\n         池田\n        </surname>\n</persName>\n       氏等ノ演説アリ、依テ其答辞ヲ為シ、夜</div>",
         "21:30:00": "<div><time when=\"21:30:00\">\n        九時半\n       </time>\n       散会ス、帰路\n       <placeName corresp=\"#place_本郷\">\n        本郷\n       </placeName>\n       ニ立寄リ、</div>",
         "22:00:00": "<div><time when=\"22:00:00\">\n        十時\n       </time>\n       過帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10017m-0172\">\n<head>\n<date when=\"1909-08-15\">\n        八月十五日\n       </date>\n       曇　暑\n      </head>\n<p>\n<time when=\"06:00:00\">\n        午前六時\n       </time>\n       起床、入浴シ、畢テ朝飧ヲ食ス、後、来人ニ接シ、又、書類ヲ調査ス、午飧畢テ\n       <placeName corresp=\"#place_小石川\">\n        小石川\n       </placeName>\n<placeName corresp=\"#place_第六天町\">\n        大六天《（第）》\n       </placeName>\n       ニ抵リ、\n       <persName corresp=\"#pers_徳川\">\n<surname>\n         徳川\n        </surname>\n</persName>\n       公爵ニ謁シ渡米ノ告別ヲ為ス、又、早稲田ニ\n       <persName corresp=\"#pers_大隈\">\n<surname>\n         大隈\n        </surname>\n</persName>\n       伯ヲ訪ヒ告別シ、且種々ノ談話ヲ為ス、又\n       <placeName corresp=\"#place_千駄ヶ谷\">\n        千駄ケ谷\n       </placeName>\n       ニ\n       <persName corresp=\"#pers_徳川\">\n<surname>\n         徳川\n        </surname>\n</persName>\n       公爵ヲ訪ヒ告別シ、\n       <placeName corresp=\"#place_高輪\">\n        高輪\n       </placeName>\n       ニ\n       <persName corresp=\"#pers_北脇\">\n<surname>\n         北脇\n        </surname>\n</persName>\n       ヲ訪フ、\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n       ヨリ\n       <placeName corresp=\"#place_田町_(東京都港区)\">\n        田町\n       </placeName>\n<persName corresp=\"#pers_浅野\">\n<surname>\n         浅野\n        </surname>\n</persName>\n       氏ニ抵リ、工業協会、貿易協会二団体ヨリノ送別会ニ出席ス食卓上ニ\n       <persName corresp=\"#pers_金子\">\n<surname>\n         金子\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_池田\">\n<surname>\n         池田\n        </surname>\n</persName>\n       氏等ノ演説アリ、依テ其答辞ヲ為シ、夜\n       <time when=\"21:30:00\">\n        九時半\n       </time>\n       散会ス、帰路\n       <placeName corresp=\"#place_本郷\">\n        本郷\n       </placeName>\n       ニ立寄リ、\n       <time when=\"22:00:00\">\n        十時\n       </time>\n       過帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10017m-0172\">\n<head>\n<date when=\"1909-08-15\">\n        八月十五日\n       </date>\n       曇　暑\n      </head>\n<p>\n<time when=\"06:00:00\">\n        午前六時\n       </time>\n       起床、入浴シ、畢テ朝飧ヲ食ス、後、来人ニ接シ、又、書類ヲ調査ス、午飧畢テ\n       <placeName corresp=\"#place_小石川\">\n        小石川\n       </placeName>\n<placeName corresp=\"#place_大六天《（第）》\">\n        大六天《（第）》\n       </placeName>\n       ニ抵リ、\n       <persName corresp=\"#pers_徳川\">\n<surname>\n         徳川\n        </surname>\n</persName>\n       公爵ニ謁シ渡米ノ告別ヲ為ス、又、早稲田ニ\n       <persName corresp=\"#pers_大隈\">\n<surname>\n         大隈\n        </surname>\n</persName>\n       伯ヲ訪ヒ告別シ、且種々ノ談話ヲ為ス、又\n       <placeName corresp=\"#place_千駄ヶ谷\">\n        千駄ケ谷\n       </placeName>\n       ニ\n       <persName corresp=\"#pers_徳川\">\n<surname>\n         徳川\n        </surname>\n</persName>\n       公爵ヲ訪ヒ告別シ、\n       <placeName corresp=\"#place_高輪\">\n        高輪\n       </placeName>\n       ニ\n       <persName corresp=\"#pers_北脇\">\n<surname>\n         北脇\n        </surname>\n</persName>\n       ヲ訪フ、\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n       ヨリ\n       <placeName corresp=\"#place_田町\">\n        田町\n       </placeName>\n<persName corresp=\"#pers_浅野\">\n<surname>\n         浅野\n        </surname>\n</persName>\n       氏ニ抵リ、工業協会、貿易協会二団体ヨリノ送別会ニ出席ス食卓上ニ\n       <persName corresp=\"#pers_金子\">\n<surname>\n         金子\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_池田\">\n<surname>\n         池田\n        </surname>\n</persName>\n       氏等ノ演説アリ、依テ其答辞ヲ為シ、夜\n       <time when=\"21:30:00\">\n        九時半\n       </time>\n       散会ス、帰路\n       <placeName corresp=\"#place_本郷\">\n        本郷\n       </placeName>\n       ニ立寄リ、\n       <time when=\"22:00:00\">\n        十時\n       </time>\n       過帰宿ス\n      </p>\n</div>",
     "year": "1909",
     "yearAndMonth": "1909-08"
 }

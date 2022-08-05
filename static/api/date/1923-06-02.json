@@ -1,13 +1,7 @@
 {
     "agential": [
         "光田健輔",
-        "石井",
-        "青木節一"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/光田健輔",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/石井",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/青木節一"
+        "石井"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1430",
     "category": {
@@ -24,7 +18,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-06",
     "date_lvl2": "1923-06-02",
-    "description": "\n\n\n           二日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n            総長就任式（\n            \n             早稲田大学\n            \n            校庭）\n           \n\n\n\n\n             正午\n            \n\n\n              光田\n             \n\n              健輔\n             \n\n            氏送別会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            報効会評議員会（銀行クラブ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              石井\n             \n\n            扇吉氏来約\n           \n\n\n\n\n             午後五時\n            \n\n\n              青木\n             \n\n              節一\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n            陽明全書講読会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           二日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n            総長就任式（早稲田大学校庭）\n           \n\n\n\n\n             正午\n            \n\n\n              光田\n             \n\n              健輔\n             \n\n            氏送別会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            報効会評議員会（銀行クラブ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              石井\n             \n\n            扇吉氏来約\n           \n\n\n\n\n             午後五時\n            \n\n             青木\n            \n            節一氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n            陽明全書講読会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "二日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0149",
@@ -33,10 +27,8 @@
     "sort": "DKB20025m-0148",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
+        "日本橋兜町",
+        "青木"
     ],
     "temporal": "1923-06-02",
     "texts": [
@@ -62,10 +54,10 @@
         "DKB20022m-0071"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            総長就任式（\n            <orgName>\n             早稲田大学\n            </orgName>\n            校庭）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            総長就任式（早稲田大学校庭）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0148\">\n<head>\n<date when=\"1923-06-02\">\n           二日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            総長就任式（\n            <orgName>\n             早稲田大学\n            </orgName>\n            校庭）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_光田健輔\">\n<surname>\n              光田\n             </surname>\n<forename>\n              健輔\n             </forename>\n</persName>\n            氏送別会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            報効会評議員会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_石井\">\n<surname>\n              石井\n             </surname>\n</persName>\n            扇吉氏来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_青木節一\">\n<surname>\n              青木\n             </surname>\n<forename>\n              節一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            陽明全書講読会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0148\">\n<head>\n<date when=\"1923-06-02\">\n           二日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            総長就任式（早稲田大学校庭）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_光田健輔\">\n<surname>\n              光田\n             </surname>\n<forename>\n              健輔\n             </forename>\n</persName>\n            氏送別会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            報効会評議員会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_石井\">\n<surname>\n              石井\n             </surname>\n</persName>\n            扇吉氏来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_青木\">\n             青木\n            </placeName>\n            節一氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            陽明全書講読会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-06"
 }

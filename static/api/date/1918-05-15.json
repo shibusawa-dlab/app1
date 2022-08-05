@@ -1,13 +1,7 @@
 {
     "agential": [
-        "平沼",
         "波多野",
         "寺内"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/平沼",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/波多野",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/寺内"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1268",
     "category": {
@@ -24,7 +18,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-05",
     "date_lvl2": "1918-05-15",
-    "description": "\n\n\n           十五日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n\n             早稲田大学\n            \n\n\n              平沼\n             \n\n            理事御訪問（同校）\n           \n\n\n\n\n             午前十時\n            \n\n             日本女子大学校\n            \n            評議員会（同校）\n           \n\n\n\n\n             午前十時―後三時\n            \n\n\n              波多野\n             \n\n            宮相ヲ御訪問（宮内省）\n           \n\n\n\n\n             午後三時\n            \n\n\n              寺内\n             \n\n            首相ヲ御訪問（官邸）\n           \n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n            早稲田大学\n            \n             平沼\n            \n            理事御訪問（同校）\n           \n\n\n\n\n             午前十時\n            \n\n             日本\n            \n            女子大学校評議員会（同校）\n           \n\n\n\n\n             午前十時―後三時\n            \n\n\n              波多野\n             \n\n            宮相ヲ御訪問（宮内省）\n           \n\n\n\n\n             午後三時\n            \n\n\n              寺内\n             \n\n            首相ヲ御訪問（官邸）\n           \n\n\n",
     "label": "十五日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0130",
@@ -32,8 +26,10 @@
     "prev": "DKB20020m-0128",
     "sort": "DKB20020m-0129",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
-    "spatial_uri": [],
+    "spatial": [
+        "平沼",
+        "日本"
+    ],
     "temporal": "1918-05-15",
     "texts": [
         "DKB20020m-0110",
@@ -58,10 +54,10 @@
         "DKB20017m-0032"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<orgName>\n             早稲田大学\n            </orgName>\n<persName corresp=\"#pers_平沼\">\n<surname>\n              平沼\n             </surname>\n</persName>\n            理事御訪問（同校）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            早稲田大学\n            <placeName corresp=\"#place_平沼\">\n             平沼\n            </placeName>\n            理事御訪問（同校）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0129\">\n<head>\n<date when=\"1918-05-15\">\n           十五日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<orgName>\n             早稲田大学\n            </orgName>\n<persName corresp=\"#pers_平沼\">\n<surname>\n              平沼\n             </surname>\n</persName>\n            理事御訪問（同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             日本女子大学校\n            </orgName>\n            評議員会（同校）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"15:00:00\">\n             午前十時―後三時\n            </time>\n<persName corresp=\"#pers_波多野\">\n<surname>\n              波多野\n             </surname>\n</persName>\n            宮相ヲ御訪問（宮内省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_寺内\">\n<surname>\n              寺内\n             </surname>\n</persName>\n            首相ヲ御訪問（官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0129\">\n<head>\n<date when=\"1918-05-15\">\n           十五日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            早稲田大学\n            <placeName corresp=\"#place_平沼\">\n             平沼\n            </placeName>\n            理事御訪問（同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            女子大学校評議員会（同校）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"15:00:00\">\n             午前十時―後三時\n            </time>\n<persName corresp=\"#pers_波多野\">\n<surname>\n              波多野\n             </surname>\n</persName>\n            宮相ヲ御訪問（宮内省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_寺内\">\n<surname>\n              寺内\n             </surname>\n</persName>\n            首相ヲ御訪問（官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-05"
 }

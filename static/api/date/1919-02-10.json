@@ -1,13 +1,6 @@
 {
     "agential": [
-        "アボツト",
-        "蜂須賀",
-        "ルース_ロー"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/アボツト",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/蜂須賀",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/ルース_ロー"
+        "蜂須賀氏"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1292",
     "category": {
@@ -24,7 +17,7 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-02",
     "date_lvl2": "1919-02-10",
-    "description": "\n\n\n           十日\n          \n          （月）\n         \n\n\n\n\n             午零時半\n            \n\n             日本興業銀行\n            \n            ニ於テ、\n            \n\n              アボツト\n             \n\n            氏招待会（銀行クラブ）\n           \n\n\n\n\n             午後三時\n            \n            養育院ノ件ニ付市役処ヘ御出向ノ約\n           \n\n\n\n\n             午後三―午後五時\n            \n            故\n            \n\n              蜂須賀\n             \n\n            侯一週年忌（\n            \n             綱町\n            \n            同邸）\n           \n\n\n\n\n             午後六時\n            \n\n\n              ルース\n             \n             ・\n             \n              ロー\n             \n夫人慰労歓迎会（\n            \n             築地\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           十日\n          \n          （月）\n         \n\n\n\n\n             午零時半\n            \n\n             日本\n            \n            興業銀行ニ於テ、アボツト氏招待会（銀行クラブ）\n           \n\n\n\n\n             午後三時\n            \n            養育院ノ件ニ付市役処ヘ御出向ノ約\n           \n\n\n\n\n             午後三―午後五時\n            \n            故\n            \n\n              蜂須賀\n             \n\n            侯一週年忌（\n            \n             綱町\n            \n            同邸）\n           \n\n\n\n\n             午後六時\n            \n            ルース・ロー夫人慰労歓迎会（築地精養軒）\n           \n\n\n",
     "label": "十日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0043",
@@ -33,12 +26,8 @@
     "sort": "DKB20021m-0042",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "綱町",
-        "築地"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/綱町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
+        "日本",
+        "綱町"
     ],
     "temporal": "1919-02-10",
     "texts": [
@@ -64,10 +53,10 @@
         "DKB20024m-0309"
     ],
     "time": {
-        "12:30:00": "<div><time when=\"12:30:00\">\n             午零時半\n            </time>\n<orgName>\n             日本興業銀行\n            </orgName>\n            ニ於テ、\n            <persName corresp=\"#pers_アボツト\">\n<surname>\n              アボツト\n             </surname>\n</persName>\n            氏招待会（銀行クラブ）</div>"
+        "12:30:00": "<div><time when=\"12:30:00\">\n             午零時半\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            興業銀行ニ於テ、アボツト氏招待会（銀行クラブ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0042\">\n<head>\n<date when=\"1919-02-10\">\n           十日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午零時半\n            </time>\n<orgName>\n             日本興業銀行\n            </orgName>\n            ニ於テ、\n            <persName corresp=\"#pers_アボツト\">\n<surname>\n              アボツト\n             </surname>\n</persName>\n            氏招待会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            養育院ノ件ニ付市役処ヘ御出向ノ約\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"17:00:00\">\n             午後三―午後五時\n            </time>\n            故\n            <persName corresp=\"#pers_蜂須賀\">\n<surname>\n              蜂須賀\n             </surname>\n</persName>\n            侯一週年忌（\n            <placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_ルース_ロー\">\n<forename>\n              ルース\n             </forename>\n             ・\n             <surname>\n              ロー\n             </surname>\n</persName>夫人慰労歓迎会（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0042\">\n<head>\n<date when=\"1919-02-10\">\n           十日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午零時半\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            興業銀行ニ於テ、アボツト氏招待会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            養育院ノ件ニ付市役処ヘ御出向ノ約\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"17:00:00\">\n             午後三―午後五時\n            </time>\n            故\n            <persName corresp=\"#pers_蜂須賀氏\">\n<surname>\n              蜂須賀\n             </surname>\n</persName>\n            侯一週年忌（\n            <placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            ルース・ロー夫人慰労歓迎会（築地精養軒）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-02"
 }

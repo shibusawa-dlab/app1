@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1261",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +15,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-03",
     "date_lvl2": "1918-03-05",
-    "description": "\n\n\n           五日\n          \n          （火）\n         \n\n\n\n\n             正午\n            \n            日支協会ノ件（ホテル）\n           \n\n\n\n\n             午後二時\n            \n            東亜興業会社ヨリ御案内（保険協会）\n           \n\n\n\n\n             午後一時―二時\n            \n\n             神山\n            \n            農商務次官ト御会見（衆議院）\n           \n\n\n\n\n             午後七時\n            \n            第拾回雨夜譚会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           五日\n          \n          （火）\n         \n\n\n\n\n             正午\n            \n            日支協会ノ件（ホテル）\n           \n\n\n\n\n             午後二時\n            \n\n             東亜\n            \n            興業会社ヨリ御案内（保険協会）\n           \n\n\n\n\n             午後一時―二時\n            \n\n             神山\n            \n            農商務次官ト御会見（衆議院）\n           \n\n\n\n\n             午後七時\n            \n            第拾回雨夜譚会（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "五日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0059",
@@ -25,12 +24,9 @@
     "sort": "DKB20020m-0058",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "東亜",
         "神山",
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/神山",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1918-03-05",
     "texts": [
@@ -59,7 +55,7 @@
         "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            日支協会ノ件（ホテル）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0058\">\n<head>\n<date when=\"1918-03-05\">\n           五日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日支協会ノ件（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            東亜興業会社ヨリ御案内（保険協会）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"14:00:00\">\n             午後一時―二時\n            </time>\n<placeName corresp=\"#place_神山\">\n             神山\n            </placeName>\n            農商務次官ト御会見（衆議院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            第拾回雨夜譚会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0058\">\n<head>\n<date when=\"1918-03-05\">\n           五日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日支協会ノ件（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_東亜\">\n             東亜\n            </placeName>\n            興業会社ヨリ御案内（保険協会）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"14:00:00\">\n             午後一時―二時\n            </time>\n<placeName corresp=\"#place_神山\">\n             神山\n            </placeName>\n            農商務次官ト御会見（衆議院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            第拾回雨夜譚会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-03"
 }

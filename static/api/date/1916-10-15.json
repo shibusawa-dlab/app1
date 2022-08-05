@@ -2,9 +2,6 @@
     "agential": [
         "穂積晴子"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/穂積晴子"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1217",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +17,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-10",
     "date_lvl2": "1916-10-15",
-    "description": "\n\n\n           十五日\n          \n          （日）\n         \n\n\n\n\n             午後一半時\n            \n\n\n              穂積\n             \n\n              晴子\n             \n\n            殿御結婚式（日比谷神宮奉斎会）\n            \n            令夫人共\n           \n\n\n\n\n             午後五時\n            \n            右披露会（\n            \n             築地\n            \n\n             精養軒\n            \n            ）\n            \n            令夫人共\n           \n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （日）\n         \n\n\n\n\n             午後一半時\n            \n\n\n              穂積\n             \n\n              晴子\n             \n\n            殿御結婚式（\n            \n             日比谷\n            \n            神宮奉斎会）\n            \n            令夫人共\n           \n\n\n\n\n             午後五時\n            \n            右披露会（築地精養軒）\n            \n            令夫人共\n           \n\n\n",
     "label": "十五日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0271",
@@ -29,10 +26,7 @@
     "sort": "DKB20018m-0270",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "築地"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
+        "日比谷"
     ],
     "temporal": "1916-10-15",
     "texts": [
@@ -58,10 +52,10 @@
         "DKB20021m-0119"
     ],
     "time": {
-        "13:30:00": "<div><time when=\"13:30:00\">\n             午後一半時\n            </time>\n<persName corresp=\"#pers_穂積晴子\">\n<surname>\n              穂積\n             </surname>\n<forename>\n              晴子\n             </forename>\n</persName>\n            殿御結婚式（日比谷神宮奉斎会）\n            <lb/>\n            令夫人共</div>"
+        "13:30:00": "<div><time when=\"13:30:00\">\n             午後一半時\n            </time>\n<persName corresp=\"#pers_穂積晴子\">\n<surname>\n              穂積\n             </surname>\n<forename>\n              晴子\n             </forename>\n</persName>\n            殿御結婚式（\n            <placeName corresp=\"#place_日比谷\">\n             日比谷\n            </placeName>\n            神宮奉斎会）\n            <lb/>\n            令夫人共</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0270\">\n<head>\n<date when=\"1916-10-15\">\n           十五日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n<persName corresp=\"#pers_穂積晴子\">\n<surname>\n              穂積\n             </surname>\n<forename>\n              晴子\n             </forename>\n</persName>\n            殿御結婚式（日比谷神宮奉斎会）\n            <lb/>\n            令夫人共\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            右披露会（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n            <lb/>\n            令夫人共\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0270\">\n<head>\n<date when=\"1916-10-15\">\n           十五日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:30:00\">\n             午後一半時\n            </time>\n<persName corresp=\"#pers_穂積晴子\">\n<surname>\n              穂積\n             </surname>\n<forename>\n              晴子\n             </forename>\n</persName>\n            殿御結婚式（\n            <placeName corresp=\"#place_日比谷\">\n             日比谷\n            </placeName>\n            神宮奉斎会）\n            <lb/>\n            令夫人共\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            右披露会（築地精養軒）\n            <lb/>\n            令夫人共\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-10"
 }

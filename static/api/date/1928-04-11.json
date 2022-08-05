@@ -4,11 +4,6 @@
         "植村輝子",
         "松村"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渡正監",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/植村輝子",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/松村"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1578",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -33,12 +28,9 @@
     "sort": "DKB20030m-0104",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
+        "飛鳥山公園",
+        "アスカ山",
         "石川島"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/石川島"
     ],
     "temporal": "1928-04-11",
     "texts": [
@@ -64,10 +56,10 @@
         "DKB20030m-0041"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_渡正監\">\n<surname>\n              渡\n             </surname>\n<forename>\n              正監\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_渡正監\">\n<surname>\n              渡\n             </surname>\n<forename>\n              正監\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0104\">\n<head>\n<date when=\"1928-04-11\">\n           十一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_渡正監\">\n<surname>\n              渡\n             </surname>\n<forename>\n              正監\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_植村輝子\">\n<surname>\n              植村\n             </surname>\n<forename>\n              輝子\n             </forename>\n</persName>\n            女史来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2739\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1578/full/max/0/default.jpg\" n=\"B2739\" source=\"#pageB2739\"/>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_松村\">\n<surname>\n              松村\n             </surname>\n</persName>\n<placeName corresp=\"#place_石川島\">\n             石川島\n            </placeName>\n            ○造船所常務取締役来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0104\">\n<head>\n<date when=\"1928-04-11\">\n           十一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_渡正監\">\n<surname>\n              渡\n             </surname>\n<forename>\n              正監\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_植村輝子\">\n<surname>\n              植村\n             </surname>\n<forename>\n              輝子\n             </forename>\n</persName>\n            女史来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2739\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1578/full/max/0/default.jpg\" n=\"B2739\" source=\"#pageB2739\"/>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_松村\">\n<surname>\n              松村\n             </surname>\n</persName>\n<placeName corresp=\"#place_石川島\">\n             石川島\n            </placeName>\n            ○造船所常務取締役来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-04"
 }

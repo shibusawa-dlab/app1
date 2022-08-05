@@ -1,9 +1,7 @@
 {
     "agential": [
-        "簗田〓次郎"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/簗田〓次郎"
+        "簗田",
+        "次郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1520",
     "category": {
@@ -20,7 +18,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-07",
     "date_lvl2": "1926-07-22",
-    "description": "\n\n\n           廿二日\n          \n          （木）\n         \n\n\n\n\n             午前十一・四〇\n            \n            御出勤\n           \n\n\n\n\n             正午\n            \n\n\n              簗田\n             \n\n              〓次郎\n             \n\n            氏ヨリ御案内（帝国ホテル）\n           \n\n\n\n\n             午後一時\n            \n\n             マイソール\n            \n            王国前首相サー・アルビオン・アール・ベナルチ氏御案内（帝国ホテル）\n           \n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （木）\n         \n\n\n\n\n             午前十一・四〇\n            \n            御出勤\n           \n\n\n\n\n             正午\n            \n\n\n              簗田\n             \n\n            〓\n            \n\n              次郎\n             \n\n            氏ヨリ御案内（帝国ホテル）\n           \n\n\n\n\n             午後一時\n            \n\n             マイソール\n            \n            王国前首相サー・アルビオン・アール・ベナルチ氏御案内（帝国ホテル）\n           \n\n\n",
     "label": "廿二日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0204",
@@ -30,9 +28,6 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "マイソール"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/マイソール"
     ],
     "temporal": "1926-07-22",
     "texts": [
@@ -61,7 +56,7 @@
         "11:40:00": "<div><time when=\"11:40:00\">\n             午前十一・四〇\n            </time>\n            御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0203\">\n<head>\n<date when=\"1926-07-22\">\n           廿二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:40:00\">\n             午前十一・四〇\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_簗田〓次郎\">\n<surname>\n              簗田\n             </surname>\n<forename>\n              〓次郎\n             </forename>\n</persName>\n            氏ヨリ御案内（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_マイソール\">\n             マイソール\n            </placeName>\n            王国前首相サー・アルビオン・アール・ベナルチ氏御案内（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0203\">\n<head>\n<date when=\"1926-07-22\">\n           廿二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:40:00\">\n             午前十一・四〇\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_簗田\">\n<surname>\n              簗田\n             </surname>\n</persName>\n            〓\n            <persName corresp=\"#pers_次郎\">\n<forename>\n              次郎\n             </forename>\n</persName>\n            氏ヨリ御案内（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_マイソール\">\n             マイソール\n            </placeName>\n            王国前首相サー・アルビオン・アール・ベナルチ氏御案内（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-07"
 }

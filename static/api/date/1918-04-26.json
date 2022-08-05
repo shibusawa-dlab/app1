@@ -1,9 +1,7 @@
 {
     "agential": [
+        "興勝",
         "波多野"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/波多野"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1266",
     "category": {
@@ -20,7 +18,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-04",
     "date_lvl2": "1918-04-26",
-    "description": "\n\n\n           廿六日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n            興勝会理事会御出向（\n            \n             芝\n            \n            増上寺）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              波多野\n             \n\n            宮相御訪問（宮内省）\n           \n\n\n",
+    "description": "\n\n\n           廿六日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n\n\n              興勝\n             \n\n            会理事会御出向（\n            \n             芝\n            \n            増上寺）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              波多野\n             \n\n            宮相御訪問（宮内省）\n           \n\n\n",
     "label": "廿六日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0111",
@@ -30,9 +28,6 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "芝"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/芝"
     ],
     "temporal": "1918-04-26",
     "texts": [
@@ -58,10 +53,10 @@
         "DKB20018m-0078"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            興勝会理事会御出向（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n            増上寺）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_興勝\">\n<forename>\n              興勝\n             </forename>\n</persName>\n            会理事会御出向（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n            増上寺）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0110\">\n<head>\n<date when=\"1918-04-26\">\n           廿六日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            興勝会理事会御出向（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n            増上寺）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_波多野\">\n<surname>\n              波多野\n             </surname>\n</persName>\n            宮相御訪問（宮内省）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0110\">\n<head>\n<date when=\"1918-04-26\">\n           廿六日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_興勝\">\n<forename>\n              興勝\n             </forename>\n</persName>\n            会理事会御出向（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n            増上寺）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_波多野\">\n<surname>\n              波多野\n             </surname>\n</persName>\n            宮相御訪問（宮内省）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-04"
 }

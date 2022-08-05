@@ -1,17 +1,9 @@
 {
     "agential": [
         "渋沢正雄",
-        "難波",
         "牛島謹爾",
         "木内",
         "関屋"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢正雄",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/難波",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/牛島謹爾",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/木内",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/関屋"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1511",
     "category": {
@@ -28,7 +20,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-05",
     "date_lvl2": "1926-05-12",
-    "description": "\n\n\n           十二日\n          \n          （水）\n         \n\n\n\n\n             午前時\n            \n\n\n              渋沢\n             \n\n              正雄\n             \n\n            様来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前八時\n            \n\n\n              難波\n             \n\n            教授来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            故\n            \n\n              牛島\n             \n\n              謹爾\n             \n\n            氏追悼会（日本工業クラブ）\n           \n\n\n\n\n             午後六時\n            \n\n\n              木内\n             \n\n            、\n            \n\n              関屋\n             \n\n            両家結婚披露（帝国ホテル）\n           \n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （水）\n         \n\n\n\n\n             午前時\n            \n\n\n              渋沢\n             \n\n              正雄\n             \n\n            様来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前八時\n            \n            難波教授来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            故\n            \n\n              牛島\n             \n\n              謹爾\n             \n\n            氏追悼会（日本工業クラブ）\n           \n\n\n\n\n             午後六時\n            \n\n\n              木内\n             \n\n            、\n            \n\n              関屋\n             \n\n            両家結婚披露（帝国ホテル）\n           \n\n\n",
     "label": "十二日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0133",
@@ -37,10 +29,7 @@
     "sort": "DKB20028m-0132",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "アスカ山"
     ],
     "temporal": "1926-05-12",
     "texts": [
@@ -67,7 +56,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0132\">\n<head>\n<date when=\"1926-05-12\">\n           十二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前時\n            </time>\n<persName corresp=\"#pers_渋沢正雄\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              正雄\n             </forename>\n</persName>\n            様来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_難波\">\n<surname>\n              難波\n             </surname>\n</persName>\n            教授来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            故\n            <persName corresp=\"#pers_牛島謹爾\">\n<surname>\n              牛島\n             </surname>\n<forename>\n              謹爾\n             </forename>\n</persName>\n            氏追悼会（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_木内\">\n<surname>\n              木内\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_関屋\">\n<surname>\n              関屋\n             </surname>\n</persName>\n            両家結婚披露（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0132\">\n<head>\n<date when=\"1926-05-12\">\n           十二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前時\n            </time>\n<persName corresp=\"#pers_渋沢正雄\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              正雄\n             </forename>\n</persName>\n            様来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            難波教授来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            故\n            <persName corresp=\"#pers_牛島謹爾\">\n<surname>\n              牛島\n             </surname>\n<forename>\n              謹爾\n             </forename>\n</persName>\n            氏追悼会（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_木内\">\n<surname>\n              木内\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_関屋\">\n<surname>\n              関屋\n             </surname>\n</persName>\n            両家結婚披露（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-05"
 }

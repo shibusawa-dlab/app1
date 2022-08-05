@@ -1,15 +1,7 @@
 {
     "agential": [
-        "鎌田",
-        "牧野",
         "古市公威",
         "井上"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/鎌田",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/牧野",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/古市公威",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/井上"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1437",
     "category": {
@@ -26,7 +18,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-08",
     "date_lvl2": "1923-08-01",
-    "description": "\n\n\n           一日\n          \n          （水）\n         \n\n\n\n\n             午前十半時\n            \n\n\n              鎌田\n             \n\n            文部大臣御訪問（同官舎）\n           \n\n\n\n\n             午前十一半時\n            \n\n\n              牧野\n             \n\n            宮内大臣御訪問（宮内省）\n           \n\n\n\n\n             午後二時\n            \n\n\n              古市\n             \n\n              公威\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n\n             午後三時\n            \n\n\n              井上\n             \n\n            内務次官ヲ御訪問（同官舎）\n           \n\n\n\n\n             午後四時\n            \n            日華実業協会幹事会（同会）\n           \n\n\n",
+    "description": "\n\n\n           一日\n          \n          （水）\n         \n\n\n\n\n             午前十半時\n            \n\n             鎌田\n            \n            文部大臣御訪問（同官舎）\n           \n\n\n\n\n             午前十一半時\n            \n            牧野宮内大臣御訪問（宮内省）\n           \n\n\n\n\n             午後二時\n            \n\n\n              古市\n             \n\n              公威\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n\n             午後三時\n            \n\n\n              井上\n             \n\n            内務次官ヲ御訪問（同官舎）\n           \n\n\n\n\n             午後四時\n            \n            日華実業協会幹事会（同会）\n           \n\n\n",
     "label": "一日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0211",
@@ -35,10 +27,8 @@
     "sort": "DKB20025m-0210",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "鎌田",
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1923-08-01",
     "texts": [
@@ -64,10 +54,10 @@
         "DKB20017m-0032"
     ],
     "time": {
-        "10:30:00": "<div><time when=\"10:30:00\">\n             午前十半時\n            </time>\n<persName corresp=\"#pers_鎌田\">\n<surname>\n              鎌田\n             </surname>\n</persName>\n            文部大臣御訪問（同官舎）</div>"
+        "10:30:00": "<div><time when=\"10:30:00\">\n             午前十半時\n            </time>\n<placeName corresp=\"#place_鎌田\">\n             鎌田\n            </placeName>\n            文部大臣御訪問（同官舎）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0210\">\n<head>\n<date when=\"1923-08-01\">\n           一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n<persName corresp=\"#pers_鎌田\">\n<surname>\n              鎌田\n             </surname>\n</persName>\n            文部大臣御訪問（同官舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<persName corresp=\"#pers_牧野\">\n<surname>\n              牧野\n             </surname>\n</persName>\n            宮内大臣御訪問（宮内省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_古市公威\">\n<surname>\n              古市\n             </surname>\n<forename>\n              公威\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2598\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1437/full/max/0/default.jpg\" n=\"B2598\" source=\"#pageB2598\"/>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            内務次官ヲ御訪問（同官舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            日華実業協会幹事会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0210\">\n<head>\n<date when=\"1923-08-01\">\n           一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n<placeName corresp=\"#place_鎌田\">\n             鎌田\n            </placeName>\n            文部大臣御訪問（同官舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            牧野宮内大臣御訪問（宮内省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_古市公威\">\n<surname>\n              古市\n             </surname>\n<forename>\n              公威\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2598\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1437/full/max/0/default.jpg\" n=\"B2598\" source=\"#pageB2598\"/>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            内務次官ヲ御訪問（同官舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            日華実業協会幹事会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-08"
 }

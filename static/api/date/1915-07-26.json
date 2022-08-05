@@ -1,11 +1,6 @@
 {
     "agential": [
-        "木下",
         "高木陸郎"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/木下",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/高木陸郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1188",
     "category": {
@@ -22,7 +17,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-07",
     "date_lvl2": "1915-07-26",
-    "description": "\n\n\n           廿六日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n            鉄道院\n            \n\n              木下\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n\n             午後二時\n            \n\n\n              高木\n             \n\n              陸郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           廿六日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n            鉄道院木下氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n\n             午後二時\n            \n\n\n              高木\n             \n\n              陸郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "廿六日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0198",
@@ -32,9 +27,6 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1915-07-26",
     "texts": [
@@ -60,10 +52,10 @@
         "DKB20020m-0107"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            鉄道院\n            <persName corresp=\"#pers_木下\">\n<surname>\n              木下\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            鉄道院木下氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0197\">\n<head>\n<date when=\"1915-07-26\">\n           廿六日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            鉄道院\n            <persName corresp=\"#pers_木下\">\n<surname>\n              木下\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2349\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1188/full/max/0/default.jpg\" n=\"B2349\" source=\"#pageB2349\"/>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_高木陸郎\">\n<surname>\n              高木\n             </surname>\n<forename>\n              陸郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0197\">\n<head>\n<date when=\"1915-07-26\">\n           廿六日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            鉄道院木下氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2349\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1188/full/max/0/default.jpg\" n=\"B2349\" source=\"#pageB2349\"/>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_高木陸郎\">\n<surname>\n              高木\n             </surname>\n<forename>\n              陸郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-07"
 }

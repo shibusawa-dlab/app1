@@ -1,13 +1,7 @@
 {
     "agential": [
         "前原厳太郎",
-        "成瀬仁蔵",
-        "シドニー_ギューリック"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/前原厳太郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/成瀬仁蔵",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/シドニー_ギューリック"
+        "成瀬仁蔵"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1176",
     "category": {
@@ -24,7 +18,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-01",
     "date_lvl2": "1915-01-31",
-    "description": "\n\n\n           卅一日\n          \n          （日）\n         \n\n\n\n\n             午前八―九時\n            \n\n\n              前原\n             \n\n              厳太郎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午〃八―九時\n            \n\n\n              成瀬\n             \n\n              仁蔵\n             \n\n            氏、\n            \n\n              ギユーリツク\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           卅一日\n          \n          （日）\n         \n\n\n\n\n             午前八―九時\n            \n\n\n              前原\n             \n\n              厳太郎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午〃八―九時\n            \n\n\n              成瀬\n             \n\n              仁蔵\n             \n\n            氏、ギユーリツク氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n",
     "label": "卅一日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0030",
@@ -33,10 +27,7 @@
     "sort": "DKB20017m-0029",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山公園"
     ],
     "temporal": "1915-01-31",
     "texts": [
@@ -63,7 +54,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0029\">\n<head>\n<date when=\"1915-01-31\">\n           卅一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"09:00:00\">\n             午前八―九時\n            </time>\n<persName corresp=\"#pers_前原厳太郎\">\n<surname>\n              前原\n             </surname>\n<forename>\n              厳太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"09:00:00\">\n             午〃八―九時\n            </time>\n<persName corresp=\"#pers_成瀬仁蔵\">\n<surname>\n              成瀬\n             </surname>\n<forename>\n              仁蔵\n             </forename>\n</persName>\n            氏、\n            <persName corresp=\"#pers_シドニー_ギューリック\">\n<surname>\n              ギユーリツク\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0029\">\n<head>\n<date when=\"1915-01-31\">\n           卅一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"09:00:00\">\n             午前八―九時\n            </time>\n<persName corresp=\"#pers_前原厳太郎\">\n<surname>\n              前原\n             </surname>\n<forename>\n              厳太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"08:00:00\" to=\"09:00:00\">\n             午〃八―九時\n            </time>\n<persName corresp=\"#pers_成瀬仁蔵\">\n<surname>\n              成瀬\n             </surname>\n<forename>\n              仁蔵\n             </forename>\n</persName>\n            氏、ギユーリツク氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-01"
 }

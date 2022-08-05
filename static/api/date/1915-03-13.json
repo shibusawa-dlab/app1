@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1179",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +15,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-03",
     "date_lvl2": "1915-03-13",
-    "description": "\n\n\n           十三日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n\n             東京\n            \n            市養育院本院ヨリ分院\n           \n\n\n\n\n             午前十一時半\n            \n            蚕糸救済実行ノ件ニ付御会合（\n            \n             築地\n            \n\n             精養軒\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n            商工懇話会（農商務省）\n           \n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n\n             東京\n            \n            市養育院本院ヨリ分院\n           \n\n\n\n\n             午前十一時半\n            \n            蚕糸救済実行ノ件ニ付御会合（築地精養軒）\n           \n\n\n\n\n             午後六時\n            \n            商工懇話会（農商務省）\n           \n\n\n",
     "label": "十三日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0072",
@@ -25,12 +24,7 @@
     "sort": "DKB20017m-0070",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "東京",
-        "築地"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
-        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
+        "東京"
     ],
     "temporal": "1915-03-13",
     "texts": [
@@ -59,7 +53,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院本院ヨリ分院</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0070\">\n<head>\n<date when=\"1915-03-13\">\n           十三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院本院ヨリ分院\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n            蚕糸救済実行ノ件ニ付御会合（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            商工懇話会（農商務省）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0070\">\n<head>\n<date when=\"1915-03-13\">\n           十三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院本院ヨリ分院\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n            蚕糸救済実行ノ件ニ付御会合（築地精養軒）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            商工懇話会（農商務省）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-03"
 }

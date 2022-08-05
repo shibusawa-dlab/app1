@@ -1,11 +1,6 @@
 {
     "agential": [
-        "桂",
-        "土屋"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/桂",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/土屋"
+        "桂"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/224",
     "category": {
@@ -22,7 +17,7 @@
     "date_lvl0": "1901",
     "date_lvl1": "1901-06",
     "date_lvl2": "1901-06-14",
-    "description": "\n\n\n        六月十四日\n       \n\n\n       曇、午前\n       \n        兜町\n       \n       宅ニ於テ来人ニ接ス、\n       \n        十一時\n       \n\n\n         桂\n        \n\n       総理大臣ヲ官舎ニ訪ヒ京釜鉄道会社重役ノ事ヲ談ス、午後\n       \n        第一銀行\n       \n       ニ出勤ス、\n       \n        三時\n       \n       日本鉄道会社重役会ニ列ス、\n       \n        五時\n       \n       ノ汽車ニテ\n       \n        王子別荘\n       \n       ニ帰宿ス、夜\n       \n\n         土屋\n        \n\n       医師来ル\n      \n",
+    "description": "\n\n\n        六月十四日\n       \n\n\n       曇、午前\n       \n        兜町\n       \n       宅ニ於テ来人ニ接ス、\n       \n        十一時\n       \n\n\n         桂\n        \n\n       総理大臣ヲ官舎ニ訪ヒ京釜鉄道会社重役ノ事ヲ談ス、午後\n       \n        第一銀行\n       \n       ニ出勤ス、\n       \n        三時\n       \n       日本鉄道会社重役会ニ列ス、\n       \n        五時\n       \n       ノ汽車ニテ\n       \n        王子別荘\n       \n       ニ帰宿ス、夜土屋医師来ル\n      \n",
     "label": "六月十四日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10010m-0041",
@@ -32,11 +27,7 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "日本橋兜町",
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "王子別荘"
     ],
     "temporal": "1901-06-14",
     "texts": [
@@ -64,10 +55,10 @@
     "time": {
         "11:00:00": "<div>曇、午前\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       宅ニ於テ来人ニ接ス、<time when=\"11:00:00\">\n        十一時\n       </time>\n<persName corresp=\"#pers_桂\">\n<surname>\n         桂\n        </surname>\n</persName>\n       総理大臣ヲ官舎ニ訪ヒ京釜鉄道会社重役ノ事ヲ談ス、午後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ出勤ス、</div>",
         "15:00:00": "<div><time when=\"15:00:00\">\n        三時\n       </time>\n       日本鉄道会社重役会ニ列ス、</div>",
-        "17:00:00": "<div><time when=\"17:00:00\">\n        五時\n       </time>\n       ノ汽車ニテ\n       <placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス、夜\n       <persName corresp=\"#pers_土屋\">\n<surname>\n         土屋\n        </surname>\n</persName>\n       医師来ル</div>"
+        "17:00:00": "<div><time when=\"17:00:00\">\n        五時\n       </time>\n       ノ汽車ニテ\n       <placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス、夜土屋医師来ル</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10010m-0040\">\n<head>\n<date when=\"1901-06-14\">\n        六月十四日\n       </date>\n</head>\n<p>\n       曇、午前\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       宅ニ於テ来人ニ接ス、\n       <time when=\"11:00:00\">\n        十一時\n       </time>\n<persName corresp=\"#pers_桂\">\n<surname>\n         桂\n        </surname>\n</persName>\n       総理大臣ヲ官舎ニ訪ヒ京釜鉄道会社重役ノ事ヲ談ス、午後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ出勤ス、\n       <time when=\"15:00:00\">\n        三時\n       </time>\n       日本鉄道会社重役会ニ列ス、\n       <time when=\"17:00:00\">\n        五時\n       </time>\n       ノ汽車ニテ\n       <placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス、夜\n       <persName corresp=\"#pers_土屋\">\n<surname>\n         土屋\n        </surname>\n</persName>\n       医師来ル\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10010m-0040\">\n<head>\n<date when=\"1901-06-14\">\n        六月十四日\n       </date>\n</head>\n<p>\n       曇、午前\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       宅ニ於テ来人ニ接ス、\n       <time when=\"11:00:00\">\n        十一時\n       </time>\n<persName corresp=\"#pers_桂\">\n<surname>\n         桂\n        </surname>\n</persName>\n       総理大臣ヲ官舎ニ訪ヒ京釜鉄道会社重役ノ事ヲ談ス、午後\n       <orgName>\n        第一銀行\n       </orgName>\n       ニ出勤ス、\n       <time when=\"15:00:00\">\n        三時\n       </time>\n       日本鉄道会社重役会ニ列ス、\n       <time when=\"17:00:00\">\n        五時\n       </time>\n       ノ汽車ニテ\n       <placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス、夜土屋医師来ル\n      </p>\n</div>",
     "year": "1901",
     "yearAndMonth": "1901-06"
 }

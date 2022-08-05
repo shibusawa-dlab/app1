@@ -4,11 +4,6 @@
         "原",
         "徳川"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/北尾",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/原",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1376",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -34,13 +29,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "大阪",
-        "飛鳥山邸",
+        "アスカ山",
         "アメリカ合衆国"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/大阪",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/アメリカ合衆国"
     ],
     "temporal": "1921-09-16",
     "texts": [
@@ -66,10 +56,10 @@
         "DKB20023m-0245"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_大阪\">\n             大阪\n            </placeName>\n            毎日\n            <persName corresp=\"#pers_北尾\">\n<surname>\n              北尾\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_大阪\">\n             大阪\n            </placeName>\n            毎日\n            <persName corresp=\"#pers_北尾\">\n<surname>\n              北尾\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0252\">\n<head>\n<date when=\"1921-09-16\">\n           十六日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_大阪\">\n             大阪\n            </placeName>\n            毎日\n            <persName corresp=\"#pers_北尾\">\n<surname>\n              北尾\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            首相ヲ御訪問ノ約（同官舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公ヲ山内男と倶に御訪問（貴族院議長官舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            三金会（日本工業クラブ）特ニ出席希望\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            協調会理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            代理大使ヲ御訪問（同館）之筈\n            <lb/>\n            交渉中　未決\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0252\">\n<head>\n<date when=\"1921-09-16\">\n           十六日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_大阪\">\n             大阪\n            </placeName>\n            毎日\n            <persName corresp=\"#pers_北尾\">\n<surname>\n              北尾\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_原\">\n<surname>\n              原\n             </surname>\n</persName>\n            首相ヲ御訪問ノ約（同官舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公ヲ山内男と倶に御訪問（貴族院議長官舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            三金会（日本工業クラブ）特ニ出席希望\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            協調会理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            代理大使ヲ御訪問（同館）之筈\n            <lb/>\n            交渉中　未決\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-09"
 }

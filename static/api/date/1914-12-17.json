@@ -1,10 +1,5 @@
 {
-    "agential": [
-        "バーナージストン"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/バーナージストン"
-    ],
+    "agential": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1172",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +15,7 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-12",
     "date_lvl2": "1914-12-17",
-    "description": "\n\n\n           十七日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n            実業協会幹事会（商業会議所）\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午後六時\n            \n\n\n              バーナージストン\n             \n\n            将軍歓迎会（紅葉館）（令夫人共）（\n            \n             日本\n            \n            服）\n           \n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n            実業協会幹事会（商業会議所）\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午後六時\n            \n            バーナージストン将軍歓迎会（紅葉館）（令夫人共）（\n            \n             日本\n            \n            服）\n           \n\n\n",
     "label": "十七日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20016m-0094",
@@ -30,9 +25,6 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本"
     ],
     "temporal": "1914-12-17",
     "texts": [
@@ -61,7 +53,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            実業協会幹事会（商業会議所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0093\">\n<head>\n<date when=\"1914-12-17\">\n           十七日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            実業協会幹事会（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_バーナージストン\">\n<surname>\n              バーナージストン\n             </surname>\n</persName>\n            将軍歓迎会（紅葉館）（令夫人共）（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            服）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0093\">\n<head>\n<date when=\"1914-12-17\">\n           十七日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            実業協会幹事会（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            バーナージストン将軍歓迎会（紅葉館）（令夫人共）（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            服）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-12"
 }

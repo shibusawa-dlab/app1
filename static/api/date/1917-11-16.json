@@ -1,13 +1,9 @@
 {
     "agential": [
         "徳川",
+        "義助",
         "水谷清",
         "安川敬一郎"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/水谷清",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/安川敬一郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1252",
     "category": {
@@ -24,7 +20,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-11",
     "date_lvl2": "1917-11-16",
-    "description": "\n\n\n           十六日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n\n             大六天\n            \n\n\n              徳川\n             \n\n            公《（\n            \n             第六天\n            \n            ）》ヲ御訪問\n           \n\n\n\n\n             午前十一半時\n            \n\n             天津\n            \n            水害義助会（ホテル）\n           \n\n\n\n\n             午○時半\n            \n\n\n              水谷\n             \n\n              清\n             \n\n            氏来約（ホテル）\n           \n\n\n\n\n             午後一時廿分\n            \n\n\n              安川\n             \n\n              敬一郎\n             \n\n            氏トホテルニテ御会見ノ約\n           \n\n\n\n\n             午後五半時\n            \n            帰一協会例会（中央亭）\n           \n\n\n",
+    "description": "\n\n\n           十六日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n\n             大六天\n            \n\n\n              徳川\n             \n\n            公《（\n            \n             第六天\n            \n            ）》ヲ御訪問\n           \n\n\n\n\n             午前十一半時\n            \n\n             天津\n            \n            水害\n            \n\n              義助\n             \n\n            会（ホテル）\n           \n\n\n\n\n             午○時半\n            \n\n\n              水谷\n             \n\n              清\n             \n\n            氏来約（ホテル）\n           \n\n\n\n\n             午後一時廿分\n            \n\n\n              安川\n             \n\n              敬一郎\n             \n\n            氏トホテルニテ御会見ノ約\n           \n\n\n\n\n             午後五半時\n            \n            帰一協会例会（中央亭）\n           \n\n\n",
     "label": "十六日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0297",
@@ -33,12 +29,9 @@
     "sort": "DKB20019m-0296",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "第六天町",
+        "大六天",
+        "第六天",
         "天津市"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/第六天町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/天津市"
     ],
     "temporal": "1917-11-16",
     "texts": [
@@ -64,10 +57,10 @@
         "DKB20030m-0077"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_第六天町\">\n             大六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公《（\n            <placeName corresp=\"#place_第六天町\">\n             第六天\n            </placeName>\n            ）》ヲ御訪問</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_大六天\">\n             大六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公《（\n            <placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n            ）》ヲ御訪問</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0296\">\n<head>\n<date when=\"1917-11-16\">\n           十六日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_第六天町\">\n             大六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公《（\n            <placeName corresp=\"#place_第六天町\">\n             第六天\n            </placeName>\n            ）》ヲ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<placeName corresp=\"#place_天津市\">\n             天津\n            </placeName>\n            水害義助会（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午○時半\n            </time>\n<persName corresp=\"#pers_水谷清\">\n<surname>\n              水谷\n             </surname>\n<forename>\n              清\n             </forename>\n</persName>\n            氏来約（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:20:00\">\n             午後一時廿分\n            </time>\n<persName corresp=\"#pers_安川敬一郎\">\n<surname>\n              安川\n             </surname>\n<forename>\n              敬一郎\n             </forename>\n</persName>\n            氏トホテルニテ御会見ノ約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            帰一協会例会（中央亭）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0296\">\n<head>\n<date when=\"1917-11-16\">\n           十六日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_大六天\">\n             大六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公《（\n            <placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n            ）》ヲ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<placeName corresp=\"#place_天津市\">\n             天津\n            </placeName>\n            水害\n            <persName corresp=\"#pers_義助\">\n<forename>\n              義助\n             </forename>\n</persName>\n            会（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午○時半\n            </time>\n<persName corresp=\"#pers_水谷清\">\n<surname>\n              水谷\n             </surname>\n<forename>\n              清\n             </forename>\n</persName>\n            氏来約（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:20:00\">\n             午後一時廿分\n            </time>\n<persName corresp=\"#pers_安川敬一郎\">\n<surname>\n              安川\n             </surname>\n<forename>\n              敬一郎\n             </forename>\n</persName>\n            氏トホテルニテ御会見ノ約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            帰一協会例会（中央亭）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-11"
 }

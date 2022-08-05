@@ -1,11 +1,7 @@
 {
     "agential": [
         "徳川家達",
-        "三井八郎次郎"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川家達",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/三井八郎次郎"
+        "八郎次郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1164",
     "category": {
@@ -22,7 +18,7 @@
     "date_lvl0": "1913",
     "date_lvl1": "1913-12",
     "date_lvl2": "1913-12-30",
-    "description": "\n\n\n           卅日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n\n\n              徳川\n             \n\n              家達\n             \n\n            公ヲ御訪問（同公邸）\n           \n\n\n\n\n             午前十一時半\n            \n\n\n              三井\n             \n\n              八郎次郎\n             \n\n            男より案内（三井集会所）\n           \n\n\n\n\n             午後二時\n            \n\n             中国\n            \n            興業会社ヘ御出向\n           \n\n\n",
+    "description": "\n\n\n           卅日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n\n\n              徳川\n             \n\n              家達\n             \n\n            公ヲ御訪問（同公邸）\n           \n\n\n\n\n             午前十一時半\n            \n            三井\n            \n\n              八郎次郎\n             \n\n            男より案内（三井集会所）\n           \n\n\n\n\n             午後二時\n            \n\n             中国\n            \n            興業会社ヘ御出向\n           \n\n\n",
     "label": "卅日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20015m-0015",
@@ -32,9 +28,6 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "中国"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/中国"
     ],
     "temporal": "1913-12-30",
     "texts": [
@@ -63,7 +56,7 @@
         "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_徳川家達\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              家達\n             </forename>\n</persName>\n            公ヲ御訪問（同公邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20015m-0014\">\n<head>\n<date when=\"1913-12-30\">\n           卅日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_徳川家達\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              家達\n             </forename>\n</persName>\n            公ヲ御訪問（同公邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n<persName corresp=\"#pers_三井八郎次郎\">\n<surname>\n              三井\n             </surname>\n<forename>\n              八郎次郎\n             </forename>\n</persName>\n            男より案内（三井集会所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_中国\">\n             中国\n            </placeName>\n            興業会社ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20015m-0014\">\n<head>\n<date when=\"1913-12-30\">\n           卅日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_徳川家達\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              家達\n             </forename>\n</persName>\n            公ヲ御訪問（同公邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n            三井\n            <persName corresp=\"#pers_八郎次郎\">\n<forename>\n              八郎次郎\n             </forename>\n</persName>\n            男より案内（三井集会所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_中国\">\n             中国\n            </placeName>\n            興業会社ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1913",
     "yearAndMonth": "1913-12"
 }

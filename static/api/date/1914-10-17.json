@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1167",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +15,7 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-10",
     "date_lvl2": "1914-10-17",
-    "description": "\n\n\n           十七日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n            戦乱ニ関する御感想を御演説ノ約（雨天ナラバ十\n            \n             八日\n            \n            ）（\n            \n             高千穂高等商業学校\n            \n            ）\n           \n\n\n\n            神嘗祭\n           \n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n            戦乱ニ関する御感想を御演説ノ約（雨天ナラバ十\n            \n             八日\n            \n            ）（\n            \n             高千穂\n            \n            高等商業学校）\n           \n\n\n\n            神嘗祭\n           \n\n\n",
     "label": "十七日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20016m-0034",
@@ -24,8 +23,9 @@
     "prev": "DKB20016m-0031",
     "sort": "DKB20016m-0032",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
-    "spatial_uri": [],
+    "spatial": [
+        "高千穂"
+    ],
     "temporal": "1914-10-17",
     "texts": [
         "DKB20019m-0050",
@@ -50,10 +50,10 @@
         "DKB20026m-0358"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            戦乱ニ関する御感想を御演説ノ約（雨天ナラバ十\n            <date when=\"1914-10-08\">\n             八日\n            </date>\n            ）（\n            <orgName>\n             高千穂高等商業学校\n            </orgName>\n            ）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            戦乱ニ関する御感想を御演説ノ約（雨天ナラバ十\n            <date when=\"1914-10-08\">\n             八日\n            </date>\n            ）（\n            <placeName corresp=\"#place_高千穂\">\n             高千穂\n            </placeName>\n            高等商業学校）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0032\">\n<head>\n<date when=\"1914-10-17\">\n           十七日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            戦乱ニ関する御感想を御演説ノ約（雨天ナラバ十\n            <date when=\"1914-10-08\">\n             八日\n            </date>\n            ）（\n            <orgName>\n             高千穂高等商業学校\n            </orgName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n            神嘗祭\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0032\">\n<head>\n<date when=\"1914-10-17\">\n           十七日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            戦乱ニ関する御感想を御演説ノ約（雨天ナラバ十\n            <date when=\"1914-10-08\">\n             八日\n            </date>\n            ）（\n            <placeName corresp=\"#place_高千穂\">\n             高千穂\n            </placeName>\n            高等商業学校）\n           </p>\n</event>\n<event>\n<p>\n            神嘗祭\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-10"
 }

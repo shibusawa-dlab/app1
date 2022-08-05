@@ -4,11 +4,6 @@
         "永井享",
         "永井亨"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/中島",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/永井享",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/永井亨"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1505",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -34,11 +29,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸",
+        "飛鳥山公園",
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1926-03-19",
     "texts": [
@@ -67,7 +59,7 @@
         "08:30:00": "<div><time when=\"08:30:00\">\n             午前八・三〇\n            </time>\n<persName corresp=\"#pers_中島\">\n<surname>\n              中島\n             </surname>\n</persName>\n            歯科医来診</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0077\">\n<head>\n<date when=\"1926-03-19\">\n           十九日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八・三〇\n            </time>\n<persName corresp=\"#pers_中島\">\n<surname>\n              中島\n             </surname>\n</persName>\n            歯科医来診\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            モーレイ氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_永井享\">\n<surname>\n              永井\n             </surname>\n<forename>\n              享\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_永井亨\">\n<surname>\n              永井\n             </surname>\n<forename>\n              亨\n             </forename>\n</persName>\n            氏）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            修養団理事会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二時半\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0077\">\n<head>\n<date when=\"1926-03-19\">\n           十九日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八・三〇\n            </time>\n<persName corresp=\"#pers_中島\">\n<surname>\n              中島\n             </surname>\n</persName>\n            歯科医来診\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            モーレイ氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_永井享\">\n<surname>\n              永井\n             </surname>\n<forename>\n              享\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_永井亨\">\n<surname>\n              永井\n             </surname>\n<forename>\n              亨\n             </forename>\n</persName>\n            氏）》（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            修養団理事会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二時半\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-03"
 }

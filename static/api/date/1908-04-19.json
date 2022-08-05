@@ -1,9 +1,6 @@
 {
     "agential": [
-        "渋沢兼子"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢兼子"
+        "兼子"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/532",
     "category": {
@@ -20,7 +17,7 @@
     "date_lvl0": "1908",
     "date_lvl1": "1908-04",
     "date_lvl2": "1908-04-19",
-    "description": "\n\n\n        四月十九日\n       \n       晴　暖\n      \n\n\n        午前七時\n       \n       起床、入浴シ、畢テ朝飧ヲ食ス、食後庭園ヲ巡回シ、飛鳥山ヨリ稲荷神社辺ヲ散歩ス、帰宅後新聞紙ヲ一覧シ又来人ニ接ス、午飧後\n       \n\n         兼子\n        \n\n       ト共ニ四恩瓜生会々堂開成式ニ出席ス、堂ハ\n       \n        巣鴨\n       \n       監獄署前ニアリ、来会スル者数百名、会長ノ代理トシテ一場ノ演説ヲ為シ、\n       \n        午後五時\n       \n\n        王子\n       \n       ニ帰宿ス、夜、読書ス\n      \n",
+    "description": "\n\n\n        四月十九日\n       \n       晴　暖\n      \n\n\n        午前七時\n       \n       起床、入浴シ、畢テ朝飧ヲ食ス、食後庭園ヲ巡回シ、\n       \n        飛鳥山\n       \n       ヨリ稲荷神社辺ヲ散歩ス、帰宅後新聞紙ヲ一覧シ又来人ニ接ス、午飧後\n       \n\n         兼子\n        \n\n       ト共ニ四恩瓜生会々堂開成式ニ出席ス、堂ハ\n       \n        巣鴨\n       \n       監獄署前ニアリ、来会スル者数百名、会長ノ代理トシテ一場ノ演説ヲ為シ、\n       \n        午後五時\n       \n\n        王子\n       \n       ニ帰宿ス、夜、読書ス\n      \n",
     "label": "四月十九日              晴　暖",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10016m-0111",
@@ -29,12 +26,9 @@
     "sort": "DKB10016m-0110",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
+        "飛鳥山公園",
         "巣鴨",
         "王子"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/巣鴨",
-        "https://shibusawa-dlab.github.io/lab1/api/place/王子"
     ],
     "temporal": "1908-04-19",
     "texts": [
@@ -60,11 +54,11 @@
         "DKB10018m-0001"
     ],
     "time": {
-        "07:00:00": "<div><time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、入浴シ、畢テ朝飧ヲ食ス、食後庭園ヲ巡回シ、飛鳥山ヨリ稲荷神社辺ヲ散歩ス、帰宅後新聞紙ヲ一覧シ又来人ニ接ス、午飧後\n       <persName corresp=\"#pers_渋沢兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       ト共ニ四恩瓜生会々堂開成式ニ出席ス、堂ハ\n       <placeName corresp=\"#place_巣鴨\">\n        巣鴨\n       </placeName>\n       監獄署前ニアリ、来会スル者数百名、会長ノ代理トシテ一場ノ演説ヲ為シ、</div>",
+        "07:00:00": "<div><time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、入浴シ、畢テ朝飧ヲ食ス、食後庭園ヲ巡回シ、\n       <placeName corresp=\"#place_飛鳥山公園\">\n        飛鳥山\n       </placeName>\n       ヨリ稲荷神社辺ヲ散歩ス、帰宅後新聞紙ヲ一覧シ又来人ニ接ス、午飧後\n       <persName corresp=\"#pers_兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       ト共ニ四恩瓜生会々堂開成式ニ出席ス、堂ハ\n       <placeName corresp=\"#place_巣鴨\">\n        巣鴨\n       </placeName>\n       監獄署前ニアリ、来会スル者数百名、会長ノ代理トシテ一場ノ演説ヲ為シ、</div>",
         "17:00:00": "<div><time when=\"17:00:00\">\n        午後五時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス、夜、読書ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10016m-0110\">\n<head>\n<date when=\"1908-04-19\">\n        四月十九日\n       </date>\n       晴　暖\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、入浴シ、畢テ朝飧ヲ食ス、食後庭園ヲ巡回シ、飛鳥山ヨリ稲荷神社辺ヲ散歩ス、帰宅後新聞紙ヲ一覧シ又来人ニ接ス、午飧後\n       <persName corresp=\"#pers_渋沢兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       ト共ニ四恩瓜生会々堂開成式ニ出席ス、堂ハ\n       <placeName corresp=\"#place_巣鴨\">\n        巣鴨\n       </placeName>\n       監獄署前ニアリ、来会スル者数百名、会長ノ代理トシテ一場ノ演説ヲ為シ、\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス、夜、読書ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10016m-0110\">\n<head>\n<date when=\"1908-04-19\">\n        四月十九日\n       </date>\n       晴　暖\n      </head>\n<p>\n<time when=\"07:00:00\">\n        午前七時\n       </time>\n       起床、入浴シ、畢テ朝飧ヲ食ス、食後庭園ヲ巡回シ、\n       <placeName corresp=\"#place_飛鳥山公園\">\n        飛鳥山\n       </placeName>\n       ヨリ稲荷神社辺ヲ散歩ス、帰宅後新聞紙ヲ一覧シ又来人ニ接ス、午飧後\n       <persName corresp=\"#pers_兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       ト共ニ四恩瓜生会々堂開成式ニ出席ス、堂ハ\n       <placeName corresp=\"#place_巣鴨\">\n        巣鴨\n       </placeName>\n       監獄署前ニアリ、来会スル者数百名、会長ノ代理トシテ一場ノ演説ヲ為シ、\n       <time when=\"17:00:00\">\n        午後五時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス、夜、読書ス\n      </p>\n</div>",
     "year": "1908",
     "yearAndMonth": "1908-04"
 }

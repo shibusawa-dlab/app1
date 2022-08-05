@@ -1,11 +1,8 @@
 {
     "agential": [
-        "三矢宮松",
+        "三矢",
+        "宮松",
         "神谷忠雄"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/三矢宮松",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/神谷忠雄"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1324",
     "category": {
@@ -22,7 +19,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-02",
     "date_lvl2": "1920-02-13",
-    "description": "\n\n\n           十三日\n          \n          （金）\n         \n\n\n\n\n             午前時\n            \n            養育院ヘ御出向\n           \n\n\n\n\n             午後二時\n            \n\n\n              三矢\n             \n\n              宮松\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後二時\n            \n\n\n              神谷\n             \n\n              忠雄\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二―午後三時\n            \n            オストロモツフ氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （金）\n         \n\n\n\n\n             午前時\n            \n            養育院ヘ御出向\n           \n\n\n\n\n             午後二時\n            \n\n\n              三矢\n             \n\n\n\n              宮松\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後二時\n            \n\n\n              神谷\n             \n\n              忠雄\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二―午後三時\n            \n            オストロモツフ氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "十三日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0043",
@@ -32,9 +29,6 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1920-02-13",
     "texts": [
@@ -61,7 +55,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0042\">\n<head>\n<date when=\"1920-02-13\">\n           十三日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前時\n            </time>\n            養育院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_三矢宮松\">\n<surname>\n              三矢\n             </surname>\n<forename>\n              宮松\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_神谷忠雄\">\n<surname>\n              神谷\n             </surname>\n<forename>\n              忠雄\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―午後三時\n            </time>\n            オストロモツフ氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0042\">\n<head>\n<date when=\"1920-02-13\">\n           十三日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前時\n            </time>\n            養育院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_三矢\">\n<surname>\n              三矢\n             </surname>\n</persName>\n<persName corresp=\"#pers_宮松\">\n<surname>\n              宮松\n             </surname>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_神谷忠雄\">\n<surname>\n              神谷\n             </surname>\n<forename>\n              忠雄\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―午後三時\n            </time>\n            オストロモツフ氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-02"
 }

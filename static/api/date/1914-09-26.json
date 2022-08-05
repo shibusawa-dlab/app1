@@ -3,10 +3,6 @@
         "井上",
         "寺内"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/井上",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/寺内"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1165",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -22,7 +18,7 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-09",
     "date_lvl2": "1914-09-26",
-    "description": "\n\n\n           廿六日\n          \n          （土）\n         \n\n\n\n\n\n              井上\n             \n\n            侯御訪問\n           \n\n\n\n\n             午前九時\n            \n\n\n              寺内\n             \n\n            伯御訪問（\n            \n             笄町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n             米国\n            \n            人某氏\n            \n             兜町\n            \n            ニ来ル約\n           \n\n\n\n\n             午後六時\n            \n\n             埼玉学生誘掖会\n            \n            茶話会\n           \n\n\n",
+    "description": "\n\n\n           廿六日\n          \n          （土）\n         \n\n\n\n\n\n              井上\n             \n\n            侯御訪問\n           \n\n\n\n\n             午前九時\n            \n\n\n              寺内\n             \n\n            伯御訪問（\n            \n             笄町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n             米国\n            \n            人某氏\n            \n             兜町\n            \n            ニ来ル約\n           \n\n\n\n\n             午後六時\n            \n\n             埼玉\n            \n            学生誘掖会茶話会\n           \n\n\n",
     "label": "廿六日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20016m-0012",
@@ -33,12 +29,8 @@
     "spatial": [
         "笄町",
         "アメリカ合衆国",
-        "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/笄町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/アメリカ合衆国",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
+        "日本橋兜町",
+        "埼玉"
     ],
     "temporal": "1914-09-26",
     "texts": [
@@ -65,7 +57,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0010\">\n<head>\n<date when=\"1914-09-26\">\n           廿六日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            侯御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_寺内\">\n<surname>\n              寺内\n             </surname>\n</persName>\n            伯御訪問（\n            <placeName corresp=\"#place_笄町\">\n             笄町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            人某氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来ル約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<orgName>\n             埼玉学生誘掖会\n            </orgName>\n            茶話会\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0010\">\n<head>\n<date when=\"1914-09-26\">\n           廿六日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            侯御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_寺内\">\n<surname>\n              寺内\n             </surname>\n</persName>\n            伯御訪問（\n            <placeName corresp=\"#place_笄町\">\n             笄町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            人某氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来ル約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会茶話会\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-09"
 }

@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1365",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +15,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-06",
     "date_lvl2": "1921-06-03",
-    "description": "\n\n\n           三日\n          \n          （金）\n         \n\n\n\n\n             午後四―午後六時\n            \n            英帝誕辰祝賀園遊会（英大使館）\n            \n            令夫人共\n           \n\n\n\n\n             午後五時\n            \n            仏蘭西会館設立ノ件（銀行クラブ）\n           \n\n\n",
+    "description": "\n\n\n           三日\n          \n          （金）\n         \n\n\n\n\n             午後四―午後六時\n            \n            英帝誕辰祝賀園遊会（英大使館）\n            \n            令夫人共\n           \n\n\n\n\n             午後五時\n            \n\n             仏蘭西\n            \n            会館設立ノ件（銀行クラブ）\n           \n\n\n",
     "label": "三日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0148",
@@ -24,8 +23,9 @@
     "prev": "DKB20023m-0146",
     "sort": "DKB20023m-0147",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
-    "spatial_uri": [],
+    "spatial": [
+        "フランス"
+    ],
     "temporal": "1921-06-03",
     "texts": [
         "DKB20022m-0253",
@@ -51,7 +51,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0147\">\n<head>\n<date when=\"1921-06-03\">\n           三日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"16:00:00\" to=\"18:00:00\">\n             午後四―午後六時\n            </time>\n            英帝誕辰祝賀園遊会（英大使館）\n            <lb/>\n            令夫人共\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            仏蘭西会館設立ノ件（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0147\">\n<head>\n<date when=\"1921-06-03\">\n           三日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"16:00:00\" to=\"18:00:00\">\n             午後四―午後六時\n            </time>\n            英帝誕辰祝賀園遊会（英大使館）\n            <lb/>\n            令夫人共\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_フランス\">\n             仏蘭西\n            </placeName>\n            会館設立ノ件（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-06"
 }

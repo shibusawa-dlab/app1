@@ -2,9 +2,6 @@
     "agential": [
         "瓜生喜三郎"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/瓜生喜三郎"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1575",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +17,7 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-03",
     "date_lvl2": "1928-03-20",
-    "description": "\n\n\n           二十日\n          \n          （火）\n         \n\n\n\n\n             午前十一時\n            \n\n             東京\n            \n            日日新聞社より御案内\n           \n\n\n\n\n             午後一時\n            \n\n\n              瓜生\n             \n\n              喜三郎\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後二時\n            \n\n             日本女子大学\n            \n            卒業式（同大学）\n           \n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （火）\n         \n\n\n\n\n             午前十一時\n            \n\n             東京\n            \n            日日新聞社より御案内\n           \n\n\n\n\n             午後一時\n            \n\n\n              瓜生\n             \n\n              喜三郎\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後二時\n            \n\n             日本\n            \n            女子大学卒業式（同大学）\n           \n\n\n",
     "label": "二十日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20030m-0082",
@@ -29,10 +26,8 @@
     "sort": "DKB20030m-0081",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "東京"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
+        "東京",
+        "日本"
     ],
     "temporal": "1928-03-20",
     "texts": [
@@ -61,7 +56,7 @@
         "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            日日新聞社より御案内</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0081\">\n<head>\n<date when=\"1928-03-20\">\n           二十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            日日新聞社より御案内\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_瓜生喜三郎\">\n<surname>\n              瓜生\n             </surname>\n<forename>\n              喜三郎\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<orgName>\n             日本女子大学\n            </orgName>\n            卒業式（同大学）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0081\">\n<head>\n<date when=\"1928-03-20\">\n           二十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            日日新聞社より御案内\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_瓜生喜三郎\">\n<surname>\n              瓜生\n             </surname>\n<forename>\n              喜三郎\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            女子大学卒業式（同大学）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-03"
 }

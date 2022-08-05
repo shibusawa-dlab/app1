@@ -1,9 +1,7 @@
 {
     "agential": [
-        "浅野泰治郎"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野泰治郎"
+        "渋沢",
+        "浅野泰治"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1616",
     "category": {
@@ -20,7 +18,7 @@
     "date_lvl0": "1930",
     "date_lvl1": "1930-09",
     "date_lvl2": "1930-09-15",
-    "description": "\n\n\n           十五日\n          \n          （月）\n         \n\n\n\n\n             午前十一・四〇\n            \n            渋沢事務所ニ御出勤\n           \n\n\n\n\n             午後〇・四〇\n            \n\n\n              浅野\n             \n\n              泰治郎\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n\n             午後二時\n            \n            陽明会講義会《（学脱）》（事務所）\n           \n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （月）\n         \n\n\n\n\n             午前十一・四〇\n            \n\n\n              渋沢\n             \n\n            事務所ニ御出勤\n           \n\n\n\n\n             午後〇・四〇\n            \n\n\n              浅野\n             \n\n              泰治\n             \n\n            郎氏来約（事務所）\n           \n\n\n\n\n\n             午後二時\n            \n            陽明会講義会《（学脱）》（事務所）\n           \n\n\n",
     "label": "十五日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20032m-0149",
@@ -29,7 +27,6 @@
     "sort": "DKB20032m-0148",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [],
-    "spatial_uri": [],
     "temporal": "1930-09-15",
     "texts": [
         "DKB20032m-0169",
@@ -54,10 +51,10 @@
         "DKB20033m-0130"
     ],
     "time": {
-        "11:40:00": "<div><time when=\"11:40:00\">\n             午前十一・四〇\n            </time>\n            渋沢事務所ニ御出勤</div>"
+        "11:40:00": "<div><time when=\"11:40:00\">\n             午前十一・四〇\n            </time>\n<persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            事務所ニ御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0148\">\n<head>\n<date when=\"1930-09-15\">\n           十五日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:40:00\">\n             午前十一・四〇\n            </time>\n            渋沢事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:40:00\">\n             午後〇・四〇\n            </time>\n<persName corresp=\"#pers_浅野泰治郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              泰治郎\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2777\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1616/full/max/0/default.jpg\" n=\"B2777\" source=\"#pageB2777\"/>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            陽明会講義会《（学脱）》（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0148\">\n<head>\n<date when=\"1930-09-15\">\n           十五日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:40:00\">\n             午前十一・四〇\n            </time>\n<persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:40:00\">\n             午後〇・四〇\n            </time>\n<persName corresp=\"#pers_浅野泰治\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              泰治\n             </forename>\n</persName>\n            郎氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2777\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1616/full/max/0/default.jpg\" n=\"B2777\" source=\"#pageB2777\"/>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            陽明会講義会《（学脱）》（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1930",
     "yearAndMonth": "1930-09"
 }

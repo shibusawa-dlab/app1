@@ -1,11 +1,8 @@
 {
     "agential": [
         "伏見宮",
-        "鮮于〓"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/伏見宮",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/鮮于〓"
+        "鮮",
+        "于"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1358",
     "category": {
@@ -22,7 +19,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-04",
     "date_lvl2": "1921-04-08",
-    "description": "\n\n\n           八日\n          \n          （金）\n         \n\n\n\n\n             午後三時\n            \n\n\n              伏見宮\n             \n\n            殿下園遊会（同邸）（\n            \n             紀尾井町\n            \n            ）\n           \n\n\n\n\n             午後四―午後五時\n            \n\n\n              鮮于\n             \n\n              〓\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n\n             日本郵船会社\n            \n            々長、副社長就任披露宴（日本工業クラブ）\n           \n\n\n",
+    "description": "\n\n\n           八日\n          \n          （金）\n         \n\n\n\n\n             午後三時\n            \n\n\n              伏見宮\n             \n\n            殿下園遊会（同邸）（\n            \n             紀尾井町\n            \n            ）\n           \n\n\n\n\n             午後四―午後五時\n            \n\n\n              鮮\n             \n\n\n\n              于\n             \n\n            〓氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n\n             日本\n            \n            郵船会社々長、副社長就任披露宴（日本工業クラブ）\n           \n\n\n",
     "label": "八日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0091",
@@ -32,11 +29,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "紀尾井町",
-        "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/紀尾井町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
+        "日本橋兜町",
+        "日本"
     ],
     "temporal": "1921-04-08",
     "texts": [
@@ -65,7 +59,7 @@
         "15:00:00": "<div><time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_伏見宮\">\n<surname>\n              伏見宮\n             </surname>\n</persName>\n            殿下園遊会（同邸）（\n            <placeName corresp=\"#place_紀尾井町\">\n             紀尾井町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0090\">\n<head>\n<date when=\"1921-04-08\">\n           八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_伏見宮\">\n<surname>\n              伏見宮\n             </surname>\n</persName>\n            殿下園遊会（同邸）（\n            <placeName corresp=\"#place_紀尾井町\">\n             紀尾井町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"16:00:00\" to=\"17:00:00\">\n             午後四―午後五時\n            </time>\n<persName corresp=\"#pers_鮮于〓\">\n<surname>\n              鮮于\n             </surname>\n<forename>\n              〓\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<orgName>\n             日本郵船会社\n            </orgName>\n            々長、副社長就任披露宴（日本工業クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0090\">\n<head>\n<date when=\"1921-04-08\">\n           八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_伏見宮\">\n<surname>\n              伏見宮\n             </surname>\n</persName>\n            殿下園遊会（同邸）（\n            <placeName corresp=\"#place_紀尾井町\">\n             紀尾井町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"16:00:00\" to=\"17:00:00\">\n             午後四―午後五時\n            </time>\n<persName corresp=\"#pers_鮮\">\n<surname>\n              鮮\n             </surname>\n</persName>\n<persName corresp=\"#pers_于\">\n<surname>\n              于\n             </surname>\n</persName>\n            〓氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            郵船会社々長、副社長就任披露宴（日本工業クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-04"
 }

@@ -1,10 +1,5 @@
 {
-    "agential": [
-        "デイン"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/デイン"
-    ],
+    "agential": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1409",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +15,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-11",
     "date_lvl2": "1922-11-03",
-    "description": "\n\n\n           三日\n          \n          （金）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              デイン\n             \n\n            博士ヲ\n            \n             村山\n            \n            全生院ヘ御案内\n           \n\n\n\n            引続\n            \n             〇半時\n            \n\n\n              デイン\n             \n\n            博士ヲ招待午餐会（日本工業クラブ）\n           \n\n\n\n\n             午後八時\n            \n\n             米国\n            \n            大使ヨリ御案内（同館、燕尾服勲章ナシ）\n           \n\n\n",
+    "description": "\n\n\n           三日\n          \n          （金）\n         \n\n\n\n\n             午前九半時\n            \n            デイン博士ヲ\n            \n             村山\n            \n            全生院ヘ御案内\n           \n\n\n\n            引続\n            \n             〇半時\n            \n            デイン博士ヲ招待午餐会（日本工業クラブ）\n           \n\n\n\n\n             午後八時\n            \n\n             米国\n            \n            大使ヨリ御案内（同館、燕尾服勲章ナシ）\n           \n\n\n",
     "label": "三日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0272",
@@ -31,10 +26,6 @@
     "spatial": [
         "村山",
         "アメリカ合衆国"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/村山",
-        "https://shibusawa-dlab.github.io/lab1/api/place/アメリカ合衆国"
     ],
     "temporal": "1922-11-03",
     "texts": [
@@ -60,10 +51,10 @@
         "DKB20025m-0064"
     ],
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_デイン\">\n<surname>\n              デイン\n             </surname>\n</persName>\n            博士ヲ\n            <placeName corresp=\"#place_村山\">\n             村山\n            </placeName>\n            全生院ヘ御案内</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n            デイン博士ヲ\n            <placeName corresp=\"#place_村山\">\n             村山\n            </placeName>\n            全生院ヘ御案内</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0271\">\n<head>\n<date when=\"1922-11-03\">\n           三日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_デイン\">\n<surname>\n              デイン\n             </surname>\n</persName>\n            博士ヲ\n            <placeName corresp=\"#place_村山\">\n             村山\n            </placeName>\n            全生院ヘ御案内\n           </p>\n</event>\n<event>\n<p>\n            引続\n            <time when=\"12:30:00\">\n             〇半時\n            </time>\n<persName corresp=\"#pers_デイン\">\n<surname>\n              デイン\n             </surname>\n</persName>\n            博士ヲ招待午餐会（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"20:00:00\">\n             午後八時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            大使ヨリ御案内（同館、燕尾服勲章ナシ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0271\">\n<head>\n<date when=\"1922-11-03\">\n           三日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n            デイン博士ヲ\n            <placeName corresp=\"#place_村山\">\n             村山\n            </placeName>\n            全生院ヘ御案内\n           </p>\n</event>\n<event>\n<p>\n            引続\n            <time when=\"12:30:00\">\n             〇半時\n            </time>\n            デイン博士ヲ招待午餐会（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"20:00:00\">\n             午後八時\n            </time>\n<placeName corresp=\"#place_アメリカ合衆国\">\n             米国\n            </placeName>\n            大使ヨリ御案内（同館、燕尾服勲章ナシ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-11"
 }

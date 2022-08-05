@@ -2,9 +2,6 @@
     "agential": [
         "北里"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/北里"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1441",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +17,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-10",
     "date_lvl2": "1923-10-12",
-    "description": "\n\n\n           十二日\n          \n          （金）\n         \n\n\n\n\n             午後正一時\n            \n            大震災善後会救済部会（\n            \n\n              北里\n             \n\n            博士来約）（商業会議所）\n           \n\n\n\n\n             午後一時\n            \n\n             埼玉学生誘掖会\n            \n            理事会（事務所）\n           \n\n\n\n\n             午後二―三時\n            \n\n             伊太利\n            \n            国新聞記者チユリン・スタンバシヤ・アルナルド・チブラシ氏来約（事務所）\n           \n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （金）\n         \n\n\n\n\n             午後正一時\n            \n            大震災善後会救済部会（\n            \n\n              北里\n             \n\n            博士来約）（商業会議所）\n           \n\n\n\n\n             午後一時\n            \n\n             埼玉\n            \n            学生誘掖会理事会（事務所）\n           \n\n\n\n\n             午後二―三時\n            \n\n             伊太利\n            \n            国新聞記者チユリン・スタンバシヤ・アルナルド・チブラシ氏来約（事務所）\n           \n\n\n",
     "label": "十二日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0261",
@@ -29,10 +26,8 @@
     "sort": "DKB20025m-0260",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "埼玉",
         "イタリア"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/イタリア"
     ],
     "temporal": "1923-10-12",
     "texts": [
@@ -61,7 +56,7 @@
         "13:00:00": "<div><time when=\"13:00:00\">\n             午後正一時\n            </time>\n            大震災善後会救済部会（\n            <persName corresp=\"#pers_北里\">\n<surname>\n              北里\n             </surname>\n</persName>\n            博士来約）（商業会議所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0260\">\n<head>\n<date when=\"1923-10-12\">\n           十二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後正一時\n            </time>\n            大震災善後会救済部会（\n            <persName corresp=\"#pers_北里\">\n<surname>\n              北里\n             </surname>\n</persName>\n            博士来約）（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             埼玉学生誘掖会\n            </orgName>\n            理事会（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―三時\n            </time>\n<placeName corresp=\"#place_イタリア\">\n             伊太利\n            </placeName>\n            国新聞記者チユリン・スタンバシヤ・アルナルド・チブラシ氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0260\">\n<head>\n<date when=\"1923-10-12\">\n           十二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後正一時\n            </time>\n            大震災善後会救済部会（\n            <persName corresp=\"#pers_北里\">\n<surname>\n              北里\n             </surname>\n</persName>\n            博士来約）（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会理事会（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―三時\n            </time>\n<placeName corresp=\"#place_イタリア\">\n             伊太利\n            </placeName>\n            国新聞記者チユリン・スタンバシヤ・アルナルド・チブラシ氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-10"
 }

@@ -2,9 +2,6 @@
     "agential": [
         "井上準之助"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/井上準之助"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1395",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +17,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-06",
     "date_lvl2": "1922-06-12",
-    "description": "\n\n\n           十二日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n            宮内大臣御訪問（宮内省）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              井上\n             \n\n              準之助\n             \n\n            氏ヲ御訪問ノ筈（\n            \n             日本銀行\n            \n            ）\n           \n\n\n\n\n             午後二時十七分\n            \n\n             王子\n            \n            駅発白河町御出向\n           \n\n\n\n\n             午後七・四十分\n            \n            白河町御着\n           \n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n            宮内大臣御訪問（宮内省）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              井上\n             \n\n              準之助\n             \n\n            氏ヲ御訪問ノ筈（\n            \n             日本\n            \n            銀行）\n           \n\n\n\n\n             午後二時十七分\n            \n\n             王子\n            \n            駅発白河町御出向\n           \n\n\n\n\n             午後七・四十分\n            \n            白河町御着\n           \n\n\n",
     "label": "十二日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0139",
@@ -29,10 +26,8 @@
     "sort": "DKB20024m-0138",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "日本",
         "王子"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/王子"
     ],
     "temporal": "1922-06-12",
     "texts": [
@@ -61,7 +56,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            宮内大臣御訪問（宮内省）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0138\">\n<head>\n<date when=\"1922-06-12\">\n           十二日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            宮内大臣御訪問（宮内省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_井上準之助\">\n<surname>\n              井上\n             </surname>\n<forename>\n              準之助\n             </forename>\n</persName>\n            氏ヲ御訪問ノ筈（\n            <orgName>\n             日本銀行\n            </orgName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:17:00\">\n             午後二時十七分\n            </time>\n<placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅発白河町御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:45:00\">\n             午後七・四十分\n            </time>\n            白河町御着\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0138\">\n<head>\n<date when=\"1922-06-12\">\n           十二日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            宮内大臣御訪問（宮内省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_井上準之助\">\n<surname>\n              井上\n             </surname>\n<forename>\n              準之助\n             </forename>\n</persName>\n            氏ヲ御訪問ノ筈（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            銀行）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:17:00\">\n             午後二時十七分\n            </time>\n<placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅発白河町御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:45:00\">\n             午後七・四十分\n            </time>\n            白河町御着\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-06"
 }

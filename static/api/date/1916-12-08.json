@@ -5,12 +5,6 @@
         "成瀬仁蔵",
         "上泉"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/小倉秀道",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/倉知鉄吉",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/成瀬仁蔵",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/上泉"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1221",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -26,7 +20,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-12",
     "date_lvl2": "1916-12-08",
-    "description": "\n\n\n           八日\n          \n          （金）\n         \n\n\n\n\n             朝\n            \n            養育院ヘ御出向ノ約（前\n            \n             九時\n            \n            頃ノ筈）\n           \n\n\n\n\n             午前八時\n            \n\n\n              小倉\n             \n\n              秀道\n             \n\n            氏（実業之日本記者）\n            \n             飛鳥山邸\n            \n            ニ来約\n           \n\n\n\n\n             午前八半時\n            \n\n\n              倉知\n             \n\n              鉄吉\n             \n\n            氏　同上\n           \n\n\n\n\n             午前十一―十二時\n            \n\n\n              成瀬\n             \n\n              仁蔵\n             \n\n            氏来約（\n            \n             大塚\n            \n            養育院）\n           \n\n\n\n\n             午後三時\n            \n\n\n              上泉\n             \n\n            海軍中将来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           八日\n          \n          （金）\n         \n\n\n\n\n             朝\n            \n            養育院ヘ御出向ノ約（前\n            \n             九時\n            \n            頃ノ筈）\n           \n\n\n\n\n             午前八時\n            \n\n\n              小倉\n             \n\n              秀道\n             \n\n            氏（実業之\n            \n             日本\n            \n            記者）\n            \n             飛鳥山\n            \n            邸ニ来約\n           \n\n\n\n\n             午前八半時\n            \n\n\n              倉知\n             \n\n              鉄吉\n             \n\n            氏　同上\n           \n\n\n\n\n             午前十一―十二時\n            \n\n\n              成瀬\n             \n\n              仁蔵\n             \n\n            氏来約（\n            \n             大塚\n            \n            養育院）\n           \n\n\n\n\n             午後三時\n            \n\n\n              上泉\n             \n\n            海軍中将来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "八日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0326",
@@ -35,14 +29,10 @@
     "sort": "DKB20018m-0325",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
+        "日本",
+        "飛鳥山公園",
         "大塚",
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/大塚",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1916-12-08",
     "texts": [
@@ -71,7 +61,7 @@
         "09:00:00": "<div><time>\n             朝\n            </time>\n            養育院ヘ御出向ノ約（前<time when=\"09:00:00\">\n             九時\n            </time>\n            頃ノ筈）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0325\">\n<head>\n<date when=\"1916-12-08\">\n           八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             朝\n            </time>\n            養育院ヘ御出向ノ約（前\n            <time when=\"09:00:00\">\n             九時\n            </time>\n            頃ノ筈）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_小倉秀道\">\n<surname>\n              小倉\n             </surname>\n<forename>\n              秀道\n             </forename>\n</persName>\n            氏（実業之日本記者）\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_倉知鉄吉\">\n<surname>\n              倉知\n             </surname>\n<forename>\n              鉄吉\n             </forename>\n</persName>\n            氏　同上\n           </p>\n</event>\n<event>\n<p>\n<time from=\"11:00:00\" to=\"12:00:00\">\n             午前十一―十二時\n            </time>\n<persName corresp=\"#pers_成瀬仁蔵\">\n<surname>\n              成瀬\n             </surname>\n<forename>\n              仁蔵\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_大塚\">\n             大塚\n            </placeName>\n            養育院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_上泉\">\n<surname>\n              上泉\n             </surname>\n</persName>\n            海軍中将来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0325\">\n<head>\n<date when=\"1916-12-08\">\n           八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             朝\n            </time>\n            養育院ヘ御出向ノ約（前\n            <time when=\"09:00:00\">\n             九時\n            </time>\n            頃ノ筈）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_小倉秀道\">\n<surname>\n              小倉\n             </surname>\n<forename>\n              秀道\n             </forename>\n</persName>\n            氏（実業之\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            記者）\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_倉知鉄吉\">\n<surname>\n              倉知\n             </surname>\n<forename>\n              鉄吉\n             </forename>\n</persName>\n            氏　同上\n           </p>\n</event>\n<event>\n<p>\n<time from=\"11:00:00\" to=\"12:00:00\">\n             午前十一―十二時\n            </time>\n<persName corresp=\"#pers_成瀬仁蔵\">\n<surname>\n              成瀬\n             </surname>\n<forename>\n              仁蔵\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_大塚\">\n             大塚\n            </placeName>\n            養育院）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_上泉\">\n<surname>\n              上泉\n             </surname>\n</persName>\n            海軍中将来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-12"
 }

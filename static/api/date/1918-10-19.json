@@ -4,11 +4,6 @@
         "西野",
         "尾高"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/長谷川吉次",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/西野",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/尾高"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1279",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -24,7 +19,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-10",
     "date_lvl2": "1918-10-19",
-    "description": "\n\n\n           十九日\n          \n          （土）\n         \n\n\n\n\n             午后三時\n            \n\n\n              長谷川\n             \n\n              吉次\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              西野\n             \n\n            家結婚披露宴（\n            \n             築地\n            \n\n             精養軒\n            \n            ）\n           \n\n\n\n\n             午後七半時\n            \n\n\n              尾高\n             \n\n            家法要ニ御出向（\n            \n             上野\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （土）\n         \n\n\n\n\n             午后三時\n            \n\n\n              長谷川\n             \n\n              吉次\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              西野\n             \n\n            家結婚披露宴（築地精養軒）\n           \n\n\n\n\n             午後七半時\n            \n\n\n              尾高\n             \n\n            家法要ニ御出向（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n",
     "label": "十九日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0272",
@@ -34,13 +29,7 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町",
-        "築地",
-        "上野"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/築地",
-        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
+        "上野精養軒"
     ],
     "temporal": "1918-10-19",
     "texts": [
@@ -69,7 +58,7 @@
         "15:00:00": "<div><time when=\"15:00:00\">\n             午后三時\n            </time>\n<persName corresp=\"#pers_長谷川吉次\">\n<surname>\n              長谷川\n             </surname>\n<forename>\n              吉次\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0271\">\n<head>\n<date when=\"1918-10-19\">\n           十九日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n<persName corresp=\"#pers_長谷川吉次\">\n<surname>\n              長谷川\n             </surname>\n<forename>\n              吉次\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_西野\">\n<surname>\n              西野\n             </surname>\n</persName>\n            家結婚披露宴（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:30:00\">\n             午後七半時\n            </time>\n<persName corresp=\"#pers_尾高\">\n<surname>\n              尾高\n             </surname>\n</persName>\n            家法要ニ御出向（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0271\">\n<head>\n<date when=\"1918-10-19\">\n           十九日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n<persName corresp=\"#pers_長谷川吉次\">\n<surname>\n              長谷川\n             </surname>\n<forename>\n              吉次\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_西野\">\n<surname>\n              西野\n             </surname>\n</persName>\n            家結婚披露宴（築地精養軒）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:30:00\">\n             午後七半時\n            </time>\n<persName corresp=\"#pers_尾高\">\n<surname>\n              尾高\n             </surname>\n</persName>\n            家法要ニ御出向（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-10"
 }

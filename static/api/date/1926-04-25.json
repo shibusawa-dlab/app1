@@ -2,14 +2,8 @@
     "agential": [
         "新井智信",
         "後藤",
-        "黒板勝美",
+        "勝美",
         "神田鐳蔵"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/新井智信",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/後藤",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/黒板勝美",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/神田鐳蔵"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1509",
     "category": {
@@ -26,7 +20,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-04",
     "date_lvl2": "1926-04-25",
-    "description": "\n\n\n           廿五日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n\n\n              新井\n             \n\n              智信\n             \n\n            （昼）来約\n            \n             飛鳥山邸\n            \n\n\n\n\n\n             午十二時\n            \n            頃\n            \n             東京\n            \n            市養育院常設委員諸氏慰労招待会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午后一時\n            \n\n\n              後藤\n             \n\n            子、\n            \n\n              黒板\n             \n\n              勝美\n             \n\n            両氏催、浮世絵展覧ノ件（\n            \n             中富坂町\n            \n\n\n              神田\n             \n\n              鐳蔵\n             \n\n            氏別邸）\n           \n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n\n\n              新井\n             \n\n              智信\n             \n\n            （昼）来約\n            \n             飛鳥山\n            \n            邸\n           \n\n\n\n\n             午十二時\n            \n            頃\n            \n             東京\n            \n            市養育院常設委員諸氏慰労招待会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午后一時\n            \n\n\n              後藤\n             \n\n            子、黒板\n            \n\n              勝美\n             \n\n            両氏催、浮世絵展覧ノ件（\n            \n             中富\n            \n\n             坂町\n            \n\n\n              神田\n             \n\n              鐳蔵\n             \n\n            氏別邸）\n           \n\n\n",
     "label": "廿五日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0115",
@@ -35,14 +29,11 @@
     "sort": "DKB20028m-0114",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
+        "飛鳥山公園",
         "東京",
-        "中富坂町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
-        "https://shibusawa-dlab.github.io/lab1/api/place/中富坂町"
+        "飛鳥山邸",
+        "中富",
+        "坂町"
     ],
     "temporal": "1926-04-25",
     "texts": [
@@ -68,10 +59,10 @@
         "DKB20032m-0145"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_新井智信\">\n<surname>\n              新井\n             </surname>\n<forename>\n              智信\n             </forename>\n</persName>\n            （昼）来約\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName></div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_新井智信\">\n<surname>\n              新井\n             </surname>\n<forename>\n              智信\n             </forename>\n</persName>\n            （昼）来約\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0114\">\n<head>\n<date when=\"1926-04-25\">\n           廿五日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_新井智信\">\n<surname>\n              新井\n             </surname>\n<forename>\n              智信\n             </forename>\n</persName>\n            （昼）来約\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午十二時\n            </time>\n            頃\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院常設委員諸氏慰労招待会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n<persName corresp=\"#pers_後藤\">\n<surname>\n              後藤\n             </surname>\n</persName>\n            子、\n            <persName corresp=\"#pers_黒板勝美\">\n<surname>\n              黒板\n             </surname>\n<forename>\n              勝美\n             </forename>\n</persName>\n            両氏催、浮世絵展覧ノ件（\n            <placeName corresp=\"#place_中富坂町\">\n             中富坂町\n            </placeName>\n<persName corresp=\"#pers_神田鐳蔵\">\n<surname>\n              神田\n             </surname>\n<forename>\n              鐳蔵\n             </forename>\n</persName>\n            氏別邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0114\">\n<head>\n<date when=\"1926-04-25\">\n           廿五日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_新井智信\">\n<surname>\n              新井\n             </surname>\n<forename>\n              智信\n             </forename>\n</persName>\n            （昼）来約\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午十二時\n            </time>\n            頃\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院常設委員諸氏慰労招待会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午后一時\n            </time>\n<persName corresp=\"#pers_後藤\">\n<surname>\n              後藤\n             </surname>\n</persName>\n            子、黒板\n            <persName corresp=\"#pers_勝美\">\n<forename>\n              勝美\n             </forename>\n</persName>\n            両氏催、浮世絵展覧ノ件（\n            <placeName corresp=\"#place_中富\">\n             中富\n            </placeName>\n<placeName corresp=\"#place_坂町\">\n             坂町\n            </placeName>\n<persName corresp=\"#pers_神田鐳蔵\">\n<surname>\n              神田\n             </surname>\n<forename>\n              鐳蔵\n             </forename>\n</persName>\n            氏別邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-04"
 }

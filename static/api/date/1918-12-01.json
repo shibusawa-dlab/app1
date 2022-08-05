@@ -3,10 +3,6 @@
         "中桐",
         "森岡平右"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/中桐",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/森岡平右"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1284",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -22,7 +18,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-12",
     "date_lvl2": "1918-12-01",
-    "description": "\n\n\n           一日\n          \n          （日）\n         \n\n\n\n\n             午前十時\n            \n\n             落合\n            \n            村択善学舎ヘ御出向ノ約\n           \n\n\n\n\n             午前八時\n            \n\n\n              中桐\n             \n\n            氏\n            \n             飛鳥山邸\n            \n            ニ来約\n           \n\n\n\n\n             午後一時\n            \n            葵会懇親会（\n            \n             九段坂上\n            \n            、偕行社）\n           \n\n\n\n\n             午後一―三時\n            \n            斯文会講演会（法科大学三十二号室）\n           \n\n\n\n\n             午後三時\n            \n\n\n              森岡\n             \n\n              平右\n             \n\n            ヱ門氏ヨリ御案内（ホテル）\n           \n\n\n",
+    "description": "\n\n\n           一日\n          \n          （日）\n         \n\n\n\n\n             午前十時\n            \n\n             落合\n            \n            村択善学舎ヘ御出向ノ約\n           \n\n\n\n\n             午前八時\n            \n\n\n              中桐\n             \n\n            氏\n            \n             飛鳥山\n            \n            邸ニ来約\n           \n\n\n\n\n             午後一時\n            \n            葵会懇親会（\n            \n             九段坂上\n            \n            、偕行社）\n           \n\n\n\n\n             午後一―三時\n            \n            斯文会講演会（法科大学三十二号室）\n           \n\n\n\n\n             午後三時\n            \n\n\n              森岡\n             \n\n              平右\n             \n\n            ヱ門氏ヨリ御案内（ホテル）\n           \n\n\n",
     "label": "一日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0315",
@@ -32,13 +28,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "落合",
-        "飛鳥山邸",
+        "飛鳥山公園",
         "九段"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/落合",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/九段"
     ],
     "temporal": "1918-12-01",
     "texts": [
@@ -67,7 +58,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_落合\">\n             落合\n            </placeName>\n            村択善学舎ヘ御出向ノ約</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0314\">\n<head>\n<date when=\"1918-12-01\">\n           一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_落合\">\n             落合\n            </placeName>\n            村択善学舎ヘ御出向ノ約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_中桐\">\n<surname>\n              中桐\n             </surname>\n</persName>\n            氏\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            葵会懇親会（\n            <placeName corresp=\"#place_九段\">\n             九段坂上\n            </placeName>\n            、偕行社）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"15:00:00\">\n             午後一―三時\n            </time>\n            斯文会講演会（法科大学三十二号室）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_森岡平右\">\n<surname>\n              森岡\n             </surname>\n<forename>\n              平右\n             </forename>\n</persName>\n            ヱ門氏ヨリ御案内（ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0314\">\n<head>\n<date when=\"1918-12-01\">\n           一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_落合\">\n             落合\n            </placeName>\n            村択善学舎ヘ御出向ノ約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_中桐\">\n<surname>\n              中桐\n             </surname>\n</persName>\n            氏\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            葵会懇親会（\n            <placeName corresp=\"#place_九段\">\n             九段坂上\n            </placeName>\n            、偕行社）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"15:00:00\">\n             午後一―三時\n            </time>\n            斯文会講演会（法科大学三十二号室）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_森岡平右\">\n<surname>\n              森岡\n             </surname>\n<forename>\n              平右\n             </forename>\n</persName>\n            ヱ門氏ヨリ御案内（ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-12"
 }

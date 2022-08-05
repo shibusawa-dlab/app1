@@ -1,10 +1,5 @@
 {
-    "agential": [
-        "吉野"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/吉野"
-    ],
+    "agential": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1295",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +15,7 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-03",
     "date_lvl2": "1919-03-15",
-    "description": "\n\n\n           十五日\n          \n          （土）\n         \n\n\n\n\n             午前十一時卅八分\n            \n\n             新宿\n            \n            発\n            \n             八王子\n            \n            ヘ御出向\n           \n\n\n\n            （\n            \n             埼玉\n            \n            県人会講演会）\n           \n\n\n\n\n             午後一―午後三時\n            \n            ヘボン講坐\n            \n\n              吉野\n             \n\n            博士講義（法大三十二番室）\n           \n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （土）\n         \n\n\n\n\n             午前十一時卅八分\n            \n\n             新宿\n            \n            発\n            \n             八王子\n            \n            ヘ御出向\n           \n\n\n\n            （\n            \n             埼玉\n            \n            県人会講演会）\n           \n\n\n\n\n             午後一―午後三時\n            \n            ヘボン講坐\n            \n             吉野\n            \n            博士講義（法大三十二番室）\n           \n\n\n",
     "label": "十五日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0078",
@@ -31,12 +26,8 @@
     "spatial": [
         "新宿",
         "八王子",
-        "埼玉"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/新宿",
-        "https://shibusawa-dlab.github.io/lab1/api/place/八王子",
-        "https://shibusawa-dlab.github.io/lab1/api/place/埼玉"
+        "埼玉",
+        "吉野"
     ],
     "temporal": "1919-03-15",
     "texts": [
@@ -65,7 +56,7 @@
         "11:38:00": "<div><time when=\"11:38:00\">\n             午前十一時卅八分\n            </time>\n<placeName corresp=\"#place_新宿\">\n             新宿\n            </placeName>\n            発\n            <placeName corresp=\"#place_八王子\">\n             八王子\n            </placeName>\n            ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0076\">\n<head>\n<date when=\"1919-03-15\">\n           十五日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:38:00\">\n             午前十一時卅八分\n            </time>\n<placeName corresp=\"#place_新宿\">\n             新宿\n            </placeName>\n            発\n            <placeName corresp=\"#place_八王子\">\n             八王子\n            </placeName>\n            ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n            （\n            <placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県人会講演会）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"15:00:00\">\n             午後一―午後三時\n            </time>\n            ヘボン講坐\n            <persName corresp=\"#pers_吉野\">\n<surname>\n              吉野\n             </surname>\n</persName>\n            博士講義（法大三十二番室）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0076\">\n<head>\n<date when=\"1919-03-15\">\n           十五日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:38:00\">\n             午前十一時卅八分\n            </time>\n<placeName corresp=\"#place_新宿\">\n             新宿\n            </placeName>\n            発\n            <placeName corresp=\"#place_八王子\">\n             八王子\n            </placeName>\n            ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n            （\n            <placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県人会講演会）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"15:00:00\">\n             午後一―午後三時\n            </time>\n            ヘボン講坐\n            <placeName corresp=\"#place_吉野\">\n             吉野\n            </placeName>\n            博士講義（法大三十二番室）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-03"
 }

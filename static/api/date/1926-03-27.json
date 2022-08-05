@@ -4,11 +4,6 @@
         "服部",
         "福島甲子三"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/鶴見祐輔",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/服部",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/福島甲子三"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1506",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -33,10 +28,8 @@
     "sort": "DKB20028m-0085",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山邸",
+        "アスカ山"
     ],
     "temporal": "1926-03-27",
     "texts": [
@@ -65,7 +58,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_鶴見祐輔\">\n<surname>\n              鶴見\n             </surname>\n<forename>\n              祐輔\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0085\">\n<head>\n<date when=\"1926-03-27\">\n           廿七日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_鶴見祐輔\">\n<surname>\n              鶴見\n             </surname>\n<forename>\n              祐輔\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_服部\">\n<surname>\n              服部\n             </surname>\n</persName>\n            博士、\n            <persName corresp=\"#pers_福島甲子三\">\n<surname>\n              福島\n             </surname>\n<forename>\n              甲子三\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            女子大学卒業式ヘ参列（同校）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0085\">\n<head>\n<date when=\"1926-03-27\">\n           廿七日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_鶴見祐輔\">\n<surname>\n              鶴見\n             </surname>\n<forename>\n              祐輔\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_服部\">\n<surname>\n              服部\n             </surname>\n</persName>\n            博士、\n            <persName corresp=\"#pers_福島甲子三\">\n<surname>\n              福島\n             </surname>\n<forename>\n              甲子三\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            女子大学卒業式ヘ参列（同校）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-03"
 }

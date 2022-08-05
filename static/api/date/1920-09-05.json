@@ -2,9 +2,6 @@
     "agential": [
         "阪谷"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/阪谷"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1340",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +17,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-09",
     "date_lvl2": "1920-09-05",
-    "description": "\n\n\n           五日\n          \n          （日）\n         \n\n\n\n\n             午前七時\n            \n\n             日光\n            \n            御用邸ヘ伺候（\n            \n             上野\n            \n            駅発）\n           \n\n\n\n\n             午前十一時五分\n            \n\n             日光\n            \n            駅着\n           \n\n\n\n\n             午後一時二十分\n            \n\n             日光\n            \n            駅発\n           \n\n\n\n\n             午後五時五十分\n            \n\n             上野\n            \n            駅着\n           \n\n\n\n\n             午後六時\n            \n\n\n              阪谷\n             \n\n            男爵ヨリ御案内（富士見軒）\n            \n            令夫人共、略服\n           \n\n\n",
+    "description": "\n\n\n           五日\n          \n          （日）\n         \n\n\n\n\n             午前七時\n            \n            日光御用邸ヘ伺候（\n            \n             上野\n            \n            駅発）\n           \n\n\n\n\n             午前十一時五分\n            \n            日光駅着\n           \n\n\n\n\n             午後一時二十分\n            \n            日光駅発\n           \n\n\n\n\n             午後五時五十分\n            \n\n             上野\n            \n            駅着\n           \n\n\n\n\n             午後六時\n            \n\n\n              阪谷\n             \n\n            男爵ヨリ御案内（富士見軒）\n            \n            令夫人共、略服\n           \n\n\n",
     "label": "五日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0226",
@@ -29,12 +26,7 @@
     "sort": "DKB20022m-0225",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "日光",
         "上野"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日光",
-        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
     ],
     "temporal": "1920-09-05",
     "texts": [
@@ -60,10 +52,10 @@
         "DKB20021m-0240"
     ],
     "time": {
-        "07:00:00": "<div><time when=\"07:00:00\">\n             午前七時\n            </time>\n<placeName corresp=\"#place_日光\">\n             日光\n            </placeName>\n            御用邸ヘ伺候（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            駅発）</div>"
+        "07:00:00": "<div><time when=\"07:00:00\">\n             午前七時\n            </time>\n            日光御用邸ヘ伺候（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            駅発）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0225\">\n<head>\n<date when=\"1920-09-05\">\n           五日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"07:00:00\">\n             午前七時\n            </time>\n<placeName corresp=\"#place_日光\">\n             日光\n            </placeName>\n            御用邸ヘ伺候（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            駅発）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:05:00\">\n             午前十一時五分\n            </time>\n<placeName corresp=\"#place_日光\">\n             日光\n            </placeName>\n            駅着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:20:00\">\n             午後一時二十分\n            </time>\n<placeName corresp=\"#place_日光\">\n             日光\n            </placeName>\n            駅発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:50:00\">\n             午後五時五十分\n            </time>\n<placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            駅着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_阪谷\">\n<surname>\n              阪谷\n             </surname>\n</persName>\n            男爵ヨリ御案内（富士見軒）\n            <lb/>\n            令夫人共、略服\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0225\">\n<head>\n<date when=\"1920-09-05\">\n           五日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"07:00:00\">\n             午前七時\n            </time>\n            日光御用邸ヘ伺候（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            駅発）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:05:00\">\n             午前十一時五分\n            </time>\n            日光駅着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:20:00\">\n             午後一時二十分\n            </time>\n            日光駅発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:50:00\">\n             午後五時五十分\n            </time>\n<placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            駅着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_阪谷\">\n<surname>\n              阪谷\n             </surname>\n</persName>\n            男爵ヨリ御案内（富士見軒）\n            <lb/>\n            令夫人共、略服\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-09"
 }

@@ -2,12 +2,7 @@
     "agential": [
         "関直彦",
         "頭本元貞",
-        "堀越善重郎"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/関直彦",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/頭本元貞",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/堀越善重郎"
+        "堀越善重"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1251",
     "category": {
@@ -24,7 +19,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-11",
     "date_lvl2": "1917-11-08",
-    "description": "\n\n\n           八日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n            早稲田学校速記者来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n\n              関\n             \n\n              直彦\n             \n\n            氏立教大学教員来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            ドナルト氏、\n            \n\n              頭本\n             \n\n              元貞\n             \n\n            氏ト共ニ来約\n           \n\n\n\n\n             午後二時半\n            \n\n\n              堀越\n             \n\n              善重郎\n             \n\n            氏外二名\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後四時\n            \n            帰一協会ニ付懇話会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           八日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n\n             早稲田\n            \n            学校速記者来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n\n              関\n             \n\n              直彦\n             \n\n            氏立教大学教員来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            ドナルト氏、\n            \n\n              頭本\n             \n\n              元貞\n             \n\n            氏ト共ニ来約\n           \n\n\n\n\n             午後二時半\n            \n\n\n              堀越\n             \n\n              善重\n             \n\n            郎氏外二名\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後四時\n            \n            帰一協会ニ付懇話会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "label": "八日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0289",
@@ -33,12 +28,9 @@
     "sort": "DKB20019m-0288",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "早稲田",
         "飛鳥山邸",
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1917-11-08",
     "texts": [
@@ -64,10 +56,10 @@
         "DKB20021m-0284"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            早稲田学校速記者来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            学校速記者来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0288\">\n<head>\n<date when=\"1917-11-08\">\n           八日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            早稲田学校速記者来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_関直彦\">\n<surname>\n              関\n             </surname>\n<forename>\n              直彦\n             </forename>\n</persName>\n            氏立教大学教員来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            ドナルト氏、\n            <persName corresp=\"#pers_頭本元貞\">\n<surname>\n              頭本\n             </surname>\n<forename>\n              元貞\n             </forename>\n</persName>\n            氏ト共ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二時半\n            </time>\n<persName corresp=\"#pers_堀越善重郎\">\n<surname>\n              堀越\n             </surname>\n<forename>\n              善重郎\n             </forename>\n</persName>\n            氏外二名\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            帰一協会ニ付懇話会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0288\">\n<head>\n<date when=\"1917-11-08\">\n           八日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            学校速記者来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_関直彦\">\n<surname>\n              関\n             </surname>\n<forename>\n              直彦\n             </forename>\n</persName>\n            氏立教大学教員来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            ドナルト氏、\n            <persName corresp=\"#pers_頭本元貞\">\n<surname>\n              頭本\n             </surname>\n<forename>\n              元貞\n             </forename>\n</persName>\n            氏ト共ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二時半\n            </time>\n<persName corresp=\"#pers_堀越善重\">\n<surname>\n              堀越\n             </surname>\n<forename>\n              善重\n             </forename>\n</persName>\n            郎氏外二名\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            帰一協会ニ付懇話会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-11"
 }

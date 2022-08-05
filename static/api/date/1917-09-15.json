@@ -2,9 +2,6 @@
     "agential": [
         "中野武営"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/中野武営"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1246",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +17,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-09",
     "date_lvl2": "1917-09-15",
-    "description": "\n\n\n           十五日\n          \n          （土）\n         \n\n\n\n\n             正午\n            \n            東洋製鉄会社ノ件（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n\n              中野\n             \n\n              武営\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n\n             実業之日本社\n            \n            派遣渡米小学校長ノ為ニ送別会（銀行クラブ）\n           \n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （土）\n         \n\n\n\n\n             正午\n            \n            東洋製鉄会社ノ件（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n\n              中野\n             \n\n              武営\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n            実業之\n            \n             日本\n            \n            社派遣渡米小学校長ノ為ニ送別会（銀行クラブ）\n           \n\n\n",
     "label": "十五日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0244",
@@ -29,10 +26,8 @@
     "sort": "DKB20019m-0243",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
+        "日本橋兜町",
+        "日本"
     ],
     "temporal": "1917-09-15",
     "texts": [
@@ -61,7 +56,7 @@
         "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            東洋製鉄会社ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0243\">\n<head>\n<date when=\"1917-09-15\">\n           十五日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            東洋製鉄会社ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_中野武営\">\n<surname>\n              中野\n             </surname>\n<forename>\n              武営\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<orgName>\n             実業之日本社\n            </orgName>\n            派遣渡米小学校長ノ為ニ送別会（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0243\">\n<head>\n<date when=\"1917-09-15\">\n           十五日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            東洋製鉄会社ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_中野武営\">\n<surname>\n              中野\n             </surname>\n<forename>\n              武営\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            実業之\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            社派遣渡米小学校長ノ為ニ送別会（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-09"
 }

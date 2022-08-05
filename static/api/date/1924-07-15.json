@@ -4,11 +4,6 @@
         "河井彌八",
         "葛原伊平"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/泉山吉兵衛",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/河井彌八",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/葛原伊平"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1471",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -24,7 +19,7 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-07",
     "date_lvl2": "1924-07-15",
-    "description": "\n\n\n           十五日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n\n\n              泉山\n             \n\n              吉兵衛\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前八半時\n            \n            修養団ノ件\n           \n\n\n\n\n             午後五時\n            \n\n\n              河井\n             \n\n              弥八\n             \n\n            氏来約（事ム所）\n           \n\n\n\n\n             午後六時\n            \n\n\n              葛原\n             \n\n              伊平\n             \n\n            氏ヨリ御案内（\n            \n             木挽町\n            \n            河内屋）\n           \n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n\n\n              泉山\n             \n\n              吉兵衛\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前八半時\n            \n            修養団ノ件\n           \n\n\n\n\n             午後五時\n            \n\n\n              河井\n             \n\n              弥八\n             \n\n            氏来約（事ム所）\n           \n\n\n\n\n             午後六時\n            \n\n\n              葛原\n             \n\n              伊平\n             \n\n            氏ヨリ御案内（\n            \n             木挽町\n            \n\n             河内\n            \n            屋）\n           \n\n\n",
     "label": "十五日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0203",
@@ -33,12 +28,9 @@
     "sort": "DKB20026m-0202",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
-        "木挽町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/木挽町"
+        "アスカ山",
+        "木挽町",
+        "河内"
     ],
     "temporal": "1924-07-15",
     "texts": [
@@ -64,10 +56,10 @@
         "DKB20024m-0012"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_泉山吉兵衛\">\n<surname>\n              泉山\n             </surname>\n<forename>\n              吉兵衛\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_泉山吉兵衛\">\n<surname>\n              泉山\n             </surname>\n<forename>\n              吉兵衛\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0202\">\n<head>\n<date when=\"1924-07-15\">\n           十五日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_泉山吉兵衛\">\n<surname>\n              泉山\n             </surname>\n<forename>\n              吉兵衛\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            修養団ノ件\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_河井彌八\">\n<surname>\n              河井\n             </surname>\n<forename>\n              弥八\n             </forename>\n</persName>\n            氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_葛原伊平\">\n<surname>\n              葛原\n             </surname>\n<forename>\n              伊平\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <placeName corresp=\"#place_木挽町\">\n             木挽町\n            </placeName>\n            河内屋）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0202\">\n<head>\n<date when=\"1924-07-15\">\n           十五日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_泉山吉兵衛\">\n<surname>\n              泉山\n             </surname>\n<forename>\n              吉兵衛\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            修養団ノ件\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_河井彌八\">\n<surname>\n              河井\n             </surname>\n<forename>\n              弥八\n             </forename>\n</persName>\n            氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_葛原伊平\">\n<surname>\n              葛原\n             </surname>\n<forename>\n              伊平\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <placeName corresp=\"#place_木挽町\">\n             木挽町\n            </placeName>\n<placeName corresp=\"#place_河内\">\n             河内\n            </placeName>\n            屋）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-07"
 }

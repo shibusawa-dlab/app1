@@ -4,11 +4,6 @@
         "井上",
         "板野新次郎"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/大隈",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/井上",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/板野新次郎"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1191",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -24,7 +19,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-09",
     "date_lvl2": "1915-09-12",
-    "description": "\n\n\n           十二日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n            実業之世界記者来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            前後時\n            \n\n              大隈\n             \n\n            伯ヲ御訪問（\n            \n             早稲田\n            \n            邸）\n           \n\n\n\n\n             午后三時\n            \n\n             内田山\n            \n\n\n              井上\n             \n\n            侯邸ヘ御出向\n           \n\n\n\n\n             午後六時\n            \n\n\n              板野\n             \n\n              新次郎\n             \n\n            氏結婚披露（\n            \n             築地\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n            実業之世界記者来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            前後時\n            \n\n              大隈\n             \n\n            伯ヲ御訪問（\n            \n             早稲田\n            \n            邸）\n           \n\n\n\n\n             午后三時\n            \n\n             内田山\n            \n\n\n              井上\n             \n\n            侯邸ヘ御出向\n           \n\n\n\n\n             午後六時\n            \n\n\n              板野\n             \n\n              新次郎\n             \n\n            氏結婚披露（築地精養軒）\n           \n\n\n",
     "label": "十二日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0232",
@@ -33,16 +28,9 @@
     "sort": "DKB20017m-0231",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
+        "飛鳥山公園",
         "早稲田",
-        "内田山",
-        "築地"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/早稲田",
-        "https://shibusawa-dlab.github.io/lab1/api/place/内田山",
-        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
+        "内田山"
     ],
     "temporal": "1915-09-12",
     "texts": [
@@ -68,10 +56,10 @@
         "DKB20016m-0004"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            実業之世界記者来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            実業之世界記者来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0231\">\n<head>\n<date when=\"1915-09-12\">\n           十二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            実業之世界記者来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            前後時\n            <persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            伯ヲ御訪問（\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n<placeName corresp=\"#place_内田山\">\n             内田山\n            </placeName>\n<persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            侯邸ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_板野新次郎\">\n<surname>\n              板野\n             </surname>\n<forename>\n              新次郎\n             </forename>\n</persName>\n            氏結婚披露（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0231\">\n<head>\n<date when=\"1915-09-12\">\n           十二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            実業之世界記者来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            前後時\n            <persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            伯ヲ御訪問（\n            <placeName corresp=\"#place_早稲田\">\n             早稲田\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n<placeName corresp=\"#place_内田山\">\n             内田山\n            </placeName>\n<persName corresp=\"#pers_井上\">\n<surname>\n              井上\n             </surname>\n</persName>\n            侯邸ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_板野新次郎\">\n<surname>\n              板野\n             </surname>\n<forename>\n              新次郎\n             </forename>\n</persName>\n            氏結婚披露（築地精養軒）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-09"
 }

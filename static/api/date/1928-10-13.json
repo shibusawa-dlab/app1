@@ -2,9 +2,6 @@
     "agential": [
         "徳川"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1586",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +17,7 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-10",
     "date_lvl2": "1928-10-13",
-    "description": "\n\n\n           十三日\n          \n          （土）\n         \n\n\n\n\n             午後二時\n            \n\n             東京女学館\n            \n            建築後始末相談会（同校）\n           \n\n\n\n\n             午後五時\n            \n\n\n              徳川\n             \n\n            家招待会（\n            \n             第六天町\n            \n            同邸）\n           \n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （土）\n         \n\n\n\n\n             午後二時\n            \n\n             東京\n            \n            女学館建築後始末相談会（同校）\n           \n\n\n\n\n             午後五時\n            \n\n\n              徳川\n             \n\n            家招待会（\n            \n             第六天町\n            \n            同邸）\n           \n\n\n",
     "label": "十三日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20030m-0223",
@@ -29,10 +26,8 @@
     "sort": "DKB20030m-0222",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "東京",
         "第六天町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/第六天町"
     ],
     "temporal": "1928-10-13",
     "texts": [
@@ -58,10 +53,10 @@
         "DKB20033m-0036"
     ],
     "time": {
-        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n<orgName>\n             東京女学館\n            </orgName>\n            建築後始末相談会（同校）</div>"
+        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            女学館建築後始末相談会（同校）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0222\">\n<head>\n<date when=\"1928-10-13\">\n           十三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<orgName>\n             東京女学館\n            </orgName>\n            建築後始末相談会（同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家招待会（\n            <placeName corresp=\"#place_第六天町\">\n             第六天町\n            </placeName>\n            同邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0222\">\n<head>\n<date when=\"1928-10-13\">\n           十三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            女学館建築後始末相談会（同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家招待会（\n            <placeName corresp=\"#place_第六天町\">\n             第六天町\n            </placeName>\n            同邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-10"
 }

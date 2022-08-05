@@ -1,15 +1,8 @@
 {
     "agential": [
         "目賀田",
-        "長岡外史",
         "桜井",
         "柴山"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/目賀田",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/長岡外史",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/桜井",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/柴山"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1272",
     "category": {
@@ -26,7 +19,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-07",
     "date_lvl2": "1918-07-02",
-    "description": "\n\n\n           二日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n            ウイルロービー氏来約（\n            \n             飛鳥山邸\n            \n            ）\n            \n            （\n            \n\n              目賀田\n             \n\n            男紹介）\n           \n\n\n\n\n             午後二時\n            \n            修養主催第二回教育懇話会《（団脱カ）》（礫川小学校）\n           \n\n\n\n\n             午後四時\n            \n\n\n              長岡\n             \n\n              外史\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n\n\n              桜井\n             \n\n            、\n            \n\n              柴山\n             \n\n            両氏送別会（新喜楽）\n           \n\n\n",
+    "description": "\n\n\n           二日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n            ウイルロービー氏来約（\n            \n             飛鳥山邸\n            \n            ）\n            \n            （\n            \n\n              目賀田\n             \n\n            男紹介）\n           \n\n\n\n\n             午後二時\n            \n            修養主催第二回教育懇話会《（団脱カ）》（礫川小学校）\n           \n\n\n\n\n             午後四時\n            \n\n             長岡\n            \n            外史氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n\n\n              桜井\n             \n\n            、\n            \n\n              柴山\n             \n\n            両氏送別会（新喜楽）\n           \n\n\n",
     "label": "二日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0178",
@@ -36,11 +29,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸",
+        "長岡",
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1918-07-02",
     "texts": [
@@ -69,7 +59,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            ウイルロービー氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n            <lb/>\n            （\n            <persName corresp=\"#pers_目賀田\">\n<surname>\n              目賀田\n             </surname>\n</persName>\n            男紹介）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0177\">\n<head>\n<date when=\"1918-07-02\">\n           二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            ウイルロービー氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n            <lb/>\n            （\n            <persName corresp=\"#pers_目賀田\">\n<surname>\n              目賀田\n             </surname>\n</persName>\n            男紹介）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            修養主催第二回教育懇話会《（団脱カ）》（礫川小学校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_長岡外史\">\n<surname>\n              長岡\n             </surname>\n<forename>\n              外史\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_桜井\">\n<surname>\n              桜井\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_柴山\">\n<surname>\n              柴山\n             </surname>\n</persName>\n            両氏送別会（新喜楽）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0177\">\n<head>\n<date when=\"1918-07-02\">\n           二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            ウイルロービー氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n            <lb/>\n            （\n            <persName corresp=\"#pers_目賀田\">\n<surname>\n              目賀田\n             </surname>\n</persName>\n            男紹介）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            修養主催第二回教育懇話会《（団脱カ）》（礫川小学校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_長岡\">\n             長岡\n            </placeName>\n            外史氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_桜井\">\n<surname>\n              桜井\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_柴山\">\n<surname>\n              柴山\n             </surname>\n</persName>\n            両氏送別会（新喜楽）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-07"
 }

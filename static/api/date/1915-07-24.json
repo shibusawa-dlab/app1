@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1188",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +15,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-07",
     "date_lvl2": "1915-07-24",
-    "description": "\n\n\n           廿四日\n          \n          （土）\n         \n\n\n\n\n             午前十時半\n            \n            大蔵大臣ト御会見（大臣官邸）\n           \n\n\n\n\n             午前十一半時\n            \n\n             日本煉瓦会社\n            \n            総会（日本橋クラブ）\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n            総会（銀行集会所）\n           \n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （土）\n         \n\n\n\n\n             午前十時半\n            \n            大蔵大臣ト御会見（大臣官邸）\n           \n\n\n\n\n             午前十一半時\n            \n\n             日本\n            \n            煉瓦会社総会（\n            \n             日本橋\n            \n            クラブ）\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n            総会（銀行集会所）\n           \n\n\n",
     "label": "廿四日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0196",
@@ -24,8 +23,10 @@
     "prev": "DKB20017m-0194",
     "sort": "DKB20017m-0195",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
-    "spatial_uri": [],
+    "spatial": [
+        "日本",
+        "日本橋"
+    ],
     "temporal": "1915-07-24",
     "texts": [
         "DKB20028m-0026",
@@ -53,7 +54,7 @@
         "10:30:00": "<div><time when=\"10:30:00\">\n             午前十時半\n            </time>\n            大蔵大臣ト御会見（大臣官邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0195\">\n<head>\n<date when=\"1915-07-24\">\n           廿四日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十時半\n            </time>\n            大蔵大臣ト御会見（大臣官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<orgName>\n             日本煉瓦会社\n            </orgName>\n            総会（日本橋クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n            総会（銀行集会所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0195\">\n<head>\n<date when=\"1915-07-24\">\n           廿四日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十時半\n            </time>\n            大蔵大臣ト御会見（大臣官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            煉瓦会社総会（\n            <placeName corresp=\"#place_日本橋\">\n             日本橋\n            </placeName>\n            クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n            総会（銀行集会所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-07"
 }

@@ -2,16 +2,7 @@
     "agential": [
         "大隈",
         "江原",
-        "島田",
-        "押川",
-        "本多"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/大隈",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/江原",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/島田",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/押川",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/本多"
+        "押川"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/115",
     "category": {
@@ -28,7 +19,7 @@
     "date_lvl0": "1899",
     "date_lvl1": "1899-05",
     "date_lvl2": "1899-05-25",
-    "description": "\n\n\n        五月廿五日\n       \n\n\n       曇、朝来数多ノ来客ニ接ス、\n       \n        午前十一時\n       \n       磐城炭坑会社重役会ニ列ス、\n       \n        午後二時\n       \n\n        第一銀行\n       \n       重役会ニ列ス、\n       \n        午後四時\n       \n       早稲田\n       \n\n         大隈\n        \n\n       伯ヲ訪フ、海外教育会ノ事ヲ議ス、\n       \n\n         江原\n        \n\n       、\n       \n\n         島田\n        \n\n       、\n       \n\n         押川\n        \n\n       、\n       \n\n         本多\n        \n\n       ノ諸氏来会ス、\n       \n        午後六時\n       \n\n\n         帝国ホテル\n        \n\n       ニ抵リ、海上保険会社株主相談会ニ列ス、夜\n       \n        九時\n       \n\n        浜町\n       \n       ニ帰宿ス\n      \n",
+    "description": "\n\n\n        五月廿五日\n       \n\n\n       曇、朝来数多ノ来客ニ接ス、\n       \n        午前十一時\n       \n       磐城炭坑会社重役会ニ列ス、\n       \n        午後二時\n       \n\n        第一銀行\n       \n       重役会ニ列ス、\n       \n        午後四時\n       \n       早稲田\n       \n\n         大隈\n        \n\n       伯ヲ訪フ、海外教育会ノ事ヲ議ス、\n       \n\n         江原\n        \n\n       、島田、\n       \n\n         押川\n        \n\n       、本多ノ諸氏来会ス、\n       \n        午後六時\n       \n\n\n         帝国ホテル\n        \n\n       ニ抵リ、海上保険会社株主相談会ニ列ス、夜\n       \n        九時\n       \n\n        浜町\n       \n       ニ帰宿ス\n      \n",
     "label": "五月廿五日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10008m-0146",
@@ -38,9 +29,6 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "浜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/浜町"
     ],
     "temporal": "1899-05-25",
     "texts": [
@@ -68,12 +56,12 @@
     "time": {
         "11:00:00": "<div>曇、朝来数多ノ来客ニ接ス、<time when=\"11:00:00\">\n        午前十一時\n       </time>\n       磐城炭坑会社重役会ニ列ス、</div>",
         "14:00:00": "<div><time when=\"14:00:00\">\n        午後二時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       重役会ニ列ス、</div>",
-        "16:00:00": "<div><time when=\"16:00:00\">\n        午後四時\n       </time>\n       早稲田\n       <persName corresp=\"#pers_大隈\">\n<surname>\n         大隈\n        </surname>\n</persName>\n       伯ヲ訪フ、海外教育会ノ事ヲ議ス、\n       <persName corresp=\"#pers_江原\">\n<surname>\n         江原\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_島田\">\n<surname>\n         島田\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_押川\">\n<surname>\n         押川\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_本多\">\n<surname>\n         本多\n        </surname>\n</persName>\n       ノ諸氏来会ス、</div>",
+        "16:00:00": "<div><time when=\"16:00:00\">\n        午後四時\n       </time>\n       早稲田\n       <persName corresp=\"#pers_大隈\">\n<surname>\n         大隈\n        </surname>\n</persName>\n       伯ヲ訪フ、海外教育会ノ事ヲ議ス、\n       <persName corresp=\"#pers_江原\">\n<surname>\n         江原\n        </surname>\n</persName>\n       、島田、\n       <persName corresp=\"#pers_押川\">\n<surname>\n         押川\n        </surname>\n</persName>\n       、本多ノ諸氏来会ス、</div>",
         "18:00:00": "<div><time when=\"18:00:00\">\n        午後六時\n       </time>\n<orgName>\n<orgName>\n         帝国ホテル\n        </orgName>\n</orgName>\n       ニ抵リ、海上保険会社株主相談会ニ列ス、夜</div>",
         "21:00:00": "<div><time when=\"21:00:00\">\n        九時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-0145\">\n<head>\n<date when=\"1899-05-25\">\n        五月廿五日\n       </date>\n</head>\n<p>\n       曇、朝来数多ノ来客ニ接ス、\n       <time when=\"11:00:00\">\n        午前十一時\n       </time>\n       磐城炭坑会社重役会ニ列ス、\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       重役会ニ列ス、\n       <time when=\"16:00:00\">\n        午後四時\n       </time>\n       早稲田\n       <persName corresp=\"#pers_大隈\">\n<surname>\n         大隈\n        </surname>\n</persName>\n       伯ヲ訪フ、海外教育会ノ事ヲ議ス、\n       <persName corresp=\"#pers_江原\">\n<surname>\n         江原\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_島田\">\n<surname>\n         島田\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_押川\">\n<surname>\n         押川\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_本多\">\n<surname>\n         本多\n        </surname>\n</persName>\n       ノ諸氏来会ス、\n       <time when=\"18:00:00\">\n        午後六時\n       </time>\n<orgName>\n<orgName>\n         帝国ホテル\n        </orgName>\n</orgName>\n       ニ抵リ、海上保険会社株主相談会ニ列ス、夜\n       <time when=\"21:00:00\">\n        九時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-0145\">\n<head>\n<date when=\"1899-05-25\">\n        五月廿五日\n       </date>\n</head>\n<p>\n       曇、朝来数多ノ来客ニ接ス、\n       <time when=\"11:00:00\">\n        午前十一時\n       </time>\n       磐城炭坑会社重役会ニ列ス、\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       重役会ニ列ス、\n       <time when=\"16:00:00\">\n        午後四時\n       </time>\n       早稲田\n       <persName corresp=\"#pers_大隈\">\n<surname>\n         大隈\n        </surname>\n</persName>\n       伯ヲ訪フ、海外教育会ノ事ヲ議ス、\n       <persName corresp=\"#pers_江原\">\n<surname>\n         江原\n        </surname>\n</persName>\n       、島田、\n       <persName corresp=\"#pers_押川\">\n<surname>\n         押川\n        </surname>\n</persName>\n       、本多ノ諸氏来会ス、\n       <time when=\"18:00:00\">\n        午後六時\n       </time>\n<orgName>\n<orgName>\n         帝国ホテル\n        </orgName>\n</orgName>\n       ニ抵リ、海上保険会社株主相談会ニ列ス、夜\n       <time when=\"21:00:00\">\n        九時\n       </time>\n<placeName corresp=\"#place_浜町\">\n        浜町\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1899",
     "yearAndMonth": "1899-05"
 }

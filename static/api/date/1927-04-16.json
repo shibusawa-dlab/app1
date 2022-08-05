@@ -2,18 +2,8 @@
     "agential": [
         "林",
         "遠藤吉平",
-        "土方久徴",
-        "平沼",
         "若槻",
         "金子"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/林",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/遠藤吉平",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/土方久徴",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/平沼",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/若槻",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/金子"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1541",
     "category": {
@@ -30,7 +20,7 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-04",
     "date_lvl2": "1927-04-16",
-    "description": "\n\n\n           十六日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n\n\n              林\n             \n\n            医学士来診（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n\n              遠藤\n             \n\n              吉平\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            大倉高等商業学校協議員会（帝国ホテル）\n           \n\n\n\n\n             午後一時\n            \n\n\n              土方\n             \n\n              久徴\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後一・一〇時\n            \n            御出勤\n           \n\n\n\n\n             午後二時\n            \n\n\n              平沼\n             \n\n            枢府副議長ヲ御訪問\n           \n\n\n\n\n             午後三時\n            \n\n\n              若槻\n             \n\n            首相ヲ御訪問（同官邸）\n           \n\n\n\n\n             午後四時\n            \n\n\n              金子\n             \n\n            子爵ヲ御訪問（同邸）\n           \n\n\n\n\n             午後五時\n            \n            国際聯盟協会春季大講演会（帝大大講堂）\n           \n\n\n",
+    "description": "\n\n\n           十六日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n\n\n              林\n             \n\n            医学士来診（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n\n              遠藤\n             \n\n              吉平\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n            大倉高等商業学校協議員会（帝国ホテル）\n           \n\n\n\n\n             午後一時\n            \n            土方久徴氏来約（事務所）\n           \n\n\n\n\n             午後一・一〇時\n            \n            御出勤\n           \n\n\n\n\n             午後二時\n            \n\n             平沼\n            \n            枢府副議長ヲ御訪問\n           \n\n\n\n\n             午後三時\n            \n\n\n              若槻\n             \n\n            首相ヲ御訪問（同官邸）\n           \n\n\n\n\n             午後四時\n            \n\n\n              金子\n             \n\n            子爵ヲ御訪問（同邸）\n           \n\n\n\n\n             午後五時\n            \n            国際聯盟協会春季大講演会（帝大大講堂）\n           \n\n\n",
     "label": "十六日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0091",
@@ -39,10 +29,8 @@
     "sort": "DKB20029m-0089",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山公園",
+        "平沼"
     ],
     "temporal": "1927-04-16",
     "texts": [
@@ -68,10 +56,10 @@
         "DKB20019m-0258"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_林\">\n<surname>\n              林\n             </surname>\n</persName>\n            医学士来診（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_林\">\n<surname>\n              林\n             </surname>\n</persName>\n            医学士来診（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0089\">\n<head>\n<date when=\"1927-04-16\">\n           十六日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_林\">\n<surname>\n              林\n             </surname>\n</persName>\n            医学士来診（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_遠藤吉平\">\n<surname>\n              遠藤\n             </surname>\n<forename>\n              吉平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            大倉高等商業学校協議員会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_土方久徴\">\n<surname>\n              土方\n             </surname>\n<forename>\n              久徴\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:10:00\">\n             午後一・一〇時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_平沼\">\n<surname>\n              平沼\n             </surname>\n</persName>\n            枢府副議長ヲ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_若槻\">\n<surname>\n              若槻\n             </surname>\n</persName>\n            首相ヲ御訪問（同官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_金子\">\n<surname>\n              金子\n             </surname>\n</persName>\n            子爵ヲ御訪問（同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            国際聯盟協会春季大講演会（帝大大講堂）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0089\">\n<head>\n<date when=\"1927-04-16\">\n           十六日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_林\">\n<surname>\n              林\n             </surname>\n</persName>\n            医学士来診（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_遠藤吉平\">\n<surname>\n              遠藤\n             </surname>\n<forename>\n              吉平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            大倉高等商業学校協議員会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            土方久徴氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:10:00\">\n             午後一・一〇時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_平沼\">\n             平沼\n            </placeName>\n            枢府副議長ヲ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_若槻\">\n<surname>\n              若槻\n             </surname>\n</persName>\n            首相ヲ御訪問（同官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_金子\">\n<surname>\n              金子\n             </surname>\n</persName>\n            子爵ヲ御訪問（同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            国際聯盟協会春季大講演会（帝大大講堂）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-04"
 }

@@ -1,19 +1,8 @@
 {
     "agential": [
         "小倉常吉",
-        "田中",
-        "二神",
-        "牧野",
         "林権助",
         "大久保利武"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/小倉常吉",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/田中",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/二神",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/牧野",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/林権助",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/大久保利武"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1626",
     "category": {
@@ -30,7 +19,7 @@
     "date_lvl0": "1931",
     "date_lvl1": "1931-07",
     "date_lvl2": "1931-07-03",
-    "description": "\n\n\n           三日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n\n\n              小倉\n             \n\n              常吉\n             \n\n            氏来邸（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午時\n            \n\n\n              田中\n             \n\n            及\n            \n\n              二神\n             \n\n            二氏来約　事務所\n           \n\n\n\n\n             午零時\n            \n\n\n              牧野\n             \n\n            宮内大臣、\n            \n\n              林\n             \n\n              権助\n             \n\n            、\n            \n\n              大久保\n             \n\n              利武\n             \n\n            、銀行ヘ来行ニ付、其頃子爵モ出向セラルヽコト\n           \n\n\n",
+    "description": "\n\n\n           三日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n\n\n              小倉\n             \n\n              常吉\n             \n\n            氏来邸（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午時\n            \n\n             田中\n            \n            及二神二氏来約　事務所\n           \n\n\n\n\n             午零時\n            \n            牧野宮内大臣、\n            \n\n              林\n             \n\n              権助\n             \n\n            、\n            \n\n              大久保\n             \n\n              利武\n             \n\n            、銀行ヘ来行ニ付、其頃子爵モ出向セラルヽコト\n           \n\n\n",
     "label": "三日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20033m-0121",
@@ -39,10 +28,8 @@
     "sort": "DKB20033m-0120",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山公園",
+        "田中"
     ],
     "temporal": "1931-07-03",
     "texts": [
@@ -68,10 +55,10 @@
         "DKB20030m-0157"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_小倉常吉\">\n<surname>\n              小倉\n             </surname>\n<forename>\n              常吉\n             </forename>\n</persName>\n            氏来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_小倉常吉\">\n<surname>\n              小倉\n             </surname>\n<forename>\n              常吉\n             </forename>\n</persName>\n            氏来邸（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0120\">\n<head>\n<date when=\"1931-07-03\">\n           三日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_小倉常吉\">\n<surname>\n              小倉\n             </surname>\n<forename>\n              常吉\n             </forename>\n</persName>\n            氏来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_田中\">\n<surname>\n              田中\n             </surname>\n</persName>\n            及\n            <persName corresp=\"#pers_二神\">\n<surname>\n              二神\n             </surname>\n</persName>\n            二氏来約　事務所\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午零時\n            </time>\n<persName corresp=\"#pers_牧野\">\n<surname>\n              牧野\n             </surname>\n</persName>\n            宮内大臣、\n            <persName corresp=\"#pers_林権助\">\n<surname>\n              林\n             </surname>\n<forename>\n              権助\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_大久保利武\">\n<surname>\n              大久保\n             </surname>\n<forename>\n              利武\n             </forename>\n</persName>\n            、銀行ヘ来行ニ付、其頃子爵モ出向セラルヽコト\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0120\">\n<head>\n<date when=\"1931-07-03\">\n           三日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_小倉常吉\">\n<surname>\n              小倉\n             </surname>\n<forename>\n              常吉\n             </forename>\n</persName>\n            氏来邸（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<placeName corresp=\"#place_田中\">\n             田中\n            </placeName>\n            及二神二氏来約　事務所\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午零時\n            </time>\n            牧野宮内大臣、\n            <persName corresp=\"#pers_林権助\">\n<surname>\n              林\n             </surname>\n<forename>\n              権助\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_大久保利武\">\n<surname>\n              大久保\n             </surname>\n<forename>\n              利武\n             </forename>\n</persName>\n            、銀行ヘ来行ニ付、其頃子爵モ出向セラルヽコト\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1931",
     "yearAndMonth": "1931-07"
 }

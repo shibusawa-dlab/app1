@@ -2,12 +2,8 @@
     "agential": [
         "荒井賢太郎",
         "尾崎",
-        "大江卓"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/荒井賢太郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/尾崎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/大江卓"
+        "大江卓",
+        "翠雲"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1193",
     "category": {
@@ -24,7 +20,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-10",
     "date_lvl2": "1915-10-18",
-    "description": "\n\n\n           十八日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n\n\n              荒井\n             \n\n              賢太郎\n             \n\n            氏ヲ御訪問（小、\n            \n             金富\n            \n            、五六同氏邸）\n           \n\n\n\n\n             午前十時\n            \n\n\n              尾崎\n             \n\n            法相ヲ御訪問（法相官舎）\n           \n\n\n\n\n             午前十一時半\n            \n\n\n              大江\n             \n\n              卓\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n\n             正午\n            \n\n             埼玉\n            \n            県人ヨリ御案内（日本橋クラブ）\n           \n\n\n\n\n             午后四時\n            \n            翠雲会、観山会ヨリ御案内（トキワヤ）\n           \n\n\n",
+    "description": "\n\n\n           十八日\n          \n          （月）\n         \n\n\n\n\n             午前九時\n            \n\n\n              荒井\n             \n\n              賢太郎\n             \n\n            氏ヲ御訪問（\n            \n             小\n            \n            、\n            \n             金富\n            \n            、五六同氏邸）\n           \n\n\n\n\n             午前十時\n            \n\n\n              尾崎\n             \n\n            法相ヲ御訪問（法相官舎）\n           \n\n\n\n\n             午前十一時半\n            \n\n\n              大江\n             \n\n              卓\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n\n             正午\n            \n\n             埼玉\n            \n            県人ヨリ御案内（\n            \n             日本橋\n            \n            クラブ）\n           \n\n\n\n\n             午后四時\n            \n\n\n              翠雲\n             \n\n            会、観山会ヨリ御案内（トキワヤ）\n           \n\n\n",
     "label": "十八日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0263",
@@ -33,14 +29,11 @@
     "sort": "DKB20017m-0262",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "小",
         "金富",
         "日本橋兜町",
-        "埼玉"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/金富",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/埼玉"
+        "埼玉",
+        "日本橋"
     ],
     "temporal": "1915-10-18",
     "texts": [
@@ -66,10 +59,10 @@
         "DKB20019m-0208"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_荒井賢太郎\">\n<surname>\n              荒井\n             </surname>\n<forename>\n              賢太郎\n             </forename>\n</persName>\n            氏ヲ御訪問（小、\n            <placeName corresp=\"#place_金富\">\n             金富\n            </placeName>\n            、五六同氏邸）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_荒井賢太郎\">\n<surname>\n              荒井\n             </surname>\n<forename>\n              賢太郎\n             </forename>\n</persName>\n            氏ヲ御訪問（\n            <placeName corresp=\"#place_小\">\n             小\n            </placeName>\n            、\n            <placeName corresp=\"#place_金富\">\n             金富\n            </placeName>\n            、五六同氏邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0262\">\n<head>\n<date when=\"1915-10-18\">\n           十八日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_荒井賢太郎\">\n<surname>\n              荒井\n             </surname>\n<forename>\n              賢太郎\n             </forename>\n</persName>\n            氏ヲ御訪問（小、\n            <placeName corresp=\"#place_金富\">\n             金富\n            </placeName>\n            、五六同氏邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_尾崎\">\n<surname>\n              尾崎\n             </surname>\n</persName>\n            法相ヲ御訪問（法相官舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n<persName corresp=\"#pers_大江卓\">\n<surname>\n              大江\n             </surname>\n<forename>\n              卓\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2354\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1193/full/max/0/default.jpg\" n=\"B2354\" source=\"#pageB2354\"/>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県人ヨリ御案内（日本橋クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午后四時\n            </time>\n            翠雲会、観山会ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0262\">\n<head>\n<date when=\"1915-10-18\">\n           十八日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_荒井賢太郎\">\n<surname>\n              荒井\n             </surname>\n<forename>\n              賢太郎\n             </forename>\n</persName>\n            氏ヲ御訪問（\n            <placeName corresp=\"#place_小\">\n             小\n            </placeName>\n            、\n            <placeName corresp=\"#place_金富\">\n             金富\n            </placeName>\n            、五六同氏邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_尾崎\">\n<surname>\n              尾崎\n             </surname>\n</persName>\n            法相ヲ御訪問（法相官舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n<persName corresp=\"#pers_大江卓\">\n<surname>\n              大江\n             </surname>\n<forename>\n              卓\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2354\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1193/full/max/0/default.jpg\" n=\"B2354\" source=\"#pageB2354\"/>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県人ヨリ御案内（\n            <placeName corresp=\"#place_日本橋\">\n             日本橋\n            </placeName>\n            クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午后四時\n            </time>\n<persName corresp=\"#pers_翠雲\">\n<forename>\n              翠雲\n             </forename>\n</persName>\n            会、観山会ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-10"
 }

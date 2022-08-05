@@ -1,10 +1,5 @@
 {
-    "agential": [
-        "ポール_クローデル"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/ポール_クローデル"
-    ],
+    "agential": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1535",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +15,7 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-02",
     "date_lvl2": "1927-02-13",
-    "description": "\n\n\n           十三日\n          \n          （日）\n         \n\n\n\n\n             午時\n            \n            養育院ヘ御出向\n           \n\n\n\n\n             午零時半\n            \n\n             仏国\n            \n            大使\n            \n\n              クローデル\n             \n\n            氏送別会（工業クラブ）\n           \n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （日）\n         \n\n\n\n\n             午時\n            \n            養育院ヘ御出向\n           \n\n\n\n\n             午零時半\n            \n\n             仏国\n            \n            大使クローデル氏送別会（工業クラブ）\n           \n\n\n",
     "label": "十三日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0028",
@@ -29,10 +24,7 @@
     "sort": "DKB20029m-0027",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "フランス"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/フランス"
+        "仏国"
     ],
     "temporal": "1927-02-13",
     "texts": [
@@ -61,7 +53,7 @@
         "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n            養育院ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0027\">\n<head>\n<date when=\"1927-02-13\">\n           十三日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            養育院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午零時半\n            </time>\n<placeName corresp=\"#place_フランス\">\n             仏国\n            </placeName>\n            大使\n            <persName corresp=\"#pers_ポール_クローデル\">\n<surname>\n              クローデル\n             </surname>\n</persName>\n            氏送別会（工業クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0027\">\n<head>\n<date when=\"1927-02-13\">\n           十三日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            養育院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午零時半\n            </time>\n<placeName corresp=\"#place_仏国\">\n             仏国\n            </placeName>\n            大使クローデル氏送別会（工業クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-02"
 }

@@ -3,10 +3,6 @@
         "藤掛与左衛門",
         "長沢倉吉"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/藤掛与左衛門",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/長沢倉吉"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1197",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -22,7 +18,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-02",
     "date_lvl2": "1916-02-02",
-    "description": "\n\n\n           二日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n\n             十勝開墾会社\n            \n            総会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時半\n            \n\n\n              藤掛\n             \n\n              与左衛門\n             \n\n            氏ヨリ御案内（\n            \n             築地\n            \n\n             精養軒\n            \n            ）\n           \n\n\n\n\n             午時\n            \n\n\n              長沢\n             \n\n              倉吉\n             \n\n            氏ヨリ御案内\n           \n\n\n",
+    "description": "\n\n\n           二日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n            十勝開墾会社総会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時半\n            \n\n\n              藤掛\n             \n\n              与左衛門\n             \n\n            氏ヨリ御案内（築地精養軒）\n           \n\n\n\n\n             午時\n            \n\n\n              長沢\n             \n\n              倉吉\n             \n\n            氏ヨリ御案内\n           \n\n\n",
     "label": "二日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0032",
@@ -31,12 +27,7 @@
     "sort": "DKB20018m-0031",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "日本橋兜町",
-        "築地"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
+        "日本橋兜町"
     ],
     "temporal": "1916-02-02",
     "texts": [
@@ -62,10 +53,10 @@
         "DKB20017m-0158"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             十勝開墾会社\n            </orgName>\n            総会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            十勝開墾会社総会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0031\">\n<head>\n<date when=\"1916-02-02\">\n           二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             十勝開墾会社\n            </orgName>\n            総会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四時半\n            </time>\n<persName corresp=\"#pers_藤掛与左衛門\">\n<surname>\n              藤掛\n             </surname>\n<forename>\n              与左衛門\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_長沢倉吉\">\n<surname>\n              長沢\n             </surname>\n<forename>\n              倉吉\n             </forename>\n</persName>\n            氏ヨリ御案内\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0031\">\n<head>\n<date when=\"1916-02-02\">\n           二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            十勝開墾会社総会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四時半\n            </time>\n<persName corresp=\"#pers_藤掛与左衛門\">\n<surname>\n              藤掛\n             </surname>\n<forename>\n              与左衛門\n             </forename>\n</persName>\n            氏ヨリ御案内（築地精養軒）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_長沢倉吉\">\n<surname>\n              長沢\n             </surname>\n<forename>\n              倉吉\n             </forename>\n</persName>\n            氏ヨリ御案内\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-02"
 }

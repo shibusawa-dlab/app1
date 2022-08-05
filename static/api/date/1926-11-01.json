@@ -1,11 +1,6 @@
 {
     "agential": [
-        "長岡",
         "閑院宮"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/長岡",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/閑院宮"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1529",
     "category": {
@@ -22,7 +17,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-11",
     "date_lvl2": "1926-11-01",
-    "description": "\n\n\n           一日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n\n\n              長岡\n             \n\n            社会局長ト御会見ノ約（社会局）\n           \n\n\n\n\n             午後零・二〇\n            \n            御出勤\n           \n\n\n\n\n             午後三時\n            \n\n\n              閑院宮\n             \n\n            殿下ヨリ御案内（\n            \n             新宿\n            \n            御苑）平服、シルクハツト\n           \n\n\n",
+    "description": "\n\n\n           一日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n\n             長岡\n            \n            社会局長ト御会見ノ約（社会局）\n           \n\n\n\n\n             午後零・二〇\n            \n            御出勤\n           \n\n\n\n\n             午後三時\n            \n\n\n              閑院宮\n             \n\n            殿下ヨリ御案内（\n            \n             新宿\n            \n            御苑）平服、シルクハツト\n           \n\n\n",
     "label": "一日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0286",
@@ -31,10 +26,8 @@
     "sort": "DKB20028m-0285",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "長岡",
         "新宿"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/新宿"
     ],
     "temporal": "1926-11-01",
     "texts": [
@@ -60,10 +53,10 @@
         "DKB20030m-0251"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_長岡\">\n<surname>\n              長岡\n             </surname>\n</persName>\n            社会局長ト御会見ノ約（社会局）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_長岡\">\n             長岡\n            </placeName>\n            社会局長ト御会見ノ約（社会局）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0285\">\n<head>\n<date when=\"1926-11-01\">\n           一日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_長岡\">\n<surname>\n              長岡\n             </surname>\n</persName>\n            社会局長ト御会見ノ約（社会局）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:20:00\">\n             午後零・二〇\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_閑院宮\">\n<surname>\n              閑院宮\n             </surname>\n</persName>\n            殿下ヨリ御案内（\n            <placeName corresp=\"#place_新宿\">\n             新宿\n            </placeName>\n            御苑）平服、シルクハツト\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0285\">\n<head>\n<date when=\"1926-11-01\">\n           一日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_長岡\">\n             長岡\n            </placeName>\n            社会局長ト御会見ノ約（社会局）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:20:00\">\n             午後零・二〇\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_閑院宮\">\n<surname>\n              閑院宮\n             </surname>\n</persName>\n            殿下ヨリ御案内（\n            <placeName corresp=\"#place_新宿\">\n             新宿\n            </placeName>\n            御苑）平服、シルクハツト\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-11"
 }

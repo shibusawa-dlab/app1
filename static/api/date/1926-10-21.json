@@ -3,10 +3,6 @@
         "原泰一",
         "斎藤"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/原泰一",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/斎藤"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1527",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -31,14 +27,10 @@
     "sort": "DKB20028m-0274",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
+        "飛鳥山公園",
         "埼玉",
+        "飛鳥山邸",
         "フランス"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/埼玉",
-        "https://shibusawa-dlab.github.io/lab1/api/place/フランス"
     ],
     "temporal": "1926-10-21",
     "texts": [
@@ -65,7 +57,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0274\">\n<head>\n<date when=\"1926-10-21\">\n           廿一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             朝\n            </time>\n<persName corresp=\"#pers_原泰一\">\n<surname>\n              原\n             </surname>\n<forename>\n              泰一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_斎藤\">\n<surname>\n              斎藤\n             </surname>\n</persName>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県知事来訪約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_フランス\">\n             仏蘭西\n            </placeName>\n            大使ヨリ御案内（同大使館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:20:00\">\n             午後二・二〇\n            </time>\n            御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0274\">\n<head>\n<date when=\"1926-10-21\">\n           廿一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             朝\n            </time>\n<persName corresp=\"#pers_原泰一\">\n<surname>\n              原\n             </surname>\n<forename>\n              泰一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_斎藤\">\n<surname>\n              斎藤\n             </surname>\n</persName>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県知事来訪約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_フランス\">\n             仏蘭西\n            </placeName>\n            大使ヨリ御案内（同大使館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:20:00\">\n             午後二・二〇\n            </time>\n            御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-10"
 }

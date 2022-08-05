@@ -1,11 +1,7 @@
 {
     "agential": [
-        "中村英雄",
+        "中村",
         "徳川家達"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/中村英雄",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川家達"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1608",
     "category": {
@@ -22,7 +18,7 @@
     "date_lvl0": "1930",
     "date_lvl1": "1930-05",
     "date_lvl2": "1930-05-03",
-    "description": "\n\n\n           三日\n          \n          （土）\n         \n\n\n\n\n             午前十一時\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午前十一時\n            \n\n\n              中村\n             \n\n              英雄\n             \n\n            来約《（氏脱）》（事務所）\n           \n\n\n\n\n             午後一時\n            \n\n\n              徳川\n             \n\n              家達\n             \n\n            公ト華族会館ニ於テ御会見\n           \n\n\n\n\n             午後二時\n            \n            国際聯盟協会談話会（同協会集会室）\n           \n\n\n",
+    "description": "\n\n\n           三日\n          \n          （土）\n         \n\n\n\n\n             午前十一時\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午前十一時\n            \n\n\n              中村\n             \n\n            英雄来約《（氏脱）》（事務所）\n           \n\n\n\n\n             午後一時\n            \n\n\n              徳川\n             \n\n              家達\n             \n\n            公ト華族会館ニ於テ御会見\n           \n\n\n\n\n             午後二時\n            \n            国際聯盟協会談話会（同協会集会室）\n           \n\n\n",
     "label": "三日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20032m-0039",
@@ -31,7 +27,6 @@
     "sort": "DKB20032m-0037",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [],
-    "spatial_uri": [],
     "temporal": "1930-05-03",
     "texts": [
         "DKB20031m-0124",
@@ -59,7 +54,7 @@
         "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            事務所ニ御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0037\">\n<head>\n<date when=\"1930-05-03\">\n           三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_中村英雄\">\n<surname>\n              中村\n             </surname>\n<forename>\n              英雄\n             </forename>\n</persName>\n            来約《（氏脱）》（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_徳川家達\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              家達\n             </forename>\n</persName>\n            公ト華族会館ニ於テ御会見\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            国際聯盟協会談話会（同協会集会室）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0037\">\n<head>\n<date when=\"1930-05-03\">\n           三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            英雄来約《（氏脱）》（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_徳川家達\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              家達\n             </forename>\n</persName>\n            公ト華族会館ニ於テ御会見\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            国際聯盟協会談話会（同協会集会室）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1930",
     "yearAndMonth": "1930-05"
 }

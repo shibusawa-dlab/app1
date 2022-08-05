@@ -1,17 +1,8 @@
 {
     "agential": [
         "小貫修一郎",
-        "ゲーリー",
-        "フライシヤー",
         "広橋嘉七郎",
         "服部宇之吉"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/小貫修一郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/ゲーリー",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/フライシヤー",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/広橋嘉七郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/服部宇之吉"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1347",
     "category": {
@@ -28,7 +19,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-11",
     "date_lvl2": "1920-11-24",
-    "description": "\n\n\n           廿四日\n          \n          （水）\n         \n\n\n\n\n             午前八時\n            \n\n\n              小貫\n             \n\n              修一郎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午〇時半時\n            \n            日米協会催、\n            \n\n              ゲーリー\n             \n\n            、\n            \n\n              フライシヤー\n             \n\n            両氏送別会（華族会館）\n           \n\n\n\n\n             午後二―三時\n            \n\n\n              広橋\n             \n\n              嘉七郎\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後三半時\n            \n\n\n              服部\n             \n\n              宇之吉\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （水）\n         \n\n\n\n\n             午前八時\n            \n\n\n              小貫\n             \n\n              修一郎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午〇時半時\n            \n            日米協会催、ゲーリー、フライシヤー両氏送別会（華族会館）\n           \n\n\n\n\n             午後二―三時\n            \n\n\n              広橋\n             \n\n              嘉七郎\n             \n\n            氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後三半時\n            \n\n\n              服部\n             \n\n              宇之吉\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "廿四日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0308",
@@ -37,12 +28,8 @@
     "sort": "DKB20022m-0307",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
+        "飛鳥山公園",
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1920-11-24",
     "texts": [
@@ -68,10 +55,10 @@
         "DKB20017m-0067"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_小貫修一郎\">\n<surname>\n              小貫\n             </surname>\n<forename>\n              修一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_小貫修一郎\">\n<surname>\n              小貫\n             </surname>\n<forename>\n              修一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0307\">\n<head>\n<date when=\"1920-11-24\">\n           廿四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_小貫修一郎\">\n<surname>\n              小貫\n             </surname>\n<forename>\n              修一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午〇時半時\n            </time>\n            日米協会催、\n            <persName corresp=\"#pers_ゲーリー\">\n<surname>\n              ゲーリー\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_フライシヤー\">\n<surname>\n              フライシヤー\n             </surname>\n</persName>\n            両氏送別会（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―三時\n            </time>\n<persName corresp=\"#pers_広橋嘉七郎\">\n<surname>\n              広橋\n             </surname>\n<forename>\n              嘉七郎\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n<persName corresp=\"#pers_服部宇之吉\">\n<surname>\n              服部\n             </surname>\n<forename>\n              宇之吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0307\">\n<head>\n<date when=\"1920-11-24\">\n           廿四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_小貫修一郎\">\n<surname>\n              小貫\n             </surname>\n<forename>\n              修一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午〇時半時\n            </time>\n            日米協会催、ゲーリー、フライシヤー両氏送別会（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―三時\n            </time>\n<persName corresp=\"#pers_広橋嘉七郎\">\n<surname>\n              広橋\n             </surname>\n<forename>\n              嘉七郎\n             </forename>\n</persName>\n            氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n<persName corresp=\"#pers_服部宇之吉\">\n<surname>\n              服部\n             </surname>\n<forename>\n              宇之吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-11"
 }

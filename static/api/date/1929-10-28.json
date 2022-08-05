@@ -1,6 +1,7 @@
 {
-    "agential": [],
-    "agential_uri": [],
+    "agential": [
+        "渋沢"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1603",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +17,7 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-10",
     "date_lvl2": "1929-10-28",
-    "description": "\n\n\n           廿八日\n          \n          （月）\n         \n\n\n\n\n             午後二半時\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午後三時半―四時\n            \n            俵商工大臣ト御会見（渋沢事務所）\n           \n\n\n\n\n             午後五時\n            \n            御同族会（事務所）\n           \n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （月）\n         \n\n\n\n\n             午後二半時\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午後三時半―四時\n            \n            俵商工大臣ト御会見（\n            \n\n              渋沢\n             \n\n            事務所）\n           \n\n\n\n\n             午後五時\n            \n            御同族会（事務所）\n           \n\n\n",
     "label": "廿八日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20031m-0204",
@@ -25,7 +26,6 @@
     "sort": "DKB20031m-0203",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [],
-    "spatial_uri": [],
     "temporal": "1929-10-28",
     "texts": [
         "DKB20033m-0180",
@@ -53,7 +53,7 @@
         "14:30:00": "<div><time when=\"14:30:00\">\n             午後二半時\n            </time>\n            事務所ニ御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0203\">\n<head>\n<date when=\"1929-10-28\">\n           廿八日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:30:00\" to=\"16:00:00\">\n             午後三時半―四時\n            </time>\n            俵商工大臣ト御会見（渋沢事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0203\">\n<head>\n<date when=\"1929-10-28\">\n           廿八日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:30:00\" to=\"16:00:00\">\n             午後三時半―四時\n            </time>\n            俵商工大臣ト御会見（\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-10"
 }

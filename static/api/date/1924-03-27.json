@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1458",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -25,16 +24,10 @@
     "sort": "DKB20026m-0089",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "フランス",
+        "仏国",
         "東北地方",
         "日本",
         "大手町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/フランス",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東北地方",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本",
-        "https://shibusawa-dlab.github.io/lab1/api/place/大手町"
     ],
     "temporal": "1924-03-27",
     "texts": [
@@ -60,10 +53,10 @@
         "DKB20029m-0281"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_フランス\">\n             仏国\n            </placeName>\n            大使ト御会見ノ約（同大使館）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_仏国\">\n             仏国\n            </placeName>\n            大使ト御会見ノ約（同大使館）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0089\">\n<head>\n<date when=\"1924-03-27\">\n           廿七日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_フランス\">\n             仏国\n            </placeName>\n            大使ト御会見ノ約（同大使館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_東北地方\">\n             東北\n            </placeName>\n            振興会委員会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            結核予防協会復旧善後策協議会\n            <lb/>\n            （\n            <placeName corresp=\"#place_大手町\">\n             大手町\n            </placeName>\n            大\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            私立衛生会）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0089\">\n<head>\n<date when=\"1924-03-27\">\n           廿七日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_仏国\">\n             仏国\n            </placeName>\n            大使ト御会見ノ約（同大使館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_東北地方\">\n             東北\n            </placeName>\n            振興会委員会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            結核予防協会復旧善後策協議会\n            <lb/>\n            （\n            <placeName corresp=\"#place_大手町\">\n             大手町\n            </placeName>\n            大\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            私立衛生会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-03"
 }

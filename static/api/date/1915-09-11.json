@@ -1,13 +1,6 @@
 {
     "agential": [
-        "古河虎之助",
-        "レイ",
-        "ソメルトン"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/古河虎之助",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/レイ",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/ソメルトン"
+        "古河虎之助"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1190",
     "category": {
@@ -24,7 +17,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-09",
     "date_lvl2": "1915-09-11",
-    "description": "\n\n\n           十一日\n          \n          （土）\n         \n\n\n\n\n             午前十時半\n            \n\n\n              古河\n             \n\n              虎之助\n             \n\n            氏邸ヘ御出向（\n            \n             本郷\n            \n\n             真砂町\n            \n            ）\n           \n\n\n\n\n\n             午后三時\n            \n\n\n              レイ\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三半時\n            \n\n\n              ソメルトン\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （土）\n         \n\n\n\n\n             午前十時半\n            \n\n\n              古河\n             \n\n              虎之助\n             \n\n            氏邸ヘ御出向（\n            \n             本郷\n            \n\n             真砂町\n            \n            ）\n           \n\n\n\n\n\n             午后三時\n            \n            レイ氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三半時\n            \n            ソメルトン氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "十一日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0231",
@@ -36,11 +29,6 @@
         "本郷",
         "真砂町",
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/本郷",
-        "https://shibusawa-dlab.github.io/lab1/api/place/真砂町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1915-09-11",
     "texts": [
@@ -69,7 +57,7 @@
         "10:30:00": "<div><time when=\"10:30:00\">\n             午前十時半\n            </time>\n<persName corresp=\"#pers_古河虎之助\">\n<surname>\n              古河\n             </surname>\n<forename>\n              虎之助\n             </forename>\n</persName>\n            氏邸ヘ御出向（\n            <placeName corresp=\"#place_本郷\">\n             本郷\n            </placeName>\n<placeName corresp=\"#place_真砂町\">\n             真砂町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0230\">\n<head>\n<date when=\"1915-09-11\">\n           十一日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十時半\n            </time>\n<persName corresp=\"#pers_古河虎之助\">\n<surname>\n              古河\n             </surname>\n<forename>\n              虎之助\n             </forename>\n</persName>\n            氏邸ヘ御出向（\n            <placeName corresp=\"#place_本郷\">\n             本郷\n            </placeName>\n<placeName corresp=\"#place_真砂町\">\n             真砂町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2351\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1190/full/max/0/default.jpg\" n=\"B2351\" source=\"#pageB2351\"/>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n<persName corresp=\"#pers_レイ\">\n<surname>\n              レイ\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n<persName corresp=\"#pers_ソメルトン\">\n<surname>\n              ソメルトン\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0230\">\n<head>\n<date when=\"1915-09-11\">\n           十一日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十時半\n            </time>\n<persName corresp=\"#pers_古河虎之助\">\n<surname>\n              古河\n             </surname>\n<forename>\n              虎之助\n             </forename>\n</persName>\n            氏邸ヘ御出向（\n            <placeName corresp=\"#place_本郷\">\n             本郷\n            </placeName>\n<placeName corresp=\"#place_真砂町\">\n             真砂町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2351\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1190/full/max/0/default.jpg\" n=\"B2351\" source=\"#pageB2351\"/>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n            レイ氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:30:00\">\n             午後三半時\n            </time>\n            ソメルトン氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-09"
 }

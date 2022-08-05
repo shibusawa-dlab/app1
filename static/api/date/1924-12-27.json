@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1484",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +15,7 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-12",
     "date_lvl2": "1924-12-27",
-    "description": "\n\n\n           廿七日\n          \n          （土）\n         \n\n\n\n\n             午前十時十分\n            \n\n             湯ケ原\n            \n            ヘ御転地（\n            \n             東京\n            \n            駅発）\n           \n\n\n",
+    "description": "\n\n\n           廿七日\n          \n          （土）\n         \n\n\n\n\n             午前十時十分\n            \n            湯ケ原ヘ御転地（\n            \n             東京\n            \n            駅発）\n           \n\n\n",
     "label": "廿七日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "objectID": "DKB20026m-0358",
@@ -24,12 +23,7 @@
     "sort": "DKB20026m-0358",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "湯河原町",
         "東京"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/湯河原町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1924-12-27",
     "texts": [
@@ -55,10 +49,10 @@
         "DKB20017m-0126"
     ],
     "time": {
-        "10:10:00": "<div><time when=\"10:10:00\">\n             午前十時十分\n            </time>\n<placeName corresp=\"#place_湯河原町\">\n             湯ケ原\n            </placeName>\n            ヘ御転地（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発）</div>"
+        "10:10:00": "<div><time when=\"10:10:00\">\n             午前十時十分\n            </time>\n            湯ケ原ヘ御転地（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0358\">\n<head>\n<date when=\"1924-12-27\">\n           廿七日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:10:00\">\n             午前十時十分\n            </time>\n<placeName corresp=\"#place_湯河原町\">\n             湯ケ原\n            </placeName>\n            ヘ御転地（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0358\">\n<head>\n<date when=\"1924-12-27\">\n           廿七日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:10:00\">\n             午前十時十分\n            </time>\n            湯ケ原ヘ御転地（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-12"
 }

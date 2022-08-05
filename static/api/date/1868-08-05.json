@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/29",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -26,13 +25,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "Rennes",
-        "サン＝ブリユー",
-        "ブレスト_(フランス)"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/Rennes",
-        "https://shibusawa-dlab.github.io/lab1/api/place/サン＝ブリユー",
-        "https://shibusawa-dlab.github.io/lab1/api/place/ブレスト_(フランス)"
+        "St-Brieuc",
+        "Brest"
     ],
     "temporal": "1868-08-05",
     "texts": [
@@ -63,11 +57,11 @@
         "11:40:00": "<div><time when=\"11:40:00\">\n        十一時四十分\n       </time>\n       御旅宿を御発、昨日到着せし汽車場ニ而汽車乗組、第</div>",
         "12:30:00": "<div><time when=\"12:30:00\">\n        十二時半\n       </time>\n       発軔、第</div>",
         "15:50:00": "<div><time when=\"15:50:00\">\n        三時五十分\n       </time>\n<placeName corresp=\"#place_Rennes\">\n        Rennes\n       </placeName>\n       着、小休、汽車乗替、此日午後甚暑し、第</div>",
-        "19:00:00": "<div><time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_サン＝ブリユー\">\n        St-Brieuc\n       </placeName>\n       着、小夜食、第</div>",
-        "24:00:00": "<div><time when-iso=\"1868-08-06T00:00+0900\">\n        十二時\n       </time>\n<placeName corresp=\"#place_ブレスト_(フランス)\">\n        Brest\n       </placeName>\n       着、夕方より雨Brest\n              Hotel de province</div>"
+        "19:00:00": "<div><time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_St-Brieuc\">\n        St-Brieuc\n       </placeName>\n       着、小夜食、第</div>",
+        "24:00:00": "<div><time when-iso=\"1868-08-06T00:00+0900\">\n        十二時\n       </time>\n<placeName corresp=\"#place_Brest\">\n        Brest\n       </placeName>\n       着、夕方より雨Brest\n              Hotel de province</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10001m-0004\">\n<head>\n<date when=\"1868-08-05\">\n        八月五日\n       </date>\n<date type=\"旧暦\" when=\"1868-08-05\">\n        六月十七日\n       </date>\n</head>\n<p>\n       朝\n       <time when=\"10:30:00\">\n        十時半\n       </time>\n       午餐、第\n       <time when=\"11:40:00\">\n        十一時四十分\n       </time>\n       御旅宿を御発、昨日到着せし汽車場ニ而汽車乗組、第\n       <time when=\"12:30:00\">\n        十二時半\n       </time>\n       発軔、第\n       <time when=\"11:00:00\">\n        十一時\n       </time>\n       leGuillaumes着、第\n       <time when=\"15:50:00\">\n        三時五十分\n       </time>\n<placeName corresp=\"#place_Rennes\">\n        Rennes\n       </placeName>\n       着、小休、汽車乗替、此日午後甚暑し、第\n       <time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_サン＝ブリユー\">\n        St-Brieuc\n       </placeName>\n       着、小夜食、第\n       <time when-iso=\"1868-08-06T00:00+0900\">\n        十二時\n       </time>\n<placeName corresp=\"#place_ブレスト_(フランス)\">\n        Brest\n       </placeName>\n       着、夕方より雨Brest\n              Hotel de province\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10001m-0004\">\n<head>\n<date when=\"1868-08-05\">\n        八月五日\n       </date>\n<date type=\"旧暦\" when=\"1868-08-05\">\n        六月十七日\n       </date>\n</head>\n<p>\n       朝\n       <time when=\"10:30:00\">\n        十時半\n       </time>\n       午餐、第\n       <time when=\"11:40:00\">\n        十一時四十分\n       </time>\n       御旅宿を御発、昨日到着せし汽車場ニ而汽車乗組、第\n       <time when=\"12:30:00\">\n        十二時半\n       </time>\n       発軔、第\n       <time when=\"11:00:00\">\n        十一時\n       </time>\n       leGuillaumes着、第\n       <time when=\"15:50:00\">\n        三時五十分\n       </time>\n<placeName corresp=\"#place_Rennes\">\n        Rennes\n       </placeName>\n       着、小休、汽車乗替、此日午後甚暑し、第\n       <time when=\"19:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_St-Brieuc\">\n        St-Brieuc\n       </placeName>\n       着、小夜食、第\n       <time when-iso=\"1868-08-06T00:00+0900\">\n        十二時\n       </time>\n<placeName corresp=\"#place_Brest\">\n        Brest\n       </placeName>\n       着、夕方より雨Brest\n              Hotel de province\n      </p>\n</div>",
     "year": "1868",
     "yearAndMonth": "1868-08"
 }

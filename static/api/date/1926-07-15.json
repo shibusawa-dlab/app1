@@ -8,15 +8,6 @@
         "山本唯三郎",
         "諸井六郎"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/大隈",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/中田",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渡辺定一郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/大村友之",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/加藤外松",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/山本唯三郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/諸井六郎"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1519",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -41,14 +32,10 @@
     "sort": "DKB20028m-0196",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
+        "アスカ山",
+        "アスカ山邸",
         "永楽町",
         "蒙古"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/永楽町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/蒙古"
     ],
     "temporal": "1926-07-15",
     "texts": [
@@ -74,10 +61,10 @@
         "DKB20029m-0118"
     ],
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯伝記編纂委員\n            <persName corresp=\"#pers_中田\">\n<surname>\n              中田\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯伝記編纂委員\n            <persName corresp=\"#pers_中田\">\n<surname>\n              中田\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0196\">\n<head>\n<date when=\"1926-07-15\">\n           十五日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯伝記編纂委員\n            <persName corresp=\"#pers_中田\">\n<surname>\n              中田\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_渡辺定一郎\">\n<surname>\n              渡辺\n             </surname>\n<forename>\n              定一郎\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_大村友之\">\n<surname>\n              大村\n             </surname>\n<forename>\n              友之\n             </forename>\n</persName>\n            丞両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             後〇時半\n            </time>\n<persName corresp=\"#pers_加藤外松\">\n<surname>\n              加藤\n             </surname>\n<forename>\n              外松\n             </forename>\n</persName>\n            氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             後一\n            </time>\n<persName corresp=\"#pers_山本唯三郎\">\n<surname>\n              山本\n             </surname>\n<forename>\n              唯三郎\n             </forename>\n</persName>\n            氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"14:00:00\">\n             午後一―二時\n            </time>\n<persName corresp=\"#pers_諸井六郎\">\n<surname>\n              諸井\n             </surname>\n<forename>\n              六郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_永楽町\">\n             永楽町\n            </placeName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n<placeName corresp=\"#place_蒙古\">\n             蒙古\n            </placeName>\n            風俗産業状態活動写真映写会（青山会館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0196\">\n<head>\n<date when=\"1926-07-15\">\n           十五日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            侯伝記編纂委員\n            <persName corresp=\"#pers_中田\">\n<surname>\n              中田\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_渡辺定一郎\">\n<surname>\n              渡辺\n             </surname>\n<forename>\n              定一郎\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_大村友之\">\n<surname>\n              大村\n             </surname>\n<forename>\n              友之\n             </forename>\n</persName>\n            丞両氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             後〇時半\n            </time>\n<persName corresp=\"#pers_加藤外松\">\n<surname>\n              加藤\n             </surname>\n<forename>\n              外松\n             </forename>\n</persName>\n            氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             後一\n            </time>\n<persName corresp=\"#pers_山本唯三郎\">\n<surname>\n              山本\n             </surname>\n<forename>\n              唯三郎\n             </forename>\n</persName>\n            氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"14:00:00\">\n             午後一―二時\n            </time>\n<persName corresp=\"#pers_諸井六郎\">\n<surname>\n              諸井\n             </surname>\n<forename>\n              六郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_永楽町\">\n             永楽町\n            </placeName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n<placeName corresp=\"#place_蒙古\">\n             蒙古\n            </placeName>\n            風俗産業状態活動写真映写会（青山会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-07"
 }

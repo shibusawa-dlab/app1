@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1184",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +15,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-06",
     "date_lvl2": "1915-06-04",
-    "description": "\n\n\n           四日\n          \n          （金）\n         \n\n\n\n\n             日光\n            \n            御滞在\n           \n\n\n\n\n             午後十時\n            \n            （\n            \n             王子\n            \n            駅着）\n            \n             日光\n            \n            ヨリ御帰京\n           \n\n\n",
+    "description": "\n\n\n           四日\n          \n          （金）\n         \n\n\n\n            日光御滞在\n           \n\n\n\n\n             午後十時\n            \n            （\n            \n             王子\n            \n            駅着）日光ヨリ御帰京\n           \n\n\n",
     "label": "四日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0146",
@@ -25,12 +24,7 @@
     "sort": "DKB20017m-0145",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "日光",
         "王子"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日光",
-        "https://shibusawa-dlab.github.io/lab1/api/place/王子"
     ],
     "temporal": "1915-06-04",
     "texts": [
@@ -57,7 +51,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0145\">\n<head>\n<date when=\"1915-06-04\">\n           四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<placeName corresp=\"#place_日光\">\n             日光\n            </placeName>\n            御滞在\n           </p>\n</event>\n<event>\n<p>\n<time when=\"22:00:00\">\n             午後十時\n            </time>\n            （\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅着）\n            <placeName corresp=\"#place_日光\">\n             日光\n            </placeName>\n            ヨリ御帰京\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0145\">\n<head>\n<date when=\"1915-06-04\">\n           四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n            日光御滞在\n           </p>\n</event>\n<event>\n<p>\n<time when=\"22:00:00\">\n             午後十時\n            </time>\n            （\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            駅着）日光ヨリ御帰京\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-06"
 }

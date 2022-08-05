@@ -1,15 +1,7 @@
 {
     "agential": [
         "青柳有美",
-        "成瀬仁蔵",
-        "ローセフター",
-        "山崎"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/青柳有美",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/成瀬仁蔵",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/ローセフター",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/山崎"
+        "成瀬仁蔵"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1231",
     "category": {
@@ -26,7 +18,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-03",
     "date_lvl2": "1917-03-08",
-    "description": "\n\n\n           八日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n\n\n              青柳\n             \n\n              有美\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前八時\n            \n\n\n              成瀬\n             \n\n              仁蔵\n             \n\n            氏来約（〃）\n           \n\n\n\n\n             正午\n            \n\n\n              ローセフター\n             \n\n            氏招待会（銀行クラブ）\n           \n\n\n\n\n             午後二半時\n            \n            理化学研究所常議員会（商業会議所）\n           \n\n\n\n\n             午後五時\n            \n\n\n              山崎\n             \n\n            博士ノ速記者来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           八日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n\n\n              青柳\n             \n\n              有美\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前八時\n            \n\n\n              成瀬\n             \n\n              仁蔵\n             \n\n            氏来約（〃）\n           \n\n\n\n\n             正午\n            \n            ローセフター氏招待会（銀行クラブ）\n           \n\n\n\n\n             午後二半時\n            \n            理化学研究所常議員会（商業会議所）\n           \n\n\n\n\n             午後五時\n            \n\n             山崎\n            \n            博士ノ速記者来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "label": "八日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0069",
@@ -35,10 +27,8 @@
     "sort": "DKB20019m-0068",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山邸",
+        "山崎"
     ],
     "temporal": "1917-03-08",
     "texts": [
@@ -67,7 +57,7 @@
         "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_青柳有美\">\n<surname>\n              青柳\n             </surname>\n<forename>\n              有美\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0068\">\n<head>\n<date when=\"1917-03-08\">\n           八日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_青柳有美\">\n<surname>\n              青柳\n             </surname>\n<forename>\n              有美\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_成瀬仁蔵\">\n<surname>\n              成瀬\n             </surname>\n<forename>\n              仁蔵\n             </forename>\n</persName>\n            氏来約（〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_ローセフター\">\n<surname>\n              ローセフター\n             </surname>\n</persName>\n            氏招待会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            理化学研究所常議員会（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_山崎\">\n<surname>\n              山崎\n             </surname>\n</persName>\n            博士ノ速記者来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0068\">\n<head>\n<date when=\"1917-03-08\">\n           八日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_青柳有美\">\n<surname>\n              青柳\n             </surname>\n<forename>\n              有美\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_成瀬仁蔵\">\n<surname>\n              成瀬\n             </surname>\n<forename>\n              仁蔵\n             </forename>\n</persName>\n            氏来約（〃）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            ローセフター氏招待会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            理化学研究所常議員会（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_山崎\">\n             山崎\n            </placeName>\n            博士ノ速記者来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-03"
 }

@@ -3,10 +3,6 @@
         "エリオ",
         "大倉喜七郎"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/エリオ",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/大倉喜七郎"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1518",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -22,7 +18,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-07",
     "date_lvl2": "1926-07-11",
-    "description": "\n\n\n           十一日\n          \n          （日）\n         \n\n\n\n\n             午前十半時\n            \n            エリオ氏令夫人ヲ御案内ノ為\n            \n             日本女子大学校\n            \n            ヘ御出向\n           \n\n\n\n\n             正午\n            \n\n             フランス\n            \n            、\n            \n\n              エリオ\n             \n\n            夫人歓迎御餐会《（午カ）》（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            エリオ氏夫人御案内ノ為東京氏養育院《（市）》ヘ御出向\n           \n\n\n\n\n             午后四時\n            \n\n\n              大倉\n             \n\n              喜七郎\n             \n\n            氏催\n            \n             フランス\n            \n            、エリオ夫人歓迎観劇会（歌舞伎座）\n           \n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （日）\n         \n\n\n\n\n             午前十半時\n            \n            エリオ氏令夫人ヲ御案内ノ為\n            \n             日本\n            \n            女子大学校ヘ御出向\n           \n\n\n\n\n             正午\n            \n\n             フランス\n            \n            、\n            \n\n              エリオ\n             \n\n            夫人歓迎御餐会《（午カ）》（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            エリオ氏夫人御案内ノ為東京氏養育院《（市）》ヘ御出向\n           \n\n\n\n\n             午后四時\n            \n\n\n              大倉\n             \n\n              喜七郎\n             \n\n            氏催\n            \n             フランス\n            \n            、エリオ夫人歓迎観劇会（歌舞伎座）\n           \n\n\n",
     "label": "十一日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0193",
@@ -31,12 +27,9 @@
     "sort": "DKB20028m-0192",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "日本",
         "フランス",
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/フランス",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山公園"
     ],
     "temporal": "1926-07-11",
     "texts": [
@@ -62,10 +55,10 @@
         "DKB20031m-0087"
     ],
     "time": {
-        "10:30:00": "<div><time when=\"10:30:00\">\n             午前十半時\n            </time>\n            エリオ氏令夫人ヲ御案内ノ為\n            <orgName>\n             日本女子大学校\n            </orgName>\n            ヘ御出向</div>"
+        "10:30:00": "<div><time when=\"10:30:00\">\n             午前十半時\n            </time>\n            エリオ氏令夫人ヲ御案内ノ為\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            女子大学校ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0192\">\n<head>\n<date when=\"1926-07-11\">\n           十一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n            エリオ氏令夫人ヲ御案内ノ為\n            <orgName>\n             日本女子大学校\n            </orgName>\n            ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_フランス\">\n             フランス\n            </placeName>\n            、\n            <persName corresp=\"#pers_エリオ\">\n<surname>\n              エリオ\n             </surname>\n</persName>\n            夫人歓迎御餐会《（午カ）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            エリオ氏夫人御案内ノ為東京氏養育院《（市）》ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午后四時\n            </time>\n<persName corresp=\"#pers_大倉喜七郎\">\n<surname>\n              大倉\n             </surname>\n<forename>\n              喜七郎\n             </forename>\n</persName>\n            氏催\n            <placeName corresp=\"#place_フランス\">\n             フランス\n            </placeName>\n            、エリオ夫人歓迎観劇会（歌舞伎座）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0192\">\n<head>\n<date when=\"1926-07-11\">\n           十一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n            エリオ氏令夫人ヲ御案内ノ為\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            女子大学校ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_フランス\">\n             フランス\n            </placeName>\n            、\n            <persName corresp=\"#pers_エリオ\">\n<surname>\n              エリオ\n             </surname>\n</persName>\n            夫人歓迎御餐会《（午カ）》（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            エリオ氏夫人御案内ノ為東京氏養育院《（市）》ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午后四時\n            </time>\n<persName corresp=\"#pers_大倉喜七郎\">\n<surname>\n              大倉\n             </surname>\n<forename>\n              喜七郎\n             </forename>\n</persName>\n            氏催\n            <placeName corresp=\"#place_フランス\">\n             フランス\n            </placeName>\n            、エリオ夫人歓迎観劇会（歌舞伎座）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-07"
 }

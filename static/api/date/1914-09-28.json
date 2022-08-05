@@ -1,15 +1,8 @@
 {
     "agential": [
         "徳川",
-        "小村",
         "倉知",
         "古市"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/小村",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/倉知",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/古市"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1165",
     "category": {
@@ -26,7 +19,7 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-09",
     "date_lvl2": "1914-09-28",
-    "description": "\n\n\n           廿八日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n\n\n              徳川\n             \n\n            三百年祭ノ件（宮内省）\n           \n\n\n\n\n             午前十一時\n            \n            三越開館式（御演説ヲ請フ件）\n           \n\n\n\n\n             午後三時\n            \n            商業会議所ヘ御出向\n           \n\n\n\n\n             午後三時\n            \n\n\n              小村\n             \n\n            、\n            \n\n              倉知\n             \n\n            両氏\n            \n             兜町\n            \n            ニ来る約\n           \n\n\n\n\n             午後五時\n            \n            御同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            東亜興業\n            \n\n              古市\n             \n\n            氏ヨリ御案内（帝国ホテル）\n           \n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （月）\n         \n\n\n\n\n             午前十時\n            \n\n\n              徳川\n             \n\n            三百年祭ノ件（宮内省）\n           \n\n\n\n\n             午前十一時\n            \n            三越開館式（御演説ヲ請フ件）\n           \n\n\n\n\n             午後三時\n            \n            商業会議所ヘ御出向\n           \n\n\n\n\n             午後三時\n            \n            小村、\n            \n\n              倉知\n             \n\n            両氏\n            \n             兜町\n            \n            ニ来る約\n           \n\n\n\n\n             午後五時\n            \n            御同族会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n             東亜\n            \n            興業\n            \n\n              古市\n             \n\n            氏ヨリ御案内（帝国ホテル）\n           \n\n\n",
     "label": "廿八日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20016m-0013",
@@ -35,10 +28,8 @@
     "sort": "DKB20016m-0012",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
+        "日本橋兜町",
+        "東亜"
     ],
     "temporal": "1914-09-28",
     "texts": [
@@ -67,7 +58,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            三百年祭ノ件（宮内省）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0012\">\n<head>\n<date when=\"1914-09-28\">\n           廿八日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            三百年祭ノ件（宮内省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            三越開館式（御演説ヲ請フ件）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            商業会議所ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_小村\">\n<surname>\n              小村\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_倉知\">\n<surname>\n              倉知\n             </surname>\n</persName>\n            両氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来る約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            東亜興業\n            <persName corresp=\"#pers_古市\">\n<surname>\n              古市\n             </surname>\n</persName>\n            氏ヨリ御案内（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0012\">\n<head>\n<date when=\"1914-09-28\">\n           廿八日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            三百年祭ノ件（宮内省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            三越開館式（御演説ヲ請フ件）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            商業会議所ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            小村、\n            <persName corresp=\"#pers_倉知\">\n<surname>\n              倉知\n             </surname>\n</persName>\n            両氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来る約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_東亜\">\n             東亜\n            </placeName>\n            興業\n            <persName corresp=\"#pers_古市\">\n<surname>\n              古市\n             </surname>\n</persName>\n            氏ヨリ御案内（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-09"
 }

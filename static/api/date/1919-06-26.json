@@ -1,13 +1,7 @@
 {
     "agential": [
-        "植木",
         "浅野",
         "山田"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/植木",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/山田"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1302",
     "category": {
@@ -24,7 +18,7 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-06",
     "date_lvl2": "1919-06-26",
-    "description": "\n\n\n           廿六日\n          \n          （木）\n         \n\n\n\n\n             午後三時\n            \n\n\n              植木\n             \n\n\n             深川\n            \n            区長来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n\n              浅野\n             \n\n            、\n            \n\n              山田\n             \n\n            両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            講道館評議員会（学生会事務所）\n           \n\n\n",
+    "description": "\n\n\n           廿六日\n          \n          （木）\n         \n\n\n\n\n             午後三時\n            \n\n             植木\n            \n\n             深川\n            \n            区長来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n\n              浅野\n             \n\n            、\n            \n\n              山田\n             \n\n            両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            講道館評議員会（学生会事務所）\n           \n\n\n",
     "label": "廿六日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0152",
@@ -33,12 +27,9 @@
     "sort": "DKB20021m-0151",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "植木",
         "深川",
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/深川",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1919-06-26",
     "texts": [
@@ -64,10 +55,10 @@
         "DKB20016m-0106"
     ],
     "time": {
-        "15:00:00": "<div><time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_植木\">\n<surname>\n              植木\n             </surname>\n</persName>\n<placeName corresp=\"#place_深川\">\n             深川\n            </placeName>\n            区長来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
+        "15:00:00": "<div><time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_植木\">\n             植木\n            </placeName>\n<placeName corresp=\"#place_深川\">\n             深川\n            </placeName>\n            区長来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0151\">\n<head>\n<date when=\"1919-06-26\">\n           廿六日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_植木\">\n<surname>\n              植木\n             </surname>\n</persName>\n<placeName corresp=\"#place_深川\">\n             深川\n            </placeName>\n            区長来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_浅野\">\n<surname>\n              浅野\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_山田\">\n<surname>\n              山田\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            講道館評議員会（学生会事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0151\">\n<head>\n<date when=\"1919-06-26\">\n           廿六日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_植木\">\n             植木\n            </placeName>\n<placeName corresp=\"#place_深川\">\n             深川\n            </placeName>\n            区長来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_浅野\">\n<surname>\n              浅野\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_山田\">\n<surname>\n              山田\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            講道館評議員会（学生会事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-06"
 }
