@@ -1,13 +1,7 @@
 {
     "agential": [
-        "片岡",
         "徳川家達",
-        "シルヴァン_レヴィ"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/片岡",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川家達",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/シルヴァン_レヴィ"
+        "大隈"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1529",
     "category": {
@@ -24,7 +18,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-11",
     "date_lvl2": "1926-11-05",
-    "description": "\n\n\n           五日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n\n\n              片岡\n             \n\n            蔵相ヲ御訪問（同官邸）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              徳川\n             \n\n              家達\n             \n\n            公爵ヲ御訪問（貴院議長官舎）\n           \n\n\n\n\n             午前十一半時\n            \n            御出勤\n           \n\n\n\n\n             正午\n            \n\n\n              シルバン\n             \n             ・\n             \n              レビ\n             \n\n            夫妻午餐招待（日仏会館）\n           \n\n\n\n\n             午後二半時\n            \n            日米学生交驩会（大隈会館）\n           \n\n\n\n\n             午後三―四半\n            \n\n             布哇\n            \n            会議ニ関スル準備協議会（銀行クラブ）\n           \n\n\n\n\n             午後四・五〇\n            \n            再ビ御出勤\n           \n\n\n\n\n             午後六時\n            \n            太平洋問題調査会催ウイルバー博士夫妻歓迎晩餐会（日本工業クラブ）（燕尾服、勲章佩用）\n           \n\n\n",
+    "description": "\n\n\n           五日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n\n             片岡\n            \n            蔵相ヲ御訪問（同官邸）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              徳川\n             \n\n              家達\n             \n\n            公爵ヲ御訪問（貴院議長官舎）\n           \n\n\n\n\n             午前十一半時\n            \n            御出勤\n           \n\n\n\n\n             正午\n            \n            シルバン・レビ夫妻午餐招待（日仏会館）\n           \n\n\n\n\n             午後二半時\n            \n            日米学生交驩会（\n            \n\n              大隈\n             \n\n            会館）\n           \n\n\n\n\n             午後三―四半\n            \n\n             布哇\n            \n            会議ニ関スル準備協議会（銀行クラブ）\n           \n\n\n\n\n             午後四・五〇\n            \n            再ビ御出勤\n           \n\n\n\n\n             午後六時\n            \n            太平洋問題調査会催ウイルバー博士夫妻歓迎晩餐会（日本工業クラブ）（燕尾服、勲章佩用）\n           \n\n\n",
     "label": "五日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0290",
@@ -33,10 +27,8 @@
     "sort": "DKB20028m-0289",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "片岡",
         "ハワイ州"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/ハワイ州"
     ],
     "temporal": "1926-11-05",
     "texts": [
@@ -62,10 +54,10 @@
         "DKB20018m-0012"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_片岡\">\n<surname>\n              片岡\n             </surname>\n</persName>\n            蔵相ヲ御訪問（同官邸）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_片岡\">\n             片岡\n            </placeName>\n            蔵相ヲ御訪問（同官邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0289\">\n<head>\n<date when=\"1926-11-05\">\n           五日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_片岡\">\n<surname>\n              片岡\n             </surname>\n</persName>\n            蔵相ヲ御訪問（同官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_徳川家達\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              家達\n             </forename>\n</persName>\n            公爵ヲ御訪問（貴院議長官舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_シルヴァン_レヴィ\">\n<forename>\n              シルバン\n             </forename>\n             ・\n             <surname>\n              レビ\n             </surname>\n</persName>\n            夫妻午餐招待（日仏会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            日米学生交驩会（大隈会館）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:30:00\">\n             午後三―四半\n            </time>\n<placeName corresp=\"#place_ハワイ州\">\n             布哇\n            </placeName>\n            会議ニ関スル準備協議会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"16:50:00\">\n             午後四・五〇\n            </time>\n            再ビ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            太平洋問題調査会催ウイルバー博士夫妻歓迎晩餐会（日本工業クラブ）（燕尾服、勲章佩用）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0289\">\n<head>\n<date when=\"1926-11-05\">\n           五日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_片岡\">\n             片岡\n            </placeName>\n            蔵相ヲ御訪問（同官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_徳川家達\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              家達\n             </forename>\n</persName>\n            公爵ヲ御訪問（貴院議長官舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            シルバン・レビ夫妻午餐招待（日仏会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            日米学生交驩会（\n            <persName corresp=\"#pers_大隈\">\n<surname>\n              大隈\n             </surname>\n</persName>\n            会館）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:30:00\">\n             午後三―四半\n            </time>\n<placeName corresp=\"#place_ハワイ州\">\n             布哇\n            </placeName>\n            会議ニ関スル準備協議会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"16:50:00\">\n             午後四・五〇\n            </time>\n            再ビ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            太平洋問題調査会催ウイルバー博士夫妻歓迎晩餐会（日本工業クラブ）（燕尾服、勲章佩用）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-11"
 }

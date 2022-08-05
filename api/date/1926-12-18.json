@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1533",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -25,10 +24,7 @@
     "sort": "DKB20028m-0332",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "アスカ山邸"
     ],
     "temporal": "1926-12-18",
     "texts": [
@@ -57,7 +53,7 @@
         "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            国際聯盟理事会　生命保険《（協会脱）》</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0332\">\n<head>\n<date when=\"1926-12-18\">\n           十八日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            国際聯盟理事会　生命保険《（協会脱）》\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            雨夜譚会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0332\">\n<head>\n<date when=\"1926-12-18\">\n           十八日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            国際聯盟理事会　生命保険《（協会脱）》\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            雨夜譚会（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-12"
 }

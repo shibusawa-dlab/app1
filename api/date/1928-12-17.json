@@ -1,11 +1,8 @@
 {
     "agential": [
-        "宇治川寛芳",
+        "宇治",
+        "寛芳",
         "木村久寿弥太"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/宇治川寛芳",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/木村久寿弥太"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1589",
     "category": {
@@ -22,7 +19,7 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-12",
     "date_lvl2": "1928-12-17",
-    "description": "\n\n\n           十七日\n          \n          （月）\n         \n\n\n\n\n             午後\n            \n\n\n              宇治川\n             \n\n              寛芳\n             \n\n            氏来約\n            \n             飛鳥山邸\n            \n\n\n\n\n\n             午前十・五〇\n            \n            御出勤\n           \n\n\n\n\n             午後二時\n            \n\n\n              木村\n             \n\n              久寿弥太\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後二―三時\n            \n            団男爵来約（事務所）\n           \n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （月）\n         \n\n\n\n\n             午後\n            \n\n\n              宇治\n             \n\n            川\n            \n\n              寛芳\n             \n\n            氏来約\n            \n             飛鳥山\n            \n            邸\n           \n\n\n\n\n             午前十・五〇\n            \n            御出勤\n           \n\n\n\n\n             午後二時\n            \n\n\n              木村\n             \n\n              久寿弥太\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後二―三時\n            \n            団男爵来約（事務所）\n           \n\n\n",
     "label": "十七日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20030m-0278",
@@ -31,10 +28,7 @@
     "sort": "DKB20030m-0277",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山公園"
     ],
     "temporal": "1928-12-17",
     "texts": [
@@ -61,7 +55,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0277\">\n<head>\n<date when=\"1928-12-17\">\n           十七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午後\n            </time>\n<persName corresp=\"#pers_宇治川寛芳\">\n<surname>\n              宇治川\n             </surname>\n<forename>\n              寛芳\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"10:50:00\">\n             午前十・五〇\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_木村久寿弥太\">\n<surname>\n              木村\n             </surname>\n<forename>\n              久寿弥太\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―三時\n            </time>\n            団男爵来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0277\">\n<head>\n<date when=\"1928-12-17\">\n           十七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午後\n            </time>\n<persName corresp=\"#pers_宇治\">\n<surname>\n              宇治\n             </surname>\n</persName>\n            川\n            <persName corresp=\"#pers_寛芳\">\n<forename>\n              寛芳\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:50:00\">\n             午前十・五〇\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_木村久寿弥太\">\n<surname>\n              木村\n             </surname>\n<forename>\n              久寿弥太\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―三時\n            </time>\n            団男爵来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-12"
 }

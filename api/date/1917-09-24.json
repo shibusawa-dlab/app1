@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1247",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +15,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-09",
     "date_lvl2": "1917-09-24",
-    "description": "\n\n\n           廿四日\n          \n          （月）\n         \n\n\n\n\n             午後一時\n            \n\n             安房\n            \n            分院ヨリ御帰京（\n            \n             両国\n            \n            駅着）\n           \n\n\n\n\n             午後二時\n            \n            旧渡米実業団員故人追悼会（\n            \n             上野\n            \n            寛永寺）（令夫人共）\n           \n\n\n\n\n             右終ツテ\n            \n            晩餐会（\n            \n             上野\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （月）\n         \n\n\n\n\n             午後一時\n            \n\n             安房\n            \n            分院ヨリ御帰京（両国駅着）\n           \n\n\n\n\n             午後二時\n            \n            旧渡米実業団員故人追悼会（\n            \n             上野\n            \n            寛永寺）（令夫人共）\n           \n\n\n\n\n             右終ツテ\n            \n            晩餐会（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n",
     "label": "廿四日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0254",
@@ -26,13 +25,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "安房国",
-        "両国",
-        "上野"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/安房国",
-        "https://shibusawa-dlab.github.io/lab1/api/place/両国",
-        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
+        "上野",
+        "上野精養軒"
     ],
     "temporal": "1917-09-24",
     "texts": [
@@ -58,10 +52,10 @@
         "DKB20019m-0133"
     ],
     "time": {
-        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_安房国\">\n             安房\n            </placeName>\n            分院ヨリ御帰京（\n            <placeName corresp=\"#place_両国\">\n             両国\n            </placeName>\n            駅着）</div>"
+        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_安房国\">\n             安房\n            </placeName>\n            分院ヨリ御帰京（両国駅着）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0253\">\n<head>\n<date when=\"1917-09-24\">\n           廿四日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_安房国\">\n             安房\n            </placeName>\n            分院ヨリ御帰京（\n            <placeName corresp=\"#place_両国\">\n             両国\n            </placeName>\n            駅着）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            旧渡米実業団員故人追悼会（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            寛永寺）（令夫人共）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             右終ツテ\n            </time>\n            晩餐会（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0253\">\n<head>\n<date when=\"1917-09-24\">\n           廿四日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_安房国\">\n             安房\n            </placeName>\n            分院ヨリ御帰京（両国駅着）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            旧渡米実業団員故人追悼会（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            寛永寺）（令夫人共）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             右終ツテ\n            </time>\n            晩餐会（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-09"
 }

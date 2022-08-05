@@ -1,13 +1,6 @@
 {
     "agential": [
-        "青木道継",
-        "金子",
-        "一木"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/青木道継",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/金子",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/一木"
+        "金子"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1190",
     "category": {
@@ -24,7 +17,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-09",
     "date_lvl2": "1915-09-08",
-    "description": "\n\n\n           八日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n            土地会社ノ件（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              青木\n             \n\n              道継\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n             東京\n            \n            市長ヨリ御案内（\n            \n             淀橋\n            \n            水道部）\n           \n\n\n\n\n             午後一時\n            \n\n\n              金子\n             \n\n            子爵邸ヘ御出向\n           \n\n\n\n\n             午後二時\n            \n            バグナル来ルナラン（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n\n              一木\n             \n\n            内相ヨリ御案内（\n            \n             山下町\n            \n            官邸）\n           \n\n\n",
+    "description": "\n\n\n           八日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n            土地会社ノ件（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n             青木\n            \n            道継氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n             東京\n            \n            市長ヨリ御案内（\n            \n             淀橋\n            \n            水道部）\n           \n\n\n\n\n             午後一時\n            \n\n\n              金子\n             \n\n            子爵邸ヘ御出向\n           \n\n\n\n\n             午後二時\n            \n            バグナル来ルナラン（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            一木内相ヨリ御案内（\n            \n             山下町\n            \n            官邸）\n           \n\n\n",
     "label": "八日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0228",
@@ -34,15 +27,10 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町",
+        "青木",
         "東京",
         "淀橋",
         "山下町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
-        "https://shibusawa-dlab.github.io/lab1/api/place/淀橋",
-        "https://shibusawa-dlab.github.io/lab1/api/place/山下町"
     ],
     "temporal": "1915-09-08",
     "texts": [
@@ -71,7 +59,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            土地会社ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0227\">\n<head>\n<date when=\"1915-09-08\">\n           八日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            土地会社ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_青木道継\">\n<surname>\n              青木\n             </surname>\n<forename>\n              道継\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市長ヨリ御案内（\n            <placeName corresp=\"#place_淀橋\">\n             淀橋\n            </placeName>\n            水道部）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_金子\">\n<surname>\n              金子\n             </surname>\n</persName>\n            子爵邸ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            バグナル来ルナラン（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_一木\">\n<surname>\n              一木\n             </surname>\n</persName>\n            内相ヨリ御案内（\n            <placeName corresp=\"#place_山下町\">\n             山下町\n            </placeName>\n            官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0227\">\n<head>\n<date when=\"1915-09-08\">\n           八日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            土地会社ノ件（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_青木\">\n             青木\n            </placeName>\n            道継氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市長ヨリ御案内（\n            <placeName corresp=\"#place_淀橋\">\n             淀橋\n            </placeName>\n            水道部）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_金子\">\n<surname>\n              金子\n             </surname>\n</persName>\n            子爵邸ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            バグナル来ルナラン（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            一木内相ヨリ御案内（\n            <placeName corresp=\"#place_山下町\">\n             山下町\n            </placeName>\n            官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-09"
 }

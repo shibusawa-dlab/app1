@@ -4,11 +4,6 @@
         "池田桃",
         "奥山清治"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/蓮沼門三",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/池田桃",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/奥山清治"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1530",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -33,10 +28,8 @@
     "sort": "DKB20028m-0301",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "アスカ山",
         "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1926-11-17",
     "texts": [
@@ -62,10 +55,10 @@
         "DKB20031m-0124"
     ],
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_蓮沼門三\">\n<surname>\n              蓮沼\n             </surname>\n<forename>\n              門三\n             </forename>\n</persName>\n            氏来訪\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName></div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_蓮沼門三\">\n<surname>\n              蓮沼\n             </surname>\n<forename>\n              門三\n             </forename>\n</persName>\n            氏来訪\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName></div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0301\">\n<head>\n<date when=\"1926-11-17\">\n           十七日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_蓮沼門三\">\n<surname>\n              蓮沼\n             </surname>\n<forename>\n              門三\n             </forename>\n</persName>\n            氏来訪\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2691\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1530/full/max/0/default.jpg\" n=\"B2691\" source=\"#pageB2691\"/>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_池田桃\">\n<surname>\n              池田\n             </surname>\n<forename>\n              桃\n             </forename>\n</persName>\n            川氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            ペーン《（氏脱）》招待会相談会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            静寛院宮御法要後援会会計報告（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_奥山清治\">\n<surname>\n              奥山\n             </surname>\n<forename>\n              清治\n             </forename>\n</persName>\n            氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            事ム所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0301\">\n<head>\n<date when=\"1926-11-17\">\n           十七日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_蓮沼門三\">\n<surname>\n              蓮沼\n             </surname>\n<forename>\n              門三\n             </forename>\n</persName>\n            氏来訪\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2691\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1530/full/max/0/default.jpg\" n=\"B2691\" source=\"#pageB2691\"/>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_池田桃\">\n<surname>\n              池田\n             </surname>\n<forename>\n              桃\n             </forename>\n</persName>\n            川氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            ペーン《（氏脱）》招待会相談会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            静寛院宮御法要後援会会計報告（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_奥山清治\">\n<surname>\n              奥山\n             </surname>\n<forename>\n              清治\n             </forename>\n</persName>\n            氏来約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            事ム所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-11"
 }

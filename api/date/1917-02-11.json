@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1228",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +15,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-02",
     "date_lvl2": "1917-02-11",
-    "description": "\n\n\n           十一日\n          \n          （日）\n         \n\n\n\n\n             午前九・一〇時\n            \n            紀元節御祭典（賢所参集所）（御断）\n           \n\n\n\n\n             正午\n            \n            紀元節御賜宴（宮中）（同）\n            \n            大礼服正装\n           \n\n\n\n\n             午後一時\n            \n\n             埼玉学生誘掖会\n            \n            記念会（同会）\n           \n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （日）\n         \n\n\n\n\n             午前九・一〇時\n            \n            紀元節御祭典（賢所参集所）（御断）\n           \n\n\n\n\n             正午\n            \n            紀元節御賜宴（宮中）（同）\n            \n            大礼服正装\n           \n\n\n\n\n             午後一時\n            \n\n             埼玉\n            \n            学生誘掖会記念会（同会）\n           \n\n\n",
     "label": "十一日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0044",
@@ -24,8 +23,9 @@
     "prev": "DKB20019m-0042",
     "sort": "DKB20019m-0043",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
-    "spatial_uri": [],
+    "spatial": [
+        "埼玉"
+    ],
     "temporal": "1917-02-11",
     "texts": [
         "DKB20020m-0040",
@@ -53,7 +53,7 @@
         "09:10:00": "<div><time when=\"09:10:00\">\n             午前九・一〇時\n            </time>\n            紀元節御祭典（賢所参集所）（御断）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0043\">\n<head>\n<date when=\"1917-02-11\">\n           十一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:10:00\">\n             午前九・一〇時\n            </time>\n            紀元節御祭典（賢所参集所）（御断）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            紀元節御賜宴（宮中）（同）\n            <lb/>\n            大礼服正装\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             埼玉学生誘掖会\n            </orgName>\n            記念会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0043\">\n<head>\n<date when=\"1917-02-11\">\n           十一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:10:00\">\n             午前九・一〇時\n            </time>\n            紀元節御祭典（賢所参集所）（御断）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            紀元節御賜宴（宮中）（同）\n            <lb/>\n            大礼服正装\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会記念会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-02"
 }

@@ -1,11 +1,6 @@
 {
     "agential": [
-        "李元錫",
         "吉池慶正"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/李元錫",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/吉池慶正"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1480",
     "category": {
@@ -22,7 +17,7 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-11",
     "date_lvl2": "1924-11-04",
-    "description": "\n\n\n           四日\n          \n          （火）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              李\n             \n\n              元錫\n             \n\n            氏来約（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              吉池\n             \n\n              慶正\n             \n\n            氏来約（同右）\n           \n\n\n\n\n             正午\n            \n            内鮮懇話会（銀行クラブ）\n           \n\n\n",
+    "description": "\n\n\n           四日\n          \n          （火）\n         \n\n\n\n\n             午前八半時\n            \n            李元錫氏来約（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              吉池\n             \n\n              慶正\n             \n\n            氏来約（同右）\n           \n\n\n\n\n             正午\n            \n            内鮮懇話会（銀行クラブ）\n           \n\n\n",
     "label": "四日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0305",
@@ -31,10 +26,7 @@
     "sort": "DKB20026m-0304",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "アスカ山邸"
     ],
     "temporal": "1924-11-04",
     "texts": [
@@ -60,10 +52,10 @@
         "DKB20027m-0099"
     ],
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_李元錫\">\n<surname>\n              李\n             </surname>\n<forename>\n              元錫\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n            李元錫氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0304\">\n<head>\n<date when=\"1924-11-04\">\n           四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_李元錫\">\n<surname>\n              李\n             </surname>\n<forename>\n              元錫\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏来約（同右）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            内鮮懇話会（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0304\">\n<head>\n<date when=\"1924-11-04\">\n           四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            李元錫氏来約（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏来約（同右）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            内鮮懇話会（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-11"
 }

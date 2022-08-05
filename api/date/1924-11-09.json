@@ -1,6 +1,7 @@
 {
-    "agential": [],
-    "agential_uri": [],
+    "agential": [
+        "北条"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1481",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +17,7 @@
     "date_lvl0": "1924",
     "date_lvl1": "1924-11",
     "date_lvl2": "1924-11-09",
-    "description": "\n\n\n           九日\n          \n          （日）\n         \n\n\n\n\n             午前七・五五\n            \n\n             両国\n            \n            駅発\n           \n\n\n\n\n             午前十一・四八\n            \n\n             北条\n            \n            駅着\n           \n\n\n\n\n             午後一時\n            \n            善導会館開館式（\n            \n             北条町\n            \n            同館）\n           \n\n\n",
+    "description": "\n\n\n           九日\n          \n          （日）\n         \n\n\n\n\n             午前七・五五\n            \n            両国駅発\n           \n\n\n\n\n             午前十一・四八\n            \n\n\n              北条\n             \n\n            駅着\n           \n\n\n\n\n             午後一時\n            \n            善導会館開館式（\n            \n             北条町\n            \n            同館）\n           \n\n\n",
     "label": "九日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20026m-0310",
@@ -25,14 +26,7 @@
     "sort": "DKB20026m-0309",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "両国",
-        "北条",
         "北条町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/両国",
-        "https://shibusawa-dlab.github.io/lab1/api/place/北条",
-        "https://shibusawa-dlab.github.io/lab1/api/place/北条町"
     ],
     "temporal": "1924-11-09",
     "texts": [
@@ -58,10 +52,10 @@
         "DKB20029m-0151"
     ],
     "time": {
-        "07:55:00": "<div><time when=\"07:55:00\">\n             午前七・五五\n            </time>\n<placeName corresp=\"#place_両国\">\n             両国\n            </placeName>\n            駅発</div>"
+        "07:55:00": "<div><time when=\"07:55:00\">\n             午前七・五五\n            </time>\n            両国駅発</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0309\">\n<head>\n<date when=\"1924-11-09\">\n           九日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"07:55:00\">\n             午前七・五五\n            </time>\n<placeName corresp=\"#place_両国\">\n             両国\n            </placeName>\n            駅発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:48:00\">\n             午前十一・四八\n            </time>\n<placeName corresp=\"#place_北条\">\n             北条\n            </placeName>\n            駅着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            善導会館開館式（\n            <placeName corresp=\"#place_北条町\">\n             北条町\n            </placeName>\n            同館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0309\">\n<head>\n<date when=\"1924-11-09\">\n           九日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"07:55:00\">\n             午前七・五五\n            </time>\n            両国駅発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:48:00\">\n             午前十一・四八\n            </time>\n<persName corresp=\"#pers_北条\">\n<surname>\n              北条\n             </surname>\n</persName>\n            駅着\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            善導会館開館式（\n            <placeName corresp=\"#place_北条町\">\n             北条町\n            </placeName>\n            同館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-11"
 }

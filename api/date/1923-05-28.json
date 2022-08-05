@@ -1,15 +1,7 @@
 {
     "agential": [
         "永田秀次郎",
-        "宮川一貫",
-        "シドニー_ギューリック",
         "熊崎"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/永田秀次郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/宮川一貫",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/シドニー_ギューリック",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/熊崎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1430",
     "category": {
@@ -26,7 +18,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-05",
     "date_lvl2": "1923-05-28",
-    "description": "\n\n\n           廿八日\n          \n          （月）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              永田\n             \n\n              秀次郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午十二時半\n            \n\n\n              宮川\n             \n\n              一貫\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            協調会ヘ御出向ノ約\n           \n\n\n\n\n             午後四時\n            \n\n\n              ギユウリツク\n             \n\n            、\n            \n\n              熊崎\n             \n\n            両氏送別会（帝国ホテル）\n           \n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （月）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              永田\n             \n\n              秀次郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午十二時半\n            \n\n             宮川\n            \n            一貫氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            協調会ヘ御出向ノ約\n           \n\n\n\n\n             午後四時\n            \n            ギユウリツク、\n            \n\n              熊崎\n             \n\n            両氏送別会（帝国ホテル）\n           \n\n\n",
     "label": "廿八日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0143",
@@ -36,11 +28,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸",
+        "宮川",
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1923-05-28",
     "texts": [
@@ -69,7 +58,7 @@
         "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_永田秀次郎\">\n<surname>\n              永田\n             </surname>\n<forename>\n              秀次郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0142\">\n<head>\n<date when=\"1923-05-28\">\n           廿八日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_永田秀次郎\">\n<surname>\n              永田\n             </surname>\n<forename>\n              秀次郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午十二時半\n            </time>\n<persName corresp=\"#pers_宮川一貫\">\n<surname>\n              宮川\n             </surname>\n<forename>\n              一貫\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            協調会ヘ御出向ノ約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_シドニー_ギューリック\">\n<surname>\n              ギユウリツク\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_熊崎\">\n<surname>\n              熊崎\n             </surname>\n</persName>\n            両氏送別会（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0142\">\n<head>\n<date when=\"1923-05-28\">\n           廿八日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_永田秀次郎\">\n<surname>\n              永田\n             </surname>\n<forename>\n              秀次郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午十二時半\n            </time>\n<placeName corresp=\"#place_宮川\">\n             宮川\n            </placeName>\n            一貫氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            協調会ヘ御出向ノ約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            ギユウリツク、\n            <persName corresp=\"#pers_熊崎\">\n<surname>\n              熊崎\n             </surname>\n</persName>\n            両氏送別会（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-05"
 }

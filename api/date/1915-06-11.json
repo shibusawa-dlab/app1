@@ -1,13 +1,7 @@
 {
     "agential": [
         "閑院宮",
-        "大浦",
         "鈴木文治"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/閑院宮",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/大浦",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/鈴木文治"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1185",
     "category": {
@@ -34,11 +28,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "代々木",
+        "大浦",
         "内山下町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/代々木",
-        "https://shibusawa-dlab.github.io/lab1/api/place/内山下町"
     ],
     "temporal": "1915-06-11",
     "texts": [
@@ -67,7 +58,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            明治神宮造営局ノ件ニ付\n            <placeName corresp=\"#place_代々木\">\n             代々木\n            </placeName>\n            旧御殿ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0152\">\n<head>\n<date when=\"1915-06-11\">\n           十一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            明治神宮造営局ノ件ニ付\n            <placeName corresp=\"#place_代々木\">\n             代々木\n            </placeName>\n            旧御殿ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:20:00\">\n             午前十一時二十分\n            </time>\n<persName corresp=\"#pers_閑院宮\">\n<surname>\n              閑院宮\n             </surname>\n</persName>\n            邸ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_大浦\">\n             大浦\n            </persName>\n            子爵より御案内（\n            <placeName corresp=\"#place_内山下町\">\n             内山下町\n            </placeName>\n            官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_鈴木文治\">\n<surname>\n              鈴木\n             </surname>\n<forename>\n              文治\n             </forename>\n</persName>\n            氏送別会引続キ中央慈善協会懇談会（青年会館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0152\">\n<head>\n<date when=\"1915-06-11\">\n           十一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            明治神宮造営局ノ件ニ付\n            <placeName corresp=\"#place_代々木\">\n             代々木\n            </placeName>\n            旧御殿ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:20:00\">\n             午前十一時二十分\n            </time>\n<persName corresp=\"#pers_閑院宮\">\n<surname>\n              閑院宮\n             </surname>\n</persName>\n            邸ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_大浦\">\n             大浦\n            </placeName>\n            子爵より御案内（\n            <placeName corresp=\"#place_内山下町\">\n             内山下町\n            </placeName>\n            官邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_鈴木文治\">\n<surname>\n              鈴木\n             </surname>\n<forename>\n              文治\n             </forename>\n</persName>\n            氏送別会引続キ中央慈善協会懇談会（青年会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-06"
 }

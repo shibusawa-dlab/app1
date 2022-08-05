@@ -2,21 +2,33 @@
     "edges": [
         {
             "color": "lightgrey",
-            "from": "堀越善重郎",
-            "to": "中野武営",
-            "value": 11
+            "from": "堀越",
+            "to": "兼子",
+            "value": 16
+        },
+        {
+            "color": "lightgrey",
+            "from": "堀越",
+            "to": "添田",
+            "value": 12
+        },
+        {
+            "color": "lightgrey",
+            "from": "堀越",
+            "to": "中野",
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "堀越",
+            "to": "頭本",
+            "value": 14
         },
         {
             "color": "lightgrey",
             "from": "田中",
             "to": "佐々木",
             "value": 18
-        },
-        {
-            "color": "lightgrey",
-            "from": "田中",
-            "to": "大倉",
-            "value": 17
         },
         {
             "color": "lightgrey",
@@ -39,20 +51,44 @@
         {
             "color": "lightgrey",
             "from": "田中",
-            "to": "渋沢兼子",
+            "to": "兼子",
             "value": 10
-        },
-        {
-            "color": "lightgrey",
-            "from": "田中",
-            "to": "大川",
-            "value": 13
         },
         {
             "color": "lightgrey",
             "from": "田中",
             "to": "徳川",
             "value": 11
+        },
+        {
+            "color": "lightgrey",
+            "from": "頭本",
+            "to": "添田",
+            "value": 20
+        },
+        {
+            "color": "lightgrey",
+            "from": "松方",
+            "to": "井上",
+            "value": 21
+        },
+        {
+            "color": "lightgrey",
+            "from": "松方",
+            "to": "松尾",
+            "value": 11
+        },
+        {
+            "color": "lightgrey",
+            "from": "松方",
+            "to": "佐々木",
+            "value": 15
+        },
+        {
+            "color": "lightgrey",
+            "from": "松方",
+            "to": "桂",
+            "value": 12
         }
     ],
     "nodes": [
@@ -61,10 +97,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 11,
-            "id": "堀越善重郎",
+            "count": 52,
+            "id": "堀越",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "堀越善重郎",
+            "label": "堀越",
             "shape": "image"
         },
         {
@@ -72,7 +108,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 111,
+            "count": 81,
             "id": "田中",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "田中",
@@ -83,10 +119,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 18,
-            "id": "井上",
+            "count": 34,
+            "id": "頭本",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "井上",
+            "label": "頭本",
             "shape": "image"
         },
         {
@@ -94,10 +130,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 17,
-            "id": "大倉",
+            "count": 59,
+            "id": "松方",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "大倉",
+            "label": "松方",
             "shape": "image"
         },
         {
@@ -105,7 +141,18 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 18,
+            "count": 26,
+            "id": "兼子",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "兼子",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 33,
             "id": "佐々木",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "佐々木",
@@ -116,10 +163,21 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 11,
-            "id": "池田",
+            "count": 32,
+            "id": "添田",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "池田",
+            "label": "添田",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 39,
+            "id": "井上",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "井上",
             "shape": "image"
         },
         {
@@ -128,9 +186,9 @@
                 "border": "lightgreen"
             },
             "count": 10,
-            "id": "渋沢兼子",
+            "id": "中野",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "渋沢兼子",
+            "label": "中野",
             "shape": "image"
         },
         {
@@ -138,11 +196,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 11,
-            "description": "\n     中野 武営（なかの たけなか、なかの ぶえい、嘉永元年1月3日（1848年2月7日） - 大正7年（1918年）10月8日）は、明治・大正時代の官僚出身政治家、実業家。幼名は「権之助」または「作造」。号は「随郷」。\n    ",
-            "id": "中野武営",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nakano_Takenaka.jpg/205px-Nakano_Takenaka.jpg",
-            "label": "中野武営",
+            "count": 12,
+            "id": "桂",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "桂",
             "shape": "image"
         },
         {
@@ -172,10 +229,21 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 13,
-            "id": "大川",
+            "count": 11,
+            "id": "池田",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "大川",
+            "label": "池田",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 11,
+            "id": "松尾",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "松尾",
             "shape": "image"
         }
     ]

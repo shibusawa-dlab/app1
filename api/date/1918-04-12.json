@@ -1,11 +1,6 @@
 {
     "agential": [
-        "大倉",
         "佐々木"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/大倉",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/佐々木"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1265",
     "category": {
@@ -22,7 +17,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-04",
     "date_lvl2": "1918-04-12",
-    "description": "\n\n\n           十二日\n          \n          （金）\n         \n\n\n\n\n             午後四時\n            \n\n\n              大倉\n             \n\n            男ヨリ御案内（帝国劇場）\n           \n\n\n\n\n             午後五時\n            \n\n\n              佐々木\n             \n\n            氏ヨリ御案内（\n            \n             第一銀行\n            \n            支店長次席招待）（銀行クラブ）\n           \n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （金）\n         \n\n\n\n\n             午後四時\n            \n            大倉男ヨリ御案内（帝国劇場）\n           \n\n\n\n\n             午後五時\n            \n\n\n              佐々木\n             \n\n            氏ヨリ御案内（\n            \n             第一銀行\n            \n            支店長次席招待）（銀行クラブ）\n           \n\n\n",
     "label": "十二日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0097",
@@ -31,7 +26,6 @@
     "sort": "DKB20020m-0096",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [],
-    "spatial_uri": [],
     "temporal": "1918-04-12",
     "texts": [
         "DKB20026m-0064",
@@ -56,10 +50,10 @@
         "DKB20017m-0072"
     ],
     "time": {
-        "16:00:00": "<div><time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_大倉\">\n<surname>\n              大倉\n             </surname>\n</persName>\n            男ヨリ御案内（帝国劇場）</div>"
+        "16:00:00": "<div><time when=\"16:00:00\">\n             午後四時\n            </time>\n            大倉男ヨリ御案内（帝国劇場）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0096\">\n<head>\n<date when=\"1918-04-12\">\n           十二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_大倉\">\n<surname>\n              大倉\n             </surname>\n</persName>\n            男ヨリ御案内（帝国劇場）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_佐々木\">\n<surname>\n              佐々木\n             </surname>\n</persName>\n            氏ヨリ御案内（\n            <orgName>\n             第一銀行\n            </orgName>\n            支店長次席招待）（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0096\">\n<head>\n<date when=\"1918-04-12\">\n           十二日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            大倉男ヨリ御案内（帝国劇場）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_佐々木\">\n<surname>\n              佐々木\n             </surname>\n</persName>\n            氏ヨリ御案内（\n            <orgName>\n             第一銀行\n            </orgName>\n            支店長次席招待）（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-04"
 }

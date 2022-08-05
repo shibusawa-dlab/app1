@@ -4,11 +4,6 @@
         "尾崎敬義",
         "三島"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/横堀治三郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/尾崎敬義",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/三島"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1182",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -24,7 +19,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-04",
     "date_lvl2": "1915-04-29",
-    "description": "\n\n\n           廿九日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n            大野式会社総会\n           \n\n\n\n\n             午前十一時半\n            \n\n\n              横堀\n             \n\n              治三郎\n             \n\n            、\n            \n\n              尾崎\n             \n\n              敬義\n             \n\n            両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午後六時\n            \n\n\n              三島\n             \n\n            子爵ヨリ御案内（\n            \n             日本銀行\n            \n            舎宅）\n           \n\n\n",
+    "description": "\n\n\n           廿九日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n             大野\n            \n            式会社総会\n           \n\n\n\n\n             午前十一時半\n            \n\n\n              横堀\n             \n\n              治三郎\n             \n\n            、\n            \n\n              尾崎\n             \n\n              敬義\n             \n\n            両氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n\n             第一銀行\n            \n\n\n\n\n\n             午後六時\n            \n\n\n              三島\n             \n\n            子爵ヨリ御案内（\n            \n             日本\n            \n            銀行舎宅）\n           \n\n\n",
     "label": "廿九日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0110",
@@ -33,10 +28,9 @@
     "sort": "DKB20017m-0109",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
+        "大野",
+        "日本橋兜町",
+        "日本"
     ],
     "temporal": "1915-04-29",
     "texts": [
@@ -62,10 +56,10 @@
         "DKB20021m-0177"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            大野式会社総会</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_大野\">\n             大野\n            </placeName>\n            式会社総会</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0109\">\n<head>\n<date when=\"1915-04-29\">\n           廿九日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            大野式会社総会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n<persName corresp=\"#pers_横堀治三郎\">\n<surname>\n              横堀\n             </surname>\n<forename>\n              治三郎\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_尾崎敬義\">\n<surname>\n              尾崎\n             </surname>\n<forename>\n              敬義\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_三島\">\n<surname>\n              三島\n             </surname>\n</persName>\n            子爵ヨリ御案内（\n            <orgName>\n             日本銀行\n            </orgName>\n            舎宅）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0109\">\n<head>\n<date when=\"1915-04-29\">\n           廿九日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_大野\">\n             大野\n            </placeName>\n            式会社総会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n<persName corresp=\"#pers_横堀治三郎\">\n<surname>\n              横堀\n             </surname>\n<forename>\n              治三郎\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_尾崎敬義\">\n<surname>\n              尾崎\n             </surname>\n<forename>\n              敬義\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_三島\">\n<surname>\n              三島\n             </surname>\n</persName>\n            子爵ヨリ御案内（\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            銀行舎宅）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-04"
 }

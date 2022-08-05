@@ -2,14 +2,8 @@
     "agential": [
         "都倉義一",
         "服部金太郎",
-        "副島八十六",
+        "副島",
         "伊藤伝七"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/都倉義一",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/服部金太郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/副島八十六",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/伊藤伝七"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1600",
     "category": {
@@ -26,7 +20,7 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-09",
     "date_lvl2": "1929-09-19",
-    "description": "\n\n\n           十九日\n          \n          （木）\n         \n\n\n\n\n             午時\n            \n\n\n              都倉\n             \n\n              義一\n             \n\n            氏来邸（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              服部\n             \n\n              金太郎\n             \n\n            氏来約\n            \n             飛鳥山邸\n            \n\n\n\n\n\n             午前九時\n            \n\n\n              副島\n             \n\n              八十六\n             \n\n            氏来邸（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十一半時\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午後一時\n            \n\n\n              伊藤\n             \n\n              伝七\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後一時\n            \n            ミードブロウト氏（米人）ト御会見（事務所）\n           \n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （木）\n         \n\n\n\n\n             午時\n            \n\n\n              都倉\n             \n\n              義一\n             \n\n            氏来邸（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              服部\n             \n\n              金太郎\n             \n\n            氏来約\n            \n             飛鳥山\n            \n            邸\n           \n\n\n\n\n             午前九時\n            \n\n\n              副島\n             \n\n            八十六氏来邸（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十一半時\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午後一時\n            \n\n\n              伊藤\n             \n\n              伝七\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後一時\n            \n            ミードブロウト氏（米人）ト御会見（事務所）\n           \n\n\n",
     "label": "十九日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20031m-0168",
@@ -35,10 +29,9 @@
     "sort": "DKB20031m-0167",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山邸",
+        "飛鳥山公園",
+        "アスカ山"
     ],
     "temporal": "1929-09-19",
     "texts": [
@@ -67,7 +60,7 @@
         "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_都倉義一\">\n<surname>\n              都倉\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0167\">\n<head>\n<date when=\"1929-09-19\">\n           十九日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_都倉義一\">\n<surname>\n              都倉\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_服部金太郎\">\n<surname>\n              服部\n             </surname>\n<forename>\n              金太郎\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_副島八十六\">\n<surname>\n              副島\n             </surname>\n<forename>\n              八十六\n             </forename>\n</persName>\n            氏来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_伊藤伝七\">\n<surname>\n              伊藤\n             </surname>\n<forename>\n              伝七\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            ミードブロウト氏（米人）ト御会見（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0167\">\n<head>\n<date when=\"1929-09-19\">\n           十九日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n<persName corresp=\"#pers_都倉義一\">\n<surname>\n              都倉\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_服部金太郎\">\n<surname>\n              服部\n             </surname>\n<forename>\n              金太郎\n             </forename>\n</persName>\n            氏来約\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_副島\">\n<surname>\n              副島\n             </surname>\n</persName>\n            八十六氏来邸（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_伊藤伝七\">\n<surname>\n              伊藤\n             </surname>\n<forename>\n              伝七\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            ミードブロウト氏（米人）ト御会見（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-09"
 }

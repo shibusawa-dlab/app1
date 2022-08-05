@@ -3,10 +3,6 @@
         "有馬頼寧",
         "柳田毅三"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/有馬頼寧",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/柳田毅三"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1493",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -31,12 +27,9 @@
     "sort": "DKB20027m-0157",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
-        "イタリア"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/イタリア"
+        "あすか山邸",
+        "イタリア",
+        "アスカ山"
     ],
     "temporal": "1925-09-30",
     "texts": [
@@ -62,10 +55,10 @@
         "DKB20027m-0029"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_有馬頼寧\">\n<surname>\n              有馬\n             </surname>\n<forename>\n              頼寧\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_柳田毅三\">\n<surname>\n              柳田\n             </surname>\n<forename>\n              毅三\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             あすか山邸\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_有馬頼寧\">\n<surname>\n              有馬\n             </surname>\n<forename>\n              頼寧\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_柳田毅三\">\n<surname>\n              柳田\n             </surname>\n<forename>\n              毅三\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_あすか山邸\">\n             あすか山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0157\">\n<head>\n<date when=\"1925-09-30\">\n           三十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_有馬頼寧\">\n<surname>\n              有馬\n             </surname>\n<forename>\n              頼寧\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_柳田毅三\">\n<surname>\n              柳田\n             </surname>\n<forename>\n              毅三\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             あすか山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午后二半時\n            </time>\n<placeName corresp=\"#place_イタリア\">\n             イタリー\n            </placeName>\n            飛行家歓迎会凡四十人（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0157\">\n<head>\n<date when=\"1925-09-30\">\n           三十日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_有馬頼寧\">\n<surname>\n              有馬\n             </surname>\n<forename>\n              頼寧\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_柳田毅三\">\n<surname>\n              柳田\n             </surname>\n<forename>\n              毅三\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_あすか山邸\">\n             あすか山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午后二半時\n            </time>\n<placeName corresp=\"#place_イタリア\">\n             イタリー\n            </placeName>\n            飛行家歓迎会凡四十人（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-09"
 }

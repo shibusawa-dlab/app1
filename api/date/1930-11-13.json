@@ -2,9 +2,6 @@
     "agential": [
         "浅野総一郎"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野総一郎"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1619",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -29,10 +26,7 @@
     "sort": "DKB20032m-0199",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "田町_(東京都港区)"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/田町_(東京都港区)"
+        "田町"
     ],
     "temporal": "1930-11-13",
     "texts": [
@@ -58,10 +52,10 @@
         "DKB20020m-0087"
     ],
     "time": {
-        "10:30:00": "<div><time when=\"10:30:00\">\n             午前十半時\n            </time>\n            故\n            <persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏葬儀（\n            <placeName corresp=\"#place_田町_(東京都港区)\">\n             田町\n            </placeName>\n            同邸）</div>"
+        "10:30:00": "<div><time when=\"10:30:00\">\n             午前十半時\n            </time>\n            故\n            <persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏葬儀（\n            <placeName corresp=\"#place_田町\">\n             田町\n            </placeName>\n            同邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0199\">\n<head>\n<date when=\"1930-11-13\">\n           十三日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n            故\n            <persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏葬儀（\n            <placeName corresp=\"#place_田町_(東京都港区)\">\n             田町\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇半時\n            </time>\n            同告別式\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0199\">\n<head>\n<date when=\"1930-11-13\">\n           十三日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n            故\n            <persName corresp=\"#pers_浅野総一郎\">\n<surname>\n              浅野\n             </surname>\n<forename>\n              総一郎\n             </forename>\n</persName>\n            氏葬儀（\n            <placeName corresp=\"#place_田町\">\n             田町\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後〇半時\n            </time>\n            同告別式\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1930",
     "yearAndMonth": "1930-11"
 }

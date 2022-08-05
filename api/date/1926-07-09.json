@@ -2,9 +2,6 @@
     "agential": [
         "星野錫"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/星野錫"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1518",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -30,11 +27,7 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸",
-        "フランス"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/フランス"
+        "仏国"
     ],
     "temporal": "1926-07-09",
     "texts": [
@@ -63,7 +56,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_星野錫\">\n<surname>\n              星野\n             </surname>\n<forename>\n              錫\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0190\">\n<head>\n<date when=\"1926-07-09\">\n           九日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_星野錫\">\n<surname>\n              星野\n             </surname>\n<forename>\n              錫\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:50:00\">\n             午前十一・五〇\n            </time>\n            事ム所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午后三―四時\n            </time>\n<placeName corresp=\"#place_フランス\">\n             仏国\n            </placeName>\n            下院議長エリオ夫人御面識会　日仏会館\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0190\">\n<head>\n<date when=\"1926-07-09\">\n           九日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_星野錫\">\n<surname>\n              星野\n             </surname>\n<forename>\n              錫\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:50:00\">\n             午前十一・五〇\n            </time>\n            事ム所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午后三―四時\n            </time>\n<placeName corresp=\"#place_仏国\">\n             仏国\n            </placeName>\n            下院議長エリオ夫人御面識会　日仏会館\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-07"
 }

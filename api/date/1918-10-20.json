@@ -1,10 +1,5 @@
 {
-    "agential": [
-        "ハリス"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/ハリス"
-    ],
+    "agential": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1279",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +15,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-10",
     "date_lvl2": "1918-10-20",
-    "description": "\n\n\n           二十日\n          \n          （日）\n         \n\n\n\n\n             午前八半時\n            \n\n             佐原\n            \n            町ヘ御出向ノ約（\n            \n             両国\n            \n            駅発）\n            \n            （\n            \n\n              ハリス\n             \n\n            監督紹介ノ\n            \n             今井\n            \n            牧師ノ為）\n           \n\n\n\n\n             午前十一時五十四分\n            \n\n             佐原\n            \n            駅着（途中\n            \n             成田\n            \n            ニテ乗換）\n           \n\n\n\n\n             午後五時十五分\n            \n\n             佐原\n            \n            駅発\n           \n\n\n\n\n             午後八時卅四分\n            \n\n             両国\n            \n            駅着\n           \n\n\n",
+    "description": "\n\n\n           二十日\n          \n          （日）\n         \n\n\n\n\n             午前八半時\n            \n\n             佐原\n            \n            町ヘ御出向ノ約（両国駅発）\n            \n            （ハリス監督紹介ノ\n            \n             今井\n            \n            牧師ノ為）\n           \n\n\n\n\n             午前十一時五十四分\n            \n\n             佐原\n            \n            駅着（途中\n            \n             成田\n            \n            ニテ乗換）\n           \n\n\n\n\n             午後五時十五分\n            \n\n             佐原\n            \n            駅発\n           \n\n\n\n\n             午後八時卅四分\n            \n            両国駅着\n           \n\n\n",
     "label": "二十日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0273",
@@ -30,15 +25,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "佐原市",
-        "両国",
         "今井",
         "成田"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/佐原市",
-        "https://shibusawa-dlab.github.io/lab1/api/place/両国",
-        "https://shibusawa-dlab.github.io/lab1/api/place/今井",
-        "https://shibusawa-dlab.github.io/lab1/api/place/成田"
     ],
     "temporal": "1918-10-20",
     "texts": [
@@ -64,10 +52,10 @@
         "DKB20020m-0046"
     ],
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<placeName corresp=\"#place_佐原市\">\n             佐原\n            </placeName>\n            町ヘ御出向ノ約（\n            <placeName corresp=\"#place_両国\">\n             両国\n            </placeName>\n            駅発）\n            <lb/>\n            （\n            <persName corresp=\"#pers_ハリス\">\n<surname>\n              ハリス\n             </surname>\n</persName>\n            監督紹介ノ\n            <placeName corresp=\"#place_今井\">\n             今井\n            </placeName>\n            牧師ノ為）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<placeName corresp=\"#place_佐原市\">\n             佐原\n            </placeName>\n            町ヘ御出向ノ約（両国駅発）\n            <lb/>\n            （ハリス監督紹介ノ\n            <placeName corresp=\"#place_今井\">\n             今井\n            </placeName>\n            牧師ノ為）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0272\">\n<head>\n<date when=\"1918-10-20\">\n           二十日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<placeName corresp=\"#place_佐原市\">\n             佐原\n            </placeName>\n            町ヘ御出向ノ約（\n            <placeName corresp=\"#place_両国\">\n             両国\n            </placeName>\n            駅発）\n            <lb/>\n            （\n            <persName corresp=\"#pers_ハリス\">\n<surname>\n              ハリス\n             </surname>\n</persName>\n            監督紹介ノ\n            <placeName corresp=\"#place_今井\">\n             今井\n            </placeName>\n            牧師ノ為）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:54:00\">\n             午前十一時五十四分\n            </time>\n<placeName corresp=\"#place_佐原市\">\n             佐原\n            </placeName>\n            駅着（途中\n            <placeName corresp=\"#place_成田\">\n             成田\n            </placeName>\n            ニテ乗換）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:15:00\">\n             午後五時十五分\n            </time>\n<placeName corresp=\"#place_佐原市\">\n             佐原\n            </placeName>\n            駅発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"20:34:00\">\n             午後八時卅四分\n            </time>\n<placeName corresp=\"#place_両国\">\n             両国\n            </placeName>\n            駅着\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0272\">\n<head>\n<date when=\"1918-10-20\">\n           二十日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<placeName corresp=\"#place_佐原市\">\n             佐原\n            </placeName>\n            町ヘ御出向ノ約（両国駅発）\n            <lb/>\n            （ハリス監督紹介ノ\n            <placeName corresp=\"#place_今井\">\n             今井\n            </placeName>\n            牧師ノ為）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:54:00\">\n             午前十一時五十四分\n            </time>\n<placeName corresp=\"#place_佐原市\">\n             佐原\n            </placeName>\n            駅着（途中\n            <placeName corresp=\"#place_成田\">\n             成田\n            </placeName>\n            ニテ乗換）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:15:00\">\n             午後五時十五分\n            </time>\n<placeName corresp=\"#place_佐原市\">\n             佐原\n            </placeName>\n            駅発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"20:34:00\">\n             午後八時卅四分\n            </time>\n            両国駅着\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-10"
 }

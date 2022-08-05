@@ -3,10 +3,6 @@
         "斎藤恒三",
         "吉安"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/斎藤恒三",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/吉安"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1579",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -31,12 +27,8 @@
     "sort": "DKB20030m-0114",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
+        "飛鳥山公園",
         "東京"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1928-04-21",
     "texts": [
@@ -62,10 +54,10 @@
         "DKB20022m-0030"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_斎藤恒三\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              恒三\n             </forename>\n</persName>\n            来約《（氏脱）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_斎藤恒三\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              恒三\n             </forename>\n</persName>\n            来約《（氏脱）》（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0114\">\n<head>\n<date when=\"1928-04-21\">\n           廿一日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_斎藤恒三\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              恒三\n             </forename>\n</persName>\n            来約《（氏脱）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"14:30:00\">\n             午後一―二半\n            </time>\n            二松学舎開校式（同舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            同舎より御案内（富士見軒）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2740\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1579/full/max/0/default.jpg\" n=\"B2740\" source=\"#pageB2740\"/>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            子爵実\n            <persName corresp=\"#pers_吉安\">\n<surname>\n              吉安\n             </surname>\n</persName>\n            純園遊会《（氏脱）》（華族会館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0114\">\n<head>\n<date when=\"1928-04-21\">\n           廿一日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_斎藤恒三\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              恒三\n             </forename>\n</persName>\n            来約《（氏脱）》（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"14:30:00\">\n             午後一―二半\n            </time>\n            二松学舎開校式（同舎）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            同舎より御案内（富士見軒）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2740\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1579/full/max/0/default.jpg\" n=\"B2740\" source=\"#pageB2740\"/>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            子爵実\n            <persName corresp=\"#pers_吉安\">\n<surname>\n              吉安\n             </surname>\n</persName>\n            純園遊会《（氏脱）》（華族会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-04"
 }

@@ -5,12 +5,6 @@
         "諸井恒平",
         "高桑"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/黒板",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/倉知鉄吉",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/諸井恒平",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/高桑"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1251",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -35,12 +29,9 @@
     "sort": "DKB20019m-0290",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "飛鳥山公園",
         "飛鳥山邸",
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1917-11-10",
     "texts": [
@@ -66,10 +57,10 @@
         "DKB20033m-0171"
     ],
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_黒板\">\n<surname>\n              黒板\n             </surname>\n</persName>\n            博士\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ニ来</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_黒板\">\n<surname>\n              黒板\n             </surname>\n</persName>\n            博士\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ニ来</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0290\">\n<head>\n<date when=\"1917-11-10\">\n           十日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_黒板\">\n<surname>\n              黒板\n             </surname>\n</persName>\n            博士\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ニ来\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_倉知鉄吉\">\n<surname>\n              倉知\n             </surname>\n<forename>\n              鉄吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_諸井恒平\">\n<surname>\n              諸井\n             </surname>\n<forename>\n              恒平\n             </forename>\n</persName>\n            氏、\n            <persName corresp=\"#pers_高桑\">\n<surname>\n              高桑\n             </surname>\n</persName>\n            二氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            扶桑海上保険会社発起人会（同上）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            修養団支部大会（高等工業学校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            偕楽会（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0290\">\n<head>\n<date when=\"1917-11-10\">\n           十日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_黒板\">\n<surname>\n              黒板\n             </surname>\n</persName>\n            博士\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ニ来\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_倉知鉄吉\">\n<surname>\n              倉知\n             </surname>\n<forename>\n              鉄吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_諸井恒平\">\n<surname>\n              諸井\n             </surname>\n<forename>\n              恒平\n             </forename>\n</persName>\n            氏、\n            <persName corresp=\"#pers_高桑\">\n<surname>\n              高桑\n             </surname>\n</persName>\n            二氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            扶桑海上保険会社発起人会（同上）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            修養団支部大会（高等工業学校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            偕楽会（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-11"
 }

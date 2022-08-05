@@ -2,9 +2,6 @@
     "agential": [
         "原富太郎"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/原富太郎"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1431",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -32,13 +29,8 @@
         "東京",
         "尾高橋",
         "滝野川",
-        "横浜"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
-        "https://shibusawa-dlab.github.io/lab1/api/place/尾高橋",
-        "https://shibusawa-dlab.github.io/lab1/api/place/滝野川",
-        "https://shibusawa-dlab.github.io/lab1/api/place/横浜"
+        "横浜",
+        "ヨコハマ"
     ],
     "temporal": "1923-06-12",
     "texts": [
@@ -67,7 +59,7 @@
         "10:30:00": "<div><time when=\"10:30:00\">\n             午前十半時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            運河土地会社ヨリ御案内、\n            <placeName corresp=\"#place_尾高橋\">\n             尾高橋\n            </placeName>\n            渡橋祝賀式</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0158\">\n<head>\n<date when=\"1923-06-12\">\n           十二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            運河土地会社ヨリ御案内、\n            <placeName corresp=\"#place_尾高橋\">\n             尾高橋\n            </placeName>\n            渡橋祝賀式\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            信用組合ノ件\n            <placeName corresp=\"#place_滝野川\">\n             滝野川\n            </placeName>\n            町役場\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:45:00\">\n             午後三・四五\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発汽車ニテ\n            <placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2592\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1431/full/max/0/default.jpg\" n=\"B2592\" source=\"#pageB2592\"/>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_原富太郎\">\n<surname>\n              原\n             </surname>\n<forename>\n              富太郎\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <placeName corresp=\"#place_横浜\">\n             ヨコハマ\n            </placeName>\n            三景園）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            良風会講演会（\n            <placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            記念会館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0158\">\n<head>\n<date when=\"1923-06-12\">\n           十二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            運河土地会社ヨリ御案内、\n            <placeName corresp=\"#place_尾高橋\">\n             尾高橋\n            </placeName>\n            渡橋祝賀式\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            信用組合ノ件\n            <placeName corresp=\"#place_滝野川\">\n             滝野川\n            </placeName>\n            町役場\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:45:00\">\n             午後三・四五\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発汽車ニテ\n            <placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2592\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1431/full/max/0/default.jpg\" n=\"B2592\" source=\"#pageB2592\"/>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_原富太郎\">\n<surname>\n              原\n             </surname>\n<forename>\n              富太郎\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <placeName corresp=\"#place_ヨコハマ\">\n             ヨコハマ\n            </placeName>\n            三景園）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            良風会講演会（\n            <placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            記念会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-06"
 }

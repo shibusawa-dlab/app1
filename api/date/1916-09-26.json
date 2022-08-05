@@ -2,9 +2,6 @@
     "agential": [
         "手島精一"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/手島精一"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1216",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +17,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-09",
     "date_lvl2": "1916-09-26",
-    "description": "\n\n\n           廿六日\n          \n          （火）\n         \n\n\n\n\n             午　時\n            \n\n             血洗島\n            \n            ヘ御出向\n           \n\n\n\n\n             午前十一時半\n            \n\n\n              手島\n             \n\n              精一\n             \n\n            君退職紀念会（日本橋クラブ）\n           \n\n\n",
+    "description": "\n\n\n           廿六日\n          \n          （火）\n         \n\n\n\n\n             午　時\n            \n\n             血洗島\n            \n            ヘ御出向\n           \n\n\n\n\n             午前十一時半\n            \n\n\n              手島\n             \n\n              精一\n             \n\n            君退職紀念会（\n            \n             日本橋\n            \n            クラブ）\n           \n\n\n",
     "label": "廿六日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0251",
@@ -29,10 +26,8 @@
     "sort": "DKB20018m-0250",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "血洗島"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/血洗島"
+        "血洗島",
+        "日本橋"
     ],
     "temporal": "1916-09-26",
     "texts": [
@@ -59,7 +54,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0250\">\n<head>\n<date when=\"1916-09-26\">\n           廿六日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午　時\n            </time>\n<placeName corresp=\"#place_血洗島\">\n             血洗島\n            </placeName>\n            ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n<persName corresp=\"#pers_手島精一\">\n<surname>\n              手島\n             </surname>\n<forename>\n              精一\n             </forename>\n</persName>\n            君退職紀念会（日本橋クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0250\">\n<head>\n<date when=\"1916-09-26\">\n           廿六日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午　時\n            </time>\n<placeName corresp=\"#place_血洗島\">\n             血洗島\n            </placeName>\n            ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一時半\n            </time>\n<persName corresp=\"#pers_手島精一\">\n<surname>\n              手島\n             </surname>\n<forename>\n              精一\n             </forename>\n</persName>\n            君退職紀念会（\n            <placeName corresp=\"#place_日本橋\">\n             日本橋\n            </placeName>\n            クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-09"
 }

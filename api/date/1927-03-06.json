@@ -1,13 +1,7 @@
 {
     "agential": [
-        "佐野",
         "三上",
         "平泉"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/佐野",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/三上",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/平泉"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1537",
     "category": {
@@ -33,12 +27,10 @@
     "sort": "DKB20029m-0048",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "佐野",
+        "アスカ山",
         "飛鳥山邸",
         "綱町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/綱町"
     ],
     "temporal": "1927-03-06",
     "texts": [
@@ -64,10 +56,10 @@
         "DKB20030m-0269"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_佐野\">\n             佐野\n            </persName>\n            博士来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_佐野\">\n             佐野\n            </placeName>\n            博士来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0048\">\n<head>\n<date when=\"1927-03-06\">\n           六日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_佐野\">\n             佐野\n            </persName>\n            博士来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_三上\">\n<surname>\n              三上\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_平泉\">\n<surname>\n              平泉\n             </surname>\n</persName>\n            両文学博士来訪（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            邸ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0048\">\n<head>\n<date when=\"1927-03-06\">\n           六日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_佐野\">\n             佐野\n            </placeName>\n            博士来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_三上\">\n<surname>\n              三上\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_平泉\">\n<surname>\n              平泉\n             </surname>\n</persName>\n            両文学博士来訪（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            邸ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-03"
 }

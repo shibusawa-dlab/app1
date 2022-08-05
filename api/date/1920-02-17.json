@@ -1,13 +1,7 @@
 {
     "agential": [
-        "黒板勝美",
-        "神谷忠雄",
-        "明石"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/黒板勝美",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/神谷忠雄",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/明石"
+        "勝美",
+        "神谷忠雄"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1324",
     "category": {
@@ -24,7 +18,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-02",
     "date_lvl2": "1920-02-17",
-    "description": "\n\n\n           十七日\n          \n          （火）\n         \n\n\n\n\n             午前九時半\n            \n\n\n              黒板\n             \n\n              勝美\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n\n             午前九時半\n            \n\n\n              神谷\n             \n\n              忠雄\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一時卅五分\n            \n\n             大磯\n            \n\n\n              明石\n             \n\n            別邸へ御避寒の為め御出向（\n            \n             東京\n            \n            駅）\n           \n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （火）\n         \n\n\n\n\n             午前九時半\n            \n            黒板\n            \n\n              勝美\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n\n             午前九時半\n            \n\n\n              神谷\n             \n\n              忠雄\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一時卅五分\n            \n\n             大磯\n            \n\n             明石\n            \n            別邸へ御避寒の為め御出向（\n            \n             東京\n            \n            駅）\n           \n\n\n",
     "label": "十七日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0048",
@@ -35,12 +29,8 @@
     "spatial": [
         "日本橋兜町",
         "大磯町",
+        "明石",
         "東京"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/大磯町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1920-02-17",
     "texts": [
@@ -66,10 +56,10 @@
         "DKB20022m-0042"
     ],
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九時半\n            </time>\n<persName corresp=\"#pers_黒板勝美\">\n<surname>\n              黒板\n             </surname>\n<forename>\n              勝美\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九時半\n            </time>\n            黒板\n            <persName corresp=\"#pers_勝美\">\n<forename>\n              勝美\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0046\">\n<head>\n<date when=\"1920-02-17\">\n           十七日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九時半\n            </time>\n<persName corresp=\"#pers_黒板勝美\">\n<surname>\n              黒板\n             </surname>\n<forename>\n              勝美\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2485\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1324/full/max/0/default.jpg\" n=\"B2485\" source=\"#pageB2485\"/>\n<time when=\"09:30:00\">\n             午前九時半\n            </time>\n<persName corresp=\"#pers_神谷忠雄\">\n<surname>\n              神谷\n             </surname>\n<forename>\n              忠雄\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:35:00\">\n             午後一時卅五分\n            </time>\n<placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n<persName corresp=\"#pers_明石\">\n<surname>\n              明石\n             </surname>\n</persName>\n            別邸へ御避寒の為め御出向（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0046\">\n<head>\n<date when=\"1920-02-17\">\n           十七日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九時半\n            </time>\n            黒板\n            <persName corresp=\"#pers_勝美\">\n<forename>\n              勝美\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2485\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1324/full/max/0/default.jpg\" n=\"B2485\" source=\"#pageB2485\"/>\n<time when=\"09:30:00\">\n             午前九時半\n            </time>\n<persName corresp=\"#pers_神谷忠雄\">\n<surname>\n              神谷\n             </surname>\n<forename>\n              忠雄\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:35:00\">\n             午後一時卅五分\n            </time>\n<placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n<placeName corresp=\"#place_明石\">\n             明石\n            </placeName>\n            別邸へ御避寒の為め御出向（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-02"
 }

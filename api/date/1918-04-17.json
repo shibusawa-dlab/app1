@@ -1,14 +1,5 @@
 {
-    "agential": [
-        "湯化竜",
-        "林長民",
-        "土方久徴"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/湯化竜",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/林長民",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/土方久徴"
-    ],
+    "agential": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1265",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -24,7 +15,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-04",
     "date_lvl2": "1918-04-17",
-    "description": "\n\n\n           十七日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n            田園都市会社ノ件（日清生命保険）\n           \n\n\n\n\n             午後二半時\n            \n\n\n              湯\n             \n\n              化竜\n             \n\n            、\n            \n\n              林\n             \n\n              長民\n             \n\n            両氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後五半時\n            \n\n\n              土方\n             \n\n              久徴\n             \n\n            氏ヨリ御案内（日本橋クラブ）\n           \n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n            田園都市会社ノ件（日清生命保険）\n           \n\n\n\n\n             午後二半時\n            \n            湯化竜、林長民両氏\n            \n             兜町\n            \n            ニ来約\n           \n\n\n\n\n             午後五半時\n            \n            土方久徴氏ヨリ御案内（\n            \n             日本橋\n            \n            クラブ）\n           \n\n\n",
     "label": "十七日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0102",
@@ -33,10 +24,8 @@
     "sort": "DKB20020m-0101",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
+        "日本橋兜町",
+        "日本橋"
     ],
     "temporal": "1918-04-17",
     "texts": [
@@ -65,7 +54,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            田園都市会社ノ件（日清生命保険）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0101\">\n<head>\n<date when=\"1918-04-17\">\n           十七日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            田園都市会社ノ件（日清生命保険）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<persName corresp=\"#pers_湯化竜\">\n<surname>\n              湯\n             </surname>\n<forename>\n              化竜\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_林長民\">\n<surname>\n              林\n             </surname>\n<forename>\n              長民\n             </forename>\n</persName>\n            両氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_土方久徴\">\n<surname>\n              土方\n             </surname>\n<forename>\n              久徴\n             </forename>\n</persName>\n            氏ヨリ御案内（日本橋クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0101\">\n<head>\n<date when=\"1918-04-17\">\n           十七日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            田園都市会社ノ件（日清生命保険）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            湯化竜、林長民両氏\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ニ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            土方久徴氏ヨリ御案内（\n            <placeName corresp=\"#place_日本橋\">\n             日本橋\n            </placeName>\n            クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-04"
 }

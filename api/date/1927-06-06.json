@@ -4,11 +4,6 @@
         "萩野",
         "丹羽"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/勝正憲",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/萩野",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/丹羽"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1547",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -24,7 +19,7 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-06",
     "date_lvl2": "1927-06-06",
-    "description": "\n\n\n           六日\n          \n          （月）\n         \n\n\n\n\n             午後二・二五時\n            \n            御出勤\n           \n\n\n\n\n             午後四時\n            \n\n\n              勝\n             \n\n              正憲\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後六時\n            \n\n\n              萩野\n             \n\n            、\n            \n\n              丹羽\n             \n\n            両家結婚披露（東京会館）\n           \n\n\n",
+    "description": "\n\n\n           六日\n          \n          （月）\n         \n\n\n\n\n             午後二・二五時\n            \n            御出勤\n           \n\n\n\n\n             午後四時\n            \n\n\n              勝\n             \n\n              正憲\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             午後六時\n            \n\n\n              萩野\n             \n\n            、\n            \n\n              丹羽\n             \n\n            両家結婚披露（\n            \n             東京\n            \n            会館）\n           \n\n\n",
     "label": "六日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0142",
@@ -32,8 +27,9 @@
     "prev": "DKB20029m-0140",
     "sort": "DKB20029m-0141",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
-    "spatial_uri": [],
+    "spatial": [
+        "東京"
+    ],
     "temporal": "1927-06-06",
     "texts": [
         "DKB20030m-0271",
@@ -61,7 +57,7 @@
         "14:25:00": "<div><time when=\"14:25:00\">\n             午後二・二五時\n            </time>\n            御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0141\">\n<head>\n<date when=\"1927-06-06\">\n           六日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:25:00\">\n             午後二・二五時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_勝正憲\">\n<surname>\n              勝\n             </surname>\n<forename>\n              正憲\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_萩野\">\n<surname>\n              萩野\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_丹羽\">\n<surname>\n              丹羽\n             </surname>\n</persName>\n            両家結婚披露（東京会館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0141\">\n<head>\n<date when=\"1927-06-06\">\n           六日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:25:00\">\n             午後二・二五時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_勝正憲\">\n<surname>\n              勝\n             </surname>\n<forename>\n              正憲\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_萩野\">\n<surname>\n              萩野\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_丹羽\">\n<surname>\n              丹羽\n             </surname>\n</persName>\n            両家結婚披露（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-06"
 }

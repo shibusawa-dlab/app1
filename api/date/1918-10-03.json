@@ -3,10 +3,6 @@
         "吉池慶正",
         "荒井賢太郎"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/吉池慶正",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/荒井賢太郎"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1278",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -22,7 +18,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-10",
     "date_lvl2": "1918-10-03",
-    "description": "\n\n\n           三日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n\n              吉池\n             \n\n              慶正\n             \n\n            氏等来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n            東亜興業会社\n            \n\n              荒井\n             \n\n              賢太郎\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n",
+    "description": "\n\n\n           三日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n\n              吉池\n             \n\n              慶正\n             \n\n            氏等来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後六時\n            \n\n             東亜\n            \n            興業会社\n            \n\n              荒井\n             \n\n              賢太郎\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n",
     "label": "三日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0256",
@@ -31,10 +27,8 @@
     "sort": "DKB20020m-0255",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山邸",
+        "東亜"
     ],
     "temporal": "1918-10-03",
     "texts": [
@@ -63,7 +57,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏等来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0255\">\n<head>\n<date when=\"1918-10-03\">\n           三日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏等来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            東亜興業会社\n            <persName corresp=\"#pers_荒井賢太郎\">\n<surname>\n              荒井\n             </surname>\n<forename>\n              賢太郎\n             </forename>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0255\">\n<head>\n<date when=\"1918-10-03\">\n           三日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_吉池慶正\">\n<surname>\n              吉池\n             </surname>\n<forename>\n              慶正\n             </forename>\n</persName>\n            氏等来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_東亜\">\n             東亜\n            </placeName>\n            興業会社\n            <persName corresp=\"#pers_荒井賢太郎\">\n<surname>\n              荒井\n             </surname>\n<forename>\n              賢太郎\n             </forename>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-10"
 }

@@ -1,11 +1,8 @@
 {
     "agential": [
         "清浦",
-        "藤波"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/清浦",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/藤波"
+        "藤波",
+        "渋沢"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1216",
     "category": {
@@ -22,7 +19,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-09",
     "date_lvl2": "1916-09-23",
-    "description": "\n\n\n           廿三日\n          \n          （土）\n         \n\n\n\n            秋季皇霊祭\n           \n\n\n\n\n             午前　時\n            \n\n\n              清浦\n             \n\n            子爵、\n            \n\n              藤波\n             \n\n            子爵来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            渋沢商店員招待会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           廿三日\n          \n          （土）\n         \n\n\n\n            秋季皇霊祭\n           \n\n\n\n\n             午前　時\n            \n\n\n              清浦\n             \n\n            子爵、\n            \n\n              藤波\n             \n\n            子爵来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              渋沢\n             \n\n            商店員招待会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "label": "廿三日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0248",
@@ -32,9 +29,6 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1916-09-23",
     "texts": [
@@ -61,7 +55,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0247\">\n<head>\n<date when=\"1916-09-23\">\n           廿三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n            秋季皇霊祭\n           </p>\n</event>\n<event>\n<p>\n<time>\n             午前　時\n            </time>\n<persName corresp=\"#pers_清浦\">\n<surname>\n              清浦\n             </surname>\n</persName>\n            子爵、\n            <persName corresp=\"#pers_藤波\">\n<surname>\n              藤波\n             </surname>\n</persName>\n            子爵来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            渋沢商店員招待会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0247\">\n<head>\n<date when=\"1916-09-23\">\n           廿三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n            秋季皇霊祭\n           </p>\n</event>\n<event>\n<p>\n<time>\n             午前　時\n            </time>\n<persName corresp=\"#pers_清浦\">\n<surname>\n              清浦\n             </surname>\n</persName>\n            子爵、\n            <persName corresp=\"#pers_藤波\">\n<surname>\n              藤波\n             </surname>\n</persName>\n            子爵来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            商店員招待会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-09"
 }

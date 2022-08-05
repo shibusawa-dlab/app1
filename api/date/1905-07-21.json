@@ -5,12 +5,6 @@
         "田中",
         "伊藤"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/高橋",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/益田",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/田中",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/伊藤"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/402",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -36,13 +30,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "日本橋兜町",
-        "飛鳥山邸",
+        "王子別荘",
         "霊南坂"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/霊南坂"
     ],
     "temporal": "1905-07-21",
     "texts": [
@@ -71,10 +60,10 @@
         "06:00:00": "<div><time when=\"06:00:00\">\n        午前六時\n       </time>\n       起床、庭内ヲ散歩シ、入浴後朝飧ヲ畢ル、</div>",
         "10:00:00": "<div><time when=\"10:00:00\">\n        午前十時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ出勤ス、</div>",
         "12:00:00": "<div><time when=\"12:00:00\">\n        正午\n       </time>\n       午飧ヲ為シ、午後ヨリ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ於テ書類ヲ調査ス午後\n       <persName corresp=\"#pers_高橋\">\n<surname>\n         高橋\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_益田\">\n<surname>\n         益田\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_田中\">\n<surname>\n         田中\n        </surname>\n</persName>\n       三氏来リテ米国貴賓歓迎ノ方法ヲ協議ス、明後日同志会同ノ事ヲ決ス\n       <lb/></div>",
-        "19:00:00": "<div><time when=\"19:00:00\">\n        午後七時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n       <lb/>\n<persName corresp=\"#pers_伊藤\">\n<surname>\n         伊藤\n        </surname>\n</persName>\n       侯爵ヲ\n       <placeName corresp=\"#place_霊南坂\">\n        霊南坂\n       </placeName>\n       ニ訪フ、明日ノ来会ヲ約ス</div>"
+        "19:00:00": "<div><time when=\"19:00:00\">\n        午後七時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n       <lb/>\n<persName corresp=\"#pers_伊藤\">\n<surname>\n         伊藤\n        </surname>\n</persName>\n       侯爵ヲ\n       <placeName corresp=\"#place_霊南坂\">\n        霊南坂\n       </placeName>\n       ニ訪フ、明日ノ来会ヲ約ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10013m-0195\">\n<head>\n<date when=\"1905-07-21\">\n        七月二十一日\n       </date>\n       金　曇　冷気\n      </head>\n<p>\n<time when=\"06:00:00\">\n        午前六時\n       </time>\n       起床、庭内ヲ散歩シ、入浴後朝飧ヲ畢ル、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ出勤ス、\n       <time when=\"12:00:00\">\n        正午\n       </time>\n       午飧ヲ為シ、午後ヨリ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ於テ書類ヲ調査ス午後\n       <persName corresp=\"#pers_高橋\">\n<surname>\n         高橋\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_益田\">\n<surname>\n         益田\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_田中\">\n<surname>\n         田中\n        </surname>\n</persName>\n       三氏来リテ米国貴賓歓迎ノ方法ヲ協議ス、明後日同志会同ノ事ヲ決ス\n       <lb/>\n<time when=\"19:00:00\">\n        午後七時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n       <lb/>\n<persName corresp=\"#pers_伊藤\">\n<surname>\n         伊藤\n        </surname>\n</persName>\n       侯爵ヲ\n       <placeName corresp=\"#place_霊南坂\">\n        霊南坂\n       </placeName>\n       ニ訪フ、明日ノ来会ヲ約ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10013m-0195\">\n<head>\n<date when=\"1905-07-21\">\n        七月二十一日\n       </date>\n       金　曇　冷気\n      </head>\n<p>\n<time when=\"06:00:00\">\n        午前六時\n       </time>\n       起床、庭内ヲ散歩シ、入浴後朝飧ヲ畢ル、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ出勤ス、\n       <time when=\"12:00:00\">\n        正午\n       </time>\n       午飧ヲ為シ、午後ヨリ\n       <placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ於テ書類ヲ調査ス午後\n       <persName corresp=\"#pers_高橋\">\n<surname>\n         高橋\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_益田\">\n<surname>\n         益田\n        </surname>\n</persName>\n       、\n       <persName corresp=\"#pers_田中\">\n<surname>\n         田中\n        </surname>\n</persName>\n       三氏来リテ米国貴賓歓迎ノ方法ヲ協議ス、明後日同志会同ノ事ヲ決ス\n       <lb/>\n<time when=\"19:00:00\">\n        午後七時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス\n       <lb/>\n<persName corresp=\"#pers_伊藤\">\n<surname>\n         伊藤\n        </surname>\n</persName>\n       侯爵ヲ\n       <placeName corresp=\"#place_霊南坂\">\n        霊南坂\n       </placeName>\n       ニ訪フ、明日ノ来会ヲ約ス\n      </p>\n</div>",
     "year": "1905",
     "yearAndMonth": "1905-07"
 }

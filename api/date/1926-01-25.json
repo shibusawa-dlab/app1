@@ -1,11 +1,6 @@
 {
     "agential": [
-        "岡太仲",
-        "岡部"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/岡太仲",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/岡部"
+        "岡太"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1501",
     "category": {
@@ -22,7 +17,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-01",
     "date_lvl2": "1926-01-25",
-    "description": "\n\n\n           廿五日\n          \n          （月）\n         \n\n\n\n\n             午前十・五〇\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午前十一時\n            \n\n\n              岡\n             \n\n              太仲\n             \n\n            氏来約（事務所）\n           \n\n\n\n\n             正午\n            \n            故\n            \n\n              岡部\n             \n\n            子爵追悼会（日本クラブ）\n           \n\n\n",
+    "description": "\n\n\n           廿五日\n          \n          （月）\n         \n\n\n\n\n             午前十・五〇\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午前十一時\n            \n\n\n              岡太\n             \n\n            仲氏来約（事務所）\n           \n\n\n\n\n             正午\n            \n            故\n            \n             岡部\n            \n            子爵追悼会（日本クラブ）\n           \n\n\n",
     "label": "廿五日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0026",
@@ -30,8 +25,9 @@
     "prev": "DKB20028m-0024",
     "sort": "DKB20028m-0025",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
-    "spatial_uri": [],
+    "spatial": [
+        "岡部"
+    ],
     "temporal": "1926-01-25",
     "texts": [
         "DKB20031m-0162",
@@ -59,7 +55,7 @@
         "10:50:00": "<div><time when=\"10:50:00\">\n             午前十・五〇\n            </time>\n            事務所ニ御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0025\">\n<head>\n<date when=\"1926-01-25\">\n           廿五日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:50:00\">\n             午前十・五〇\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_岡太仲\">\n<surname>\n              岡\n             </surname>\n<forename>\n              太仲\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            故\n            <persName corresp=\"#pers_岡部\">\n<surname>\n              岡部\n             </surname>\n</persName>\n            子爵追悼会（日本クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0025\">\n<head>\n<date when=\"1926-01-25\">\n           廿五日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:50:00\">\n             午前十・五〇\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_岡太\">\n<forename>\n              岡太\n             </forename>\n</persName>\n            仲氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            故\n            <placeName corresp=\"#place_岡部\">\n             岡部\n            </placeName>\n            子爵追悼会（日本クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-01"
 }

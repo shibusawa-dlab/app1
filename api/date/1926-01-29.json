@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1502",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +15,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-01",
     "date_lvl2": "1926-01-29",
-    "description": "\n\n\n           廿九日\n          \n          （金）\n         \n\n\n\n\n             午前十・四五\n            \n            事ム所ニ御出勤\n           \n\n\n\n\n             午前十―十一時\n            \n            鈴木\n            \n             朝鮮銀行\n            \n            総裁ト御会見ノ約（事ム所）\n           \n\n\n\n\n             正午\n            \n\n             綱町\n            \n            邸ヘ御出向ノ約\n           \n\n\n",
+    "description": "\n\n\n           廿九日\n          \n          （金）\n         \n\n\n\n\n             午前十・四五\n            \n            事ム所ニ御出勤\n           \n\n\n\n\n             午前十―十一時\n            \n            鈴木\n            \n             朝鮮\n            \n            銀行総裁ト御会見ノ約（事ム所）\n           \n\n\n\n\n             正午\n            \n\n             綱町\n            \n            邸ヘ御出向ノ約\n           \n\n\n",
     "label": "廿九日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0030",
@@ -25,10 +24,8 @@
     "sort": "DKB20028m-0029",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "朝鮮",
         "綱町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/綱町"
     ],
     "temporal": "1926-01-29",
     "texts": [
@@ -57,7 +54,7 @@
         "10:45:00": "<div><time when=\"10:45:00\">\n             午前十・四五\n            </time>\n            事ム所ニ御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0029\">\n<head>\n<date when=\"1926-01-29\">\n           廿九日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:45:00\">\n             午前十・四五\n            </time>\n            事ム所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"11:00:00\">\n             午前十―十一時\n            </time>\n            鈴木\n            <orgName>\n             朝鮮銀行\n            </orgName>\n            総裁ト御会見ノ約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            邸ヘ御出向ノ約\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0029\">\n<head>\n<date when=\"1926-01-29\">\n           廿九日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:45:00\">\n             午前十・四五\n            </time>\n            事ム所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"11:00:00\">\n             午前十―十一時\n            </time>\n            鈴木\n            <placeName corresp=\"#place_朝鮮\">\n             朝鮮\n            </placeName>\n            銀行総裁ト御会見ノ約（事ム所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            邸ヘ御出向ノ約\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-01"
 }

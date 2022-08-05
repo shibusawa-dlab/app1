@@ -4,11 +4,6 @@
         "都筑",
         "都築"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渡辺",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/都筑",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/都築"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1543",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -33,10 +28,8 @@
     "sort": "DKB20029m-0107",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山邸",
+        "アスカ山"
     ],
     "temporal": "1927-05-03",
     "texts": [
@@ -65,7 +58,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_渡辺\">\n<surname>\n              渡辺\n             </surname>\n</persName>\n            扶氏来訪（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0107\">\n<head>\n<date when=\"1927-05-03\">\n           三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_渡辺\">\n<surname>\n              渡辺\n             </surname>\n</persName>\n            扶氏来訪（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            道路改良会専任幹事\n            <persName corresp=\"#pers_都筑\">\n<surname>\n              都筑\n             </surname>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_都築\">\n<surname>\n              都築\n             </surname>\n</persName>\n            氏）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0107\">\n<head>\n<date when=\"1927-05-03\">\n           三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_渡辺\">\n<surname>\n              渡辺\n             </surname>\n</persName>\n            扶氏来訪（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            道路改良会専任幹事\n            <persName corresp=\"#pers_都筑\">\n<surname>\n              都筑\n             </surname>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_都築\">\n<surname>\n              都築\n             </surname>\n</persName>\n            氏）》（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-05"
 }

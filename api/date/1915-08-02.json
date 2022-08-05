@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1189",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +15,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-08",
     "date_lvl2": "1915-08-02",
-    "description": "\n\n\n           二日\n          \n          （月）\n         \n\n\n\n\n             午前八時\n            \n\n             箱根\n            \n            三河屋ホテルヘ御出向（\n            \n             東京\n            \n            駅）\n           \n\n\n",
+    "description": "\n\n\n           二日\n          \n          （月）\n         \n\n\n\n\n             午前八時\n            \n\n             箱根\n            \n\n             三河\n            \n            屋ホテルヘ御出向（\n            \n             東京\n            \n            駅）\n           \n\n\n",
     "label": "二日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0206",
@@ -26,11 +25,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "箱根",
+        "三河国",
         "東京"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/箱根",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1915-08-02",
     "texts": [
@@ -56,10 +52,10 @@
         "DKB20031m-0185"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_箱根\">\n             箱根\n            </placeName>\n            三河屋ホテルヘ御出向（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_箱根\">\n             箱根\n            </placeName>\n<placeName corresp=\"#place_三河国\">\n             三河\n            </placeName>\n            屋ホテルヘ御出向（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0204\">\n<head>\n<date when=\"1915-08-02\">\n           二日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_箱根\">\n             箱根\n            </placeName>\n            三河屋ホテルヘ御出向（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0204\">\n<head>\n<date when=\"1915-08-02\">\n           二日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_箱根\">\n             箱根\n            </placeName>\n<placeName corresp=\"#place_三河国\">\n             三河\n            </placeName>\n            屋ホテルヘ御出向（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-08"
 }

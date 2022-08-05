@@ -2,9 +2,6 @@
     "agential": [
         "権田雷斧"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/権田雷斧"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1236",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +17,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-05",
     "date_lvl2": "1917-05-10",
-    "description": "\n\n\n           十日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n\n\n              権田\n             \n\n              雷斧\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n             日本郵船会社\n            \n            重役会（同社）\n           \n\n\n\n\n             午〇半時\n            \n\n             東京\n            \n            慈恵会評議会\n           \n\n\n\n\n             午後一時\n            \n\n             東京\n            \n            慈恵会総会（同会）\n           \n\n\n\n\n             午後三時\n            \n            偕楽会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           十日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n\n\n              権田\n             \n\n              雷斧\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n             日本\n            \n            郵船会社重役会（同社）\n           \n\n\n\n\n             午〇半時\n            \n\n             東京\n            \n            慈恵会評議会\n           \n\n\n\n\n             午後一時\n            \n\n             東京\n            \n            慈恵会総会（同会）\n           \n\n\n\n\n             午後三時\n            \n            偕楽会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "label": "十日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0130",
@@ -30,11 +27,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸",
+        "日本",
         "東京"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1917-05-10",
     "texts": [
@@ -63,7 +57,7 @@
         "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_権田雷斧\">\n<surname>\n              権田\n             </surname>\n<forename>\n              雷斧\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0129\">\n<head>\n<date when=\"1917-05-10\">\n           十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_権田雷斧\">\n<surname>\n              権田\n             </surname>\n<forename>\n              雷斧\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             日本郵船会社\n            </orgName>\n            重役会（同社）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午〇半時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会評議会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会総会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            偕楽会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0129\">\n<head>\n<date when=\"1917-05-10\">\n           十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_権田雷斧\">\n<surname>\n              権田\n             </surname>\n<forename>\n              雷斧\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            郵船会社重役会（同社）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午〇半時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会評議会\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会総会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            偕楽会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-05"
 }

@@ -2,14 +2,7 @@
     "agential": [
         "高木陸郎",
         "友松円諦",
-        "シルヴァン_レヴィ",
         "尾崎行雄"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/高木陸郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/友松円諦",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/シルヴァン_レヴィ",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/尾崎行雄"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1626",
     "category": {
@@ -26,7 +19,7 @@
     "date_lvl0": "1931",
     "date_lvl1": "1931-07",
     "date_lvl2": "1931-07-02",
-    "description": "\n\n\n           二日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n\n\n              高木\n             \n\n              陸郎\n             \n\n            氏来邸（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              友松\n             \n\n              円諦\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n            \n            （\n            \n\n              シルバン\n             \n             ・\n             \n              レヴヰ\n             \n\n            氏紹介）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              尾崎\n             \n\n              行雄\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           二日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n\n\n              高木\n             \n\n              陸郎\n             \n\n            氏来邸（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              友松\n             \n\n              円諦\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n            \n            （シルバン・レヴヰ氏紹介）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              尾崎\n             \n\n              行雄\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "label": "二日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20033m-0120",
@@ -35,10 +28,8 @@
     "sort": "DKB20033m-0119",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "飛鳥山公園",
         "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1931-07-02",
     "texts": [
@@ -64,10 +55,10 @@
         "DKB20033m-0090"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_高木陸郎\">\n<surname>\n              高木\n             </surname>\n<forename>\n              陸郎\n             </forename>\n</persName>\n            氏来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_高木陸郎\">\n<surname>\n              高木\n             </surname>\n<forename>\n              陸郎\n             </forename>\n</persName>\n            氏来邸（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0119\">\n<head>\n<date when=\"1931-07-02\">\n           二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_高木陸郎\">\n<surname>\n              高木\n             </surname>\n<forename>\n              陸郎\n             </forename>\n</persName>\n            氏来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_友松円諦\">\n<surname>\n              友松\n             </surname>\n<forename>\n              円諦\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n            <lb/>\n            （\n            <persName corresp=\"#pers_シルヴァン_レヴィ\">\n<forename>\n              シルバン\n             </forename>\n             ・\n             <surname>\n              レヴヰ\n             </surname>\n</persName>\n            氏紹介）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_尾崎行雄\">\n<surname>\n              尾崎\n             </surname>\n<forename>\n              行雄\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0119\">\n<head>\n<date when=\"1931-07-02\">\n           二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_高木陸郎\">\n<surname>\n              高木\n             </surname>\n<forename>\n              陸郎\n             </forename>\n</persName>\n            氏来邸（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_友松円諦\">\n<surname>\n              友松\n             </surname>\n<forename>\n              円諦\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n            <lb/>\n            （シルバン・レヴヰ氏紹介）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_尾崎行雄\">\n<surname>\n              尾崎\n             </surname>\n<forename>\n              行雄\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1931",
     "yearAndMonth": "1931-07"
 }

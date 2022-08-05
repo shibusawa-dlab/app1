@@ -1,13 +1,8 @@
 {
     "agential": [
-        "渋沢兼子",
+        "兼子",
         "チソン",
         "浅野"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢兼子",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/チソン",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/浅野"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/264",
     "category": {
@@ -33,18 +28,11 @@
     "sort": "DKB10010m-0312",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
-        "飛鳥山邸",
+        "王子別荘",
         "日本橋兜町",
         "新橋",
         "横浜",
-        "観音崎"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/新橋",
-        "https://shibusawa-dlab.github.io/lab1/api/place/横浜",
-        "https://shibusawa-dlab.github.io/lab1/api/place/観音崎"
+        "観音埼《（崎）》"
     ],
     "temporal": "1902-05-15",
     "texts": [
@@ -71,7 +59,7 @@
     ],
     "time": {
         "06:00:00": "<div>雨、<time when=\"06:00:00\">\n        午前六時\n       </time>\n       床ヲ離レテ入浴ス、朝飧後庭園ヲ散歩シ一詩ヲ賦シ一首ヲ詠ス、</div>",
-        "07:00:00": "<div><time when=\"07:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ヲ発シ、\n       <persName corresp=\"#pers_渋沢兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       同伴ニテ</div>",
+        "07:00:00": "<div><time when=\"07:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ヲ発シ、\n       <persName corresp=\"#pers_兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       同伴ニテ</div>",
         "08:00:00": "<div><time when=\"08:00:00\">\n        八時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       ニ抵ル、\n       <orgName>\n        第一銀行\n       </orgName>\n       員及家人来リテ送別ス、</div>",
         "09:00:00": "<div><time when=\"09:00:00\">\n        九時\n       </time>\n<placeName corresp=\"#place_新橋\">\n        新橋\n       </placeName>\n       停車場ニ抵リ送別ノ人ニ接ス、各大臣及政事家、学者、商工業家多ク来リ送ル、</div>",
         "09:25:00": "<div><time when=\"09:25:00\">\n        九時二十五分\n       </time>\n       発ノ汽車ニテ</div>",
@@ -79,10 +67,10 @@
         "11:00:00": "<div><time when=\"11:00:00\">\n        十一時\n       </time>\n<name type=\"ship\">\n        汽船亜米利加丸\n       </name>\n       ニ搭ス、\n       <placeName corresp=\"#place_横浜\">\n        横浜\n       </placeName>\n       マテ送リ来レル人ハ皆本船ニ来ルヲ以テ船頗ル雑沓ス、</div>",
         "12:20:00": "<div><time when=\"12:20:00\">\n        十二時二十分\n       </time>\n       抜錨、送別ノ諸氏ト分袂ス、此時雨頻リニ至ル、</div>",
         "13:00:00": "<div><time when=\"13:00:00\">\n        午後一時\n       </time>\n       米国人\n       <persName corresp=\"#pers_チソン\">\n<surname>\n         チソン\n        </surname>\n</persName>\n       氏及\n       <persName corresp=\"#pers_浅野\">\n<surname>\n         浅野\n        </surname>\n</persName>\n       氏ト瓦斯事業等ニ関スル事ヲ会話ス、</div>",
-        "13:30:00": "<div><time when=\"13:30:00\">\n        一時半\n       </time>\n       船航行ヲ始ム、午飧後行李ヲ理シ且日記ヲ調査ス\n       <lb/>\n       此日時々雨降リテ風強ク\n       <placeName corresp=\"#place_観音崎\">\n        観音埼《（崎）》\n       </placeName>\n       ヲ超ヘテ船頗ル動揺ス、依テ船牀ニ枕籍シテ夜食ノ卓ニ出ル事ヲ能ハス</div>"
+        "13:30:00": "<div><time when=\"13:30:00\">\n        一時半\n       </time>\n       船航行ヲ始ム、午飧後行李ヲ理シ且日記ヲ調査ス\n       <lb/>\n       此日時々雨降リテ風強ク\n       <placeName corresp=\"#place_観音埼《（崎）》\">\n        観音埼《（崎）》\n       </placeName>\n       ヲ超ヘテ船頗ル動揺ス、依テ船牀ニ枕籍シテ夜食ノ卓ニ出ル事ヲ能ハス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10010m-0312\">\n<head>\n<date when=\"1902-05-15\">\n        五月十五日\n       </date>\n</head>\n<p>\n       雨、\n       <time when=\"06:00:00\">\n        午前六時\n       </time>\n       床ヲ離レテ入浴ス、朝飧後庭園ヲ散歩シ一詩ヲ賦シ一首ヲ詠ス、\n       <time when=\"07:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ヲ発シ、\n       <persName corresp=\"#pers_渋沢兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       同伴ニテ\n       <time when=\"08:00:00\">\n        八時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       ニ抵ル、\n       <orgName>\n        第一銀行\n       </orgName>\n       員及家人来リテ送別ス、\n       <time when=\"09:00:00\">\n        九時\n       </time>\n<placeName corresp=\"#place_新橋\">\n        新橋\n       </placeName>\n       停車場ニ抵リ送別ノ人ニ接ス、各大臣及政事家、学者、商工業家多ク来リ送ル、\n       <time when=\"09:25:00\">\n        九時二十五分\n       </time>\n       発ノ汽車ニテ\n       <time when=\"10:00:00\">\n        十時\n       </time>\n       過\n       <placeName corresp=\"#place_横浜\">\n        横浜\n       </placeName>\n       ニ抵リ\n       <orgName>\n        第一銀行\n       </orgName>\n       支店楼上ニ休憩ス、\n       <time when=\"11:00:00\">\n        十一時\n       </time>\n<name type=\"ship\">\n        汽船亜米利加丸\n       </name>\n       ニ搭ス、\n       <placeName corresp=\"#place_横浜\">\n        横浜\n       </placeName>\n       マテ送リ来レル人ハ皆本船ニ来ルヲ以テ船頗ル雑沓ス、\n       <time when=\"12:20:00\">\n        十二時二十分\n       </time>\n       抜錨、送別ノ諸氏ト分袂ス、此時雨頻リニ至ル、\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n       米国人\n       <persName corresp=\"#pers_チソン\">\n<surname>\n         チソン\n        </surname>\n</persName>\n       氏及\n       <persName corresp=\"#pers_浅野\">\n<surname>\n         浅野\n        </surname>\n</persName>\n       氏ト瓦斯事業等ニ関スル事ヲ会話ス、\n       <time when=\"13:30:00\">\n        一時半\n       </time>\n       船航行ヲ始ム、午飧後行李ヲ理シ且日記ヲ調査ス\n       <lb/>\n       此日時々雨降リテ風強ク\n       <placeName corresp=\"#place_観音崎\">\n        観音埼《（崎）》\n       </placeName>\n       ヲ超ヘテ船頗ル動揺ス、依テ船牀ニ枕籍シテ夜食ノ卓ニ出ル事ヲ能ハス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10010m-0312\">\n<head>\n<date when=\"1902-05-15\">\n        五月十五日\n       </date>\n</head>\n<p>\n       雨、\n       <time when=\"06:00:00\">\n        午前六時\n       </time>\n       床ヲ離レテ入浴ス、朝飧後庭園ヲ散歩シ一詩ヲ賦シ一首ヲ詠ス、\n       <time when=\"07:00:00\">\n        七時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ヲ発シ、\n       <persName corresp=\"#pers_兼子\">\n<forename>\n         兼子\n        </forename>\n</persName>\n       同伴ニテ\n       <time when=\"08:00:00\">\n        八時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       ニ抵ル、\n       <orgName>\n        第一銀行\n       </orgName>\n       員及家人来リテ送別ス、\n       <time when=\"09:00:00\">\n        九時\n       </time>\n<placeName corresp=\"#place_新橋\">\n        新橋\n       </placeName>\n       停車場ニ抵リ送別ノ人ニ接ス、各大臣及政事家、学者、商工業家多ク来リ送ル、\n       <time when=\"09:25:00\">\n        九時二十五分\n       </time>\n       発ノ汽車ニテ\n       <time when=\"10:00:00\">\n        十時\n       </time>\n       過\n       <placeName corresp=\"#place_横浜\">\n        横浜\n       </placeName>\n       ニ抵リ\n       <orgName>\n        第一銀行\n       </orgName>\n       支店楼上ニ休憩ス、\n       <time when=\"11:00:00\">\n        十一時\n       </time>\n<name type=\"ship\">\n        汽船亜米利加丸\n       </name>\n       ニ搭ス、\n       <placeName corresp=\"#place_横浜\">\n        横浜\n       </placeName>\n       マテ送リ来レル人ハ皆本船ニ来ルヲ以テ船頗ル雑沓ス、\n       <time when=\"12:20:00\">\n        十二時二十分\n       </time>\n       抜錨、送別ノ諸氏ト分袂ス、此時雨頻リニ至ル、\n       <time when=\"13:00:00\">\n        午後一時\n       </time>\n       米国人\n       <persName corresp=\"#pers_チソン\">\n<surname>\n         チソン\n        </surname>\n</persName>\n       氏及\n       <persName corresp=\"#pers_浅野\">\n<surname>\n         浅野\n        </surname>\n</persName>\n       氏ト瓦斯事業等ニ関スル事ヲ会話ス、\n       <time when=\"13:30:00\">\n        一時半\n       </time>\n       船航行ヲ始ム、午飧後行李ヲ理シ且日記ヲ調査ス\n       <lb/>\n       此日時々雨降リテ風強ク\n       <placeName corresp=\"#place_観音埼《（崎）》\">\n        観音埼《（崎）》\n       </placeName>\n       ヲ超ヘテ船頗ル動揺ス、依テ船牀ニ枕籍シテ夜食ノ卓ニ出ル事ヲ能ハス\n      </p>\n</div>",
     "year": "1902",
     "yearAndMonth": "1902-05"
 }

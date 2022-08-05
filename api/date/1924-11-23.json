@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1482",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -26,11 +25,7 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "滝野川",
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/滝野川",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "あすか山邸"
     ],
     "temporal": "1924-11-23",
     "texts": [
@@ -56,10 +51,10 @@
         "DKB20033m-0079"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_滝野川\">\n             滝野川\n            </placeName>\n            町在住諸氏園遊会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             あすか山邸\n            </placeName>\n            ）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_滝野川\">\n             滝野川\n            </placeName>\n            町在住諸氏園遊会（\n            <placeName corresp=\"#place_あすか山邸\">\n             あすか山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0324\">\n<head>\n<date when=\"1924-11-23\">\n           廿三日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_滝野川\">\n             滝野川\n            </placeName>\n            町在住諸氏園遊会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             あすか山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n            御引籠リ\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0324\">\n<head>\n<date when=\"1924-11-23\">\n           廿三日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_滝野川\">\n             滝野川\n            </placeName>\n            町在住諸氏園遊会（\n            <placeName corresp=\"#place_あすか山邸\">\n             あすか山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n            御引籠リ\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-11"
 }

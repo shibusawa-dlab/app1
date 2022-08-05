@@ -2,9 +2,6 @@
     "agential": [
         "内田"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/内田"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1174",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +17,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-01",
     "date_lvl2": "1915-01-18",
-    "description": "\n\n\n           十八日\n          \n          （月）\n         \n\n\n\n\n             午後三時\n            \n\n\n              内田\n             \n\n            民政長官来ル約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            帰一協会幹事会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n            鮟鱇会（\n            \n             木挽町\n            \n            河内屋）\n           \n\n\n",
+    "description": "\n\n\n           十八日\n          \n          （月）\n         \n\n\n\n\n             午後三時\n            \n\n\n              内田\n             \n\n            民政長官来ル約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            帰一協会幹事会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n            鮟鱇会（\n            \n             木挽町\n            \n\n             河内\n            \n            屋）\n           \n\n\n",
     "label": "十八日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0017",
@@ -30,11 +27,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町",
-        "木挽町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/木挽町"
+        "木挽町",
+        "河内"
     ],
     "temporal": "1915-01-18",
     "texts": [
@@ -63,7 +57,7 @@
         "15:00:00": "<div><time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_内田\">\n<surname>\n              内田\n             </surname>\n</persName>\n            民政長官来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0016\">\n<head>\n<date when=\"1915-01-18\">\n           十八日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_内田\">\n<surname>\n              内田\n             </surname>\n</persName>\n            民政長官来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            帰一協会幹事会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            鮟鱇会（\n            <placeName corresp=\"#place_木挽町\">\n             木挽町\n            </placeName>\n            河内屋）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0016\">\n<head>\n<date when=\"1915-01-18\">\n           十八日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_内田\">\n<surname>\n              内田\n             </surname>\n</persName>\n            民政長官来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            帰一協会幹事会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            鮟鱇会（\n            <placeName corresp=\"#place_木挽町\">\n             木挽町\n            </placeName>\n<placeName corresp=\"#place_河内\">\n             河内\n            </placeName>\n            屋）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-01"
 }

@@ -2,9 +2,6 @@
     "agential": [
         "桑山鉄男"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/桑山鉄男"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1513",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +17,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-06",
     "date_lvl2": "1926-06-02",
-    "description": "\n\n\n           二日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n\n\n              桑山\n             \n\n              鉄男\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一半時\n            \n            在郷軍人会ヨリ招待（帝国ホテル）\n           \n\n\n\n\n             午後二時\n            \n\n             日本女子大学\n            \n            ヘ御出向\n           \n\n\n",
+    "description": "\n\n\n           二日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n\n\n              桑山\n             \n\n              鉄男\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十一半時\n            \n            在郷軍人会ヨリ招待（帝国ホテル）\n           \n\n\n\n\n             午後二時\n            \n\n             日本\n            \n            女子大学ヘ御出向\n           \n\n\n",
     "label": "二日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0154",
@@ -29,10 +26,8 @@
     "sort": "DKB20028m-0153",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山邸",
+        "日本"
     ],
     "temporal": "1926-06-02",
     "texts": [
@@ -61,7 +56,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_桑山鉄男\">\n<surname>\n              桑山\n             </surname>\n<forename>\n              鉄男\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0153\">\n<head>\n<date when=\"1926-06-02\">\n           二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_桑山鉄男\">\n<surname>\n              桑山\n             </surname>\n<forename>\n              鉄男\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            在郷軍人会ヨリ招待（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<orgName>\n             日本女子大学\n            </orgName>\n            ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0153\">\n<head>\n<date when=\"1926-06-02\">\n           二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_桑山鉄男\">\n<surname>\n              桑山\n             </surname>\n<forename>\n              鉄男\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            在郷軍人会ヨリ招待（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            女子大学ヘ御出向\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-06"
 }

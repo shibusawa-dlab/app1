@@ -1,11 +1,6 @@
 {
     "agential": [
-        "上山",
         "大倉喜八郎"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/上山",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/大倉喜八郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1201",
     "category": {
@@ -22,7 +17,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-04",
     "date_lvl2": "1916-04-26",
-    "description": "\n\n\n           廿六日\n          \n          （水）\n         \n\n\n\n\n             午後一時\n            \n\n\n              上山\n             \n\n            農商務次官ヲ農商務省ニ御訪問\n           \n\n\n\n\n             午後六時\n            \n\n\n              大倉\n             \n\n              喜八郎\n             \n\n            氏ヨリ御案内（新喜楽）\n           \n\n\n",
+    "description": "\n\n\n           廿六日\n          \n          （水）\n         \n\n\n\n\n             午後一時\n            \n\n             上山\n            \n            農商務次官ヲ農商務省ニ御訪問\n           \n\n\n\n\n             午後六時\n            \n\n\n              大倉\n             \n\n              喜八郎\n             \n\n            氏ヨリ御案内（新喜楽）\n           \n\n\n",
     "label": "廿六日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0099",
@@ -30,8 +25,9 @@
     "prev": "DKB20018m-0097",
     "sort": "DKB20018m-0098",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
-    "spatial_uri": [],
+    "spatial": [
+        "上山"
+    ],
     "temporal": "1916-04-26",
     "texts": [
         "DKB20023m-0168",
@@ -56,10 +52,10 @@
         "DKB20018m-0027"
     ],
     "time": {
-        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_上山\">\n<surname>\n              上山\n             </surname>\n</persName>\n            農商務次官ヲ農商務省ニ御訪問</div>"
+        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_上山\">\n             上山\n            </placeName>\n            農商務次官ヲ農商務省ニ御訪問</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0098\">\n<head>\n<date when=\"1916-04-26\">\n           廿六日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_上山\">\n<surname>\n              上山\n             </surname>\n</persName>\n            農商務次官ヲ農商務省ニ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_大倉喜八郎\">\n<surname>\n              大倉\n             </surname>\n<forename>\n              喜八郎\n             </forename>\n</persName>\n            氏ヨリ御案内（新喜楽）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0098\">\n<head>\n<date when=\"1916-04-26\">\n           廿六日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_上山\">\n             上山\n            </placeName>\n            農商務次官ヲ農商務省ニ御訪問\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_大倉喜八郎\">\n<surname>\n              大倉\n             </surname>\n<forename>\n              喜八郎\n             </forename>\n</persName>\n            氏ヨリ御案内（新喜楽）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-04"
 }

@@ -5,12 +5,6 @@
         "星野鏡三郎",
         "渋沢義一"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/広橋嘉七郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/星野鏡太郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/星野鏡三郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢義一"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1203",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -35,14 +29,10 @@
     "sort": "DKB20018m-0113",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "飛鳥山公園",
         "飛鳥山邸",
         "日本",
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1916-05-11",
     "texts": [
@@ -68,10 +58,10 @@
         "DKB20033m-0036"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_広橋嘉七郎\">\n<surname>\n              広橋\n             </surname>\n<forename>\n              嘉七郎\n             </forename>\n</persName>\n            氏白河町々長外二氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_広橋嘉七郎\">\n<surname>\n              広橋\n             </surname>\n<forename>\n              嘉七郎\n             </forename>\n</persName>\n            氏白河町々長外二氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0113\">\n<head>\n<date when=\"1916-05-11\">\n           十一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_広橋嘉七郎\">\n<surname>\n              広橋\n             </surname>\n<forename>\n              嘉七郎\n             </forename>\n</persName>\n            氏白河町々長外二氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_星野鏡太郎\">\n<surname>\n              星野\n             </surname>\n<forename>\n              鏡太郎\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_星野鏡三郎\">\n<surname>\n              星野\n             </surname>\n<forename>\n              鏡三郎\n             </forename>\n</persName>\n            カ）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            染料会社相談会役会《（衍カ）》（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―午後三時\n            </time>\n<persName corresp=\"#pers_渋沢義一\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            帝国軍人後援会晩餐会（霞関離宮）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0113\">\n<head>\n<date when=\"1916-05-11\">\n           十一日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_広橋嘉七郎\">\n<surname>\n              広橋\n             </surname>\n<forename>\n              嘉七郎\n             </forename>\n</persName>\n            氏白河町々長外二氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_星野鏡太郎\">\n<surname>\n              星野\n             </surname>\n<forename>\n              鏡太郎\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_星野鏡三郎\">\n<surname>\n              星野\n             </surname>\n<forename>\n              鏡三郎\n             </forename>\n</persName>\n            カ）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             第一銀行\n            </orgName>\n</p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            染料会社相談会役会《（衍カ）》（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―午後三時\n            </time>\n<persName corresp=\"#pers_渋沢義一\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              義一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            帝国軍人後援会晩餐会（霞関離宮）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-05"
 }

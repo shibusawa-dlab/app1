@@ -1,6 +1,7 @@
 {
-    "agential": [],
-    "agential_uri": [],
+    "agential": [
+        "岩越"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1218",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +17,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-11",
     "date_lvl2": "1916-11-06",
-    "description": "\n\n\n           六日\n          \n          （月）\n         \n\n\n\n\n             午前七時\n            \n            岩越地方御旅行ノ途ニ就カル（\n            \n             上野\n            \n            駅発）右御見合トナル\n           \n\n\n\n            御静養\n           \n\n\n",
+    "description": "\n\n\n           六日\n          \n          （月）\n         \n\n\n\n\n             午前七時\n            \n\n\n              岩越\n             \n\n            地方御旅行ノ途ニ就カル（\n            \n             上野\n            \n            駅発）右御見合トナル\n           \n\n\n\n            御静養\n           \n\n\n",
     "label": "六日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0293",
@@ -26,9 +27,6 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "上野"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
     ],
     "temporal": "1916-11-06",
     "texts": [
@@ -54,10 +52,10 @@
         "DKB20019m-0074"
     ],
     "time": {
-        "07:00:00": "<div><time when=\"07:00:00\">\n             午前七時\n            </time>\n            岩越地方御旅行ノ途ニ就カル（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            駅発）右御見合トナル</div>"
+        "07:00:00": "<div><time when=\"07:00:00\">\n             午前七時\n            </time>\n<persName corresp=\"#pers_岩越\">\n<surname>\n              岩越\n             </surname>\n</persName>\n            地方御旅行ノ途ニ就カル（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            駅発）右御見合トナル</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0292\">\n<head>\n<date when=\"1916-11-06\">\n           六日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"07:00:00\">\n             午前七時\n            </time>\n            岩越地方御旅行ノ途ニ就カル（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            駅発）右御見合トナル\n           </p>\n</event>\n<event>\n<p>\n            御静養\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0292\">\n<head>\n<date when=\"1916-11-06\">\n           六日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"07:00:00\">\n             午前七時\n            </time>\n<persName corresp=\"#pers_岩越\">\n<surname>\n              岩越\n             </surname>\n</persName>\n            地方御旅行ノ途ニ就カル（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n            駅発）右御見合トナル\n           </p>\n</event>\n<event>\n<p>\n            御静養\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-11"
 }

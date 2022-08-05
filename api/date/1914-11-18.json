@@ -1,11 +1,6 @@
 {
     "agential": [
-        "松本虎雄",
-        "安田"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/松本虎雄",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/安田"
+        "松本虎雄"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1169",
     "category": {
@@ -22,7 +17,7 @@
     "date_lvl0": "1914",
     "date_lvl1": "1914-11",
     "date_lvl2": "1914-11-18",
-    "description": "\n\n\n           十八日\n          \n          （水）\n         \n\n\n\n\n             早朝\n            \n\n\n              松本\n             \n\n              虎雄\n             \n\n            氏来邸（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n             東京興信所\n            \n            評議員会（銀行クラブ）\n           \n\n\n\n\n             午後四時\n            \n\n\n              安田\n             \n\n            氏ヨリ観菊ノ案内（同邸）\n           \n\n\n",
+    "description": "\n\n\n           十八日\n          \n          （水）\n         \n\n\n\n\n             早朝\n            \n\n\n              松本\n             \n\n              虎雄\n             \n\n            氏来邸（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n             東京\n            \n            興信所評議員会（銀行クラブ）\n           \n\n\n\n\n             午後四時\n            \n            安田氏ヨリ観菊ノ案内（同邸）\n           \n\n\n",
     "label": "十八日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20016m-0065",
@@ -31,10 +26,8 @@
     "sort": "DKB20016m-0064",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山公園",
+        "東京"
     ],
     "temporal": "1914-11-18",
     "texts": [
@@ -61,7 +54,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0064\">\n<head>\n<date when=\"1914-11-18\">\n           十八日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             早朝\n            </time>\n<persName corresp=\"#pers_松本虎雄\">\n<surname>\n              松本\n             </surname>\n<forename>\n              虎雄\n             </forename>\n</persName>\n            氏来邸（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<orgName>\n             東京興信所\n            </orgName>\n            評議員会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_安田\">\n<surname>\n              安田\n             </surname>\n</persName>\n            氏ヨリ観菊ノ案内（同邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20016m-0064\">\n<head>\n<date when=\"1914-11-18\">\n           十八日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             早朝\n            </time>\n<persName corresp=\"#pers_松本虎雄\">\n<surname>\n              松本\n             </surname>\n<forename>\n              虎雄\n             </forename>\n</persName>\n            氏来邸（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            興信所評議員会（銀行クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            安田氏ヨリ観菊ノ案内（同邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1914",
     "yearAndMonth": "1914-11"
 }

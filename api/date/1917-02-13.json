@@ -3,10 +3,6 @@
         "武藤三枝",
         "渋沢"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/武藤三枝",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1228",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -22,7 +18,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-02",
     "date_lvl2": "1917-02-13",
-    "description": "\n\n\n           十三日\n          \n          （火）\n         \n\n\n\n\n             正午\n            \n            品川白煉瓦会社\n            \n\n              武藤\n             \n\n              三枝\n             \n\n            氏ト御会見ノ約（商業会ギ所）\n           \n\n\n\n\n             午後二時\n            \n            内務省ヘ御出向ノ約\n           \n\n\n\n\n             午後四時\n            \n\n\n              渋沢\n             \n\n            奨学資金贈呈式（\n            \n             上野\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （火）\n         \n\n\n\n\n             正午\n            \n            品川白煉瓦会社\n            \n\n              武藤\n             \n\n              三枝\n             \n\n            氏ト御会見ノ約（商業会ギ所）\n           \n\n\n\n\n             午後二時\n            \n            内務省ヘ御出向ノ約\n           \n\n\n\n\n             午後四時\n            \n\n\n              渋沢\n             \n\n            奨学資金贈呈式（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n",
     "label": "十三日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0046",
@@ -31,10 +27,7 @@
     "sort": "DKB20019m-0045",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "上野"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
+        "上野精養軒"
     ],
     "temporal": "1917-02-13",
     "texts": [
@@ -63,7 +56,7 @@
         "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            品川白煉瓦会社\n            <persName corresp=\"#pers_武藤三枝\">\n<surname>\n              武藤\n             </surname>\n<forename>\n              三枝\n             </forename>\n</persName>\n            氏ト御会見ノ約（商業会ギ所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0045\">\n<head>\n<date when=\"1917-02-13\">\n           十三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            品川白煉瓦会社\n            <persName corresp=\"#pers_武藤三枝\">\n<surname>\n              武藤\n             </surname>\n<forename>\n              三枝\n             </forename>\n</persName>\n            氏ト御会見ノ約（商業会ギ所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            内務省ヘ御出向ノ約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            奨学資金贈呈式（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0045\">\n<head>\n<date when=\"1917-02-13\">\n           十三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            品川白煉瓦会社\n            <persName corresp=\"#pers_武藤三枝\">\n<surname>\n              武藤\n             </surname>\n<forename>\n              三枝\n             </forename>\n</persName>\n            氏ト御会見ノ約（商業会ギ所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            内務省ヘ御出向ノ約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            奨学資金贈呈式（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-02"
 }

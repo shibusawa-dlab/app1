@@ -1,6 +1,7 @@
 {
-    "agential": [],
-    "agential_uri": [],
+    "agential": [
+        "新井"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1557",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +17,7 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-09",
     "date_lvl2": "1927-09-30",
-    "description": "\n\n\n           三十日\n          \n          （金）\n         \n\n\n\n\n             午前九半時\n            \n\n             伊豆\n            \n            玉泉寺ヘ御出向（\n            \n             東京\n            \n            発）\n           \n\n\n\n\n             午後〇・四〇時\n            \n\n             沼津\n            \n            着\n           \n\n\n\n\n             修善寺\n            \n            新井屋旅館ニ御一泊\n           \n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （金）\n         \n\n\n\n\n             午前九半時\n            \n\n             伊豆\n            \n            玉泉寺ヘ御出向（\n            \n             東京\n            \n            発）\n           \n\n\n\n\n             午後〇・四〇時\n            \n\n             沼津\n            \n            着\n           \n\n\n\n\n             修善寺\n            \n\n\n              新井\n             \n\n            屋旅館ニ御一泊\n           \n\n\n",
     "label": "三十日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0248",
@@ -29,12 +30,6 @@
         "東京",
         "沼津",
         "修善寺"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/伊豆",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
-        "https://shibusawa-dlab.github.io/lab1/api/place/沼津",
-        "https://shibusawa-dlab.github.io/lab1/api/place/修善寺"
     ],
     "temporal": "1927-09-30",
     "texts": [
@@ -63,7 +58,7 @@
         "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<placeName corresp=\"#place_伊豆\">\n             伊豆\n            </placeName>\n            玉泉寺ヘ御出向（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            発）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0246\">\n<head>\n<date when=\"1927-09-30\">\n           三十日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<placeName corresp=\"#place_伊豆\">\n             伊豆\n            </placeName>\n            玉泉寺ヘ御出向（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            発）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:40:00\">\n             午後〇・四〇時\n            </time>\n<placeName corresp=\"#place_沼津\">\n             沼津\n            </placeName>\n            着\n           </p>\n</event>\n<event>\n<p>\n<placeName corresp=\"#place_修善寺\">\n             修善寺\n            </placeName>\n            新井屋旅館ニ御一泊\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0246\">\n<head>\n<date when=\"1927-09-30\">\n           三十日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<placeName corresp=\"#place_伊豆\">\n             伊豆\n            </placeName>\n            玉泉寺ヘ御出向（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            発）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:40:00\">\n             午後〇・四〇時\n            </time>\n<placeName corresp=\"#place_沼津\">\n             沼津\n            </placeName>\n            着\n           </p>\n</event>\n<event>\n<p>\n<placeName corresp=\"#place_修善寺\">\n             修善寺\n            </placeName>\n<persName corresp=\"#pers_新井\">\n<surname>\n              新井\n             </surname>\n</persName>\n            屋旅館ニ御一泊\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-09"
 }

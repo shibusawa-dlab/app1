@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1483",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -26,11 +25,7 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "東京",
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "アスカ山邸"
     ],
     "temporal": "1924-11-30",
     "texts": [
@@ -57,7 +52,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0331\">\n<head>\n<date when=\"1924-11-30\">\n           三十日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院催市長助役招待会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20026m-0331\">\n<head>\n<date when=\"1924-11-30\">\n           三十日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市養育院催市長助役招待会（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1924",
     "yearAndMonth": "1924-11"
 }

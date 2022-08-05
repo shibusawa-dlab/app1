@@ -1,13 +1,8 @@
 {
     "agential": [
         "島津",
-        "尾高",
-        "岡部"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/島津",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/尾高",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/岡部"
+        "崎",
+        "尾高"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1236",
     "category": {
@@ -24,7 +19,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-05",
     "date_lvl2": "1917-05-11",
-    "description": "\n\n\n           十一日\n          \n          （金）\n         \n\n\n\n\n             午後二時\n            \n\n\n              島津\n             \n\n            公爵ヨリ御案内（\n            \n             袖ケ崎\n            邸）\n           \n\n\n\n\n             午後四半時\n            \n\n\n              尾高\n             \n\n\n\n              岡部\n             \n\n            両家結婚披露会（帝国ホテル）\n           \n\n\n\n\n             午後七時\n            \n            日米協会発会式兼晩餐会\n            \n            燕尾服（銀行クラブ）\n           \n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （金）\n         \n\n\n\n\n             午後二時\n            \n\n\n              島津\n             \n\n            公爵ヨリ御案内（袖ケ\n            \n\n              崎\n             \n\n            邸）\n           \n\n\n\n\n             午後四半時\n            \n\n\n              尾高\n             \n\n\n             岡部\n            \n            両家結婚披露会（帝国ホテル）\n           \n\n\n\n\n             午後七時\n            \n            日米協会発会式兼晩餐会\n            \n            燕尾服（銀行クラブ）\n           \n\n\n",
     "label": "十一日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0131",
@@ -33,10 +28,7 @@
     "sort": "DKB20019m-0130",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "袖ケ崎"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/袖ケ崎"
+        "岡部"
     ],
     "temporal": "1917-05-11",
     "texts": [
@@ -62,10 +54,10 @@
         "DKB20026m-0205"
     ],
     "time": {
-        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_島津\">\n<surname>\n              島津\n             </surname>\n</persName>\n            公爵ヨリ御案内（\n            <placeName corresp=\"#place_袖ケ崎\">\n             袖ケ崎</placeName>\n            邸）</div>"
+        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_島津\">\n<surname>\n              島津\n             </surname>\n</persName>\n            公爵ヨリ御案内（袖ケ\n            <persName corresp=\"#pers_崎\">\n<surname>\n              崎\n             </surname>\n</persName>\n            邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0130\">\n<head>\n<date when=\"1917-05-11\">\n           十一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_島津\">\n<surname>\n              島津\n             </surname>\n</persName>\n            公爵ヨリ御案内（\n            <placeName corresp=\"#place_袖ケ崎\">\n             袖ケ崎</placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n<persName corresp=\"#pers_尾高\">\n<surname>\n              尾高\n             </surname>\n</persName>\n<persName corresp=\"#pers_岡部\">\n<surname>\n              岡部\n             </surname>\n</persName>\n            両家結婚披露会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            日米協会発会式兼晩餐会\n            <lb/>\n            燕尾服（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0130\">\n<head>\n<date when=\"1917-05-11\">\n           十一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_島津\">\n<surname>\n              島津\n             </surname>\n</persName>\n            公爵ヨリ御案内（袖ケ\n            <persName corresp=\"#pers_崎\">\n<surname>\n              崎\n             </surname>\n</persName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n<persName corresp=\"#pers_尾高\">\n<surname>\n              尾高\n             </surname>\n</persName>\n<placeName corresp=\"#place_岡部\">\n             岡部\n            </placeName>\n            両家結婚披露会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            日米協会発会式兼晩餐会\n            <lb/>\n            燕尾服（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-05"
 }

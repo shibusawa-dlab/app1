@@ -1,10 +1,5 @@
 {
-    "agential": [
-        "ヴァンダーリップ"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/ヴァンダーリップ"
-    ],
+    "agential": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1331",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +15,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-04",
     "date_lvl2": "1920-04-24",
-    "description": "\n\n\n           廿四日\n          \n          （土）\n         \n\n\n\n\n             正午\n            \n            バ氏ノ件ニ付キ新聞記者招待（帝国ホテル）\n           \n\n\n\n\n             午後二時\n            \n            ヴアンダーリツプ氏一行\n            \n             横浜\n            \n            入港\n           \n\n\n\n\n             午後三―午後四時\n            \n            瑞真院殿五七日御法養《（要）》ニ御焼香（\n            \n             内田山\n            \n            邸）令夫人共\n           \n\n\n\n\n             午後五時三分\n            \n            同氏　○\n            \n\n              ヴアンダーリツプ\n             \n\n            以下同断、注記略ス一行\n            \n             東京\n            \n            駅着\n            \n            電車\n           \n\n\n\n\n\n             午後五半時\n            \n\n\n              ヴアンダリツプ\n             \n\n            氏一行ト晩餐会（帝国ホテル）\n           \n\n\n\n\n             午後六時\n            \n\n             東京\n            \n            高等商業同窓総会（如水会館）\n           \n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （土）\n         \n\n\n\n\n             正午\n            \n            バ氏ノ件ニ付キ新聞記者招待（帝国ホテル）\n           \n\n\n\n\n             午後二時\n            \n            ヴアンダーリツプ氏一行\n            \n             横浜\n            \n            入港\n           \n\n\n\n\n             午後三―午後四時\n            \n\n             瑞\n            \n            真院殿五七日御法養《（要）》ニ御焼香（\n            \n             内田山\n            \n            邸）令夫人共\n           \n\n\n\n\n             午後五時三分\n            \n            同氏　○ヴアンダーリツプ以下同断、注記略ス一行\n            \n             東京\n            \n            駅着\n            \n            電車\n           \n\n\n\n\n\n             午後五半時\n            \n            ヴアンダリツプ氏一行ト晩餐会（帝国ホテル）\n           \n\n\n\n\n             午後六時\n            \n\n             東京\n            \n            高等商業同窓総会（如水会館）\n           \n\n\n",
     "label": "廿四日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0113",
@@ -30,13 +25,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "横浜",
+        "瑞",
         "内田山",
         "東京"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/横浜",
-        "https://shibusawa-dlab.github.io/lab1/api/place/内田山",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1920-04-24",
     "texts": [
@@ -65,7 +56,7 @@
         "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            バ氏ノ件ニ付キ新聞記者招待（帝国ホテル）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0112\">\n<head>\n<date when=\"1920-04-24\">\n           廿四日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            バ氏ノ件ニ付キ新聞記者招待（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            ヴアンダーリツプ氏一行\n            <placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            入港\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―午後四時\n            </time>\n            瑞真院殿五七日御法養《（要）》ニ御焼香（\n            <placeName corresp=\"#place_内田山\">\n             内田山\n            </placeName>\n            邸）令夫人共\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:03:00\">\n             午後五時三分\n            </time>\n            同氏　○\n            <persName corresp=\"#pers_ヴァンダーリップ\">\n<surname>\n              ヴアンダーリツプ\n             </surname>\n</persName>\n            以下同断、注記略ス一行\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅着\n            <lb/>\n            電車\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2492\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1331/full/max/0/default.jpg\" n=\"B2492\" source=\"#pageB2492\"/>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_ヴァンダーリップ\">\n<surname>\n              ヴアンダリツプ\n             </surname>\n</persName>\n            氏一行ト晩餐会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            高等商業同窓総会（如水会館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0112\">\n<head>\n<date when=\"1920-04-24\">\n           廿四日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            バ氏ノ件ニ付キ新聞記者招待（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            ヴアンダーリツプ氏一行\n            <placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            入港\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―午後四時\n            </time>\n<placeName corresp=\"#place_瑞\">\n             瑞\n            </placeName>\n            真院殿五七日御法養《（要）》ニ御焼香（\n            <placeName corresp=\"#place_内田山\">\n             内田山\n            </placeName>\n            邸）令夫人共\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:03:00\">\n             午後五時三分\n            </time>\n            同氏　○ヴアンダーリツプ以下同断、注記略ス一行\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅着\n            <lb/>\n            電車\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2492\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1331/full/max/0/default.jpg\" n=\"B2492\" source=\"#pageB2492\"/>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            ヴアンダリツプ氏一行ト晩餐会（帝国ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            高等商業同窓総会（如水会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-04"
 }

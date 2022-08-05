@@ -2,9 +2,6 @@
     "agential": [
         "阪井徳太郎"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/阪井徳太郎"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1181",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +17,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-04",
     "date_lvl2": "1915-04-17",
-    "description": "\n\n\n           十七日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n            東照宮御法会執行（寛永寺）\n           \n\n\n\n\n             午後二時\n            \n            帰一協会幹事会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              阪井\n             \n\n              徳太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n             埼玉\n            \n            県人懇親会（日本橋クラブ）\n           \n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n            東照宮御法会執行（寛永寺）\n           \n\n\n\n\n             午後二時\n            \n            帰一協会幹事会（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n\n\n              阪井\n             \n\n              徳太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n             埼玉\n            \n            県人懇親会（\n            \n             日本橋\n            \n            クラブ）\n           \n\n\n",
     "label": "十七日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0098",
@@ -30,11 +27,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町",
-        "埼玉"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/埼玉"
+        "埼玉",
+        "日本橋"
     ],
     "temporal": "1915-04-17",
     "texts": [
@@ -63,7 +57,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            東照宮御法会執行（寛永寺）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0097\">\n<head>\n<date when=\"1915-04-17\">\n           十七日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            東照宮御法会執行（寛永寺）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            帰一協会幹事会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_阪井徳太郎\">\n<surname>\n              阪井\n             </surname>\n<forename>\n              徳太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県人懇親会（日本橋クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0097\">\n<head>\n<date when=\"1915-04-17\">\n           十七日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            東照宮御法会執行（寛永寺）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            帰一協会幹事会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_阪井徳太郎\">\n<surname>\n              阪井\n             </surname>\n<forename>\n              徳太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            県人懇親会（\n            <placeName corresp=\"#place_日本橋\">\n             日本橋\n            </placeName>\n            クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-04"
 }

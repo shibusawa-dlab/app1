@@ -1,9 +1,6 @@
 {
     "agential": [
-        "渋沢敬三"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢敬三"
+        "大宮御所ヘ御伺候渋沢敬三"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1623",
     "category": {
@@ -20,7 +17,7 @@
     "date_lvl0": "1931",
     "date_lvl1": "1931-05",
     "date_lvl2": "1931-05-12",
-    "description": "\n\n\n           十二日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午前十一時\n            \n            皇太后宮大宮御所ヘ御伺候\n             \n\n\n              渋沢\n             \n\n              敬三\n             \n\n            様御付添ノコト\n           \n\n\n\n\n             午前十一・四〇\n            \n            再事務所ニ御出勤\n           \n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （火）\n         \n\n\n\n\n             午前十時\n            \n            事務所ニ御出勤\n           \n\n\n\n\n             午前十一時\n            \n            皇太后宮\n            \n\n              大宮\n             \n             御所ヘ御伺候\n             \n\n              渋沢\n             \n\n              敬三\n             \n\n            様御付添ノコト\n           \n\n\n\n\n             午前十一・四〇\n            \n            再事務所ニ御出勤\n           \n\n\n",
     "label": "十二日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20033m-0070",
@@ -29,7 +26,6 @@
     "sort": "DKB20033m-0069",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [],
-    "spatial_uri": [],
     "temporal": "1931-05-12",
     "texts": [
         "DKB20028m-0004",
@@ -57,7 +53,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            事務所ニ御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0069\">\n<head>\n<date when=\"1931-05-12\">\n           十二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            皇太后宮大宮御所ヘ御伺候\n             <lb/>\n<persName corresp=\"#pers_渋沢敬三\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              敬三\n             </forename>\n</persName>\n            様御付添ノコト\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:40:00\">\n             午前十一・四〇\n            </time>\n            再事務所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0069\">\n<head>\n<date when=\"1931-05-12\">\n           十二日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            皇太后宮\n            <persName corresp=\"#pers_大宮御所ヘ御伺候渋沢敬三\">\n<surname>\n              大宮\n             </surname>\n             御所ヘ御伺候\n             <lb/>\n<surname>\n              渋沢\n             </surname>\n<forename>\n              敬三\n             </forename>\n</persName>\n            様御付添ノコト\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:40:00\">\n             午前十一・四〇\n            </time>\n            再事務所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1931",
     "yearAndMonth": "1931-05"
 }

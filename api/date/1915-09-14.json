@@ -2,9 +2,6 @@
     "agential": [
         "遠藤隆吉"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/遠藤隆吉"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1191",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +17,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-09",
     "date_lvl2": "1915-09-14",
-    "description": "\n\n\n           十四日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n            実業之世界記者来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前八時\n            \n\n\n              遠藤\n             \n\n              隆吉\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            明治神宮奉賛会常務理事会（東京商業会議処）\n           \n\n\n\n\n             午後四時\n            \n            帰一協会幹事会（事務所）\n           \n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n            実業之世界記者来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前八時\n            \n\n\n              遠藤\n             \n\n              隆吉\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後三時\n            \n            明治神宮奉賛会常務理事会（\n            \n             東京\n            \n            商業会議処）\n           \n\n\n\n\n             午後四時\n            \n            帰一協会幹事会（事務所）\n           \n\n\n",
     "label": "十四日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0234",
@@ -29,10 +26,8 @@
     "sort": "DKB20017m-0233",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山邸",
+        "東京"
     ],
     "temporal": "1915-09-14",
     "texts": [
@@ -61,7 +56,7 @@
         "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            実業之世界記者来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0233\">\n<head>\n<date when=\"1915-09-14\">\n           十四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            実業之世界記者来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_遠藤隆吉\">\n<surname>\n              遠藤\n             </surname>\n<forename>\n              隆吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            明治神宮奉賛会常務理事会（東京商業会議処）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            帰一協会幹事会（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0233\">\n<head>\n<date when=\"1915-09-14\">\n           十四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            実業之世界記者来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_遠藤隆吉\">\n<surname>\n              遠藤\n             </surname>\n<forename>\n              隆吉\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            明治神宮奉賛会常務理事会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商業会議処）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            帰一協会幹事会（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-09"
 }

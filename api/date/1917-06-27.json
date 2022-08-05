@@ -4,11 +4,6 @@
         "井上準之助",
         "三島復"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/中井",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/井上準之助",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/三島復"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1240",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -35,18 +30,11 @@
     "spatial": [
         "秋田",
         "青森",
-        "飛鳥山邸",
+        "飛鳥山公園",
         "京都",
+        "飛鳥山邸",
         "支那",
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/秋田",
-        "https://shibusawa-dlab.github.io/lab1/api/place/青森",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/京都",
-        "https://shibusawa-dlab.github.io/lab1/api/place/支那",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1917-06-27",
     "texts": [
@@ -72,10 +60,10 @@
         "DKB20019m-0128"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_秋田\">\n             秋田\n            </placeName>\n            、\n            <placeName corresp=\"#place_青森\">\n             青森\n            </placeName>\n            両県会議長来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_秋田\">\n             秋田\n            </placeName>\n            、\n            <placeName corresp=\"#place_青森\">\n             青森\n            </placeName>\n            両県会議長来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0178\">\n<head>\n<date when=\"1917-06-27\">\n           廿七日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_秋田\">\n             秋田\n            </placeName>\n            、\n            <placeName corresp=\"#place_青森\">\n             青森\n            </placeName>\n            両県会議長来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<placeName corresp=\"#place_京都\">\n             京都\n            </placeName>\n<persName corresp=\"#pers_中井\">\n<surname>\n              中井\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            盛沢臣（\n            <placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            人）\n            <persName corresp=\"#pers_井上準之助\">\n<surname>\n              井上\n             </surname>\n<forename>\n              準之助\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―午後四時\n            </time>\n<persName corresp=\"#pers_三島復\">\n<surname>\n              三島\n             </surname>\n<forename>\n              復\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            資本ト労働問題ニ関シ当業者招待（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0178\">\n<head>\n<date when=\"1917-06-27\">\n           廿七日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_秋田\">\n             秋田\n            </placeName>\n            、\n            <placeName corresp=\"#place_青森\">\n             青森\n            </placeName>\n            両県会議長来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<placeName corresp=\"#place_京都\">\n             京都\n            </placeName>\n<persName corresp=\"#pers_中井\">\n<surname>\n              中井\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            盛沢臣（\n            <placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            人）\n            <persName corresp=\"#pers_井上準之助\">\n<surname>\n              井上\n             </surname>\n<forename>\n              準之助\n             </forename>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"15:00:00\" to=\"16:00:00\">\n             午後三―午後四時\n            </time>\n<persName corresp=\"#pers_三島復\">\n<surname>\n              三島\n             </surname>\n<forename>\n              復\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            資本ト労働問題ニ関シ当業者招待（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-06"
 }

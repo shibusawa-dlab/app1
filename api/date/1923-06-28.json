@@ -2,9 +2,6 @@
     "agential": [
         "工藤鉄男"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/工藤鉄男"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1434",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +17,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-06",
     "date_lvl2": "1923-06-28",
-    "description": "\n\n\n           廿八日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n\n\n              工藤\n             \n\n              鉄男\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二―三時\n            \n            正親町伯告別式（青山斎場）\n           \n\n\n\n\n             午後六時\n            \n            観山会（常盤や）\n           \n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （木）\n         \n\n\n\n\n             午前八時\n            \n\n\n              工藤\n             \n\n              鉄男\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二―三時\n            \n            正親町伯告別式（青山斎場）\n           \n\n\n\n\n             午後六時\n            \n            観山会（\n            \n             常盤\n            \n            や）\n           \n\n\n",
     "label": "廿八日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0175",
@@ -29,10 +26,8 @@
     "sort": "DKB20025m-0174",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山邸",
+        "常盤"
     ],
     "temporal": "1923-06-28",
     "texts": [
@@ -61,7 +56,7 @@
         "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_工藤鉄男\">\n<surname>\n              工藤\n             </surname>\n<forename>\n              鉄男\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0174\">\n<head>\n<date when=\"1923-06-28\">\n           廿八日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_工藤鉄男\">\n<surname>\n              工藤\n             </surname>\n<forename>\n              鉄男\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―三時\n            </time>\n            正親町伯告別式（青山斎場）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            観山会（常盤や）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0174\">\n<head>\n<date when=\"1923-06-28\">\n           廿八日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_工藤鉄男\">\n<surname>\n              工藤\n             </surname>\n<forename>\n              鉄男\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"14:00:00\" to=\"15:00:00\">\n             午後二―三時\n            </time>\n            正親町伯告別式（青山斎場）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            観山会（\n            <placeName corresp=\"#place_常盤\">\n             常盤\n            </placeName>\n            や）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-06"
 }

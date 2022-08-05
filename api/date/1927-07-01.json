@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1550",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +15,7 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-07",
     "date_lvl2": "1927-07-01",
-    "description": "\n\n\n           一日\n          \n          （金）\n         \n\n\n\n\n             午后三時\n            \n            評議員会但理事補欠選挙　二松学舎\n           \n\n\n\n\n             午後四時\n            \n            御出勤\n           \n\n\n\n\n             午后五半時\n            \n\n             実業之日本社\n            \n            三十周年紀念会招待　日本工業クラブ\n           \n\n\n",
+    "description": "\n\n\n           一日\n          \n          （金）\n         \n\n\n\n\n             午后三時\n            \n            評議員会但理事補欠選挙　二松学舎\n           \n\n\n\n\n             午後四時\n            \n            御出勤\n           \n\n\n\n\n             午后五半時\n            \n            実業之\n            \n             日本\n            \n            社三十周年紀念会招待　日本工業クラブ\n           \n\n\n",
     "label": "一日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0167",
@@ -24,8 +23,9 @@
     "prev": "DKB20029m-0165",
     "sort": "DKB20029m-0166",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
-    "spatial_uri": [],
+    "spatial": [
+        "日本"
+    ],
     "temporal": "1927-07-01",
     "texts": [
         "DKB20029m-0150",
@@ -53,7 +53,7 @@
         "15:00:00": "<div><time when=\"15:00:00\">\n             午后三時\n            </time>\n            評議員会但理事補欠選挙　二松学舎</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0166\">\n<head>\n<date when=\"1927-07-01\">\n           一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n            評議員会但理事補欠選挙　二松学舎\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午后五半時\n            </time>\n<orgName>\n             実業之日本社\n            </orgName>\n            三十周年紀念会招待　日本工業クラブ\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0166\">\n<head>\n<date when=\"1927-07-01\">\n           一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午后三時\n            </time>\n            評議員会但理事補欠選挙　二松学舎\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午后五半時\n            </time>\n            実業之\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            社三十周年紀念会招待　日本工業クラブ\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-07"
 }

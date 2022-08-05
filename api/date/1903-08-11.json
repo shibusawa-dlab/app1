@@ -3,10 +3,6 @@
         "田辺",
         "井上"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/田辺",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/井上"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/344",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -32,13 +28,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "日本橋兜町",
-        "飛鳥山邸",
-        "ドイツ"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/ドイツ"
+        "王子別荘",
+        "独国"
     ],
     "temporal": "1903-08-11",
     "texts": [
@@ -67,10 +58,10 @@
         "07:00:00": "<div>晴、<time when=\"07:00:00\">\n        午前七時\n       </time>\n       朝飧ヲ畢リ、二三ノ来人ニ接シ、</div>",
         "10:00:00": "<div><time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ事務ヲ処理ス、</div>",
         "11:00:00": "<div><time when=\"11:00:00\">\n        十一時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ抵リ\n       <persName corresp=\"#pers_田辺\">\n<surname>\n         田辺\n        </surname>\n</persName>\n       宮城県知事ノ来訪ニ接ス、午後曾我日本鉄道会社々長ヲ訪ヒ北海道鉄道ノ社債応募ノ事ヲ談ス、</div>",
-        "18:00:00": "<div><time when=\"18:00:00\">\n        六時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス、此日\n       <persName corresp=\"#pers_井上\">\n<surname>\n         井上\n        </surname>\n</persName>\n       公使来訪セラル、近日\n       <placeName corresp=\"#place_ドイツ\">\n        独国\n       </placeName>\n       出発ノ事ヲ告ク</div>"
+        "18:00:00": "<div><time when=\"18:00:00\">\n        六時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス、此日\n       <persName corresp=\"#pers_井上\">\n<surname>\n         井上\n        </surname>\n</persName>\n       公使来訪セラル、近日\n       <placeName corresp=\"#place_独国\">\n        独国\n       </placeName>\n       出発ノ事ヲ告ク</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-0337\">\n<head>\n<date when=\"1903-08-11\">\n        八月十一日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"07:00:00\">\n        午前七時\n       </time>\n       朝飧ヲ畢リ、二三ノ来人ニ接シ、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ事務ヲ処理ス、\n       <time when=\"11:00:00\">\n        十一時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ抵リ\n       <persName corresp=\"#pers_田辺\">\n<surname>\n         田辺\n        </surname>\n</persName>\n       宮城県知事ノ来訪ニ接ス、午後曾我日本鉄道会社々長ヲ訪ヒ北海道鉄道ノ社債応募ノ事ヲ談ス、\n       <time when=\"18:00:00\">\n        六時\n       </time>\n<placeName corresp=\"#place_飛鳥山邸\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス、此日\n       <persName corresp=\"#pers_井上\">\n<surname>\n         井上\n        </surname>\n</persName>\n       公使来訪セラル、近日\n       <placeName corresp=\"#place_ドイツ\">\n        独国\n       </placeName>\n       出発ノ事ヲ告ク\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10011m-0337\">\n<head>\n<date when=\"1903-08-11\">\n        八月十一日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"07:00:00\">\n        午前七時\n       </time>\n       朝飧ヲ畢リ、二三ノ来人ニ接シ、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<placeName corresp=\"#place_日本橋兜町\">\n        兜町\n       </placeName>\n       事務所ニ抵リ事務ヲ処理ス、\n       <time when=\"11:00:00\">\n        十一時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ抵リ\n       <persName corresp=\"#pers_田辺\">\n<surname>\n         田辺\n        </surname>\n</persName>\n       宮城県知事ノ来訪ニ接ス、午後曾我日本鉄道会社々長ヲ訪ヒ北海道鉄道ノ社債応募ノ事ヲ談ス、\n       <time when=\"18:00:00\">\n        六時\n       </time>\n<placeName corresp=\"#place_王子別荘\">\n        王子別荘\n       </placeName>\n       ニ帰宿ス、此日\n       <persName corresp=\"#pers_井上\">\n<surname>\n         井上\n        </surname>\n</persName>\n       公使来訪セラル、近日\n       <placeName corresp=\"#place_独国\">\n        独国\n       </placeName>\n       出発ノ事ヲ告ク\n      </p>\n</div>",
     "year": "1903",
     "yearAndMonth": "1903-08"
 }

@@ -1,13 +1,6 @@
 {
     "agential": [
-        "ワード",
-        "コールマン",
         "井上準之助"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/ワード",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/コールマン",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/井上準之助"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1487",
     "category": {
@@ -24,7 +17,7 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-02",
     "date_lvl2": "1925-02-19",
-    "description": "\n\n\n           十九日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n\n              ワード\n             \n\n            博士、\n            \n\n              コールマン\n             \n\n            両氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n            協調会ヘ御出向\n           \n\n\n\n\n             午四半時\n            \n\n\n              井上\n             \n\n              準之助\n             \n\n            氏来約（事務所）\n           \n\n\n",
+    "description": "\n\n\n           十九日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n            ワード博士、コールマン両氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午後一時\n            \n            協調会ヘ御出向\n           \n\n\n\n\n             午四半時\n            \n\n\n              井上\n             \n\n              準之助\n             \n\n            氏来約（事務所）\n           \n\n\n",
     "label": "十九日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20027m-0036",
@@ -33,10 +26,7 @@
     "sort": "DKB20027m-0035",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "アスカ山"
     ],
     "temporal": "1925-02-19",
     "texts": [
@@ -62,10 +52,10 @@
         "DKB20028m-0054"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_ワード\">\n<surname>\n              ワード\n             </surname>\n</persName>\n            博士、\n            <persName corresp=\"#pers_コールマン\">\n<surname>\n              コールマン\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            ワード博士、コールマン両氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0035\">\n<head>\n<date when=\"1925-02-19\">\n           十九日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_ワード\">\n<surname>\n              ワード\n             </surname>\n</persName>\n            博士、\n            <persName corresp=\"#pers_コールマン\">\n<surname>\n              コールマン\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            協調会ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午四半時\n            </time>\n<persName corresp=\"#pers_井上準之助\">\n<surname>\n              井上\n             </surname>\n<forename>\n              準之助\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0035\">\n<head>\n<date when=\"1925-02-19\">\n           十九日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            ワード博士、コールマン両氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            協調会ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午四半時\n            </time>\n<persName corresp=\"#pers_井上準之助\">\n<surname>\n              井上\n             </surname>\n<forename>\n              準之助\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-02"
 }

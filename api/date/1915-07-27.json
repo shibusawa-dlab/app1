@@ -1,13 +1,6 @@
 {
     "agential": [
-        "コル",
-        "ケトナー",
         "中野"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/コル",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/ケトナー",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/中野"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1189",
     "category": {
@@ -24,7 +17,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-07",
     "date_lvl2": "1915-07-27",
-    "description": "\n\n\n           廿七日\n          \n          （火）\n         \n\n\n\n\n             午後二時\n            \n\n             和蘭\n            \n            国\n            \n\n              コル\n             \n\n            、\n            \n\n              ケトナー\n             \n\n            両氏来ル約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後七時\n            \n\n\n              中野\n             \n\n            氏より招待（\n            \n             上の\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           廿七日\n          \n          （火）\n         \n\n\n\n\n             午後二時\n            \n\n             和蘭\n            \n            国コル、ケトナー両氏来ル約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後七時\n            \n\n\n              中野\n             \n\n            氏より招待（上の精養軒）\n           \n\n\n",
     "label": "廿七日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0199",
@@ -34,13 +27,7 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "オランダ",
-        "日本橋兜町",
-        "上野"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/オランダ",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
+        "日本橋兜町"
     ],
     "temporal": "1915-07-27",
     "texts": [
@@ -66,10 +53,10 @@
         "DKB20018m-0330"
     ],
     "time": {
-        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_オランダ\">\n             和蘭\n            </placeName>\n            国\n            <persName corresp=\"#pers_コル\">\n<surname>\n              コル\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_ケトナー\">\n<surname>\n              ケトナー\n             </surname>\n</persName>\n            両氏来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
+        "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_オランダ\">\n             和蘭\n            </placeName>\n            国コル、ケトナー両氏来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0198\">\n<head>\n<date when=\"1915-07-27\">\n           廿七日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_オランダ\">\n             和蘭\n            </placeName>\n            国\n            <persName corresp=\"#pers_コル\">\n<surname>\n              コル\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_ケトナー\">\n<surname>\n              ケトナー\n             </surname>\n</persName>\n            両氏来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n<persName corresp=\"#pers_中野\">\n<surname>\n              中野\n             </surname>\n</persName>\n            氏より招待（\n            <placeName corresp=\"#place_上野\">\n             上の\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0198\">\n<head>\n<date when=\"1915-07-27\">\n           廿七日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<placeName corresp=\"#place_オランダ\">\n             和蘭\n            </placeName>\n            国コル、ケトナー両氏来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n<persName corresp=\"#pers_中野\">\n<surname>\n              中野\n             </surname>\n</persName>\n            氏より招待（上の精養軒）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-07"
 }

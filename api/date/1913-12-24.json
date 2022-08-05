@@ -1,11 +1,7 @@
 {
     "agential": [
         "倉知",
-        "渋沢正雄"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/倉知",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢正雄"
+        "正雄"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1163",
     "category": {
@@ -22,7 +18,7 @@
     "date_lvl0": "1913",
     "date_lvl1": "1913-12",
     "date_lvl2": "1913-12-24",
-    "description": "\n\n\n           廿四日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n\n             東京商業会議所\n            \n            ヘ御出向\n           \n\n\n\n\n             午後一時\n            \n            養育院委員会（\n            \n             東京\n            \n            市役所）\n           \n\n\n\n\n             午後三時\n            \n            博覧会事務所ヘ御出向（\n            \n             麴町\n            \n            区\n            \n             内幸町\n            \n            一丁目）\n           \n\n\n\n\n             午後八時廿五分\n            \n\n\n              倉知\n             \n\n            氏一行\n            \n             新橋\n            \n            着\n           \n\n\n\n            但シ\n            \n\n              正雄\n             \n\n            殿ハ\n            \n             岡山\n            \n            ニ御立寄\n           \n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （水）\n         \n\n\n\n\n             午前十時\n            \n\n             東京\n            \n            商業会議所ヘ御出向\n           \n\n\n\n\n             午後一時\n            \n            養育院委員会（\n            \n             東京\n            \n            市役所）\n           \n\n\n\n\n             午後三時\n            \n            博覧会事務所ヘ御出向（\n            \n             麴町\n            \n            区\n            \n             内幸町\n            \n            一丁目）\n           \n\n\n\n\n             午後八時廿五分\n            \n\n\n              倉知\n             \n\n            氏一行\n            \n             新橋\n            \n            着\n           \n\n\n\n            但シ\n            \n\n              正雄\n             \n\n            殿ハ岡山ニ御立寄\n           \n\n\n",
     "label": "廿四日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20015m-0009",
@@ -34,15 +30,7 @@
         "東京",
         "麹町",
         "内幸町",
-        "新橋",
-        "岡山"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
-        "https://shibusawa-dlab.github.io/lab1/api/place/麹町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/内幸町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/新橋",
-        "https://shibusawa-dlab.github.io/lab1/api/place/岡山"
+        "新橋"
     ],
     "temporal": "1913-12-24",
     "texts": [
@@ -68,10 +56,10 @@
         "DKB20017m-0154"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             東京商業会議所\n            </orgName>\n            ヘ御出向</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商業会議所ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20015m-0008\">\n<head>\n<date when=\"1913-12-24\">\n           廿四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<orgName>\n             東京商業会議所\n            </orgName>\n            ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            養育院委員会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市役所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            博覧会事務所ヘ御出向（\n            <placeName corresp=\"#place_麹町\">\n             麴町\n            </placeName>\n            区\n            <placeName corresp=\"#place_内幸町\">\n             内幸町\n            </placeName>\n            一丁目）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"20:25:00\">\n             午後八時廿五分\n            </time>\n<persName corresp=\"#pers_倉知\">\n<surname>\n              倉知\n             </surname>\n</persName>\n            氏一行\n            <placeName corresp=\"#place_新橋\">\n             新橋\n            </placeName>\n            着\n           </p>\n</event>\n<event>\n<p>\n            但シ\n            <persName corresp=\"#pers_渋沢正雄\">\n<forename>\n              正雄\n             </forename>\n</persName>\n            殿ハ\n            <placeName corresp=\"#place_岡山\">\n             岡山\n            </placeName>\n            ニ御立寄\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20015m-0008\">\n<head>\n<date when=\"1913-12-24\">\n           廿四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商業会議所ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            養育院委員会（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            市役所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            博覧会事務所ヘ御出向（\n            <placeName corresp=\"#place_麹町\">\n             麴町\n            </placeName>\n            区\n            <placeName corresp=\"#place_内幸町\">\n             内幸町\n            </placeName>\n            一丁目）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"20:25:00\">\n             午後八時廿五分\n            </time>\n<persName corresp=\"#pers_倉知\">\n<surname>\n              倉知\n             </surname>\n</persName>\n            氏一行\n            <placeName corresp=\"#place_新橋\">\n             新橋\n            </placeName>\n            着\n           </p>\n</event>\n<event>\n<p>\n            但シ\n            <persName corresp=\"#pers_正雄\">\n<forename>\n              正雄\n             </forename>\n</persName>\n            殿ハ岡山ニ御立寄\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1913",
     "yearAndMonth": "1913-12"
 }

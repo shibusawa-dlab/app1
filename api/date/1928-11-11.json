@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1587",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +15,7 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-11",
     "date_lvl2": "1928-11-11",
-    "description": "\n\n\n           十一日\n          \n          （日）\n         \n\n\n\n\n             午前十半時\n            \n            ラジオ御講演\n           \n\n\n\n\n             午後十一半時《（午前）》\n            \n\n             埼玉学生誘掖会\n            \n            舎友会催総長米寿祝賀会（学士会）《（館脱）》\n           \n\n\n",
+    "description": "\n\n\n           十一日\n          \n          （日）\n         \n\n\n\n\n             午前十半時\n            \n            ラジオ御講演\n           \n\n\n\n\n             午後十一半時《（午前）》\n            \n\n             埼玉\n            \n            学生誘掖会舎友会催総長米寿祝賀会（学士会）《（館脱）》\n           \n\n\n",
     "label": "十一日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20030m-0242",
@@ -24,8 +23,9 @@
     "prev": "DKB20030m-0240",
     "sort": "DKB20030m-0241",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
-    "spatial_uri": [],
+    "spatial": [
+        "埼玉"
+    ],
     "temporal": "1928-11-11",
     "texts": [
         "DKB20022m-0130",
@@ -53,7 +53,7 @@
         "10:30:00": "<div><time when=\"10:30:00\">\n             午前十半時\n            </time>\n            ラジオ御講演</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0241\">\n<head>\n<date when=\"1928-11-11\">\n           十一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n            ラジオ御講演\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午後十一半時《（午前）》\n            </time>\n<orgName>\n             埼玉学生誘掖会\n            </orgName>\n            舎友会催総長米寿祝賀会（学士会）《（館脱）》\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0241\">\n<head>\n<date when=\"1928-11-11\">\n           十一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:30:00\">\n             午前十半時\n            </time>\n            ラジオ御講演\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午後十一半時《（午前）》\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会舎友会催総長米寿祝賀会（学士会）《（館脱）》\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-11"
 }

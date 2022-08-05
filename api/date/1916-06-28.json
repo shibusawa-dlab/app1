@@ -1,11 +1,7 @@
 {
     "agential": [
         "徳川頼倫",
-        "中村杏堂"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川頼倫",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/中村杏堂"
+        "中村"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1208",
     "category": {
@@ -22,7 +18,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-06",
     "date_lvl2": "1916-06-28",
-    "description": "\n\n\n           廿八日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n            田園都市経営ノ件（商業会ギ処）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              徳川\n             \n\n              頼倫\n             \n\n            侯ト御会見（華族会館）\n           \n\n\n\n\n             午後二時\n            \n\n\n              中村\n             \n\n              杏堂\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            国際通信ノ件（帝国ホテル）\n           \n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n            田園都市経営ノ件（商業会ギ処）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              徳川\n             \n\n              頼倫\n             \n\n            侯ト御会見（華族会館）\n           \n\n\n\n\n             午後二時\n            \n\n\n              中村\n             \n\n            杏堂氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            国際通信ノ件（帝国ホテル）\n           \n\n\n",
     "label": "廿八日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0164",
@@ -32,9 +28,6 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1916-06-28",
     "texts": [
@@ -63,7 +56,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            田園都市経営ノ件（商業会ギ処）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0163\">\n<head>\n<date when=\"1916-06-28\">\n           廿八日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            田園都市経営ノ件（商業会ギ処）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_徳川頼倫\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              頼倫\n             </forename>\n</persName>\n            侯ト御会見（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_中村杏堂\">\n<surname>\n              中村\n             </surname>\n<forename>\n              杏堂\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            国際通信ノ件（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0163\">\n<head>\n<date when=\"1916-06-28\">\n           廿八日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            田園都市経営ノ件（商業会ギ処）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_徳川頼倫\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              頼倫\n             </forename>\n</persName>\n            侯ト御会見（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_中村\">\n<surname>\n              中村\n             </surname>\n</persName>\n            杏堂氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            国際通信ノ件（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-06"
 }

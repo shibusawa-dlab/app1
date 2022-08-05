@@ -1,9 +1,6 @@
 {
     "agential": [
-        "リーチ"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/リーチ"
+        "永楽"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1420",
     "category": {
@@ -20,7 +17,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-02",
     "date_lvl2": "1923-02-17",
-    "description": "\n\n\n           十七日\n          \n          （土）\n         \n\n\n\n\n             正午\n            \n            日華学会理事会（同会）\n           \n\n\n\n\n             午後三時\n            \n\n\n              リーチ\n             \n\n            氏夫人来筈（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            道路改良会理事会（永楽クラブ）\n           \n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （土）\n         \n\n\n\n\n             正午\n            \n            日華学会理事会（同会）\n           \n\n\n\n\n             午後三時\n            \n            リーチ氏夫人来筈（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n            道路改良会理事会（\n            \n\n              永楽\n             \n\n            クラブ）\n           \n\n\n",
     "label": "十七日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0041",
@@ -30,9 +27,6 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1923-02-17",
     "texts": [
@@ -61,7 +55,7 @@
         "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            日華学会理事会（同会）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0040\">\n<head>\n<date when=\"1923-02-17\">\n           十七日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華学会理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_リーチ\">\n<surname>\n              リーチ\n             </surname>\n</persName>\n            氏夫人来筈（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            道路改良会理事会（永楽クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0040\">\n<head>\n<date when=\"1923-02-17\">\n           十七日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日華学会理事会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            リーチ氏夫人来筈（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            道路改良会理事会（\n            <persName corresp=\"#pers_永楽\">\n<surname>\n              永楽\n             </surname>\n</persName>\n            クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-02"
 }

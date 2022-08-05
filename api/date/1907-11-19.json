@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/509",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -16,7 +15,7 @@
     "date_lvl0": "1907",
     "date_lvl1": "1907-11",
     "date_lvl2": "1907-11-19",
-    "description": "\n\n\n        十一月十九日\n       \n       晴　○起床、就蓐ノ記入ナシ。\n      \n\n       起床後入浴シ、畢テ朝飧ヲ食ス、来人二三ニ接シ、\n       \n        午前十時\n       \n\n        東京瓦斯会社\n       \n       ニ抵リ重役会ヲ開ク、畢テ日韓瓦斯会社ノ事ヲ談ス\n       \n\n        午後一時\n       \n\n        第一銀行\n       \n       ニ於テ午飧シ、\n       \n        二時\n       \n\n        赤阪《（坂）》\n       \n       ニ抵リ帝室ノ観菊会ニ参席ス、\n       \n        午後四時\n       \n       過ヨリ慈善演劇ニ抵リ、夜\n       \n        十時\n       \n\n        王子\n       \n       ニ帰宿ス\n      \n",
+    "description": "\n\n\n        十一月十九日\n       \n       晴　○起床、就蓐ノ記入ナシ。\n      \n\n       起床後入浴シ、畢テ朝飧ヲ食ス、来人二三ニ接シ、\n       \n        午前十時\n       \n\n        東京瓦斯会社\n       \n       ニ抵リ重役会ヲ開ク、畢テ日韓瓦斯会社ノ事ヲ談ス\n       \n\n        午後一時\n       \n\n        第一銀行\n       \n       ニ於テ午飧シ、\n       \n        二時\n       \n\n        赤阪\n       \n       《（坂）》ニ抵リ帝室ノ観菊会ニ参席ス、\n       \n        午後四時\n       \n       過ヨリ慈善演劇ニ抵リ、夜\n       \n        十時\n       \n\n        王子\n       \n       ニ帰宿ス\n      \n",
     "label": "十一月十九日              晴　○起床、就蓐ノ記入ナシ。",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10015m-0300",
@@ -25,12 +24,8 @@
     "sort": "DKB10015m-0299",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
-        "赤坂_(東京都港区)",
+        "赤阪",
         "王子"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/赤坂_(東京都港区)",
-        "https://shibusawa-dlab.github.io/lab1/api/place/王子"
     ],
     "temporal": "1907-11-19",
     "texts": [
@@ -58,12 +53,12 @@
     "time": {
         "10:00:00": "<div>起床後入浴シ、畢テ朝飧ヲ食ス、来人二三ニ接シ、<time when=\"10:00:00\">\n        午前十時\n       </time>\n<orgName>\n        東京瓦斯会社\n       </orgName>\n       ニ抵リ重役会ヲ開ク、畢テ日韓瓦斯会社ノ事ヲ談ス\n       <lb/></div>",
         "13:00:00": "<div><time when=\"13:00:00\">\n        午後一時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧シ、</div>",
-        "14:00:00": "<div><time when=\"14:00:00\">\n        二時\n       </time>\n<placeName corresp=\"#place_赤坂_(東京都港区)\">\n        赤阪《（坂）》\n       </placeName>\n       ニ抵リ帝室ノ観菊会ニ参席ス、</div>",
+        "14:00:00": "<div><time when=\"14:00:00\">\n        二時\n       </time>\n<placeName corresp=\"#place_赤阪\">\n        赤阪\n       </placeName>\n       《（坂）》ニ抵リ帝室ノ観菊会ニ参席ス、</div>",
         "16:00:00": "<div><time when=\"16:00:00\">\n        午後四時\n       </time>\n       過ヨリ慈善演劇ニ抵リ、夜</div>",
         "22:00:00": "<div><time when=\"22:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10015m-0299\">\n<head>\n<date when=\"1907-11-19\">\n        十一月十九日\n       </date>\n       晴　○起床、就蓐ノ記入ナシ。\n      </head>\n<p>\n       起床後入浴シ、畢テ朝飧ヲ食ス、来人二三ニ接シ、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<orgName>\n        東京瓦斯会社\n       </orgName>\n       ニ抵リ重役会ヲ開ク、畢テ日韓瓦斯会社ノ事ヲ談ス\n       <lb/>\n<time when=\"13:00:00\">\n        午後一時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧シ、\n       <time when=\"14:00:00\">\n        二時\n       </time>\n<placeName corresp=\"#place_赤坂_(東京都港区)\">\n        赤阪《（坂）》\n       </placeName>\n       ニ抵リ帝室ノ観菊会ニ参席ス、\n       <time when=\"16:00:00\">\n        午後四時\n       </time>\n       過ヨリ慈善演劇ニ抵リ、夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10015m-0299\">\n<head>\n<date when=\"1907-11-19\">\n        十一月十九日\n       </date>\n       晴　○起床、就蓐ノ記入ナシ。\n      </head>\n<p>\n       起床後入浴シ、畢テ朝飧ヲ食ス、来人二三ニ接シ、\n       <time when=\"10:00:00\">\n        午前十時\n       </time>\n<orgName>\n        東京瓦斯会社\n       </orgName>\n       ニ抵リ重役会ヲ開ク、畢テ日韓瓦斯会社ノ事ヲ談ス\n       <lb/>\n<time when=\"13:00:00\">\n        午後一時\n       </time>\n<orgName>\n        第一銀行\n       </orgName>\n       ニ於テ午飧シ、\n       <time when=\"14:00:00\">\n        二時\n       </time>\n<placeName corresp=\"#place_赤阪\">\n        赤阪\n       </placeName>\n       《（坂）》ニ抵リ帝室ノ観菊会ニ参席ス、\n       <time when=\"16:00:00\">\n        午後四時\n       </time>\n       過ヨリ慈善演劇ニ抵リ、夜\n       <time when=\"22:00:00\">\n        十時\n       </time>\n<placeName corresp=\"#place_王子\">\n        王子\n       </placeName>\n       ニ帰宿ス\n      </p>\n</div>",
     "year": "1907",
     "yearAndMonth": "1907-11"
 }

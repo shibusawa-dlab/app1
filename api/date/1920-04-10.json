@@ -3,10 +3,6 @@
         "徳川",
         "村井吉兵衛"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/村井吉兵衛"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1330",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -22,7 +18,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-04",
     "date_lvl2": "1920-04-10",
-    "description": "\n\n\n           十日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n            女子大学校評議員会ヘ御出向（同校）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              徳川\n             \n\n            公ヲ御訪問（\n            \n             千駄ケ谷\n            \n            同邸）\n           \n\n\n\n\n             午後一時\n            \n\n\n              村井\n             \n\n              吉兵衛\n             \n\n            氏より御案内（同氏邸）\n            \n            令夫人共\n           \n\n\n\n\n             午後六時\n            \n\n             竜門社\n            \n            評議員会（帝国ホテル）\n           \n\n\n",
+    "description": "\n\n\n           十日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n            女子大学校評議員会ヘ御出向（同校）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              徳川\n             \n\n            公ヲ御訪問（\n            \n             千駄ケ谷\n            \n            同邸）\n           \n\n\n\n\n             午後一時\n            \n\n\n              村井\n             \n\n              吉兵衛\n             \n\n            氏より御案内（同氏邸）\n            \n            令夫人共\n           \n\n\n\n\n             午後六時\n            \n            竜門社評議員会（帝国ホテル）\n           \n\n\n",
     "label": "十日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0099",
@@ -32,9 +28,6 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "千駄ヶ谷"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/千駄ヶ谷"
     ],
     "temporal": "1920-04-10",
     "texts": [
@@ -63,7 +56,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            女子大学校評議員会ヘ御出向（同校）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0098\">\n<head>\n<date when=\"1920-04-10\">\n           十日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            女子大学校評議員会ヘ御出向（同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公ヲ御訪問（\n            <placeName corresp=\"#place_千駄ヶ谷\">\n             千駄ケ谷\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_村井吉兵衛\">\n<surname>\n              村井\n             </surname>\n<forename>\n              吉兵衛\n             </forename>\n</persName>\n            氏より御案内（同氏邸）\n            <lb/>\n            令夫人共\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<orgName>\n             竜門社\n            </orgName>\n            評議員会（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0098\">\n<head>\n<date when=\"1920-04-10\">\n           十日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            女子大学校評議員会ヘ御出向（同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公ヲ御訪問（\n            <placeName corresp=\"#place_千駄ヶ谷\">\n             千駄ケ谷\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_村井吉兵衛\">\n<surname>\n              村井\n             </surname>\n<forename>\n              吉兵衛\n             </forename>\n</persName>\n            氏より御案内（同氏邸）\n            <lb/>\n            令夫人共\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            竜門社評議員会（帝国ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-04"
 }

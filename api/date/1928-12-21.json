@@ -1,15 +1,7 @@
 {
     "agential": [
-        "九鬼",
         "油谷恭一",
-        "大倉",
         "杉浦"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/九鬼",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/油谷恭一",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/大倉",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/杉浦"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1590",
     "category": {
@@ -26,7 +18,7 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-12",
     "date_lvl2": "1928-12-21",
-    "description": "\n\n\n           廿一日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n\n             九鬼\n            \n            子爵御来約（\n            \n             王子\n            \n            邸）\n           \n\n\n\n\n             午前九時\n            \n            国民新聞社会部長鈴木氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n\n              油谷\n             \n\n              恭一\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              大倉\n             \n\n            、\n            \n\n              杉浦\n             \n\n            二氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （金）\n         \n\n\n\n\n             午前九時\n            \n\n             九鬼\n            \n            子爵御来約（\n            \n             王子\n            \n            邸）\n           \n\n\n\n\n             午前九時\n            \n            国民新聞社会部長鈴木氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n\n              油谷\n             \n\n              恭一\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n            大倉、\n            \n\n              杉浦\n             \n\n            二氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n",
     "label": "廿一日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20030m-0282",
@@ -35,12 +27,10 @@
     "sort": "DKB20030m-0281",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "九鬼",
         "王子",
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/王子",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山邸",
+        "飛鳥山公園"
     ],
     "temporal": "1928-12-21",
     "texts": [
@@ -66,10 +56,10 @@
         "DKB20033m-0150"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_九鬼\">\n             九鬼\n            </persName>\n            子爵御来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            邸）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_九鬼\">\n             九鬼\n            </placeName>\n            子爵御来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0281\">\n<head>\n<date when=\"1928-12-21\">\n           廿一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_九鬼\">\n             九鬼\n            </persName>\n            子爵御来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            国民新聞社会部長鈴木氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_油谷恭一\">\n<surname>\n              油谷\n             </surname>\n<forename>\n              恭一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_大倉\">\n<surname>\n              大倉\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_杉浦\">\n<surname>\n              杉浦\n             </surname>\n</persName>\n            二氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0281\">\n<head>\n<date when=\"1928-12-21\">\n           廿一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_九鬼\">\n             九鬼\n            </placeName>\n            子爵御来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            国民新聞社会部長鈴木氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_油谷恭一\">\n<surname>\n              油谷\n             </surname>\n<forename>\n              恭一\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            大倉、\n            <persName corresp=\"#pers_杉浦\">\n<surname>\n              杉浦\n             </surname>\n</persName>\n            二氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-12"
 }

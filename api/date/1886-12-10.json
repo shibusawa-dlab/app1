@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/90",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -16,7 +15,7 @@
     "date_lvl0": "1886",
     "date_lvl1": "1886-12",
     "date_lvl2": "1886-12-10",
-    "description": "\n\n\n        （十二月）十日\n       \n\n\n       晴、\n       \n        午前六時\n       \n       客舎ヲ発シ、倉沢ニテ小憩ス、時ニ朝嵐已ニ収テ旭光波ニ映シ海面金漣ヲ漾ス、而シテ富峰銀ノ如ク亦細雲ナシ、眺望甚佳、\n       \n        十二時\n       \n\n        静岡\n       \n       ニ抵リ、大万屋ニ午餐ス、食後\n       \n        紺屋町\n       \n       ニ於テ正二位公ニ謁ス、款話数時、辞シ去テ\n       \n        静岡\n       \n       ヲ発シ、\n       \n        午後六時半\n       \n       、\n       \n        藤枝\n       \n       ニ抵リ銭屋ニ投宿ス、此夕驟雨来リ頃刻ニシテ歇ム\n      \n",
+    "description": "\n\n\n        （十二月）十日\n       \n\n\n       晴、\n       \n        午前六時\n       \n       客舎ヲ発シ、倉沢ニテ小憩ス、時ニ朝嵐已ニ収テ旭光波ニ映シ海面金漣ヲ漾ス、而シテ富峰銀ノ如ク亦細雲ナシ、眺望甚佳、\n       \n        十二時\n       \n\n        静岡\n       \n       ニ抵リ、大万屋ニ午餐ス、食後紺屋町ニ於テ正二位公ニ謁ス、款話数時、辞シ去テ\n       \n        静岡\n       \n       ヲ発シ、\n       \n        午後六時半\n       \n       、\n       \n        藤枝\n       \n       ニ抵リ銭屋ニ投宿ス、此夕驟雨来リ頃刻ニシテ歇ム\n      \n",
     "label": "（十二月）十日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10007m-0004",
@@ -26,13 +25,7 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
         "静岡",
-        "紺屋町",
         "藤枝"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/静岡",
-        "https://shibusawa-dlab.github.io/lab1/api/place/紺屋町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/藤枝"
     ],
     "temporal": "1886-12-10",
     "texts": [
@@ -59,11 +52,11 @@
     ],
     "time": {
         "06:00:00": "<div>晴、<time when=\"06:00:00\">\n        午前六時\n       </time>\n       客舎ヲ発シ、倉沢ニテ小憩ス、時ニ朝嵐已ニ収テ旭光波ニ映シ海面金漣ヲ漾ス、而シテ富峰銀ノ如ク亦細雲ナシ、眺望甚佳、</div>",
-        "12:00:00": "<div><time when=\"12:00:00\">\n        十二時\n       </time>\n<placeName corresp=\"#place_静岡\">\n        静岡\n       </placeName>\n       ニ抵リ、大万屋ニ午餐ス、食後\n       <placeName corresp=\"#place_紺屋町\">\n        紺屋町\n       </placeName>\n       ニ於テ正二位公ニ謁ス、款話数時、辞シ去テ\n       <placeName corresp=\"#place_静岡\">\n        静岡\n       </placeName>\n       ヲ発シ、</div>",
+        "12:00:00": "<div><time when=\"12:00:00\">\n        十二時\n       </time>\n<placeName corresp=\"#place_静岡\">\n        静岡\n       </placeName>\n       ニ抵リ、大万屋ニ午餐ス、食後紺屋町ニ於テ正二位公ニ謁ス、款話数時、辞シ去テ\n       <placeName corresp=\"#place_静岡\">\n        静岡\n       </placeName>\n       ヲ発シ、</div>",
         "18:30:00": "<div><time when=\"18:30:00\">\n        午後六時半\n       </time>\n       、\n       <placeName corresp=\"#place_藤枝\">\n        藤枝\n       </placeName>\n       ニ抵リ銭屋ニ投宿ス、此夕驟雨来リ頃刻ニシテ歇ム</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10007m-0003\">\n<head>\n<date evidence=\"month inferenced\" when=\"1886-12-10\">\n        （十二月）十日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"06:00:00\">\n        午前六時\n       </time>\n       客舎ヲ発シ、倉沢ニテ小憩ス、時ニ朝嵐已ニ収テ旭光波ニ映シ海面金漣ヲ漾ス、而シテ富峰銀ノ如ク亦細雲ナシ、眺望甚佳、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n<placeName corresp=\"#place_静岡\">\n        静岡\n       </placeName>\n       ニ抵リ、大万屋ニ午餐ス、食後\n       <placeName corresp=\"#place_紺屋町\">\n        紺屋町\n       </placeName>\n       ニ於テ正二位公ニ謁ス、款話数時、辞シ去テ\n       <placeName corresp=\"#place_静岡\">\n        静岡\n       </placeName>\n       ヲ発シ、\n       <time when=\"18:30:00\">\n        午後六時半\n       </time>\n       、\n       <placeName corresp=\"#place_藤枝\">\n        藤枝\n       </placeName>\n       ニ抵リ銭屋ニ投宿ス、此夕驟雨来リ頃刻ニシテ歇ム\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10007m-0003\">\n<head>\n<date evidence=\"month inferenced\" when=\"1886-12-10\">\n        （十二月）十日\n       </date>\n</head>\n<p>\n       晴、\n       <time when=\"06:00:00\">\n        午前六時\n       </time>\n       客舎ヲ発シ、倉沢ニテ小憩ス、時ニ朝嵐已ニ収テ旭光波ニ映シ海面金漣ヲ漾ス、而シテ富峰銀ノ如ク亦細雲ナシ、眺望甚佳、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n<placeName corresp=\"#place_静岡\">\n        静岡\n       </placeName>\n       ニ抵リ、大万屋ニ午餐ス、食後紺屋町ニ於テ正二位公ニ謁ス、款話数時、辞シ去テ\n       <placeName corresp=\"#place_静岡\">\n        静岡\n       </placeName>\n       ヲ発シ、\n       <time when=\"18:30:00\">\n        午後六時半\n       </time>\n       、\n       <placeName corresp=\"#place_藤枝\">\n        藤枝\n       </placeName>\n       ニ抵リ銭屋ニ投宿ス、此夕驟雨来リ頃刻ニシテ歇ム\n      </p>\n</div>",
     "year": "1886",
     "yearAndMonth": "1886-12"
 }

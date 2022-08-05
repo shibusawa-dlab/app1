@@ -5,12 +5,6 @@
         "桐谷",
         "渋沢秀雄"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/田中智學",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/河野",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/桐谷",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢秀雄"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1571",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -35,10 +29,8 @@
     "sort": "DKB20030m-0033",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山邸",
+        "飛鳥山公園"
     ],
     "temporal": "1928-02-02",
     "texts": [
@@ -65,7 +57,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0033\">\n<head>\n<date when=\"1928-02-02\">\n           二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n            御引籠リ\n           </p>\n</event>\n<event>\n<p>\n<time>\n             午前\n            </time>\n            林医師来診（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_田中智學\">\n<surname>\n              田中\n             </surname>\n<forename>\n              智学\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_河野\">\n<surname>\n              河野\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_桐谷\">\n<forename>\n              桐谷\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_渋沢秀雄\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              秀雄\n             </forename>\n</persName>\n            其他二三氏来約\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n</p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0033\">\n<head>\n<date when=\"1928-02-02\">\n           二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n            御引籠リ\n           </p>\n</event>\n<event>\n<p>\n<time>\n             午前\n            </time>\n            林医師来診（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_田中智學\">\n<surname>\n              田中\n             </surname>\n<forename>\n              智学\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_河野\">\n<surname>\n              河野\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_桐谷\">\n<forename>\n              桐谷\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_渋沢秀雄\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              秀雄\n             </forename>\n</persName>\n            其他二三氏来約\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n</p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-02"
 }

@@ -1,13 +1,7 @@
 {
     "agential": [
-        "竹内浦次",
         "香坂昌康",
         "浜口大蔵"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/竹内浦次",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/香坂昌康",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/浜口大蔵"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1495",
     "category": {
@@ -24,7 +18,7 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-10",
     "date_lvl2": "1925-10-24",
-    "description": "\n\n\n           廿四日\n          \n          （土）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              竹内\n             \n\n              浦次\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              香坂\n             \n\n              昌康\n             \n\n            氏来約\n           \n\n\n\n\n             午前十一時\n            \n\n\n              浜口\n             \n\n              大蔵\n             \n\n            大臣ヲ御訪問（同官舎）\n           \n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （土）\n         \n\n\n\n\n             午前八半時\n            \n            竹\n            \n             内浦\n            \n            次氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              香坂\n             \n\n              昌康\n             \n\n            氏来約\n           \n\n\n\n\n             午前十一時\n            \n\n\n              浜口\n             \n\n              大蔵\n             \n\n            大臣ヲ御訪問（同官舎）\n           \n\n\n",
     "label": "廿四日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20027m-0182",
@@ -33,10 +27,8 @@
     "sort": "DKB20027m-0181",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "内浦",
         "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1925-10-24",
     "texts": [
@@ -62,10 +54,10 @@
         "DKB20031m-0131"
     ],
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_竹内浦次\">\n<surname>\n              竹内\n             </surname>\n<forename>\n              浦次\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n            竹\n            <placeName corresp=\"#place_内浦\">\n             内浦\n            </placeName>\n            次氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0181\">\n<head>\n<date when=\"1925-10-24\">\n           廿四日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_竹内浦次\">\n<surname>\n              竹内\n             </surname>\n<forename>\n              浦次\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_香坂昌康\">\n<surname>\n              香坂\n             </surname>\n<forename>\n              昌康\n             </forename>\n</persName>\n            氏来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_浜口大蔵\">\n<surname>\n              浜口\n             </surname>\n<forename>\n              大蔵\n             </forename>\n</persName>\n            大臣ヲ御訪問（同官舎）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0181\">\n<head>\n<date when=\"1925-10-24\">\n           廿四日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n            竹\n            <placeName corresp=\"#place_内浦\">\n             内浦\n            </placeName>\n            次氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_香坂昌康\">\n<surname>\n              香坂\n             </surname>\n<forename>\n              昌康\n             </forename>\n</persName>\n            氏来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_浜口大蔵\">\n<surname>\n              浜口\n             </surname>\n<forename>\n              大蔵\n             </forename>\n</persName>\n            大臣ヲ御訪問（同官舎）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-10"
 }

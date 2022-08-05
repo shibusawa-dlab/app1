@@ -2,9 +2,6 @@
     "agential": [
         "内藤久寛"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/内藤久寛"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1276",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +17,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-09",
     "date_lvl2": "1918-09-10",
-    "description": "\n\n\n           十日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n\n\n              内藤\n             \n\n              久寛\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n            聯合軍傷病兵慰問会常務委員会（華族会館）\n           \n\n\n\n\n             午後六時\n            \n\n             朝鮮銀行\n            \n            ヨリ御招待（トキワヤ）\n           \n\n\n",
+    "description": "\n\n\n           十日\n          \n          （火）\n         \n\n\n\n\n             午前八時\n            \n\n\n              内藤\n             \n\n              久寛\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n            聯合軍傷病兵慰問会常務委員会（華族会館）\n           \n\n\n\n\n             午後六時\n            \n\n             朝鮮\n            \n            銀行ヨリ御招待（トキワヤ）\n           \n\n\n",
     "label": "十日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0233",
@@ -29,10 +26,8 @@
     "sort": "DKB20020m-0232",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山邸",
+        "朝鮮"
     ],
     "temporal": "1918-09-10",
     "texts": [
@@ -61,7 +56,7 @@
         "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_内藤久寛\">\n<surname>\n              内藤\n             </surname>\n<forename>\n              久寛\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0232\">\n<head>\n<date when=\"1918-09-10\">\n           十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_内藤久寛\">\n<surname>\n              内藤\n             </surname>\n<forename>\n              久寛\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            聯合軍傷病兵慰問会常務委員会（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<orgName>\n             朝鮮銀行\n            </orgName>\n            ヨリ御招待（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0232\">\n<head>\n<date when=\"1918-09-10\">\n           十日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_内藤久寛\">\n<surname>\n              内藤\n             </surname>\n<forename>\n              久寛\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            聯合軍傷病兵慰問会常務委員会（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_朝鮮\">\n             朝鮮\n            </placeName>\n            銀行ヨリ御招待（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-09"
 }

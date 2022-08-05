@@ -4,11 +4,6 @@
         "水島鉄也",
         "高梨"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/桑山鉄男",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/水島鉄也",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/高梨"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1494",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -24,7 +19,7 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-10",
     "date_lvl2": "1925-10-03",
-    "description": "\n\n\n           三日\n          \n          （土）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              桑山\n             \n\n              鉄男\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              水島\n             \n\n              鉄也\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n\n              高梨\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             正午\n            \n            埼玉会館ノ件（銀行クラブ）\n           \n\n\n",
+    "description": "\n\n\n           三日\n          \n          （土）\n         \n\n\n\n\n             午前八半時\n            \n\n\n              桑山\n             \n\n              鉄男\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午前九時\n            \n\n\n              水島\n             \n\n              鉄也\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n\n              高梨\n             \n\n            氏来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             正午\n            \n\n             埼玉\n            \n            会館ノ件（銀行クラブ）\n           \n\n\n",
     "label": "三日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20027m-0162",
@@ -33,10 +28,9 @@
     "sort": "DKB20027m-0161",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山邸",
+        "アスカ山",
+        "埼玉"
     ],
     "temporal": "1925-10-03",
     "texts": [
@@ -65,7 +59,7 @@
         "08:30:00": "<div><time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_桑山鉄男\">\n<surname>\n              桑山\n             </surname>\n<forename>\n              鉄男\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0161\">\n<head>\n<date when=\"1925-10-03\">\n           三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_桑山鉄男\">\n<surname>\n              桑山\n             </surname>\n<forename>\n              鉄男\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_水島鉄也\">\n<surname>\n              水島\n             </surname>\n<forename>\n              鉄也\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_高梨\">\n<surname>\n              高梨\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            埼玉会館ノ件（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0161\">\n<head>\n<date when=\"1925-10-03\">\n           三日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八半時\n            </time>\n<persName corresp=\"#pers_桑山鉄男\">\n<surname>\n              桑山\n             </surname>\n<forename>\n              鉄男\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_水島鉄也\">\n<surname>\n              水島\n             </surname>\n<forename>\n              鉄也\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_高梨\">\n<surname>\n              高梨\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            会館ノ件（銀行クラブ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-10"
 }

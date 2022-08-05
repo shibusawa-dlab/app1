@@ -1,11 +1,6 @@
 {
     "agential": [
-        "小沢",
-        "岩崎"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/小沢",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/岩崎"
+        "小沢"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1426",
     "category": {
@@ -22,7 +17,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-04",
     "date_lvl2": "1923-04-12",
-    "description": "\n\n\n           十二日\n          \n          （木）\n         \n\n\n\n\n             午後三時\n            \n            社会局\n            \n\n              小沢\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一―三時\n            \n\n\n              岩崎\n             \n\n            男爵御母堂告別式（\n            \n             茅町\n            \n            同邸）\n           \n\n\n\n\n             午後四時\n            \n\n             支那\n            \n            陸軍中将金鎔氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           十二日\n          \n          （木）\n         \n\n\n\n\n             午後三時\n            \n            社会局\n            \n\n              小沢\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後一―三時\n            \n\n             岩崎\n            \n            男爵御母堂告別式（\n            \n             茅町\n            \n            同邸）\n           \n\n\n\n\n             午後四時\n            \n\n             支那\n            \n            陸軍中将金鎔氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "十二日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0097",
@@ -32,13 +27,9 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "日本橋兜町",
+        "岩崎",
         "茅町",
         "支那"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/茅町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/支那"
     ],
     "temporal": "1923-04-12",
     "texts": [
@@ -67,7 +58,7 @@
         "15:00:00": "<div><time when=\"15:00:00\">\n             午後三時\n            </time>\n            社会局\n            <persName corresp=\"#pers_小沢\">\n<surname>\n              小沢\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0096\">\n<head>\n<date when=\"1923-04-12\">\n           十二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            社会局\n            <persName corresp=\"#pers_小沢\">\n<surname>\n              小沢\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"15:00:00\">\n             午後一―三時\n            </time>\n<persName corresp=\"#pers_岩崎\">\n<surname>\n              岩崎\n             </surname>\n</persName>\n            男爵御母堂告別式（\n            <placeName corresp=\"#place_茅町\">\n             茅町\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            陸軍中将金鎔氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0096\">\n<head>\n<date when=\"1923-04-12\">\n           十二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            社会局\n            <persName corresp=\"#pers_小沢\">\n<surname>\n              小沢\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:00:00\" to=\"15:00:00\">\n             午後一―三時\n            </time>\n<placeName corresp=\"#place_岩崎\">\n             岩崎\n            </placeName>\n            男爵御母堂告別式（\n            <placeName corresp=\"#place_茅町\">\n             茅町\n            </placeName>\n            同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_支那\">\n             支那\n            </placeName>\n            陸軍中将金鎔氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-04"
 }

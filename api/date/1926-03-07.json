@@ -1,15 +1,6 @@
 {
     "agential": [
-        "徳川",
-        "アルフレッド_フーシェ",
-        "シャルル_アシャール",
-        "ポール_クローデル"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/アルフレッド_フーシェ",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/シャルル_アシャール",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/ポール_クローデル"
+        "徳川"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1504",
     "category": {
@@ -26,7 +17,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-03",
     "date_lvl2": "1926-03-07",
-    "description": "\n\n\n           七日\n          \n          （日）\n         \n\n\n\n\n             午前正十時\n            \n            迄ニ\n            \n             第六天\n            \n\n\n              徳川\n             \n\n            家ヘ御出向\n           \n\n\n\n\n             正午\n            \n            日仏会館催\n            \n\n              フツシエー\n             \n\n            、\n            \n\n              アシヤール\n             \n\n            、\n            \n\n              クローデル\n             \n\n            三氏歓迎招待会（日仏会館）\n           \n\n\n",
+    "description": "\n\n\n           七日\n          \n          （日）\n         \n\n\n\n\n             午前正十時\n            \n            迄ニ\n            \n             第六天\n            \n\n\n              徳川\n             \n\n            家ヘ御出向\n           \n\n\n\n\n             正午\n            \n            日仏会館催フツシエー、アシヤール、クローデル三氏歓迎招待会（日仏会館）\n           \n\n\n",
     "label": "七日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0066",
@@ -35,10 +26,7 @@
     "sort": "DKB20028m-0065",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "第六天町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/第六天町"
+        "第六天"
     ],
     "temporal": "1926-03-07",
     "texts": [
@@ -64,10 +52,10 @@
         "DKB20024m-0105"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前正十時\n            </time>\n            迄ニ\n            <placeName corresp=\"#place_第六天町\">\n             第六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家ヘ御出向</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前正十時\n            </time>\n            迄ニ\n            <placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0065\">\n<head>\n<date when=\"1926-03-07\">\n           七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前正十時\n            </time>\n            迄ニ\n            <placeName corresp=\"#place_第六天町\">\n             第六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日仏会館催\n            <persName corresp=\"#pers_アルフレッド_フーシェ\">\n<surname>\n              フツシエー\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_シャルル_アシャール\">\n<surname>\n              アシヤール\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_ポール_クローデル\">\n<surname>\n              クローデル\n             </surname>\n</persName>\n            三氏歓迎招待会（日仏会館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0065\">\n<head>\n<date when=\"1926-03-07\">\n           七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前正十時\n            </time>\n            迄ニ\n            <placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日仏会館催フツシエー、アシヤール、クローデル三氏歓迎招待会（日仏会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-03"
 }

@@ -1,13 +1,8 @@
 {
     "agential": [
-        "渋沢敬三",
+        "敬三",
         "鈴木文治",
         "山田英太郎"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢敬三",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/鈴木文治",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/山田英太郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1619",
     "category": {
@@ -33,7 +28,6 @@
     "sort": "DKB20032m-0198",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [],
-    "spatial_uri": [],
     "temporal": "1930-11-12",
     "texts": [
         "DKB20033m-0135",
@@ -61,7 +55,7 @@
         "10:50:00": "<div><time when=\"10:50:00\">\n             午前十・五〇\n            </time>\n            事務所ニ御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0198\">\n<head>\n<date when=\"1930-11-12\">\n           十二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:50:00\">\n             午前十・五〇\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            社長様　○\n            <persName corresp=\"#pers_渋沢敬三\">\n<forename>\n              敬三\n             </forename>\n</persName>\n            御会談（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_鈴木文治\">\n<surname>\n              鈴木\n             </surname>\n<forename>\n              文治\n             </forename>\n</persName>\n            氏ト御会見（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"12:00:00\" to=\"13:00:00\">\n             午後〇時―一時\n            </time>\n<persName corresp=\"#pers_山田英太郎\">\n<surname>\n              山田\n             </surname>\n<forename>\n              英太郎\n             </forename>\n</persName>\n            氏ト御会見（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0198\">\n<head>\n<date when=\"1930-11-12\">\n           十二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:50:00\">\n             午前十・五〇\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            社長様　○\n            <persName corresp=\"#pers_敬三\">\n<forename>\n              敬三\n             </forename>\n</persName>\n            御会談（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_鈴木文治\">\n<surname>\n              鈴木\n             </surname>\n<forename>\n              文治\n             </forename>\n</persName>\n            氏ト御会見（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"12:00:00\" to=\"13:00:00\">\n             午後〇時―一時\n            </time>\n<persName corresp=\"#pers_山田英太郎\">\n<surname>\n              山田\n             </surname>\n<forename>\n              英太郎\n             </forename>\n</persName>\n            氏ト御会見（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1930",
     "yearAndMonth": "1930-11"
 }

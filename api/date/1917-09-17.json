@@ -1,13 +1,7 @@
 {
     "agential": [
-        "山川健次郎",
         "岡田",
         "水野"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/山川健次郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/岡田",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/水野"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1246",
     "category": {
@@ -24,7 +18,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-09",
     "date_lvl2": "1917-09-17",
-    "description": "\n\n\n           十七日\n          \n          （月）\n         \n\n\n\n\n             午前十一時\n            \n\n\n              山川\n             \n\n            総長ヲ御訪問（帝国大学）\n           \n\n\n\n\n             午〃十一―十二時\n            \n\n\n              岡田\n             \n\n            文相ヲ御訪問（文部省）\n           \n\n\n\n\n\n             午後〇時半\n            \n\n\n              水野\n             \n\n            内務次官ヲ御訪問（内務省）\n           \n\n\n\n\n             午後五時\n            \n\n             実業之日本社\n            \n            主催遣米小学校長送別会（\n            \n             築地\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （月）\n         \n\n\n\n\n             午前十一時\n            \n            山川総長ヲ御訪問（帝国大学）\n           \n\n\n\n\n             午〃十一―十二時\n            \n\n\n              岡田\n             \n\n            文相ヲ御訪問（文部省）\n           \n\n\n\n\n\n             午後〇時半\n            \n\n\n              水野\n             \n\n            内務次官ヲ御訪問（内務省）\n           \n\n\n\n\n             午後五時\n            \n            実業之\n            \n             日本\n            \n            社主催遣米小学校長送別会（築地精養軒）\n           \n\n\n",
     "label": "十七日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0247",
@@ -33,10 +27,7 @@
     "sort": "DKB20019m-0246",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "築地"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
+        "日本"
     ],
     "temporal": "1917-09-17",
     "texts": [
@@ -62,10 +53,10 @@
         "DKB20019m-0227"
     ],
     "time": {
-        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_山川健次郎\">\n<surname>\n              山川\n             </surname>\n</persName>\n            総長ヲ御訪問（帝国大学）</div>"
+        "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            山川総長ヲ御訪問（帝国大学）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0246\">\n<head>\n<date when=\"1917-09-17\">\n           十七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_山川健次郎\">\n<surname>\n              山川\n             </surname>\n</persName>\n            総長ヲ御訪問（帝国大学）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"11:00:00\" to=\"12:00:00\">\n             午〃十一―十二時\n            </time>\n<persName corresp=\"#pers_岡田\">\n<surname>\n              岡田\n             </surname>\n</persName>\n            文相ヲ御訪問（文部省）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2407\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1246/full/max/0/default.jpg\" n=\"B2407\" source=\"#pageB2407\"/>\n<time when=\"12:30:00\">\n             午後〇時半\n            </time>\n<persName corresp=\"#pers_水野\">\n<surname>\n              水野\n             </surname>\n</persName>\n            内務次官ヲ御訪問（内務省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<orgName>\n             実業之日本社\n            </orgName>\n            主催遣米小学校長送別会（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0246\">\n<head>\n<date when=\"1917-09-17\">\n           十七日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            山川総長ヲ御訪問（帝国大学）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"11:00:00\" to=\"12:00:00\">\n             午〃十一―十二時\n            </time>\n<persName corresp=\"#pers_岡田\">\n<surname>\n              岡田\n             </surname>\n</persName>\n            文相ヲ御訪問（文部省）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2407\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1246/full/max/0/default.jpg\" n=\"B2407\" source=\"#pageB2407\"/>\n<time when=\"12:30:00\">\n             午後〇時半\n            </time>\n<persName corresp=\"#pers_水野\">\n<surname>\n              水野\n             </surname>\n</persName>\n            内務次官ヲ御訪問（内務省）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            実業之\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            社主催遣米小学校長送別会（築地精養軒）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-09"
 }

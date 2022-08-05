@@ -2,9 +2,6 @@
     "agential": [
         "内田嘉吉"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/内田嘉吉"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1281",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +17,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-11",
     "date_lvl2": "1918-11-03",
-    "description": "\n\n\n           三日\n          \n          （日）\n         \n\n\n\n\n             午前十時\n            \n\n             滝の川\n            \n            在住諸氏招待園遊会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              内田\n             \n\n              嘉吉\n             \n\n            氏ヨリ御案内（\n            \n             築地\n            \n\n             精養軒\n            \n            ）\n            \n            令夫人トモ\n           \n\n\n",
+    "description": "\n\n\n           三日\n          \n          （日）\n         \n\n\n\n\n             午前十時\n            \n            滝の川在住諸氏招待園遊会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              内田\n             \n\n              嘉吉\n             \n\n            氏ヨリ御案内（築地精養軒）\n            \n            令夫人トモ\n           \n\n\n",
     "label": "三日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0287",
@@ -29,14 +26,7 @@
     "sort": "DKB20020m-0286",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "滝野川",
-        "飛鳥山邸",
-        "築地"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/滝野川",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
+        "飛鳥山邸"
     ],
     "temporal": "1918-11-03",
     "texts": [
@@ -62,10 +52,10 @@
         "DKB20033m-0134"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_滝野川\">\n             滝の川\n            </placeName>\n            在住諸氏招待園遊会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n            滝の川在住諸氏招待園遊会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0286\">\n<head>\n<date when=\"1918-11-03\">\n           三日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<placeName corresp=\"#place_滝野川\">\n             滝の川\n            </placeName>\n            在住諸氏招待園遊会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_内田嘉吉\">\n<surname>\n              内田\n             </surname>\n<forename>\n              嘉吉\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n            <lb/>\n            令夫人トモ\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0286\">\n<head>\n<date when=\"1918-11-03\">\n           三日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n            滝の川在住諸氏招待園遊会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_内田嘉吉\">\n<surname>\n              内田\n             </surname>\n<forename>\n              嘉吉\n             </forename>\n</persName>\n            氏ヨリ御案内（築地精養軒）\n            <lb/>\n            令夫人トモ\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-11"
 }

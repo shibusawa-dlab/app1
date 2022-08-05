@@ -1,13 +1,7 @@
 {
     "agential": [
         "伊東米治郎",
-        "竹内徳太郎",
-        "ウィリアム_アキスリング"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/伊東米治郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/竹内徳太郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/ウィリアム_アキスリング"
+        "竹内徳太郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1389",
     "category": {
@@ -24,7 +18,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-04",
     "date_lvl2": "1922-04-28",
-    "description": "\n\n\n           廿八日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n\n\n              伊東\n             \n\n              米治郎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十一半時\n            \n            三金会ノ件（日本工業クラブ）\n           \n\n\n\n\n             午後四時\n            \n\n\n              竹内\n             \n\n              徳太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n            帰一協会例会（\n            \n\n              アキスリング\n             \n\n            氏出席）\n            \n            日本クラブ\n           \n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （金）\n         \n\n\n\n\n             午前十時\n            \n\n\n              伊東\n             \n\n              米治郎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十一半時\n            \n            三金会ノ件（日本工業クラブ）\n           \n\n\n\n\n             午後四時\n            \n\n\n              竹内\n             \n\n              徳太郎\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後五半時\n            \n            帰一協会例会（アキスリング氏出席）\n            \n            日本クラブ\n           \n\n\n",
     "label": "廿八日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0092",
@@ -33,12 +27,8 @@
     "sort": "DKB20024m-0091",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
+        "飛鳥山公園",
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1922-04-28",
     "texts": [
@@ -64,10 +54,10 @@
         "DKB20023m-0220"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_伊東米治郎\">\n<surname>\n              伊東\n             </surname>\n<forename>\n              米治郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_伊東米治郎\">\n<surname>\n              伊東\n             </surname>\n<forename>\n              米治郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0091\">\n<head>\n<date when=\"1922-04-28\">\n           廿八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_伊東米治郎\">\n<surname>\n              伊東\n             </surname>\n<forename>\n              米治郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            三金会ノ件（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_竹内徳太郎\">\n<surname>\n              竹内\n             </surname>\n<forename>\n              徳太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            帰一協会例会（\n            <persName corresp=\"#pers_ウィリアム_アキスリング\">\n<surname>\n              アキスリング\n             </surname>\n</persName>\n            氏出席）\n            <lb/>\n            日本クラブ\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0091\">\n<head>\n<date when=\"1922-04-28\">\n           廿八日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_伊東米治郎\">\n<surname>\n              伊東\n             </surname>\n<forename>\n              米治郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:30:00\">\n             午前十一半時\n            </time>\n            三金会ノ件（日本工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_竹内徳太郎\">\n<surname>\n              竹内\n             </surname>\n<forename>\n              徳太郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n            帰一協会例会（アキスリング氏出席）\n            <lb/>\n            日本クラブ\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-04"
 }

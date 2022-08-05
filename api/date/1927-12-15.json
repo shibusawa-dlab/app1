@@ -1,11 +1,8 @@
 {
     "agential": [
         "徳川",
-        "簗田〓次郎"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/簗田〓次郎"
+        "簗田",
+        "次郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1567",
     "category": {
@@ -22,7 +19,7 @@
     "date_lvl0": "1927",
     "date_lvl1": "1927-12",
     "date_lvl2": "1927-12-15",
-    "description": "\n\n\n           十五日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n\n              徳川\n             \n\n            家顧問会（同邸）\n           \n\n\n\n\n             午後二・一五\n            \n            御出勤\n           \n\n\n\n\n             午後四時\n            \n\n\n              簗田\n             \n\n              〓次郎\n             \n\n            氏来約（事務所）\n           \n\n\n",
+    "description": "\n\n\n           十五日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n\n              徳川\n             \n\n            家顧問会（同邸）\n           \n\n\n\n\n             午後二・一五\n            \n            御出勤\n           \n\n\n\n\n             午後四時\n            \n\n\n              簗田\n             \n\n            〓\n            \n\n              次郎\n             \n\n            氏来約（事務所）\n           \n\n\n",
     "label": "十五日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20029m-0325",
@@ -31,7 +28,6 @@
     "sort": "DKB20029m-0324",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [],
-    "spatial_uri": [],
     "temporal": "1927-12-15",
     "texts": [
         "DKB20031m-0108",
@@ -59,7 +55,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家顧問会（同邸）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0324\">\n<head>\n<date when=\"1927-12-15\">\n           十五日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家顧問会（同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:15:00\">\n             午後二・一五\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_簗田〓次郎\">\n<surname>\n              簗田\n             </surname>\n<forename>\n              〓次郎\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0324\">\n<head>\n<date when=\"1927-12-15\">\n           十五日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            家顧問会（同邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:15:00\">\n             午後二・一五\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_簗田\">\n<surname>\n              簗田\n             </surname>\n</persName>\n            〓\n            <persName corresp=\"#pers_次郎\">\n<forename>\n              次郎\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-12"
 }

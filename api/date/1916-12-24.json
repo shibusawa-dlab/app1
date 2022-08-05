@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1222",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +15,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-12",
     "date_lvl2": "1916-12-24",
-    "description": "\n\n\n           廿四日\n          \n          （日）\n         \n\n\n\n\n             午後七時五分\n            \n\n             湯ケ原\n            \n            ヨリ御帰京（\n            \n             東京\n            \n            停車場）\n           \n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （日）\n         \n\n\n\n\n             午後七時五分\n            \n            湯ケ原ヨリ御帰京（\n            \n             東京\n            \n            停車場）\n           \n\n\n",
     "label": "廿四日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0334",
@@ -25,12 +24,7 @@
     "sort": "DKB20018m-0333",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "湯河原町",
         "東京"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/湯河原町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1916-12-24",
     "texts": [
@@ -56,10 +50,10 @@
         "DKB20030m-0288"
     ],
     "time": {
-        "19:05:00": "<div><time when=\"19:05:00\">\n             午後七時五分\n            </time>\n<placeName corresp=\"#place_湯河原町\">\n             湯ケ原\n            </placeName>\n            ヨリ御帰京（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            停車場）</div>"
+        "19:05:00": "<div><time when=\"19:05:00\">\n             午後七時五分\n            </time>\n            湯ケ原ヨリ御帰京（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            停車場）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0333\">\n<head>\n<date when=\"1916-12-24\">\n           廿四日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"19:05:00\">\n             午後七時五分\n            </time>\n<placeName corresp=\"#place_湯河原町\">\n             湯ケ原\n            </placeName>\n            ヨリ御帰京（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            停車場）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0333\">\n<head>\n<date when=\"1916-12-24\">\n           廿四日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"19:05:00\">\n             午後七時五分\n            </time>\n            湯ケ原ヨリ御帰京（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            停車場）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-12"
 }

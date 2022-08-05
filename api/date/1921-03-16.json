@@ -1,6 +1,7 @@
 {
-    "agential": [],
-    "agential_uri": [],
+    "agential": [
+        "渋沢"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1356",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +17,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-03",
     "date_lvl2": "1921-03-16",
-    "description": "\n\n\n           十六日\n          \n          （水）\n         \n\n\n\n\n             午後二時\n            \n            維持員会（早大恩賜館）\n           \n\n\n\n\n             午後五時\n            \n\n             渋沢倉庫会社\n            \n            員招待会（帝劇）\n           \n\n\n",
+    "description": "\n\n\n           十六日\n          \n          （水）\n         \n\n\n\n\n             午後二時\n            \n            維持員会（早大恩賜館）\n           \n\n\n\n\n             午後五時\n            \n\n\n              渋沢\n             \n\n            倉庫会社員招待会（帝劇）\n           \n\n\n",
     "label": "十六日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0068",
@@ -25,7 +26,6 @@
     "sort": "DKB20023m-0067",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [],
-    "spatial_uri": [],
     "temporal": "1921-03-16",
     "texts": [
         "DKB20020m-0238",
@@ -53,7 +53,7 @@
         "14:00:00": "<div><time when=\"14:00:00\">\n             午後二時\n            </time>\n            維持員会（早大恩賜館）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0067\">\n<head>\n<date when=\"1921-03-16\">\n           十六日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            維持員会（早大恩賜館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<orgName>\n             渋沢倉庫会社\n            </orgName>\n            員招待会（帝劇）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0067\">\n<head>\n<date when=\"1921-03-16\">\n           十六日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            維持員会（早大恩賜館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            倉庫会社員招待会（帝劇）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-03"
 }

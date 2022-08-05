@@ -1,11 +1,7 @@
 {
     "agential": [
-        "黒板勝美",
+        "勝美",
         "佐竹作太郎"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/黒板勝美",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/佐竹作太郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1370",
     "category": {
@@ -22,7 +18,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-07",
     "date_lvl2": "1921-07-17",
-    "description": "\n\n\n           十七日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n\n\n              黒板\n             \n\n              勝美\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              佐竹\n             \n\n              作太郎\n             \n\n            氏追悼会（青松寺）\n           \n\n\n\n\n             引続\n            \n            日本工業クラブニテ午餐会\n           \n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n            黒板\n            \n\n              勝美\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前十時\n            \n\n\n              佐竹\n             \n\n              作太郎\n             \n\n            氏追悼会（青松寺）\n           \n\n\n\n\n             引続\n            \n            日本工業クラブニテ午餐会\n           \n\n\n",
     "label": "十七日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0192",
@@ -31,10 +27,7 @@
     "sort": "DKB20023m-0191",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山公園"
     ],
     "temporal": "1921-07-17",
     "texts": [
@@ -60,10 +53,10 @@
         "DKB20033m-0150"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_黒板勝美\">\n<surname>\n              黒板\n             </surname>\n<forename>\n              勝美\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            黒板\n            <persName corresp=\"#pers_勝美\">\n<forename>\n              勝美\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0191\">\n<head>\n<date when=\"1921-07-17\">\n           十七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_黒板勝美\">\n<surname>\n              黒板\n             </surname>\n<forename>\n              勝美\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_佐竹作太郎\">\n<surname>\n              佐竹\n             </surname>\n<forename>\n              作太郎\n             </forename>\n</persName>\n            氏追悼会（青松寺）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続\n            </time>\n            日本工業クラブニテ午餐会\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0191\">\n<head>\n<date when=\"1921-07-17\">\n           十七日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            黒板\n            <persName corresp=\"#pers_勝美\">\n<forename>\n              勝美\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_佐竹作太郎\">\n<surname>\n              佐竹\n             </surname>\n<forename>\n              作太郎\n             </forename>\n</persName>\n            氏追悼会（青松寺）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続\n            </time>\n            日本工業クラブニテ午餐会\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-07"
 }

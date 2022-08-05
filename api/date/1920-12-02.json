@@ -1,10 +1,5 @@
 {
-    "agential": [
-        "明石"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/明石"
-    ],
+    "agential": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1348",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +15,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-12",
     "date_lvl2": "1920-12-02",
-    "description": "\n\n\n           二日\n          \n          （木）\n         \n\n\n\n\n             午後一時三十五分\n            \n            御病気御静養の為め\n            \n             大磯\n            \n            ヘ御転地\n            \n\n              明石\n             \n\n            別邸ニ御滞留（\n            \n             東京\n            \n            駅）\n           \n\n\n",
+    "description": "\n\n\n           二日\n          \n          （木）\n         \n\n\n\n\n             午後一時三十五分\n            \n            御病気御静養の為め\n            \n             大磯\n            \n            ヘ御転地\n            \n             明石\n            \n            別邸ニ御滞留（\n            \n             東京\n            \n            駅）\n           \n\n\n",
     "label": "二日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0317",
@@ -30,11 +25,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "大磯町",
+        "明石",
         "東京"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/大磯町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1920-12-02",
     "texts": [
@@ -60,10 +52,10 @@
         "DKB20018m-0218"
     ],
     "time": {
-        "13:35:00": "<div><time when=\"13:35:00\">\n             午後一時三十五分\n            </time>\n            御病気御静養の為め\n            <placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            ヘ御転地\n            <persName corresp=\"#pers_明石\">\n<surname>\n              明石\n             </surname>\n</persName>\n            別邸ニ御滞留（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）</div>"
+        "13:35:00": "<div><time when=\"13:35:00\">\n             午後一時三十五分\n            </time>\n            御病気御静養の為め\n            <placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            ヘ御転地\n            <placeName corresp=\"#place_明石\">\n             明石\n            </placeName>\n            別邸ニ御滞留（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0315\">\n<head>\n<date when=\"1920-12-02\">\n           二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:35:00\">\n             午後一時三十五分\n            </time>\n            御病気御静養の為め\n            <placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            ヘ御転地\n            <persName corresp=\"#pers_明石\">\n<surname>\n              明石\n             </surname>\n</persName>\n            別邸ニ御滞留（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0315\">\n<head>\n<date when=\"1920-12-02\">\n           二日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:35:00\">\n             午後一時三十五分\n            </time>\n            御病気御静養の為め\n            <placeName corresp=\"#place_大磯町\">\n             大磯\n            </placeName>\n            ヘ御転地\n            <placeName corresp=\"#place_明石\">\n             明石\n            </placeName>\n            別邸ニ御滞留（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-12"
 }

@@ -1,6 +1,7 @@
 {
-    "agential": [],
-    "agential_uri": [],
+    "agential": [
+        "北条"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1247",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +17,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-09",
     "date_lvl2": "1917-09-23",
-    "description": "\n\n\n           廿三日\n          \n          （日）\n         \n\n\n\n\n             午前七、三〇\n            \n\n             両国\n            \n            駅発ニテ\n            \n             安房\n            \n            分院ヘ御出向\n           \n\n\n\n            御一泊（\n            \n             北条\n            \n            なる吉野庵）\n           \n\n\n",
+    "description": "\n\n\n           廿三日\n          \n          （日）\n         \n\n\n\n\n             午前七、三〇\n            \n            両国駅発ニテ\n            \n             安房\n            \n            分院ヘ御出向\n           \n\n\n\n            御一泊（\n            \n\n              北条\n             \n\n            なる\n            \n             吉野\n            \n            庵）\n           \n\n\n",
     "label": "廿三日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0253",
@@ -25,14 +26,8 @@
     "sort": "DKB20019m-0252",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "両国",
         "安房国",
-        "北条"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/両国",
-        "https://shibusawa-dlab.github.io/lab1/api/place/安房国",
-        "https://shibusawa-dlab.github.io/lab1/api/place/北条"
+        "吉野"
     ],
     "temporal": "1917-09-23",
     "texts": [
@@ -58,10 +53,10 @@
         "DKB20026m-0100"
     ],
     "time": {
-        "07:30:00": "<div><time when=\"07:30:00\">\n             午前七、三〇\n            </time>\n<placeName corresp=\"#place_両国\">\n             両国\n            </placeName>\n            駅発ニテ\n            <placeName corresp=\"#place_安房国\">\n             安房\n            </placeName>\n            分院ヘ御出向</div>"
+        "07:30:00": "<div><time when=\"07:30:00\">\n             午前七、三〇\n            </time>\n            両国駅発ニテ\n            <placeName corresp=\"#place_安房国\">\n             安房\n            </placeName>\n            分院ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0252\">\n<head>\n<date when=\"1917-09-23\">\n           廿三日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"07:30:00\">\n             午前七、三〇\n            </time>\n<placeName corresp=\"#place_両国\">\n             両国\n            </placeName>\n            駅発ニテ\n            <placeName corresp=\"#place_安房国\">\n             安房\n            </placeName>\n            分院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n            御一泊（\n            <placeName corresp=\"#place_北条\">\n             北条\n            </placeName>\n            なる吉野庵）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0252\">\n<head>\n<date when=\"1917-09-23\">\n           廿三日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"07:30:00\">\n             午前七、三〇\n            </time>\n            両国駅発ニテ\n            <placeName corresp=\"#place_安房国\">\n             安房\n            </placeName>\n            分院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n            御一泊（\n            <persName corresp=\"#pers_北条\">\n<surname>\n              北条\n             </surname>\n</persName>\n            なる\n            <placeName corresp=\"#place_吉野\">\n             吉野\n            </placeName>\n            庵）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-09"
 }

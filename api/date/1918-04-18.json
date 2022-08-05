@@ -1,13 +1,6 @@
 {
     "agential": [
-        "唐",
-        "湯化竜",
-        "林長民"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/唐",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/湯化竜",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/林長民"
+        "唐"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1265",
     "category": {
@@ -24,7 +17,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-04",
     "date_lvl2": "1918-04-18",
-    "description": "\n\n\n           十八日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n            明治神宮奉賛会常議員会（同会）\n           \n\n\n\n\n             午〇時半\n            \n            三井男ヨリ御案内（\n            \n             綱町\n            \n            別邸）（\n            \n\n              唐\n             \n\n            氏招待）\n           \n\n\n\n\n             午後五時\n            \n\n\n              湯\n             \n\n              化竜\n             \n\n            、\n            \n\n              林\n             \n\n              長民\n             \n\n            両氏招待会（ホテル）\n           \n\n\n",
+    "description": "\n\n\n           十八日\n          \n          （木）\n         \n\n\n\n\n             午前九時\n            \n            明治神宮奉賛会常議員会（同会）\n           \n\n\n\n\n             午〇時半\n            \n            三井男ヨリ御案内（\n            \n             綱町\n            \n            別邸）（\n            \n\n              唐\n             \n\n            氏招待）\n           \n\n\n\n\n             午後五時\n            \n            湯化竜、林長民両氏招待会（ホテル）\n           \n\n\n",
     "label": "十八日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0103",
@@ -34,9 +27,6 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "綱町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/綱町"
     ],
     "temporal": "1918-04-18",
     "texts": [
@@ -65,7 +55,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            明治神宮奉賛会常議員会（同会）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0102\">\n<head>\n<date when=\"1918-04-18\">\n           十八日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            明治神宮奉賛会常議員会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午〇時半\n            </time>\n            三井男ヨリ御案内（\n            <placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            別邸）（\n            <persName corresp=\"#pers_唐\">\n<surname>\n              唐\n             </surname>\n</persName>\n            氏招待）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_湯化竜\">\n<surname>\n              湯\n             </surname>\n<forename>\n              化竜\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_林長民\">\n<surname>\n              林\n             </surname>\n<forename>\n              長民\n             </forename>\n</persName>\n            両氏招待会（ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0102\">\n<head>\n<date when=\"1918-04-18\">\n           十八日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            明治神宮奉賛会常議員会（同会）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午〇時半\n            </time>\n            三井男ヨリ御案内（\n            <placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            別邸）（\n            <persName corresp=\"#pers_唐\">\n<surname>\n              唐\n             </surname>\n</persName>\n            氏招待）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            湯化竜、林長民両氏招待会（ホテル）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-04"
 }

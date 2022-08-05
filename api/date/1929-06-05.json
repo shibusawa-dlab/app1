@@ -1,11 +1,8 @@
 {
     "agential": [
         "星野錫",
-        "東伏見宮依仁親王"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/星野錫",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/東伏見宮依仁親王"
+        "東伏見宮",
+        "依仁"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1594",
     "category": {
@@ -32,9 +29,6 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "東京"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1929-06-05",
     "texts": [
@@ -63,7 +57,7 @@
         "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            御出勤</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0079\">\n<head>\n<date when=\"1929-06-05\">\n           五日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_星野錫\">\n<surname>\n              星野\n             </surname>\n<forename>\n              錫\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会総会（憲法記念館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:40:00\">\n             午後一・四〇\n            </time>\n<persName corresp=\"#pers_東伏見宮依仁親王\">\n<surname>\n              東伏見宮\n             </surname>\n</persName>\n            故\n            <persName corresp=\"#pers_東伏見宮依仁親王\">\n<forename>\n              依仁\n             </forename>\n</persName>\n            親王妃殿下台臨\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0079\">\n<head>\n<date when=\"1929-06-05\">\n           五日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            御出勤\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_星野錫\">\n<surname>\n              星野\n             </surname>\n<forename>\n              錫\n             </forename>\n</persName>\n            氏来約（事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            慈恵会総会（憲法記念館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:40:00\">\n             午後一・四〇\n            </time>\n<persName corresp=\"#pers_東伏見宮\">\n<surname>\n              東伏見宮\n             </surname>\n</persName>\n            故\n            <persName corresp=\"#pers_依仁\">\n<forename>\n              依仁\n             </forename>\n</persName>\n            親王妃殿下台臨\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-06"
 }

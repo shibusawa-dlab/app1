@@ -1,15 +1,9 @@
 {
     "agential": [
         "塩谷温",
-        "阿部宗高",
+        "阿部",
         "添田敬一郎",
         "徳川家達"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/塩谷温",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/阿部宗高",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/添田敬一郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川家達"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1623",
     "category": {
@@ -26,7 +20,7 @@
     "date_lvl0": "1931",
     "date_lvl1": "1931-04",
     "date_lvl2": "1931-04-30",
-    "description": "\n\n\n           三十日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n\n              塩谷\n             \n\n              温\n             \n\n            、\n            \n\n              阿部\n             \n\n              宗高\n             \n\n            二氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午〇半時\n            \n\n\n              添田\n             \n\n              敬一郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二半時\n            \n\n\n              徳川\n             \n\n              家達\n             \n\n            公爵ヲ御訪問（華族会館）\n           \n\n\n\n\n             午後三時\n            \n            事務所ニ御出勤\n           \n\n\n",
+    "description": "\n\n\n           三十日\n          \n          （木）\n         \n\n\n\n\n             午前十時\n            \n\n\n              塩谷\n             \n\n              温\n             \n\n            、\n            \n\n              阿部\n             \n\n            宗高二氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午〇半時\n            \n\n\n              添田\n             \n\n              敬一郎\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二半時\n            \n\n\n              徳川\n             \n\n              家達\n             \n\n            公爵ヲ御訪問（華族会館）\n           \n\n\n\n\n             午後三時\n            \n            事務所ニ御出勤\n           \n\n\n",
     "label": "三十日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20033m-0060",
@@ -36,9 +30,6 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1931-04-30",
     "texts": [
@@ -64,10 +55,10 @@
         "DKB20033m-0133"
     ],
     "time": {
-        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_塩谷温\">\n<surname>\n              塩谷\n             </surname>\n<forename>\n              温\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_阿部宗高\">\n<surname>\n              阿部\n             </surname>\n<forename>\n              宗高\n             </forename>\n</persName>\n            二氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
+        "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_塩谷温\">\n<surname>\n              塩谷\n             </surname>\n<forename>\n              温\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_阿部\">\n<surname>\n              阿部\n             </surname>\n</persName>\n            宗高二氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0059\">\n<head>\n<date when=\"1931-04-30\">\n           三十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_塩谷温\">\n<surname>\n              塩谷\n             </surname>\n<forename>\n              温\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_阿部宗高\">\n<surname>\n              阿部\n             </surname>\n<forename>\n              宗高\n             </forename>\n</persName>\n            二氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午〇半時\n            </time>\n<persName corresp=\"#pers_添田敬一郎\">\n<surname>\n              添田\n             </surname>\n<forename>\n              敬一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<persName corresp=\"#pers_徳川家達\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              家達\n             </forename>\n</persName>\n            公爵ヲ御訪問（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0059\">\n<head>\n<date when=\"1931-04-30\">\n           三十日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_塩谷温\">\n<surname>\n              塩谷\n             </surname>\n<forename>\n              温\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_阿部\">\n<surname>\n              阿部\n             </surname>\n</persName>\n            宗高二氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午〇半時\n            </time>\n<persName corresp=\"#pers_添田敬一郎\">\n<surname>\n              添田\n             </surname>\n<forename>\n              敬一郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<persName corresp=\"#pers_徳川家達\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              家達\n             </forename>\n</persName>\n            公爵ヲ御訪問（華族会館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1931",
     "yearAndMonth": "1931-04"
 }

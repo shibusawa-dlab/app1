@@ -1,10 +1,5 @@
 {
-    "agential": [
-        "大滝"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/大滝"
-    ],
+    "agential": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1497",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +15,7 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-12",
     "date_lvl2": "1925-12-02",
-    "description": "\n\n\n           二日\n          \n          （水）\n         \n\n\n\n\n             午後三時\n            \n\n\n              大滝\n             \n\n            博士来診（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           二日\n          \n          （水）\n         \n\n\n\n\n             午後三時\n            \n            大滝博士来診（\n            \n             アスカ山邸\n            \n            ）\n           \n\n\n",
     "label": "二日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20027m-0220",
@@ -29,10 +24,7 @@
     "sort": "DKB20027m-0219",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "アスカ山邸"
     ],
     "temporal": "1925-12-02",
     "texts": [
@@ -58,10 +50,10 @@
         "DKB20020m-0225"
     ],
     "time": {
-        "15:00:00": "<div><time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_大滝\">\n<surname>\n              大滝\n             </surname>\n</persName>\n            博士来診（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）</div>"
+        "15:00:00": "<div><time when=\"15:00:00\">\n             午後三時\n            </time>\n            大滝博士来診（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0219\">\n<head>\n<date when=\"1925-12-02\">\n           二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_大滝\">\n<surname>\n              大滝\n             </surname>\n</persName>\n            博士来診（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0219\">\n<head>\n<date when=\"1925-12-02\">\n           二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            大滝博士来診（\n            <placeName corresp=\"#place_アスカ山邸\">\n             アスカ山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-12"
 }

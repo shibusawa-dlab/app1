@@ -2,9 +2,6 @@
     "agential": [
         "徳川"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1335",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +17,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-06",
     "date_lvl2": "1920-06-04",
-    "description": "\n\n\n           四日\n          \n          （金）\n         \n\n\n\n            同\n           \n\n\n\n\n             午時\n            \n            第五回全国社会事業大会（九段偕行社）\n           \n\n\n\n\n             午後六時\n            \n\n\n              徳川\n             \n\n            公ヨリ御案内（\n            \n             第六天\n            \n            邸）\n           \n\n\n\n\n             午後六時\n            \n            同懇親会（\n            \n             上野\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           四日\n          \n          （金）\n         \n\n\n\n            同\n           \n\n\n\n\n             午時\n            \n            第五回全国社会事業大会（九段偕行社）\n           \n\n\n\n\n             午後六時\n            \n\n\n              徳川\n             \n\n            公ヨリ御案内（\n            \n             第六天\n            \n            邸）\n           \n\n\n\n\n             午後六時\n            \n            同懇親会（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n",
     "label": "四日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0155",
@@ -29,12 +26,8 @@
     "sort": "DKB20022m-0154",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "第六天町",
-        "上野"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/第六天町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
+        "第六天",
+        "上野精養軒"
     ],
     "temporal": "1920-06-04",
     "texts": [
@@ -61,7 +54,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0154\">\n<head>\n<date when=\"1920-06-04\">\n           四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n            同\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            第五回全国社会事業大会（九段偕行社）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公ヨリ御案内（\n            <placeName corresp=\"#place_第六天町\">\n             第六天\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            同懇親会（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0154\">\n<head>\n<date when=\"1920-06-04\">\n           四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n            同\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            第五回全国社会事業大会（九段偕行社）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_徳川\">\n<surname>\n              徳川\n             </surname>\n</persName>\n            公ヨリ御案内（\n            <placeName corresp=\"#place_第六天\">\n             第六天\n            </placeName>\n            邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n            同懇親会（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-06"
 }

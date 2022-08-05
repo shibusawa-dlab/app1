@@ -2,12 +2,8 @@
     "agential": [
         "徳川慶光",
         "大倉喜七郎",
-        "馬越恭平"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川慶光",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/大倉喜七郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/馬越恭平"
+        "馬越恭平",
+        "渋沢"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1614",
     "category": {
@@ -24,7 +20,7 @@
     "date_lvl0": "1930",
     "date_lvl1": "1930-07",
     "date_lvl2": "1930-07-16",
-    "description": "\n\n\n           十六日\n          \n          （水）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              徳川\n             \n\n              慶光\n             \n\n            公爵来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              大倉\n             \n\n              喜七郎\n             \n\n            、\n            \n\n              馬越\n             \n\n              恭平\n             \n\n            二氏ト御会見（渋沢事務所）\n           \n\n\n",
+    "description": "\n\n\n           十六日\n          \n          （水）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              徳川\n             \n\n              慶光\n             \n\n            公爵来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              大倉\n             \n\n              喜七郎\n             \n\n            、\n            \n\n              馬越\n             \n\n              恭平\n             \n\n            二氏ト御会見（\n            \n\n              渋沢\n             \n\n            事務所）\n           \n\n\n",
     "label": "十六日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20032m-0111",
@@ -33,10 +29,7 @@
     "sort": "DKB20032m-0110",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山公園"
     ],
     "temporal": "1930-07-16",
     "texts": [
@@ -62,10 +55,10 @@
         "DKB20033m-0036"
     ],
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_徳川慶光\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶光\n             </forename>\n</persName>\n            公爵来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_徳川慶光\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶光\n             </forename>\n</persName>\n            公爵来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0110\">\n<head>\n<date when=\"1930-07-16\">\n           十六日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_徳川慶光\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶光\n             </forename>\n</persName>\n            公爵来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_大倉喜七郎\">\n<surname>\n              大倉\n             </surname>\n<forename>\n              喜七郎\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_馬越恭平\">\n<surname>\n              馬越\n             </surname>\n<forename>\n              恭平\n             </forename>\n</persName>\n            二氏ト御会見（渋沢事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20032m-0110\">\n<head>\n<date when=\"1930-07-16\">\n           十六日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_徳川慶光\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶光\n             </forename>\n</persName>\n            公爵来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_大倉喜七郎\">\n<surname>\n              大倉\n             </surname>\n<forename>\n              喜七郎\n             </forename>\n</persName>\n            、\n            <persName corresp=\"#pers_馬越恭平\">\n<surname>\n              馬越\n             </surname>\n<forename>\n              恭平\n             </forename>\n</persName>\n            二氏ト御会見（\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            事務所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1930",
     "yearAndMonth": "1930-07"
 }

@@ -1,6 +1,7 @@
 {
-    "agential": [],
-    "agential_uri": [],
+    "agential": [
+        "渋沢"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1357",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +17,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-03",
     "date_lvl2": "1921-03-28",
-    "description": "\n\n\n           廿八日\n          \n          （月）\n         \n\n\n\n\n             午後一時\n            \n            帝国飛行協会経済委員会（渋沢事務所）\n           \n\n\n\n\n             午後三時\n            \n            協調会評・財員会（\n            \n             築地\n            \n\n             精養軒\n            \n            ）\n           \n\n\n\n\n             引続\n            \n            晩餐会（同所）\n           \n\n\n",
+    "description": "\n\n\n           廿八日\n          \n          （月）\n         \n\n\n\n\n             午後一時\n            \n            帝国飛行協会経済委員会（\n            \n\n              渋沢\n             \n\n            事務所）\n           \n\n\n\n\n             午後三時\n            \n            協調会評・財員会（築地精養軒）\n           \n\n\n\n\n             引続\n            \n            晩餐会（同所）\n           \n\n\n",
     "label": "廿八日                    （月）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0080",
@@ -24,12 +25,7 @@
     "prev": "DKB20023m-0078",
     "sort": "DKB20023m-0079",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [
-        "築地"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
-    ],
+    "spatial": [],
     "temporal": "1921-03-28",
     "texts": [
         "DKB20027m-0155",
@@ -54,10 +50,10 @@
         "DKB20033m-0038"
     ],
     "time": {
-        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n            帝国飛行協会経済委員会（渋沢事務所）</div>"
+        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n            帝国飛行協会経済委員会（\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            事務所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0079\">\n<head>\n<date when=\"1921-03-28\">\n           廿八日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            帝国飛行協会経済委員会（渋沢事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            協調会評・財員会（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続\n            </time>\n            晩餐会（同所）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0079\">\n<head>\n<date when=\"1921-03-28\">\n           廿八日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            帝国飛行協会経済委員会（\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            協調会評・財員会（築地精養軒）\n           </p>\n</event>\n<event>\n<p>\n<time>\n             引続\n            </time>\n            晩餐会（同所）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-03"
 }

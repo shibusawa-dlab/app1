@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1359",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +15,7 @@
     "date_lvl0": "1921",
     "date_lvl1": "1921-04",
     "date_lvl2": "1921-04-14",
-    "description": "\n\n\n           十四日\n          \n          （木）\n         \n\n\n\n\n             午時\n            \n            午前叡福寺ニ於ケル聖徳太子遠忌会ニ出席\n           \n\n\n\n\n             午後四・二十一分\n            \n\n             古市\n            \n            駅発\n           \n\n\n\n\n             午後七・三〇分\n            \n\n             京都\n            \n            駅着\n           \n\n\n\n\n             京都\n            \n\n             泊\n            \n            （玉川楼）\n           \n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （木）\n         \n\n\n\n\n             午時\n            \n            午前叡福寺ニ於ケル聖徳太子遠忌会ニ出席\n           \n\n\n\n\n             午後四・二十一分\n            \n\n             古市\n            \n            駅発\n           \n\n\n\n\n             午後七・三〇分\n            \n\n             京都\n            \n            駅着\n           \n\n\n\n\n             京都\n            \n\n             泊\n            \n            （\n            \n             玉川\n            \n            楼）\n           \n\n\n",
     "label": "十四日                    （木）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20023m-0097",
@@ -27,12 +26,8 @@
     "spatial": [
         "古市",
         "京都",
-        "泊"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/古市",
-        "https://shibusawa-dlab.github.io/lab1/api/place/京都",
-        "https://shibusawa-dlab.github.io/lab1/api/place/泊"
+        "泊",
+        "玉川"
     ],
     "temporal": "1921-04-14",
     "texts": [
@@ -61,7 +56,7 @@
         "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n            午前叡福寺ニ於ケル聖徳太子遠忌会ニ出席</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0096\">\n<head>\n<date when=\"1921-04-14\">\n           十四日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            午前叡福寺ニ於ケル聖徳太子遠忌会ニ出席\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:21:00\">\n             午後四・二十一分\n            </time>\n<placeName corresp=\"#place_古市\">\n             古市\n            </placeName>\n            駅発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:30:00\">\n             午後七・三〇分\n            </time>\n<placeName corresp=\"#place_京都\">\n             京都\n            </placeName>\n            駅着\n           </p>\n</event>\n<event>\n<p>\n<placeName corresp=\"#place_京都\">\n             京都\n            </placeName>\n<placeName corresp=\"#place_泊\">\n             泊\n            </placeName>\n            （玉川楼）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20023m-0096\">\n<head>\n<date when=\"1921-04-14\">\n           十四日\n          </date>\n          （木）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            午前叡福寺ニ於ケル聖徳太子遠忌会ニ出席\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:21:00\">\n             午後四・二十一分\n            </time>\n<placeName corresp=\"#place_古市\">\n             古市\n            </placeName>\n            駅発\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:30:00\">\n             午後七・三〇分\n            </time>\n<placeName corresp=\"#place_京都\">\n             京都\n            </placeName>\n            駅着\n           </p>\n</event>\n<event>\n<p>\n<placeName corresp=\"#place_京都\">\n             京都\n            </placeName>\n<placeName corresp=\"#place_泊\">\n             泊\n            </placeName>\n            （\n            <placeName corresp=\"#place_玉川\">\n             玉川\n            </placeName>\n            楼）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1921",
     "yearAndMonth": "1921-04"
 }

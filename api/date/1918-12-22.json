@@ -3,10 +3,6 @@
         "森村",
         "近藤"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/森村",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/近藤"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1286",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -22,7 +18,7 @@
     "date_lvl0": "1918",
     "date_lvl1": "1918-12",
     "date_lvl2": "1918-12-22",
-    "description": "\n\n\n           廿二日\n          \n          （日）\n         \n\n\n\n\n             午十時―十二時\n            \n\n\n              森村\n             \n\n            男爵御訪問ノ約\n           \n\n\n\n\n             午後四時\n            \n\n             埼玉学生誘掖会\n            \n            舎友会懇親会（\n            \n             四ツ谷見附\n            \n            三河屋）\n           \n\n\n\n\n             午後五時\n            \n\n\n              近藤\n             \n\n            男爵送別会（トキワヤ）\n           \n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （日）\n         \n\n\n\n\n             午十時―十二時\n            \n\n\n              森村\n             \n\n            男爵御訪問ノ約\n           \n\n\n\n\n             午後四時\n            \n\n             埼玉\n            \n            学生誘掖会舎友会懇親会（\n            \n             四ツ谷\n            \n\n             見附\n            \n\n             三河\n            \n            屋）\n           \n\n\n\n\n             午後五時\n            \n\n\n              近藤\n             \n\n            男爵送別会（トキワヤ）\n           \n\n\n",
     "label": "廿二日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20020m-0336",
@@ -31,10 +27,10 @@
     "sort": "DKB20020m-0335",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "四谷見附"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/四谷見附"
+        "埼玉",
+        "四谷_(曖昧さ回避)",
+        "見付",
+        "三河国"
     ],
     "temporal": "1918-12-22",
     "texts": [
@@ -61,7 +57,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0335\">\n<head>\n<date when=\"1918-12-22\">\n           廿二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"12:00:00\">\n             午十時―十二時\n            </time>\n<persName corresp=\"#pers_森村\">\n<surname>\n              森村\n             </surname>\n</persName>\n            男爵御訪問ノ約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<orgName>\n             埼玉学生誘掖会\n            </orgName>\n            舎友会懇親会（\n            <placeName corresp=\"#place_四谷見附\">\n             四ツ谷見附\n            </placeName>\n            三河屋）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_近藤\">\n<surname>\n              近藤\n             </surname>\n</persName>\n            男爵送別会（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20020m-0335\">\n<head>\n<date when=\"1918-12-22\">\n           廿二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time from=\"10:00:00\" to=\"12:00:00\">\n             午十時―十二時\n            </time>\n<persName corresp=\"#pers_森村\">\n<surname>\n              森村\n             </surname>\n</persName>\n            男爵御訪問ノ約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会舎友会懇親会（\n            <placeName corresp=\"#place_四谷_(曖昧さ回避)\">\n             四ツ谷\n            </placeName>\n<placeName corresp=\"#place_見付\">\n             見附\n            </placeName>\n<placeName corresp=\"#place_三河国\">\n             三河\n            </placeName>\n            屋）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_近藤\">\n<surname>\n              近藤\n             </surname>\n</persName>\n            男爵送別会（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1918",
     "yearAndMonth": "1918-12"
 }

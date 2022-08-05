@@ -2,9 +2,6 @@
     "agential": [
         "周金箴"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/周金箴"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1333",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -29,12 +26,8 @@
     "sort": "DKB20022m-0120",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
+        "飛鳥山公園",
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1920-05-02",
     "texts": [
@@ -61,7 +54,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0120\">\n<head>\n<date when=\"1920-05-02\">\n           二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n            御引籠\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_周金箴\">\n<surname>\n              周\n             </surname>\n<forename>\n              金箴\n             </forename>\n</persName>\n            氏一行招待会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            同族会社重役会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0120\">\n<head>\n<date when=\"1920-05-02\">\n           二日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n            御引籠\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_周金箴\">\n<surname>\n              周\n             </surname>\n<forename>\n              金箴\n             </forename>\n</persName>\n            氏一行招待会（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            同族会社重役会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n            御同族会（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-05"
 }

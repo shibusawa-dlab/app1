@@ -1,11 +1,6 @@
 {
     "agential": [
-        "黄興",
         "山下亀三郎"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/黄興",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/山下亀三郎"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1219",
     "category": {
@@ -22,7 +17,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-11",
     "date_lvl2": "1916-11-17",
-    "description": "\n\n\n           十七日\n          \n          （金）\n         \n\n\n\n\n             午後一時\n            \n\n\n              黄\n             \n\n              興\n             \n\n            氏弔祭会（\n            \n             芝\n            \n\n             愛宕\n            \n            青松寺）\n           \n\n\n\n\n             午後五時\n            \n\n\n              山下\n             \n\n              亀三郎\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n",
+    "description": "\n\n\n           十七日\n          \n          （金）\n         \n\n\n\n\n             午後一時\n            \n            黄興氏弔祭会（\n            \n             芝\n            \n\n             愛宕\n            \n            青松寺）\n           \n\n\n\n\n             午後五時\n            \n\n\n              山下\n             \n\n              亀三郎\n             \n\n            氏ヨリ御案内（トキワヤ）\n           \n\n\n",
     "label": "十七日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0304",
@@ -32,11 +27,7 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "芝",
-        "愛宕山_(東京都港区)"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/芝",
-        "https://shibusawa-dlab.github.io/lab1/api/place/愛宕山_(東京都港区)"
+        "愛宕"
     ],
     "temporal": "1916-11-17",
     "texts": [
@@ -62,10 +53,10 @@
         "DKB20019m-0165"
     ],
     "time": {
-        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_黄興\">\n<surname>\n              黄\n             </surname>\n<forename>\n              興\n             </forename>\n</persName>\n            氏弔祭会（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n<placeName corresp=\"#place_愛宕山_(東京都港区)\">\n             愛宕\n            </placeName>\n            青松寺）</div>"
+        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n            黄興氏弔祭会（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n<placeName corresp=\"#place_愛宕\">\n             愛宕\n            </placeName>\n            青松寺）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0303\">\n<head>\n<date when=\"1916-11-17\">\n           十七日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<persName corresp=\"#pers_黄興\">\n<surname>\n              黄\n             </surname>\n<forename>\n              興\n             </forename>\n</persName>\n            氏弔祭会（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n<placeName corresp=\"#place_愛宕山_(東京都港区)\">\n             愛宕\n            </placeName>\n            青松寺）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_山下亀三郎\">\n<surname>\n              山下\n             </surname>\n<forename>\n              亀三郎\n             </forename>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0303\">\n<head>\n<date when=\"1916-11-17\">\n           十七日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            黄興氏弔祭会（\n            <placeName corresp=\"#place_芝\">\n             芝\n            </placeName>\n<placeName corresp=\"#place_愛宕\">\n             愛宕\n            </placeName>\n            青松寺）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_山下亀三郎\">\n<surname>\n              山下\n             </surname>\n<forename>\n              亀三郎\n             </forename>\n</persName>\n            氏ヨリ御案内（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-11"
 }

@@ -1,10 +1,5 @@
 {
-    "agential": [
-        "昌谷彰"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/昌谷彰"
-    ],
+    "agential": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1230",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +15,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-03",
     "date_lvl2": "1917-03-04",
-    "description": "\n\n\n           四日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n\n             山崎\n            \n            博士来約（\n            \n             飛鳥山邸\n            \n            ）\n            \n            （国家学会三十年記念号ノ件）\n           \n\n\n\n\n             午後一時\n            \n\n             日本郵船会社\n            \n            ノ件（商業会ギ所）\n           \n\n\n\n\n             午後五時\n            \n\n             樺太\n            \n            長官\n            \n\n              昌谷\n             \n\n              彰\n             \n\n            氏招待会（トキワヤ）\n           \n\n\n",
+    "description": "\n\n\n           四日\n          \n          （日）\n         \n\n\n\n\n             午前九時\n            \n\n             山崎\n            \n            博士来約（\n            \n             飛鳥山邸\n            \n            ）\n            \n            （国家学会三十年記念号ノ件）\n           \n\n\n\n\n             午後一時\n            \n\n             日本\n            \n            郵船会社ノ件（商業会ギ所）\n           \n\n\n\n\n             午後五時\n            \n\n             樺太\n            \n            長官昌谷彰氏招待会（トキワヤ）\n           \n\n\n",
     "label": "四日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0065",
@@ -31,12 +26,8 @@
     "spatial": [
         "山崎",
         "飛鳥山邸",
+        "日本",
         "樺太"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/山崎",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/樺太"
     ],
     "temporal": "1917-03-04",
     "texts": [
@@ -65,7 +56,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_山崎\">\n             山崎\n            </placeName>\n            博士来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n            <lb/>\n            （国家学会三十年記念号ノ件）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0064\">\n<head>\n<date when=\"1917-03-04\">\n           四日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_山崎\">\n             山崎\n            </placeName>\n            博士来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n            <lb/>\n            （国家学会三十年記念号ノ件）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             日本郵船会社\n            </orgName>\n            ノ件（商業会ギ所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_樺太\">\n             樺太\n            </placeName>\n            長官\n            <persName corresp=\"#pers_昌谷彰\">\n<surname>\n              昌谷\n             </surname>\n<forename>\n              彰\n             </forename>\n</persName>\n            氏招待会（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0064\">\n<head>\n<date when=\"1917-03-04\">\n           四日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_山崎\">\n             山崎\n            </placeName>\n            博士来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n            <lb/>\n            （国家学会三十年記念号ノ件）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            郵船会社ノ件（商業会ギ所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_樺太\">\n             樺太\n            </placeName>\n            長官昌谷彰氏招待会（トキワヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-03"
 }

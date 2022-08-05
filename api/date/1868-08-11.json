@@ -2,9 +2,6 @@
     "agential": [
         "三輪端蔵"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/三輪端蔵"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/30",
     "category": {
         "lvl0": "DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
@@ -29,14 +26,9 @@
     "sort": "DKB10001m-0011",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
-        "トゥール_(アンドル＝エ＝ロワール県)",
+        "Tours",
         "パリ",
         "ガアルデヲレヤン"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/トゥール_(アンドル＝エ＝ロワール県)",
-        "https://shibusawa-dlab.github.io/lab1/api/place/パリ",
-        "https://shibusawa-dlab.github.io/lab1/api/place/ガアルデヲレヤン"
     ],
     "temporal": "1868-08-11",
     "texts": [
@@ -64,13 +56,13 @@
     "time": {
         "06:30:00": "<div>朝<time when=\"06:30:00\">\n        六時半\n       </time>\n       客舎御発し、第</div>",
         "07:00:00": "<div><time when=\"07:00:00\">\n        七時\n       </time>\n       発軔之汽車御乗組、第</div>",
-        "11:00:00": "<div><time when=\"11:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_トゥール_(アンドル＝エ＝ロワール県)\">\n        Tours\n       </placeName>\n       着午餐、</div>",
+        "11:00:00": "<div><time when=\"11:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_Tours\">\n        Tours\n       </placeName>\n       着午餐、</div>",
         "14:05:00": "<div><time when=\"14:05:00\">\n        二時五分\n       </time>\n       Orl〓ans第</div>",
         "16:30:00": "<div><time when=\"16:30:00\">\n        四時三十分\n       </time>\n<placeName corresp=\"#place_パリ\">\n        巴里\n       </placeName>\n<placeName corresp=\"#place_ガアルデヲレヤン\">\n        ガアルデヲレヤン\n       </placeName>\n       御着、\n       <persName corresp=\"#pers_三輪端蔵\">\n<surname>\n         三輪\n        </surname>\n<forename>\n         端蔵\n        </forename>\n</persName>\n       、小遣召連馬車《を備》ニ而御出迎□□《（為スカ）》、直様馬車御乗組、第</div>",
         "17:30:00": "<div><time when=\"17:30:00\">\n        五時三十分\n       </time>\n       御帰館</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10001m-0011\">\n<head>\n<date when=\"1868-08-11\">\n        八月十一日\n       </date>\n       曇\n       <date type=\"旧暦\" when=\"1868-08-11\">\n        六月廿三日\n       </date>\n       火\n      </head>\n<p>\n       朝\n       <time when=\"06:30:00\">\n        六時半\n       </time>\n       客舎御発し、第\n       <time when=\"07:00:00\">\n        七時\n       </time>\n       発軔之汽車御乗組、第\n       <time when=\"11:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_トゥール_(アンドル＝エ＝ロワール県)\">\n        Tours\n       </placeName>\n       着午餐、\n       <time when=\"14:05:00\">\n        二時五分\n       </time>\n       Orl〓ans第\n       <time when=\"16:30:00\">\n        四時三十分\n       </time>\n<placeName corresp=\"#place_パリ\">\n        巴里\n       </placeName>\n<placeName corresp=\"#place_ガアルデヲレヤン\">\n        ガアルデヲレヤン\n       </placeName>\n       御着、\n       <persName corresp=\"#pers_三輪端蔵\">\n<surname>\n         三輪\n        </surname>\n<forename>\n         端蔵\n        </forename>\n</persName>\n       、小遣召連馬車《を備》ニ而御出迎□□《（為スカ）》、直様馬車御乗組、第\n       <time when=\"17:30:00\">\n        五時三十分\n       </time>\n       御帰館\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10001m-0011\">\n<head>\n<date when=\"1868-08-11\">\n        八月十一日\n       </date>\n       曇\n       <date type=\"旧暦\" when=\"1868-08-11\">\n        六月廿三日\n       </date>\n       火\n      </head>\n<p>\n       朝\n       <time when=\"06:30:00\">\n        六時半\n       </time>\n       客舎御発し、第\n       <time when=\"07:00:00\">\n        七時\n       </time>\n       発軔之汽車御乗組、第\n       <time when=\"11:00:00\">\n        十一時\n       </time>\n<placeName corresp=\"#place_Tours\">\n        Tours\n       </placeName>\n       着午餐、\n       <time when=\"14:05:00\">\n        二時五分\n       </time>\n       Orl〓ans第\n       <time when=\"16:30:00\">\n        四時三十分\n       </time>\n<placeName corresp=\"#place_パリ\">\n        巴里\n       </placeName>\n<placeName corresp=\"#place_ガアルデヲレヤン\">\n        ガアルデヲレヤン\n       </placeName>\n       御着、\n       <persName corresp=\"#pers_三輪端蔵\">\n<surname>\n         三輪\n        </surname>\n<forename>\n         端蔵\n        </forename>\n</persName>\n       、小遣召連馬車《を備》ニ而御出迎□□《（為スカ）》、直様馬車御乗組、第\n       <time when=\"17:30:00\">\n        五時三十分\n       </time>\n       御帰館\n      </p>\n</div>",
     "year": "1868",
     "yearAndMonth": "1868-08"
 }

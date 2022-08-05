@@ -1,6 +1,7 @@
 {
-    "agential": [],
-    "agential_uri": [],
+    "agential": [
+        "渋沢"
+    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1533",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +17,7 @@
     "date_lvl0": "1926",
     "date_lvl1": "1926-12",
     "date_lvl2": "1926-12-14",
-    "description": "\n\n\n           十四日\n          \n          （火）\n         \n\n\n\n\n             正午\n            \n            ジヨイナー氏歓迎午餐会（渋沢事務所）\n           \n\n\n\n\n             午後五半時\n            \n\n             吉野\n            \n            神宮奉讚会ノ件（\n            \n             丸の内\n            \n            中央亭）\n           \n\n\n",
+    "description": "\n\n\n           十四日\n          \n          （火）\n         \n\n\n\n\n             正午\n            \n            ジヨイナー氏歓迎午餐会（\n            \n\n              渋沢\n             \n\n            事務所）\n           \n\n\n\n\n             午後五半時\n            \n\n             吉野\n            \n            神宮奉讚会ノ件（\n            \n             丸の内\n            \n            中央亭）\n           \n\n\n",
     "label": "十四日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20028m-0330",
@@ -27,10 +28,6 @@
     "spatial": [
         "吉野",
         "丸の内"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/吉野",
-        "https://shibusawa-dlab.github.io/lab1/api/place/丸の内"
     ],
     "temporal": "1926-12-14",
     "texts": [
@@ -56,10 +53,10 @@
         "DKB20024m-0278"
     ],
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            ジヨイナー氏歓迎午餐会（渋沢事務所）</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            ジヨイナー氏歓迎午餐会（\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            事務所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0328\">\n<head>\n<date when=\"1926-12-14\">\n           十四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            ジヨイナー氏歓迎午餐会（渋沢事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<placeName corresp=\"#place_吉野\">\n             吉野\n            </placeName>\n            神宮奉讚会ノ件（\n            <placeName corresp=\"#place_丸の内\">\n             丸の内\n            </placeName>\n            中央亭）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20028m-0328\">\n<head>\n<date when=\"1926-12-14\">\n           十四日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            ジヨイナー氏歓迎午餐会（\n            <persName corresp=\"#pers_渋沢\">\n<surname>\n              渋沢\n             </surname>\n</persName>\n            事務所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<placeName corresp=\"#place_吉野\">\n             吉野\n            </placeName>\n            神宮奉讚会ノ件（\n            <placeName corresp=\"#place_丸の内\">\n             丸の内\n            </placeName>\n            中央亭）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1926",
     "yearAndMonth": "1926-12"
 }

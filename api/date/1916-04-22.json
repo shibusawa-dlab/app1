@@ -1,15 +1,7 @@
 {
     "agential": [
-        "デーリング",
-        "頭本",
         "堀越",
         "阪谷"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/デーリング",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/頭本",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/堀越",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/阪谷"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1201",
     "category": {
@@ -26,7 +18,7 @@
     "date_lvl0": "1916",
     "date_lvl1": "1916-04",
     "date_lvl2": "1916-04-22",
-    "description": "\n\n\n           廿二日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n            農商務省ヘ御出向\n           \n\n\n\n\n             午前十一時\n            \n            女子大学校講演会（同校）\n           \n\n\n\n\n             午後三時\n            \n\n             横浜\n            \n\n\n              デーリング\n             \n\n            氏来ル約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n\n\n              頭本\n             \n\n            、\n            \n\n              堀越\n             \n\n            両氏来ル約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時半\n            \n\n\n              阪谷\n             \n\n            男爵送別会（瓢屋）\n           \n\n\n\n\n             午後五時\n            \n\n             埼玉学生誘掖会\n            \n            晩餐会茶話会（同会）\n           \n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （土）\n         \n\n\n\n\n             午前九時\n            \n            農商務省ヘ御出向\n           \n\n\n\n\n             午前十一時\n            \n            女子大学校講演会（同校）\n           \n\n\n\n\n             午後三時\n            \n\n             横浜\n            \n            デーリング氏来ル約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時\n            \n            頭本、\n            \n\n              堀越\n             \n\n            両氏来ル約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四時半\n            \n\n\n              阪谷\n             \n\n            男爵送別会（瓢屋）\n           \n\n\n\n\n             午後五時\n            \n\n             埼玉\n            \n            学生誘掖会晩餐会茶話会（同会）\n           \n\n\n",
     "label": "廿二日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20018m-0095",
@@ -36,11 +28,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "横浜",
-        "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/横浜",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
+        "日本橋兜町",
+        "埼玉"
     ],
     "temporal": "1916-04-22",
     "texts": [
@@ -69,7 +58,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            農商務省ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0094\">\n<head>\n<date when=\"1916-04-22\">\n           廿二日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            農商務省ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            女子大学校講演会（同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n<persName corresp=\"#pers_デーリング\">\n<surname>\n              デーリング\n             </surname>\n</persName>\n            氏来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n<persName corresp=\"#pers_頭本\">\n<surname>\n              頭本\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_堀越\">\n<surname>\n              堀越\n             </surname>\n</persName>\n            両氏来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四時半\n            </time>\n<persName corresp=\"#pers_阪谷\">\n<surname>\n              阪谷\n             </surname>\n</persName>\n            男爵送別会（瓢屋）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<orgName>\n             埼玉学生誘掖会\n            </orgName>\n            晩餐会茶話会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20018m-0094\">\n<head>\n<date when=\"1916-04-22\">\n           廿二日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            農商務省ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            女子大学校講演会（同校）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_横浜\">\n             横浜\n            </placeName>\n            デーリング氏来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:00:00\">\n             午後四時\n            </time>\n            頭本、\n            <persName corresp=\"#pers_堀越\">\n<surname>\n              堀越\n             </surname>\n</persName>\n            両氏来ル約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四時半\n            </time>\n<persName corresp=\"#pers_阪谷\">\n<surname>\n              阪谷\n             </surname>\n</persName>\n            男爵送別会（瓢屋）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<placeName corresp=\"#place_埼玉\">\n             埼玉\n            </placeName>\n            学生誘掖会晩餐会茶話会（同会）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1916",
     "yearAndMonth": "1916-04"
 }

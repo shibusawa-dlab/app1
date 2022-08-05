@@ -1,6 +1,5 @@
 {
     "agential": [],
-    "agential_uri": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1621",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -16,7 +15,7 @@
     "date_lvl0": "1931",
     "date_lvl1": "1931-03",
     "date_lvl2": "1931-03-04",
-    "description": "\n\n\n           四日\n          \n          （水）\n         \n\n\n\n\n             正午\n            \n            帝国劇場興行記念午餐会　東京会館\n           \n\n\n\n\n             午後二半時\n            \n            事務所ニ御出勤\n           \n\n\n",
+    "description": "\n\n\n           四日\n          \n          （水）\n         \n\n\n\n\n             正午\n            \n            帝国劇場興行記念午餐会\n            \n             東京\n            \n            会館\n           \n\n\n\n\n             午後二半時\n            \n            事務所ニ御出勤\n           \n\n\n",
     "label": "四日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20033m-0025",
@@ -24,8 +23,9 @@
     "prev": "DKB20033m-0022",
     "sort": "DKB20033m-0023",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
-    "spatial_uri": [],
+    "spatial": [
+        "東京"
+    ],
     "temporal": "1931-03-04",
     "texts": [
         "DKB20029m-0026",
@@ -50,10 +50,10 @@
         "DKB20032m-0102"
     ],
     "time": {
-        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            帝国劇場興行記念午餐会　東京会館</div>"
+        "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n            帝国劇場興行記念午餐会\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            会館</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0023\">\n<head>\n<date when=\"1931-03-04\">\n           四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            帝国劇場興行記念午餐会　東京会館\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0023\">\n<head>\n<date when=\"1931-03-04\">\n           四日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            帝国劇場興行記念午餐会\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            会館\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n            事務所ニ御出勤\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1931",
     "yearAndMonth": "1931-03"
 }

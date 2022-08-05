@@ -1,11 +1,6 @@
 {
     "agential": [
-        "松井",
         "勝間田"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/松井",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/勝間田"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/98",
     "category": {
@@ -22,7 +17,7 @@
     "date_lvl0": "1899",
     "date_lvl1": "1899-01",
     "date_lvl2": "1899-01-26",
-    "description": "\n\n\n        一月廿六日\n       \n\n\n       晴、午前二三ノ来客ニ接シ、\n       \n        十二時\n       \n       過\n       \n        東京市\n       \n       ニ於テ養育院\n       \n        三十二年\n       \n       度ノ予算ヲ議決ス、\n       \n        午後二時\n       \n\n        紺屋町\n       \n       地学協会ニ於テ函館船渠会社株主総会ニ列シ、\n       \n        午後三時\n       \n       銀行ニ於テ重役会ヲ開キ要件数項ヲ議決ス、新潟県債引受ノ事ヲ決シテ\n       \n\n         松井\n        \n\n       支店長ニ示シ并テ\n       \n\n         勝間田\n        \n\n       知事ニ書状ヲ托ス\n      \n",
+    "description": "\n\n\n        一月廿六日\n       \n\n\n       晴、午前二三ノ来客ニ接シ、\n       \n        十二時\n       \n       過\n       \n        東京市\n       \n       ニ於テ養育院\n       \n        三十二年\n       \n       度ノ予算ヲ議決ス、\n       \n        午後二時\n       \n       紺屋町地学協会ニ於テ函館船渠会社株主総会ニ列シ、\n       \n        午後三時\n       \n       銀行ニ於テ重役会ヲ開キ要件数項ヲ議決ス、新潟県債引受ノ事ヲ決シテ松井支店長ニ示シ并テ\n       \n\n         勝間田\n        \n\n       知事ニ書状ヲ托ス\n      \n",
     "label": "一月廿六日",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/manifest",
     "next": "DKB10008m-0027",
@@ -31,12 +26,7 @@
     "sort": "DKB10008m-0026",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB01.xml",
     "spatial": [
-        "東京市",
-        "紺屋町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京市",
-        "https://shibusawa-dlab.github.io/lab1/api/place/紺屋町"
+        "東京市"
     ],
     "temporal": "1899-01-26",
     "texts": [
@@ -63,11 +53,11 @@
     ],
     "time": {
         "12:00:00": "<div>晴、午前二三ノ来客ニ接シ、<time when=\"12:00:00\">\n        十二時\n       </time>\n       過\n       <placeName corresp=\"#place_東京市\">\n        東京市\n       </placeName>\n       ニ於テ養育院\n       <date evidence=\"year inferenced\" when=\"1899\">\n        三十二年\n       </date>\n       度ノ予算ヲ議決ス、</div>",
-        "14:00:00": "<div><time when=\"14:00:00\">\n        午後二時\n       </time>\n<placeName corresp=\"#place_紺屋町\">\n        紺屋町\n       </placeName>\n       地学協会ニ於テ函館船渠会社株主総会ニ列シ、</div>",
-        "15:00:00": "<div><time when=\"15:00:00\">\n        午後三時\n       </time>\n       銀行ニ於テ重役会ヲ開キ要件数項ヲ議決ス、新潟県債引受ノ事ヲ決シテ\n       <persName corresp=\"#pers_松井\">\n<surname>\n         松井\n        </surname>\n</persName>\n       支店長ニ示シ并テ\n       <persName corresp=\"#pers_勝間田\">\n<surname>\n         勝間田\n        </surname>\n</persName>\n       知事ニ書状ヲ托ス</div>"
+        "14:00:00": "<div><time when=\"14:00:00\">\n        午後二時\n       </time>\n       紺屋町地学協会ニ於テ函館船渠会社株主総会ニ列シ、</div>",
+        "15:00:00": "<div><time when=\"15:00:00\">\n        午後三時\n       </time>\n       銀行ニ於テ重役会ヲ開キ要件数項ヲ議決ス、新潟県債引受ノ事ヲ決シテ松井支店長ニ示シ并テ\n       <persName corresp=\"#pers_勝間田\">\n<surname>\n         勝間田\n        </surname>\n</persName>\n       知事ニ書状ヲ托ス</div>"
     },
     "type": "diary-entry",
-    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-0026\">\n<head>\n<date when=\"1899-01-26\">\n        一月廿六日\n       </date>\n</head>\n<p>\n       晴、午前二三ノ来客ニ接シ、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n       過\n       <placeName corresp=\"#place_東京市\">\n        東京市\n       </placeName>\n       ニ於テ養育院\n       <date evidence=\"year inferenced\" when=\"1899\">\n        三十二年\n       </date>\n       度ノ予算ヲ議決ス、\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n<placeName corresp=\"#place_紺屋町\">\n        紺屋町\n       </placeName>\n       地学協会ニ於テ函館船渠会社株主総会ニ列シ、\n       <time when=\"15:00:00\">\n        午後三時\n       </time>\n       銀行ニ於テ重役会ヲ開キ要件数項ヲ議決ス、新潟県債引受ノ事ヲ決シテ\n       <persName corresp=\"#pers_松井\">\n<surname>\n         松井\n        </surname>\n</persName>\n       支店長ニ示シ并テ\n       <persName corresp=\"#pers_勝間田\">\n<surname>\n         勝間田\n        </surname>\n</persName>\n       知事ニ書状ヲ托ス\n      </p>\n</div>",
+    "xml": "<div type=\"diary-entry\" xml:id=\"DKB10008m-0026\">\n<head>\n<date when=\"1899-01-26\">\n        一月廿六日\n       </date>\n</head>\n<p>\n       晴、午前二三ノ来客ニ接シ、\n       <time when=\"12:00:00\">\n        十二時\n       </time>\n       過\n       <placeName corresp=\"#place_東京市\">\n        東京市\n       </placeName>\n       ニ於テ養育院\n       <date evidence=\"year inferenced\" when=\"1899\">\n        三十二年\n       </date>\n       度ノ予算ヲ議決ス、\n       <time when=\"14:00:00\">\n        午後二時\n       </time>\n       紺屋町地学協会ニ於テ函館船渠会社株主総会ニ列シ、\n       <time when=\"15:00:00\">\n        午後三時\n       </time>\n       銀行ニ於テ重役会ヲ開キ要件数項ヲ議決ス、新潟県債引受ノ事ヲ決シテ松井支店長ニ示シ并テ\n       <persName corresp=\"#pers_勝間田\">\n<surname>\n         勝間田\n        </surname>\n</persName>\n       知事ニ書状ヲ托ス\n      </p>\n</div>",
     "year": "1899",
     "yearAndMonth": "1899-01"
 }

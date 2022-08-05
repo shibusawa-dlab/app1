@@ -1,15 +1,8 @@
 {
     "agential": [
         "副島",
-        "斎藤三三",
-        "ジヨルダン",
+        "斎藤",
         "脇田勇"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/副島",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/斎藤三三",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/ジヨルダン",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/脇田勇"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1409",
     "category": {
@@ -26,7 +19,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-11",
     "date_lvl2": "1922-11-01",
-    "description": "\n\n\n           一日\n          \n          （水）\n         \n\n\n\n\n             午前十一時\n            \n            日印協会\n            \n\n              副島\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n\n              斎藤\n             \n\n              三三\n             \n\n            氏来約（右同）\n           \n\n\n\n\n             正午\n            \n\n             日本女子大学\n            \n            ヘ御出向、\n            \n\n              ジヨルダン\n             \n\n            博士ヲ御紹介\n           \n\n\n\n\n             午後三時\n            \n\n\n              脇田\n             \n\n              勇\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四半時\n            \n            清水組ヨリ御案内（東京会館）\n           \n\n\n",
+    "description": "\n\n\n           一日\n          \n          （水）\n         \n\n\n\n\n             午前十一時\n            \n            日印協会\n            \n\n              副島\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n\n              斎藤\n             \n\n            三三氏来約（右同）\n           \n\n\n\n\n             正午\n            \n\n             日本\n            \n            女子大学ヘ御出向、ジヨルダン博士ヲ御紹介\n           \n\n\n\n\n             午後三時\n            \n\n\n              脇田\n             \n\n              勇\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n\n\n             午後四半時\n            \n            清水組ヨリ御案内（東京会館）\n           \n\n\n",
     "label": "一日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0270",
@@ -35,10 +28,8 @@
     "sort": "DKB20024m-0269",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
+        "日本橋兜町",
+        "日本"
     ],
     "temporal": "1922-11-01",
     "texts": [
@@ -67,7 +58,7 @@
         "11:00:00": "<div><time when=\"11:00:00\">\n             午前十一時\n            </time>\n            日印協会\n            <persName corresp=\"#pers_副島\">\n<surname>\n              副島\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0269\">\n<head>\n<date when=\"1922-11-01\">\n           一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            日印協会\n            <persName corresp=\"#pers_副島\">\n<surname>\n              副島\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<persName corresp=\"#pers_斎藤三三\">\n<surname>\n              斎藤\n             </surname>\n<forename>\n              三三\n             </forename>\n</persName>\n            氏来約（右同）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<orgName>\n             日本女子大学\n            </orgName>\n            ヘ御出向、\n            <persName corresp=\"#pers_ジヨルダン\">\n<surname>\n              ジヨルダン\n             </surname>\n</persName>\n            博士ヲ御紹介\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_脇田勇\">\n<surname>\n              脇田\n             </surname>\n<forename>\n              勇\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            清水組ヨリ御案内（東京会館）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0269\">\n<head>\n<date when=\"1922-11-01\">\n           一日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            日印協会\n            <persName corresp=\"#pers_副島\">\n<surname>\n              副島\n             </surname>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<persName corresp=\"#pers_斎藤\">\n<surname>\n              斎藤\n             </surname>\n</persName>\n            三三氏来約（右同）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            女子大学ヘ御出向、ジヨルダン博士ヲ御紹介\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_脇田勇\">\n<surname>\n              脇田\n             </surname>\n<forename>\n              勇\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            清水組ヨリ御案内（東京会館）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-11"
 }

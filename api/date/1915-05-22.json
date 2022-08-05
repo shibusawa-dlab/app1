@@ -1,11 +1,6 @@
 {
     "agential": [
-        "柳生一義",
-        "菊池"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/柳生一義",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/菊池"
+        "柳生一義"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1184",
     "category": {
@@ -22,7 +17,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-05",
     "date_lvl2": "1915-05-22",
-    "description": "\n\n\n           廿二日\n          \n          （土）\n         \n\n\n\n\n             正午\n            \n\n\n              柳生\n             \n\n              一義\n             \n\n            氏ヨリ御案内（ホテル）\n           \n\n\n\n\n             午後三時\n            \n\n\n              菊池\n             \n\n            男功績記念会（植物園）\n           \n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （土）\n         \n\n\n\n\n             正午\n            \n\n\n              柳生\n             \n\n              一義\n             \n\n            氏ヨリ御案内（ホテル）\n           \n\n\n\n\n             午後三時\n            \n\n             菊池\n            \n            男功績記念会（植物園）\n           \n\n\n",
     "label": "廿二日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0133",
@@ -30,8 +25,9 @@
     "prev": "DKB20017m-0131",
     "sort": "DKB20017m-0132",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
-    "spatial": [],
-    "spatial_uri": [],
+    "spatial": [
+        "菊池"
+    ],
     "temporal": "1915-05-22",
     "texts": [
         "DKB20020m-0250",
@@ -59,7 +55,7 @@
         "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_柳生一義\">\n<surname>\n              柳生\n             </surname>\n<forename>\n              一義\n             </forename>\n</persName>\n            氏ヨリ御案内（ホテル）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0132\">\n<head>\n<date when=\"1915-05-22\">\n           廿二日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_柳生一義\">\n<surname>\n              柳生\n             </surname>\n<forename>\n              一義\n             </forename>\n</persName>\n            氏ヨリ御案内（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_菊池\">\n<surname>\n              菊池\n             </surname>\n</persName>\n            男功績記念会（植物園）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0132\">\n<head>\n<date when=\"1915-05-22\">\n           廿二日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_柳生一義\">\n<surname>\n              柳生\n             </surname>\n<forename>\n              一義\n             </forename>\n</persName>\n            氏ヨリ御案内（ホテル）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<placeName corresp=\"#place_菊池\">\n             菊池\n            </placeName>\n            男功績記念会（植物園）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-05"
 }

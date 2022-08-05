@@ -1,10 +1,5 @@
 {
-    "agential": [
-        "山川端夫"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/山川端夫"
-    ],
+    "agential": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1599",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +15,7 @@
     "date_lvl0": "1929",
     "date_lvl1": "1929-08",
     "date_lvl2": "1929-08-06",
-    "description": "\n\n\n           六日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n\n             東京\n            \n            夕刊新聞記者団来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n\n\n              山川\n             \n\n              端夫\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           六日\n          \n          （火）\n         \n\n\n\n\n             午前九時\n            \n\n             東京\n            \n            夕刊新聞記者団来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n             午後二時\n            \n            山川端夫氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n",
     "label": "六日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20031m-0142",
@@ -30,11 +25,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "東京",
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "飛鳥山邸",
+        "飛鳥山公園"
     ],
     "temporal": "1929-08-06",
     "texts": [
@@ -63,7 +55,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            夕刊新聞記者団来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0141\">\n<head>\n<date when=\"1929-08-06\">\n           六日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            夕刊新聞記者団来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_山川端夫\">\n<surname>\n              山川\n             </surname>\n<forename>\n              端夫\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20031m-0141\">\n<head>\n<date when=\"1929-08-06\">\n           六日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            夕刊新聞記者団来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            山川端夫氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1929",
     "yearAndMonth": "1929-08"
 }

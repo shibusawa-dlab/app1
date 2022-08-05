@@ -1,13 +1,7 @@
 {
     "agential": [
-        "ハリス",
         "田中",
         "高根義人"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/ハリス",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/田中",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/高根義人"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1289",
     "category": {
@@ -24,7 +18,7 @@
     "date_lvl0": "1919",
     "date_lvl1": "1919-01",
     "date_lvl2": "1919-01-22",
-    "description": "\n\n\n           廿二日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n\n\n              ハリス\n             \n\n            氏出発（\n            \n             東京\n            \n            駅発汽車）\n           \n\n\n\n\n\n             正午\n            \n            日本クラブ午餐会、林男爵、\n            \n\n              田中\n             \n\n            都吉氏招待（日本クラブ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              高根\n             \n\n              義人\n             \n\n            氏ヨリ御案内（\n            \n             築地\n            \n            ヒサゴヤ）\n           \n\n\n",
+    "description": "\n\n\n           廿二日\n          \n          （水）\n         \n\n\n\n\n             午前九時\n            \n            ハリス氏出発（\n            \n             東京\n            \n            駅発汽車）\n           \n\n\n\n\n\n             正午\n            \n            日本クラブ午餐会、林男爵、\n            \n\n              田中\n             \n\n            都吉氏招待（日本クラブ）\n           \n\n\n\n\n             午後五時\n            \n\n\n              高根\n             \n\n              義人\n             \n\n            氏ヨリ御案内（築地ヒサゴヤ）\n           \n\n\n",
     "label": "廿二日                    （水）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20021m-0023",
@@ -33,12 +27,7 @@
     "sort": "DKB20021m-0022",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "東京",
-        "築地"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
-        "https://shibusawa-dlab.github.io/lab1/api/place/築地"
+        "東京"
     ],
     "temporal": "1919-01-22",
     "texts": [
@@ -64,10 +53,10 @@
         "DKB20018m-0249"
     ],
     "time": {
-        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_ハリス\">\n<surname>\n              ハリス\n             </surname>\n</persName>\n            氏出発（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発汽車）</div>"
+        "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            ハリス氏出発（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発汽車）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0022\">\n<head>\n<date when=\"1919-01-22\">\n           廿二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n<persName corresp=\"#pers_ハリス\">\n<surname>\n              ハリス\n             </surname>\n</persName>\n            氏出発（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発汽車）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2450\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1289/full/max/0/default.jpg\" n=\"B2450\" source=\"#pageB2450\"/>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日本クラブ午餐会、林男爵、\n            <persName corresp=\"#pers_田中\">\n<surname>\n              田中\n             </surname>\n</persName>\n            都吉氏招待（日本クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_高根義人\">\n<surname>\n              高根\n             </surname>\n<forename>\n              義人\n             </forename>\n</persName>\n            氏ヨリ御案内（\n            <placeName corresp=\"#place_築地\">\n             築地\n            </placeName>\n            ヒサゴヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0022\">\n<head>\n<date when=\"1919-01-22\">\n           廿二日\n          </date>\n          （水）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            ハリス氏出発（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            駅発汽車）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2450\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1289/full/max/0/default.jpg\" n=\"B2450\" source=\"#pageB2450\"/>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            日本クラブ午餐会、林男爵、\n            <persName corresp=\"#pers_田中\">\n<surname>\n              田中\n             </surname>\n</persName>\n            都吉氏招待（日本クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_高根義人\">\n<surname>\n              高根\n             </surname>\n<forename>\n              義人\n             </forename>\n</persName>\n            氏ヨリ御案内（築地ヒサゴヤ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-01"
 }

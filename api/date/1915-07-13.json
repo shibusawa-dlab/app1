@@ -1,13 +1,6 @@
 {
     "agential": [
-        "久米良作",
-        "サアガル",
-        "河野"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/久米良作",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/サアガル",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/河野"
+        "久米良作"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1187",
     "category": {
@@ -24,7 +17,7 @@
     "date_lvl0": "1915",
     "date_lvl1": "1915-07",
     "date_lvl2": "1915-07-13",
-    "description": "\n\n\n           十三日\n          \n          （火）\n         \n\n\n\n\n             午後一時\n            \n\n             東洋汽船\n            \n            ノ件（商業会議所）\n           \n\n\n\n\n             午後弐時\n            \n\n\n              久米\n             \n\n              良作\n             \n\n            氏ト御会見（商業会議所）\n           \n\n\n\n\n             午後三時\n            \n            印度人\n            \n\n              サアガル\n             \n\n            氏ト《（衍）》\n            \n             兜町\n            \n            邸ニ来約\n           \n\n\n\n\n\n             午後六時\n            \n\n\n              河野\n             \n\n            農相ヨリ御案内（同官邸）\n           \n\n\n",
+    "description": "\n\n\n           十三日\n          \n          （火）\n         \n\n\n\n\n             午後一時\n            \n            東洋汽船ノ件（商業会議所）\n           \n\n\n\n\n             午後弐時\n            \n\n\n              久米\n             \n\n              良作\n             \n\n            氏ト御会見（商業会議所）\n           \n\n\n\n\n             午後三時\n            \n            印度人サアガル氏ト《（衍）》\n            \n             兜町\n            \n            邸ニ来約\n           \n\n\n\n\n\n             午後六時\n            \n\n             河野\n            \n            農相ヨリ御案内（同官邸）\n           \n\n\n",
     "label": "十三日                    （火）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20017m-0185",
@@ -33,10 +26,8 @@
     "sort": "DKB20017m-0184",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
+        "日本橋兜町",
+        "河野"
     ],
     "temporal": "1915-07-13",
     "texts": [
@@ -62,10 +53,10 @@
         "DKB20019m-0263"
     ],
     "time": {
-        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             東洋汽船\n            </orgName>\n            ノ件（商業会議所）</div>"
+        "13:00:00": "<div><time when=\"13:00:00\">\n             午後一時\n            </time>\n            東洋汽船ノ件（商業会議所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0184\">\n<head>\n<date when=\"1915-07-13\">\n           十三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<orgName>\n             東洋汽船\n            </orgName>\n            ノ件（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後弐時\n            </time>\n<persName corresp=\"#pers_久米良作\">\n<surname>\n              久米\n             </surname>\n<forename>\n              良作\n             </forename>\n</persName>\n            氏ト御会見（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            印度人\n            <persName corresp=\"#pers_サアガル\">\n<surname>\n              サアガル\n             </surname>\n</persName>\n            氏ト《（衍）》\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            邸ニ来約\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2348\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1187/full/max/0/default.jpg\" n=\"B2348\" source=\"#pageB2348\"/>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<persName corresp=\"#pers_河野\">\n<surname>\n              河野\n             </surname>\n</persName>\n            農相ヨリ御案内（同官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20017m-0184\">\n<head>\n<date when=\"1915-07-13\">\n           十三日\n          </date>\n          （火）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            東洋汽船ノ件（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後弐時\n            </time>\n<persName corresp=\"#pers_久米良作\">\n<surname>\n              久米\n             </surname>\n<forename>\n              良作\n             </forename>\n</persName>\n            氏ト御会見（商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n            印度人サアガル氏ト《（衍）》\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            邸ニ来約\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2348\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1187/full/max/0/default.jpg\" n=\"B2348\" source=\"#pageB2348\"/>\n<time when=\"18:00:00\">\n             午後六時\n            </time>\n<placeName corresp=\"#place_河野\">\n             河野\n            </placeName>\n            農相ヨリ御案内（同官邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1915",
     "yearAndMonth": "1915-07"
 }

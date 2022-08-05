@@ -1,10 +1,5 @@
 {
-    "agential": [
-        "加納一米"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/加納一米"
-    ],
+    "agential": [],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1486",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -20,7 +15,7 @@
     "date_lvl0": "1925",
     "date_lvl1": "1925-02",
     "date_lvl2": "1925-02-01",
-    "description": "\n\n\n           一日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n\n\n              加納\n             \n\n              一米\n             \n\n            来約\n            \n             アスカ山\n            \n            邸（府知事紹介）\n           \n\n\n",
+    "description": "\n\n\n           一日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n\n             加納\n            \n            一米来約\n            \n             アスカ山\n            \n            邸（府知事紹介）\n           \n\n\n",
     "label": "一日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20027m-0018",
@@ -29,10 +24,8 @@
     "sort": "DKB20027m-0017",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
+        "加納",
+        "アスカ山"
     ],
     "temporal": "1925-02-01",
     "texts": [
@@ -58,10 +51,10 @@
         "DKB20029m-0217"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_加納一米\">\n<surname>\n              加納\n             </surname>\n<forename>\n              一米\n             </forename>\n</persName>\n            来約\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            邸（府知事紹介）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_加納\">\n             加納\n            </placeName>\n            一米来約\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            邸（府知事紹介）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0017\">\n<head>\n<date when=\"1925-02-01\">\n           一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_加納一米\">\n<surname>\n              加納\n             </surname>\n<forename>\n              一米\n             </forename>\n</persName>\n            来約\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            邸（府知事紹介）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20027m-0017\">\n<head>\n<date when=\"1925-02-01\">\n           一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<placeName corresp=\"#place_加納\">\n             加納\n            </placeName>\n            一米来約\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            邸（府知事紹介）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1925",
     "yearAndMonth": "1925-02"
 }

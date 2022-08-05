@@ -1,11 +1,6 @@
 {
     "agential": [
-        "コン",
-        "岡實"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/コン",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/岡實"
+        "コン"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1339",
     "category": {
@@ -22,7 +17,7 @@
     "date_lvl0": "1920",
     "date_lvl1": "1920-08",
     "date_lvl2": "1920-08-06",
-    "description": "\n\n\n           六日\n          \n          （金）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              コン\n             \n\n            氏\n            \n             飛鳥山邸\n            \n            ヘ来約\n           \n\n\n\n\n             午後二時\n            \n\n\n              岡\n             \n\n              実\n             \n\n            氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           六日\n          \n          （金）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              コン\n             \n\n            氏\n            \n             飛鳥山\n            \n            邸ヘ来約\n           \n\n\n\n\n             午後二時\n            \n            岡実氏来約（\n            \n             兜町\n            \n            ）\n           \n\n\n",
     "label": "六日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20022m-0209",
@@ -31,12 +26,8 @@
     "sort": "DKB20022m-0208",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
+        "飛鳥山公園",
         "日本橋兜町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町"
     ],
     "temporal": "1920-08-06",
     "texts": [
@@ -62,10 +53,10 @@
         "DKB20028m-0122"
     ],
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_コン\">\n<surname>\n              コン\n             </surname>\n</persName>\n            氏\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ヘ来約</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_コン\">\n<surname>\n              コン\n             </surname>\n</persName>\n            氏\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸ヘ来約</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0208\">\n<head>\n<date when=\"1920-08-06\">\n           六日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_コン\">\n<surname>\n              コン\n             </surname>\n</persName>\n            氏\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ヘ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n<persName corresp=\"#pers_岡實\">\n<surname>\n              岡\n             </surname>\n<forename>\n              実\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20022m-0208\">\n<head>\n<date when=\"1920-08-06\">\n           六日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_コン\">\n<surname>\n              コン\n             </surname>\n</persName>\n            氏\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            邸ヘ来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            岡実氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1920",
     "yearAndMonth": "1920-08"
 }

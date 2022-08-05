@@ -1,11 +1,7 @@
 {
     "agential": [
-        "平沼",
+        "三本木",
         "水野"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/平沼",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/水野"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1573",
     "category": {
@@ -22,7 +18,7 @@
     "date_lvl0": "1928",
     "date_lvl1": "1928-03",
     "date_lvl2": "1928-03-04",
-    "description": "\n\n\n           四日\n          \n          （日）\n         \n\n\n\n\n             午前九半時\n            \n\n\n              平沼\n             \n\n            男爵来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              三本木\n             \n\n\n\n              水野\n             \n\n            氏来訪（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n\n             正午\n            \n            寛永寺ヘ御出向\n           \n\n\n\n\n             午後一時\n            \n\n             水戸\n            \n            志士遺墨展覧会　青山会館\n           \n\n\n",
+    "description": "\n\n\n           四日\n          \n          （日）\n         \n\n\n\n\n             午前九半時\n            \n\n             平沼\n            \n            男爵来約（\n            \n             アスカ山\n            \n            ）\n           \n\n\n\n\n             午前十一時\n            \n\n\n              三本木\n             \n\n\n\n              水野\n             \n\n            氏来訪（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n\n             正午\n            \n            寛永寺ヘ御出向\n           \n\n\n\n\n             午後一時\n            \n\n             水戸\n            \n            志士遺墨展覧会　青山会館\n           \n\n\n",
     "label": "四日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20030m-0066",
@@ -31,14 +27,10 @@
     "sort": "DKB20030m-0065",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
-        "三本木",
+        "平沼",
+        "アスカ山",
+        "飛鳥山公園",
         "水戸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/三本木",
-        "https://shibusawa-dlab.github.io/lab1/api/place/水戸"
     ],
     "temporal": "1928-03-04",
     "texts": [
@@ -64,10 +56,10 @@
         "DKB20031m-0156"
     ],
     "time": {
-        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_平沼\">\n<surname>\n              平沼\n             </surname>\n</persName>\n            男爵来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）</div>"
+        "09:30:00": "<div><time when=\"09:30:00\">\n             午前九半時\n            </time>\n<placeName corresp=\"#place_平沼\">\n             平沼\n            </placeName>\n            男爵来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0065\">\n<head>\n<date when=\"1928-03-04\">\n           四日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_平沼\">\n<surname>\n              平沼\n             </surname>\n</persName>\n            男爵来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<placeName corresp=\"#place_三本木\">\n<surname>\n              三本木\n             </surname>\n</placeName>\n<persName corresp=\"#pers_水野\">\n<surname>\n              水野\n             </surname>\n</persName>\n            氏来訪（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2734\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1573/full/max/0/default.jpg\" n=\"B2734\" source=\"#pageB2734\"/>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            寛永寺ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_水戸\">\n             水戸\n            </placeName>\n            志士遺墨展覧会　青山会館\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0065\">\n<head>\n<date when=\"1928-03-04\">\n           四日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<placeName corresp=\"#place_平沼\">\n             平沼\n            </placeName>\n            男爵来約（\n            <placeName corresp=\"#place_アスカ山\">\n             アスカ山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n<persName corresp=\"#pers_三本木\">\n<surname>\n              三本木\n             </surname>\n</persName>\n<persName corresp=\"#pers_水野\">\n<surname>\n              水野\n             </surname>\n</persName>\n            氏来訪（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2734\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1573/full/max/0/default.jpg\" n=\"B2734\" source=\"#pageB2734\"/>\n<time when=\"12:00:00\">\n             正午\n            </time>\n            寛永寺ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n<placeName corresp=\"#place_水戸\">\n             水戸\n            </placeName>\n            志士遺墨展覧会　青山会館\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-03"
 }

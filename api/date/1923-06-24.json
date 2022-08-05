@@ -1,15 +1,8 @@
 {
     "agential": [
-        "赤松",
         "戸村",
         "田中栄八郎",
         "徳川慶光"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/赤松",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/戸村",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/田中栄八郎",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/徳川慶光"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1433",
     "category": {
@@ -26,7 +19,7 @@
     "date_lvl0": "1923",
     "date_lvl1": "1923-06",
     "date_lvl2": "1923-06-24",
-    "description": "\n\n\n           廿四日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n\n\n              赤松\n             \n\n            、\n            \n\n              戸村\n             \n\n            両氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n\n              田中\n             \n\n              栄八郎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後一半―四時\n            \n\n\n              徳川\n             \n\n              慶光\n             \n\n            公ヨリ御案内（同公邸）\n           \n\n\n\n\n             午後四半時\n            \n            フランク・クレーン博士招待会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           廿四日\n          \n          （日）\n         \n\n\n\n\n             午前八時\n            \n            赤松、\n            \n\n              戸村\n             \n\n            両氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午前九半時\n            \n\n\n              田中\n             \n\n              栄八郎\n             \n\n            氏来約（\n            \n             飛鳥山\n            \n            ）\n           \n\n\n\n\n             午後一半―四時\n            \n\n\n              徳川\n             \n\n              慶光\n             \n\n            公ヨリ御案内（同公邸）\n           \n\n\n\n\n             午後四半時\n            \n            フランク・クレーン博士招待会（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n",
     "label": "廿四日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20025m-0171",
@@ -35,10 +28,8 @@
     "sort": "DKB20025m-0170",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "飛鳥山公園",
         "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1923-06-24",
     "texts": [
@@ -64,10 +55,10 @@
         "DKB20032m-0164"
     ],
     "time": {
-        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_赤松\">\n<surname>\n              赤松\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_戸村\">\n<surname>\n              戸村\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "08:00:00": "<div><time when=\"08:00:00\">\n             午前八時\n            </time>\n            赤松、\n            <persName corresp=\"#pers_戸村\">\n<surname>\n              戸村\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0170\">\n<head>\n<date when=\"1923-06-24\">\n           廿四日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n<persName corresp=\"#pers_赤松\">\n<surname>\n              赤松\n             </surname>\n</persName>\n            、\n            <persName corresp=\"#pers_戸村\">\n<surname>\n              戸村\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_田中栄八郎\">\n<surname>\n              田中\n             </surname>\n<forename>\n              栄八郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:30:00\" to=\"16:00:00\">\n             午後一半―四時\n            </time>\n<persName corresp=\"#pers_徳川慶光\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶光\n             </forename>\n</persName>\n            公ヨリ御案内（同公邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            フランク・クレーン博士招待会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20025m-0170\">\n<head>\n<date when=\"1923-06-24\">\n           廿四日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:00:00\">\n             午前八時\n            </time>\n            赤松、\n            <persName corresp=\"#pers_戸村\">\n<surname>\n              戸村\n             </surname>\n</persName>\n            両氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_田中栄八郎\">\n<surname>\n              田中\n             </surname>\n<forename>\n              栄八郎\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"13:30:00\" to=\"16:00:00\">\n             午後一半―四時\n            </time>\n<persName corresp=\"#pers_徳川慶光\">\n<surname>\n              徳川\n             </surname>\n<forename>\n              慶光\n             </forename>\n</persName>\n            公ヨリ御案内（同公邸）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"16:30:00\">\n             午後四半時\n            </time>\n            フランク・クレーン博士招待会（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1923",
     "yearAndMonth": "1923-06"
 }

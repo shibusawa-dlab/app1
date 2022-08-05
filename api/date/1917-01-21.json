@@ -1,9 +1,7 @@
 {
     "agential": [
-        "若槻禮次郎"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/若槻禮次郎"
+        "若槻禮次郎",
+        "町憲"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1225",
     "category": {
@@ -20,7 +18,7 @@
     "date_lvl0": "1917",
     "date_lvl1": "1917-01",
     "date_lvl2": "1917-01-21",
-    "description": "\n\n\n           廿一日\n          \n          （日）\n         \n\n\n\n\n             午前中\n            \n\n\n              若槻\n             \n\n              礼次郎\n             \n\n            氏ヲ御訪問（\n            \n             桜田\n            \n\n             本郷\n            \n            町憲\n            \n            政会本部）\n           \n\n\n\n\n             午後一時\n            \n            大日本書道会ヘ御出席（帝国ホテル劇場）\n           \n\n\n",
+    "description": "\n\n\n           廿一日\n          \n          （日）\n         \n\n\n\n\n             午前中\n            \n\n\n              若槻\n             \n\n              礼次郎\n             \n\n            氏ヲ御訪問（\n            \n             桜田\n            \n\n             本郷\n            \n\n\n              町\n             \n\n              憲\n             \n\n\n            政会本部）\n           \n\n\n\n\n             午後一時\n            \n            大\n            \n             日本\n            \n            書道会ヘ御出席（帝国ホテル劇場）\n           \n\n\n",
     "label": "廿一日                    （日）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20019m-0022",
@@ -30,11 +28,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "桜田",
-        "本郷"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/桜田",
-        "https://shibusawa-dlab.github.io/lab1/api/place/本郷"
+        "本郷",
+        "日本"
     ],
     "temporal": "1917-01-21",
     "texts": [
@@ -61,7 +56,7 @@
     ],
     "time": {},
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0021\">\n<head>\n<date when=\"1917-01-21\">\n           廿一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前中\n            </time>\n<persName corresp=\"#pers_若槻禮次郎\">\n<surname>\n              若槻\n             </surname>\n<forename>\n              礼次郎\n             </forename>\n</persName>\n            氏ヲ御訪問（\n            <placeName corresp=\"#place_桜田\">\n             桜田\n            </placeName>\n<placeName corresp=\"#place_本郷\">\n             本郷\n            </placeName>\n            町憲\n            <pb corresp=\"#pageB2386\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1225/full/max/0/default.jpg\" n=\"B2386\" source=\"#pageB2386\"/>\n            政会本部）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            大日本書道会ヘ御出席（帝国ホテル劇場）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20019m-0021\">\n<head>\n<date when=\"1917-01-21\">\n           廿一日\n          </date>\n          （日）\n         </head>\n<listEvent>\n<event>\n<p>\n<time>\n             午前中\n            </time>\n<persName corresp=\"#pers_若槻禮次郎\">\n<surname>\n              若槻\n             </surname>\n<forename>\n              礼次郎\n             </forename>\n</persName>\n            氏ヲ御訪問（\n            <placeName corresp=\"#place_桜田\">\n             桜田\n            </placeName>\n<placeName corresp=\"#place_本郷\">\n             本郷\n            </placeName>\n<persName corresp=\"#pers_町憲\">\n<surname>\n              町\n             </surname>\n<forename>\n              憲\n             </forename>\n</persName>\n<pb corresp=\"#pageB2386\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1225/full/max/0/default.jpg\" n=\"B2386\" source=\"#pageB2386\"/>\n            政会本部）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"13:00:00\">\n             午後一時\n            </time>\n            大\n            <placeName corresp=\"#place_日本\">\n             日本\n            </placeName>\n            書道会ヘ御出席（帝国ホテル劇場）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1917",
     "yearAndMonth": "1917-01"
 }

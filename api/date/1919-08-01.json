@@ -5,12 +5,6 @@
         "安達憲忠",
         "水谷清"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/白寅基",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/尾立維孝",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/安達憲忠",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/水谷清"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1305",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -35,16 +29,10 @@
     "sort": "DKB20021m-0188",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
+        "飛鳥山公園",
         "日本橋兜町",
         "三田",
         "綱町"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/日本橋兜町",
-        "https://shibusawa-dlab.github.io/lab1/api/place/三田",
-        "https://shibusawa-dlab.github.io/lab1/api/place/綱町"
     ],
     "temporal": "1919-08-01",
     "texts": [
@@ -70,10 +58,10 @@
         "DKB20020m-0055"
     ],
     "time": {
-        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八時半\n            </time>\n<persName corresp=\"#pers_白寅基\">\n<surname>\n              白\n             </surname>\n<forename>\n              寅基\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）</div>"
+        "08:30:00": "<div><time when=\"08:30:00\">\n             午前八時半\n            </time>\n<persName corresp=\"#pers_白寅基\">\n<surname>\n              白\n             </surname>\n<forename>\n              寅基\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0188\">\n<head>\n<date when=\"1919-08-01\">\n           一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八時半\n            </time>\n<persName corresp=\"#pers_白寅基\">\n<surname>\n              白\n             </surname>\n<forename>\n              寅基\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_尾立維孝\">\n<surname>\n              尾立\n             </surname>\n<forename>\n              維孝\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_安達憲忠\">\n<surname>\n              安達\n             </surname>\n<forename>\n              憲忠\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"11:00:00\" to=\"12:00:00\">\n             午前十一―十二時\n            </time>\n<persName corresp=\"#pers_水谷清\">\n<surname>\n              水谷\n             </surname>\n<forename>\n              清\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            三井男爵ヨリ御案内（\n            <placeName corresp=\"#place_三田\">\n             三田\n            </placeName>\n<placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            別邸）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20021m-0188\">\n<head>\n<date when=\"1919-08-01\">\n           一日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"08:30:00\">\n             午前八時半\n            </time>\n<persName corresp=\"#pers_白寅基\">\n<surname>\n              白\n             </surname>\n<forename>\n              寅基\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_尾立維孝\">\n<surname>\n              尾立\n             </surname>\n<forename>\n              維孝\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_安達憲忠\">\n<surname>\n              安達\n             </surname>\n<forename>\n              憲忠\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time from=\"11:00:00\" to=\"12:00:00\">\n             午前十一―十二時\n            </time>\n<persName corresp=\"#pers_水谷清\">\n<surname>\n              水谷\n             </surname>\n<forename>\n              清\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_日本橋兜町\">\n             兜町\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"19:00:00\">\n             午後七時\n            </time>\n            三井男爵ヨリ御案内（\n            <placeName corresp=\"#place_三田\">\n             三田\n            </placeName>\n<placeName corresp=\"#place_綱町\">\n             綱町\n            </placeName>\n            別邸）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1919",
     "yearAndMonth": "1919-08"
 }

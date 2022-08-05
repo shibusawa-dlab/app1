@@ -3,10 +3,6 @@
         "藤山",
         "明石"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/藤山",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/明石"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1406",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -22,7 +18,7 @@
     "date_lvl0": "1922",
     "date_lvl1": "1922-10",
     "date_lvl2": "1922-10-06",
-    "description": "\n\n\n           六日\n          \n          （金）\n         \n\n\n\n\n             正午\n            \n\n\n              藤山\n             \n\n            会頭より御案内（\n            \n             東京\n            \n            商業会議所）\n           \n\n\n\n\n             午後二時\n            \n            早稲田大学委員会（恩賜館）\n           \n\n\n\n\n             午後五半時\n            \n\n\n              明石\n             \n\n            殿より御案内（\n            \n             上野\n            \n\n             精養軒\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           六日\n          \n          （金）\n         \n\n\n\n\n             正午\n            \n\n\n              藤山\n             \n\n            会頭より御案内（\n            \n             東京\n            \n            商業会議所）\n           \n\n\n\n\n             午後二時\n            \n            早稲田大学委員会（恩賜館）\n           \n\n\n\n\n             午後五半時\n            \n\n\n              明石\n             \n\n            殿より御案内（\n            \n             上野精養軒\n            \n            ）\n           \n\n\n",
     "label": "六日                    （金）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20024m-0242",
@@ -32,11 +28,7 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "東京",
-        "上野"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京",
-        "https://shibusawa-dlab.github.io/lab1/api/place/上野"
+        "上野精養軒"
     ],
     "temporal": "1922-10-06",
     "texts": [
@@ -65,7 +57,7 @@
         "12:00:00": "<div><time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_藤山\">\n<surname>\n              藤山\n             </surname>\n</persName>\n            会頭より御案内（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商業会議所）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0241\">\n<head>\n<date when=\"1922-10-06\">\n           六日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_藤山\">\n<surname>\n              藤山\n             </surname>\n</persName>\n            会頭より御案内（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            早稲田大学委員会（恩賜館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_明石\">\n<surname>\n              明石\n             </surname>\n</persName>\n            殿より御案内（\n            <placeName corresp=\"#place_上野\">\n             上野\n            </placeName>\n<orgName>\n             精養軒\n            </orgName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20024m-0241\">\n<head>\n<date when=\"1922-10-06\">\n           六日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             正午\n            </time>\n<persName corresp=\"#pers_藤山\">\n<surname>\n              藤山\n             </surname>\n</persName>\n            会頭より御案内（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            商業会議所）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:00:00\">\n             午後二時\n            </time>\n            早稲田大学委員会（恩賜館）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:30:00\">\n             午後五半時\n            </time>\n<persName corresp=\"#pers_明石\">\n<surname>\n              明石\n             </surname>\n</persName>\n            殿より御案内（\n            <placeName corresp=\"#place_上野精養軒\">\n             上野精養軒\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1922",
     "yearAndMonth": "1922-10"
 }

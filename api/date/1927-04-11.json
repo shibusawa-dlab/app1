@@ -4,11 +4,6 @@
         "遠藤吉兵衛",
         "遠藤吉平"
     ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/関屋",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/遠藤吉兵衛",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/遠藤吉平"
-    ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1540",
     "category": {
         "lvl0": "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表",
@@ -33,12 +28,8 @@
     "sort": "DKB20029m-0084",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
-        "飛鳥山邸",
+        "飛鳥山公園",
         "東京"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/東京"
     ],
     "temporal": "1927-04-11",
     "texts": [
@@ -67,7 +58,7 @@
         "09:00:00": "<div><time when=\"09:00:00\">\n             午前九時\n            </time>\n            慈恵会岡氏来約</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0084\">\n<head>\n<date when=\"1927-04-11\">\n           十一日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            慈恵会岡氏来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_関屋\">\n<surname>\n              関屋\n             </surname>\n</persName>\n            文部普通学務局長来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_遠藤吉兵衛\">\n<surname>\n              遠藤\n             </surname>\n<forename>\n              吉兵衛\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_遠藤吉平\">\n<surname>\n              遠藤\n             </surname>\n<forename>\n              吉平\n             </forename>\n</persName>\n            衛氏）》（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後零半時\n            </time>\n            聖徳太子千三百〇六年御忌御法要（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            美術学校講座）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20029m-0084\">\n<head>\n<date when=\"1927-04-11\">\n           十一日\n          </date>\n          （月）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"09:00:00\">\n             午前九時\n            </time>\n            慈恵会岡氏来約\n           </p>\n</event>\n<event>\n<p>\n<time when=\"09:30:00\">\n             午前九半時\n            </time>\n<persName corresp=\"#pers_関屋\">\n<surname>\n              関屋\n             </surname>\n</persName>\n            文部普通学務局長来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_遠藤吉兵衛\">\n<surname>\n              遠藤\n             </surname>\n<forename>\n              吉兵衛\n             </forename>\n</persName>\n            氏来約《（\n            <persName corresp=\"#pers_遠藤吉平\">\n<surname>\n              遠藤\n             </surname>\n<forename>\n              吉平\n             </forename>\n</persName>\n            衛氏）》（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"12:30:00\">\n             午後零半時\n            </time>\n            聖徳太子千三百〇六年御忌御法要（\n            <placeName corresp=\"#place_東京\">\n             東京\n            </placeName>\n            美術学校講座）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1927",
     "yearAndMonth": "1927-04"
 }

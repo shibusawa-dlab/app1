@@ -1,11 +1,7 @@
 {
     "agential": [
         "馬越恭平",
-        "渋沢武之助"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/馬越恭平",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢武之助"
+        "武之助"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1589",
     "category": {
@@ -31,10 +27,8 @@
     "sort": "DKB20030m-0274",
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
+        "飛鳥山公園",
         "飛鳥山邸"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸"
     ],
     "temporal": "1928-12-14",
     "texts": [
@@ -63,7 +57,7 @@
         "12:00:00": "<div><time when=\"12:00:00\">\n             午時\n            </time>\n            養育院ヘ御出向</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0274\">\n<head>\n<date when=\"1928-12-14\">\n           十四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            養育院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            理化学研究所理事会（工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<persName corresp=\"#pers_馬越恭平\">\n<surname>\n              馬越\n             </surname>\n<forename>\n              恭平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_渋沢武之助\">\n<forename>\n              武之助\n             </forename>\n</persName>\n            様御催飛行機関係御招待（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20030m-0274\">\n<head>\n<date when=\"1928-12-14\">\n           十四日\n          </date>\n          （金）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"12:00:00\">\n             午時\n            </time>\n            養育院ヘ御出向\n           </p>\n</event>\n<event>\n<p>\n<time when=\"11:00:00\">\n             午前十一時\n            </time>\n            理化学研究所理事会（工業クラブ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"14:30:00\">\n             午後二半時\n            </time>\n<persName corresp=\"#pers_馬越恭平\">\n<surname>\n              馬越\n             </surname>\n<forename>\n              恭平\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山公園\">\n             飛鳥山\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<time when=\"17:00:00\">\n             午後五時\n            </time>\n<persName corresp=\"#pers_武之助\">\n<forename>\n              武之助\n             </forename>\n</persName>\n            様御催飛行機関係御招待（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1928",
     "yearAndMonth": "1928-12"
 }

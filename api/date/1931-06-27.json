@@ -1,13 +1,7 @@
 {
     "agential": [
         "古仁所豊",
-        "渋沢正雄",
-        "財部"
-    ],
-    "agential_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/chname/古仁所豊",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/渋沢正雄",
-        "https://shibusawa-dlab.github.io/lab1/api/chname/財部"
+        "渋沢正雄"
     ],
     "canvas": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/1625",
     "category": {
@@ -24,7 +18,7 @@
     "date_lvl0": "1931",
     "date_lvl1": "1931-06",
     "date_lvl2": "1931-06-27",
-    "description": "\n\n\n           廿七日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n\n\n              古仁所\n             \n\n              豊\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n\n             午後三時\n            \n\n\n              渋沢\n             \n\n              正雄\n             \n\n            様、\n            \n\n              財部\n             \n\n            元海相来約（\n            \n             王子\n            \n            ）\n           \n\n\n",
+    "description": "\n\n\n           廿七日\n          \n          （土）\n         \n\n\n\n\n             午前十時\n            \n\n\n              古仁所\n             \n\n              豊\n             \n\n            氏来約（\n            \n             飛鳥山邸\n            \n            ）\n           \n\n\n\n\n\n             午後三時\n            \n\n\n              渋沢\n             \n\n              正雄\n             \n\n            様、\n            \n             財部\n            \n            元海相来約（\n            \n             王子\n            \n            ）\n           \n\n\n",
     "label": "廿七日                    （土）",
     "manifest": "https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/manifest",
     "next": "DKB20033m-0117",
@@ -34,11 +28,8 @@
     "source": "https://shibusawa-dlab.github.io/lab1/tei/DKB02.xml",
     "spatial": [
         "飛鳥山邸",
+        "財部",
         "王子"
-    ],
-    "spatial_uri": [
-        "https://shibusawa-dlab.github.io/lab1/api/place/飛鳥山邸",
-        "https://shibusawa-dlab.github.io/lab1/api/place/王子"
     ],
     "temporal": "1931-06-27",
     "texts": [
@@ -67,7 +58,7 @@
         "10:00:00": "<div><time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_古仁所豊\">\n<surname>\n              古仁所\n             </surname>\n<forename>\n              豊\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）</div>"
     },
     "type": "day",
-    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0115\">\n<head>\n<date when=\"1931-06-27\">\n           廿七日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_古仁所豊\">\n<surname>\n              古仁所\n             </surname>\n<forename>\n              豊\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2786\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1625/full/max/0/default.jpg\" n=\"B2786\" source=\"#pageB2786\"/>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_渋沢正雄\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              正雄\n             </forename>\n</persName>\n            様、\n            <persName corresp=\"#pers_財部\">\n<surname>\n              財部\n             </surname>\n</persName>\n            元海相来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
+    "xml": "<div type=\"day\" xml:id=\"DKB20033m-0115\">\n<head>\n<date when=\"1931-06-27\">\n           廿七日\n          </date>\n          （土）\n         </head>\n<listEvent>\n<event>\n<p>\n<time when=\"10:00:00\">\n             午前十時\n            </time>\n<persName corresp=\"#pers_古仁所豊\">\n<surname>\n              古仁所\n             </surname>\n<forename>\n              豊\n             </forename>\n</persName>\n            氏来約（\n            <placeName corresp=\"#place_飛鳥山邸\">\n             飛鳥山邸\n            </placeName>\n            ）\n           </p>\n</event>\n<event>\n<p>\n<pb corresp=\"#pageB2786\" facs=\"https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1625/full/max/0/default.jpg\" n=\"B2786\" source=\"#pageB2786\"/>\n<time when=\"15:00:00\">\n             午後三時\n            </time>\n<persName corresp=\"#pers_渋沢正雄\">\n<surname>\n              渋沢\n             </surname>\n<forename>\n              正雄\n             </forename>\n</persName>\n            様、\n            <placeName corresp=\"#place_財部\">\n             財部\n            </placeName>\n            元海相来約（\n            <placeName corresp=\"#place_王子\">\n             王子\n            </placeName>\n            ）\n           </p>\n</event>\n</listEvent>\n</div>",
     "year": "1931",
     "yearAndMonth": "1931-06"
 }
