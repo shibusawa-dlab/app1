@@ -68,7 +68,7 @@
                 
                 <td class="text-center pa-5">
                   <a :href="
-                    github_pages + '/tei/' + item.viewer_id + '.html'
+                    githubPages + '/tei/' + item.viewer_id + '.html'
                   ">
                     <!--
                     <img src="https://img.icons8.com/ios/26/000000/html-filetype.png"/> -->
@@ -78,7 +78,7 @@
 
                 <td class="text-center pa-5">
                   <a :href="
-                    github_pages + '/tei/' + item.viewer_id + '.pdf'
+                    githubPages + '/tei/' + item.viewer_id + '.pdf'
                   ">
                     <!--
                     <img src="https://img.icons8.com/ios/24/000000/pdf.png"/> -->
@@ -88,7 +88,7 @@
 
                 <td class="text-center pa-5">
                   <a :href="
-                    github_pages + '/tei/' + item.viewer_id + '.epub'
+                    githubPages + '/tei/' + item.viewer_id + '.epub'
                   ">
                     <!-- 
                     <img src="https://img.icons8.com/ios/26/000000/epub.png"/> -->
@@ -98,7 +98,7 @@
 
                 <td class="text-center pa-5">
                   <a :href="
-                    github_pages + '/tei/' + item.viewer_id + '.xml'
+                    githubPages + '/tei/' + item.viewer_id + '.xml'
                   ">
                     <!--
                     <img src="https://img.icons8.com/ios/24/000000/pdf.png"/> -->
@@ -248,7 +248,7 @@ import Breadcrumbs from '~/components/common/Breadcrumbs.vue'
 })
 export default class about extends Vue {
   baseUrl: any = process.env.BASE_URL
-  // github_pages: any = process.env.github_pages
+  githubPages: any = process.env.github_pages
 
   get bh(): any[] {
     return [
