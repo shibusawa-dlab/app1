@@ -16,19 +16,6 @@ env.endpoint = 'https://dydra.com/ut-digital-archives/shibusawa/sparql'
 env.index = 'main'
 
 env.menu = [
-  /*
-  {
-    label: 'about_',
-    to: {
-      name: 'about-slug',
-    },
-    icon: 'mdi-information',
-    top: true,
-    type: 'about',
-    weight: 0,
-    // description: 'このサイトは、ＷＥＢ上で正保琉球国絵図の画像を公開するとともに、絵図に描き込まれた情報を分析するために構築されたデジタルアーカイブです。',
-  },
-  */
   {
     label: 'news',
     to: {
@@ -37,50 +24,13 @@ env.menu = [
     top: false,
     type: 'about',
     weight: 3,
-    // description: 'このサイトは、ＷＥＢ上で正保琉球国絵図の画像を公開するとともに、絵図に描き込まれた情報を分析するために構築されたデジタルアーカイブです。',
   },
-
-  /*
-  {
-    label: 'progress',
-    to: {
-      name: 'about-slug',
-      params: { slug: 'progress' },
-    },
-    top: false,
-    type: 'about',
-    weight: 1,
-    // description: 'このサイトは、ＷＥＢ上で正保琉球国絵図の画像を公開するとともに、絵図に描き込まれた情報を分析するために構築されたデジタルアーカイブです。',
-  },
-  {
-    label: 'team',
-    to: {
-      name: 'about-slug',
-      params: { slug: 'team' },
-    },
-    top: false,
-    type: 'about',
-    weight: 2,
-    // description: 'このサイトは、ＷＥＢ上で正保琉球国絵図の画像を公開するとともに、絵図に描き込まれた情報を分析するために構築されたデジタルアーカイブです。',
-  },
-  {
-    label: 'news',
-    to: {
-      name: 'news',
-    },
-    top: false,
-    type: 'about',
-    weight: 3,
-    // description: 'このサイトは、ＷＥＢ上で正保琉球国絵図の画像を公開するとともに、絵図に描き込まれた情報を分析するために構築されたデジタルアーカイブです。',
-  },
-  */
   {
     label: 'search',
     to: {
       name: 'search',
     },
     icon: 'mdi-magnify',
-    // description: '正保の琉球国絵図３舗に書き込まれた文字などの情報（全895件）を検索できます。',
     top: true,
     type: 'tools',
     weight: 0,
@@ -91,7 +41,6 @@ env.menu = [
       name: 'category',
     },
     icon: 'mdi-tag',
-    // description: '正保の琉球国絵図３舗に書き込まれた文字などの情報（全895件）につき、島や村などの分類によって検索できます。',
     top: true,
     type: 'tools',
     weight: 1,
@@ -107,49 +56,6 @@ env.menu = [
     type: 'tools',
     weight: 2,
   },
-  /*
-  {
-    label: 'category',
-    to: {
-      name: 'category',
-    },
-    icon: 'mdi-tag',
-    // description: '正保の琉球国絵図３舗に書き込まれた文字などの情報（全895件）につき、島や村などの分類によって検索できます。',
-    top: true,
-    type: 'tools',
-    weight: 2,
-  },
-  */
-  /*
-  {
-    label: 'list_',
-    to: {
-      name: 'collection',
-    },
-    icon: 'mdi-view-list',
-    // description: '正保の琉球国絵図３舗につき、絵図の画像データの閲覧と、書き込まれた文字の検索ができます。',
-    top: true,
-    type: 'tools',
-    weight: 1,
-  },
-
-  
-  {
-    label: 'khirin-t',
-    href: 'https://khirin-t.rekihaku.ac.jp/',
-    target: '_blank',
-    type: 'links',
-    weight: 0,
-  },
-  
-  {
-    label: '総合資料学',
-    href: 'https://www.metaresource.jp/',
-    target: '_blank',
-    type: 'links',
-    weight: 1,
-  },
-  */
   {
     label: '史料集版面ギャラリー',
     href: 'https://www.hi.u-tokyo.ac.jp/publication/dip',
@@ -497,59 +403,6 @@ function getPageList() {
       payload,
     })
   }
-
-  // calendar
-
-  /*
-
-  const years = JSON.parse(fs.readFileSync('static/data/years.json'))
-
-  // const docs = JSON.parse(fs.readFileSync('static/data/docs.json'))
-
-  for (const year in years) {
-    for (const month in years[year]) {
-      // console.log({ year, month })
-
-      const payload = {}
-
-      pages.push({
-        route: `/calendar/month/${year}/${month}`,
-        payload,
-      })
-
-      pages.push({
-        route: `/en/calendar/month/${year}/${month}`,
-        payload,
-      })
-    }
-  }
-
-  */
-
-  // entity
-
-  /*
-  const entity = JSON.parse(fs.readFileSync('static/data/entity.json'))
-
-  for (const field in entity) {
-    for (const item of entity[field]) {
-      const payload = {
-        field,
-        id: item.id,
-      }
-
-      pages.push({
-        route: `/entity/${field}/${item.id}`,
-        payload,
-      })
-
-      pages.push({
-        route: `/en/entity/${field}/${item.id}`,
-        payload,
-      })
-    }
-  }
-  */
 
   const xmls = ['DKB01', 'DKB02']
 

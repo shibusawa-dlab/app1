@@ -133,7 +133,6 @@ export default class PageCategory extends Vue {
 
     this.id = id
     this.index = results[tmp]
-    // console.log({results})
   }
 
   get paginationLength() {

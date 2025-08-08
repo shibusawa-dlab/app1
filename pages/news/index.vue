@@ -23,20 +23,6 @@ import News from '~/components/news/News.vue'
 export default class Item extends Vue {
   baseUrl: any = process.env.BASE_URL
 
-  /*
-  async asyncData({ app, $content, params }: any): Promise<any> {
-    let lang = app.i18n.locale
-    lang = lang + '/'
-    const items = await $content(lang + 'news').fetch()
-
-    console.log({ items })
-
-    return {
-      items,
-    }
-  }
-  */
-
   get title() {
     return this.$t('news')
   }

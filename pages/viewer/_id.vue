@@ -190,7 +190,6 @@ export default {
 
     const self = this
     CETEIcean.getHTML5(url, function (data) {
-      console.log('downloaded.')
 
       self.xml = data
       self.title = $(data).find('tei-title')[0].textContent

@@ -321,15 +321,11 @@ export default class Ngram extends Vue {
   indexDf: any = []
 
   async mounted() {
-    // const dataNgramAll = await import(`~/static/data/all.json`)
-    // const ngramAll = dataNgramAll.default
-    // const {data} = await axios.get(process.env.BASE_URL + "/static/")
     const data_ = await import(`~/static/data/ngram.json`)
     const results = data_.default
 
     this.loading = false
 
-    // console.log({ results })
 
     this.index = results.tf
     this.indexDf = results.df

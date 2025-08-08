@@ -385,7 +385,6 @@ export default {
 
   methods: {
     getInformation() {
-      // console.log('getInformation')
 
       const map = {
         spatial: 'place',
@@ -394,11 +393,6 @@ export default {
       }
 
       const id = this.id
-      /*
-      if (id === '兜町') {
-        id = '日本橋兜町'
-      }
-      */
 
       const uri =
         'https://www.kanzaki.com/works/2014/pub/ld-browser?u=' +
@@ -409,8 +403,6 @@ export default {
       this.uri = uri
 
       const index = this.index
-
-      // console.log({ index })
 
       const entities = []
 

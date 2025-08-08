@@ -522,9 +522,6 @@ export default {
 
       if (es.length === 3) {
         const query = {}
-        // query[`${index}[hierarchicalMenu][date.lvl0][0]`] = es[0]
-        // query[`${index}[hierarchicalMenu][date.lvl0][1]`] = es[1]
-        // query[`${index}[hierarchicalMenu][date.lvl0][2]`] = es[2]
         query[`${index}[refinementList][date_lvl2][0]`] = es[2]
         data[0].children[0].children.push({
           id: 3,
@@ -536,7 +533,6 @@ export default {
     },
     categories() {
       try {
-        // console.log("item", this.item)
         const values = this.item.category
         const keys = Object.keys(values)
         const value = values[keys[keys.length - 1]]
@@ -546,12 +542,9 @@ export default {
         const es = value.split(' > ')
         const index = this.index
         const query1 = {}
-        // query1[`${index}[hierarchicalMenu][category.lvl0][0]`] = es[0]
         query1[`${index}[refinementList][category_lvl0][0]`] = es[0]
         const query2 = {}
         query2[`${index}[refinementList][category_lvl1][0]`] = es[1]
-        // query2[`${index}[hierarchicalMenu][category.lvl0][0]`] = es[0]
-        // query2[`${index}[hierarchicalMenu][category.lvl0][1]`] = es[1]
         return [
           {
             id: 1,
@@ -567,7 +560,6 @@ export default {
           },
         ]
       } catch (e) {
-        console.log({ e })
         return []
       }
     },

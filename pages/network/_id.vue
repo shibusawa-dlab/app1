@@ -587,16 +587,11 @@ export default class about extends Vue {
     const self = this
     window.setTimeout(function () {
       const network: any = self.$refs.network
-      // console.log('stop')
       network.stopSimulation()
       self.options.physics.enabled = false
-      // self.network.options.physics.enabled = false
-      // console.log(self.network.options)
     }, 5000)
 
-    /// ///
-
-    /* await */ this.getRelatedItems()
+    this.getRelatedItems()
   }
 
   async getRelatedItems() {
@@ -608,8 +603,6 @@ export default class about extends Vue {
       process.env.BASE_URL + '/data/docs.json'
     )
 
-    /*
-     */
 
     const hits: any[] = []
 
@@ -619,25 +612,12 @@ export default class about extends Vue {
 
     response = response.data
 
-    // const response = (this as any).docs
-
     for (const key in response) {
       const e = response[key]
-      // console.log(e)
       if (e[field] && e[field].includes(id)) {
         results.hits.push(e)
       }
     }
-
-    /*
-    const client = algoliasearch(config.appId, config.apiKey)
-    const index = client.initIndex(this.index) // _temporal_asc
-
-    const results = await index.search('', {
-      filters: field + ':' + id,
-      hitsPerPage: 200,
-    })
-    */
 
     const documents: any = {}
 
@@ -728,18 +708,6 @@ export default class about extends Vue {
     )
   }
 
-  /*
-  @Watch('otherId')
-  onIdChanged() {
-    if (this.otherId) {
-      console.log('aaa')
-      const network: any = this.$refs.network
-      network.selectNodes([this.otherId])
-      network.focus(this.otherId)
-    }
-  }
-  */
-
   select(id: string) {
     this.otherId = ''
     if (id !== this.$route.params.id) {
@@ -750,13 +718,6 @@ export default class about extends Vue {
     network.selectNodes([id])
     network.focus(id)
   }
-
-  /*
-  stabilized() {
-    console.log('stabilized')
-    this.network.options.physics.enabled = false
-  }
-  */
 
   head() {
     const title = this.title

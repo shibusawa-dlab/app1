@@ -363,17 +363,11 @@ export default {
 
       let ids = []
 
-      // console.log({ terms })
-
       // 全文
       if (q === '') {
         ids = Object.keys(docs)
       } else {
         const terms = q.split('　').join(' ').split(' ')
-
-        // and または or
-
-        // and
 
         let idsFulltext = Object.keys(docs) // ids
 

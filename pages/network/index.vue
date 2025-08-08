@@ -246,7 +246,6 @@ export default class network extends Vue {
     const self = this
     window.setTimeout(function () {
       const network: any = self.$refs.network
-      // console.log('stop')
       network.stopSimulation()
       self.options.physics.enabled = false
     }, 5000)
