@@ -63,10 +63,12 @@
 <script lang="ts">
 import { Component, Vue, Watch } from 'nuxt-property-decorator'
 import Breadcrumbs from '~/components/common/Breadcrumbs.vue'
+import Grid from '~/components/Grid.vue'
 
 @Component({
   components: {
     Breadcrumbs,
+    Grid,
   },
 })
 export default class PageCategory extends Vue {
