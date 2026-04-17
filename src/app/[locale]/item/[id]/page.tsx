@@ -68,10 +68,11 @@ export default async function ItemDetailPage({
   const spatials = doc.spatial ?? [];
   const html = renderTeiXml(doc.xml);
 
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
   const miradorUrl = doc.manifest
-    ? `https://shibusawa-dlab.github.io/lab1/mirador/?manifest=${encodeURIComponent(
-        doc.manifest
-      )}${doc.canvas ? `&canvas=${encodeURIComponent(doc.canvas)}` : ''}&bottomPanel=false`
+    ? `${basePath}/mirador.html?manifest=${encodeURIComponent(doc.manifest)}${
+        doc.canvas ? `&canvas=${encodeURIComponent(doc.canvas)}` : ''
+      }&bottomPanel=false`
     : null;
 
   return (

@@ -1,6 +1,15 @@
 'use client';
 
-import { useEffect, useMemo, useRef, useState } from 'react';
+import {
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  useTransition,
+} from 'react';
+import { usePathname, useRouter } from 'next/navigation';
+import { FiSearch, FiX } from 'react-icons/fi';
 import {
   Chart,
   LineController,
@@ -32,21 +41,31 @@ Chart.register(
   BarElement
 );
 
-export type NgramTerm = {
-  label: string;
-  count: number;
-  df: number;
-  freq: { year: number; count: number }[];
-};
+// ---------------------------------------------------------------------------
+// Types (shared with the server component)
+// ---------------------------------------------------------------------------
 
-export type NgramSummary = {
-  terms: NgramTerm[];
-  ngramAll: Record<string, number>;
-};
+export type NgramSeriesPoint = { term: string; year: number; freq: number };
+export type NgramTermRow = { term: string; total: number };
+export type NgramSuggestion = { term: string; total: number };
 
 type Props = {
-  summary: NgramSummary;
   locale: Locale;
+  initialQuery: string;
+  initialMode: 'freq' | 'ratio';
+  initialSuggest: string;
+  /** Per-term yearly rows already fetched for {@link selectedTerms}. */
+  series: NgramSeriesPoint[];
+  /** Yearly corpus totals used for ratio normalisation. */
+  yearlyTotals: Record<string, number>;
+  /** Every term matching the query (up to the row cap) for the results table. */
+  tableRows: NgramTermRow[];
+  /** Terms that are plotted on the chart (subset of `tableRows`). */
+  selectedTerms: string[];
+  /** Total TF per term for the table. */
+  termTotals: Record<string, number>;
+  /** Optional typeahead results (empty when no `suggest` in URL). */
+  suggestions: NgramSuggestion[];
 };
 
 const COLORS = [
@@ -62,95 +81,148 @@ const COLORS = [
   '#b91c1c',
 ];
 
-const SEARCH_SYMBOLS = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/;
+const DEBOUNCE_MS = 400;
+const SUGGEST_DEBOUNCE_MS = 250;
 
-function matchTerms(terms: NgramTerm[], query: string): NgramTerm[] {
-  if (!query.trim()) return [];
-  const parts = query.split('/').map((p) => p.trim()).filter(Boolean);
-  if (parts.length === 0) return [];
+// ---------------------------------------------------------------------------
+// Component
+// ---------------------------------------------------------------------------
 
-  const seen = new Set<string>();
-  const results: NgramTerm[] = [];
-  for (const part of parts) {
-    let matcher: (label: string) => boolean;
-    if (SEARCH_SYMBOLS.test(part)) {
-      try {
-        const re = new RegExp(part);
-        matcher = (label) => re.test(label);
-      } catch {
-        matcher = (label) => label === part;
-      }
-    } else {
-      matcher = (label) => label === part;
-    }
-    for (const t of terms) {
-      if (matcher(t.label) && !seen.has(t.label)) {
-        seen.add(t.label);
-        results.push(t);
-      }
-    }
-  }
-  results.sort((a, b) => b.count - a.count);
-  return results;
-}
-
-export default function NgramClient({ summary, locale }: Props) {
+export default function NgramClient({
+  locale,
+  initialQuery,
+  initialMode,
+  initialSuggest,
+  series,
+  yearlyTotals,
+  tableRows,
+  selectedTerms,
+  termTotals,
+  suggestions,
+}: Props) {
   const t = NGRAM_TRANSLATIONS[locale] ?? NGRAM_TRANSLATIONS.ja;
 
-  const [query, setQuery] = useState('');
-  const [activeQuery, setActiveQuery] = useState('');
-  const [chartType, setChartType] = useState<'freq' | 'ratio'>('freq');
-  const [selected, setSelected] = useState<Set<string>>(new Set());
-  const [showHelp, setShowHelp] = useState(false);
+  const router = useRouter();
+  const pathname = usePathname();
+  const [, startTransition] = useTransition();
 
-  // Initial URL param support: ?keyword=xxx
-  useEffect(() => {
-    if (typeof window === 'undefined') return;
-    const params = new URLSearchParams(window.location.search);
-    const kw = params.get('keyword');
-    if (kw) {
-      setQuery(kw);
-      setActiveQuery(kw);
-    }
-  }, []);
-
-  const hits = useMemo(
-    () => matchTerms(summary.terms, activeQuery),
-    [summary.terms, activeQuery]
+  const [query, setQuery] = useState(initialQuery);
+  const [mode, setMode] = useState<'freq' | 'ratio'>(initialMode);
+  const [suggestInput, setSuggestInput] = useState(initialSuggest);
+  const [showSuggestions, setShowSuggestions] = useState(
+    initialSuggest.length > 0 && suggestions.length > 0
   );
 
-  // Default-select top 5 when hits change
-  const firstHitsKey = useRef<string>('');
-  useEffect(() => {
-    const key = hits.map((h) => h.label).join('|');
-    if (key === firstHitsKey.current) return;
-    firstHitsKey.current = key;
-    const next = new Set<string>();
-    for (let i = 0; i < Math.min(5, hits.length); i++) next.add(hits[i].label);
-    setSelected(next);
-  }, [hits]);
+  // Sync props → local state when the URL changes via back/forward.
+  useEffect(() => setQuery(initialQuery), [initialQuery]);
+  useEffect(() => setMode(initialMode), [initialMode]);
+  useEffect(() => setSuggestInput(initialSuggest), [initialSuggest]);
 
-  const selectedHits = useMemo(
-    () => hits.filter((h) => selected.has(h.label)),
-    [hits, selected]
+  // --- URL helpers ------------------------------------------------------
+  const buildParams = useCallback(
+    (next: { q?: string; mode?: 'freq' | 'ratio'; suggest?: string | null }) => {
+      const p = new URLSearchParams();
+      const q = (next.q ?? query).trim();
+      if (q) p.set('q', q);
+      const m = next.mode ?? mode;
+      if (m === 'ratio') p.set('mode', 'ratio');
+      const s = next.suggest !== undefined ? next.suggest : suggestInput;
+      if (s) p.set('suggest', s);
+      return p;
+    },
+    [query, mode, suggestInput]
   );
 
+  const navigate = useCallback(
+    (params: URLSearchParams) => {
+      const qs = params.toString();
+      startTransition(() => {
+        router.push(qs ? `${pathname}?${qs}` : pathname);
+      });
+    },
+    [router, pathname]
+  );
+
+  // --- Suggest typeahead (debounced) ------------------------------------
+  const suggestTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  useEffect(() => {
+    if (suggestTimer.current) clearTimeout(suggestTimer.current);
+    if (suggestInput === initialSuggest) return;
+    suggestTimer.current = setTimeout(() => {
+      navigate(buildParams({ suggest: suggestInput || null }));
+    }, SUGGEST_DEBOUNCE_MS);
+    return () => {
+      if (suggestTimer.current) clearTimeout(suggestTimer.current);
+    };
+  }, [suggestInput, initialSuggest, buildParams, navigate]);
+
+  // --- Explicit search submit -------------------------------------------
+  const submitSearch = useCallback(
+    (nextQuery?: string) => {
+      const q = (nextQuery ?? query).trim();
+      navigate(buildParams({ q, suggest: null }));
+      setShowSuggestions(false);
+    },
+    [query, buildParams, navigate]
+  );
+
+  // Debounce free-typing for a smoother feel.
+  useEffect(() => {
+    if (query === initialQuery) return;
+    const h = setTimeout(() => {
+      navigate(buildParams({ q: query }));
+    }, DEBOUNCE_MS);
+    return () => clearTimeout(h);
+  }, [query, initialQuery, buildParams, navigate]);
+
+  const changeMode = useCallback(
+    (next: 'freq' | 'ratio') => {
+      setMode(next);
+      navigate(buildParams({ mode: next }));
+    },
+    [buildParams, navigate]
+  );
+
+  const pickSuggestion = useCallback(
+    (term: string) => {
+      setQuery(term);
+      setSuggestInput('');
+      setShowSuggestions(false);
+      navigate(buildParams({ q: term, suggest: null }));
+    },
+    [buildParams, navigate]
+  );
+
+  // --- Chart data -------------------------------------------------------
   const { chartData, chartOptions } = useMemo(() => {
-    if (selectedHits.length === 0) {
+    if (selectedTerms.length === 0) {
       return {
         chartData: { labels: [], datasets: [] } as ChartData<'line' | 'bar'>,
         chartOptions: {} as ChartOptions<'line' | 'bar'>,
       };
     }
-    let minYear = 9999;
-    let maxYear = 0;
-    for (const h of selectedHits) {
-      for (const f of h.freq) {
-        if (f.year < minYear) minYear = f.year;
-        if (f.year > maxYear) maxYear = f.year;
+
+    // Bucket per-term series points and establish the year axis range.
+    const perTerm: Record<string, Map<number, number>> = {};
+    let minYear = Number.POSITIVE_INFINITY;
+    let maxYear = Number.NEGATIVE_INFINITY;
+    for (const term of selectedTerms) perTerm[term] = new Map();
+    for (const p of series) {
+      if (p.year === 9999) continue; // legacy sentinel
+      if (!perTerm[p.term]) continue;
+      perTerm[p.term].set(p.year, p.freq);
+      if (p.year < minYear) minYear = p.year;
+      if (p.year > maxYear) maxYear = p.year;
+    }
+    // Include totals range so the bar chart extends across the full corpus.
+    for (const y of Object.keys(yearlyTotals)) {
+      const n = Number(y);
+      if (Number.isFinite(n)) {
+        if (n < minYear) minYear = n;
+        if (n > maxYear) maxYear = n;
       }
     }
-    if (minYear > maxYear) {
+    if (!Number.isFinite(minYear) || !Number.isFinite(maxYear)) {
       minYear = 1900;
       maxYear = 1930;
     }
@@ -158,22 +230,21 @@ export default function NgramClient({ summary, locale }: Props) {
     const labels: string[] = [];
     for (let y = minYear; y <= maxYear; y++) labels.push(String(y));
 
-    const datasets = selectedHits.map((h, i) => {
-      const map: Record<number, number> = {};
-      for (const f of h.freq) map[f.year] = f.count;
+    const datasets = selectedTerms.map((term, i) => {
+      const map = perTerm[term];
       const color = COLORS[i % COLORS.length];
-      const values = labels.map((y) => {
-        const year = Number(y);
-        const raw = map[year] ?? 0;
-        if (chartType === 'ratio') {
-          const total = summary.ngramAll[y] ?? 0;
+      const values = labels.map((yStr) => {
+        const y = Number(yStr);
+        const raw = map.get(y) ?? 0;
+        if (mode === 'ratio') {
+          const total = yearlyTotals[yStr] ?? 0;
           return total ? raw / total : 0;
         }
         return raw;
       });
       return {
         type: 'line' as const,
-        label: h.label,
+        label: term,
         data: values,
         borderColor: color,
         backgroundColor: color,
@@ -184,8 +255,7 @@ export default function NgramClient({ summary, locale }: Props) {
       };
     });
 
-    // Total ngrams series (background bars on secondary axis)
-    const totalSeries = labels.map((y) => summary.ngramAll[y] ?? 0);
+    const totalSeries = labels.map((y) => yearlyTotals[y] ?? 0);
     datasets.push({
       type: 'bar' as const,
       label: t.totalLabel,
@@ -201,16 +271,14 @@ export default function NgramClient({ summary, locale }: Props) {
       maintainAspectRatio: false,
       interaction: { mode: 'index', intersect: false },
       scales: {
-        x: {
-          title: { display: true, text: 'Year' },
-        },
+        x: { title: { display: true, text: 'Year' } },
         y: {
           type: 'linear',
           position: 'left',
           beginAtZero: true,
           title: {
             display: true,
-            text: chartType === 'freq' ? t.yAxisFreq : t.yAxisRatio,
+            text: mode === 'freq' ? t.yAxisFreq : t.yAxisRatio,
           },
         },
         y1: {
@@ -231,109 +299,162 @@ export default function NgramClient({ summary, locale }: Props) {
       chartData: { labels, datasets } as unknown as ChartData<'line' | 'bar'>,
       chartOptions: options,
     };
-  }, [selectedHits, chartType, summary.ngramAll, t.totalLabel, t.yAxisFreq, t.yAxisRatio, t.yAxisTotal]);
+  }, [selectedTerms, series, yearlyTotals, mode, t.totalLabel, t.yAxisFreq, t.yAxisRatio, t.yAxisTotal]);
 
-  const onSearch = () => setActiveQuery(query);
-
-  const toggleSelect = (label: string) => {
-    setSelected((prev) => {
-      const next = new Set(prev);
-      if (next.has(label)) next.delete(label);
-      else next.add(label);
-      return next;
-    });
-  };
+  const hasActiveQuery = initialQuery.length > 0;
+  const hasSelection = selectedTerms.length > 0;
+  const showSuggestionsDropdown =
+    showSuggestions && suggestInput.length > 0 && suggestions.length > 0;
 
   return (
     <div className="space-y-6">
-      <div className="rounded-xl border border-amber-200/70 dark:border-amber-900/40 bg-amber-50/60 dark:bg-amber-900/10 p-4 text-sm text-amber-900 dark:text-amber-200">
-        {t.compromiseNotice}
-      </div>
-
-      <div className="flex flex-col md:flex-row gap-3">
-        <div className="flex-1 flex gap-2">
+      {/* Hero search */}
+      <div className="mx-auto max-w-3xl space-y-3">
+        <div className="relative">
+          <FiSearch
+            className="pointer-events-none absolute left-5 top-1/2 h-5 w-5 -translate-y-1/2 text-amber-500"
+            aria-hidden
+          />
           <input
-            type="text"
+            type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onKeyDown={(e) => {
-              if (e.key === 'Enter' && e.nativeEvent.isComposing === false) onSearch();
+              if (e.key === 'Enter' && e.nativeEvent.isComposing === false) {
+                e.preventDefault();
+                submitSearch();
+              }
             }}
             placeholder={t.searchPlaceholder}
-            className="flex-1 rounded-xl border border-gray-200/70 dark:border-gray-800 bg-white dark:bg-gray-900 px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-amber-400/60"
+            className="w-full rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 px-6 py-4 pl-12 pr-24 text-base shadow-lg shadow-amber-900/5 placeholder-gray-400 focus:border-amber-400 focus:outline-none focus:ring-4 focus:ring-amber-200/60 dark:focus:ring-amber-700/30 transition"
           />
+          {query && (
+            <button
+              type="button"
+              onClick={() => {
+                setQuery('');
+                navigate(buildParams({ q: '' }));
+              }}
+              className="absolute right-20 top-1/2 -translate-y-1/2 text-gray-400 hover:text-rose-500 transition-colors"
+              aria-label="Clear"
+            >
+              <FiX className="h-4 w-4" />
+            </button>
+          )}
           <button
             type="button"
-            onClick={onSearch}
-            className="rounded-xl bg-amber-600 hover:bg-amber-700 text-white px-5 py-2 text-sm font-medium transition-colors"
+            onClick={() => submitSearch()}
+            className="absolute right-2 top-1/2 -translate-y-1/2 rounded-xl bg-amber-600 hover:bg-amber-700 text-white px-4 py-2 text-sm font-medium transition-colors"
           >
-            {locale === 'ja' ? '検索' : 'Search'}
+            {t.searchButton}
           </button>
         </div>
-        <button
-          type="button"
-          onClick={() => setShowHelp((s) => !s)}
-          className="rounded-xl border border-gray-200/70 dark:border-gray-800 bg-white dark:bg-gray-900 px-4 py-2 text-sm hover:border-amber-300 dark:hover:border-amber-500/60 transition-colors"
-        >
-          {t.helpTitle}
-        </button>
+
+        <div className="text-center text-xs text-gray-500 dark:text-gray-400">
+          {t.examples}: <code className="font-mono">{t.examplesText}</code>
+        </div>
+
+        {/* Typeahead suggest input */}
+        <div className="relative">
+          <input
+            type="text"
+            value={suggestInput}
+            onFocus={() => setShowSuggestions(true)}
+            onBlur={() => {
+              // Defer so clicks on suggestions register before blur hides them.
+              setTimeout(() => setShowSuggestions(false), 150);
+            }}
+            onChange={(e) => {
+              setSuggestInput(e.target.value);
+              setShowSuggestions(true);
+            }}
+            placeholder={t.suggestPlaceholder}
+            className="w-full rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-amber-400/60"
+          />
+          {showSuggestionsDropdown && (
+            <div className="absolute z-20 mt-1 w-full rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 shadow-lg overflow-hidden">
+              <div className="px-3 py-1.5 text-[11px] font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide bg-gray-50 dark:bg-gray-800/60">
+                {t.suggestionsHeader}
+              </div>
+              <ul className="max-h-64 overflow-y-auto text-sm">
+                {suggestions.map((s) => (
+                  <li key={s.term}>
+                    <button
+                      type="button"
+                      onMouseDown={(e) => e.preventDefault()}
+                      onClick={() => pickSuggestion(s.term)}
+                      className="w-full text-left px-3 py-1.5 hover:bg-amber-50 dark:hover:bg-amber-900/20 flex items-center justify-between gap-3"
+                    >
+                      <span className="font-medium text-gray-900 dark:text-gray-100 truncate">
+                        {s.term}
+                      </span>
+                      <span className="text-xs tabular-nums text-gray-500 dark:text-gray-400">
+                        {s.total.toLocaleString()}
+                      </span>
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
       </div>
 
-      {showHelp && (
-        <div className="rounded-xl border border-gray-200/70 dark:border-gray-800 bg-white dark:bg-gray-900 p-4 text-sm text-gray-700 dark:text-gray-300 space-y-2">
-          <p>{t.lead}</p>
-          <ul className="list-disc pl-5 space-y-1">
-            <li>{t.help1}</li>
-            <li>{t.help2}</li>
-          </ul>
-          <p className="text-xs text-gray-500 dark:text-gray-400">{t.helpNote}</p>
-        </div>
-      )}
+      {/* Help */}
+      <div className="rounded-xl border border-gray-200/70 dark:border-gray-800 bg-white dark:bg-gray-900 p-4 text-sm text-gray-700 dark:text-gray-300 space-y-2">
+        <ul className="list-disc pl-5 space-y-1">
+          <li>{t.help1}</li>
+          <li>{t.help2}</li>
+        </ul>
+        <p className="text-xs text-gray-500 dark:text-gray-400">{t.helpNote}</p>
+      </div>
 
-      {activeQuery && (
+      {/* Hit count */}
+      {hasActiveQuery && (
         <p className="text-sm text-gray-600 dark:text-gray-400">
-          {hits.length.toLocaleString()}
+          {tableRows.length.toLocaleString()}
           {t.hitsSuffix}
         </p>
       )}
 
-      {selectedHits.length > 0 ? (
-        <>
-          <div className="flex items-center gap-4 text-sm">
-            <label className="inline-flex items-center gap-2 cursor-pointer">
-              <input
-                type="radio"
-                name="ngram-type"
-                checked={chartType === 'freq'}
-                onChange={() => setChartType('freq')}
-                className="accent-amber-600"
-              />
-              <span>{t.freq}</span>
-            </label>
-            <label className="inline-flex items-center gap-2 cursor-pointer">
-              <input
-                type="radio"
-                name="ngram-type"
-                checked={chartType === 'ratio'}
-                onChange={() => setChartType('ratio')}
-                className="accent-amber-600"
-              />
-              <span>{t.ratio}</span>
-            </label>
-          </div>
+      {/* Mode radios */}
+      {hasSelection && (
+        <div className="flex items-center gap-4 text-sm">
+          <label className="inline-flex items-center gap-2 cursor-pointer">
+            <input
+              type="radio"
+              name="ngram-mode"
+              checked={mode === 'freq'}
+              onChange={() => changeMode('freq')}
+              className="accent-amber-600"
+            />
+            <span>{t.freq}</span>
+          </label>
+          <label className="inline-flex items-center gap-2 cursor-pointer">
+            <input
+              type="radio"
+              name="ngram-mode"
+              checked={mode === 'ratio'}
+              onChange={() => changeMode('ratio')}
+              className="accent-amber-600"
+            />
+            <span>{t.ratio}</span>
+          </label>
+        </div>
+      )}
 
-          <div className="rounded-xl bg-white dark:bg-gray-900 border border-gray-200/70 dark:border-gray-800 p-4">
-            <div style={{ height: 420 }}>
-              {/* chart.js typings for multi-type charts can be finicky */}
-              <ReactChart
-                type="line"
-                data={chartData as ChartData<'line'>}
-                options={chartOptions as ChartOptions<'line'>}
-              />
-            </div>
+      {/* Chart or empty state */}
+      {hasSelection ? (
+        <div className="rounded-xl border border-gray-200/70 dark:border-gray-800 bg-white dark:bg-gray-900 p-6">
+          <div style={{ height: 420 }}>
+            <ReactChart
+              type="line"
+              data={chartData as ChartData<'line'>}
+              options={chartOptions as ChartOptions<'line'>}
+            />
           </div>
-        </>
-      ) : activeQuery ? (
+        </div>
+      ) : hasActiveQuery ? (
         <div className="rounded-xl border border-gray-200/70 dark:border-gray-800 bg-white dark:bg-gray-900 p-6 text-center text-sm text-gray-500 dark:text-gray-400">
           {t.noMatches}
         </div>
@@ -343,7 +464,8 @@ export default function NgramClient({ summary, locale }: Props) {
         </div>
       )}
 
-      {hits.length > 0 && (
+      {/* Results table */}
+      {tableRows.length > 0 && (
         <div className="rounded-xl border border-gray-200/70 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
@@ -351,35 +473,44 @@ export default function NgramClient({ summary, locale }: Props) {
                 <tr>
                   <th className="px-4 py-2 font-medium w-10">{t.select}</th>
                   <th className="px-4 py-2 font-medium">{t.term}</th>
-                  <th className="px-4 py-2 font-medium text-right">{t.termFreq}</th>
-                  <th className="px-4 py-2 font-medium text-right">{t.termDf}</th>
+                  <th className="px-4 py-2 font-medium text-right">
+                    {t.termFreq}
+                  </th>
                 </tr>
               </thead>
               <tbody>
-                {hits.slice(0, 50).map((h) => (
-                  <tr
-                    key={h.label}
-                    className="border-t border-gray-200/70 dark:border-gray-800 hover:bg-amber-50/40 dark:hover:bg-amber-900/10 transition-colors"
-                  >
-                    <td className="px-4 py-2">
-                      <input
-                        type="checkbox"
-                        checked={selected.has(h.label)}
-                        onChange={() => toggleSelect(h.label)}
-                        className="accent-amber-600"
-                      />
-                    </td>
-                    <td className="px-4 py-2 font-medium text-gray-900 dark:text-gray-100">
-                      {h.label}
-                    </td>
-                    <td className="px-4 py-2 text-right tabular-nums">
-                      {h.count.toLocaleString()}
-                    </td>
-                    <td className="px-4 py-2 text-right tabular-nums">
-                      {h.df.toLocaleString()}
-                    </td>
-                  </tr>
-                ))}
+                {tableRows.map((row) => {
+                  const isPlotted = selectedTerms.includes(row.term);
+                  return (
+                    <tr
+                      key={row.term}
+                      className="border-t border-gray-200/70 dark:border-gray-800 hover:bg-amber-50/40 dark:hover:bg-amber-900/10 transition-colors"
+                    >
+                      <td className="px-4 py-2">
+                        <span
+                          className={`inline-flex h-4 w-4 items-center justify-center rounded border ${
+                            isPlotted
+                              ? 'border-amber-500 bg-amber-500'
+                              : 'border-gray-300 dark:border-gray-600'
+                          }`}
+                          aria-label={isPlotted ? 'plotted' : 'not plotted'}
+                        />
+                      </td>
+                      <td className="px-4 py-2 font-medium text-gray-900 dark:text-gray-100">
+                        <button
+                          type="button"
+                          onClick={() => submitSearch(row.term)}
+                          className="hover:text-amber-700 dark:hover:text-amber-400 transition-colors"
+                        >
+                          {row.term}
+                        </button>
+                      </td>
+                      <td className="px-4 py-2 text-right tabular-nums">
+                        {(termTotals[row.term] ?? row.total).toLocaleString()}
+                      </td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           </div>

@@ -54,6 +54,15 @@ export default async function RootLayout({ children, params }: LayoutProps) {
 
   return (
     <html lang={locale} suppressHydrationWarning className={`${inter.variable} ${notoSansJp.variable}`}>
+      <head>
+        {/* Polyfill for esbuild's __name helper used by next-themes' inline script.
+            Turbopack emits __name(fn, "name") calls but doesn't ship the helper. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: 'window.__name=window.__name||function(f){return f};',
+          }}
+        />
+      </head>
       <body className="min-h-screen flex flex-col font-sans antialiased bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 selection:bg-amber-200/60 dark:selection:bg-amber-400/30">
         <ThemeProvider
           attribute="class"

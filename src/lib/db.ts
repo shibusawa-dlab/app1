@@ -645,22 +645,69 @@ export async function getNgramSeries(terms: string[]): Promise<NgramPoint[]> {
   return (res.results ?? []).map((r) => ({ term: r.term, year: r.year, freq: r.freq }));
 }
 
+/**
+ * Match terms either by exact equality or substring (`LIKE %q%`). Used by the
+ * Ngram page to translate the slash-separated input into concrete terms before
+ * fetching their series. Falls back gracefully when the table is missing rows.
+ */
 export async function listNgramTerms(
-  prefix: string,
+  query: string,
   limit = 20
 ): Promise<{ term: string; total: number }[]> {
   const db = await getDb();
+  const trimmed = query.trim();
+  if (!trimmed) return [];
+  // Escape LIKE wildcards in the user input before wrapping in %…%.
+  const escaped = trimmed.replace(/[%_]/g, (c) => `\\${c}`);
   const res = await db
     .prepare(
       `SELECT term, SUM(freq) AS total FROM ngrams
-       WHERE term LIKE ?
+       WHERE term LIKE ? ESCAPE '\\'
        GROUP BY term
        ORDER BY total DESC
        LIMIT ?`
     )
-    .bind(`${prefix}%`, limit)
+    .bind(`%${escaped}%`, limit)
     .all<{ term: string; total: number }>();
   return (res.results ?? []).map((r) => ({ term: r.term, total: Number(r.total) }));
+}
+
+/**
+ * Total TF per term (summed across all years). Used to populate the results
+ * table and to pick the top-N terms when a user passes a substring match.
+ */
+export async function getNgramTermTotals(
+  terms: string[]
+): Promise<Record<string, number>> {
+  if (terms.length === 0) return {};
+  const db = await getDb();
+  const placeholders = terms.map(() => '?').join(',');
+  const res = await db
+    .prepare(
+      `SELECT term, SUM(freq) AS total FROM ngrams
+       WHERE term IN (${placeholders})
+       GROUP BY term`
+    )
+    .bind(...terms)
+    .all<{ term: string; total: number }>();
+  const out: Record<string, number> = {};
+  for (const r of res.results ?? []) out[r.term] = Number(r.total);
+  return out;
+}
+
+/**
+ * Yearly corpus totals used to normalise per-term frequencies into a ratio.
+ * Falls back to computing from the ngrams table if `ngram_totals` is empty
+ * (which can happen mid-seed).
+ */
+export async function getNgramTotals(): Promise<Record<string, number>> {
+  const db = await getDb();
+  const res = await db
+    .prepare('SELECT year, total FROM ngram_totals ORDER BY year')
+    .all<{ year: number; total: number }>();
+  const out: Record<string, number> = {};
+  for (const r of res.results ?? []) out[String(r.year)] = Number(r.total);
+  return out;
 }
 
 // ---------------------------------------------------------------------------
@@ -1033,15 +1080,32 @@ function createLocalFallback(): DbLike {
       }
       return rows;
     }
-    if (sql.startsWith('SELECT term, SUM(freq)')) {
+    if (sql.startsWith('SELECT term, SUM(freq) AS total FROM ngrams WHERE term LIKE')) {
       const summary = await loadNgramSummary();
-      const prefix = String(binds[0] ?? '').replace(/%$/, '');
+      const raw = String(binds[0] ?? '');
+      const needle = raw
+        .replace(/^%/, '')
+        .replace(/%$/, '')
+        .replace(/\\([%_])/g, '$1');
       const limit = Number(binds[1] ?? 20);
       return summary.terms
-        .filter((t) => (prefix ? t.label.startsWith(prefix) : true))
+        .filter((t) => (needle ? t.label.includes(needle) : true))
         .map((t) => ({ term: t.label, total: t.count }))
         .sort((a, b) => b.total - a.total)
         .slice(0, limit);
+    }
+    if (sql.startsWith('SELECT term, SUM(freq) AS total FROM ngrams WHERE term IN')) {
+      const summary = await loadNgramSummary();
+      const wanted = new Set(binds.map(String));
+      return summary.terms
+        .filter((t) => wanted.has(t.label))
+        .map((t) => ({ term: t.label, total: t.count }));
+    }
+    if (sql.startsWith('SELECT year, total FROM ngram_totals')) {
+      const summary = await loadNgramSummary();
+      return Object.entries(summary.ngramAll)
+        .map(([y, total]) => ({ year: Number(y), total: Number(total) }))
+        .sort((a, b) => a.year - b.year);
     }
 
     unsupported(sql);

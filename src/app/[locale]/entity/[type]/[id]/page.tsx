@@ -130,23 +130,25 @@ export default async function EntityDetailPage({
           </h2>
           <div className="rounded-xl border border-gray-200/70 dark:border-gray-800 bg-white dark:bg-gray-900 p-6 overflow-x-auto">
             {/* Minimal bar chart — legacy used Google Charts; we render a simple accessible version. */}
-            <ul className="flex items-end gap-1 min-h-[120px]">
+            <ul className="flex items-end gap-1 h-64 pb-8">
               {byYear.map((y) => {
                 const h = maxYearCount === 0 ? 0 : (y.count / maxYearCount) * 100;
                 return (
                   <li
                     key={y.year}
-                    className="flex-1 flex flex-col items-center gap-1 min-w-[24px] group"
+                    className="flex-1 flex flex-col items-stretch min-w-[28px] h-full group"
                     title={`${y.year}: ${y.count}`}
                   >
-                    <span className="text-[10px] text-gray-500 dark:text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span className="text-[10px] text-center text-gray-500 dark:text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity h-4">
                       {y.count}
                     </span>
-                    <span
-                      className="w-full rounded-t bg-gradient-to-t from-amber-400 to-rose-400"
-                      style={{ height: `${Math.max(2, h)}%` }}
-                    />
-                    <span className="text-[10px] font-mono text-gray-500 dark:text-gray-400 whitespace-nowrap rotate-45 origin-left mt-1">
+                    <div className="flex-1 flex items-end">
+                      <span
+                        className="block w-full rounded-t bg-gradient-to-t from-amber-400 to-rose-400 group-hover:from-amber-500 group-hover:to-rose-500 transition-colors"
+                        style={{ height: `${Math.max(2, h)}%` }}
+                      />
+                    </div>
+                    <span className="mt-1 text-[10px] font-mono text-gray-500 dark:text-gray-400 whitespace-nowrap origin-top-left rotate-45 h-4">
                       {y.year}
                     </span>
                   </li>
