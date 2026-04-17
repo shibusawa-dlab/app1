@@ -1,13 +1,10 @@
-import { promises as fs } from 'node:fs';
-import path from 'node:path';
 import { routing } from '@/i18n/routing';
 import { setRequestLocale } from 'next-intl/server';
 import PageLayout from '@/components/layout/PageLayout';
 import { getPageMetadata } from '@/constants/metadata';
-import NgramClient, {
-  type NgramSummary,
-} from '@/components/page/ngram/NgramClient';
+import NgramClient from '@/components/page/ngram/NgramClient';
 import { NGRAM_TRANSLATIONS } from '@/components/page/ngram/translations';
+import { NGRAM_SUMMARY } from '@/content/ngramSummary';
 import type { Metadata } from 'next';
 import type { Locale } from '@/constants/site';
 
@@ -28,23 +25,6 @@ export async function generateMetadata({
   });
 }
 
-async function loadSummary(): Promise<NgramSummary> {
-  // The raw ngram.json is ~59 MB and is intentionally not shipped in public/.
-  // At build time we read a pre-computed compact summary (top-200 terms with
-  // time series + total-ngram-per-year histogram) generated once from
-  // backup/static/data/ngram.json. See the project brief for the ngram data
-  // compromise.
-  const file = path.join(
-    process.cwd(),
-    'public',
-    'data',
-    'ngram',
-    'summary.json'
-  );
-  const raw = await fs.readFile(file, 'utf8');
-  return JSON.parse(raw) as NgramSummary;
-}
-
 export default async function NgramPage({
   params,
 }: {
@@ -53,7 +33,11 @@ export default async function NgramPage({
   const { locale } = await params;
   setRequestLocale(locale);
 
-  const summary = await loadSummary();
+  // The raw ngram.json is ~59 MB and is intentionally not shipped. A compact
+  // summary (top-200 terms with yearly series + total-ngram-per-year
+  // histogram) is bundled at build time — see src/content/ngramSummary.ts.
+  // Cloudflare Workers does not support fs.readFile, hence the bundled import.
+  const summary = NGRAM_SUMMARY;
   const t = NGRAM_TRANSLATIONS[locale as Locale] ?? NGRAM_TRANSLATIONS.ja;
 
   return (

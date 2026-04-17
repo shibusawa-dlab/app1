@@ -15,6 +15,7 @@ import {
   OP_AGGREGATE_ID,
 } from '@/components/page/ad/data';
 import { getAdMessages } from '@/components/page/ad/translations';
+import { toHttpsOrProxy } from '@/lib/url';
 import { FaArrowLeft, FaExternalLinkAlt, FaBookOpen } from 'react-icons/fa';
 import type { Metadata } from 'next';
 import type { Locale } from '@/constants/site';
@@ -123,7 +124,7 @@ export default async function AdDetail({
                   {c.image ? (
                     // eslint-disable-next-line @next/next/no-img-element
                     <img
-                      src={c.image}
+                      src={toHttpsOrProxy(c.image)}
                       alt={c.label}
                       className="absolute inset-0 w-full h-full object-contain"
                       loading="lazy"

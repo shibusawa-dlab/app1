@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import { rewriteHttpHostsDeep, toHttpsOrProxy } from '@/lib/url';
 // `@types/openseadragon` will be installed alongside `openseadragon`.
 // Use a loose type here so the module is only needed at runtime.
 type Viewer = { destroy: () => void };
@@ -89,19 +90,27 @@ export default function OpenSeadragonViewer({
 
     async function init() {
       try {
+        // The manifest URL itself might be HTTP on a legacy record — upgrade
+        // it, and also rewrite any HTTP image hosts in the parsed payload so
+        // OpenSeadragon never emits mixed-content requests on HTTPS pages.
+        const safeManifestUrl = toHttpsOrProxy(manifestUrl);
         const [{ default: OpenSeadragon }, manifestResp] = await Promise.all([
           import('openseadragon'),
-          fetch(manifestUrl),
+          fetch(safeManifestUrl),
         ]);
         if (cancelled) return;
 
         if (!manifestResp.ok) {
           throw new Error(`Failed to fetch manifest: ${manifestResp.status}`);
         }
-        const manifest = (await manifestResp.json()) as IIIFManifest;
+        const rawManifest = (await manifestResp.json()) as IIIFManifest;
         if (cancelled) return;
 
-        const tileSources = extractTileSources(manifest);
+        const manifest = rewriteHttpHostsDeep(rawManifest);
+
+        const tileSources = extractTileSources(manifest).map((src) =>
+          toHttpsOrProxy(src)
+        );
         if (tileSources.length === 0) {
           throw new Error('No images found in manifest');
         }

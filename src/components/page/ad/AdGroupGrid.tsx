@@ -1,5 +1,6 @@
 import { Link } from '@/i18n/routing';
 import { FaBookOpen, FaArrowRight } from 'react-icons/fa';
+import { toHttpsOrProxy } from '@/lib/url';
 import type { AdItem } from './data';
 
 type Props = {
@@ -39,7 +40,7 @@ export default function AdGroupGrid({ groups, noImageLabel }: Props) {
                     {child.image ? (
                       // eslint-disable-next-line @next/next/no-img-element
                       <img
-                        src={child.image}
+                        src={toHttpsOrProxy(child.image)}
                         alt={child.label}
                         className="absolute inset-0 w-full h-full object-contain"
                         loading="lazy"

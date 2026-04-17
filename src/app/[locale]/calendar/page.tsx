@@ -1,5 +1,3 @@
-import { promises as fs } from 'node:fs';
-import path from 'node:path';
 import type { Metadata } from 'next';
 import { setRequestLocale } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
@@ -9,6 +7,7 @@ import type { Locale } from '@/constants/site';
 import CalendarGrid, { type YearsData } from '@/components/page/calendar/CalendarGrid';
 import YearChart from '@/components/page/calendar/YearChart';
 import { CALENDAR_TRANSLATIONS } from '@/components/page/calendar/translations';
+import { listCalendarYears } from '@/lib/db';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -28,9 +27,9 @@ export async function generateMetadata({
 }
 
 async function loadYears(): Promise<YearsData> {
-  const filePath = path.join(process.cwd(), 'public', 'data', 'years.json');
-  const raw = await fs.readFile(filePath, 'utf-8');
-  return JSON.parse(raw) as YearsData;
+  // Queries calendar_entries in D1 and groups by (year, month). In local dev
+  // without a live D1 the helper transparently reads public/data/years.json.
+  return (await listCalendarYears()) as YearsData;
 }
 
 export default async function CalendarPage({
