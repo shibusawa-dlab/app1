@@ -26,13 +26,13 @@ export default function YearChart({ data }: { data: YearsData }) {
 
   return (
     <div className="rounded-2xl border border-amber-100 dark:border-amber-900/40 bg-white dark:bg-gray-900 p-5 md:p-6 shadow-sm">
-      <div className="flex items-end gap-[2px] h-44 md:h-56">
+      <div className="flex items-stretch gap-[2px] h-44 md:h-56">
         {rows.map((r) => {
           const h = (r.count / max) * 100;
           return (
             <div
               key={r.year}
-              className="flex-1 flex flex-col justify-end items-center group"
+              className="flex-1 flex flex-col justify-end group"
               title={`${r.year}: ${r.count}`}
             >
               <div
