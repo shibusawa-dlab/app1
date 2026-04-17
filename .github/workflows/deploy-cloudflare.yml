@@ -23,7 +23,7 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --ignore-scripts
 
       - name: Build search index
         run: node --max-old-space-size=4096 scripts/build-search-index.mjs
