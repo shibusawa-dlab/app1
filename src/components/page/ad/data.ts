@@ -1,5 +1,10 @@
-import fs from 'node:fs';
-import path from 'node:path';
+/**
+ * Archival-description helpers — backed by the D1 `ad_items` table (or the
+ * local JSON fallback in `src/lib/db.ts`). Each row stores the original
+ * JSON-LD record as a `data` TEXT blob; we parse and project it into the
+ * lightweight `AdItem` shape the page components consume.
+ */
+import { getAdItem, listAdItems, type AdRow } from '@/lib/db';
 
 // JSON-LD raw record shape (subset of the fields we care about)
 export type AdRawRecord = {
@@ -74,12 +79,6 @@ export const REDIRECTED_OP_IDS = new Set([
 
 export const OP_AGGREGATE_ID = 'DKB20014m';
 
-function readRaw(): AdRawRecord[] {
-  const filePath = path.join(process.cwd(), 'public', 'data', 'ad.json');
-  const contents = fs.readFileSync(filePath, 'utf-8');
-  return JSON.parse(contents) as AdRawRecord[];
-}
-
 function transform(raw: AdRawRecord): AdItem {
   const id = raw['@id'];
   const slug = id.split('/items/')[1] ?? id;
@@ -139,51 +138,62 @@ function transform(raw: AdRawRecord): AdItem {
   return item;
 }
 
-let cached: AdDataset | null = null;
+function rowToRaw(row: AdRow): AdRawRecord {
+  // `data` is parsed JSON already (see `getAdItem`/`listAdItems`).
+  return row.data as unknown as AdRawRecord;
+}
 
-export function loadAdDataset(): AdDataset {
+let cached: Promise<AdDataset> | null = null;
+
+export async function loadAdDataset(): Promise<AdDataset> {
   if (cached) return cached;
-  const raw = readRaw();
-  const items = raw.map(transform);
+  cached = (async () => {
+    const rows = await listAdItems();
+    const items = rows.map((row) => transform(rowToRaw(row)));
 
-  const byId: Record<string, AdItem> = {};
-  const bySlug: Record<string, AdItem> = {};
-  const childrenByParentId: Record<string, string[]> = {};
+    const byId: Record<string, AdItem> = {};
+    const bySlug: Record<string, AdItem> = {};
+    const childrenByParentId: Record<string, string[]> = {};
 
-  for (const item of items) {
-    byId[item.id] = item;
-    bySlug[item.slug] = item;
-    if (item.parent) {
-      if (!childrenByParentId[item.parent]) {
-        childrenByParentId[item.parent] = [];
+    for (const item of items) {
+      byId[item.id] = item;
+      bySlug[item.slug] = item;
+      if (item.parent) {
+        if (!childrenByParentId[item.parent]) {
+          childrenByParentId[item.parent] = [];
+        }
+        childrenByParentId[item.parent].push(item.id);
       }
-      childrenByParentId[item.parent].push(item.id);
     }
-  }
 
-  // sort child arrays
-  for (const key of Object.keys(childrenByParentId)) {
-    childrenByParentId[key].sort();
-  }
+    for (const key of Object.keys(childrenByParentId)) {
+      childrenByParentId[key].sort();
+    }
 
-  cached = { items, byId, bySlug, childrenByParentId };
+    return { items, byId, bySlug, childrenByParentId };
+  })();
   return cached;
 }
 
+export async function getAdBySlug(slug: string): Promise<AdItem | null> {
+  // Short-circuit via the full dataset — only ~39 rows, fits in memory easily.
+  const { bySlug } = await loadAdDataset();
+  return bySlug[slug] ?? null;
+}
+
+/** Fetch a single row without loading the whole set (for detail pages). */
+export async function getAdById(id: string): Promise<AdItem | null> {
+  const row = await getAdItem(id);
+  if (!row) return null;
+  return transform(rowToRaw(row));
+}
+
 // Util: XML -> HTML (lightweight port of the legacy `xml2html` util).
-// The TEI fragment in `xml` uses custom tags like <persName>, <placeName>,
-// <date>, <surname>, <forename>, <p>, <div>. We strip tags we don't render
-// and convert paragraphs to line breaks so the prose flows.
 export function xmlToHtml(xml: string): string {
   if (!xml) return '';
-  // Drop opening/closing tags we don't want to render visually, keeping inner
-  // text. This is deliberately permissive for static, trusted content.
   let out = xml;
-  // <p>..</p> -> inner + <br/>
   out = out.replace(/<p[^>]*>/g, '').replace(/<\/p>/g, '<br/>');
-  // <div ...> / </div>
   out = out.replace(/<\/?div[^>]*>/g, '');
-  // Inline TEI tags: keep inner text
   out = out.replace(
     /<\/?(persName|placeName|surname|forename|date|name|rs|hi|foreign|lb|orgName)[^>]*>/g,
     ''
@@ -191,7 +201,6 @@ export function xmlToHtml(xml: string): string {
   return out;
 }
 
-// Util: clean up contributor string (mirrors legacy `fix2`)
 export function cleanContributor(text: string): string {
   return text
     .replace('国文研', '日本')
@@ -199,20 +208,19 @@ export function cleanContributor(text: string): string {
     .replace('http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ;', '');
 }
 
-// For display of aggregate ID
 export function displayId(slug: string): string {
   if (slug === OP_AGGREGATE_ID) return 'DKB20015m - DKB20033m';
   return slug;
 }
 
-// Build the groups shown on the index page (by parent). Sorted by parent id,
-// excludes the synthetic "top" parent.
-export function getAdIndexGroups(): {
-  parentId: string;
-  parent: AdItem | undefined;
-  children: AdItem[];
-}[] {
-  const { childrenByParentId, byId } = loadAdDataset();
+export async function getAdIndexGroups(): Promise<
+  {
+    parentId: string;
+    parent: AdItem | undefined;
+    children: AdItem[];
+  }[]
+> {
+  const { childrenByParentId, byId } = await loadAdDataset();
   const parentIds = Object.keys(childrenByParentId)
     .filter((id) => !id.endsWith('/items/top'))
     .sort();

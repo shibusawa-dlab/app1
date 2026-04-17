@@ -1,4 +1,3 @@
-import { routing } from '@/i18n/routing';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { Link } from '@/i18n/routing';
@@ -20,19 +19,8 @@ import { FaArrowLeft, FaExternalLinkAlt, FaBookOpen } from 'react-icons/fa';
 import type { Metadata } from 'next';
 import type { Locale } from '@/constants/site';
 
-export function generateStaticParams() {
-  // Only 39 items in ad.json; we can safely pre-render everything.
-  const { items } = loadAdDataset();
-  const params: { locale: string; id: string }[] = [];
-  for (const locale of routing.locales) {
-    for (const item of items) {
-      // Legacy redirected slugs collapse into the aggregate OP_AGGREGATE_ID.
-      if (REDIRECTED_OP_IDS.has(item.slug)) continue;
-      params.push({ locale, id: item.slug });
-    }
-  }
-  return params;
-}
+// Rendered server-side on demand via D1 — no static generation.
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({
   params,
@@ -40,7 +28,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string; id: string }>;
 }): Promise<Metadata> {
   const { locale, id } = await params;
-  const { bySlug } = loadAdDataset();
+  const { bySlug } = await loadAdDataset();
   const item = bySlug[id];
   const messages = getAdMessages(locale as Locale);
   const title = item
@@ -62,7 +50,7 @@ export default async function AdDetail({
 
   const tNav = await getTranslations('Nav');
   const messages = getAdMessages(locale as Locale);
-  const { bySlug, childrenByParentId, byId } = loadAdDataset();
+  const { bySlug, childrenByParentId, byId } = await loadAdDataset();
 
   // Legacy compat: redirected OP slugs map to the aggregate item
   const effectiveSlug = REDIRECTED_OP_IDS.has(id) ? OP_AGGREGATE_ID : id;

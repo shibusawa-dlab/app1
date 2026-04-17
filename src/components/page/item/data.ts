@@ -1,5 +1,10 @@
-import { promises as fs } from 'node:fs';
-import path from 'node:path';
+/**
+ * Item data helpers — backed by the D1 `items` table (or a local JSON
+ * fallback) via `src/lib/db.ts`. The previous implementation loaded a ~72 MB
+ * `docs.json` into memory at build time; we now fetch on demand, so the
+ * surface here is intentionally slim.
+ */
+import { getItem, normalizeItemId, listItems, type ItemRow } from '@/lib/db';
 
 export type DocRecord = {
   objectID: string;
@@ -29,62 +34,55 @@ export type DocRecord = {
   texts?: string[];
 };
 
-export type DocsIndex = Record<string, DocRecord>;
-
-/**
- * Path to the legacy docs.json outside the public tree.
- * Kept outside public/ to avoid shipping a 72 MB file with the build.
- */
-const DOCS_PATH = path.join(
-  process.cwd(),
-  'backup',
-  'static',
-  'data',
-  'docs.json'
-);
-
-let cache: DocsIndex | null = null;
-
-/**
- * Load the full docs.json index. This is ~72 MB and takes a second to parse,
- * so it's cached per server process. Only called at build time from server
- * components / generateStaticParams.
- *
- * TODO (scale): At build time with 10k+ records this materializes a huge
- * object. Consider splitting by objectID (e.g. one JSON file per item under
- * public/data/items/) and fetching on demand. For now, we bound
- * generateStaticParams and load docs.json lazily.
- */
-export async function loadDocs(): Promise<DocsIndex> {
-  if (cache) return cache;
-  try {
-    const raw = await fs.readFile(DOCS_PATH, 'utf-8');
-    cache = JSON.parse(raw) as DocsIndex;
-    return cache;
-  } catch (err) {
-    // In environments without backup/, fall back to empty index (page will 404).
-    console.warn(
-      '[item/data] Unable to read docs.json, rendering empty dataset:',
-      err instanceof Error ? err.message : err
-    );
-    cache = {};
-    return cache;
-  }
+/** Normalize user-provided IDs to the canonical items key. */
+export function normalizeDocId(id: string): string {
+  return normalizeItemId(id);
 }
 
-/**
- * Normalize user-provided IDs to the canonical docs.json key.
- * Legacy pattern: "DKB10001m-1" -> "DKB10001m-0001".
- */
-export function normalizeDocId(id: string): string {
-  const spl = id.split('-');
-  if (spl.length !== 2) return id;
-  const [prefix, num] = spl;
-  if (!/^\d+$/.test(num)) return id;
-  return `${prefix}-${String(Number(num)).padStart(4, '0')}`;
+function rowToDoc(row: ItemRow | null): DocRecord | undefined {
+  if (!row) return undefined;
+  const doc: DocRecord = {
+    objectID: row.id,
+  };
+  if (row.label) doc.label = row.label;
+  if (row.xml) doc.xml = row.xml;
+  if (row.description) doc.description = row.description;
+  if (row.agential.length > 0) doc.agential = row.agential;
+  if (row.spatial.length > 0) doc.spatial = row.spatial;
+  if (row.temporal) doc.temporal = row.temporal;
+  if (row.year != null) doc.year = row.year;
+  if (row.year_and_month) doc.yearAndMonth = row.year_and_month;
+  if (row.manifest) doc.manifest = row.manifest;
+  if (row.canvas) doc.canvas = row.canvas;
+  if (row.source) doc.source = row.source;
+  if (row.prev_id) doc.prev = row.prev_id;
+  if (row.next_id) doc.next = row.next_id;
+  if (row.sort_key) doc.sort = row.sort_key;
+  if (row.type) doc.type = row.type;
+  if (row.date_lvl0) doc.date_lvl0 = row.date_lvl0;
+  if (row.date_lvl1) doc.date_lvl1 = row.date_lvl1;
+  if (row.date_lvl2) doc.date_lvl2 = row.date_lvl2;
+  if (row.category_lvl0) doc.category_lvl0 = row.category_lvl0;
+  if (row.category_lvl1) doc.category_lvl1 = row.category_lvl1;
+  const date: NonNullable<DocRecord['date']> = {};
+  if (row.date_lvl0) date.lvl0 = row.date_lvl0;
+  if (row.date_lvl1) date.lvl1 = row.date_lvl1;
+  if (row.date_lvl2) date.lvl2 = row.date_lvl2;
+  if (Object.keys(date).length > 0) doc.date = date;
+  const category: NonNullable<DocRecord['category']> = {};
+  if (row.category_lvl0) category.lvl0 = row.category_lvl0;
+  if (row.category_lvl1) category.lvl1 = row.category_lvl1;
+  if (Object.keys(category).length > 0) doc.category = category;
+  return doc;
 }
 
 export async function getDoc(id: string): Promise<DocRecord | undefined> {
-  const docs = await loadDocs();
-  return docs[normalizeDocId(id)];
+  const row = await getItem(id);
+  return rowToDoc(row);
+}
+
+/** Slim listing helper retained for compatibility with earlier callers. */
+export async function listDocs(limit = 50, offset = 0): Promise<DocRecord[]> {
+  const rows = await listItems(limit, offset);
+  return rows.map((r) => rowToDoc(r)).filter((d): d is DocRecord => Boolean(d));
 }

@@ -1,40 +1,24 @@
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
-import { routing, Link } from '@/i18n/routing';
+import { Link } from '@/i18n/routing';
 import { setRequestLocale } from 'next-intl/server';
 import PageLayout from '@/components/layout/PageLayout';
 import { getPageMetadata } from '@/constants/metadata';
 import { getEntityMessages } from '@/components/page/entity/translations';
 import {
-  loadEntityData,
+  getEntityRecord,
   describeValue,
   type EntityType,
 } from '@/components/page/entity/data';
-import { loadDocs } from '@/components/page/item/data';
+import { getEntitySummary } from '@/lib/db';
 import { FaUser, FaMapMarkerAlt, FaSearch } from 'react-icons/fa';
 import type { Metadata } from 'next';
 import type { Locale } from '@/constants/site';
 
 const ALLOWED_ENTITIES: EntityType[] = ['agential', 'spatial'];
 
-// Cloudflare Pages has a 20k-file limit. Cap entity detail SSG to the
-// top-N by value (appearance count). Set SSG_ENTITY_LIMIT=0 for unlimited.
-const SSG_ENTITY_LIMIT = Number(process.env.SSG_ENTITY_LIMIT ?? 300);
-
-export async function generateStaticParams() {
-  const data = await loadEntityData();
-  const combos: { locale: string; type: string; id: string }[] = [];
-  for (const locale of routing.locales) {
-    for (const key of ALLOWED_ENTITIES) {
-      const list = data[key] ?? [];
-      const capped = SSG_ENTITY_LIMIT > 0 ? list.slice(0, SSG_ENTITY_LIMIT) : list;
-      for (const rec of capped) {
-        combos.push({ locale, type: key, id: rec.id });
-      }
-    }
-  }
-  return combos;
-}
+// Rendered server-side on demand via D1 — no static generation.
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({
   params,
@@ -47,96 +31,6 @@ export async function generateMetadata({
     title: id,
     description: `${m.title}: ${id}`,
   });
-}
-
-type Hit = { id: string; count: number };
-type RelationSummary = {
-  byYear: { year: string; count: number }[];
-  related: Record<EntityType, Hit[]>;
-  total: number;
-};
-type RelationIndex = Record<EntityType, Map<string, RelationSummary>>;
-
-let relationCache: RelationIndex | null = null;
-
-/**
- * Build a single-pass inverted index from docs.json, keyed by entity ID.
- * Cached in module scope so subsequent page renders reuse the result.
- */
-async function getRelationIndex(): Promise<RelationIndex> {
-  if (relationCache) return relationCache;
-
-  const docs = await loadDocs();
-  const working: Record<EntityType, Map<string, {
-    years: Map<string, number>;
-    rel: Record<EntityType, Map<string, number>>;
-    total: number;
-  }>> = {
-    agential: new Map(),
-    spatial: new Map(),
-  };
-
-  const ensure = (field: EntityType, id: string) => {
-    let slot = working[field].get(id);
-    if (!slot) {
-      slot = {
-        years: new Map(),
-        rel: { agential: new Map(), spatial: new Map() },
-        total: 0,
-      };
-      working[field].set(id, slot);
-    }
-    return slot;
-  };
-
-  for (const key of Object.keys(docs)) {
-    const doc = docs[key];
-    const y = String(doc.year ?? '');
-    for (const field of ALLOWED_ENTITIES) {
-      const values = doc[field];
-      if (!values) continue;
-      for (const id of values) {
-        const slot = ensure(field, id);
-        slot.total += 1;
-        if (y) slot.years.set(y, (slot.years.get(y) ?? 0) + 1);
-        for (const other of ALLOWED_ENTITIES) {
-          const others = doc[other];
-          if (!others) continue;
-          for (const v of others) {
-            if (other === field && v === id) continue;
-            slot.rel[other].set(v, (slot.rel[other].get(v) ?? 0) + 1);
-          }
-        }
-      }
-    }
-  }
-
-  const finalize = (src: typeof working): RelationIndex => {
-    const out: RelationIndex = { agential: new Map(), spatial: new Map() };
-    const toSortedHits = (m: Map<string, number>): Hit[] =>
-      [...m.entries()]
-        .map(([id, count]) => ({ id, count }))
-        .sort((a, b) => b.count - a.count)
-        .slice(0, 10);
-    for (const field of ALLOWED_ENTITIES) {
-      for (const [id, slot] of src[field]) {
-        out[field].set(id, {
-          total: slot.total,
-          byYear: [...slot.years.entries()]
-            .map(([year, count]) => ({ year, count }))
-            .sort((a, b) => Number(a.year) - Number(b.year)),
-          related: {
-            agential: toSortedHits(slot.rel.agential),
-            spatial: toSortedHits(slot.rel.spatial),
-          },
-        });
-      }
-    }
-    return out;
-  };
-
-  relationCache = finalize(working);
-  return relationCache;
 }
 
 export default async function EntityDetailPage({
@@ -152,22 +46,18 @@ export default async function EntityDetailPage({
   const decodedId = decodeURIComponent(id);
 
   const m = getEntityMessages(locale as Locale);
-  const data = await loadEntityData();
-  const index: Record<string, (typeof data)[EntityType][number]> = {};
-  for (const rec of data[field] ?? []) {
-    index[rec.id] = rec;
-  }
-  const record = index[decodedId];
+  const [record, summary] = await Promise.all([
+    getEntityRecord(field, decodedId),
+    getEntitySummary(field, decodedId),
+  ]);
   const description = describeValue(record);
 
-  // Look up relations from the shared, cached inverted index.
-  const relationIndex = await getRelationIndex();
-  const summary = relationIndex[field].get(decodedId) ?? {
-    byYear: [],
-    related: { agential: [], spatial: [] },
-    total: 0,
+  const byYear = summary.byYear;
+  const related = {
+    agential: summary.relatedAgential,
+    spatial: summary.relatedSpatial,
   };
-  const { byYear, related, total } = summary;
+  const total = summary.total;
 
   const typeLabel = field === 'agential' ? m.typeAgential : m.typeSpatial;
   const typeSlug = field === 'agential' ? 'agential' : 'place';

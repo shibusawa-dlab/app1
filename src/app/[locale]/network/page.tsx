@@ -1,5 +1,3 @@
-import { promises as fs } from 'node:fs';
-import path from 'node:path';
 import { routing } from '@/i18n/routing';
 import { setRequestLocale } from 'next-intl/server';
 import PageLayout from '@/components/layout/PageLayout';
@@ -8,8 +6,12 @@ import NetworkList, {
   type NetworkIndexItem,
 } from '@/components/page/network/NetworkList';
 import { NETWORK_TRANSLATIONS } from '@/components/page/network/translations';
+import { listNetworkPeople } from '@/lib/db';
 import type { Metadata } from 'next';
 import type { Locale } from '@/constants/site';
+
+// Data is loaded from D1 at request time — render dynamically per request.
+export const dynamic = 'force-dynamic';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -29,16 +31,8 @@ export async function generateMetadata({
 }
 
 async function loadIndex(): Promise<NetworkIndexItem[]> {
-  const file = path.join(
-    process.cwd(),
-    'public',
-    'data',
-    'network',
-    'index.json'
-  );
-  const raw = await fs.readFile(file, 'utf8');
-  const json = JSON.parse(raw) as { items: NetworkIndexItem[] };
-  return json.items;
+  const rows = await listNetworkPeople(200);
+  return rows.map((r) => ({ id: r.id, label: r.id, count: r.count }));
 }
 
 export default async function NetworkOverviewPage({

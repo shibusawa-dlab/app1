@@ -1,10 +1,10 @@
 import { notFound } from 'next/navigation';
-import { routing, Link } from '@/i18n/routing';
+import { Link } from '@/i18n/routing';
 import { setRequestLocale } from 'next-intl/server';
 import PageLayout from '@/components/layout/PageLayout';
 import { getPageMetadata } from '@/constants/metadata';
 import { getItemMessages } from '@/components/page/item/translations';
-import { loadDocs, getDoc, type DocRecord } from '@/components/page/item/data';
+import { getDoc, type DocRecord } from '@/components/page/item/data';
 import { renderTeiXml } from '@/components/page/item/xml';
 import {
   FaChevronLeft,
@@ -16,33 +16,8 @@ import {
 import type { Metadata } from 'next';
 import type { Locale } from '@/constants/site';
 
-/**
- * Bounded at 30 entries — the docs.json has ~10,800 entries and statically
- * exporting all of them makes the build prohibitively slow. The first
- * available IDs (sorted) are enough to smoke-test the migration.
- *
- * TODO: When build infrastructure allows, raise or remove this limit.
- * Consider reading `next` pointers from an entry point (e.g. DKB10001m-0001)
- * and materializing a larger chain, or splitting docs.json into per-item
- * files so the build can stream them.
- */
-// Cloudflare Pages has a 20k-file limit. Set SSG_ITEM_LIMIT=0 for unlimited.
-const SSG_ITEM_LIMIT = Number(process.env.SSG_ITEM_LIMIT ?? 500);
-
-export async function generateStaticParams() {
-  const docs = await loadDocs();
-  const ids = Object.keys(docs).sort();
-  const capped = SSG_ITEM_LIMIT > 0 ? ids.slice(0, SSG_ITEM_LIMIT) : ids;
-  const combos: { locale: string; id: string }[] = [];
-  for (const locale of routing.locales) {
-    for (const id of capped) {
-      combos.push({ locale, id });
-    }
-  }
-  return combos;
-}
-
-export const dynamicParams = false;
+// Rendered server-side on demand via D1 — no static generation.
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({
   params,

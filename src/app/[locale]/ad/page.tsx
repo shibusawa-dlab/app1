@@ -8,6 +8,9 @@ import { getAdMessages } from '@/components/page/ad/translations';
 import type { Metadata } from 'next';
 import type { Locale } from '@/constants/site';
 
+// Data is loaded from D1 at request time — render dynamically per request.
+export const dynamic = 'force-dynamic';
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
@@ -35,7 +38,7 @@ export default async function AdIndex({
 
   const tNav = await getTranslations('Nav');
   const messages = getAdMessages(locale as Locale);
-  const groups = getAdIndexGroups();
+  const groups = await getAdIndexGroups();
 
   return (
     <PageLayout

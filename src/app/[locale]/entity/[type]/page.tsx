@@ -7,11 +7,14 @@ import { getEntityMessages } from '@/components/page/entity/translations';
 import {
   ENTITY_TYPE_SLUGS,
   TYPE_SLUG_TO_KEY,
-  loadEntityData,
+  getEntityList,
 } from '@/components/page/entity/data';
 import EntityListClient from '@/components/page/entity/EntityListClient';
 import type { Metadata } from 'next';
 import type { Locale } from '@/constants/site';
+
+// Data is loaded from D1 at request time — render dynamically per request.
+export const dynamic = 'force-dynamic';
 
 export function generateStaticParams() {
   const combos: { locale: string; type: string }[] = [];
@@ -22,8 +25,6 @@ export function generateStaticParams() {
   }
   return combos;
 }
-
-export const dynamicParams = false;
 
 export async function generateMetadata({
   params,
@@ -51,8 +52,7 @@ export default async function EntityTypePage({
   if (!dataKey) notFound();
 
   const m = getEntityMessages(locale as Locale);
-  const data = await loadEntityData();
-  const items = data[dataKey] ?? [];
+  const items = await getEntityList(dataKey);
   const typeLabel = dataKey === 'agential' ? m.typeAgential : m.typeSpatial;
 
   return (

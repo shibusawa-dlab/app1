@@ -1,12 +1,10 @@
-import { promises as fs } from 'node:fs';
-import path from 'node:path';
 import { notFound } from 'next/navigation';
-import { routing } from '@/i18n/routing';
 import { setRequestLocale } from 'next-intl/server';
 import PageLayout from '@/components/layout/PageLayout';
 import { getPageMetadata } from '@/constants/metadata';
 import NetworkDetailClient from '@/components/page/network/NetworkDetailClient';
 import { NETWORK_TRANSLATIONS } from '@/components/page/network/translations';
+import { getNetworkNeighbors } from '@/lib/db';
 import type { Metadata } from 'next';
 import type { Locale } from '@/constants/site';
 import type {
@@ -14,52 +12,29 @@ import type {
   GraphEdge,
 } from '@/components/page/network/NetworkGraph';
 
-// TODO: Only top-50 most frequent people are statically generated due to
-// static-export size limits. Expanding this set requires also generating the
-// corresponding public/data/network/<id>.json files (see scripts/build data).
-const NETWORK_DATA_DIR = path.join(
-  process.cwd(),
-  'public',
-  'data',
-  'network'
-);
+// Rendered server-side on demand via D1 — no static generation.
+export const dynamic = 'force-dynamic';
 
-type NetworkIndex = {
-  items: { id: string; label: string; count: number }[];
-};
+const NEIGHBOR_LIMIT = 50;
 
-type NetworkData = {
-  nodes: GraphNode[];
-  edges: GraphEdge[];
-};
+async function loadNetwork(
+  id: string
+): Promise<{ nodes: GraphNode[]; edges: GraphEdge[] } | null> {
+  const neighbors = await getNetworkNeighbors(id, NEIGHBOR_LIMIT);
+  if (neighbors.length === 0) return null;
 
-async function loadIndex(): Promise<NetworkIndex> {
-  const raw = await fs.readFile(
-    path.join(NETWORK_DATA_DIR, 'index.json'),
-    'utf8'
-  );
-  return JSON.parse(raw) as NetworkIndex;
-}
+  const selfWeight = neighbors.reduce((sum, n) => sum + n.weight, 0);
+  const nodes: GraphNode[] = [
+    { id, label: id, count: selfWeight },
+    ...neighbors.map((n) => ({ id: n.person, label: n.person, count: n.weight })),
+  ];
+  const edges: GraphEdge[] = neighbors.map((n) => ({
+    from: id,
+    to: n.person,
+    value: n.weight,
+  }));
 
-async function loadNetwork(id: string): Promise<NetworkData | null> {
-  const file = path.join(NETWORK_DATA_DIR, `${id}.json`);
-  try {
-    const raw = await fs.readFile(file, 'utf8');
-    return JSON.parse(raw) as NetworkData;
-  } catch {
-    return null;
-  }
-}
-
-export async function generateStaticParams() {
-  const index = await loadIndex();
-  const params: { locale: string; id: string }[] = [];
-  for (const locale of routing.locales) {
-    for (const item of index.items) {
-      params.push({ locale, id: item.id });
-    }
-  }
-  return params;
+  return { nodes, edges };
 }
 
 export async function generateMetadata({

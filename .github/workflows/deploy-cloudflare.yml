@@ -1,4 +1,4 @@
-name: Deploy to Cloudflare Pages
+name: Deploy to Cloudflare Workers
 
 on:
   push:
@@ -12,12 +12,6 @@ jobs:
     permissions:
       contents: read
       deployments: write
-    env:
-      # SSG caps to stay under Cloudflare Pages 20k-file limit.
-      # Set to 0 for unlimited (e.g. self-hosted builds).
-      SSG_ENTITY_LIMIT: "300"
-      SSG_ITEM_LIMIT: "500"
-      SSG_CALENDAR_LIMIT: "500"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -34,22 +28,16 @@ jobs:
       - name: Build search index
         run: node --max-old-space-size=4096 scripts/build-search-index.mjs
 
-      - name: Build Next.js (static export)
-        run: node --max-old-space-size=8192 node_modules/.bin/next build
+      - name: Build Next.js
+        run: npm run build
         env:
           NODE_ENV: production
 
-      - name: Optimize output for Cloudflare Pages
-        run: |
-          # Remove RSC prefetch .txt files (saves 590k+ files, ~7 GB).
-          # Client navigation falls back to full-page loads; acceptable for static.
-          find out -name "*.txt" -delete
-          echo "Files after cleanup: $(find out -type f | wc -l)"
-          echo "Size: $(du -sh out | cut -f1)"
+      - name: Build with OpenNext (Cloudflare Workers)
+        run: npx opennextjs-cloudflare build
 
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy out --project-name=shibusawa-diary
+      - name: Deploy to Cloudflare Workers
+        run: npx opennextjs-cloudflare deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
