@@ -1,0 +1,55 @@
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches:
+      - feature/nextjs-migration
+
+jobs:
+  deploy:
+    name: Build & Deploy
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    env:
+      # SSG caps to stay under Cloudflare Pages 20k-file limit.
+      # Set to 0 for unlimited (e.g. self-hosted builds).
+      SSG_ENTITY_LIMIT: "300"
+      SSG_ITEM_LIMIT: "500"
+      SSG_CALENDAR_LIMIT: "500"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build search index
+        run: node --max-old-space-size=4096 scripts/build-search-index.mjs
+
+      - name: Build Next.js (static export)
+        run: node --max-old-space-size=8192 node_modules/.bin/next build
+        env:
+          NODE_ENV: production
+
+      - name: Optimize output for Cloudflare Pages
+        run: |
+          # Remove RSC prefetch .txt files (saves 590k+ files, ~7 GB).
+          # Client navigation falls back to full-page loads; acceptable for static.
+          find out -name "*.txt" -delete
+          echo "Files after cleanup: $(find out -type f | wc -l)"
+          echo "Size: $(du -sh out | cut -f1)"
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy out --project-name=shibusawa-diary

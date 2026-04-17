@@ -1,22 +1,27 @@
 {
   "compilerOptions": {
-    "resolveJsonModule": true,
-    "target": "ES2018",
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "lib": ["ESNext", "ESNext.AsyncIterable", "DOM"],
-    "esModuleInterop": true,
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
-    "sourceMap": true,
+    "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
-    "experimentalDecorators": true,
-    "baseUrl": ".",
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
     "paths": {
-      "~/*": ["./*"],
-      "@/*": ["./*"]
-    },
-    "types": ["@types/node", "@nuxt/types", "@nuxt/content"]
+      "@/*": ["./src/*"]
+    }
   },
-  "exclude": ["node_modules", ".nuxt", "dist"]
+  "include": ["next-env.d.ts", "src/**/*.ts", "src/**/*.tsx", ".next/types/**/*.ts", ".next/dev/types/**/*.ts"],
+  "exclude": ["node_modules", "pages", "components", "layouts", "plugins", "middleware", "store", "content", "assets", "static", "env"]
 }

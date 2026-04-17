@@ -64,6 +64,8 @@ typings/
 
 # next.js build output
 .next
+next-env.d.ts
+out/
 
 # nuxt.js build output
 .nuxt
@@ -93,3 +95,10 @@ dist.zip
 update.sh
 
 tmp
+
+# Playwright
+/test-results/
+/playwright-report/
+
+# Smoke test scripts output
+/tmp/smoke-*.json
