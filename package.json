@@ -14,8 +14,7 @@
     "generate:production": "NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=\"production\" DEPLOY_ENV=\"GH_PAGES\" node --max-old-space-size=8192 node_modules/nuxt/bin/nuxt.js generate",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint:style": "stylelint **/*.{vue,css} --ignore-path .gitignore",
-    "lint": "yarn lint:js && yarn lint:style",
-    "deploy:staging": "firebase deploy --only hosting"
+    "lint": "yarn lint:js && yarn lint:style"
   },
   "lint-staged": {
     "*.{js,vue}": "eslint",
@@ -41,8 +40,6 @@
     "cross-env": "^7.0.2",
     "csv": "^6.0.5",
     "elasticsearch": "^16.7.2",
-    "firebase": "^8.2.1",
-    "firebase-tools": "^9.1.0",
     "fs": "^0.0.1-security",
     "jquery": "^3.6.0",
     "leaflet": "^1.7.1",
