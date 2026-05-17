@@ -1,0 +1,15 @@
+{
+  "name": "app1-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "description": "渋沢栄一ダイアリー（app1）の e2e テスト。本体の Nuxt アプリとは独立。",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "setup": "playwright install chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1"
+  }
+}
